@@ -37,7 +37,6 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
-    #'sphinxcontrib.googleanalytics',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -464,4 +463,3 @@ epub_exclude_files = ['search.html']
 #
 # epub_use_index = True
 
-googleanalytics_id = 'UA-89790248-2'
