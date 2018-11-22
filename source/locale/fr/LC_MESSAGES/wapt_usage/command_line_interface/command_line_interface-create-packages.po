@@ -1,0 +1,321 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WAPT 1.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-05 15:09+0100\n"
+"PO-Revision-Date: 2018-11-06 18:08+0100\n"
+"Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
+"Language: fr\n"
+"Language-Team: Tranquil IT <contact@tranquil.it>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 1.8.8\n"
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:8
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:18
+msgid "Using the Command Line to create WAPT packages"
+msgstr "Utiliser la ligne de commande pour créer des paquets WAPT"
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:8
+msgid ""
+"command line, WAPT, CLI, create packages, make-template, make-host-template, "
+"make-group-template, list-registry, sources, build-package, sign-package, build-"
+"upload, duplicate, edit, upload-package, update-packages, documentation"
+msgstr ""
+"ligne de commande, WAPT, CLI, command line,             invite de commande "
+"Windows, créer des paquets, make-template, make-host-template, make-group-"
+"template, list-registry, sources, build-package, sign-package, build-upload, "
+"duplicate, edit, upload-package, update-packages, documentation"
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:21
+msgid "wapt-get make-template"
+msgstr "wapt-get make-template"
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:23
+msgid ""
+"The :command:`wapt-get make-template <msi or exe file> <package name>` command "
+"allows to create a package template from a MSI or an EXE installer."
+msgstr ""
+"La commande :code:`wapt-get make-template <msi or exe file> <package name>` "
+"permet de générer un modèle de paquet logiciel à partir d'un installeur "
+"exécutable au format MSI ou EXE."
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:26
+msgid ""
+"You will find the complete procedure for :ref:`creating WAPT packages "
+"<creating_WAPT_packages>`."
+msgstr ""
+"Vous trouverez ici la procédure complète pour :ref:`créer des paquets WAPT "
+"<creating_WAPT_packages>`."
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:31
+msgid ""
+"If you have previously installed *tis-waptdev* package on your development "
+"computer, :program:`PyScripter` editor will launch automatically and open the "
+"package in development mode."
+msgstr ""
+"Si vous avez au préalable installé le paquet ``tis-waptdev`` sur votre machine "
+"de développement, l'éditeur :program:`PyScripter` se lancera automatiquement en "
+"ouvrant le projet de création de paquet."
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:35
+msgid ""
+"The command :code:`wapt-get make-template C:\\Users\\User\\Downloads"
+"\\tightvnc-2.8.5-gpl-setup-64bit.msi tis-tightvnc` returns:"
+msgstr ""
+"La commande :code:`wapt-get make-template C:\\Users\\User\\Downloads"
+"\\tightvnc-2.8.5-gpl-setup-64bit.msi tis-tightvnc` renvoie :"
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:46
+msgid "wapt-get make-host-template"
+msgstr "wapt-get make-host-template"
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:48
+msgid ""
+"The :command:`wapt-get make-host-template <host FQDN>` command creates an empty "
+"WAPT host package from a template."
+msgstr ""
+"La commande :code:`wapt-get make-host-template <host FQDN>` permet de générer "
+"un modèle de paquet machine vide."
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:51
+msgid ""
+"The command :code:`wapt-get make-host-template host01.mydomain.lan` returns:"
+msgstr ""
+"La commande :code:`wapt-get make-host-template host01.mydomain.lan` renvoie :"
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:61
+msgid "wapt-get make-group-template"
+msgstr "wapt-get make-group-template"
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:63
+msgid ""
+"The :command:`wapt-get make-group-template <name of group>` command creates an "
+"empty WAPT group package from a template."
+msgstr ""
+"La commande :code:`wapt-get make-group-template <name of group>` permet de "
+"générer un modèle de paquet groupe vide."
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:66
+msgid "The command :code:`wapt-get make-group-template accounting` returns:"
+msgstr "La commande :code:`wapt-get make-group-template accounting` renvoie :"
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:76
+msgid "wapt-get list-registry"
+msgstr "wapt-get list-registry"
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:78
+msgid ""
+"The :command:`wapt-get list-registry <keyword>` command lookups a keyword in "
+"software installed by WAPT on the computer."
+msgstr ""
+"La commande :code:`wapt-get list-registry <keyword>` permet de rechercher un "
+"mot clé parmi les logiciels installés sur la machine."
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:81
+msgid ""
+"The output of :command:`list-registry` is a table listing *uninstall keys* for "
+"each software corresponding to the search term."
+msgstr ""
+"Cette commande affiche un tableau contenant la clé de désinstallation de chaque "
+"logiciel correspondant au critère de recherche."
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:84
+msgid "The command :code:`wapt-get list-registry firefox` returns:"
+msgstr "La commande :code:`wapt-get list-registry firefox` renvoie :"
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:93
+msgid "wapt-get sources"
+msgstr "wapt-get sources"
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:95
+msgid ""
+"The :command:`wapt-get sources <package name>` command downloads sources from a "
+"source code management platform like Git or SVN."
+msgstr ""
+"La commande :code:`wapt-get sources <package name>` permet de télécharger les "
+"sources depuis un dépôt versionné type Git / SVN."
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:98
+msgid "The command :code:`wapt-get sources tis-firefox` returns nothing;"
+msgstr "La commande :code:`wapt-get sources tis-firefox` ne renvoie rien ;"
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:103
+msgid "wapt-get build-package"
+msgstr "wapt-get build-package"
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:105
+msgid ""
+"The :command:`wapt-get build-package <path to the package>` command builds a "
+"WAPT package and signs it with the private key of the :term:`Administrator`."
+msgstr ""
+"La commande :code:`wapt-get build-package <path to the package>` permet de "
+"construire le paquet WAPT et le signer avec la clé privée de l':term:"
+"`Administrateur`."
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:110
+msgid ""
+"The path to the private key, the default prefix and the default development "
+"path must be properly set in the :file:`wapt-get.ini` file."
+msgstr ""
+"Il convient de s'assurer que le chemin de la clé privée, le préfixe et le "
+"chemin de développement par défaut sont renseignés."
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:113
+msgid "The command :code:`wapt-get sources tis-firefox` returns: :"
+msgstr ""
+"La commande :code:`wapt-get build-package C:\\waptdev\\tis-tightvnc-wapt` "
+"renvoie :"
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:151
+msgid "wapt-get sign-package"
+msgstr "wapt-get sign-package"
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:153
+msgid ""
+"The :command:`wapt-get sign-package <path to the package>` command signs a "
+"package with the private key of the :term:`Administrator`."
+msgstr ""
+"La commande :code:`wapt-get sign-package <path to the package>` permet de "
+"signer un paquet téléchargé manuellement avec la clé privée de l':term:"
+"`Administrateur` en ligne de commande."
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:158
+msgid ""
+":command:`sign-package` does not rename the WAPT package with the chosen prefix "
+"of the :term:`Organization`."
+msgstr ""
+"La commande :command:`sign-package` ne renomme pas le paquet avec le préfixe de "
+"l':term:`Organisation`."
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:161
+msgid ""
+"The command :code:`wapt-get sign-package C:\\waptdev\\smp-7zip_16.4.0.0-1_all."
+"wapt` returns:"
+msgstr ""
+"La commande :code:`wapt-get sign-package C:\\waptdev\\smp-7zip_16.4.0.0-1_all."
+"wapt` renvoie :"
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:191
+msgid "wapt-get build-upload"
+msgstr "wapt-get build-upload"
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:193
+msgid ""
+"The :command:`wapt-get build-upload <path to the package>` command builds and "
+"uploads a WAPT package onto the main WAPT repository."
+msgstr ""
+"La commande :code:`wapt-get build-upload <path to the package>` permet de "
+"construire et d'uploader le paquet résultant sur le dépôt WAPT local"
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:198
+msgid ""
+"By passing the *-i* argument to :command:`build-upload`, the WAPT packaging "
+"version number is incremented before upload, so to avoid having to modify "
+"manually the :file:`control` file."
+msgstr ""
+"Avec le paramètres *-i* on incrémente directement la version du paquet WAPT "
+"sans avoir à modifier le fichier :file:`control`."
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:202
+msgid ""
+"The command :code:`wapt-get -i build-upload C:\\waptdev\\tis-tightvnc-wapt` "
+"returns:"
+msgstr ""
+"La commande :code:`wapt-get -i build-upload C:\\waptdev\\tis-tightvnc-wapt` "
+"renvoie :"
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:244
+msgid "wapt-get duplicate"
+msgstr "wapt-get duplicate"
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:246
+msgid ""
+"The :command:`wapt-get duplicate <package source> <package new_duplicate>` "
+"command duplicates a package downloaded from the repository and opens it as a :"
+"program:`PyScripter` project."
+msgstr ""
+"La commande :code:`wapt-get duplicate <package source> <package new_duplicate>` "
+"permet de dupliquer localement un paquet WAPT du dépôt."
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:250
+msgid ""
+"The command :code:`wapt-get duplicate tis-firefox tis-firefox-custom` returns:"
+msgstr ""
+"La commande :code:`wapt-get duplicate tis-firefox tis-firefox-custom` renvoie :"
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:260
+msgid "wapt-get edit"
+msgstr "wapt-get edit"
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:262
+msgid ""
+"The :command:`wapt-get edit <package name>` command downloads and edits a WAPT "
+"package."
+msgstr ""
+"La commande :code:`wapt-get edit <package name>` permet d'éditer un paquet."
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:265
+msgid "The command :code:`wapt-get edit tis-firefox` returns:"
+msgstr "La commande :code:`wapt-get edit tis-firefox` renvoie :"
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:273
+msgid "wapt-get edit-host"
+msgstr "wapt-get edit-host"
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:275
+msgid ""
+"The :command:`wapt-get edit-host <host FQDN>` command edits a WAPT *host* "
+"package."
+msgstr ""
+"La commande :code:`wapt-get edit-host <host FQDN>` permet d'éditer un paquet "
+"*host* depuis le dépôt WAPT."
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:279
+msgid "wapt-get upload-package"
+msgstr "wapt-get upload-package"
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:281
+msgid ""
+"The :command:`wapt-get upload-package <path to the package>` command uploads a "
+"package onto the main WAPT repository."
+msgstr ""
+"La commande :code:`wapt-get upload-package <path to the package>` permet de "
+"charger un paquet sur le dépôt WAPT."
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:284
+msgid ""
+"The command :code:`wapt-get upload-package C:\\waptdev\\tis-"
+"tightvnc_2.8.5.0-1_all.wapt` returns:"
+msgstr ""
+"La commande :code:`wapt-get upload-package C:\\waptdev\\tis-"
+"tightvnc_2.8.5.0-1_all.wapt` renvoie :"
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:295
+msgid "wapt-get update-packages"
+msgstr "wapt-get update-packages"
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:297
+msgid ""
+"The :command:`wapt-get update-packages <path to folder>` command scans a local "
+"repository and creates the :file:`Packages` index file."
+msgstr ""
+"La commande :code:`wapt-get update-packages <path to folder>` permet de scanner "
+"un dossier local et de créer un fichier d'index :file:`Packages`."
+
+#: ../../source/wapt_usage/command_line_interface/command_line_interface-create-packages.rst:300
+msgid "The command :code:`wapt-get update-packages D:\\Data\\WAPT` returns:"
+msgstr "La commande :code:`wapt-get update-packages D:\\Data\\WAPT` renvoie :"
+
+#~ msgid "Commands related to package creation"
+#~ msgstr "Commandes liées à la création de paquets"
+
+#~ msgid "Syntax:"
+#~ msgstr "Syntaxe :"
+
+#~ msgid "Example:"
+#~ msgstr "Exemple :"

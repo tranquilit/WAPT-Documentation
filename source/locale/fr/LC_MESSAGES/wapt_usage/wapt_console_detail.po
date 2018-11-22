@@ -1,0 +1,2182 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WAPT 1.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-07 14:08+0100\n"
+"PO-Revision-Date: 2018-11-07 14:17+0100\n"
+"Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
+"Language: fr\n"
+"Language-Team: Tranquil IT <contact@tranquil.it>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 1.8.8\n"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:8
+#: ../../source/wapt_usage/wapt_console_detail.rst:15
+msgid "Using the WAPT console"
+msgstr "Utiliser la console WAPT"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:8
+msgid "WAPT, console, documentation"
+msgstr "WAPT, console, documentation"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:19
+msgid ""
+"Some functionalities detailed here are only available with the **Enterprise** "
+"version of WAPT."
+msgstr ""
+"Certaines fonctionnalités détaillés ici sont disponible uniquement en version "
+"**Entreprise**."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:26
+#: ../../source/wapt_usage/wapt_console_detail.rst:271
+msgid "Software inventory as registered in the Windows registry of the host"
+msgstr "Inventaire des clients enregistrés dans WAPT"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:29
+msgid "How to perform actions of the hosts?"
+msgstr "Agir sur les machines"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:35
+msgid "Host configuration menu"
+msgstr "Menu de configuration des postes"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:37
+msgid ""
+"List of actions available to be performed on the hosts from the WAPT console"
+msgstr ""
+"Liste des fonctions de configuration des Postes client dans la console WAPT"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:42
+#: ../../source/wapt_usage/wapt_console_detail.rst:157
+#: ../../source/wapt_usage/wapt_console_detail.rst:198
+#: ../../source/wapt_usage/wapt_console_detail.rst:368
+#: ../../source/wapt_usage/wapt_console_detail.rst:538
+#: ../../source/wapt_usage/wapt_console_detail.rst:586
+#: ../../source/wapt_usage/wapt_console_detail.rst:607
+msgid "Description"
+msgstr "Description"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:42
+msgid "Multi-selection"
+msgstr "Multi-sélection"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:44
+msgid "Edit the configuration of the host"
+msgstr "Modifier la liste des paquets de la machine"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:44
+#: ../../source/wapt_usage/wapt_console_detail.rst:45
+#: ../../source/wapt_usage/wapt_console_detail.rst:46
+#: ../../source/wapt_usage/wapt_console_detail.rst:47
+#: ../../source/wapt_usage/wapt_console_detail.rst:48
+#: ../../source/wapt_usage/wapt_console_detail.rst:49
+#: ../../source/wapt_usage/wapt_console_detail.rst:50
+#: ../../source/wapt_usage/wapt_console_detail.rst:51
+#: ../../source/wapt_usage/wapt_console_detail.rst:52
+#: ../../source/wapt_usage/wapt_console_detail.rst:53
+#: ../../source/wapt_usage/wapt_console_detail.rst:61
+#: ../../source/wapt_usage/wapt_console_detail.rst:62
+#: ../../source/wapt_usage/wapt_console_detail.rst:63
+#: ../../source/wapt_usage/wapt_console_detail.rst:64
+#: ../../source/wapt_usage/wapt_console_detail.rst:65
+#: ../../source/wapt_usage/wapt_console_detail.rst:66
+#: ../../source/wapt_usage/wapt_console_detail.rst:67
+msgid "*yes*"
+msgstr "*yes*"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:45
+msgid "Refresh the list of available packages"
+msgstr "Actualiser la liste des paquets disponibles"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:46
+msgid "Offer the user to launch an upgrade"
+msgstr "Proposer aux utilisateurs de lancer un upgrade"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:47
+msgid "Send a message to the selected hosts"
+msgstr "Envoyer un message aux machines sélectionnées"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:48
+msgid "Audit the packages installed on selected hosts"
+msgstr "Auditer les paquets installés sur les postes sélectionnés"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:49
+#: ../../source/wapt_usage/wapt_console_detail.rst:52
+msgid "Add one or more packages on selected hosts"
+msgstr "Ajouter un ou plusieurs paquets aux machines sélectionnées"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:50
+msgid "Remove one or more packages from selected hosts"
+msgstr "Retirer un ou plusieurs paquets aux machines sélectionnées"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:51
+msgid "Prevent packages from being installed on hosts"
+msgstr "Interdire l'installation des paquets sur les machines"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:53
+msgid "Remove the host and/or the host package"
+msgstr "Supprime la machine et/ou le paquet machine"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:54
+msgid "Launch TIShelp with a remote host"
+msgstr "Lance TISHelp sur la machine distante"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:54
+#: ../../source/wapt_usage/wapt_console_detail.rst:55
+#: ../../source/wapt_usage/wapt_console_detail.rst:56
+#: ../../source/wapt_usage/wapt_console_detail.rst:57
+#: ../../source/wapt_usage/wapt_console_detail.rst:58
+#: ../../source/wapt_usage/wapt_console_detail.rst:59
+#: ../../source/wapt_usage/wapt_console_detail.rst:60
+msgid "*no*"
+msgstr "*non*"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:55
+msgid "Initiate a VNC connection with the remote host"
+msgstr "Lancer une connexion VNC avec la machine distante"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:56
+msgid "Launch a RDP connection on the selected host"
+msgstr "Lancer une connexion RDP avec le poste sélectionné"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:57
+msgid "Launch remote user support (msra.exe)"
+msgstr "lance une assistance à distance (msra.exe)"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:58
+msgid "Manage hosts with :program:`compmgmt.msc`"
+msgstr "Gérer les machines avec :program:`compmgmt.msc`"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:59
+msgid "Manage Users and Groups with :program:`lusrmgr.msc`"
+msgstr "Gérer les Utilisateurs et les Groupes avec :program:`lusrmgr.msc`"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:60
+msgid "Manage Services with :program:`services.msc`"
+msgstr "Gérer les services avec :program:`services.msc`"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:61
+msgid "Send a WakeOnLAN special packet to selected hosts"
+msgstr "envoie une requête WakeOnLAN aux machines sélectionnées"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:62
+msgid "Search for applicable Windows updates"
+msgstr "Lancer la recherche des Mises à jour Windows à appliquer"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:63
+msgid "Download pending Windows updates"
+msgstr "Lancer le téléchargement des Mise à jour Windows en attente"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:64
+msgid "Trigger the installation of pending Windows updates"
+msgstr "Lancer l'installation des mise à jour Windows en attente"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:65
+msgid "Add Active Directory groups to the selected machines"
+msgstr "Ajouter les groupes AD des machines sélectionnées en dépendance"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:66
+msgid "Trigger an inventory update on selected hosts"
+msgstr "Lancer une remontée d'inventaire des machines sélectionnées"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:67
+msgid "Restart the WAPT service"
+msgstr "Lancer le redémarrage de Waptservice"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:71
+msgid "Searching a host"
+msgstr "Rechercher une machine"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:77
+msgid "*Search* function in WAPT"
+msgstr "Fonction *Rechercher* de WAPT"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:79
+msgid "Allow to search for a value in the selected column."
+msgstr "Permet de rechercher une valeur dans la colonne sélectionnée."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:82
+msgid "Filters and actions available with Organisational Units"
+msgstr "Filtrage et actions avec les Unités d'Organisation"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:88
+msgid "WAPT console showing options applicable to OU"
+msgstr "Console WAPT affichant les options applicables aux UO"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:90
+msgid ""
+"In the **Enterprise** version, you may filter how hosts are displayed based on "
+"the Active Directory :abbr:`OU (Organizational Units)` they belong to."
+msgstr ""
+"**En version entreprise**, vous pouvez filtrer l'affichage des postes en "
+"fonction des :abbr:`UO (Unités Organisationelles)` dans laquelle ils sont placés "
+"dans l'Active Directory"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:93
+msgid ""
+"The checkbox :guilabel:`Include hosts in subfolders` allows to display hosts in "
+"subfolders."
+msgstr ""
+"La case :guilabel:`Inclure les postes des sous dossiers` permet d'afficher les "
+"machines présentes dans les sous-dossiers."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:96
+msgid ""
+"You may also choose to create *unit* packages by :menuselection:`Right clicking "
+"on an OU --> Create or edit the unit package`."
+msgstr ""
+"Vous pouvez également créer des paquet *unit* avec un :menuselection:`clic droit "
+"sur une UO --> Créer ou éditer le paquet de l'Unité Organisationnelle`."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:100
+msgid "Show the inventory"
+msgstr "Afficher l'inventaire"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:102
+msgid ""
+"When the WAPT agents :command:`register`, they send some informations to the "
+"WAPT Server."
+msgstr ""
+"Quand les clients lancent leur :command:`register`, ils remontent certaines "
+"informations au serveur WAPT."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:105
+msgid ""
+"Informations displayed in the console are not updated in real-time, you have to "
+"refresh the display to view new status and informations."
+msgstr ""
+"Les informations affichées dans la console ne sont donc pas actualisées en temps "
+"réel, il faudra régulièrement actualiser l'affichage dans la console pour faire "
+"apparaître les nouvelles informations."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:108
+msgid "Click on the :guilabel:`Refresh` button or press :kbd:`F5` on the keyboard."
+msgstr ""
+"Cliquer sur le bouton :guilabel:`Actualiser` ou appuyer sur la touche :kbd:`F5` "
+"du clavier."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:114
+msgid "WAPT console displaying inventory"
+msgstr "Console WAPT affichant l'inventaire"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:116
+msgid ""
+"The WAPT console lists hosts that are registered with the WAPT Server and some "
+"informations that are useful for managing the hosts."
+msgstr ""
+"La console liste les machines inscrites sur le serveur WAPT et certaines "
+"informations utiles à leur gestion."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:119
+msgid ""
+"Selecting a host displays its informations in the right panel of the WAPT "
+"console (:guilabel:`Hardware inventory` and :guilabel:`Software inventory`)."
+msgstr ""
+"Sélectionner une machine dans la liste affiche ses détails d'inventaire dans la "
+"partie :guilabel:`Inventaire matériel et inventaire logiciel` dans la partie "
+"droite dans la console."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:124
+msgid "Hardware inventory displays the hardware inventory of the host"
+msgstr "Consulter l'inventaire matériel et inventaire logiciel des machines"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:126
+msgid ""
+"Common informations displayed in the :guilabel:`Hardware inventory` tab are:"
+msgstr "Les informations affichées par défaut dans l'onglet général sont :"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:128
+msgid "the name of the host;"
+msgstr "le nom de la machine ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:130
+msgid "the description of the host;"
+msgstr "la description de la machine ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:132
+msgid "the operating system running on the host;"
+msgstr "le système d'exploitation ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:134
+msgid "the IP address of the host;"
+msgstr "l'adresse IP de la machine ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:136
+msgid "the last WAPT task that was run on the host;"
+msgstr "la dernière tâche WAPT exécutée ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:138
+msgid "the manufacturer of the host;"
+msgstr "le constructeur de la machine ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:140
+msgid "the model of the host;"
+msgstr "le modèle de machine ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:142
+msgid "the date of the latest update on the host;"
+msgstr "la date de la dernière mise à jour de la machine ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:144
+msgid "the name of the user last or currently connected on host;"
+msgstr "l'utilisateur connecté actuellement ou dernièrement sur le poste ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:150
+msgid "Host summary"
+msgstr "Résumé de l'état de la machine"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:152
+msgid "Status of packages in the WAPT console"
+msgstr "Statut des paquets dans la console"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:157
+msgid "Status"
+msgstr "Statut"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:159
+msgid "List of installed WAPT packages"
+msgstr "La liste des paquets WAPT installés."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:159
+msgid "Status: **OK**"
+msgstr "Statut : ``OK``"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:160
+msgid "List of packages waiting to be installed"
+msgstr "Liste des paquets en attente d'installation"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:160
+msgid "Status: **MISSING**"
+msgstr "Statut : ``MISSING``"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:161
+msgid "List of packages pending updates"
+msgstr "Liste des paquets en attente d'une mise à jour"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:161
+msgid "Status: **NEED-UPGRADE**"
+msgstr "Statut : ``NEED-UPGRADE``"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:162
+msgid "List of packages that have failed to install"
+msgstr "Liste des paquets dont l'installation a échoué"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:162
+msgid "Status: **ERROR**"
+msgstr "Statut : ``ERROR``"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:165
+msgid ""
+"When a package returns a status **ERROR**, click on it to show the details of "
+"the error. Errors are print messages in the :file:`setup.py` of your packages."
+msgstr ""
+"Lorsqu'un paquet est en statut ``ERROR``, cliquer sur le paquet pour afficher "
+"l'erreur remontée."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:173
+msgid "Error detail"
+msgstr "Détail de l'erreur"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:176
+#: ../../source/wapt_usage/wapt_console_detail.rst:193
+msgid "Acting on packages installed on a host"
+msgstr "Agir sur les paquets installés sur la machine"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:182
+msgid "Possible actions for WAPT packages"
+msgstr "Action possibles pour les paquets WAPT"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:186
+msgid "multiple selection of packages is possible;"
+msgstr "la sélection multiple est possible ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:188
+msgid "the host must be seen by the WAPT Server when the action is launched;"
+msgstr "la machine doit être joignable au moment de l'action ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:190
+msgid ""
+"if several hosts are selected, the action will be launched on all selected hosts;"
+msgstr ""
+"si plusieurs machines sont sélectionnées, l'action sera lancée sur toutes les "
+"machines sélectionnées ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:198
+msgid "Action"
+msgstr "Fonction"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:200
+msgid "Install a package"
+msgstr "Installer un paquet"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:200
+msgid "installs the selected package on selected hosts"
+msgstr "installe le paquet sélectionné sur les machines sélectionnées"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:202
+msgid "Force a package"
+msgstr "Forcer un paquet"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:202
+msgid "forces the re-installation of a selected package on selected hosts"
+msgstr "force la reinstallation d'un paquet sur les machines sélectionnées"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:205
+#: ../../source/wapt_usage/wapt_console_detail.rst:478
+msgid "Remove a package"
+msgstr "Supprimer un paquet"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:205
+msgid "removes the selected package from the selected hosts"
+msgstr "désinstalle le paquet sélectionné sur les machines sélectionnées"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:207
+msgid "Forget a package"
+msgstr "Oublier un paquet"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:207
+msgid "tells the selected hosts not to use WAPT for managing the selected package"
+msgstr "oublie le paquet sur les machines sélectionnées"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:210
+msgid "Audit the package"
+msgstr "Auditer le paquet"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:210
+msgid "triggers an audit on the selected package"
+msgstr "lance un audit forcé du paquet sélectionné"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:214
+msgid "Hardware inventory tab"
+msgstr "Onglet Matériel"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:216
+msgid ""
+"Informations displayed by default in the :guilabel:`Hardware inventory` tab are:"
+msgstr ""
+"Les informations affichées par défaut dans l'onglet :guilabel:`Inventaire "
+"matériel` sont :"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:219
+msgid "informations on the host's hardware components;"
+msgstr "les informations sur les composants matériels de la machine ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:221
+msgid "some informations about the host;"
+msgstr "diverses informations sur la machine ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:223
+msgid "some information on the status of WAPT;"
+msgstr "diverses informations sur l'état de WAPT ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:229
+msgid "Host hardware inventory"
+msgstr "Inventaire matériel d'une machine"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:231
+msgid "A :guilabel:`Filter` box allows to search for hosts."
+msgstr "Un :guilabel:`Filtre` permet de rechercher des machines."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:235
+#: ../../source/wapt_usage/wapt_console_detail.rst:394
+msgid ""
+"Filters work with `regular expression <https://en.wikipedia.org/wiki/"
+"Regular_expression>`_."
+msgstr ""
+"Les filtres fonctionnent en `expression régulière <https://en.wikipedia.org/wiki/"
+"Regular_expression>`_."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:237
+msgid ""
+"To add a column in the grid, drag and drop a hardware property from the :"
+"guilabel:`Hardware inventory` grid to the main grid."
+msgstr ""
+"Pour ajouter une colonne dans la vue grille, glisser-déposer une propriété "
+"d'inventaire matériel depuis la grille :guilabel:`Inventaire Matériel` vers la "
+"grille principale."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:240
+msgid ""
+"Example: in :guilabel:`hosts`, drag and drop *physical_memory* in the left "
+"panel, and the column :guilabel:`physical_memory` appears in the main grid."
+msgstr ""
+"Exemple : glisser la propriété ``physical_memory`` sur la partie gauche, et la "
+"colonne :guilabel:`physical_memory` apparaît dans la grille principale."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:248
+msgid "Adding a criteria to the main grid of the WAPT console"
+msgstr "Ajouter un critère à la grille principale de la console WAPT"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:251
+msgid "Software inventory tab"
+msgstr "Onglet Logiciel"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:253
+msgid "Common informations displayed in the :guilabel:`Sofware inventory` tab are:"
+msgstr ""
+"Les informations affichées par défaut dans l'onglet :guilabel:`Inventaire "
+"logiciel` sont :"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:255
+msgid ":guilabel:`maker`"
+msgstr ":guilabel:`éditeur` ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:257
+msgid ":guilabel:`software name`"
+msgstr ":guilabel:`nom du logiciel` ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:259
+msgid ":guilabel:`software version`;"
+msgstr ":guilabel:`version du logiciel` ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:261
+msgid ":guilabel:`installation date`;"
+msgstr ":guilabel:`date d'installation` ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:263
+msgid ":guilabel:`uninstall key`;"
+msgstr ":guilabel:`clé de désinstallation` ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:265
+msgid ":guilabel:`uninstall string`;"
+msgstr ":guilabel:`chaîne de désinstallation` ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:274
+msgid "Windows update tab"
+msgstr "Onglet Windows Updates"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:276
+msgid "Informations displayed in the :guilabel:`Hardware inventory` tab are:"
+msgstr ""
+"Les informations affichées par défaut dans l'onglet :guilabel:`Windows Updates` "
+"sont :"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:278
+msgid "Windows update agent version;"
+msgstr "la version de l'agent Windows Updates ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:280
+msgid "date of the last Windows update scan;"
+msgstr "la date du dernier scan Windows Updates ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:282
+msgid "duration of the last scan;"
+msgstr "la durée du dernier scan ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:284
+msgid "WAPTWUA status;"
+msgstr "le status de WAPTWUA ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:286
+msgid "date of the last version of :file:`wsusscn2.cab` processed by WAPT;"
+msgstr "la date de modification du dernier :file:`wsusscn2.cab` traité par WAPT ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:288
+msgid "status of  WAPTWUA Enabled (True/ False);"
+msgstr "status de WAPTWUA Enabled (True / False) ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:290
+msgid ""
+"The grid then lists Windows cab files that have been installed or that are "
+"pending installation."
+msgstr ""
+"La grille affiche ensuite la liste des cab Windows installés ou en attente "
+"d'installation."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:293
+msgid "Informations displayed in the :guilabel:`Windows Updates` tab are:"
+msgstr ""
+"Les informations affichées par défaut la grille de l'onglet :guilabel:`Windows "
+"Updates` sont :"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:295
+msgid ":guilabel:`Status`;"
+msgstr ":guilabel:`Status` ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:297
+msgid ":guilabel:`Product`;"
+msgstr ":guilabel:`Product` ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:299
+msgid ":guilabel:`Update ID`;"
+msgstr ":guilabel:`Update ID` ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:301
+msgid ":guilabel:`Kbids`;"
+msgstr ":guilabel:`Kbids` ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:303
+msgid ":guilabel:`Published on`;"
+msgstr ":guilabel:`Published on` ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:305
+msgid ":guilabel:`installation on`;"
+msgstr ":guilabel:`Installed on` ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:307
+msgid ":guilabel:`Severity on`;"
+msgstr ":guilabel:`Severity on` ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:309
+msgid ":guilabel:`Classification`;"
+msgstr ":guilabel:`Classification` ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:311
+msgid ":guilabel:`Title`;"
+msgstr ":guilabel:`Title` ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:313
+msgid ":guilabel:`Download size`;"
+msgstr ":guilabel:`Download size` ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:319
+msgid "Inventory of Windows Updates"
+msgstr "Inventaire des mises à jour Windows"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:322
+msgid "Task tab"
+msgstr "Onglet Tâches"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:324
+msgid "Informations displayed by default in the :guilabel:`Tasks` tab are:"
+msgstr ""
+"Les informations affichées par défaut dans l'onglet :guilabel:`Taches` sont :"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:326
+msgid "pending tasks;"
+msgstr "les tâches en attente ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:332
+msgid "Details of pending tasks on the host"
+msgstr "Détail des tâches en attente sur la machine"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:334
+msgid "completed tasks;"
+msgstr "les tâches terminées ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:340
+msgid "Details of completed tasks"
+msgstr "Détail des tâches terminées sur la machine"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:342
+msgid "tasks in error;"
+msgstr "les tâches en erreur ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:348
+msgid "Details of tasks in error"
+msgstr "Détail des tâches en erreur sur la machine"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:351
+msgid "Perform a global search on all hosts"
+msgstr "Rechercher sur l'ensemble des postes"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:353
+msgid "Performing global searches on all the criteria presented above is possible."
+msgstr ""
+"Il est possible de faire une recherche globale sur la totalité des informations "
+"décrites précédemment."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:355
+msgid "Choose the filters to check or uncheck."
+msgstr "Cocher ou décocher les filtres de votre choix."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:361
+msgid "Advanced search functionalities in the WAPT console"
+msgstr "Fonctions de recherches avancées de la console WAPT"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:363
+msgid "Choice of filters"
+msgstr "Choix des filtres"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:368
+msgid "Possible options"
+msgstr "Choix possibles"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:370
+msgid ":guilabel:`Host`"
+msgstr ":guilabel:`Machine`"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:370
+msgid ""
+":guilabel:`Host` section in the :guilabel:`Hardware inventory` tab when a host "
+"is selected"
+msgstr ""
+"Partie host dans l'onglet :guilabel:`Inventaire matériel` lorsque l'on "
+"sélectionne une machine"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:374
+msgid ":guilabel:`Hardware`"
+msgstr ":guilabel:`Matériel`"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:374
+msgid ""
+":guilabel:`DMI` section in the :guilabel:`Hardware inventory` tab when a host is "
+"selected"
+msgstr ""
+"Partie DMI dans l'onglet :guilabel:`Inventaire matériel` lorsque l'on "
+"sélectionne une machine"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:378
+msgid ":guilabel:`Software`"
+msgstr ":guilabel:`Logiciel`"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:378
+msgid ":guilabel:`Software inventory` section when a host is selected"
+msgstr "Partie :guilabel:`Inventaire logiciel` lorsque l'on clique sur une machine"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:381
+msgid ":guilabel:`Package`"
+msgstr ":guilabel:`Paquet`"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:381
+msgid "List of packages installed on the selected hosts"
+msgstr "Liste des paquets installés sur l'ensemble des postes"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:383
+msgid ":guilabel:`Have errors`"
+msgstr ":guilabel:`Ont des erreurs`"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:383
+msgid "Search only for hosts for which a tasks has not finished correctly"
+msgstr "Recherche uniquement sur les machines qui sont en erreur"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:386
+msgid ":guilabel:`Needing upgrades`"
+msgstr ":guilabel:`Nécessite des mise à jour`"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:386
+msgid "Search only for hosts needing upgrades"
+msgstr "Recherche uniquement sur les machines qui nécessitent une mise à jour"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:388
+msgid ":guilabel:`Group selection`"
+msgstr ":guilabel:`Sélection du groupe`"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:388
+msgid "Filter hosts based on their membership/ dependency to a group package"
+msgstr "Filtre de recherche sur les membres appartenant à ce paquet *group*"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:397
+msgid "Do a search based on a WAPT package"
+msgstr "Effectuer une recherche à partir d'un paquet"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:399
+msgid ""
+"In the :guilabel:`Private repository`, select the package and then click on :"
+"guilabel:`Show Hosts`."
+msgstr ""
+"Dans :guilabel:`Dépôt privé` sélectionné le paquet qui vous intéresse puis "
+"cliquez sur :guilabel:`Show Host`."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:402
+msgid ""
+"The grid will display the hosts on which the package is installed. Note that the "
+"filter is only active on the :guilabel:`Package` attribute of the selected "
+"package."
+msgstr ""
+"La grille affichera les postes où le paquet est installé. (Le filtrage est "
+"uniquement actif sur l'attribut :guilabel:`Package` du paquet sélectionné)."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:406
+msgid ""
+"The different columns display information about the packages installed on the "
+"machine (e.g. *package version*, *package status*, *audit status*, *installation "
+"date*, *architecture*)."
+msgstr ""
+"Les différentes colonnes affichent les informations concernant le paquet "
+"installé sur la machine (ex : *version du paquet*, *status du paquet*, *status "
+"de l'audit*, *date d'installation*, *architecture*)."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:414
+msgid "Filter by package"
+msgstr "Filtrage par paquet"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:416
+msgid ""
+"You can also add the columns :guilabel:`Log install` and :guilabel:`Last Audit "
+"Output` to display at a glance the installation and audit logs."
+msgstr ""
+"Vous pouvez également par exemple ajouter les colonnes :guilabel:`Log install` "
+"et :guilabel:`Last Audit Output` pour afficher d'un seul coup d'oeil les log "
+"d'installation et d'audit."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:421
+#: ../../source/wapt_usage/wapt_console_detail.rst:452
+msgid "Creating a group package"
+msgstr "Créer un groupe de paquets"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:423
+msgid ""
+"Group packages allows to create a package containing other packages to be "
+"affected as a dependency to a host."
+msgstr ""
+"Les groupes de paquets permettent de créer des listes de paquets à affecter en "
+"dépendance à un ensemble de machines."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:426
+msgid "To create a group of packages, go to the :guilabel:`Bundles` tab:"
+msgstr ""
+"Pour créer un groupe de paquets, se rendre dans l'onglet :guilabel:`Groupes de "
+"paquets` :"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:432
+msgid "Package group grid"
+msgstr "Grille des groupes de paquets"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:434
+msgid "click on :guilabel:`New bundle`;"
+msgstr "cliquer sur :guilabel:`Nouveau groupe de paquets` ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:436
+msgid "give a name to the *group* package;"
+msgstr "donner un nom au groupe ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:440
+msgid ""
+"If you name a group package with the same name as an Active Directory security "
+"group (Microsoft or Samba-AD), member of the Active Directory group can be "
+"automatically affected to the WAPT group package."
+msgstr ""
+"Si vous nommez un groupe avec le même nom qu'un groupe de machines dans votre "
+"annuaire Active Directory (Microsoft ou Samba-AD), alors les machines du groupe "
+"AD seront affectées au groupe WAPT."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:444
+msgid ""
+"fill in the description, add packages to the group package by dragging and "
+"dropping them or by Right-clicking on the package name, and adding to the bundle;"
+msgstr ""
+"renseigner la description, ajouter des paquets au groupe avec glisser-déposer ou "
+"avec un clique-droit sur le nom du paquet, ajouter au groupe ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:454
+msgid "click on :guilabel:`Save` to save the bundle;"
+msgstr "cliquer sur :guilabel:`Enregistrer` pour enregistrer le groupe ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:458
+msgid "To uninstall a package, it is possible to add banned packages to a bundle."
+msgstr ""
+"Pour désinstaller un paquet, il est possible d'ajouter des paquets interdits au "
+"groupe."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:464
+msgid "Forbid a package"
+msgstr "Interdire un paquet"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:466
+msgid ""
+"In the :guilabel:`Software Repository` tab, the list of packages currently "
+"available in the WAPT repository appears. By default, the console will only show "
+"the latest version of packages."
+msgstr ""
+"Dans :guilabel:`Dépôt privé` apparaît la liste des paquets présents dans le "
+"dépôt WAPT local. Par défaut, la console n'affichera que les dernières versions "
+"pour chaque paquet."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:470
+msgid ""
+"To display all package versions, untick :guilabel:`Last version only`. To delete "
+"a package from the repository, :menuselection:`Right-click --> Remove from "
+"repository`."
+msgstr ""
+"Pour afficher toutes les versions des paquets, décocher :guilabel:`Dernière "
+"version seulement`. Pour supprimer un paquet du dépôt, :menuselection:`Clic-"
+"droit --> Supprimer`."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:480
+msgid ""
+"To edit a package, :menuselection:`Right-click --> Edit package`, the package "
+"will be downloaded locally in **the base package development directory** set in "
+"console settings."
+msgstr ""
+"Pour éditer un paquet, :menuselection:`Clic-droit --> Editer le paquet`, le "
+"paquet sera téléchargé dans le dossier défini avec le paramètre "
+"``default_sources_root`` de la console."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:484
+msgid ""
+"Make changes to the package as wanted, rebuild the package and upload it back to "
+"the repository. Once your package has uploaded, refresh the package list using "
+"the :guilabel:`Refresh package list` button or by pressing :kbd:`F5` on your "
+"keyboard."
+msgstr ""
+"Modifier le paquet comme désiré, reconstruire le paquet et le renvoyer sur le "
+"dépôt. Une fois le paquet uploadé, actualiser la liste des paquets à l'aide du "
+"bouton :guilabel:`Actualiser les paquets disponibles` ou de la touche :kbd:`F5` "
+"du clavier."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:489
+msgid "A search bar is also available to filter packages."
+msgstr ""
+"Une barre de recherche est également disponible pour filtrer les paquets "
+"lorsqu'ils sont nombreux."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:492
+msgid "Cleaning the local cache from the WAPT console"
+msgstr "Nettoyer le cache de la console"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:494
+msgid ""
+"When importing a package from Internet, the WAPT console downloads the package "
+"in :file:`%appdata%\\local\\waptconsole\\cache` ."
+msgstr ""
+"Lors de l'import depuis Internet, la console télécharge le paquet dans :file:`"
+"%appdata%\\..\\local\\waptconsole\\cache`."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:497
+msgid ""
+"To clean the cache and free up disk space, click on :menuselection:`Tools --> "
+"Clean local cache`."
+msgstr ""
+"Pour vider ce cache, depuis la console, cliquer sur :menuselection:`Outils --> "
+"Nettoyer le cache local`."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:504
+msgid "Cleaning up the local cache"
+msgstr "Nettoyer le cache local"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:507
+msgid "Changing the password of the WAPT Server"
+msgstr "Changer le mot de passe du serveur WAPT"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:509
+msgid ""
+"To change the WAPT Server password, click on :menuselection:`Tools --> Update "
+"password`, fill in the old password and a new one."
+msgstr ""
+"Pour changer le mot de passe du serveur WAPT, aller sur :menuselection:`Outils --"
+"> Changer le mot de passe`, renseigner l'ancien mot de passe et saisir le "
+"nouveau."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:515
+msgid "Making changes to the WAPT console preferences"
+msgstr "Modifier la configuration WAPT locale de la console"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:517
+#: ../../source/wapt_usage/wapt_console_detail.rst:600
+msgid ""
+"To make changes to console settings, go to :menuselection:`Tools --> "
+"Preferences`."
+msgstr ""
+"Pour modifier les paramètres d'affichage de la console : :menuselection:"
+"`Affichage --> Préférences d'affichage`."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:524
+#: ../../source/wapt_usage/wapt_console_detail.rst:532
+#: ../../source/wapt_usage/wapt_console_detail.rst:580
+msgid "Configuration options for the WAPT console"
+msgstr "Options de configuration de la console WAPT"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:526
+msgid ":guilabel:`Basic` tab for basic options;"
+msgstr "onglet :guilabel:`Basique` des options de base ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:537
+#: ../../source/wapt_usage/wapt_console_detail.rst:585
+#: ../../source/wapt_usage/wapt_console_detail.rst:606
+msgid "Arguments"
+msgstr "Paramètres"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:539
+#: ../../source/wapt_usage/wapt_console_detail.rst:587
+#: ../../source/wapt_usage/wapt_console_detail.rst:608
+msgid "Example"
+msgstr "Exemple"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:540
+msgid "WAPT Server IP address"
+msgstr "Adresse du serveur WAPT"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:541
+#: ../../source/wapt_usage/wapt_console_detail.rst:547
+msgid "URL of the WAPT Server"
+msgstr "URL de votre serveur WAPT"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:542
+msgid "*srvwapt.mydomain.lan*"
+msgstr "srvwapt.mydomain.lan"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:543
+msgid "URL of the main WAPT repository"
+msgstr "URL du dépôt principal"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:544
+msgid ""
+"URL of the main WAPT repository (only if :guilabel:`Specify manually` is checked)"
+msgstr "URL du dépôt principal (uniquement si spécifier manuellement est coché)"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:546
+msgid "http://srvwapt.mydomain.lan/wapt/"
+msgstr "https://srvwapt.mydomain.lan/wapt/"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:548
+msgid "URL of the WAPT Server (only if :guilabel:`Specify manually` is checked)"
+msgstr "URL du serveur WAPT (uniquement si spécifier manuellement est coché)"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:549
+msgid "*https://srvwapt.mydomain.lan/*"
+msgstr "https://srvwapt.mydomain.lan/"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:550
+msgid "Verifying the HTTPS certificate"
+msgstr "Vérification du certificat https"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:551
+msgid "Indicates whether the HTTPS certificate must be verified"
+msgstr "Indique si le certificat https doit être verifié"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:552
+msgid "yes"
+msgstr "yes"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:553
+msgid "Path to the bundle of certificates"
+msgstr "Chemin vers le bundle de certificats"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:554
+msgid ""
+"Path to the bundle of certificates that will allow certificates to be verified"
+msgstr "Chemin vers le bundle de certificats qui permettera la vérification https"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:556
+msgid ""
+"Visit :ref:`the documentation on activating HTTPS verification "
+"<activating_HTTPS_certificate_verification>`"
+msgstr ""
+"Voir :ref:`la documentation pour activer la vérification du certificat HTTPS "
+"<activating_HTTPS_certificate_verification>`."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:558
+msgid "Prefix to use when creating packages. Ex: *tis* or *demo*"
+msgstr "Préfixe pour la création de paquets WAPT"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:559
+msgid "Prefix that is given to packages during replication."
+msgstr "Préfixe donné aux paquets lors de la duplication."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:560
+msgid "prefix"
+msgstr "prefix"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:561
+msgid "Path to the Administrator's personal certificate"
+msgstr "Chemin du certificat personnel"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:562
+msgid ""
+"Path to the certificate associated with the private key used to sign packages"
+msgstr "Chemin vers le certificat associée a la clé privé pour signer les paquets"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:564
+msgid ":file:`C:\\private\\mykey.crt`"
+msgstr ":file:`C:\\\\private\\\\mykey.crt`"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:568
+msgid ""
+"The button :guilabel:`Get the server certificate` downloads the WAPT Server "
+"HTTPS certificate to :file:`WAPT\\ssl\\serveur` and tells the WAPT console to "
+"verify HTTPS connections using that bundle of certificates. The method is called "
+"**Certificate pinning**. Before downloding the HTTPS certificate, you must be "
+"sure that you are connecting with the right server."
+msgstr ""
+"Le bouton :guilabel:`Récupération du certificat serveur` permet de télécharger "
+"le certificat HTTPS du serveur dans :file:`WAPT\\ssl\\serveur` et d'indiquer à "
+"la console de vérifier la connexion HTTPS avec ce bundle. Vous faites ainsi du "
+"certificat pinning. Vous devez en revanche être certain de communiquer avec le "
+"bon serveur quand vous cliquez sur le bouton."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:574
+msgid ":guilabel:`Advanced` tab for advanced options;"
+msgstr "onglet :guilabel:`Avancé` des options avancées ;"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:582
+#: ../../source/wapt_usage/wapt_console_detail.rst:603
+msgid ":header-rows: 1"
+msgstr ":header-rows: 1"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:588
+msgid "Path to waptdev folder"
+msgstr "Répertoire de base pour waptdev"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:589
+msgid "Indicates the path to the directory for storing packages being developed"
+msgstr ""
+"Indique le répertoire pour le stockage des paquets en cours de développement"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:590
+msgid ":file:`C:\\waptdev`"
+msgstr ":file:`C:\\waptdev`"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:591
+msgid "HTTP proxy to use"
+msgstr "Proxy http à utiliser"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:592
+msgid ""
+"Indicates a proxy server to be used by the WAPT console when accessing the WAPT "
+"repository or the WAPT Server"
+msgstr "Indique un proxy a utiliser par l'agent wapt pour contacter le serveur"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:594
+msgid "*http://srvproxy.mydomain.local:8080*"
+msgstr "http://srvproxy.mydomain.lan:8080"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:595
+msgid "Activating the proxy"
+msgstr "Activation du proxy"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:596
+msgid ""
+"Activate proxy settings for connecting to the WAPT repository or the WAPT Server"
+msgstr "Active le proxy pour le dépôt et / ou le serveur"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:598
+msgid "False"
+msgstr "False"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:609
+msgid "Maximum number of hosts to be displayed in the console"
+msgstr "Nombre maximum de poste affiché"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:610
+msgid ""
+"Indicates the maximum number of hosts to be displayed in the WAPT console, so to "
+"optimize the behavior of the console."
+msgstr ""
+"Indique le nombre de poste maximum à afficher. (ce paramétrage permet "
+"d'optimiser la console)"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:612
+msgid "2000"
+msgstr "2000"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:613
+msgid "Langage"
+msgstr "Language"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:614
+msgid "Selects the langage for the WAPT console"
+msgstr "Défnit la langue pour la console wapt"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:615
+msgid "English"
+msgstr "English"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:616
+msgid "Showing debug informations in the WAPT console"
+msgstr "Voir les informations de debug"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:617
+msgid "Shows debug informations in the WAPT console"
+msgstr ""
+"Permet d'afficher les informations de debug dans la console (il n'est pas "
+"conseillé d'activer ce paramétrage)"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:618
+#: ../../source/wapt_usage/wapt_console_detail.rst:621
+#: ../../source/wapt_usage/wapt_console_detail.rst:624
+#: ../../source/wapt_usage/wapt_console_detail.rst:627
+msgid "True"
+msgstr "True"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:619
+msgid "Allow third-party tools in the contextual menus of the hosts"
+msgstr "Autoriser les outils externe dans les menus contextuels des hôtes"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:620
+#: ../../source/wapt_usage/wapt_console_detail.rst:623
+#: ../../source/wapt_usage/wapt_console_detail.rst:626
+msgid "TODO"
+msgstr "TODO"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:622
+msgid "Activate administration functionalities"
+msgstr "Activer les fonctionalités d'administration"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:625
+msgid "Hide unavailable options"
+msgstr "Cacher les actions non disponibles"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:632
+msgid "Generating a new public certificate"
+msgstr "Générer un nouveau certificat public"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:636
+msgid ""
+"Generating a new public certificate allows to actualize an existing public "
+"certificate without having to regenerate a public key/ certificate pair."
+msgstr ""
+"La génération d'un nouveau certificat public permet d'actualiser le certificat "
+"public sans recréer de couple clé privée / certificat public."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:639
+msgid ""
+"For that purpose, go to :menuselection:`Tools --> Generate a new certificate`"
+msgstr "Pour cela cliquer sur :menuselection:`Outils --> Création de certificat`"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:645
+msgid "Generate a self-signed certificate"
+msgstr "Générer un certificat auto-signé"
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:647
+msgid ""
+"The private key is recovered from current settings, change the **Common Name** "
+"and regenerate a new certificate."
+msgstr ""
+"La clé privée est récupérée depuis la configuration existante, changer le "
+"``Common Name`` puis générer le nouveau certificat."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:650
+msgid "The old certificate will be invalidated."
+msgstr "L'ancien certificat sera écrasé."
+
+#: ../../source/wapt_usage/wapt_console_detail.rst:656
+msgid "New public certificate has been created"
+msgstr "Génération du certificat public confirmé"
+
+#~ msgid "Functionnalities of the WAPT console"
+#~ msgstr "Maîtriser les fonctionnalités de la console"
+
+#~ msgid "``yes``"
+#~ msgstr "``oui``"
+
+#~ msgid "Trigger an audit of the packages installed on selected hosts"
+#~ msgstr "Lance un audit sur les machines sélectionnées"
+
+#~ msgid "Remove dependencies on packages or groups of packages"
+#~ msgstr "Supprimer des dépendances de paquet ou groupes de paquets"
+
+#~ msgid "``no``"
+#~ msgstr "``non``"
+
+#~ msgid "Managing some Windows properties on the remote host"
+#~ msgstr "Gestion Windows de l'ordinateur"
+
+#~ msgid "Managing Users and Groups on the remote host"
+#~ msgstr "Gestion des Groupes et des Utilisateurs"
+
+#~ msgid "Follow this link to know more on :ref:`*unit* packages <unit_paquets>`."
+#~ msgstr ""
+#~ "Suivez ce lien pour en savoir plus sur les :ref:`paquets *unit* "
+#~ "<unit_paquets>`."
+
+#~ msgid ""
+#~ "To make changes to console settings, go to :menuselection:`Tools -> "
+#~ "Preferences`."
+#~ msgstr ""
+#~ "Pour modifier les préférences de la console, :menuselection:`Outils --> "
+#~ "Préférences`."
+
+#~ msgid ":guilabel:`Editor`;"
+#~ msgstr ":guilabel:`Editeur` ;"
+
+#~ msgid ":guilabel:`Version` ;"
+#~ msgstr ":guilabel:`Version` ;"
+
+#~ msgid "WAPT Server configuration"
+#~ msgstr "Configuration du serveur WAPT"
+
+#~ msgid "Repository and server URL"
+#~ msgstr "URL de dépôt et du serveur"
+
+#~ msgid "WAPT Server URL to use"
+#~ msgstr "URL du serveur WAPT à utiliser."
+
+#~ msgid ""
+#~ "We can manually specify different repository and server by ticking manual "
+#~ "override checkbox."
+#~ msgstr ""
+#~ "On peut spécifier manuellement un dépôt et un serveur différents en cochant "
+#~ "la case manuel."
+
+#~ msgid "WAPT packages prefix"
+#~ msgstr "Préfixe des paquets WAPT"
+
+#~ msgid "Syntax: no dash, underscore, uppercase or any special characters"
+#~ msgstr ""
+#~ "Syntaxe : pas de tiret, d'underscore, de caractères spéciaux, d'accent ou de "
+#~ "majuscule."
+
+#~ msgid "Private key path"
+#~ msgstr "Chemin de la clé privée"
+
+#~ msgid "External package repository"
+#~ msgstr "Dépôt Externe des paquets"
+
+#~ msgid "External repository used to import from Internet with the console"
+#~ msgstr ""
+#~ "Adresse du dépôt que la console utilise pour l'import de paquets depuis "
+#~ "internet."
+
+#~ msgid "The URL format must be: http://srvwapt.domain.local/wapt"
+#~ msgstr ""
+#~ "L'URL renseignée doit être du type : ``http://srvwapt.domain.local/wapt``"
+
+#~ msgid "Proxy server to use to access external package repository"
+#~ msgstr "Serveur proxy à utiliser pour accéder au dépôt externe de paquets"
+
+#~ msgid "Advanced WAPT Server configuration settings"
+#~ msgstr "Options avancées de configuration du serveur WAPT"
+
+#~ msgid "Packages development directory"
+#~ msgstr "Répertoire pour le développement des paquets"
+
+#~ msgid "Base directory for package development"
+#~ msgstr "Répertoire de destination des projets de développement des paquets"
+
+#~ msgid "Proxy"
+#~ msgstr "Proxy"
+
+#~ msgid "Statistics"
+#~ msgstr "Statistiques"
+
+#~ msgid "Displays anonymized statistics sent to Tranquil IT"
+#~ msgstr "Affiche les statistiques anonymes envoyées à Tranquil IT"
+
+#~ msgid "Advanced informations"
+#~ msgstr "Informations avancées"
+
+#~ msgid "Editing host configuration"
+#~ msgstr "Modifier la configuration de la machine"
+
+#~ msgid "Edits the configuration of the host"
+#~ msgstr "Modifie la liste des paquets de la machine."
+
+#~ msgid ""
+#~ "That function is also available with the :guilabel:`Modify host "
+#~ "configuration` button located on the top menu bar."
+#~ msgstr ""
+#~ "Cette fonction est également disponible avec le bouton :guilabel:`Modifier la "
+#~ "configuration de la machine` situé en haut de la console :"
+
+#~ msgid "Launch update of available packages"
+#~ msgstr "Lancer la mise à jour des paquets disponibles"
+
+#~ msgid "Update the status of the selected host"
+#~ msgstr "Mettre à jour l'état des machines sélectionnées"
+
+#~ msgid ""
+#~ "Requests the selected WAPT clients to refresh their list of available "
+#~ "packages."
+#~ msgstr ""
+#~ "Demande aux clients WAPT sélectionnés d'actualiser la liste des paquets "
+#~ "disponibles."
+
+#~ msgid ""
+#~ "That function is also available with the :guilabel:`Update hosts status` "
+#~ "button located on the top menu bar."
+#~ msgstr ""
+#~ "Cette fonction est également disponible avec le bouton :guilabel:`Lancer la "
+#~ "mise à jour des paquets disponibles`, situé en haut de la console."
+
+#~ msgid "Update host status"
+#~ msgstr "Mettre à jour l'état des machines."
+
+#~ msgid "Launch WAPT package installation"
+#~ msgstr "Lancer l'installation des paquet"
+
+#~ msgid "Launch upgrades on selected hosts"
+#~ msgstr "Lancer les mises à jour sur les machines sélectionnées"
+
+#~ msgid "Tells selected WAPT clients to launch their pending upgrades."
+#~ msgstr ""
+#~ "Ordonne aux clients WAPT sélectionnés de lancer les installations en attente."
+
+#~ msgid ""
+#~ "That function is also available with the :guilabel:`Apply updates` button "
+#~ "located on the top menu bar."
+#~ msgstr ""
+#~ "Cette fonction est également disponible avec le bouton :guilabel:`Lancer "
+#~ "l'installation des paquets`, situé en haut de la console."
+
+#~ msgid "Add one or more packages on a host or a group of hosts"
+#~ msgstr "Ajoute un ou des paquet(s) sur un poste ou un groupe de postes."
+
+#~ msgid "Remove package or group package dependencies "
+#~ msgstr "Supprimer des dépendances de paquet ou groupes de paquets"
+
+#~ msgid "Tells WAPT service to forget the package on the host."
+#~ msgstr "Ordonne WAPT de ne plus gérer le paquet sur le poste."
+
+#~ msgid "Prevent packages from installing on hosts"
+#~ msgstr "Interdire des paquets"
+
+#~ msgid ""
+#~ "Forbids the installation of a package on the host(s) (i.e. creates a "
+#~ "conflict)."
+#~ msgstr "Interdit l'installation de paquets sur la machine. (conflict)"
+
+#~ msgid "Authorize packages on host"
+#~ msgstr "Autoriser des paquets sur la machine"
+
+#~ msgid "Removes a host from the WAPT inventory and the WAPT console."
+#~ msgstr "Supprime une machine de la console WAPT."
+
+#~ msgid "Remove the host and its configuration"
+#~ msgstr "Supprimer la machine et sa configuration"
+
+#~ msgid "Remove the host permanently from inventory"
+#~ msgstr "Supprimer définitivement de l'inventaire"
+
+#~ msgid ""
+#~ "Remove the host from inventory in the WAPT console and its configuration "
+#~ "(host package)."
+#~ msgstr ""
+#~ "Supprime une machine de l'inventaire dans la console WAPT et la configuration "
+#~ "de la machine (paquet host)."
+
+#~ msgid ""
+#~ "Launches a VNC connexion on the remote host if **TightVNC** is installed on "
+#~ "the WAPT equipped device (configurable and deployable with ``tis-tightvnc`` "
+#~ "package)."
+#~ msgstr ""
+#~ "Lance une connexion VNC sur le poste distant si le client **TightVNC** est "
+#~ "installé sur le poste de management WAPT (paramétrable et déployable avec le "
+#~ "paquet ``tis-tightvnc``)."
+
+#~ msgid "Launches a RDP remote desktop connection on the selected host."
+#~ msgstr "Lance une connexion Bureau à Distance RDP vers le client selectionné."
+
+#~ msgid "Managing some Windows properties on the host"
+#~ msgstr "Gestion Windows de l'ordinateur"
+
+#~ msgid "Managing the computer"
+#~ msgstr "Gérer l'ordinateur"
+
+#~ msgid ""
+#~ "Allows to connect to the \"Manage the computer\"  ``compmgmt.msc`` MMC on the "
+#~ "remote host."
+#~ msgstr ""
+#~ "Permet de se connecter a la mmc \"Gestion de l'ordinateur\" de la machine "
+#~ "distante  \"compmgmt.msc\""
+
+#~ msgid ""
+#~ "Allows to connect to the \"Local Users and groups\" ``lusrmgr.msc`` MMC on "
+#~ "the remote host."
+#~ msgstr ""
+#~ "Permet de se connecter a la mmc \"Local Users and groups\" de la machine "
+#~ "distante  \"lusrmgr.msc\""
+
+#~ msgid ""
+#~ "Allows to connect to \"Services\" ``services.msc`` MMC on the remote host."
+#~ msgstr ""
+#~ "Permet de se connecter a la mmc \"Services\" de la machine distance "
+#~ "\"services.msc\""
+
+#~ msgid "Power on with WakeOnLAN"
+#~ msgstr "Démarrer en WakeOnLAN"
+
+#~ msgid "Sends a WakeOnLAN request to selected hosts."
+#~ msgstr "Envoie une requête WakeOnLAN sur le ou les poste(s) sélectionné(s)."
+
+#~ msgid "Adding Active Directory groups as package dependencies"
+#~ msgstr "Ajouter les groupes AD comme paquets en dépendance"
+
+#~ msgid "Refreshing host inventory"
+#~ msgstr "Actualiser l'inventaire des postes"
+
+#~ msgid "Refresh host inventory"
+#~ msgstr "Actualiser l'inventaire"
+
+#~ msgid ""
+#~ "Asks clients to update their inventory and upload it to the WAPT inventory "
+#~ "server."
+#~ msgstr "Ordonne au client WAPT de remonter son inventaire au serveur."
+
+#~ msgid "Search"
+#~ msgstr "Rechercher"
+
+#~ msgid "Search next"
+#~ msgstr "Rechercher le suivant"
+
+#~ msgid ""
+#~ "Allows to search for the next match corresponding to the search criteria."
+#~ msgstr ""
+#~ "Permet de rechercher l'occurrence suivante qui correspond à la recherche."
+
+#~ msgid "Inventory side panel"
+#~ msgstr "Panneau latéral d'affichage Inventaire"
+
+#~ msgid "Using informations retrieved by the WAPT console"
+#~ msgstr "Utiliser les informations que récupère la console"
+
+#~ msgid ""
+#~ "When registering, the WAPT agentw send various informations to the WAPT "
+#~ "inventory server;"
+#~ msgstr ""
+#~ "Lors de l'enregistrement, la console WAPT remonte un certain nombre "
+#~ "d'informations au serveur WAPT."
+
+#~ msgid "Showing the list of hosts"
+#~ msgstr "Affichage du tableau de la liste des hôtes"
+
+#~ msgid ""
+#~ "The WAPT console displays the list of the hosts registered on the WAPT "
+#~ "Server. Some informations, like hostname, status, reachability, description "
+#~ "are displayed in the main grid."
+#~ msgstr ""
+#~ "Lors de l'ouverture de la console, elle affiche la liste des machines "
+#~ "inscrites sur le serveur WAPT. Certaines informations, comme le nom du PC, le "
+#~ "statut, le fait qu'il soit joignable et sa description, sont affichées sous "
+#~ "forme de tableau."
+
+#~ msgid "Scanning listening IPs"
+#~ msgstr "Scan des IP en écoute"
+
+#~ msgid "Asks the WAPT Server to check which WAPT agents are reachable."
+#~ msgstr "Demande au serveur WAPT de vérifier quels agents WAPT sont joignables."
+
+#~ msgid "General tab"
+#~ msgstr "Onglet Général"
+
+#~ msgid "hostname;"
+#~ msgstr "Le nom du poste ;"
+
+#~ msgid "IP address(es);"
+#~ msgstr "L'adresse IP ;"
+
+#~ msgid "latest host upgrade;"
+#~ msgstr "La date du dernier upgrade sur le poste ;"
+
+#~ msgid "Installing a package"
+#~ msgstr "Install package"
+
+#~ msgid ""
+#~ "Launches the installation of the selected package(s) on the host(s) selected."
+#~ msgstr ""
+#~ "Permet de lancer l'installation du paquet séléctionné de la machine "
+#~ "séléctionnée."
+
+#~ msgid "Removing a package"
+#~ msgstr "Uninstall package"
+
+#~ msgid "Launches the removing of the slected package(s) on the selected host(s)."
+#~ msgstr ""
+#~ "Permet de lancer la désinstalaltion du paquet séléctionné de la machine "
+#~ "séléctionnée."
+
+#~ msgid "Forgeting packages"
+#~ msgstr "Forget packages"
+
+#~ msgid "Forgets the selected package(s) on the selected host(s)."
+#~ msgstr ""
+#~ "Permet de lancer l'oubli du paquet séléctionné de la machine séléctionnée."
+
+#~ msgid ""
+#~ "If the package is still in dependency to the host package, it will be re-"
+#~ "installed on the next upgrade."
+#~ msgstr ""
+#~ "Si le paquet est toujours en dépendance de la machine, le paquet reviendra"
+
+#~ msgid ""
+#~ "Forgetting a package works the same way as removing the package except that "
+#~ "it does not uninstall the package."
+#~ msgstr ""
+#~ "L'oubli fonctionne de la même manière que le uninstall package à la seule "
+#~ "différence qu'il ne lance pas la commande de désinstallation dans le paquet."
+
+#~ msgid "Hardware tab"
+#~ msgstr "Onglet Matériel"
+
+#~ msgid "Displays the complete list of every available informations:"
+#~ msgstr "Afficher la liste complète des différentes informations disponibles :"
+
+#~ msgid ""
+#~ "In the top menu bar a :guilabel:`Filter` field is available to search for "
+#~ "hosts on chosen criteria."
+#~ msgstr ""
+#~ "En haut un champ :guilabel:`Filtre` est disponible rechercher des postes en "
+#~ "fonction des critères choisis."
+
+#~ msgid ""
+#~ "To add a new column to the grid view, drag and drop the label from the "
+#~ "inventory tree view."
+#~ msgstr ""
+#~ "Pour ajouter une colonne dans la vue grille, glisser-déposer le titre d'une "
+#~ "information de la grille des détails d'inventaire."
+
+#~ msgid "Software tab"
+#~ msgstr "Onglet Logiciels"
+
+#~ msgid ""
+#~ "Lists installed software on the host recovered from the Windows registry."
+#~ msgstr ""
+#~ "Liste les logiciels installés sur la machine et inscrits en base de registre."
+
+#~ msgid "Tasks tab"
+#~ msgstr "Onglet Tâches"
+
+#~ msgid "Shows in real time the tasks and their errors."
+#~ msgstr "Affiche en temps réel la liste des tâches WAPT et leur rapport d'erreur"
+
+#~ msgid "Pending tasks"
+#~ msgstr "Tâches en attente"
+
+#~ msgid "Shows the tasks that are pending on the host."
+#~ msgstr "Affiche les tâches WAPT en attente sur la machine."
+
+#~ msgid "Shows the tasks that have been completed on the host"
+#~ msgstr "Affiche les tâches WAPT terminées sur la machine."
+
+#~ msgid "Shows tasks that are in error."
+#~ msgstr "Affiche les tâches WAPT en erreur sur la machine."
+
+#~ msgid "Computer"
+#~ msgstr "Machine"
+
+#~ msgid "Hardware"
+#~ msgstr "Matériel"
+
+#~ msgid "Software"
+#~ msgstr "Logiciel"
+
+#~ msgid "Package"
+#~ msgstr "Paquet"
+
+#~ msgid "Software repository tab"
+#~ msgstr "Onglet Dépôt privé"
+
+#~ msgid "Enter the former password and enter in a new password."
+#~ msgstr "Renseigner l'ancien mot de passe et indiquer le nouveau."
+
+#~ msgid "Basic tab"
+#~ msgstr "Onglet Basique"
+
+#~ msgid "See :ref:`verification-des-certificats-HTTPS-activate`"
+#~ msgstr "Voir :ref:`verification-des-certificats-HTTPS-activate`"
+
+#~ msgid "Advanced tab"
+#~ msgstr "Onglet avancées"
+
+#~ msgid ""
+#~ "Additional advanced parameters are available in the tab :guilabel:`Advanced`."
+#~ msgstr ""
+#~ "Des paramètres supplémentaires sont disponibles dans l'onglet :guilabel:"
+#~ "`Avancé`."
+
+#~ msgid "Available options are:"
+#~ msgstr "Les paramètres disponibles sont :"
+
+#~ msgid "Making changes to how the console displays its informations"
+#~ msgstr "Affichage"
+
+#~ msgid "Available from 1.3.12.13"
+#~ msgstr "Fonctionnalité disponible à partir de la version 1.3.12.13"
+
+#~ msgid "editor;"
+#~ msgstr "éditeur ;"
+
+#~ msgid "name of the software;"
+#~ msgstr "nom du logiciel ;"
+
+#~ msgid ""
+#~ "We present here the detailed description of the functionalities embedded in "
+#~ "the WAPT console (:program:`waptconsole`."
+#~ msgstr ""
+#~ "Description détaillée de toutes les fonctionnalités de la console WAPT (:"
+#~ "program:`waptconsole`)."
+
+#~ msgid "Visiting the contextual menu of the WAPT inventory"
+#~ msgstr "Menu contextuel dans la vue Inventaire grille"
+
+#~ msgid "Additional functionalities"
+#~ msgstr "Fonctionnalités supplémentaires"
+
+#~ msgid "Global search on all hosts"
+#~ msgstr "Recherche globale sur la totalité des postes"
+
+#~ msgid "..hint ::"
+#~ msgstr "..hint ::"
+
+#~ msgid ""
+#~ "with one host selected, :menuselection:`Right-click on the host --> Edit host "
+#~ "configuration` changes the list of packages installed on the host;"
+#~ msgstr ""
+#~ "avec une machine sélectionnée, :menuselection:`Clic-droit sur une machine --> "
+#~ "Editer la configuration de la machine` modifie la liste des paquets de la "
+#~ "machine ;"
+
+#~ msgid ""
+#~ "Warning: this method does not allow to modify several hosts at the same time, "
+#~ "to do so it would be preferable to use :guilabel:`Add a package or bundle`."
+#~ msgstr ""
+#~ "Attention ceci ne permet pas de modifier plusieurs PC à la fois, pour "
+#~ "modifier plusieurs PC d'un coup, il sera préférable d'utiliser la fonction :"
+#~ "guilabel:`Ajouter un paquet ou un groupe de paquets`."
+
+#~ msgid ""
+#~ "with one or several host(s) selected, :menuselection:`Right-click --> Update "
+#~ "host status` updates the list of available packages;"
+#~ msgstr ""
+#~ "avec une ou plusieurs machine(s) sélectionnée(s), :menuselection:`Clic-droit "
+#~ "--> Mettre à jour l'état des machines` actualise la liste des paquets "
+#~ "disponibles ;"
+
+#~ msgid ""
+#~ "That function is equivalent to :command:`apt-get update` on Debian Linux."
+#~ msgstr ""
+#~ "Cette fonction est équivalente à la commande ``apt-get update`` sous Debian "
+#~ "Linux."
+
+#~ msgid ""
+#~ "with one or several host(s) selected, :menuselection:`Right-click --> Launch "
+#~ "the installation of packages` triggers the remote installation of updates on "
+#~ "the selected host(s);"
+#~ msgstr ""
+#~ "avec une ou plusieurs machine(s) sélectionnée(s), :menuselection:`Clic-droit "
+#~ "--> Lancer l'installation des paquets` lance les mises à jour sur les "
+#~ "machines sélectionnées ;"
+
+#~ msgid ""
+#~ "That function is equivalent to :command:`apt-get upgrade` command on Debian "
+#~ "Linux."
+#~ msgstr ""
+#~ "Cette fonction est équivalente à la commande ``apt-get upgrade`` sous Debian "
+#~ "Linux."
+
+#~ msgid ""
+#~ "with one or several host(s) selected, :menuselection:`Right-click --> Add a "
+#~ "package or a bundle of packages` adds one or more packages to the selected "
+#~ "host(s);"
+#~ msgstr ""
+#~ "avec une ou plusieurs machine(s) sélectionnée(s), :menuselection:`Clic-droit "
+#~ "--> Ajouter un paquet ou un groupe de paquets` ajoute un ou plusiers paquets "
+#~ "aux machines sélectionnées ;"
+
+#~ msgid ""
+#~ "with one or several host(s) selected, :menuselection:`Right-click --> Remove "
+#~ "dependancies` tells WAPT to no longer manage the selected package on the "
+#~ "selected host(s);"
+#~ msgstr ""
+#~ "avec une ou plusieurs machine(s) sélectionnée(s), :menuselection:`Clic-droit "
+#~ "--> Supprimer des dépendances` ordonne WAPT de ne plus gérer le paquet "
+#~ "sélectionné sur les machines sélectionnées ;"
+
+#~ msgid ""
+#~ "Exemple: telling that *tis-firefox* is no longer a dependency means that "
+#~ "Firefox updates are non longer handled by WAPT."
+#~ msgstr ""
+#~ "Indiquer que le paquet ``tis-firefox`` n'est plus une dépendance de la "
+#~ "machine signifie que Firefox ne sera plus géré par WAPT. Firefox arrêtera de "
+#~ "se mettre à jour."
+
+#~ msgid "That action removes the dependency, it does not uninstall the package."
+#~ msgstr ""
+#~ "Cette action supprime la dépendance, elle ne lance pas la désinstallation du "
+#~ "paquet."
+
+#~ msgid ""
+#~ "with one or several host(s) selected, :menuselection:`Right-click --> Ban "
+#~ "packages` prevents the installation of the selected package on the selected "
+#~ "host(s) (i.e. *conflict*);"
+#~ msgstr ""
+#~ "avec une ou plusieurs machine(s) sélectionnée(s), :menuselection:`Clic-droit "
+#~ "--> Interdire des paquets` interdit l'installation du paquet sélectionné sur "
+#~ "les machines sélectionnées (conflict);"
+
+#~ msgid ""
+#~ "If packages are banned / in conflict on the host, the WAPT agent will "
+#~ "uninstall them."
+#~ msgstr ""
+#~ "Si des paquets sont interdits sur la machine, l'agent WAPT local lancera leur "
+#~ "désinstallation."
+
+#~ msgid ""
+#~ "with one or several host(s) selected, :menuselection:`Right-click --> Allow "
+#~ "packages` allows packages to be installed on the selected host(s) and removes "
+#~ "bans on conflicting packages;"
+#~ msgstr ""
+#~ "avec une ou plusieurs machine(s) sélectionnée(s), :menuselection:`Clic-droit "
+#~ "--> Autoriser des paquets` autorise des paquets sur un poste (permet de "
+#~ "supprimer une interdiction s'il y en a) ;"
+
+#~ msgid ""
+#~ "with one or several host(s) selected, :menuselection:`Right-click --> Remove "
+#~ "from inventory` removes selected host(s) from the inventory;"
+#~ msgstr ""
+#~ "avec une ou plusieurs machine(s) sélectionnée(s), :menuselection:`Clic-droit "
+#~ "--> Supprimer de l'inventaire` supprime les machines sélectionnées de "
+#~ "l'inventaire ;"
+
+#~ msgid ""
+#~ "If a host is removed from inventory with the WAPT agent still installed, the "
+#~ "WAPT agent will update its status sooner or later and the host will reappear "
+#~ "in the inventory."
+#~ msgstr ""
+#~ "Une machine supprimée qui possède toujours le client WAPT installé "
+#~ "réapparaîtra tôt ou tard dans l'inventaire."
+
+#~ msgid ""
+#~ "The host configuration (host package) is conserved on WAPT repository. The "
+#~ "host will recover automatically its dependencies once it registers again with "
+#~ "the WAPT Server."
+#~ msgstr ""
+#~ "La configuration de la machine (paquet host) est conservée sur le dépôt WAPT. "
+#~ "La machine retrouvera automatiquement ses dépendances une fois ré-enregistrée "
+#~ "dans la console."
+
+#~ msgid ""
+#~ "with one or several host(s) selected, :menuselection:`Right-click --> "
+#~ "Permanently delete from inventory` permanently delete the selected host(s) "
+#~ "from the inventory;"
+#~ msgstr ""
+#~ "avec une ou plusieurs machine(s) sélectionnée(s), :menuselection:`Clic-droit "
+#~ "--> Supprimer définitivement de l'inventaire` supprime définitivement les "
+#~ "machines sélectionnées de l'inventaire ;"
+
+#~ msgid ""
+#~ "with one host selected, :menuselection:`Right-click --> Connect with VNC` "
+#~ "initiate a VNC connection with the selected host if the package *TightVNC* is "
+#~ "installed on the desktop of the Administrator (use package *tis-tightvnc*);"
+#~ msgstr ""
+#~ "avec une machine sélectionnée, :menuselection:`Clic-droit --> Se connecter en "
+#~ "VNC` lance une connexion VNC avec la machine distante si le paquet "
+#~ "``TightVNC`` est installé sur le poste de management WAPT (paramétrable et "
+#~ "déployable avec le paquet ``tis-tightvnc``) ;"
+
+#~ msgid ""
+#~ "with one host selected, :menuselection:`Right-click --> Connect with RDP` "
+#~ "initiates a :abbr:`RDP (Remote Desktop Protocol)` connection with the "
+#~ "selected host;"
+#~ msgstr ""
+#~ "avec une machine sélectionnée, :menuselection:`Clic-droit --> Se connecter en "
+#~ "RDP` lance une connexion Bureau à Distance RDP vers la machine selectionnée ;"
+
+#~ msgid ""
+#~ "with one host selected, :menuselection:`Right-click --> Remote Assistance` "
+#~ "initiates a :abbr:`RDP (Remote Desktop Protocol)` helpdesk connection with "
+#~ "the selected host;"
+#~ msgstr ""
+#~ "avec une machine sélectionnée, :menuselection:`Clic-droit --> Assistance à "
+#~ "distance` lance une assistance à Distance RDP vers la machine selectionnée ;"
+
+#~ msgid ""
+#~ "It is equivalent to calling the :command:`msra /offerRA +<remote IP Address>` "
+#~ "command from your desktop."
+#~ msgstr ""
+#~ "Correspond a un appel a la commande :command:`msra /offerRA  +ip` sur votre "
+#~ "poste."
+
+#~ msgid ""
+#~ "with one host selected, :menuselection:`Right-click --> Windows Management` "
+#~ "allows to interact with :program:`compmgmt.msc` of the selected host;"
+#~ msgstr ""
+#~ "avec une machine sélectionnée, :menuselection:`Clic-droit --> Gestion Windows "
+#~ "de l'ordinateur` permet d'interagir avec :program:`compmgmt.msc` de la "
+#~ "machine sélectionnée ;"
+
+#~ msgid ""
+#~ "For this to work, the host must be joined to the Active Directory domain and "
+#~ "your current session must by authorized."
+#~ msgstr ""
+#~ "Pour que cela fonctionne il faut que votre machine soit dans le domaine et "
+#~ "que votre session en cours soit autorisée."
+
+#~ msgid ""
+#~ "with one host selected, :menuselection:`Right-click --> User and Group "
+#~ "Management` allows to interact with :program:`lusrmgr.msc` of the selected "
+#~ "host;"
+#~ msgstr ""
+#~ "avec une machine sélectionnée, :menuselection:`Clic-droit --> Gestion des "
+#~ "Groupes et des Utilisateurs` permet d'interagir avec :program:`lusrmgr.msc` "
+#~ "de la machine sélectionnée ;"
+
+#~ msgid ""
+#~ "with one host selected, :menuselection:`Right-click --> Services Management` "
+#~ "allows to interact with :program:`services.msc` of the selected host;"
+#~ msgstr ""
+#~ "avec une machine sélectionnée, :menuselection:`Clic-droit --> Gestion des "
+#~ "Services` permet d'interagir avec :program:`services.msc` de la machine "
+#~ "sélectionnée ;"
+
+#~ msgid ""
+#~ "with one or several host(s) selected, :menuselection:`Right-click --> Start "
+#~ "with WakeOnLan` sends a WakeOnLan request to selected host(s) from the "
+#~ "inventory asking them to start;"
+#~ msgstr ""
+#~ "avec une ou plusieurs machine(s) sélectionnée(s), :menuselection:`Clic-droit "
+#~ "--> Démarrer la machine avec WakeOnLan` envoie une requête WakeOnLAN aux "
+#~ "machines sélectionnées ;"
+
+#~ msgid ""
+#~ "with one or several host(s) selected, :menuselection:`Right-click --> Add AD "
+#~ "groups as dependancies` adds Active Directory groups as dependancies to the "
+#~ "selected host(s);"
+#~ msgstr ""
+#~ "avec une ou plusieurs machine(s) sélectionnée(s), :menuselection:`Clic-droit "
+#~ "--> Ajouter les groupes AD comme dépendances` ajoute les groupes AD des "
+#~ "machines sélectionnées en dépendance ;"
+
+#~ msgid ""
+#~ "the method conists of contacting the Active Directory and retrieving the "
+#~ "**security groups** belonging to a host."
+#~ msgstr ""
+#~ "La méthode consiste à contacter l'AD et à vérifier à quels groupes de "
+#~ "sécurité les machines appartiennet."
+
+#~ msgid ""
+#~ "If the name of an Active Directory security group matches the name of a WAPT "
+#~ "group package, the WAPT console will affect the WAPT group as a dependency to "
+#~ "the hosts in the Active Directory security group."
+#~ msgstr ""
+#~ "Si un groupe de sécurité Active Directory porte le même nom qu'un groupe "
+#~ "WAPT, la console affectera le groupe en dépendance."
+
+#~ msgid ""
+#~ "with one or several host(s) selected, :menuselection:`Right-click --> Update "
+#~ "inventory` requests the selected host(s) to immeditely update their inventory;"
+#~ msgstr ""
+#~ "avec une ou plusieurs machine(s) sélectionnée(s), :menuselection:`Clic-droit "
+#~ "--> Actualiser l'inventaire` ordonne aux machines sélectionnées de remonter "
+#~ "leur inventaire au serveur WAPT ;"
+
+#~ msgid ""
+#~ "It's possible that the :guilabel:`Reachable` column might be erroneous, a "
+#~ "host can appear **unreachable** whereas it's actually up and running. In case "
+#~ "of doubt, launch a :guilabel:`Scan listening IP` (WAPT < 1.5)."
+#~ msgstr ""
+#~ "Il est possible que la colonne **reachable** soit erronée, un poste peut "
+#~ "apparaître **unreachable** mais être allumé ou inversement. En cas de doute, "
+#~ "lancer un :guilabel:`Scan des IP en écoute`."
+
+#~ msgid ""
+#~ "with one or several host(s) selected, :menuselection:`Right-click --> Install "
+#~ "a package` adds the selected package to the selected host(s);"
+#~ msgstr ""
+#~ "avec une ou plusieurs machine(s) sélectionnée(s), :menuselection:`Clic-droit "
+#~ "--> Installer un paquet` ajoute le paquet sélectionné aux machines "
+#~ "sélectionnées ;"
+
+#~ msgid ""
+#~ "with one or several host(s) selected, :menuselection:`Right-click --> Remove "
+#~ "a package` removes the selected package from the selected host(s);"
+#~ msgstr ""
+#~ "avec une ou plusieurs machine(s) sélectionnée(s), :menuselection:`Clic-droit "
+#~ "--> Supprimer un paquet` désinstalle le paquet sélectionné sur les machines "
+#~ "sélectionnées ;"
+
+#~ msgid ""
+#~ "with one or several host(s) selected, :menuselection:`Right-click --> Forget "
+#~ "a package` tells the WAPT agent to no longer follow the selected package on "
+#~ "the selected host(s);"
+#~ msgstr ""
+#~ "avec une ou plusieurs machine(s) sélectionnée(s), :menuselection:`Clic-droit "
+#~ "--> Oublier un paquet` dit à l'agent WAPT de ne plus suivre le paquet "
+#~ "sélectionné sur les machines sélectionnées ;"
+
+#~ msgid ""
+#~ "If the package is still a dependency on the host, the package will come "
+#~ "back. :command:`forget` works the same way as :command:`remove` without "
+#~ "uninstalling the package."
+#~ msgstr ""
+#~ "Si le paquet est toujours en dépendance de la machine, le paquet reviendra. :"
+#~ "command:`forget` fonctionne de la même manière que :command:`remove` sans "
+#~ "désinstaller le logiciel."
+
+#~ msgid ":guilabel:`reachable`: indicates whether the host can be reached;"
+#~ msgstr ":guilabel:`reachable` : machine est joignable ou non ;"
+
+#~ msgid ":guilabel:`dmi`: displays raw host DMI data;"
+#~ msgstr ":guilabel:`dmi` : données DMI brutes de la machine ;"
+
+#~ msgid ":guilabel:`update status`: asks for the host to send its inventory;"
+#~ msgstr ":guilabel:`update status` : état de mise à jour WAPT de la machine ;"
+
+#~ msgid ":guilabel:`host status`: status of the host;"
+#~ msgstr ":guilabel:`host status` : état WAPT de la machine ;"
+
+#~ msgid ":guilabel:`uuid`: unique identifier of the host;"
+#~ msgstr ":guilabel:`uuid` : identifiant unique de la machine ;"
+
+#~ msgid ":guilabel:`host`: hardware inventory of the host;"
+#~ msgstr ":guilabel:`host` : inventaire matériel de la machine ;"
+
+#~ msgid ""
+#~ "The following functions are available in the WAPT console contextual menu:"
+#~ msgstr ""
+#~ "Les fonctions suivantes sont disponibles dans le menu contextuel de la "
+#~ "console :"
+
+#~ msgid "In the hosts' list of installed packages:"
+#~ msgstr "Dans la liste des paquets installés sur la machine :"
+
+#~ msgid ""
+#~ "WAPT host searches work with regular expression: https://en.wikipedia.org/"
+#~ "wiki/Regular_expression."
+#~ msgstr ""
+#~ "Les recherches wapt fonctionnent en expression régulière: https://en."
+#~ "wikipedia.org/wiki/Regular_expression"
+
+#~ msgid "Status: ``ERROR``"
+#~ msgstr "Status : ``ERROR``"
+
+#~ msgid "Edit host configuration"
+#~ msgstr "Editer la configuration de la machine"
+
+#~ msgid "Configuring a package bundle"
+#~ msgstr "Configuration d'un groupe de paquets"
+
+#~ msgid "Accessing configuration options"
+#~ msgstr "Accéder aux options de configuration"
+
+#~ msgid ""
+#~ "Filters work with regular expression: https://en.wikipedia.org/wiki/"
+#~ "Regular_expression."
+#~ msgstr "Les filtres fonctionnent en expression régulière :"
+
+#~ msgid "Inventory showing in the WAPT console"
+#~ msgstr "Inventaire dans la console WAPT"
+
+#~ msgid "WAPT console displaying OU"
+#~ msgstr "Console WAPT affichant les UO"
+
+#~ msgid "Host hardware and software inventory"
+#~ msgstr "Inventaire matériel et inventaire logiciel"
+
+#~ msgid "Windows update inventory"
+#~ msgstr "Inventaire windows update"
+
+#~ msgid "Package groups"
+#~ msgstr "Groupes de paquets"
+
+#~ msgid "Change the configuration"
+#~ msgstr "Modifier la machine"
+
+#~ msgid "on the host"
+#~ msgstr "sur la machine"
+
+#~ msgid "Verification of updates"
+#~ msgstr "Vérification des mise à jour"
+
+#~ msgid "Trigger the installation"
+#~ msgstr "Lancer les installations"
+
+#~ msgid "triggers upgrades on selected hosts"
+#~ msgstr "lance les mises à jour sur les machines sélectionnées"
+
+#~ msgid "of the packages"
+#~ msgstr "des pquets"
+
+#~ msgid "Offer the update to the users"
+#~ msgstr "Proposer la mise à jour aux utilisateurs"
+
+#~ msgid "Send a message to the users"
+#~ msgstr "Envoyer un message aux utilisateurs"
+
+#~ msgid "Trigger an audit of the"
+#~ msgstr "Lancer un audit"
+
+#~ msgid "packages installed on hosts"
+#~ msgstr "les paquets installés sur la machine"
+
+#~ msgid "Add a dependency"
+#~ msgstr "Ajouter une dépendance"
+
+#~ msgid "Remove dependencies on"
+#~ msgstr "Supprimer des dépendances sur"
+
+#~ msgid "packages or groups of packages"
+#~ msgstr "Ajouter un paquet ou un groupe de paquets"
+
+#~ msgid "Forbid packages on host"
+#~ msgstr "Interdire des paquets sur la machine"
+
+#~ msgid "(forces desinstallation)"
+#~ msgstr "(force la désinstallation)"
+
+#~ msgid "Authorize packages"
+#~ msgstr "Autoriser des paquets"
+
+#~ msgid "Remove a host"
+#~ msgstr "Supprimer le poste"
+
+#~ msgid "Launch TIShelp"
+#~ msgstr "Lancer TISHelp"
+
+#~ msgid "Connect with VNC"
+#~ msgstr "Se connecter en VNC"
+
+#~ msgid "Connect with RDP"
+#~ msgstr "Se connecter en RDP"
+
+#~ msgid "Remote user support"
+#~ msgstr "Assistance à distance"
+
+#~ msgid "Managing some Windows"
+#~ msgstr "Gérer des fonctions windows"
+
+#~ msgid "properties on the remote host"
+#~ msgstr "propriétés du poste distant"
+
+#~ msgid "Managing Users and Groups"
+#~ msgstr "Gérer les utilisateur et groupes"
+
+#~ msgid "on the remote host"
+#~ msgstr "sur la machine distante"
+
+#~ msgid "Managing Services on the"
+#~ msgstr "Gérer les services sur les"
+
+#~ msgid "remote host"
+#~ msgstr "poste distant"
+
+#~ msgid "Power on hosts with WakeOnLAN."
+#~ msgstr "Démarrer la machine avec WakeOnLan"
+
+#~ msgid "Search for applicable"
+#~ msgstr "Lancer la recherche des Mises à jour Windows à appliquer"
+
+#~ msgid "Trigger the installation of"
+#~ msgstr "Lancer les installation"
+
+#~ msgid "pending Windows updates"
+#~ msgstr "Lancer le téléchargement des Mise à jour Windows en attente"
+
+#~ msgid "Add Active Directory groups"
+#~ msgstr "Ajouter les groupes AD comme dépendances"
+
+#~ msgid "as dependencies"
+#~ msgstr "Supprimer des dépendances"
+
+#~ msgid "Refresh the inventory"
+#~ msgstr "Actualiser l'inventaire"
+
+#~ msgid "Trigger an audit of the packages installed"
+#~ msgstr "Lancer l'audit des paquets installés"
+
+#~ msgid "on selected hosts"
+#~ msgstr "sur les machines sélectionnées"
+
+#~ msgid "Prevent on or more packages from being"
+#~ msgstr "Interdire l'installation de paquets sur les machines sélectionnées"
+
+#~ msgid "installed on selected hosts (conflict)"
+#~ msgstr "interdit un ou plusieurs paquets aux machines (conflict)"
+
+#~ msgid "Launch a RDP remote desktop connection"
+#~ msgstr "Lancer une connexion Bureau à Distance RDP"
+
+#~ msgid "on the selected host"
+#~ msgstr "sur les machines sélectionnées"
+
+#~ msgid "Launch remote administration of the host with"
+#~ msgstr "Lance l'administration à distance :program:`compmgmt.msc`"
+
+#~ msgid "Launch the remote administration"
+#~ msgstr "Lancer l'administration à distance"
+
+#~ msgid "Launch the remote administration of Services with"
+#~ msgstr "Lance l'administration à distance des services avec"
+
+#~ msgid "Windows updates"
+#~ msgstr "Onglet Windows Updates"
+
+#~ msgid "machines as dependencies"
+#~ msgstr "Supprimer des dépendances"
+
+#~ msgid "(i.e. the dependency is not being satisfied)"
+#~ msgstr "(la dépendance n'est pas satisfaite)"

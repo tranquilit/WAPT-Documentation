@@ -1,0 +1,10 @@
+package      : tis-tightvnc
+version      : 2.7.0-1
+architecture : all
+section      : base
+priority     : optional
+maintainer   : Tranquil-IT Systems
+description  : package for TightVNC
+depends      :
+conflicts    :
+sources      : 

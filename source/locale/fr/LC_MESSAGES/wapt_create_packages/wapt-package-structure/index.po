@@ -1,0 +1,1270 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WAPT 1.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-06 17:21+0100\n"
+"PO-Revision-Date: 2018-11-07 11:37+0100\n"
+"Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
+"Language: fr\n"
+"Language-Team: Tranquil IT <contact@tranquil.it>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 1.8.8\n"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:8
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:17
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:25
+msgid "WAPT package structure"
+msgstr "Structure d'un paquet WAPT"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:8
+msgid ""
+"setup.py, WAPT, control, icon.png, certificate.crt, manifest.sha256,  wapt.psproj, "
+"package identity, identification, documentation, signature.sha256"
+msgstr ""
+"setup.py, WAPT, control, icon.png, certificate.crt, manifest.sha256, signature."
+"sha256, wapt.psproj, fiche d'identité, documentation"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:19
+msgid "A WAPT package is a zip file containing several things:"
+msgstr "Un paquet WAPT est un fichier zip qui contient plusieurs éléments :"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:27
+msgid "a file :file:`setup.py`;"
+msgstr "un fichier :file:`setup.py` à la racine ;"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:29
+msgid "one or several binary files;"
+msgstr "un fichier ou plusieurs fichiers :program:`binaire.exe` à la racine ;"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:31
+msgid "some additional optional files;"
+msgstr "un fichier ou plusieurs autres fichiers additionnels à la racine ;"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:33
+msgid "a :file:`control` file in the :file:`WAPT` folder;"
+msgstr "Un fichier :file:`control` dans le dossier :file:`WAPT` ;"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:35
+msgid "a :file:`icon.png` file in the :file:`WAPT` folder;"
+msgstr "Un fichier :file:`icon.png` dans le dossier :file:`WAPT` ;"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:37
+msgid "a :file:`certificate.crt` file in the folder :file:`WAPT`;"
+msgstr "Un fichier :file:`certificate.crt` dans le dossier :file:`WAPT` ;"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:39
+msgid "a :file:`manifest.sha256` file in the folder :file:`WAPT`;"
+msgstr "Un fichier :file:`manifest.sha256` dans le dossier :file:`WAPT` ;"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:41
+msgid "a :file:`signature.sha256` file in the folder :file:`WAPT`;"
+msgstr "Un fichier :file:`signature.sha256` dans le dossier :file:`WAPT` ;"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:43
+msgid "a :file:`wapt.psproj` file in the folder :file:`WAPT`;"
+msgstr "Un fichier :file:`wapt.psproj` dans le dossier :file:`WAPT` ;"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:48
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:618
+msgid "The *control* file"
+msgstr "Le fichier *control*"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:50
+msgid "The :file:`control` file is the identity card of a package."
+msgstr "Le fichier :file:`control` est la fiche d'identité du paquet."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:88
+msgid "Settings"
+msgstr "Paramètre"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:88
+msgid "Description"
+msgstr "Description"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:88
+msgid "Example value"
+msgstr "Valeur Exemple"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:90
+msgid "``package``"
+msgstr "``package``"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:90
+msgid "Package name"
+msgstr "Nom du paquet"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:90
+msgid "tis-geogebra"
+msgstr "tis-geogebra"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:92
+msgid "``version``"
+msgstr "``version``"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:92
+msgid "Package version, can not contain more than 5 delimiters"
+msgstr "Version du paquet, ne peut pas comporter plus de 5 délimiteurs"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:92
+msgid "5.0.309.0-0"
+msgstr "5.0.309.0-0"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:95
+msgid "``architecture``"
+msgstr "``architecture``"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:95
+msgid "Processor architecture"
+msgstr "Architecture de processeur"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:95
+msgid "x64"
+msgstr "x64"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:97
+msgid "``section``"
+msgstr "``section``"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:97
+msgid "Package type (``host``, ``group``, ``base``, ``orga-unit``)"
+msgstr "Type de paquet (``host``, ``group``, ``base``, ``unit``)"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:97
+msgid "base"
+msgstr "base"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:101
+msgid "``priority``"
+msgstr "``priority``"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:101
+msgid "Package install priority (optional, not used as of 1.5.15)"
+msgstr "Niveau de priorité d'installation du paquet (optionnel pour le moment)"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:102
+msgid "Not mandatory for the moment"
+msgstr "Non pris en charge pour le moment"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:104
+msgid "``maintainer``"
+msgstr "``maintainer``"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:104
+msgid "Author of the package"
+msgstr "Auteur du paquet"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:104
+msgid "Arnold Schwarzenegger terminator@mydomain.lan"
+msgstr "Gérard Bouchard mail@mydomain.lan"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:106
+msgid "``description``"
+msgstr "``description``"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:106
+msgid "Package description that will appear in the console and on the web interface"
+msgstr "Description du paquet qui apparaîtra dans la console et sur l'interface web"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:106
+msgid ""
+"The Graphing Calculator for Functions, Geometry, Algebra, Calculus, Statistics and 3D"
+msgstr ""
+"The Graphing Calculator for Functions, Geometry, Algebra, Calculus, Statistics and 3D"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:109
+msgid "``description_fr``"
+msgstr "``description_fr``"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:109
+msgid "Localized description of the package"
+msgstr "Description du paquet dans une langue précise"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:109
+msgid "Calculatrice graphique"
+msgstr "Calculatrice graphique"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:111
+msgid "``depends``"
+msgstr "``depends``"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:111
+msgid "Packages that must be installed before installing the package"
+msgstr "Dépendances à satisfaire avant d'installer le paquet"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:111
+msgid "tis-java"
+msgstr "tis-java"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:114
+msgid "``conflicts``"
+msgstr "``conflicts``"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:114
+msgid "Packages that must be uninstalled before installing the package"
+msgstr "Paquets à désinstaller avant d'installer ce paquet"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:114
+msgid "tis-graph"
+msgstr "tis-graph"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:117
+msgid "``maturity``"
+msgstr "``maturity``"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:117
+msgid "Maturity level (BETA, DEV, STABLE)"
+msgstr "Niveau de maturité du paquet (BETA, DEV, STABLE)"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:117
+msgid "STABLE"
+msgstr "STABLE"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:119
+msgid "``locale``"
+msgstr "``locale``"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:119
+msgid "Language environment for the package"
+msgstr "Environment linguistique prévu pour le paquet"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:119
+msgid "fr,en,es"
+msgstr "fr,en,es"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:121
+msgid "``target_os``"
+msgstr "``target_os``"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:121
+msgid "Accepted Operating System for the package"
+msgstr "OS Accepté par le paquet"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:121
+msgid "windows"
+msgstr "windows"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:123
+msgid "``min_os_version``"
+msgstr "``min_os_version``"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:123
+msgid "Minimum version of Windows for the package to be seen by the WAPT agent"
+msgstr "Version minimale de l'OS pour que le paquet soit vu par l'agent WAPT le paquet"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:123
+msgid "6.0"
+msgstr "6.0"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:126
+msgid "``max_os_version``"
+msgstr "``max_os_version``"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:126
+msgid "Maximum version of Windows for the package to be seen by the WAPT agent"
+msgstr "Version maximale de l'OS pour que le paquet soit vu par l'agent WAPT le paquet"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:126
+msgid "8.0"
+msgstr "8.0"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:129
+msgid "``min_wapt_version``"
+msgstr "``min_wapt_version``"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:129
+msgid "WAPT's minimal version for the package to work properly"
+msgstr "Version minimale de WAPT pour un fonctionnement correct du paquet"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:129
+msgid "1.3.8"
+msgstr "1.3.8"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:132
+msgid "``sources``"
+msgstr "``sources``"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:132
+msgid "Path to the SVN location of the package (:command:`source` command)"
+msgstr ""
+"Lien de stockage des versions historisées du paquet (commande :command:`sources`)"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:132
+msgid "https://srv-svn.mydomain.lan/sources/tis-geogebra-wapt/trunk/"
+msgstr "https://srv-svn.mydomain.lan/sources/tis-geogebra-wapt/trunk/"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:135
+msgid "``installed_size``"
+msgstr "``installed_size``"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:135
+msgid "Minimum required free disk space to install the package"
+msgstr "Espace de disque dur libre minimal requis pour installer le paquet"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:135
+msgid "254251008"
+msgstr "254251008"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:138
+msgid "``impacted_process``"
+msgstr "``impacted_process``"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:138
+msgid "Indicates a list of impacted processes when installing a package"
+msgstr "Indique une liste de processus impactés lors de l'installation du paquet"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:138
+msgid "firefox.exe"
+msgstr "firefox.exe"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:141
+msgid "``audit_schedule``"
+msgstr "``audit_schedule``"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:141
+msgid "Periodicity of execution of the audit function in the WAPT package"
+msgstr "Indique la périodicité pour  l'exécution de la fonction audit du paquet"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:141
+msgid "60"
+msgstr "60"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:144
+msgid "``editor``"
+msgstr "``editor``"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:144
+msgid "Editor of the software package"
+msgstr "Indique l'editeur du logiciel integrée dans le paquet"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:144
+msgid "Mozilla"
+msgstr "Mozilla"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:146
+msgid "``license``"
+msgstr "``licence``"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:146
+msgid "Reference of the software license"
+msgstr "Indique la licence du logiciel integrée dans le paquet"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:146
+msgid "GPLV3"
+msgstr "GPLV3"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:148
+msgid "``keywords``"
+msgstr "``keywords``"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:148
+msgid "Set of keywords describing the WAPT package"
+msgstr "Indique une liste de mots clé correspondant au paquet"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:148
+msgid "Productivity,Text Processor"
+msgstr "Bureautique,Editeur,calcul"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:150
+msgid "``homepage``"
+msgstr "``homepage``"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:150
+msgid "Official homepage of the software embedded in the WAPT package"
+msgstr "Indique la page d'accueil du site officiel de logiciel integrée dans le paquet"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:150
+msgid "https://wapt.fr"
+msgstr "https://wapt.fr"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:153
+msgid "``signer``"
+msgstr "``signer``"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:153
+msgid "CommonName (CN) of the package's signer"
+msgstr "Nom commun (CN) du signataire du paquet"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:153
+msgid "Tranquil IT"
+msgstr "Tranquil IT"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:155
+msgid "``signer_fingerprint``"
+msgstr "``signer_fingerprint``"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:155
+msgid "Fingerprint of the certificate holder's signature"
+msgstr "Empreinte de la signature du signataire du paquet"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:155
+msgid "2BAFAF007C174A3B00F12E9CA1E74956"
+msgstr "2BAFAF007C174A3B00F12E9CA1E74956"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:158
+msgid "``signature``"
+msgstr "``signature``"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:158
+msgid "SHA256 hash of the package"
+msgstr "Hash SHA256 du paquet"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:158
+msgid "MLOzLiz0qCHN5fChdylnvXUZ8xNJj4rEu5FAAsDTdEtQ(...)hsduxGRJpN1wLEjGRaMLBlod/p8w=="
+msgstr "MLOzLiz0qCHN5fChdylnvXUZ8xNJj4rEu5FAAsDTdEtQ(...)hsduxGRJpN1wLEjGRaMLBlod/p8w=="
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:160
+msgid "``signature_date``"
+msgstr "``signature_date``"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:160
+msgid "Date when the package was signed"
+msgstr "Indique la date de signature du paquet"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:160
+msgid "20180307-230413"
+msgstr "20180307-230413"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:162
+msgid "``signed_attributes``"
+msgstr "``signed_attributes``"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:162
+msgid "List of package's attributes that are signed"
+msgstr "Liste des attributs signés"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:162
+msgid ""
+"package, version, architecture, section, priority, maintainer, description, depends, "
+"conflicts, maturity, locale, min_os_version, max_os_version, min_wapt_version, "
+"sources, installed_size, signer, signer_fingerprint, signature_date, signed_attributes"
+msgstr ""
+"package, version, architecture, section, priority, maintainer, description, depends, "
+"conflicts, maturity, locale, min_os_version, max_os_version, min_wapt_version, "
+"sources, installed_size, signer, signer_fingerprint, signature_date, signed_attributes"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:170
+msgid ""
+"If the :file:`control` file contains special characters, the :file:`control` file "
+"must be saved in **UTF-8 (No BOM)** format."
+msgstr ""
+"Si le fichier :file:`control` comporte des caractères accentués, le fichier doit être "
+"enregistré en format **UTF-8 (No BOM)**."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:177
+msgid "PyScripter - UTF-8 (No BOM)"
+msgstr "PyScripter - UTF-8 (No BOM)"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:180
+msgid "Fields details"
+msgstr "Détails des champs"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:183
+msgid "package"
+msgstr "package"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:185
+msgid ""
+"**WAPT package name, without any accent, nor space, nor any special or uppercase "
+"character**."
+msgstr ""
+"**Nom du paquet WAPT, sans accent, sans espace, sans caractère spécial, sans "
+"majuscule**."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:189
+msgid "version"
+msgstr "version"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:191
+msgid ""
+"Preferably, always start with the packaged software version split by points (*.*) and "
+"finish with the WAPT packaging version separated by a dash (*-*) character."
+msgstr ""
+"De préférence, toujours commencer par la version du logiciel séparée par des points "
+"(*.*), puis suffixer avec un tiret (*-*) et le numéro de version de packaging WAPT."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:196
+msgid "architecture"
+msgstr "architecture"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:199
+msgid ""
+"Defines whether the package may be installed on x64 or x32 processor equipped "
+"computers."
+msgstr ""
+"Définit si le paquet pourra s'installer sur une machine équipée d'un processeur "
+"32bits ou 64bits."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:204
+msgid "A x64 package will be invisible for a WAPT agent installed on a x86 machine."
+msgstr ""
+"Un paquet prévu pour une architecture x64 ne sera pas visible avec un agent WAPT "
+"installé sur un poste équipé d'un processeur x86."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:206
+msgid "Allowed values:"
+msgstr "Valeurs possibles :"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:208
+msgid "**x86**: the package is designed for 32bit computers;"
+msgstr ""
+"**x86** : le paquet est destiné uniquement aux machines avec un processeur 32bits ;"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:210
+msgid "**x64**: the package is designed for 64bit computers;"
+msgstr ""
+"**x64** : le paquet est destiné uniquement aux machines avec un processeur 64bits ;"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:212
+msgid "**all**: the package is designed for 32bit or 64bit computers;"
+msgstr ""
+"**all** : le paquet est a destination des machines avec un processeur 32bits **OU** "
+"64bits ;"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:215
+msgid "section"
+msgstr "section"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:217
+msgid "**host**: host package;"
+msgstr "**host** : paquet machine ;"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:219
+msgid "**group**: group package;"
+msgstr "**group** : paquet groupe ;"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:221
+msgid "**base**: software package;"
+msgstr "**base** : paquet logiciel ;"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:223
+msgid "**unit**: :abbr:`OU (Organizationnal Unit)` package;"
+msgstr "**unit** : paquet :abbr:`UO (Unité Organisationnelle)` ;"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:226
+msgid "priority"
+msgstr "priority"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:228
+msgid ""
+"This option is not supported at this time. That field will be used to define package "
+"installation priority. This feature will become useful to define mandatory security "
+"updates."
+msgstr ""
+"Cette option n'est pas prise en en charge pour le moment, ce champ permettra à terme "
+"de définir la priorité d'installation d'un paquet WAPT."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:233
+msgid "maintainer"
+msgstr "maintainer"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:235
+msgid "Defines the WAPT package creator."
+msgstr "Indique le nom du créateur du paquet WAPT."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:239
+msgid "To define the WAPT package creator's email address may be useful."
+msgstr "indiquer l'adresse email peut être utile."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:242
+msgid "description"
+msgstr "description"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:244
+msgid ""
+"Describes the functionality of the package that will appear in the console, on the "
+"local web interface http://127.0.0.1:8088 and in :code:`wapt-get` command lines."
+msgstr ""
+"Décrit les fonctionnalités du paquet ; la description sera affichée dans la console, "
+"sur l'interface web des clients WAPT http://127.0.0.1:8088 et dans les lignes de "
+"commande :code:`wapt-get`.\\v"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:250
+msgid ""
+"Adding a field ``description_fr`` or ``description_es`` allows you to "
+"internationalize the description of your package. If the language does not exist, the "
+"WAPT agent will use the default language description."
+msgstr ""
+"Ajouter un champ description_fr ou description_es permet par exemple de préciser une "
+"description pour une langue précise. Si la langue n'existe pas, l'agent wapt "
+"utilisera la champ description classique."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:256
+msgid "depends"
+msgstr "depends"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:258
+msgid ""
+"Defines the packages that must be installed before, for example *tis-java* is a "
+"dependency for the *LibreOffice* package and *tis-java* must be installed before "
+"*LibreOffice*."
+msgstr ""
+"Définit quelle(s) dépendance(s) doit(doivent) être satisfaite(s) avant d'installer le "
+"paquet WAPT, par exemple *tis-java* devra être installé avant le paquet *LibreOffice*."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:262
+msgid "Several dependencies may be defined by splitting them with commas (*,*)."
+msgstr "On peut définir plusieurs dépendances en les séparant par des virgules (*,*)"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:264
+msgid "example:"
+msgstr "exemple :"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:271
+msgid "conflicts"
+msgstr "conflicts"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:273
+msgid "Works as the opposite of *depends*."
+msgstr "Fonctionne exactement à l'inverse de *depends*."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:275
+msgid ""
+"*conflicts* defines package(s) that must be removed before installing a package, for "
+"example *tis-firefox* must be removed before the package *tis-firefox-esr* is "
+"installed, or *OpenOffice* must be removed before *LibreOffice* is installed."
+msgstr ""
+"*conflicts* définit quel(s) paquet(s) doit(vent) être désinstallé(s) avant "
+"d'installer le paquet WAPT. Par exemple si vous voulez désinstaller *firefox* avant "
+"d'installer *firefox-esr*, ou bien si vous voulez *LibreOffice*, alors il faudra "
+"désinstaller *OpenOffice* d'abord."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:279
+msgid "Several conflicts may be defined by splitting them with commas (*,*)."
+msgstr "On peut définir plusieurs conflits en les séparant par des virgules (*,*)."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:282
+msgid "maturity"
+msgstr "maturity"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:286
+msgid "Defines the maturity of a package."
+msgstr "Indique la maturité du paquet."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:288
+msgid ""
+"By default, WAPT gents will see packages flagged as *PROD* and packages with an empty "
+"maturity."
+msgstr "Un agent verra par défault les paquets *PROD* et les paquet sans maturité."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:291
+msgid ""
+"For a computer to see packages with different maturity levels, you will have to "
+"configure the *maturities* in :file:`wapt-get.ini`."
+msgstr ""
+"Pour qu'un Poste Client puisse voir un paquet d'un autre niveau de maturité, il "
+"faudra ajouter dans :file:`wapt-get.ini` la configuration *maturities*."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:299
+msgid "locale"
+msgstr "locale"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:303
+msgid "Defines the language of the WAPT package."
+msgstr "Indique la langue du paquet."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:305
+msgid ""
+"A WAPT agent will see by default packages that are configured for its language "
+"environment and packages with no language specified."
+msgstr ""
+"Un agent verra par défault les paquets dans sa langue et les paquets avec un champ "
+"local sans valeur."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:308
+msgid ""
+"For a computer to see a package in another language, you will have to configure the "
+"*locales* in :file:`wapt-get.ini`."
+msgstr ""
+"Pour qu'un Poste client puisse voir un paquet d'une autre langue, il faudra ajouter "
+"dans :file:`wapt-get.ini` la configuration *locales*."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:315
+msgid ""
+"The language filled in the field must be in `ISO 639-1 <https://en.wikipedia.org/wiki/"
+"List_of_ISO_639-1_codes>`_ format."
+msgstr ""
+"La langue indiquée dans ce champ doit être en `format ISO 639-1 <https://en.wikipedia."
+"org/wiki/List_of_ISO_639-1_codes>`_."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:320
+msgid "target_os"
+msgstr "target_os"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:324
+msgid "Defines the Operating System for the package."
+msgstr "Indique le système d'exploitation prévu pour le paquet."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:326
+msgid ""
+"A WAPT agent will see by default packages that are configured for its operating "
+"system and packages with no operating system specified."
+msgstr ""
+"Un agent verra par défault les paquets prévus pour son système d'exploitation et les "
+"paquets avec un champ ``target_os`` sans valeur."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:329
+msgid "The operating systems in the field *target_os* must be *windows* or left empty."
+msgstr ""
+"Le système d'exploitation indiqué dans le champ *target_os* du paquet doit être soit "
+"*windows* ou bien vide."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:332
+msgid "min_os_version"
+msgstr "min_os_version"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:336
+msgid ""
+"Defines the minimal `Windows Operating System Version <https://msdn.microsoft.com/en-"
+"us/library/windows/desktop/ms724832(v=vs.85).aspx>`_. For example, this attribute may "
+"be used to avoid installing on WindowsXP packages that only work on Windows7 and "
+"above."
+msgstr ""
+"Définit la version minimale de `Windows Operating System Version <https://msdn."
+"microsoft.com/en-us/library/windows/desktop/ms724832(v=vs.85).aspx>`_. Par exemple, "
+"cet attribut peut être utilisé pour éviter l'installation d'un paquet sur WindowsXP "
+"alors qu'il ne fonctionne qu'avec Windows7 et versions supérieures."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:341
+msgid "max_os_version"
+msgstr "max_os_version"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:345
+msgid ""
+"Defines the maximal `Windows Operating System Version <https://msdn.microsoft.com/en-"
+"us/library/windows/desktop/ms724832(v=vs.85).aspx>`_. For example, this attribute may "
+"be used to install on Windows7 more recent versions of a software that are no more "
+"supported on Windows XP."
+msgstr ""
+"Définit la version maximale de `Windows Operating System Version <https://msdn."
+"microsoft.com/en-us/library/windows/desktop/ms724832(v=vs.85).aspx>`_. Par exemple, "
+"cet attribut peut être utilisé pour installer sur Windows7 des versions plus récentes "
+"d'un logiciel qui ne sont plus supportées sous Windows XP."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:350
+msgid "min_wapt_version"
+msgstr "min_wapt_version"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:354
+msgid "WAPT minimum version to install a package"
+msgstr "Il s'agit de la version minimale de WAPT nécessaire pour installer du paquet."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:358
+msgid ""
+"With functionalities in WAPT evolving, some functions that you may have used in old "
+"packages may become obsolete with newer versions of WAPT agents."
+msgstr ""
+"Le code de WAPT évoluant, certaines fonctions que vous aurez utilisées dans vos "
+"anciens paquets peuvent devenir obsolètes avec les nouvelles versions des agents WAPT."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:362
+msgid "sources"
+msgstr "sources"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:364
+msgid "Defines a SVN repository, for example:"
+msgstr "Définit un dépôt SVN, par exemple :"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:366
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:368
+msgid "https://svn.mydomain.lan/sources/tis-geogebra-wapt/trunk/"
+msgstr "https://svn.mydomain.lan/sources/tis-geogebra-wapt/trunk/"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:370
+msgid "This method allows to version a package and collaboratively work on it."
+msgstr ""
+"Cela permet de versionner le paquet et de concevoir collaborativement le paquet."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:374
+msgid ""
+"Package versioning is particularly useful when several people create packages in a "
+"collaborative way. This function is also useful to trace the history of a package if "
+"you are subject to Regulations in your industry."
+msgstr ""
+"Le versionnement des paquets est très utile dans un contexte où plusieurs personnes "
+"créent des paquets de manière collaborative. Cette fonction permet également une "
+"traçabilité qui peut être utile dans un contexte réglementaire."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:379
+msgid "installed_size"
+msgstr "installed_size"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:381
+msgid "Defines the required minimum free disk space to install the package."
+msgstr ""
+"Définit un espace disque libre minimum que doit avoir la machine pour lancer "
+"l'installation du paquet."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:383
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:405
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:425
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:445
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:460
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:475
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:490
+msgid "Example:"
+msgstr "Exemple :"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:389
+msgid ""
+"The testing of available free disk space is done on the :file:`C:\\Program Files` "
+"folder."
+msgstr ""
+"Le test d'espace disque disponible est fait sur le dossier :file:`C:\\Program Files`."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:392
+msgid "The value set in *installed_size* must be in bytes."
+msgstr "La valeur renseignée dans *installed_size* doit être en bytes."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:396
+msgid "To convert storage values to bytes, visit http://bit-calculator.com/."
+msgstr ""
+"Pour convertir des valeurs de stockage en bytes, visiter http://www.convertworld.com/"
+"fr/mesures-informatiques/."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:399
+msgid "impacted_process"
+msgstr "impacted_process"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:403
+msgid "Indicates processes that are impacted when installing a package."
+msgstr "Indique les processus impactés par le paquet."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:411
+msgid ""
+"This field is used by the functions :command:`install_msi_if_needed` and :command:"
+"`install_exe_if_needed` if *killbefore* has not been filled."
+msgstr ""
+"Ce champ est utilisé par les fonctions :command:`install_msi_if_needed` et :command:"
+"`install_exe_if_needed` si *killbefore* n'est pas renseigné."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:414
+msgid ""
+"*impacted_process* is also used when uninstalling a package. This allows to close the "
+"application if the application is running before being uninstalled."
+msgstr ""
+"*impacted_process* est également utilisé lors de la désinstallation d'un paquet. Cela "
+"permet de fermer l'application si l'application est ouverture avant sa "
+"désinstallation."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:419
+msgid "audit_schedule"
+msgstr "audit_schedule"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:423
+msgid "Periodicity of execution of audit checks."
+msgstr "Indique une periodicité pour l'exécution de la fonction audit du paquet."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:431
+msgid "The periodicity may be indicated in several ways:"
+msgstr "La valeur peut être indiquée de plusieurs manières :"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:433
+msgid "an integer (in minutes);"
+msgstr "Un entier (en minutes) ;"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:435
+msgid ""
+"an integer followed by a letter (*m* = minutes, *h* = hours, *d* = days, *w* = weeks);"
+msgstr ""
+"un entier suivi d'une lettre (*m* = minutes , *h* = heure , *d* = jour , *w* = "
+"semaine) ;"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:439
+msgid "editor"
+msgstr "editor"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:443
+msgid "Software editor of the binaries embedded in the WAPT base package."
+msgstr "Indique le nom de l'éditeur du logiciel embarqué dans le paquet WAPT."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:451
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:466
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:481
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:496
+msgid "The values may be used as filters in the WAPT console and with the self-service."
+msgstr ""
+"La liste des valeurs pourra être utilisée dans la console et dans le selfservice pour "
+"trier les paquets."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:454
+msgid "keywords"
+msgstr "keywords"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:458
+msgid "Keyword list to categorize the WAPT package."
+msgstr "Liste de mots clés décrivant le paquet dans un objectif de classification."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:469
+msgid "licence"
+msgstr "licence"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:473
+msgid "Reference of the software license for the embedded software binaries."
+msgstr "Indique la licence du logiciel integré dans le paquet"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:484
+msgid "homepage"
+msgstr "homepage"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:488
+msgid "Official homepage of the software binaries embedded in the WAPT package."
+msgstr "Indique la page d'accueil du site officiel de logiciel integrée dans le paquet."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:499
+msgid "signer"
+msgstr "signer"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:501
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:509
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:516
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:523
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:530
+msgid "Automatically filled during package signature."
+msgstr "Automatiquement renseigné lors de la signature des paquets."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:503
+msgid ""
+":abbr:`CN (Common Name)` of the certificate. It is typically the signer's full name."
+msgstr ""
+"Il s'agit du :abbr:`CN (Common Name)` renseigné dans la clé privée du signataire du "
+"paquet. Il s'agit le plus souvent du nom complet du signataire."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:507
+msgid "signer_fingerprint"
+msgstr "signer_fingerprint"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:511
+msgid "Private key fingerprint of the package signer."
+msgstr "Il s'agit de l'empreinte de la clé privée qui a signé le paquet."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:514
+msgid "signature"
+msgstr "signature"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:518
+msgid "Signature of the attributes of the package."
+msgstr "Il s'agit de la signature des attributs du paquet."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:521
+msgid "signature_date"
+msgstr "signature_date"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:525
+msgid "Date when the attributes of the package have been signed."
+msgstr "Il s'agit de la date de signature des attributs du paquet."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:528
+msgid "signed_attributes"
+msgstr "signed_attributes"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:532
+msgid "List of the package's attributes that are signed"
+msgstr "Il s'agit de la liste des attributs signés."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:537
+msgid "The *setup.py* file"
+msgstr "Le fichier *setup.py*"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:540
+msgid "import setuphelpers"
+msgstr "import setuphelpers"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:542
+msgid "That line is found at the beginning of every WAPT package:"
+msgstr "On trouvera au début de chaque paquet cette ligne :"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:548
+msgid "The package imports all setuphelpers functions."
+msgstr ""
+"Nous demandons au paquet d'importer toutes les fonctions depuis la librairie "
+"``Setuphelpers``."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:550
+msgid ""
+"*Setuphelpers* is a WAPT library that offers many methods to more easily develop "
+"highly functional packages."
+msgstr ""
+"*Setuphelpers* est la librairie integrée à WAPT, elle embarque des fonctions "
+"simplifiées pour aider à créer des paquets."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:554
+msgid "uninstallkey list"
+msgstr "uninstallkey list"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:556
+msgid "We then find:"
+msgstr "Nous trouvons ensuite :"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:562
+msgid ""
+"We associate here a list of *uninstall keys* to the package. When a package is "
+"removed, the WAPT agent looks up the *uninstallkey* in the registry associated to the "
+"package. This *uninstallkey* will indicate to WAPT the actions to trigger to remove "
+"the software."
+msgstr ""
+"Nous déclarerons ici une liste des *uninstall keys* associées au paquet. Quand un "
+"paquet est supprimé, l'agent WAPT recherche dans la base de registre la "
+"*uninstallkey* correspondant au paquet. Cette *uninstallkey* indiquera à l'agent WAPT "
+"les actions à déclencher pour supprimer le logiciel."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:567
+msgid ""
+"Even if there is no *uninstallkey* for a software, it is mandatory to declare an "
+"empty *uninstallkey* array:"
+msgstr ""
+"Même s'il n'y a pas de *uninstallkey* pour le paquet, il faudra quand même déclarer "
+"une *uninstallkey* vide :"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:575
+msgid "Function install()"
+msgstr "Fonction install()"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:577
+msgid "Then comes the :file:`setup.py` function declaration."
+msgstr "Vient ensuite la déclaration de la fonction :program:`setup.py`."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:579
+msgid ""
+"It is the recipe of the WAPT package, the set of instructions that will be executed."
+msgstr "C'est la recette du paquet WAPT."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:588
+msgid "The *wapt.psproj* file"
+msgstr "Le fichier *wapt.psproj*"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:590
+msgid "Package project file :file:`wapt.psproj` is found in the WAPT folder."
+msgstr "On trouve dans le dossier WAPT un fichier :file:`wapt.psproj`."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:592
+msgid "It's the PyScripter project file for the WAPT package."
+msgstr "C'est le projet PyScripter du paquet WAPT."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:594
+msgid "To edit a package with :program:`PyScripter`, just open the file."
+msgstr ""
+"Pour éditer un paquet avec :program:`PyScripter`, il suffira d'ouvrir ce fichier."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:597
+msgid "The *icon.png* file"
+msgstr "Le fichier *icon.png*"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:599
+msgid "The :file:`icon.png` icon file is located in the WAPT folder."
+msgstr "On trouve dans le dossier WAPT un fichier :file:`icon.png`."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:601
+msgid "It associates an icon to the package."
+msgstr "Il permet d'associer une icône au paquet."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:603
+msgid ""
+"That icon will appear in the local web interface of WAPT self-service "
+"(http://127.0.0.1:8088)."
+msgstr ""
+"Cette icône apparaîtra dans l'interface web du self-service WAPT "
+"(http://127.0.0.1:8088)."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:608
+msgid "The icon must be a 48px per 48px PNG file."
+msgstr "L'icône devra être au format png 48px par 48px."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:611
+msgid "The *manifest.sha256* file"
+msgstr "Le fichier *manifest.sha256*"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:613
+msgid "The :file:`manifest.sha256` manifest file is located in the WAPT folder."
+msgstr "On trouve dans le dossier WAPT un fichier :file:`manifest.sha256`."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:615
+msgid "It contains the sha256 fingerprint of every file in the WAPT package."
+msgstr "Il contient l'empreinte sha256 de chaque fichier du package."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:620
+msgid "The :file:`signature` signature file is located in the WAPT folder."
+msgstr "On trouve dans le dossier WAPT un fichier :file:`signature`."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:622
+msgid "It contains the signature of the :file:`manifest.sha256` file."
+msgstr "Le fichier contient la signature du fichier :file:`manifest.sha256`."
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:624
+msgid "On installing a package, :program:`wapt-get` checks:"
+msgstr "A l'installation du paquet, :program:`wapt-get` vérifie :"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:626
+msgid ""
+"that the signature of :file:`manifest.sha256` matches the actual :file:`manifest."
+"sha256` file (the agent will verify the public certificates in :file:`C:\\Program "
+"Files\\wapt\\ssl` );"
+msgstr ""
+"que la signature du :file:`manifest.sha256` correspond bien au fichier :file:"
+"`manifest.sha256` actuel (l'agent testera les certificats publics présents dans :file:"
+"`C:\\Program Files\\wapt\\ssl`) ;"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:630
+msgid ""
+"that the sha256 fingerprint of each file is identical to the fingerprint in the :file:"
+"`manifest.sha256` file;"
+msgstr ""
+"que l'empreinte sha256 de chaque fichier est identique à celle contenue dans le "
+"fichier :file:`manifest.sha256` ;"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:634
+msgid "Other files"
+msgstr "Autres fichiers"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:636
+msgid "Other files may be embedded in the WAPT package. For example:"
+msgstr "D'autres fichiers peuvent être embarqués dans le paquet WAPT. Par exemple :"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:638
+msgid ""
+"an installer beside your :file:`setup.py` to be called in your :program:`setup.py`;"
+msgstr ""
+"un installeur à côté du :file:`setup.py` à appeler dans votre :program:`setup.py` ;"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:641
+msgid "an answer file to pass on to the software installer;"
+msgstr "un fichier de réponses à passer à l'installeur du logiciel ;"
+
+#: ../../source/wapt_create_packages/wapt-package-structure/index.rst:643
+msgid "a license file;"
+msgstr "un fichier de licence ;"
+
+#~ msgid "version``version``"
+#~ msgstr "``version``"
+
+#~ msgid ""
+#~ "Calculator for graphical functions, geometry, algebra, calculus, statistics and 3D"
+#~ msgstr ""
+#~ "La calculatrice graphique pour les fonctions, la géométrie, l'algèbre, le calcul, "
+#~ "les statistiques et la 3D"
+
+#~ msgid "Defines the maturity of a package"
+#~ msgstr "Permet de définir la maturité du paquet"
+
+#~ msgid ""
+#~ "This method will become useful to upgrade security related software, for example."
+#~ msgstr ""
+#~ "Cette méthode sera notamment utile par exemple pour les logiciels qui posent des "
+#~ "problèmes de sécurité."
+
+#~ msgid "https://en.wikipedia.org/wiki/ISO_639-1"
+#~ msgstr "https://fr.wikipedia.org/wiki/Liste_des_codes_ISO_639-1"
+
+#~ msgid ""
+#~ "Defines the minimal OS version number. For exemple, this attribute may be used to "
+#~ "avoid installing on WindowsXP packages that only work on Windows7 and above."
+#~ msgstr ""
+#~ "Indique une version minimale de système d'exploitation. Par exemple, ce paramètre "
+#~ "servira à ne pas installer sur WindowsXP des paquets exclusivement destinés à des "
+#~ "versions de Windows supérieures à WindowsXP."
+
+#~ msgid "Windows \"Operating System Versions\" are listed below:"
+#~ msgstr "Les \"Operating System Version\" correspondants se trouvent ici :"
+
+#~ msgid ""
+#~ "https://msdn.microsoft.com/en-us/library/windows/desktop/ms724832(v=vs.85).aspx"
+#~ msgstr ""
+#~ "https://msdn.microsoft.com/en-us/library/windows/desktop/ms724832(v=vs.85).aspx"
+
+#~ msgid ""
+#~ "Defines the maximal OS version number. For example, this attribute may be used to "
+#~ "install on Windows7 more recent versions of a sotfware that are no more supported "
+#~ "on Windows XP."
+#~ msgstr ""
+#~ "Indique une version maximale de système d'exploitation. Par exemple, ce paramètre "
+#~ "servira à installer sur des Windows7 des versions récentes de logiciels qui ne "
+#~ "sont plus supportées sur les WindowsXP."
+
+#~ msgid ""
+#~ "Defines a SVN repository, for example: https://srv-svn.mydomain.lan/sources/tis-"
+#~ "geogebra-wapt/trunk/"
+#~ msgstr ""
+#~ "Permet d'indiquer un répertoire svn, par exemple : https://srv-svn.mydomain.lan/"
+#~ "sources/tis-geogebra-wapt/trunk/"
+
+#~ msgid ""
+#~ "To continue edition of :file:`control` and :file:`setup.py` files, you would "
+#~ "certainly re-open them."
+#~ msgstr ""
+#~ "Il faudra sûrement double-cliquer sur :file:`control` et :file:`setup.py` pour ré-"
+#~ "ouvrir les fichiers et continuer l'édition."
+
+#~ msgid "Used for the wapt-get sources command"
+#~ msgstr "Utilisées pour la commande wapt-get sources"
+
+#~ msgid "Automatic during signature"
+#~ msgstr "Automatique lors de la signature"
+
+#~ msgid "Defines a minimum WAPT version to be able to install the package"
+#~ msgstr "Définit pour quelle version minimum de WAPT ce paquet est fait"
+
+#~ msgid "Defines package language"
+#~ msgstr "Définit pour quelle langue est fait le paquet"
+
+#~ msgid "Supported since WAPT version 1.3.9"
+#~ msgstr "Pris en charge depuis la version 1.3.9 de WAPT."
+
+#~ msgid "https://msdn.microsoft.com/en-us/library/windows/desktop/ms724832"
+#~ msgstr "https://msdn.microsoft.com/en-us/library/windows/desktop/ms724832"
+
+#~ msgid "This allows to do package versionning"
+#~ msgstr "Cela permet de faire de versionner le paquet."
+
+#~ msgid "Not supported for the moment."
+#~ msgstr "Non pris en charge pour le moment."
+
+#~ msgid "During package installation, wapt-get checks :"
+#~ msgstr "A l'installation du paquet, wapt-get vérifie :"
+
+#~ msgid "Defines which architecture the package is made for"
+#~ msgstr "Définit pour quelle architecture de PC est fait le paquet"
+
+#~ msgid "Defines the package author"
+#~ msgstr "Définit qui a créé le paquet"
+
+#~ msgid "Defines package maturity: BETA, DEV, STABLE, etc.."
+#~ msgstr "Définit la maturité du paquet (BETA, DEV, STABLE)"
+
+#~ msgid "It is that portion of code that will be executed during package installation."
+#~ msgstr "C'est ce qui sera executé lors de l'installation d'un paquet WAPT."
+
+#~ msgid "The signature and the manifest"
+#~ msgstr "La signature et le manifest"
+
+#~ msgid "It is located in the :file:`C:\\wapt\\cache\\mywaptpackage` folder."
+#~ msgstr ""
+#~ "Il se situe dans le dossier :file:`C:\\Program Files\\wapt\\cache\\mywaptpackage`."
+
+#~ msgid "Only computers specified as *DEV* will install packages labelled *DEV*."
+#~ msgstr ""
+#~ "Ainsi, seules les machine spécifiées *DEV* pourront installer des paquets marqués "
+#~ "*DEV*."
+
+#~ msgid ""
+#~ "That methodology allows to set workflows for testing and validating WAPT packages."
+#~ msgstr ""
+#~ "Cette méthode vise à mettre en place des circuits de traitement et de validation."
+
+#~ msgid ""
+#~ "Defines the language of a package. For example, a computer with its system "
+#~ "language set to Spanish would not see fr_FR packages."
+#~ msgstr ""
+#~ "Il s'agit de l'environment linguistique du paquet. Une machine espagnole ne verra "
+#~ "pas les paquets fr_FR par exemple."
+
+#~ msgid "**all**: the package is designed for both plateforms;"
+#~ msgstr "**all** : le paquet supporte toutes les architectures de processeur ;"
+
+#~ msgid "Components of a WAPT software package"
+#~ msgstr "Composition d'un paquet WAPT logiciel"
+
+#~ msgid "Defines the package type."
+#~ msgstr "Définit le type de paquet."

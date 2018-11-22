@@ -1,0 +1,420 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WAPT 1.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-06 17:21+0100\n"
+"PO-Revision-Date: 2018-11-07 11:51+0100\n"
+"Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
+"Language: fr\n"
+"Language-Team: Tranquil IT <contact@tranquil.it>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 1.8.8\n"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:8
+#: ../../source/wapt_create_packages/package_msi/index.rst:15
+msgid "Packaging simple \\*.msi packages"
+msgstr "Packager des paquets \\*.msi simples"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:8
+msgid "msi, WAPT, simple, documentation"
+msgstr "msi, WAPT, simples, documentation"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:17
+msgid "Prerequisites"
+msgstr "Pré-requis"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:19
+msgid "Pre-requisites: to build WAPT packages, :ref:`the WAPT development environment must be installed <envdev_setup>`;"
+msgstr "Pour la création de paquet il faut d'abord avoir :ref:`installé l'environment de développement WAPT <envdev_setup>` ;"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:24
+msgid "From WAPT version 1.3.12 and above, a new package template creation wizard is available to help you make basic packages. For more information on package creation using package wizard, please refer to the :ref:`documentation for creating packages from the WAPT console <creation_paquets_console>`."
+msgstr "Depuis la version 1.3.12 de WAPT, une nouvelle méthode de création rapide de paquets depuis la console WAPT est devenue disponible. Cette documentation est toujours d'actualité, nous vous conseillons cependant d':ref:`utiliser l'interface graphique pour instancier vos modèles de paquets <creation_paquets_console>`."
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:30
+msgid "Download the TightVNC MSI installer"
+msgstr "télécharger l'installeur MSI de TighVNC ;"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:32
+msgid "`download TightVNC MSI x64 <http://www.tightvnc.com/download/2.8.5/tightvnc-2.8.5-gpl-setup-64bit.msi>`_;"
+msgstr "`télécharger TightVNC MSI x64 <https://www.tightvnc.com/download/2.8.5/tightvnc-2.8.5-gpl-setup-64bit.msi>`_ ;"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:34
+msgid "`download TightVNC MSI x86 <http://www.tightvnc.com/download/2.8.5/tightvnc-2.8.5-gpl-setup-32bit.msi>`_;"
+msgstr "`télécharger TightVNC MSI x86 <https://www.tightvnc.com/download/2.8.5/tightvnc-2.8.5-gpl-setup-32bit.msi>`_ ;"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:36
+msgid "look up documentation relating to silent flags;"
+msgstr "rechercher la documentation associée pour les flags silencieux ;"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:38
+msgid "`documentation TightVNC <http://www.tightvnc.com/doc/win/TightVNC_2.7_for_Windows_Installing_from_MSI_Packages.pdf>`_;"
+msgstr "`documentation TightVNC <https://www.tightvnc.com/doc/win/TightVNC_2.7_for_Windows_Installing_from_MSI_Packages.pdf>`_ ;"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:44
+msgid "This command should install :program:`TightVNC` with its default parameters. However, MSI allows you to customize the behavior of the installed software with MSI properties. The global syntax is:"
+msgstr "Cette commande devrait installer :program:`TightVNC` avec les paramètres par défaut. Cependant, MSI vous permet de personnaliser son installation grâce aux propriétés de MSI. La syntaxe générale est :"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:52
+msgid "launch a Windows Command Line utility :program:`cmd.exe` as :term:`Local Administrator`;"
+msgstr "lancer une invite de commande Windows :program:`cmd.exe` en tant qu':term:`Administrateur Local` ;"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:59
+msgid "Windows Command Line utility launched as Local Administrator"
+msgstr "Invite de commande Windows lancée en tant qu'Administrateur Local"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:61
+msgid "instantiate a package from the pre-defined MSI template;"
+msgstr "instancier le paquet à partir du modèle prévu pour un installeur MSI ;"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:67
+msgid "Exemple with :program:`TightVNC`:"
+msgstr "Exemple avec :program:`TightVNC` :"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:81
+msgid "Customizing the package"
+msgstr "Personnaliser le paquet WAPT"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:83
+msgid ":program:`PyScripter` opens with the new project, ready to be customized and built."
+msgstr ":program:`PyScripter` s'ouvre alors avec le projet TightVNC prêt à être davantage personnalisé."
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:90
+msgid "PyScripter with TightVNC project opened"
+msgstr "PyScripter avec le projet TightVNC ouvert"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:94
+msgid "Using the automatic template has the following effects:"
+msgstr "La procédure de création automatique de ce modèle de paquet :"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:96
+msgid "it creates a WAPT package folder in :file:`C:\\waptdev`;"
+msgstr "crée le dossier du paquet dans :file:`C:\\waptdev` ;"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:98
+msgid "it copies the MSI setup file in that directory;"
+msgstr "copie le fichier MSI dans ce dossier ;"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:100
+msgid "it creates a generic :file:`setup.py` file;"
+msgstr "crée le fichier :file:`setup.py` générique ;"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:102
+msgid "it creates the :file:`control` file containing the WAPT package meta-informations;"
+msgstr "crée le fichier :file:`control` qui identifie le paquet ;"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:105
+msgid "it creates the PyScripter project file containing pre-configured WAPT related helpers;"
+msgstr "crée le fichier :file:`wapt.psproj` générique contenant des fonctions d'exécution WAPT pré-paramétrées ;"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:110
+msgid "Then it's possible to:"
+msgstr "On pourra ensuite :"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:112
+msgid "check and complete :file:`control` file informations;"
+msgstr "contrôler et compléter les informations du fichier control ;"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:114
+msgid "add additional files (x86 version of the installer, configuration files, etc);"
+msgstr "ajouter des fichiers supplémentaires (version x86 du MSI, fichiers de configuration, etc) ;"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:117
+msgid "customize setup instructions in :file:`setup.py`;"
+msgstr "personnaliser la procédure d'installation dans :file:`setup.py` ;"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:119
+msgid "make changes to the :file:`control` file as necessary (:ref:`envdev_setup`);"
+msgstr "modifier le fichier :file:`control` si nécessaire, voir : :ref:`structure_control` ;"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:125
+msgid "You may observe that a subversion (*-1*; dash+number one) has been added. It is the WAPT packaging version."
+msgstr "À noter qu'une sous version (*-1* ; tiret + chiffre un) a été ajoutée. C'est la version du paquet WAPT."
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:128
+msgid "This allows to preserve the software version when iteratively improving the WAPT package."
+msgstr "Cela permet de ne pas modifier la version réelle du logiciel quand on pousse une nouvelle installation sur le parc."
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:131
+msgid "check the *setup.py* file;"
+msgstr "vérifier le fichier *setup.py* ;"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:133
+msgid "In the :file:`setup.py` file, you will have to check whether the *uninstall key* automatically that has been filled matches the MSI and that the silent arguments work correctly."
+msgstr "Dans le fichier :file:`setup.py` il faudra vérifier que la clé de désinstallation et les paramètres silencieux sont corrects pour le MSI."
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:150
+msgid "Since WAPT version 1.3.12, :command:`install_msi_if_needed` is the function used by default when creating a package Template from a MSI."
+msgstr "Depuis la version 1.3.12 :command:`install_msi_if_needed` est la fonction utilisée par défaut lors de la création d'un modèle de paquet pour un MSI."
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:153
+msgid "In this example, we will use the :command:`run` function to show the evolution of the package. The function :command:`install_msi_if_needed` is explained in :ref:`the documentation related to advanced packaging of MSI based WAPT packages <complex_msi_packaging>`."
+msgstr "Dans cet exemple nous utilisons la fonction :command:`run` pour montrer l'évolution du paquet. La fonction :command:`install_msi_if_needed` est expliquée dans la :ref:`partie paquet msi evolué de la documentation <complex_msi_packaging>`."
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:158
+msgid "test installing the package on you development computer;"
+msgstr "tester l'installation du paquet sur votre machine de développement ;"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:160
+msgid "A major advantage of :program:`PyScripter` and WAPT is to be able to test WAPT packages locally, to improve them quickly and iteratively."
+msgstr "L'intérêt de l'environment de développement intégré :program:`PyScripter` est de pouvoir tester en local les paquets WAPT rapidement et de manière itérative."
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:167
+msgid "Test installing the package from you development computer"
+msgstr "tester l'installation du paquet sur la machine de développement ;"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:172
+msgid "Settings"
+msgstr "Paramètre"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:172
+msgid "Value"
+msgstr "Valeur"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:172
+msgid "Description"
+msgstr "Description"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:174
+#: ../../source/wapt_create_packages/package_msi/index.rst:177
+msgid ":command:`install`"
+msgstr ":command:`install`"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:174
+#: ../../source/wapt_create_packages/package_msi/index.rst:179
+#: ../../source/wapt_create_packages/package_msi/index.rst:181
+msgid "Execute"
+msgstr "Exécuter"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:174
+msgid "Launch the software installation with its arguments from :file:`setup.py`."
+msgstr "Lancer l'installation du logiciel avec les paramètres renseignés dans :file:`setup.py`."
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:177
+msgid "Debug"
+msgstr "Débogguer"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:177
+msgid "Launch the line by line debugger."
+msgstr "Lancer le debugger ligne par ligne."
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:179
+msgid ":command:`remove`"
+msgstr ":command:`remove`"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:179
+msgid "Launch the uninstallation."
+msgstr "Lancer la désinstallation."
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:181
+msgid ":command:`-i build-upload`"
+msgstr ":command:`-i build-upload`"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:181
+msgid "Increment the WAPT packaging version, build the package and upload it on the WAPT repository."
+msgstr "Modifier la version du paquet et lance la construction et l'envoi du paquet sur le dépôt."
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:187
+msgid "Build and upload the package"
+msgstr "Construire et charger le paquet WAPT"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:189
+msgid "Once the project has been created, build the package without modifications from the Windows command prompt."
+msgstr "Une fois le projet de paquet créé, on peut lancer la construction du paquet sans modification depuis l'invite de commande Windows."
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:198
+msgid "When executing that command, here is what is really happening:"
+msgstr "Lorsqu'on exécute cette commande, WAPT :"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:200
+msgid "the :file:`manifest.sha256` file containing the list of files included in the package is created;"
+msgstr "génère le fichier :file:`manifest.sha256` avec la liste des fichiers contenus dans le paquet ;"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:203
+msgid "it compresses the folder :file:`C:\\waptdev\\tis-tightvnc-wapt` with a canonical name;"
+msgstr "zippe le répertoire :file:`C:\\waptdev\\tis-tightvnc-wapt` avec un nom canonique pour les paquets WAPT ;"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:206
+msgid "it adds the signature (requires the private key);"
+msgstr "ajoute la signature (nécessite la présence de la clé privée) ;"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:208
+msgid "it loads the WAPT package onto the WAPT repository using HTTPS;"
+msgstr "charge le fichier WAPT en https vers le dépôt WAPT ;"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:210
+msgid "it recreates the :file:`https://srvwapt.mydomain.lan/wapt/Packages` index to take into account the new or updated package;"
+msgstr "regénère le fichier d'index :file:`https://srvwapt.mydomain.lan/wapt/Packages` pour prendre en compte le nouveau paquet ou la nouvelle version du paquet ;"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:213
+msgid "The package is now ready to be deployed."
+msgstr "Le paquet est prêt à être déployé."
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:215
+msgid "Example:"
+msgstr "Exemple :"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:257
+msgid "It is also possible to execute :command:`build-upload` directly from the :guilabel:`Run Configurations` panel in :program:`PyScripter`:"
+msgstr "On peut aussi faire un :command:`build-upload` directement depuis le panneau :guilabel:`Run Configurations` du projet dans :program:`PyScripter` :"
+
+#: ../../source/wapt_create_packages/package_msi/index.rst:264
+msgid "Option \"-i build-upload\" of PyScripter project"
+msgstr "L'option \"-i build-upload\" du projet PyScripter"
+
+#~ msgid "Test installing the package from you development computer;"
+#~ msgstr "Tester l'installation du paquet sur la machine de développement"
+
+#~ msgid "Settings"
+#~ msgstr "Paramètre"
+
+#~ msgid "Value"
+#~ msgstr "Valeur"
+
+#~ msgid "Execute"
+#~ msgstr "Exécuter"
+
+#~ msgid "Debug"
+#~ msgstr "Débugger"
+
+#~ msgid "or"
+#~ msgstr "ou"
+
+#~ msgid "Simple MSI package  - standard method"
+#~ msgstr "Paquet MSI Simple - Méthode canonique"
+
+#~ msgid ""
+#~ "In the control file, it's necessary "
+#~ "to define useful package related "
+#~ "informations and check the software "
+#~ "version."
+#~ msgstr ""
+#~ "Dans le fichier control, il convient "
+#~ "de définir les informations utiles au"
+#~ " paquet et de vérifier que la "
+#~ "version correspond à celle du logiciel."
+
+#~ msgid "Example of a control file correctly filled in :"
+#~ msgstr "Exemple de fichier control dûment complété :"
+
+#~ msgid "Simple MSI package example with TightVNC"
+#~ msgstr "Paquet MSI Simple exemple pour TightVNC"
+
+#~ msgid "see : :ref:`envdev_setup` "
+#~ msgstr "voir : :ref:`envdev_setup`"
+
+#~ msgid "Extract from TightVNC documentation"
+#~ msgstr "Extrait de la documentation TightVNC"
+
+#~ msgid "Here is the simplest example for installing TightVNC in a silent mode:"
+#~ msgstr ""
+#~ "Extrait de la documentation TightVNC "
+#~ "Here is the simplest example of "
+#~ "installing TightVNC in a silent mode:"
+
+#~ msgid ""
+#~ "This command should install TightVNC "
+#~ "with default settings. However, MSI "
+#~ "allows you to customize installation via"
+#~ " so called MSI properties. The "
+#~ "general syntax is:"
+#~ msgstr ""
+#~ "This command should install TightVNC "
+#~ "with default settings. However, MSI "
+#~ "allows you to customize installation via"
+#~ " so called MSI properties. The "
+#~ "general syntax is the following:"
+
+#~ msgid ""
+#~ "From WAPT version 1.3.12, "
+#~ "``install_msi_if_needed`` is the recommended "
+#~ "function used by default for package "
+#~ "template creation from a MSI file. "
+#~ "In that example, we are using the"
+#~ " ``run()`` function to show how the"
+#~ " package has evolved. the "
+#~ "``install_msi_if_needed`` function is explained "
+#~ "further in this documentation."
+#~ msgstr ""
+#~ "Depuis la version 1.3.12 "
+#~ "*install_msi_if_needed* est la fonction "
+#~ "utilisée par défaut lors de la "
+#~ "création d'un modèle de paquet pour "
+#~ "un MSI. Dans cet exemple nous "
+#~ "utilisons la fonction run pour montrer"
+#~ " l'évolution du paquet. La fonction "
+#~ "*install_msi_if_needed* est expliquée dans la"
+#~ " partie paquet msi evolué de la "
+#~ "documentation."
+
+#~ msgid ""
+#~ "the :file:`C:\\waptdev\tis-tightvnc-wapt` "
+#~ "directory  is zipped and renamed with"
+#~ " a standard name for WAPT packages;"
+#~ msgstr ""
+#~ "zippe le répertoire :file:`C:\\waptdev\tis-"
+#~ "tightvnc-wapt` avec un nom canonique "
+#~ "pour les paquets WAPT ;"
+
+#~ msgid ""
+#~ "the signature file is added (needs "
+#~ "the presence of the Administrator's "
+#~ "private key on the computer);"
+#~ msgstr "ajoute la signature (nécessite la présence de la clé privée) ;"
+
+#~ msgid "the WAPT package file is uploaded to the WAPT repository using HTTPS;"
+#~ msgstr "charge le fichier WAPT en http vers le dépôt WAPT ;"
+
+#~ msgid ""
+#~ "the :file:`Packages` index file "
+#~ ":file:`https://srvwapt.mydomain.lan/wapt/Packages` is "
+#~ "updated;"
+#~ msgstr ""
+#~ "regénère le fichier d'index "
+#~ ":file:`https://srvwapt.mydomain.lan/wapt/Packages` pour "
+#~ "prendre en compte le nouveau paquet "
+#~ "ou la nouvelle version du paquet ;"
+
+#~ msgid ""
+#~ "This allows to preserve the software "
+#~ "version when iteratively improving the "
+#~ "WAPT package. "
+#~ msgstr "quand on pousse une nouvelle installation sur le parc."
+
+#~ msgid "msi, WAPT, simple, installation, installing, documentation"
+#~ msgstr "msi, WAPT, simples"
+
+#~ msgid "Simple \\*.msi package"
+#~ msgstr "Paquet \\*.msi simple"
+
+#~ msgid "Creating a package template from the MSI setup file"
+#~ msgstr "Créer un modèle de paquet à partir d'un \\*.MSI"
+
+#~ msgid "Creating the package template from the TightVNC installer"
+#~ msgstr "Créer le modèle de paquet depuis un installeur"
+
+#~ msgid "The *control* file"
+#~ msgstr "Fichier *control*"
+
+#~ msgid "Run configurations functions"
+#~ msgstr "Fonction Run configurations"
+
+#~ msgid "Simple MSI package - direct build-upload"
+#~ msgstr "Paquet MSI Simple - build-upload direct"
+
+#~ msgid "Testing the installation of the package on the development computer"
+#~ msgstr "Tester l'installation du paquet sur la machine de développement"
+
+#~ msgid "Option *-i build-upload* in PyScripter project"
+#~ msgstr "L'option \"-i build-upload\" du projet Pyscripter"
+
+#~ msgid "Settings                    Value"
+#~ msgstr ""
+
+#~ msgid ":command:`install`           Execute"
+#~ msgstr ":command:`install`"

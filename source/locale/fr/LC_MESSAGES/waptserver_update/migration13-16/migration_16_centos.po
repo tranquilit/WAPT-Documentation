@@ -1,0 +1,306 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WAPT 1.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-05 15:09+0100\n"
+"PO-Revision-Date: 2018-11-07 10:28+0100\n"
+"Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
+"Language: fr\n"
+"Language-Team: Tranquil IT <contact@tranquil.it>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 1.8.8\n"
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:8
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:15
+msgid "Upgrading WAPT from 1.3 to 1.6 on CentOS/ RedHat"
+msgstr "Mettre à jour WAPT de 1.3 vers 1.6 avec Centos / RedHat"
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:8
+msgid "WAPT, 1.3, 1.6, CentOS, RedHat, upgrade, upgrading, documentation"
+msgstr "WAPT, 1.3, 1.6, CentOS, RedHat, mise à jour, upgrade, documentation"
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:19
+msgid ""
+"We make the assumption that your WAPT Server is installed on a basic minimal "
+"install of CentOS7 (x64). If this is not the case, you may follow the "
+"documentation to :ref:`upgrade your base server <upgrade_host_server>`."
+msgstr ""
+"Nous supposons que votre serveur WAPT est installé sur un système Centos 7 "
+"minimum (x64). Si ce n'est pas le cas, vous pouvez suivre la documentation de :"
+"ref:`mise à jour <upgrade_host_server>`."
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:23
+msgid "This procedure aims to explain the migration of WAPT 1.3 to 1.6, only."
+msgstr "Cette procédure vise exclusivement la migration de WAPT 1.3 vers WAPT 1.6."
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:25
+msgid "The main differences between these two versions of WAPT are:"
+msgstr "Les principales différences sont :"
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:30
+msgid "Element"
+msgstr "Elément"
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:30
+msgid "WAPT 1.3"
+msgstr "WAPT 1.3"
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:30
+msgid "WAPT 1.6"
+msgstr "WAPT 1.6"
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:32
+msgid "Database"
+msgstr "Base de données"
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:32
+msgid ":program:`MongoDB`"
+msgstr ":program:`MongoDB`"
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:32
+msgid ":program:`PostgreSQL`"
+msgstr ":program:`PostgreSQL`"
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:34
+msgid "Web server"
+msgstr "Serveur Web"
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:34
+msgid ":program:`Apache2`"
+msgstr ":program:`Apache2`"
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:34
+msgid ":program:`Nginx`"
+msgstr ":program:`Nginx`"
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:36
+msgid "WAPT agent"
+msgstr "Agent WAPT"
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:36
+msgid "agent listening on port 8088"
+msgstr "Ecoute en local sur le port 8088"
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:36
+msgid "agent initiating and maintaining a websocket with the server"
+msgstr "Websocket vers le serveur"
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:39
+msgid "Signature"
+msgstr "Signature"
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:39
+msgid "sha1 hashes"
+msgstr "Hashes sha1"
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:39
+msgid ""
+"*Code Signing* certificate is required, :file:`control` file attributes are "
+"signed with sha256 hashes."
+msgstr ""
+"Certificat *Code Signing* requis, hashes sha256 Attributs du fichier :file:"
+"`control` signés."
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:44
+msgid ""
+"These changes require to follow scrupulously several operations for a smooth "
+"upgrade."
+msgstr ""
+"Toutes ces différences induisent les manipulations décrites ci-après à "
+"scrupuleusement effectuer dans l'ordre."
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:48
+msgid "Uninstalling WAPT 1.3 from the CentOS/ RedHat server"
+msgstr "Désinstaller WAPT 1.3 du serveur CentOS / RedHat"
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:57
+msgid "Configuring the CentOS/ RedHat server"
+msgstr "Configurer le serveur CentOS / RedHat"
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:67
+msgid "Updating the CentOS / RedHat server"
+msgstr "Mettre à jour le serveur CentOS / RedHat"
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:82
+msgid "Installing WAPT 1.6 on the CentOS / RedHat server"
+msgstr "Installer WAPT 1.6 sur le serveur CentOS / RedHat"
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:93
+msgid ""
+"The installation may ask you for the Kerberos realm. You may ignore it by "
+"pressing :guilabel:`Enter` to go on to the next step."
+msgstr ""
+"L'installation peut vous demander le royaume Kerberos. Vous pouvez ignorer, "
+"appuyer sur :kbd:`Entrer` pour passer l'étape."
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:97
+msgid "Launching the post-configuration script"
+msgstr "Lancer le script de post-configuration"
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:101
+msgid ""
+"we advise that you launch the post-configuration steps after each server upgrade "
+"so that the server uses the latest configuration format;"
+msgstr ""
+"il est recommandé de lancer la post-configuration après chaque mise à jour pour "
+"que le serveur utilise le format de configuration le plus sûr ;"
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:104
+msgid ""
+"it is not required to reset a password for the WAPT console during the post-"
+"configuration step;"
+msgstr ""
+"il n'est pas obligatoire de redéfinir un mot de passe pour la console WAPT lors "
+"de la post-configuration ;"
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:111
+msgid ""
+"The post-configuration step will offer you to change the password or to move to "
+"the next step, you may choose to change the password if desired."
+msgstr ""
+"Le postconf va vous proposer de changer le mot de passe ou de poursuivre, vous "
+"pouvez change le mot de passe si vous le souhaitez."
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:114
+msgid ""
+"The post-configuration step will then detect that the current version is 1.3 and "
+"it will try to launch the process of migrating the MongoDB database to "
+"PostgreSQL. Validate this step."
+msgstr ""
+"Le postconf va ensuite détecter que vous venez d'une version 1.3 et va tenter de "
+"lancer une migration de la base de donnée MongoDB vers PostgreSQL. Acceptez "
+"cette migration."
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:118
+msgid ""
+"The post-configuration step will next offer you to configure the :program:"
+"`Nginx` web server. Validate this step."
+msgstr ""
+"Le postconf va ensuite vous proposer de configurer :program:`Nginx`, vous pouvez "
+"accepter."
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:122
+msgid "Starting up WAPT on the CentOS/ RedHat server"
+msgstr "Démarrer le serveur WAPT sur le serveur CentOS / RedHat"
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:130
+msgid "Cleaning up the CentOS/ RedHat server"
+msgstr "Nettoyer le serveur CentOS / RedHat"
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:132
+msgid ""
+"At the end of the migration process, it is necessary to clean the WAPT Server."
+msgstr "A l'issue de l'installation, il faut absolument nettoyer le serveur WAPT."
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:134
+msgid ""
+"WAPT will use from now on :program:`Nginx` as its web server and :program:"
+"`PostgreSQL` as its database server."
+msgstr ""
+"En effet, WAPT utilise désormais :program:`Nginx` pour son serveur Web et :"
+"program:`PostgreSQL` pour la base de donnée d'inventaire."
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:142
+msgid "Installing the new WAPT console"
+msgstr "Installer la nouvelle console WAPT"
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:144
+msgid ""
+"download :program:`waptsetup`: https://srvwapt.mydomain.lan/wapt/waptsetup-tis."
+"exe;"
+msgstr ""
+"télécharger :program:`waptsetup` : https://srvwapt.mydomain.lan/wapt/waptsetup-"
+"tis.exe ;"
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:147
+msgid ""
+"start the installation; the configuration of the WAPT repository and server URLs "
+"has not changed;"
+msgstr ""
+"lancer l'installation ; la configuration des url du dépôt et du serveur n'a pas "
+"changé ;"
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:150
+msgid ""
+"open the :program:`waptconsole` by selecting :file:`C:\\Program Files (x86)\\wapt"
+"\\waptconsole.exe` (default location) or :file:`C:\\wapt\\waptconsole.exe` "
+"(older WAPT versions);"
+msgstr ""
+"ouvrir la console :file:`C:\\Program Files (x86)\\wapt\\waptconsole.exe` ou :"
+"file:`C:\\wapt\\waptconsole.exe` ;"
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:154
+msgid ""
+"check that the WAPT Server works correctly by clicking on the :guilabel:`wrench "
+"icons` and the button :guilabel:`Verify`!"
+msgstr ""
+"vérifier que le server WAPT fonctionne correctement en cliquant sur les petites :"
+"guilabel:`clé à molette` et en cliquant sur le bouton :guilabel:`Vérifier` !"
+
+#: ../../source/waptserver_update/migration13-16/migration_16_centos.rst:157
+msgid ""
+"You may now go to the next step to :ref:`generate the necessary keys <key-"
+"regenerate>`."
+msgstr ""
+"Vous pouvez maintenant passer à la suite pour :ref:`générer les clés de "
+"signature <key-regenerate>` !!"
+
+#~ msgid "CentOS migration"
+#~ msgstr "Migration Centos"
+
+#~ msgid "Preamble"
+#~ msgstr "Prélude"
+
+#~ msgid "MongoDB"
+#~ msgstr "MongoDB"
+
+#~ msgid "PostgreSQL"
+#~ msgstr "PostgreSQL"
+
+#~ msgid "Apache2"
+#~ msgstr "Apache2"
+
+#~ msgid "Nginx"
+#~ msgstr "Nginx"
+
+#~ msgid "Uninstalling the WAPT Server"
+#~ msgstr "Désinstallation du serveur WAPT"
+
+#~ msgid "Uninstalling the WAPT packages"
+#~ msgstr "Désinstaller les paquets WAPT"
+
+#~ msgid "Stop Apache2 web service"
+#~ msgstr "Désactiver apache2"
+
+#~ msgid "Additional configuration"
+#~ msgstr "Configuration suplémentaire"
+
+#~ msgid "Upgrading the server"
+#~ msgstr "Mise à jour du serveur"
+
+#~ msgid ""
+#~ "Configuring the repositories and installing the WAPT Server packages and the "
+#~ "PostGreSQL database server"
+#~ msgstr ""
+#~ "Configuration des dépôts et installation des paquets du serveur WAPT et de la "
+#~ "base de données Postgresql"
+
+#~ msgid "Installing the upgrade"
+#~ msgstr "Installation de la mise à jour"
+
+#~ msgid "Initializing the database and activating the services"
+#~ msgstr "Initialisation de la base de données et activation des services"
+
+#~ msgid "Starting the WAPT Service"
+#~ msgstr "Démarrer le serveur WAPT"
+
+#~ msgid "Next, launch the installation step."
+#~ msgstr "lancer l'installation ;"
+
+#~ msgid "WAPT 1.5"
+#~ msgstr "WAPT 1.5"

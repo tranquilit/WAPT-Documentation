@@ -1,0 +1,53 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WAPT 1.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-07 09:39+0100\n"
+"PO-Revision-Date: 2018-11-07 12:25+0100\n"
+"Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
+"Language: fr\n"
+"Language-Team: Tranquil IT <contact@tranquil.it>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 1.8.8\n"
+
+#: ../../source/wapt_create_packages/index.rst:8
+#: ../../source/wapt_create_packages/index.rst:15
+msgid "Creating WAPT packages"
+msgstr "Créer des paquets WAPT"
+
+#: ../../source/wapt_create_packages/index.rst:8
+msgid "working, WAPT, personalizing, creating packages, documentation"
+msgstr "fonctionnement, WAPT, personnaliser, création de paquets, documentation"
+
+#: ../../source/wapt_create_packages/index.rst:19
+msgid ""
+"Installing *tis-pyscripter* will install PyScripter :term:`IDE`. :program:"
+"`PyScripter` is required for packaging WAPT packages."
+msgstr ""
+"L'installation correcte de *tis-pyscripter*, le paquet qui installe l':term:"
+"`IDE` :program:`PyScripter`, est **primordiale** avant d'entreprendre toute "
+"création ou modification de paquet."
+
+#: ../../source/wapt_create_packages/index.rst:22
+msgid ""
+"Please first visit the documentation on :ref:`setting up the environment for "
+"developing WAPT packages <envdev_setup>`."
+msgstr ""
+"Veillez à consulter préalablement la documentation relative à la :ref:`mise "
+"en place de l'environment de développement PyScripter <envdev_setup>`."
+
+#: ../../source/wapt_create_packages/index.rst:25
+msgid ""
+"To create and customize WAPT packages, follow that documentation and you will "
+"quickly become a master of WAPT."
+msgstr ""
+"Pour créer vos paquets et les personnaliser, suivez cette documentation et "
+"vous maîtriserez très vite les subtilités du fonctionnement de WAPT."
+
+#~ msgid "It is advizable to read :ref:`envdev_setup` before continuing."
+#~ msgstr "Veillez à consulter préalablement la page :ref:`envdev_setup`."

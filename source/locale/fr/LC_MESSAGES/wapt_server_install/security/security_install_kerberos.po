@@ -1,0 +1,183 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WAPT 1.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-05 15:09+0100\n"
+"PO-Revision-Date: 2018-11-06 17:55+0100\n"
+"Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
+"Language: fr\n"
+"Language-Team: Tranquil IT <contact@tranquil.it>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 1.8.8\n"
+
+#: ../../source/wapt_server_install/security/security_install_kerberos.rst:8
+msgid "Configuring Kerberos authentication on CentOS/ RedHat"
+msgstr "Configurer l'authentification Kerberos avec Debian ou CentOS / RedHat"
+
+#: ../../source/wapt_server_install/security/security_install_kerberos.rst:8
+msgid "Kerberos, authentication, Debian, WAPT, documentation, RedHat, CentOS"
+msgstr "Kerberos, authentification, Debian, documentation, CentOS, RedHat"
+
+#: ../../source/wapt_server_install/security/security_install_kerberos.rst:14
+msgid "Configuring Kerberos authentication"
+msgstr "Configurer l'authentification Kerberos"
+
+#: ../../source/wapt_server_install/security/security_install_kerberos.rst:18
+msgid "this configuration is required when using WAPT **Enterprise** version;"
+msgstr "cette configuration est obligatoire en version WAPT **Enterprise** ;"
+
+#: ../../source/wapt_server_install/security/security_install_kerberos.rst:20
+msgid ""
+"indeed without Kerberos authentication, you have to either trust initial "
+"registration or enter a password for each workstation on initial registration;"
+msgstr ""
+"en effet sans authentification Kerberos, n'importe qui pourra s'enregistrer sur "
+"le serveur WAPT et remonter de fausses informations dans l'inventaire ;"
+
+#: ../../source/wapt_server_install/security/security_install_kerberos.rst:24
+msgid ""
+"for more information, visit the documentation on :ref:`registering a machine "
+"with the WAPT Server <initial_machine_registration>` and :ref:`signing "
+"inventory updates <signing_inventory_updates>`;"
+msgstr ""
+"pour plus d'information rendez-vous sur la documentation pour :ref:`enregistrer "
+"une machine avec le serveur WAPT <initial_machine_registration>` et pour :ref:"
+"`signer les remontées d'inventaire <signing_inventory_updates>` ;"
+
+#: ../../source/wapt_server_install/security/security_install_kerberos.rst:28
+msgid "the kerberos authentication will be used only when registering the device;"
+msgstr ""
+"l'authentification Kerberos sera utilisée lors de l'enregistrement du poste "
+"uniquement ;"
+
+#: ../../source/wapt_server_install/security/security_install_kerberos.rst:33
+msgid "Configuring krb5"
+msgstr "Configuration de krb5"
+
+#: ../../source/wapt_server_install/security/security_install_kerberos.rst:35
+msgid ""
+"Modify the :file:`/etc/krb5.conf` file and **replace all the content with the "
+"following 4 lines** replacing **MYDOMAIN.LAN** with your Active Directory "
+"domain name (i.e. *<MYDOMAIN.LAN>*)."
+msgstr ""
+"Modifier le fichier :file:`/etc/krb5.conf` et **remplacer tout son contenu par "
+"les 4 lignes suivantes** en précisant le domaine Active Directory de votre "
+"organisation (ici *<MYDOMAIN.LAN>*)."
+
+#: ../../source/wapt_server_install/security/security_install_kerberos.rst:41
+msgid "``default_realm`` must be written with **ALL CAPS**!!"
+msgstr ""
+"Le ``default_realm`` doit absolument être écrit en **lettres MAJUSCULES** !!"
+
+#: ../../source/wapt_server_install/security/security_install_kerberos.rst:51
+msgid "Retrieving a service keytab"
+msgstr "Récupérer un ticket Kerberos"
+
+#: ../../source/wapt_server_install/security/security_install_kerberos.rst:53
+msgid ""
+"Use the :`command:`kinit` and :command:`klist`. You can use an :term:"
+"`Administrator` account or any other account with the delegated right to join a "
+"computer to the domain in the proper destination container (by default "
+"*CN=Computers*)."
+msgstr ""
+"Utiliser la commande :command:`kinit` et :command:`klist` ci-dessous, vous "
+"pouvez utiliser le compte :term:`Administrateur Local` ou tout autre compte "
+"avec délégation de privilèges sur le conteneur de destination dans Active "
+"Directory (par défaut *CN=Computers*)."
+
+#: ../../source/wapt_server_install/security/security_install_kerberos.rst:58
+msgid ""
+"In the shell transcript below, commands are in black and returned text is "
+"commented in light gray:"
+msgstr "En commentaire les résultats attendus des commandes :"
+
+#: ../../source/wapt_server_install/security/security_install_kerberos.rst:74
+msgid ""
+"If the authentication request is successful, you can then create your HTTP "
+"Keytab with the :program:`msktutil` command."
+msgstr ""
+"Si la demande d'authentification aboutit, créer le compte machine ainsi que le "
+"Keytab http avec :program:`msktutil`."
+
+#: ../../source/wapt_server_install/security/security_install_kerberos.rst:77
+msgid ""
+"Be sure to modify the *<DOMAIN_CONTROLER>* string with the name of your domain "
+"controller (eg: **srvads.mydomain.lan**)."
+msgstr ""
+"Modifier le paramètre *<DOMAIN_CONTROLER>* en fonction de votre contrôleur de "
+"domaine (ex: **srvads.mydomain.lan**)."
+
+#: ../../source/wapt_server_install/security/security_install_kerberos.rst:87
+msgid ""
+"Be sure to have properly configured your WAPT Server *hostname* before running "
+"these commands;"
+msgstr ""
+"Les commandes ci-dessus supposent que vous avez correctement configuré le "
+"*hostname* de l'ordinateur ;"
+
+#: ../../source/wapt_server_install/security/security_install_kerberos.rst:90
+msgid ""
+"In order to double check your *hostname*, you can run :code:`echo $(hostname)` "
+"and it must return the name that will be used by WAPT agent running on client "
+"workstations."
+msgstr ""
+"Pour vérfier, la ligne de commande :file:`echo $(hostname)` doit renvoyer "
+"l'adresse DNS qu'utiliseront les agents WAPT."
+
+#: ../../source/wapt_server_install/security/security_install_kerberos.rst:97
+msgid "Post-configuring"
+msgstr "Post-Configuration"
+
+#: ../../source/wapt_server_install/security/security_install_kerberos.rst:99
+msgid ""
+"You can now use post-configuration script to configure the WAPT Server to use "
+"Kerberos."
+msgstr ""
+"Il est maintenant nécessaire de relancer la post-configuration afin d'activer "
+"l'authentification Kerberos pour l'enregistrement des machines."
+
+#: ../../source/wapt_server_install/security/security_install_kerberos.rst:102
+msgid ""
+"The post-configuration script will configure :program:`Nginx` and the WAPT "
+"Server to use Kerberos authentication."
+msgstr ""
+"Le script de post-configuration va mettre à jour la configuration :program:"
+"`Nginx` et WAPTServer pour utiliser l'authentification Kerberos."
+
+#: ../../source/wapt_server_install/security/security_install_kerberos.rst:107
+msgid "This post-configuration script must be run as **root**."
+msgstr ""
+"Ce script de post-configuration doit être exécuté en tant qu'utilisateur "
+"**root**."
+
+#: ../../source/wapt_server_install/security/security_install_kerberos.rst:113
+msgid "Kerberos authentication is now configured."
+msgstr "L'authentification Kerberos est maintenant correctement configurée."
+
+#: ../../source/wapt_server_install/security/security_install_kerberos.rst:117
+msgid ""
+"The post-configuration script generates a self-signed certificate. If you "
+"prefer, you may replace it with a :ref:`commercial certificate or a certificate "
+"issued by a Trusted internal Authority of Certification "
+"<install_ssl_certificate>`."
+msgstr ""
+"Le script de post-configuration génère un certificat autosigné. Si vous le "
+"souhaitez, vous pouvez le remplacer par un certificat commercial ou issue d'une "
+"CA interne en suivant la documentation pour :ref:`installer un certificat "
+"<install_ssl_certificate>`."
+
+#: ../../source/wapt_server_install/security/security_install_kerberos.rst:122
+msgid ""
+"Otherwise, go on directly to the next step to :ref:`installing the WAPT console "
+"<installing_the_WAPT_console>`."
+msgstr ""
+"Sinon, passer directement à l'étape suivante pour :ref:`installer la console "
+"WAPT sur votre PC d'Administrateur <installing_the_WAPT_console>`."
+
+#~ msgid "Finally, change the ownership rights on the keytab file."
+#~ msgstr "Enfin modifier le propriétaire du keytab et ses permissions."

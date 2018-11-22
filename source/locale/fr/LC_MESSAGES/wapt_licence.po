@@ -1,0 +1,265 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WAPT 1.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-06 17:21+0100\n"
+"PO-Revision-Date: 2018-11-07 10:19+0100\n"
+"Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
+"Language: fr\n"
+"Language-Team: Tranquil IT <contact@tranquil.it>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 1.8.8\n"
+
+#: ../../source/wapt_licence.rst:8 ../../source/wapt_licence.rst:13
+msgid "External components licenses used in WAPT"
+msgstr "Licences des composants externes utilisés dans WAPT"
+
+#: ../../source/wapt_licence.rst:8
+msgid "Documentation, WAPT, licences"
+msgstr "Documentation, WAPT, licences"
+
+#: ../../source/wapt_licence.rst:15
+msgid "WAPT software development was started in March 2012 by Tranquil IT."
+msgstr "Le développement du logiciel WAPT a commencé en mars 2012 ; il est porté en très grande partie par l'équipe de Tranquil IT."
+
+#: ../../source/wapt_licence.rst:17
+msgid "Developments done within the WAPT public project are licensed under the GNU Public License v3.0."
+msgstr "Les développements réalisés dans le cadre du projet WAPT Community sont distribués sous licence GNU Public Licence v3.0."
+
+#: ../../source/wapt_licence.rst:20
+msgid "**The extensions incorporated into the Enterprise version of WAPT are proprietary**."
+msgstr "Les extensions incluses dans la version Enterprise de WAPT sont propriétaires."
+
+#: ../../source/wapt_licence.rst:26
+msgid "WAPT components"
+msgstr "Composant WAPT"
+
+#: ../../source/wapt_licence.rst:26
+msgid "License"
+msgstr "Licence"
+
+#: ../../source/wapt_licence.rst:28
+msgid ":program:`Python`"
+msgstr ":program:`Python`"
+
+#: ../../source/wapt_licence.rst:28
+msgid "Python Software License"
+msgstr "Python Software License"
+
+#: ../../source/wapt_licence.rst:29
+msgid ":program:`Python Libraries`"
+msgstr ":program:`Librairies Python`"
+
+#: ../../source/wapt_licence.rst:29 ../../source/wapt_licence.rst:32
+msgid "Various open-source licenses"
+msgstr "Licenses OpenSource diverses"
+
+#: ../../source/wapt_licence.rst:30
+msgid ":program:`Lazarus`"
+msgstr ":program:`Lazarus`"
+
+#: ../../source/wapt_licence.rst:30
+msgid "GNU Public Licence"
+msgstr "GNU Public Licence"
+
+#: ../../source/wapt_licence.rst:31
+msgid ":program:`Lazarus Component Library`"
+msgstr ":program:`Composants Lazarus`"
+
+#: ../../source/wapt_licence.rst:31
+msgid "GNU Lesser General Public License"
+msgstr "GNU Lesser General Public License"
+
+#: ../../source/wapt_licence.rst:32
+msgid ":program:`Lazarus Libraries`"
+msgstr ":program:`Librairies Lazarus`"
+
+#: ../../source/wapt_licence.rst:33
+msgid ":program:`OpenSSL`"
+msgstr ":program:`OpenSSL`"
+
+#: ../../source/wapt_licence.rst:33
+msgid "Openssl License"
+msgstr "Openssl License"
+
+#: ../../source/wapt_licence.rst:34
+msgid ":program:`ZeroMQ`"
+msgstr ":program:`ZeroMQ`"
+
+#: ../../source/wapt_licence.rst:34
+msgid "GNU Lesser General Public License v3"
+msgstr "GNU Lesser General Public License v3"
+
+#: ../../source/wapt_licence.rst:35
+msgid ":program:`Redistr. Microsoft Visual C++`"
+msgstr ":program:`Redistr. Microsoft Visual C++`"
+
+#: ../../source/wapt_licence.rst:35
+msgid "Microsoft Software License Terms"
+msgstr "Microsoft Software License Terms"
+
+#: ../../source/wapt_licence.rst:36
+msgid ":program:`PostgreSQL`"
+msgstr ":program:`PostgreSQL`"
+
+#: ../../source/wapt_licence.rst:36
+msgid "PostgreSQL License"
+msgstr "PostgreSQL License"
+
+#: ../../source/wapt_licence.rst:37
+msgid ":program:`NSSM`"
+msgstr ":program:`NSSM`"
+
+#: ../../source/wapt_licence.rst:37
+msgid "Public Domain"
+msgstr "Public Domain"
+
+#: ../../source/wapt_licence.rst:38
+msgid ":program:`Apache`"
+msgstr ":program:`Apache`"
+
+#: ../../source/wapt_licence.rst:38
+msgid "Apache License v2"
+msgstr "Apache License v2"
+
+#: ../../source/wapt_licence.rst:39
+msgid ":program:`Nginx`"
+msgstr ":program:`Nginx`"
+
+#: ../../source/wapt_licence.rst:39
+msgid "2-clause BSD-like license"
+msgstr "2-clause BSD-like license"
+
+#~ msgid "WAPT components"
+#~ msgstr "Composants WAPT"
+
+#~ msgid "License"
+#~ msgstr "Licence"
+
+#~ msgid ":program:`Python`"
+#~ msgstr ":program:`Python`"
+
+#~ msgid "Python Software License"
+#~ msgstr "Python Software License"
+
+#~ msgid ":program:`Librairies Python`"
+#~ msgstr ""
+
+#~ msgid "Various open-source licenses"
+#~ msgstr "Licences open-source diverses"
+
+#~ msgid ":program:`Lazarus`"
+#~ msgstr ":program:`Lazarus`"
+
+#~ msgid "GNU Public Licence"
+#~ msgstr "GNU Public Licence"
+
+#~ msgid ":program:`Lazarus Component Library`"
+#~ msgstr ":program:`Lazarus Component Library`"
+
+#~ msgid "GNU Lesser General Public License"
+#~ msgstr "GNU Lesser General Public License"
+
+#~ msgid ":program:`Librairies Lazarus`"
+#~ msgstr ""
+
+#~ msgid ":program:`OpenSSL`"
+#~ msgstr ":program:`OpenSSL`"
+
+#~ msgid "Openssl License"
+#~ msgstr "Openssl License"
+
+#~ msgid ":program:`ZeroMQ`"
+#~ msgstr ":program:`ZeroMQ`"
+
+#~ msgid "GNU Lesser General Public License v3"
+#~ msgstr "GNU Lesser General Public License v3"
+
+#~ msgid ":program:`Redistribuables Microsoft Visual C++`"
+#~ msgstr ""
+
+#~ msgid "Microsoft Software License Terms"
+#~ msgstr "Microsoft Software License Terms"
+
+#~ msgid ":program:`PostgreSQL`"
+#~ msgstr ":program:`PostgreSQL`"
+
+#~ msgid "PostgreSQL License"
+#~ msgstr "PostgreSQL License"
+
+#~ msgid ":program:`NSSM`"
+#~ msgstr ":program:`NSSM`"
+
+#~ msgid "Public Domain"
+#~ msgstr "Public Domain"
+
+#~ msgid ":program:`Apache`"
+#~ msgstr ":program:`Apache`"
+
+#~ msgid "Apache License v2"
+#~ msgstr "Apache License v2"
+
+#~ msgid ":program:`Nginx`"
+#~ msgstr ":program:`Nginx`"
+
+#~ msgid "2-clause BSD-like license"
+#~ msgstr "2-clause BSD-like license"
+
+#~ msgid "MongoDB"
+#~ msgstr "MongoDB"
+
+#~ msgid "GNU Affero General Public License v3"
+#~ msgstr "GNU Affero General Public License v3"
+
+#~ msgid "Python"
+#~ msgstr "Python"
+
+#~ msgid "Lazarus"
+#~ msgstr "Lazarus"
+
+#~ msgid "OpenSSL"
+#~ msgstr "OpenSSL"
+
+#~ msgid "ZeroMQ"
+#~ msgstr "ZeroMQ"
+
+#~ msgid "PostgreSQL"
+#~ msgstr "PostgreSQL"
+
+#~ msgid "NSSM"
+#~ msgstr "NSSM"
+
+#~ msgid "Apache"
+#~ msgstr "Apache"
+
+#~ msgid ""
+#~ "WAPT components                                 License"
+#~ " =============================================== "
+#~ "==================================== :program:`Python`"
+#~ "                               Python Software License"
+#~ " :program:`Librairies Python`                    "
+#~ "Various open-source licenses "
+#~ ":program:`Lazarus`                              GNU Public"
+#~ " Licence :program:`Lazarus Component Library`"
+#~ "            GNU Lesser General Public "
+#~ "License :program:`Librairies Lazarus`"
+#~ "                   Various open-source licenses"
+#~ " :program:`OpenSSL`                              Openssl "
+#~ "License :program:`ZeroMQ`                               "
+#~ "GNU Lesser General Public License v3 "
+#~ ":program:`Redistribuables Microsoft Visual C++` "
+#~ "Microsoft Software License Terms "
+#~ ":program:`PostgreSQL`                           PostgreSQL "
+#~ "License :program:`NSSM`                                 "
+#~ "Public Domain :program:`Apache`"
+#~ "                               Apache License v2 "
+#~ ":program:`Nginx`                                2-clause "
+#~ "BSD-like license "
+#~ "=============================================== "
+#~ "===================================="
+#~ msgstr ""

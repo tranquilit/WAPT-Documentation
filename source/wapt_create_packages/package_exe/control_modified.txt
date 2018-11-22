@@ -1,0 +1,7 @@
+package           : tis-firefox-esr
+version           : 52.6.0-1
+architecture      : all
+section           : base
+priority          : optional
+maintainer        : Tranquil-IT Systems
+description       : Mozilla Firefox 52.6.0 ESR

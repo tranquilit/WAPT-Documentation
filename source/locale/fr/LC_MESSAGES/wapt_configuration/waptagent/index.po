@@ -1,0 +1,347 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WAPT 1.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-05 15:09+0100\n"
+"PO-Revision-Date: 2018-11-05 19:29+0100\n"
+"Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
+"Language: fr\n"
+"Language-Team: Tranquil IT <contact@tranquil.it>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 1.8.8\n"
+
+#: ../../source/wapt_configuration/waptagent/index.rst:8
+#: ../../source/wapt_configuration/waptagent/index.rst:15
+msgid "Building the WAPT agent installer"
+msgstr "Générer l'installeur de l'agent WAPT"
+
+#: ../../source/wapt_configuration/waptagent/index.rst:8
+msgid "waptagent.exe, installeur, InnoSetup, documentation, WAPT"
+msgstr "waptagent.exe, installeur, InnoSetup, WAPT, documentation"
+
+#: ../../source/wapt_configuration/waptagent/index.rst:17
+msgid "The :program:`waptagent` binary is an InnoSetup installer."
+msgstr "L'installeur :program:`waptagent` est un installeur InnoSetup."
+
+#: ../../source/wapt_configuration/waptagent/index.rst:19
+msgid ""
+"Once the WAPT console has been installed on the :term:`Administrator` computer, "
+"we have all files required to build the WAPT agent installer."
+msgstr ""
+"Une fois la console WAPT installée sur le poste de l':term:`Administrateur`, on "
+"dispose de tous les fichiers nécessaires pour compiler l'installeur WAPT :"
+
+#: ../../source/wapt_configuration/waptagent/index.rst:22
+msgid ""
+"files that will be used during building of the WAPT agent are located in :file:"
+"`C:\\Program Files (x86)\\wapt`;"
+msgstr ""
+"les fichiers qui seront utilisés pour créer l'installeur se trouvent dans le "
+"répertoire d'installation :file:`C:\\Program Files (x86)\\wapt` ;"
+
+#: ../../source/wapt_configuration/waptagent/index.rst:25
+msgid ""
+"installer source files (:file:`.iss` files) are located in :file:`C:\\Program "
+"Files (x86)\\wapt\\waptsetup`;"
+msgstr ""
+"les fichiers sources de l'installeur (fichiers :file:`*.iss`) se trouvent dans :"
+"file:`C:\\Program Files (x86)\\wapt\\waptsetup` ;"
+
+#: ../../source/wapt_configuration/waptagent/index.rst:30
+msgid ""
+"Before building the WAPT agent, please verify the public certificate(s) in :"
+"file:`C:\\Program Files (x86)\\wapt\\ssl`."
+msgstr ""
+"Avant de lancer la création de l'installeur pour l'agent WAPT, vérifier la "
+"présence du certificat public dans le dossier :file:`C:\\Program Files "
+"(x86)\\wapt\\ssl`."
+
+#: ../../source/wapt_configuration/waptagent/index.rst:33
+msgid ""
+"If you wish to deploy other public certificates on your :term:`Organization`'s "
+"computers that are equipped with WAPT, you will have to copy them in that "
+"folder."
+msgstr ""
+"Si vous souhaitez déployer d'autres certificats publics sur les ordinateurs de "
+"l':term:`Organisation` équipés de WAPT, il faudra les copier dans ce dossier."
+
+#: ../../source/wapt_configuration/waptagent/index.rst:39
+msgid ""
+"**DO NOT COPY the private key** of any :term:`Administrator` in :file:`C:"
+"\\Program Files (x86)\\wapt`."
+msgstr ""
+"**NE PAS COPIER votre clé privée** d':term:`Administrateur` dans :file:`C:"
+"\\Program Files (x86)\\wapt`."
+
+#: ../../source/wapt_configuration/waptagent/index.rst:42
+msgid ""
+"This folder is used when building the WAPT agent and the private keys would "
+"then be deployed on all the computers."
+msgstr ""
+"Ce dossier est utilisé pour créer l'agent WAPT et votre clé privée se "
+"retrouverait déployée sur l'ensemble du parc."
+
+#: ../../source/wapt_configuration/waptagent/index.rst:45
+msgid ""
+"In the WAPT console, go to :menuselection:`Tools --> Build the WAPT agent`."
+msgstr ""
+"dans la console WAPT, ouvrir :menuselection:`Outils --> Créer un agent WAPT` ;"
+
+#: ../../source/wapt_configuration/waptagent/index.rst:51
+msgid "Generate the WAPT agent from the console"
+msgstr "Générateur l'agent WAPT à partir de la console"
+
+#: ../../source/wapt_configuration/waptagent/index.rst:53
+msgid "fill in the informations that are necessary for the installer:"
+msgstr "renseigner les informations nécessaires à l'installeur :"
+
+#: ../../source/wapt_configuration/waptagent/index.rst:55
+msgid "the field :guilabel:`Public certificate`: *required**;"
+msgstr "le champ **obligatoire** :guilabel:`Certificat public` ;"
+
+#: ../../source/wapt_configuration/waptagent/index.rst:57
+msgid "example : :file:`C:\\private\\mydomain.crt`"
+msgstr "exemple : :file:`C:\\private\\mydomain.crt`"
+
+#: ../../source/wapt_configuration/waptagent/index.rst:59
+msgid "the field :guilabel:`Address of the WAPT repository`: **required**;"
+msgstr "le champ :guilabel:`Adresse du dépôt WAPT` : **obligatoire** ;"
+
+#: ../../source/wapt_configuration/waptagent/index.rst:61
+msgid "example : https://srvwapt.mydomain.lan/wapt"
+msgstr "exemple : https://srvwapt.mydomain.lan/wapt"
+
+#: ../../source/wapt_configuration/waptagent/index.rst:63
+msgid "the field :guilabel:`Address of the WAPT Server`: **required**;"
+msgstr "le champ :guilabel:`Adresse du serveur WAPT` : **obligatoire** ;"
+
+#: ../../source/wapt_configuration/waptagent/index.rst:65
+msgid "example : https://srvwapt.mydomain.lan"
+msgstr "exemple : https://srvwapt.mydomain.lan"
+
+#: ../../source/wapt_configuration/waptagent/index.rst:67
+msgid "the checkbox :guilabel:`Verify the WAPT Server HTTPS certificate`;"
+msgstr "la case à cocher :guilabel:`Vérifier le certificat HTTPS du serveur` ;"
+
+#: ../../source/wapt_configuration/waptagent/index.rst:69
+msgid ""
+"the field :guilabel:`Path to the bundle of certificates` to verify the HTTPS "
+"certificate of the WAPT Server;"
+msgstr ""
+"le champ :guilabel:`Chemin du bundle de certificats` pour vérifier le "
+"certificat HTTPS du serveur ;"
+
+#: ../../source/wapt_configuration/waptagent/index.rst:72
+msgid "the checkbox :guilabel:`Use Kerberos for registering WAPT agents`;"
+msgstr ""
+"la case à cocher :guilabel:`Utiliser Kerberos pour l'enregistrement` initial "
+"des agents WAPT avec le serveur ;"
+
+#: ../../source/wapt_configuration/waptagent/index.rst:74
+msgid ""
+"the field :guilabel:`Organization` to identify the origin of WAPT packages;"
+msgstr "le champ :guilabel:`Organisation` pour identifier l'origine des paquets ;"
+
+#: ../../source/wapt_configuration/waptagent/index.rst:80
+msgid "Fill in the informations on your Organisation"
+msgstr "Renseigner les informations sur l'Organisation"
+
+#: ../../source/wapt_configuration/waptagent/index.rst:84
+msgid ""
+"The checkbox **Use Kerberos for the initial registration** must be checked "
+"**ONLY IF** you have followed the documentation on **Configuring the Kerberos "
+"authentication**."
+msgstr ""
+"La case **Utiliser l'enregistrement kerberos pour l'enregistrement initial** "
+"doit être activé **UNIQUEMENT** si vous avez suivi la documentation "
+"**Configurer l'authentification Kerberos**."
+
+#: ../../source/wapt_configuration/waptagent/index.rst:88
+msgid "provide the password for unlocking the private key:"
+msgstr "renseignez le mot de passe de la clé privée :"
+
+#: ../../source/wapt_configuration/waptagent/index.rst:94
+msgid "Provide the password for unlocking the private key"
+msgstr "Entrer le mot de passe de la clé privée"
+
+#: ../../source/wapt_configuration/waptagent/index.rst:100
+msgid "Progression of WAPT agent installer building"
+msgstr "Progression de la création de l'installeur de l'agent WAPT"
+
+#: ../../source/wapt_configuration/waptagent/index.rst:102
+msgid ""
+"Once the WAPT agent installer has finished building, a confirmation dialog pops "
+"up indicating that the :program:`waptagent` binary has been successfully "
+"uploaded to https://srvwapt/wapt/."
+msgstr ""
+"Une fois la compilation terminée, une confirmation s'affiche informant que le :"
+"program:`waptagent` a bien été chargé sur https://srvwapt.mydomain.lan/wapt/."
+
+#: ../../source/wapt_configuration/waptagent/index.rst:110
+msgid "Confirmation of the WAPT agent loading onto WAPT repository"
+msgstr "Confirmation du chargement de l'agent WAPT sur le serveur WAPT"
+
+#: ../../source/wapt_configuration/waptagent/index.rst:114
+msgid ""
+"A warning shows up indicating that the GPO hash value should be changed. GPOs "
+"may be used to deploy the WAPT agent on your Organization's computer."
+msgstr ""
+"Un avertissement apparaît pour rappeler de changer la valeur du hash dans la "
+"GPO de déploiement de l'agent WAPT."
+
+#: ../../source/wapt_configuration/waptagent/index.rst:118
+msgid "Package *test-waptupgrade*"
+msgstr "Le paquet *test-waptupgrade*"
+
+#: ../../source/wapt_configuration/waptagent/index.rst:120
+msgid "The ``test-waptupgrade`` package has also been uploaded on the repository."
+msgstr "Le paquet ``test-waptupgrade`` a également été chargé sur le dépôt."
+
+#: ../../source/wapt_configuration/waptagent/index.rst:122
+msgid ""
+"The ``test-waptupgrade`` package contains the WAPT agent with arguments "
+"specified during the installation of WAPT on your Administrator's computer."
+msgstr ""
+"Ce paquet WAPT contient l'agent WAPT avec les paramètres spécifiés lors de "
+"l'installation."
+
+#: ../../source/wapt_configuration/waptagent/index.rst:129
+msgid "New WAPT agent in the repository"
+msgstr "Nouvel agent dans le dépôt WAPT"
+
+#: ../../source/wapt_configuration/waptagent/index.rst:133
+msgid ""
+"This package is a standard WAPT package designed to upgrade WAPT agents on "
+"client machines."
+msgstr ""
+"Ce paquet permettra de mettre à jour les agents WAPT du parc lorsqu'une mise à "
+"jour de l'agent WAPT sera rendue disponible."
+
+#~ msgid ""
+#~ "To add other public certificates in waptagent setup, copy additional public "
+#~ "certs in that folder. "
+#~ msgstr ""
+#~ "Pour intégrer d'autres certificats publics dans l'installation, c'est dans "
+#~ "ce dossier qu'il faudra copier/coller les certificats publics "
+#~ "supplémentaires."
+
+#~ msgid ""
+#~ "Do not under any circumstances save the private key in :file:`C:\\wapt\\` "
+#~ "folder."
+#~ msgstr ""
+#~ "Il ne faut en aucun cas sauvegarder la clé privée dans le dossier :file:`C:"
+#~ "\\Program Files (x86)\\wapt\\`."
+
+#~ msgid "**Public key**"
+#~ msgstr "**Clé publique**"
+
+#~ msgid ""
+#~ "That folder is used when building the WAPT agent, do not store your "
+#~ "Administrator private key in the :file:`C:\\Program Files (x86)\\wapt\\\\` "
+#~ "folder, otherwise the private key will be deployed all over your "
+#~ "Organization, an absolute no go!"
+#~ msgstr ""
+#~ "Il ne faut en aucun cas sauvegarder la clé privée dans le dossier :file:`C:"
+#~ "\\Program Files (x86)\\wapt\\`. Ce dossier est utilisé pendant la création "
+#~ "de l'agent et la clé privée se retrouverait déployée sur l'ensemble du parc."
+
+#~ msgid "Building the WAPT agent from the WAPT console"
+#~ msgstr "Génération depuis la console WAPT"
+
+#~ msgid "Informations to fulfill are:"
+#~ msgstr "Les informations à renseigner sont :"
+
+#~ msgid "**the public certificate**;"
+#~ msgstr "**Le certificat public**"
+
+#~ msgid ""
+#~ "Specify the path to the certificate previously generated (:file:`.crt` "
+#~ "file). The field is **required**, and the path must be absolute, eg. :file:"
+#~ "`C:\\private\\mondomain.crt`."
+#~ msgstr ""
+#~ "Spécifier le chemin vers le certificat public précédemment généré (le "
+#~ "fichier :file:`.crt`). Ce champ est **obligatoire**. exemple : :file:`C:"
+#~ "\\private\\mondomain.crt`"
+
+#~ msgid "**the WAPT repository address**;"
+#~ msgstr "**Adresse du dépôt WAPT**"
+
+#~ msgid "**the WAPT Server address**;"
+#~ msgstr "**Adresse du serveur WAPT**"
+
+#~ msgid ""
+#~ "The WAPT Server URL. That field is **required**. Example : https://srvwapt."
+#~ "mondomaine.local."
+#~ msgstr ""
+#~ "URL du serveur WAPT local. Ce champ est **obligatoire**. exemple : https://"
+#~ "srvwapt.mydomain.lan"
+
+#~ msgid "**the WAPT Server HTTPS certificate**;"
+#~ msgstr "**Vérifier le certificat HTTPS du serveur**"
+
+#~ msgid ""
+#~ "**path of SSL/TLS certificate bundle for HTTPS certificate validation**;"
+#~ msgstr "**Chemin du bundle de certificats pour la vérification**"
+
+#~ msgid "**use kerberos for initial registration**;"
+#~ msgstr "**Utiliser Kerberos pour l'enregistrement**"
+
+#~ msgid ""
+#~ "Tick that checkbox to use Kerberos authentication during initial "
+#~ "registration of WAPT clients with the WAPT Server."
+#~ msgstr ""
+#~ "Cocher pour activer l'utilisation de l'authentification Kerberos pour "
+#~ "l'enregistrement des agents dans la base de données du serveur WAPT."
+
+#~ msgid "**organisation**;"
+#~ msgstr "**Organisation**"
+
+#~ msgid "Organization name or department with the Organization."
+#~ msgstr "Nom de l'entreprise ou du service dans l'Organisation."
+
+#~ msgid "Asking for the password"
+#~ msgstr "Demande de mot de passe"
+
+#~ msgid "Enter in the password to unlock your private key."
+#~ msgstr ""
+#~ "Renseigner ensuite le mot de passe qui servira à bloquer et débloquer votre "
+#~ "nouvelle clé."
+
+#~ msgid "Building in progress"
+#~ msgstr "Création en cours"
+
+#~ msgid "define a password to lock and unlock the private key;"
+#~ msgstr "définir un mot de passe de vérouillage de la clé ;"
+
+#~ msgid ""
+#~ "If you change the content of :guilabel:`Path to the Certificate bundle`, the "
+#~ "new path will point to :file:`C:\\Program Files (x86)\\wapt\\ssl\\server`. "
+#~ "Otherwise, your bundle will not be incorporated into the WAPT agent."
+#~ msgstr ""
+#~ "Si vous modifiez le :guilabel:`Chemin du bundle de certificats`, le nouveau "
+#~ "chemin devra pointer vers :file:`C:\\Program Files (x86)\\wapt\\ssl"
+#~ "\\server`. Dans le cas contraire votre bundle ne sera pas integré dans le "
+#~ "waptagent."
+
+#~ msgid "example : :file:`C:\\private\\mondomain.crt`"
+#~ msgstr "exemple : :file:`C:\\private\\mondomain.crt`"
+
+#~ msgid "example : https://srvwapt.mydomain.lan/wapt"
+#~ msgstr "exemple : https://srvwapt.mydomain.lan/wapt"
+
+#~ msgid "example : https://srvwapt.mydomain.lan"
+#~ msgstr "exemple : https://srvwapt.mydomain.lan"
+
+#~ msgid "Building the WAPT agent (Organization informations)"
+#~ msgstr "Créer l'agent WAPT (Renseignement sur l'Organisation)"
+
+#~ msgid "Screen capture for unlocking the private key"
+#~ msgstr "Ecran de saisie du mot de passe de la clé privée"
+
+#~ msgid "WAPT console (repository tab)"
+#~ msgstr "Console WAPT (Onglet \"Dépôts\")"

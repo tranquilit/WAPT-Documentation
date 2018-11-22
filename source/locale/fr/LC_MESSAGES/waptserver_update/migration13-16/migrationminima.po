@@ -1,0 +1,143 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WAPT 1.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-05 15:09+0100\n"
+"PO-Revision-Date: 2018-11-07 10:54+0100\n"
+"Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
+"Language: fr\n"
+"Language-Team: Tranquil IT <contact@tranquil.it>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 1.8.8\n"
+
+#: ../../source/waptserver_update/migration13-16/migrationminima.rst:8
+#: ../../source/waptserver_update/migration13-16/migrationminima.rst:13
+msgid "Migrating more easily from WAPT 1.3 to 1.6"
+msgstr "Migrer plus simplement de WAPT 1.3 à 1.6"
+
+#: ../../source/waptserver_update/migration13-16/migrationminima.rst:8
+msgid "upgrade, upgrading, WAPT, 1.3, 1.6, simple procedure, documentation"
+msgstr "migration, WAPT, 1.3, 1.6, Windows, documentation"
+
+#: ../../source/waptserver_update/migration13-16/migrationminima.rst:15
+msgid ""
+"This procedure is simpler than a complete migration, but some non "
+"essential data may be lost, breaking the chain of traceability."
+msgstr ""
+"Cette procédure est plus simple qu'une migration complète, mais certaines "
+"données non essentielles peuvent être perdues, cassant la chaîne de "
+"traçabilité."
+
+#: ../../source/waptserver_update/migration13-16/migrationminima.rst:18
+msgid "backup the WAPT files in:"
+msgstr "sauvegarder les paquets WAPT présents dans :"
+
+#: ../../source/waptserver_update/migration13-16/migrationminima.rst:20
+msgid "Linux: :file:`/var/www/wapt/` or :file:`/var/www/html/wapt/`;"
+msgstr "Linux : :file:`/var/www/wapt/` ou :file:`/var/www/html/wapt/` ;"
+
+#: ../../source/waptserver_update/migration13-16/migrationminima.rst:22
+msgid "Windows: :file:`C:\\wapt\\waptserver\\repository\\wapt`;"
+msgstr "Windows : :file:`C:\\wapt\\waptserver\\repository\\wapt` ;"
+
+#: ../../source/waptserver_update/migration13-16/migrationminima.rst:25
+msgid "Installing and re-importing the WAPT packages"
+msgstr "Installer WAPT et réimporter les paquets"
+
+#: ../../source/waptserver_update/migration13-16/migrationminima.rst:27
+msgid ""
+"If you are using a Windows based WAPT Server in 1.3.13, you must uninstall "
+"your 1.3.13 version before installing the 1.6 version."
+msgstr ""
+"Si vous venez d'une version Windows 1.3.13 de WAPT, vous devez déinstaller "
+"la version 1.3.13 avant d'installer la version 1.6."
+
+#: ../../source/waptserver_update/migration13-16/migrationminima.rst:30
+msgid ""
+"You may now follow the same procedure to do a :ref:`normal installation of "
+"the WAPT Server <installing_WAPT_Server>`."
+msgstr ""
+"Vous pouvez maintenant suivre la procédure d'installation normale pour :"
+"ref:`installer un serveur WAPT <installing_WAPT_Server>`."
+
+#: ../../source/waptserver_update/migration13-16/migrationminima.rst:33
+msgid ""
+"The WAPT Server must have the same DNS name as the previous WAPT Server "
+"(or the same IP if your WAPT agents find their WAPT Server using its IP "
+"address)."
+msgstr ""
+"Le serveur WAPT doit répondre au même nom DNS que l'ancienne installation "
+"(avoir la même IP si vos agents fonctionnent par IP)."
+
+#: ../../source/waptserver_update/migration13-16/migrationminima.rst:39
+msgid ""
+"If you want the :program:`waptupgrade` package to work, you will have to "
+"follow the procedure :ref:`to generate the necessary keys <key-"
+"regenerate>`."
+msgstr ""
+"Si vous voulez que le paquet **waptupgrade fonctionne**, il vous faudra "
+"suivre la procédure pour :ref:`regénérer les clés <key-regenerate>`."
+
+#: ../../source/waptserver_update/migration13-16/migrationminima.rst:43
+msgid "Stop at the section on **re-signing the packages on the repository**."
+msgstr "Arrêter vous à la section **Re-signer les paquets du dépôt**."
+
+#: ../../source/waptserver_update/migration13-16/migrationminima.rst:45
+msgid ""
+"Once the installation has finished, you may re-import all the WAPT "
+"packages that were saved using the :guilabel:`Import from file` button in "
+"the :guilabel:`Private repository` tab."
+msgstr ""
+"Une fois l'installation terminée, vous pouvez ré-importer tous les paquets "
+"WAPT sauvegardés avec :guilabel:`Importer depuis un fichiers` dans "
+"l'onglet :guilabel:`Dépôt Privé`."
+
+#: ../../source/waptserver_update/migration13-16/migrationminima.rst:49
+msgid "This operation will re-sign all the WAPT packages."
+msgstr "Cette opération va re-signer tous les paquets."
+
+#: ../../source/waptserver_update/migration13-16/migrationminima.rst:52
+msgid "Installing the new WAPT agent 1.6 on your computers"
+msgstr "Installer le nouvel agent WAPT 1.6 sur les postes"
+
+#: ../../source/waptserver_update/migration13-16/migrationminima.rst:54
+msgid ""
+":ref:`recreate the WAPT agent <create_WAPT_agent>`, which will "
+"automatically upload the :program:`waptupgrade` package;"
+msgstr ""
+"relancer maintenant la :ref:`create_WAPT_agent` ce qui uploadera "
+"automatiquement un paquet **waptupgrade** ;"
+
+#: ../../source/waptserver_update/migration13-16/migrationminima.rst:57
+msgid ""
+"then, :ref:`update the GPO for deploying the WAPT agent "
+"<install_waptagent>`;"
+msgstr ""
+"puis vous pouvez mettre à jour la Stratégie de Groupe de Déploiement de "
+"l'agent WAPT en suivant la procédure pour :ref:`déployer les agents WAPT "
+"<install_waptagent>` ;"
+
+#: ../../source/waptserver_update/migration13-16/migrationminima.rst:59
+msgid ""
+"the :program:`waptupgrade` package will then automatically install on the "
+"computers that already had the package and finally, the WAPT agent will "
+"automatically upgrade when the computer shuts down;"
+msgstr ""
+"le paquet :program:`waptupgrade` s'installera ensuite automatiquement sur "
+"les poste qui l'avait déjà et l'agent WAPT se mettra à jour "
+"automatiquement à l'arrêt du poste ;"
+
+#~ msgid "Backuping WAPT"
+#~ msgstr "Sauvegarde"
+
+#~ msgid ""
+#~ "Choosing to migrate more simlply from WAPT 1.3 to 1.5, but with the "
+#~ "loss of some data"
+#~ msgstr ""
+#~ "Choisir de migrer plus simplement de WAPT 1.3 à 1.5 mais en choisissant "
+#~ "de perdre quelques données"

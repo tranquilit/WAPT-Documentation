@@ -1,0 +1,204 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WAPT 1.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-07 09:39+0100\n"
+"PO-Revision-Date: 2018-11-07 14:02+0100\n"
+"Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
+"Language: fr\n"
+"Language-Team: Tranquil IT <contact@tranquil.it>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 1.8.8\n"
+
+#: ../../source/wapt_server_install/index.rst:8
+#: ../../source/wapt_server_install/index.rst:15
+msgid "Installing the WAPT Server"
+msgstr "Installer le serveur WAPT"
+
+#: ../../source/wapt_server_install/index.rst:8
+msgid "install, WAPT, documentation"
+msgstr "installer, WAPT, documentation"
+
+#: ../../source/wapt_server_install/index.rst:17
+msgid "The WAPT Server can be installed on Debian Linux, CentOS or Microsoft Windows **64 bits only**."
+msgstr "Le serveur WAPT s'installe sur Linux Debian, Linux CentOS / RedHat ou Microsoft Windows **64bit uniquement**."
+
+#: ../../source/wapt_server_install/index.rst:21
+msgid "Installation tips and requirements"
+msgstr "Préconisations d'installation"
+
+#: ../../source/wapt_server_install/index.rst:23
+msgid "You have to take into consideration a few security points in order to get all the benefits of WAPT:"
+msgstr "Quelques considérations de sécurité sont à prendre en compte afin de garantir un fonctionnement optimal de WAPT :"
+
+#: ../../source/wapt_server_install/index.rst:26
+msgid "we advise you to install WAPT Server on a Linux server (Debian or CentOS) following the security recommendations of French :term:`ANSSI` or the `recommendations of your state cyberdefense agency <https://www.ssi.gouv.fr/uploads/2015/10/NP_Linux_Configuration.pdf>`_."
+msgstr "nous vous conseillons d'installer le serveur WAPT sur un serveur Linux (Debian ou CentOS) en suivant les recommandations de sécurité de l':term:`ANSSI` ou les `recommandations de votre agence nationale de cyberdéfense <https://www.ssi.gouv.fr/uploads/2015/10/NP_Linux_Configuration.pdf>`_."
+
+#: ../../source/wapt_server_install/index.rst:31
+msgid "the WAPT Server must be installed on a **dedicated machine** (physical or virtual);"
+msgstr "l'installation d'un serveur WAPT doit être réalisée sur un serveur **réservé uniquement à cet usage** ;"
+
+#: ../../source/wapt_server_install/index.rst:36
+msgid "In all steps of the documentation, you will not use any accent or special character for:"
+msgstr "Dans toutes les étapes de la documentation, vous n'utiliserez aucun accent ni caractère spécial pour :"
+
+#: ../../source/wapt_server_install/index.rst:39
+msgid "user logins;"
+msgstr "le login des utilisateurs ;"
+
+#: ../../source/wapt_server_install/index.rst:41
+msgid "path to the private key and the certificate bundle;"
+msgstr "le chemin de la clé privée et du certificat ;"
+
+#: ../../source/wapt_server_install/index.rst:43
+msgid "the :abbr:`CN (Common Name)`;"
+msgstr "le :abbr:`CN (Common Name)` ;"
+
+#: ../../source/wapt_server_install/index.rst:45
+msgid "the installation path for WAPT;"
+msgstr "le chemin d'installation de WAPT ;"
+
+#: ../../source/wapt_server_install/index.rst:47
+msgid "group names;"
+msgstr "le noms de groupes ;"
+
+#: ../../source/wapt_server_install/index.rst:49
+msgid "the name of hosts or the the name of the server;"
+msgstr "le nom des machines et du serveur ;"
+
+#: ../../source/wapt_server_install/index.rst:51
+msgid "the path to the folder :file:`C:\\waptdev`;"
+msgstr "le chemin du répertoire :file:`C:\\waptdev` ;"
+
+#: ../../source/wapt_server_install/index.rst:54
+msgid "Hardware recommendations"
+msgstr "Préconisations matérielles"
+
+#: ../../source/wapt_server_install/index.rst:56
+msgid "The WAPT Server can be installed either on a virtual server or a physical server."
+msgstr "WAPT s'installe dans une machine virtuelle ou directement sur une machine physique."
+
+#: ../../source/wapt_server_install/index.rst:59
+msgid "RAM and CPU recommandations are:"
+msgstr "Les préconisation RAM et CPU pour le serveur WAPT sont :"
+
+#: ../../source/wapt_server_install/index.rst:64
+msgid "Size of the network"
+msgstr "Taille de parc"
+
+#: ../../source/wapt_server_install/index.rst:64
+msgid "CPU"
+msgstr "CPU"
+
+#: ../../source/wapt_server_install/index.rst:64
+msgid "RAM"
+msgstr "RAM"
+
+#: ../../source/wapt_server_install/index.rst:66
+msgid "From 0 to 200 desktops"
+msgstr "De 0 a 200 postes"
+
+#: ../../source/wapt_server_install/index.rst:66
+msgid "1 CPU"
+msgstr "1 CPU"
+
+#: ../../source/wapt_server_install/index.rst:66
+msgid "1024MB"
+msgstr "1024MB"
+
+#: ../../source/wapt_server_install/index.rst:67
+msgid "From 200 desktops onward"
+msgstr "A partir de 200 postes"
+
+#: ../../source/wapt_server_install/index.rst:67
+msgid "4 CPU"
+msgstr "4 CPU"
+
+#: ../../source/wapt_server_install/index.rst:67
+msgid "4096Mo"
+msgstr "4096Mo"
+
+#: ../../source/wapt_server_install/index.rst:70
+msgid "A minimum of 10GB of free space is necessary for the system, the database and log files."
+msgstr "Un minimum de 10 Go d'espace disque est nécessaire pour le système, la base de données et les logs."
+
+#: ../../source/wapt_server_install/index.rst:73
+msgid "The overall disk requirement will depend on the number and size of your WAPT packages (softwares) that you will store on your main repository; 30GB is a good start."
+msgstr "L'espace disque va ensuite varier en fonction de la quantité de paquets WAPT (logiciels et versions de logiciels) que vous allez vouloir stocker dans votre dépôt principal ; 30 Go est un minimum recommandable."
+
+#: ../../source/wapt_server_install/index.rst:78
+msgid "DNS configuration"
+msgstr "Paramétrage DNS"
+
+#: ../../source/wapt_server_install/index.rst:86
+msgid "Install on Debian Linux"
+msgstr "Installer sur Linux Debian"
+
+#: ../../source/wapt_server_install/index.rst:105
+msgid "Install on Microsoft Windows"
+msgstr "Installer sur Microsoft Windows"
+
+#: ../../source/wapt_server_install/index.rst:114
+msgid "Authenticating WAPT Administrators against Active Directory"
+msgstr "Authentifier les Administrateurs avec Active Directory"
+
+#: ../../source/wapt_server_install/index.rst:118
+msgid "This feature is only available in WAPT **Enterprise**."
+msgstr "Cette option est disponible en version **Enterprise** uniquement."
+
+#~ msgid ""
+#~ "we advise you to install WAPT "
+#~ "Server on a Linux server (Debian "
+#~ "or Centos) following the security "
+#~ "recommandation of French :term:`ANSSI` or "
+#~ "the recommandations of your local "
+#~ "security agency: `Recommandations de "
+#~ "configuration d’un système GNU / Linux"
+#~ " "
+#~ "<https://www.ssi.gouv.fr/uploads/2015/10/NP_Linux_Configuration.pdf>`_."
+#~ msgstr ""
+#~ "nous préconisons l'installation de WAPT "
+#~ "Server sur Linux (Debian ou CentOS), "
+#~ "configuré selon les recommandations "
+#~ ":term:`ANSSI` : `Recommandations de configuration"
+#~ " d'un système GNU/Linux  "
+#~ "<https://www.ssi.gouv.fr/uploads/2015/10/NP_Linux_Configuration.pdf>`_ ;"
+
+#~ msgid "1 CPU core"
+#~ msgstr "2 CPU"
+
+#~ msgid "1024MB"
+#~ msgstr "1024Mo"
+
+#~ msgid "4 CPU core"
+#~ msgstr "4 CPU"
+
+#~ msgid "4096Mo"
+#~ msgstr "4096Mo"
+
+#~ msgid "Install on CentOS / RedHat Linux"
+#~ msgstr "Installer sur Linux CentOS / Redhat"
+
+#~ msgid "WAPT Installation and Configuration"
+#~ msgstr "Installation et Configuration de WAPT"
+
+#~ msgid "2048MB"
+#~ msgstr "2048Mo"
+
+#~ msgid "Installing on Debian Linux"
+#~ msgstr "Linux Debian"
+
+#~ msgid "Installing on Centos / Redhat Linux"
+#~ msgstr "Linux CentOS / Redhat"
+
+#~ msgid "core  1024MB"
+#~ msgstr "1024MB"
+
+#~ msgid "core  4096Mo"
+#~ msgstr "4096Mo"

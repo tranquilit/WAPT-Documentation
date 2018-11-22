@@ -1,0 +1,229 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WAPT 1.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-06 17:21+0100\n"
+"PO-Revision-Date: 2018-11-07 10:17+0100\n"
+"Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
+"Language: fr\n"
+"Language-Team: Tranquil IT <contact@tranquil.it>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 1.8.8\n"
+
+#: ../../source/waptserver_backup.rst:8 ../../source/waptserver_backup.rst:14
+msgid "Backing up the WAPT Server"
+msgstr "Sauvegarder et restaurer le serveur WAPT"
+
+#: ../../source/waptserver_backup.rst:8
+msgid ""
+"backup, restore, server, WAPT, PostgreSQL, pg_dumpall, FastCopy, WinSCP, "
+"documentation"
+msgstr ""
+"Sauvegarder, Restaurer, serveur, WAPT, PostgreSQL, pg_dumpall, FastCopy, "
+"WinSCP"
+
+#: ../../source/waptserver_backup.rst:17
+msgid "Backing up the WAPT Server on Linux"
+msgstr "Sauvegarder le serveur WAPT sur Linux"
+
+#: ../../source/waptserver_backup.rst:21
+msgid "This procedure is valid for WAPT 1.5 and above."
+msgstr "Cette procédure n'est valable que pour WAPT 1.5 et supérieure."
+
+#: ../../source/waptserver_backup.rst:23 ../../source/waptserver_backup.rst:63
+#: ../../source/waptserver_backup.rst:121
+#: ../../source/waptserver_backup.rst:159
+msgid "stop WAPT related services on the server;"
+msgstr "stopper les services liés à WAPT sur la machine ;"
+
+#: ../../source/waptserver_backup.rst:31
+msgid ""
+"backup these directories using a backup tool (ex: :program:`rsync`, :program:"
+"`WInSCP`, etc..);"
+msgstr ""
+"sauvegarder les répertoires suivants à l'aide d'un outil de sauvegarde "
+"(ex : :program:`rsync` ou :program:`WinSCP`) ;"
+
+#: ../../source/waptserver_backup.rst:42
+msgid ""
+"backup the PostgreSQL database using the :program:`pg_dumpall` utility "
+"(adapt filename with your requirements);"
+msgstr ""
+"sauvegarder la base PostgreSQL à l'aide de l'outil :program:`pg_dumpall` "
+"(adapter le nom du fichier et la date) ;"
+
+#: ../../source/waptserver_backup.rst:49 ../../source/waptserver_backup.rst:106
+#: ../../source/waptserver_backup.rst:147
+#: ../../source/waptserver_backup.rst:174
+msgid "restart WAPT related services on the server;"
+msgstr "relancer les services liés à WAPT sur la machine ;"
+
+#: ../../source/waptserver_backup.rst:58
+msgid "Restoring the WAPT Server on Linux"
+msgstr "Restaurer le serveur WAPT sur Linux"
+
+#: ../../source/waptserver_backup.rst:60
+msgid ""
+"In case of a complete crash, restart a standard WAPT Server installation on "
+"a Linux server."
+msgstr ""
+"En cas de crash, relancer une installation standard du serveur WAPT pour "
+"Linux."
+
+#: ../../source/waptserver_backup.rst:71 ../../source/waptserver_backup.rst:168
+#: ../../source/waptserver_backup.rst:183
+msgid "restore the following directories:"
+msgstr "restaurer les répertoires :"
+
+#: ../../source/waptserver_backup.rst:81
+msgid ""
+"restore the database (adapt the name of your file). The first command "
+"**deletes** the WAPT database (if it exists). Make sure that your dump file "
+"is correct before deleting!"
+msgstr ""
+"restaurer la base de données (adapter votre nom de fichier). La première "
+"commande **supprime** ci-dessous la base WAPT (si elle existe), vérifier que "
+"votre dump est correct avant de la supprimer :"
+
+#: ../../source/waptserver_backup.rst:90
+msgid "apply ownership rights to the restored folders:"
+msgstr "appliquer les droits sur les répertoires restaurés :"
+
+#: ../../source/waptserver_backup.rst:100
+msgid "scan package repositories;"
+msgstr "scanner les répertoires de paquets :"
+
+#: ../../source/waptserver_backup.rst:115
+msgid "Backing up the WAPT Server on Windows"
+msgstr "Sauvegarder le serveur WAPT sur Windows"
+
+#: ../../source/waptserver_backup.rst:119
+msgid "Obsolete in WAPT 1.5"
+msgstr "Obsolète pour WAPT 1.5"
+
+#: ../../source/waptserver_backup.rst:129
+msgid ""
+"backup the WAPT root folder :file:`C:\\Program Files (x86)\\wapt` on a "
+"remote backup destination;"
+msgstr ""
+"sauvegarder le dossier WAPT racine :file:`C:\\Program Files (x86)\\wapt` sur "
+"un support externe :"
+
+#: ../../source/waptserver_backup.rst:132
+msgid "**Exemple**: backup on an external hard disk drive :file:`W:`"
+msgstr "**Exemple** : sauvegarde sur un disque externe :file:`W:`"
+
+#: ../../source/waptserver_backup.rst:134
+msgid ""
+"We use :program:`FastCopy` software, available in the Tranquil IT WAPT store:"
+msgstr ""
+"On utilise le logiciel :program:`FastCopy`, disponible dans les dépôts WAPT:"
+
+#: ../../source/waptserver_backup.rst:137
+msgid ""
+"We advise you to use :program:`FastCopy` software, available on `Tranquil IT "
+"repository <https://store.wapt.fr/>`_:"
+msgstr ""
+"Nous vous conseillons d'utiliser le paquet :program:`FastCopy` disponible "
+"sur le `store Tranquil IT <https://store.wapt.fr/>`_:"
+
+#: ../../source/waptserver_backup.rst:144
+msgid ""
+"Using the GUI interface of :program:`FastCopy`, make sure to check the :"
+"guilabel:`ACL` checkbox."
+msgstr ""
+"Avec le logiciel :program:`FastCopy` en interface graphique, veillez à bien "
+"cocher la case :guilabel:`ACL`."
+
+#: ../../source/waptserver_backup.rst:157
+msgid "Restoring the WAPT Server on Windows"
+msgstr "Restaurer le serveur WAPT sur Windows"
+
+#~ msgid "Complete backup"
+#~ msgstr "Sauvegarde Complète"
+
+#~ msgid "Stop services related to the WAPT Server"
+#~ msgstr "Arrêter l'exécution des services liés a WAPT serveur"
+
+#~ msgid "Restart WAPT related services."
+#~ msgstr "Relancer les services liés a WAPT serveur"
+
+#~ msgid "Complete restoration"
+#~ msgstr "Restauration complète"
+
+#~ msgid "Launch the following commands:"
+#~ msgstr "Lancez ensuite les commandes:"
+
+#~ msgid "WAPT Server related services"
+#~ msgstr "Arrêt des services liés au serveur WAPT"
+
+#~ msgid ""
+#~ "If you want to restore to a previous state where you can make a recovery "
+#~ "of every file from your WAPT Server:"
+#~ msgstr ""
+#~ "Si on souhaite rétablir un état initial vous pouvez restaurer l'ensemble "
+#~ "des fichiers du serveur WAPT :"
+
+#~ msgid "files;"
+#~ msgstr "Fichiers"
+
+#~ msgid "configuration files;"
+#~ msgstr "Fichiers de configuration"
+
+#~ msgid "database;"
+#~ msgstr "Base de données"
+
+#~ msgid "application packages;"
+#~ msgstr "Paquets applicatifs"
+
+#~ msgid "host packages;"
+#~ msgstr "Paquets machines"
+
+#~ msgid "group packages;"
+#~ msgstr "Paquets groupes"
+
+#~ msgid "For that purpose the reverse procedure is applied"
+#~ msgstr "Pour cela on effectue la démarche inverse de la sauvegarde"
+
+#~ msgid "Restore WAPT Server files from the external backup folder (W:)"
+#~ msgstr ""
+#~ "Restauration des fichiers du serveur WAPT depuis un emplacement de "
+#~ "sauvegarde (W:)"
+
+#~ msgid "Minimum repository backup/restore"
+#~ msgstr "Sauvegarde/Restauration à minima du repository"
+
+#~ msgid ""
+#~ "Packages are located in the :file:`C:\\Program Files (x86)\\wapt"
+#~ "\\waptserver\repository\\` directory."
+#~ msgstr ""
+#~ "L'ensemble des paquets sont contenus dans le dossier :file:`C:\\Program "
+#~ "Files\\wapt\\waptserver\repository\\`."
+
+#~ msgid ""
+#~ "In case of a complete server crash, recovering the repository will "
+#~ "suffice to bring back the WAPT Server to a normal operating state, "
+#~ "according the new server has been configured the same way as the crashed "
+#~ "server (same prefix)."
+#~ msgstr ""
+#~ "En cas de crash serveur, la restauration du repository suffit a retrouver "
+#~ "un fonctionnement normal de WAPT, sur une nouvelle installation à "
+#~ "l'identique de la précédente (même préfixe)"
+
+#~ msgid "Minimal backup"
+#~ msgstr "Sauvegarde minimale"
+
+#~ msgid "Minimal recovery"
+#~ msgstr "Restauration minimale"
+
+#~ msgid ""
+#~ "On a fresh installation, with the same configuration (prefix), the "
+#~ "procedure for recovering will be that in reverse order of backuping"
+#~ msgstr ""
+#~ "Sur une installation neuve, avec les mêmes caractéristiques (préfixe), on "
+#~ "effectue la procédure inverse."

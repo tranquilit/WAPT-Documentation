@@ -1,0 +1,91 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WAPT 1.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-05 15:09+0100\n"
+"PO-Revision-Date: 2018-11-06 18:08+0100\n"
+"Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
+"Language: fr\n"
+"Language-Team: Tranquil IT <contact@tranquil.it>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 1.8.8\n"
+
+#: ../../source/wapt_usage/command_line_interface/index.rst:8
+#: ../../source/wapt_usage/command_line_interface/index.rst:15
+msgid "Using WAPT with the Command Line"
+msgstr "Utiliser WAPT en ligne de commande"
+
+#: ../../source/wapt_usage/command_line_interface/index.rst:8
+msgid "command line, WAPT, CLI, documentation"
+msgstr ""
+"ligne de commande, WAPT, CLI, command line, invite de commande Windows, "
+"documentation"
+
+#: ../../source/wapt_usage/command_line_interface/index.rst:17
+msgid ""
+"The WAPT agent provides a command line interface utility :program:`wapt-get`."
+msgstr ""
+"L'agent WAPT installé permet l'utilisation de WAPT en ligne de commande à "
+"l'aide du programme :program:`wapt-get`."
+
+#: ../../source/wapt_usage/command_line_interface/index.rst:23
+msgid "The Windows Command Line utility"
+msgstr "Invite de commande Windows"
+
+#: ../../source/wapt_usage/command_line_interface/index.rst:27
+msgid ""
+"by default, command-line actions in WAPT are executed with the rights of the "
+"user who launched the :program:`cmd.exe`;"
+msgstr ""
+"par défaut la ligne de commande va essayer d'effectuer les actions demandées "
+"avec le compte qui a lancé la console :program:`cmd.exe` ;"
+
+#: ../../source/wapt_usage/command_line_interface/index.rst:30
+msgid ""
+"if the :term:`User` is not a :term:`Local Administrator` or if the :program:"
+"`cmd.exe` has not been launched with :term:`Local Administrator` privileges, "
+"the command will be passed on to the :program:`waptservice`;"
+msgstr ""
+"si l':term:`Utilisateur` n'est pas un :term:`Administrateur Local` ou si le :"
+"program:`cmd.exe` n'a pas été lancé avec les droits :term:`Administrateur "
+"Local`, la commande sera passée au :program:`waptservice` ;"
+
+#: ../../source/wapt_usage/command_line_interface/index.rst:34
+msgid "for security reasons, some actions will require a login and a password;"
+msgstr ""
+"par sécurité, certaines actions demandent un identifiant et un mot de passe ;"
+
+#: ../../source/wapt_usage/command_line_interface/index.rst:36
+msgid ""
+"only :term:`Local Administrators` and members of the *waptselfservice* "
+"Active Directory security group are allowed;"
+msgstr ""
+"seuls les membres du groupe :term:`Administrateur Local` de la machine et "
+"les membres du groupe de sécurité *waptselfservice* de l'Active Directory "
+"sont autorisés ;"
+
+#: ../../source/wapt_usage/command_line_interface/index.rst:39
+msgid ""
+"to force using the WAPT service as a :term:`Local Administrator`, simply add "
+"*-S* after :command:`wapt-get.exe`;"
+msgstr ""
+"pour forcer le passage par le service WAPT en tant qu':term:`Administrateur "
+"Local`, ajouter simplement *-S* après :command:`wapt-get` ;"
+
+#~ msgid ""
+#~ "by default, command-line actions in WAPT are executed with the rights of "
+#~ "the user who launched the ``cmd.exe``;"
+#~ msgstr "avec le compte qui a lancé la console :program:`cmd.exe` ;"
+
+#~ msgid ""
+#~ "if the user is not a Local :term:`Administrator` of the computer or if "
+#~ "the command-line interface has not been launched with administrator "
+#~ "priviledges, WAPT will relay the command to the WAPT service;"
+#~ msgstr ""
+#~ "si l'utilisateur n'est pas un :term:`Administrateur Local` ou si le :"
+#~ "program:`cmd.exe`"

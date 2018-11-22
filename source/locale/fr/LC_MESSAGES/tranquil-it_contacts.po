@@ -1,0 +1,65 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WAPT 1.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-05 15:09+0100\n"
+"PO-Revision-Date: 2018-11-02 18:27+0200\n"
+"Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
+"Language: fr\n"
+"Language-Team: Tranquil IT <contact@tranquil.it>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/tranquil-it_contacts.rst:8
+#: ../../source/tranquil-it_contacts.rst:16
+msgid "Contacting Tranquil IT"
+msgstr "Contacter l'éditeur de WAPT"
+
+#: ../../source/tranquil-it_contacts.rst:8
+msgid ""
+"WAPT, documentation, website, editor, Twitter, Linkedin, Viadeo, Forum, "
+"Mailing List, official website"
+msgstr ""
+"WAPT, documentation, site internet, site web, éditeur, Twitter, Linkedin,"
+" Viadeo, Forum, Liste de diffusion, Mailing List, site officiel"
+
+#: ../../source/tranquil-it_contacts.rst:18
+msgid "Contact us for more informations:"
+msgstr "Contactez-nous pour plus d'informations :"
+
+#: ../../source/tranquil-it_contacts.rst:20
+msgid "Tranquil IT: https://www.tranquil.it/"
+msgstr "Tranquil IT : https://www.tranquil.it/"
+
+#: ../../source/tranquil-it_contacts.rst:21
+msgid "WAPT: https://www.wapt.fr"
+msgstr "WAPT : https://www.wapt.fr"
+
+#: ../../source/tranquil-it_contacts.rst:22
+msgid "Twitter: https://twitter.com/tranquil_it"
+msgstr "Twitter : https://twitter.com/tranquil_it"
+
+#: ../../source/tranquil-it_contacts.rst:23
+#: ../../source/tranquil-it_contacts.rst:25
+msgid "Viadeo: https://www.viadeo.com/fr/company/tranquil-it-systems/"
+msgstr "Youtube : https://www.youtube.com/c/tranquil-it-systems"
+
+#: ../../source/tranquil-it_contacts.rst:24
+msgid "Linkedin: https://www.linkedin.com/company/tranquil-it-systems"
+msgstr "Linkedin : https://www.linkedin.com/company/tranquil-it-systems"
+
+#: ../../source/tranquil-it_contacts.rst:26
+msgid "Forum: https://forum.tranquil.it/"
+msgstr "Forum : https://forum.tranquil.it/"
+
+#: ../../source/tranquil-it_contacts.rst:27
+msgid "Mailing-list: http://lists.tranquil.it/listinfo/wapt"
+msgstr "Liste de diffusion : https://lists.tranquil.it/listinfo/wapt"
+
+#~ msgid "Contacts"
+#~ msgstr "Contacts"
+

@@ -1,0 +1,388 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WAPT 1.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-05 15:09+0100\n"
+"PO-Revision-Date: 2018-11-08 10:17+0100\n"
+"Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
+"Language: fr\n"
+"Language-Team: Tranquil IT <contact@tranquil.it>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 1.8.8\n"
+
+#: ../../source/wapt_glossary.rst:8 ../../source/wapt_glossary.rst:17
+msgid "Glossary"
+msgstr "Glossaire"
+
+#: ../../source/wapt_glossary.rst:8
+msgid ""
+"Administrator, Local Administrateur, Package Deployer, Package Developer, "
+"ANSSI, DNS, FQDN, GPO, MMC, IDE, Setuphelpers, UUID"
+msgstr ""
+"Administrateur, Administrateur Local, ANSSI, DNS, FQDN, GPO, MMC, IDE, "
+"Setuphelpers, UUID"
+
+#: ../../source/wapt_glossary.rst:20
+msgid "Administrator"
+msgstr "Administrateur"
+
+#: ../../source/wapt_glossary.rst:21
+msgid "Administrators"
+msgstr "Administrateurs"
+
+#: ../../source/wapt_glossary.rst:22
+msgid "Package Developer"
+msgstr "Développeur de Paquets"
+
+#: ../../source/wapt_glossary.rst:23
+msgid "Package Developers"
+msgstr "Développeurs de Paquets"
+
+#: ../../source/wapt_glossary.rst:25
+msgid ""
+"In WAPT, an **Administrator** is a person with a **Code Signing** "
+"certificate that can sign packages, whether or not they contain python code "
+"or binary files, and upload the packages to the main repository."
+msgstr ""
+"Un **Administrateur** est un individu pouvant signer des paquets, qu'ils "
+"intègrent ou non du code python et les charger sur le dépôt principal."
+
+#: ../../source/wapt_glossary.rst:28
+msgid "Local Administrator"
+msgstr "Administrateur Local"
+
+#: ../../source/wapt_glossary.rst:29
+msgid "Local Administrators"
+msgstr "Administrateurs Locaux"
+
+#: ../../source/wapt_glossary.rst:31
+msgid ""
+"A **Local Administrator** is a person with administrative rights on "
+"computers managed with WAPT."
+msgstr ""
+"Un **Administrateur Local** est un utilisateur disposant des droits "
+"d'administration locaux sur les postes équipés de WAPT."
+
+#: ../../source/wapt_glossary.rst:33
+msgid "Package Deployer"
+msgstr "Déployeur de Paquets"
+
+#: ../../source/wapt_glossary.rst:34
+msgid "Package Deployers"
+msgstr "Déployeurs de Paquets"
+
+#: ../../source/wapt_glossary.rst:36
+msgid ""
+"A **Package Deployer** is a person that can create and sign WAPT packages "
+"that do not contain python code or binaries, eg. *host* and *group* "
+"packages, and upload them to the repository. They are typically members of "
+"local IT teams that have knowledge of specific user needs to be satisfied by "
+"deploying WAPT packages built by central IT teams."
+msgstr ""
+"Un **Gestionnaire de Déploiement** est un individu pouvant signer des "
+"paquets ne contenant pas de code python (en général les paquets de type "
+"*group*, *unit* et *host*) et les charger sur le dépôt principal. Il est "
+"typiquement un membre d'une équipe informatique locale qui une bonne "
+"connaissance des besoins des utilisateurs."
+
+#: ../../source/wapt_glossary.rst:41
+msgid "SuperAdmin"
+msgstr "SuperAdmin"
+
+#: ../../source/wapt_glossary.rst:43
+msgid ""
+"The **SuperAdmin** is a :term:`User` whose login and password are set during "
+"the post-configuration of the WAPT Server. In the Community version of WAPT, "
+"he is the unique :term:`Administrator` of WAPT."
+msgstr ""
+"Le **SuperAdmin** est l':term:`utilisateur` dont l'identifiant et le mot de "
+"passe est défini lors de la post-configuration du serveur WAPT. Dans la "
+"version WAPT Community, il est l'unique :term:`Administrateur` de WAPT."
+
+#: ../../source/wapt_glossary.rst:46
+msgid "User"
+msgstr "Utilisateur"
+
+#: ../../source/wapt_glossary.rst:47
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: ../../source/wapt_glossary.rst:49
+msgid ""
+"A **User** is an individual who uses a machine that is equipped with a WAPT "
+"agent (WAPT Enterprise and Community)."
+msgstr ""
+"Un **Utilisateur** est un individu qui utilise une machine équipée de "
+"l'agent WAPT (WAPT Enterprise et Community)."
+
+#: ../../source/wapt_glossary.rst:51
+msgid "Organization"
+msgstr "Organisation"
+
+#: ../../source/wapt_glossary.rst:52
+msgid "Organizations"
+msgstr "Organisations"
+
+#: ../../source/wapt_glossary.rst:54
+msgid ""
+"The **Organization** is the perimeter or responsibility within which WAPT is "
+"used."
+msgstr ""
+"L'**Organisation** correspond au périmètre de responsabilité dans lequel est "
+"exploitée la solution WAPT."
+
+#: ../../source/wapt_glossary.rst:56
+msgid "ANSSI"
+msgstr "ANSSI"
+
+#: ../../source/wapt_glossary.rst:58
+msgid ""
+"**Agence Nationale de la Sécurité des Systèmes d'Information** is a French "
+"service assuming Cyber Security for the French State and has a "
+"responsibility for counseling and helping government agencies and Critical "
+"Infrastructure Operators (OIV) with securing their IT systems."
+msgstr ""
+"**Agence Nationale de la Sécurité des Systèmes d'Information** est un "
+"service français en charge d'assurer la sécurité des informations sensibles "
+"de l'État Français et d'une mission de conseil et de soutien aux "
+"administrations et aux opérateurs d'importance vitale."
+
+#: ../../source/wapt_glossary.rst:62
+msgid "DNS"
+msgstr "DNS"
+
+#: ../../source/wapt_glossary.rst:64
+msgid ""
+"**Domain Name System** translates more readily memorized domain names to the "
+"numerical IP addresses needed for locating and identifying computer services "
+"and devices."
+msgstr ""
+"**Domain Name System** est un service permettant de traduire un nom de "
+"domaine en informations de plusieurs types qui y sont associées, notamment "
+"en adresses IP de la machine portant ce nom."
+
+#: ../../source/wapt_glossary.rst:67
+msgid "FQDN"
+msgstr "FQDN"
+
+#: ../../source/wapt_glossary.rst:69
+msgid ""
+"**Fully Qualified Domain Name** is a domain name that specifies its exact "
+"location in the tree hierarchy of the Domain Name System. It specifies all "
+"domain levels, including the top-level domain and the root zone. FQDN "
+"example: wapt.nantes.pdl.organisation.fr."
+msgstr ""
+"**Fully Qualified Domain Name** est un nom de domaine complètement qualifié. "
+"C'est la notation complète d'un nom de domaine qui révèle la position "
+"absolue de la machine dans l'arborescence DNS en indiquant tous les niveaux "
+"supérieurs jusqu'à la racine. Exemple de FQDN : wapt.nantes.pdl.organisation."
+"fr"
+
+#: ../../source/wapt_glossary.rst:73
+msgid "EPEL"
+msgstr "Epel"
+
+#: ../../source/wapt_glossary.rst:75
+msgid ""
+"**Extra Packages for Enterprise Linux** is an extra repository for CentOS "
+"and RedHat."
+msgstr ""
+"**Extra Packages for Enterprise Linux** est un dépôt additionel pour CentOS "
+"et RedHat"
+
+#: ../../source/wapt_glossary.rst:77
+msgid "GPO"
+msgstr "GPO"
+
+#: ../../source/wapt_glossary.rst:79
+msgid ""
+"**Group Policy Object** is a feature of the Microsoft Windows NT family of "
+"operating systems that controls the working environment of user accounts and "
+"computer accounts. Group Policy provides the centralized management and "
+"configuration of operating systems, applications, and users' settings in an "
+"Active Directory environment."
+msgstr ""
+"Les **Group Policy Object** ou **Objet de Stratégie de Groupe** sont des "
+"objets définissant des stratégies de sécurité dans un environment Windows. "
+"Les stratégies peuvent être définies localement à l'aide de ``gpedit.msc`` "
+"ou définies globalement en domaine Active Directory."
+
+#: ../../source/wapt_glossary.rst:84
+msgid "IDE"
+msgstr "IDE"
+
+#: ../../source/wapt_glossary.rst:86
+msgid ""
+"**Integrated Development Environment**  is a software application that "
+"provides comprehensive facilities to computer programmers for software "
+"development. An IDE normally consists of a source code editor, build "
+"automation tools and a debugger."
+msgstr ""
+"**Integrated Development Environment** (environment de développement "
+"intégré) est un ensemble d'outils qui augmente la productivité des "
+"développeurs logiciels. Un IDE permet notamment de débugguer ligne par ligne "
+"le code source d'un programme, d'éditer, compiler et exécuter dans une seule "
+"interface."
+
+#: ../../source/wapt_glossary.rst:90
+msgid "MMC"
+msgstr "MMC"
+
+#: ../../source/wapt_glossary.rst:92
+msgid ""
+"**Microsoft Management Console** is a component of Windows that provides "
+"system administrators and advanced users an interface for configuring and "
+"monitoring the system."
+msgstr ""
+"**Microsoft Management Console** est un gestionnaire de console virtuelle "
+"incorporé dans Microsoft Windows, qui sert de conteneur pour des interfaces "
+"graphiques de configuration."
+
+#: ../../source/wapt_glossary.rst:95
+msgid "NAT"
+msgstr "NAT"
+
+#: ../../source/wapt_glossary.rst:97
+msgid ""
+"**Network Address Translation** is a mechanism to allow computers from one "
+"network, usually with private IP addresses, to connect to another network, "
+"usually the Internet, using only one outgoing IP address of the NAT router."
+msgstr ""
+"**Network Address Translation** est un mécanisme qui permet à des machines "
+"disposant d'adresses qui font partie d'un intranet de communiquer avec le "
+"reste d'Internet en semblant utiliser des adresses externes uniques et "
+"routables, au travers d'un routeur."
+
+#: ../../source/wapt_glossary.rst:101
+msgid "Setuphelpers"
+msgstr "Setuphelpers"
+
+#: ../../source/wapt_glossary.rst:103
+msgid ""
+"**SetupHelpers** is a python library specifically designed for WAPT. It's "
+"main purpose is to provide a set of functions useful for package "
+"development, file and folder manipulation, shortcut creation, etc."
+msgstr ""
+"**Setuphelpers** est une librairie Python écrite spécialement pour WAPT. "
+"Elle contient un ensemble de fonctions et de variables utiles au "
+"développement de paquets, pour la manipulation de fichiers, création de "
+"raccourcis, etc."
+
+#: ../../source/wapt_glossary.rst:107
+msgid "SRV"
+msgstr "SRV"
+
+#: ../../source/wapt_glossary.rst:109
+msgid ""
+"A **Service Record** (SRV record) is a specification of data in the Domain "
+"Name System defining the location, i.e. the hostname and port number, of "
+"servers for specified services."
+msgstr ""
+"Le champ **SRV** permet de définir un serveur spécifique pour une "
+"application, notamment pour la répartition de charge."
+
+#: ../../source/wapt_glossary.rst:112
+msgid "virtualhost"
+msgstr "virtualhost"
+
+#: ../../source/wapt_glossary.rst:114
+msgid ""
+"**Virtual hosting** is a method for hosting multiple domain names (with "
+"separate handling of each name) on a single server (or pool of servers). "
+"This allows one server to share its resources, such as memory and processor "
+"cycles, without requiring all services provided to use the same host name. "
+"The term virtual hosting is usually used in reference to web servers but the "
+"principles do carry over to other Internet services."
+msgstr ""
+"En informatique, l'**hébergement virtuel** (de l'anglais virtual hosting "
+"abrégé **vhost**) est une méthode que les serveurs tels que serveurs Web "
+"utilisent pour accueillir plus d'un nom de domaine sur le même ordinateur, "
+"parfois sur la même adresse IP, tout en maintenant une gestion séparée de "
+"chacun de ces noms. Cela permet de partager les ressources du serveur, comme "
+"la mémoire et le processeur, sans nécessiter que tous les services fournis "
+"utilisent le même nom d'hôte."
+
+#: ../../source/wapt_glossary.rst:121
+msgid "Websocket"
+msgstr "Websocket"
+
+#: ../../source/wapt_glossary.rst:123
+msgid ""
+"**Websockets** is a network protocol extending HTTP protocol in order to "
+"allow bidirectional client-server socket using the TCP connexion to a web "
+"server."
+msgstr ""
+"**Websocket** est une couche applicative Web bidirectionnelle permettant la "
+"communication client-serveur en utilisant une connexion TCP."
+
+#: ../../source/wapt_glossary.rst:126
+msgid "UUID"
+msgstr "UUID"
+
+#: ../../source/wapt_glossary.rst:128
+msgid ""
+"**Universally Unique IDentifier** is a unique standard normalized identifier "
+"for practical purposes. In WAPT every computer is referred uniquely by its "
+"UUID. For more information see https://en.wikipedia.org/wiki/"
+"Universally_unique_identifier."
+msgstr ""
+"Un **UUID** est un identifiant normalisé et réputé unique ; ainsi un UUID "
+"dans le contexte de WAPT permet d'identifier de manière unique une machine. "
+"Pour en savoir plus, suivre https://en.wikipedia.org/wiki/"
+"Universally_unique_identifier."
+
+#: ../../source/wapt_glossary.rst:132
+msgid "CNAME field"
+msgstr "CNAME"
+
+#: ../../source/wapt_glossary.rst:134
+msgid "A **CNAME** DNS field is an alias name for another A :term:`DNS` field."
+msgstr ""
+"Un enregistrement **CNAME** ou enregistrement de nom canonique est un type "
+"d'enregistrement-ressource dans le Domain Name System (:term:`DNS`) qui "
+"spécifie que le nom de domaine est un alias d'un autre nom de domaine "
+"canonique."
+
+#: ../../source/wapt_glossary.rst:135
+msgid "A field"
+msgstr "champs A"
+
+#: ../../source/wapt_glossary.rst:137
+msgid ""
+"A **DNS A field** matches a name (generally the name of a machine) with an "
+"IP address."
+msgstr ""
+"Un **DNS champs A** met en relation un nom (en général le nom physique d'un "
+"serveur) avec une IP."
+
+#: ../../source/wapt_glossary.rst:139
+msgid "Certificate Authority"
+msgstr "Autorité de Certification"
+
+#: ../../source/wapt_glossary.rst:141
+msgid ""
+"An :abbr:`CA (Certificate Authority)` is a third party entity that vouches "
+"the identity of individuals or services exchanging information."
+msgstr ""
+"Une :abbr:`CA (Autorité de Certification)` est un tiers de confiance "
+"permettant d'authentifier l'identité des correspondants."
+
+#: ../../source/wapt_glossary.rst:143
+msgid "PKI"
+msgstr "PKI"
+
+#: ../../source/wapt_glossary.rst:145
+msgid ""
+"**Public Key Infrastructure** is a set of roles, policies, and procedures "
+"needed to create, manage, distribute, use, store, and revoke digital "
+"certificates and manage public-key encryption. The purpose of a PKI is to "
+"facilitate the secure electronic transfer of information."
+msgstr ""
+"**Public Key Infrastructure**, ou Infrastructure à Clés Publiques est un "
+"ensemble de composants physiques, de procédure humaines et de logiciels "
+"destiné à gérer les clés publiques des utilisateurs d'un système."

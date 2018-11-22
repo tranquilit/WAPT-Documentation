@@ -1,0 +1,41 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WAPT 1.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-02 14:24+0200\n"
+"PO-Revision-Date: 2018-11-02 18:27+0200\n"
+"Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
+"Language-Team: Tranquil IT <contact@tranquil.it>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 1.8.8\n"
+
+#: ../../source/PrincipesSecurite/index.rst:8
+#: ../../source/PrincipesSecurite/index.rst:13
+msgid "Security Principles"
+msgstr "Principes de sécurité de WAPT"
+
+#: ../../source/PrincipesSecurite/index.rst:8
+msgid "Cybersecurity, WAPT, documentation"
+msgstr "Cybersécurité, WAPT, documentation"
+
+#: ../../source/PrincipesSecurite/index.rst:20
+msgid "Here are documented the advanced security principles included in WAPT."
+msgstr ""
+"Sont documentés ici différents principes avancés de sécurité incorporés dans"
+" WAPT."
+
+#: ../../source/PrincipesSecurite/index.rst:22
+msgid ""
+"The reading of this portion of the documentation is not essential for your "
+"daily usage of WAPT; it is however recommended for you to better understand "
+"some architectural choices made by the developers of the software."
+msgstr ""
+"La lecture de cette documentation n'est pas indispensable pour utiliser WAPT"
+" ; elle est cependant recommandée pour vous permettre de mieux comprendre "
+"certains choix architecturaux."

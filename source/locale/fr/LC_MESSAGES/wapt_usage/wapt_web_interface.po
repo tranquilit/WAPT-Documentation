@@ -1,0 +1,175 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WAPT 1.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-05 15:09+0100\n"
+"PO-Revision-Date: 2018-11-07 14:01+0100\n"
+"Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
+"Language: fr\n"
+"Language-Team: Tranquil IT <contact@tranquil.it>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 1.8.8\n"
+
+#: ../../source/wapt_usage/wapt_web_interface.rst:8
+#: ../../source/wapt_usage/wapt_web_interface.rst:15
+msgid "Using the local web interface"
+msgstr "Utiliser l'interface web"
+
+#: ../../source/wapt_usage/wapt_web_interface.rst:8
+msgid "WAPT, interface web, documentation"
+msgstr "WAPT, interface web, documentation"
+
+#: ../../source/wapt_usage/wapt_web_interface.rst:17
+msgid ""
+"Users and Local Administrators may access informations and perform WAPT actions "
+"directly from the host by visiting http://localhost:8088."
+msgstr ""
+"L'utilisation locale de l'interface Web (http://localhost:8088) permet à "
+"l'utilisateur ou à l'administrateur d'accéder aux informations et "
+"fonctionnalités WAPT sur la machine."
+
+#: ../../source/wapt_usage/wapt_web_interface.rst:21
+msgid "Opening the WAPT web interface"
+msgstr "Ouverture de l'interface Web"
+
+#: ../../source/wapt_usage/wapt_web_interface.rst:23
+msgid ""
+"The WAPT web interface opens by :menuselection:`Right-clicking on the WAPT icon "
+"in the Windows notification tray --> View software status`."
+msgstr ""
+"L'interface Web s'ouvre en faisant :menuselection:`Clic-droit sur l'icône "
+"WAPTtray dans la barre des notifications --> Afficher le statut des logiciels`."
+
+#: ../../source/wapt_usage/wapt_web_interface.rst:26
+msgid ""
+"It is also accessible directly from a web browser by visiting http://"
+"localhost:8088."
+msgstr ""
+"On pourra y accéder également directement depuis un navigateur à l'adresse : "
+"http://localhost:8088."
+
+#: ../../source/wapt_usage/wapt_web_interface.rst:33
+msgid "WAPT web interface"
+msgstr "Ouverture de l'interface Web"
+
+#: ../../source/wapt_usage/wapt_web_interface.rst:40
+msgid "Description of the WAPT web interface"
+msgstr "Description de l'interface Web"
+
+#: ../../source/wapt_usage/wapt_web_interface.rst:42
+msgid "The WAPT agent web interface is composed of 4 tabs:"
+msgstr "L'interface Web de l'agent WAPT se décompose en 4 onglets :"
+
+#: ../../source/wapt_usage/wapt_web_interface.rst:44
+msgid ""
+"the :guilabel:`WAPT` tab that shows the status of the host and some system "
+"related informations;"
+msgstr ":guilabel:`Onglet WAPT` : statut de la machine et informations système ;"
+
+#: ../../source/wapt_usage/wapt_web_interface.rst:47
+msgid ""
+"the :guilabel:`Installed packages` tab that lists the packages that are "
+"installed on the host;"
+msgstr ""
+":guilabel:`Paquets installés` : liste des paquets présents sur la machine ;"
+
+#: ../../source/wapt_usage/wapt_web_interface.rst:50
+msgid ""
+"the :guilabel:`List of packages` that lists the WAPT packages available on "
+"registered repositories;"
+msgstr ""
+":guilabel:`Liste des paquets` : liste des paquets disponibles sur le dépôt "
+"local ;"
+
+#: ../../source/wapt_usage/wapt_web_interface.rst:53
+msgid ""
+"the :guilabel:`Tasks` that lists tasks in *pending*, *done* and *error* states;"
+msgstr ":guilabel:`Tâches` : liste des tâches en attente, réalisées et en erreur ;"
+
+#: ../../source/wapt_usage/wapt_web_interface.rst:57
+msgid "Available actions from the WAPT agent web interface"
+msgstr "Actions réalisables depuis l'interface Web"
+
+#: ../../source/wapt_usage/wapt_web_interface.rst:61
+msgid ""
+"viewing host information, updating and upgrading actions are available for every "
+"users;"
+msgstr ""
+"La consultation et les actions d':command:`update` et d':command:`upgrade` sont "
+"disponibles pour tous les utilisateurs ;"
+
+#: ../../source/wapt_usage/wapt_web_interface.rst:64
+msgid ""
+"Other actions need :term:`Local Administrator` rights; they are also available "
+"to users who are members of the *waptselfservice* Active Directory security "
+"group."
+msgstr ""
+"Le reste des actions nécessite des droits :term:`Administrateur Local` ; elles "
+"sont également accessibles aux membres du groupe de sécurité **waptselfservice** "
+"que vous aurez créé dans Active Directory ;"
+
+#: ../../source/wapt_usage/wapt_web_interface.rst:68
+msgid "Refreshing the list of available package:"
+msgstr "actualiser la liste des paquets disponibles :"
+
+#: ../../source/wapt_usage/wapt_web_interface.rst:70
+msgid "In the tab :menuselection:`List of packages --> Update available packages`."
+msgstr ""
+"Dans l'onglet :menuselection:`Liste des paquets --> Mettre à jour la liste des "
+"paquets disponibles`"
+
+#: ../../source/wapt_usage/wapt_web_interface.rst:72
+msgid "Installing a package:"
+msgstr "installer un paquet :"
+
+#: ../../source/wapt_usage/wapt_web_interface.rst:74
+msgid ""
+"In the tab :menuselection:`List of packages --> Install` the desired package."
+msgstr ""
+"Dans l'onglet :menuselection:`Liste des paquets --> Installer` en face du nom du "
+"paquet voulu."
+
+#: ../../source/wapt_usage/wapt_web_interface.rst:76
+msgid "clearing the cache:"
+msgstr "vider le cache des paquets :"
+
+#: ../../source/wapt_usage/wapt_web_interface.rst:78
+msgid "In the tab :menuselection:`List of packages --> Clear package cache`."
+msgstr ""
+"Dans l'onglet :menuselection:`Liste des paquets --> Vider le cache des paquets`."
+
+#~ msgid ""
+#~ "The WAPT web interface may be opened by clicking on the :guilabel:`WAPTtray "
+#~ "icon` in the Windows tray notification toolbar."
+#~ msgstr ""
+#~ "L'ouverture de l'interface Web peut se faire au moyen de l'icône en zone de "
+#~ "notification, wapttray."
+
+#~ msgid "Video:"
+#~ msgstr "Video :"
+
+#~ msgid "Description of each available actions from the WAPT agent web interface"
+#~ msgstr "Description de chaque action réalisable via l'interface Web"
+
+#~ msgid ""
+#~ "Refreshes the list of package available from authorized WAPT repositories."
+#~ msgstr ""
+#~ "Objectif : actualiser la liste des paquets disponibles depuis le dépôt local "
+#~ "WAPT."
+
+#~ msgid ""
+#~ "Installs the selected package on the host without creating a dependency on "
+#~ "the host package."
+#~ msgstr ""
+#~ "Objectif : installer un paquet momentanément sur la machine sans créer de "
+#~ "dépendance."
+
+#~ msgid "Deletes packages in cache (:file:`C:\\program File (x86)\\wapt\\cache`)"
+#~ msgstr ""
+#~ "Objectif : vider les paquets éventuellement restés en cache sur la machine ( :"
+#~ "file:`C:\\Program Files\\wapt\\cache` )"

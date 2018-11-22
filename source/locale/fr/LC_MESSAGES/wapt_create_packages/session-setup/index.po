@@ -1,0 +1,217 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WAPT 1.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-06 17:21+0100\n"
+"PO-Revision-Date: 2018-11-07 14:03+0100\n"
+"Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
+"Language: fr\n"
+"Language-Team: Tranquil IT <contact@tranquil.it>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 1.8.8\n"
+
+#: ../../source/wapt_create_packages/session-setup/index.rst:8
+msgid "Creating a WAPT package from the WAPT console"
+msgstr "Créer un paquet WAPT depuis la console"
+
+#: ../../source/wapt_create_packages/session-setup/index.rst:8
+msgid ""
+"session_setup, WAPT, customize, user context, desktop shortcuts, special "
+"arguments, configuration, configure, directory, database, documentation"
+msgstr ""
+"session_setup, WAPT, personnaliser, contexte utilisateur,             "
+"raccourcis, arguments spécifiques, configuration, configurer, annuaire, base "
+"de données"
+
+#: ../../source/wapt_create_packages/session-setup/index.rst:15
+msgid "Customizing the user environment"
+msgstr "Personnaliser l'environment utilisateur"
+
+#: ../../source/wapt_create_packages/session-setup/index.rst:18
+msgid "*session_setup* principles"
+msgstr "Principe du *session_setup*"
+
+#: ../../source/wapt_create_packages/session-setup/index.rst:20
+msgid ""
+"It is sometimes necessary to customize a software in user context to set "
+"specific settings or to comply to the Organization's rules and preferences:"
+msgstr ""
+"Il est parfois nécessaire de personnaliser un programme ou un logiciel en "
+"contexte utilisateur pour rendre le logiciel immédiatement exploitable par "
+"l'utilisateur dans le contexte spécifique de son entreprise ou du service au "
+"sein de son entreprise :"
+
+#: ../../source/wapt_create_packages/session-setup/index.rst:24
+msgid "creating user desktop shortcut with specific arguments;"
+msgstr ""
+"créer des raccourcis sur le bureau utilisateur avec des arguments "
+"spécifiques ;"
+
+#: ../../source/wapt_create_packages/session-setup/index.rst:26
+msgid "making changes to user Windows registry keys;"
+msgstr "modifier de clés registres utilisateurs ;"
+
+#: ../../source/wapt_create_packages/session-setup/index.rst:28
+msgid "making changes to files, to browser settings of the user;"
+msgstr "modifier des fichiers, une configuration de navigateur ;"
+
+#: ../../source/wapt_create_packages/session-setup/index.rst:30
+msgid ""
+"configuring shortcuts to the Organization's set of templates for Documents, "
+"Spreadsheets or Presentations in Office Suites to encourage or insure that "
+"editorial and graphical guidelines are followed;"
+msgstr ""
+"configurer des raccourcis réseaux aux modèles de documents de l'entreprise "
+"pour assurer la conformité des documents aux chartes éditoriales en vigueur ;"
+
+#: ../../source/wapt_create_packages/session-setup/index.rst:34
+msgid ""
+"setting up the user's email or instant messaging from the Organization's main "
+"user data repository (LDAP directory, database, etc);"
+msgstr ""
+"paramétrer la messagerie de l'utilisateur à partir d'un référentiel externe "
+"(annuaire, base de données, etc) ;"
+
+#: ../../source/wapt_create_packages/session-setup/index.rst:37
+msgid ""
+"customizing an office suite or business software based on the Organization's "
+"main user data repository (LDAP directory, database, etc);"
+msgstr ""
+"paramétrer un logiciel bureautique ou métier à partir d'un référentiel "
+"externe (annuaire, base de données, etc) ;"
+
+#: ../../source/wapt_create_packages/session-setup/index.rst:40
+msgid ""
+"The :command:`session_setup` function benefits from the power of python to "
+"achieve a high level of automation."
+msgstr ""
+"La fonction :command:`session_setup` bénéficie de toute la puissance et de "
+"l'étendue des librairies python pour atteindre un niveau d'automatisation "
+"élevé."
+
+#: ../../source/wapt_create_packages/session-setup/index.rst:44
+msgid "Principles of *session_setup*"
+msgstr "Fonctionnement du *session_setup*"
+
+#: ../../source/wapt_create_packages/session-setup/index.rst:46
+msgid ""
+"The WAPT :command:`session_setup` function executes at every user startup, "
+"launching that command:"
+msgstr ""
+"La fonction WAPT :command:`session_setup` s'exécute à chaque ouverture de "
+"session utilisateur, en appelant la commande :"
+
+#: ../../source/wapt_create_packages/session-setup/index.rst:53
+msgid ""
+"Calling that function executes the :command:`session_setup` script defined "
+"within each WAPT package installed on the computer."
+msgstr ""
+"L'appel à cette fonction permet d'exécuter la partie :command:`session_setup` "
+"de chaque paquet WAPT logiciel installé sur la machine."
+
+#: ../../source/wapt_create_packages/session-setup/index.rst:56
+msgid ""
+"The WAPT agent stores in its local database (:file:`C:\\Program Files "
+"(x86)\\wapt\\waptdb.sqlite`) the instruction sets of all WAPT packages."
+msgstr ""
+"WAPT enregistre en base locale les instructions de tous les paquets dans le "
+"fichier :file:`C:\\Program Files\\wapt\\waptdb.sqlite`."
+
+#: ../../source/wapt_create_packages/session-setup/index.rst:62
+msgid ""
+":command:`session_setup` is launched only **once per WAPT package version and "
+"per user**."
+msgstr ""
+"Le :command:`session_setup` de chaque paquet n'est exécuté qu'**une seule "
+"fois par paquet ou version de paquet et par profil utilisateur**."
+
+#: ../../source/wapt_create_packages/session-setup/index.rst:65
+msgid ""
+"The WAPT agent stores in is local :file:`%appdata%\\wapt\\waptsession.sqlite` "
+"database the instances of :command:`session_setup` that have been already "
+"been played."
+msgstr ""
+"Le :command:`session_setup` va enregistrer dans le fichier :file:`%appdata%\\"
+"\\wapt\\\\waptsession.sqlite` les :command:`session_setup` déjà exécutées."
+
+#: ../../source/wapt_create_packages/session-setup/index.rst:69
+msgid ""
+"To launch a program at every startup, consider using a startup script located "
+"in **User Startup** (*startup(0)*) or **All Users Startup** (*startup(1)*), "
+"or via a :abbr:`GPO (Group Policy Object)`."
+msgstr ""
+"Pour lancer un programme à chaque démarrage, il s'agira de privilégier "
+"l'utilisation d'un script au démarrage utilisateur contenu dans le "
+"**démarrage utilisateur** (*startup(0)*) ou **Démarrage All Users** "
+"(*startup(1)*), ou via une stratégie de groupe :abbr:`GPO (Group Policy "
+"Object)`."
+
+#: ../../source/wapt_create_packages/session-setup/index.rst:73
+msgid "Output example of :code:`wapt-get session-setup ALL`:"
+msgstr "Exemple de sortie de la commande :code:`wapt-get session-setup ALL` :"
+
+#: ../../source/wapt_create_packages/session-setup/index.rst:77
+msgid "the connected user's ``session_setup`` had already been launched."
+msgstr "le ``session_setup`` de l'utilisateur connecté, avait déjà été exécuté."
+
+#: ../../source/wapt_create_packages/session-setup/index.rst:91
+msgid "Using *session_setup*"
+msgstr "Utiliser le *session_setup*"
+
+#: ../../source/wapt_create_packages/session-setup/index.rst:93
+msgid ""
+"The :command`session_setup` scripts are located in the section *def "
+"session_setup()* of the :file:`setup.py` file:"
+msgstr ""
+"On définit la partie :command:`session_setup` dans le fichier :file:`setup."
+"py` du paquet dans une fonction *def session_setup()* :"
+
+#: ../../source/wapt_create_packages/session-setup/index.rst:96
+msgid "Example:"
+msgstr "Exemple :"
+
+#: ../../source/wapt_create_packages/session-setup/index.rst:105
+msgid ""
+"With :command:`session_setup`, there is no possibility to call files "
+"contained inside the WAPT package."
+msgstr ""
+"Avec :command:`session_setup`, il n'est pas possible de faire appel à des "
+"fichiers contenus dans le paquet."
+
+#: ../../source/wapt_create_packages/session-setup/index.rst:108
+msgid ""
+"To call external files when uninstalling, copy and paste the needed files in "
+"an external folder during the package installation process (example: a sub-"
+"directory created in the User's own directory)."
+msgstr ""
+"Pour utiliser des fichiers lors de la désinstallation, copier / coller les "
+"fichiers dans un répertoire extérieur au paquet lors de l'installation du "
+"paquet (exemple : un sous-répertoire créé à la racine du répertoire "
+"utilisateur)."
+
+#~ msgid ""
+#~ "setting up network drives, shortcuts to the Organization's directory of "
+#~ "document templates to ensure conformity with the Organization's standards;"
+#~ msgstr ""
+#~ "configurer des raccourcis réseaux aux modèles de documents de l'entreprise "
+#~ "pour assurer la conformité des documents aux chartes éditoriales en "
+#~ "vigueur ;"
+
+#~ msgid ""
+#~ "setting up user mail client with an external data source (directory, "
+#~ "database, etc);"
+#~ msgstr ""
+#~ "paramétrer la messagerie de l'utilisateur à partir d'un référentiel "
+#~ "externe (annuaire, base de données, etc) ;"
+
+#~ msgid ""
+#~ "setting up office or business software user preferences with an external "
+#~ "data source (directory, database, etc);"
+#~ msgstr ""
+#~ "paramétrer un logiciel bureautique ou métier à partir d'un référentiel "
+#~ "externe (annuaire, base de données, etc) ;"

@@ -1,0 +1,242 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WAPT 1.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-05 15:09+0100\n"
+"PO-Revision-Date: 2018-11-05 19:45+0100\n"
+"Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
+"Language: fr\n"
+"Language-Team: Tranquil IT <contact@tranquil.it>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 1.8.8\n"
+
+#: ../../source/wapt_create_packages/audit/index.rst:8
+#: ../../source/wapt_create_packages/audit/index.rst:13
+msgid "Creating an Audit package"
+msgstr "Créer un paquet Audit"
+
+#: ../../source/wapt_create_packages/audit/index.rst:8
+msgid "audit, WAPT, personalize"
+msgstr "audit, WAPT, personnaliser"
+
+#: ../../source/wapt_create_packages/audit/index.rst:17
+msgid "This feature is available in the **Enterprise** version."
+msgstr "Cette fonctionnalité est disponible dans la version **Entreprise**."
+
+#: ../../source/wapt_create_packages/audit/index.rst:20
+msgid "Principle of audit"
+msgstr "Principe de l'audit"
+
+#: ../../source/wapt_create_packages/audit/index.rst:22
+msgid ""
+"The audit function allows to make regular checks to desktop configurations and "
+"to centralize the results of these checks in the WAPT console. This feature "
+"allows you to ascertain that your installed base of machines matches your set "
+"of conformity rules over time."
+msgstr ""
+"L'audit permet d'effectuer des vérifications régulières sur les configurations "
+"des postes et de centraliser le résultat des vérifications dans la console "
+"WAPT. Ceci permet de vérifier que votre parc est conforme à votre référentiel "
+"sur la durée."
+
+#: ../../source/wapt_create_packages/audit/index.rst:27
+msgid "For example you can:"
+msgstr "Vous pouvez par exemple :"
+
+#: ../../source/wapt_create_packages/audit/index.rst:29
+msgid "regularly check the list of local administrators on the desktops;"
+msgstr "vérifier régulièrement la liste des administrateurs locaux des postes ;"
+
+#: ../../source/wapt_create_packages/audit/index.rst:31
+msgid "ascertain over time the correct configuration of a critical software;"
+msgstr "vérifier régulièrement la bonne configuration d'un logiciel ;"
+
+#: ../../source/wapt_create_packages/audit/index.rst:33
+msgid ""
+"regularly check the presence of the correct version of a piece of software;"
+msgstr "vérifier régulièrement la présence de la bonne version d'un logiciel ;"
+
+#: ../../source/wapt_create_packages/audit/index.rst:35
+msgid "ascertain the security settings of a workstation;"
+msgstr "vérifier régulièrement les configurations de sécurité d'un poste ;"
+
+#: ../../source/wapt_create_packages/audit/index.rst:37
+msgid ""
+"The :command:`audit` function benefits from the depth and the breadth of python "
+"libraries for unmatched levels of precision and finesse for your auditing needs."
+msgstr ""
+"La fonction :command:`audit` bénéficie de toute la puissance et de l'étendue "
+"des librairies python pour atteindre une précision d'audit élevée."
+
+#: ../../source/wapt_create_packages/audit/index.rst:42
+msgid "Working principle of the audit function"
+msgstr "Fonctionnement de l'Audit"
+
+#: ../../source/wapt_create_packages/audit/index.rst:44
+#: ../../source/wapt_create_packages/audit/index.rst:143
+msgid ""
+"The :command:`audit` tasks are launched once after every :command:`upgrade`, "
+"then regularly as defined with the ``audit_schedule`` value."
+msgstr ""
+"Les tâches d':command:`audit` s'exécutent après un :command:`upgrade` puis à "
+"intervalle régulier défini par la valeur de ``audit_schedule``."
+
+#: ../../source/wapt_create_packages/audit/index.rst:47
+msgid "To manually launch an audit check, you may also use the following command:"
+msgstr ""
+"Pour executer manuellement un audit vous pouvez également exécuter la commande :"
+
+#: ../../source/wapt_create_packages/audit/index.rst:55
+msgid ""
+"By default, the audit function will not launch if the audit is note necessary."
+msgstr "Par défaut l'audit ne sera pas exécuté si l'audit n'est pas nécessaire."
+
+#: ../../source/wapt_create_packages/audit/index.rst:57
+msgid "To force the execution, you may launch the following command:"
+msgstr "Pour forcer l'exécution vous pouvez exécuter la commande :"
+
+#: ../../source/wapt_create_packages/audit/index.rst:63
+msgid ""
+"Calling this function will launch the :command:`audit` scripts present in each "
+"WAPT package installed on the machine."
+msgstr ""
+"L'appel à cette fonction permet d'exécuter la partie :command:`audit` de chaque "
+"paquet WAPT logiciel installé sur la machine."
+
+#: ../../source/wapt_create_packages/audit/index.rst:66
+msgid ""
+"WAPT saves in its local database :file:`C:\\Program Files\\wapt\\waptdb.sqlite` "
+"the audit scripts of all installed WAPT packages."
+msgstr ""
+"WAPT enregistre en base locale les instructions d'audit de tous les paquets "
+"lors de l'installation dans le fichier :file:`C:\\Program Files\\wapt\\ waptdb."
+"sqlite`."
+
+#: ../../source/wapt_create_packages/audit/index.rst:69
+msgid "Output example of :code:`wapt-get audit`:"
+msgstr "Exemple de sortie de la commande :code:`wapt-get audit` :"
+
+#: ../../source/wapt_create_packages/audit/index.rst:95
+msgid ""
+"In the example above, the audit script had already been executed for *tis-"
+"disable-js-chrome* and *tis-disable-ipv6* ... but not for *tis-java*."
+msgstr ""
+"Dans l'exemple ci-dessus, l'audit avait déjà été exécuté pour *tis-disable-js-"
+"chrome*, *tis-disable-ipv6* ... mais pas pour *tis-java*."
+
+#: ../../source/wapt_create_packages/audit/index.rst:99
+msgid "Using the audit function"
+msgstr "Utiliser l'Audit"
+
+#: ../../source/wapt_create_packages/audit/index.rst:101
+msgid ""
+"The :command:`audit` script is defined in the package's :file:`setup.py` with a "
+"function :command:`def audit()`:"
+msgstr ""
+"On définit la partie :command:`audit` dans le fichier :file:`setup.py` du "
+"paquet dans une fonction :command:`def audit()` :"
+
+#: ../../source/wapt_create_packages/audit/index.rst:104
+msgid "Example:"
+msgstr "Exemple :"
+
+#: ../../source/wapt_create_packages/audit/index.rst:121
+msgid ""
+"This example ascertains that USB storage is not allowed on the workstation."
+msgstr ""
+"Cet exemple permet de vérifier que les clés usb sont bien interdites sur le "
+"poste."
+
+#: ../../source/wapt_create_packages/audit/index.rst:123
+msgid "The audit function returns one of these 3 values:"
+msgstr "L'audit restitue une des 3 valeurs suivantes :"
+
+#: ../../source/wapt_create_packages/audit/index.rst:125
+msgid "**OK**;"
+msgstr "**OK** ;"
+
+#: ../../source/wapt_create_packages/audit/index.rst:127
+msgid "**WARNING**;"
+msgstr "**WARNING** ;"
+
+#: ../../source/wapt_create_packages/audit/index.rst:129
+msgid "**ERROR**;"
+msgstr "**ERROR** ;"
+
+#: ../../source/wapt_create_packages/audit/index.rst:133
+msgid ""
+"With the :command:`audit` function, it is not possible to use files that are "
+"contained in the WAPT packages."
+msgstr ""
+"Avec :command:`audit`, il n'est pas possible de faire appel à des fichiers "
+"contenus dans le paquet."
+
+#: ../../source/wapt_create_packages/audit/index.rst:136
+msgid ""
+"To use files embedded in the WAPT package that will be used for an audit, you "
+"must first copy the file(s) in a temporary folder during package installation."
+msgstr ""
+"Pour utiliser des fichiers lors de l'audit il faut d'abord les copier dans un "
+"répertoire temporaire de la machine lors de l'installation du paquet."
+
+#: ../../source/wapt_create_packages/audit/index.rst:141
+msgid "Planning an audit"
+msgstr "Planifier un audit"
+
+#: ../../source/wapt_create_packages/audit/index.rst:146
+msgid ""
+"By default, if :command:`audit_schedule` is empty, the audit task will need to "
+"be launched manually or from teh WAPT console."
+msgstr ""
+"Par défault si :command:`audit_schedule` est vide alors il faudra effectuer "
+"l'audit manuellement ou à partir de la console."
+
+#: ../../source/wapt_create_packages/audit/index.rst:149
+msgid "Otherwise, the periodicity may be indicated in several ways:"
+msgstr "Sinon la valeur peut être indiquée de plusieurs manières :"
+
+#: ../../source/wapt_create_packages/audit/index.rst:151
+msgid "An integer (in minutes);"
+msgstr "Un entier (représente la valeur en minutes) ;"
+
+#: ../../source/wapt_create_packages/audit/index.rst:153
+msgid ""
+"An integer followed by a letter (m = minutes, h = hours , d = days , w = weeks);"
+msgstr ""
+"Un entier suivi d'une lettre (m = minutes , h = heure , d = jour , w = "
+"semaine) ;"
+
+#: ../../source/wapt_create_packages/audit/index.rst:157
+msgid "Default behavior of the audit function"
+msgstr "Audit par défaut"
+
+#: ../../source/wapt_create_packages/audit/index.rst:159
+msgid ""
+"By default, the only audit function checks the presence of UninstallKey for its "
+"WAPT package."
+msgstr ""
+"Par défault, si aucun audit n'est déclaré, l'agent WAPT vérifiera la présence "
+"des uninstallkey du paquet wapt."
+
+#: ../../source/wapt_create_packages/audit/index.rst:162
+msgid ""
+"This way, WAPT ascertains that the software is still present on the host, "
+"according to the host configuration."
+msgstr "De cette manière WAPT vérifie que le logiciel est toujours présent."
+
+#~ msgid "Audit"
+#~ msgstr "Audit"
+
+#~ msgid "OK;"
+#~ msgstr "OK ;"
+
+#~ msgid "WARNING;"
+#~ msgstr "WARNING ;"
+
+#~ msgid "ERROR;"
+#~ msgstr "ERROR ;"
