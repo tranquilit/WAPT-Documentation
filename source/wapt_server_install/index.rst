@@ -93,6 +93,9 @@ Install on Debian Linux
   debian/install_debian_kerberos.rst
   security/security_install_ssl_certificate.rst
 
+Install on CentOS7
+------------------
+
 .. toctree::
   :maxdepth: 1
 
