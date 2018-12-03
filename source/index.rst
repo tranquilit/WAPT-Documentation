@@ -132,33 +132,33 @@ WAPT support and training
   :maxdepth: 1
   :caption: Documentation
 
-  wapt_concept/index.rst
-  wapt_security_principles/index.rst
-  wapt_enterprise.rst
+  wapt-concept/index.rst
+  wapt-security-principles/index.rst
+  wapt-enterprise.rst
 
 .. toctree::
   :maxdepth: 1
   :caption: Documentation
 
-  wapt_server_install/index.rst
-  wapt_configuration/index.rst
-  wapt_usage/index.rst
-  waptserver_update/index.rst
-  waptserver_backup.rst
-  wapt_replication/index.rst
-  wapt_create_packages/index.rst
-  wapt_common_problems/index.rst
+  waptserver-install/index.rst
+  wapt-configuration/index.rst
+  wapt-usage/index.rst
+  waptserver-update/index.rst
+  waptserver-backup.rst
+  wapt-replication/index.rst
+  wapt-create-packages/index.rst
+  wapt-common-problems/index.rst
 
 .. toctree::
   :maxdepth: 1
   :caption: Appendix
 
-  wapt_glossary.rst
-  wapt_roadmap.rst
-  wapt_contribute/index.rst
-  wapt_changelog.rst
-  wapt_licence.rst
-  tranquil-it_contacts.rst
+  wapt-glossary.rst
+  wapt-roadmap.rst
+  wapt-contribute/index.rst
+  wapt-changelog.rst
+  wapt-licence.rst
+  tranquil-it-contacts.rst
 
 Indices and tables
 ==================
