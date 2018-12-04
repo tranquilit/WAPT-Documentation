@@ -9,3 +9,4 @@ c:\python27\Scripts\sphinx-intl.exe update -p build/locale -l en
 make.bat clean
 make.bat htmlfr
 make.bat htmlen
+

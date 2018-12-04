@@ -1,5 +1,5 @@
 docutils
-sphinx==1.7.9
+sphinx==1.8.2
 sphinx_rtd_theme
 sphinxjp.themes.revealjs
 sphinx-intl

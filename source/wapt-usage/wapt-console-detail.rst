@@ -190,7 +190,7 @@ Acting on packages installed on a host
   * if several hosts are selected, the action will be launched on all
     selected hosts;
 
-.. table:: Acting on packages installed on a host
+.. table:: Acting on packages installed on a specific host
   :widths: 60, 20
   :align: center
 
