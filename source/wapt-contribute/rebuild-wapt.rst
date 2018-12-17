@@ -61,14 +61,8 @@ Build environment on Debian Linux
     cd ~/tranquilit/wapt/waptrepo/deb
     python createdeb.py
 
-CodeTyphon/ Lazarus environment
+Lazarus environment
 -------------------------------
-
-Base FPC + lazarus (in practice, we install CodeTyphon):
-
-* fpc 2.7.1 Rev 27327;
-
-* lazarus SVN Rev 44546;
 
 WAPT relies on the following third-party freepascal/ lazarus librairies:
 
@@ -99,86 +93,77 @@ Tranquil IT packages
 
 * pltis_superobject: https://github.com/tranquilit/pltis_superobject;
 
-Building WAPT with CodeTyphon 4.8
+Building WAPT
+-------------
 
-CodeTyphon is a Lazarus with many embeddd librairies, making
-this Integrated Development Environment (IDE) highly functional.
+Installation environnement développement WAPT
 
-* download CodeTyphon 4.8 (a copy is available on
-  https://wapt.tranquil.it/wapt/mirror/CodeTyphonIns48.zip);
+* Windows 7 vierge
 
-* unzip to :file:`C:`;
+* Installation agent wapt https://srvwapt.ad.tranquil.it/wapt/waptagent.exe
 
-* check that neither cygwin nor git are in your global PATH. If yes, remove them
-  at least temporarily for the initial compilation of codeTyphon.
-  There are conflicts with :program:`sh` or :program:`make` between CodeTyphon
-  and these Tools;
+* Désactiver UAC
 
-* launch :file:`C:\CodeTyphonIns\install.bat`;
+* Compte administrateur
 
-* choose option 0;
+* Afficher fichiers cachés et extensions de fichiers
 
-* launch Codetyphon center;
+* Agrandir largeur CMD et mode Edition rapide
 
-* launch :program:`Typhon-IDE /Typhon32 - Build BigIDE`;
+* copier clé signature exe dans c:\users\buildbot\Documents
 
-* launch the :program:`BigIDE` from CodeTyphon center;
+* cmd
 
-Install Git or TortoiseGit
-
-Checkout the project and its components:
+Installation Lazarus
 
 .. code-block:: bash
 
-  cmd.exe
-  mkdir c:\tranquilit
-  git clone https://github.com/tranquilit/WAPT.git
-  git clone https://github.com/tranquilit/pltis_utils.git
-  git clone https://github.com/tranquilit/pltis_superobject.git
-  git clone https://github.com/tranquilit/pltis_sogrid.git
-  git clone https://github.com/tranquilit/pltis_python4delphi.git
-  git clone https://github.com/tranquilit/delphizmq.git
-  svn co https://svn.code.sf.net/p/lazarus-ccr/svn/components/thtmlport thtmlport
+    wapt-get install tis-pyscripter tis-tortoisegit tis-7zip tis-python27 tis-notepadplusplus tis-firefox tis-putty tis-lazarus tis-openssh tis-signtool
+    wget https://www.sqlite.org/2018/sqlite-dll-win32-x86-3250200.zip
+    unzip sqlite3.dll dans C:\Windows\SysWOW64
+    md c:\tranquilit
+    git.exe clone  --recurse-submodules "ssh://htouvet@srvdev.ad.tranquil.it:29418/wapt/wapt.git" "C:\tranquilit\wapt"
+    REM git pull --recurse-submodules=yes --ff-only)
+    cd  \tranquilit\wapt
+    init_workdir.bat
+    git clone git://srvdev.ad.tranquil.it/wapt/pltis_indy.git c:\tranquilit\pltis_indy
+    git clone git://srvdev.ad.tranquil.it/wapt/pltis_utils.git c:\tranquilit\pltis_utils
+    git clone git://srvdev.ad.tranquil.it/wapt/pltis_sogrid.git  c:\tranquilit\pltis_sogrid
+    git clone git://srvdev.ad.tranquil.it/wapt/pltis_superobject.git  c:\tranquilit\pltis_superobject
+    git clone git://srvdev.ad.tranquil.it/wapt/Python-for-Lazarus.git  c:\tranquilit\Python-for-Lazarus
+    git clone git://srvdev.ad.tranquil.it/wapt/pltis_virtualtrees.git c:\tranquilit\pltis_virtualtrees
+    git clone git://srvdev.ad.tranquil.it/wapt/pltis_virtualtreesextra.git c:\tranquilit\pltis_virtualtreesextra
+    git clone git://srvdev.ad.tranquil.it/wapt/pltis_dcpcrypt.git c:\tranquilit\pltis_dcpcrypt
+    git clone git://srvdev.ad.tranquil.it/wapt/pltis_luipack.git c:\tranquilit\pltis_luipack
+    git clone git://srvdev.ad.tranquil.it/wapt/pltis_synapse.git c:\tranquilit\pltis_synapse
+    c:\lazarus\lazbuild.exe --add-package c:\tranquilit\pltis_dcpcrypt\dcpcrypt_laz.lpk
+    c:\lazarus\lazbuild.exe --add-package c:\tranquilit\pltis_indy\indylaz.lpk
+    c:\lazarus\lazbuild.exe c:\tranquilit\pltis_utils\pltis_utils.lpk
+    c:\lazarus\lazbuild.exe c:\tranquilit\pltis_superobject\pltis_superobject.lpk
+    c:\lazarus\lazbuild.exe --add-package c:\tranquilit\pltis_virtualtrees\pltis_virtualtrees.lpk
+    c:\lazarus\lazbuild.exe --add-package c:\tranquilit\pltis_virtualtreesextra\pltis_virtualtreesextra.lpk
+    c:\lazarus\lazbuild.exe --add-package c:\tranquilit\pltis_sogrid\pltis_sogrid.lpk
+    c:\lazarus\lazbuild.exe --add-package c:\tranquilit\pltis_dcpcrypt\dcpcrypt_laz.lpk
+    c:\lazarus\lazbuild.exe c:\tranquilit\pltis_synapse\laz_synapse.lpk
+    c:\lazarus\lazbuild.exe --add-package c:\tranquilit\pltis_luipack\luicomponents\luicomponents.lpk
+    c:\lazarus\lazbuild.exe --add-package c:\tranquilit\pltis_luipack\luicomponents\luicomponents.lpk
+    c:\lazarus\lazbuild.exe --add-package C:\tranquilit\Python-for-Lazarus\python4lazarus\python4lazarus_package.lpk
+    c:\lazarus\lazbuild.exe --add-package C:\lazarus\components\anchordocking\design\anchordockingdsgn.lpk
+    c:\lazarus\lazbuild.exe --build-ide=
+    c:\lazarus\lazbuild.exe c:\tranquilit\wapt\wapt-get\pltis_wapt.lpk
+    REM depending on version, change community to enterprise
+    waptpython build_exe.py community
 
-Installing Tranquil IT packages in CodeTyphon
 
-* launch :program:`CodeTyphon`;
+Environnement serveur
 
-* :menuselection:`Package --> Open a package file` (.lpk);
+.. code-block:: bash
 
-Open in sequence the following packages and compile them:
+    cd \tranquilit\wapt
+    waptpython waptserver\winsetup.py all
 
-* :file:`pltis_utils.lpk`;
-
-* :file:`pltis_superobject.lpk`;
-
-* :file:`pltis_sogrid.lpk` (installation in CodeTyphon IDE required);
-
-* :file:`pltis_python4delphi.lpk` (installation in CodeTyphon IDE required);
-
-* :file:`pltis_delphizmq.lpk`;
-
-* :file:`thtmlport\package\htmlcomp.lpk`;
-
-* :file:`<WAPT>\apt-get\pltis_wapt.plk`;
-
-Compile the binaries
----------------------
-
-* :file:`C:\tranquilit\wapt\wapt-get\waptget.lpr`;
-
-* :file:`C:\tranquilit\wapt\waptconsole\waptconsole.lpr`;
-
-* :file:`C:\tranquilit\wapt\wapttray\wapttray.lpr`;
-
-* :file:`C:\tranquilit\wapt\waptexit\waptexit.lpr`;
-
-* :file:`C:\tranquilit\wapt\waptdeploy\waptdeploy.lpr`;
-
-* :file:`C:\tranquilit\wapt\waptserver\postconf\waptserverpostconf.lpr`;
-
-Create the installers
----------------------
+Create the InnoSetup installers
+-------------------------------
 
 * install Innosetup from
   http://www.jrsoftware.org/download.php/ispack-unicode.exe
