@@ -26,7 +26,7 @@ Preamble and definitions
 .. attention::
 
   From WAPT version 1.5, the default installation directory becomes
-  :file:`C:\Program Files (x86)\wapt`.
+  :file:`C:\\Program Files (x86)\\wapt`.
 
 .. hint::
 
@@ -405,12 +405,12 @@ Solution implemented
 For the secured version of WAPT to work correctly:
 
 * an option for verifying the server HTTPS certificate is introduced
-  in :file:`C:\Program Files (x86)\wapt\wapt-get.ini` on the WAPT agents
+  in :file:`C:\\Program Files (x86)\\wapt\wapt-get.ini` on the WAPT agents
   that will **force the verification of the server certificate
   by the WAPT agents**;
 
 * an option for verifying the server HTTPS certificate is introduced
-  in :file:`C:\Program Files (x86)\wapt\wapt-get.ini` on the WAPT agents
+  in :file:`C:\\Program Files (x86)\\wapt\wapt-get.ini` on the WAPT agents
   that will force the verification of the server certificate
   by the **WAPT console**;
 
@@ -422,7 +422,8 @@ Technically, it may be implemented in two ways:
 
 * by using the *certificate pinning* method, which consists of providing
   the WAPT agent a short list of trusted certificates that will be stored
-  in :file:`C:\Program Files (x86)\wapt\ssl\server`;
+  in :file:`C:\\Program Files (x86)\\wapt\\ssl\\server`;
+
 
 Security function F1C: no listening port on the WAPT agents
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -466,7 +467,7 @@ Solution implemented
 ^^^^^^^^^^^^^^^^^^^^
 
 * On the first :command:`register`, each device generates a key/ certificate
-  pair that is stored in :file:`C:\Program Files (x86)\wapt\private`, only
+  pair that is stored in :file:`C:\\Program Files (x86)\\wapt\\private`, only
   accessible in read-only mode to :term:`Local Administrators`. Once the device
   has successfully registered, the public key is sent to the WAPT Server;
 
@@ -558,7 +559,7 @@ Solution implemented
 * the WAPT agent then checks that the certificate or the chain of certificates
   in :file:`certificate.crt` has been signed with a key matching
   one of the certificates present in the folder
-  :file:`C:\Program Files (x86)\wapt\ssl`;
+  :file:`C:\\Program Files (x86)\\wapt\\ssl`;
 
 * the WAPT agent then generates the control sum of all the files contained
   in the package (except the files :file:`signature.sha256`
@@ -609,7 +610,7 @@ of the :term:`Administrator` and stored in the attribute *signature*
 of the :file:`control` file.
 
 The certificate matching the private key is stored
-in :file:`<WAPT>\certificate.crt` inside the WAPT package.
+in :file:`<WAPT>\\certificate.crt` inside the WAPT package.
 
 On the WAPT Server, the index :file:`Packages` is regenerated
 when the :command:`wapt-scanpackages` command is triggered by adding
@@ -638,7 +639,7 @@ Security function F2C: access restriction to the installation folder of the WAPT
 
   * an unauthorized entity modifying the behavior of a WAPT agent;
 
-The installation folder :file:`C:\Program Files\wapt` is accessible in
+The installation folder :file:`C:\\Program Files\\wapt` is accessible in
 read-write mode:
 
 * to the :term:`Local Administrators` by direct access to the installation
@@ -661,7 +662,7 @@ Security function F2D: total access restriction to the folder storing the key / 
   * an unauthorized entity impersonating the identity of a WAPT equipped device;
 
 No access right is granted to any :term:`user`
-to :file:`C:\Program Files (x86)\wapt\private`, whomever he may be.
+to :file:`C:\\Program Files (x86)\\wapt\\private`, whomever he may be.
 Only the WAPT agent has a write and read access to this folder.
 
 .. note::
