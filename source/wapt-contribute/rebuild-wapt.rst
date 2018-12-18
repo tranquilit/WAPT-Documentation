@@ -116,16 +116,19 @@ Installation environnement développement WAPT
 
 Installation Lazarus
 
-.. code-block:: bash
+.. code-block:: bat
 
     wapt-get install tis-pyscripter tis-tortoisegit tis-7zip tis-python27 tis-notepadplusplus tis-firefox tis-putty tis-lazarus tis-openssh tis-signtool
+
     wget https://www.sqlite.org/2018/sqlite-dll-win32-x86-3250200.zip
     unzip sqlite3.dll dans C:\Windows\SysWOW64
     md c:\tranquilit
+
     git.exe clone  --recurse-submodules "ssh://htouvet@srvdev.ad.tranquil.it:29418/wapt/wapt.git" "C:\tranquilit\wapt"
     REM git pull --recurse-submodules=yes --ff-only)
     cd  \tranquilit\wapt
     init_workdir.bat
+
     git clone git://srvdev.ad.tranquil.it/wapt/pltis_indy.git c:\tranquilit\pltis_indy
     git clone git://srvdev.ad.tranquil.it/wapt/pltis_utils.git c:\tranquilit\pltis_utils
     git clone git://srvdev.ad.tranquil.it/wapt/pltis_sogrid.git  c:\tranquilit\pltis_sogrid
@@ -136,6 +139,7 @@ Installation Lazarus
     git clone git://srvdev.ad.tranquil.it/wapt/pltis_dcpcrypt.git c:\tranquilit\pltis_dcpcrypt
     git clone git://srvdev.ad.tranquil.it/wapt/pltis_luipack.git c:\tranquilit\pltis_luipack
     git clone git://srvdev.ad.tranquil.it/wapt/pltis_synapse.git c:\tranquilit\pltis_synapse
+
     c:\lazarus\lazbuild.exe --add-package c:\tranquilit\pltis_dcpcrypt\dcpcrypt_laz.lpk
     c:\lazarus\lazbuild.exe --add-package c:\tranquilit\pltis_indy\indylaz.lpk
     c:\lazarus\lazbuild.exe c:\tranquilit\pltis_utils\pltis_utils.lpk
@@ -151,6 +155,7 @@ Installation Lazarus
     c:\lazarus\lazbuild.exe --add-package C:\lazarus\components\anchordocking\design\anchordockingdsgn.lpk
     c:\lazarus\lazbuild.exe --build-ide=
     c:\lazarus\lazbuild.exe c:\tranquilit\wapt\wapt-get\pltis_wapt.lpk
+
     REM depending on version, change community to enterprise
     waptpython build_exe.py community
 
