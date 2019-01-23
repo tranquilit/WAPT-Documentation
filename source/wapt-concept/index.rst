@@ -203,6 +203,28 @@ They are stored in the web directory https://srvwapt.mydomain.lan/wapt-host/.
 
   If the computer is removed from an Organizational Unit,
   obsolete *unit* packages will be removed.
+  
+ *wsus* packages
+""""""""""""""""""
+
+Contains the list of authorized or prohibited updates
+
+When this package is installed on the pc, the next update scan performed by wapt will take this filtering.
+
+If the PC has several WSUS packets, then wapt will merge the rules of all the packages.
+
+
+*selfservice* packages
+"""""""""""""""""""""""""
+
+Contains a list of groups or users (ad or local) and the associated authorized package list.
+
+If there is more than one self service package installed, then wapt will merge the rules
+
+*profile* packages
+"""""""""""""""""""""""""
+
+
 
 Dependency mechanism
 ++++++++++++++++++++

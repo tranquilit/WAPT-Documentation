@@ -53,6 +53,7 @@ How to perform actions of the hosts?
   Remove the host and/or the host package               *yes*
   Launch TIShelp with a remote host                     *no*
   Initiate a VNC connection with the remote host        *no*
+  Connect via Veyon                                     *no*
   Launch a RDP connection on the selected host          *no*
   Launch remote user support (msra.exe)                 *no*
   Manage hosts with :program:`compmgmt.msc`             *no*
@@ -654,3 +655,39 @@ The old certificate will be invalidated.
   :alt: New public certificate has been created
 
   New public certificate has been created
+  
+  
+Add plugins in Console
+-----------------------------------
+
+.. versionadded:: 1.7
+
+Add in the menu of the machines additional actions
+
+For that purpose, go to :menuselection:`Tools --> preference --> plugins Tab`
+
+# TODO add CAPTURE
+.. figure:: wapt_console-generate_new_certificate.png
+  :align: center
+  :alt: Generate a self-signed certificate
+
+Click add to add plugins, then edit the corespondente columns
+
+.. list-table::
+   :header-rows: 1
+
+  * - Column
+    - Description
+  * - Name
+    - Name that will appear in the menu
+  * - Executable
+    - Path of the executable that will be executed after the click
+  * - Arguments
+    - Arguments passed to the executable. Some variables can be used like {ip}, {uuid} or {computer_fqdn}
+
+Plugins will then appear in the menu :
+
+# TODO add CAPTURE
+.. figure:: wapt_console-generate_new_certificate.png
+  :align: center
+  :alt: Generate a self-signed certificate
