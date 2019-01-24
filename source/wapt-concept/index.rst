@@ -224,6 +224,15 @@ If there is more than one self service package installed, then wapt will merge t
 *profile* packages
 """""""""""""""""""""""""
 
+This type of package is similar to a "group" package. 
+
+It has a different functioning :
+
+The wapt agent will list the AD groups whose machine is part of it.
+
+If a package has the same name as the AD group, then the wapt agent will install it automatically
+
+Later, if the machine is no longer part of this group, then the profile package will be uninstalled.
 
 
 Dependency mechanism

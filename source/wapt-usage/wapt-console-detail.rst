@@ -11,8 +11,8 @@
 
 .. _wapt_console:
 
-Using the WAPT console
-======================
+Using the WAPT console (detailed)
+====================================
 
 .. note::
 
@@ -489,6 +489,10 @@ on your keyboard.
 
 A search bar is also available to filter packages.
 
+.. hint::
+
+	With the "section" drop-down menu, you can choose to create a profile package rather than a group package
+
 Cleaning the local cache from the WAPT console
 ----------------------------------------------
 
@@ -691,3 +695,15 @@ Plugins will then appear in the menu :
 .. figure:: wapt_console-generate_new_certificate.png
   :align: center
   :alt: Generate a self-signed certificate
+  
+
+
+
+
+
+
+
+
+  
+  
+  
