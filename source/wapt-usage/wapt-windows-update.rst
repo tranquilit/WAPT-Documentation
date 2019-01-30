@@ -92,11 +92,58 @@ Use waptwua from the console
 
 You have a tab "windows update" in the console wapt
 
-Wapt WuaPackage
+Wapt Wua Package
 +++++++++++++++++
 
+The tab "Wapt Wua Package" allows you to create windows update rules packages.
+
+When this type of package is installed on a machine, it indicates to the wapt wua agent the authorized or forbidden cab.
+
+When several "Wapt Wua Package" packages are installed on a machine, then the rules will be merged.
+
+When a cab is neither mentioned in authorized nor mentioned prohibited, wapt will then take the value of "default_allow" in wapt-get.ini
+
+If an update has not yet been downloaded to the wapt server, then the update will be "missing" on the pc.
+
+.. note::
+
+	* If the wapt wua agent is set to default_allow = True, then it will be necessary to specify the prohibited cab.
+	* If the wapt wua agent is set to default_allow = False, then it will be necessary to specify the authorized cab. 
+	
+
+.. hint::
+
+	If your wua agent is configured with default_allow = False, 
+	You can then test the new windows update on a small set of the parc.
+	If the update is not a problem, then you can allow it for the entire fleet.
 
 
 
+Windows update list tab
+++++++++++++++++++++++++++++
 
+The "Windows Update List" tab lists all windows updates.
 
+The left pane allows you to filter the display by criticality, product, or classificiation.
+
+In the grid, if the "downloaded on" column is empty, it means that the update was not downloaded by wapt and is not present on the server. (This update is missing on any post)
+
+You can force the download of an update by right-clicking it and clicking Download seleted.
+
+You can also force the download of the wsusscn2.cab file with the "download wsusscan cab from Microsoft Web Site" button
+
+You can see the windows updates download on the server with the button "show download task"
+
+.. hint::
+
+	If one day your Windows update folder gets too big, then you can remove all windows update. Wapt will only download missing updates on the computers.
+	
+	
+  
+Complete diagram of the operation of WAPT windows update
+------------------------------------------------------------------
+  
+  
+.. figure:: diagramme-windows-update.png
+  :align: center
+  :alt: Diagram WAPT windows update
