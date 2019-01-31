@@ -25,4 +25,5 @@ the :term:`Users` and the :term:`Package Deployers`.
   command-line-interface/index.rst
   waptexit.rst
   wapt-windows-update.rst
+  wapt-reporting.rst
   role-separation/index.rst
