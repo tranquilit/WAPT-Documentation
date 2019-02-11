@@ -9,12 +9,12 @@
   :description: Using the WAPT console
   :keywords: WAPT, console, documentation
 
-.. _wapt_console:
+.. _wapt_wua:
 
 .. versionadded:: 1.7
 
-Using WAPT Windows Update
-====================================
+Using WAPT Windows Update Agent (WAPTWUA)
+=========================================
 
 
 .. note::
@@ -31,7 +31,7 @@ Principle
 
 Regularly, the WAPT server downloads "wsuscn2.cab" file from Microsoft's server. (once a day, the files will not be downloaded if they have not changed since the last download.)
 
-The wsuscn2.cab file will allow Windows Update Agent to check for necessary updates on the machine. (The WAPT agent directly download the wsuscn2.cab file from WAPT repository)
+The wsuscn2.cab file will allow WAPT Windows Update Agent to check for necessary updates on the machine. (The WAPT agent directly download the wsuscn2.cab file from WAPT repository)
 
 Regularly, the machine will analyze the available updates with this file. The list is then sent to the WAPT server.
 
@@ -41,27 +41,27 @@ This mode of operation allows you to download only necessary updates for your co
 
 .. note:: 
 
-	All updates are stored in the waptwua folder of the wapt server.
+	Downloaded updates are stored in the waptwua folder in the repository.
 
-	On linux : /var/www/waptwua
+	On Linux servers : /var/www/waptwua
 	
-	And on windows : 
+	And on Windows servers : 
 	
 	C:\\wapt\\waptserver\\repository\\waptwua
 	
 .. hint::
 
-	The update windows update download is based on repo_url in wapt-get.ini
+	The WAPT Windows Update Agent repository download URL is based on repo_url in wapt-get.ini
 	
-	Your secondary repository will be fully operational with wapt windows update to reduce bandwidth.
+	Your secondary repository will be fully operational with WAPT Windows Update to reduce bandwidth usage.
 	
-	Be careful, do not forget to synchronize the waptwua folder.
+	In case of repository replication, do not forget to also synchronize the waptwua folder.
 	
 	
-Configure waptwua on the wapt agent
+Configure WAPTWUA on the WAPT agent
 --------------------------------------------
 
-To configure waptwua you can configure it in the wapt-get.ini file.
+To configure WAPTWUA you can configure it in the wapt-get.ini file.
 
 Add a waptwua section  : [waptwua]
 
@@ -87,76 +87,73 @@ Options                                Default Value               			Descriptio
 	All of these options can be set when generating the agent.
 	
 	
-Use waptwua from the console
+Use WAPTWUA from the console
 --------------------------------------------
 
-You have a tab "windows update" in the console wapt
+You have a tab "WAPT Windows Update Agent" in the console WAPT
 
-Wapt Wua Package
+WAPTWUA Package
 +++++++++++++++++
 
-The tab "Wapt Wua Package" allows you to create windows update rules packages.
+The tab "WAPTWUA Package" allows you to create Windows Update rules packages.
 
-When this type of package is installed on a machine, it indicates to the wapt wua agent the authorized or forbidden cab.
+* When this type of package is installed on a machine, it indicates to the WAPTWUA agent the authorized or forbidden KBs.
+* When several "WAPTWUA Package" packages are installed on a machine, the different rules will be merged.
+* When a cab is neither mentioned in authorized nor mentioned prohibited, WAPT agent will then take the value of "default_allow" in wapt-get.ini
 
-When several "Wapt Wua Package" packages are installed on a machine, then the rules will be merged.
-
-When a cab is neither mentioned in authorized nor mentioned prohibited, wapt will then take the value of "default_allow" in wapt-get.ini
-
-If an update has not yet been downloaded to the wapt server, then the update will be "missing" on the pc.
+If an update has not yet been downloaded to the WAPT server, then the update will be flagged as "MISSING" by the agent.
 
 .. note::
 
-	* If the wapt wua agent is set to default_allow = True, then it will be necessary to specify the prohibited cab.
-	* If the wapt wua agent is set to default_allow = False, then it will be necessary to specify the authorized cab. 
+	* If the WAPTWUA agent configuration is set to default_allow = True, then it will be necessary to specify the prohibited cab.
+	* If the WAPTWUA agent configuration is set to default_allow = False, then it will be necessary to specify the authorized cab. 
 	
 
 .. hint::
 
-	If your wua agent is configured with default_allow = False, 
-	You can then test the new windows update on a small set of the parc.
-	If the update is not a problem, then you can allow it for the entire fleet.
+	To test updates on a small batch of computers, you can set WAPTWUA default value to default_allow = False,
+	allow updates for a small set of hosts and if everything is good with thoses, 
+	then you can allow it for the entire fleet.
 
 
 .. figure:: wapt_console-wua.png
    :align: center
-   :alt: Create self wsus package
+   :alt: Create WAPTWUA Package
 
-   Create self wsus package
+   Create WAPTWUA Package
 
 
-Windows update list tab
+Windows Updates list tab
 ++++++++++++++++++++++++++++
 
 The "Windows Update List" tab lists all windows updates.
 
-The left pane allows you to filter the display by criticality, product, or classificiation.
+The left pane displays updates filtered by criticality, product, or classificiation.
 
-In the grid, if the "downloaded on" column is empty, it means that the update was not downloaded by wapt and is not present on the server. (This update is missing on any post)
+In the grid, if the "Downloaded on" column is empty, it means that the update was not downloaded by WAPT server and is not present on the server. (This update isn't missing on any post)
 
-You can force the download of an update by right-clicking it and clicking Download seleted.
-
-You can also force the download of the wsusscn2.cab file with the "download wsusscan cab from Microsoft Web Site" button
-
-You can see the windows updates download on the server with the button "show download task"
+* You can force the download of an update by right-clicking it and click "Download".
+* You can also force the download of the wsusscn2.cab file with the "Download WSUSScan cab from Microsoft Web Site" button
+* You can see the Windows Updates download on the server with the button "show download task"
 
 .. hint::
 
-	If one day your Windows update folder gets too big, then you can remove all windows update. Wapt will only download missing updates on the computers.
+	To cleanup your WAPTWUA folder, you can remove unnecessary Windows Update. WAPT server will only re-download missing updates on computers.
 	
 	
 .. figure:: windows-update-list
    :align: center
-   :alt: List Windows update
+   :alt: List Windows Update
 
-   List Windows update
+   List Windows Update
 	
 	
   
-Complete diagram of the operation of WAPT windows update
+WAPT Windows Update flow process
 ------------------------------------------------------------------
-  
   
 .. figure:: diagramme-windows-update.png
   :align: center
-  :alt: Diagram WAPT windows update
+  :alt: WAPT Windows Update flow process
+
+  WAPT Windows Update flow process
