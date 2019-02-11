@@ -84,31 +84,20 @@ You then have several options:
 Options                   Default Value   Description
 ========================= =============== =========================================
 ``enabled``               False           Enable or disable WAPTWUA on this machine
-``offline``               True            Defined if the scan should be done
-                                          using wsuscn2.cab files
-                                          or online with the Microsoft servers
 
-``allow_direct_download`` False						Allow direct download of updates from
-                                          Microsoft servers if the WAPT server
-                                          is not available
+``offline``               True            Defined if the scan should be done using wsuscn2.cab files or online with the Microsoft servers
 
-``default_allow``         False           Set if missing update is authorized
-                                          or not by default
+``allow_direct_download`` False						Allow direct download of updates from Microsoft servers if the WAPT server is not available
 
-``filter``                Type='Software' Define the filter to apply
-                                          for the Windows update scan
+``default_allow``         False           Set if missing update is authorized or not by default
 
-``download_scheduling``		None            Set the Windows Update scan recurrence
-                                          (Will not do anything if wsus rule
-                                          or wsuscn2.cab file have not changed)
-                                          (ex: 2h)
+``filter``                Type='Software' Define the filter to apply for the Windows update scan
 
-``install_scheduling``    None            Set the Windows Update install recurrence
-                                          (Will do nothing if no update is pending)
-                                          (ex: 2h)
+``download_scheduling``		None            Set the Windows Update scan recurrence (Will not do anything if wsus rule or wsuscn2.cab file have not changed) (ex: 2h)
 
-``install_delay``         None            Set a deferred installation time since
-                                          online publication (ex: 7d)
+``install_scheduling``    None            Set the Windows Update install recurrence (Will do nothing if no update is pending) (ex: 2h)
+
+``install_delay``         None            Set a deferred installation time since online publication (ex: 7d)
 ========================= =============== =========================================
 
 .. hint::
