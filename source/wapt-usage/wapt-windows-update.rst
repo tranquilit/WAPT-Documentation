@@ -157,19 +157,19 @@ then the WAPT agent will flag the update as *MISSING*.
 
 .. note::
 
-	* if the WAPTWUA agent configuration is set to ``default_allow = True``,
-    then it will be necessary to specify the forbidden cab;
+	If the WAPTWUA agent configuration is set to ``default_allow = True``,
+  then it will be necessary to specify the forbidden cab;
 
-	* if the WAPTWUA agent configuration is set to ``default_allow = False``,
-    then it will be necessary to specify the authorized cab;
+	If the WAPTWUA agent configuration is set to ``default_allow = False``,
+  then it will be necessary to specify the authorized cab;
 
 .. hint::
 
-	* to test updates on a small set of computers,
-    you can set WAPTWUA default value to ``default_allow = False``;
+	To test updates on a small set of computers,
+  you can set WAPTWUA default value to ``default_allow = False``;
 
-	* you can test updates for a small set of hosts and if everything is good,
-    release them for the entire base of computers;
+	You can test updates for a small set of hosts and if everything is good,
+  release them for the entire base of computers;
 
 .. figure:: wapt_console-wua.png
    :align: center
