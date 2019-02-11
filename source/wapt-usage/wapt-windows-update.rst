@@ -137,6 +137,7 @@ If a Windows update has not yet been downloaded to the WAPT server, then the WAP
   * To test updates on a small set of computers, you can set WAPTWUA default value to ``default_allow = False``;
   *  You can test updates for a small set of hosts and if everything is good, release them for the entire base of computers;
 
+
 .. figure:: wapt_console-wua.png
   :align: center
   :alt: Create WAPTWUA Package
