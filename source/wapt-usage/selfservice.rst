@@ -9,7 +9,7 @@
    :description: Using WAPTtray.
    :keywords: WAPT, Tray, documentation
 
-.. _wapttray:
+.. _wapt-selfservice:
 
 Using WAPT SelfService
 ================================

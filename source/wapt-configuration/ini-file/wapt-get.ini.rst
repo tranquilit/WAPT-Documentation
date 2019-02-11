@@ -28,14 +28,10 @@ Description of available options for the WAPT agent
 
 .. note::
 
-    * If ``repo_url`` and ``wapt_server`` fields are empty, the WAPT agent
-    will look for a repository using SRV records in the ``dnsdomain`` zone.
-    * If there is no ``wapt_server`` attribute in the ``[global]`` section,
-    no WAPT Server will be used.
-    * If there is no ``repo_url`` attribute in the ``[global]`` section,
-    a repository in the ``[wapt]`` section will have to be explicitly defined.
-    * It will have to be enabled by adding it to the ``repositories``
-    attribute of the ``[global]`` section.
+    * If ``repo_url`` and ``wapt_server`` fields are empty, the WAPT agent will look for a repository using SRV records in the ``dnsdomain`` zone.
+    * If there is no ``wapt_server`` attribute in the ``[global]`` section, no WAPT Server will be used.
+    * If there is no ``repo_url`` attribute in the ``[global]`` section, a repository in the ``[wapt]`` section will have to be explicitly defined.
+    * It will have to be enabled by adding it to the ``repositories`` attribute of the ``[global]`` section.
 
 .. tabularcolumns:: |\\X{5}{12}|\\X{7}{12}|
 

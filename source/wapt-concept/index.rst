@@ -204,14 +204,15 @@ They are stored in the web directory https://srvwapt.mydomain.lan/wapt-host/.
   If the computer is removed from an Organizational Unit,
   obsolete *unit* packages will be removed.
   
- *wsus* packages
+
+*WAPTWUA* packages
 """"""""""""""""""
 
-Contains the list of authorized or prohibited updates
+Contains the list of authorized or prohibited Windows Updates
 
-When this package is installed on the pc, the next update scan performed by wapt will take this filtering.
+When this package is installed on the endpoint, the next update scan performed by WAPT will take this filtering.
 
-If the PC has several WSUS packets, then wapt will merge the rules of all the packages.
+If the PC has several WAPTWUA packets, then WAPT will merge all packages rules.
 
 
 *selfservice* packages
