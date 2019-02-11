@@ -206,12 +206,15 @@ They are stored in the web directory https://srvwapt.mydomain.lan/wapt-host/.
   If the computer is removed from an Organizational Unit,
   obsolete *unit* packages will be removed.
 
-*WSUS* packages
-"""""""""""""""
 
-.. versionadded:: 1.7 Enterprise
+*WAPTWUA* packages
+""""""""""""""""""
 
-*WSUS* packages are lists of authorized or prohibited Windows updates.
+Contains the list of authorized or prohibited Windows Updates
+
+When this package is installed on the endpoint, the next update scan performed by WAPT will take this filtering.
+
+If the PC has several WAPTWUA packets, then WAPT will merge all packages rules.
 
 When this package is installed on the host, the next :command:`update` will scan
 for official Windows updates applicable to the host based on this filtering.

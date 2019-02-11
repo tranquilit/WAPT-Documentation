@@ -9,7 +9,7 @@
   :description: Using the WAPT console
   :keywords: WAPT, console, documentation
 
-.. _wapt_console:
+.. _wapt_reporting:
 
 .. versionadded:: 1.7
 

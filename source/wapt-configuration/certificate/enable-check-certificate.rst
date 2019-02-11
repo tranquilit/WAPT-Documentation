@@ -30,19 +30,19 @@ in :file:`C:\\Program Files (x86)\\wapt\\wapt-get.ini`.
   :widths: 30, 50
   :align: center
 
-  =============================================================================== ========================================================================
+  =============================================================================== ===============================================================================
   Options for verify_cert                                                         Working principle of the WAPT agent
-  =============================================================================== ========================================================================
+  =============================================================================== ===============================================================================
   ``verify_cert`` = 0                                                             the WAPT agent will not check the WAPT Server HTTPS certificate
 
   ``verify_cert`` = 1                                                             the WAPT agent will check the WAPT Server HTTPS
                                                                                   certificate using the certificate bundle
                                                                                   :file:`C:\\Program Files (x86)\\wapt\\ssl\\srvwapt.mydomain.lan.crt`
 
-  ``verify_cert`` = C:\\Program Files (x86)\\wapt\\ssl\\srvwapt.mydomain.lan.crt      the WAPT agent will check the WAPT Server HTTPS
+  ``verify_cert`` = C:\\Program Files (x86)\\wapt\\ssl\\srvwapt.mydomain.lan.crt  the WAPT agent will check the WAPT Server HTTPS
                                                                                   certificate with the certificate bundle
                                                                                   :file:`C:\\Program Files (x86)\\wapt\\lib\\site-packages\\certifi\\cacert.pem`
-  =============================================================================== ========================================================================
+  =============================================================================== ===============================================================================
 
 .. hint::
 
