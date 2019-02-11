@@ -18,11 +18,10 @@ Using WAPT Windows Update Agent (WAPTWUA)
 
 .. note::
 
-	Since version 1.7, WAPT is able to manage Windows Updates on your endpoints.
-
-	The internals of WAPTWUA is based on the :abbr:`WUA (Windows Update Agent)` API.
-
-	For more information: https://docs.microsoft.com/en-us/windows/desktop/wua_sdk/using-the-windows-update-agent-api
+    Since version 1.7, WAPT is able to manage Windows Updates on your endpoints.
+    
+    * The internals of WAPTWUA is based on the :abbr:`WUA (Windows Update Agent)` API.
+    * For more information: https://docs.microsoft.com/en-us/windows/desktop/wua_sdk/using-the-windows-update-agent-api
 
 
 Working principle
@@ -80,25 +79,18 @@ You then have several options:
 
 .. tabularcolumns:: |\X{5}{12}|\X{7}{12}|
 
-========================= =============== =========================================
-Options                   Default Value   Description
-========================= =============== =========================================
-``enabled``               False           Enable or disable WAPTWUA on this machine
-
-``offline``               True            Defined if the scan should be done using wsuscn2.cab files or online with the Microsoft servers
-
-``allow_direct_download`` False						Allow direct download of updates from Microsoft servers if the WAPT server is not available
-
-``default_allow``         False           Set if missing update is authorized or not by default
-
-``filter``                Type='Software' Define the filter to apply for the Windows update scan
-
-``download_scheduling``		None            Set the Windows Update scan recurrence (Will not do anything if wsus rule or wsuscn2.cab file have not changed) (ex: 2h)
-
-``install_scheduling``    None            Set the Windows Update install recurrence (Will do nothing if no update is pending) (ex: 2h)
-
-``install_delay``         None            Set a deferred installation time since online publication (ex: 7d)
-========================= =============== =========================================
+====================================== ==================================== =========================================================================================================================
+Options                                Default Value                        Description
+====================================== ==================================== =========================================================================================================================
+``enabled``                            False                                Enable or disable WAPTWUA on this machine.
+``offline``                            True                                 Defined if the scan should be done using wsuscn2.cab files or Online with the Microsoft servers.
+``allow_direct_download``              False                                Allow direct download of updates from Microsoft servers if the WAPT server is not available.
+``default_allow``                      False                                Set if missing update is authorized or not by default.
+``filter``                             Type='Software' or Type='Driver'     Define the filter to apply for the Windows update scan        
+``download_scheduling``                None                                 Set the Windows Update scan recurrence (Will not do anything if wsus rule or wsuscn2.cab file have not changed) (ex: 2h)
+``install_scheduling``                 None                                 Set the Windows Update install recurrence (Will do nothing if no update is pending) (ex: 2h)
+``install_delay``                      None                                 Set a deferred installation time since online publication    (ex: 7d)
+====================================== ==================================== =========================================================================================================================
 
 .. hint::
 
@@ -127,38 +119,23 @@ to manage WAPTWUA
 WAPTWUA Package
 +++++++++++++++
 
-The :guilabel:`WAPTWUA Package` tab allows you to create
-*WAPTWUA* rules packages.
+The :guilabel:`WAPTWUA Package` tab allows you to create *WAPTWUA* rules packages.
 
-* when this type of package is installed on a machine, it indicates
-  to the WAPTWUA agent the authorized
-  or forbidden :abbr:`KB (Knowledge Base articles)`s;
+* when this type of package is installed on a machine, it indicates to the WAPTWUA agent the authorized or forbidden KB's (Knowledge Base articles);
+* when several *WAPTWUA* packages are installed on a machine, the different rules will be merged;
+* when a cab is neither mentioned in authorized nor mentioned prohibited, WAPT agents will then take the value of ``default_allow`` in :file:`wapt-get.ini`;
 
-* when several *WAPTWUA* packages are installed on a machine,
-  the different rules will be merged;
-
-* when a cab is neither mentioned in authorized nor mentioned prohibited,
-  WAPT agents will then take the value of ``default_allow``
-  in :file:`wapt-get.ini`;
-
-If a Windows update has not yet been downloaded to the WAPT server,
-then the WAPT agent will flag the update as *MISSING*.
+If a Windows update has not yet been downloaded to the WAPT server, then the WAPT agent will flag the update as *MISSING*.
 
 .. note::
 
-  If the WAPTWUA agent configuration is set to ``default_allow = True``,
-  then it will be necessary to specify the forbidden cab;
-
-  If the WAPTWUA agent configuration is set to ``default_allow = False``,
-  then it will be necessary to specify the authorized cab;
+  * If the WAPTWUA agent configuration is set to ``default_allow = True``, then it will be necessary to specify the forbidden cab;
+  * If the WAPTWUA agent configuration is set to ``default_allow = False``, then it will be necessary to specify the authorized cab;
 
 .. hint::
 
-  To test updates on a small set of computers,
-  you can set WAPTWUA default value to ``default_allow = False``;
-
-  You can test updates for a small set of hosts and if everything is good,
-  release them for the entire base of computers;
+  * To test updates on a small set of computers, you can set WAPTWUA default value to ``default_allow = False``;
+  *  You can test updates for a small set of hosts and if everything is good, release them for the entire base of computers;
 
 .. figure:: wapt_console-wua.png
   :align: center
@@ -194,9 +171,9 @@ and is not present on the server (This update is not missing on any host).
 
 .. hint::
 
-  To cleanup your :file:`WAPTWUA` folder, you can remove
-  unnecessary Windows updates. WAPT server will only re-download
-  missing updates if hosts equipped with WAPT requests them.
+  * To cleanup your :file:`WAPTWUA` folder, you can remove unnecessary Windows updates. WAPT server will only re-download
+  * missing updates if hosts equipped with WAPT requests them.
+
 
 .. figure:: wapt-wua-windows-update-list.png
   :align: center
