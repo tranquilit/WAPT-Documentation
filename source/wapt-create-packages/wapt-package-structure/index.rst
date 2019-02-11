@@ -67,12 +67,12 @@ The :file:`control` file is the identity card of a package.
     target_os         : windows
     min_os_version    :
     max_os_version    :
-    min_wapt_version  : 1.3.8
+    min_wapt_version  : 1.6.2
     sources           :
     installed_size    :
     impacted_process  : firefox.exe
     audit_schedule    :
-    editor            : Mozzila
+    editor            : Mozilla
     keywords          : Navigateur
     licence           : MPL
     homepage          : https://www.mozilla.org/en-US/firefox/organizations/
@@ -114,7 +114,7 @@ Settings                Description                                 Example valu
 ``conflicts``           Packages that must be uninstalled           tis-graph
                         before installing the package
 
-``maturity``            Maturity level (BETA, DEV, STABLE)          STABLE
+``maturity``            Maturity level (BETA, DEV, PROD)            PROD
 
 ``locale``              Language environment for the package        fr,en,es
 
@@ -289,11 +289,7 @@ By default, WAPT gents will see packages flagged as *PROD*
 and packages with an empty maturity.
 
 For a computer to see packages with different maturity levels, you will have
-to configure the *maturities* in :file:`wapt-get.ini`.
-
-.. code-block:: bash
-
-   maturities = PROD,DEV,PREPROD
+to configure the *maturities* atrtibute in :ref:`wapt-get-ini`
 
 locale
 """"""

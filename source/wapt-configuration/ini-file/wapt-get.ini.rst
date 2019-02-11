@@ -66,6 +66,9 @@ Options                                                 Description
 
 ``loglevel`` = warning                                  Log level of the WAPT agent. Possible values are: ``debug``,
                                                         ``info``, ``warning``, ``critical``.
+
+``maturities`` = PROD                                   List of packages maturities than can be viewed and installed by
+                                                        WAPT Agent. Default value is ``PROD``. Any value can be used.                                                        
 ======================================================= =======================================================================
 
 .. _wapt-get-ini-waptserver:
