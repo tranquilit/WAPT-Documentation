@@ -145,6 +145,13 @@ You can see the windows updates download on the server with the button "show dow
 	If one day your Windows update folder gets too big, then you can remove all windows update. Wapt will only download missing updates on the computers.
 	
 	
+.. figure:: windows-update-list
+   :align: center
+   :alt: List Windows update
+
+   List Windows update
+	
+	
   
 Complete diagram of the operation of WAPT windows update
 ------------------------------------------------------------------
