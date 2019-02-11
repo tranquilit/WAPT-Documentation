@@ -64,10 +64,10 @@ from Microsoft's servers.
 The WAPT Windows Update Agent repository download URL is based
 on the ``repo_url`` parameter in :file:`wapt-get.ini`:
 
-	* in case of repository replication, it is fully operational
-    with WAPT Windows Update to reduce bandwidth use;
+* in case of repository replication, it is fully operational
+  with WAPT Windows Update to reduce bandwidth use;
 
-	* do not forget to synchronize the :file:`waptwua` folder;
+* do not forget to synchronize the :file:`waptwua` folder;
 
 Configuring WAPTWUA on the WAPT agent
 -------------------------------------
@@ -157,25 +157,25 @@ then the WAPT agent will flag the update as *MISSING*.
 
 .. note::
 
-	If the WAPTWUA agent configuration is set to ``default_allow = True``,
+  If the WAPTWUA agent configuration is set to ``default_allow = True``,
   then it will be necessary to specify the forbidden cab;
 
-	If the WAPTWUA agent configuration is set to ``default_allow = False``,
+  If the WAPTWUA agent configuration is set to ``default_allow = False``,
   then it will be necessary to specify the authorized cab;
 
 .. hint::
 
-	To test updates on a small set of computers,
+  To test updates on a small set of computers,
   you can set WAPTWUA default value to ``default_allow = False``;
 
-	You can test updates for a small set of hosts and if everything is good,
+  You can test updates for a small set of hosts and if everything is good,
   release them for the entire base of computers;
 
 .. figure:: wapt_console-wua.png
-   :align: center
-   :alt: Create WAPTWUA Package
+  :align: center
+  :alt: Create WAPTWUA Package
 
-   Create WAPTWUA Package
+  Create WAPTWUA Package
 
 Windows Updates list tab
 ++++++++++++++++++++++++
@@ -205,12 +205,12 @@ and is not present on the server (This update is not missing on any host).
 
 .. hint::
 
-	To cleanup your :file:`WAPTWUA` folder, you can remove
+  To cleanup your :file:`WAPTWUA` folder, you can remove
   unnecessary Windows updates. WAPT server will only re-download
   missing updates if hosts equipped with WAPT requests them.
 
 .. figure:: wapt-wua-windows-update-list.png
-   :align: center
-   :alt: List Windows Update
+  :align: center
+  :alt: List Windows Update
 
-   List Windows Update
+  List Windows Update
