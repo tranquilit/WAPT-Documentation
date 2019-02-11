@@ -26,13 +26,21 @@ Performing minor updates on a CentOS/ RedHat based WAPT Server
 
 * upgrade the WAPT Server:
 
-  If you have configured a RPM repository for WAPT, then you
-  just need to launch the upgrade.
+  Modify the repository address then launch the upgrade.
 
   .. code-block:: bash
 
+    cat > /etc/yum.repos.d/wapt.repo <<EOF
+    [wapt]
+    name=WAPT Server Repo
+    baseurl=https://wapt.tranquil.it/centos7/wapt-1.7/
+    enabled=1
+    gpgcheck=0
+    EOF
+
     yum update
-    yum install tis-waptserver tis-waptsetup
+    yum install postgresql96-server postgresql96-contrib tis-waptserver tis-waptsetup
+
 
   If you have retrieved the WAPT RPM Packages with a :program:`wget`,
   we can install the new packages using a :command:`yum` command.

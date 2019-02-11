@@ -25,6 +25,10 @@ Upgrading from 1.6 to 1.7
 
 The upgrade process follows the process for a minor update.
 
+* :ref:`wapt_minor_upgrade_debian`
+* :ref:`wapt_minor_upgrade_centos`
+* :ref:`wapt_minor_upgrade_windows`
+
 .. attention::
   
   * Debian Jessie is now deprecated. WAPT 1.7 won't work using that old Debian version. 
