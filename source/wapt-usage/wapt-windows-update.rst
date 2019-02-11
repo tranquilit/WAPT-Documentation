@@ -19,8 +19,10 @@ Using WAPT Windows Update Agent (WAPTWUA)
 .. note::
 
 	Since version 1.7, WAPT is able to manage Windows Updates on your endpoints.
+
 	* The internals of WAPTWUA is based on the :abbr:`WUA (Windows Update Agent)`
     API.
+
 	* For more information: https://docs.microsoft.com/en-us/windows/desktop/wua_sdk/using-the-windows-update-agent-api
 
 
@@ -60,7 +62,6 @@ from Microsoft's servers.
 	Downloaded updates are stored:
 
 	* on Linux servers in :file:`/var/www/waptwua`;
-
 	* on Windows servers in :file:`C:\\wapt\\waptserver\\repository\\waptwua`;
 
 .. hint::
