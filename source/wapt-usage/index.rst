@@ -26,4 +26,5 @@ the :term:`Users` and the :term:`Package Deployers`.
   waptexit.rst
   wapt-windows-update.rst
   wapt-reporting.rst
+  selfservice.rst
   role-separation/index.rst
