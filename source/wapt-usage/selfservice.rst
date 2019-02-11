@@ -6,60 +6,69 @@
    Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
-   :description: Using WAPTtray.
-   :keywords: WAPT, Tray, documentation
+   :description: Using WAPT SelfService
+   :keywords: WAPT, selfservice, documentation
 
 .. _wapttray:
 
 Using WAPT SelfService
-================================
+======================
+
+.. versionadded:: 1.7 Enterprise
 
 Presentation
---------------------
+------------
 
-With wapt 1.7 you can now filter the list of self-service packages for your users.
+With WAPT 1.7 you can now filter the list of self-service packages available
+for your users.
 
-Your users will be able to install apt packages without having to be an administrator of their pc.
+Your users will be able to install a selection of WAPT packages
+without having to be a :term:`Local Administrator` on their desktop.
 
-They are therefore more autonomous and this saves them from calling the help desk.
+The :term:`Users` gain in autonomy while deploying software and configurations
+that are trusted and authorized by the :term:`Organization`.
+This is a time saving feature for the Organization's IT support Helpdesk.
 
+How it works?
+-------------
 
-How it works ?
---------------------
+With WAPT 1.7, a new type of WAPT package exists beside *base*, *group*,
+*host* and *unit* packages: they are **selfservice** packages.
 
-Since wapt 1.7 you can now create SelfService type packages
+A *selfservice* package may now be deployed on hosts to list the different
+self-service rules that apply to the host.
 
-This package can be installed on the machines to tell them the different self service rule that must apply.
+How to use the **selfservice** feature?
+---------------------------------------
 
+In the console go to the tab :guilabel:`Self-service` rules.
 
-Use
------
+You can now create your first *selfservice* rule package.
 
-In the console go to the tab Self-service rules
+* give a name to your new *selfservice* package;
 
-You can now create your first selfservice rule paquet
+* click on :button:`Add` to add an Active Directory group (at the bottom left);
 
-- Give a name to this package
+* name the *selfservice* group (with :kbd:`F2` or type directly into the cell);
 
-- Now click on add for add AD group (At the bottom left)
+* drag the allowed software and configuration packages
+  for this *selfservice* group into the central column;
 
-- Enter the group name (With F2 or type directly into the cell)
+* add as many groups as you want in the package;
 
-- You can now drag the allowed packages for this group into the central column.
+* save the package and deploy the package on your selection of hosts;
 
-- Add as many groups as you want in this package
-
-- You can now save this package and start its installation on the computers
-
-- Once this package is installed, the self-service takes into account these new rules when access to it.
-
+* once the package is deployed, only uninstalled packages listed
+  in the *selfservice* group(s) of which the :term:`User` is a member
+  will be shown to the logged in :term:`User`;
 
 .. note::
 
-	If a group appears in multiple selfservice packages, then the rules will be merged.
-	
+	If a group appears in multiple *selfservice* packages,
+  then the rules will be merged.
+
 .. figure:: wapt_console-selfservice.png
    :align: center
-   :alt: Create self service package
+   :alt: Create a self-service package
 
-   Create self service package
+   Create a *selfservice* package
