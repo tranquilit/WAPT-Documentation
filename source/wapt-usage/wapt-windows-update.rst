@@ -61,10 +61,8 @@ from Microsoft's servers.
   * on Linux servers in :file:`/var/www/waptwua`;
   * on Windows servers in :file:`C:\\wapt\\waptserver\\repository\\waptwua`;
 
-.. hint::
-
-	The WAPT Windows Update Agent repository download URL is based
-  on the ``repo_url`` parameter in :file:`wapt-get.ini`:
+The WAPT Windows Update Agent repository download URL is based
+on the ``repo_url`` parameter in :file:`wapt-get.ini`:
 
 	* in case of repository replication, it is fully operational
     with WAPT Windows Update to reduce bandwidth use;
@@ -99,6 +97,7 @@ Options                   Default Value   Description
 
 ``filter``                Type='Software' Define the filter to apply
                                           for the Windows update scan
+
 ``download_scheduling``		None            Set the Windows Update scan recurrence
                                           (Will not do anything if wsus rule
                                           or wsuscn2.cab file have not changed)
