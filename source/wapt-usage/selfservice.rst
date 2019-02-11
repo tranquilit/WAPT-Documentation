@@ -47,7 +47,7 @@ You can now create your first *selfservice* rule package.
 
 * give a name to your new *selfservice* package;
 
-* click on :button:`Add` to add an Active Directory group (at the bottom left);
+* click on :guilabel:`Add` to add an Active Directory group (at the bottom left);
 
 * name the *selfservice* group (with :kbd:`F2` or type directly into the cell);
 
@@ -64,11 +64,11 @@ You can now create your first *selfservice* rule package.
 
 .. note::
 
-	If a group appears in multiple *selfservice* packages,
-  then the rules will be merged.
+	If a group appears in multiple *selfservice* packages, then the rules will be merged.
+
 
 .. figure:: wapt_console-selfservice.png
-   :align: center
-   :alt: Create a self-service package
+  :align: center
+  :alt: Create a self-service package
 
-   Create a *selfservice* package
+  Create a *selfservice* package

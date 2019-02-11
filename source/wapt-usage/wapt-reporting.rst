@@ -13,7 +13,7 @@
 
 .. versionadded:: 1.7
 
-Uses of Reporting
+Using Reporting
 ====================================
 
 Principle

@@ -17,13 +17,18 @@ the :term:`Users` and the :term:`Package Deployers`.
 
 .. toctree::
   :maxdepth: 1
-
+  
   wapt-console.rst
   wapt-console-detail.rst
   wapttray.rst
   wapt-web-interface.rst
   command-line-interface/index.rst
   waptexit.rst
+
+.. toctree::
+  :maxdepth: 1
+  :caption: Enterprise Features
+
   wapt-windows-update.rst
   wapt-reporting.rst
   selfservice.rst
