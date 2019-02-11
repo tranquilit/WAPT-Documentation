@@ -141,7 +141,7 @@ In the grid, if the "Downloaded on" column is empty, it means that the update wa
 	To cleanup your WAPTWUA folder, you can remove unnecessary Windows Update. WAPT server will only re-download missing updates on computers.
 	
 	
-.. figure:: windows-update-list
+.. figure:: wapt-wua-windows-update-list.png
    :align: center
    :alt: List Windows Update
 
@@ -152,7 +152,7 @@ In the grid, if the "Downloaded on" column is empty, it means that the update wa
 WAPT Windows Update flow process
 ------------------------------------------------------------------
   
-.. figure:: diagramme-windows-update.png
+.. figure:: wapt-wua-diagramme-windows-update.png
   :align: center
   :alt: WAPT Windows Update flow process
 
