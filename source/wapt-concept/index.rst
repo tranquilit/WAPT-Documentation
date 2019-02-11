@@ -138,7 +138,7 @@ multiple repositories.
 Types of WAPT packages
 ++++++++++++++++++++++
 
-There are 4 types of WAPT packages:
+There are 7 types of WAPT packages:
 
 .. figure:: wapt_concept-simple_package.png
   :align: center
@@ -183,6 +183,8 @@ They are stored in the web directory https://srvwapt.mydomain.lan/wapt-host/.
 *Unit* packages
 """""""""""""""
 
+.. versionadded:: 1.6 Enterprise
+
 *Unit* packages bear the complete name of :abbr:`OU (Organizational Unit)`,
 example: **OU=room1,OU=prod,OU=computers,DC=mydomain,DC=lan**.
 
@@ -203,7 +205,7 @@ They are stored in the web directory https://srvwapt.mydomain.lan/wapt-host/.
 
   If the computer is removed from an Organizational Unit,
   obsolete *unit* packages will be removed.
-  
+
 
 *WAPTWUA* packages
 """"""""""""""""""
@@ -214,27 +216,36 @@ When this package is installed on the endpoint, the next update scan performed b
 
 If the PC has several WAPTWUA packets, then WAPT will merge all packages rules.
 
+When this package is installed on the host, the next :command:`update` will scan
+for official Windows updates applicable to the host based on this filtering.
 
 *selfservice* packages
-"""""""""""""""""""""""""
+""""""""""""""""""""""
 
-Contains a list of groups or users (ad or local) and the associated authorized package list.
+.. versionadded:: 1.7 Enterprise
 
-If there is more than one self service package installed, then wapt will merge the rules
+*selfservice* packages contain a list of groups or users
+(Active Directory or local) and their associated lists
+of authorized packages that :term:`Users` are allowed to install by themselves.
 
 *profile* packages
-"""""""""""""""""""""""""
+""""""""""""""""""
 
-This type of package is similar to a "group" package. 
+.. versionadded:: 1.7 Enterprise
 
-It has a different functioning :
+*profile* packages are similar to *group* packages.
 
-The wapt agent will list the AD groups whose machine is part of it.
+However, *profile* packages work a little differently and are most useful
+when an Active Directory Server is operating within the :term:`Organization`:
 
-If a package has the same name as the AD group, then the wapt agent will install it automatically
+* the WAPT agent will list the Active Directory groups where the Host belongs;
 
-Later, if the machine is no longer part of this group, then the profile package will be uninstalled.
+* if a *profile* package has the same name as the Active Directory group,
+  then the WAPT agent will install automatically the *profile* package
+  for the Active Directory group of which it is a member;
 
+If the host is no longer a member of its Active Directory group,
+then the *profile* package will be uninstalled.
 
 Dependency mechanism
 ++++++++++++++++++++
