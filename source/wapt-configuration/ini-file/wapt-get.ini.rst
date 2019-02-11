@@ -28,51 +28,49 @@ Description of available options for the WAPT agent
 
 .. note::
 
-    If ``repo_url`` and ``wapt_server`` fields are empty, the WAPT agent
+    * If ``repo_url`` and ``wapt_server`` fields are empty, the WAPT agent
     will look for a repository using SRV records in the ``dnsdomain`` zone.
-
-    If there is no ``wapt_server`` attribute in the ``[global]`` section,
+    * If there is no ``wapt_server`` attribute in the ``[global]`` section,
     no WAPT Server will be used.
-
-    If there is no ``repo_url`` attribute in the ``[global]`` section,
+    * If there is no ``repo_url`` attribute in the ``[global]`` section,
     a repository in the ``[wapt]`` section will have to be explicitly defined.
-    It will have to be enabled by adding it to the ``repositories``
+    * It will have to be enabled by adding it to the ``repositories``
     attribute of the ``[global]`` section.
 
 .. tabularcolumns:: |\\X{5}{12}|\\X{7}{12}|
 
-================================================== =======================================================================
-Options                                            Description
-================================================== =======================================================================
-``repo_url`` = https://srvwapt.mydomain.lan/wapt   If the field is left empty, the WAPT agent will make a :term:`DNS`
-                                                   query on the :term:`SRV` field ``_wapt._tcp.<dnsdomain>`` to find
-                                                   the repository (the ``dnsdomain`` attribute must be configured).
+======================================================= =======================================================================
+Options                                                 Description
+======================================================= =======================================================================
+``repo_url`` = https://srvwapt.mydomain.lan/wapt        If the field is left empty, the WAPT agent will make a :term:`DNS`
+                                                        query on the :term:`SRV` field ``_wapt._tcp.<dnsdomain>`` to find
+                                                        the repository (the ``dnsdomain`` attribute must be configured).
 
-``wapt_server`` = https://srvwapt.mydomain.lan     If the attribute is left empty, the WAPT agent will make a
-                                                   :term:`DNS` :term:`SRV` query on the ``_waptserver._tcp.<dnsdomain>``
-                                                   field (the ``dnsdomain`` attribute must be configured)
+``wapt_server`` = https://srvwapt.mydomain.lan          If the attribute is left empty, the WAPT agent will make a
+                                                        :term:`DNS` :term:`SRV` query on the ``_waptserver._tcp.<dnsdomain>``
+                                                        field (the ``dnsdomain`` attribute must be configured)
 
-``dnsdomain`` = mydomain.lan                       DNS suffix to use for auto-discovery of the WAPT Server and
-                                                   repositories with :term:`SRV` / :term:`CNAME field` DNS queries.
+``dnsdomain`` = mydomain.lan                            DNS suffix to use for auto-discovery of the WAPT Server and
+                                                        repositories with :term:`SRV` / :term:`CNAME field` DNS queries.
 
-``use_hostpackages`` = 1                           Use host packages (default 1).
+``use_hostpackages`` = 1                                Use host packages (default 1).
 
-``waptupdate_task_period`` = 120                   Update frequency (120 minutes by default).
+``waptupdate_task_period`` = 120                        Update frequency (120 minutes by default).
 
-``waptupgrade_task_period`` = 360                  Upgrade frequency (disabled by default)
+``waptupgrade_task_period`` = 360                       Upgrade frequency (disabled by default)
 
-``waptservice_user`` = admin                       Identifier used by the WAPT service when executing actions.
+``waptservice_user`` = admin                            Identifier used by the WAPT service when executing actions.
 
-``waptservice_password`` = 5e884898da              sha256 hashed password when the WAPT service is used locally from
-                                                   a command prompt (NOPASSWORD disables the requirement for a password)
+``waptservice_password`` = 5e884898da                   sha256 hashed password when the WAPT service is used locally from
+                                                        a command prompt (NOPASSWORD disables the requirement for a password)
 
-``waptservice_port`` = 8088                        WAPT agent loopback port. It is not accessible from the network.
+``waptservice_port`` = 8088                             WAPT agent loopback port. It is not accessible from the network.
 
-``dbdir`` = :file:`C:\\Program Files(x86)\\wapt\\db`  Folder where the database :file:`waptdb.sqlite` file will be stored.
+``dbdir`` = :file:`C:\\Program Files(x86)\\wapt\\db`    Folder where the database :file:`waptdb.sqlite` file will be stored.
 
-``loglevel`` = warning                             Log level of the WAPT agent. Possible values are: ``debug``,
-                                                   ``info``, ``warning``, ``critical``.
-================================================== =======================================================================
+``loglevel`` = warning                                  Log level of the WAPT agent. Possible values are: ``debug``,
+                                                        ``info``, ``warning``, ``critical``.
+======================================================= =======================================================================
 
 .. _wapt-get-ini-waptserver:
 .. _wapt-get-ini-kerberos:
@@ -80,32 +78,34 @@ Options                                            Description
 WAPT Server configuration attributes
 ------------------------------------
 
+These options will set WAPT agent behaviour when connecting to WAPT Server
+
 .. tabularcolumns:: |\\X{5}{12}|\\X{7}{12}|
 
-======================================================================= ========================================================================================
-Options                                                                 Description
-======================================================================= ========================================================================================
-``wapt_server`` =                                                       WAPT Server URL. If the attribute is not present, no WAPT Server will be contacted.
-                                                                        If the attribute is empty, a DNS query will be triggered to find the WAPT Server
-                                                                        using the ``dnsdomain`` attribute for the DNS zone.
+============================================================================ ========================================================================================
+Options                                                                      Description
+============================================================================ ========================================================================================
+``wapt_server`` =                                                            WAPT Server URL. If the attribute is not present, no WAPT Server will be contacted.
+                                                                             If the attribute is empty, a DNS query will be triggered to find the WAPT Server
+                                                                             using the ``dnsdomain`` attribute for the DNS zone.
 
-``dnsdomain`` =                                                         DNS zone on which the DNS SRV ``_waptserver._tcp`` is searched.
+``dnsdomain`` =                                                              DNS zone on which the DNS SRV ``_waptserver._tcp`` is searched.
 
-``wapt_server_timeout`` = 10                                            WAPT Server HTTPS connection timeout in seconds
+``wapt_server_timeout`` = 10                                                 WAPT Server HTTPS connection timeout in seconds
 
-``use_kerberos`` = 1                                                    Use Kerberos authentication for initial registration on the WAPT Server.
+``use_kerberos`` = 1                                                         Use Kerberos authentication for initial registration on the WAPT Server.
 
-``verify_cert`` =                                                       See the documentation on activating the
+``verify_cert`` =                                                            See the documentation on activating the
 :file:`C:\\Program Files (x86)\\wapt\\ssl\\server\\srvwapt.mydomain.lan.crt` :ref:`verification of HTTPS certificates <activating_HTTPS_certificate_verification>`.
 
-``public_certs_dir`` = :file:`C:\\Program Files (x86)\\wapt\\ssl`          Folder of certificates authorized to verify the signature of WAPT packages,
-                                                                        by default, ``<wapt_base_dir>\\ssl``. Only files in this directory with
-                                                                        :file:`.crt` or :file:`.pem` extension are taken into account. There may be
-                                                                        several X509 certificates in each file. Authorized packages in WAPT are those
-                                                                        whose signature may be verified by one of the certificates contained in the
-                                                                        PEM files of this directory. Each repository may have its own folder of
-                                                                        authorized certificates.
-======================================================================= ========================================================================================
+``public_certs_dir`` = :file:`C:\\Program Files (x86)\\wapt\\ssl`            Folder of certificates authorized to verify the signature of WAPT packages,
+                                                                             by default, ``<wapt_base_dir>\\ssl``. Only files in this directory with
+                                                                             :file:`.crt` or :file:`.pem` extension are taken into account. There may be
+                                                                             several X509 certificates in each file. Authorized packages in WAPT are those
+                                                                             whose signature may be verified by one of the certificates contained in the
+                                                                             PEM files of this directory. Each repository may have its own folder of
+                                                                             authorized certificates.
+============================================================================ ========================================================================================
 
 .. _wapt-get-ini-repositories:
 
@@ -199,9 +199,9 @@ Settings for creating packages
 ============================================================ ==================================================
 Options                                                      Description
 ============================================================ ==================================================
-``personal_certificate_path`` = C:\\private\\org-coder.crt     Path to the Administrator's private key
-``default_sources_root`` = C:\\waptdev                        Directory for storing packages in development
-``default_sources_root_host`` = C:\\waptdev\\hosts             Directory for storing host packages in development
+``personal_certificate_path`` = C:\\private\\org-coder.crt   Path to the Administrator's private key
+``default_sources_root`` = C:\\waptdev                       Directory for storing packages in development
+``default_sources_root_host`` = C:\\waptdev\\hosts           Directory for storing host packages in development
 ``default_package_prefix`` = tis                             Default prefix for new or imported packages
 ``default_sources_suffix`` = wapt                            Default prefix for new or imported packages
 ============================================================ ==================================================
@@ -252,7 +252,7 @@ is not sufficient to push the new configuration.
 You can create a WAPT package to push updated :file:`wapt-get.ini` settings.
 
 The package is available from the Tranquil IT repository:
-https://store.wapt.fr/package_details?package=tis-wapt-conf-policy_6_all.wapt:
+https://store.wapt.fr/store/details-tis-wapt-conf-policy_6_all.wapt :
 
 .. code-block:: python
 

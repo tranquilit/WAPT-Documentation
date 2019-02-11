@@ -670,12 +670,13 @@ Add in the menu of the machines additional actions
 
 For that purpose, go to :menuselection:`Tools --> preference --> plugins Tab`
 
-# TODO add CAPTURE
+.. todo:: add CAPTURE
+
 .. figure:: wapt_console-generate_new_certificate.png
   :align: center
   :alt: Generate a self-signed certificate
 
-Click add to add plugins, then edit the corespondente columns
+  Click add to add plugins, then edit the corespondente columns
 
 .. list-table::
    :header-rows: 1
@@ -691,12 +692,13 @@ Click add to add plugins, then edit the corespondente columns
 
 Plugins will then appear in the menu :
 
-# TODO add CAPTURE
+.. todo:: add CAPTURE
+
 .. figure:: wapt_console-generate_new_certificate.png
   :align: center
   :alt: Generate a self-signed certificate
-  
 
+  Generate a self-signed certificate
 
 
 

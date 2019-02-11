@@ -28,7 +28,13 @@ Principle
 
 Regularly, the WAPT server downloads :file:`"wsuscn2.cab"` file from Microsoft's server. (once a day, the files will not be downloaded if they have not changed since the last download.)
 
-The wsuscn2.cab file will allow WAPT Windows Update Agent to check for necessary updates on the machine. (The WAPT agent directly download the wsuscn2.cab file from WAPT repository)
+.. figure:: wapt-wua-diagramme-windows-update.png
+  :align: center
+  :alt: WAPT Windows Update flow process
+
+  WAPT Windows Update flow process
+
+The :file:`wsuscn2.cab` file will allow WAPT Windows Update Agent to check for necessary updates on the machine. (The WAPT agent directly download the wsuscn2.cab file from WAPT repository)
 
 Regularly, the machine will analyze the available updates with this file. The list is then sent to the WAPT server.
 
@@ -69,14 +75,28 @@ Options                                Default Value               			Descriptio
 ``default_allow``                      False                                Set if missing update is authorized or not by default.
 ``filter``                             Type='Software' or Type='Driver'     Define the filter to apply for the Windows update scan        
 ``download_scheduling``				   None                                 Set the Windows Update scan recurrence (Will not do anything if wsus rule or wsuscn2.cab file have not changed) (ex: 2h)
-``install_scheduling``                 None                                 Set the Windows Update install recurrence (Will not do anything if no update is pending) (ex: 2h)
+``install_scheduling``                 None                                 Set the Windows Update install recurrence (Will do nothing if no update is pending) (ex: 2h)
 ``install_delay``                      None                                 Set a deferred installation time since online publication    (ex: 7d)
 ====================================== ==================================== =========================================================================================================================
 
 .. hint::
 
 	These options can be set when generating the agent.
-	
+
+Example WAPTWUA section in :file:`wapt-get.ini` file :
+
+.. code-block:: ini
+
+	[waptwua]
+	enabled =true
+	offline =true
+	default_allow =false
+	allow_direct_download=false
+	download_scheduling=1d
+	install_at_shutdown=true
+	install_scheduling=12h
+	install_delay=7d
+
 	
 Use WAPTWUA from the console
 --------------------------------------------
@@ -140,14 +160,3 @@ In the right pane grid, if the "Downloaded on" column is empty, it means that th
    :alt: List Windows Update
 
    List Windows Update
-	
-	
-  
-WAPT Windows Updates flow process
-------------------------------------------------------------------
-  
-.. figure:: wapt-wua-diagramme-windows-update.png
-  :align: center
-  :alt: WAPT Windows Update flow process
-
-  WAPT Windows Update flow process
