@@ -210,11 +210,13 @@ They are stored in the web directory https://srvwapt.mydomain.lan/wapt-host/.
 *WAPTWUA* packages
 """"""""""""""""""
 
-Contains the list of authorized or prohibited Windows Updates
+*WAPTWUA* packages contain the list of authorized or prohibited Windows Updates.
 
-When this package is installed on the endpoint, the next update scan performed by WAPT will take this filtering.
+When this package is installed on the endpoint, the next update scan
+performed by WAPT will choose Windows updates based on this filtering.
 
-If the PC has several WAPTWUA packets, then WAPT will merge all packages rules.
+If the host has several *WAPTWUA* packages, then WAPT
+will merge all packages rules.
 
 When this package is installed on the host, the next :command:`update` will scan
 for official Windows updates applicable to the host based on this filtering.
