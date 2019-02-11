@@ -20,6 +20,12 @@ Upgrading the WAPT Server
    This way, you'll be able to go back easily in the rare case that
    the update fails.
 
+Upgrading from 1.6 to 1.7
+-------------------------
+
+The upgrade process follows the process for a minor update.
+
+
 Upgrading from 1.5 to 1.6
 -------------------------
 
