@@ -13,13 +13,13 @@
 
 .. versionadded:: 1.7
 
-Uses of windows update
+Using WAPT Windows Update
 ====================================
 
 
 .. note::
 
-	Since version 1.7, wapt is able to manage Windows updates on your parc.
+	Since version 1.7, WAPT is able to manage Windows Updates on your parc.
 
 	The operation of waptwua is based on "Windows Update Agent API".
 
@@ -29,15 +29,15 @@ Uses of windows update
 Principle
 -----------
 
-Regularly, the wapt server downloads a file "wsuscn2.cab" from the Microsoft server. (once a day, the files will not be downloaded if they have not changed since the last download.)
+Regularly, the WAPT server downloads "wsuscn2.cab" file from Microsoft's server. (once a day, the files will not be downloaded if they have not changed since the last download.)
 
-The wsuscn2.cab file will allow the Windows Update Agent to check for the necessary updates on the machine. (The wapt agent directly download the wsuscn2.cab file from wapt server)
+The wsuscn2.cab file will allow Windows Update Agent to check for necessary updates on the machine. (The WAPT agent directly download the wsuscn2.cab file from WAPT repository)
 
-Regularly, the machine will analyze the available updates with this file. The list is then sent to the wapt server.
+Regularly, the machine will analyze the available updates with this file. The list is then sent to the WAPT server.
 
-If an update is pending on the machine, if this update is not present on the wapt server, then the wapt server will download this update.
+If an update is pending on the machine and if that update is not present on the WAPT server, the server will download that update.
 
-This mode of operation allows you to download only updates necessary for your parc.
+This mode of operation allows you to download only necessary updates for your computers.
 
 .. note:: 
 
