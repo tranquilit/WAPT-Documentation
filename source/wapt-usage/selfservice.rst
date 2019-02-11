@@ -57,3 +57,9 @@ You can now create your first selfservice rule paquet
 .. note::
 
 	If a group appears in multiple selfservice packages, then the rules will be merged.
+	
+.. figure:: wapt_console-selfservice.png
+   :align: center
+   :alt: Create self service package
+
+   Create self service package

@@ -14,7 +14,7 @@
 Configuring the WAPT agent
 ==========================
 
-The configuration file :file:`C:\Program Files(x86)\wapt\wapt-get.ini`
+The configuration file :file:`C:\\Program Files(x86)\\wapt\\wapt-get.ini`
 defines the behavior of the WAPT agent.
 
 The ``[global]`` section is required:
@@ -39,7 +39,7 @@ Description of available options for the WAPT agent
     It will have to be enabled by adding it to the ``repositories``
     attribute of the ``[global]`` section.
 
-.. tabularcolumns:: |\X{5}{12}|\X{7}{12}|
+.. tabularcolumns:: |\\X{5}{12}|\\X{7}{12}|
 
 ================================================== =======================================================================
 Options                                            Description
@@ -68,7 +68,7 @@ Options                                            Description
 
 ``waptservice_port`` = 8088                        WAPT agent loopback port. It is not accessible from the network.
 
-``dbdir`` = :file:`C:\Program Files(x86)\wapt\db`  Folder where the database :file:`waptdb.sqlite` file will be stored.
+``dbdir`` = :file:`C:\\Program Files(x86)\\wapt\\db`  Folder where the database :file:`waptdb.sqlite` file will be stored.
 
 ``loglevel`` = warning                             Log level of the WAPT agent. Possible values are: ``debug``,
                                                    ``info``, ``warning``, ``critical``.
@@ -80,7 +80,7 @@ Options                                            Description
 WAPT Server configuration attributes
 ------------------------------------
 
-.. tabularcolumns:: |\X{5}{12}|\X{7}{12}|
+.. tabularcolumns:: |\\X{5}{12}|\\X{7}{12}|
 
 ======================================================================= ========================================================================================
 Options                                                                 Description
@@ -96,10 +96,10 @@ Options                                                                 Descript
 ``use_kerberos`` = 1                                                    Use Kerberos authentication for initial registration on the WAPT Server.
 
 ``verify_cert`` =                                                       See the documentation on activating the
-:file:`C:\Program Files (x86)\wapt\ssl\server\srvwapt.mydomain.lan.crt` :ref:`verification of HTTPS certificates <activating_HTTPS_certificate_verification>`.
+:file:`C:\\Program Files (x86)\\wapt\\ssl\\server\\srvwapt.mydomain.lan.crt` :ref:`verification of HTTPS certificates <activating_HTTPS_certificate_verification>`.
 
-``public_certs_dir`` = :file:`C:\Program Files (x86)\wapt\ssl`          Folder of certificates authorized to verify the signature of WAPT packages,
-                                                                        by default, ``<wapt_base_dir>\ssl``. Only files in this directory with
+``public_certs_dir`` = :file:`C:\\Program Files (x86)\\wapt\\ssl`          Folder of certificates authorized to verify the signature of WAPT packages,
+                                                                        by default, ``<wapt_base_dir>\\ssl``. Only files in this directory with
                                                                         :file:`.crt` or :file:`.pem` extension are taken into account. There may be
                                                                         several X509 certificates in each file. Authorized packages in WAPT are those
                                                                         whose signature may be verified by one of the certificates contained in the
@@ -131,7 +131,7 @@ to define more repositories.
   Active repositories are listed in the ``repositories`` attribute
   of the ``[global]`` section.
 
-.. tabularcolumns:: |\X{5}{12}|\X{7}{12}|
+.. tabularcolumns:: |\\X{5}{12}|\\X{7}{12}|
 
 ================================== ============================================================================
 Options                            Description
@@ -145,7 +145,7 @@ Options                            Description
 
   This parameter can be configured both in the WAPT agent configuration
   and in the WAPT console configuration file
-  :file:`C:\Users\%username%\AppData\Local\waptconsole\waptconsole.ini`.
+  :file:`C:\\Users\\%username%\\AppData\\Local\\waptconsole\\waptconsole.ini`.
 
   For information on configuring the WAPT console,
   please refer to :ref:`this documentation <waptconsole_ini_file>`.
@@ -155,7 +155,7 @@ Options                            Description
 Settings for ``waptexit``
 -------------------------
 
-.. tabularcolumns:: |\X{5}{12}|\X{7}{12}|
+.. tabularcolumns:: |\\X{5}{12}|\\X{7}{12}|
 
 ================================ ====================================================================
 Options                          Description
@@ -169,7 +169,7 @@ Options                          Description
 Settings for ``wapttray``
 -------------------------
 
-.. tabularcolumns:: |\X{5}{12}|\X{7}{12}|
+.. tabularcolumns:: |\\X{5}{12}|\\X{7}{12}|
 
 ================================ ========================================================
 Options                          Description
@@ -180,7 +180,7 @@ Options                          Description
 Proxy settings
 --------------
 
-.. tabularcolumns:: |\X{5}{12}|\X{7}{12}|
+.. tabularcolumns:: |\\X{5}{12}|\\X{7}{12}|
 
 ================================================ ==============================================
 Options                                          Description
@@ -194,14 +194,14 @@ Options                                          Description
 Settings for creating packages
 ------------------------------
 
-.. tabularcolumns:: |\X{5}{12}|\X{7}{12}|
+.. tabularcolumns:: |\\X{5}{12}|\\X{7}{12}|
 
 ============================================================ ==================================================
 Options                                                      Description
 ============================================================ ==================================================
-``personal_certificate_path`` = C:\private\org-coder.crt     Path to the Administrator's private key
-``default_sources_root`` = C:\waptdev                        Directory for storing packages in development
-``default_sources_root_host`` = C:\waptdev\hosts             Directory for storing host packages in development
+``personal_certificate_path`` = C:\\private\\org-coder.crt     Path to the Administrator's private key
+``default_sources_root`` = C:\\waptdev                        Directory for storing packages in development
+``default_sources_root_host`` = C:\\waptdev\\hosts             Directory for storing host packages in development
 ``default_package_prefix`` = tis                             Default prefix for new or imported packages
 ``default_sources_suffix`` = wapt                            Default prefix for new or imported packages
 ============================================================ ==================================================
@@ -218,20 +218,20 @@ To upload packages on the repository
 
 .. code-block:: ini
 
-  upload_cmd="C:\Program Files (x86)\WinSCP\WinSCP.exe" admin@srvwapt.mydomain.lan /upload %(waptfile)s
+  upload_cmd="C:\\Program Files (x86)\\WinSCP\\WinSCP.exe" admin@srvwapt.mydomain.lan /upload %(waptfile)s
 
 To upload host-packages on the repository (:command:`upload-package`
 or :command:`build-upload` of a host package), use:
 
 .. code-block:: ini
 
-    upload_cmd_host="C:\Program Files (x86)"\putty\pscp -v -l admin %(waptfile)s srvwapt.mydomain.lan:/var/www/wapt-host/
+    upload_cmd_host="C:\\Program Files (x86)"\\putty\\pscp -v -l admin %(waptfile)s srvwapt.mydomain.lan:/var/www/wapt-host/
 
 To launch a command after a package :command:`upload`, use:
 
 .. code-block:: ini
 
-    after_upload="C:\Program Files (x86)"\putty\plink -v -l admin srvwapt.mydomain.lan "python /var/www/wapt/wapt-scanpackages.py /var/www/%(waptdir)s/"
+    after_upload="C:\\Program Files (x86)"\\putty\\plink -v -l admin srvwapt.mydomain.lan "python /var/www/wapt/wapt-scanpackages.py /var/www/%(waptdir)s/"
 
 Configuration of WAPT agents
 ----------------------------

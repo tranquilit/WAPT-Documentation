@@ -78,7 +78,7 @@ Downloading and launching the installation of the WAPT console on the Administra
 * accept the licence terms and click on :guilabel:`Next` to go to next step;
 
 * choose the WAPT destination folder
-  (:file:`C:\Program Files (x86)\wapt` by default);
+  (:file:`C:\\Program Files (x86)\\wapt` by default);
 
 .. figure:: waptconsole-installation-folder.png
   :align: center
@@ -191,7 +191,7 @@ Starting the WAPT console
 -------------------------
 
 * launch the WAPT console by looking for the binary
-  :file:`C:\Program Files (x86)\wapt\waptconsole.exe`
+  :file:`C:\\Program Files (x86)\\wapt\\waptconsole.exe`
 
 * on first start, you must start the WAPT console with elevated privileges.
   :menuselection:`Right-click on the WAPT console binary

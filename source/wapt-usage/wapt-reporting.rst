@@ -60,6 +60,11 @@ The "reload requests" button is used to reload requests saved on the server. (Fo
 	You can export the result of your requests to excel with the "export to excel" button
 	
 
+.. figure:: wapt_console-report-design.png
+  :align: center
+  :alt: Design
+
+
 Normalize the name of the software
 ------------------------------------------------
 
@@ -82,3 +87,8 @@ You can also indicate a software like "windows update" or "banned" (Replace "Pre
 - Press on import to load the changes from the server
 
 You can now search on this standardized name.
+
+
+.. figure:: wapt_console-report-normalize.png
+  :align: center
+  :alt: Normalize

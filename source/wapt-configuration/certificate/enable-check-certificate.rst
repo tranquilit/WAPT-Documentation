@@ -24,7 +24,7 @@ Activating the verification of the SSL / TLS certificate
 
 The WAPT agent checks the HTTPS server certificate according
 to the ``verify_cert`` value in section ``[global]``
-in :file:`C:\Program Files (x86)\wapt\wapt-get.ini`.
+in :file:`C:\\Program Files (x86)\\wapt\\wapt-get.ini`.
 
 .. table:: Options for "verify_cert"
   :widths: 30, 50
@@ -37,11 +37,11 @@ in :file:`C:\Program Files (x86)\wapt\wapt-get.ini`.
 
   ``verify_cert`` = 1                                                             the WAPT agent will check the WAPT Server HTTPS
                                                                                   certificate using the certificate bundle
-                                                                                  :file:`C:\Program Files (x86)\wapt\ssl\srvwapt.mydomain.lan.crt`
+                                                                                  :file:`C:\\Program Files (x86)\\wapt\\ssl\\srvwapt.mydomain.lan.crt`
 
-  ``verify_cert`` = C:\Program Files (x86)\wapt\ssl\srvwapt.mydomain.lan.crt      the WAPT agent will check the WAPT Server HTTPS
+  ``verify_cert`` = C:\\Program Files (x86)\\wapt\\ssl\\srvwapt.mydomain.lan.crt      the WAPT agent will check the WAPT Server HTTPS
                                                                                   certificate with the certificate bundle
-                                                                                  :file:`C:\Program Files (x86)\wapt\lib\site-packages\certifi\cacert.pem`
+                                                                                  :file:`C:\\Program Files (x86)\\wapt\\lib\\site-packages\\certifi\\cacert.pem`
   =============================================================================== ========================================================================
 
 .. hint::
@@ -89,7 +89,7 @@ the updated environment variables:
     net stop waptservice
     net start waptservice
 
-Modify (:file:`C:\Program Files (x86)\wapt\ssl\srvwapt.mydomain.lan.crt`)
+Modify (:file:`C:\\Program Files (x86)\\wapt\\ssl\\srvwapt.mydomain.lan.crt`)
 to add inside it the certificate of the ':term:`Certificate Authority`:
 
 .. code-block:: bash
@@ -126,12 +126,12 @@ has gone well, and if in doubt check :ref:`error_run_check_cert`.
 
   the command *enable-check-certificate* downloads the certificate
   :file:`srvwapt.mydomain.lan.crt` in the folder
-  :file:`C:\Program Files (x86)\WAPT\ssl`
+  :file:`C:\\Program Files (x86)\\WAPT\\ssl`
   ;
 
   it then modifies the file :file:`wapt-get.ini` to specify the value
   ``verify_cert`` =
-  :file:`C:\Program Files (x86)\wapt\ssl\srvwapt.mydomain.lan.crt`
+  :file:`C:\\Program Files (x86)\\wapt\\ssl\\srvwapt.mydomain.lan.crt`
   ;
 
   the WAPT agent will now verify certificates using the pinned certificate;
@@ -151,8 +151,8 @@ Verifying the certificate in the WAPT console
 ---------------------------------------------
 
 When the WAPT console first starts, it reads the content of
-:file:`C:\Program Files (x86)\WAPT\wapt-get.ini` and it builds its configuration
-file :file:`C:\Users\admin\AppData\Local\waptconsole\waptconsole.ini`.
+:file:`C:\\Program Files (x86)\\WAPT\\wapt-get.ini` and it builds its configuration
+file :file:`C:\\Users\\admin\\AppData\\Local\\waptconsole\\waptconsole.ini`.
 
 We find the ``verify_cert`` attribute that defines the behavior
 of the WAPT console in regards the HTTPS connection with the WAPT Server.

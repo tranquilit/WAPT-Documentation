@@ -662,30 +662,3 @@ WAPT packages, thus validating WAPT's main objectives:
 Now, I want to :ref:`install my WAPT Server <installing_WAPT_Server>`!!
 
 .. _wapt_more_effective_than_gpo:
-
-Why is WAPT superior to some alternatives?
-++++++++++++++++++++++++++++++++++++++++++
-
-More effective that GPOs to deploy software packages?
-"""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-* WAPT is **better at managing errors and special cases**;
-
-* WAPT **ensures a reliable feedback of actions** undertaken in the console.
-  By placing :command:`print()` commands in the setup file of the WAPT package,
-  it is possible to know exactly where the error is triggered, allowing
-  to improve the reliability of a WAPT package, or to adapt
-  the package according to the special profile of the machine;
-
-* cached WAPT packages are **installed even though the computer is offline**
-  (ex: traveling agent needing to update in the evening at the hotel);
-
-* WAPT also **works on computers that are not joined
-  to an Active Directory domain**;
-
-* it is **impossible to know exactly when GPOs will be executed**;
-
-* WAPT **relies on standard web protocols for transport** to haul packages;
-
-* the **levels of security are identical** (the security of GPO is insured
-  by Kerberos and the securituy in WAPT is insured with Kerberos, then X509);

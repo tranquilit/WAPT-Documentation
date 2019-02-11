@@ -48,17 +48,11 @@ to answer the needs of large and medium Organisations:
   (i.e. **Code Signing** SSL certificates for package developers and **Simple**
   SSL certificates for package deployers);
 
-* **simplified management of remote sites**. Using your own means or appliances
-  sold and configured by Tranquil IT, your WAPT equipped devices
-  on your remote sites download their updates from a repository
-  that is hosted locally, leaving the bandwdith available for business
-  and productive uses;
-
-* **simplified management of multiple repositories**. This functionality allows
-  to implement validation workflows and to manage multiple repositories
-  such as a *preprod* repository to test newly created WAPT packages on a sample
-  of devices and a *prod* repository onto which tested and validated
-  WAPT packages are uploaded for general use;
+* **Use of differentiated self service..
+  This allows certain groups of the active directory to install software on the computers.
+  
+* **WAPT Wua
+  Wapt allows to manage the windows update on your parc.  
 
 * **advanced reposting for corporate teams**. This reporting completes
   the operational reporting already available in the WAPT console;

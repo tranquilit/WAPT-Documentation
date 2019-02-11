@@ -118,6 +118,12 @@ If an update has not yet been downloaded to the wapt server, then the update wil
 	If the update is not a problem, then you can allow it for the entire fleet.
 
 
+.. figure:: wapt_console-wua.png
+   :align: center
+   :alt: Create self wsus package
+
+   Create self wsus package
+
 
 Windows update list tab
 ++++++++++++++++++++++++++++
