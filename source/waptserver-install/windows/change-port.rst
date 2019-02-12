@@ -68,7 +68,7 @@ Configuring the new listening ports in the Nginx
 
 * restart :program:`Nginx` with :code:`net start WAPTNginx`;
 
-* open :file:`C:\Program Files (x86)\wapt\wapt-get.ini`;
+* open :file:`C:\\Program Files (x86)\\wapt\\wapt-get.ini`;
 
 * add the port to the specified URL, example:
 
