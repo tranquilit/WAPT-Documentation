@@ -1,3 +1,19 @@
+.. Reminder for header structure :
+   Niveau 1 : ====================
+   Niveau 2 : --------------------
+   Niveau 3 : ++++++++++++++++++++
+   Niveau 4 : """"""""""""""""""""
+   Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
+
+.. meta::
+   :description: Introduction to WAPT
+   :keywords: WAPT, Why, How, principles, documentation, history, genesis
+
+.. _wapt_general_presentation:
+
+Introduction to WAPT
+====================
+
 For what purpose is WAPT useful?
 --------------------------------
 
@@ -577,7 +593,7 @@ By default, the WAPT agent will trigger an :command:`update`/ a
 will check every 2 hours to see whether it has something to do.
 
 Packages to be installed will be downloaded and cached in the folder
-:file:`C:\Program Files (x86)\wapt\cache`.
+:file:`C:\\Program Files (x86)\\wapt\\cache`.
 
 :program:`waptexit` will launch an :command:`upgrade` when the computer
 shuts down. An :term:`Administrator` will also be able to launch
@@ -648,7 +664,7 @@ The power of WAPT
 """""""""""""""""
 
 Functions most commonly used with WAPT were simplified within libraries
-called **:term:`SetupHelpers`**.
+called :term:`SetupHelpers`.
 
 **SetupHelpers** libraries simplify the process of creating and testing
 WAPT packages, thus validating WAPT's main objectives:
