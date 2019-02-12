@@ -31,5 +31,5 @@ the :term:`Users` and the :term:`Package Deployers`.
 
   wapt-windows-update.rst
   wapt-reporting.rst
-  selfservice.rst
+  wapt-selfservice.rst
   role-separation/index.rst

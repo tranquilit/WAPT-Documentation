@@ -16,53 +16,78 @@
 Using Reporting
 ====================================
 
+.. hint::
+
+  Feature only available with WAPT Enterprise
+
+
 Principle
 -----------
 
-We decided with wapt to propose a complete report. 
+WAPT Enterprise proposes reporting possibilities. 
 
 Indeed, who better than you know what you want in your report.
 
-With wapt we propose to write your own sql query to display the result in the wapt console.
+With WAPT we offer to write your own SQL query to display the result in the wapt console.
 	
 	
-	
-Design and use Query
+Query Designer
 --------------------------------------------
 
-In the "reporting" tab, click "Design Mode" and "New query"
+The query designer offers you the ability to write down your own queries on WAPT database.
 
-To change the name of the request, use the F2 key
-
-In the top banner, you can then write your sql query.
-
-.. hint::
-
-	The shortcut CTRl space offers you some choices directly.
-	
-You can test your requests with the "Execute" button
-
-When you have finished writing your query, you can click save queries.
-
-.. note::
-
-	The queries are saved in the postgresql wapt database.
-	
-The "reload requests" button is used to reload requests saved on the server. (For example, if a colleague has just saved a query.)
-
-- Deleting the query will delete the query from the wapt server.
-
-- The duplicate button allows you to copy an existing query to avoid writing a request from scratch.
-
-
-.. hint::
-
-	You can export the result of your requests to excel with the "export to excel" button
-	
+To create a new query, click the :guilabel:`Reporting` tab, click :guilabel:`Design Mode` and :guilabel:`New query`
 
 .. figure:: wapt_console-report-design.png
   :align: center
   :alt: Design
+
+.. hint::
+
+ * To rename a request, use the F2 key
+ * In the top banner, you can write your SQL query.
+
+To edit/modify/save your queries :
+	
+* The :guilabel:`Reload queries` button is used to reload requests saved on the server. (For example, if a colleague has just saved a query.)
+* The :guilabel:`New query` button adds a new empty query to the list 
+* Using :guilabel:`Delete query` button will delete the selected query from the WAPT server.
+* You can export the result of your requests to Excel with the :guilabel:`Export to Excel` button
+* When you have finished writing your query, click on :guilabel:`Save queries`.
+* The :guilabel:`Duplicate` button allows you to copy an existing query to avoid writing a request from scratch.
+* You can test your requests with the :guilabel:`Execute` button
+
+.. note::
+
+ * The queries are saved in the PostgreSQL WAPT database.
+ * The shortcut CTRL+space offers you some choices directly.
+
+Query examples
++++++++++++++++
+
+* Computers list:
+
+.. code-block:: sql
+
+  select computer_name,os_name,os_version,os_architecture,serialnr from hosts order by 4,3,1
+
+* Computers MAC addresses and IP:
+
+.. code-block:: sql
+
+  select distinct unnest(mac_addresses) as mac,
+  unnest(h.connected_ips) as ipaddress,
+  computer_fqdn,h.description,h.manufacturer||' '||h. productname as model,h.serialnr,h.computer_type from
+  hosts h order by 1,2,3
+
+* Windows versions:
+
+.. code-block:: sql
+
+  select host_info->'windows_version' as windows_version,
+  os_name as "Operating_System",
+  count(os_name) as "Nb_Machines" from 
+  hosts group by 1,2
 
 
 Normalize the name of the software
@@ -70,25 +95,22 @@ Normalize the name of the software
 
 One of the main problem with software research is that a software may have several different names and different uninstall keys depending on the version.
 
-To solve this problem, we propose to standardize the name of the software with wapt.
-
-Click "Normalize Software Names" in the "Tools" menu.
-
-Select the software to standardize. (for example, all different version of flash player)
-
-To select several programs, select them with the shift-flech key combination
-
-On the column "normalized", press F2 to assign a standardized name to the selected software. Then on enter
-
-You can also indicate a software like "windows update" or "banned" (Replace "Press F2" with "Press spacebar" in the corresponding column)
-
-- Press on write to save the changes
-
-- Press on import to load the changes from the server
-
-You can now search on this standardized name.
-
+To solve this problem, we propose to standardize the name of the software with WAPT.
 
 .. figure:: wapt_console-report-normalize.png
   :align: center
   :alt: Normalize
+
+* Click :guilabel:`Normalize Software Names` in the :guilabel:`Tools` menu.
+* Select the software to standardize. (for example, all different version of Adobe Flash Player)
+* On the column :guilabel:`normalized`, press :guilabel:`F2` to assign a standardized name to the selected software. Then press Enter
+
+.. note:: 
+  
+ * To select several programs, select them with the shift-flech key combination
+ * You can also indicate a software like "windows update" or "banned" ("Press spacebar" in the corresponding column)
+
+* Press on :guilabel:`Import` to load the changes from the server
+* Press on :guilabel:`Write` to save the changes
+
+You can now search on this standardized name.

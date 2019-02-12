@@ -16,6 +16,10 @@ Using WAPT SelfService
 
 .. versionadded:: 1.7 Enterprise
 
+.. hint::
+
+  Feature only available with WAPT Enterprise
+
 Presentation
 ------------
 
@@ -34,6 +38,12 @@ How it works?
 
 With WAPT 1.7, a new type of WAPT package exists beside *base*, *group*,
 *host* and *unit* packages: they are **selfservice** packages.
+
+.. figure:: wapt_console-selfservice.png
+  :align: center
+  :alt: Create a self-service package
+
+  Create a *selfservice* package
 
 A *selfservice* package may now be deployed on hosts to list the different
 self-service rules that apply to the host.
@@ -58,7 +68,7 @@ You can now create your first *selfservice* rule package.
 
 * save the package and deploy the package on your selection of hosts;
 
-* once the package is deployed, only uninstalled packages listed
+* once the package is deployed, only allowed packages listed
   in the *selfservice* group(s) of which the :term:`User` is a member
   will be shown to the logged in :term:`User`;
 
@@ -66,9 +76,3 @@ You can now create your first *selfservice* rule package.
 
 	If a group appears in multiple *selfservice* packages, then the rules will be merged.
 
-
-.. figure:: wapt_console-selfservice.png
-  :align: center
-  :alt: Create a self-service package
-
-  Create a *selfservice* package

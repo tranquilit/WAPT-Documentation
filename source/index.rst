@@ -130,7 +130,7 @@ WAPT support and training
 
 .. toctree::
   :maxdepth: 1
-  :caption: Documentation
+  :caption: Presentation
 
   wapt-concept/index.rst
   wapt-security-principles/index.rst

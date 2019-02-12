@@ -18,6 +18,11 @@
 Differentiating the role level in WAPT
 --------------------------------------
 
+.. hint::
+
+  Feature only available with WAPT Enterprise
+  
+
 Generating a new certificate
 ++++++++++++++++++++++++++++
 

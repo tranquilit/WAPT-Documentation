@@ -16,6 +16,10 @@
 Using WAPT Windows Update Agent (WAPTWUA)
 =========================================
 
+.. hint::
+
+  Feature only available with WAPT Enterprise
+
 .. note::
 
     Since version 1.7, WAPT is able to manage Windows Updates on your endpoints.
