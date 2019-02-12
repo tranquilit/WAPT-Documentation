@@ -50,7 +50,7 @@ Installing the WAPT Server
 Configuring the new listening ports in the Nginx
 ++++++++++++++++++++++++++++++++++++++++++++++++
 
-* open the file:file:`C:\\Program Files (x86)\\wapt\\waptserver\\nginx\\conf\\nginx.conf`
+* open the file :file:`C:\\Program Files (x86)\\wapt\\waptserver\\nginx\\conf\\nginx.conf`
 
 * replace the lines:
 
