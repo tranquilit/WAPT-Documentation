@@ -32,6 +32,11 @@ Installing the WAPT Server runs a few steps:
 Configuring RPM repositories and installing WAPT and PostgreSQL packages
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+.. attention:: 
+
+ * If you subscribed to **WAPT Enterprise** do not use that repo but the Enterprise repository provided in your documentation.
+
+
 .. code-block:: bash
 
   cat > /etc/yum.repos.d/wapt.repo <<EOF

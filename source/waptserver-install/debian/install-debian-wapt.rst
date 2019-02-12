@@ -47,10 +47,8 @@ Configuring DEB repositories and installing WAPT and PostgreSQL packages
 
 .. attention::
 
-  If you are upgrading your Debian from Jessie to Stretch
-  with the :command:`apt-get dist-upgrade`, be sure to also update
-  the *lsb_release* name in :file:`/etc/apt/sources.list.d/wapt.list`,
-  (eg. *jessie* -> *stretch*).
+ * If you subscribed to **WAPT Enterprise** do not use that repo but the Enterprise repository provided in your documentation.
+ * If you are upgrading your Debian from Jessie to Stretch with the :command:`apt-get dist-upgrade`, be sure to also update the *lsb_release* name in :file:`/etc/apt/sources.list.d/wapt.list`, (eg. *jessie* -> *stretch*).
 
 .. note::
 
