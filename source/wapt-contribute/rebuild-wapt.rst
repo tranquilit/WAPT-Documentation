@@ -62,7 +62,7 @@ Build environment on Debian Linux
     python createdeb.py
 
 Lazarus environment
--------------------------------
+-------------------
 
 WAPT relies on the following third-party freepascal/ lazarus librairies:
 
@@ -96,25 +96,27 @@ Tranquil IT packages
 Building WAPT
 -------------
 
-Installation environnement développement WAPT
+Installing the WAPT development environment
++++++++++++++++++++++++++++++++++++++++++++
 
-* Windows 7 vierge
+* on a clean Windows 7 install
 
-* Installation agent wapt https://srvwapt.ad.tranquil.it/wapt/waptagent.exe
+* install the WAPT agent from https://srvwapt.ad.tranquil.it/wapt/waptagent.exe
 
-* Désactiver UAC
+* deactivate UAC
 
-* Compte administrateur
+* as a :term:`Local Administrator`
 
-* Afficher fichiers cachés et extensions de fichiers
+* show hidden files and file extensions
 
-* Agrandir largeur CMD et mode Edition rapide
+* increase the width of the CMD windows and flip to quick edit mode
 
-* copier clé signature exe dans c:\users\buildbot\Documents
+* copy the code signing certificate into :file:`c:\users\buildbot\Documents`
 
 * cmd
 
-Installation Lazarus
+Installing Lazarus
+++++++++++++++++++
 
 .. code-block:: bat
 
@@ -160,7 +162,8 @@ Installation Lazarus
     waptpython build_exe.py community
 
 
-Environnement serveur
+Installing the server environment on Windows
+++++++++++++++++++++++++++++++++++++++++++++
 
 .. code-block:: bash
 
