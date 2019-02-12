@@ -16,7 +16,7 @@ The WAPT Server configuration file on GNU/ Linux systems is found
 in :file:`/opt/wapt/waptserver/waptserver.ini`.
 
 The WAPT Server configuration file on Windows systems is found
-in :file:`C:\Program Files (x86)\wapt\waptserver\waptserver.ini`.
+in :file:`C:\\Program Files (x86)\\wapt\\waptserver\\waptserver.ini`.
 
 .. attention::
 
