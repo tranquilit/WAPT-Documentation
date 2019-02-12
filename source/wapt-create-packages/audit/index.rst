@@ -9,7 +9,7 @@
     :description: Creating an Audit package
     :keywords: audit, WAPT, personalize
 
-Creating an Audit package
+Using Audit functions
 =========================
 
 .. note::
@@ -95,8 +95,8 @@ Output example of :code:`wapt-get audit`:
   In the example above, the audit script had already been executed
   for *tis-disable-js-chrome* and *tis-disable-ipv6* ... but not for *tis-java*.
 
-Using the audit function
-------------------------
+How to write the audit function
+--------------------------------
 
 The :command:`audit` script is defined in the package's :file:`setup.py`
 with a function :command:`def audit()`:
@@ -143,13 +143,14 @@ Planning an audit
 The :command:`audit` tasks are launched once after every :command:`upgrade`,
 then regularly as defined with the ``audit_schedule`` value.
 
+The value is contained in the control file of your package.
+
 By default, if :command:`audit_schedule` is empty, the audit task will need
 to be launched manually or from teh WAPT console.
 
 Otherwise, the periodicity may be indicated in several ways:
 
 * An integer (in minutes);
-
 * An integer followed by a letter (m = minutes, h = hours , d = days ,
   w = weeks);
 

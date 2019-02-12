@@ -20,15 +20,15 @@ Once the WAPT console has been installed on the :term:`Administrator` computer,
 we have all files required to build the WAPT agent installer.
 
 * files that will be used during building of the WAPT agent are located
-  in :file:`C:\Program Files (x86)\wapt`;
+  in :file:`C:\\Program Files (x86)\\wapt`;
 
 * installer source files (:file:`.iss` files) are located
-  in :file:`C:\Program Files (x86)\wapt\waptsetup`;
+  in :file:`C:\\Program Files (x86)\\wapt\\waptsetup`;
 
 .. hint::
 
   Before building the WAPT agent, please verify the public certificate(s)
-  in :file:`C:\Program Files (x86)\wapt\ssl`.
+  in :file:`C:\\Program Files (x86)\\wapt\\ssl`.
 
   If you wish to deploy other public certificates on your :term:`Organization`'s
   computers that are equipped with WAPT, you will have
@@ -37,7 +37,7 @@ we have all files required to build the WAPT agent installer.
 .. danger::
 
   **DO NOT COPY the private key** of any :term:`Administrator`
-  in :file:`C:\Program Files (x86)\wapt`.
+  in :file:`C:\\Program Files (x86)\\wapt`.
 
   This folder is used when building the WAPT agent and the private keys
   would then be deployed on all the computers.
@@ -52,9 +52,9 @@ we have all files required to build the WAPT agent installer.
 
 * fill in the informations that are necessary for the installer:
 
-  * the field :guilabel:`Public certificate`: *required**;
+  * the field :guilabel:`Public certificate`: **required**;
 
-    example : :file:`C:\private\mydomain.crt`
+    example : :file:`C:\\private\\mydomain.crt`
 
   * the field :guilabel:`Address of the WAPT repository`: **required**;
 

@@ -38,7 +38,7 @@ Working principle of encrypting portions of the content of a WAPT package
 
 When a WAPT agent registers with the WAPT server, it generates
 a private key/ public certificate pair
-in :file:`C:\Program Files (x86)\wapt\private`.
+in :file:`C:\\Program Files (x86)\\wapt\\private`.
 
 * The certificate is sent to the server with the inventory when the WAPT client
   is first registered;

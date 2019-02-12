@@ -228,7 +228,7 @@ for official Windows updates applicable to the host based on this filtering.
 
 *selfservice* packages contain a list of groups or users
 (Active Directory or local) and their associated lists
-of authorized packages that :term:`Users` are allowed to install by themselves.
+of authorized packages that Users are allowed to install by themselves.
 
 *profile* packages
 """"""""""""""""""

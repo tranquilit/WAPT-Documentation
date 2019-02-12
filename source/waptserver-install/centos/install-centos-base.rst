@@ -115,8 +115,8 @@ Configuring the IP address of the WAPT Server
   .. code-block:: bash
 
     yum install ntp
-    systemctl ntpd.service enable
-    systemctl ntpd start
+    systemctl enable ntpd.service
+    systemctl start ntpd 
 
 * update CentOS7 and set up the :abbr:`EPEL (Extra Packages
   for Enterprise Linux)` repository;

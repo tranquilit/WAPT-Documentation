@@ -35,7 +35,7 @@ Private key *wapt-private.pem*
   It must be stored in a safe place and correctly protected.
 
 The :file:`wapt-private.pem` file is the private key, it is located by default
-in the :file:`C:\private` folder of the :term:`Administrator` workstation.
+in the :file:`C:\\private` folder of the :term:`Administrator` workstation.
 
 For better security this private key may be transfered on an external storage.
 A smartcard support is in the roadmap.
@@ -47,8 +47,8 @@ public certificate signed with private key: :file:`wapt-private.crt`
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 The :file:`wapt-private.crt` file is the public certificate that is used
-along with the private key. It is by default created in the :file:`C:\private`
-folder, copied in :file:`C:\Program Files (x86)\wapt\ssl` of the Administrator
+along with the private key. It is by default created in the :file:`C:\\private`
+folder, copied in :file:`C:\\Program Files (x86)\\wapt\\ssl` of the Administrator
 and deployed on the desktops managed by the Administrator
 via WAPT agent or a GPO.
 
@@ -124,9 +124,9 @@ For a fresh install, you can follow the screenshot below.
 .. danger::
 
   * the path to your private key must not be in the installation path of WAPT
-    (:file:`C:\Program Files (x86)\wapt`);
+    (:file:`C:\\Program Files (x86)\\wapt`);
 
-  * if your key is stored in :file:`C:\Program Files (x86)\wapt\`,
+  * if your key is stored in :file:`C:\\Program Files (x86)\\wapt`,
     your :term:`Administrator` private key will be deployed on your clients,
     **absolutely a no go!**
 
@@ -137,7 +137,7 @@ For a fresh install, you can follow the screenshot below.
   Confirmation of the copy of the certificate in the ssl folder
 
 * click on :guilabel:`Yes` to copy the newly generated certificate
-  in the :file:`C:\Program Files (x86)\wapt\ssl` folder.
+  in the :file:`C:\\Program Files (x86)\\wapt\\ssl` folder.
   This certificate will be picked up during the compilation of the WAPT agent
   and deployed on the client computers.
 
@@ -218,9 +218,9 @@ Required informations are:
 .. danger::
 
   * the path to your private key must not be in the installation path
-    of WAPT (:file:`C:\Program Files (x86)\wapt` );
+    of WAPT (:file:`C:\\Program Files (x86)\\wapt` );
 
-  * if your key is stored in :file:`C:\Program Files (x86)\wapt` ,
+  * if your key is stored in :file:`C:\\Program Files (x86)\\wapt` ,
     your Administrator private key will be deployed on your clients,
     **absolutely a no go!**
 
@@ -231,7 +231,7 @@ Required informations are:
   Confirmation of the copy of the certificate in the ssl folder
 
 * click on :guilabel:`Yes` to copy the newly generated certificate
-  in the :file:`C:\Program Files (x86)\wapt\ssl` folder.
+  in the :file:`C:\\Program Files (x86)\\wapt\\ssl` folder.
   This certificate will be picked up during the compilation of the WAPT agent
   and deployed on the client computers;
 

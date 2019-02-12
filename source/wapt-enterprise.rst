@@ -55,7 +55,7 @@ to answer the needs of large and medium Organisations:
 * **WAPT WUA**
   WAPT allows to manage the Windows Updates on your endpoints.
 
-* **advanced reposting for corporate teams**. This reporting completes
+* **advanced reporting for corporate teams**. This reporting completes
   the operational reporting already available in the WAPT console;
   the reports are designed to help WAPT operators demonstrate their efficacy
   with WAPT for insuring a greater level of security and conformity
