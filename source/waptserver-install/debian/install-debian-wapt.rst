@@ -38,6 +38,10 @@ Configuring DEB repositories and installing WAPT and PostgreSQL packages
   and it is necessary to get the gpg public key below in order
   to avoid warning messages during installation.
 
+.. attention::
+
+ * If you subscribed to **WAPT Enterprise** do not use that repo but the Enterprise repository provided in your documentation.
+
 .. code-block:: bash
 
   apt-get update && apt-get upgrade
@@ -45,10 +49,7 @@ Configuring DEB repositories and installing WAPT and PostgreSQL packages
   wget -O - https://wapt.tranquil.it/debian/tiswapt-pub.gpg  | apt-key add -
   echo  "deb  https://wapt.tranquil.it/debian/wapt-1.7/ $(lsb_release -c -s) main"  > /etc/apt/sources.list.d/wapt.list
 
-.. attention::
 
- * If you subscribed to **WAPT Enterprise** do not use that repo but the Enterprise repository provided in your documentation.
- * If you are upgrading your Debian from Jessie to Stretch with the :command:`apt-get dist-upgrade`, be sure to also update the *lsb_release* name in :file:`/etc/apt/sources.list.d/wapt.list`, (eg. *jessie* -> *stretch*).
 
 .. note::
 

@@ -27,6 +27,10 @@ Performing minor updates on a Debian based WAPT Server
 * add the package repository for Debian packages, import the GPG key
   from the repository and install the WAPT Server packages:
 
+  .. attention::
+
+   * If you subscribed to **WAPT Enterprise** do not use that repo but the Enterprise repository provided in your documentation.
+
   .. code-block:: bash
 
     apt-get install apt-transport-https lsb-release

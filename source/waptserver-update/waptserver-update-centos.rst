@@ -26,6 +26,10 @@ Performing minor updates on a CentOS/ RedHat based WAPT Server
 
 * upgrade the WAPT Server:
 
+  .. attention::
+
+   * If you subscribed to **WAPT Enterprise** do not use that repo but the Enterprise repository provided in your documentation.
+
   Modify the repository address then launch the upgrade.
 
   .. code-block:: bash
