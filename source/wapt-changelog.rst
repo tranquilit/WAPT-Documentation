@@ -12,6 +12,178 @@
 Changelog
 =========
 
+WAPT-1.7.3.3 (2019-02-11)
+-------------------------
+
+* Core 
+  
+  - Better support for locales, maturities and architecture packages filtering
+
+* Self service rule packages (Enterprise)
+
+  - Package to define which packages can be installed / remove for groups of users.
+
+  - WAPT Windows Updates rules packages (Enterprise)
+
+* Package to define which Windows Updates are allowed / forbidden to be deployed by Wapt WUA agents
+
+* **waptagent** build : 
+
+  - Add option for use_fqdn_as_uuid when building waptagent.exe
+
+  - Add option to define the profile package to be deployed upon Wapt install on hosts.
+  
+  - Add options to enable WaptWUA (Windows updates with Wapt) (Enterprise)
+
+* Host Profile packages (Enterprise)
+
+  - Specific packages (like Group packages) which are installed or removed depending of wapt-get.ini [global] host_profiles ini key
+
+  - If a "profile" package name matches Computer's AD Groups, it is deployed automatically. 
+
+* Reporting (Enterprise)
+
+  - Import / Export queries as json files
+
+  - Softwares names normalization as a separate dialog.  
+
+* **waptexit** : 
+
+  - reworked to make it more robust
+
+  - Takes in account packages to remove
+
+  - Takes in account Wapt WUA Updates (Enterprise). 
+
+    - command line switch :  /install_wua_updates
+
+    - wapt-get.ini setting : [waptwua] install_at_shutdown=1
+
+    - checkbox in waptexit to skip install of Windows Updates
+
+* **waptconsole** Custom commands:
+
+  - Ability to define custom popupmenu commands which are launched for the selection of hosts. Custom variables {uid}
+  
+* Other improvements : 
+  French translations fixes
+
+Changelog 1.7.2
+--------------------------
+
+* Reporting (Enterprise)
+  Basic SQL reporting capabiliti
+  Duplicate action / copy paste for reporting queries
+
+* setuphelpers: added helpers 
+  processes_for_file
+  add get_computer_domain
+
+
+Librairies updates
+------------------
+
+* python 2.7.15 on Windows
+
+* openssl-1.0.2p libeay
+
+* upgraded python-requests to 2.20.0 (Security Fix)
+
+
+mprovements
+------------
+
+* Don't refresh GridHostsForPackage if not needed (Enterprise)
+
+* Don't add a newline to log text output for LogOutput
+
+* improved handling of update_host_data hashes to reduce amount of data sent to server on each update_server_status
+
+* set python27.dll path in wapt-get and waptconsole.exe (fix cases with multiple python installations)
+
+* fix removal of packages when upgrading host via websockets
+
+* don't get capa if not needed when updating
+  don't check package control signatures in wapt-get when loading list of packages for development tasks
+
+* Moved static waptserver assets to a /static root
+  split base.html and index.html templates for blueprints
+
+* Fix selective pending wua install or downloads (Enterprise)
+
+* fix wua updates filter logic (Enterprise)
+
+* uninstall host packages if use_hostpackages is set to false
+  Add a forced update in the task loop when host capabilities have been changed
+  Include use_host_packages and host_profiles in host's capabilities.
+
+* Fix regression not removing implicit packages.
+
+* more tolerant to unicode errors in update_host_data to avoid hiding actual exception behind an encoding exception.
+
+* fix order of columns not kept when exporting reports (Enterprise)
+
+* `install_msi_if_needed`, `install_exe_if_needed`:  check if killbefore is not empty or None
+
+* changed tasks's progress and runstatus to property
+
+* Fix Audit aborted due to exception: 'NoneType' object is not iterable (Enterprise)
+
+* setuphelpers: Add get_app_path and get_app_install_location
+  Add fix_wmi procedure to re-register WMI on broken machines
+  some wmi fallbacks to avoid unregistered machines when WMI is broken on them
+
+* Online wua scans (Enterprise)
+ 
+* Add a random package_uuid when signing a package metadata which could be used later as a primary key
+  creates a random package_uuid when installing in DEV mode
+  creates a random package_uuid when installing a package without package_uuid
+
+* Moved and renamed EnsureWUAUServRunning to setuphelpers
+
+* Add pending_reboot_reasons to inventory
+
+* Display package version for missing packages
+
+* wapt-get sign-packages : Add setting maturity and inc version in sign-packages action
+
+* Add WindowsUpdates's host History grid below WindowsUpdate grid. (Enterprise)
+
+* Stores Host Windows update history in server DB (Enterprise)
+
+* Keep selected or focused rows in Grids
+
+* Updates Packages table when uploading a Package / Group. This table is meant mainly for reporting purpose.
+
+* Disable indexes for some BinaryJson fields
+
+* fix windows update install_date reporting (Enterprise)
+
+* Add checkbox to enable "use_fqdn_as_uuid" when building waptagent.exe
+
+* Change default value for upgrade_only_if_not_process_running
+
+* Changed naming of organizational unit packages to remove ambiguity with comma in package name and comma to describe list of packages depends / conflicts
+  Replace ',' with '_' when editing package. (Enterprise)
+
+* waptexit: add priorities and only_if_not_process_running  command line switches
+
+* waptupgrade: Changed windows_version and Version
+
+* setuphelpers windows_version: added members_count
+
+* waptutils.Version : strip members to members_count if not None
+
+* Add control attributes editor keywords licence homepage package_uuid to local waptservice db
+
+* add short fingerprint to repr of SSLCertificate
+
+* Be sure password gui is visible even if parent window is not
+
+* add gui for private key password dialog if --use-ggui
+
+* Add --use-gui "wapt-get.exe" command line arg to force use of waptguihelper for server credentials when registering.
+
 WAPT-1.6.2.7 (2018-10-02)
 -------------------------
 
