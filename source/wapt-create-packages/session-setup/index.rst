@@ -54,7 +54,7 @@ Calling that function executes the :command:`session_setup` script defined
 within each WAPT package installed on the computer.
 
 The WAPT agent stores in its local database
-(:file:`C:\Program Files (x86)\wapt\waptdb.sqlite`) the instruction sets
+(:file:`C:\\Program Files (x86)\\wapt\\waptdb.sqlite`) the instruction sets
 of all WAPT packages.
 
 .. attention::
@@ -62,7 +62,7 @@ of all WAPT packages.
   :command:`session_setup` is launched only **once per WAPT package version
   and per user**.
 
-  The WAPT agent stores in is local :file:`%appdata%\wapt\waptsession.sqlite`
+  The WAPT agent stores in is local :file:`%appdata%\\wapt\\waptsession.sqlite`
   database the instances of :command:`session_setup` that have been already
   been played.
 

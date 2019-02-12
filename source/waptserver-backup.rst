@@ -126,7 +126,7 @@ Backing up the WAPT Server on Windows
   net stop WAPTServer
   net stop WAPTApache
 
-* backup the WAPT root folder :file:`C:\Program Files (x86)\wapt`
+* backup the WAPT root folder :file:`C:\\Program Files (x86)\\wapt`
   on a remote backup destination;
 
     **Exemple**: backup on an external hard disk drive :file:`W:`

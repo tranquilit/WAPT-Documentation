@@ -63,7 +63,7 @@ The procedure is:
   the private key (file :file:`. pem`) in a safe location;
 
 * deploy the new certificate :file:`.crt` on your clients in the folder
-  :file:`C:\Program Files (x86)\ssl` manually or using
+  :file:`C:\\Program Files (x86)\\ssl` manually or using
   a :abbr:`GPO (Group Policy Object)`;
 
 Re-signing packages in the repositories
@@ -91,7 +91,7 @@ WAPT does not handle key revocation yet
 (:abbr:`CRL (Certificate Revocation List)`).
 
 The solution consists in deleting every :file:`.crt` certificate associated
-to the stolen private key, located in the :file:`C:\Program Files (x86)\wapt\ssl`
+to the stolen private key, located in the :file:`C:\\Program Files (x86)\\wapt\\ssl`
 folder.
 
 That operation can be done using a GPO, manually, or with a WAPT package.
@@ -234,7 +234,7 @@ computer, so it is normal that the script will not launch. To circumvent
 the problem, use scheduled tasks.
 
 The workaround consists in using a scheduled task that will launch
-:file:`C:\Program Files (x86)\wapt\wapt-get.exe`
+:file:`C:\\Program Files (x86)\\wapt\\wapt-get.exe`
 with the argument ``upgrade``.
 
 Solution: corrupted local GPO
@@ -243,7 +243,7 @@ Solution: corrupted local GPO
 It sometimes occurs that local security policies on the computer are corrupted.
 
 One of the possible solutions is to remove local security strategies by deleting
-the file :file:`C:\Windows\System32\GroupPolicy\gpt.ini`,
+the file :file:`C:\\Windows\\System32\\GroupPolicy\\gpt.ini`,
 to restart the computer, and finally to re-install the shutdown scheduled tasks:
 
 .. code-block:: bash
@@ -266,7 +266,7 @@ Solution: increase the installation timeout
 To solve that problem, increase the ``preshutdowntimeout`` value
 and the ``max_gpo_script_wait`` value.
 
-Define these values in :file:`C:\Program Files (x86)\wapt\wapt-get.ini` file
+Define these values in :file:`C:\\Program Files (x86)\\wapt\\wapt-get.ini` file
 to change the default behavior.
 
 .. code-block:: ini
@@ -310,7 +310,7 @@ The WAPT console can not contact the WAPT Server on port 443.
 
 * if :program:`Nginx` still does not start, you'll need to analyze journal logs
   in :file:`/var/log/nginx/` on Linux or in
-  :file:`C:\Program Files (x86)\wapt\waptserver\nginx\logs` on Windows.
+  :file:`C:\\Program Files (x86)\\wapt\\waptserver\\nginx\\logs` on Windows.
 
 Service unavailable
 +++++++++++++++++++
@@ -347,7 +347,7 @@ The WAPT console seems not to be able to verify the server's HTTPS certificate.
 
 * close your WAPT console;
 
-* delete the folder :file:`%appdata%\..\Local\waptconsole`;
+* delete the folder :file:`%appdata%\\..\\Local\\waptconsole`;
 
 * launch the command :code:`wapt-get enable-check-certificate`;
 
@@ -465,7 +465,7 @@ Solution
   .. hint::
 
     If the previous :command:`upload` failed, you can find the package in
-    :file:`C:\waptdev`.
+    :file:`C:\\waptdev`.
 
 * download and install :program:`WinSCP` using WAPT:
 

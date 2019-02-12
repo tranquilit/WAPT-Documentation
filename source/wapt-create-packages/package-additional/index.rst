@@ -87,7 +87,7 @@ Deploying a portable software with WAPT
 A good example of a WAPT package is a self-contained/ *portable*
 software package:
 
-* create the folder for the software in :file:`C:\Program Files (x86)`;
+* create the folder for the software in :file:`C:\\Program Files (x86)`;
 
 * copy the software in that folder;
 
@@ -118,13 +118,13 @@ Example with ADWCleaner
   maintainer        : Tranquil-IT Systems
   description       : ADW Cleaner
 
-The file :file:`C:\waptdev\tis-adwcleaner-wapt` is created.
+The file :file:`C:\\waptdev\\tis-adwcleaner-wapt` is created.
 
 * download and copy/ paste :program:`adwcleaner.exe` binary
-  in :file:`C:\waptdev\tis-adwcleaner-wapt` directory;
+  in :file:`C:\\waptdev\\tis-adwcleaner-wapt` directory;
 
 * open and make desired changes to
-  :file:`C:\waptdev\tis-adwcleaner-wapt\setup.py` installation file;
+  :file:`C:\\waptdev\\tis-adwcleaner-wapt\\setup.py` installation file;
 
 .. code-block:: python
 

@@ -63,7 +63,7 @@ To manually launch an audit check, you may also use the following command:
   Calling this function will launch the :command:`audit` scripts present
   in each WAPT package installed on the machine.
 
-WAPT saves in its local database :file:`C:\Program Files\wapt\waptdb.sqlite`
+WAPT saves in its local database :file:`C:\\Program Files\\wapt\\waptdb.sqlite`
 the audit scripts of all installed WAPT packages.
 
 Output example of :code:`wapt-get audit`:

@@ -28,7 +28,7 @@ Command...
 
   makepath(programfiles,'Mozilla','Firefox')
 
-... makes the path variable for :file:`C:\Program Files (x86)\Mozilla\Firefox`.
+... makes the path variable for :file:`C:\\Program Files (x86)\\Mozilla\\Firefox`.
 
 .. hint::
 
@@ -46,7 +46,7 @@ Command...
 
   mkdirs('C:\\test')
 
-... creates the directory :file:`C:\test`.
+... creates the directory :file:`C:\\test`.
 
 .. hint::
 
@@ -61,7 +61,7 @@ Commande :command:`remove_tree` ...
 
   remove_tree(r'C:\tmp\target')
 
-... destroys the directory :file:`C:\tmp\target`.
+... destroys the directory :file:`C:\\tmp\\target`.
 
 .. hint::
 
@@ -80,7 +80,7 @@ Command :command:`isdir` ...
   isdir(makepath(programfiles32,'software')):
       print('The directory exists')
 
-... checks if :file:`C:\programfiles32\software` is a directory.
+... checks if :file:`C:\\Program Files (x86)\\software` is a directory.
 
 .. hint::
 
@@ -96,7 +96,7 @@ Command...
   isfile(makepath(programfiles32,'software','file')):
       print('file exist')
 
-... checks if :file:`C:\programfiles32\software\file` is a file.
+... checks if :file:`C:\\Program Files (x86)\\software\\file` is a file.
 
 .. hint::
 
@@ -115,7 +115,7 @@ Command...
   dir_is_empty(makepath(programfiles32,'software')):
       print('dir is empty')
 
-... checks that directory :file:`C:\programfiles32\software` is empty.
+... checks that directory :file:`C:\\Program Files (x86)\\software` is empty.
 
 .. hint::
 
@@ -133,7 +133,7 @@ Command...
 
   filecopyto('file.txt',makepath(programfiles32,'software'))
 
-... copies :file:`file.txt` into the :file:`C:\programfiles32\software`
+... copies :file:`file.txt` into the :file:`C:\\Program Files (x86)\\software`
 directory.
 
 .. hint::
@@ -153,7 +153,7 @@ Command...
   copytree2('sources','C:\\projet')
 
 ... copies the :file:`sources` folder into
-the :file:`C:\programfiles32\software` directory.
+the :file:`C:\\projet` directory.
 
 .. hint::
 
@@ -194,7 +194,7 @@ Command...
       print('key exist')
 
 ... checks if registry key *{8A69D345-D564-463c-AFF1-A69D9E530F96}* exists
-in registry path :file:`SOFTWARE\Google\Update\Clients`
+in registry path :file:`SOFTWARE\\Google\\Update\\Clients`
 of *HKEY_LOCAL_MACHINE*.
 
 .. hint::
@@ -214,7 +214,7 @@ Command...
   print(registry_readstring(HKEY_LOCAL_MACHINE, r'SOFTWARE\Google\Update\Clients\{8A69D345-D564-463c-AFF1-A69D9E530F96}', 'pv'))
 
 ... reads the value *{8A69D345-D564-463c-AFF1-A69D9E530F96}* stored in
-the registry path :file:`SOFTWARE\Google\Update\Clients`
+the registry path :file:`SOFTWARE\\Google\\Update\\Clients`
 of *HKEY_LOCAL_MACHINE*.
 
 .. hint::
@@ -234,7 +234,7 @@ Command...
   registry_setstring(HKEY_CURRENT_USER, "SOFTWARE\\Microsoft\\Windows Live\\Common",'TOUVersion','16.0.0.0', type=REG_SZ)
 
 ... modifies the value of the registry key *TOUVersion* stored in the
-registry path :file:`SOFTWARE\Microsoft\Windows Live` of *HKEY_CURRENT_USER*.
+registry path :file:`SOFTWARE\\Microsoft\\Windows Live` of *HKEY_CURRENT_USER*.
 
 .. hint::
 
@@ -255,8 +255,8 @@ Command...
 
   create_desktop_shortcut(r'WAPT Console Management',target=r'C:\Program Files (x86)\wapt\waptconsole.exe')
 
-... creates the shortcut *WAPT Console Management* into :file:`C:\Users\Public`
-directory pointing to :file:`C:\Program Files (x86)\wapt\waptconsole.exe`;
+... creates the shortcut *WAPT Console Management* into :file:`C:\\Users\\Public`
+directory pointing to :file:`C:\\Program Files (x86)\\wapt\\waptconsole.exe`;
 the shortcut is available for all users.
 
 .. hint::
@@ -273,7 +273,7 @@ Command...
   remove_desktop_shortcut('WAPT Console Management')
 
 ... deletes the *WAPT Console Management* shortcut from the folder
-:file:`C:\Users\Public`; the shortcut is deleted for all users.
+:file:`C:\\Users\\Public`; the shortcut is deleted for all users.
 
 .. hint::
 
@@ -296,7 +296,7 @@ Command...
   create_user_desktop_shortcut(r'WAPT Console Management',target=r'C:\Program Files (x86)\wapt\waptconsole.exe')
 
 ... creates the shortcut *WAPT Console Management* on user desktop
-pointing to :file:`C:\Program Files (x86)\wapt\waptconsole.exe`.
+pointing to :file:`C:\\Program Files (x86)\\wapt\\waptconsole.exe`.
 
 .. hint::
 
@@ -376,7 +376,7 @@ Command...
 
   print(programfiles64())
 
-... returns native Program Files directory, eg. :file:`C:\Program Files (x86)`
+... returns native Program Files directory, eg. :file:`C:\\Program Files (x86)`
 on either win64 or win32 architecture.
 
 .. code-block:: python
@@ -405,7 +405,7 @@ Command...
   print(user_appdata())
 
 ... returns roaming *AppData* profile path
-of logged on user (:file:`C:\Users\username\AppData\Roaming`).
+of logged on user (:file:`C:\\Users\\username\\AppData\\Roaming`).
 
 .. hint::
 
@@ -421,7 +421,7 @@ Command...
   print(user_local_appdata())
 
 ... returns the local *AppData* profile path
-of the logged on user (:file:`C:\Users\username\AppData\Local`).
+of the logged on user (:file:`C:\\Users\\username\\AppData\\Local`).
 
 .. hint::
 
