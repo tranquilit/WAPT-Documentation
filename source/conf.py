@@ -57,7 +57,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'WAPT'
-copyright = u'2018, Tranquil IT'
+copyright = u'2019, Tranquil IT'
 author = u'Tranquil IT'
 
 # The version info for the project you're documenting, acts as replacement for
