@@ -29,7 +29,7 @@ Performing minor updates on a Debian based WAPT Server
 
   .. attention::
 
-   * If you subscribed to **WAPT Enterprise** do not use that repo but the Enterprise repository provided in your documentation.
+   * If you subscribed to **WAPT Enterprise** don't use that repo but the Enterprise repository provided in your documentation.
 
   .. code-block:: bash
 
