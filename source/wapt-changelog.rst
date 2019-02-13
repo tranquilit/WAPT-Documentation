@@ -12,6 +12,45 @@
 Changelog
 =========
 
+WAPT-1.7.3.4 (2019-02-13)
+-------------------------
+
+Bug fixes
++++++++++
+
+* waptexit : Fix install of and empty list of Windows Updates (Enterprise)
+
+* wapt-get.exe WaptWUA commands : fix import of waptwua client module  for waptwua-scan download install (Enterprise)
+
+* fix install_delay for Windows Updates stored as a time_delta in waptdb (Enterprise)
+
+Improvements
+++++++++++++++++++++++++
+
+* Add versioning on group packages filenames
+
+* Add button to create AD Host profiles (package automatically installed/removed based on AD Grouo memberships)
+
+* Reduce wapttray notifications occurences. notify_user=0 per default
+
+* waptexit: fix details panel does not show the pending packages to install
+
+* Always install the missing dependencies in install (even if upgrade action should have queued dependencies installs bedoire) for cases for some corner cases.
+
+* Fix get server certificate chain popup action in build waptagent
+
+* Add action to create a key / cert in waptconsole conf
+
+* Hide inactive / disabled WaptWUA actions in Host popup menu.
+
+* Add checkbox to dispaly newest only for Groups
+
+* Add waptconsole config parameter 'licences_directory" to specify the location (directory) of licences (Enterprise)
+
+* waptagent build dialog : Removed the "Append host's profiles" option
+
+* remove waptenterprise directory if waptsetup community is deployed over a waptenterprise edition
+
 WAPT-1.7.3.3 (2019-02-11)
 -------------------------
 
@@ -72,7 +111,9 @@ Changelog 1.7.2
 --------------------------
 
 * Reporting (Enterprise)
+
   Basic SQL reporting capabiliti
+
   Duplicate action / copy paste for reporting queries
 
 * setuphelpers: added helpers 
@@ -90,7 +131,7 @@ Librairies updates
 * upgraded python-requests to 2.20.0 (Security Fix)
 
 
-mprovements
+Improvements
 ------------
 
 * Don't refresh GridHostsForPackage if not needed (Enterprise)
@@ -114,7 +155,9 @@ mprovements
 * fix wua updates filter logic (Enterprise)
 
 * uninstall host packages if use_hostpackages is set to false
+
   Add a forced update in the task loop when host capabilities have been changed
+
   Include use_host_packages and host_profiles in host's capabilities.
 
 * Fix regression not removing implicit packages.
@@ -130,13 +173,17 @@ mprovements
 * Fix Audit aborted due to exception: 'NoneType' object is not iterable (Enterprise)
 
 * setuphelpers: Add get_app_path and get_app_install_location
+
   Add fix_wmi procedure to re-register WMI on broken machines
+
   some wmi fallbacks to avoid unregistered machines when WMI is broken on them
 
 * Online wua scans (Enterprise)
  
 * Add a random package_uuid when signing a package metadata which could be used later as a primary key
+
   creates a random package_uuid when installing in DEV mode
+
   creates a random package_uuid when installing a package without package_uuid
 
 * Moved and renamed EnsureWUAUServRunning to setuphelpers
@@ -164,6 +211,7 @@ mprovements
 * Change default value for upgrade_only_if_not_process_running
 
 * Changed naming of organizational unit packages to remove ambiguity with comma in package name and comma to describe list of packages depends / conflicts
+
   Replace ',' with '_' when editing package. (Enterprise)
 
 * waptexit: add priorities and only_if_not_process_running  command line switches
