@@ -22,7 +22,7 @@ Testing and manipulating folders and files
 Creating a path recursively
 +++++++++++++++++++++++++++
 
-Command...
+Command :command:`makepath` ...
 
 .. code-block:: python
 
@@ -40,7 +40,7 @@ Command...
 Creating and destroying directories
 +++++++++++++++++++++++++++++++++++
 
-Command...
+Command :command:`mkdirs` ...
 
 .. code-block:: python
 
@@ -89,7 +89,7 @@ Command :command:`isdir` ...
 
   https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=get_file_properties#setuphelpers.propertiesr
 
-Command...
+Command :command:`isfile` ...
 
 .. code-block:: python
 
@@ -108,7 +108,7 @@ Command...
 Check if a directory is empty
 +++++++++++++++++++++++++++++
 
-Command...
+Command :command:`dir_is_empty` ...
 
 .. code-block:: python
 
@@ -127,7 +127,7 @@ Command...
 Copying a file
 ++++++++++++++
 
-Command...
+Command :command:`filecopyto` ...
 
 .. code-block:: python
 
@@ -146,7 +146,7 @@ directory.
 Copying a directory
 +++++++++++++++++++
 
-Command...
+Command :command:`copytree2` ...
 
 .. code-block:: python
 
@@ -165,7 +165,7 @@ the :file:`C:\\projet` directory.
 Retrieving the version of a file
 ++++++++++++++++++++++++++++++++
 
-Command...
+Command :command:`get_file_properties` ...
 
 .. code-block:: python
 
@@ -186,7 +186,7 @@ Manipulating registry keys
 Checking the existence of a registry key
 ++++++++++++++++++++++++++++++++++++++++
 
-Command...
+Command :command:`registry_readstring` ...
 
 .. code-block:: python
 
@@ -207,7 +207,7 @@ of *HKEY_LOCAL_MACHINE*.
 Showing the value of a registry key
 +++++++++++++++++++++++++++++++++++
 
-Command...
+Command :command:`registry_readstring` ...
 
 .. code-block:: python
 
@@ -227,7 +227,7 @@ of *HKEY_LOCAL_MACHINE*.
 Modifying the value of a registry key
 +++++++++++++++++++++++++++++++++++++
 
-Command...
+Command :command:`registry_setstring` ...
 
 .. code-block:: python
 
@@ -249,7 +249,7 @@ Creating and destroying shortcuts
 create_desktop_shortcut/ remove_desktop_shortcut
 ++++++++++++++++++++++++++++++++++++++++++++++++
 
-Command...
+Command :command:`create_desktop_shortcut` ...
 
 .. code-block:: python
 
@@ -266,7 +266,7 @@ the shortcut is available for all users.
 
   https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=create_desktop_shortcut#setuphelpers.create_desktop_shortcut
 
-Command...
+Command :command:`remove_desktop_shortcut` ...
 
 .. code-block:: python
 
@@ -289,7 +289,7 @@ create_user_desktop_shortcut/ remove_user_desktop_shortcut
 
   These functions are used in session_setup context
 
-Command...
+Command :command:`create_user_desktop_shortcut` ...
 
 .. code-block:: python
 
@@ -305,9 +305,10 @@ pointing to :file:`C:\\Program Files (x86)\\wapt\\waptconsole.exe`.
 
   https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=create_user_desktop_shortcut#setuphelpers.create_user_desktop_shortcut
 
-Command...
-
 Removing a shortcut for the current user
+++++++++++++++++++++++++++++++++++++++++
+
+Command :command:`remove_user_desktop_shortcut` ...
 
 .. code-block:: python
 
@@ -329,6 +330,8 @@ Windows environment/ Software/ Services
 windows_version
 +++++++++++++++
 
+Command :command:`windows_version` ...
+
 .. code-block:: python
 
   windows_version()<Version('6.2.0'):
@@ -347,7 +350,7 @@ windows_version
 iswin64
 +++++++
 
-Command...
+Command :command:`iswin64` ...
 
 .. code-block:: python
 
@@ -370,7 +373,7 @@ programfiles/ programfiles32/ programfiles64
 
 Return different *ProgramFiles* locations
 
-Command...
+Command :command:`programfiles64` ...
 
 .. code-block:: python
 
@@ -398,7 +401,7 @@ user_appdata/ user_local_appdata
 
   These functions are used with :command:`session_setup`
 
-Command...
+Command :command:`user_appdata` ...
 
 .. code-block:: python
 
@@ -414,7 +417,7 @@ of logged on user (:file:`C:\\Users\\username\\AppData\\Roaming`).
 
   https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=get_file_properties#setuphelpers.propertiesser_appdata
 
-Command...
+Command :command:`user_local_appdata` ...
 
 .. code-block:: python
 
@@ -433,7 +436,7 @@ of the logged on user (:file:`C:\\Users\\username\\AppData\\Local`).
 disable_file_system_redirection
 +++++++++++++++++++++++++++++++
 
-Command...
+Command :command:`disable_file_system_redirection` ...
 
 .. code-block:: python
 
@@ -452,7 +455,7 @@ Disable wow3264 redirection in the current context
 get_computername/ get_current_user
 ++++++++++++++++++++++++++++++++++
 
-Command...
+Command :command:`get_current_user` ...
 
 .. code-block:: python
 
@@ -467,6 +470,8 @@ Command...
 
   https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=get_file_properties#setuphelpers.properties
 
+Command :command:`get_computername` ...
+
 .. code-block:: python
 
   print(get_computername())
@@ -480,7 +485,7 @@ Command...
 
   https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=get_file_properties#setuphelpers.properties
 
-Command...
+Command :command:`get_domain_fromregistry` ...
 
 .. code-block:: python
 
@@ -501,7 +506,7 @@ installed_softwares/ uninstall_cmd
 installed_softwares
 +++++++++++++++++++
 
-Command...
+Command :command:`installed_softwares` ...
 
 .. code-block:: python
 
@@ -524,7 +529,7 @@ from registry in an array.
 uninstalll_cmd
 ++++++++++++++
 
-Command...
+Command :command:`uninstall_cmd` ...
 
 .. code-block:: python
 
@@ -545,7 +550,6 @@ Command...
 
 uninstalling software
 +++++++++++++++++++++
-Command...
 
 .. code-block:: python
 
@@ -571,7 +575,7 @@ Command...
 killalltasks
 ++++++++++++
 
-Command...
+Command :command:`killalltasks` ...
 
 .. code-block:: python
 
@@ -589,16 +593,12 @@ Command...
 Using control file fields
 +++++++++++++++++++++++++
 
-Command...
-
 .. code-block:: python
 
   def setup():
       print(control['version'])
 
 ... shows the *version* value from the :file:`control` file.
-
-Command...
 
 .. code-block:: python
 
@@ -614,7 +614,7 @@ Calling WAPT actions in a WAPT package
 Installing a package
 ++++++++++++++++++++
 
-Command...
+Command :command:`install` ...
 
 .. code-block:: python
 
@@ -625,7 +625,7 @@ Command...
 Removing a package
 ++++++++++++++++++
 
-Command...
+Command :command:`remove` ...
 
 .. code-block:: python
 
@@ -636,7 +636,7 @@ Command...
 Forgeting a package
 +++++++++++++++++++
 
-Command...
+Command :command:`forget_packages` ...
 
 .. code-block:: python
 

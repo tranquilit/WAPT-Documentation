@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-17 11:52+0100\n"
-"PO-Revision-Date: 2019-02-12 17:38+0100\n"
+"PO-Revision-Date: 2019-02-14 12:25+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
@@ -198,9 +198,8 @@ msgid "Environnement serveur"
 msgstr ""
 
 #: ../../source/wapt-contribute/rebuild-wapt.rst:171
-#, fuzzy
 msgid "Create the InnoSetup installers"
-msgstr "Créer les installeurs"
+msgstr "Créer les installeurs InnoSetup"
 
 #: ../../source/wapt-contribute/rebuild-wapt.rst:173
 msgid "install Innosetup from http://www.jrsoftware.org/download.php/ispack-unicode.exe"
