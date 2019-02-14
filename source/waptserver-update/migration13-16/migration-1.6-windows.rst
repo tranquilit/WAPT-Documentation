@@ -54,9 +54,9 @@ of :program:`waptserver`.
   A dump folder should have been created in the same directory
   as the :file:`mongodump.exe` file.
 
-* backup the entire directory :file:`C:\wapt` of the WAPT Server;
+* backup the entire directory :file:`C:\\wapt` of the WAPT Server;
 
-* backup the folder :file:`C:\private`;
+* backup the folder :file:`C:\\private`;
 
 * install a fresh version **1.3.13** of WAPT on Linux (debian 8 x64)
   or CentOS7/ RedHat7 (x64):
@@ -113,10 +113,10 @@ documentation for `Debian9 <https://www.debian.org/releases/stretch/amd64/>`_.
 
 * restore the WAPT packages on the Linux server;
 
-  * upload the content of :file:`C:\wapt\waptserver\repository\wapt`
+  * upload the content of :file:`C:\\wapt\waptserver\\repository\\wapt`
     in :file:`/var/www/wapt/`;
 
-  * upload the content of :file:`C:\wapt\waptserver\repository\wapt-host`
+  * upload the content of :file:`C:\\wapt\waptserver\\repository\\wapt-host`
     in :file:`/var/www/wapt-host/`;
 
   .. hint::
@@ -143,7 +143,7 @@ documentation for `Debian9 <https://www.debian.org/releases/stretch/amd64/>`_.
 You WAPT Server now works in 1.3.13 on Linux.
 
 You may now install your :program:`waptagent` on your :term:`Administrator`
-management PC and restore the :file:`C:\private` folder on your workstation.
+management PC and restore the :file:`C:\\private` folder on your workstation.
 
 .. attention::
 

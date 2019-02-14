@@ -111,7 +111,7 @@ Installing the WAPT development environment
 
 * increase the width of the CMD windows and flip to quick edit mode
 
-* copy the code signing certificate into :file:`c:\users\buildbot\Documents`
+* copy the code signing certificate into :file:`C:\\users\\buildbot\\Documents`
 
 * cmd
 
@@ -176,7 +176,7 @@ Create the InnoSetup installers
 * install Innosetup from
   http://www.jrsoftware.org/download.php/ispack-unicode.exe
 
-The :file:`.iss` files are located in :file:`C:\tranquilit\wapt\waptsetup` ;
+The :file:`.iss` files are located in :file:`C:\\tranquilit\\wapt\\waptsetup` ;
 
 The :program:`waptsetup` installer includes the python libraries,
 the command line tool :program:`wapt-get`, the local webservice

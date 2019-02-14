@@ -871,7 +871,7 @@ Changes
 +++++++
 
 * waptexit: Displays a custom PNG logo if one
-  is created in :file:`%WAPT_HOME%\templates\waptexit-logo.png`
+  is created in :file:`%WAPT_HOME%\\templates\\waptexit-logo.png`
 
 * nssm.exe is signed with Tranquil IT code signing key
 
@@ -885,7 +885,17 @@ Changes
   with GPO for wapt without recompiling waptsetup.
 
   Example:
-    c:\tmp\waptdeploy --hash=e17c4eddd45d34000df0cfe64af594438b0c3e1ee9791812516f116d4f4b9fa9 --minversion=1.5.1.23 --waptsetupurl=http://buildbot/~tisadmin/wapt/latest/waptsetup.exe  --setupargs=/CopyPackagesTrustedCA=c:\tmp\tranquilit.crt --setupargs=/CopyServersTrustedCA=c:\tmp\srvwapt.ad.tranquil.it.crt  --setupargs=/verify_cert=ssl\server\srvwapt.ad.tranquil.it.crt --setupargs=/repo_url=https://srvwapt.ad.tranquil.it/wapt --setupargs=/waptserver=https://srvwapt.ad.tranquil.it  --setupargs=/DIR=c:\wapt
+
+    :code:`C:\tmp\waptdeploy
+    --hash=e17c4eddd45d34000df0cfe64af594438b0c3e1ee9791812516f116d4f4b9fa9
+    --minversion=1.5.1.23
+    --waptsetupurl=http://buildbot/~tisadmin/wapt/latest/waptsetup.exe
+    --setupargs=/CopyPackagesTrustedCA=c:\tmp\tranquilit.crt
+    --setupargs=/CopyServersTrustedCA=c:\tmp\srvwapt.ad.tranquil.it.crt
+    --setupargs=/verify_cert=ssl\server\srvwapt.ad.tranquil.it.crt
+    --setupargs=/repo_url=https://srvwapt.ad.tranquil.it/wapt
+    --setupargs=/waptserver=https://srvwapt.ad.tranquil.it
+    --setupargs=/DIR=c:\wapt`
 
 Bug fixes
 +++++++++
@@ -1097,7 +1107,7 @@ WAPT client
 * [FIX] fixed display in the Windows task bar of the login window
   (to allow in particular the autofill of the password by password managers);
   waptagent failing to compile if keys/ certificates already exist
-  but the certificate had been removed from :file:`C:\wapt\ssl`;
+  but the certificate had been removed from :file:`C:\\wapt\\ssl`;
 
 * [NEW] Handle AD organizational unit packages (Enterprise edition)
 
@@ -1109,7 +1119,8 @@ WAPT client
   of user waptconsole ini file (without ini extension) instead of full path.
   Handy when switching between several configurations. Same behaviour
   as for waptconsole. Example:
-  :command:`wapt-get -c site3 build-upload c:\waptdev\test-7zip-wapt`;
+
+  :code:`wapt-get -c site3 build-upload c:\waptdev\test-7zip-wapt`;
 
 * [FIX] Be sure to not loop for ever in websockets retry loop if something
   is wrong in host waptserver or websocket configuration.
@@ -1517,7 +1528,7 @@ wapt-get
 
 * remplacement du fichier :file:`WAPT/wapt.psproj` à chaque édition d'un paquet
   (pour mettre à jour le chemin vers les modules WAPT suivant l'installation
-  dans :file:`C:\wapt` ou :file:`C:\Program Files (x86)\wapt`) ;
+  dans :file:`C:\\wapt` ou :file:`C:\\Program Files (x86)\\wapt`) ;
 
 * vérification du certificat serveur lors du :command:`enable-check-certificate`
   pour éviter de mauvaises configurations ;
@@ -1708,15 +1719,15 @@ Console WAPT
 
 * [NEW] Utilisation des fonctions :command:`install_exe_if_needed` et :command:`install_msi_if_needed`
   au lieu d'un simple :command:`run()` pour les exes et les MSI
-  (plusieurs templates de :file:`setup.py` dans :file:`C:\wapt\templates`) ;
+  (plusieurs templates de :file:`setup.py` dans :file:`C:\\wapt\\templates`) ;
 
 * [NEW] Amélioration significative de la vitesse de modification en masse des paquets machines ;
 
 * [NEW] Vérification optionnelle de la signature des paquets que l'on importe d'un dépôt extérieur.
-  La liste des certificats autorisés se trouve par défaut dans :file:`%APPDATA%\waptconsole\ssl`
+  La liste des certificats autorisés se trouve par défaut dans :file:`%APPDATA%\\waptconsole\\ssl`
   et peut-être précisée dans les paramètres de la :program:`waptconsole`.
   Le paramètre ini se nomme *authorized_certs_dir*. Sinon, les certificats autorisés
-  sont ceux dans :file:`C:\wapt\ssl` ;
+  sont ceux dans :file:`C:\\wapt\\ssl` ;
 
 * [NEW] Vérification optionnelle du certificat https pour les dépôts extérieurs dans la console ;
 
@@ -1764,7 +1775,7 @@ Autres correctifs
 * [FIX]  quelques actualisation des exemples de configuration :file:`wapt-get.ini.tmpl`
 
 * [FIX]  la compilation du :program:`waptagent` échoue si les clés / certificats
-  existent déjà mais que le certificat a été supprimé de :file:`C:\wapt\ssl` ;
+  existent déjà mais que le certificat a été supprimé de :file:`C:\\wapt\\ssl` ;
 
 * [FIX]  affichage dans la barre des tâches de la fenêtre de login
   (pour permettre en particulier l'autofill par des gestionnaires de mot de passe) ;
@@ -1889,16 +1900,16 @@ Security
 ++++++++
 
 * [SEC] Fix inheritance of rights on wapt root folder for Windows 10 during setup
-  when installed in :file:`C:\wapt`. On Windows 10, :program:`cacls.exe` does not work
-  and does not remove "Authenticated Users" from :file:`C:\wapt`.
+  when installed in :file:`C:\\wapt`. On Windows 10, :program:`cacls.exe` does not work
+  and does not remove "Authenticated Users" from :file:`C:\\wapt`.
   :program:`cacls.exe` has been replaced by :program:`icacls.exe`:
 
     * on pre-wapt 1.3.7 systems, you can fix this by running the following command,
-      or upgrade to wapt 1.3.8 (you may check :command:`icacls.exe c:\wapt /inheritance:r`)
+      or upgrade to wapt 1.3.8 (you may check :code:`icacls.exe c:\wapt /inheritance:r`)
     * This can be achieved with a GPO, or a wapt package
 
 * [IMP] in next versions of WAPT, the default install path of wapt will be changed
-  from root folder :file:`C:\wapt` to a more standard :file:`C:\Program Files (x86)\wapt`.
+  from root folder :file:`C:\\wapt` to a more standard :file:`C:\\Program Files (x86)\\wapt`.
 
 * [IMP] By default, :program:`waptsetup.exe` / :program:`waptsetup-tis.exe` do not
   distribute certificates to avoid to deploy directly packages from Tranquil IT.
@@ -2200,7 +2211,7 @@ Webservices
 
         http-socket = 0.0.0.0:8080
 
-    On Windows, edit :file:`C:\wapt\waptserver\waptserver.ini` and replace:
+    On Windows, edit :file:`C:\\wapt\waptserver\\waptserver.ini` and replace:
 
     .. code-block:: bash
 

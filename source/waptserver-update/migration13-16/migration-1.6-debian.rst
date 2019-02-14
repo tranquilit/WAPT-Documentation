@@ -155,8 +155,8 @@ Installing the new WAPT console
   and server URLs has not changed;
 
 * open the :program:`waptconsole` by selecting
-  :file:`C:\Program Files (x86)\wapt\waptconsole.exe` (default location)
-  or :file:`C:\wapt\waptconsole.exe` (older WAPT versions);
+  :file:`C:\\Program Files (x86)\\wapt\\waptconsole.exe` (default location)
+  or :file:`C:\\wapt\\waptconsole.exe` (older WAPT versions);
 
 * check that the WAPT Server works correctly by clicking on the
   :guilabel:`wrench icons` and the button :guilabel:`Verify`!

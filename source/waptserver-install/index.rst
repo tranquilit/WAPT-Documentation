@@ -48,7 +48,7 @@ to get all the benefits of WAPT:
 
    * the name of hosts or the the name of the server;
 
-   * the path to the folder :file:`C:\waptdev`;
+   * the path to the folder :file:`C:\\waptdev`;
 
 Hardware recommendations
 ------------------------

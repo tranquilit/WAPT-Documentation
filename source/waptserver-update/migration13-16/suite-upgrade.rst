@@ -47,8 +47,8 @@ It is therefore necessary to regenerate a **Code Signing** certificate.
 By default, WAPT 1.6 Community generates
 self-signed **Code Signing** certificates.
 
-You must insure that the old certificate in :file:`C:\private\mykey.crt`
-and the key :file:`C:\private\mykey.pem` are present in :file:`C:\private`.
+You must insure that the old certificate in :file:`C:\\private\\mykey.crt`
+and the key :file:`C:\\private\\mykey.pem` are present in :file:`C:\\private`.
 
 .. attention::
 
@@ -68,7 +68,7 @@ To create the *Code Signing* certificate, in the WAPT console go to
 
    Normally, you will not have to recreate a new key. Only the certificate
    will have to be changed. **You must enter the path to your key**
-   (ex: :file:`C:\private\mykey.pem`).
+   (ex: :file:`C:\\private\\mykey.pem`).
 
 .. attention::
 

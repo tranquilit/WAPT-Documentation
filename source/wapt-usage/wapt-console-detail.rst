@@ -566,7 +566,7 @@ To make changes to console settings, go to :menuselection:`Tools
   * - Path to the Administrator's personal certificate
     - Path to the certificate associated with the private key used
       to sign packages
-    - :file:`C:\private\mykey.crt`
+    - :file:`C:\\private\\mykey.crt`
 
 .. hint::
 
@@ -592,7 +592,7 @@ To make changes to console settings, go to :menuselection:`Tools
     - Example
   * - Path to waptdev folder
     - Indicates the path to the directory for storing packages being developed
-    - :file:`C:\waptdev`
+    - :file:`C:\\waptdev`
   * - HTTP proxy to use
     - Indicates a proxy server to be used by the WAPT console when accessing
       the WAPT repository or the WAPT Server

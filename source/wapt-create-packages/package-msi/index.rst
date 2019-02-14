@@ -93,7 +93,7 @@ customized and built.
 
   Using the automatic template has the following effects:
 
-  * it creates a WAPT package folder in :file:`C:\waptdev`;
+  * it creates a WAPT package folder in :file:`C:\\waptdev`;
 
   * it copies the MSI setup file in that directory;
 
@@ -200,7 +200,7 @@ from the Windows command prompt.
   * the :file:`manifest.sha256` file containing the list of files included
     in the package is created;
 
-  * it compresses the folder :file:`C:\waptdev\tis-tightvnc-wapt`
+  * it compresses the folder :file:`C:\\waptdev\tis-tightvnc-wapt`
     with a canonical name;
 
   * it adds the signature (requires the private key);

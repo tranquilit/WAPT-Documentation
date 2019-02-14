@@ -6,17 +6,17 @@
    Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
-    :description: Simple \*.exe package
+    :description: Simple .exe package
     :keywords: exe, WAPT, simple, documentation
 
 .. _simple_exe_packaging:
 
-Simple \*.exe package
-=====================
+Simple .exe package
+===================
 
 .. note:: Variation compared to MSI
 
-  WAPT prefers MSI installers because most :file:`\*.exe` are not standardized
+  WAPT prefers MSI installers because most :file:`.exe` are not standardized
   and silent arguments can be different from one piece of software to another.
 
 .. hint::
@@ -34,13 +34,13 @@ Simple \*.exe package
 
 * look up documentation relating to silent flags;
 
-  * On the `Official Mozilla website <https://wiki.mozilla.org/Installer:Command_Line_Arguments>`_
+  * On the `Official Mozilla website <https://wiki.mozilla.org/Installer:Command_Line_Arguments>`_;
 
   * other methods for finding information on silent flags:
 
-    * `WPKG packages repository <https://wpkg.org/Firefox#Firefox_19_-_45_.28For_current_versions_of_WPKG.29>`_ ;
+    * `WPKG packages repository <https://wpkg.org/Firefox#Firefox_19_-_45_.28For_current_versions_of_WPKG.29>`_;
 
-    * `Chocolatey packages repository <https://chocolatey.org/packages/FirefoxESR>`_ ;
+    * `Chocolatey packages repository <https://chocolatey.org/packages/FirefoxESR>`_;
 
     * search on the Internet with the search terms: *Firefox silent install*;
 

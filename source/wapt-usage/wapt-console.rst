@@ -187,7 +187,7 @@ prefix.
   If the verification of the package signature is enabled, the public
   certificate of the signer must be located in one of the following folders:
 
-  * :file:`C:\Program Files (x86)\wapt\ssl`;
+  * :file:`C:\\Program Files (x86)\\wapt\\ssl`;
 
   * :file:`%appdata%\waptconsole\ssl`;
 

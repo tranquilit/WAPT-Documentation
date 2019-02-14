@@ -15,13 +15,13 @@ Using WAPTtray.
 ===============
 
 :program:`wapttray` is a utility working in user context, it is located
-in the WAPT folder :file:`C:\Program Files (x86)\wapt`.
+in the WAPT folder :file:`C:\\Program Files (x86)\\wapt`.
 
 :program:`wapttray` launches at logon if the option has been ticked
 during installation. The icon will show up in the Windows tray toolbar.
 
 We can also launch :program:`wapttray` manually with a startup GPO pointing
-on :file:`C:\Program Files (x86)\wapt\wapttray.exe`.
+on :file:`C:\\Program Files (x86)\\wapt\\wapttray.exe`.
 
 The tray icon is handy for autonomous users that want to choose the right moment
 to upgrade their packages.
@@ -55,7 +55,7 @@ Functionalities of the WAPTtray
   * - Launching the WAPT console
     - launches the WAPT console
   * - Viewing the configuration file
-    - opens the :file:`C:\Program Files (x86)\wapt\wapt-get.ini` file
+    - opens the :file:`C:\\Program Files (x86)\\wapt\\wapt-get.ini` file
       with :term:`Local Administrator` privileges (credentials may be asked)
   * - Reloading network related service configuration
     - reloads the connection to the WAPT Server in the event

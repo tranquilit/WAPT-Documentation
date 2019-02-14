@@ -334,7 +334,7 @@ will check the integrity of the package, and then check that the package
 has been properly **signed**.
 
 If the WAPT package signature does not match any of the public keys located
-in :file:`C:\Program Files (x86)\wapt\ssl`, the WAPT agent will refuse
+in :file:`C:\\Program Files (x86)\\wapt\\ssl`, the WAPT agent will refuse
 to install the package.
 
 For more information, please refer to the documentation on

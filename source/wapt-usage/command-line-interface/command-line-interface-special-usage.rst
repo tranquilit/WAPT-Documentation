@@ -40,7 +40,7 @@ wapt-get download
 +++++++++++++++++
 
 The :code:`wapt-get download <package name>` command downloads the WAPT package
-to the local cache located at :file:`C:\Program Files\wapt\cache`.
+to the local cache located at :file:`C:\\Program Files\wapt\cache`.
 
 The command :code:`wapt-get download tis-7zip` returns:
 
@@ -55,7 +55,7 @@ wapt-get download-upgrade
 +++++++++++++++++++++++++
 
 The:code:`wapt-get download-upgrade`command downloads packages to be upgraded to
-the local WAPT cache :file:`C:\Program Files (x86)\wapt\cache`.
+the local WAPT cache :file:`C:\\Program Files (x86)\wapt\cache`.
 
 The command :code:`wapt-get download-upgrade` returns:
 
@@ -288,7 +288,7 @@ certificate from the WAPT Server to use HTTPS to communicate
 with the WAPT Server.
 
 The downloaded certificate is stored in
-:file:`C:\Program Files(x86)\wapt\ssl\server`.
+:file:`C:\\Program Files(x86)\\wapt\ssl\\server`.
 
 The command :code:`wapt-get get-server-certificate` returns:
 

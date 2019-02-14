@@ -181,7 +181,7 @@ wapt-get clean
 ++++++++++++++
 
 The :command:`clean` command removes packages from the
-:file:`C:\Program Files (x86)\wapt\cache` folder.
+:file:`C:\\Program Files (x86)\\wapt\\cache` folder.
 
 The :command:`clean` command is launched after each upgrade to save disk space.
 

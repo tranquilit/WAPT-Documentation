@@ -19,7 +19,7 @@ may be lost, breaking the chain of traceability.
 
   * Linux: :file:`/var/www/wapt/` or :file:`/var/www/html/wapt/`;
 
-  * Windows: :file:`C:\wapt\waptserver\repository\wapt`;
+  * Windows: :file:`C:\\wapt\waptserver\\repository\\wapt`;
 
 Installing and re-importing the WAPT packages
 ---------------------------------------------

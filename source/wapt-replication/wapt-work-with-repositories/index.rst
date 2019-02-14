@@ -34,7 +34,7 @@ This functionality is useful in several use cases:
 .. attention::
 
   When using repositories with different signers, the additional signer's
-  public certificates must be added to :file:`C:\Program Files (x86)\wapt\ssl`.
+  public certificates must be added to :file:`C:\\Program Files (x86)\\wapt\\ssl`.
   You then must deploy WAPT agent with both keys.
 
   Please refer to the documentation to :ref:`create
