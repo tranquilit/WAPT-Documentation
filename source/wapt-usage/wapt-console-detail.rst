@@ -659,24 +659,17 @@ The old certificate will be invalidated.
   :alt: New public certificate has been created
 
   New public certificate has been created
-  
-  
-Add plugins in Console
------------------------------------
+
+Adding plugins in the Console
+-----------------------------
 
 .. versionadded:: 1.7
 
-Add in the menu of the machines additional actions
-
-For that purpose, go to :menuselection:`Tools --> preference --> plugins Tab`
+To add plugins, go to :menuselection:`Tools --> preference --> plugins Tab`.
 
 .. todo:: add CAPTURE
 
-.. figure:: wapt_console-generate_new_certificate.png
-  :align: center
-  :alt: Generate a self-signed certificate
-
-  Click add to add plugins, then edit the corresponding columns
+Click :guilabel:`Add` to add plugins, then edit the corresponding columns
 
 .. list-table::
    :header-rows: 1
@@ -693,19 +686,3 @@ For that purpose, go to :menuselection:`Tools --> preference --> plugins Tab`
 Plugins will then appear in the menu :
 
 .. todo:: add CAPTURE
-
-.. figure:: wapt_console-generate_new_certificate.png
-  :align: center
-  :alt: Generate a self-signed certificate
-
-  Generate a self-signed certificate
-
-
-
-
-
-
-
-  
-  
-  

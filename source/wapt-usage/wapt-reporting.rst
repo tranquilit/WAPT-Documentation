@@ -18,7 +18,7 @@ Using the reporting functions in WAPT
 
 .. hint::
 
-  Feature only available with WAPT Enterprise
+  Feature only available with WAPT **Enterprise**.
 
 Working principle
 -----------------
@@ -93,7 +93,8 @@ Query examples
 .. code-block:: sql
 
   select distinct unnest(mac_addresses) as mac,
-  unnest(h.connected_ips) as ipaddress,  computer_fqdn,h.description,h.manufacturer||' '||h.productname as model,
+  unnest(h.connected_ips) as ipaddress,  computer_fqdn,h.description,
+  h.manufacturer||' '||h.productname as model,
   h.serialnr,h.computer_type
   from hosts h
   order by 1,2,3
@@ -126,7 +127,7 @@ To solve this problem, we propose to standardize the name of the software with W
   for example, all different version of Adobe Flash Player;
 
 * on the column :guilabel:`normalized`, press :kbd:`F2` to assign
-  a standardized name to the selected software. Then press Enter
+  a standardized name to the selected software. Then press :kbd:`Enter`;
 
 .. note::
 

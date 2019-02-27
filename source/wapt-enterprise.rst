@@ -48,18 +48,20 @@ to answer the needs of large and medium Organisations:
   (i.e. **Code Signing** SSL certificates for package developers and **Simple**
   SSL certificates for package deployers);
 
-* **Use of differentiated self service**..
-  WAPT Enterprise allows you to define lists of allowed packages to existing groups in Active Directory. 
-  Users are free to install your qualified packages without bothering IT teams.
-  
+* **Use of differentiated self service**
+  WAPT Enterprise allows you to define lists of allowed packages
+  to existing groups in Active Directory.
+  Users are free to install qualified packages without
+  having to submit a ticket to their IT teams.
+
 * **WAPT WUA**
   WAPT allows to manage the Windows Updates on your endpoints.
 
 * **advanced reporting for corporate teams**. This reporting completes
   the operational reporting already available in the WAPT console;
-  the reports are designed to help WAPT operators demonstrate their efficacy
+  reports are designed to help WAPT operators demonstrate their efficacy
   with WAPT for insuring a greater level of security and conformity
-  for their network, system and applications.
+  for their networks, systems, software and applications.
 
 The Enterprise version of WAPT is particularly advisable for Organizations:
 

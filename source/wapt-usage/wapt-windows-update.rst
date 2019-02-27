@@ -65,7 +65,7 @@ from Microsoft servers.
 .. note:: Downloaded updates are stored:
 
   * on Linux servers in :file:`/var/www/waptwua`;
-  
+
   * on Windows servers in :file:`C:\\wapt\\waptserver\\repository\\waptwua`;
 
 The WAPT Windows Update Agent repository download URL is based
@@ -128,18 +128,18 @@ comes with two sub-menus to manage WAPTWUA.
 WAPTWUA Package
 +++++++++++++++
 
-The :guilabel:`WAPTWUA Package` tab allows you to create *WAPTWUA* rules packages.
+The :guilabel:`WAPTWUA Package` tab allows you to create *wsus* rules packages.
 
 * when this type of package is installed on a machine, it indicates
   to the WAPTWUA agent the authorized or forbidden
   :abbr:`KBs (Knowledge Base articles)`;
 
-* when several *WAPTWUA* packages are installed on a machine,
+* when several *wsus* packages are installed on a machine,
   the different rules will be merged;
 
-* when a cab is neither mentioned as authorized nor mentioned as prohibited,
-  WAPT agents will then take the value of ``default_allow``
-  in :file:`wapt-get.ini`;
+* when a :file:`cab` is neither mentioned as authorized,
+  nor mentioned as prohibited, WAPT agents will then
+  take the value of ``default_allow`` in :file:`wapt-get.ini`;
 
 If a Windows update has not yet been downloaded to the WAPT server,
 then the WAPT agent will flag the update as *MISSING*.
@@ -147,10 +147,10 @@ then the WAPT agent will flag the update as *MISSING*.
 .. note::
 
   * if the WAPTWUA agent configuration is set to ``default_allow = True``,
-    then it will be necessary to specify the forbidden cab;
+    then it will be necessary to specify the forbidden :file:`cab`;
 
   * if the WAPTWUA agent configuration is set to ``default_allow = False``,
-    then it will be necessary to specify the authorized cab;
+    then it will be necessary to specify the authorized :file:`cab`;
 
 .. hint::
 
@@ -162,9 +162,9 @@ then the WAPT agent will flag the update as *MISSING*.
 
 .. figure:: wapt_console-wua.png
   :align: center
-  :alt: Create WAPTWUA Package
+  :alt: Creating a *wsus* Package
 
-  Create WAPTWUA Package
+  Creating a *wsus* Package
 
 Windows Updates list tab
 ++++++++++++++++++++++++

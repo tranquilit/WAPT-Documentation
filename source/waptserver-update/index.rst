@@ -25,27 +25,34 @@ Upgrading from 1.6 to 1.7
 
 The upgrade process follows the process for a minor update.
 
-* :ref:`wapt_minor_upgrade_debian`
-* :ref:`wapt_minor_upgrade_centos`
-* :ref:`wapt_minor_upgrade_windows`
+* :ref:`mise à jour mineure pour Debian <wapt_minor_upgrade_debian>`;
+
+* :ref:`mise à jour mineure pour CentOS <wapt_minor_upgrade_centos>`;
+
+* :ref:`mise à jour mineure pour Windows <wapt_minor_upgrade_windows>`;
 
 .. attention::
-  
-  * Debian Jessie is now deprecated. WAPT 1.7 won't work using that old Debian version. 
-  * Consider migrating your existing WAPT installation to Debian Stretch or CentOS7
 
+  * Debian Jessie is now deprecated. WAPT 1.7 will not work
+    with that old Debian version;
+
+  * consider migrating your existing WAPT installation
+    to Debian Stretch or CentOS7;
 
 Upgrading from 1.5 to 1.6
 -------------------------
 
 The upgrade process follows the process for a minor update.
 
-
 .. note::
-  
-  * If you are in Debian Jessie, it is recommended to upgrade to Debian Strech 64 bits.
-  * This is mandatory for the **Enterprise** version with Windows Update support.
-  * When upgrading to Debian9, the PostgreSQL database must be upgraded from version 9.6.
+
+  * if you are in Debian Jessie, it is recommended to upgrade
+    to Debian Strech 64 bits;
+
+  * this is mandatory for the **Enterprise** version with Windows Update support;
+
+  * when upgrading to Debian9, the PostgreSQL database
+    must be upgraded;
 
 Upgrading from 1.3 to 1.6
 -------------------------

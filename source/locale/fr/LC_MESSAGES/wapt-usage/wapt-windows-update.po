@@ -8,15 +8,17 @@ msgstr ""
 "Project-Id-Version: WAPT 1.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-27 15:40+0100\n"
-"PO-Revision-Date: 2019-02-27 15:27+0100\n"
+"PO-Revision-Date: 2019-02-27 16:21+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: en\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:8
 #: ../../source/wapt-usage/wapt-windows-update.rst:17
@@ -25,41 +27,38 @@ msgstr "Utiliser l'agent de mise à jour Windows (WAPTWUA)"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:8
 msgid "WAPT, Windows, Updates, WUA, documentation"
-msgstr ""
+msgstr "WAPT, Windows, Mises à jour, WUA, documentation"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:14
 msgid "Enterprise"
-msgstr ""
+msgstr "Enterprise"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:21
-#, fuzzy
 msgid "Feature only available with WAPT **Enterprise** version"
 msgstr "Fonctionnalité uniquement disponible avec WAPT **Enterprise**"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:25
 msgid ""
-"Since version 1.7, WAPT is able to manage Windows Updates on your "
-"endpoints."
+"Since version 1.7, WAPT is able to manage Windows Updates on your endpoints."
 msgstr ""
-"Depuis la version 1.7, WAPT est capable de gérer les mises à jour Windows"
-" sur vos terminaux."
+"Depuis la version 1.7, WAPT est capable de gérer les mises à jour Windows sur "
+"vos terminaux."
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:27
-#, fuzzy
 msgid ""
-"The internals of WAPTWUA is based on the :abbr:`WUA (Windows Update "
-"Agent)` API;"
+"The internals of WAPTWUA is based on the :abbr:`WUA (Windows Update Agent)` "
+"API;"
 msgstr ""
-"Le fonctionnement interne de WAPTWUA est basé sur l'API :abbr:`WUA "
-"(Windows Update Agent)`."
+"Le fonctionnement interne de WAPTWUA est basé sur l'API :abbr:`WUA (Windows "
+"Update Agent)`."
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:30
 msgid ""
-"For more information: https://docs.microsoft.com/en-"
-"us/windows/desktop/wua_sdk/using-the-windows-update-agent-api"
+"For more information: https://docs.microsoft.com/en-us/windows/desktop/wua_sdk/"
+"using-the-windows-update-agent-api"
 msgstr ""
-"Pour plus d\\'informations : https://docs.microsoft.com/en-"
-"us/windows/desktop/wua_sdk/using-the-windows-update-agent-api"
+"Pour plus d\\'informations : https://docs.microsoft.com/en-us/windows/desktop/"
+"wua_sdk/using-the-windows-update-agent-api"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:34
 msgid "Working principle"
@@ -67,60 +66,57 @@ msgstr "Principe de fonctionnement"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:36
 msgid ""
-"Regularly, the WAPT server downloads an updated :file:`wsuscn2.cab` file "
-"from Microsoft servers. By default, downloads happen once a day and no "
-"download is triggered if the file has not changed since the last "
-"download."
+"Regularly, the WAPT server downloads an updated :file:`wsuscn2.cab` file from "
+"Microsoft servers. By default, downloads happen once a day and no download is "
+"triggered if the file has not changed since the last download."
 msgstr ""
+"Régulièrement, le serveur WAPT télécharge un fichier :file:`wsuscn2.cab` de "
+"mises à jour Windows depuis les serveurs Microsoft. Par défaut, les "
+"téléchargements ont lieu une fois par jour et aucun téléchargement n'est "
+"déclenché si le fichier n'a pas changé depuis le dernier téléchargement."
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:45
 msgid "WAPT Windows Update flow process"
 msgstr "Processus de mise à jour de Windows WAPT"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:47
-#, fuzzy
 msgid ""
-"The :file:`wsuscn2.cab` file is then downloaded by the WAPT agent from "
-"its nearest repository and then passed on to the standard :abbr:`WUA "
-"(Windows Update Agent)` Windows utility to crunch the update tree for the"
-" host."
+"The :file:`wsuscn2.cab` file is then downloaded by the WAPT agent from its "
+"nearest repository and then passed on to the standard :abbr:`WUA (Windows "
+"Update Agent)` Windows utility to crunch the update tree for the host."
 msgstr ""
 "Le fichier :file:`wsuscn2.cab` est ensuite téléchargé par l'agent WAPT à "
-"partir de son dépôt le plus proche et ensuite transmis à l'utilitaire "
-"standard *Windows Update Agent* Windows qui traitera l'arbre des mises "
-"à jour."
+"partir de son dépôt le plus proche et ensuite transmis à l'utilitaire standard "
+"*Windows Update Agent* Windows qui traitera l'arbre des mises à jour."
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:52
 msgid ""
-"Regularly, the machine will analyze the available updates using the "
-":file:`wsuscn2.cab` file. The list of needed updates as determined by WUA"
-" is then sent from the host to the WAPT server."
+"Regularly, the machine will analyze the available updates using the :file:"
+"`wsuscn2.cab` file. The list of needed updates as determined by WUA is then "
+"sent from the host to the WAPT server."
 msgstr ""
-"Régulièrement, la machine analysera les mises à jour disponibles en "
-"utilisant le fichier :file:`wsuscn2.cab`. La liste des mises à jour "
-"nécessaires déterminée par l'agent WUA est ensuite envoyée par l'hôte "
-"au serveur WAPT."
+"Régulièrement, la machine analysera les mises à jour disponibles en utilisant "
+"le fichier :file:`wsuscn2.cab`. La liste des mises à jour nécessaires "
+"déterminée par l'agent WUA est ensuite envoyée par l'hôte au serveur WAPT."
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:56
-#, fuzzy
 msgid ""
-"If an update is pending on the machine and if that update is not present "
-"on the WAPT server, the server will download the needed update from "
-"Microsoft servers."
+"If an update is pending on the machine and if that update is not present on "
+"the WAPT server, the server will download the needed update from Microsoft "
+"servers."
 msgstr ""
-"Si une mise à jour est en attente sur la machine et si cette mise à jour "
-"n'est pas présente sur le serveur WAPT, le serveur téléchargera la mise à"
-" jour nécessaire depuis les serveurs Microsoft."
+"Si une mise à jour est en attente sur la machine et si cette mise à jour n'est "
+"pas présente sur le serveur WAPT, le serveur téléchargera la mise à jour "
+"nécessaire depuis les serveurs Microsoft."
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:62
-#, fuzzy
 msgid ""
-"This mode of operation allows to download only the necessary updates on "
-"the computers, thus saving bandwidth, download time and disk space."
+"This mode of operation allows to download only the necessary updates on the "
+"computers, thus saving bandwidth, download time and disk space."
 msgstr ""
 "Ce mode de fonctionnement permet de ne télécharger que les mises à jour "
-"nécessaires sur les ordinateurs qui en ont besoin, économisant ainsi de "
-"la bande passante, du temps de téléchargement et de l\\'espace disque."
+"nécessaires sur les ordinateurs qui en ont besoin, économisant ainsi de la "
+"bande passante, du temps de téléchargement et de l\\'espace disque."
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:65
 msgid "Downloaded updates are stored:"
@@ -132,34 +128,35 @@ msgstr "sur des serveurs Linux dans :file:`/var/www/waptwua` ;"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:69
 msgid ""
-"on Windows servers in "
-":file:`C:\\\\wapt\\\\waptserver\\\\repository\\\\waptwua`;"
+"on Windows servers in :file:`C:\\\\wapt\\\\waptserver\\\\repository\\"
+"\\waptwua`;"
 msgstr ""
-"sur des machines Windows dans "
-":file:`C:\\\\wapt\\\\waptserver\\\\repository\\\\waptwua` ;"
+"sur des machines Windows dans :file:`C:\\\\wapt\\\\waptserver\\\\repository\\"
+"\\waptwua` ;"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:71
 msgid ""
 "The WAPT Windows Update Agent repository download URL is based on the "
 "``repo_url`` parameter in :file:`wapt-get.ini`:"
 msgstr ""
-"L'URL de téléchargement des mise à jour Windows depuis le dépôt WAPT est "
-"basée sur le paramètre ``repo_url`` du fichier :file:`wapt-get.ini` :"
+"L'URL de téléchargement des mise à jour Windows depuis le dépôt WAPT est basée "
+"sur le paramètre ``repo_url`` du fichier :file:`wapt-get.ini` :"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:74
 msgid ""
-"in case of repository replication, it is fully operational with WAPT "
-"Windows Update to reduce bandwidth use;"
+"in case of repository replication, it is fully operational with WAPT Windows "
+"Update to reduce bandwidth use;"
 msgstr ""
-"la réplication des WAPT Windows Update fonctionne pour réduire l\\'usage "
-"de la bande passante ;"
+"la réplication des WAPT Windows Update fonctionne pour réduire l\\'usage de la "
+"bande passante ;"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:77
-#, fuzzy
 msgid ""
-"do not forget to synchronize the :file:`waptwua` folder if you are "
-"replicating your packages with distant repositories;"
-msgstr "n\\'oubliez pas de synchroniser le dossier :file:`waptwua' ;"
+"do not forget to synchronize the :file:`waptwua` folder if you are replicating "
+"your packages with distant repositories;"
+msgstr ""
+"n\\'oubliez pas de synchroniser le dossier :file:`waptwua'  si vous répliquez "
+"vos paquets avec des dépôts distants ;"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:81
 msgid "Configuring WAPTWUA on the WAPT agent"
@@ -171,7 +168,7 @@ msgstr "*WAPTWUA* est configuré dans :file:`wapt-get.ini`."
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:85
 msgid "Add ``[waptwua]`` section."
-msgstr ""
+msgstr "Ajouter une section ``[waptwua]``."
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:87
 msgid "You then have several options:"
@@ -213,9 +210,11 @@ msgstr "True"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:95
 msgid ""
-"Defined if the scan should be done using :file:`wsuscn2.cab` files or "
-"Online with Microsoft servers"
+"Defined if the scan should be done using :file:`wsuscn2.cab` files or Online "
+"with Microsoft servers"
 msgstr ""
+"Définir si l'analyse doit être effectuée à l'aide des fichiers :file:`wsuscn2."
+"cab` ou en ligne avec les serveurs Microsoft."
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:96
 msgid "``allow_direct_download``"
@@ -223,9 +222,11 @@ msgstr "``allow_direct_download``"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:96
 msgid ""
-"Allow direct download of updates from Microsoft servers if the WAPT "
-"server is not available"
+"Allow direct download of updates from Microsoft servers if the WAPT server is "
+"not available"
 msgstr ""
+"Autoriser le téléchargement direct des mises à jour à partir des serveurs "
+"Microsoft si le serveur WAPT n'est pas disponible."
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:97
 msgid "``default_allow``"
@@ -233,7 +234,7 @@ msgstr "``default_allow``"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:97
 msgid "Set if missing update is authorized or not by default"
-msgstr ""
+msgstr "Définir si la mise à jour manquante est autorisée ou non par défaut"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:98
 msgid "``filter``"
@@ -245,7 +246,7 @@ msgstr "Type='Software' ou Type='Driver'"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:98
 msgid "Define the filter to apply for the Windows update scan"
-msgstr ""
+msgstr "Définir le filtre à appliquer pour l'analyse des mises à jour Windows"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:99
 msgid "``download_scheduling``"
@@ -259,9 +260,12 @@ msgstr "None"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:99
 msgid ""
-"Set the Windows Update scan recurrence (Will not do anything if *wsus* "
-"package rule or :file:`wsuscn2.cab` file have not changed) (ex: 2h)"
+"Set the Windows Update scan recurrence (Will not do anything if *wsus* package "
+"rule or :file:`wsuscn2.cab` file have not changed) (ex: 2h)"
 msgstr ""
+"Définir la fréquence d'analyse des mises à jour Windows (Ne fera rien si la "
+"règle du paquet *wsus* ou le fichier :file:`wsuscn2.cab` n'ont pas changé) "
+"(ex : 2h)"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:100
 msgid "``install_scheduling``"
@@ -269,9 +273,11 @@ msgstr "``install_scheduling``"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:100
 msgid ""
-"Set the Windows Update install recurrence (Will do nothing if no update "
-"is pending) (ex: 2h)"
+"Set the Windows Update install recurrence (Will do nothing if no update is "
+"pending) (ex: 2h)"
 msgstr ""
+"Définir la fréquence d'installation des mises à jour Windows (Ne fera rien si "
+"aucune mise à jour n'est en attente) (ex : 2h)"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:101
 msgid "``install_delay``"
@@ -279,37 +285,42 @@ msgstr "``install_delay``"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:101
 msgid ""
-"Set a deferred installation delay before publication in the repository "
-"(ex: 7d)"
+"Set a deferred installation delay before publication in the repository (ex: 7d)"
 msgstr ""
+"Définir un délai d'installation différé avant la publication dans le dépôt "
+"(ex : 7d)"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:106
 msgid "These options can be set when generating the agent."
-msgstr ""
+msgstr "Ces options peuvent être définies lors de la génération de l'agent."
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:108
 msgid "Example WAPTWUA section in :file:`wapt-get.ini` file:"
-msgstr ""
+msgstr "Exemple de section WAPTWUA dans le fichier :file:`wapt-get.ini' :"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:123
 msgid "Using WAPTWUA from the console"
-msgstr ""
+msgstr "Utiliser de WAPTWUA depuis la console"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:125
 msgid ""
-"The :guilabel:`WAPT Windows Update Agent` tab in the console WAPT comes "
-"with two sub-menus to manage WAPTWUA."
+"The :guilabel:`WAPT Windows Update Agent` tab in the console WAPT comes with "
+"two sub-menus to manage WAPTWUA."
 msgstr ""
+"L'onglet :guilabel:`WAPT Windows Update Agent` de la console WAPT est fourni "
+"avec deux sous-menus pour gérer WAPTWUA."
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:129
 msgid "WAPTWUA Package"
-msgstr ""
+msgstr "Paquet WAPTWUA"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:131
 msgid ""
 "The :guilabel:`WAPTWUA Package` tab allows you to create *WAPTWUA* rules "
 "packages."
 msgstr ""
+"L'onglet :guilabel:`WAPTWUA Package` vous permet de créer des paquets de "
+"règles *wsus*."
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:133
 msgid ""
@@ -317,229 +328,154 @@ msgid ""
 "WAPTWUA agent the authorized or forbidden :abbr:`KBs (Knowledge Base "
 "articles)`;"
 msgstr ""
+"lorsque ce type de paquet est installé sur une machine, il indique à l'agent "
+"WAPTWUA les :abbr:`KBs (Knowledge Base articles)` autorisés ou interdits ;"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:137
 msgid ""
-"when several *WAPTWUA* packages are installed on a machine, the different"
-" rules will be merged;"
+"when several *WAPTWUA* packages are installed on a machine, the different "
+"rules will be merged;"
 msgstr ""
+"lorsque plusieurs paquets *wsus* sont installés sur une machine, les "
+"différentes règles seront fusionnées ;"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:140
 msgid ""
-"when a cab is neither mentioned as authorized nor mentioned as "
-"prohibited, WAPT agents will then take the value of ``default_allow`` in "
-":file:`wapt-get.ini`;"
+"when a cab is neither mentioned as authorized nor mentioned as prohibited, "
+"WAPT agents will then take the value of ``default_allow`` in :file:`wapt-get."
+"ini`;"
 msgstr ""
+"lorsqu'un :file:`cab` n'est ni mentionné comme autorisé, ni mentionné comme "
+"interdit, les agents WAPT prendront alors la valeur ``default_allow`` dans le "
+"fichier :file:`wapt-get.ini` ;"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:144
 msgid ""
-"If a Windows update has not yet been downloaded to the WAPT server, then "
-"the WAPT agent will flag the update as *MISSING*."
+"If a Windows update has not yet been downloaded to the WAPT server, then the "
+"WAPT agent will flag the update as *MISSING*."
 msgstr ""
+"Si une mise à jour Windows n'a pas encore été téléchargée sur le serveur WAPT, "
+"l'agent WAPT marquera la mise à jour comme *MISSING*."
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:149
 msgid ""
-"if the WAPTWUA agent configuration is set to ``default_allow = True``, "
-"then it will be necessary to specify the forbidden cab;"
+"if the WAPTWUA agent configuration is set to ``default_allow = True``, then it "
+"will be necessary to specify the forbidden cab;"
 msgstr ""
+"si la configuration de l'agent WAPTWUA est définie avec ``default_allow = "
+"True``, alors il sera nécessaire de spécifier la cabine interdite ;"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:152
 msgid ""
-"if the WAPTWUA agent configuration is set to ``default_allow = False``, "
-"then it will be necessary to specify the authorized cab;"
+"if the WAPTWUA agent configuration is set to ``default_allow = False``, then "
+"it will be necessary to specify the authorized cab;"
 msgstr ""
+"si la configuration de l'agent WAPTWUA est définie avec ``default_allow = "
+"False``, alors il sera nécessaire de spécifier le :file:`cab` autorisé ;"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:157
 msgid ""
-"to test updates on a small set of computers, you can set WAPTWUA default "
-"value to ``default_allow = False``;"
+"to test updates on a small set of computers, you can set WAPTWUA default value "
+"to ``default_allow = False``;"
 msgstr ""
+"pour tester les mises à jour sur un petit nombre d'ordinateurs, vous pouvez "
+"définir la valeur par défaut de WAPTWUA avec ``default_allow = False`` ;"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:160
 msgid ""
-"you can test updates on a small sample of hosts and if everything is "
-"good, you can release the updates to the entire base of computers;"
+"you can test updates on a small sample of hosts and if everything is good, you "
+"can release the updates to the entire base of computers;"
 msgstr ""
+"vous pouvez tester les mises à jour sur un petit échantillon de machines et si "
+"tout va bien, vous pouvez diffuser les mises à jour sur l'ensemble de la base "
+"des ordinateurs ;"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:167
 msgid "Create WAPTWUA Package"
-msgstr ""
+msgstr "Créer un paquet *wsus*"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:170
 msgid "Windows Updates list tab"
-msgstr ""
+msgstr "Onglet Liste des mises à jour de Windows"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:172
 msgid "The :guilabel:`Windows Update List` tab lists all needed Windows Updates."
 msgstr ""
+"L'onglet :guilabel:`Windows Update List` liste toutes les mises à jour Windows "
+"nécessaires."
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:174
 msgid "The left pane displays updates categories, allowing you to filter by:"
 msgstr ""
+"Le volet de gauche affiche les catégories de mises à jour, vous permettant de "
+"filtrer par :"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:176
 msgid "criticality;"
-msgstr ""
+msgstr "la criticité ;"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:178
 msgid "product;"
-msgstr ""
+msgstr "le produit ;"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:180
 msgid "classification;"
-msgstr ""
+msgstr "la classification ;"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:182
 msgid ""
-"In the right pane grid, if the :guilabel:`Downloaded on` column is empty,"
-" it means that the update was not yet been downloaded by the WAPT server "
-"and is not present on the WAPT server (This update is not missing on any "
-"host)."
+"In the right pane grid, if the :guilabel:`Downloaded on` column is empty, it "
+"means that the update was not yet been downloaded by the WAPT server and is "
+"not present on the WAPT server (This update is not missing on any host)."
 msgstr ""
+"Dans la grille de droite, si la colonne :guilabel:`Downloaded on` est vide, "
+"cela signifie que la mise à jour n'a pas encore été téléchargée par le serveur "
+"WAPT et n'est pas présente sur le serveur WAPT (Cette mise à jour ne manque "
+"sur aucun hôte)."
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:186
 msgid ""
-"you can force the download of an update by :menuselection:`right-click "
-"--> Download`;"
+"you can force the download of an update by :menuselection:`right-click --> "
+"Download`;"
 msgstr ""
+"vous pouvez forcer le téléchargement d'une mise à jour par :menuselection:"
+"`Clic droit --> Télécharger` ;"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:189
 msgid ""
-"you can also force the download of the :file:`wsusscn2.cab` file with the"
-" :guilabel:`Download WSUSScan cab from Microsoft Web Site` button;"
+"you can also force the download of the :file:`wsusscn2.cab` file with the :"
+"guilabel:`Download WSUSScan cab from Microsoft Web Site` button;"
 msgstr ""
+"vous pouvez également forcer le téléchargement du fichier :file:`wsusscn2.cab` "
+"avec le bouton :guilabel:`Download WSUSScan cab from Microsoft Web Site` ;"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:192
 msgid ""
-"you can see the Windows Updates download on the server with the "
-":guilabel:`Show download task` button;"
+"you can see the Windows Updates download on the server with the :guilabel:"
+"`Show download task` button;"
 msgstr ""
+"vous pouvez voir le téléchargement des mises à jour Windows sur le serveur "
+"avec le bouton :guilabel:`Montrer les téléchargements` ;"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:197
 msgid ""
 "To cleanup your :file:`WAPTWUA` folder, you can remove no longer needed "
-"Windows updates. WAPT server will only re-download deleted updates if one"
-" of the WAPT equipped hosts requests it;"
+"Windows updates. WAPT server will only re-download deleted updates if one of "
+"the WAPT equipped hosts requests it;"
 msgstr ""
+"Pour nettoyer votre dossier :file:`WAPTWUA`, vous pouvez supprimer les mises à "
+"jour Windows qui ne sont plus nécessaires. Le serveur WAPT ne re-téléchargera "
+"les mises à jour supprimées que si l'un des hôtes équipés WAPT le demande ;"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:205
 msgid "List Windows Update"
-msgstr ""
-
-#~ msgid "Using the WAPT console"
-#~ msgstr ""
-
-#~ msgid "WAPT, console, documentation"
-#~ msgstr ""
+msgstr "Lister les mises à jour Windows"
 
 #~ msgid ""
-#~ "Regularly, the WAPT server downloads "
-#~ ":file:`wsuscn2.cab` file from Microsoft's "
-#~ "server (once a day, the files will"
-#~ " not be downloaded if they have "
-#~ "not changed since the last download)."
+#~ "Regularly, the WAPT server downloads :file:`wsuscn2.cab` file from "
+#~ "Microsoft's server (once a day, the files will not be downloaded if they "
+#~ "have not changed since the last download)."
 #~ msgstr ""
-#~ "Régulièrement, le serveur WAPT télécharge "
-#~ "le fichier :file:`wsuscn2.cab` du serveur "
-#~ "Microsoft (une fois par jour, les "
-#~ "fichiers ne seront pas téléchargés s'ils"
-#~ " n'ont pas changé depuis le dernier"
-#~ " téléchargement)."
-
-#~ msgid "Add a waptwua section ``[waptwua]``"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Defined if the scan should be done"
-#~ " using wsuscn2.cab files or Online "
-#~ "with the Microsoft servers."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Allow direct download of updates from"
-#~ " Microsoft servers if the WAPT server"
-#~ " is not available."
-#~ msgstr ""
-
-#~ msgid "Set if missing update is authorized or not by default."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Set the Windows Update scan recurrence"
-#~ " (Will not do anything if wsus "
-#~ "rule or wsuscn2.cab file have not "
-#~ "changed) (ex: 2h)"
-#~ msgstr ""
-
-#~ msgid "Set a deferred installation time since online publication    (ex: 7d)"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The *WAPT Windows Update Agent* tab "
-#~ "in the console WAPT comes with two"
-#~ " sub-menus to manage WAPTWUA"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "when this type of package is "
-#~ "installed on a machine, it indicates "
-#~ "to the WAPTWUA agent the authorized "
-#~ "or forbidden KB's (Knowledge Base "
-#~ "articles);"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "when a cab is neither mentioned in"
-#~ " authorized nor mentioned prohibited, WAPT"
-#~ " agents will then take the value "
-#~ "of ``default_allow`` in :file:`wapt-get.ini`;"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "If the WAPTWUA agent configuration is"
-#~ " set to ``default_allow = True``, "
-#~ "then it will be necessary to "
-#~ "specify the forbidden cab;"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "If the WAPTWUA agent configuration is"
-#~ " set to ``default_allow = False``, "
-#~ "then it will be necessary to "
-#~ "specify the authorized cab;"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "To test updates on a small set "
-#~ "of computers, you can set WAPTWUA "
-#~ "default value to ``default_allow = "
-#~ "False``;"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "You can test updates for a small"
-#~ " set of hosts and if everything "
-#~ "is good, release them for the "
-#~ "entire base of computers;"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "In the right pane grid, if the "
-#~ ":guilabel:`Downloaded on` column is empty, "
-#~ "it means that the update was not"
-#~ " downloaded by WAPT server and is "
-#~ "not present on the server (This "
-#~ "update is not missing on any "
-#~ "host)."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "To cleanup your :file:`WAPTWUA` folder, "
-#~ "you can remove unnecessary Windows "
-#~ "updates. WAPT server will only re-"
-#~ "download"
-#~ msgstr ""
-
-#~ msgid "missing updates if hosts equipped with WAPT requests them."
-#~ msgstr ""
-
+#~ "Régulièrement, le serveur WAPT télécharge le fichier :file:`wsuscn2.cab` du "
+#~ "serveur Microsoft (une fois par jour, les fichiers ne seront pas "
+#~ "téléchargés s'ils n'ont pas changé depuis le dernier téléchargement)."

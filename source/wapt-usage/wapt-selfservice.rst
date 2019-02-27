@@ -18,7 +18,7 @@ Using WAPT SelfService
 
 .. hint::
 
-  Feature only available with WAPT Enterprise
+  Feature only available with WAPT **Enterprise**.
 
 Presentation
 ------------
