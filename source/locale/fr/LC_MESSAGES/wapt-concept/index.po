@@ -441,7 +441,7 @@ msgid ""
 "When this package is installed on the host, the next :command:`update` will scan "
 "for official Windows updates applicable to the host based on this filtering."
 msgstr ""
-"Lorsque ce paquet est installé sur l'hôte, le prochain :command:`update' "
+"Lorsque ce paquet est installé sur l'hôte, le prochain :command:`update` "
 "recherchera les mises à jour officielles de Windows applicables à l'hôte en "
 "fonction de ce filtrage."
 
@@ -1300,7 +1300,7 @@ msgid ""
 "term:`SetupHelpers`."
 msgstr ""
 "Les actions les plus fréquemment employées avec WAPT ont été simplifiées dans "
-"des fonctions appelées **:term:`SetupHelpers`**."
+"des fonctions appelées :term:`SetupHelpers`."
 
 #: ../../source/wapt-concept/index.rst:669
 msgid ""

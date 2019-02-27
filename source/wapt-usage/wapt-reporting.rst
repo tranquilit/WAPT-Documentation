@@ -76,7 +76,7 @@ To edit / modify / save your reports:
  * the queries are saved in the PostgreSQL WAPT database;
 
  * the shortcut :kbd:`CTRL+space` allows you to build your queries
-  more effectively;
+   more effectively;
 
 Query examples
 
@@ -116,7 +116,6 @@ To solve this problem, we propose to standardize the name of the software with W
 
 .. figure:: wapt_console-report-normalize.png
   :align: center
-
   :alt: Normalizing the name of software
 
   Normalizing the name of software

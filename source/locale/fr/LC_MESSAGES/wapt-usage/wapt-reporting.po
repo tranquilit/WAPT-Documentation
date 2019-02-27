@@ -7,193 +7,337 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-27 10:29+0100\n"
+"POT-Creation-Date: 2019-02-27 15:40+0100\n"
 "PO-Revision-Date: 2019-02-27 15:10+0100\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
-"Language-Team: Tranquil IT <contact@tranquil.it>\n"
 "Language: en\n"
-"X-Generator: Poedit 1.8.8\n"
-"X-Poedit-SourceCharset: UTF-8\n"
+"Language-Team: Tranquil IT <contact@tranquil.it>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: ../../source/wapt-usage/wapt-reporting.rst:8
-msgid "Using the WAPT console"
-msgstr ""
-
-#: ../../source/wapt-usage/wapt-reporting.rst:8
-msgid "WAPT, console, documentation"
-msgstr ""
-
 #: ../../source/wapt-usage/wapt-reporting.rst:17
-msgid "Using Reporting"
+msgid "Using the reporting functions in WAPT"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-reporting.rst:8
+msgid "WAPT, console, reporting, SQL, query, PostgreSQL, documentation"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-reporting.rst:14
+msgid "Enterprise"
 msgstr ""
 
 #: ../../source/wapt-usage/wapt-reporting.rst:21
 msgid "Feature only available with WAPT Enterprise"
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-reporting.rst:25
-msgid "Principle"
+#: ../../source/wapt-usage/wapt-reporting.rst:24
+msgid "Working principle"
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-reporting.rst:27
-msgid "WAPT Enterprise proposes reporting possibilities."
+#: ../../source/wapt-usage/wapt-reporting.rst:26
+msgid "WAPT **Enterprise** offers advanced reporting capabilities."
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-reporting.rst:29
-msgid "Indeed, who better than you know what you want in your report."
+#: ../../source/wapt-usage/wapt-reporting.rst:28
+msgid "Indeed, who better than you to know what you want in your report."
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-reporting.rst:31
+#: ../../source/wapt-usage/wapt-reporting.rst:30
 msgid ""
-"With WAPT we offer to write your own SQL query to display the result in the "
-"wapt console."
+"With WAPT we offer to write your own SQL queries to display the result in"
+" the wapt console."
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-reporting.rst:35
-msgid "Query Designer"
+#: ../../source/wapt-usage/wapt-reporting.rst:34
+msgid "WAPT query Designer"
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-reporting.rst:37
+#: ../../source/wapt-usage/wapt-reporting.rst:36
 msgid ""
-"The query designer offers you the ability to write down your own queries on "
-"WAPT database."
+"The query designer offers you the ability to edit your own queries on the"
+" WAPT PostgreSQL database."
 msgstr ""
 
 #: ../../source/wapt-usage/wapt-reporting.rst:39
 msgid ""
-"To create a new query, click the :guilabel:`Reporting` tab, click :guilabel:"
-"`Design Mode` and :guilabel:`New query`"
+"To create a new report, click on :menuselection:`Reporting --> Design "
+"Mode --> New query`."
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-reporting.rst:47
-msgid "To rename a request, use the F2 key"
-msgstr ""
-
-#: ../../source/wapt-usage/wapt-reporting.rst:48
-msgid "In the top banner, you can write your SQL query."
+#: ../../source/wapt-usage/wapt-reporting.rst:46
+msgid "Designing a query in WAPT reporting"
 msgstr ""
 
 #: ../../source/wapt-usage/wapt-reporting.rst:50
-msgid "To edit/modify/save your queries :"
+msgid "to rename a query, press the :kbd:`F2` key;"
 msgstr ""
 
 #: ../../source/wapt-usage/wapt-reporting.rst:52
-msgid ""
-"The :guilabel:`Reload queries` button is used to reload requests saved on the "
-"server. (For example, if a colleague has just saved a query.)"
-msgstr ""
-
-#: ../../source/wapt-usage/wapt-reporting.rst:53
-msgid "The :guilabel:`New query` button adds a new empty query to the list"
+msgid "in the top banner, you can write your SQL query;"
 msgstr ""
 
 #: ../../source/wapt-usage/wapt-reporting.rst:54
-msgid ""
-"Using :guilabel:`Delete query` button will delete the selected query from the "
-"WAPT server."
-msgstr ""
-
-#: ../../source/wapt-usage/wapt-reporting.rst:55
-msgid ""
-"You can export the result of your requests to Excel with the :guilabel:`Export "
-"to Excel` button"
+msgid "To edit / modify / save your reports:"
 msgstr ""
 
 #: ../../source/wapt-usage/wapt-reporting.rst:56
 msgid ""
-"When you have finished writing your query, click on :guilabel:`Save queries`."
+"the :guilabel:`Reload queries` button is used to reload queries saved on "
+"the server, for example, if a colleague has just edited a new query;"
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-reporting.rst:57
+#: ../../source/wapt-usage/wapt-reporting.rst:59
+msgid "the :guilabel:`New query` button will add a new blank query to the list;"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-reporting.rst:61
 msgid ""
-"The :guilabel:`Duplicate` button allows you to copy an existing query to avoid "
-"writing a request from scratch."
+"the :guilabel:`Delete query` button will delete the selected query from "
+"the WAPT server;"
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-reporting.rst:58
-msgid "You can test your requests with the :guilabel:`Execute` button"
+#: ../../source/wapt-usage/wapt-reporting.rst:64
+msgid ""
+"the :guilabel:`Export to Excel` button will export the result of your "
+"query to a spreadsheet;"
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-reporting.rst:62
-msgid "The queries are saved in the PostgreSQL WAPT database."
+#: ../../source/wapt-usage/wapt-reporting.rst:67
+msgid ""
+"the :guilabel:`Save queries` button will save your query to the WAPT "
+"server;"
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-reporting.rst:63
-msgid "The shortcut CTRL+space offers you some choices directly."
+#: ../../source/wapt-usage/wapt-reporting.rst:69
+msgid ""
+"the :guilabel:`Duplicate` button will duplicate an existing query to "
+"avoid writing a request from scratch;"
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-reporting.rst:66
+#: ../../source/wapt-usage/wapt-reporting.rst:72
+msgid "the :guilabel:`Execute` button executes the selected query;"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-reporting.rst:76
+msgid "the queries are saved in the PostgreSQL WAPT database;"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-reporting.rst:78
+msgid ""
+"the shortcut :kbd:`CTRL+space` allows you to build your queries more "
+"effectively;"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-reporting.rst:81
 msgid "Query examples"
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-reporting.rst:68
+#: ../../source/wapt-usage/wapt-reporting.rst:85
 msgid "Computers list:"
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-reporting.rst:74
+#: ../../source/wapt-usage/wapt-reporting.rst:91
 msgid "Computers MAC addresses and IP:"
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-reporting.rst:83
+#: ../../source/wapt-usage/wapt-reporting.rst:101
 msgid "Windows versions:"
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-reporting.rst:94
-msgid "Normalize the name of the software"
+#: ../../source/wapt-usage/wapt-reporting.rst:113
+#: ../../source/wapt-usage/wapt-reporting.rst:121
+msgid "Normalizing the name of software"
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-reporting.rst:96
+#: ../../source/wapt-usage/wapt-reporting.rst:115
 msgid ""
-"One of the main problem with software research is that a software may have "
-"several different names and different uninstall keys depending on the version."
+"To solve this problem, we propose to standardize the name of the software"
+" with WAPT."
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-reporting.rst:98
+#: ../../source/wapt-usage/wapt-reporting.rst:123
+msgid "click :guilabel:`Normalize Software Names` in the :guilabel:`Tools` menu;"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-reporting.rst:125
 msgid ""
-"To solve this problem, we propose to standardize the name of the software with "
-"WAPT."
+"select the software to standardize, for example, all different version of"
+" Adobe Flash Player;"
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-reporting.rst:104
-msgid "Click :guilabel:`Normalize Software Names` in the :guilabel:`Tools` menu."
-msgstr ""
-
-#: ../../source/wapt-usage/wapt-reporting.rst:105
+#: ../../source/wapt-usage/wapt-reporting.rst:128
 msgid ""
-"Select the software to standardize. (for example, all different version of "
-"Adobe Flash Player)"
-msgstr ""
-
-#: ../../source/wapt-usage/wapt-reporting.rst:106
-msgid ""
-"On the column :guilabel:`normalized`, press :guilabel:`F2` to assign a "
+"on the column :guilabel:`normalized`, press :kbd:`F2` to assign a "
 "standardized name to the selected software. Then press Enter"
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-reporting.rst:110
+#: ../../source/wapt-usage/wapt-reporting.rst:133
 msgid ""
-"To select several programs, select them with the shift-flech key combination"
+"to select several programs, select them with the :kbd:`shift-up/down` key"
+" combination;"
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-reporting.rst:111
+#: ../../source/wapt-usage/wapt-reporting.rst:136
 msgid ""
-"You can also indicate a software like \"windows update\" or \"banned"
-"\" (\"Press spacebar\" in the corresponding column)"
+"you can also indicate a software like *windows update* or *banned* (Press"
+" :kbd:`spacebar` in the corresponding column);"
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-reporting.rst:113
-msgid "Press on :guilabel:`Import` to load the changes from the server"
+#: ../../source/wapt-usage/wapt-reporting.rst:139
+msgid "press on :guilabel:`Import` to load the changes from the server;"
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-reporting.rst:114
-msgid "Press on :guilabel:`Write` to save the changes"
+#: ../../source/wapt-usage/wapt-reporting.rst:141
+msgid "press on :guilabel:`Write` to save your changes;"
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-reporting.rst:116
-msgid "You can now search on this standardized name."
+#: ../../source/wapt-usage/wapt-reporting.rst:143
+msgid "You can now run your queries on this standardized name."
 msgstr ""
+
+#~ msgid "Using the WAPT console"
+#~ msgstr ""
+
+#~ msgid "WAPT, console, documentation"
+#~ msgstr ""
+
+#~ msgid "Using Reporting"
+#~ msgstr ""
+
+#~ msgid "Principle"
+#~ msgstr ""
+
+#~ msgid "WAPT Enterprise proposes reporting possibilities."
+#~ msgstr ""
+
+#~ msgid "Indeed, who better than you know what you want in your report."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "With WAPT we offer to write your"
+#~ " own SQL query to display the "
+#~ "result in the wapt console."
+#~ msgstr ""
+
+#~ msgid "Query Designer"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The query designer offers you the "
+#~ "ability to write down your own "
+#~ "queries on WAPT database."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To create a new query, click the"
+#~ " :guilabel:`Reporting` tab, click "
+#~ ":guilabel:`Design Mode` and :guilabel:`New "
+#~ "query`"
+#~ msgstr ""
+
+#~ msgid "To rename a request, use the F2 key"
+#~ msgstr ""
+
+#~ msgid "In the top banner, you can write your SQL query."
+#~ msgstr ""
+
+#~ msgid "To edit/modify/save your queries :"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The :guilabel:`Reload queries` button is "
+#~ "used to reload requests saved on "
+#~ "the server. (For example, if a "
+#~ "colleague has just saved a query.)"
+#~ msgstr ""
+
+#~ msgid "The :guilabel:`New query` button adds a new empty query to the list"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Using :guilabel:`Delete query` button will "
+#~ "delete the selected query from the "
+#~ "WAPT server."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can export the result of your"
+#~ " requests to Excel with the "
+#~ ":guilabel:`Export to Excel` button"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When you have finished writing your "
+#~ "query, click on :guilabel:`Save queries`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The :guilabel:`Duplicate` button allows you"
+#~ " to copy an existing query to "
+#~ "avoid writing a request from scratch."
+#~ msgstr ""
+
+#~ msgid "You can test your requests with the :guilabel:`Execute` button"
+#~ msgstr ""
+
+#~ msgid "The queries are saved in the PostgreSQL WAPT database."
+#~ msgstr ""
+
+#~ msgid "The shortcut CTRL+space offers you some choices directly."
+#~ msgstr ""
+
+#~ msgid "Normalize the name of the software"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "One of the main problem with "
+#~ "software research is that a software "
+#~ "may have several different names and "
+#~ "different uninstall keys depending on "
+#~ "the version."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click :guilabel:`Normalize Software Names` in"
+#~ " the :guilabel:`Tools` menu."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Select the software to standardize. (for"
+#~ " example, all different version of "
+#~ "Adobe Flash Player)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "On the column :guilabel:`normalized`, press"
+#~ " :guilabel:`F2` to assign a standardized"
+#~ " name to the selected software. Then"
+#~ " press Enter"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To select several programs, select them"
+#~ " with the shift-flech key combination"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can also indicate a software "
+#~ "like \"windows update\" or \"banned\" "
+#~ "(\"Press spacebar\" in the corresponding "
+#~ "column)"
+#~ msgstr ""
+
+#~ msgid "Press on :guilabel:`Import` to load the changes from the server"
+#~ msgstr ""
+
+#~ msgid "Press on :guilabel:`Write` to save the changes"
+#~ msgstr ""
+
+#~ msgid "You can now search on this standardized name."
+#~ msgstr ""
+

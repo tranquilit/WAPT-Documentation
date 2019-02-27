@@ -289,7 +289,7 @@ By default, WAPT gents will see packages flagged as *PROD*
 and packages with an empty maturity.
 
 For a computer to see packages with different maturity levels, you will have
-to configure the *maturities* atrtibute in :ref:`wapt-get-ini`
+to configure the *maturities* atrtibute in :file:`wapt-get-ini`
 
 locale
 """"""
