@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: WAPT 1.7\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-27 10:29+0100\n"
-"PO-Revision-Date: 2019-02-27 15:11+0100\n"
+"PO-Revision-Date: 2019-02-27 15:27+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -34,32 +34,38 @@ msgstr ""
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:17
 msgid "Using WAPT Windows Update Agent (WAPTWUA)"
-msgstr ""
+msgstr "Utiliser l'agent de mise à jour Windows (WAPTWUA)"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:21
 msgid "Feature only available with WAPT Enterprise"
-msgstr ""
+msgstr "Fonctionnalité uniquement disponible avec WAPT **Enterprise**"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:25
 msgid ""
 "Since version 1.7, WAPT is able to manage Windows Updates on your endpoints."
 msgstr ""
+"Depuis la version 1.7, WAPT est capable de gérer les mises à jour Windows sur "
+"vos terminaux."
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:27
 msgid ""
 "The internals of WAPTWUA is based on the :abbr:`WUA (Windows Update Agent)` "
 "API."
 msgstr ""
+"Le fonctionnement interne de WAPTWUA est basé sur l'API :abbr:`WUA (Windows "
+"Update Agent)`."
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:28
 msgid ""
 "For more information: https://docs.microsoft.com/en-us/windows/desktop/wua_sdk/"
 "using-the-windows-update-agent-api"
 msgstr ""
+"Pour plus d\\'informations : https://docs.microsoft.com/en-us/windows/desktop/"
+"wua_sdk/using-the-windows-update-agent-api"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:32
 msgid "Working principle"
-msgstr ""
+msgstr "Principe de fonctionnement"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:34
 msgid ""
@@ -67,10 +73,13 @@ msgid ""
 "server (once a day, the files will not be downloaded if they have not changed "
 "since the last download)."
 msgstr ""
+"Régulièrement, le serveur WAPT télécharge le fichier :file:`wsuscn2.cab` du "
+"serveur Microsoft (une fois par jour, les fichiers ne seront pas téléchargés "
+"s'ils n'ont pas changé depuis le dernier téléchargement)."
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:42
 msgid "WAPT Windows Update flow process"
-msgstr ""
+msgstr "Processus de mise à jour de Windows WAPT"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:44
 msgid ""
@@ -78,6 +87,9 @@ msgid ""
 "nearest repository and then passed on to the standard *Windows Update Agent* "
 "Windows utility to crunch for updates."
 msgstr ""
+"Le fichier :file:`wsuscn2.cab` est ensuite téléchargé par l'agent WAPT à "
+"partir de son dépôt le plus proche et ensuite transmis à l'utilitaire standard "
+"*Windows Update Agent* Windows qui traitera l\\'arbre des mises à jour."
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:48
 msgid ""
@@ -85,6 +97,9 @@ msgid ""
 "`wsuscn2.cab` file. The list of needed updates as determined by WUA is then "
 "sent from the host to the WAPT server."
 msgstr ""
+"Régulièrement, la machine analysera les mises à jour disponibles en utilisant "
+"le fichier :file:`wsuscn2.cab`. La liste des mises à jour nécessaires "
+"déterminée par l\\'agent WUA est ensuite envoyée par l'hôte au serveur WAPT."
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:52
 msgid ""
@@ -92,50 +107,62 @@ msgid ""
 "the WAPT server, the server will download the needed update from Microsoft's "
 "servers."
 msgstr ""
+"Si une mise à jour est en attente sur la machine et si cette mise à jour n'est "
+"pas présente sur le serveur WAPT, le serveur téléchargera la mise à jour "
+"nécessaire depuis les serveurs Microsoft."
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:58
 msgid ""
 "This mode of operation allows to download only the necessary updates on the "
 "computers that need them, thus saving bandwidth, download time and disk space."
 msgstr ""
+"Ce mode de fonctionnement permet de ne télécharger que les mises à jour "
+"nécessaires sur les ordinateurs qui en ont besoin, économisant ainsi de la "
+"bande passante, du temps de téléchargement et de l\\'espace disque."
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:62
 msgid "Downloaded updates are stored:"
-msgstr ""
+msgstr "Les mises à jour téléchargées sont stockées :"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:64
 msgid "on Linux servers in :file:`/var/www/waptwua`;"
-msgstr ""
+msgstr "sur des serveurs Linux dans :file:`/var/www/waptwua` ;"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:65
 msgid ""
 "on Windows servers in :file:`C:\\\\wapt\\\\waptserver\\\\repository\\"
 "\\waptwua`;"
 msgstr ""
+"sur des machines Windows dans :file:`C:\\\\wapt\\\\waptserver\\\\repository\\"
+"\\waptwua` ;"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:67
 msgid ""
 "The WAPT Windows Update Agent repository download URL is based on the "
 "``repo_url`` parameter in :file:`wapt-get.ini`:"
 msgstr ""
+"L'URL de téléchargement des mise à jour Windows depuis le dépôt WAPT est basée "
+"sur le paramètre ``repo_url`` du fichier :file:`wapt-get.ini` :"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:70
 msgid ""
 "in case of repository replication, it is fully operational with WAPT Windows "
 "Update to reduce bandwidth use;"
 msgstr ""
+"la réplication des WAPT Windows Update fonctionne pour réduire l\\'usage de la "
+"bande passante ;"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:73
 msgid "do not forget to synchronize the :file:`waptwua` folder;"
-msgstr ""
+msgstr "n\\'oubliez pas de synchroniser le dossier :file:`waptwua' ;"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:76
 msgid "Configuring WAPTWUA on the WAPT agent"
-msgstr ""
+msgstr "Configurer WAPTWUA sur l'agent WAPT"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:78
 msgid "*WAPTWUA* is configured in :file:`wapt-get.ini`."
-msgstr ""
+msgstr "*WAPTWUA* est configuré dans :file:`wapt-get.ini'."
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:80
 msgid "Add a waptwua section ``[waptwua]``"
@@ -143,41 +170,41 @@ msgstr ""
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:82
 msgid "You then have several options:"
-msgstr ""
+msgstr "Vous avez alors plusieurs options :"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:87
 msgid "Options"
-msgstr ""
+msgstr "Options"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:87
 msgid "Default Value"
-msgstr ""
+msgstr "Valeur par défaut"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:87
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:89
 msgid "``enabled``"
-msgstr ""
+msgstr "``enabled``"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:89
 #: ../../source/wapt-usage/wapt-windows-update.rst:91
 #: ../../source/wapt-usage/wapt-windows-update.rst:92
 msgid "False"
-msgstr ""
+msgstr "False"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:89
 msgid "Enable or disable WAPTWUA on this machine."
-msgstr ""
+msgstr "Activez ou désactivez WAPTWUA sur cette machine."
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:90
 msgid "``offline``"
-msgstr ""
+msgstr "``offline``"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:90
 msgid "True"
-msgstr ""
+msgstr "True"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:90
 msgid ""
@@ -187,7 +214,7 @@ msgstr ""
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:91
 msgid "``allow_direct_download``"
-msgstr ""
+msgstr "``allow_direct_download``"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:91
 msgid ""
@@ -197,7 +224,7 @@ msgstr ""
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:92
 msgid "``default_allow``"
-msgstr ""
+msgstr "``default_allow``"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:92
 msgid "Set if missing update is authorized or not by default."
@@ -205,11 +232,11 @@ msgstr ""
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:93
 msgid "``filter``"
-msgstr ""
+msgstr "``filter``"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:93
 msgid "Type='Software' or Type='Driver'"
-msgstr ""
+msgstr "Type='Software' ou Type='Driver'"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:93
 msgid "Define the filter to apply for the Windows update scan"
@@ -217,13 +244,13 @@ msgstr ""
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:94
 msgid "``download_scheduling``"
-msgstr ""
+msgstr "``download_scheduling``"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:94
 #: ../../source/wapt-usage/wapt-windows-update.rst:95
 #: ../../source/wapt-usage/wapt-windows-update.rst:96
 msgid "None"
-msgstr ""
+msgstr "None"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:94
 msgid ""
@@ -233,7 +260,7 @@ msgstr ""
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:95
 msgid "``install_scheduling``"
-msgstr ""
+msgstr "``install_scheduling``"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:95
 msgid ""
@@ -243,7 +270,7 @@ msgstr ""
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:96
 msgid "``install_delay``"
-msgstr ""
+msgstr "``install_delay``"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:96
 msgid "Set a deferred installation time since online publication    (ex: 7d)"
