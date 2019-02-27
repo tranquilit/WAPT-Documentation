@@ -73,12 +73,13 @@ To edit / modify / save your reports:
 
 .. note::
 
-  * the queries are saved in the PostgreSQL WAPT database;
+ * the queries are saved in the PostgreSQL WAPT database;
 
-  * the shortcut :kbd:`CTRL+space` allows you to build your queries
-    more effectively;
+ * the shortcut :kbd:`CTRL+space` allows you to build your queries
+  more effectively;
 
 Query examples
+
 ++++++++++++++
 
 * Computers list:
@@ -92,8 +93,7 @@ Query examples
 .. code-block:: sql
 
   select distinct unnest(mac_addresses) as mac,
-  unnest(h.connected_ips) as ipaddress,
-  computer_fqdn,h.description,h.manufacturer||' '||h.productname as model,
+  unnest(h.connected_ips) as ipaddress,  computer_fqdn,h.description,h.manufacturer||' '||h.productname as model,
   h.serialnr,h.computer_type
   from hosts h
   order by 1,2,3
@@ -103,6 +103,7 @@ Query examples
 .. code-block:: sql
 
   select host_info->'windows_version' as windows_version,
+
   os_name as operating_system,
   count(os_name) as nb_hosts
   from hosts
@@ -111,14 +112,11 @@ Query examples
 Normalizing the name of software
 --------------------------------
 
-One of the main problem with reporting on software is that the same software
-may be labeled under several names and have different uninstall keys
-depending on the version of the software.
-
 To solve this problem, we propose to standardize the name of the software with WAPT.
 
 .. figure:: wapt_console-report-normalize.png
   :align: center
+
   :alt: Normalizing the name of software
 
   Normalizing the name of software
