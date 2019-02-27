@@ -3,284 +3,273 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-08 10:40+0100\n"
-"PO-Revision-Date: 2018-11-08 10:25+0100\n"
+"POT-Creation-Date: 2019-02-27 10:29+0100\n"
+"PO-Revision-Date: 2019-02-27 12:01+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.5.3\n"
+"X-Generator: Poedit 1.8.8\n"
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:8
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:8
 msgid "Upgrading the WAPT Server on Windows"
 msgstr "Migrer à WAPT 1.6 pour Windows"
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:8
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:8
 msgid "upgrading, upgrade, WAPT, 1.3, 1.6, Windows, documentation"
 msgstr "migration, WAPT, 1.3, 1.6, Windows, documentation"
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:15
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:15
 msgid "Upgrading WAPT from 1.3 to 1.6 on Windows"
 msgstr "Mettre à jour WAPT de 1.3 à 1.6 pour Windows"
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:19
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:19
 msgid "WAPT Server no longer installs on a x86 version of Windows"
 msgstr "WAPT Serveur n'est plus installable sur une version x86 de Windows"
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:21
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:21
 msgid ""
-"download the latest version of :program:`waptserversetup` 1.6 from "
-"https://wapt.tranquil.it/wapt/latest/;"
+"download the latest version of :program:`waptserversetup` 1.6 from https://wapt."
+"tranquil.it/wapt/latest/;"
 msgstr ""
-"télécharger la dernière version de :program:`waptserversetup` 1.6 depuis "
-"https://wapt.tranquil.it/wapt/releases/latest/ ;"
+"télécharger la dernière version de :program:`waptserversetup` 1.6 depuis https://"
+"wapt.tranquil.it/wapt/releases/latest/ ;"
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:24
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:24
 msgid ""
-"launch the installation on top of the existing 1.3 version by following "
-":ref:`this documentation <wapt-server_win_install>` ;"
+"launch the installation on top of the existing 1.3 version by following :ref:"
+"`this documentation <wapt-server_win_install>` ;"
 msgstr ""
-"lancer l'installation par dessus l'installation 1.3 déjà existante en "
-"suivant :ref:`cette documentation <wapt-server_win_install>` ;"
+"lancer l'installation par dessus l'installation 1.3 déjà existante en suivant :"
+"ref:`cette documentation <wapt-server_win_install>` ;"
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:27
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:27
 msgid ""
-"At the end of the post-configuration step, :program:`waptserver` will "
-"detect that you are upgrading from WAPT 1.3.13 and will ask you to launch"
-" the migration of the database from MongoDB to PostgreSQL."
+"At the end of the post-configuration step, :program:`waptserver` will detect "
+"that you are upgrading from WAPT 1.3.13 and will ask you to launch the migration "
+"of the database from MongoDB to PostgreSQL."
 msgstr ""
-"A la fin de la post configuration de waptserver la configuration va "
-"détécter que vous venez d'un version 1.3 de WAPT et va vous proposer de "
-"lancer la migration de MongoDB à PostgreSQL."
+"A la fin de la post configuration de waptserver la configuration va détécter que "
+"vous venez d'un version 1.3 de WAPT et va vous proposer de lancer la migration "
+"de MongoDB à PostgreSQL."
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:31
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:31
 msgid "click on :guilabel:`Yes`;"
 msgstr "cliquer sur :guilabel:`Oui` ;"
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:33
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:33
 msgid "launch the WAPT console"
 msgstr "lancer la console :"
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:37
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:37
 msgid ""
-"If you come from a WAPT 1.3.13 version running with IIS, the WAPT "
-"listening ports must be changed. In that case, follow the documentation "
-"for :ref:`changing the listening port <windows_changing_port_80_443>`."
+"If you come from a WAPT 1.3.13 version running with IIS, the WAPT listening "
+"ports must be changed. In that case, follow the documentation for :ref:`changing "
+"the listening port <windows_changing_port_80_443>`."
 msgstr ""
-"Si vous venez d'une version WAPT 1.3.13 installée avec IIS, le port "
-"d'écoute de WAPT doit être changé. Vous devez dans ce cas suivre la "
-"documentation :ref:`pour changer le port d'écoute "
-"<windows_changing_port_80_443>`."
+"Si vous venez d'une version WAPT 1.3.13 installée avec IIS, le port d'écoute de "
+"WAPT doit être changé. Vous devez dans ce cas suivre la documentation :ref:`pour "
+"changer le port d'écoute <windows_changing_port_80_443>`."
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:41
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:41
 msgid ""
-"You may now go to the next step to :ref:`generate the necessary keys "
-"<key-regenerate>`!!"
+"You may now go to the next step to :ref:`generate the necessary keys <key-"
+"regenerate>`!!"
 msgstr ""
-"Vous pouvez maintenant passer à l'étape suivante pour :ref:`générer les "
-"clés de signature <key-regenerate>` !!"
+"Vous pouvez maintenant passer à l'étape suivante pour :ref:`générer les clés de "
+"signature <key-regenerate>` !!"
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:45
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:45
 msgid "Migrating WAPT 1.3 from a Windows OS to a Linux OS"
 msgstr "Passer WAPT 1.3 de Windows à Linux"
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:47
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:47
 msgid ""
-"The simplest method is to move over to a Linux based version of "
-":program:`waptserver`."
+"The simplest method is to move over to a Linux based version of :program:"
+"`waptserver`."
 msgstr ""
-"Nous pouvons sinon vous proposer de passer à la version linux de "
-":program:`waptserver`."
+"Nous pouvons sinon vous proposer de passer à la version linux de :program:"
+"`waptserver`."
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:50
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:50
 msgid ""
-"http://downloads.mongodb.org/win32/mongodb-"
-"win32-i386-2.6.3.zip?_ga=2.75822417.551196271.1515087017-697019975.1515087017"
+"http://downloads.mongodb.org/win32/mongodb-win32-i386-2.6.3.zip?"
+"_ga=2.75822417.551196271.1515087017-697019975.1515087017"
 msgstr ""
-"télécharger MongoDB pour récupérer l'exe :program:`mongodump` : "
-"`Télécharger MongoDB pour Windows <https://downloads.mongodb.org/win32"
-"/mongodb-"
-"win32-i386-2.6.3.zip?_ga=2.75822417.551196271.1515087017-697019975.1515087017>`_ ;"
+"télécharger MongoDB pour récupérer l'exe :program:`mongodump` : `Télécharger "
+"MongoDB pour Windows <https://downloads.mongodb.org/win32/mongodb-win32-"
+"i386-2.6.3.zip?_ga=2.75822417.551196271.1515087017-697019975.1515087017>`_ ;"
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:52
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:52
 msgid "extract :file:`mongodump.exe` from the archive;"
 msgstr "extraire le zip puis exécuter :program:`mongodump` ;"
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:54
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:54
 msgid ""
-"A dump folder should have been created in the same directory as the "
-":file:`mongodump.exe` file."
+"A dump folder should have been created in the same directory as the :file:"
+"`mongodump.exe` file."
 msgstr ""
-"Un dossier :file:`dump` a été créé dans le même repertoire que le fichier"
-" :file:`mongodump.exe`."
+"Un dossier :file:`dump` a été créé dans le même repertoire que le fichier :file:"
+"`mongodump.exe`."
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:57
-msgid "backup the entire directory :file:`C:\\wapt` of the WAPT Server;"
-msgstr "sauvegardez tout le repertoire :file:`C:\\wapt` de votre server WAPT ;"
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:57
+msgid "backup the entire directory :file:`C:\\\\wapt` of the WAPT Server;"
+msgstr "sauvegardez tout le repertoire :file:`C:\\\\wapt` de votre server WAPT ;"
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:59
-msgid "backup the folder :file:`C:\\private`;"
-msgstr "sauvegardez le dossier :file:`C:\\private` ;"
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:59
+msgid "backup the folder :file:`C:\\\\private`;"
+msgstr "sauvegardez le dossier :file:`C:\\\\private` ;"
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:61
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:61
 msgid ""
-"install a fresh version **1.3.13** of WAPT on Linux (debian 8 x64) or "
-"CentOS7/ RedHat7 (x64):"
+"install a fresh version **1.3.13** of WAPT on Linux (debian 8 x64) or CentOS7/ "
+"RedHat7 (x64):"
 msgstr ""
-"installez ensuite une version **1.3.13** de WAPT sous linux (Debian 9 "
-"x64) ;"
+"installez ensuite une version **1.3.13** de WAPT sous linux (Debian 9 x64) ;"
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:64
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:64
 msgid ""
-"To install a new Linux Debian9 (Stretch) on a physical or virtual machine"
-" without a graphical user interface, please visit the official "
-"documentation for `Debian9 "
-"<https://www.debian.org/releases/stretch/amd64/>`_."
+"To install a new Linux Debian9 (Stretch) on a physical or virtual machine "
+"without a graphical user interface, please visit the official documentation for "
+"`Debian9 <https://www.debian.org/releases/stretch/amd64/>`_."
 msgstr ""
-"Pour installer une Debian 9 (Stretch) neuve (machine physique ou "
-"virtuelle) sans interface graphique, référez vous à la documentation "
-"officielle : Debian GNU/Linux Installation Guide pour `Strech "
-"<https://www.debian.org/releases/stretch/amd64/>`_."
+"Pour installer une Debian 9 (Stretch) neuve (machine physique ou virtuelle) sans "
+"interface graphique, référez vous à la documentation officielle : Debian GNU/"
+"Linux Installation Guide pour `Strech <https://www.debian.org/releases/stretch/"
+"amd64/>`_."
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:68
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:68
 msgid ""
-"if the WAPT agents point to an IP address, then the new Debian based WAPT"
-" Server must have the same IP address as the old Windows based WAPT "
-"Server."
+"if the WAPT agents point to an IP address, then the new Debian based WAPT Server "
+"must have the same IP address as the old Windows based WAPT Server."
 msgstr ""
-"si les agents WAPT pointent sur une adresse IP, alors le nouveau serveur "
-"doit avoir la même adresse IP que l'ancien serveur WAPT sous windows ;"
+"si les agents WAPT pointent sur une adresse IP, alors le nouveau serveur doit "
+"avoir la même adresse IP que l'ancien serveur WAPT sous windows ;"
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:71
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:71
 msgid ""
-"if the WAPT agents point to a DNS CNAME, then you may point the "
-":term:`DNS` field *srvwapt* to the IP address of the new Linux server."
+"if the WAPT agents point to a DNS CNAME, then you may point the :term:`DNS` "
+"field *srvwapt* to the IP address of the new Linux server."
 msgstr ""
-"si vos agents WAPT pointent vers un enregistrement :term:`DNS`, alors "
-"vous pouvez modifier le champ dns *srvwapt* en indiquant la nouvelle "
-"adresse IP du serveur WAPT linux ;"
+"si vos agents WAPT pointent vers un enregistrement :term:`DNS`, alors vous "
+"pouvez modifier le champ dns *srvwapt* en indiquant la nouvelle adresse IP du "
+"serveur WAPT linux ;"
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:74
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:74
 msgid "update the download sources;"
 msgstr "mettre à jour les sources de téléchargement ;"
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:80
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:80
 msgid "install the WAPT Server;"
 msgstr "installer le serveur WAPT ;"
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:84
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:84
 msgid ""
-"The utilities :program:`tis-waptserver`, :program:`tis-waptsetup` et "
-":program:`tis-waptrepo` are signed; it is therefore necessary to recover "
-"the GPG key below to avoid warning messages when installing them."
+"The utilities :program:`tis-waptserver`, :program:`tis-waptsetup` et :program:"
+"`tis-waptrepo` are signed; it is therefore necessary to recover the GPG key "
+"below to avoid warning messages when installing them."
 msgstr ""
-"Les paquets :program:`tis-waptserver`, :program:`tis-waptsetup` et "
-":program:`tis-waptrepo` sont signés et il est nécessaire de récupérer la "
-"clef gpg ci-dessous pour éviter les messages de warning lors de "
-"l'installation."
+"Les paquets :program:`tis-waptserver`, :program:`tis-waptsetup` et :program:`tis-"
+"waptrepo` sont signés et il est nécessaire de récupérer la clef gpg ci-dessous "
+"pour éviter les messages de warning lors de l'installation."
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:96
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:96
 msgid "launch the configuration script;"
 msgstr "lancer le script de configuration ;"
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:104
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:104
 msgid "The password requested in step 4 is used to access the WAPT console."
 msgstr ""
-"Le mot de passe demandé en étape #4 est utilisé pour accéder à la console"
-" WAPT."
+"Le mot de passe demandé en étape #4 est utilisé pour accéder à la console WAPT."
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:106
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:106
 msgid "configure the WAPT Server;"
 msgstr "configurer le serveur WAPT ;"
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:108
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:108
 msgid "start the WAPT Server;"
 msgstr "démarrer le serveur WAPT ;"
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:114
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:114
 msgid "restore the WAPT packages on the Linux server;"
 msgstr "restaurer les paquets WAPT de la machine windows sur le serveur Linux :"
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:116
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:116
 msgid ""
-"upload the content of :file:`C:\\wapt\\waptserver\\repository\\wapt` in "
-":file:`/var/www/wapt/`;"
+"upload the content of :file:`C:\\\\wapt\\waptserver\\\\repository\\\\wapt` in :"
+"file:`/var/www/wapt/`;"
 msgstr ""
-"uploader le contenu de :file:`C:\\wapt\\waptserver\\repository\\wapt` "
+"uploader le contenu de :file:`C:\\\\wapt\\\\waptserver\\\repository\\\\wapt` "
 "dans :file:`/var/www/wapt/` ;"
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:119
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:119
 msgid ""
-"upload the content of :file:`C:\\wapt\\waptserver\\repository\\wapt-host`"
-" in :file:`/var/www/wapt-host/`;"
+"upload the content of :file:`C:\\\\wapt\\waptserver\\\\repository\\\\wapt-host` "
+"in :file:`/var/www/wapt-host/`;"
 msgstr ""
-"uploader le contenu de :file:`C:\\wapt\\waptserver\\repository\\wapt-"
+"uploader le contenu de :file:`C:\\\\wapt\\\\waptserver\\\repository\\\\wapt-"
 "host` dans :file:`/var/www/wapt-host/` ;"
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:124
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:124
 msgid ""
-"You may upload the files on the Linux Debian Server using the "
-":program:`WinSCP` utility."
+"You may upload the files on the Linux Debian Server using the :program:`WinSCP` "
+"utility."
 msgstr "Vous pouvez uploder sur le server linux avec le logiciel :program:`winscp`"
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:127
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:127
 msgid "then launch the command:"
 msgstr "exécuter ensuite la commande :"
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:133
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:133
 msgid "restore the MongoDB database on the Linux server:"
 msgstr "restaurer la base de données MongoDB sur le server linux :"
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:135
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:135
 msgid "using :program:`WinSCP`, upload the MongoDB dump folder in :file:`/root/`;"
 msgstr ""
-"uploader maintenant le dossier :file:`dump` dans :file:`/root/` avec "
-"WinSCP ou équivalent ;"
+"uploader maintenant le dossier :file:`dump` dans :file:`/root/` avec WinSCP ou "
+"équivalent ;"
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:137
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:137
 msgid "restore the MongoDB dump on your Linux hosted MongoDB instance:"
 msgstr "restaurer la base MongoDB windows sur la base MongoDB linux :"
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:143
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:143
 msgid "You WAPT Server now works in 1.3.13 on Linux."
 msgstr "Votre serveur WAPT fonctionne à nouveau en version 1.3.13 sous Linux."
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:145
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:145
 msgid ""
-"You may now install your :program:`waptagent` on your "
-":term:`Administrator` management PC and restore the :file:`C:\\private` "
-"folder on your workstation."
+"You may now install your :program:`waptagent` on your :term:`Administrator` "
+"management PC and restore the :file:`C:\\\\private` folder on your workstation."
 msgstr ""
-"Vous pouvez maintenant installer votre :program:`waptagent` sur votre PC "
-"d':term:`Administrateur`, et restaurer le dossier :file:`C:\\private`."
+"Vous pouvez maintenant installer votre :program:`waptagent` sur votre PC d\\':"
+"term:`Administrateur`, et restaurer le dossier :file:`C:\\\\private`."
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:150
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:150
 msgid ""
-"You must not regenerate a private key, you must only point to your "
-"private key in the console. You must also refill the package prefix."
+"You must not regenerate a private key, you must only point to your private key "
+"in the console. You must also refill the package prefix."
 msgstr ""
-"Vous ne devez pas regénérer de clé privée, vous devez redonner le chemin "
-"vers votre clé privée dans les paramètres de la console. Vous devez "
-"également réindiquer le préfix."
+"Vous ne devez pas regénérer de clé privée, vous devez redonner le chemin vers "
+"votre clé privée dans les paramètres de la console. Vous devez également "
+"réindiquer le préfix."
 
-#: ../../source/waptserver_update/migration13-16/migration_16_windows.rst:153
+#: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:153
 msgid "You may now follow the classic procedure to upgrade from 1.3.13 to 1.6 !!"
 msgstr ""
-"Vous pouvez maintenant suivre la procédure classique de mise à jour de "
-"WAPT 1.3.13 vers 1.6 !!"
+"Vous pouvez maintenant suivre la procédure classique de mise à jour de WAPT "
+"1.3.13 vers 1.6 !!"
 
 #~ msgid ""
-#~ "The complete 1.3 to 1.5 migration "
-#~ "for Windows is not yet fully "
-#~ "automated."
+#~ "The complete 1.3 to 1.5 migration for Windows is not yet fully automated."
 #~ msgstr ""
-#~ "La migration complète 1.3 -> 1.5 "
-#~ "pour la plateforme windows n'est "
-#~ "actuellement pas pris en charge par "
-#~ "Tranquil it Systems."
+#~ "La migration complète 1.3 -> 1.5 pour la plateforme windows n'est "
+#~ "actuellement pas pris en charge par Tranquil it Systems."
 
 #~ msgid "Please, review :ref:`upgrade-a-minima`."
 #~ msgstr "Reportez vous a la partie :ref:`upgrade-a-minima`"
@@ -310,20 +299,15 @@ msgstr ""
 #~ msgstr "Migration a la version 1.5 de WAPT"
 
 #~ msgid ""
-#~ "You may now follow the classic "
-#~ "Linux upgrade procedure for :ref:`Debian "
-#~ "<migrate-15-debian>` or for :ref:`CentOS / "
-#~ "RedHat <migrate-15-centos>`."
+#~ "You may now follow the classic Linux upgrade procedure for :ref:`Debian "
+#~ "<migrate-15-debian>` or for :ref:`CentOS / RedHat <migrate-15-centos>`."
 #~ msgstr ""
-#~ "Vous pouvez maintenant suivre la "
-#~ ":ref:`procédure classique de mise à jour"
-#~ " de WAPT 1.3 vers 1.5 pour "
-#~ "Linux <upgrade_1.3_1.5_debian>` ou pour "
-#~ ":ref:`CentOS / RedHat <upgrade_1.3_1.5_centos>`.."
+#~ "Vous pouvez maintenant suivre la :ref:`procédure classique de mise à jour de "
+#~ "WAPT 1.3 vers 1.5 pour Linux <upgrade_1.3_1.5_debian>` ou pour :ref:`CentOS / "
+#~ "RedHat <upgrade_1.3_1.5_centos>`.."
 
 #~ msgid "launch the installation;"
 #~ msgstr "lancer l'installation ;"
 
 #~ msgid "download MongoDB to get the :program:`mondump` utility;"
 #~ msgstr "télécharger MongoDB pour récupérer l'exe :program:`mongodump` ;"
-

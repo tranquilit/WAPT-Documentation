@@ -3,150 +3,159 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-05 15:09+0100\n"
+"POT-Creation-Date: 2019-02-27 10:29+0100\n"
 "PO-Revision-Date: 2018-11-07 10:23+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 1.8.8\n"
+"Generated-By: Babel 2.5.3\n"
 
-#: ../../source/waptserver_update/waptserver_update_debian.rst:8
-#: ../../source/waptserver_update/waptserver_update_debian.rst:15
+#: ../../source/waptserver-update/waptserver-update-debian.rst:8
+#: ../../source/waptserver-update/waptserver-update-debian.rst:15
 msgid "Performing minor updates on a Debian based WAPT Server"
 msgstr "Effectuer des mises à jour mineures sur un serveur WAPT basé sur Debian"
 
-#: ../../source/waptserver_update/waptserver_update_debian.rst:8
+#: ../../source/waptserver-update/waptserver-update-debian.rst:8
 msgid "Debian, WAPT, documentation, examples, update, updating"
 msgstr "debian, WAPT, documentation, exemples, mettre à jour"
 
-#: ../../source/waptserver_update/waptserver_update_debian.rst:19
+#: ../../source/waptserver-update/waptserver-update-debian.rst:19
 msgid "Ports 80 and 443 are used by the WAPT Server and must be available."
 msgstr ""
-"Les ports 80, 443 sont utilisés par le serveur WAPT et doivent être disponibles."
+"Les ports 80, 443 sont utilisés par le serveur WAPT et doivent être "
+"disponibles."
 
-#: ../../source/waptserver_update/waptserver_update_debian.rst:21
+#: ../../source/waptserver-update/waptserver-update-debian.rst:21
 msgid "first of all, update the Debian underlying distribution:"
 msgstr "d'abord mettre à jour le serveur Debian subjacent ;"
 
-#: ../../source/waptserver_update/waptserver_update_debian.rst:27
+#: ../../source/waptserver-update/waptserver-update-debian.rst:27
 msgid ""
-"add the package repository for Debian packages, import the GPG key from the "
-"repository and install the WAPT Server packages:"
+"add the package repository for Debian packages, import the GPG key from "
+"the repository and install the WAPT Server packages:"
 msgstr ""
 "ajouter le dépôt de paquets Debian, importer la clé GPG de ce dépôt et "
 "installer les paquets pour le serveur WAPT :"
 
-#: ../../source/waptserver_update/waptserver_update_debian.rst:38
+#: ../../source/waptserver-update/waptserver-update-debian.rst:32
+msgid ""
+"If you subscribed to **WAPT Enterprise** don't use that repo but the "
+"Enterprise repository provided in your documentation."
+msgstr ""
+
+#: ../../source/waptserver-update/waptserver-update-debian.rst:42
 msgid "launch the post-configuration step"
 msgstr "lancer la post-configuration ;"
 
-#: ../../source/waptserver_update/waptserver_update_debian.rst:42
+#: ../../source/waptserver-update/waptserver-update-debian.rst:46
 msgid ""
 "we advise that you launch the post-configuration steps after each server "
 "upgrade so that the server uses the latest configuration format;"
 msgstr ""
-"il est recommandé de lancer la post-configuration après chaque mise à jour pour "
-"que le serveur utilise le format de configuration le plus sûr ;"
+"il est recommandé de lancer la post-configuration après chaque mise à "
+"jour pour que le serveur utilise le format de configuration le plus sûr ;"
 
-#: ../../source/waptserver_update/waptserver_update_debian.rst:45
+#: ../../source/waptserver-update/waptserver-update-debian.rst:49
 msgid ""
-"it is not required to reset a password for the WAPT console during the post-"
-"configuration step;"
+"it is not required to reset a password for the WAPT console during the "
+"post-configuration step;"
 msgstr ""
-"il n'est pas obligatoire de redéfinir un mot de passe pour la console WAPT lors "
-"de la post-configuration ;"
+"il n'est pas obligatoire de redéfinir un mot de passe pour la console "
+"WAPT lors de la post-configuration ;"
 
-#: ../../source/waptserver_update/waptserver_update_debian.rst:48
+#: ../../source/waptserver-update/waptserver-update-debian.rst:52
 msgid ""
-"if you have personalized the configuration of :program:`Nginx`, do not answer :"
-"guilabel:`Yes` when the post-configuration ask you to configure :program:"
-"`Nginx`;"
+"if you have personalized the configuration of :program:`Nginx`, do not "
+"answer :guilabel:`Yes` when the post-configuration ask you to configure "
+":program:`Nginx`;"
 msgstr ""
 "si vous avez personnalisé la configuration de :program:`Nginx`, ne pas "
-"répondre :guilabel:`Oui` lorsque postconf vous demande de configurer :program:"
-"`Nginx` ;"
+"répondre :guilabel:`Oui` lorsque postconf vous demande de configurer "
+":program:`Nginx` ;"
 
-#: ../../source/waptserver_update/waptserver_update_debian.rst:56
+#: ../../source/waptserver-update/waptserver-update-debian.rst:60
 msgid "The password requested in step 4 is used to access the WAPT console."
 msgstr ""
-"Le mot de passe demandé en étape 4 est utilisé pour accéder à la console WAPT."
+"Le mot de passe demandé en étape 4 est utilisé pour accéder à la console "
+"WAPT."
 
-#: ../../source/waptserver_update/waptserver_update_debian.rst:58
+#: ../../source/waptserver-update/waptserver-update-debian.rst:62
 msgid "start the WAPT Server:"
 msgstr "démarrer le serveur WAPT ;"
 
-#: ../../source/waptserver_update/waptserver_update_debian.rst:64
+#: ../../source/waptserver-update/waptserver-update-debian.rst:68
 msgid ""
-"upgrade the WAPT console by following the same set of steps as :ref:`installing "
-"the WAPT console <installing_the_WAPT_console>`;"
+"upgrade the WAPT console by following the same set of steps as "
+":ref:`installing the WAPT console <installing_the_WAPT_console>`;"
 msgstr ""
-"mettre à jour la console WAPT en suivant la même procédure que celle pour :ref:"
-"`installer la console WAPT <installing_the_WAPT_console>` ;"
+"mettre à jour la console WAPT en suivant la même procédure que celle pour"
+" :ref:`installer la console WAPT <installing_the_WAPT_console>` ;"
 
-#: ../../source/waptserver_update/waptserver_update_debian.rst:67
+#: ../../source/waptserver-update/waptserver-update-debian.rst:71
 msgid "then :ref:`create the WAPT agent <create_WAPT_agent>`:"
 msgstr "puis :ref:`créer l'agent WAPT <create_WAPT_agent>` ;"
 
-#: ../../source/waptserver_update/waptserver_update_debian.rst:69
+#: ../../source/waptserver-update/waptserver-update-debian.rst:73
 msgid ""
-"You will have to keep the same prefix for your packages and change nothing in "
-"relation to the private key/ public certificate pair!"
+"You will have to keep the same prefix for your packages and change "
+"nothing in relation to the private key/ public certificate pair!"
 msgstr ""
 "Cependant, il faudra conserver le même préfix et surtout ne rien changer "
 "concernant le couple clé privée / clé publique !"
 
-#: ../../source/waptserver_update/waptserver_update_debian.rst:72
+#: ../../source/waptserver-update/waptserver-update-debian.rst:76
 msgid "This will generate a **waptupgrade** package in the private repository."
 msgstr "Cela va générer un paquet **waptupgrade** dans le dépôt privé."
 
-#: ../../source/waptserver_update/waptserver_update_debian.rst:76
+#: ../../source/waptserver-update/waptserver-update-debian.rst:80
 msgid "There are two methods for deploying the updates:"
 msgstr "Il y a deux manières de déployer la mise à jour :"
 
-#: ../../source/waptserver_update/waptserver_update_debian.rst:78
+#: ../../source/waptserver-update/waptserver-update-debian.rst:82
 msgid "using a :abbr:`GPO (Group Policy Object)` and :program:`waptdeploy`;"
 msgstr ""
-"soit utiliser une :abbr:`GPO (Group Policy Object)` et :program:`waptdeploy` ;"
+"soit utiliser une :abbr:`GPO (Group Policy Object)` et "
+":program:`waptdeploy` ;"
 
-#: ../../source/waptserver_update/waptserver_update_debian.rst:80
+#: ../../source/waptserver-update/waptserver-update-debian.rst:84
 msgid "using a :program:`waptupgrade` package and deploy it using WAPT;"
 msgstr "soit créer un paquet **waptupgrade** et l'affecter à l'ensemble du parc ;"
 
-#: ../../source/waptserver_update/waptserver_update_debian.rst:82
+#: ../../source/waptserver-update/waptserver-update-debian.rst:86
 msgid "update the WAPT agents"
 msgstr "mettre à jour les clients WAPT ;"
 
-#: ../../source/waptserver_update/waptserver_update_debian.rst:84
+#: ../../source/waptserver-update/waptserver-update-debian.rst:88
 msgid ""
-"The steps to follow to update WAPT agents are the same as the ones to first "
-"install the WAPT agents."
+"The steps to follow to update WAPT agents are the same as the ones to "
+"first install the WAPT agents."
 msgstr ""
-"La procédure à suivre pour la mise à jour des clients est la même que pour la "
-"première installation."
+"La procédure à suivre pour la mise à jour des clients est la même que "
+"pour la première installation."
 
-#: ../../source/waptserver_update/waptserver_update_debian.rst:87
+#: ../../source/waptserver-update/waptserver-update-debian.rst:91
 msgid ""
-"Download and install the latest version of the WAPT agent by visiting http://"
-"wapt.mydomain.lan/wapt/waptagent.exe."
+"Download and install the latest version of the WAPT agent by visiting "
+"http://wapt.mydomain.lan/wapt/waptagent.exe."
 msgstr ""
-"Télécharger et installer la dernière version de l'agent qui a été mis à jour : "
-"https://wapt.mydomain.lan/wapt/waptagent.exe."
+"Télécharger et installer la dernière version de l'agent qui a été mis à "
+"jour : https://wapt.mydomain.lan/wapt/waptagent.exe."
 
-#: ../../source/waptserver_update/waptserver_update_debian.rst:90
+#: ../../source/waptserver-update/waptserver-update-debian.rst:94
 msgid ""
 "As mentioned above, this procedure may be made automatic with a GPO or a "
 "**waptupgrade** package."
 msgstr ""
-"Comme mentionné ci-dessus, cette procédure peut s'automatiser avec une GPO ou "
-"un paquet de mise à jour **waptupgrade**."
+"Comme mentionné ci-dessus, cette procédure peut s'automatiser avec une "
+"GPO ou un paquet de mise à jour **waptupgrade**."
 
 #~ msgid "Upgrading the WAPT Server on Debian"
 #~ msgstr "Mettre à jour le serveur WAPT sous Debian"
 
 #~ msgid "upgrade the WAPT Server"
 #~ msgstr "mettre à jour le serveur WAPT ;"
+

@@ -5,8 +5,8 @@ rem make.bat clean
 del /s /q build
 rmdir /s /q build
 make.bat gettext
-c:\python27\Scripts\sphinx-intl.exe update -p build/locale -l en
-make.bat clean
+c:\python27\Scripts\sphinx-intl.exe update -p build/locale -l fr
+rem make.bat clean
+make.bat html
 make.bat htmlfr
-make.bat htmlen
 

@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-06 17:21+0100\n"
-"PO-Revision-Date: 2018-11-07 11:03+0100\n"
+"POT-Creation-Date: 2019-02-27 10:29+0100\n"
+"PO-Revision-Date: 2019-02-27 11:27+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
@@ -12,15 +12,15 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.5.3\n"
 "X-Generator: Poedit 1.8.8\n"
 
-#: ../../source/wapt_create_packages/package_additional/index.rst:8
-#: ../../source/wapt_create_packages/package_additional/index.rst:15
+#: ../../source/wapt-create-packages/package-additional/index.rst:8
+#: ../../source/wapt-create-packages/package-additional/index.rst:15
 msgid "Additional features"
 msgstr "Fonctionnalités supplémentaires"
 
-#: ../../source/wapt_create_packages/package_additional/index.rst:8
+#: ../../source/wapt-create-packages/package-additional/index.rst:8
 msgid ""
 "Personalizing, WAPT, user context, portable application, portable app, "
 "example, session_setup, Setuphelpers, restricted user, documentation"
@@ -28,11 +28,11 @@ msgstr ""
 "Personnaliser, WAPT, contexte utilisateur, application portable, exemple, "
 "session_setup, Setuphelpers, droits restreints, documentation"
 
-#: ../../source/wapt_create_packages/package_additional/index.rst:18
+#: ../../source/wapt-create-packages/package-additional/index.rst:18
 msgid "Customizing the user environment"
 msgstr "Personnaliser le contexte utilisateur"
 
-#: ../../source/wapt_create_packages/package_additional/index.rst:20
+#: ../../source/wapt-create-packages/package-additional/index.rst:20
 msgid ""
 "One of the main advantages of WAPT is the silent installation and "
 "uninstallation of software, **even when restricted users are connected**."
@@ -41,7 +41,7 @@ msgstr ""
 "silencieuse de logiciels, et ceci **même quand un utilisateur restreint est "
 "connecté**."
 
-#: ../../source/wapt_create_packages/package_additional/index.rst:23
+#: ../../source/wapt-create-packages/package-additional/index.rst:23
 msgid ""
 "The WAPT agent runs with Windows SYSTEM rights, it allow to define global "
 "settings in system context and customized settings in restricted user mode."
@@ -49,32 +49,31 @@ msgstr ""
 "L'agent WAPT fonctionne en compte système et il pourra personnaliser des "
 "paramètres en contexte utilisateur de manière dynamique."
 
-#: ../../source/wapt_create_packages/package_additional/index.rst:27
+#: ../../source/wapt-create-packages/package-additional/index.rst:27
 msgid ""
-"User settings customization relies on the ``session_setup`` function "
-"defined in WAPT library :term:`Setuphelpers`."
+"User settings customization relies on the ``session_setup`` function defined "
+"in WAPT library :term:`Setuphelpers`."
 msgstr ""
-"Les personnalisations de l'environment utilisateur s'appuient sur la "
-"fonction ``session_setup`` définie dans la librairie WAPT :term:"
-"`Setuphelpers`."
+"Les personnalisations de l'environment utilisateur s'appuient sur la fonction "
+"``session_setup`` définie dans la librairie WAPT :term:`Setuphelpers`."
 
-#: ../../source/wapt_create_packages/package_additional/index.rst:31
+#: ../../source/wapt-create-packages/package-additional/index.rst:31
 msgid "Working principle"
 msgstr "Principe de fonctionnement"
 
-#: ../../source/wapt_create_packages/package_additional/index.rst:33
+#: ../../source/wapt-create-packages/package-additional/index.rst:33
 msgid "User mode customization operates as follows:"
 msgstr "La personnalisation en contexte utilisateur fonctionne comme suit :"
 
-#: ../../source/wapt_create_packages/package_additional/index.rst:35
+#: ../../source/wapt-create-packages/package-additional/index.rst:35
 msgid ""
-"the instructions are defined in :command:`session_setup()` function of :"
-"file:`setup.py` file;"
+"the instructions are defined in :command:`session_setup()` function of :file:"
+"`setup.py` file;"
 msgstr ""
 "on décrit les instructions dans la fonction :command:`session_setup()` du "
 "fichier :file:`setup.py` du paquet WAPT ;"
 
-#: ../../source/wapt_create_packages/package_additional/index.rst:38
+#: ../../source/wapt-create-packages/package-additional/index.rst:38
 msgid ""
 "when the package is deployed on the machine, instructions are stored in the "
 "local database of the WAPT agent;"
@@ -82,57 +81,56 @@ msgstr ""
 "quand le paquet est déployé, les instructions sont stockées dans la base de "
 "données locale de l'agent WAPT ;"
 
-#: ../../source/wapt_create_packages/package_additional/index.rst:41
+#: ../../source/wapt-create-packages/package-additional/index.rst:41
 msgid ""
 "when the user connects to her computer, :command:`session_setup` "
 "customizations are executed in the limit of one execution per user and per "
 "WAPT package version;"
 msgstr ""
-"quand l'utilisateur se connecte à la machine, les instructions sont "
-"exécutées dans la limite d'une exécution par utilisateur et par paquet "
-"WAPT ;"
+"quand l'utilisateur se connecte à la machine, les instructions sont exécutées "
+"dans la limite d'une exécution par utilisateur et par paquet WAPT ;"
 
-#: ../../source/wapt_create_packages/package_additional/index.rst:47
+#: ../../source/wapt-create-packages/package-additional/index.rst:47
 msgid ""
-"``session_setup`` customization will occur only once per user per package; "
-"a shortcut created in that context is created only once and not at every "
+"``session_setup`` customization will occur only once per user per package; a "
+"shortcut created in that context is created only once and not at every "
 "startup. To execute a task at each startup, it is preferable to define a "
-"Windows scheduled task to be launched by a local :term:`GPO` or by a "
-"startup script."
+"Windows scheduled task to be launched by a local :term:`GPO` or by a startup "
+"script."
 msgstr ""
-"Pour effectuer une tâche à chaque démarrage, il sera plus performant de "
-"créer une tâche planifiée, de déployer une :term:`GPO` locale ou de lancer "
-"un script de Démarrage."
+"Pour effectuer une tâche à chaque démarrage, il sera plus performant de créer "
+"une tâche planifiée, de déployer une :term:`GPO` locale ou de lancer un "
+"script de Démarrage."
 
-#: ../../source/wapt_create_packages/package_additional/index.rst:54
+#: ../../source/wapt-create-packages/package-additional/index.rst:54
 msgid "Example: create a personalized desktop shortcut"
 msgstr "Exemple : créer un raccourci personnalisé"
 
-#: ../../source/wapt_create_packages/package_additional/index.rst:56
+#: ../../source/wapt-create-packages/package-additional/index.rst:56
 msgid ""
 "One of the possibilities offered by :term:`SetupHelpers` is adding "
-"personalized shortcuts on user desktops, instead of a desktop shortcut "
-"common to all users."
+"personalized shortcuts on user desktops, instead of a desktop shortcut common "
+"to all users."
 msgstr ""
 "Une des possibilités offertes par :term:`SetupHelpers` est la création de "
 "raccourcis individuels sur le bureau utilisateur, à la différence du bureau "
 "\"Public\" commun à tous les utilisateurs."
 
-#: ../../source/wapt_create_packages/package_additional/index.rst:59
+#: ../../source/wapt-create-packages/package-additional/index.rst:59
 msgid ""
 "For that purpose, we will use the :command:`create_user_desktop_shortcut()` "
-"function to create shortcuts containing the username and passing a website "
-"as an argument to Firefox."
+"function to create shortcuts containing the username and passing a website as "
+"an argument to Firefox."
 msgstr ""
-"Nous utiliserons pour ça la fonction ``create_user_desktop_shortcut()`` "
-"pour créer un raccourci contenant le nom de l'utilisateur et qui passera en "
+"Nous utiliserons pour ça la fonction ``create_user_desktop_shortcut()`` pour "
+"créer un raccourci contenant le nom de l'utilisateur et qui passera en "
 "argument à Firefox le site https://tranquil.it par exemple."
 
-#: ../../source/wapt_create_packages/package_additional/index.rst:85
+#: ../../source/wapt-create-packages/package-additional/index.rst:85
 msgid "Deploying a portable software with WAPT"
 msgstr "Exemple: déployer un logiciel portable avec WAPT"
 
-#: ../../source/wapt_create_packages/package_additional/index.rst:87
+#: ../../source/wapt-create-packages/package-additional/index.rst:87
 msgid ""
 "A good example of a WAPT package is a self-contained/ *portable* software "
 "package:"
@@ -140,64 +138,65 @@ msgstr ""
 "Un bon exemple de paquet applicatif WAPT est celui d'un logiciel dit "
 "*portable*. Pour cela, il faudra :"
 
-#: ../../source/wapt_create_packages/package_additional/index.rst:90
-msgid "create the folder for the software in :file:`C:\\Program Files (x86)`;"
-msgstr "créer le répertoire d'installation dans :file:`C:\\Program Files` ;"
+#: ../../source/wapt-create-packages/package-additional/index.rst:90
+msgid "create the folder for the software in :file:`C:\\\\Program Files (x86)`;"
+msgstr ""
+"créer le répertoire d'installation dans :file:`C:\\\\Program Files (x86)` ;"
 
-#: ../../source/wapt_create_packages/package_additional/index.rst:92
+#: ../../source/wapt-create-packages/package-additional/index.rst:92
 msgid "copy the software in that folder;"
 msgstr "copier l'application dans le dossier ;"
 
-#: ../../source/wapt_create_packages/package_additional/index.rst:94
+#: ../../source/wapt-create-packages/package-additional/index.rst:94
 msgid "create the shortcut to the application;"
 msgstr "créer un raccourci sur le bureau de l'utilisateur ;"
 
-#: ../../source/wapt_create_packages/package_additional/index.rst:96
+#: ../../source/wapt-create-packages/package-additional/index.rst:96
 msgid "manage the uninstallation process for the application;"
 msgstr "gérer la désinstallation de l'application portable ;"
 
-#: ../../source/wapt_create_packages/package_additional/index.rst:98
+#: ../../source/wapt-create-packages/package-additional/index.rst:98
 msgid "close the application if it's running;"
 msgstr "fermer l'application si elle est en cours d'exécution ;"
 
-#: ../../source/wapt_create_packages/package_additional/index.rst:101
+#: ../../source/wapt-create-packages/package-additional/index.rst:101
 msgid "Example with ADWCleaner"
 msgstr "Exemple avec ADWCleaner"
 
-#: ../../source/wapt_create_packages/package_additional/index.rst:103
+#: ../../source/wapt-create-packages/package-additional/index.rst:103
 msgid ""
-"create a group package and modify the :file:`control` file to transform it "
-"to a software package;"
+"create a group package and modify the :file:`control` file to transform it to "
+"a software package;"
 msgstr ""
 "créer un paquet groupe et modifier le fichier :file:`control` pour en faire "
 "un paquet applicatif ;"
 
-#: ../../source/wapt_create_packages/package_additional/index.rst:121
-msgid "The file :file:`C:\\waptdev\\tis-adwcleaner-wapt` is created."
-msgstr "Le fichier :file:`C:\\waptdev\\tis-adwcleaner-wapt` est créé."
+#: ../../source/wapt-create-packages/package-additional/index.rst:121
+msgid "The file :file:`C:\\\\waptdev\\\\tis-adwcleaner-wapt` is created."
+msgstr "Le fichier :file:`C:\\\\waptdev\\\tis-adwcleaner-wapt` est créé."
 
-#: ../../source/wapt_create_packages/package_additional/index.rst:123
+#: ../../source/wapt-create-packages/package-additional/index.rst:123
 msgid ""
-"download and copy/ paste :program:`adwcleaner.exe` binary in :file:`C:"
-"\\waptdev\\tis-adwcleaner-wapt` directory;"
+"download and copy/ paste :program:`adwcleaner.exe` binary in :file:`C:\\"
+"\\waptdev\\\\tis-adwcleaner-wapt` directory;"
 msgstr ""
-"télécharger puis copier / coller l'exécutable :program:`adwcleaner.exe` "
-"dans le répertoire :file:`C:\\waptdev\\tis-adwcleaner-wapt` ;"
+"télécharger puis copier / coller l'exécutable :program:`adwcleaner.exe` dans "
+"le répertoire :file:`C:\\\\waptdev\\\tis-adwcleaner-wapt` ;"
 
-#: ../../source/wapt_create_packages/package_additional/index.rst:126
+#: ../../source/wapt-create-packages/package-additional/index.rst:126
 msgid ""
-"open and make desired changes to :file:`C:\\waptdev\\tis-adwcleaner-wapt"
+"open and make desired changes to :file:`C:\\\\waptdev\\\\tis-adwcleaner-wapt\\"
 "\\setup.py` installation file;"
 msgstr ""
-"ouvrir et modifier ensuite le fichier d'installation :file:`C:\\waptdev"
-"\\tis-adwcleaner-wapt\\setup.py` ;"
+"ouvrir et modifier ensuite le fichier d'installation :file:`C:\\\\waptdev\\"
+"\tis-adwcleaner-wapt\\\\setup.py` ;"
 
 #~ msgid ""
-#~ "``session_setup`` customization will occur only once per user per "
-#~ "package; a shortcut created in that context is created only once and not "
-#~ "at every startup. To execute a task at each startup, it is preferable to "
-#~ "define a Windows scheduled task to be launched by a local GPO or by a "
-#~ "startup script."
+#~ "``session_setup`` customization will occur only once per user per package; "
+#~ "a shortcut created in that context is created only once and not at every "
+#~ "startup. To execute a task at each startup, it is preferable to define a "
+#~ "Windows scheduled task to be launched by a local GPO or by a startup "
+#~ "script."
 #~ msgstr ""
 #~ "La personnalisation avec session_setup ne s'exécute qu'une fois par "
 #~ "utilisateur et par paquet ; ainsi, un raccourci créé dans ce contexte ne "
@@ -207,11 +206,11 @@ msgstr ""
 #~ msgstr "Stockage du jeu d'instructions en base locale de l'agent WAPT ;"
 
 #~ msgid ""
-#~ "Automatic execution of each instruction set at user logon, limited at "
-#~ "one execution per user per package ;"
+#~ "Automatic execution of each instruction set at user logon, limited at one "
+#~ "execution per user per package ;"
 #~ msgstr ""
-#~ "Exécution automatique lors de la connexion de l'utilisateur, limitée à "
-#~ "une exécution par utilisateur et par paquet ;"
+#~ "Exécution automatique lors de la connexion de l'utilisateur, limitée à une "
+#~ "exécution par utilisateur et par paquet ;"
 
 #~ msgid "Proper uninstallation; "
 #~ msgstr "Gestion de la désinstallation ;"

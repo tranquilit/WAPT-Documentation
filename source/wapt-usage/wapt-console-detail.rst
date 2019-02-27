@@ -491,7 +491,7 @@ A search bar is also available to filter packages.
 
 .. hint::
 
-	With the "section" drop-down menu, you can choose to create a profile package rather than a group package
+	With the :guilabel:`section` drop-down menu, you can choose to create a profile package rather than a group package
 
 Cleaning the local cache from the WAPT console
 ----------------------------------------------
@@ -676,7 +676,7 @@ For that purpose, go to :menuselection:`Tools --> preference --> plugins Tab`
   :align: center
   :alt: Generate a self-signed certificate
 
-  Click add to add plugins, then edit the corespondente columns
+  Click add to add plugins, then edit the corresponding columns
 
 .. list-table::
    :header-rows: 1

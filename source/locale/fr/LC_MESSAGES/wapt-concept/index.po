@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-06 17:21+0100\n"
-"PO-Revision-Date: 2018-11-07 10:56+0100\n"
+"POT-Creation-Date: 2019-02-27 10:29+0100\n"
+"PO-Revision-Date: 2019-02-27 10:56+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
@@ -12,22 +12,22 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.5.3\n"
 "X-Generator: Poedit 1.8.8\n"
 
-#: ../../source/wapt_concept/index.rst:8 ../../source/wapt_concept/index.rst:15
+#: ../../source/wapt-concept/index.rst:8 ../../source/wapt-concept/index.rst:15
 msgid "Introduction to WAPT"
 msgstr "Présentation des grands principes de WAPT"
 
-#: ../../source/wapt_concept/index.rst:8
+#: ../../source/wapt-concept/index.rst:8
 msgid "WAPT, Why, How, principles, documentation, history, genesis"
 msgstr "WAPT, Pourquoi, Comment, principes, documentation"
 
-#: ../../source/wapt_concept/index.rst:18
+#: ../../source/wapt-concept/index.rst:18
 msgid "For what purpose is WAPT useful?"
 msgstr "A quoi sert WAPT ?"
 
-#: ../../source/wapt_concept/index.rst:20
+#: ../../source/wapt-concept/index.rst:20
 msgid ""
 "**WAPT** installs, updates and removes software and configurations on Windows "
 "devices. Software deployment (Firefox, MS Office, etc.) can be carried out from "
@@ -43,7 +43,7 @@ msgstr ""
 "Debian apt, d'où son nom. WAPT est libre et soumis à la licence **GPLv3**. "
 "L'édition **Enterprise** est soumise à une licence propriétaire."
 
-#: ../../source/wapt_concept/index.rst:28
+#: ../../source/wapt-concept/index.rst:28
 msgid ""
 "**WAPT** is intended to help IT administrators manage their deployed base of "
 "computer desktops, laptops, tablets running a Microsoft Windows client (from XP "
@@ -54,7 +54,7 @@ msgstr ""
 "tablettes Windows fonctionnant avec des versions client de Windows (XP à 10) ou "
 "des versions serveur de Windows (2003 à 2019)."
 
-#: ../../source/wapt_concept/index.rst:33
+#: ../../source/wapt-concept/index.rst:33
 msgid ""
 "Private companies of all sizes, Colleges, Schools, Universities, research labs, "
 "local and state governments, Hospitals, city hall, state ministries are "
@@ -65,11 +65,11 @@ msgstr ""
 "recherche, des mairies, des communautés d'agglomération, des communautés de "
 "communes, des hôpitaux, des Ministères utilisent **WAPT**."
 
-#: ../../source/wapt_concept/index.rst:37
+#: ../../source/wapt-concept/index.rst:37
 msgid "**WAPT** exists in two versions, **Community** and **Enterprise**."
 msgstr "**WAPT** existe en deux versions, **Community** et **Enterprise**."
 
-#: ../../source/wapt_concept/index.rst:39
+#: ../../source/wapt-concept/index.rst:39
 msgid ""
 "**WAPT** is very efficient to address **recurrent Flash and Java update needs** "
 "and it is often to cover that basic need that WAPT is initially adopted; it then "
@@ -80,7 +80,7 @@ msgstr ""
 "initialement adopté ; ensuite il devient un outil apprécié, voire indispensable "
 "pour le quotidien de l'administrateur système."
 
-#: ../../source/wapt_concept/index.rst:43
+#: ../../source/wapt-concept/index.rst:43
 msgid ""
 "**If you're a developer, WAPT can help you configure your development "
 "environment on your computer as Chocolatey / NuGet can do.**"
@@ -88,15 +88,15 @@ msgstr ""
 "**Si vous êtes un développeur, WAPT en mode ligne de commande peut vous aider à "
 "configurer votre PC de développement comme le font Chocolatey / NuGet.**"
 
-#: ../../source/wapt_concept/index.rst:47
+#: ../../source/wapt-concept/index.rst:47
 msgid "The genesis of WAPT"
 msgstr "Genèse WAPT"
 
-#: ../../source/wapt_concept/index.rst:50
+#: ../../source/wapt-concept/index.rst:50
 msgid "Our assessment after 15 years of IT management"
 msgstr "Notre constat après 15 ans d'infogérance"
 
-#: ../../source/wapt_concept/index.rst:52
+#: ../../source/wapt-concept/index.rst:52
 msgid ""
 "Managing large IT installed bases of Microsoft Windows computers is today a "
 "difficult task in a secured environment:"
@@ -104,7 +104,7 @@ msgstr ""
 "L'administration d'un large parc de PC sous MS Windows est à l'heure actuelle un "
 "exercice acrobatique en environment sécurisé :"
 
-#: ../../source/wapt_concept/index.rst:55
+#: ../../source/wapt-concept/index.rst:55
 msgid ""
 "common ghosting methods (*Clonezilla* or *Ghost*) are efficient on homogeneous "
 "IT infrastructures with roaming user profiles;"
@@ -113,7 +113,7 @@ msgstr ""
 "*clonezilla*) sont efficaces si les parcs machines et les parcs applicatifs sont "
 "homogènes et que les profils utilisateurs sont itinérants ;"
 
-#: ../../source/wapt_concept/index.rst:58
+#: ../../source/wapt-concept/index.rst:58
 msgid ""
 "deployment software (*OCSInventory* or *WPKG*) can broadcast software but does "
 "not easily allow software level or user level customizations that are useful to "
@@ -123,7 +123,7 @@ msgstr ""
 "logiciels mais ne permettent pas d'effectuer de manière simple les "
 "personnalisations qui évitent les demandes de support utilisateur ;"
 
-#: ../../source/wapt_concept/index.rst:62
+#: ../../source/wapt-concept/index.rst:62
 msgid ""
 "software from smaller vendors often need :term:`Local Administrator` rights to "
 "run properly;"
@@ -131,7 +131,7 @@ msgstr ""
 "les logiciels de petits éditeurs nécessitent souvent des droits :term:"
 "`Administrateur Local` pour fonctionner ;"
 
-#: ../../source/wapt_concept/index.rst:65
+#: ../../source/wapt-concept/index.rst:65
 msgid ""
 "currently available solutions to address theses 3 problems are either too "
 "expensive or too inefficient, and they are in every case too complex;"
@@ -140,27 +140,27 @@ msgstr ""
 "méthodes soit trop chères, soit insuffisantes, et dans tous les cas trop "
 "complexes ;"
 
-#: ../../source/wapt_concept/index.rst:69
+#: ../../source/wapt-concept/index.rst:69
 msgid "WAPT development hypotheses and motivations"
 msgstr "Les hypothèses de travail qui animent le développement de WAPT"
 
-#: ../../source/wapt_concept/index.rst:71
+#: ../../source/wapt-concept/index.rst:71
 msgid "The development of WAPT is motivated by these two principles:"
 msgstr "Le développement de WAPT est animé par deux principes :"
 
-#: ../../source/wapt_concept/index.rst:73
+#: ../../source/wapt-concept/index.rst:73
 msgid "what is **complicated** should be made **simple**;"
 msgstr "ce qui est **compliqué** doit être rendu **simple** ;"
 
-#: ../../source/wapt_concept/index.rst:75
+#: ../../source/wapt-concept/index.rst:75
 msgid "what is **simple** should be made **trivial**;"
 msgstr "ce qui est **simple** doit être rendu **trivial** ;"
 
-#: ../../source/wapt_concept/index.rst:77
+#: ../../source/wapt-concept/index.rst:77
 msgid "WAPT relies on a small set of fundamental hypotheses:"
 msgstr "WAPT s'appuie sur un jeu d'hypothèses fondamentales :"
 
-#: ../../source/wapt_concept/index.rst:79
+#: ../../source/wapt-concept/index.rst:79
 msgid ""
 "sysadmins know script languages and WAPT has chosen Python for the depth and "
 "breadth of its libraries;"
@@ -168,7 +168,7 @@ msgstr ""
 "les adminsys connaissent les langages de script, et WAPT a choisi python pour la "
 "profondeur et l'étendue de ses librairies ;"
 
-#: ../../source/wapt_concept/index.rst:82
+#: ../../source/wapt-concept/index.rst:82
 msgid ""
 "sysadmins who have little experience with scripting languages must find "
 "inspiration in simple and efficient examples that they'll adapt to fit their "
@@ -178,7 +178,7 @@ msgstr ""
 "doivent pouvoir s'inspirer d'exemples simples et efficaces qu'ils adapteront à "
 "leurs situations spécifiques ;"
 
-#: ../../source/wapt_concept/index.rst:86
+#: ../../source/wapt-concept/index.rst:86
 msgid ""
 "sysadmins must be able to communicate on the efficiency of their actions to "
 "their superiors and report process gaps to internal or external auditors;"
@@ -186,7 +186,7 @@ msgstr ""
 "les adminsys doivent pouvoir communiquer l'efficacité de leurs actions à leur "
 "direction et restituer les écarts de process aux auditeurs de leur société ;"
 
-#: ../../source/wapt_concept/index.rst:89
+#: ../../source/wapt-concept/index.rst:89
 msgid ""
 "sysadmins must be able to collaborate with their IT team in full trust; thereby "
 "WAPT local repositories provide signed packages they can trust to be deployed on "
@@ -198,7 +198,7 @@ msgstr ""
 "logiciels qu'ils signent eux-mêmes. Sinon, ils choisissent des dépôts publics "
 "qui leur fournissent les garanties de sécurité qu'ils jugent suffisantes ;"
 
-#: ../../source/wapt_concept/index.rst:95
+#: ../../source/wapt-concept/index.rst:95
 msgid ""
 "sysadmins are aware that user workstations serve business purposes and some "
 "customizations must be possible. The adaptation of the infrastructure to the "
@@ -211,19 +211,19 @@ msgstr ""
 "sélectionner des machines respectant un critère de tri pour personnaliser leur "
 "configuration ;"
 
-#: ../../source/wapt_concept/index.rst:101
+#: ../../source/wapt-concept/index.rst:101
 msgid "Fundamental principles"
 msgstr "Principes fondamentaux"
 
-#: ../../source/wapt_concept/index.rst:104
+#: ../../source/wapt-concept/index.rst:104
 msgid "Package/ Repository principle"
 msgstr "Principe de Paquets / Dépôts"
 
-#: ../../source/wapt_concept/index.rst:107
+#: ../../source/wapt-concept/index.rst:107
 msgid "WAPT packages"
 msgstr "Les paquets WAPT"
 
-#: ../../source/wapt_concept/index.rst:109
+#: ../../source/wapt-concept/index.rst:109
 msgid ""
 "A WAPT package structure is similar to Debian Linux **.deb** packages. Each WAPT "
 "package includes the binaries to be executed and the other files it needs."
@@ -232,29 +232,29 @@ msgstr ""
 "Debian Linux. Chaque paquet WAPT embarque avec lui les binaires qui seront "
 "exécutés et les autres fichiers dont il aura besoin."
 
-#: ../../source/wapt_concept/index.rst:113
+#: ../../source/wapt-concept/index.rst:113
 msgid "A package is easily transportable."
 msgstr "Un paquet est transportable facilement."
 
-#: ../../source/wapt_concept/index.rst:115
+#: ../../source/wapt-concept/index.rst:115
 msgid "Here is how a WAPT package looks like:"
 msgstr "Voici la structure d'un paquet WAPT :"
 
-#: ../../source/wapt_concept/index.rst:121
+#: ../../source/wapt-concept/index.rst:121
 msgid "WAPT package structure"
 msgstr "Structure d'un paquet WAPT"
 
-#: ../../source/wapt_concept/index.rst:124
+#: ../../source/wapt-concept/index.rst:124
 msgid "WAPT repositories"
 msgstr "Les dépôts WAPT"
 
-#: ../../source/wapt_concept/index.rst:126
+#: ../../source/wapt-concept/index.rst:126
 msgid "Packages are stored in a web repository. They are not stored in a database."
 msgstr ""
 "Les paquets sont stockés dans un répertoire web. Ils ne sont pas stockés dans "
 "une base de données."
 
-#: ../../source/wapt_concept/index.rst:128
+#: ../../source/wapt-concept/index.rst:128
 msgid ""
 "They are served by the :program:`Nginx` web server, available with Linux and "
 "Windows."
@@ -262,7 +262,7 @@ msgstr ""
 "Ils sont servis par le serveur web :program:`Nginx`, disponible pour Linux et "
 "Windows."
 
-#: ../../source/wapt_concept/index.rst:131
+#: ../../source/wapt-concept/index.rst:131
 msgid ""
 "The :file:`Packages` index file is the only thing necessary. It lists the "
 "packages available on allowed repositories and some basic information on each "
@@ -272,7 +272,7 @@ msgstr ""
 "`Packages` permet d'indiquer au client la liste des paquets disponibles sur le "
 "dépôt, et les informations de base de chacun des paquets du dépôt."
 
-#: ../../source/wapt_concept/index.rst:135
+#: ../../source/wapt-concept/index.rst:135
 msgid ""
 "That mechanism allows to easily set up a replication process between multiple "
 "repositories."
@@ -280,42 +280,42 @@ msgstr ""
 "Ce fonctionnement permet de mettre en place facilement un mécanisme de "
 "réplication entre plusieurs dépôts."
 
-#: ../../source/wapt_concept/index.rst:139
+#: ../../source/wapt-concept/index.rst:139
 msgid "Types of WAPT packages"
 msgstr "Types de paquets WAPT"
 
-#: ../../source/wapt_concept/index.rst:141
-msgid "There are 4 types of WAPT packages:"
-msgstr "Il existe 4 types de paquets WAPT:"
+#: ../../source/wapt-concept/index.rst:141
+msgid "There are 7 types of WAPT packages:"
+msgstr "Il existe 7 types de paquets WAPT:"
 
-#: ../../source/wapt_concept/index.rst:147
+#: ../../source/wapt-concept/index.rst:147
 msgid "Anatomy of a simple WAPT package"
 msgstr "Représentation d'un paquet WAPT simple"
 
-#: ../../source/wapt_concept/index.rst:150
+#: ../../source/wapt-concept/index.rst:150
 msgid "*Base* packages"
 msgstr "Les paquets *base*"
 
-#: ../../source/wapt_concept/index.rst:152
+#: ../../source/wapt-concept/index.rst:152
 msgid "They are classic software packages."
 msgstr "Ce sont les paquets logiciels classiques."
 
-#: ../../source/wapt_concept/index.rst:154 ../../source/wapt_concept/index.rst:171
+#: ../../source/wapt-concept/index.rst:154 ../../source/wapt-concept/index.rst:171
 msgid "They are stored in the web directory https://srvwapt.mydomain.lan/wapt/."
 msgstr ""
 "Ils sont stockés dans le répertoire web https://srvwapt.mydomain.lan/wapt/."
 
-#: ../../source/wapt_concept/index.rst:157
+#: ../../source/wapt-concept/index.rst:157
 msgid "*Group* packages"
 msgstr "Les paquets *group*"
 
-#: ../../source/wapt_concept/index.rst:159
+#: ../../source/wapt-concept/index.rst:159
 msgid "They are groups/ bundles of packages."
 msgstr ""
 "Ce sont des paquets qui permettent de faire des groupes de logiciels ou des "
 "groupes de machines."
 
-#: ../../source/wapt_concept/index.rst:163
+#: ../../source/wapt-concept/index.rst:163
 msgid ""
 "a group / bundle of softwares often corresponds to a *host profile* (ex: "
 "**accounting**);"
@@ -323,12 +323,12 @@ msgstr ""
 "un groupe de logiciels correspond en réalité à un profil de machine (ex: "
 "**compta**) ;"
 
-#: ../../source/wapt_concept/index.rst:166
+#: ../../source/wapt-concept/index.rst:166
 msgid "a group of hosts often corresponds to a room, building, etc;"
 msgstr ""
 "un groupe de machines correspond en réalité à une salle, un bâtiment, etc ;"
 
-#: ../../source/wapt_concept/index.rst:168
+#: ../../source/wapt-concept/index.rst:168
 msgid ""
 "a host can be a member of several groups (ex: one or more hosts profiles in the "
 "same room in a building);"
@@ -336,15 +336,15 @@ msgstr ""
 "une machine peut appartenir à plusieurs groupes (ex : un ou plusieurs profils de "
 "machine dans une salle dans un bâtiment) ;"
 
-#: ../../source/wapt_concept/index.rst:174
+#: ../../source/wapt-concept/index.rst:174
 msgid "*Host* packages"
 msgstr "Les paquets *host*"
 
-#: ../../source/wapt_concept/index.rst:176
+#: ../../source/wapt-concept/index.rst:176
 msgid "Host packages are named after the :term:`UUID` of the computer BIOS."
 msgstr "Les paquets \"machines\" portent le nom :term:`UUID` Bios de la machine."
 
-#: ../../source/wapt_concept/index.rst:178
+#: ../../source/wapt-concept/index.rst:178
 msgid ""
 "Each host will look for its *host* package to know the packages that it must "
 "install (i.e. *dependencies*)."
@@ -352,18 +352,23 @@ msgstr ""
 "Chaque Poste client va par défaut chercher son paquet machine pour connaître la "
 "liste des paquets qu'il doit installer (*dépendances*)."
 
-#: ../../source/wapt_concept/index.rst:181 ../../source/wapt_concept/index.rst:200
+#: ../../source/wapt-concept/index.rst:181 ../../source/wapt-concept/index.rst:202
 msgid ""
 "They are stored in the web directory https://srvwapt.mydomain.lan/wapt-host/."
 msgstr ""
 "Ces paquets sont stockés dans le répertoire https://srvwapt.mydomain.lan/wapt-"
 "host/."
 
-#: ../../source/wapt_concept/index.rst:184
+#: ../../source/wapt-concept/index.rst:184
 msgid "*Unit* packages"
 msgstr "Les paquets *unit*"
 
-#: ../../source/wapt_concept/index.rst:186
+#: ../../source/wapt-concept/index.rst:186 ../../source/wapt-concept/index.rst:227
+#: ../../source/wapt-concept/index.rst:236
+msgid "Enterprise"
+msgstr "Enterprise"
+
+#: ../../source/wapt-concept/index.rst:188
 msgid ""
 "*Unit* packages bear the complete name of :abbr:`OU (Organizational Unit)`, "
 "example: **OU=room1,OU=prod,OU=computers,DC=mydomain,DC=lan**."
@@ -372,30 +377,30 @@ msgstr ""
 "Organisationnelle)`, exemple :  **OU=BUREAU1,OU=prod,OU=computers,DC=mydomain,"
 "DC=lan**."
 
-#: ../../source/wapt_concept/index.rst:189
+#: ../../source/wapt-concept/index.rst:191
 msgid ""
 "By default, each computer looks for the *unit* packages that the host belongs to:"
 msgstr ""
 "Chaque Poste client va par défaut chercher les paquets *unit* dont il fait "
 "partie :"
 
-#: ../../source/wapt_concept/index.rst:192
+#: ../../source/wapt-concept/index.rst:194
 msgid "OU=room1,OU=prod,OU=computers,DC=mydomain,DC=lan"
 msgstr "OU=BUREAU1,OU=prod,OU=computers,DC=mydomain,DC=lan ;"
 
-#: ../../source/wapt_concept/index.rst:194
+#: ../../source/wapt-concept/index.rst:196
 msgid "OU=computers,DC=mydomain,DC=lan;"
 msgstr "OU=computers,DC=mydomain,DC=lan ;"
 
-#: ../../source/wapt_concept/index.rst:196
+#: ../../source/wapt-concept/index.rst:198
 msgid "DC=mydomain,DC=lan;"
 msgstr "DC=mydomain,DC=lan ;"
 
-#: ../../source/wapt_concept/index.rst:198
+#: ../../source/wapt-concept/index.rst:200
 msgid "and then install the list of associated dependencies."
 msgstr "et ensuite installer la liste des dépendances associées."
 
-#: ../../source/wapt_concept/index.rst:204
+#: ../../source/wapt-concept/index.rst:206
 msgid ""
 "If the computer is removed from an Organizational Unit, obsolete *unit* packages "
 "will be removed."
@@ -403,15 +408,107 @@ msgstr ""
 "Si la machine change d'OU, alors les paquets *unit* obsolètes seront "
 "désinstallés."
 
-#: ../../source/wapt_concept/index.rst:208
+#: ../../source/wapt-concept/index.rst:211
+msgid "*WAPTWUA* packages"
+msgstr "Les paquets *wsus*"
+
+#: ../../source/wapt-concept/index.rst:213
+msgid ""
+"*WAPTWUA* packages contain the list of authorized or prohibited Windows Updates."
+msgstr ""
+"Les paquets *wsus* contiennent le liste des mises à jour Windows autorisées et "
+"interdites."
+
+#: ../../source/wapt-concept/index.rst:215
+msgid ""
+"When this package is installed on the endpoint, the next update scan performed "
+"by WAPT will choose Windows updates based on this filtering."
+msgstr ""
+"Lorsque ce paquet est installé sur le terminal, la prochaine analyse de mise à "
+"jour effectuée par WAPT choisira les mises à jour Windows en fonction de ce "
+"filtrage."
+
+#: ../../source/wapt-concept/index.rst:218
+msgid ""
+"If the host has several *WAPTWUA* packages, then WAPT will merge all packages "
+"rules."
+msgstr ""
+"Si la machine a plusieurs listes de paquets *wsus* applicables, alors WAPT "
+"combine les règles."
+
+#: ../../source/wapt-concept/index.rst:221
+msgid ""
+"When this package is installed on the host, the next :command:`update` will scan "
+"for official Windows updates applicable to the host based on this filtering."
+msgstr ""
+"Lorsque ce paquet est installé sur l'hôte, le prochain :command:`update' "
+"recherchera les mises à jour officielles de Windows applicables à l'hôte en "
+"fonction de ce filtrage."
+
+#: ../../source/wapt-concept/index.rst:225
+msgid "*selfservice* packages"
+msgstr "Les paquets *self-service*"
+
+#: ../../source/wapt-concept/index.rst:229
+msgid ""
+"*selfservice* packages contain a list of groups or users (Active Directory or "
+"local) and their associated lists of authorized packages that Users are allowed "
+"to install by themselves."
+msgstr ""
+"Les paquets *self-service* contiennent une liste de groupes ou d'utilisateurs "
+"(Active Directory ou local) et leurs listes associées de paquets que les "
+"utilisateurs seront autorisés à installer par eux-mêmes."
+
+#: ../../source/wapt-concept/index.rst:234
+msgid "*profile* packages"
+msgstr "Les paquets *profile*"
+
+#: ../../source/wapt-concept/index.rst:238
+msgid "*profile* packages are similar to *group* packages."
+msgstr "Les paquets *profile* sont similaires aux paquets *groupe*."
+
+#: ../../source/wapt-concept/index.rst:240
+msgid ""
+"However, *profile* packages work a little differently and are most useful when "
+"an Active Directory Server is operating within the :term:`Organization`:"
+msgstr ""
+"Cependant, les paquets *profile* fonctionnent un peu différemment et sont plus "
+"utiles lorsqu'un serveur Active Directory fonctionne dans l':term:"
+"`Organisation` :"
+
+#: ../../source/wapt-concept/index.rst:243
+msgid ""
+"the WAPT agent will list the Active Directory groups where the Host belongs;"
+msgstr ""
+"l'agent WAPT listera les groupes Active Directory auxquels appartient l'hôte ;"
+
+#: ../../source/wapt-concept/index.rst:245
+msgid ""
+"if a *profile* package has the same name as the Active Directory group, then the "
+"WAPT agent will install automatically the *profile* package for the Active "
+"Directory group of which it is a member;"
+msgstr ""
+"si un paquet *profile* porte le même nom que le groupe Active Directory, l'agent "
+"WAPT installera automatiquement le paquet *profile* pour le groupe Active "
+"Directory auquel il appartient ;"
+
+#: ../../source/wapt-concept/index.rst:249
+msgid ""
+"If the host is no longer a member of its Active Directory group, then the "
+"*profile* package will be uninstalled."
+msgstr ""
+"Si l'hôte n'est plus membre de son groupe Active Directory, le paquet *profile* "
+"sera désinstallé."
+
+#: ../../source/wapt-concept/index.rst:253
 msgid "Dependency mechanism"
 msgstr "Principe de dépendances"
 
-#: ../../source/wapt_concept/index.rst:210
+#: ../../source/wapt-concept/index.rst:255
 msgid "In WAPT everything works on the principle of dependencies."
 msgstr "Dans WAPT tout fonctionne selon le principe des dépendances."
 
-#: ../../source/wapt_concept/index.rst:212
+#: ../../source/wapt-concept/index.rst:257
 msgid ""
 "By default, the WAPT agent will look for its host package. The *host* package "
 "lists packages to install on the computer."
@@ -419,7 +516,7 @@ msgstr ""
 "Par défaut, le client WAPT va chercher à installer son paquet machine. Le paquet "
 "*host* listera les autres paquets à installer sur la machine."
 
-#: ../../source/wapt_concept/index.rst:215
+#: ../../source/wapt-concept/index.rst:260
 msgid ""
 "The *host* package is correctly installed when all its dependencies are "
 "satisfied."
@@ -427,11 +524,11 @@ msgstr ""
 "Ainsi, le paquet *host* sera correctement installé si toutes ses dépendances "
 "sont satisfaites."
 
-#: ../../source/wapt_concept/index.rst:218
+#: ../../source/wapt-concept/index.rst:263
 msgid "Each sub-dependency must be satisfied to satisfy an upper-level dependency."
 msgstr "Chaque dépendance devra satisfaire aux sous-dépendances et ainsi de suite."
 
-#: ../../source/wapt_concept/index.rst:220
+#: ../../source/wapt-concept/index.rst:265
 msgid ""
 "When every dependency is satisfied, the host notifies its status to the WAPT "
 "Server and its indicator turns **OK** and green in the WAPT console, meaning the "
@@ -442,11 +539,11 @@ msgstr ""
 "dans la console, signifiant que la machine est conforme au profil que l':term:"
 "`Administrateur` ou le :term:`Déployeur de Paquets` aura défini pour elle."
 
-#: ../../source/wapt_concept/index.rst:229
+#: ../../source/wapt-concept/index.rst:274
 msgid "Conceptual diagram of the dependency mechanism"
 msgstr "Schéma conceptuel de la notion de dépendance"
 
-#: ../../source/wapt_concept/index.rst:233
+#: ../../source/wapt-concept/index.rst:278
 msgid ""
 "When attributing a software package to a host as a dependency, only the software "
 "canonical name without its version number is registered as a dependency (ex : *I "
@@ -460,7 +557,7 @@ msgstr ""
 "program:`Freemind` soit configuré pour que l':term:`Utilisateur` ne m'appelle "
 "pas car il ne trouve pas l'icône sur son bureau!*)."
 
-#: ../../source/wapt_concept/index.rst:240
+#: ../../source/wapt-concept/index.rst:285
 msgid ""
 "For each dependency, the WAPT agent will take care of automatically installing "
 "the latest available package version. So if several version of :program:"
@@ -473,7 +570,7 @@ msgstr ""
 "program:`freemind` sont disponibles sur le dépôt, l'agent WAPT ira toujours "
 "chercher la dernière version."
 
-#: ../../source/wapt_concept/index.rst:246
+#: ../../source/wapt-concept/index.rst:291
 msgid ""
 "Afterwards, when the agent contacts the repository to check for new updates, it "
 "will compare the package versions on the repository with its own local list of "
@@ -483,7 +580,7 @@ msgstr ""
 "mises à jour, il compare les versions des paquets du dépôt avec sa propre liste "
 "locale de paquets déjà installés sur la machine."
 
-#: ../../source/wapt_concept/index.rst:250
+#: ../../source/wapt-concept/index.rst:295
 msgid ""
 "If an update of an installed package is available, the client will switch the "
 "status of the package to \"**NEED UPGRADE**. It will then install the software "
@@ -493,15 +590,15 @@ msgstr ""
 "le statut du paquet en \"**NEED UPGRADE**\". Il installera ainsi les mises à "
 "jour au prochain :command:`upgrade`."
 
-#: ../../source/wapt_concept/index.rst:255 ../../source/wapt_concept/index.rst:266
+#: ../../source/wapt-concept/index.rst:300 ../../source/wapt-concept/index.rst:311
 msgid "Private key / Public key principle"
 msgstr "Principe de clé privée / clé publique"
 
-#: ../../source/wapt_concept/index.rst:258
+#: ../../source/wapt-concept/index.rst:303
 msgid "Introduction"
 msgstr "Introduction"
 
-#: ../../source/wapt_concept/index.rst:260
+#: ../../source/wapt-concept/index.rst:305
 msgid ""
 "Like Android **APK** packages, WAPT packages are signed; a hash of the control "
 "sum of all the files included in the package is calculated."
@@ -509,17 +606,17 @@ msgstr ""
 "Comme **APK** sous Android, les paquets WAPT sont signés et embarquent une somme "
 "de contrôle de la liste des fichiers contenus dans le paquet."
 
-#: ../../source/wapt_concept/index.rst:263
+#: ../../source/wapt-concept/index.rst:308
 msgid "This signing method guarantees the origin and integrity of the package."
 msgstr ""
 "Cette méthode de signature permet de garantir la provenance et l'intégrité du "
 "paquet."
 
-#: ../../source/wapt_concept/index.rst:272
+#: ../../source/wapt-concept/index.rst:317
 msgid "Private key/ public certificate"
 msgstr "Principe de clé privée / clé publique"
 
-#: ../../source/wapt_concept/index.rst:274
+#: ../../source/wapt-concept/index.rst:319
 msgid ""
 "To work properly, WAPT requires a private key/ public key pair (self-signed, "
 "issued by an internal :term:`Certificate Authority` or commercially issued)."
@@ -527,7 +624,7 @@ msgstr ""
 "L'usage de WAPT nécessite un couple clé privée / certificat public (auto-signé, "
 "issu d'une :term:`Autorité de Certification` interne, ou commercial)."
 
-#: ../../source/wapt_concept/index.rst:277
+#: ../../source/wapt-concept/index.rst:322
 msgid ""
 "The **private key** will be used to **sign** WAPT packages whereas the **public "
 "key** will be distributed with every WAPT clients so that WAPT agents may "
@@ -537,7 +634,7 @@ msgstr ""
 "public** associé (CA associé ou certificat auto-signé) sera distribué sur chaque "
 "client WAPT."
 
-#: ../../source/wapt_concept/index.rst:281
+#: ../../source/wapt-concept/index.rst:326
 msgid ""
 "The different public keys will be stored in the WAPT subdirectory :file:`ssl`. "
 "That folder can contain several public keys."
@@ -545,11 +642,11 @@ msgstr ""
 "Les différents certificats publics seront stockés dans un dossier :file:`ssl` de "
 "l'agent WAPT, ce dossier peut contenir plusieurs certificats publics."
 
-#: ../../source/wapt_concept/index.rst:285
+#: ../../source/wapt-concept/index.rst:330
 msgid "Package verification"
 msgstr "Vérification des paquets"
 
-#: ../../source/wapt_concept/index.rst:287
+#: ../../source/wapt-concept/index.rst:332
 msgid ""
 "When a WAPT package is downloaded, the WAPT agent (:program:`waptagent`) will "
 "check the integrity of the package, and then check that the package has been "
@@ -559,17 +656,17 @@ msgstr ""
 "vérifie l'integrité des fichiers, puis vérifie que le paquet a été correctement "
 "**signé**."
 
-#: ../../source/wapt_concept/index.rst:291
+#: ../../source/wapt-concept/index.rst:336
 msgid ""
 "If the WAPT package signature does not match any of the public keys located in :"
-"file:`C:\\Program Files (x86)\\wapt\\ssl`, the WAPT agent will refuse to install "
-"the package."
+"file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl`, the WAPT agent will refuse to "
+"install the package."
 msgstr ""
 "Si l'agent WAPT ne parvient pas à vérifier le paquet avec les chaînes de "
-"certificats publics qu'il connaît :file:`C:\\Program Files (x86)\\wapt\\ssl`, "
-"l'agent WAPT refusera l'installation du paquet."
+"certificats publics qu'il connaît dans :file:`C:\\\\Program Files (x86)\\\\wapt\\"
+"\\ssl`, l'agent WAPT refusera d'installer paquet."
 
-#: ../../source/wapt_concept/index.rst:295
+#: ../../source/wapt-concept/index.rst:340
 msgid ""
 "For more information, please refer to the documentation on :ref:`how the "
 "installation process integrity of a WAPT package is insured "
@@ -579,11 +676,11 @@ msgstr ""
 "`protéger l'intégrité du processus d'installation des paquets WAPT "
 "<WAPT_package_installation_process_integrity>`."
 
-#: ../../source/wapt_concept/index.rst:300
+#: ../../source/wapt-concept/index.rst:345
 msgid "The private certificate is important"
 msgstr "Importance de la clé privée"
 
-#: ../../source/wapt_concept/index.rst:304
+#: ../../source/wapt-concept/index.rst:349
 msgid ""
 "The private key must **NOT** be stored on the WAPT Server, nor on any public or "
 "shared storage that could be accessed by non-authorized personnel. Indeed, WAPT "
@@ -593,7 +690,7 @@ msgstr ""
 "machine potentiellement accessible à une entité non-autorisée car toute la "
 "sécurité de WAPT repose sur la confidentialité des jeux de clés privées."
 
-#: ../../source/wapt_concept/index.rst:308
+#: ../../source/wapt-concept/index.rst:353
 msgid ""
 "The private key must be stored in a safe place, because **she who has your key "
 "controls your network**!"
@@ -601,7 +698,7 @@ msgstr ""
 "Elle doit être stockée en lieu sûr car **celui qui contrôle votre clé contrôle "
 "votre parc**."
 
-#: ../../source/wapt_concept/index.rst:311
+#: ../../source/wapt-concept/index.rst:356
 msgid ""
 "Finally, to ensure maximum security, the private key can be secured in a "
 "smartcard or a cryptographic token that WAPT :term:`Administrators` or :term:"
@@ -609,39 +706,39 @@ msgid ""
 "token only when needed to sign a WAPT package."
 msgstr ""
 "Enfin, pour un maximum de sécurité, la clé privée pourra être une smartcard ou "
-"un jeton cryptographique que les :term:`Administrateurs` et :term:`Déployeurs de Paquets` "
-"transporteront physiquement sur eux, utilisant leur smartcard ou "
-"leur jeton cryptographique ponctuellement pour signer un paquet WAPT."
+"un jeton cryptographique que les :term:`Administrateurs` et :term:`Déployeurs de "
+"Paquets` transporteront physiquement sur eux, utilisant leur smartcard ou leur "
+"jeton cryptographique ponctuellement pour signer un paquet WAPT."
 
-#: ../../source/wapt_concept/index.rst:318
+#: ../../source/wapt-concept/index.rst:363
 msgid ""
 "From WAPT 1.5 onward, the private key is protected with a password by default."
 msgstr ""
 "Depuis la version 1.5 de WAPT, la clé privée est protégée par un mot de passe."
 
-#: ../../source/wapt_concept/index.rst:322
+#: ../../source/wapt-concept/index.rst:367
 msgid "WAPT architecture and operating mode"
 msgstr "Fonctionnement et architecture WAPT"
 
-#: ../../source/wapt_concept/index.rst:325
+#: ../../source/wapt-concept/index.rst:370
 msgid "Inventory/ information feedback"
 msgstr "remontée des informations d'inventaire ;"
 
-#: ../../source/wapt_concept/index.rst:327
+#: ../../source/wapt-concept/index.rst:372
 msgid "WAPT keeps a hardware and software inventory of each host."
 msgstr "WAPT fait un inventaire matériel et logiciel de chaque machine."
 
-#: ../../source/wapt_concept/index.rst:329
+#: ../../source/wapt-concept/index.rst:374
 msgid "That inventory is stored in a small database integrated in each WAPT agent."
 msgstr ""
 "Cet inventaire est stocké dans une petite base de données incorporée dans "
 "l'agent WAPT."
 
-#: ../../source/wapt_concept/index.rst:335
+#: ../../source/wapt-concept/index.rst:380
 msgid "Inventory feedback mechanism"
 msgstr "Fonctionnement de la remontée d'inventaire"
 
-#: ../../source/wapt_concept/index.rst:337
+#: ../../source/wapt-concept/index.rst:382
 msgid ""
 "when first registering with the WAPT Server, the WAPT agent sends the entire "
 "inventory (BIOS, hardware, software) to the server;"
@@ -649,7 +746,7 @@ msgstr ""
 "lors d'un premier enregistrement, le client WAPT remonte la totalité de son "
 "inventaire (BIOS, machine, logiciels) au serveur ;"
 
-#: ../../source/wapt_concept/index.rst:340
+#: ../../source/wapt-concept/index.rst:385
 msgid ""
 "when the WAPT agent updates, the WAPT agent will report its inventory status to "
 "the WAPT Server;"
@@ -657,11 +754,11 @@ msgstr ""
 "lors de chaque mise à jour du client, l'agent WAPT remonte le delta de "
 "l'inventaire au serveur ;"
 
-#: ../../source/wapt_concept/index.rst:347
+#: ../../source/wapt-concept/index.rst:392
 msgid "The inventory in the WAPT console"
 msgstr "L'inventaire dans la console WAPT"
 
-#: ../../source/wapt_concept/index.rst:349
+#: ../../source/wapt-concept/index.rst:394
 msgid ""
 "The central inventory allows to filter hosts by their components, software or "
 "any other searchable argument."
@@ -669,19 +766,19 @@ msgstr ""
 "Cet inventaire centralisé permettra de filtrer les postes par matériel, logiciel "
 "ou de filtrer sur tout autre paramètre remonté dans l'inventaire."
 
-#: ../../source/wapt_concept/index.rst:353
+#: ../../source/wapt-concept/index.rst:398
 msgid "Information feedback"
 msgstr "La remontée d'informations"
 
-#: ../../source/wapt_concept/index.rst:355
+#: ../../source/wapt-concept/index.rst:400
 msgid "The WAPT agents also report back their WAPT package status."
 msgstr "L'agent WAPT remonte également le statut des paquets WAPT."
 
-#: ../../source/wapt_concept/index.rst:361
+#: ../../source/wapt-concept/index.rst:406
 msgid "Inventory feedback returned to the WAPT Server"
 msgstr "La remontée du statut des paquets vers le serveur WAPT"
 
-#: ../../source/wapt_concept/index.rst:363
+#: ../../source/wapt-concept/index.rst:408
 msgid ""
 "In case of errors during package installation, the information will be reported "
 "to the WAPT Server. The host will then appear in **ERROR** in the console."
@@ -689,11 +786,11 @@ msgstr ""
 "En cas d'erreur lors de l'installation du paquet, l'information sera transmise "
 "au serveur WAPT. La machine apparaîtra alors en **ERREUR** dans la console."
 
-#: ../../source/wapt_concept/index.rst:370
+#: ../../source/wapt-concept/index.rst:415
 msgid "Packages with error status in the WAPT console"
 msgstr "Elément en erreur dans la console WAPT"
 
-#: ../../source/wapt_concept/index.rst:372
+#: ../../source/wapt-concept/index.rst:417
 msgid ""
 "The :term:`Administrator` can see the package returned in error in the console "
 "and fix the package accordingly."
@@ -701,7 +798,7 @@ msgstr ""
 "L':term:`Administrateur` pourra ensuite constater l'erreur dans la console et la "
 "corriger."
 
-#: ../../source/wapt_concept/index.rst:375
+#: ../../source/wapt-concept/index.rst:420
 msgid ""
 "For each :command:`upgrade`, WAPT will try to install a new version of the "
 "package until no error status is returned."
@@ -709,7 +806,7 @@ msgstr ""
 "À chaque :command:`upgrade`, WAPT tentera une nouvelle fois l'installation du "
 "paquet en erreur."
 
-#: ../../source/wapt_concept/index.rst:380
+#: ../../source/wapt-concept/index.rst:425
 msgid ""
 "From WAPT 1.3.13 onward, WAPT agents sign their inventory before sending it to "
 "the WAPT Server."
@@ -717,7 +814,7 @@ msgstr ""
 "Pour plus de sécurité, depuis la version 1.3.13, l'inventaire remontée par "
 "l'agent wapt est signé par l'agentwapt."
 
-#: ../../source/wapt_concept/index.rst:383
+#: ../../source/wapt-concept/index.rst:428
 msgid ""
 "For more information, please refer to :ref:`signing inventory updates "
 "<signing_inventory_updates>`."
@@ -725,15 +822,15 @@ msgstr ""
 "Pour en savoir plus rendez-vous sur la documentation pour :ref:`signer les "
 "remontées d'inventaire <signing_inventory_updates>`."
 
-#: ../../source/wapt_concept/index.rst:387
+#: ../../source/wapt-concept/index.rst:432
 msgid "Complete diagram of the WAPT operating mechanism"
 msgstr "Diagramme complet du fonctionnement de WAPT"
 
-#: ../../source/wapt_concept/index.rst:393
+#: ../../source/wapt-concept/index.rst:438
 msgid "WAPT general operating mode"
 msgstr "Fonctionnement général de WAPT"
 
-#: ../../source/wapt_concept/index.rst:395
+#: ../../source/wapt-concept/index.rst:440
 msgid ""
 "We find here the common WAPT behavior, from duplicating a package from an "
 "external repository accessible on the Internet, to deploying it on network hosts."
@@ -741,97 +838,97 @@ msgstr ""
 "On retrouve ici le comportement classique de WAPT, de la duplication d'un paquet "
 "depuis un dépôt externe sur Internet jusqu'à son déploiement sur les clients."
 
-#: ../../source/wapt_concept/index.rst:399
+#: ../../source/wapt-concept/index.rst:444
 msgid "Read the diagram clockwise:"
 msgstr "Il faut lire ce schéma dans le sens des aiguilles d'une montre :"
 
-#: ../../source/wapt_concept/index.rst:401
+#: ../../source/wapt-concept/index.rst:446
 msgid ""
 "import packages from an external repository (or create a new package from "
 "scratch);"
 msgstr "importer des paquets depuis un dépôt (ou créer ex-nihilo un paquet) ;"
 
-#: ../../source/wapt_concept/index.rst:404
+#: ../../source/wapt-concept/index.rst:449
 msgid "test, validate, build and then sign the package;"
 msgstr "tester, ensuite valider, puis construire et enfin signer le paquet ;"
 
-#: ../../source/wapt_concept/index.rst:406
+#: ../../source/wapt-concept/index.rst:451
 msgid "upload the package onto the main repository;"
 msgstr "charger le paquet sur le dépôt principal ;"
 
-#: ../../source/wapt_concept/index.rst:408
+#: ../../source/wapt-concept/index.rst:453
 msgid "packages are automatically downloaded by WAPT clients;"
 msgstr "ensuite, téléchargement automatique des paquets par les clients WAPT ;"
 
-#: ../../source/wapt_concept/index.rst:410
+#: ../../source/wapt-concept/index.rst:455
 msgid "packages are executed based on the selected method:"
 msgstr "exécution des paquets selon la méthode sélectionnée :"
 
-#: ../../source/wapt_concept/index.rst:412
+#: ../../source/wapt-concept/index.rst:457
 msgid "The :term:`Administrator` forces the :command:`upgrade`;"
 msgstr "l':term:`Administrateur` force l':command:`upgrade` ;"
 
-#: ../../source/wapt_concept/index.rst:414
+#: ../../source/wapt-concept/index.rst:459
 msgid "the :term:`User` chooses the right time for herself;"
 msgstr "l':term:`Utilisateur` choisit le moment opportun pour lui ;"
 
-#: ../../source/wapt_concept/index.rst:416
+#: ../../source/wapt-concept/index.rst:461
 msgid "a scheduled task launches the upgrade;"
 msgstr "une tâche planifiée lance l'exécution de la mise à jour ;"
 
-#: ../../source/wapt_concept/index.rst:418
+#: ../../source/wapt-concept/index.rst:463
 msgid "the upgrade is executed when the machine shuts down;"
 msgstr "la mise à jour est exécutée à l'extinction de la machine ;"
 
-#: ../../source/wapt_concept/index.rst:420
+#: ../../source/wapt-concept/index.rst:465
 msgid "inventory information feedback;"
 msgstr "remontée des informations d'inventaire ;"
 
-#: ../../source/wapt_concept/index.rst:422
+#: ../../source/wapt-concept/index.rst:467
 msgid "the updated inventory is reported in the console;"
 msgstr "consultation de la remontée d'inventaire via la console ;"
 
-#: ../../source/wapt_concept/index.rst:425
+#: ../../source/wapt-concept/index.rst:470
 msgid "WAPT Server architecture"
 msgstr "Architecture du serveur WAPT"
 
-#: ../../source/wapt_concept/index.rst:427
+#: ../../source/wapt-concept/index.rst:472
 msgid "The WAPT Server architecture relies on several distinct roles:"
 msgstr ""
 "L'architecture du serveur WAPT repose sur plusieurs rôles distincts et en partie "
 "dissociables :"
 
-#: ../../source/wapt_concept/index.rst:429
+#: ../../source/wapt-concept/index.rst:474
 msgid "the *repository role* for distributing packages;"
 msgstr "rôle de dépôt : *distribution de paquets* ;"
 
-#: ../../source/wapt_concept/index.rst:431
+#: ../../source/wapt-concept/index.rst:476
 msgid ""
 "the *inventory* and *central server* role for hardware and software inventory;"
 msgstr "rôle d'inventaire : *inventaire matériel et logiciel* ;"
 
-#: ../../source/wapt_concept/index.rst:433
+#: ../../source/wapt-concept/index.rst:478
 msgid ""
 "the *proxy* role to relay actions between the WAPT console and the WAPT agents;"
 msgstr "rôle de proxy : *proxy de commande depuis la console* ;"
 
-#: ../../source/wapt_concept/index.rst:437
+#: ../../source/wapt-concept/index.rst:482
 msgid "Repository role"
 msgstr "Rôle de dépôt"
 
-#: ../../source/wapt_concept/index.rst:439
+#: ../../source/wapt-concept/index.rst:484
 msgid "First, the WAPT Server serves as a web repository."
 msgstr "Le serveur WAPT a pour premier rôle celui de dépôt de fichiers web."
 
-#: ../../source/wapt_concept/index.rst:445
+#: ../../source/wapt-concept/index.rst:490
 msgid "WAPT repository mechanism"
 msgstr "Fonctionnement du dépôt WAPT"
 
-#: ../../source/wapt_concept/index.rst:447
+#: ../../source/wapt-concept/index.rst:492
 msgid "the repository role is accomplished by a :program:`Nginx` web server;"
 msgstr "ce rôle de dépôt est accompli par un serveur web Nginx ;"
 
-#: ../../source/wapt_concept/index.rst:449
+#: ../../source/wapt-concept/index.rst:494
 msgid ""
 "the repository allows the distribution of WAPT packages, the installers for :"
 "program:`waptagent` and :program:`waptsetup`;"
@@ -839,7 +936,7 @@ msgstr ""
 "le dépôt permet la distribution des paquets WAPT, des installeurs :program:"
 "`waptagent` et :program:`waptsetup` ;"
 
-#: ../../source/wapt_concept/index.rst:452
+#: ../../source/wapt-concept/index.rst:497
 msgid ""
 "WAPT packages are available via a web browser by visiting https://srvwapt."
 "mydomain.lan/wapt;"
@@ -847,7 +944,7 @@ msgstr ""
 "les paquets WAPT sont accessibles avec un navigateur web à l'adresse : https://"
 "srvwapt.mydomain.lan/wapt ;"
 
-#: ../../source/wapt_concept/index.rst:455
+#: ../../source/wapt-concept/index.rst:500
 msgid ""
 "*host* packages are stored in a directory that is not accessible by default "
 "(https://srvwapt.mydomain.lan/wapt/wapt-host/);"
@@ -855,15 +952,15 @@ msgstr ""
 "les paquets machines sont contenus dans un répertoire inaccessible par défaut "
 "(https://srvwapt.mydomain.lan/wapt/wapt-host/) ;"
 
-#: ../../source/wapt_concept/index.rst:459
+#: ../../source/wapt-concept/index.rst:504
 msgid "Inventory server role"
 msgstr "Rôle d'inventaire"
 
-#: ../../source/wapt_concept/index.rst:460
+#: ../../source/wapt-concept/index.rst:505
 msgid "Second, the WAPT Server serves as an inventory server."
 msgstr "Le serveur WAPT a pour deuxième rôle celui de serveur d'inventaire."
 
-#: ../../source/wapt_concept/index.rst:462
+#: ../../source/wapt-concept/index.rst:507
 msgid ""
 "The inventory server is a passive service that collects information reported by "
 "WAPT agents:"
@@ -871,23 +968,23 @@ msgstr ""
 "Le serveur d'inventaire est un service passif qui collecte les informations que "
 "les agents WAPT lui envoient :"
 
-#: ../../source/wapt_concept/index.rst:465
+#: ../../source/wapt-concept/index.rst:510
 msgid "hardware inventory;"
 msgstr "inventaire matériel ;"
 
-#: ../../source/wapt_concept/index.rst:467
+#: ../../source/wapt-concept/index.rst:512
 msgid "software inventory;"
 msgstr "inventaire logiciel ;"
 
-#: ../../source/wapt_concept/index.rst:469
+#: ../../source/wapt-concept/index.rst:514
 msgid "WAPT packages status;"
 msgstr "statut des paquets WAPT ;"
 
-#: ../../source/wapt_concept/index.rst:471
+#: ../../source/wapt-concept/index.rst:516
 msgid "tasks status (*running*, *pending*, *error*);"
 msgstr "état des tâches (*running*, *pending*, *error*) ;"
 
-#: ../../source/wapt_concept/index.rst:475
+#: ../../source/wapt-concept/index.rst:520
 msgid ""
 "The WAPT service in not active in the sense that it only receives information "
 "from clients. As a consequence, if the inventory server fails, the inventory "
@@ -900,7 +997,7 @@ msgstr ""
 "se régénérera automatiquement à partir des remontées d'inventaire des agents "
 "déployés."
 
-#: ../../source/wapt_concept/index.rst:480
+#: ../../source/wapt-concept/index.rst:525
 msgid ""
 "In the Community version of WAPT, access to inventory data is only possible "
 "through the WAPT console."
@@ -909,7 +1006,7 @@ msgstr ""
 "la visualisation des données, l'accès aux données d'inventaire se fait au "
 "travers de la console WAPT."
 
-#: ../../source/wapt_concept/index.rst:483
+#: ../../source/wapt-concept/index.rst:528
 msgid ""
 "WAPT **Enterprise** 1.7 will come with a *Business Intelligence* like web based "
 "reporting."
@@ -917,24 +1014,24 @@ msgstr ""
 "En version **Enterprise**, l'inventaire est accessible à partir d'une console "
 "web de visualisation des données de type *Business Intelligence*."
 
-#: ../../source/wapt_concept/index.rst:487
+#: ../../source/wapt-concept/index.rst:532
 msgid "Proxy role"
 msgstr "Rôle de Proxy"
 
-#: ../../source/wapt_concept/index.rst:489
+#: ../../source/wapt-concept/index.rst:534
 msgid "Third, the WAPT Server serves as a command relay proxy."
 msgstr "Le serveur WAPT a pour troisième rôle celui de Proxy de commande."
 
-#: ../../source/wapt_concept/index.rst:491
+#: ../../source/wapt-concept/index.rst:536
 msgid ""
 "It acts as a relay between the WAPT management console and deployed WAPT agents."
 msgstr "Il agit comme un relai entre la console et les agents WAPT déployés."
 
-#: ../../source/wapt_concept/index.rst:497
+#: ../../source/wapt-concept/index.rst:542
 msgid "WAPT proxy mechanism"
 msgstr "Fonctionnement du proxy WAPT"
 
-#: ../../source/wapt_concept/index.rst:501
+#: ../../source/wapt-concept/index.rst:546
 msgid ""
 "Every action triggered on WAPT agent from the server are signed with the :term:"
 "`Administrator`'s private key. Without a valid private key, it is not possible "
@@ -948,15 +1045,15 @@ msgstr ""
 "vous dans la documentation sur la :ref:`signature des actions envoyées aux "
 "agents WAPT <signing_actions_relayed_to_WAPT_agents>`."
 
-#: ../../source/wapt_concept/index.rst:508
+#: ../../source/wapt-concept/index.rst:553
 msgid "WAPT common interactions"
 msgstr "Les interactions classiques de WAPT"
 
-#: ../../source/wapt_concept/index.rst:511
+#: ../../source/wapt-concept/index.rst:556
 msgid "update"
 msgstr "update"
 
-#: ../../source/wapt_concept/index.rst:513
+#: ../../source/wapt-concept/index.rst:558
 msgid ""
 "When an :command:`update` command is launched on an agent (from the console, via "
 "the command-line or via the WAPT tray), it is equivalent to ordering the agent "
@@ -969,7 +1066,7 @@ msgstr ""
 "paquets sont disponibles. Par défaut, l'agent WAPT interroge son dépôt toutes "
 "les deux heures."
 
-#: ../../source/wapt_concept/index.rst:518
+#: ../../source/wapt-concept/index.rst:563
 msgid ""
 "If the date of the :file:`Packages` index file has changed since the last :"
 "command:`update`, then the WAPT agent downloads the new :file:`Packages` file "
@@ -979,7 +1076,7 @@ msgstr ""
 "`update`, alors l'agent WAPT télécharge le nouveau fichier :file:`Packages` "
 "(entre 20 et 100ko)."
 
-#: ../../source/wapt_concept/index.rst:522
+#: ../../source/wapt-concept/index.rst:567
 msgid ""
 "The WAPT agent then compares the :file:`Packages` file with its own local "
 "database."
@@ -987,7 +1084,7 @@ msgstr ""
 "L'agent WAPT compare ensuite le nouveau fichier :file:`Packages` avec sa base de "
 "données locale."
 
-#: ../../source/wapt_concept/index.rst:525
+#: ../../source/wapt-concept/index.rst:570
 msgid ""
 "If the WAPT agent detects that a package must be added or updated, it will "
 "switch the status of the host and package to *NEED-UPGRADE*."
@@ -995,7 +1092,7 @@ msgstr ""
 "Si l'agent WAPT constate qu'un paquet doit être ajouté, supprimé ou mis à jour, "
 "il basculera l'état du paquet en *NEED-UPGRADE*."
 
-#: ../../source/wapt_concept/index.rst:528
+#: ../../source/wapt-concept/index.rst:573
 msgid ""
 "It will not launch the installation of the package immediately. The WAPT agent "
 "will wait for an \":command:`upgrade`\" order to launch the upgrade."
@@ -1003,11 +1100,11 @@ msgstr ""
 "Il ne lancera pas immédiatement l'installation du paquet. Il attendra l'ordre :"
 "command:`upgrade` pour exécuter la mise à jour."
 
-#: ../../source/wapt_concept/index.rst:533
+#: ../../source/wapt-concept/index.rst:578
 msgid "upgrade"
 msgstr "upgrade"
 
-#: ../../source/wapt_concept/index.rst:535
+#: ../../source/wapt-concept/index.rst:580
 msgid ""
 "When we launch a command :command:`upgrade` (from the WAPT console, using the "
 "command line, with a Windows scheduled task or manually with the WAPT tray), we "
@@ -1018,7 +1115,7 @@ msgstr ""
 "guilabel:`wapttray`), on ordonne à l'agent d'installer les paquets en statut "
 "*NEED-UPGRADE*."
 
-#: ../../source/wapt_concept/index.rst:540
+#: ../../source/wapt-concept/index.rst:585
 msgid ""
 "An :command:`update` must come before an :command:`upgrade`, otherwise the agent "
 "will not know whether updates are available."
@@ -1026,11 +1123,11 @@ msgstr ""
 "Un :command:`update` doit précéder un :command:`upgrade`, sinon l'agent ne saura "
 "pas que des mises à jour sont devenues disponibles."
 
-#: ../../source/wapt_concept/index.rst:544
+#: ../../source/wapt-concept/index.rst:589
 msgid "Working principle of the WAPT agent"
 msgstr "Fonctionnement de l'agent WAPT"
 
-#: ../../source/wapt_concept/index.rst:546
+#: ../../source/wapt-concept/index.rst:591
 msgid ""
 "By default, the WAPT agent will trigger an :command:`update`/ a :command:"
 "`download-upgrade` at startup; after starting up, the WAPT agent will check "
@@ -1040,15 +1137,15 @@ msgstr ""
 "au démarrage du service, puis toutes les deux heures pour vérifier s'il a des "
 "choses à faire."
 
-#: ../../source/wapt_concept/index.rst:550
+#: ../../source/wapt-concept/index.rst:595
 msgid ""
-"Packages to be installed will be downloaded and cached in the folder :file:`C:"
-"\\Program Files (x86)\\wapt\\cache`."
+"Packages to be installed will be downloaded and cached in the folder :file:`C:\\"
+"\\Program Files (x86)\\\\wapt\\\\cache`."
 msgstr ""
 "Si des paquets sont en attente d'installation, ils seront automatiquement "
-"téléchargés dans le dossier :file:`C:\\Program Files (x86)\\wapt\\cache`."
+"téléchargés dans le dossier :file:`C:\\\\Program Files (x86)\\\\wapt\\\\cache`."
 
-#: ../../source/wapt_concept/index.rst:553
+#: ../../source/wapt-concept/index.rst:598
 msgid ""
 ":program:`waptexit` will launch an :command:`upgrade` when the computer shuts "
 "down. An :term:`Administrator` will also be able to launch an :command:`upgrade` "
@@ -1058,7 +1155,7 @@ msgstr ""
 "l'ordinateur avec le :program:`waptexit`. Un :term:`Administrateur` pourra "
 "également forcer un :command:`upgrade` depuis la console."
 
-#: ../../source/wapt_concept/index.rst:557
+#: ../../source/wapt-concept/index.rst:602
 msgid ""
 "If the WAPT Server is not reachable when upgrading, the WAPT agent will still be "
 "able to install cached packages."
@@ -1067,7 +1164,7 @@ msgstr ""
 "l'agent WAPT pourra tout de même installer ses paquets en attente car ils seront "
 "disponibles dans le cache."
 
-#: ../../source/wapt_concept/index.rst:560
+#: ../../source/wapt-concept/index.rst:605
 msgid ""
 "Inventory updates will then be sent to the WAPT Server when network connectivity "
 "returns."
@@ -1075,31 +1172,31 @@ msgstr ""
 "L'inventaire sera ensuite envoyé quand le serveur WAPT sera de nouveau "
 "disponible."
 
-#: ../../source/wapt_concept/index.rst:563
+#: ../../source/wapt-concept/index.rst:608
 msgid "The 4 goals of the WAPT agent are therefore:"
 msgstr "Les 4 buts de l'agent WAPT sont donc :"
 
-#: ../../source/wapt_concept/index.rst:565
+#: ../../source/wapt-concept/index.rst:610
 msgid "to install a *base*, a *group* or a *unit* package if it is available;"
 msgstr ""
 "d'installer un paquet *host*, *group* ou *unit* si celui-ci est disponible ;"
 
-#: ../../source/wapt_concept/index.rst:567
+#: ../../source/wapt-concept/index.rst:612
 msgid "to remove obsolete packages;"
 msgstr "de supprimer les paquets obsolètes ;"
 
-#: ../../source/wapt_concept/index.rst:569
+#: ../../source/wapt-concept/index.rst:614
 msgid "to resolve package dependencies and conflicts;"
 msgstr "de résoudre les dépendances et les conflits ;"
 
-#: ../../source/wapt_concept/index.rst:571
+#: ../../source/wapt-concept/index.rst:616
 msgid ""
 "to make sure all installed WAPT packages are up to date compared to the ones "
 "stored on the repository;"
 msgstr ""
 "de maintenir tous ses paquets WAPT installés à jour par rapport à ceux du dépôt ;"
 
-#: ../../source/wapt_concept/index.rst:574
+#: ../../source/wapt-concept/index.rst:619
 msgid ""
 "to regularly update the WAPT server with its hardware status and the status of "
 "installed software;"
@@ -1107,21 +1204,21 @@ msgstr ""
 "d'envoyer régulièrement son inventaire matériel et l'état d'installation de ses "
 "paquets ;"
 
-#: ../../source/wapt_concept/index.rst:578
+#: ../../source/wapt-concept/index.rst:623
 msgid "WAPT package creation"
 msgstr "La création de paquets WAPT"
 
-#: ../../source/wapt_concept/index.rst:581
+#: ../../source/wapt-concept/index.rst:626
 msgid "WAPT language and development environment"
 msgstr "Le langage de WAPT et les environments de développement"
 
-#: ../../source/wapt_concept/index.rst:583
+#: ../../source/wapt-concept/index.rst:628
 msgid "WAPT is build using the `Python language <https://www.python.org>`_."
 msgstr ""
 "WAPT est édité avec le `langage de programmation Python <https://www.python.org/"
 ">`_."
 
-#: ../../source/wapt_concept/index.rst:585
+#: ../../source/wapt-concept/index.rst:630
 msgid ""
 "Any Rapid Application Development environment intended for Python development is "
 "suitable."
@@ -1129,7 +1226,7 @@ msgstr ""
 "N'importe quel environment de développement rapide (RAD) destiné à la "
 "programmation python convient."
 
-#: ../../source/wapt_concept/index.rst:588
+#: ../../source/wapt-concept/index.rst:633
 msgid ""
 "Tranquil IT has developed some useful WAPT specific plugins for the :program:"
 "`PyScripter` IDE (https://sourceforge.net/projects/pyscripter)."
@@ -1137,7 +1234,7 @@ msgstr ""
 "WAPT a développé quelques extensions très utiles dans le RAD PyScripter https://"
 "sourceforge.net/projects/pyscripter."
 
-#: ../../source/wapt_concept/index.rst:591
+#: ../../source/wapt-concept/index.rst:636
 msgid ""
 "Tranquil IT recommends using :program:`PyScripter`, available with the *tis-"
 "waptdev* meta-package."
@@ -1145,67 +1242,67 @@ msgstr ""
 "Tranquil IT recommande l'usage de :program:`PyScripter`, disponible dans le "
 "paquet *tis-waptdev*."
 
-#: ../../source/wapt_concept/index.rst:595
+#: ../../source/wapt-concept/index.rst:640
 msgid "Principles of WAPT package development"
 msgstr "Les grands concepts du développement de paquets WAPT"
 
-#: ../../source/wapt_concept/index.rst:598
+#: ../../source/wapt-concept/index.rst:643
 msgid "The strength of Python"
 msgstr "La puissance de Python"
 
-#: ../../source/wapt_concept/index.rst:600
+#: ../../source/wapt-concept/index.rst:645
 msgid "All the power of :program:`Python` can be advantageously put to use."
 msgstr ""
 "Toute la puissance de :program:`Python` peut être avantageusement exploitée."
 
-#: ../../source/wapt_concept/index.rst:602
+#: ../../source/wapt-concept/index.rst:647
 msgid "Many libraries already exist in Python for:"
 msgstr "De nombreuses librairies existent en standard avec Python pour :"
 
-#: ../../source/wapt_concept/index.rst:604
+#: ../../source/wapt-concept/index.rst:649
 msgid "doing conditional loops (if ... then ... else ...);"
 msgstr "faire des boucles de vérification (if ... then ... else ...) ;"
 
-#: ../../source/wapt_concept/index.rst:606
+#: ../../source/wapt-concept/index.rst:651
 msgid "copying, pasting, moving files and directories;"
 msgstr "copier, coller, déplacer des fichiers ou des répertoires ;"
 
-#: ../../source/wapt_concept/index.rst:608
+#: ../../source/wapt-concept/index.rst:653
 msgid "checking whether files or directories exist;"
 msgstr "tester l'existence ou l'absence de fichiers ou de répertoires ;"
 
-#: ../../source/wapt_concept/index.rst:610
+#: ../../source/wapt-concept/index.rst:655
 msgid "checking whether registry keys exist;"
 msgstr "tester l'existence ou l'absence d'éléments de base de registre ;"
 
-#: ../../source/wapt_concept/index.rst:612
+#: ../../source/wapt-concept/index.rst:657
 msgid "checking access rights, modifying access rights;"
 msgstr "tester des droits, les modifier ;"
 
-#: ../../source/wapt_concept/index.rst:614
+#: ../../source/wapt-concept/index.rst:659
 msgid ""
 "looking up information on external data sources (LDAP, databases, files, etc);"
 msgstr ""
 "interroger des sources de données extérieures (annuaires, bases de données, "
 "autres référentiels) ;"
 
-#: ../../source/wapt_concept/index.rst:616
+#: ../../source/wapt-concept/index.rst:661
 msgid "etc ..."
 msgstr "etc ..."
 
-#: ../../source/wapt_concept/index.rst:619
+#: ../../source/wapt-concept/index.rst:664
 msgid "The power of WAPT"
 msgstr "La puissance de WAPT"
 
-#: ../../source/wapt_concept/index.rst:621
+#: ../../source/wapt-concept/index.rst:666
 msgid ""
-"Functions most commonly used with WAPT were simplified within libraries called "
-"**:term:`SetupHelpers`**."
+"Functions most commonly used with WAPT were simplified within libraries called :"
+"term:`SetupHelpers`."
 msgstr ""
 "Les actions les plus fréquemment employées avec WAPT ont été simplifiées dans "
-"des fonctions **:term:`SetupHelpers`**."
+"des fonctions appelées **:term:`SetupHelpers`**."
 
-#: ../../source/wapt_concept/index.rst:624
+#: ../../source/wapt-concept/index.rst:669
 msgid ""
 "**SetupHelpers** libraries simplify the process of creating and testing WAPT "
 "packages, thus validating WAPT's main objectives:"
@@ -1213,76 +1310,18 @@ msgstr ""
 "Les fonctions **SetupHelpers** simplifient la création ou l'évaluation de "
 "paquets WAPT, validant l'objectif initial de WAPT :"
 
-#: ../../source/wapt_concept/index.rst:627
+#: ../../source/wapt-concept/index.rst:672
 msgid "**what was complicated is made simple**;"
 msgstr "**ce qui était compliqué est rendu simple avec WAPT** ;"
 
-#: ../../source/wapt_concept/index.rst:629
+#: ../../source/wapt-concept/index.rst:674
 msgid "**what was simple is made trivial** ;"
 msgstr "**ce qui était simple est rendu trivial avec WAPT** ;"
 
-#: ../../source/wapt_concept/index.rst:631
+#: ../../source/wapt-concept/index.rst:676
 msgid "Now, I want to :ref:`install my WAPT Server <installing_WAPT_Server>`!!"
 msgstr ""
 "Je veux maintenant :ref:`installer mon serveur WAPT <installing_WAPT_Server>` !!"
-
-#: ../../source/wapt_concept/index.rst:636
-msgid "Why is WAPT superior to some alternatives?"
-msgstr "Pourquoi WAPT est supérieur à certaines alternatives ?"
-
-#: ../../source/wapt_concept/index.rst:639
-msgid "More effective that GPOs to deploy software packages?"
-msgstr "Plus efficace que les GPO pour déployer des logiciels ?"
-
-#: ../../source/wapt_concept/index.rst:641
-msgid "WAPT is **better at managing errors and special cases**;"
-msgstr "WAPT **gère mieux les erreurs et les cas particuliers** ;"
-
-#: ../../source/wapt_concept/index.rst:643
-msgid ""
-"WAPT **ensures a reliable feedback of actions** undertaken in the console. By "
-"placing :command:`print()` commands in the setup file of the WAPT package, it is "
-"possible to know exactly where the error is triggered, allowing to improve the "
-"reliability of a WAPT package, or to adapt the package according to the special "
-"profile of the machine;"
-msgstr ""
-"WAPT **assure un retour sûr dans la console de reporting de l'action réalisée**, "
-"et en mettant des :command:`print()` dans la recette d'installation du paquet "
-"WAPT, on sait exactement où l'erreur s'est produite, ce qui permet d'améliorer "
-"la qualité du paquet WAPT, ou bien d'adapter les paquets en fonction des profils "
-"de machine ;"
-
-#: ../../source/wapt_concept/index.rst:649
-msgid ""
-"cached WAPT packages are **installed even though the computer is offline** (ex: "
-"traveling agent needing to update in the evening at the hotel);"
-msgstr ""
-"les paquets WAPT en cache sont **installés même si le PC est déconnecté** (ex: "
-"nomade le soir dans son hôtel) ;"
-
-#: ../../source/wapt_concept/index.rst:652
-msgid ""
-"WAPT also **works on computers that are not joined to an Active Directory "
-"domain**;"
-msgstr "WAPT fonctionne aussi sur des **PC non inscrits dans le domaine** ;"
-
-#: ../../source/wapt_concept/index.rst:655
-msgid "it is **impossible to know exactly when GPOs will be executed**;"
-msgstr "**on ne maîtrise pas très bien quand les GPO sont exécutées** ;"
-
-#: ../../source/wapt_concept/index.rst:657
-msgid "WAPT **relies on standard web protocols for transport** to haul packages;"
-msgstr ""
-"WAPT s'appuie sur les **protocoles standards du web pour transporter les "
-"paquets** ;"
-
-#: ../../source/wapt_concept/index.rst:659
-msgid ""
-"the **levels of security are identical** (the security of GPO is insured by "
-"Kerberos and the securituy in WAPT is insured with Kerberos, then X509);"
-msgstr ""
-"**le niveau de sécurité est identique** (GPO assuré par kerberos, WAPT assuré "
-"par kerberos, puis X509) ;"
 
 #~ msgid ""
 #~ "Afterwards, when the agent contacts the repository to check for new updates (:"
@@ -1361,3 +1400,53 @@ msgstr ""
 #~ "workstations if needed."
 #~ msgstr ""
 #~ "L'Administrateur WAPT peut donc lancer des actions sur les machines allumées."
+
+#~ msgid "Why is WAPT superior to some alternatives?"
+#~ msgstr "Pourquoi WAPT est supérieur à certaines alternatives ?"
+
+#~ msgid "More effective that GPOs to deploy software packages?"
+#~ msgstr "Plus efficace que les GPO pour déployer des logiciels ?"
+
+#~ msgid "WAPT is **better at managing errors and special cases**;"
+#~ msgstr "WAPT **gère mieux les erreurs et les cas particuliers** ;"
+
+#~ msgid ""
+#~ "WAPT **ensures a reliable feedback of actions** undertaken in the console. By "
+#~ "placing :command:`print()` commands in the setup file of the WAPT package, it "
+#~ "is possible to know exactly where the error is triggered, allowing to improve "
+#~ "the reliability of a WAPT package, or to adapt the package according to the "
+#~ "special profile of the machine;"
+#~ msgstr ""
+#~ "WAPT **assure un retour sûr dans la console de reporting de l'action "
+#~ "réalisée**, et en mettant des :command:`print()` dans la recette "
+#~ "d'installation du paquet WAPT, on sait exactement où l'erreur s'est produite, "
+#~ "ce qui permet d'améliorer la qualité du paquet WAPT, ou bien d'adapter les "
+#~ "paquets en fonction des profils de machine ;"
+
+#~ msgid ""
+#~ "cached WAPT packages are **installed even though the computer is offline** "
+#~ "(ex: traveling agent needing to update in the evening at the hotel);"
+#~ msgstr ""
+#~ "les paquets WAPT en cache sont **installés même si le PC est déconnecté** "
+#~ "(ex: nomade le soir dans son hôtel) ;"
+
+#~ msgid ""
+#~ "WAPT also **works on computers that are not joined to an Active Directory "
+#~ "domain**;"
+#~ msgstr "WAPT fonctionne aussi sur des **PC non inscrits dans le domaine** ;"
+
+#~ msgid "it is **impossible to know exactly when GPOs will be executed**;"
+#~ msgstr "**on ne maîtrise pas très bien quand les GPO sont exécutées** ;"
+
+#~ msgid ""
+#~ "WAPT **relies on standard web protocols for transport** to haul packages;"
+#~ msgstr ""
+#~ "WAPT s'appuie sur les **protocoles standards du web pour transporter les "
+#~ "paquets** ;"
+
+#~ msgid ""
+#~ "the **levels of security are identical** (the security of GPO is insured by "
+#~ "Kerberos and the securituy in WAPT is insured with Kerberos, then X509);"
+#~ msgstr ""
+#~ "**le niveau de sécurité est identique** (GPO assuré par kerberos, WAPT assuré "
+#~ "par kerberos, puis X509) ;"

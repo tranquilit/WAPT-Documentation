@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-07 14:08+0100\n"
-"PO-Revision-Date: 2018-11-07 14:11+0100\n"
+"POT-Creation-Date: 2019-02-27 10:29+0100\n"
+"PO-Revision-Date: 2019-02-27 11:08+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
@@ -12,42 +12,42 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.5.3\n"
 "X-Generator: Poedit 1.8.8\n"
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:8
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:17
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:8
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:17
 msgid "Generating the Administrator's certificate for signing WAPT packages"
 msgstr "Générer le certificat de l'Administrateur pour signer les paquets"
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:8
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:8
 msgid "wapt-private.pem, wapt-private.crt, signer, certificate documentation"
 msgstr ""
 "wapt-private.pem, wapt-private.crt, signer, certificat, WAPT, documentation"
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:20
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:20
 msgid "Introduction"
 msgstr "Introduction"
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:23
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:23
 msgid "Naming conventions"
 msgstr "Hypothèse de cette documentation"
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:25
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:25
 msgid "name of the private key: :file:`wapt-private.pem`;"
 msgstr "le nom de la clé privée est :file:`wapt-private.pem` ;"
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:27
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:27
 msgid "public certificate signed with private key: :file:`wapt-private.crt`;"
 msgstr ""
 "certificat public signé avec le fichier de la clé privée :file:`wapt-private."
 "crt` ;"
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:30
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:30
 msgid "Private key *wapt-private.pem*"
 msgstr "La clé privée *wapt-private.pem*"
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:34
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:34
 msgid ""
 "The :file:`wapt-private.pem` file is fundamental for security. It must be "
 "stored in a safe place and correctly protected."
@@ -56,16 +56,16 @@ msgstr ""
 "importance **fondamentale**. Il doit être conservé en lieu sûr et correctement "
 "protégé."
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:37
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:37
 msgid ""
 "The :file:`wapt-private.pem` file is the private key, it is located by default "
-"in the :file:`C:\\private` folder of the :term:`Administrator` workstation."
+"in the :file:`C:\\\\private` folder of the :term:`Administrator` workstation."
 msgstr ""
 "Le fichier :file:`wapt-private.pem` est la clé privée, elle est générée puis "
-"copiée par défaut dans le dossier :file:`C:\\private` du poste de l':term:"
+"copiée par défaut dans le dossier :file:`C:\\\\private` du poste de l\\':term:"
 "`Administrateur`."
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:40
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:40
 msgid ""
 "For better security this private key may be transfered on an external storage. "
 "A smartcard support is in the roadmap."
@@ -73,7 +73,7 @@ msgstr ""
 "Pour plus de sûreté, la clé privée peut être transférée sur un support externe "
 "sécurisé."
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:43
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:43
 msgid ""
 "This private key will be used along with the certificate to sign packages "
 "before uploading them onto the WAPT repository."
@@ -81,50 +81,50 @@ msgstr ""
 "Elle servira, en pointant sur le certificat, à signer les paquets WAPT avant de "
 "les envoyer sur le dépôt."
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:47
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:47
 msgid "public certificate signed with private key: :file:`wapt-private.crt`"
 msgstr "Le certificat public *wapt-private.crt*"
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:49
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:49
 msgid ""
 "The :file:`wapt-private.crt` file is the public certificate that is used along "
-"with the private key. It is by default created in the :file:`C:\\private` "
-"folder, copied in :file:`C:\\Program Files (x86)\\wapt\\ssl` of the "
+"with the private key. It is by default created in the :file:`C:\\\\private` "
+"folder, copied in :file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl` of the "
 "Administrator and deployed on the desktops managed by the Administrator via "
 "WAPT agent or a GPO."
 msgstr ""
 "Le fichier :file:`wapt-private.crt` est le certificat public issu de la clé "
-"privée, il est copié dans les dossiers :file:`C:\\\\private` et :file:`C:"
-"\\Program Files (x86)\\wapt\\ssl` de tous les postes équipés de WAPT."
+"privée, il est copié dans les dossiers :file:`C:\\\\private` et :file:`C:\\"
+"\\Program Files (x86)\\\\wapt\\\\ssl` de tous les postes équipés de WAPT."
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:55
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:55
 msgid ""
 "This certificate is used to validate the signature of packages before "
 "installation."
 msgstr ""
 "Ce certificat sert à valider la signature des paquets avant leur installation."
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:59
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:59
 msgid "Creating a certificate"
 msgstr "Générer le certificat"
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:61
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:61
 msgid "In the WAPT console go to :menuselection:`Tools --> Create a certificate`;"
 msgstr ""
 "Dans la console WAPT aller dans :menuselection:`Outils --> Créer un "
 "certificat` ;"
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:67
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:90
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:174
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:67
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:90
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:174
 msgid "Creating a self-signed certificate"
 msgstr "Générer un certificat auto-signé"
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:71
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:71
 msgid "We have two different options:"
 msgstr "A partir d'ici, deux cas possibles :"
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:73
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:73
 msgid ""
 ":ref:`create a certificate for the Community version "
 "<create_certificate_community>`;"
@@ -132,7 +132,7 @@ msgstr ""
 ":ref:`créer un certificat pour la version WAPT Community "
 "<create_certificate_community>` ;"
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:76
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:76
 msgid ""
 ":ref:`create a certificate for the Enterprise version "
 "<create_certificate_enterprise>`;"
@@ -140,27 +140,27 @@ msgstr ""
 ":ref:`créer des certificats pour la version WAPT Enterprise "
 "<create_certificate_enterprise>` ;"
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:82
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:82
 msgid "Creating a certificate - WAPT Community"
 msgstr "Générer le certificat - WAPT Community"
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:84
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:84
 msgid "fill in the following fields:"
 msgstr "renseigner les champs suivants :"
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:92
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:152
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:246
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:92
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:152
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:246
 msgid "click on :guilabel:`OK` to go on to the next step;"
 msgstr "cliquer sur :guilabel:`OK` pour passer à l'étape suivante ;"
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:94
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:176
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:94
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:176
 msgid "Required informations are:"
 msgstr "Les informations à renseigner sont :"
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:96
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:178
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:96
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:178
 msgid ""
 ":guilabel:`Destination folder`: folder where the private key and the public "
 "certificate will be stored: **required**;"
@@ -168,31 +168,31 @@ msgstr ""
 ":guilabel:`Répertoire de destination` où seront sauvegardés la clé privée et le "
 "certificat public : **obligatoire** ;"
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:99
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:99
 msgid ""
 ":guilabel:`Name of the private key`: name of the :file:`.pem` and :guilabel:"
 "`Name of the private key`;"
 msgstr ""
 ":guilabel:`Nom de la clé` donné aux fichiers :file:`.pem` et :file:`.crt` ;"
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:102
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:105
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:185
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:102
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:105
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:185
 msgid ""
 ":guilabel:`Private key password`: password for locking and unlocking the key: "
 "**required**;"
 msgstr ""
 ":guilabel:`Mot de passe de la clé` pour vérouiller la clé : **obligatoire** ;"
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:108
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:188
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:108
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:188
 msgid ":guilabel:`Common Name (CN)`: name of the Administrator: **required**;"
 msgstr ""
 ":guilabel:`Common Name (CN)` pour identifier formellement le signataire : "
 "**obligatoire** ;"
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:110
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:190
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:110
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:190
 msgid ""
 ":guilabel:`Certificate name`: name of the :file:`.crt` certificate: "
 "**required**;"
@@ -200,8 +200,8 @@ msgstr ""
 ":guilabel:`Certificate Name` donné au certificat :file:`.crt` : "
 "**obligatoire** ;"
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:113
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:200
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:113
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:200
 msgid ""
 ":guilabel:`Additional informations`: additional details stored in the private "
 "key. These informations will help with identifying the origin of the WAPT "
@@ -211,14 +211,14 @@ msgstr ""
 "informations permettront aux destinataires d'un paquet WAPT de connaître son "
 "origine."
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:117
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:117
 msgid "For a fresh install, you can follow the screenshot below."
 msgstr ""
 "Pour une première installation, vous pouvez suivre l'exemple de la capture "
 "d'écran."
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:121
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:206
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:121
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:206
 msgid ""
 "The password complexity must comply with your :term:`Organization`'s security "
 "requirements (eg. :term:`ANSSI` passwords recommendations)."
@@ -227,50 +227,51 @@ msgstr ""
 "préconisations en vigueur dans votre :term:`Organisation` (par exemple les "
 "recommandations :term:`ANSSI`)."
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:126
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:126
 msgid ""
 "the path to your private key must not be in the installation path of WAPT (:"
-"file:`C:\\Program Files (x86)\\wapt`);"
+"file:`C:\\\\Program Files (x86)\\\\wapt`);"
 msgstr ""
 "le répertoire de destination de la clé privée ne doit pas être le dossier "
-"d'installation de WAPT (:file:`C:\\Program Files (x86)\\wapt`) ;"
+"d'installation de WAPT (:file:`C:\\\\Program Files (x86)\\\\wapt`) ;"
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:129
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:129
 msgid ""
-"if your key is stored in :file:`C:\\Program Files (x86)\\wapt\\`, your :term:"
+"if your key is stored in :file:`C:\\\\Program Files (x86)\\\\wapt`, your :term:"
 "`Administrator` private key will be deployed on your clients, **absolutely a no "
 "go!**"
 msgstr ""
-"si votre clé est stockée dans :file:`C:\\Program Files (x86)\\wapt\\wapt\\`, "
-"votre clé privée d':term:`Administrateur` sera déployée sur vos clients, "
+"si votre clé est stockée dans :file:`C:\\\\Program Files (x86)\\\\wapt`, votre "
+"clé privée d\\':term:`Administrateur` sera déployée sur vos clients, "
 "**absolument à ne pas faire !**"
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:137
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:231
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:137
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:231
 msgid "Confirmation of the copy of the certificate in the ssl folder"
 msgstr "Confirmation de copie dans le répertoire ssl"
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:139
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:139
 msgid ""
 "click on :guilabel:`Yes` to copy the newly generated certificate in the :file:"
-"`C:\\Program Files (x86)\\wapt\\ssl` folder. This certificate will be picked up "
-"during the compilation of the WAPT agent and deployed on the client computers."
+"`C:\\\\Program Files (x86)\\\\wapt\\\\ssl` folder. This certificate will be "
+"picked up during the compilation of the WAPT agent and deployed on the client "
+"computers."
 msgstr ""
 "cliquer sur :guilabel:`Oui` pour valider la copie du certificat dans le "
-"dossier :file:`C:\\Program Files (x86)\\wapt\\ssl`. Cela autorisera cette clé "
-"pour votre agent WAPT."
+"dossier :file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl`. Cela autorisera cette "
+"clé pour votre agent WAPT."
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:144
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:238
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:144
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:238
 msgid "If everything has gone well the following message will appear:"
 msgstr "Lorsque tout s'est bien déroulé le message suivant apparaît :"
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:150
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:244
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:150
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:244
 msgid "Certificate generated successfully"
 msgstr "Réussite de la génération du certificat"
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:154
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:154
 msgid ""
 "You may go on to the next step and :ref:`configure your WAPT console "
 "<wapt_console_config>`!!"
@@ -278,11 +279,11 @@ msgstr ""
 "Vous pouvez maintenant passer à l'étape suivante et :ref:`configurer votre "
 "console WAPT <wapt_console_config>` !!"
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:160
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:160
 msgid "Creating a certificate - WAPT Enterprise"
 msgstr "Générer le certificat - WAPT Enterprise"
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:162
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:162
 msgid ""
 "With WAPT Enterprise, you can create a Master key with a Certificate Authority "
 "flag that can both sign packages and sign new certificates."
@@ -290,7 +291,7 @@ msgstr ""
 "En version WAPT Enterprise, créer une clé \"Master\" capable de signer des "
 "paquets logiciels et également de signer d'autres certificats (CA)."
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:167
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:167
 msgid ""
 "In order to create new signed certificates for delegated, please refer to :ref:"
 "`new_crt_with_ca`."
@@ -298,7 +299,7 @@ msgstr ""
 "Vous pourrez par la suite suivre la documentation pour :ref:`créer des "
 "certificats avec des droit limités <new_crt_with_ca>`."
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:181
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:181
 msgid ""
 ":guilabel:`Name of the private key`: name of the :file:`.pem` and :guilabel:"
 "`Name of the private key`: name of the :file:`.pem` and :file:`.crt` files: "
@@ -307,7 +308,7 @@ msgstr ""
 ":guilabel:`Nom de la clé` donné aux fichiers :file:`.pem` et :file:`.crt` : "
 "**obligatoire** ;"
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:193
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:193
 msgid ""
 ":guilabel:`Code signing`: check this box if the certificate/ key pair will be "
 "allowed to sign software packages: **required**;"
@@ -315,7 +316,7 @@ msgstr ""
 ":guilabel:`Code Signing` si le certificat sera utilisé pour signer des paquets "
 "logiciels : **obligatoire** ;"
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:196
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:196
 msgid ""
 ":guilabel:`CA certificate`: check this box if this certificate can be used to "
 "sign other certificates (main or intermediate Certificate Authority): "
@@ -324,7 +325,7 @@ msgstr ""
 ":guilabel:`Certificat CA` si la clé associée au certificat pourra signer "
 "d'autres certificats ;"
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:211
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:211
 msgid ""
 "If your Organization is already equipped with an :term:`Certificate Authority` "
 "(CA), you will have to fill the certificate and the key in the fields :guilabel:"
@@ -334,7 +335,7 @@ msgstr ""
 "(CA), il faudra renseigner le certificat ainsi que la clé dans les champs :"
 "guilabel:`Certificat de la CA` et :guilabel:`Clé de la CA`."
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:215
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:215
 msgid ""
 "With this procedure you can generate new certificate/ key pairs with or without "
 "**Code Signing** capability."
@@ -342,35 +343,37 @@ msgstr ""
 "Cette étape sera utile lorsque vous souhaiterez générer une nouvelle paire de "
 "clé de type *Code Signing* ou de type *Non Code Signing*."
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:220
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:220
 msgid ""
 "the path to your private key must not be in the installation path of WAPT (:"
-"file:`C:\\Program Files (x86)\\wapt` );"
+"file:`C:\\\\Program Files (x86)\\\\wapt` );"
 msgstr ""
 "le répertoire de destination de la clé privée ne doit pas être le dossier "
-"d'installation de WAPT (:file:`C:\\Program Files (x86)\\wapt`) ;"
+"d'installation de WAPT (:file:`C:\\\\Program Files (x86)\\\\wapt`) ;"
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:223
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:223
 msgid ""
-"if your key is stored in :file:`C:\\Program Files (x86)\\wapt` , your "
+"if your key is stored in :file:`C:\\\\Program Files (x86)\\\\wapt` , your "
 "Administrator private key will be deployed on your clients, **absolutely a no "
 "go!**"
 msgstr ""
-"si votre clé est stockée dans :file:`C:\\Program Files (x86)\\wapt`, vous "
+"si votre clé est stockée dans :file:`C:\\\\Program Files (x86)\\\\wapt`, vous "
 "risqueriez de déployer votre clé privée sur le réseau lors de la création de "
 "l'agent WAPT, **absolument à ne pas faire!**"
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:233
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:233
 msgid ""
 "click on :guilabel:`Yes` to copy the newly generated certificate in the :file:"
-"`C:\\Program Files (x86)\\wapt\\ssl` folder. This certificate will be picked up "
-"during the compilation of the WAPT agent and deployed on the client computers;"
+"`C:\\\\Program Files (x86)\\\\wapt\\\\ssl` folder. This certificate will be "
+"picked up during the compilation of the WAPT agent and deployed on the client "
+"computers;"
 msgstr ""
 "cliquer sur :guilabel:`Oui` pour valider la copie du certificat dans le "
-"dossier :file:`C:\\Program Files (x86)\\wapt\\ssl`. Cela autorisera cette clé "
-"pour votre agent WAPT ;"
+"dossier :file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl`. Ce certificat sera "
+"récupéré lors de la compilation de l'agent WAPT et déployé sur les machines de "
+"votre parc ;"
 
-#: ../../source/wapt_configuration/wapt_certificate/index.rst:248
+#: ../../source/wapt-configuration/wapt-certificate/index.rst:248
 msgid ""
 "You may go on to the next step and :ref:`configure your WAPT console "
 "<wapt_console_config>`."

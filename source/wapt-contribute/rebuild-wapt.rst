@@ -101,7 +101,7 @@ Installing the WAPT development environment
 
 * on a clean Windows 7 install
 
-* install the WAPT agent from https://srvwapt.ad.tranquil.it/wapt/waptagent.exe
+* install the WAPT agent from https://srvwapt.mydomain.lan/wapt/waptagent.exe
 
 * deactivate UAC
 

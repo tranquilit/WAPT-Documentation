@@ -3,823 +3,777 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-07 14:08+0100\n"
-"PO-Revision-Date: 2018-11-07 11:49+0100\n"
+"POT-Creation-Date: 2019-02-27 10:29+0100\n"
+"PO-Revision-Date: 2019-02-27 11:38+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.5.3\n"
+"X-Generator: Poedit 1.8.8\n"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:8
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:14
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:8
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:14
 msgid "Simple examples of commonly used functions"
 msgstr "Exemples simples de fonctions couramment utilisées"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:8
-msgid ""
-"Tests, WAPT, user context, file and directory manipulation, examples, "
-"registry key, SetupHelpers, documentation"
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:8
+msgid "Tests, WAPT, user context, file and directory manipulation, examples, registry key, SetupHelpers, documentation"
 msgstr ""
-"Tests, WAPT, contexte utilisateur, manipulation de dossiers et fichiers, "
-"exemple, clé de registre, Setuphelpers, documentation"
+"Tests, WAPT, contexte utilisateur, manipulation de dossiers et fichiers, exemple, clé de registre, Setuphelpers, "
+"documentation"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:16
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:16
 msgid ""
-"Presentation of several functions implemented in :term:`Setuphelpers` and"
-" frequently used to develop WAPT packages."
+"Presentation of several functions implemented in :term:`Setuphelpers` and frequently used to develop WAPT packages."
 msgstr ""
-"Nous présentons ici quelques fonctions implémentées dans "
-":term:`Setuphelpers` et fréquemment utilisées pour développer des paquets"
-" WAPT."
+"Nous présentons ici quelques fonctions implémentées dans :term:`Setuphelpers` et fréquemment utilisées pour "
+"développer des paquets WAPT."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:20
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:20
 msgid "Testing and manipulating folders and files"
 msgstr "Tests et manipulation de dossiers et fichiers"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:23
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:23
 msgid "Creating a path recursively"
 msgstr "Créer un chemin avec récursion"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:25
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:43
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:92
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:111
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:130
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:149
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:168
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:189
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:210
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:230
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:252
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:269
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:292
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:308
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:350
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:373
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:401
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:417
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:436
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:455
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:483
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:504
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:527
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:548
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:574
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:592
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:601
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:617
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:628
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:639
-msgid "Command..."
-msgstr "La commande ..."
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:25
+msgid "Command :command:`makepath` ..."
+msgstr "La commande :command:`makepath` ..."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:31
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:31
+msgid "... makes the path variable for :file:`C:\\\\Program Files (x86)\\\\Mozilla\\\\Firefox`."
+msgstr "... fabrique la variable pour le chemin :file:`C:\\\\Program Files (x86)\\\\Mozilla\\\\Firefox`."
+
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:35
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:53
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:68
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:87
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:122
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:141
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:160
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:178
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:202
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:222
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:241
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:264
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:280
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:303
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:322
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:343
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:366
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:415
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:431
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:448
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:468
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:483
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:498
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:524
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:546
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:570
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:588
 msgid ""
-"... makes the path variable for :file:`C:\\Program Files "
-"(x86)\\Mozilla\\Firefox`."
+"For more informations or to learn more on arguments on that function, please visit official Setuphelpers reference "
+"documentation:"
 msgstr ""
-"... fabrique la variable pour le chemin :file:`C:\\Program "
-"Files\\Mozilla\\Firefox`."
+"Pour plus d'informations ou pour connaître les paramètres complémentaires de la commande, consultez la documentation "
+"de référence (en anglais) en visitant :"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:35
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:53
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:68
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:87
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:122
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:141
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:160
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:178
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:202
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:222
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:241
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:264
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:280
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:303
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:321
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:340
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:363
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:412
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:428
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:445
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:465
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:478
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:493
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:519
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:541
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:566
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:584
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:38
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:56
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:106
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:125
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:144
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:163
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:181
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:369
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:471
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:486
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:549
 msgid ""
-"For more informations or to learn more on arguments on that function, "
-"please visit official Setuphelpers reference documentation:"
+"https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=get_file_properties#setuphelpers.properties"
 msgstr ""
-"Pour plus d'informations ou pour connaître les paramètres complémentaires"
-" de la commande, consultez la documentation de référence (en anglais) en "
-"visitant :"
+"https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=get_file_properties#setuphelpers.properties"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:38
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:56
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:106
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:125
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:144
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:163
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:181
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:366
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:468
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:481
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:544
-msgid ""
-"https://www.wapt.fr/en/api-"
-"doc-1.5/source/setuphelpers.html?highlight=get_file_properties#setuphelpers.properties"
-msgstr ""
-"https://www.wapt.fr/en/api-"
-"doc-1.5/source/setuphelpers.html?highlight=get_file_properties#setuphelpers.properties"
-
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:41
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:41
 msgid "Creating and destroying directories"
 msgstr "Créer et détruire des répertoires"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:49
-msgid "... creates the directory :file:`C:\\test`."
-msgstr "... crée le répertoire :file:`C:\\\\test`."
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:43
+msgid "Command :command:`mkdirs` ..."
+msgstr "La commande :command:`mkdirs` ..."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:58
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:49
+msgid "... creates the directory :file:`C:\\\\test`."
+msgstr "... crée le répertoire :file:`C:\\\test`."
+
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:58
 msgid "Commande :command:`remove_tree` ..."
-msgstr "La commande remove_tree ..."
+msgstr "La commande :command:`remove_tree` ..."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:64
-msgid "... destroys the directory :file:`C:\\tmp\\target`."
-msgstr "... détruit le répertoire :file:`C:\\\\tmp\\\\target`."
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:64
+msgid "... destroys the directory :file:`C:\\\\tmp\\\\target`."
+msgstr "... détruit le répertoire :file:`C:\\\tmp\\\target`."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:71
-msgid ""
-"https://www.wapt.fr/en/api-"
-"doc-1.5/source/setuphelpers.html?highlight=remove_tree#setuphelpers.remove_treee"
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:71
+msgid "https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=remove_tree#setuphelpers.remove_treee"
 msgstr ""
-"Pour plus d'informations ou pour connaître les paramètres complémentaires"
-" de la commande, consultez la documentation de référence (en anglais) en "
-"visitant :"
+"Pour plus d'informations ou pour connaître les paramètres complémentaires de la commande, consultez la documentation "
+"de référence (en anglais) en visitant :"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:74
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:74
 msgid "Checking if a path is a file or a folder"
-msgstr ""
-"Tester si des éléments de l'arborescence sont des fichiers ou des "
-"répertoires"
+msgstr "Tester si des éléments de l'arborescence sont des fichiers ou des répertoires"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:76
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:76
 msgid "Command :command:`isdir` ..."
-msgstr "La commande isdir ..."
+msgstr "La commande :command:`isdir` ..."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:83
-msgid "... checks if :file:`C:\\programfiles32\\software` is a directory."
-msgstr ""
-"... vérifie que :file:`C:\\\\Programfiles32\\\\software` est un "
-"répertoire."
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:83
+msgid "... checks if :file:`C:\\\\Program Files (x86)\\\\software` is a directory."
+msgstr "... vérifie que :file:`C:\\\\Program Files (x86)\\\\software` est un répertoire."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:90
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:90
 msgid ""
-"https://www.wapt.fr/en/api-"
-"doc-1.5/source/setuphelpers.html?highlight=get_file_properties#setuphelpers.propertiesr"
+"https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=get_file_properties#setuphelpers.propertiesr"
 msgstr ""
-"Pour plus d'informations ou pour connaître les paramètres complémentaires"
-" de la commande, consultez la documentation de référence (en anglais) en "
-"visitant :"
+"Pour plus d'informations ou pour connaître les paramètres complémentaires de la commande, consultez la documentation "
+"de référence (en anglais) en visitant :"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:99
-msgid "... checks if :file:`C:\\programfiles32\\software\\file` is a file."
-msgstr ""
-"... vérifie que :file:`C:\\\\Programfiles32\\\\software\\\\file` est un "
-"fichier."
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:92
+msgid "Command :command:`isfile` ..."
+msgstr "La commande :command:`isfile` ..."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:103
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:99
+msgid "... checks if :file:`C:\\\\Program Files (x86)\\\\software\\\\file` is a file."
+msgstr "... vérifie que :file:`C:\\\\Program Files (x86)\\\\software\\\\file` est un fichier."
+
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:103
 msgid ""
-"For more informations or to learn more on arguments on that function,* "
-"please visit official Setuphelpers reference documentation:"
+"For more informations or to learn more on arguments on that function,* please visit official Setuphelpers reference "
+"documentation:"
 msgstr ""
-"Pour plus d'informations ou pour connaître les paramètres complémentaires"
-" de la commande, consultez la documentation de référence (en anglais) en "
-"visitant :"
+"Pour plus d'informations ou pour connaître les paramètres complémentaires de la commande, consultez la documentation "
+"de référence (en anglais) en visitant :"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:109
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:109
 msgid "Check if a directory is empty"
 msgstr "Tester si un répertoire est vide"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:118
-msgid "... checks that directory :file:`C:\\programfiles32\\software` is empty."
-msgstr ""
-"... vérifie que le répertoire :file:`C:\\\\Programfiles32\\\\software` "
-"est vide."
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:111
+msgid "Command :command:`dir_is_empty` ..."
+msgstr "La commande :command:`dir_is_empty` ..."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:128
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:118
+msgid "... checks that directory :file:`C:\\\\Program Files (x86)\\\\software` is empty."
+msgstr "... vérifie que le répertoire :file:`C:\\\\Program Files (x86)\\\\software` est vide."
+
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:128
 msgid "Copying a file"
 msgstr "Copier un fichier"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:136
-msgid ""
-"... copies :file:`file.txt` into the :file:`C:\\programfiles32\\software`"
-" directory."
-msgstr ""
-"... copie le fichier :file:`file.txt` dans le répertoire "
-":file:`C:\\\\Programfiles32\\\\software`."
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:130
+msgid "Command :command:`filecopyto` ..."
+msgstr "La commande :command:`filecopyto` ..."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:147
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:136
+msgid "... copies :file:`file.txt` into the :file:`C:\\\\Program Files (x86)\\\\software` directory."
+msgstr "... copie le fichier :file:`file.txt` dans le répertoire :file:`C:\\\\Program Files (x86)\\\\software`."
+
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:147
 msgid "Copying a directory"
 msgstr "Copier un répertoire"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:155
-msgid ""
-"... copies the :file:`sources` folder into the "
-":file:`C:\\programfiles32\\software` directory."
-msgstr ""
-"... copie le dossier :file:`sources` dans le répertoire "
-":file:`C:\\\\projet`."
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:149
+msgid "Command :command:`copytree2` ..."
+msgstr "La commande :command:`copytree2` ..."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:166
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:155
+msgid "... copies the :file:`sources` folder into the :file:`C:\\\\projet` directory."
+msgstr "... copie le dossier :file:`sources` dans le répertoire :file:`C:\\\\projet`."
+
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:166
 msgid "Retrieving the version of a file"
 msgstr "Récupérer la version d'un fichier"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:174
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:168
+msgid "Command :command:`get_file_properties` ..."
+msgstr "La commande :command:`get_file_properties` ..."
+
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:174
 msgid "... shows package properties."
 msgstr "... affiche les propriétés du paquet."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:184
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:184
 msgid "Manipulating registry keys"
 msgstr "Manipulation de clés de registre"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:187
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:187
 msgid "Checking the existence of a registry key"
 msgstr "Tester la présence d'une clé de registre"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:196
-msgid ""
-"... checks if registry key *{8A69D345-D564-463c-AFF1-A69D9E530F96}* "
-"exists in registry path :file:`SOFTWARE\\Google\\Update\\Clients` of "
-"*HKEY_LOCAL_MACHINE*."
-msgstr ""
-"... vérifie que la clé *{8A69D345-D564-463c-AFF1-A69D9E530F96}* existe "
-"dans le répertoire :file:`SOFTWARE\\Google\\Update\\Clients` de la ruche "
-"*HKEY_LOCAL_MACHINE*."
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:189
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:210
+msgid "Command :command:`registry_readstring` ..."
+msgstr "La commande :command:`registry_readstring` ..."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:205
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:225
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:196
 msgid ""
-"https://www.wapt.fr/en/api-"
-"doc-1.5/source/setuphelpers.html?highlight=registry_readstring#setuphelpers.registry_readstring"
+"... checks if registry key *{8A69D345-D564-463c-AFF1-A69D9E530F96}* exists in registry path :file:`SOFTWARE\\\\Google"
+"\\\\Update\\\\Clients` of *HKEY_LOCAL_MACHINE*."
 msgstr ""
-"https://www.wapt.fr/en/api-"
-"doc-1.5/source/setuphelpers.html?highlight=registry_readstring#setuphelpers.registry_readstring"
+"... vérifie que la clé *{8A69D345-D564-463c-AFF1-A69D9E530F96}* existe dans le répertoire :file:`SOFTWARE\\\\Google\\"
+"\\Update\\\\Clients` de la ruche *HKEY_LOCAL_MACHINE*."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:208
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:205
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:225
+msgid ""
+"https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=registry_readstring#setuphelpers."
+"registry_readstring"
+msgstr ""
+"https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=registry_readstring#setuphelpers."
+"registry_readstring"
+
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:208
 msgid "Showing the value of a registry key"
 msgstr "Afficher la valeur d'une clé de registre"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:216
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:216
 msgid ""
-"... reads the value *{8A69D345-D564-463c-AFF1-A69D9E530F96}* stored in "
-"the registry path :file:`SOFTWARE\\Google\\Update\\Clients` of "
-"*HKEY_LOCAL_MACHINE*."
+"... reads the value *{8A69D345-D564-463c-AFF1-A69D9E530F96}* stored in the registry path :file:`SOFTWARE\\\\Google\\"
+"\\Update\\\\Clients` of *HKEY_LOCAL_MACHINE*."
 msgstr ""
-"... lit la valeur de la clé *{8A69D345-D564-463c-AFF1-A69D9E530F96}* "
-"inscrite dans le répertoire :file:`SOFTWARE\\Google\\Update\\Clients` de "
-"la ruche *HKEY_LOCAL_MACHINE*."
+"... lit la valeur de la clé *{8A69D345-D564-463c-AFF1-A69D9E530F96}* inscrite dans le répertoire :file:`SOFTWARE\\"
+"\\Google\\\\Update\\\\Clients` de la ruche *HKEY_LOCAL_MACHINE*."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:228
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:228
 msgid "Modifying the value of a registry key"
 msgstr "Modifier la valeur d'une clé de registre"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:236
-msgid ""
-"... modifies the value of the registry key *TOUVersion* stored in the "
-"registry path :file:`SOFTWARE\\Microsoft\\Windows Live` of "
-"*HKEY_CURRENT_USER*."
-msgstr ""
-"... modifie la valeur de la clé *TOUVersion* dans le répertoire "
-":file:`SOFTWARE\\Microsoft\\Windows Live` de la ruche "
-"*HKEY_CURRENT_USER*."
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:230
+msgid "Command :command:`registry_setstring` ..."
+msgstr "La commande :command:`registry_setstring` ..."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:244
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:236
 msgid ""
-"https://www.wapt.fr/en/api-"
-"doc-1.5/source/setuphelpers.html?highlight=registry_setstring#setuphelpers.registry_setstring"
+"... modifies the value of the registry key *TOUVersion* stored in the registry path :file:`SOFTWARE\\\\Microsoft\\"
+"\\Windows Live` of *HKEY_CURRENT_USER*."
 msgstr ""
-"https://www.wapt.fr/en/api-"
-"doc-1.5/source/setuphelpers.html?highlight=registry_setstring#setuphelpers.registry_setstring"
+"... modifie la valeur de la clé *TOUVersion* dans le répertoire :file:`SOFTWARE\\\\Microsoft\\\\Windows Live` de la "
+"ruche *HKEY_CURRENT_USER*."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:247
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:244
+msgid ""
+"https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=registry_setstring#setuphelpers."
+"registry_setstring"
+msgstr ""
+"https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=registry_setstring#setuphelpers."
+"registry_setstring"
+
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:247
 msgid "Creating and destroying shortcuts"
 msgstr "Créer et supprimer des raccourcis"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:250
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:250
 msgid "create_desktop_shortcut/ remove_desktop_shortcut"
 msgstr "create_desktop_shortcut / remove_desktop_shortcut"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:258
-msgid ""
-"... creates the shortcut *WAPT Console Management* into "
-":file:`C:\\Users\\Public` directory pointing to :file:`C:\\Program Files "
-"(x86)\\wapt\\waptconsole.exe`; the shortcut is available for all users."
-msgstr ""
-"... crée le raccourci :guilabel:`WAPT Console Management` dans le "
-"répertoire :file:`C:\\Users\\Public` pointant vers l'exécutable "
-":program:`C:\\Program Files\\wapt\\waptconsole.exe` ; le raccourci est "
-"ajouté pour tous les utilisateurs."
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:252
+msgid "Command :command:`create_desktop_shortcut` ..."
+msgstr "La commande :command:`create_desktop_shortcut` ..."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:267
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:258
 msgid ""
-"https://www.wapt.fr/en/api-"
-"doc-1.5/source/setuphelpers.html?highlight=create_desktop_shortcut#setuphelpers.create_desktop_shortcut"
+"... creates the shortcut *WAPT Console Management* into :file:`C:\\\\Users\\\\Public` directory pointing to :file:`C:"
+"\\\\Program Files (x86)\\\\wapt\\\\waptconsole.exe`; the shortcut is available for all users."
 msgstr ""
-"https://www.wapt.fr/en/api-"
-"doc-1.5/source/setuphelpers.html?highlight=create_desktop_shortcut#setuphelpers.create_desktop_shortcut"
-
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:275
-msgid ""
-"... deletes the *WAPT Console Management* shortcut from the folder "
-":file:`C:\\Users\\Public`; the shortcut is deleted for all users."
-msgstr ""
-"... supprime le raccourci :guilabel:`WAPT Console Management` du "
-"répertoire :file:`C:\\Users\\Public` ; le raccourci est supprimé pour "
+"... crée le raccourci :guilabel:`WAPT Console Management` dans le répertoire :file:`C:\\\\Users\\\\Public` pointant "
+"vers l'exécutable :program:`C:\\\\Program Files (x86)\\\\wapt\\\\waptconsole.exe` ; le raccourci est ajouté pour "
 "tous les utilisateurs."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:283
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:267
 msgid ""
-"https://www.wapt.fr/en/api-"
-"doc-1.5/source/setuphelpers.html?highlight=remove_desktop_shortcut#setuphelpers.remove_desktop_shortcut"
+"https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=create_desktop_shortcut#setuphelpers."
+"create_desktop_shortcut"
 msgstr ""
-"https://www.wapt.fr/en/api-"
-"doc-1.5/source/setuphelpers.html?highlight=remove_desktop_shortcut#setuphelpers.remove_desktop_shortcut"
+"https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=create_desktop_shortcut#setuphelpers."
+"create_desktop_shortcut"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:286
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:269
+msgid "Command :command:`remove_desktop_shortcut` ..."
+msgstr "La commande :command:`remove_desktop_shortcut` ..."
+
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:275
+msgid ""
+"... deletes the *WAPT Console Management* shortcut from the folder :file:`C:\\\\Users\\\\Public`; the shortcut is "
+"deleted for all users."
+msgstr ""
+"... supprime le raccourci :guilabel:`WAPT Console Management` du répertoire :file:`C:\\\\Users\\\\Public` ; le "
+"raccourci est supprimé pour tous les utilisateurs."
+
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:283
+msgid ""
+"https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=remove_desktop_shortcut#setuphelpers."
+"remove_desktop_shortcut"
+msgstr ""
+"https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=remove_desktop_shortcut#setuphelpers."
+"remove_desktop_shortcut"
+
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:286
 msgid "create_user_desktop_shortcut/ remove_user_desktop_shortcut"
 msgstr "create_desktop_shortcut / remove_desktop_shortcut"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:290
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:290
 msgid "These functions are used in session_setup context"
 msgstr "Ces fonctions sont utilisées avec le session_setup."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:298
-msgid ""
-"... creates the shortcut *WAPT Console Management* on user desktop "
-"pointing to :file:`C:\\Program Files (x86)\\wapt\\waptconsole.exe`."
-msgstr ""
-"... crée le raccourci :guilabel:`WAPT Console Management` sur le bureau "
-"de l'utilisateur pointant vers l'exécutable :program:`C:\\Program Files "
-"(x86)\\wapt\\waptconsole.exe`."
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:292
+msgid "Command :command:`create_user_desktop_shortcut` ..."
+msgstr "La commande :command:`create_user_desktop_shortcut` ..."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:306
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:298
 msgid ""
-"https://www.wapt.fr/en/api-"
-"doc-1.5/source/setuphelpers.html?highlight=create_user_desktop_shortcut#setuphelpers.create_user_desktop_shortcut"
+"... creates the shortcut *WAPT Console Management* on user desktop pointing to :file:`C:\\\\Program Files (x86)\\"
+"\\wapt\\\\waptconsole.exe`."
 msgstr ""
-"https://www.wapt.fr/en/api-"
-"doc-1.5/source/setuphelpers.html?highlight=create_user_desktop_shortcut#setuphelpers.create_user_desktop_shortcut"
+"... crée le raccourci :guilabel:`WAPT Console Management` sur le bureau de l'utilisateur pointant vers l'exécutable :"
+"program:`C:\\\\Program Files (x86)\\\\wapt\\\\waptconsole.exe`."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:310
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:306
+msgid ""
+"https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=create_user_desktop_shortcut#setuphelpers."
+"create_user_desktop_shortcut"
+msgstr ""
+"https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=create_user_desktop_shortcut#setuphelpers."
+"create_user_desktop_shortcut"
+
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:309
 msgid "Removing a shortcut for the current user"
 msgstr "Remove a shortcut from the current users"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:316
-msgid ""
-"... deletes the *WAPT Console Management* shortcut from the logged in "
-"user's desktop."
-msgstr ""
-"... supprime le raccourci :guilabel:`WAPT Console Management` du bureau "
-"de l'utilisateur."
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:311
+msgid "Command :command:`remove_user_desktop_shortcut` ..."
+msgstr "La commande :command:`remove_user_desktop_shortcut` ..."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:324
-msgid ""
-"https://www.wapt.fr/en/api-"
-"doc-1.5/source/setuphelpers.html?highlight=remove_user_desktop_shortcut#setuphelpers.remove_user_desktop_shortcut"
-msgstr ""
-"https://www.wapt.fr/en/api-"
-"doc-1.5/source/setuphelpers.html?highlight=remove_user_desktop_shortcut#setuphelpers.remove_user_desktop_shortcut"
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:317
+msgid "... deletes the *WAPT Console Management* shortcut from the logged in user's desktop."
+msgstr "... supprime le raccourci :guilabel:`WAPT Console Management` du bureau de l'utilisateur."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:327
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:325
+msgid ""
+"https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=remove_user_desktop_shortcut#setuphelpers."
+"remove_user_desktop_shortcut"
+msgstr ""
+"https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=remove_user_desktop_shortcut#setuphelpers."
+"remove_user_desktop_shortcut"
+
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:328
 msgid "Windows environment/ Software/ Services"
 msgstr "Environment Windows / Logiciels / Services"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:330
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:331
 msgid "windows_version"
 msgstr "windows_version"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:336
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:333
+msgid "Command :command:`windows_version` ..."
+msgstr "La commande :command:`windows_version` ..."
+
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:339
 msgid "... checks that the Windows version is stricly inferior to *6.2.0*."
-msgstr ""
-"... vérifie que la version de Windows est strictement inférieure à "
-"*6.2.0*."
+msgstr "... vérifie que la version de Windows est strictement inférieure à *6.2.0*."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:343
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:346
 msgid ""
-"https://www.wapt.fr/en/api-"
-"doc-1.5/source/setuphelpers.html?highlight=windows_version#setuphelpers.windows_version"
+"https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=windows_version#setuphelpers.windows_version"
 msgstr ""
-"https://www.wapt.fr/en/api-"
-"doc-1.5/source/setuphelpers.html?highlight=windows_version#setuphelpers.windows_version"
+"https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=windows_version#setuphelpers.windows_version"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:345
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:348
 msgid ""
-"Visit also `Microsoft Windows version number <https://msdn.microsoft.com"
-"/fr-fr/library/windows/desktop/ms7248322>`_."
+"Visit also `Microsoft Windows version number <https://msdn.microsoft.com/fr-fr/library/windows/desktop/ms7248322>`_."
 msgstr ""
-"Liste des `numéros de version de Windows <https://msdn.microsoft.com/fr-"
-"fr/library/windows/desktop/ms724832>`_."
+"Liste des `numéros de version de Windows <https://msdn.microsoft.com/fr-fr/library/windows/desktop/ms724832>`_."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:348
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:351
 msgid "iswin64"
 msgstr "iswin64"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:359
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:353
+msgid "Command :command:`iswin64` ..."
+msgstr "La commande :command:`iswin64` ..."
+
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:362
 msgid "... checks that the system architecture is 64bits."
 msgstr "... vérifie que le processeur de la machine est 64bits."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:369
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:372
 msgid "programfiles/ programfiles32/ programfiles64"
 msgstr "programfiles / programfiles32 / programfiles64"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:371
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:374
 msgid "Return different *ProgramFiles* locations"
 msgstr "Renvoie les différentes localisations de *Program Files*"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:379
-msgid ""
-"... returns native Program Files directory, eg. :file:`C:\\Program Files "
-"(x86)` on either win64 or win32 architecture."
-msgstr ""
-"Renvoie le répertoire natif du programme, c.à.d. :file:`C:\\Program Files"
-" (x86)` pour les architecture win64 et win32."
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:376
+msgid "Command :command:`programfiles64` ..."
+msgstr "La commande :command:`programfiles64` ..."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:386
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:382
 msgid ""
-"... returns path of the 32bit Program Files directory, eg. "
-":file:`Programs Files (x86)` on win64 architecture, and :file:`Programs "
-"Files` on win32 architecture."
+"... returns native Program Files directory, eg. :file:`C:\\\\Program Files (x86)` on either win64 or win32 "
+"architecture."
 msgstr ""
-"Renvoie le chemin vers le répertoire :file:`Programs Files (x86)` (sur "
-"architecture win64) ou :file:`Programs Files` (sur architecture win32)."
+"Renvoie le répertoire natif du programme, c.à.d. :file:`C:\\\\Program Files (x86)` pour les architecture win64 et "
+"win32."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:395
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:389
+msgid ""
+"... returns path of the 32bit Program Files directory, eg. :file:`Programs Files (x86)` on win64 architecture, and :"
+"file:`Programs Files` on win32 architecture."
+msgstr ""
+"Renvoie le chemin vers le répertoire :file:`Programs Files (x86)` (sur architecture win64) ou :file:`Programs Files` "
+"(sur architecture win32)."
+
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:398
 msgid "user_appdata/ user_local_appdata"
 msgstr "user_appdata / user_local_appdata"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:399
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:402
 msgid "These functions are used with :command:`session_setup`"
 msgstr "Ces fonctions sont utilisées avec le :command:`session_setup`."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:407
-msgid ""
-"... returns roaming *AppData* profile path of logged on user "
-"(:file:`C:\\Users\\username\\AppData\\Roaming`)."
-msgstr ""
-"... renvoie le profil *appdata* itinérant de l'utilisateur courant "
-"(:file:`C:\\Users\\username\\AppData\\Roaming`)."
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:404
+msgid "Command :command:`user_appdata` ..."
+msgstr "La commande :command:`user_appdata` ..."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:415
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:410
 msgid ""
-"https://www.wapt.fr/en/api-"
-"doc-1.5/source/setuphelpers.html?highlight=get_file_properties#setuphelpers.propertiesser_appdata"
+"... returns roaming *AppData* profile path of logged on user (:file:`C:\\\\Users\\\\username\\\\AppData\\\\Roaming`)."
 msgstr ""
-"https://www.wapt.fr/en/api-"
-"doc-1.5/source/setuphelpers.html?highlight=get_file_properties#setuphelpers.propertiesser_appdata"
+"... renvoie le profil *appdata* itinérant de l'utilisateur courant (:file:`C:\\\\Users\\\\username\\\\AppData\\"
+"\\Roaming`)."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:423
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:418
 msgid ""
-"... returns the local *AppData* profile path of the logged on user "
-"(:file:`C:\\Users\\username\\AppData\\Local`)."
+"https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=get_file_properties#setuphelpers."
+"propertiesser_appdata"
 msgstr ""
-"... renvoie le profil *appdata* local de l'utilisateur courant "
-"(:file:`C:\\Users\\username\\AppData\\Local`)."
+"https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=get_file_properties#setuphelpers."
+"propertiesser_appdata"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:431
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:420
+msgid "Command :command:`user_local_appdata` ..."
+msgstr "La commande :command:`user_local_appdata` ..."
+
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:426
 msgid ""
-"https://www.wapt.fr/en/api-"
-"doc-1.5/source/setuphelpers.html?highlight=user_appdata#setuphelpers.user_appdatalocal_appdata"
+"... returns the local *AppData* profile path of the logged on user (:file:`C:\\\\Users\\\\username\\\\AppData\\"
+"\\Local`)."
 msgstr ""
-"https://www.wapt.fr/en/api-"
-"doc-1.5/source/setuphelpers.html?highlight=user_appdata#setuphelpers.user_appdatalocal_appdata"
+"... renvoie le profil *appdata* local de l'utilisateur courant (:file:`C:\\\\Users\\\\username\\\\AppData\\\\Local`)."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:434
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:434
+msgid ""
+"https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=user_appdata#setuphelpers."
+"user_appdatalocal_appdata"
+msgstr ""
+"https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=user_appdata#setuphelpers."
+"user_appdatalocal_appdata"
+
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:437
 msgid "disable_file_system_redirection"
 msgstr "disable_file_system_redirection"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:448
-msgid ""
-"https://www.wapt.fr/en/api-"
-"doc-1.5/source/setuphelpers.html?highlight=user_local_appdata#setuphelpers.user_local_appdatable_file_system_redirection"
-msgstr ""
-"https://www.wapt.fr/en/api-"
-"doc-1.5/source/setuphelpers.html?highlight=user_local_appdata#setuphelpers.user_local_appdatable_file_system_redirection"
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:439
+msgid "Command :command:`disable_file_system_redirection` ..."
+msgstr "La commande :command:`disable_file_system_redirection` ..."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:450
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:451
+msgid ""
+"https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=user_local_appdata#setuphelpers."
+"user_local_appdatable_file_system_redirection"
+msgstr ""
+"https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=user_local_appdata#setuphelpers."
+"user_local_appdatable_file_system_redirection"
+
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:453
 msgid "Disable wow3264 redirection in the current context"
 msgstr "Gère le contexte pour désactiver temporairement le redirecteur wow3264."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:453
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:456
 msgid "get_computername/ get_current_user"
 msgstr "get_computername / get_current_user"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:461
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:458
+msgid "Command :command:`get_current_user` ..."
+msgstr "La commande :command:`get_current_user` ..."
+
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:464
 msgid "... shows the currently logged on username"
 msgstr "... affiche l'identifiant de l'utilisateur connecté."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:474
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:473
+msgid "Command :command:`get_computername` ..."
+msgstr "La commande :command:`get_computername` ..."
+
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:479
 msgid "... shows the name of the computer"
 msgstr "... affiche le nom de la machine sans le domaine."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:489
-msgid ""
-"... returns the :abbr:`FQDN (Fully Qualified Domain Name)` of the "
-"computer."
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:488
+msgid "Command :command:`get_domain_fromregistry` ..."
+msgstr "La commande :command:`get_domain_fromregistry` ..."
+
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:494
+msgid "... returns the :abbr:`FQDN (Fully Qualified Domain Name)` of the computer."
 msgstr "... renvoie le nom de la machine avec le domaine."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:496
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:501
 msgid ""
-"https://www.wapt.fr/en/api-"
-"doc-1.5/source/setuphelpers.html?highlight=get_computername#setuphelpers.get_computernamein_fromregistry"
+"https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=get_computername#setuphelpers."
+"get_computernamein_fromregistry"
 msgstr ""
-"https://www.wapt.fr/en/api-"
-"doc-1.5/source/setuphelpers.html?highlight=get_computername#setuphelpers.get_computernamein_fromregistry"
+"https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=get_computername#setuphelpers."
+"get_computernamein_fromregistry"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:499
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:504
 msgid "installed_softwares/ uninstall_cmd"
 msgstr "installed_softwares / uninstall_cmd"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:502
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:507
 msgid "installed_softwares"
 msgstr "installed_softwares"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:510
-msgid ""
-"... returns the list of installed software on the computer from registry "
-"in an array."
-msgstr ""
-"... renvoie la liste des logiciels inscrits dans la base de registre "
-"machine sous forme de tableau."
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:509
+msgid "Command :command:`installed_softwares` ..."
+msgstr "La commande :command:`installed_softwares` ..."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:522
-msgid ""
-"https://www.wapt.fr/en/api-"
-"doc-1.5/source/setuphelpers.html?highlight=get_domain_fromregistry#setuphelpers.get_domain_fromregistry"
-msgstr ""
-"https://www.wapt.fr/en/api-"
-"doc-1.5/source/setuphelpers.html?highlight=get_domain_fromregistry#setuphelpers.get_domain_fromregistry"
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:515
+msgid "... returns the list of installed software on the computer from registry in an array."
+msgstr "... renvoie la liste des logiciels inscrits dans la base de registre machine sous forme de tableau."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:525
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:527
+msgid ""
+"https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=get_domain_fromregistry#setuphelpers."
+"get_domain_fromregistry"
+msgstr ""
+"https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=get_domain_fromregistry#setuphelpers."
+"get_domain_fromregistry"
+
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:530
 msgid "uninstalll_cmd"
 msgstr "uninstall_cmd"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:533
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:532
+msgid "Command :command:`uninstall_cmd` ..."
+msgstr "La commande :command:`uninstall_cmd` ..."
+
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:538
 msgid "... returns the silent uninstall command."
 msgstr "... renvoie la commande de désinstallation silencieuse :"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:547
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:552
 msgid "uninstalling software"
 msgstr "désinstaller des logiciels"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:556
-msgid ""
-"for each item of the list return by *installed_softwares* containing "
-"keyword *winscp*;"
-msgstr ""
-"pour chaque élément de la liste retournée par *installed_softwares* avec "
-"le mot clé *winscp* ;"
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:560
+msgid "for each item of the list return by *installed_softwares* containing keyword *winscp*;"
+msgstr "pour chaque élément de la liste retournée par *installed_softwares* avec le mot clé *winscp* ;"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:559
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:563
 msgid "if the version is lower than 5.0.2;"
 msgstr "si la version dans la liste est plus petite que 5.0.2 ;"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:561
-msgid ""
-"then uninstall using the *uninstall_cmd* and specifying the corresponding"
-" *uninstallkey*;"
-msgstr ""
-"alors lancer la désinstallation avec *uninstall_cmd* et en indiquant la "
-"*uninstallkey* ;"
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:565
+msgid "then uninstall using the *uninstall_cmd* and specifying the corresponding *uninstallkey*;"
+msgstr "alors lancer la désinstallation avec *uninstall_cmd* et en indiquant la *uninstallkey* ;"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:569
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:573
 msgid "https://dev.tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=uninstall_cmd#setuphelpers.uninstall_cmd"
 msgstr "https://dev.tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=uninstall_cmd#setuphelpers.uninstall_cmd"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:572
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:576
 msgid "killalltasks"
 msgstr "killalltasks"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:580
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:578
+msgid "Command :command:`killalltasks` ..."
+msgstr "La commande :command:`killalltasks` ..."
+
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:584
 msgid "... kills the process named *Firefox*."
 msgstr "... termine l'exécution du logiciel *Firefox*."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:587
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:591
 msgid ""
-"https://www.wapt.fr/en/api-"
-"doc-1.5/source/setuphelpers.html?highlight=get_file_properties#setuphelpers.propertiesillalltasks"
+"https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=get_file_properties#setuphelpers."
+"propertiesillalltasks"
 msgstr ""
-"https://www.wapt.fr/en/api-"
-"doc-1.5/source/setuphelpers.html?highlight=get_file_properties#setuphelpers.propertiesillalltasks"
+"https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=get_file_properties#setuphelpers."
+"propertiesillalltasks"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:590
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:594
 msgid "Using control file fields"
 msgstr "Utiliser les champs du fichier control"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:599
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:601
 msgid "... shows the *version* value from the :file:`control` file."
-msgstr ""
-"... affiche le champ ``version`` du fichier :file:`control` du paquet "
-"WAPT."
+msgstr "... affiche le champ ``version`` du fichier :file:`control` du paquet WAPT."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:608
-msgid ""
-"... shows the software version number without the WAPT version number "
-"from the :file:`control` file."
-msgstr ""
-"... affiche le numéro de version du fichier :file:`control` sans le "
-"numéro de version de packaging WAPT."
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:608
+msgid "... shows the software version number without the WAPT version number from the :file:`control` file."
+msgstr "... affiche le numéro de version du fichier :file:`control` sans le numéro de version de packaging WAPT."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:612
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:612
 msgid "Calling WAPT actions in a WAPT package"
 msgstr "Appeler des actions WAPT dans des paquets WAPT"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:615
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:615
 msgid "Installing a package"
 msgstr "Installer un paquet"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:623
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:617
+msgid "Command :command:`install` ..."
+msgstr "La commande :command:`install` ..."
+
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:623
 msgid "... installs *tis-scratch* on the computer."
 msgstr "... installe *tis-scratch* sur la machine."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:626
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:626
 msgid "Removing a package"
 msgstr "Supprimer un paquet"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:634
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:628
+msgid "Command :command:`remove` ..."
+msgstr "La commande :command:`remove` ..."
+
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:634
 msgid "... uninstalls *tis-scratch* from the computer."
 msgstr "... désinstalle *tis-scratch* de la machine."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:637
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:637
 msgid "Forgeting a package"
 msgstr "Oublier un paquet"
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:645
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:639
+msgid "Command :command:`forget_packages` ..."
+msgstr "La commande :command:`forget_packages` ..."
+
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:645
 msgid "... informs WAPT to forget *tis-scratch* on the selected computer."
-msgstr ""
-"... informe WAPT de ne plus suivre le paquet *tis-scratch* ; WAPT ne "
-"connaîtra plus l'existence de ce paquet."
+msgstr "... informe WAPT de ne plus suivre le paquet *tis-scratch* ; WAPT ne connaîtra plus l'existence de ce paquet."
 
-#: ../../source/wapt_create_packages/package_additional/setuphelpers_useful.rst:649
+#: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:649
 msgid ""
-"If the desired result is to remove *tis-scratch*, you should either "
-"reinstall the package (:code:`wapt-get install \"tis-scratch\"`) then "
-"remove it (:code:`wapt-get remove \"tis-scratch\"`), either removing it "
-"manually from the Control Panel menu :menuselection:`Add/ Remove "
-"Programs`."
+"If the desired result is to remove *tis-scratch*, you should either reinstall the package (:code:`wapt-get install "
+"\"tis-scratch\"`) then remove it (:code:`wapt-get remove \"tis-scratch\"`), either removing it manually from the "
+"Control Panel menu :menuselection:`Add/ Remove Programs`."
 msgstr ""
-"Si vous voulez supprimer *tis-scratch*, il faudra soit réinstaller le "
-"paquet (:command:`wapt-get install \"tis-scratch\"`), puis le supprimer "
-"(:command:`wapt-get remove \"tis-scratch\"`), ou bien le supprimer "
-"manuellement à partir du panneau de configuration Windows  "
-":menuselection:`Ajout / Suppression de Programmes`."
+"Si vous voulez supprimer *tis-scratch*, il faudra soit réinstaller le paquet (:command:`wapt-get install \"tis-"
+"scratch\"`), puis le supprimer (:command:`wapt-get remove \"tis-scratch\"`), ou bien le supprimer manuellement à "
+"partir du panneau de configuration Windows  :menuselection:`Ajout / Suppression de Programmes`."
 
 #~ msgid ""
-#~ "For more informations or to learn "
-#~ "more on arguments on that function, "
-#~ "please visit official :program:`Setuphelpers` "
-#~ "reference documentation : https://www.wapt.fr/en"
-#~ "/api-"
-#~ "doc-1.5/source/setuphelpers.html?highlight=get_file_properties#setuphelpers.properties."
+#~ "For more informations or to learn more on arguments on that function, please visit official :program:"
+#~ "`Setuphelpers` reference documentation : https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?"
+#~ "highlight=get_file_properties#setuphelpers.properties."
 #~ msgstr ""
-#~ "Pour plus d'informations, consultez la "
-#~ "documentation de référence (en anglais) "
-#~ "en visitant ... "
-#~ "https://dev.tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=makepath#setuphelpers.makepath"
+#~ "Pour plus d'informations, consultez la documentation de référence (en anglais) en visitant ... https://dev."
+#~ "tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=makepath#setuphelpers.makepath"
 
 #~ msgid ""
-#~ "For more informations or to learn "
-#~ "more on arguments on that function, "
-#~ "please visit official Setuphelpers reference"
-#~ " documentation : https://www.wapt.fr/en/api-"
-#~ "doc-1.5/source/setuphelpers.html?highlight=get_file_properties#setuphelpers.properties"
+#~ "For more informations or to learn more on arguments on that function, please visit official Setuphelpers "
+#~ "reference documentation : https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?"
+#~ "highlight=get_file_properties#setuphelpers.properties"
 #~ msgstr ""
-#~ "Pour plus d'informations, consultez la "
-#~ "documentation de référence (en anglais) "
-#~ "en visitant ... "
-#~ "https://dev.tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=mkdirs#setuphelpers.mkdirs"
+#~ "Pour plus d'informations, consultez la documentation de référence (en anglais) en visitant ... https://dev."
+#~ "tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=mkdirs#setuphelpers.mkdirs"
 
 #~ msgid ""
-#~ "For more informations or to learn "
-#~ "more on arguments on that function, "
-#~ "please visit official Setuphelpers reference"
-#~ " documentation : https://www.wapt.fr/en/api-"
-#~ "doc-1.5/source/setuphelpers.html?highlight=remove_tree#setuphelpers.remove_tree"
+#~ "For more informations or to learn more on arguments on that function, please visit official Setuphelpers "
+#~ "reference documentation : https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?"
+#~ "highlight=remove_tree#setuphelpers.remove_tree"
 #~ msgstr ""
-#~ "Pour plus d'informations, consultez la "
-#~ "documentation de référence (en anglais) "
-#~ "en visitant ... "
-#~ "https://dev.tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=remove_tree#setuphelpers.remove_tree"
+#~ "Pour plus d'informations, consultez la documentation de référence (en anglais) en visitant ... https://dev."
+#~ "tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=remove_tree#setuphelpers.remove_tree"
 
 #~ msgid ""
-#~ "For more informations or to learn "
-#~ "more on arguments on that function, "
-#~ "please visit official Setuphelpers reference"
-#~ " documentation : https://www.wapt.fr/en/api-"
-#~ "doc-1.5/source/setuphelpers.html?highlight=registry_readstring#setuphelpers.registry_readstring"
+#~ "For more informations or to learn more on arguments on that function, please visit official Setuphelpers "
+#~ "reference documentation : https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?"
+#~ "highlight=registry_readstring#setuphelpers.registry_readstring"
 #~ msgstr ""
-#~ "Pour plus d'informations, consultez la "
-#~ "documentation de référence (en anglais) "
-#~ "en visitant ... "
-#~ "https://dev.tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=registry_readstring#setuphelpers.registry_readstring"
+#~ "Pour plus d'informations, consultez la documentation de référence (en anglais) en visitant ... https://dev."
+#~ "tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=registry_readstring#setuphelpers.registry_readstring"
 
 #~ msgid ""
-#~ "For more informations or to learn "
-#~ "more on arguments on that function, "
-#~ "please visit official Setuphelpers reference"
-#~ " documentation : https://www.wapt.fr/en/api-"
-#~ "doc-1.5/source/setuphelpers.html?highlight=registry_setstring#setuphelpers.registry_setstring"
+#~ "For more informations or to learn more on arguments on that function, please visit official Setuphelpers "
+#~ "reference documentation : https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?"
+#~ "highlight=registry_setstring#setuphelpers.registry_setstring"
 #~ msgstr ""
-#~ "Pour plus d'informations, consultez la "
-#~ "documentation de référence (en anglais) "
-#~ "en visitant ... "
-#~ "https://dev.tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=registry_setstring#setuphelpers.registry_setstring"
+#~ "Pour plus d'informations, consultez la documentation de référence (en anglais) en visitant ... https://dev."
+#~ "tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=registry_setstring#setuphelpers.registry_setstring"
 
 #~ msgid ""
-#~ "For more informations or to learn "
-#~ "more on arguments on that function, "
-#~ "please visit official Setuphelpers reference"
-#~ " documentation: https://www.wapt.fr/en/api-"
-#~ "doc-1.5/source/setuphelpers.html?highlight=create_desktop_shortcut#setuphelpers.create_desktop_shortcut"
+#~ "For more informations or to learn more on arguments on that function, please visit official Setuphelpers "
+#~ "reference documentation: https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?"
+#~ "highlight=create_desktop_shortcut#setuphelpers.create_desktop_shortcut"
 #~ msgstr ""
-#~ "Pour plus d'informations, consultez la "
-#~ "documentation de référence (en anglais) "
-#~ "en visitant ... "
-#~ "https://dev.tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=create_desktop_shortcut#setuphelpers.create_desktop_shortcut"
+#~ "Pour plus d'informations, consultez la documentation de référence (en anglais) en visitant ... https://dev."
+#~ "tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=create_desktop_shortcut#setuphelpers."
+#~ "create_desktop_shortcut"
 
 #~ msgid ""
-#~ "For more informations or to learn "
-#~ "more on arguments on that function, "
-#~ "please visit official Setuphelpers reference"
-#~ " documentation: https://www.wapt.fr/en/api-"
-#~ "doc-1.5/source/setuphelpers.html?highlight=remove_desktop_shortcut#setuphelpers.remove_desktop_shortcut"
+#~ "For more informations or to learn more on arguments on that function, please visit official Setuphelpers "
+#~ "reference documentation: https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?"
+#~ "highlight=remove_desktop_shortcut#setuphelpers.remove_desktop_shortcut"
 #~ msgstr ""
-#~ "Pour plus d'informations, consultez la "
-#~ "documentation de référence (en anglais) "
-#~ "en visitant ... "
-#~ "https://dev.tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=remove_desktop_shortcut#setuphelpers.remove_desktop_shortcut"
+#~ "Pour plus d'informations, consultez la documentation de référence (en anglais) en visitant ... https://dev."
+#~ "tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=remove_desktop_shortcut#setuphelpers."
+#~ "remove_desktop_shortcut"
 
-#~ msgid ""
-#~ ":command:`create_user_desktop_shortcut` / "
-#~ ":command:`remove_user_desktop_shortcut`"
+#~ msgid ":command:`create_user_desktop_shortcut` / :command:`remove_user_desktop_shortcut`"
 #~ msgstr "create_user_desktop_shortcut / remove_user_desktop_shortcut"
 
 #~ msgid "Command ..."
 #~ msgstr "La commande ... .. code-block:: python"
 
 #~ msgid ""
-#~ "For more informations or to learn "
-#~ "more on arguments on that function, "
-#~ "please visit official Setuphelpers reference"
-#~ " documentation: https://www.wapt.fr/en/api-"
-#~ "doc-1.5/source/setuphelpers.html?highlight=windows_version#setuphelpers.windows_version"
+#~ "For more informations or to learn more on arguments on that function, please visit official Setuphelpers "
+#~ "reference documentation: https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?"
+#~ "highlight=windows_version#setuphelpers.windows_version"
 #~ msgstr ""
-#~ "Pour plus d'informations, consultez la "
-#~ "documentation de référence (en anglais) "
-#~ "en visitant ... "
-#~ "https://dev.tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=windows_version#setuphelpers.windows_version"
+#~ "Pour plus d'informations, consultez la documentation de référence (en anglais) en visitant ... https://dev."
+#~ "tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=windows_version#setuphelpers.windows_version"
 
 #~ msgid ""
-#~ "For more informations or to learn "
-#~ "more on arguments on that function, "
-#~ "please visit official Setuphelpers reference"
-#~ " documentation : https://www.wapt.fr/en/api-"
-#~ "doc-1.5/source/setuphelpers.html?highlight=user_appdata#setuphelpers.user_appdata"
+#~ "For more informations or to learn more on arguments on that function, please visit official Setuphelpers "
+#~ "reference documentation : https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?"
+#~ "highlight=user_appdata#setuphelpers.user_appdata"
 #~ msgstr ""
-#~ "Pour plus d'informations, consultez la "
-#~ "documentation de référence (en anglais) "
-#~ "en visitant ... "
-#~ "https://dev.tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=user_appdata#setuphelpers.user_appdata"
+#~ "Pour plus d'informations, consultez la documentation de référence (en anglais) en visitant ... https://dev."
+#~ "tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=user_appdata#setuphelpers.user_appdata"
 
 #~ msgid ""
-#~ "For more informations or to learn "
-#~ "more on arguments on that function, "
-#~ "please visit official Setuphelpers reference"
-#~ " documentation : https://www.wapt.fr/en/api-"
-#~ "doc-1.5/source/setuphelpers.html?highlight=user_local_appdata#setuphelpers.user_local_appdata"
+#~ "For more informations or to learn more on arguments on that function, please visit official Setuphelpers "
+#~ "reference documentation : https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?"
+#~ "highlight=user_local_appdata#setuphelpers.user_local_appdata"
 #~ msgstr ""
-#~ "Pour plus d'informations, consultez la "
-#~ "documentation de référence (en anglais) "
-#~ "en visitant ... "
-#~ "https://dev.tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=user_local_appdata#setuphelpers.user_local_appdata"
+#~ "Pour plus d'informations, consultez la documentation de référence (en anglais) en visitant ... https://dev."
+#~ "tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=user_local_appdata#setuphelpers.user_local_appdata"
 
 #~ msgid ""
-#~ "For more informations or to learn "
-#~ "more on arguments on that function, "
-#~ "please visit official Setuphelpers reference"
-#~ " documentation: https://www.wapt.fr/en/api-"
-#~ "doc-1.5/source/setuphelpers.html?highlight=get_computername#setuphelpers.get_computername"
+#~ "For more informations or to learn more on arguments on that function, please visit official Setuphelpers "
+#~ "reference documentation: https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?"
+#~ "highlight=get_computername#setuphelpers.get_computername"
 #~ msgstr ""
-#~ "Pour plus d'informations, consultez la "
-#~ "documentation de référence (en anglais) "
-#~ "en visitant ... "
-#~ "https://dev.tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=get_computername#setuphelpers.get_computername"
+#~ "Pour plus d'informations, consultez la documentation de référence (en anglais) en visitant ... https://dev."
+#~ "tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=get_computername#setuphelpers.get_computername"
 
 #~ msgid "Removing software"
 #~ msgstr "Suppression de logiciels"
@@ -827,23 +781,11 @@ msgstr ""
 #~ msgid "Return 64 bits program folder  :file:`C:\\Program Files (x86)`"
 #~ msgstr "Return 64 bits program folder  :file:`C:\\Program Files (x86)`"
 
-#~ msgid ""
-#~ "Return native program directory, ie "
-#~ ":file:`C:\\Program Files (x86)` for both "
-#~ "64 and 32 bits\"\"\""
-#~ msgstr ""
-#~ "Return native program directory, ie "
-#~ ":file:`C:\\Program Files (x86)` for both "
-#~ "64 and 32 bits\"\"\""
+#~ msgid "Return native program directory, ie :file:`C:\\Program Files (x86)` for both 64 and 32 bits\"\"\""
+#~ msgstr "Return native program directory, ie :file:`C:\\Program Files (x86)` for both 64 and 32 bits\"\"\""
 
-#~ msgid ""
-#~ "Return Path of programs files (x86) "
-#~ "(on win64) or programs files (on "
-#~ "32bits)"
-#~ msgstr ""
-#~ "Return Path of programs files (x86) "
-#~ "(on win64) or programs files (on "
-#~ "32bits)"
+#~ msgid "Return Path of programs files (x86) (on win64) or programs files (on 32bits)"
+#~ msgstr "Return Path of programs files (x86) (on win64) or programs files (on 32bits)"
 
 #~ msgid "Context manager to disable temporarily the wow3264 file redirector"
 #~ msgstr "Context manager to disable temporarily the wow3264 file redirector"
@@ -855,215 +797,138 @@ msgstr ""
 #~ msgstr "Kill the task by their exename"
 
 #~ msgid ""
-#~ "For more informations or to learn "
-#~ "more on arguments on that function, "
-#~ "please visit official Setuphelpers reference"
-#~ " documentation : "
-#~ "https://dev.tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=isfile#setuphelpers.isfile"
+#~ "For more informations or to learn more on arguments on that function, please visit official Setuphelpers "
+#~ "reference documentation : https://dev.tranquil.it/sphinxdocs/source/setuphelpers.html?"
+#~ "highlight=isfile#setuphelpers.isfile"
 #~ msgstr ""
-#~ "Pour plus d'informations ou pour "
-#~ "connaître les paramètres complémentaires de"
-#~ " la commande, visiter la documentation "
-#~ "de référence (en anglais) en visitant"
-#~ " ... "
-#~ "https://dev.tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=isfile#setuphelpers.isfile"
+#~ "Pour plus d'informations ou pour connaître les paramètres complémentaires de la commande, visiter la "
+#~ "documentation de référence (en anglais) en visitant ... https://dev.tranquil.it/sphinxdocs/source/setuphelpers."
+#~ "html?highlight=isfile#setuphelpers.isfile"
 
 #~ msgid ""
-#~ "For more informations or to learn "
-#~ "more on arguments on that function, "
-#~ "please visit official Setuphelpers reference"
-#~ " documentation : "
-#~ "https://dev.tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=filecopyto#setuphelpers.filecopyto"
+#~ "For more informations or to learn more on arguments on that function, please visit official Setuphelpers "
+#~ "reference documentation : https://dev.tranquil.it/sphinxdocs/source/setuphelpers.html?"
+#~ "highlight=filecopyto#setuphelpers.filecopyto"
 #~ msgstr ""
-#~ "Pour plus d'informations ou pour "
-#~ "connaître les paramètres complémentaires de"
-#~ " la commande, visiter la documentation "
-#~ "de référence (en anglais) en visitant"
-#~ " ... "
-#~ "https://dev.tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=filecopyto#setuphelpers.filecopyto"
+#~ "Pour plus d'informations ou pour connaître les paramètres complémentaires de la commande, visiter la "
+#~ "documentation de référence (en anglais) en visitant ... https://dev.tranquil.it/sphinxdocs/source/setuphelpers."
+#~ "html?highlight=filecopyto#setuphelpers.filecopyto"
 
 #~ msgid ""
-#~ "For more informations or to learn "
-#~ "more on arguments on that function, "
-#~ "please visit official Setuphelpers reference"
-#~ " documentation : "
-#~ "https://dev.tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=installed_software#setuphelpers.installed_software"
+#~ "For more informations or to learn more on arguments on that function, please visit official Setuphelpers "
+#~ "reference documentation : https://dev.tranquil.it/sphinxdocs/source/setuphelpers.html?"
+#~ "highlight=installed_software#setuphelpers.installed_software"
 #~ msgstr ""
-#~ "Pour plus d'informations ou pour "
-#~ "connaître les paramètres complémentaires de"
-#~ " la commande, visiter la documentation "
-#~ "de référence (en anglais) en visitant"
-#~ " ... "
-#~ "https://dev.tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=installed_software#setuphelpers.installed_software"
+#~ "Pour plus d'informations ou pour connaître les paramètres complémentaires de la commande, visiter la "
+#~ "documentation de référence (en anglais) en visitant ... https://dev.tranquil.it/sphinxdocs/source/setuphelpers."
+#~ "html?highlight=installed_software#setuphelpers.installed_software"
 
 #~ msgid ""
-#~ "For more informations or to learn "
-#~ "more on arguments on that function, "
-#~ "please visit official Setuphelpers reference"
-#~ " documentation : https://www.wapt.fr/en/api-"
-#~ "doc-1.5/source/setuphelpers.html?highlight=makepath#setuphelpers.makepath"
+#~ "For more informations or to learn more on arguments on that function, please visit official Setuphelpers "
+#~ "reference documentation : https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?"
+#~ "highlight=makepath#setuphelpers.makepath"
 #~ msgstr ""
-#~ "Pour plus d'informations ou pour "
-#~ "connaître les paramètres complémentaires de"
-#~ " la commande, consultez la documentation"
-#~ " de référence (en anglais) en "
-#~ "visitant ... "
-#~ "https://dev.tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=makepath#setuphelpers.makepath"
+#~ "Pour plus d'informations ou pour connaître les paramètres complémentaires de la commande, consultez la "
+#~ "documentation de référence (en anglais) en visitant ... https://dev.tranquil.it/sphinxdocs/source/setuphelpers."
+#~ "html?highlight=makepath#setuphelpers.makepath"
 
 #~ msgid ""
-#~ "For more informations or to learn "
-#~ "more on arguments on that function, "
-#~ "please visit official Setuphelpers reference"
-#~ " documentation : https://www.wapt.fr/en/api-"
-#~ "doc-1.5/source/setuphelpers.html?highlight=mkdirs#setuphelpers.mkdirs"
+#~ "For more informations or to learn more on arguments on that function, please visit official Setuphelpers "
+#~ "reference documentation : https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?"
+#~ "highlight=mkdirs#setuphelpers.mkdirs"
 #~ msgstr ""
-#~ "Pour plus d'informations ou pour "
-#~ "connaître les paramètres complémentaires de"
-#~ " la commande, consultez la documentation"
-#~ " de référence (en anglais) en "
-#~ "visitant ... "
-#~ "https://dev.tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=mkdirs#setuphelpers.mkdirs"
+#~ "Pour plus d'informations ou pour connaître les paramètres complémentaires de la commande, consultez la "
+#~ "documentation de référence (en anglais) en visitant ... https://dev.tranquil.it/sphinxdocs/source/setuphelpers."
+#~ "html?highlight=mkdirs#setuphelpers.mkdirs"
 
 #~ msgid ""
-#~ "For more information and to learn "
-#~ "all the tricks of this command, "
-#~ "please refer to https://www.wapt.fr/en/api-"
+#~ "For more information and to learn all the tricks of this command, please refer to https://www.wapt.fr/en/api-"
 #~ "doc-1.5/source/setuphelpers.html?highlight=isfile#setuphelpers.isfile"
 #~ msgstr ""
-#~ "Pour plus d'informations ou pour "
-#~ "connaître les paramètres complémentaires de"
-#~ " la commande, consultez la documentation"
-#~ " de référence (en anglais) en "
-#~ "visitant ... "
-#~ "https://dev.tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=isfile#setuphelpers.isfile"
+#~ "Pour plus d'informations ou pour connaître les paramètres complémentaires de la commande, consultez la "
+#~ "documentation de référence (en anglais) en visitant ... https://dev.tranquil.it/sphinxdocs/source/setuphelpers."
+#~ "html?highlight=isfile#setuphelpers.isfile"
 
 #~ msgid ""
-#~ "For more informations or to learn "
-#~ "more on arguments on that function, "
-#~ "please visit official Setuphelpers reference"
-#~ " documentation : https://www.wapt.fr/en/api-"
-#~ "doc-1.5/source/setuphelpers.html?highlight=dir_is_empty#setuphelpers.dir_is_empty"
+#~ "For more informations or to learn more on arguments on that function, please visit official Setuphelpers "
+#~ "reference documentation : https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?"
+#~ "highlight=dir_is_empty#setuphelpers.dir_is_empty"
 #~ msgstr ""
-#~ "Pour plus d'informations ou pour "
-#~ "connaître les paramètres complémentaires de"
-#~ " la commande, consultez la documentation"
-#~ " de référence (en anglais) en "
-#~ "visitant ... "
-#~ "https://dev.tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=dir_is_empty#setuphelpers.dir_is_empty"
+#~ "Pour plus d'informations ou pour connaître les paramètres complémentaires de la commande, consultez la "
+#~ "documentation de référence (en anglais) en visitant ... https://dev.tranquil.it/sphinxdocs/source/setuphelpers."
+#~ "html?highlight=dir_is_empty#setuphelpers.dir_is_empty"
 
 #~ msgid ""
-#~ "For more informations or to learn "
-#~ "more on arguments on that function, "
-#~ "please visit official Setuphelpers reference"
-#~ " documentation : https://www.wapt.fr/en/api-"
-#~ "doc-1.5/source/setuphelpers.html?highlight=filecopyto#setuphelpers.filecopyto"
+#~ "For more informations or to learn more on arguments on that function, please visit official Setuphelpers "
+#~ "reference documentation : https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?"
+#~ "highlight=filecopyto#setuphelpers.filecopyto"
 #~ msgstr ""
-#~ "Pour plus d'informations ou pour "
-#~ "connaître les paramètres complémentaires de"
-#~ " la commande, consultez la documentation"
-#~ " de référence (en anglais) en "
-#~ "visitant ... "
-#~ "https://dev.tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=filecopyto#setuphelpers.copytree2"
+#~ "Pour plus d'informations ou pour connaître les paramètres complémentaires de la commande, consultez la "
+#~ "documentation de référence (en anglais) en visitant ... https://dev.tranquil.it/sphinxdocs/source/setuphelpers."
+#~ "html?highlight=filecopyto#setuphelpers.copytree2"
 
 #~ msgid ""
-#~ "For more informations or to learn "
-#~ "more on arguments on that function, "
-#~ "please visit official Setuphelpers reference"
-#~ " documentation: https://www.wapt.fr/en/api-"
-#~ "doc-1.5/source/setuphelpers.html?highlight=iswin64#setuphelpers.iswin64"
+#~ "For more informations or to learn more on arguments on that function, please visit official Setuphelpers "
+#~ "reference documentation: https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?"
+#~ "highlight=iswin64#setuphelpers.iswin64"
 #~ msgstr ""
-#~ "Pour plus d'informations ou pour "
-#~ "connaître les paramètres complémentaires de"
-#~ " la commande, consultez la documentation"
-#~ " de référence (en anglais) en "
-#~ "visitant ... "
-#~ "https://dev.tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=iswin64#setuphelpers.iswin64"
+#~ "Pour plus d'informations ou pour connaître les paramètres complémentaires de la commande, consultez la "
+#~ "documentation de référence (en anglais) en visitant ... https://dev.tranquil.it/sphinxdocs/source/setuphelpers."
+#~ "html?highlight=iswin64#setuphelpers.iswin64"
 
 #~ msgid ""
-#~ "For more informations or to learn "
-#~ "more on arguments on that function, "
-#~ "please visit official Setuphelpers reference"
-#~ " documentation: https://www.wapt.fr/en/api-"
-#~ "doc-1.5/source/setuphelpers.html?highlight=disable_file_system_redirection#setuphelpers.disable_file_system_redirection"
+#~ "For more informations or to learn more on arguments on that function, please visit official Setuphelpers "
+#~ "reference documentation: https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?"
+#~ "highlight=disable_file_system_redirection#setuphelpers.disable_file_system_redirection"
 #~ msgstr ""
-#~ "Pour plus d'informations ou pour "
-#~ "connaître les paramètres complémentaires de"
-#~ " la commande, consultez la documentation"
-#~ " de référence (en anglais) en "
-#~ "visitant ... "
-#~ "https://dev.tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=disable_file_system_redirection#setuphelpers.disable_file_system_redirection"
+#~ "Pour plus d'informations ou pour connaître les paramètres complémentaires de la commande, consultez la "
+#~ "documentation de référence (en anglais) en visitant ... https://dev.tranquil.it/sphinxdocs/source/setuphelpers."
+#~ "html?highlight=disable_file_system_redirection#setuphelpers.disable_file_system_redirection"
 
 #~ msgid ""
-#~ "For more informations or to learn "
-#~ "more on arguments on that function, "
-#~ "please visit official Setuphelpers reference"
-#~ " documentation: https://www.wapt.fr/en/api-"
-#~ "doc-1.5/source/setuphelpers.html?highlight=get_current_user#setuphelpers.get_current_user"
+#~ "For more informations or to learn more on arguments on that function, please visit official Setuphelpers "
+#~ "reference documentation: https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?"
+#~ "highlight=get_current_user#setuphelpers.get_current_user"
 #~ msgstr ""
-#~ "Pour plus d'informations ou pour "
-#~ "connaître les paramètres complémentaires de"
-#~ " la commande, consultez la documentation"
-#~ " de référence (en anglais) en "
-#~ "visitant ... "
-#~ "https://dev.tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=get_current_user#setuphelpers.get_current_user"
+#~ "Pour plus d'informations ou pour connaître les paramètres complémentaires de la commande, consultez la "
+#~ "documentation de référence (en anglais) en visitant ... https://dev.tranquil.it/sphinxdocs/source/setuphelpers."
+#~ "html?highlight=get_current_user#setuphelpers.get_current_user"
 
 #~ msgid ""
-#~ "For more informations or to learn "
-#~ "more on arguments on that function, "
-#~ "please visit official Setuphelpers reference"
-#~ " documentation : https://www.wapt.fr/en/api-"
-#~ "doc-1.5/source/setuphelpers.html?highlight=version#setuphelpers.Version"
+#~ "For more informations or to learn more on arguments on that function, please visit official Setuphelpers "
+#~ "reference documentation : https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?"
+#~ "highlight=version#setuphelpers.Version"
 #~ msgstr ""
-#~ "Pour plus d'informations ou pour "
-#~ "connaître les paramètres de Version, "
-#~ "consultez la documentation de référence "
-#~ "(en anglais) en visitant ... "
-#~ "https://dev.tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=version#setuphelpers.Version"
+#~ "Pour plus d'informations ou pour connaître les paramètres de Version, consultez la documentation de référence (en "
+#~ "anglais) en visitant ... https://dev.tranquil.it/sphinxdocs/source/setuphelpers.html?"
+#~ "highlight=version#setuphelpers.Version"
 
 #~ msgid ""
-#~ "For more informations or to learn "
-#~ "more on arguments on that function, "
-#~ "please visit official Setuphelpers reference"
-#~ " documentation: https://www.wapt.fr/en/api-"
-#~ "doc-1.5/source/setuphelpers.html?highlight=killalltasks#setuphelpers.killalltasks"
+#~ "For more informations or to learn more on arguments on that function, please visit official Setuphelpers "
+#~ "reference documentation: https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?"
+#~ "highlight=killalltasks#setuphelpers.killalltasks"
 #~ msgstr ""
-#~ "Pour plus d'informations ou pour "
-#~ "connaître les paramètres complémentaires de"
-#~ " la commande, consultez la documentation"
-#~ " de référence (en anglais) en "
-#~ "visitant ... "
-#~ "https://dev.tranquil.it/sphinxdocs/source/setuphelpers.html?highlight=killalltasks#setuphelpers.killalltasks"
+#~ "Pour plus d'informations ou pour connaître les paramètres complémentaires de la commande, consultez la "
+#~ "documentation de référence (en anglais) en visitant ... https://dev.tranquil.it/sphinxdocs/source/setuphelpers."
+#~ "html?highlight=killalltasks#setuphelpers.killalltasks"
 
 #~ msgid ""
-#~ "... - For each item of the "
-#~ "list return by ``installed_softwares`` "
-#~ "containing keyword \"winscp\" ; - If "
-#~ "the version is lower than 5.0.2 ;"
-#~ " - Uninstall using the ``uninstall_cmd``"
-#~ " referred by corresponding ``uninstallkey`` "
-#~ ";"
+#~ "... - For each item of the list return by ``installed_softwares`` containing keyword \"winscp\" ; - If the "
+#~ "version is lower than 5.0.2 ; - Uninstall using the ``uninstall_cmd`` referred by corresponding ``uninstallkey`` ;"
 #~ msgstr ""
-#~ "... - pour chaque élément de la"
-#~ " liste retournée par *installed_softwares* "
-#~ "avec le mot clé *winscp* ; - "
-#~ "si la version dans la liste est"
-#~ " plus petite que 5.0.2 ; - "
-#~ "alors lancer la désinstallation avec "
-#~ "*uninstall_cmd* et en indiquant la "
-#~ "*uninstallkey* ;"
+#~ "... - pour chaque élément de la liste retournée par *installed_softwares* avec le mot clé *winscp* ; - si la "
+#~ "version dans la liste est plus petite que 5.0.2 ; - alors lancer la désinstallation avec *uninstall_cmd* et en "
+#~ "indiquant la *uninstallkey* ;"
 
 #~ msgid ""
-#~ "For more informations or to learn "
-#~ "more on arguments on that function, "
-#~ "please visit official :program:`Setuphelpers` "
-#~ "reference documentation:"
+#~ "For more informations or to learn more on arguments on that function, please visit official :program:"
+#~ "`Setuphelpers` reference documentation:"
 #~ msgstr ""
-#~ "Pour plus d'informations ou pour "
-#~ "connaître les paramètres complémentaires de"
-#~ " la commande, consultez la documentation"
-#~ " de référence (en anglais) en "
-#~ "visitant :"
+#~ "Pour plus d'informations ou pour connaître les paramètres complémentaires de la commande, consultez la "
+#~ "documentation de référence (en anglais) en visitant :"
 
 #~ msgid "windows_version()<Version('6.2.0'):"
 #~ msgstr "windows_version()<Version('6.2.0'):"
 
+#~ msgid "Command..."
+#~ msgstr "La commande ..."

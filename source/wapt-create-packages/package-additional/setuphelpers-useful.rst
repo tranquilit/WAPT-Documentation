@@ -408,7 +408,7 @@ Command :command:`user_appdata` ...
   print(user_appdata())
 
 ... returns roaming *AppData* profile path
-of logged on user (:file:`C:\\Users\\username\\AppData\\Roaming`).
+of logged on user (:file:`C:\\Users\\%username%\\AppData\\Roaming`).
 
 .. hint::
 
@@ -424,7 +424,7 @@ Command :command:`user_local_appdata` ...
   print(user_local_appdata())
 
 ... returns the local *AppData* profile path
-of the logged on user (:file:`C:\\Users\\username\\AppData\\Local`).
+of the logged on user (:file:`C:\\Users\\%username%\\AppData\\Local`).
 
 .. hint::
 

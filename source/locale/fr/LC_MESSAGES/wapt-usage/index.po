@@ -3,38 +3,41 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-05 15:09+0100\n"
-"PO-Revision-Date: 2018-11-02 18:27+0200\n"
+"POT-Creation-Date: 2019-02-27 10:29+0100\n"
+"PO-Revision-Date: 2019-02-27 12:05+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.5.3\n"
+"X-Generator: Poedit 1.8.8\n"
 
-#: ../../source/wapt_usage/index.rst:11
+#: ../../source/wapt-usage/index.rst:11
 msgid "How to use WAPT"
 msgstr "Utiliser WAPT"
 
-#: ../../source/wapt_usage/index.rst:13
+#: ../../source/wapt-usage/index.rst:13
 msgid "This section of the documentation covers the daily use of WAPT."
 msgstr "Cette section aborde l'utilisation globale de WAPT."
 
-#: ../../source/wapt_usage/index.rst:15
+#: ../../source/wapt-usage/index.rst:15
 msgid ""
-"All WAPT functionalities are explained in detail for the "
-":term:`Administrators`, the :term:`Users` and the :term:`Package "
-"Deployers`."
+"All WAPT functionalities are explained in detail for the :term:"
+"`Administrators`, the :term:`Users` and the :term:`Package Deployers`."
 msgstr ""
-"Toutes les fonctionnalités de WAPT pour les :term:`Administrateurs`, les "
-":term:`Utilisateurs` et les :term:`Déployeurs de Paquets` sont "
+"Toutes les fonctionnalités de WAPT pour les :term:`Administrateurs`, "
+"les :term:`Utilisateurs` et les :term:`Déployeurs de Paquets` sont "
 "expliquées en détail."
+
+#: ../../source/wapt-usage/index.rst:28
+msgid "Enterprise Features"
+msgstr "Fonctionnalités de la version **Enterprise**"
 
 #~ msgid "Using WAPT"
 #~ msgstr "Utilisation de WAPT"
 
 #~ msgid "Using WAPT effectively"
 #~ msgstr "Utiliser WAPT efficacement"
-

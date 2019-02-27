@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-05 15:09+0100\n"
-"PO-Revision-Date: 2018-11-06 17:58+0100\n"
+"POT-Creation-Date: 2019-02-27 10:29+0100\n"
+"PO-Revision-Date: 2019-02-27 11:57+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
@@ -12,19 +12,19 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.5.3\n"
 "X-Generator: Poedit 1.8.8\n"
 
-#: ../../source/wapt_server_install/windows/change-port.rst:8
-#: ../../source/wapt_server_install/windows/change-port.rst:15
+#: ../../source/waptserver-install/windows/change-port.rst:8
+#: ../../source/waptserver-install/windows/change-port.rst:15
 msgid "Changing the listening port of the WAPT Server"
 msgstr "Changer le port d'écoute du serveur"
 
-#: ../../source/wapt_server_install/windows/change-port.rst:8
+#: ../../source/waptserver-install/windows/change-port.rst:8
 msgid "port, Windows, WAPT, firewall, IIS, Nginx, documentation"
 msgstr "port, Windows, WAPT, pare-feu, IIS, Nginx, documentation"
 
-#: ../../source/wapt_server_install/windows/change-port.rst:19
+#: ../../source/waptserver-install/windows/change-port.rst:19
 msgid ""
 "In some cases, it is not possible to install the WAPT Server on a Windows "
 "machine because a service already occupies ports 80 and 443."
@@ -32,7 +32,7 @@ msgstr ""
 "Dans certains cas, il n'est pas possible d'installer le serveur WAPT sur un "
 "serveur Windows car un service occupe déjà les ports 80 et 443."
 
-#: ../../source/wapt_server_install/windows/change-port.rst:22
+#: ../../source/waptserver-install/windows/change-port.rst:22
 msgid ""
 "It is the case if for example, a IIS web service is active on the host "
 "(example: anti-virus server, WSUS, web server ...)."
@@ -40,7 +40,7 @@ msgstr ""
 "C'est le cas par exemple si un IIS est actif sur la machine. (Exemple : "
 "serveur anti-virus, WSUS, Serveur Web ...)"
 
-#: ../../source/wapt_server_install/windows/change-port.rst:25
+#: ../../source/waptserver-install/windows/change-port.rst:25
 msgid ""
 "In that case, we will change the listening port on the :program:`Nginx` web "
 "server integrated to the WAPT Server."
@@ -48,11 +48,11 @@ msgstr ""
 "Dans ce cas, nous allons donc changer le port d'écoute du serveur web :"
 "program:`Nginx` intégré au Serveur WAPT."
 
-#: ../../source/wapt_server_install/windows/change-port.rst:29
+#: ../../source/waptserver-install/windows/change-port.rst:29
 msgid "Installing the WAPT Server"
 msgstr "Installer le Serveur WAPT"
 
-#: ../../source/wapt_server_install/windows/change-port.rst:31
+#: ../../source/waptserver-install/windows/change-port.rst:31
 msgid ""
 "The installation of WAPT still needs ports 80 and 443 be available when "
 "installing the WAPT Server, so the first step consists of stopping the "
@@ -62,7 +62,7 @@ msgstr ""
 "disponibles au moment de l'installation, donc couper le service qui écoute "
 "sur le port 80 et / ou 443 (IIS / Antivirus)."
 
-#: ../../source/wapt_server_install/windows/change-port.rst:35
+#: ../../source/waptserver-install/windows/change-port.rst:35
 msgid ""
 "launch now the installation of the WAPT Server and follow the post-"
 "configuration procedure, but do not launch the WAPT console. If you need "
@@ -74,11 +74,11 @@ msgstr ""
 "vous pouvez suivre la documentation pour :ref:`installer le serveur WAPT sur "
 "Windows <wapt-server_win_install>`."
 
-#: ../../source/wapt_server_install/windows/change-port.rst:40
+#: ../../source/waptserver-install/windows/change-port.rst:40
 msgid "now stop the :program:`Nginx` service and the WAPT service:"
 msgstr "stopper maintenant le service :program:`Nginx` et le service WAPT :"
 
-#: ../../source/wapt_server_install/windows/change-port.rst:47
+#: ../../source/waptserver-install/windows/change-port.rst:47
 msgid ""
 "finally, restart the service that listens on ports 80 and/ or 443 (IIS/ Anti-"
 "virus / Web server ...);"
@@ -86,43 +86,47 @@ msgstr ""
 "redémarrer enfin le service qui écoute sur le port 80 et / ou 443 (IIS / "
 "Antivirus / Serveur Web ...) ;"
 
-#: ../../source/wapt_server_install/windows/change-port.rst:51
+#: ../../source/waptserver-install/windows/change-port.rst:51
 msgid "Configuring the new listening ports in the Nginx"
 msgstr "Modifier le port dans la configuration Nginx"
 
-#: ../../source/wapt_server_install/windows/change-port.rst:53
-msgid "open the file:file:`C:\\wapt\\waptserver\\nginx\\conf\\nginx.conf`"
-msgstr "ouvrir le fichier :file:`C:\\wapt\\waptserver\\nginx\\conf\\nginx.conf`"
+#: ../../source/waptserver-install/windows/change-port.rst:53
+msgid ""
+"open the file :file:`C:\\\\Program Files (x86)\\\\wapt\\\\waptserver\\\\nginx"
+"\\\\conf\\\\nginx.conf`"
+msgstr ""
+"ouvrir le fichier :file:`C:\\\\Program Files (x86)\\\\wapt\\\\waptserver\\"
+"\\nginx\\\\conf\\\\nginx.conf`"
 
-#: ../../source/wapt_server_install/windows/change-port.rst:55
+#: ../../source/waptserver-install/windows/change-port.rst:55
 msgid "replace the lines:"
 msgstr "remplacer les lignes :"
 
-#: ../../source/wapt_server_install/windows/change-port.rst:62
+#: ../../source/waptserver-install/windows/change-port.rst:62
 msgid "with:"
 msgstr "par :"
 
-#: ../../source/wapt_server_install/windows/change-port.rst:69
+#: ../../source/waptserver-install/windows/change-port.rst:69
 msgid "restart :program:`Nginx` with :code:`net start WAPTNginx`;"
 msgstr "relancer :program:`Nginx` avec :code:`net start WAPTNginx` :"
 
-#: ../../source/wapt_server_install/windows/change-port.rst:71
-msgid "open :file:`C:\\Program Files (x86)\\wapt\\wapt-get.ini`;"
-msgstr "ouvrir :file:`C:\\Program Files (x86)\\wapt\\wapt-get.ini` ;"
+#: ../../source/waptserver-install/windows/change-port.rst:71
+msgid "open :file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get.ini`;"
+msgstr "ouvrir :file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get.ini` ;"
 
-#: ../../source/wapt_server_install/windows/change-port.rst:73
+#: ../../source/waptserver-install/windows/change-port.rst:73
 msgid "add the port to the specified URL, example:"
 msgstr "ajouter le port a l'url indiquée, exemple :"
 
-#: ../../source/wapt_server_install/windows/change-port.rst:80
+#: ../../source/waptserver-install/windows/change-port.rst:80
 msgid "restart the WAPT service with :code:`net start waptservice`;"
 msgstr "redémarrer ensuite le service WAPT avec :code:`net start waptservice` ;"
 
-#: ../../source/wapt_server_install/windows/change-port.rst:83
+#: ../../source/waptserver-install/windows/change-port.rst:83
 msgid "Making changes to firewall rules on the Windows devices"
 msgstr "Modifier les règles de pare-feu Windows"
 
-#: ../../source/wapt_server_install/windows/change-port.rst:85
+#: ../../source/waptserver-install/windows/change-port.rst:85
 msgid ""
 "You must now make changes to the two waptserver rules that were created "
 "during initial installation: waptserver *waptserver 80* and *waptserver 443*."
@@ -130,19 +134,19 @@ msgstr ""
 "Vous devez maintenant modifier les deux règles waptserver créées pendant "
 "l'installation :  waptserver *waptserver 80* et *waptserver 443*."
 
-#: ../../source/wapt_server_install/windows/change-port.rst:88
+#: ../../source/waptserver-install/windows/change-port.rst:88
 msgid "change the listening ports:"
 msgstr "changer les ports :"
 
-#: ../../source/wapt_server_install/windows/change-port.rst:94
+#: ../../source/waptserver-install/windows/change-port.rst:94
 msgid "Changing from port 80 to 8000"
 msgstr "Modification du port de 80 a 8000"
 
-#: ../../source/wapt_server_install/windows/change-port.rst:100
+#: ../../source/waptserver-install/windows/change-port.rst:100
 msgid "Changing from port 443 to 8443"
 msgstr "Modification du port de 443 a 8443"
 
-#: ../../source/wapt_server_install/windows/change-port.rst:102
+#: ../../source/waptserver-install/windows/change-port.rst:102
 msgid ""
 "Go on to the next step to :ref:`launch the WAPT console <starting-"
 "waptconsole>`."
@@ -150,7 +154,7 @@ msgstr ""
 "Passer à l'étape suivante pour :ref:`lancer la console WAPT <starting-"
 "waptconsole>`."
 
-#: ../../source/wapt_server_install/windows/change-port.rst:106
+#: ../../source/waptserver-install/windows/change-port.rst:106
 msgid ""
 "If you had already launched the WAPT console, do not forget to change the "
 "port values in the WAPT console configuration file by clicking the :guilabel:"

@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-05 15:09+0100\n"
-"PO-Revision-Date: 2018-11-05 15:21+0100\n"
+"POT-Creation-Date: 2019-02-27 10:29+0100\n"
+"PO-Revision-Date: 2019-02-27 12:05+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
@@ -12,14 +12,14 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 1.8.11\n"
+"Generated-By: Babel 2.5.3\n"
+"X-Generator: Poedit 1.8.8\n"
 
-#: ../../source/wapt_usage/role_separation/index.rst:8
+#: ../../source/wapt-usage/role-separation/index.rst:8
 msgid "Differentiating Administrators in WAPT"
 msgstr "Différencier les Administrateurs dans WAPT"
 
-#: ../../source/wapt_usage/role_separation/index.rst:8
+#: ../../source/wapt-usage/role-separation/index.rst:8
 msgid ""
 "role level, WAPT, Certificate Authority, Code Signing, Administrator, Package "
 "Developer, Package Deployer, CA, documentation"
@@ -27,27 +27,32 @@ msgstr ""
 "niveaux de rôle, WAPT, Certificat CA, Code Signing, Administrateur, "
 "Gestionnaire de Déploiement, Authorité de Certification (CA), documentation"
 
-#: ../../source/wapt_usage/role_separation/index.rst:14
+#: ../../source/wapt-usage/role-separation/index.rst:14
 msgid "Enterprise"
 msgstr "Enterprise"
 
-#: ../../source/wapt_usage/role_separation/index.rst:19
+#: ../../source/wapt-usage/role-separation/index.rst:19
 msgid "Differentiating the role level in WAPT"
 msgstr "Différencier les niveaux de rôle dans WAPT"
 
-#: ../../source/wapt_usage/role_separation/index.rst:22
+#: ../../source/wapt-usage/role-separation/index.rst:23
+msgid "Feature only available with WAPT Enterprise"
+msgstr ""
+"Cette fonctionnalité est uniquement disponible avec la version **Enterprise**"
+
+#: ../../source/wapt-usage/role-separation/index.rst:27
 msgid "Generating a new certificate"
 msgstr "Générer un nouveau certificat"
 
-#: ../../source/wapt_usage/role_separation/index.rst:28
+#: ../../source/wapt-usage/role-separation/index.rst:33
 msgid "Generating a new self-signed certificate"
 msgstr "Générer un certificat auto-signé"
 
-#: ../../source/wapt_usage/role_separation/index.rst:31
+#: ../../source/wapt-usage/role-separation/index.rst:36
 msgid "Generating the Certificate Authority (CA)"
 msgstr "Générer l'Authorité de Certification (CA)"
 
-#: ../../source/wapt_usage/role_separation/index.rst:33
+#: ../../source/wapt-usage/role-separation/index.rst:38
 msgid ""
 "When installing WAPT, you are asked to create a pem / crt pair by checking the "
 "boxes :guilabel:`Certificate CA` and :guilabel:`Code Signing`."
@@ -55,17 +60,17 @@ msgstr ""
 "Lors de l'installation, il a été demandé de créer un couple pem / crt en "
 "cochant les case :guilabel:`Certificat CA`** et :guilabel:`Code Signing`."
 
-#: ../../source/wapt_usage/role_separation/index.rst:36
+#: ../../source/wapt-usage/role-separation/index.rst:41
 msgid "This crt/ pem pair will allow to sign WAPT packages and new certificates."
 msgstr ""
 "Ce couple crt / pem permettra de signer des paquets WAPT et de nouveaux "
 "certificats."
 
-#: ../../source/wapt_usage/role_separation/index.rst:39
+#: ../../source/wapt-usage/role-separation/index.rst:44
 msgid "Generating a new certificate with the Certificate Authority"
 msgstr "Générer un nouveau certificat avec la CA"
 
-#: ../../source/wapt_usage/role_separation/index.rst:41
+#: ../../source/wapt-usage/role-separation/index.rst:46
 msgid ""
 "To create a new pem/ crt pair from the private key, click on :guilabel:`Create "
 "a certificate`."
@@ -73,11 +78,11 @@ msgstr ""
 "Pour générer un nouveau couple crt / pem à partir de la clé privée, cliquer "
 "sur :guilabel:`Créer un certificat`."
 
-#: ../../source/wapt_usage/role_separation/index.rst:46
+#: ../../source/wapt-usage/role-separation/index.rst:51
 msgid "The new certificate will not be a self-signed certificate;"
 msgstr "Le nouveau certificat ne sera pas un certificat auto-signé ;"
 
-#: ../../source/wapt_usage/role_separation/index.rst:48
+#: ../../source/wapt-usage/role-separation/index.rst:53
 msgid ""
 "This new certificate will be signed by the AC (the key generated at the time "
 "of the first installation of WAPT);"
@@ -85,7 +90,7 @@ msgstr ""
 "Ce nouveau certificat sera signé par la CA (la clé générée lors de la première "
 "installation) ;"
 
-#: ../../source/wapt_usage/role_separation/index.rst:50
+#: ../../source/wapt-usage/role-separation/index.rst:55
 msgid ""
 "You must then fill in the :guilabel:`AC's certificate` and the :guilabel:`AC's "
 "key`."
@@ -93,7 +98,7 @@ msgstr ""
 "Vous devez donc renseigner le :guilabel:`Certificat de la CA`** et la :"
 "guilabel:`Clé de la CA`."
 
-#: ../../source/wapt_usage/role_separation/index.rst:53
+#: ../../source/wapt-usage/role-separation/index.rst:58
 msgid ""
 "When generating the new pem/ crt pair, you have the option to choose whether "
 "or not the new certificate will a **Code Signing** type."
@@ -101,7 +106,7 @@ msgstr ""
 "Lors de la génération de ce nouveau couple pem / crt vous pouvez choisir si le "
 "nouveau certificat sera de type **Code Signing** ou non."
 
-#: ../../source/wapt_usage/role_separation/index.rst:58
+#: ../../source/wapt-usage/role-separation/index.rst:63
 msgid ""
 "For recall, a *Code Signing* certificate is reserved to individuals with the :"
 "term:`Administrator` role in the context of WAPT and a simple SSL certificate "
@@ -113,7 +118,7 @@ msgstr ""
 "non Code Signing est destiné aux personnes ayant le rôle de :term:`Déployeur "
 "de paquets` . "
 
-#: ../../source/wapt_usage/role_separation/index.rst:63
+#: ../../source/wapt-usage/role-separation/index.rst:68
 msgid ""
 ":term:`Administrators` will be authorized to sign packages that **CONTAIN** a :"
 "file:`setup.py` executable file (i.e. *base* packages)."
@@ -121,21 +126,21 @@ msgstr ""
 "Les :term:`Administrateurs` pourront signer des paquets qui **CONTIENNENT** un "
 "fichier :file:`setup.py` exécutable (c.à.d. des paquets logiciels)."
 
-#: ../../source/wapt_usage/role_separation/index.rst:66
+#: ../../source/wapt-usage/role-separation/index.rst:71
 msgid ""
 "Individuals with the :term:`Package Deployer` role will be authorized to sign "
 "packages that **DO NOT CONTAIN** :file:`setup.py` executable file (i.e. "
 "*host*, *unit* and *group* packages)."
 msgstr ""
-"Les individus avec le rôle de :term:`Déployeur de Paquets` pourront signer "
-"des paquets qui **NE CONTIENNENT PAS** de fichier :file:`setup.py` (c.à.d. des "
+"Les individus avec le rôle de :term:`Déployeur de Paquets` pourront signer des "
+"paquets qui **NE CONTIENNENT PAS** de fichier :file:`setup.py` (c.à.d. des "
 "paquets de type *machine*, *unit* et groupe*)."
 
-#: ../../source/wapt_usage/role_separation/index.rst:74
+#: ../../source/wapt-usage/role-separation/index.rst:79
 msgid "Generating a certificate without the *Code Signing* attribute"
 msgstr "Génération d'un certificat sans attribut Code Signing"
 
-#: ../../source/wapt_usage/role_separation/index.rst:76
+#: ../../source/wapt-usage/role-separation/index.rst:81
 msgid ""
 "Keys and certificates that are **Not Code Signing** may be distributed to "
 "individuals in charge of deploying packages on the installed base of WAPT "
@@ -144,7 +149,7 @@ msgstr ""
 "Les clés et certificats **Non Code Signing** pourront donc être confiées aux "
 "personnes en charge du déploiment des paquets sur le parc machine."
 
-#: ../../source/wapt_usage/role_separation/index.rst:80
+#: ../../source/wapt-usage/role-separation/index.rst:85
 msgid ""
 "Another team with certificates having the **Code Signing** attribute will "
 "prepare the WAPT packages that contain applications that will need to be "
@@ -156,11 +161,11 @@ msgstr ""
 "configurées en accord avec la politique de sécurité de l':term:`Organisation` "
 "et les personnalisations souhaitées par elle."
 
-#: ../../source/wapt_usage/role_separation/index.rst:89
+#: ../../source/wapt-usage/role-separation/index.rst:94
 msgid "Generating a certificate with the *Code Signing* attribute"
 msgstr "Génération d'un certificat Code Signing"
 
-#: ../../source/wapt_usage/role_separation/index.rst:91
+#: ../../source/wapt-usage/role-separation/index.rst:96
 msgid ""
 "Generating a new prm/ crt pair will also allow to formally identify the "
 "individual who has signed a package by looking up the WAPT package "
@@ -169,7 +174,7 @@ msgstr ""
 "Générer un nouveau couple pem / crt permettra également d'authentifier "
 "formellement le signataire d'un paquet avec le champ :abbr:`CN (Common Name)`."
 
-#: ../../source/wapt_usage/role_separation/index.rst:97
+#: ../../source/wapt-usage/role-separation/index.rst:102
 msgid ""
 "The new certificates will not be *CA Certificates*, which means that they will "
 "not be authorized to sign other certificates."
@@ -177,7 +182,7 @@ msgstr ""
 "Les nouveaux certificats ne seront pas **Certificat CA**, ce qui signifie "
 "qu'il ne pourront pas contre-signer d'autres certificats."
 
-#: ../../source/wapt_usage/role_separation/index.rst:100
+#: ../../source/wapt-usage/role-separation/index.rst:105
 msgid ""
 "As a general rule, there is only one **CA Certificate** pem / crt pair per :"
 "term:`Organization`."

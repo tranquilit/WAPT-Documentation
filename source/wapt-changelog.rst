@@ -891,10 +891,10 @@ Changes
     --minversion=1.5.1.23
     --waptsetupurl=http://buildbot/~tisadmin/wapt/latest/waptsetup.exe
     --setupargs=/CopyPackagesTrustedCA=c:\tmp\tranquilit.crt
-    --setupargs=/CopyServersTrustedCA=c:\tmp\srvwapt.ad.tranquil.it.crt
-    --setupargs=/verify_cert=ssl\server\srvwapt.ad.tranquil.it.crt
-    --setupargs=/repo_url=https://srvwapt.ad.tranquil.it/wapt
-    --setupargs=/waptserver=https://srvwapt.ad.tranquil.it
+    --setupargs=/CopyServersTrustedCA=c:\tmp\srvwapt.mydomain.lan.crt
+    --setupargs=/verify_cert=ssl\server\srvwapt.mydomain.lan.crt
+    --setupargs=/repo_url=https://srvwapt.mydomain.lan/wapt
+    --setupargs=/waptserver=https://srvwapt.mydomain.lan
     --setupargs=/DIR=c:\wapt`
 
 Bug fixes
