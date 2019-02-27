@@ -74,5 +74,5 @@ You can now create your first *selfservice* rule package.
 
 .. note::
 
-	If a group appears in multiple *selfservice* packages, then the rules will be merged.
-
+	If a group appears in multiple *selfservice* packages,
+  then the rules will be merged.

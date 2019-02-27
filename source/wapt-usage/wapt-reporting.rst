@@ -6,64 +6,80 @@
    Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
-  :description: Using the WAPT console
-  :keywords: WAPT, console, documentation
+  :description: Using the reporting functions in WAPT
+  :keywords: WAPT, console, reporting, SQL, query, PostgreSQL, documentation
 
 .. _wapt_reporting:
 
-.. versionadded:: 1.7
+.. versionadded:: 1.7 Enterprise
 
-Using Reporting
-====================================
+Using the reporting functions in WAPT
+=====================================
 
 .. hint::
 
   Feature only available with WAPT Enterprise
 
+Working principle
+-----------------
 
-Principle
------------
+WAPT **Enterprise** offers advanced reporting capabilities.
 
-WAPT Enterprise proposes reporting possibilities. 
+Indeed, who better than you to know what you want in your report.
 
-Indeed, who better than you know what you want in your report.
+With WAPT we offer to write your own SQL queries to display the result
+in the wapt console.
 
-With WAPT we offer to write your own SQL query to display the result in the wapt console.
-	
-	
-Query Designer
---------------------------------------------
+WAPT query Designer
+-------------------
 
-The query designer offers you the ability to write down your own queries on WAPT database.
+The query designer offers you the ability to edit your own queries
+on the WAPT PostgreSQL database.
 
-To create a new query, click the :guilabel:`Reporting` tab, click :guilabel:`Design Mode` and :guilabel:`New query`
+To create a new report, click on
+:menuselection:`Reporting --> Design Mode --> New query`.
 
 .. figure:: wapt_console-report-design.png
   :align: center
-  :alt: Design
+  :alt: Designing a query in WAPT reporting
+
+  Designing a query in WAPT reporting
 
 .. hint::
 
- * To rename a request, use the F2 key
- * In the top banner, you can write your SQL query.
+ * to rename a query, press the :kbd:`F2` key;
 
-To edit/modify/save your queries :
-	
-* The :guilabel:`Reload queries` button is used to reload requests saved on the server. (For example, if a colleague has just saved a query.)
-* The :guilabel:`New query` button adds a new empty query to the list 
-* Using :guilabel:`Delete query` button will delete the selected query from the WAPT server.
-* You can export the result of your requests to Excel with the :guilabel:`Export to Excel` button
-* When you have finished writing your query, click on :guilabel:`Save queries`.
-* The :guilabel:`Duplicate` button allows you to copy an existing query to avoid writing a request from scratch.
-* You can test your requests with the :guilabel:`Execute` button
+ * in the top banner, you can write your SQL query;
+
+To edit / modify / save your reports:
+
+* the :guilabel:`Reload queries` button is used to reload queries saved
+  on the server, for example, if a colleague has just edited a new query;
+
+* the :guilabel:`New query` button will add a new blank query to the list;
+
+* the :guilabel:`Delete query` button will delete the selected
+  query from the WAPT server;
+
+* the :guilabel:`Export to Excel` button will export
+  the result of your query to a spreadsheet;
+
+* the :guilabel:`Save queries` button will save your query to the WAPT server;
+
+* the :guilabel:`Duplicate` button will duplicate an existing query
+  to avoid writing a request from scratch;
+
+* the :guilabel:`Execute` button executes the selected query;
 
 .. note::
 
- * The queries are saved in the PostgreSQL WAPT database.
- * The shortcut CTRL+space offers you some choices directly.
+ * the queries are saved in the PostgreSQL WAPT database;
+
+ * the shortcut :kbd:`CTRL+space` allows you to build your queries
+  more effectively;
 
 Query examples
-+++++++++++++++
+++++++++++++++
 
 * Computers list:
 
@@ -77,40 +93,54 @@ Query examples
 
   select distinct unnest(mac_addresses) as mac,
   unnest(h.connected_ips) as ipaddress,
-  computer_fqdn,h.description,h.manufacturer||' '||h. productname as model,h.serialnr,h.computer_type from
-  hosts h order by 1,2,3
+  computer_fqdn,h.description,h.manufacturer||' '||h.productname as model,
+  h.serialnr,h.computer_type
+  from hosts h
+  order by 1,2,3
 
 * Windows versions:
 
 .. code-block:: sql
 
   select host_info->'windows_version' as windows_version,
-  os_name as "Operating_System",
-  count(os_name) as "Nb_Machines" from 
-  hosts group by 1,2
+  os_name as operating_system,
+  count(os_name) as nb_hosts
+  from hosts
+  group by 1,2
 
+Normalizing the name of software
+--------------------------------
 
-Normalize the name of the software
-------------------------------------------------
-
-One of the main problem with software research is that a software may have several different names and different uninstall keys depending on the version.
+One of the main problem with reporting on software is that the same software
+may be labeled under several names and have different uninstall keys
+depending on the version of the software.
 
 To solve this problem, we propose to standardize the name of the software with WAPT.
 
 .. figure:: wapt_console-report-normalize.png
   :align: center
-  :alt: Normalize
+  :alt: Normalizing the name of software
 
-* Click :guilabel:`Normalize Software Names` in the :guilabel:`Tools` menu.
-* Select the software to standardize. (for example, all different version of Adobe Flash Player)
-* On the column :guilabel:`normalized`, press :guilabel:`F2` to assign a standardized name to the selected software. Then press Enter
+  Normalizing the name of software
 
-.. note:: 
-  
- * To select several programs, select them with the shift-flech key combination
- * You can also indicate a software like "windows update" or "banned" ("Press spacebar" in the corresponding column)
+* click :guilabel:`Normalize Software Names` in the :guilabel:`Tools` menu;
 
-* Press on :guilabel:`Import` to load the changes from the server
-* Press on :guilabel:`Write` to save the changes
+* select the software to standardize,
+  for example, all different version of Adobe Flash Player;
 
-You can now search on this standardized name.
+* on the column :guilabel:`normalized`, press :kbd:`F2` to assign
+  a standardized name to the selected software. Then press Enter
+
+.. note::
+
+  * to select several programs, select them with the :kbd:`shift-up/down`
+    key combination;
+
+  * you can also indicate a software like *windows update* or *banned*
+    (Press :kbd:`spacebar` in the corresponding column);
+
+* press on :guilabel:`Import` to load the changes from the server;
+
+* press on :guilabel:`Write` to save your changes;
+
+You can now run your queries on this standardized name.
