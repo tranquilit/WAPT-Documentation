@@ -44,3 +44,5 @@ coverage.xml
 docs/_build/
 source/.doctrees/
 .doctrees/
+source/locale/**/*.tmp
+.vscode\settings.json

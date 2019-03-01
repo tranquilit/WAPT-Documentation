@@ -28,7 +28,8 @@ Python environment
 
 * server python libraries in :file:`requirements-server.txt`;
 
-Creating a development environment with virtualenv:
+Create a development environment with virtualenv
+------------------------------------------------
 
 With a clean Windows installed:
 
@@ -99,21 +100,17 @@ Building WAPT
 Installing the WAPT development environment
 +++++++++++++++++++++++++++++++++++++++++++
 
-* on a clean Windows 7 install
+On a clean Windows 7 install as a :term:`Local Administrator`:
 
-* install the WAPT agent from https://srvwapt.mydomain.lan/wapt/waptagent.exe
+* install the WAPT agent from https://srvwapt.mydomain.lan/wapt/waptagent.exe;
 
-* deactivate UAC
+* deactivate UAC;
 
-* as a :term:`Local Administrator`
+* show hidden files and file extensions;
 
-* show hidden files and file extensions
+* increase the width of the CMD windows and flip to quick edit mode;
 
-* increase the width of the CMD windows and flip to quick edit mode
-
-* copy the code signing certificate into :file:`C:\\users\\buildbot\\Documents`
-
-* cmd
+* copy the code signing certificate into :file:`C:\\users\\buildbot\\Documents`;
 
 Installing Lazarus
 ++++++++++++++++++
@@ -160,7 +157,6 @@ Installing Lazarus
 
     REM depending on version, change community to enterprise
     waptpython build_exe.py community
-
 
 Installing the server environment on Windows
 ++++++++++++++++++++++++++++++++++++++++++++

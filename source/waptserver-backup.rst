@@ -44,7 +44,7 @@ Backing up the WAPT Server on Linux
 
 .. code-block:: bash
 
-  sudo -u postgres pg_dumpall   > /tmp/backup_wapt_$(date +%Y%m%d).sql
+  sudo -u postgres pg_dumpall > /tmp/backup_wapt_$(date +%Y%m%d).sql
 
 * restart WAPT related services on the server;
 
@@ -129,20 +129,17 @@ Backing up the WAPT Server on Windows
 * backup the WAPT root folder :file:`C:\\Program Files (x86)\\wapt`
   on a remote backup destination;
 
-    **Exemple**: backup on an external hard disk drive :file:`W:`
+  **Exemple**: backup on an external hard disk drive :file:`W:`
 
-    We use :program:`FastCopy` software, available
-    in the Tranquil IT WAPT store:
+  We advise you to use :program:`FastCopy` software, available
+  on `Tranquil IT repository <https://store.wapt.fr/>`_:
 
-    - We advise you to use :program:`FastCopy` software, available
-      on `Tranquil IT repository <https://store.wapt.fr/>`_:
+  .. code-block:: bash
 
-    .. code-block:: bash
+    FastCopy.exe /cmd=diff /error_stop=TRUE /force_close /acl=TRUE /verify=TRUE "C:\\Program Files (x86)\\wapt\\" /to="W:\\wapt"
 
-      FastCopy.exe /cmd=diff /error_stop=TRUE /force_close /acl=TRUE /verify=TRUE "C:\\Program Files (x86)\\wapt\\" /to="W:\\wapt"
-
-    Using the GUI interface of :program:`FastCopy`, make sure to check
-    the :guilabel:`ACL` checkbox.
+  Using the GUI interface of :program:`FastCopy`, make sure to check
+  the :guilabel:`ACL` checkbox.
 
 * restart WAPT related services on the server;
 

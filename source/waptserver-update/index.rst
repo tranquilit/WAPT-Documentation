@@ -23,7 +23,7 @@ Upgrading the WAPT Server
 Upgrading from 1.6 to 1.7
 -------------------------
 
-The upgrade process follows the process for a minor update.
+The upgrade process follows the process for a minor update:
 
 * :ref:`mise à jour mineure pour Debian <wapt_minor_upgrade_debian>`;
 

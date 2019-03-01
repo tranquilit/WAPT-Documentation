@@ -21,7 +21,6 @@ Main functional benefits of the Enterprise version of WAPT
    :align: center
    :alt: Logo WAPT Enterprise
 
-
 WAPT is designed to help IT system administrators manage the lifecycle
 of their installed base of Windows applications.
 
@@ -57,9 +56,9 @@ to answer the needs of large and medium Organisations:
 * **WAPT WUA**
   WAPT allows to manage the Windows Updates on your endpoints.
 
-* **advanced reporting for corporate teams**. This reporting completes
-  the operational reporting already available in the WAPT console;
-  reports are designed to help WAPT operators demonstrate their efficacy
+* **advanced reporting for corporate teams**.
+  This reporting completes the operational reporting already available
+  in the WAPT console; reports help WAPT operators demonstrate their efficacy
   with WAPT for insuring a greater level of security and conformity
   for their networks, systems, software and applications.
 
@@ -90,7 +89,7 @@ in the Enterprise version will no longer be accessible.
 Unlimited telephone support for your daily usage of WAPT
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Tranquil IT, the creator of WAPT, allows you a priviledge access to
+Tranquil IT, the creator of WAPT, allows you a privileged access to
 its core team of WAPT experts and developers.
 
 We give you access to a dedicated telephone hot-line with a direct answer
@@ -123,7 +122,7 @@ training advisers and a 50% discount on standard training prices.
 Why does Tranquil IT display a 300 device limit for WAPT Community on her commercial documentation ?
 ----------------------------------------------------------------------------------------------------
 
-Tranquil IT displays a 300 device limit on her commercial documentation
+Tranquil IT displays a 300 device limit on her commercial documentation
 for the WAPT Community version.
 
 .. note::

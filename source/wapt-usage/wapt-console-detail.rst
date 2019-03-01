@@ -12,7 +12,7 @@
 .. _wapt_console:
 
 Using the WAPT console (detailed)
-====================================
+=================================
 
 .. note::
 
@@ -79,7 +79,7 @@ Searching a host
 
 Allow to search for a value in the selected column.
 
-Filters and actions available with Organisational Units
+Filters and actions available with Organizational Units
 -------------------------------------------------------
 
 .. figure:: wapt_console-access-to-organisational-unit-menu.png
