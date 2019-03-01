@@ -7,18 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-27 10:29+0100\n"
+"POT-Creation-Date: 2019-03-01 10:44+0100\n"
 "PO-Revision-Date: 2019-02-27 17:05+0100\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
-"Language-Team: Tranquil IT <contact@tranquil.it>\n"
 "Language: en\n"
-"X-Generator: Poedit 1.8.8\n"
-"X-Poedit-SourceCharset: UTF-8\n"
+"Language-Team: Tranquil IT <contact@tranquil.it>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:8
 #: ../../source/wapt-usage/wapt-selfservice.rst:15
@@ -34,7 +32,8 @@ msgid "Enterprise"
 msgstr "Enterprise"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:21
-msgid "Feature only available with WAPT Enterprise"
+#, fuzzy
+msgid "Feature only available with WAPT **Enterprise**."
 msgstr ""
 "Cette fonctionnalité est uniquement disponible dans la version WAPT "
 "**Enterprise**."
@@ -62,14 +61,14 @@ msgstr ""
 #: ../../source/wapt-usage/wapt-selfservice.rst:32
 msgid ""
 "The :term:`Users` gain in autonomy while deploying software and "
-"configurations that are trusted and authorized by the :term:"
-"`Organization`. This is a time saving feature for the Organization's IT "
-"support Helpdesk."
+"configurations that are trusted and authorized by the "
+":term:`Organization`. This is a time saving feature for the "
+"Organization's IT support Helpdesk."
 msgstr ""
-"Les :term:`Utilisateurs' gagnent en autonomie en déployant des logiciels "
-"et des configurations fiables et autorisées par l\\':term:"
-"`Organisation`. Il s'agit d'un gain de temps pour le service "
-"d'assistance informatique de l'Organisation."
+"Les :term:`Utilisateurs` gagnent en autonomie en déployant des logiciels "
+"et des configurations fiables et autorisées par l':term:`Organisation`."
+" Il s'agit d'un gain de temps pour le service d'assistance informatique "
+"de l'Organisation."
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:37
 msgid "How it works?"
@@ -102,8 +101,7 @@ msgstr "Comment utiliser la focntionnalité de *self-service* ?"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:54
 msgid "In the console go to the tab :guilabel:`Self-service` rules."
-msgstr ""
-"Dans la console, allez dans l'onglet :guilabel:`Règles de self-service'."
+msgstr "Dans la console, allez dans l'onglet :guilabel:`Règles de self-service`."
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:56
 msgid "You can now create your first *selfservice* rule package."
@@ -128,8 +126,8 @@ msgid ""
 "name the *selfservice* group (with :kbd:`F2` or type directly into the "
 "cell);"
 msgstr ""
-"nommer le groupe *self-service* (avec :kbd:`F2` ou tapez directement "
-"dans la cellule) ;"
+"nommer le groupe *self-service* (avec :kbd:`F2` ou tapez directement dans"
+" la cellule) ;"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:64
 msgid ""
@@ -145,8 +143,7 @@ msgstr "ajouter autant de groupes que nécessaire dans le paquet ;"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:69
 msgid "save the package and deploy the package on your selection of hosts;"
-msgstr ""
-"enregistrer le paquet et le déployer sur une sélection de machines ;"
+msgstr "enregistrer le paquet et le déployer sur une sélection de machines ;"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:71
 msgid ""
@@ -154,9 +151,9 @@ msgid ""
 "*selfservice* group(s) of which the :term:`User` is a member will be "
 "shown to the logged in :term:`User`;"
 msgstr ""
-"une fois le paquet déployé, seuls les paquets autorisés listés dans "
-"le(s) groupe(s) *self-service* dont l\\':term:`Utilisateur' est membre "
-"seront affichés pour l'Utilisateur actuellement connecté ;"
+"une fois le paquet déployé, seuls les paquets autorisés listés dans le(s)"
+" groupe(s) *self-service* dont l':term:`Utilisateur` est membre seront "
+"affichés pour l':term:`Utilisateur` actuellement connecté ;"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:77
 msgid ""
@@ -165,3 +162,4 @@ msgid ""
 msgstr ""
 "Si un groupe apparaît dans plusieurs paquets *self-service*, alors les "
 "règles seront fusionnées."
+

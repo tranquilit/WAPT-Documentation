@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-27 10:29+0100\n"
+"POT-Creation-Date: 2019-03-01 10:44+0100\n"
 "PO-Revision-Date: 2018-11-05 16:26+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: ../../source/wapt-enterprise.rst:8 ../../source/wapt-enterprise.rst:15
 msgid "WAPT Community and WAPT Enterprise"
@@ -26,7 +26,7 @@ msgstr "WAPT Community, WAPT Enterprise, WAPT, documentation"
 msgid "Main functional benefits of the Enterprise version of WAPT"
 msgstr "Principaux ajouts fonctionnels de la version Enterprise"
 
-#: ../../source/wapt-enterprise.rst:25
+#: ../../source/wapt-enterprise.rst:24
 msgid ""
 "WAPT is designed to help IT system administrators manage the lifecycle of"
 " their installed base of Windows applications."
@@ -34,7 +34,7 @@ msgstr ""
 "WAPT est conçu pour aider les administrateurs de systèmes informatiques à"
 " gérer le cycle de vie de leur base installée d'applications Windows."
 
-#: ../../source/wapt-enterprise.rst:28
+#: ../../source/wapt-enterprise.rst:27
 msgid ""
 "With WAPT Enterprise, you benefit automatically from the base functions "
 "included in WAPT to help you deploy, upgrade and remove software and "
@@ -45,7 +45,7 @@ msgstr ""
 "configurations sur vos périphériques Windows à partir d'une console "
 "centralisée et simple à utiliser."
 
-#: ../../source/wapt-enterprise.rst:32
+#: ../../source/wapt-enterprise.rst:31
 msgid ""
 "WAPT is an *opencore* model and the **Enterprise** version is based on "
 "the **Community** version with the following features designed to answer "
@@ -55,7 +55,7 @@ msgstr ""
 "la version **Community** de WAPT avec les améliorations suivantes conçues"
 " pour répondre aux besoins des moyennes et grandes organisations :"
 
-#: ../../source/wapt-enterprise.rst:36
+#: ../../source/wapt-enterprise.rst:35
 msgid ""
 "**Active Directory authentication** of WAPT package developers, package "
 "deployers, self-service users and for the initial registering of the WAPT"
@@ -71,7 +71,7 @@ msgstr ""
 "structure hiérarchique de vos :abbr:`UO (Unités Organisationnelles)` "
 "Active Directory ;"
 
-#: ../../source/wapt-enterprise.rst:43
+#: ../../source/wapt-enterprise.rst:42
 msgid ""
 "**role separation between package developers and package deployers**. "
 "This way, central IT teams may build the software packages because they "
@@ -91,26 +91,26 @@ msgstr ""
 " signature de code pour les développeurs de paquets et des certificats "
 "SSL standards pour les déployeurs de paquets) ;"
 
-#: ../../source/wapt-enterprise.rst:51
+#: ../../source/wapt-enterprise.rst:50
 msgid ""
-"**Use of differentiated self service**.. WAPT Enterprise allows you to "
+"**Use of differentiated self service** WAPT Enterprise allows you to "
 "define lists of allowed packages to existing groups in Active Directory. "
-"Users are free to install your qualified packages without bothering IT "
-"teams."
+"Users are free to install qualified packages without having to submit a "
+"ticket to their IT teams."
 msgstr ""
 
-#: ../../source/wapt-enterprise.rst:55
+#: ../../source/wapt-enterprise.rst:56
 msgid "**WAPT WUA** WAPT allows to manage the Windows Updates on your endpoints."
 msgstr ""
 
-#: ../../source/wapt-enterprise.rst:58
+#: ../../source/wapt-enterprise.rst:59
 #, fuzzy
 msgid ""
 "**advanced reporting for corporate teams**. This reporting completes the "
-"operational reporting already available in the WAPT console; the reports "
-"are designed to help WAPT operators demonstrate their efficacy with WAPT "
-"for insuring a greater level of security and conformity for their "
-"network, system and applications."
+"operational reporting already available in the WAPT console; reports help"
+" WAPT operators demonstrate their efficacy with WAPT for insuring a "
+"greater level of security and conformity for their networks, systems, "
+"software and applications."
 msgstr ""
 "**reporting avancé pour les équipes de direction**. Ces rapports "
 "complètent les rapports opérationnels déjà disponibles dans la console de"
@@ -119,7 +119,7 @@ msgstr ""
 "éliminant la complexité et en sécurisant correctement leur parc de "
 "périphériques et d'applications ;"
 
-#: ../../source/wapt-enterprise.rst:64
+#: ../../source/wapt-enterprise.rst:65
 msgid ""
 "The Enterprise version of WAPT is particularly advisable for "
 "Organizations:"
@@ -127,17 +127,17 @@ msgstr ""
 "La version Enterprise de WAPT est particulièrement recommandable pour les"
 " Organisations :"
 
-#: ../../source/wapt-enterprise.rst:66
+#: ../../source/wapt-enterprise.rst:67
 msgid "that manage large installed bases of devices (generally above 300 units);"
 msgstr "exploitant de vastes parcs (généralement au dessus de 300 machines) ;"
 
-#: ../../source/wapt-enterprise.rst:68
+#: ../../source/wapt-enterprise.rst:69
 msgid "that are spread geographically with many subsidiaries or production sites;"
 msgstr ""
 "éclatées géographiquement avec de multiples agences ou sites de "
 "production ;"
 
-#: ../../source/wapt-enterprise.rst:70
+#: ../../source/wapt-enterprise.rst:71
 msgid ""
 "that require a strong traceability of actions performed on the installed "
 "base of devices for reasons of audit or security;"
@@ -145,17 +145,17 @@ msgstr ""
 "nécessitant une traçabilité forte des actions réalisées sur le parc pour "
 "des raisons d'audit et de sécurité ;"
 
-#: ../../source/wapt-enterprise.rst:74
+#: ../../source/wapt-enterprise.rst:75
 msgid "Description of services available with the WAPT Enterprise contract"
 msgstr ""
 "Description des services disponibles dans le cadre du contrat WAPT "
 "Enterprise"
 
-#: ../../source/wapt-enterprise.rst:77
+#: ../../source/wapt-enterprise.rst:78
 msgid "Access to future improvements in WAPT Enterprise"
 msgstr "Accès aux améliorations futures dans WAPT Enterprise"
 
-#: ../../source/wapt-enterprise.rst:79
+#: ../../source/wapt-enterprise.rst:80
 msgid ""
 "By subscribing to a WAPT Enterprise contract and by maintaining your "
 "subscription valid, you benefit from the future improvements brought into"
@@ -167,7 +167,7 @@ msgstr ""
 "apportées au coeur de WAPT et vous accéderez automatiquement aux futures "
 "extensions de la version Enterprise."
 
-#: ../../source/wapt-enterprise.rst:84
+#: ../../source/wapt-enterprise.rst:85
 msgid ""
 "A lapsing of your subscription will automatically switch your WAPT "
 "instance back to its corresponding Community version; advanced functions "
@@ -177,21 +177,22 @@ msgstr ""
 " version Community et les fonctions avancées de la version Enterprise ne "
 "seront plus accessibles dans votre installation de WAPT."
 
-#: ../../source/wapt-enterprise.rst:89
+#: ../../source/wapt-enterprise.rst:90
 msgid "Unlimited telephone support for your daily usage of WAPT"
 msgstr ""
 "Assistance téléphonique illimitée sur votre utilisation quotidienne de "
 "WAPT"
 
-#: ../../source/wapt-enterprise.rst:91
+#: ../../source/wapt-enterprise.rst:92
+#, fuzzy
 msgid ""
-"Tranquil IT, the creator of WAPT, allows you a priviledge access to its "
+"Tranquil IT, the creator of WAPT, allows you a privileged access to its "
 "core team of WAPT experts and developers."
 msgstr ""
 "Tranquil IT, le créateur de WAPT, vous accorde un accès privilégié à son "
 "équipe centrale de développeurs et d'experts WAPT."
 
-#: ../../source/wapt-enterprise.rst:94
+#: ../../source/wapt-enterprise.rst:95
 msgid ""
 "We give you access to a dedicated telephone hot-line with a direct answer"
 " to satisfy your needs for support."
@@ -199,7 +200,7 @@ msgstr ""
 "Nous mettons à votre disposition une hot-line téléphonique dédiée avec "
 "une réponse en direct pour satisfaire vos besoins de support."
 
-#: ../../source/wapt-enterprise.rst:97
+#: ../../source/wapt-enterprise.rst:98
 msgid ""
 "We are committed to providing you with reliable and pertinent answers on "
 "the subscribed perimeter, quickly."
@@ -207,7 +208,7 @@ msgstr ""
 "Nous nous engageons à vous fournir des réponses fiables et pertinentes "
 "sur le périmètre souscrit, rapidement."
 
-#: ../../source/wapt-enterprise.rst:100
+#: ../../source/wapt-enterprise.rst:101
 msgid ""
 "By subscribing or renewing your WAPT Enterprise contract, you will "
 "receive a notification indicating the practicalities to follow to access "
@@ -217,7 +218,7 @@ msgstr ""
 "recevrez une notification indiquant les modalités à suivre pour accéder à"
 " notre support."
 
-#: ../../source/wapt-enterprise.rst:105
+#: ../../source/wapt-enterprise.rst:106
 msgid ""
 "The unlimited support concerns only the support on the use of the WAPT "
 "Enterprise software; additional support for adapting, personalizing, "
@@ -229,7 +230,7 @@ msgstr ""
 "de paquets WAPT peut être souscrite en plus sous forme de tickets "
 "d'assistance prépayés."
 
-#: ../../source/wapt-enterprise.rst:110
+#: ../../source/wapt-enterprise.rst:111
 msgid ""
 "Up to two individuals in your Organisation may communicate with our "
 "direct support."
@@ -237,17 +238,17 @@ msgstr ""
 "Jusqu'à deux personnes désignées dans votre organisation peuvent être "
 "inscrites pour communiquer avec notre support direct."
 
-#: ../../source/wapt-enterprise.rst:114
+#: ../../source/wapt-enterprise.rst:115
 msgid "Price and preferential access to WAPT training"
 msgstr "Prix et accès préférentiels à la formation WAPT"
 
-#: ../../source/wapt-enterprise.rst:116
+#: ../../source/wapt-enterprise.rst:117
 msgid "You may choose to train your IT team on any particularity of WAPT."
 msgstr ""
 "Vous pouvez choisir de former votre équipe informatique sur n'importe "
 "quel aspect de WAPT."
 
-#: ../../source/wapt-enterprise.rst:118
+#: ../../source/wapt-enterprise.rst:119
 #, python-format
 msgid ""
 "WAPT Enterprise subscribers benefit from a privileged access to Tranquil "
@@ -257,7 +258,7 @@ msgstr ""
 "en formation de Tranquil IT et d'une remise de 50 % par rapport aux "
 "tarifs standard de formation."
 
-#: ../../source/wapt-enterprise.rst:122
+#: ../../source/wapt-enterprise.rst:123
 msgid ""
 "Why does Tranquil IT display a 300 device limit for WAPT Community on her"
 " commercial documentation ?"
@@ -265,15 +266,16 @@ msgstr ""
 "Pourquoi Tranquil IT affiche une limite à 300 postes pour WAPT Community "
 "dans ses brochures commerciales ?"
 
-#: ../../source/wapt-enterprise.rst:124
+#: ../../source/wapt-enterprise.rst:125
+#, fuzzy
 msgid ""
-"Tranquil IT displays a 300 device limit on her commercial documentation "
+"Tranquil IT displays a 300 device limit on her commercial documentation "
 "for the WAPT Community version."
 msgstr ""
 "Tranquil IT affiche une limite à 300 postes sur ses brochures "
 "commerciales pour la version Community de WAPT."
 
-#: ../../source/wapt-enterprise.rst:129
+#: ../../source/wapt-enterprise.rst:130
 msgid ""
 "There is **no technical restriction to using the Community version**, it "
 "is available as free software."
@@ -281,7 +283,7 @@ msgstr ""
 "Il n'y a **aucune restriction technique quant à l'usage de la version "
 "Community**, elle est librement disponible."
 
-#: ../../source/wapt-enterprise.rst:132
+#: ../../source/wapt-enterprise.rst:133
 msgid ""
 "Tranquil IT's philosophy regarding free software is to give back a little"
 " of what we took, so it is important to us to keep our original promise "
@@ -295,7 +297,7 @@ msgstr ""
 "déployer, mettre à jour et supprimer des logiciels et des configurations "
 "sur un parc Windows."
 
-#: ../../source/wapt-enterprise.rst:138
+#: ../../source/wapt-enterprise.rst:139
 msgid ""
 "What you will find in the WAPT Enterprise version are features that are "
 "designed to help administer large installed bases and we meet people in "
@@ -305,7 +307,7 @@ msgstr ""
 "destinées à faciliter l'exploitation de grands parcs et nous rencontrons "
 "de nombreuses personnes qui sont dans ce cas d'usage."
 
-#: ../../source/wapt-enterprise.rst:142
+#: ../../source/wapt-enterprise.rst:143
 msgid ""
 "As a general rule, we have observed that advanced management needs start "
 "to be felt when the number of devices goes over 300-400 units."
@@ -357,4 +359,13 @@ msgstr ""
 #~ "dépôt *prod* sur lequel les paquets "
 #~ "WAPT validés sont chargés pour une "
 #~ "utilisation générale ;"
+
+#~ msgid ""
+#~ "**Use of differentiated self service**.. "
+#~ "WAPT Enterprise allows you to define "
+#~ "lists of allowed packages to existing"
+#~ " groups in Active Directory. Users "
+#~ "are free to install your qualified "
+#~ "packages without bothering IT teams."
+#~ msgstr ""
 
