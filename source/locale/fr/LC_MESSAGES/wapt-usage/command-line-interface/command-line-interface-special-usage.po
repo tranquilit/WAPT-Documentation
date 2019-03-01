@@ -3,17 +3,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-27 10:29+0100\n"
+"POT-Creation-Date: 2019-03-01 11:26+0100\n"
 "PO-Revision-Date: 2019-02-27 12:04+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
-"X-Generator: Poedit 1.8.8\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:8
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:20
@@ -22,18 +21,18 @@ msgstr "Utiliser les lignes de commande spéciales"
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:8
 msgid ""
-"command line, WAPT, CLI, register, download, download-upgrade, show, list, "
-"upgradedb, setup-tasks, enable-tasks, disable-tasks, add-upgrade-shutdown, "
-"remove-upgrade-shutdown, inventory, update-status, setlocalpassword, reset-uuid, "
-"generate-uuid, get-server-certificate, enable-check-certificate, session-setup, "
-"documentation"
+"command line, WAPT, CLI, register, download, download-upgrade, show, "
+"list, upgradedb, setup-tasks, enable-tasks, disable-tasks, add-upgrade-"
+"shutdown, remove-upgrade-shutdown, inventory, update-status, "
+"setlocalpassword, reset-uuid, generate-uuid, get-server-certificate, "
+"enable-check-certificate, session-setup, documentation"
 msgstr ""
-"ligne de commande, WAPT, CLI, command line,             invite de commande "
-"Windows, commandes spéciales, register, download, download-upgrade, show, list, "
-"upgradedb, setup-tasks, enable-tasks, disable-tasks, add-upgrade-shutdown, "
-"remove-upgrade-shutdown, inventory, update-status, setlocalpassword, reset-uuid, "
-"generate-uuid, get-server-certificate, enable-check-certificate, session-setup, "
-"documentation"
+"ligne de commande, WAPT, CLI, command line,             invite de "
+"commande Windows, commandes spéciales, register, download, download-"
+"upgrade, show, list, upgradedb, setup-tasks, enable-tasks, disable-tasks,"
+" add-upgrade-shutdown, remove-upgrade-shutdown, inventory, update-status,"
+" setlocalpassword, reset-uuid, generate-uuid, get-server-certificate, "
+"enable-check-certificate, session-setup, documentation"
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:23
 msgid "wapt-get register"
@@ -45,26 +44,27 @@ msgid ""
 "hardware and software inventory to the WAPT inventory server."
 msgstr ""
 "La commande :code:`wapt-get register <description>` permet de remonter "
-"l'inventaire matériel et logiciel de la machine sur le serveur d'inventaire WAPT."
+"l'inventaire matériel et logiciel de la machine sur le serveur "
+"d'inventaire WAPT."
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:30
 msgid ""
-"You can pass a description as an argument to the :command:`register`, that "
-"description will be displayed in the WAPT console in the column :guilabel:"
-"`description`."
+"You can pass a description as an argument to the :command:`register`, "
+"that description will be displayed in the WAPT console in the column "
+":guilabel:`description`."
 msgstr ""
-"Vous pouvez préciser une description supplémentaire en paramètre de :command:"
-"`register`, cette description sera affichée dans la console WAPT comme "
-"description du poste."
+"Vous pouvez préciser une description supplémentaire en paramètre de "
+":command:`register`, cette description sera affichée dans la console WAPT"
+" comme description du poste."
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:34
 msgid ""
-"You may benefit from WAPT to improve your IT management by affecting a username "
-"or a computer serial as descriptions for your hosts."
+"You may benefit from WAPT to improve your IT management by affecting a "
+"username or a computer serial as descriptions for your hosts."
 msgstr ""
-"Vous pouvez donc profiter de WAPT pour améliorer la gestion administrative de "
-"votre parc en affectant à la machine le nom d'un service ou le nom du principal "
-"utilisateur de la machine."
+"Vous pouvez donc profiter de WAPT pour améliorer la gestion "
+"administrative de votre parc en affectant à la machine le nom d'un "
+"service ou le nom du principal utilisateur de la machine."
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:37
 msgid "The command :code:`wapt-get register \"John Doe PC` returns nothing;"
@@ -75,12 +75,15 @@ msgid "wapt-get download"
 msgstr "wapt-get download"
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:42
+#, fuzzy
 msgid ""
-"The :code:`wapt-get download <package name>` command downloads the WAPT package "
-"to the local cache located at :file:`C:\\\Program Files (x86)\\wapt\\cache`."
+"The :code:`wapt-get download <package name>` command downloads the WAPT "
+"package to the local cache located at :file:`C:\\\\Program "
+"Files\\wapt\\cache`."
 msgstr ""
-"La commande :code:`wapt-get download <nom du paquet>` télécharge le paquet dans "
-"le cache local WAPT : :file:`C:\\\Program Files (x86)\\\wapt\\\cache`."
+"La commande :code:`wapt-get download <nom du paquet>` télécharge le "
+"paquet dans le cache local WAPT : :file:`C:\\\\Program Files "
+"(x86)\\\\wapt\\\\cache`."
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:45
 msgid "The command :code:`wapt-get download tis-7zip` returns:"
@@ -92,12 +95,13 @@ msgstr "wapt-get download-upgrade"
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:57
 msgid ""
-"The:code:`wapt-get download-upgrade`command downloads packages to be upgraded to "
-"the local WAPT cache :file:`C:\\\Program Files (x86)\\wapt\\cache`."
+"The:code:`wapt-get download-upgrade`command downloads packages to be "
+"upgraded to the local WAPT cache :file:`C:\\\\Program Files "
+"(x86)\\wapt\\cache`."
 msgstr ""
-"La commande :code:`wapt-get download-upgrade` télécharge les paquets à mettre à "
-"jour, en prévision de leur installation, dans le cache local WAPT :file:`C:\\"
-"\\Program Files (x86)\\\wapt\\\cache`."
+"La commande :code:`wapt-get download-upgrade` télécharge les paquets à "
+"mettre à jour, en prévision de leur installation, dans le cache local "
+"WAPT :file:`C:\\\\Program Files (x86)\\\\wapt\\\\cache`."
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:60
 msgid "The command :code:`wapt-get download-upgrade` returns:"
@@ -109,19 +113,19 @@ msgstr "wapt-get show"
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:70
 msgid ""
-"The :code:`wapt-get show <package name>`  command displays informations stored "
-"in the :file:`Packages` index file."
+"The :code:`wapt-get show <package name>`  command displays informations "
+"stored in the :file:`Packages` index file."
 msgstr ""
-"La commande :code:`wapt-get show <nom du paquet>` affiche les informations "
-"contenues dans l'index :file:`Packages`."
+"La commande :code:`wapt-get show <nom du paquet>` affiche les "
+"informations contenues dans l'index :file:`Packages`."
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:73
 msgid ""
-"If several versions of a package are available on the repository, every version "
-"of the package will be displayed."
+"If several versions of a package are available on the repository, every "
+"version of the package will be displayed."
 msgstr ""
-"Si plusieurs versions du paquet sont disponibles sur le dépôt, toutes les "
-"versions sont affichées."
+"Si plusieurs versions du paquet sont disponibles sur le dépôt, toutes les"
+" versions sont affichées."
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:76
 msgid "The command :code:`wapt-get show tis-firebird` returns:"
@@ -133,11 +137,11 @@ msgstr "wapt-get list"
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:98
 msgid ""
-"The :code:`wapt-get list` command lists WAPT packages that are installed on the "
-"computer."
+"The :code:`wapt-get list` command lists WAPT packages that are installed "
+"on the computer."
 msgstr ""
-"La commande :code:`wapt-get list` affiche la liste des paquets WAPT actuellement "
-"installés sur la machine."
+"La commande :code:`wapt-get list` affiche la liste des paquets WAPT "
+"actuellement installés sur la machine."
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:101
 msgid "The command :code:`wapt-get list` returns:"
@@ -239,9 +243,11 @@ msgstr "2016-12-02T10:46"
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:121
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:125
 msgid ""
-"package for MS RSAT Remote server admin windows6.1-kb958830-x64 pour Win7 SP1"
+"package for MS RSAT Remote server admin windows6.1-kb958830-x64 pour Win7"
+" SP1"
 msgstr ""
-"package for MS RSAT Remote server admin windows6.1-kb958830-x64 pour Win7 SP1"
+"package for MS RSAT Remote server admin windows6.1-kb958830-x64 pour Win7"
+" SP1"
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:125
 msgid "tis-rsat-x64"
@@ -338,11 +344,11 @@ msgstr "wapt-get upgradedb"
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:145
 msgid ""
-"The :code:`wapt-get upgradedb` command upgrades the local WAPT database schema "
-"if necessary."
+"The :code:`wapt-get upgradedb` command upgrades the local WAPT database "
+"schema if necessary."
 msgstr ""
-"La commande :code:`wapt-get upgradedb` met à jour le schéma de la base de "
-"données locale WAPT si nécessaire."
+"La commande :code:`wapt-get upgradedb` met à jour le schéma de la base de"
+" données locale WAPT si nécessaire."
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:148
 msgid "The command :code:`wapt-get upgradedb` returns:"
@@ -354,27 +360,28 @@ msgstr "wapt-get setup-tasks - wapt-get enable-tasks - wapt-get disable-tasks"
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:158
 msgid ""
-"The :code:`wapt-get setup-tasks` command adds :command:`update` and :command:"
-"`upgrade` scheduled tasks to local host."
+"The :code:`wapt-get setup-tasks` command adds :command:`update` and "
+":command:`upgrade` scheduled tasks to local host."
 msgstr ""
-"La commande :code:`wapt-get setup-tasks` ajoute des tâches planifiées :command:"
-"`update` et :command:`upgrade`"
+"La commande :code:`wapt-get setup-tasks` ajoute des tâches planifiées "
+":command:`update` et :command:`upgrade`"
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:163
 msgid ""
-"This function is useful when it is desirable not to use the WAPT service, "
-"otherwise :program:`waptservice` will take care of it."
+"This function is useful when it is desirable not to use the WAPT service,"
+" otherwise :program:`waptservice` will take care of it."
 msgstr ""
-"Cette fonction est utile lorsque que l'on ne souhaite pas utiliser le service :"
-"program:`waptservice`, sinon le service :program:`waptservice` s'en chargera."
+"Cette fonction est utile lorsque que l'on ne souhaite pas utiliser le "
+"service :program:`waptservice`, sinon le service :program:`waptservice` "
+"s'en chargera."
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:166
 msgid ""
-"To make it work, the following arguments must be configured in :file:`wapt-get."
-"ini`:"
+"To make it work, the following arguments must be configured in :file"
+":`wapt-get.ini`:"
 msgstr ""
-"Pour que cela fonctionne, il faut au préalable avoir configuré les paramètres "
-"dans le fichier :file:`wapt-get.ini` :"
+"Pour que cela fonctionne, il faut au préalable avoir configuré les "
+"paramètres dans le fichier :file:`wapt-get.ini` :"
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:169
 msgid "*waptupdate_task_maxruntime*;"
@@ -403,7 +410,8 @@ msgstr "la commande :code:`wapt-get enable-tasks` activera les tâches planifié
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:181
 msgid "the  :code:`wapt-get disable-tasks` command will disable scheduled tasks;"
 msgstr ""
-"la commande :code:`wapt-get disable-tasks` désactivera les tâches planifiées ;"
+"la commande :code:`wapt-get disable-tasks` désactivera les tâches "
+"planifiées ;"
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:184
 msgid "wapt-get add-upgrade-shutdown - wapt-get remove-upgrade-shutdown"
@@ -411,21 +419,23 @@ msgstr "wapt-get add-upgrade-shutdown - wapt-get remove-upgrade-shutdown"
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:186
 msgid ""
-"the :code:`wapt-get add-upgrade-shutdown` command adds a :program:`waptexit` "
-"local security policy object, enabling the execution of :program:`waptexit` at "
-"system shutdown;"
+"the :code:`wapt-get add-upgrade-shutdown` command adds a "
+":program:`waptexit` local security policy object, enabling the execution "
+"of :program:`waptexit` at system shutdown;"
 msgstr ""
-"la commande :code:`wapt-get add-upgrade-shutdown` ajoute la stratégie locale :"
-"program:`waptexit` des scripts d'arrêt du système pour :program:`waptexit` ;"
+"la commande :code:`wapt-get add-upgrade-shutdown` ajoute la stratégie "
+"locale :program:`waptexit` des scripts d'arrêt du système pour "
+":program:`waptexit` ;"
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:190
 msgid ""
-"the :code:`wapt-get remove-upgrade-shutdown` command removes the :program:"
-"`waptexit` local security policy object, disabling the execution of :program:"
-"`waptexit` during system shutdown;"
+"the :code:`wapt-get remove-upgrade-shutdown` command removes the "
+":program:`waptexit` local security policy object, disabling the execution"
+" of :program:`waptexit` during system shutdown;"
 msgstr ""
-"la commande :code:`wapt-get remove-upgrade-shutdown` supprime la stratégie "
-"locale des scripts d'arrêt du système pour :program:`waptexit` ;"
+"la commande :code:`wapt-get remove-upgrade-shutdown` supprime la "
+"stratégie locale des scripts d'arrêt du système pour "
+":program:`waptexit` ;"
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:195
 msgid "wapt-get inventory"
@@ -433,11 +443,11 @@ msgstr "wapt-get inventory"
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:197
 msgid ""
-"The :code:`wapt-get inventory` command displays all local inventory information "
-"in JSON format."
+"The :code:`wapt-get inventory` command displays all local inventory "
+"information in JSON format."
 msgstr ""
-"La commande :code:`wapt-get inventory` affiche le contenu de l'inventaire local "
-"de la machine au format JSON."
+"La commande :code:`wapt-get inventory` affiche le contenu de l'inventaire"
+" local de la machine au format JSON."
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:200
 msgid "The command :code:`wapt-get inventory` returns:"
@@ -449,19 +459,20 @@ msgstr "wapt-get update-status"
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:220
 msgid ""
-"The command :code:`wapt-get update-status` resends local status to the WAPT "
-"inventory server."
+"The command :code:`wapt-get update-status` resends local status to the "
+"WAPT inventory server."
 msgstr ""
-"La commande :code:`wapt-get update-status` renvoie l'inventaire local vers le "
-"serveur d'inventaire WAPT."
+"La commande :code:`wapt-get update-status` renvoie l'inventaire local "
+"vers le serveur d'inventaire WAPT."
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:225
 msgid ""
-"If a hardware component has changed on the computer, :command:`update-status` "
-"would not report that information back to the WAPT inventory server."
+"If a hardware component has changed on the computer, :command:`update-"
+"status` would not report that information back to the WAPT inventory "
+"server."
 msgstr ""
-"Si un composant matériel a changé sur la machine, cette commande ne remontera "
-"pas la nouvelle information au serveur WAPT."
+"Si un composant matériel a changé sur la machine, cette commande ne "
+"remontera pas la nouvelle information au serveur WAPT."
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:229
 msgid "To do so, the command to be used is :command:`inventory`."
@@ -477,11 +488,11 @@ msgstr "wapt-get setlocalpassword"
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:240
 msgid ""
-"The :code:`wapt-get setlocalpassword` command allows to define a local password "
-"for WAPT package installations."
+"The :code:`wapt-get setlocalpassword` command allows to define a local "
+"password for WAPT package installations."
 msgstr ""
-"La commande :code:`wapt-get setlocalpassword` permet de définir un mot de passe "
-"local pour installer des paquets WAPT."
+"La commande :code:`wapt-get setlocalpassword` permet de définir un mot de"
+" passe local pour installer des paquets WAPT."
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:243
 msgid "The command :code:`wapt-get setlocalpassword` returns:"
@@ -493,11 +504,12 @@ msgstr "wapt-get reset-uuid"
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:254
 msgid ""
-"The :code:`wapt-get reset-uuid` command retrieves the host :term:`UUID` from "
-"BIOS and resends it to the WAPT inventory server."
+"The :code:`wapt-get reset-uuid` command retrieves the host :term:`UUID` "
+"from BIOS and resends it to the WAPT inventory server."
 msgstr ""
-"La commande :code:`wapt-get reset-uuid` permet de récupérer le :term:`UUID` de "
-"la machine à partir du BIOS et le remonter au serveur WAPT."
+"La commande :code:`wapt-get reset-uuid` permet de récupérer le "
+":term:`UUID` de la machine à partir du BIOS et le remonter au serveur "
+"WAPT."
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:257
 msgid "The command :code:`wapt-get wapt-get reset-uuid` returns:"
@@ -509,20 +521,21 @@ msgstr "wapt-get generate-uuid"
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:266
 msgid ""
-"The :code:`wapt-get generate-uuid` command creates a new host :term:`UUID` and "
-"resends it to the WAPT inventory server."
+"The :code:`wapt-get generate-uuid` command creates a new host "
+":term:`UUID` and resends it to the WAPT inventory server."
 msgstr ""
-"La commande :code:`wapt-get generate-uuid` permet de générer un :term:`UUID` "
-"aléatoire pour la machine et de le remonter au serveur WAPT."
+"La commande :code:`wapt-get generate-uuid` permet de générer un "
+":term:`UUID` aléatoire pour la machine et de le remonter au serveur WAPT."
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:271
 msgid ""
-"Some batches of computers have their BIOS with identical :term:`UUID`. It is a "
-"BIOS manufacturer setting problem because no two :term:`UUID` should be the same."
+"Some batches of computers have their BIOS with identical :term:`UUID`. It"
+" is a BIOS manufacturer setting problem because no two :term:`UUID` "
+"should be the same."
 msgstr ""
-"Certaines machines ont un BIOS avec des :term:`UUID` identiques. Cette anomalie "
-"est un défaut de paramétrage du BIOS par le constructeur de la machine car les :"
-"term:`UUID` devraient être uniques."
+"Certaines machines ont un BIOS avec des :term:`UUID` identiques. Cette "
+"anomalie est un défaut de paramétrage du BIOS par le constructeur de la "
+"machine car les :term:`UUID` devraient être uniques."
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:275
 msgid "The command :command:`generate-uuid` exist to solve that problem."
@@ -539,20 +552,20 @@ msgstr "wapt-get get-server-certificate"
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:286
 msgid ""
 "The :code:`wapt-get get-server-certificate` command downloads the SSL "
-"certificate from the WAPT Server to use HTTPS to communicate with the WAPT "
-"Server."
+"certificate from the WAPT Server to use HTTPS to communicate with the "
+"WAPT Server."
 msgstr ""
-"La commande :code:`wapt-get get-server-certificate` permet de télécharger le "
-"certificat SSL du serveur WAPT, quand on utilise HTTPS pour les échanges avec le "
-"serveur."
+"La commande :code:`wapt-get get-server-certificate` permet de télécharger"
+" le certificat SSL du serveur WAPT, quand on utilise HTTPS pour les "
+"échanges avec le serveur."
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:290
 msgid ""
-"The downloaded certificate is stored in :file:`C:\\\Program Files(x86)\\\wapt"
-"\\ssl\\\server`."
+"The downloaded certificate is stored in :file:`C:\\\\Program "
+"Files(x86)\\\\wapt\\ssl\\\\server`."
 msgstr ""
-"Le certificat téléchargé est stocké dans :file:`C:\\\Program Files (x86)\\\wapt"
-"\\\ssl\\\server`."
+"Le certificat téléchargé est stocké dans :file:`C:\\\\Program Files "
+"(x86)\\\\wapt\\\\ssl\\\\server`."
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:293
 msgid "The command :code:`wapt-get get-server-certificate` returns:"
@@ -565,12 +578,12 @@ msgstr "wapt-get enable-check-certificate"
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:302
 msgid ""
 "The :code:`wapt-get enable-check-certificate` command downloads the SSL "
-"certificate from the WAPT Server and enables secured communication with the "
-"server."
+"certificate from the WAPT Server and enables secured communication with "
+"the server."
 msgstr ""
-"La commande :code:`wapt-get enable-check-certificate` permet de télécharger le "
-"certificat SSL du serveur WAPT et active le contrôle des échanges avec le "
-"serveur."
+"La commande :code:`wapt-get enable-check-certificate` permet de "
+"télécharger le certificat SSL du serveur WAPT et active le contrôle des "
+"échanges avec le serveur."
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:306
 msgid "The command :code:`wapt-get enable-check-certificate` returns:"
@@ -582,19 +595,19 @@ msgstr "wapt-get session-setup"
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:316
 msgid ""
-"The :code:`wapt-get session-setup` command launches user level customizations of "
-"installed WAPT packages."
+"The :code:`wapt-get session-setup` command launches user level "
+"customizations of installed WAPT packages."
 msgstr ""
 "La commande :code:`wapt-get session-setup` lance l'exécution des "
 "personnalisations logicielles en contexte utilisateur."
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:321
 msgid ""
-"The :command:`session-setup` instruction sets are defined in WAPT package's :"
-"file:`setup.py` file."
+"The :command:`session-setup` instruction sets are defined in WAPT "
+"package's :file:`setup.py` file."
 msgstr ""
-"Les instructions en :command:`session-setup` sont définies dans le fichier :file:"
-"`setup.py` des paquets applicatifs."
+"Les instructions en :command:`session-setup` sont définies dans le "
+"fichier :file:`setup.py` des paquets applicatifs."
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:324
 msgid "Every instruction set is stored in a SQLite local database."
@@ -602,21 +615,21 @@ msgstr "L'ensemble des instructions est sauvegardé en base locale."
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:326
 msgid ""
-"The command :command:`session-setup` is launched at every startup, the user "
-"environment customization script is executed only once per user per package "
-"version."
+"The command :command:`session-setup` is launched at every startup, the "
+"user environment customization script is executed only once per user per "
+"package version."
 msgstr ""
-"Le script :command:`session-setup` est lancé à chaque démarrage mais l'exécution "
-"d'un :command:`session-setup` ne se fait qu'une fois par utilisateur et par "
-"version de paquet."
+"Le script :command:`session-setup` est lancé à chaque démarrage mais "
+"l'exécution d'un :command:`session-setup` ne se fait qu'une fois par "
+"utilisateur et par version de paquet."
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:332
 msgid ""
-"The argument *ALL* will launch :command:`session-setup` for all installed WAPT "
-"packages."
+"The argument *ALL* will launch :command:`session-setup` for all installed"
+" WAPT packages."
 msgstr ""
-"Le paramètre *ALL* lancera le :command:`session-setup` de tous les paquets WAPT "
-"installés sur la machine."
+"Le paramètre *ALL* lancera le :command:`session-setup` de tous les "
+"paquets WAPT installés sur la machine."
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:335
 msgid "The command :code:`wapt-get session-setup ALL` returns:"
@@ -639,3 +652,4 @@ msgstr "La commande :code:`wapt-get session-setup ALL` renvoie :"
 
 #~ msgid "wapt-get register \"John Doe PC\""
 #~ msgstr "wapt-get register \"PC de Thomas\""
+
