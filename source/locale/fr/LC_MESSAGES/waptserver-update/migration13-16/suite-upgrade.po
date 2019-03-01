@@ -99,13 +99,13 @@ msgstr ""
 
 #: ../../source/waptserver-update/migration13-16/suite-upgrade.rst:50
 msgid ""
-"You must insure that the old certificate in :file:`C:\\\\private\\\\mykey."
-"crt` and the key :file:`C:\\\\private\\\\mykey.pem` are present in :file:`C:\\"
+"You must insure that the old certificate in :file:`C:\\\private\\\mykey."
+"crt` and the key :file:`C:\\\private\\\mykey.pem` are present in :file:`C:\\"
 "\\private`."
 msgstr ""
-"Vous devez vous assurer que l'ancien certificat :file:`C:\\\\private\\\\wapt-"
-"private.crt` et la clé :file:`C:\\\\private\\\\wapt-private.pem` sont "
-"présents dans :file:`C:\\\\private`."
+"Vous devez vous assurer que l'ancien certificat :file:`C:\\\private\\\wapt-"
+"private.crt` et la clé :file:`C:\\\private\\\wapt-private.pem` sont "
+"présents dans :file:`C:\\\private`."
 
 #: ../../source/waptserver-update/migration13-16/suite-upgrade.rst:55
 msgid ""
@@ -132,11 +132,11 @@ msgstr "Certificat Code Signing"
 msgid ""
 "Normally, you will not have to recreate a new key. Only the certificate will "
 "have to be changed. **You must enter the path to your key** (ex: :file:`C:\\"
-"\\private\\\\mykey.pem`)."
+"\\private\\\mykey.pem`)."
 msgstr ""
 "Normalement, vous n'avez pas à recréer une nouvelle clé. Seul le certificat "
 "sera changé. Dans chemin de la clé, **vous devez indiquer** votre clé :file:"
-"`C:\\\\private\\\\wapt-private.pem`."
+"`C:\\\private\\\wapt-private.pem`."
 
 #: ../../source/waptserver-update/migration13-16/suite-upgrade.rst:75
 msgid ""

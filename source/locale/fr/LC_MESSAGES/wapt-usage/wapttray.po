@@ -26,10 +26,10 @@ msgstr "WAPT, Tray, documentation"
 #: ../../source/wapt-usage/wapttray.rst:17
 msgid ""
 ":program:`wapttray` is a utility working in user context, it is located in the "
-"WAPT folder :file:`C:\\\\Program Files (x86)\\\\wapt`."
+"WAPT folder :file:`C:\\\Program Files (x86)\\\wapt`."
 msgstr ""
 "Le WAPTtray est utilisable en compte utilisateur, il est situé dans le dossier :"
-"file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapttray.exe`."
+"file:`C:\\\Program Files (x86)\\\wapt\\\wapttray.exe`."
 
 #: ../../source/wapt-usage/wapttray.rst:20
 msgid ""
@@ -43,10 +43,10 @@ msgstr ""
 #: ../../source/wapt-usage/wapttray.rst:23
 msgid ""
 "We can also launch :program:`wapttray` manually with a startup GPO pointing on :"
-"file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapttray.exe`."
+"file:`C:\\\Program Files (x86)\\\wapt\\\wapttray.exe`."
 msgstr ""
 "On peut aussi lancer le WAPTtray avec une GPO de démarrage exécutant :file:`C:\\"
-"\\Program Files (x86)\\\\wapt\\\\wapttray.exe`."
+"\\Program Files (x86)\\\wapt\\\wapttray.exe`."
 
 #: ../../source/wapt-usage/wapttray.rst:26
 msgid ""
@@ -119,10 +119,10 @@ msgstr "Afficher le fichier de configuration"
 
 #: ../../source/wapt-usage/wapttray.rst:58
 msgid ""
-"opens the :file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get.ini` file with :"
+"opens the :file:`C:\\\Program Files (x86)\\\wapt\\\wapt-get.ini` file with :"
 "term:`Local Administrator` privileges (credentials may be asked)"
 msgstr ""
-"lance l'édition du fichier :file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get."
+"lance l'édition du fichier :file:`C:\\\Program Files (x86)\\\wapt\\\wapt-get."
 "ini` en mode :term:`Administrateur`."
 
 #: ../../source/wapt-usage/wapttray.rst:60

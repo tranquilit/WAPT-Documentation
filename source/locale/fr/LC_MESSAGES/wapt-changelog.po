@@ -1322,8 +1322,8 @@ msgid "WAPT-1.5.1.23 (2018-03-28)"
 msgstr "WAPT-1.5.1.23 (2018-03-28)"
 
 #: ../../source/wapt-changelog.rst:873
-msgid "waptexit: Displays a custom PNG logo if one is created in :file:`%WAPT_HOME%\\\\templates\\\\waptexit-logo.png`"
-msgstr "waptexit: Displays a custom PNG logo if one is created in :file:`%WAPT_HOME%\\\\templates\\\\waptexit-logo.png`"
+msgid "waptexit: Displays a custom PNG logo if one is created in :file:`%WAPT_HOME%\\\templates\\\waptexit-logo.png`"
+msgstr "waptexit: Displays a custom PNG logo if one is created in :file:`%WAPT_HOME%\\\templates\\\waptexit-logo.png`"
 
 #: ../../source/wapt-changelog.rst:876
 msgid "nssm.exe is signed with Tranquil IT code signing key"
@@ -1612,8 +1612,8 @@ msgid "[IMP] More detailed reporting off host's repositories configuration (now 
 msgstr "[IMP] More detailed reporting off host's repositories configuration (now includes dnsdomain, proxy, and list of trusted certificates);"
 
 #: ../../source/wapt-changelog.rst:1107
-msgid "[FIX] fixed display in the Windows task bar of the login window (to allow in particular the autofill of the password by password managers); waptagent failing to compile if keys/ certificates already exist but the certificate had been removed from :file:`C:\\\\wapt\\\\ssl`;"
-msgstr "[FIX] fixed display in the Windows task bar of the login window (to allow in particular the autofill of the password by password managers); waptagent failing to compile if keys/ certificates already exist but the certificate had been removed from :file:`C:\\\\wapt\\\\ssl`;"
+msgid "[FIX] fixed display in the Windows task bar of the login window (to allow in particular the autofill of the password by password managers); waptagent failing to compile if keys/ certificates already exist but the certificate had been removed from :file:`C:\\\wapt\\\ssl`;"
+msgstr "[FIX] fixed display in the Windows task bar of the login window (to allow in particular the autofill of the password by password managers); waptagent failing to compile if keys/ certificates already exist but the certificate had been removed from :file:`C:\\\wapt\\\ssl`;"
 
 #: ../../source/wapt-changelog.rst:1114
 msgid "[IMP] Fallback to basic auth when a host is registering on waptserver if Kerberos is enabled but authentication fails."
@@ -1625,7 +1625,7 @@ msgstr "[IMP] for :program:`wapt-get.exe`, allow to designate configuration :fil
 
 #: ../../source/wapt-changelog.rst:1123
 msgid ":code:`wapt-get -c site3 build-upload c:\\waptdev\\test-7zip-wapt`;"
-msgstr ":code:`wapt-get -c site3 build-upload C:\\\\waptdev\\\test-7zip-wapt`;"
+msgstr ":code:`wapt-get -c site3 build-upload C:\\\waptdev\\\test-7zip-wapt`;"
 
 #: ../../source/wapt-changelog.rst:1125
 msgid "[FIX] Be sure to not loop for ever in websockets retry loop if something is wrong in host waptserver or websocket configuration."
@@ -2127,7 +2127,7 @@ msgid "remplacement de l'option *--private-key* par l'option *--certificate* pou
 msgstr "remplacement de l'option *--private-key* par l'option *--certificate* pour désigner le certificat à utiliser pour signer le paquet. La clé privée est recherchée dans le même répertoire que le certificat ;"
 
 #: ../../source/wapt-changelog.rst:1529
-msgid "remplacement du fichier :file:`WAPT/wapt.psproj` à chaque édition d'un paquet (pour mettre à jour le chemin vers les modules WAPT suivant l'installation dans :file:`C:\\\\wapt` ou :file:`C:\\\\Program Files (x86)\\\\wapt`) ;"
+msgid "remplacement du fichier :file:`WAPT/wapt.psproj` à chaque édition d'un paquet (pour mettre à jour le chemin vers les modules WAPT suivant l'installation dans :file:`C:\\\wapt` ou :file:`C:\\\Program Files (x86)\\\wapt`) ;"
 msgstr "remplacement du fichier :file:`WAPT/wapt.psproj` à chaque édition d'un paquet (pour mettre à jour le chemin vers les modules WAPT suivant l'installation dans :file:`C:\\wapt` ou :file:`C:\\Program Files (x86)\\wapt`) ;"
 
 #: ../../source/wapt-changelog.rst:1533
@@ -2263,8 +2263,8 @@ msgid "corrigé la recherche de dépots en s'appuyant sur les DNS ;"
 msgstr "corrigé la recherche de dépots en s'appuyant sur les DNS ;"
 
 #: ../../source/wapt-changelog.rst:1647
-msgid "corrigé \\\\0000 pour PostgreSQL ;"
-msgstr "corrigé \\\\0000 pour PostgreSQL ;"
+msgid "corrigé \\\0000 pour PostgreSQL ;"
+msgstr "corrigé \\\0000 pour PostgreSQL ;"
 
 #: ../../source/wapt-changelog.rst:1649
 msgid "introduit une option pour avoir une double signature sha1 et sha256 ;"
@@ -2371,7 +2371,7 @@ msgid "[NEW] Découverte des options silencieuses ;"
 msgstr "[NEW] Découverte des options silencieuses ;"
 
 #: ../../source/wapt-changelog.rst:1720
-msgid "[NEW] Utilisation des fonctions :command:`install_exe_if_needed` et :command:`install_msi_if_needed` au lieu d'un simple :command:`run()` pour les exes et les MSI (plusieurs templates de :file:`setup.py` dans :file:`C:\\\\wapt\\\\templates`) ;"
+msgid "[NEW] Utilisation des fonctions :command:`install_exe_if_needed` et :command:`install_msi_if_needed` au lieu d'un simple :command:`run()` pour les exes et les MSI (plusieurs templates de :file:`setup.py` dans :file:`C:\\\wapt\\\templates`) ;"
 msgstr "[NEW] Utilisation des fonctions :command:`install_exe_if_needed` et :command:`install_msi_if_needed` au lieu d'un simple :command:`run()` pour les exes et les MSI (plusieurs templates de :file:`setup.py` dans :file:`C:\\wapt\\templates`) ;"
 
 #: ../../source/wapt-changelog.rst:1724
@@ -2379,7 +2379,7 @@ msgid "[NEW] Amélioration significative de la vitesse de modification en masse 
 msgstr "[NEW] Amélioration significative de la vitesse de modification en masse des paquets machines ;"
 
 #: ../../source/wapt-changelog.rst:1726
-msgid "[NEW] Vérification optionnelle de la signature des paquets que l'on importe d'un dépôt extérieur. La liste des certificats autorisés se trouve par défaut dans :file:`%APPDATA%\\\\waptconsole\\\\ssl` et peut-être précisée dans les paramètres de la :program:`waptconsole`. Le paramètre ini se nomme *authorized_certs_dir*. Sinon, les certificats autorisés sont ceux dans :file:`C:\\\\wapt\\\\ssl` ;"
+msgid "[NEW] Vérification optionnelle de la signature des paquets que l'on importe d'un dépôt extérieur. La liste des certificats autorisés se trouve par défaut dans :file:`%APPDATA%\\\waptconsole\\\ssl` et peut-être précisée dans les paramètres de la :program:`waptconsole`. Le paramètre ini se nomme *authorized_certs_dir*. Sinon, les certificats autorisés sont ceux dans :file:`C:\\\wapt\\\ssl` ;"
 msgstr "[NEW] Vérification optionnelle de la signature des paquets que l'on importe d'un dépôt extérieur. La liste des certificats autorisés se trouve par défaut dans :file:`%APPDATA%\\waptconsole\\ssl` et peut-être précisée dans les paramètres de la :program:`waptconsole`. Le paramètre ini se nomme *authorized_certs_dir*. Sinon, les certificats autorisés sont ceux dans :file:`C:\\wapt\\ssl` ;"
 
 #: ../../source/wapt-changelog.rst:1732
@@ -2459,7 +2459,7 @@ msgid "[FIX]  quelques actualisation des exemples de configuration :file:`wapt-g
 msgstr "[FIX]  quelques actualisation des exemples de configuration :file:`wapt-get.ini.tmpl`"
 
 #: ../../source/wapt-changelog.rst:1777
-msgid "[FIX]  la compilation du :program:`waptagent` échoue si les clés / certificats existent déjà mais que le certificat a été supprimé de :file:`C:\\\\wapt\\\\ssl` ;"
+msgid "[FIX]  la compilation du :program:`waptagent` échoue si les clés / certificats existent déjà mais que le certificat a été supprimé de :file:`C:\\\wapt\\\ssl` ;"
 msgstr "[FIX]  la compilation du :program:`waptagent` échoue si les clés / certificats existent déjà mais que le certificat a été supprimé de :file:`C:\\wapt\\ssl` ;"
 
 #: ../../source/wapt-changelog.rst:1780
@@ -2667,8 +2667,8 @@ msgid "Security"
 msgstr "Security"
 
 #: ../../source/wapt-changelog.rst:1902
-msgid "[SEC] Fix inheritance of rights on wapt root folder for Windows 10 during setup when installed in :file:`C:\\\\wapt`. On Windows 10, :program:`cacls.exe` does not work and does not remove \"Authenticated Users\" from :file:`C:\\\\wapt`. :program:`cacls.exe` has been replaced by :program:`icacls.exe`:"
-msgstr "[SEC] Fix inheritance of rights on wapt root folder for Windows 10 during setup when installed in :file:`C:\\\\wapt`. On Windows 10, :program:`cacls.exe` does not work and does not remove \"Authenticated Users\" from :file:`C:\\\\wapt`. :program:`cacls.exe` has been replaced by :program:`icacls.exe`:"
+msgid "[SEC] Fix inheritance of rights on wapt root folder for Windows 10 during setup when installed in :file:`C:\\\wapt`. On Windows 10, :program:`cacls.exe` does not work and does not remove \"Authenticated Users\" from :file:`C:\\\wapt`. :program:`cacls.exe` has been replaced by :program:`icacls.exe`:"
+msgstr "[SEC] Fix inheritance of rights on wapt root folder for Windows 10 during setup when installed in :file:`C:\\\wapt`. On Windows 10, :program:`cacls.exe` does not work and does not remove \"Authenticated Users\" from :file:`C:\\\wapt`. :program:`cacls.exe` has been replaced by :program:`icacls.exe`:"
 
 #: ../../source/wapt-changelog.rst:1907
 msgid "on pre-wapt 1.3.7 systems, you can fix this by running the following command, or upgrade to wapt 1.3.8 (you may check :code:`icacls.exe c:\\wapt /inheritance:r`)"
@@ -2679,7 +2679,7 @@ msgid "This can be achieved with a GPO, or a wapt package"
 msgstr "This can be achieved with a GPO, or a wapt package"
 
 #: ../../source/wapt-changelog.rst:1911
-msgid "[IMP] in next versions of WAPT, the default install path of wapt will be changed from root folder :file:`C:\\\\wapt` to a more standard :file:`C:\\\\Program Files (x86)\\\\wapt`."
+msgid "[IMP] in next versions of WAPT, the default install path of wapt will be changed from root folder :file:`C:\\\wapt` to a more standard :file:`C:\\\Program Files (x86)\\\wapt`."
 msgstr "[IMP] in next versions of WAPT, the default install path of wapt will be changed from root folder :file:`C:\\wapt` to a more standard :file:`C:\\Program Files (x86)\\wapt`."
 
 #: ../../source/wapt-changelog.rst:1914
@@ -3239,8 +3239,8 @@ msgid "On Debian, edit the file :file:`/opt/wapt/waptserver/waptserver.ini`, and
 msgstr "On Debian, edit the file :file:`/opt/wapt/waptserver/waptserver.ini`, and in the ``[uwsgi]`` section, put:"
 
 #: ../../source/wapt-changelog.rst:2214
-msgid "On Windows, edit :file:`C:\\\\wapt\\waptserver\\\\waptserver.ini` and replace:"
-msgstr "On Windows, edit :file:`C:\\\\wapt\\\\waptserver\\\\waptserver.ini` and replace:"
+msgid "On Windows, edit :file:`C:\\\wapt\\waptserver\\\waptserver.ini` and replace:"
+msgstr "On Windows, edit :file:`C:\\\wapt\\\waptserver\\\waptserver.ini` and replace:"
 
 #: ../../source/wapt-changelog.rst:2220
 msgid "with:"
@@ -5703,8 +5703,8 @@ msgstr "[ADD] first public version of WAPT"
 #~ msgid "[FIX] fixed the DNS based search for repositories;"
 #~ msgstr "corrigé la recherche de dépots en s'appuyant sur les DNS ;"
 
-#~ msgid "[FIX] corrected \\\\0000 for :program:`PostgreSQL`;"
-#~ msgstr "corrigé \\\\0000 pour PostgreSQL ;"
+#~ msgid "[FIX] corrected \\\0000 for :program:`PostgreSQL`;"
+#~ msgstr "corrigé \\\0000 pour PostgreSQL ;"
 
 #~ msgid "[NEW] option for having a double sha1 and sha256 signature;"
 #~ msgstr "introduit une option pour avoir une double signature sha1 et sha256 ;"

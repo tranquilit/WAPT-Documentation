@@ -621,7 +621,7 @@ On installing a package, :program:`wapt-get` checks:
 
 * that the signature of :file:`manifest.sha256` matches the actual
   :file:`manifest.sha256` file (the agent will verify the public certificates
-  in :file:`C:\\Program Files\\wapt\\ssl` );
+  in :file:`C:\\Program Files (x86)\\wapt\\ssl` );
 
 * that the sha256 fingerprint of each file is identical to the fingerprint
   in the :file:`manifest.sha256` file;

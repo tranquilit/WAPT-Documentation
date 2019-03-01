@@ -315,11 +315,11 @@ msgstr "wapt-get clean"
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:183
 msgid ""
-"The :command:`clean` command removes packages from the :file:`C:\\\\Program "
-"Files (x86)\\\\wapt\\\\cache` folder."
+"The :command:`clean` command removes packages from the :file:`C:\\\Program "
+"Files (x86)\\\wapt\\\cache` folder."
 msgstr ""
 "La commande :command:`clean` supprime du cache les paquets dans le "
-"répertoire :file:`C:\\\\Program Files (x86)\\\\wapt\\\\cache`."
+"répertoire :file:`C:\\\Program Files (x86)\\\wapt\\\cache`."
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:186
 msgid ""

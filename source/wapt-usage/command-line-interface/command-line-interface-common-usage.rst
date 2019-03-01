@@ -191,4 +191,4 @@ The command :code:`wapt-get clean` returns:
 
   Removed files :
   C:\Program Files (x86)\wapt\cache\tis-mumble_1.2.8-1_all.wapt
-  C:\Program Files\\wapt\cache\tis-vlc_2.2.4-2_all.wapt
+  C:\Program Files (x86)\\wapt\cache\tis-vlc_2.2.4-2_all.wapt

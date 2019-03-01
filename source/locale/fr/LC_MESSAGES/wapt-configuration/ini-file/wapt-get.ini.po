@@ -26,10 +26,10 @@ msgstr "wapt-get.ini, configuration"
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:17
 msgid ""
-"The configuration file :file:`C:\\\\Program Files(x86)\\\\wapt\\\\wapt-get.ini` "
+"The configuration file :file:`C:\\\Program Files(x86)\\\wapt\\\wapt-get.ini` "
 "defines the behavior of the WAPT agent."
 msgstr ""
-"Le fichier de configuration :file:`C:\\\\Program Files (x86)\\\\wapt\\wapt-get."
+"Le fichier de configuration :file:`C:\\\Program Files (x86)\\\wapt\\wapt-get."
 "ini` définit le comportement de l'agent WAPT sur la machine."
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:20
@@ -185,8 +185,8 @@ msgid "WAPT agent loopback port. It is not accessible from the network."
 msgstr "Port local HTTPS d'écoute du service WAPT."
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:65
-msgid "``dbdir`` = :file:`C:\\\\Program Files(x86)\\\\wapt\\\\db`"
-msgstr "``dbdir`` = :file:`C:\\\\Program Files(x86)\\\\wapt\\\\db`"
+msgid "``dbdir`` = :file:`C:\\\Program Files(x86)\\\wapt\\\db`"
+msgstr "``dbdir`` = :file:`C:\\\Program Files(x86)\\\wapt\\\db`"
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:65
 msgid "Folder where the database :file:`waptdb.sqlite` file will be stored."
@@ -277,10 +277,10 @@ msgstr "Voir la documentation pour activer la"
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:98
 msgid ""
-":file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl\\\\server\\\\srvwapt.mydomain."
+":file:`C:\\\Program Files (x86)\\\wapt\\\ssl\\\server\\\srvwapt.mydomain."
 "lan.crt`"
 msgstr ""
-":file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl\\\\server\\\\srvwapt.mydomain."
+":file:`C:\\\Program Files (x86)\\\wapt\\\ssl\\\server\\\srvwapt.mydomain."
 "lan.crt`"
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:98
@@ -292,20 +292,20 @@ msgstr ""
 "<activating_HTTPS_certificate_verification>`."
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:100
-msgid "``public_certs_dir`` = :file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl`"
-msgstr "``public_certs_dir`` = :file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl`"
+msgid "``public_certs_dir`` = :file:`C:\\\Program Files (x86)\\\wapt\\\ssl`"
+msgstr "``public_certs_dir`` = :file:`C:\\\Program Files (x86)\\\wapt\\\ssl`"
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:100
 msgid ""
 "Folder of certificates authorized to verify the signature of WAPT packages, by "
-"default, ``<wapt_base_dir>\\\\ssl``. Only files in this directory with :file:`."
+"default, ``<wapt_base_dir>\\\ssl``. Only files in this directory with :file:`."
 "crt` or :file:`.pem` extension are taken into account. There may be several X509 "
 "certificates in each file. Authorized packages in WAPT are those whose signature "
 "may be verified by one of the certificates contained in the PEM files of this "
 "directory. Each repository may have its own folder of authorized certificates."
 msgstr ""
 "Répertoire des certificats autorisés pour la vérification de _signature_ des "
-"paquets. Par défaut : ``<wapt_base_dir>\\\\ssl``. Seuls fes fichiers dans ce "
+"paquets. Par défaut : ``<wapt_base_dir>\\\ssl``. Seuls fes fichiers dans ce "
 "répertoire avec l'extension :file:`.crt` ou :file:`.pem` sont pris en compte. Il "
 "peut y avoir plusieurs certificats X509 dans chaque fichier. Les certificats de "
 "paquets autorisés sont ceux dont la signature peut être vérifiée par l'un des "
@@ -373,11 +373,11 @@ msgstr ""
 #, python-format
 msgid ""
 "This parameter can be configured both in the WAPT agent configuration and in the "
-"WAPT console configuration file :file:`C:\\\\Users\\\\%username%\\\\AppData\\"
-"\\Local\\\\waptconsole\\\\waptconsole.ini`."
+"WAPT console configuration file :file:`C:\\\Users\\\%username%\\\AppData\\"
+"\\Local\\\waptconsole\\\waptconsole.ini`."
 msgstr ""
 "Ce paramètre est également à définir dans la configuration de la console WAPT "
-"située dans :file:`C:\\\\Users\\\\%username%\\\\AppData\\\\Local\\\\waptconsole\\"
+"située dans :file:`C:\\\Users\\\%username%\\\AppData\\\Local\\\waptconsole\\"
 "\\waptconsole.ini`."
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:149
@@ -477,24 +477,24 @@ msgid "Settings for creating packages"
 msgstr "Paramètres pour la création de paquets"
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:201
-msgid "``personal_certificate_path`` = C:\\\\private\\\\org-coder.crt"
-msgstr "``personal_certificate_path`` = C:\\\\private\\\\org-codeur.crt"
+msgid "``personal_certificate_path`` = C:\\\private\\\org-coder.crt"
+msgstr "``personal_certificate_path`` = C:\\\private\\\org-codeur.crt"
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:201
 msgid "Path to the Administrator's private key"
 msgstr "Chemin de la clé privée qui permettra de signer les paquets."
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:202
-msgid "``default_sources_root`` = C:\\\\waptdev"
-msgstr "``default_sources_root`` = C:\\\\waptdev"
+msgid "``default_sources_root`` = C:\\\waptdev"
+msgstr "``default_sources_root`` = C:\\\waptdev"
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:202
 msgid "Directory for storing packages in development"
 msgstr "Répertoire de développement des paquets."
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:203
-msgid "``default_sources_root_host`` = C:\\\\waptdev\\\\hosts"
-msgstr "``default_sources_root_host`` = C:\\\\waptdev\\\\hosts"
+msgid "``default_sources_root_host`` = C:\\\waptdev\\\hosts"
+msgstr "``default_sources_root_host`` = C:\\\waptdev\\\hosts"
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:203
 msgid "Directory for storing host packages in development"

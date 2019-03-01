@@ -282,7 +282,7 @@ msgstr ""
 #~ "(default);"
 #~ msgstr ""
 #~ "éditer le fichier :file:`wapt-get.ini` présent dans le dossier "
-#~ "d'installation :file:`C:\\Program Files\\wapt\\` ;"
+#~ "d'installation :file:`C:\\Program Files (x86)\\wapt\\` ;"
 
 #~ msgid ""
 #~ "set the default development path :file:`C:\\waptdev` in :file:`wapt-get.ini` "

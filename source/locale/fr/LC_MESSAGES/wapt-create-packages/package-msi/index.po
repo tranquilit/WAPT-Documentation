@@ -93,8 +93,8 @@ msgid "Using the automatic template has the following effects:"
 msgstr "La procédure de création automatique de ce modèle de paquet :"
 
 #: ../../source/wapt-create-packages/package-msi/index.rst:96
-msgid "it creates a WAPT package folder in :file:`C:\\\\waptdev`;"
-msgstr "il crée le dossier du paquet dans :file:`C:\\\\waptdev` ;"
+msgid "it creates a WAPT package folder in :file:`C:\\\waptdev`;"
+msgstr "il crée le dossier du paquet dans :file:`C:\\\waptdev` ;"
 
 #: ../../source/wapt-create-packages/package-msi/index.rst:98
 msgid "it copies the MSI setup file in that directory;"
@@ -236,8 +236,8 @@ msgid "the :file:`manifest.sha256` file containing the list of files included in
 msgstr "génère le fichier :file:`manifest.sha256` avec la liste des fichiers contenus dans le paquet ;"
 
 #: ../../source/wapt-create-packages/package-msi/index.rst:203
-msgid "it compresses the folder :file:`C:\\\\waptdev\\tis-tightvnc-wapt` with a canonical name;"
-msgstr "il zippe le répertoire :file:`C:\\\\waptdev\\\tis-tightvnc-wapt` avec un nom canonique pour les paquets WAPT ;"
+msgid "it compresses the folder :file:`C:\\\waptdev\\tis-tightvnc-wapt` with a canonical name;"
+msgstr "il zippe le répertoire :file:`C:\\\waptdev\\\tis-tightvnc-wapt` avec un nom canonique pour les paquets WAPT ;"
 
 #: ../../source/wapt-create-packages/package-msi/index.rst:206
 msgid "it adds the signature (requires the private key);"

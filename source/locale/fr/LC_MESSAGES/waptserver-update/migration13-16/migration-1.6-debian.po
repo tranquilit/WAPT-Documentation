@@ -239,12 +239,12 @@ msgstr ""
 
 #: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:157
 msgid ""
-"open the :program:`waptconsole` by selecting :file:`C:\\\\Program Files (x86)\\"
-"\\wapt\\\\waptconsole.exe` (default location) or :file:`C:\\\\wapt\\"
+"open the :program:`waptconsole` by selecting :file:`C:\\\Program Files (x86)\\"
+"\\wapt\\\waptconsole.exe` (default location) or :file:`C:\\\wapt\\"
 "\\waptconsole.exe` (older WAPT versions);"
 msgstr ""
-"ouvrir la console :file:`C:\\\\Program Files (x86)\\\\wapt\\\\waptconsole.exe` "
-"ou :file:`C:\\\\wapt\\\\waptconsole.exe` (anciennes versions de WAPT) ;"
+"ouvrir la console :file:`C:\\\Program Files (x86)\\\wapt\\\waptconsole.exe` "
+"ou :file:`C:\\\wapt\\\waptconsole.exe` (anciennes versions de WAPT) ;"
 
 #: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:161
 msgid ""

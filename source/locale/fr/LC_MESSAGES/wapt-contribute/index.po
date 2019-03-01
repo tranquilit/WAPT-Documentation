@@ -4,15 +4,16 @@ msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-27 15:40+0100\n"
-"PO-Revision-Date: 2019-02-27 11:11+0100\n"
+"PO-Revision-Date: 2019-03-01 10:58+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 1.8.8\n"
 
 #: ../../source/wapt-contribute/index.rst:8
 #: ../../source/wapt-contribute/index.rst:16
@@ -20,22 +21,16 @@ msgid "Contributing to WAPT"
 msgstr "Contribuer à WAPT"
 
 #: ../../source/wapt-contribute/index.rst:8
-msgid ""
-"Contribute, github, projet, WAPT, CLA, CCLA, Contributor's License "
-"Agreement, documentation  Contributor's License Agreement"
-msgstr ""
-"Contribuer, github, projet, WAPT, CLA, CCLA, Contributor's License "
-"Agreement"
+msgid "Contribute, github, projet, WAPT, CLA, CCLA, Contributor's License Agreement, documentation  Contributor's License Agreement"
+msgstr "Contribuer, github, projet, WAPT, CLA, CCLA, Contributor's License Agreement"
 
 #: ../../source/wapt-contribute/index.rst:18
-msgid ""
-"The public part of the project is maintained on github at "
-"https://github.com/tranquilit/WAPT."
+msgid "The public part of the project is maintained on github at https://github.com/tranquilit/WAPT."
 msgstr "Le projet est maintenu sur github https://github.com/tranquilit/WAPT."
 
 #: ../../source/wapt-contribute/index.rst:21
 msgid "Todo"
-msgstr ""
+msgstr "Todo"
 
 #: ../../source/wapt-contribute/index.rst:21
 msgid "work still in progress"
@@ -46,4 +41,3 @@ msgstr "work still in progress"
 
 #~ msgid "Todo"
 #~ msgstr "À faire"
-

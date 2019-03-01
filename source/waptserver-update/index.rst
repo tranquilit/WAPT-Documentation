@@ -25,11 +25,11 @@ Upgrading from 1.6 to 1.7
 
 The upgrade process follows the process for a minor update:
 
-* :ref:`mise à jour mineure pour Debian <wapt_minor_upgrade_debian>`;
+* :ref:`minor update for Debian <wapt_minor_upgrade_debian>`;
 
-* :ref:`mise à jour mineure pour CentOS <wapt_minor_upgrade_centos>`;
+* :ref:`minor update for CentOS <wapt_minor_upgrade_centos>`;
 
-* :ref:`mise à jour mineure pour Windows <wapt_minor_upgrade_windows>`;
+* :ref:`minor update for Windows <wapt_minor_upgrade_windows>`;
 
 .. attention::
 

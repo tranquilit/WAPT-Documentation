@@ -370,8 +370,8 @@ msgid "``/verify_cert=``"
 msgstr "``/verify_cert=``"
 
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:192
-msgid "1 or relative path :file:`ssl\\\\server\\\\srvwapt.mydomain.lan.crt`"
-msgstr "1 ou chemin relatif :file:`ssl\\\\server\\\\srvwapt.mydomain.lan.crt`"
+msgid "1 or relative path :file:`ssl\\\server\\\srvwapt.mydomain.lan.crt`"
+msgstr "1 ou chemin relatif :file:`ssl\\\server\\\srvwapt.mydomain.lan.crt`"
 
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:192
 msgid "Value of ``verify_cert`` entered during installation"
@@ -383,7 +383,7 @@ msgstr "``/CopyServersTrustedCA``"
 
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:193
 msgid "path to a bundle to copy to :file:`ssl\\server`"
-msgstr "chemin vers un bundle à copier dans :file:`ssl\\\\server`"
+msgstr "chemin vers un bundle à copier dans :file:`ssl\\\server`"
 
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:193
 msgid "Certificate bundle for https connections (to be defined by ``verify_cert``)"
@@ -405,10 +405,10 @@ msgstr "Bundle de certificats pour vérifier la signature des paquets"
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:199
 msgid ""
 "The :file:`iss` file for the InnoSetup installer is available here: :file:`C:\\"
-"\\Program Files\\\\wapt\\\\waptsetup\\\\waptsetup.iss`."
+"\\Program Files (x86)\\\wapt\\\waptsetup\\\waptsetup.iss`."
 msgstr ""
 "Le fichier :file:`iss` de l'installeur InnoSetup est disponible ici : :file:`C:\\"
-"\\Program Files (x86)\\\\wapt\\\\waptsetup\\\\waptsetup.iss`."
+"\\Program Files (x86)\\\wapt\\\waptsetup\\\waptsetup.iss`."
 
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:202
 msgid ""
@@ -693,17 +693,17 @@ msgstr ""
 "fichiers :file:`waptdeploy.exe` et :file:`waptagent.exe` :"
 
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:363
-msgid "Source : :file:`\\\\mydomain.lan\\\\netlogon\\\\waptagent.exe`"
+msgid "Source : :file:`\\\mydomain.lan\\\netlogon\\\waptagent.exe`"
 msgstr ""
-"Source : :file:`\\\\mydomain.lan\\\n"
-"etlogon\\\\waptagent.exe` Destination : :file:`C:\\\\windows\\\temp\\\\waptagent."
+"Source : :file:`\\\mydomain.lan\\\n"
+"etlogon\\\waptagent.exe` Destination : :file:`C:\\\windows\\\temp\\\waptagent."
 "exe`"
 
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:364
-msgid "Destination : :file:`C:\\\\windows\\\\temp\\\\waptagent.exe`"
+msgid "Destination : :file:`C:\\\windows\\\temp\\\waptagent.exe`"
 msgstr ""
-"Source : :file:`\\\\mydomain.lan\\\n"
-"etlogon\\\\waptagent.exe` Destination : :file:`C:\\\\windows\\\temp\\\\waptagent."
+"Source : :file:`\\\mydomain.lan\\\n"
+"etlogon\\\waptagent.exe` Destination : :file:`C:\\\windows\\\temp\\\waptagent."
 "exe`"
 
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:370
@@ -764,7 +764,7 @@ msgstr "Configuration de la gestion de l'alimentation"
 #~ "Source : :file:`\\mydomain.lan\\netlogon\\waptdeploy.exe` Destination : :file:"
 #~ "`C:\\windows\\temp\\waptdeploy.exe`"
 #~ msgstr ""
-#~ "Source : :file:`\\\\mydomain.lan\\netlogon\\waptdeploy.exe` Destination : :"
+#~ "Source : :file:`\\\mydomain.lan\\netlogon\\waptdeploy.exe` Destination : :"
 #~ "file:`C:\\windows\\temp\\waptdeploy.exe`"
 
 #~ msgid "Execute:"
@@ -874,7 +874,7 @@ msgstr "Configuration de la gestion de l'alimentation"
 #~ "documentation: http://www.jrsoftware.org/ishelp/index.php?topic=setupcmdline."
 #~ msgstr ""
 #~ "Le fichier :file:`iss` de l'installeur InnoSetup est disponible ici : :file:"
-#~ "`C:\\Program Files\\wapt\\waptsetup\\waptsetup.iss`. Vous pouvez l'adapter à "
+#~ "`C:\\Program Files (x86)\\wapt\\waptsetup\\waptsetup.iss`. Vous pouvez l'adapter à "
 #~ "vos besoins spécifiques. Une fois modifié il suffira de relancer la création "
 #~ "d'un :program:`waptagent`. Pour voir les nombreuses options disponibles avec "
 #~ "InnoSetup, rendez-vous sur la documentation InnoSetup : http://www.jrsoftware."

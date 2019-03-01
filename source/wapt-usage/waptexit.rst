@@ -67,7 +67,7 @@ run :program:`waptexit` with the argument:
   waptexit.exe -allow_cancel_upgrade=True
 
 Otherwise :program:`waptexit` will take the value indicated in
-:file:`C:\\Program Files\\wapt\\wapt-get.ini`:
+:file:`C:\\Program Files (x86)\\wapt\\wapt-get.ini`:
 
 .. code-block:: ini
 
@@ -75,7 +75,7 @@ Otherwise :program:`waptexit` will take the value indicated in
    allow_cancel_upgrade = 0
 
 If this value is not indicated in
-:file:`C:\\Program Files\\wapt\\wapt\\wapt-get.ini`,
+:file:`C:\\Program Files (x86)\\wapt\\wapt\\wapt-get.ini`,
 then the default value will be **10**.
 
 Increase the trigger time in waptexit
@@ -89,7 +89,7 @@ you can start :program:`waptexit` with the argument:
   waptexit.exe -waptexit_countdown=10000
 
 Otherwise :program:`waptexit` will take the value indicated
-in the configuration :file:`C:\\Program Files\\wapt\\wapt-get.ini`:
+in the configuration :file:`C:\\Program Files (x86)\\wapt\\wapt-get.ini`:
 
 .. code-block:: ini
 
@@ -97,7 +97,7 @@ in the configuration :file:`C:\\Program Files\\wapt\\wapt-get.ini`:
    waptexit_countdown = 25
 
 If this value is not indicated in
-:file:`C:\\Program Files\\wapt\\wapt\\wapt-get.ini`,
+:file:`C:\\Program Files (x86)\\wapt\\wapt\\wapt-get.ini`,
 then the default value will be **1**.
 
 Do not interrupt user activity
@@ -112,7 +112,7 @@ on the machine (*impacted_process* attribute of the package), you can run
   waptexit.exe -only_if_not_process_running=True
 
 Otherwise :program:`waptexit` will take the value indicated in
-:file:`C:\\Program Files\\wapt\\wapt-get.ini`:
+:file:`C:\\Program Files (x86)\\wapt\\wapt-get.ini`:
 
 .. code-block:: ini
 
@@ -120,7 +120,7 @@ Otherwise :program:`waptexit` will take the value indicated in
    upgrade_only_if_not_process_running = True
 
 If this value is not indicated in
-:file:`C:\\Program Files\\wapt\\wapt\\wapt-get.ini`,
+:file:`C:\\Program Files (x86)\\wapt\\wapt\\wapt-get.ini`,
 then the default value will be **False**.
 
 Launching the installation of packages with a special level of priority
@@ -134,7 +134,7 @@ you can run :program:`waptexit` with the argument:
   waptexit.exe -priorities=high
 
 Otherwise :program:`waptexit` will take the value indicated in
-:file:`C:\\Program Files\\wapt\\wapt-get.ini`:
+:file:`C:\\Program Files (x86)\\wapt\\wapt-get.ini`:
 
 .. code-block:: ini
 
@@ -142,14 +142,14 @@ Otherwise :program:`waptexit` will take the value indicated in
    upgrade_priorities = high
 
 If this value is not indicated in
-:file:`C:\\Program Files\\wapt\\wapt\\wapt-get.ini`, then the default value
+:file:`C:\\Program Files (x86)\\wapt\\wapt\\wapt-get.ini`, then the default value
 will be **Empty** (no filter on priority).
 
 Customizing WAPTexit
 --------------------
 
 It is possible to customize waptexit by placing the image you want
-in :file:`C:\\Program Files\\wapt\\templates\\waptexit-logo.png`.
+in :file:`C:\\Program Files (x86)\\wapt\\templates\\waptexit-logo.png`.
 
 Registering/ unregistering WAPTexit
 -----------------------------------

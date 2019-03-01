@@ -639,7 +639,7 @@ Security function F2C: access restriction to the installation folder of the WAPT
 
   * an unauthorized entity modifying the behavior of a WAPT agent;
 
-The installation folder :file:`C:\\Program Files\\wapt` is accessible in
+The installation folder :file:`C:\\Program Files (x86)\\wapt` is accessible in
 read-write mode:
 
 * to the :term:`Local Administrators` by direct access to the installation

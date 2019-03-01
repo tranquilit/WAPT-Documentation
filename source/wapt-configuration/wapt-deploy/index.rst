@@ -197,7 +197,7 @@ Settings                    Value                                               
 .. hint::
 
   The :file:`iss` file for the InnoSetup installer is available here:
-  :file:`C:\\Program Files\\wapt\\waptsetup\\waptsetup.iss`.
+  :file:`C:\\Program Files (x86)\\wapt\\waptsetup\\waptsetup.iss`.
 
   You may choose to adapt it to your specific needs. Once modified,
   you'll just have to recreate a :program:`waptagent`.

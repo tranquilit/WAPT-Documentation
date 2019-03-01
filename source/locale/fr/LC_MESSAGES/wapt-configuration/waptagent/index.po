@@ -39,15 +39,15 @@ msgstr ""
 #: ../../source/wapt-configuration/waptagent/index.rst:22
 msgid ""
 "files that will be used during building of the WAPT agent are located in :file:"
-"`C:\\\\Program Files (x86)\\\\wapt`;"
+"`C:\\\Program Files (x86)\\\wapt`;"
 msgstr ""
 "les fichiers qui seront utilisés pour créer l'installeur se trouvent dans le "
 "répertoire d'installation :file:`C:\\Program Files (x86)\\wapt` ;"
 
 #: ../../source/wapt-configuration/waptagent/index.rst:25
 msgid ""
-"installer source files (:file:`.iss` files) are located in :file:`C:\\\\Program "
-"Files (x86)\\\\wapt\\\\waptsetup`;"
+"installer source files (:file:`.iss` files) are located in :file:`C:\\\Program "
+"Files (x86)\\\wapt\\\waptsetup`;"
 msgstr ""
 "les fichiers sources de l'installeur (fichiers :file:`*.iss`) se trouvent dans :"
 "file:`C:\\Program Files (x86)\\wapt\\waptsetup` ;"
@@ -55,7 +55,7 @@ msgstr ""
 #: ../../source/wapt-configuration/waptagent/index.rst:30
 msgid ""
 "Before building the WAPT agent, please verify the public certificate(s) in :"
-"file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl`."
+"file:`C:\\\Program Files (x86)\\\wapt\\\ssl`."
 msgstr ""
 "Avant de lancer la création de l'installeur pour l'agent WAPT, vérifier la "
 "présence du certificat public dans le dossier :file:`C:\\Program Files "
@@ -73,10 +73,10 @@ msgstr ""
 #: ../../source/wapt-configuration/waptagent/index.rst:39
 msgid ""
 "**DO NOT COPY the private key** of any :term:`Administrator` in :file:`C:\\"
-"\\Program Files (x86)\\\\wapt`."
+"\\Program Files (x86)\\\wapt`."
 msgstr ""
 "**NE PAS COPIER votre clé privée** d\\':term:`Administrateur` dans :file:`C:\\"
-"\\Program Files (x86)\\\\wapt`."
+"\\Program Files (x86)\\\wapt`."
 
 #: ../../source/wapt-configuration/waptagent/index.rst:42
 msgid ""
@@ -105,8 +105,8 @@ msgid "the field :guilabel:`Public certificate`: **required**;"
 msgstr "le champ **obligatoire** :guilabel:`Certificat public` ;"
 
 #: ../../source/wapt-configuration/waptagent/index.rst:57
-msgid "example : :file:`C:\\\\private\\\\mydomain.crt`"
-msgstr "exemple : :file:`C:\\\\private\\\\mydomain.crt`"
+msgid "example : :file:`C:\\\private\\\mydomain.crt`"
+msgstr "exemple : :file:`C:\\\private\\\mydomain.crt`"
 
 #: ../../source/wapt-configuration/waptagent/index.rst:59
 msgid "the field :guilabel:`Address of the WAPT repository`: **required**;"
@@ -242,7 +242,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "That folder is used when building the WAPT agent, do not store your "
-#~ "Administrator private key in the :file:`C:\\Program Files (x86)\\wapt\\\\` "
+#~ "Administrator private key in the :file:`C:\\Program Files (x86)\\wapt\\\` "
 #~ "folder, otherwise the private key will be deployed all over your "
 #~ "Organization, an absolute no go!"
 #~ msgstr ""

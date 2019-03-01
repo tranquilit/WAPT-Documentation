@@ -115,11 +115,11 @@ msgstr ""
 #: ../../source/wapt-common-problems/index.rst:65
 msgid ""
 "deploy the new certificate :file:`.crt` on your clients in the folder :file:`C:\\"
-"\\Program Files (x86)\\\\ssl` manually or using a :abbr:`GPO (Group Policy "
+"\Program Files (x86)\\\ssl` manually or using a :abbr:`GPO (Group Policy "
 "Object)`;"
 msgstr ""
 "déployer le nouveau certificat :file:`.crt` sur vos clients dans le dossier :"
-"file:`C:\\\\Programe files (x86)\\\\ssl` manuellement ou par :abbr:`GPO (Group "
+"file:`C:\\\Program Files (x86)\\\ssl` manuellement ou par :abbr:`GPO (Group "
 "Policy Object)` ;"
 
 #: ../../source/wapt-common-problems/index.rst:70
@@ -159,12 +159,12 @@ msgstr "WAPT ne gère pas encore la révocation de certificat (CRL)."
 #: ../../source/wapt-common-problems/index.rst:93
 msgid ""
 "The solution consists in deleting every :file:`.crt` certificate associated to "
-"the stolen private key, located in the :file:`C:\\\\Program Files (x86)\\\\wapt\\"
+"the stolen private key, located in the :file:`C:\\\Program Files (x86)\\\wapt\\"
 "\\ssl` folder."
 msgstr ""
 "La solution consiste à supprimer tous les certificats :file:`.crt` associés à la "
-"clé privée volée, situés dans le dossier :file:`C:\\\\Program Files (x86)\\\\wapt"
-"\\\\ssl`."
+"clé privée volée, situés dans le dossier :file:`C:\\\Program Files (x86)\\\wapt"
+"\\\ssl`."
 
 #: ../../source/wapt-common-problems/index.rst:97
 msgid "That operation can be done using a GPO, manually, or with a WAPT package."
@@ -395,10 +395,10 @@ msgstr ""
 #: ../../source/wapt-common-problems/index.rst:236
 msgid ""
 "The workaround consists in using a scheduled task that will launch :file:`C:\\"
-"\\Program Files (x86)\\\\wapt\\\\wapt-get.exe` with the argument ``upgrade``."
+"\\Program Files (x86)\\\wapt\\\wapt-get.exe` with the argument ``upgrade``."
 msgstr ""
 "La solution de contournement est d'utiliser une tâche planifiée qui appelle :"
-"file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get.exe` avec le paramètre "
+"file:`C:\\\Program Files (x86)\\\wapt\\\wapt-get.exe` avec le paramètre "
 "``upgrade``."
 
 #: ../../source/wapt-common-problems/index.rst:241
@@ -415,11 +415,11 @@ msgstr ""
 #: ../../source/wapt-common-problems/index.rst:245
 msgid ""
 "One of the possible solutions is to remove local security strategies by deleting "
-"the file :file:`C:\\\\Windows\\\\System32\\\\GroupPolicy\\\\gpt.ini`, to restart "
+"the file :file:`C:\\\Windows\\\System32\\\GroupPolicy\\\gpt.ini`, to restart "
 "the computer, and finally to re-install the shutdown scheduled tasks:"
 msgstr ""
 "Une des solutions consiste à supprimer les stratégies locales actuelles en "
-"supprimant le fichier :file:`C:\\\\windows\\\\system32\\\\GroupPolicy\\\\gpt."
+"supprimant le fichier :file:`C:\\\windows\\\system32\\\GroupPolicy\\\gpt."
 "ini`, puis en redémarrant la machine, et enfin en relançant l'installation de la "
 "tâche d'extinction :"
 
@@ -463,10 +463,10 @@ msgstr ""
 
 #: ../../source/wapt-common-problems/index.rst:269
 msgid ""
-"Define these values in :file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get.ini` "
+"Define these values in :file:`C:\\\Program Files (x86)\\\wapt\\\wapt-get.ini` "
 "file to change the default behavior."
 msgstr ""
-"Définissez ces valeurs dans :file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get."
+"Définissez ces valeurs dans :file:`C:\\\Program Files (x86)\\\wapt\\\wapt-get."
 "ini` pour modifier le comportement par défaut."
 
 #: ../../source/wapt-common-problems/index.rst:277
@@ -509,13 +509,13 @@ msgstr "si :program:`Nginx` n'est pas lancé, relancer :program:`Nginx` :"
 #: ../../source/wapt-common-problems/index.rst:311
 msgid ""
 "if :program:`Nginx` still does not start, you'll need to analyze journal logs "
-"in :file:`/var/log/nginx/` on Linux or in :file:`C:\\\\Program Files (x86)\\"
-"\\wapt\\\\waptserver\\\\nginx\\\\logs` on Windows."
+"in :file:`/var/log/nginx/` on Linux or in :file:`C:\\\Program Files (x86)\\"
+"\\wapt\\\waptserver\\\nginx\\\logs` on Windows."
 msgstr ""
 "si :program:`Nginx` ne veux toujours pas démarrer, il faut analyser les fichiers "
 "de journalisation dans :file:`/var/log/nginx/` pour Linux ou dans :file:`C:\\"
-"\\Program Files (x86)\\\\wapt\\\\waptserver\\\n"
-"ginx\\\\logs` pour Windows."
+"\\Program Files (x86)\\\wapt\\\waptserver\\\n"
+"ginx\\\logs` pour Windows."
 
 #: ../../source/wapt-common-problems/index.rst:316
 msgid "Service unavailable"
@@ -567,8 +567,8 @@ msgid "close your WAPT console;"
 msgstr "fermer votre console WAPT ;"
 
 #: ../../source/wapt-common-problems/index.rst:350
-msgid "delete the folder :file:`%appdata%\\\\..\\\\Local\\\\waptconsole`;"
-msgstr "supprimer le dossier :file:`%appdata%\\\\..\\\\Local\\\\waptconsole` ;"
+msgid "delete the folder :file:`%appdata%\\\..\\\Local\\\waptconsole`;"
+msgstr "supprimer le dossier :file:`%appdata%\\\..\\\Local\\\waptconsole` ;"
 
 #: ../../source/wapt-common-problems/index.rst:352
 msgid "launch the command :code:`wapt-get enable-check-certificate`;"
@@ -785,7 +785,7 @@ msgid ""
 "\\waptdev`."
 msgstr ""
 "Si l':command:`upload` a précédemment échoué, vous pourrez trouver le paquet "
-"généré dans :file:`C:\\\\waptdev`."
+"généré dans :file:`C:\\\waptdev`."
 
 #: ../../source/wapt-common-problems/index.rst:470
 msgid "download and install :program:`WinSCP` using WAPT:"
@@ -1340,7 +1340,7 @@ msgstr ""
 #~ "\\wapt-get.ini` file."
 #~ msgstr ""
 #~ "La règle de pare-feu est recréée avec l'url du paramètre waptserver "
-#~ "renseignés dans :file:`C:\\Program Files\\wapt\\wapt-get.ini`"
+#~ "renseignés dans :file:`C:\\Program Files (x86)\\wapt\\wapt-get.ini`"
 
 #~ msgid "With Windows XP, the rule is created without the source IP filter."
 #~ msgstr ""
@@ -1479,8 +1479,8 @@ msgstr ""
 #~ msgid ""
 #~ "If the Nginx service still does not want to start, you will have to analyze "
 #~ "the service log files in :file:`/var/log/nginx/` on your Linux WAPT Server "
-#~ "or :file:`C:\\Program Files\\wapt\\waptserver\\apache-win32\\logs` on your "
+#~ "or :file:`C:\\Program Files (x86)\\wapt\\waptserver\\apache-win32\\logs` on your "
 #~ "Windows WAPT Server."
 #~ msgstr ""
-#~ "dans :file:`/var/log/nginx/` pour Linux ou dans :file:`C:\\Program Files\\wapt"
+#~ "dans :file:`/var/log/nginx/` pour Linux ou dans :file:`C:\\Program Files (x86)\\wapt"
 #~ "\\waptserver\\apache-win32\\logs` pour Windows."

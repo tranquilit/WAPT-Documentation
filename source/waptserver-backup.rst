@@ -181,4 +181,4 @@ Restoring the WAPT Server on Windows
 
 .. code-block:: bash
 
-  FastCopy.exe /cmd=diff /error_stop=TRUE /force_close /acl=TRUE /verify=TRUE "W:\wapt" /to="C:\\Program Files\\wapt\\"
+  FastCopy.exe /cmd=diff /error_stop=TRUE /force_close /acl=TRUE /verify=TRUE "W:\wapt" /to="C:\\Program Files (x86)\\wapt\\"
