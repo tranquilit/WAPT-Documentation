@@ -50,8 +50,8 @@ Uninstalling WAPT 1.3 from the CentOS/ RedHat server
 .. code-block:: bash
 
   yum remove tis-waptrepo tis-waptsetup tis-waptserver
-  systemctl stop httpd
-  systemctl disable httpd
+  systemctl stop apache2
+  systemctl disable apache2
 
 Configuring the CentOS/ RedHat server
 """""""""""""""""""""""""""""""""""""
@@ -61,9 +61,7 @@ Configuring the CentOS/ RedHat server
   localectl set-locale LANG=en_US.utf8
   localectl status
   yum update
-  yum install epel-release wget sudo unzip
-  wget https://wapt.tranquil.it/tools/mongo-tools_centos7_2.6.zip -O /tmp/mongo.zip
-  unzip -j /tmp/mongo.zip -d /bin/
+  yum install epel-release wget sudo
 
 Updating the CentOS / RedHat server
 """""""""""""""""""""""""""""""""""
@@ -73,7 +71,7 @@ Updating the CentOS / RedHat server
   cat > /etc/yum.repos.d/wapt.repo <<
   [wapt]
   name=WAPT Server Repo
-  baseurl=https://wapt.tranquil.it/centos7/wapt-1.7/
+  baseurl=https://wapt.tranquil.it/centos7/wapt-1.6/
   enabled=1
   gpgcheck=0
   EOL
@@ -138,7 +136,7 @@ WAPT will use from now on :program:`Nginx` as its web server and
 
 .. code-block:: bash
 
-  yum remove httpd mongodb
+  yum remove apache2 mongodb
 
 Installing the new WAPT console
 """""""""""""""""""""""""""""""
