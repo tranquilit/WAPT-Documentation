@@ -16,6 +16,10 @@ Configure Client-Side Certificate Authentication
 
 .. versionadded:: 1.7 Enterprise
 
+.. hint::
+
+  Feature only available with WAPT **Enterprise**.
+
 If your business need a public WAPT server on Internet, it can be secured with **Client-Side Certificate Authentication**. 
 
 That configuration restricts the visibility of WAPT Server to registered clients only, using the Agent private key generated during registration.

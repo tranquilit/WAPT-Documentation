@@ -16,6 +16,10 @@ Configuring authentication against Active Directory
 
 .. versionadded:: 1.5 Enterprise
 
+.. hint::
+
+  Feature only available with WAPT **Enterprise**.
+
 By default, the WAPT Server is configured with a single :term:`SuperAdmin`
 account whose password is setup during initial post-configuration.
 
