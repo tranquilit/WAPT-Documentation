@@ -20,7 +20,7 @@ If your business need a public WAPT server on Internet, it can be secured with *
 
 That configuration restricts the visibility of WAPT Server to registered clients only, using the Agent private key generated during registration.
 
-  * The agent sends a CSR to WAPT server which is signed and send back to WAPT agent. 
+  * The agent sends a CSR to WAPT server which is signed and sent back to WAPT agent. 
   * Using that signed certificate, the agent can access protected parts of Nginx server
 
 .. note::
