@@ -92,6 +92,7 @@ Install on Debian Linux
   debian/install-debian-wapt.rst
   debian/install-debian-kerberos.rst
   security/security-install-ssl-certificate.rst
+  security/security-configuration-certificate-authentication
 
 Install on CentOS7
 ------------------
@@ -103,6 +104,7 @@ Install on CentOS7
   centos/install-centos-wapt.rst
   centos/install-centos-kerberos.rst
   security/security-install-ssl-certificate.rst
+  security/security-configuration-certificate-authentication
 
 Install on Microsoft Windows
 ----------------------------
