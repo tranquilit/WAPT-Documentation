@@ -73,7 +73,7 @@ New
 
 * [NEW] wapt-get: added new commands `build-waptagent` to compile a customized waptagent in batch mode.
 
-    Copy waptagent.exe and pre-waptupgrade locally (if o)
+    Copy waptagent.exe and pre-waptupgrade locally (if not /DeployWaptAgentLocally, upload to server with https)
 
     /DeployWaptAgentLocally : Copy the newly built waptagent.exe and prefix-waptupgrade_xxx.wapt to  local server repository directory ( <wapt>\waptserver\repository\wapt\ )
 
@@ -89,6 +89,8 @@ New
 
 Improvements and fixes
 ++++++++++++++++++++++
+
+* [FIX] Reduce the risk of "database is locked" error
 
 * [IMP] Define proxies for crl download in wapt-get scan-packages 
 
