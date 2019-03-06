@@ -12,6 +12,210 @@
 Changelog
 =========
 
+WAPT-1.7.3.10 (2019-03-06)
+-------------------------
+
+(hash ec8aa25ef)
+
+Security
+++++++++
+
+* upgraded OpenSSL dlls to 1.0.2r for https://www.cert.ssi.gouv.fr/avis/CERTFR-2019-AVI-080/ (moderate risk))
+
+New
++++
+
+* Much reworked wizard pages embedded in waptserversetup.exe windows server installer. Install of waptserver on Windows is easy again.
+  
+   register server as a client of waptserver
+   
+   create new key / cert pair
+   
+   build waptagent.exe and waptupgrade package
+   
+   configure package prefix
+
+* If client certificate signing is enabled on waptserver (waptserver.ini config), the server sign a CSR for the client when the client is registered. See https://www.wapt.fr/fr/doc/waptserver-install/security/security-configuration-certificate-authentication.html
+
+* wapt-get: added new command `create-keycert` to create a pair of RSA key / x509 certificate in batch mode. self signed or signed with a CA key/cert
+
+    (options are case sensitive...)
+
+    /CommonName : CN to embed in certificate
+
+    /Email /Country /Locality /Organization /OrgUnit : additional attributes to embed in certificate
+
+    /PrivateKeyPassword : specify the password for private key in clear text form
+
+    /PrivateKeyPassword64 : specify the password for private key in base64 encoding form
+
+    /NoPrivateKeyPassword : Ask to create or use an unencrypted RSA private key
+
+    /CA=1 (or 0)): create a certification authority certificate if 1 (default to 1)
+
+    /CodeSigning=1 (or 0) ): create a code signing certificate if 1 (default to 1)
+     
+    /ClientAuth=1 (or 0) : create a certificate for authenticating a client on a https server with ssl auth. (default to 1)
+    
+    /CAKeyFilename : path to CA private key to use for signing the new certificate (default to  %LOCALAPPDATA%\waptconsole\waptconsole.ini [global] default_ca_key_path setting)
+    
+    /CACertFilename : path to CA certificate to use for signing the new certificate (default to  %LOCALAPPDATA%\waptconsole\waptconsole.ini [global] default_ca_cert_path setting)
+
+    /CAKeyPassword : specify the password for CA private key in clear text form to use for signing the new certificate (no default)
+
+    /CAKeyPassword64 : specify the password for CA private key in base64 encoding form to use for signing the new certificate (no default)
+
+    /NoCAKeyPassword : specify that the CA private to use for signing the new certificate is unencrypted
+
+    /EnrollNewCert : copy the newly created certificate in <wapt>\ssl to be taken in account as an authorized packages signer certificate.
+
+    /SetAsDefaultPersonalCert : set personal_certificate_path in configuration inifile [global] section (default %LOCALAPPDATA%\waptconsole\waptconsole.ini)
+
+* [NEW] wapt-get: added new commands `build-waptagent` to compile a customized waptagent in batch mode.
+
+    Copy waptagent.exe and pre-waptupgrade locally (if o)
+
+    /DeployWaptAgentLocally : Copy the newly built waptagent.exe and prefix-waptupgrade_xxx.wapt to  local server repository directory ( <wapt>\waptserver\repository\wapt\ )
+
+* [NEW] `wapt-get register` : Add options for easy configuration of wapt when registering
+
+  `--pin-server-cert` : When registering, pin the server certificate. (check that CN of certificate matches hostname of server and repo)
+
+  `--wapt-server-url` : When registering, set wapt-get.ini wapt_server setting.
+
+  `--wapt-repo-url` : When registering, set wapt-get.ini repo_url setting. (if not provided, and there is not repo_url set in wapt-get.ini, extrapolate repo_url from wapt_server url)
+
+* [NEW] wapt-get Add check-valid-codesigning-cert / CheckPersonalCertificateIsCodeSigning action
+
+Improvements and fixes
+++++++++++++++++++++++
+
+* [IMP] Define proxies for crl download in wapt-get scan-packages 
+
+* [FIX] fix deprecation warning for verifier and signer when checking crl signature
+ 
+* paste from clipboard action available in most packages editing grid
+
+* Propose to define package root dev path, package prefix, waptagent or new private key/ cert when launching waptconsole 
+
+* Grid Columns translations in french
+
+* Remove the need to define waptdev directory when editing groups / profiles / wua packages / self-service packages
+
+* Ensure valid package name in package wizard (issue959)
+
+* Use python cryptography 2.4.2 openssl bindings for windows XP agent (openssl bindings of the python cryptopgraphy default WHL >= 2.5 does not work on windows XP)
+
+* [FIX] trap exception when creating db tables from scratch fails, allowing upgrade of structure.
+
+* [IMP] waptexit responsiveness improvements
+
+  Separate events check thread and tasks check thread.
+
+* [FIX] don't reset host.server_uuid in server db when host disconnect from websocket
+
+  set host.server_uuid in server db when host get a token
+
+* [FIX] Modify isAdminLoggedIn to try to fix cases when we are admin but function return false
+
+* [NEW] Add ClientAuth checkbox when building certificate in waptconsole
+
+* [NEW] Add --quiet -q option to postconf.py
+
+* add an example of client side cert auth
+
+* Don't try to use host_certificate / key if they are not accessible
+
+* [FIX] persistent_dir calculation in package's call_setup_hook when package_uuid is None in local wapt DB (for clients migrated from pre 1.7 wapt, error None has no len() in audit log)
+
+* [IMP] Fix Normalization action with bad bitmap
+
+* Add splitter for log memo in Packages for hosts panel
+
+* Store fixes
+
+* Add clientAuth extended usage to x509 certificates (default True) for https client auth using personal certificate
+
+* Makes use of ssl client cert and key in waptconsole for server auth
+
+* fix ssl client certificate auth not taken in account for server api and host repo
+
+* waptcrypto : Add SSLPKCS12 to encapsulate pcks#12 key/cert store
+
+* python libraries updates
+
+  upgrade cryptography from 2.3.1 to 2.5.0
+
+  upgrade pyOpenSSL from 18.0.0 from 19.0.0
+
+* add is_client_auth property for certificates
+
+  default None for is_client_auth cert / csr build
+
+  don't fallback to host's client certificate auth if it is not clientAuth capable (if so, http error 400)
+
+* Be tolerant when no persistent_dir in wsus packages
+
+  Min wapt version 1.7.3 for self service packages and waptwua packages
+
+* fix WsusUpdates has no attribute 'downloaded'
+
+WAPT-1.7.3.7 (2019-02-19)
+-------------------------
+
+(hash 373f7d92)
+
+Bug fixes
+++++++++++
+
+* fix softs normalization dialog closed when typing F key (Enterprise)
+
+* include waptwua in nginx wapt server windows locations  (Enterprise)
+
+* fix force option from service or websockets not being taken in account in install_msi_if_needed or install_exe_if_needed
+
+* improved win updates reporting (uninstall behaviour)  (Enterprise)
+
+* add uninstall action for winupdates in waptconsole  (Enterprise)
+
+* fix reporting from dmi "size type" fields with non int content  (Enterprise)
+
+Improvements
+++++++++++++
+
+* waptexit: Allow minimize button
+
+* waptexit: Layout changes
+
+* AD Auth : less restrictive on user name sanitity check (Enterprise)
+
+* handle updates of data for winupdates with additional download urls  (Enterprise)
+
+* Add some additional info fields to WsusUpdates table (Enterprise)
+
+* add filename to Packages table for reporting and store usage (Enterprise)
+
+* Add uninstall win updates to waptconsole (Enterprise)
+
+* Add windows updates uninstall task capabilities (Enterprise)
+
+* add filename to Packages table
+
+* increased default clockskew tolerance for client socket io
+
+
+WAPT-1.7.3.5 (2019-02-13)
+-------------------------
+
+Bug fixes
++++++++++
+
+* Fix regression in package filenames (missing _)
+
+* fix mismatch for waptconsole [global] waptwua_enabled setting
+
+* default waptconsole EnableWaptWUAFeatures to True
+
 WAPT-1.7.3.4 (2019-02-13)
 -------------------------
 
