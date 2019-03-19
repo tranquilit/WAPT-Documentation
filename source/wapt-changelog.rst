@@ -12,6 +12,68 @@
 Changelog
 =========
 
+WAPT-1.7.3.11 (2019-03-19)
+-------------------------
+
+(hash 9d3eb0ff)
+
+* [FIX] waptexit: fix waptexit closes on startup if there is a running task but no pending updates / tasks.
+
+* [FIX] waptexit: fix potential case where waptexit remains running with high cpu load
+
+* [FIX] waptconsole:  Fix HostsForPackage grid not filtered properly (was unproperly using Search expr from first page)
+
+* [FIX] None has no check_install_is_running error at waptservice startup
+
+* [FIX] set persistent_dir and persistent_source_dir attribute on setup module for install_wapt
+
+* [FIX] fix small bug in guessed persistent_dir for dev mode
+
+* [FIX] fix error resetting status of stucked processes in local db (check_install_running)
+
+* [FIX] Trap error setting runstatus in db in tasks manager loop
+
+  Don't send runstatus to server each time it is set
+
+* [IMP] waptexit: add sizeable border and icons
+
+  show progress of long tasks
+
+* [IMP] waptservice : Process update of packages as a task instead of waiting for its completion when upgrading (to avoid timeout when running upgrade waptservice task)
+
+  add `update_packages` optional (default True) parameter for upgrade waptservice action
+  
+* [NEW] Add audit scheduling setup in waptagent compilation dialog (Enterprise)
+
+* [NEW] setuphelpers : Add get_local_profiles setuphelpers
+
+* [IMP] waptserver : Don't refuse to provide authtoken for websockets auth if fqdn has changed
+
+* [IMP] Update listening socket sid in database asynchronously
+
+* [IMP] flush stdout before sending status to waptserver
+
+* [IMP] waptcrypto handle alternative object names in csr build
+
+* [IMP] --force option on wapt-get.exe service mode
+
+* [NEW] use client side auth for waptwua too
+
+* [CHANGE] nginx windows config : relocate logs and pid
+
+  add conditional client side ssl auth in nginx config
+
+* [CHANGE] refactor wget, wgets WaptRemoteRepo WaptServer to use requests.Session object to handle specific ssl client auth and proxies
+
+  Be sure to set privateKey password dialog callback to decrypt client side ssl auth key
+
+* waptcrypto : add waptcrypto.is_pem_key_encrypted
+
+* [IMP] Make sure waptagent window is fully visible.
+
+* [IMP] Make sure Right click select row on all grids
+
+
 WAPT-1.7.3.10 (2019-03-06)
 -------------------------
 
@@ -90,29 +152,11 @@ New
 Improvements and fixes
 ++++++++++++++++++++++
 
-* [FIX] Reduce the risk of "database is locked" error
+* python libraries updates
 
-* [IMP] Define proxies for crl download in wapt-get scan-packages 
+  upgrade cryptography from 2.3.1 to 2.5.0
 
-* [FIX] fix deprecation warning for verifier and signer when checking crl signature
- 
-* paste from clipboard action available in most packages editing grid
-
-* Propose to define package root dev path, package prefix, waptagent or new private key/ cert when launching waptconsole 
-
-* Grid Columns translations in french
-
-* Remove the need to define waptdev directory when editing groups / profiles / wua packages / self-service packages
-
-* Ensure valid package name in package wizard (issue959)
-
-* Use python cryptography 2.4.2 openssl bindings for windows XP agent (openssl bindings of the python cryptopgraphy default WHL >= 2.5 does not work on windows XP)
-
-* [FIX] trap exception when creating db tables from scratch fails, allowing upgrade of structure.
-
-* [IMP] waptexit responsiveness improvements
-
-  Separate events check thread and tasks check thread.
+  upgrade pyOpenSSL from 18.0.0 from 19.0.0
 
 * [FIX] don't reset host.server_uuid in server db when host disconnect from websocket
 
@@ -120,21 +164,41 @@ Improvements and fixes
 
 * [FIX] Modify isAdminLoggedIn to try to fix cases when we are admin but function return false
 
+* [FIX]Ensure valid package name in package wizard (issue959)
+
+* [FIX] regression Use python cryptography 2.4.2 openssl bindings for windows XP agent (openssl bindings of the python cryptopgraphy default WHL >= 2.5 does not work on windows XP)
+
+* [FIX] trap exception when creating db tables from scratch fails, allowing upgrade of structure.
+
+* [FIX] Reduce the risk of "database is locked" error
+
+* [FIX] fix deprecation warning for verifier and signer when checking crl signature
+ 
+* [FIX] persistent_dir calculation in package's call_setup_hook when package_uuid is None in local wapt DB (for clients migrated from pre 1.7 wapt, error None has no len() in audit log)
+
+* [FIX] regression Don't try to use host_certificate / key for client side ssl auth if they are not accessible
+
+* [IMP] Define proxies for crl download in wapt-get scan-packages 
+
+* [IMP] Fix bad normalization action icon
+
+* [IMP] paste from clipboard action available in most packages editing grid
+
+* [IMP] Propose to define package root dev path, package prefix, waptagent or new private key/ cert when launching waptconsole 
+
+* [IMP] Remove the need to define waptdev directory when editing groups / profiles / wua packages / self-service packages
+
+* [IMP] Grid Columns translations in french
+
+* [IMP] waptexit responsiveness improvements
+
+  Separate events check thread and tasks check thread.
+
 * [NEW] Add ClientAuth checkbox when building certificate in waptconsole
 
 * [NEW] Add --quiet -q option to postconf.py
 
-* add an example of client side cert auth
-
-* Don't try to use host_certificate / key if they are not accessible
-
-* [FIX] persistent_dir calculation in package's call_setup_hook when package_uuid is None in local wapt DB (for clients migrated from pre 1.7 wapt, error None has no len() in audit log)
-
-* [IMP] Fix Normalization action with bad bitmap
-
-* Add splitter for log memo in Packages for hosts panel
-
-* Store fixes
+* [MISC] add an example of client side cert auth
 
 * Add clientAuth extended usage to x509 certificates (default True) for https client auth using personal certificate
 
@@ -142,19 +206,17 @@ Improvements and fixes
 
 * fix ssl client certificate auth not taken in account for server api and host repo
 
-* waptcrypto : Add SSLPKCS12 to encapsulate pcks#12 key/cert store
-
-* python libraries updates
-
-  upgrade cryptography from 2.3.1 to 2.5.0
-
-  upgrade pyOpenSSL from 18.0.0 from 19.0.0
-
 * add is_client_auth property for certificates
 
   default None for is_client_auth cert / csr build
 
   don't fallback to host's client certificate auth if it is not clientAuth capable (if so, http error 400)
+
+* [MISC] waptcrypto : Add SSLPKCS12 to encapsulate pcks#12 key/cert store
+
+* [MISC] Add splitter for log memo in Packages for hosts panel
+
+* Store fixes
 
 * Be tolerant when no persistent_dir in wsus packages
 
