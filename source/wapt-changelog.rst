@@ -12,28 +12,52 @@
 Changelog
 =========
 
-WAPT-1.7.3.11 (2019-03-19)
+WAPT-1.7.3.11 (2019-03-25)
 -------------------------
 
-(hash 9d3eb0ff)
+(hash 2f2f40b24e)
 
-* [FIX] waptexit: fix waptexit closes on startup if there is a running task but no pending updates / tasks.
+* [FIX] waptconsole / hosts for packages : F5 does a local refresh
 
-* [FIX] waptexit: fix potential case where waptexit remains running with high cpu load
+* [FIX] Improve update performance with repositories with a lot of packages.
+
+* [FIX] improves wapttray reporting
+
+  fix faulty inverted logic for notify_user parameter
+
+* [FIX] waptconsole : bad filtering of hosts for package (Enterprise)
+
+* [FIX] waptexit : fix waptexit closes even if Running task if no pending task / pending updates
+
+* [FIX] waptexit : fix potential case where waptexit remains running with high cpu load
 
 * [FIX] waptconsole:  Fix HostsForPackage grid not filtered properly (was unproperly using Search expr from first page)
 
-* [FIX] None has no check_install_is_running error at waptservice startup
+* [FIX] waptservice : None has no check_install_is_running error at waptservice startup
 
-* [FIX] set persistent_dir and persistent_source_dir attribute on setup module for install_wapt
+* [FIX] core : set persistent_dir and persistent_source_dir attribute on setup module for install_wapt
 
-* [FIX] fix small bug in guessed persistent_dir for dev mode
+* [FIX] core : fix bug in guessed persistent_dir for dev mode
 
-* [FIX] fix error resetting status of stucked processes in local db (check_install_running)
+* [FIX] core : fix error resetting status of stucked processes in local db (check_install_running)
 
-* [FIX] Trap error setting runstatus in db in tasks manager loop
+* [FIX] waptservice : Trap error setting runstatus in db in tasks manager loop
 
   Don't send runstatus to server each time it is set
+
+* [UPD] core : define explicitely the private_dir of Wapt object
+
+* [UPD] server : Don't refuse to provide authtoken if fqdn has changed (this does not introduce sepcific risk as request is signed against UUID)
+
+* [UPD] core : if package_uuid attribute is not set in package's control (old wapt), it is set  to a reproductible hash when package is appended to local waptdb so we can use it to lookup packages faster (dict)
+
+* [NEW] waptconsole : Add audit scheduling setup in waptagent dialog (Enterprise)
+
+  add set_waptaudit_task_period in innosetup installers
+  
+* [IMP] setuphelpers: add win32_displays  to default wmi keys for report
+
+* [IMP] server setup : create X509 certificate / RSA key for hosts ssl certificate signing and authentication during setup of server
 
 * [IMP] waptexit: add sizeable border and icons
 
@@ -49,29 +73,27 @@ WAPT-1.7.3.11 (2019-03-19)
 
 * [IMP] waptserver : Don't refuse to provide authtoken for websockets auth if fqdn has changed
 
-* [IMP] Update listening socket sid in database asynchronously
-
 * [IMP] flush stdout before sending status to waptserver
 
 * [IMP] waptcrypto handle alternative object names in csr build
 
-* [IMP] --force option on wapt-get.exe service mode
+* [IMP] wapt-get : --force option on wapt-get.exe service mode
 
 * [NEW] use client side auth for waptwua too
 
-* [CHANGE] nginx windows config : relocate logs and pid
+* [CHANGE] server setup : nginx windows config : relocate logs and pid
 
   add conditional client side ssl auth in nginx config
 
-* [CHANGE] refactor wget, wgets WaptRemoteRepo WaptServer to use requests.Session object to handle specific ssl client auth and proxies
+* [CHANGE] waptconsole : refactor wget, wgets WaptRemoteRepo WaptServer to use requests.Session object to handle specific ssl client auth and proxies
 
   Be sure to set privateKey password dialog callback to decrypt client side ssl auth key
 
-* waptcrypto : add waptcrypto.is_pem_key_encrypted
+* [IMP] waptcrypto : add waptcrypto.is_pem_key_encrypted
 
-* [IMP] Make sure waptagent window is fully visible.
+* [IMP] waptconsole : Make sure waptagent window is fully visible.
 
-* [IMP] Make sure Right click select row on all grids
+* [IMP] waptconsole : Make sure Right click select row on all grids
 
 
 WAPT-1.7.3.10 (2019-03-06)
