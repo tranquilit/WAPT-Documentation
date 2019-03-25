@@ -15,7 +15,9 @@ Changelog
 WAPT-1.7.3.11 (2019-03-25)
 -------------------------
 
-(hash 2f2f40b24e)
+(hash 92ccb177d5c)
+
+* [FIX] waptconsole : Use repo specific ca bundle to check remote repo server certificate (diffrent from main wapt repo)
 
 * [FIX] waptconsole / hosts for packages : F5 does a local refresh
 
@@ -94,6 +96,8 @@ WAPT-1.7.3.11 (2019-03-25)
 * [IMP] waptconsole : Make sure waptagent window is fully visible.
 
 * [IMP] waptconsole : Make sure Right click select row on all grids
+
+* [ADD] waptconsole : Import from remote repo : add certificate and key for client side authentication.
 
 
 WAPT-1.7.3.10 (2019-03-06)
