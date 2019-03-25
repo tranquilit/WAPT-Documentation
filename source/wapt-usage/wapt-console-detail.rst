@@ -667,7 +667,9 @@ Adding plugins in the Console
 
 To add plugins, go to :menuselection:`Tools --> preference --> plugins Tab`.
 
-.. todo:: add CAPTURE
+.. figure: wapt_console-plugins-empty.png
+  :align: center
+  :alt: Create a plugin
 
 Click :guilabel:`Add` to add plugins, then edit the corresponding columns
 
@@ -685,4 +687,6 @@ Click :guilabel:`Add` to add plugins, then edit the corresponding columns
 
 Plugins will then appear in the menu :
 
-.. todo:: add CAPTURE
+..figure: wapt_console-plugins-full.png
+  :align: center
+  :alt: Insert "Explorer" as a plugin with IP variables
