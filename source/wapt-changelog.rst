@@ -12,6 +12,105 @@
 Changelog
 =========
 
+WAPT-1.7.4 (2019-04-15)
+-----------------------
+
+(hash 2fd990deff2 6017)
+
+Changes
++++++++
+
+* Handles subjectAltName attribute for https server certificates checks in waptconsole (useful when certificate is a multi hostname commercial certificate). Before, only CN was checked against host's name.
+
+* Client certificate auth for waptconsole.
+
+* Versioning of wapt includes now the Git revision count.
+
+Details
++++++++
+
+* [NEW] Handle SubjectAlternativeName in certificates for server X509 certificate check in addition to CN
+
+  Add a subjectAltName when creating self signed certificate on linux wapt nginx server in postconf
+
+  For old installation, certificate is not updated. It should be done manually.
+
+* [FIX] fix check_install returning additional packages to install which are already installed (when private repository is using locale or maturities)
+
+  missing attributes in waptdb.installed_matching
+
+* [NEW] Add client certificate path and client private key path for waptconsole access to client side ssl auth protected servers
+  
+* [FIX] fix regression on wapt-get edit <package>
+
+  make filter_on_host_cap a global property of Wapt class instead of func parameter
+ 
+* [FIX] Fix regression if there are spaces in org unit name. Console was stripping space for https://roundup.tranquil.it/wapt/issue911 and https://roundup.tranquil.it/wapt/issue908 and https://assistance.tranquil.it/scp/tickets.php?id=4341
+
+* allow '0'..'9', 'A'..'Z', 'a'..'z', '-','_','=','~','.' in package names for org unit packages. replaces space with ~ in package names and ',' with '_'
+
+* make sure we have a proper package name in packages edit dialogs
+
+* waptservice config: allow waptupdate_task_period to be empty in wapt-get.ini to disable it in waptservice
+
+* waptutils: fix regression on wget() if user-agent is overriden
+
+* waptwua: fix an error in install progress % reporting for wua updates
+
+* wapttray: Refactor tray for consistency. Makes use of uwaptpollthreads classes
+
+* waptexit : some changes to try to fix cases when it does not close automatically.
+
+* build: add git Revcount (commit count) to exe metadata
+
+* wapt-get add WaptServiceUser and WaptServicePassword/WaptServicePassword64 command line params
+
+  fix timeout checking in checkopenport
+
+* waptconsole: fix hosts for package grid not refreshed if not focused
+
+* internal: tasks, events waptservice action : timeout in milliseconds instead of seconds for consistency
+
+* [FIX] internal : use synapse httpsend for waptexit / wapt-get / wapttray local service http queries to workaround auth retry problems with indy.
+
+* wapt-get add --locales to override temporarily locales form wapt-get.ini
+
+* add logs for self-service auth
+
+* waptservice: Add /keywords.json service action
+
+* waptservice: Add filter keywords (csv) on packages.json provider
+
+* waptconsole: replace tri-state checkbox by a radio group for wua enabled etting in create waptagent dialog
+
+* temporary workaround to avoid costly icons retrieval in local service
+
+* fix: simplify installed_wapt_version in waptupgrade package to avoid potential install issues
+
+* core: fix update_status not working when old packages have no persistent_dir in db
+
+* waptconsole layout: anchors for running task memo
+
+* [FIX] Makefullyvisible for main form
+  
+  avoid forms outside the visible area when disconnecting a seonc ddisplay 
+
+* Fix layout of tasks panel for Windows 10
+
+* notify server when audit on waptupgrade
+
+* [FIX] add token_lifetime server side (instead of using clockskew for token duration)
+
+* refactor WaptUpgrade task : check task to append and then append them to tasks queue in WaptUpgrade.run instead of doing it in caller code. Avoid timeout when upgrading.
+
+* self service rules refactoring
+
+* default unit "days" instead of minutes for wua scan download install and install_delay
+
+* Add export of pkcs#12 key
+
+* winsetup.py fix for backslashes in ngix
+
 WAPT-1.7.3.11 (2019-03-25)
 -------------------------
 
