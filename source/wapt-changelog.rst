@@ -12,10 +12,10 @@
 Changelog
 =========
 
-WAPT-1.7.4 (2019-04-15)
+WAPT-1.7.4 (2019-04-16)
 -----------------------
 
-(hash 2fd990deff2 6017)
+(hash 3a4c892315e 6029)
 
 Changes
 +++++++
@@ -63,19 +63,17 @@ Details
 
 * build: add git Revcount (commit count) to exe metadata
 
-* wapt-get add WaptServiceUser and WaptServicePassword/WaptServicePassword64 command line params
-
-  fix timeout checking in checkopenport
-
 * waptconsole: fix hosts for package grid not refreshed if not focused
-
-* internal: tasks, events waptservice action : timeout in milliseconds instead of seconds for consistency
 
 * [FIX] internal : use synapse httpsend for waptexit / wapt-get / wapttray local service http queries to workaround auth retry problems with indy.
 
-* wapt-get add --locales to override temporarily locales form wapt-get.ini
+* [ADD] wapt-get.exe : add --locales to override temporarily locales form wapt-get.ini.
 
-* add logs for self-service auth
+* [ADD] wapt-get.exe : add WaptServiceUser and WaptServicePassword/WaptServicePassword64 command line params
+
+  fix timeout checking in checkopenport
+
+* core: add logs for self-service auth
 
 * waptservice: Add /keywords.json service action
 
@@ -83,13 +81,11 @@ Details
 
 * waptconsole: replace tri-state checkbox by a radio group for wua enabled etting in create waptagent dialog
 
-* temporary workaround to avoid costly icons retrieval in local service
+* waptservice local webservice : temporary workaround to avoid costly icons retrieval in local service
 
-* fix: simplify installed_wapt_version in waptupgrade package to avoid potential install issues
+* [FIX] simplify installed_wapt_version in waptupgrade package to avoid potential install issues
 
-* core: fix update_status not working when old packages have no persistent_dir in db
-
-* waptconsole layout: anchors for running task memo
+* [IMP]waptconsole layout: anchors for running task memo
 
 * [FIX] Makefullyvisible for main form
   
@@ -97,19 +93,37 @@ Details
 
 * Fix layout of tasks panel for Windows 10
 
-* notify server when audit on waptupgrade
-
 * [FIX] add token_lifetime server side (instead of using clockskew for token duration)
 
-* refactor WaptUpgrade task : check task to append and then append them to tasks queue in WaptUpgrade.run instead of doing it in caller code. Avoid timeout when upgrading.
+* [UPD] default unit "days" instead of minutes for wua scan download install and install_delay
 
-* self service rules refactoring
+* [ADD] Optional export of key and certificate as PKCS12 file in create key dialog. (to check SSL client auth in browsers...)
 
-* default unit "days" instead of minutes for wua scan download install and install_delay
+* [FIX] winsetup.py fix for backslashes in ngix
 
-* Add export of pkcs#12 key
+* [FIX] wapt-get json output / flush error
 
-* winsetup.py fix for backslashes in ngix
+* [IMP] cache host_certificate_fingerprint and issuer id in local db so that we don't need to read private directory to get host_capabilities. Allow to use wapt-get list-upgrade as normal user.
+
+* [UPD] Don't make DNS query in waptconsole Login / waptconfig to avoid DNS timeout if domain dns server is not reachable
+
+* [FIX] Fix warning message introduced in previous revision when adding a new ini config on login (Enterprise)
+
+* [FIX ] waptwua : handles redirect for wsusscn2 head request (Enterprise)
+
+* [UPD] Report only 3 members on the wapt_version capability attribute
+
+* core : refactor WaptUpgrade task : check task to append and then append them to tasks queue in WaptUpgrade.run instead of doing it in caller code. Avoid timeout when upgrading.
+
+* core : self service rules refactoring
+
+* core : notify server when audit on waptupgrade
+
+* core : fix update_status not working when old packages have no persistent_dir in db
+
+* core : tasks, events waptservice action : timeout in milliseconds instead of seconds for consistency
+
+
 
 WAPT-1.7.3.11 (2019-03-25)
 -------------------------
