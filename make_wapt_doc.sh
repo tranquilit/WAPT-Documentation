@@ -29,7 +29,7 @@ echo "make latexpdf EN"
 make latexpdf_en  || true
 
 echo "make latexpdf FR"
-make -e SPHINXOPTS="-D language='fr'" latexpdf_fr 
+make -e SPHINXOPTS="-D language='fr'" latexpdf_fr || true
 
 cp ./robots.txt build/en/doc
 cp ./robots.txt build/fr/doc

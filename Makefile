@@ -176,14 +176,14 @@ latexpdf:
 latexpdf_en:
 	$(SPHINXBUILD) -b latex $(ALLSPHINXOPTS) $(BUILDDIR)/en/latex
 	@echo "Running LaTeX files through pdflatex..."
-	$(MAKE) -C $(BUILDDIR)/en/latex all-pdf
+	$(MAKE) -C $(BUILDDIR)/en/latex all-pdf -i
 	@echo "pdflatex finished; the PDF files are in $(BUILDDIR)/en/latex."
 
 .PHONY: latexpdf_fr
 latexpdf_fr:
 	$(SPHINXBUILD) -b latex $(ALLSPHINXOPTS) $(BUILDDIR)/fr/latex
 	@echo "Running LaTeX files through pdflatex..."
-	$(MAKE) -C $(BUILDDIR)/fr/latex all-pdf
+	$(MAKE) -C $(BUILDDIR)/fr/latex all-pdf -i
 	@echo "pdflatex finished; the PDF files are in $(BUILDDIR)/fr/latex."
 
 
