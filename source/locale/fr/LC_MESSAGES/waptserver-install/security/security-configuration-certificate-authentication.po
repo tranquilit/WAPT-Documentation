@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Tranquil IT
+# This file is distributed under the same license as the WAPT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WAPT 1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-25 18:44+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/waptserver-install/security/security-configuration-certificate-authentication.rst:8
+msgid "Using valid SSL / TLS certificates for the WAPT Server"
+msgstr ""
+
+#: ../../source/waptserver-install/security/security-configuration-certificate-authentication.rst:8
+msgid "certificat, WAPT, SSL / TLS, Certificate Authority, documentation"
+msgstr ""
+
+#: ../../source/waptserver-install/security/security-configuration-certificate-authentication.rst:15
+msgid "Configure Client-Side Certificate Authentication"
+msgstr ""
+
+#: ../../source/waptserver-install/security/security-configuration-certificate-authentication.rst:17
+msgid "Enterprise"
+msgstr ""
+
+#: ../../source/waptserver-install/security/security-configuration-certificate-authentication.rst:21
+msgid "Feature only available with WAPT **Enterprise**."
+msgstr ""
+
+#: ../../source/waptserver-install/security/security-configuration-certificate-authentication.rst:23
+msgid ""
+"If your business need a public WAPT server on Internet, it can be secured"
+" with **Client-Side Certificate Authentication**."
+msgstr ""
+
+#: ../../source/waptserver-install/security/security-configuration-certificate-authentication.rst:25
+msgid ""
+"That configuration restricts the visibility of WAPT Server to registered "
+"clients only, using the Agent private key generated during registration."
+msgstr ""
+
+#: ../../source/waptserver-install/security/security-configuration-certificate-authentication.rst:27
+msgid ""
+"The agent sends a CSR to WAPT server which is signed and sent back to "
+"WAPT agent."
+msgstr ""
+
+#: ../../source/waptserver-install/security/security-configuration-certificate-authentication.rst:28
+msgid ""
+"Using that signed certificate, the agent can access protected parts of "
+"Nginx server"
+msgstr ""
+
+#: ../../source/waptserver-install/security/security-configuration-certificate-authentication.rst:32
+msgid ""
+"We advise you to enabe Kerberos or login/password registration in WAPT "
+"Server post-configuration."
+msgstr ""
+
+#: ../../source/waptserver-install/security/security-configuration-certificate-authentication.rst:36
+msgid "Generate Certificate Authority for Nginx"
+msgstr ""
+
+#: ../../source/waptserver-install/security/security-configuration-certificate-authentication.rst:38
+msgid ""
+"Using :file:`wapt-get.exe` command, generate the Certificate Authority "
+"for Nginx :"
+msgstr ""
+
+#: ../../source/waptserver-install/security/security-configuration-certificate-authentication.rst:46
+msgid ""
+"Transfer the two generated files on WAPT Server, set "
+"**clients_signing_key** and **clients_signing_certificate** values in "
+":file:`/opt/waptserver/conf/waptserver.ini`"
+msgstr ""
+
+#: ../../source/waptserver-install/security/security-configuration-certificate-authentication.rst:58
+msgid "Enabling Client-Side Certificate Authentication"
+msgstr ""
+
+#: ../../source/waptserver-install/security/security-configuration-certificate-authentication.rst:60
+msgid ""
+"Add a Nginx configuration file :file:`/etc/nginx/certificate-auth.conf`. "
+"This file is used to restrict access to specific actions with Certificate"
+" Authentication"
+msgstr ""
+
+#: ../../source/waptserver-install/security/security-configuration-certificate-authentication.rst:71
+msgid "Example config file :"
+msgstr ""
+

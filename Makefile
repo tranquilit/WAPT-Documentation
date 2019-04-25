@@ -134,11 +134,27 @@ epub:
 	@echo
 	@echo "Build finished. The epub file is in $(BUILDDIR)/epub."
 
+
+.PHONY: epub_en
+epub_en:
+	$(SPHINXBUILD) -b epub $(ALLSPHINXOPTS) $(BUILDDIR)/en/epub
+	@echo
+	@echo "Build finished. The EN epub file is in $(BUILDDIR)/en/epub."
+
+
+.PHONY: epub_fr
+epub_fr:
+	$(SPHINXBUILD) -b epub $(ALLSPHINXOPTS) $(BUILDDIR)/fr/epub
+	@echo
+	@echo "Build finished. The FR epub file is in $(BUILDDIR)/fr/epub."
+
+
 .PHONY: epub3
 epub3:
 	$(SPHINXBUILD) -b epub3 $(ALLSPHINXOPTS) $(BUILDDIR)/epub3
 	@echo
 	@echo "Build finished. The epub3 file is in $(BUILDDIR)/epub3."
+
 
 .PHONY: latex
 latex:
@@ -154,6 +170,22 @@ latexpdf:
 	@echo "Running LaTeX files through pdflatex..."
 	$(MAKE) -C $(BUILDDIR)/latex all-pdf
 	@echo "pdflatex finished; the PDF files are in $(BUILDDIR)/latex."
+
+
+.PHONY: latexpdf_en
+latexpdf_en:
+	$(SPHINXBUILD) -b latex $(ALLSPHINXOPTS) $(BUILDDIR)/en/latex
+	@echo "Running LaTeX files through pdflatex..."
+	$(MAKE) -C $(BUILDDIR)/en/latex all-pdf
+	@echo "pdflatex finished; the PDF files are in $(BUILDDIR)/en/latex."
+
+.PHONY: latexpdf_fr
+latexpdf_fr:
+	$(SPHINXBUILD) -b latex $(ALLSPHINXOPTS) $(BUILDDIR)/fr/latex
+	@echo "Running LaTeX files through pdflatex..."
+	$(MAKE) -C $(BUILDDIR)/fr/latex all-pdf
+	@echo "pdflatex finished; the PDF files are in $(BUILDDIR)/fr/latex."
+
 
 .PHONY: latexpdfja
 latexpdfja:
