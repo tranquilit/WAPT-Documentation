@@ -12,10 +12,41 @@
 Changelog
 =========
 
-WAPT-1.7.4 (2019-04-16)
+WAPT-1.7.4 rc2 (2019-04-30)
+---------------------------
+
+(hash 5ef3487)
+
+Security
+++++++++
+
+* upgrade urllib3 to 1.24.2 for CVE-2019-11324 (high severity)
+
+* upgrade jinja2 to 2.10.1 for CVE-2019-10906
+
+New
+++++
+
+* Wapt self service application preview
+
+Improvements
+++++++++++++
+
+* Propose to copy the newly created CA certificate to ssl local service dir, and restart waptservice. Useful for first time use.
+
+Fixes
++++++
+
+* [FIX] sign_needed for wapt-signpackages.py
+
+* [FIX] missing StoreDownload table create
+
+* [FIX] bug in fallback package_uuid calculation. didn't include the version...
+
+WAPT-1.7.4 rc1 (2019-04-16)
 -----------------------
 
-(hash 3a4c892315e 6029)
+(hash 4cdcaa06c83b)
 
 Changes
 +++++++
@@ -28,6 +59,12 @@ Changes
 
 Details
 +++++++
+
+* [FIX] replace openssl command line call with waptcrypto call to create tls certificate on linux server wapt install
+
+* [FIX] add dnsname subjectAltName extension to self signed waptserver certificate on linux wapt nginx server configuration
+
+* [FIX] pkcs12 export
 
 * [NEW] Handle SubjectAlternativeName in certificates for server X509 certificate check in addition to CN
 
@@ -122,8 +159,6 @@ Details
 * core : fix update_status not working when old packages have no persistent_dir in db
 
 * core : tasks, events waptservice action : timeout in milliseconds instead of seconds for consistency
-
-
 
 WAPT-1.7.3.11 (2019-03-25)
 -------------------------
