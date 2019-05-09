@@ -12,6 +12,36 @@
 Changelog
 =========
 
+
+WAPT-1.7.4 (2019-05-09)
+---------------------------
+
+(hash 011d6ad83)
+
+Fixes and improvements over rc2
++++++++++++++++++++++++++++++++
+
+* [IMP] waptself.exe preview application updated.
+
+* [FIX] problem accessing to 32bit uninstall registry view from 32bit wapt on Windows server 2003 x64 and Windows server 2008 x64
+it looks like it is not advisable to try to access the virtual Wow6432Node virtual node with disabled redirection.
+
+* [FIX] setuphelpers installed_softwares regular expression search on name
+  https://github.com/tranquilit/WAPT/issues/7
+
+* [IMP] waptservice: for planned periodic upgrade, use single WaptUpgrade task like the one used in websocket.
+
+* [IMP] waptexit: Cancel all tasks if closing waptexit form
+
+* [FIX] wapt-get: wapt-get service mode with events
+  refactor using uWAPTPollThreads
+
+* [FIX] veyon cli executable name updated
+
+* [IMP] wapt-get: check CN and subjectAltNames in lowercase for enable-check-certificate action
+
+  (todo: doesn't take wildcard in account)
+
 WAPT-1.7.4 rc2 (2019-04-30)
 ---------------------------
 
