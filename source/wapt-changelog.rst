@@ -21,7 +21,17 @@ WAPT-1.7.4 (2019-05-09)
 Fixes and improvements over rc2
 +++++++++++++++++++++++++++++++
 
-* [IMP] waptself.exe preview application updated. Load icons in background. (known issues : does not work with repositories behind proxies and client side auth. https server certificate is not checked when downloading icons).
+* [IMP] waptself.exe preview application updated. Load icons in background.
+
+  Known issues :
+
+  - does not work with repositories behind proxies and client side auth
+
+  - https server certificate is not checked when downloading icons).
+  
+  - High DPI not handled properly
+  
+  - Cosmetic and ergonomic improvements still to come...
 
 * [IMP] waptserver setup on windows : open port 80 on firewall in addition to 443
 
@@ -29,12 +39,16 @@ Fixes and improvements over rc2
 
 * [IMP] waptserver on CentOS. add waptwua directory to SELinux httpd_sys_content_t context
 
-* [FIX] waptserver client auth : comment out ssl_client_certificate and ssl_verify_client by default beacuse old client's certificate don't have proper clientAuth attribute. (error http 400)
+* [FIX] waptserver client auth : comment out ssl_client_certificate and ssl_verify_client.
 
-* [FIX] problem accessing to 32bit uninstall registry view from 32bit wapt on Windows server 2003 x64 and Windows server 2008 x64
-it looks like it is not advisable to try to access the virtual Wow6432Node virtual node with disabled redirection.
+  By default beacuse old client's certificate don't have proper clientAuth attribute. (error http 400)
 
-* [FIX] setuphelpers installed_softwares regular expression search on name
+* [FIX] problem accessing to 32bit uninstall registry view from 32bit wapt on Windows server 2003 x64 and Windows server 2008 x64.
+
+  it looks like it is not advisable to try to access the virtual Wow6432Node virtual node with disabled redirection.
+
+* [FIX] setuphelpers installed_softwares regular expression search on name.
+
   https://github.com/tranquilit/WAPT/issues/7
 
 * [IMP] waptservice: for planned periodic upgrade, use single WaptUpgrade task like the one used in websocket.
@@ -42,6 +56,7 @@ it looks like it is not advisable to try to access the virtual Wow6432Node virtu
 * [IMP] waptexit: Cancel all tasks if closing waptexit form
 
 * [FIX] wapt-get: wapt-get service mode with events
+
   refactor using uWAPTPollThreads
 
 * [FIX] veyon cli executable name updated
@@ -1074,7 +1089,7 @@ New features
   A new wapttasks process is launched on the server to download updates and
   wsusscan cab from Internet.
 
-Changes / Improvements
+Changes / Improvements
 ++++++++++++++++++++++
 
 * Better utf8 handling
@@ -1353,7 +1368,7 @@ Changes
 * waptexit: Displays a custom PNG logo if one
   is created in :file:`%WAPT_HOME%\\templates\\waptexit-logo.png`
 
-* nssm.exe is signed with Tranquil IT code signing key
+* nssm.exe is signed with Tranquil IT code signing key
 
 * waptconsole: Add locale and maturity columns in packages status grid
 
@@ -1842,7 +1857,7 @@ WAPT-1.5.1.13 (2018-01-03)
 * Ajout option pour masquer les actions avancées
   (simplication affichage console)
 
-* CN du Certificat / clé machine sont nommés comme l'UUID.
+* CN du Certificat / clé machine sont nommés comme l'UUID.
 
 * Si une ou plusieurs dépendances d'un paquet ne peuvent pas être installées,
   le paquet parent n'est pas installé et est marqué en erreur.
@@ -2052,7 +2067,7 @@ Console WAPT
 
 * [NEW] all actions sent to the hosts are signed with the Administrator's key;
 
-* [NEW] generation of a key / certificate pair signed by
+* [NEW] generation of a key / certificate pair signed by
   a Certificate Authority (WAPT Enterprise);
 
 * option de créer un certificat **Code Signing** ou non (version Enterprise);
@@ -2090,7 +2105,7 @@ waptservice
 * le paramètre *websockets_verify_cert* active la vérification SSL du certificat
   pour la connexion websockets ;
 
-* affichage de liste des certificats / CA autorisés pour les paquets ;
+* affichage de liste des certificats / CA autorisés pour les paquets ;
 
 * affichage signataire paquet ;
 
@@ -2172,15 +2187,15 @@ Other changes
   With WAPT 1.5, package are signed with sha256 hashes. An option allows to sign
   them with sha1 too so that they can be used with WAPT 1.3 without signing them again.
 
-* new package certificate for Tranquil IT packages.
+* new package certificate for Tranquil IT packages.
   previous certificate for package on store.wapt.fr has expired.
-  all packages on store.wapt.fr has been signed again with new key / certificate
+  all packages on store.wapt.fr has been signed again with new key / certificate
   with both sha1 and sha256 hashes, and WAPT 1.5 signature style
   (control data is signed as well as files)
 
-* fix for local GPO add_shutdown_script() function (thanks jf-guillou !)
+* fix for local GPO add_shutdown_script() function (thanks jf-guillou !)
 
-* fix for :program:`waptsetup.exe` postinstall actions (:command:`update` / :command:`register`)
+* fix for :program:`waptsetup.exe` postinstall actions (:command:`update` / :command:`register`)
   when running :program:`waptsetup.exe` installer without elevated priviledges: added *runascurrentuser* flag
 
 * remove needless python libraries to make install package slimmer
@@ -2227,7 +2242,7 @@ Console WAPT
 Autres correctifs
 +++++++++++++++++
 
-* [FIX]  Paramètre *AppNoConsole:1* pour NSSM (:program:`waptservice` / :program:`waptserver`)
+* [FIX]  Paramètre *AppNoConsole:1* pour NSSM (:program:`waptservice` / :program:`waptserver`)
   pour permettre le fonctionnement sur Windows 10 Creators Updates ;
 
 * [FIX]  Problème de fichier Zip qui restent verrouillés si une erreur est déclenchée ;
@@ -2236,7 +2251,7 @@ Autres correctifs
 
 * [FIX]  Gestion espace dans les fichiers de projet PyScripter ;
 
-* [FIX]  Gestion utf8 / unicode pour certaines fonctions ;
+* [FIX]  Gestion utf8 / unicode pour certaines fonctions ;
 
 * [FIX]  Fix gestion encoding quand :command:`run_not_fatal()` renvoie une errreur ;
 
@@ -2254,7 +2269,7 @@ Autres correctifs
 
 * [FIX]  quelques actualisation des exemples de configuration :file:`wapt-get.ini.tmpl`
 
-* [FIX]  la compilation du :program:`waptagent` échoue si les clés / certificats
+* [FIX]  la compilation du :program:`waptagent` échoue si les clés / certificats
   existent déjà mais que le certificat a été supprimé de :file:`C:\\wapt\\ssl` ;
 
 * [FIX]  affichage dans la barre des tâches de la fenêtre de login
@@ -2278,7 +2293,7 @@ Fixes
 
 * [FIX] Fix broken DNS SRV record discovery;
 
-* [FIX] Fix unicode handling of signer / CN / organisation in certificates;
+* [FIX] Fix unicode handling of signer / CN / organisation in certificates;
 
 * [FIX] Unzipped netifaces module;
 
@@ -2391,8 +2406,8 @@ Security
 * [IMP] in next versions of WAPT, the default install path of wapt will be changed
   from root folder :file:`C:\\wapt` to a more standard :file:`C:\\Program Files (x86)\\wapt`.
 
-* [IMP] By default, :program:`waptsetup.exe` / :program:`waptsetup-tis.exe` do not
-  distribute certificates to avoid to deploy directly packages from Tranquil IT.
+* [IMP] By default, :program:`waptsetup.exe` / :program:`waptsetup-tis.exe` do not
+  distribute certificates to avoid to deploy directly packages from Tranquil IT.
   :program:`waptagent.exe` by default distributes the certificates that are installed
   on the mangement desktop creating the :program:`waptagent`.
 
@@ -2560,7 +2575,7 @@ Console WAPT
 * [IMP] column :guilabel:`groups` shows only host's direct dependencies with package's
   section == "group" instead of all direct dependencies.
 * [ADD] optional anonymous statistics (nb of machines, nb of packages, age of updates...)
-  sent to Tranquil IT to document the communication around WAPT
+  sent to Tranquil IT to document the communication around WAPT
   (sent by :program:`waptconsole` at most every 24h)
 * [IMP] improved mass hosts delete,
 * [ADD] delete hosts package action. server >=1.2.2 only : https://roundup.tranquil.it/wapt/issue433
@@ -2572,7 +2587,7 @@ Console WAPT
 * [FIX] canceling subprocesses not working in freepascal apps
   (when waiting for :program:`InnoSetup` compile for example)
 
-wapt-get / waptservice
+wapt-get / waptservice
 ++++++++++++++++++++++
 
 * [ADD] :command:`reset-uuid` and :command:`generate-uuid` for
@@ -2632,7 +2647,7 @@ Console WAPT
 
 * [IMP] the loading of the main grid has been optimized; only configured coumns are displayed;
 * [IMP] the WAPT server detects the hosts whose :program:`waptservice` is listening.
-  Their :guilabel:`Reachable` status is shown with a green / grey indicator;
+  Their :guilabel:`Reachable` status is shown with a green / grey indicator;
 * [IMP] the WAPT package to upgrade WAPT on hosts (???-waptupgrade.wapt) is generated by the WAPT console
   at the same time as the WAPT agent installer (:program:`waptagent.exe`),
   the two files are then uploaded on the WAPT server;
@@ -2710,11 +2725,11 @@ Webservices
 
 * [IMP] json calls to the webservice of the WAPT Server are now standardized;
 
-* [IMP] when launching command:`update` / command:`upgrade` / command:`remove`
-  / command:`forget` / command:`tasks_status` actions from the WAPT console,
+* [IMP] when launching command:`update` / command:`upgrade` / command:`remove`
+  / command:`forget` / command:`tasks_status` actions from the WAPT console,
   the IP address of the host is no longer sent, but instead its :term:`UUID`,
   and it is the WAPT Server that finds the IP address and the port to use;
-  et c'est le serveur wapt qui s'occupe de déterminer quelle IP / port utiliser;
+  et c'est le serveur wapt qui s'occupe de déterminer quelle IP / port utiliser;
 
 * [ADD] verification in the WAPT console that the version of the WAPT Server is sufficient;
 
