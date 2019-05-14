@@ -16,12 +16,20 @@ Changelog
 WAPT-1.7.4 (2019-05-09)
 ---------------------------
 
-(hash 011d6ad83)
+(hash 95a146c002)
 
 Fixes and improvements over rc2
 +++++++++++++++++++++++++++++++
 
-* [IMP] waptself.exe preview application updated.
+* [IMP] waptself.exe preview application updated. Load icons in background. (known issues : does not work with repositories behind proxies and client side auth. https server certificate is not checked when downloading icons).
+
+* [IMP] waptserver setup on windows : open port 80 on firewall in addition to 443
+
+* [IMP] waptserver on Debian. add www-data group to wapt user even if user wapt already exists.
+
+* [IMP] waptserver on CentOS. add waptwua directory to SELinux httpd_sys_content_t context
+
+* [FIX] waptserver client auth : comment out ssl_client_certificate and ssl_verify_client by default beacuse old client's certificate don't have proper clientAuth attribute. (error http 400)
 
 * [FIX] problem accessing to 32bit uninstall registry view from 32bit wapt on Windows server 2003 x64 and Windows server 2008 x64
 it looks like it is not advisable to try to access the virtual Wow6432Node virtual node with disabled redirection.
