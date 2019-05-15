@@ -12,8 +12,22 @@
 Changelog
 =========
 
+WAPT-1.7.4.6077 (2019-05-15)
+---------------------------
 
-WAPT-1.7.4 (2019-05-09)
+(hash 4be40c534c4627)
+
+Fixes
++++++
+
+* waptdeploy: Fix regression on waptdeploy unable to read current waptversion from registry.
+
+* be more tolerant to broken or inexistent wmi layer (for waptconsole on wine for example)
+
+Fixes and improvements over rc2
++++++++++++++++++++++++++++++++
+
+WAPT-1.7.4.6074 (2019-05-09)
 ---------------------------
 
 (hash 95a146c002)
