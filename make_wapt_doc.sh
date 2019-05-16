@@ -1,6 +1,9 @@
 #!/bin/sh
 set -e
 
+export http_proxy=http://srvproxy:8080
+export https_proxy=http://srvproxy:8080
+
 echo "clean"
 make clean
 

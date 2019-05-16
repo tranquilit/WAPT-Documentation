@@ -33,7 +33,7 @@
 # ones.
 extensions = [
     'sphinx.ext.doctest',
-#    'sphinx.ext.intersphinx',
+    'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
