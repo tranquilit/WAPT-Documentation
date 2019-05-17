@@ -12,6 +12,16 @@
 Changelog
 =========
 
+WAPT-1.7.4.6078 (2019-05-17)
+---------------------------
+
+(hash 5b6851ae)
+
+Fixes
++++++
+
+* takes profiles packages (AD based groups) in account (Enterprise)
+
 WAPT-1.7.4.6077 (2019-05-15)
 ---------------------------
 
