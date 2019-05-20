@@ -12,6 +12,33 @@
 Changelog
 =========
 
+WAPT-1.7.4.6082 (2019-05-20)
+---------------------------
+
+(hash 38e08433)
+
+Fixes
++++++
+
+* waptexit: fix waptexit not closing of witing for running tasks but auto upgrade has been disabled
+
+* fix events reporting from service's tasks.
+
+Updated
++++++++
+
+* add new packages attributes : name, valid_from, valid_until, forced_install_on
+
+* waptexit: add waptexit_disable_upgrade option to remove the triggering of upgrade from waptexit, but keep the waiting for pending and running tasks.
+Fix / add 'running_tasks' key in waptservice checkupgrades.json. Was not reflecting an up to date state.
+
+* waptself: 
+
+  - Start support of high DPI
+  
+  - loads Icons in background 
+
+
 WAPT-1.7.4.6078 (2019-05-17)
 ---------------------------
 
