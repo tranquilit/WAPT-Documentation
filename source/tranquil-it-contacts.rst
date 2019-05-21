@@ -23,5 +23,6 @@ Contact us for more informations:
 * Viadeo: https://www.viadeo.com/fr/company/tranquil-it-systems/
 * Linkedin: https://www.linkedin.com/company/tranquil-it-systems
 * Viadeo: https://www.viadeo.com/fr/company/tranquil-it-systems/
-* Forum: https://forum.tranquil.it/
+* Forum in French: https://forum.tranquil.it/
+* Forum in English: https://www.reddit.com/r/WAPT
 * Mailing-list: http://lists.tranquil.it/listinfo/wapt
