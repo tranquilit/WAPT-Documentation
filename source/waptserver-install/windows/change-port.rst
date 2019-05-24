@@ -74,8 +74,8 @@ Configuring the new listening ports in the Nginx
 
   .. code-block:: bash
 
-    repo_url=https://wapt.mydomain.lan:4443/wapt
-    wapt_server=https://wapt.mydomain.lan:4443
+    repo_url=https://wapt.mydomain.lan:8443/wapt
+    wapt_server=https://wapt.mydomain.lan:8443
 
 * restart the WAPT service with :code:`net start waptservice`;
 
