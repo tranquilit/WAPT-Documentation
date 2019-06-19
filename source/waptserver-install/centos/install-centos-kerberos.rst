@@ -18,15 +18,3 @@ Installing the Kerberos components
    yum install krb5-workstation msktutil nginx-mod-http-auth-spnego
 
 .. include:: ../security/security-install-kerberos.rst
-   :start-after: .. SUBSTITUTION: kerberos installation instruction
-   :end-before: .. SUBSTITUTION: change ownership and permission on keytab
-
-Finally, change the ownership rights on the keytab file.
-
-.. code-block:: bash
-
-    sudo chown root:nginx /etc/nginx/http-krb5.keytab
-    sudo chmod 640 /etc/nginx/http-krb5.keytab
-
-.. include:: ../security/security-install-kerberos.rst
-   :start-after: .. SUBSTITUTION: change ownership and permission on keytab

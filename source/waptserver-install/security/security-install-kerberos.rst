@@ -121,10 +121,20 @@ Transfer this file to :file:`/etc/nginx/` (with winscp for example)
 Apply the right to the http-krb5.keytab file
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
 
+For Debian :
+
 .. code-block:: bash   
 
    sudo chmod 640 /etc/nginx/http-krb5.keytab
    sudo chown root:www-data /etc/nginx/http-krb5.keytab
+   
+For Centos : 
+
+.. code-block:: bash
+
+    sudo chown root:nginx /etc/nginx/http-krb5.keytab
+    sudo chmod 640 /etc/nginx/http-krb5.keytab
+	
    
 Case of a use of a rodc
 """"""""""""""""""""""""""""
