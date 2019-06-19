@@ -93,6 +93,51 @@ controller (eg: **srvads.mydomain.lan**).
 
 .. SUBSTITUTION: change ownership and permission on keytab
 
+
+My wapt server does not have access to a write active directory
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* Connect to your active directory (Not a RODC)
+
+Create a computer account "srvwapt" (with graphical interface)
+
+* Place the spn on the account "srvwapt$"
+
+.. code-block:: bash
+
+   setspn -A HTTP/srvwapt.mydomain.lan srvwapt
+   
+Create a keytab for this wapt server : 
+   
+.. code-block:: bash   
+
+   ktpass -out C:\http-krb5.keytab -princ HTTP/srvwapt@MYDOMAIN.LAN rndpass -minpass 64 -crypto all -pType KRB5_NT_PRINCIPAL /mapuser srvwapt$@MYDOMAIN.LAN
+   Reset SRVWAPT$'s password [y/n]?  y
+   
+Transfer this file in :file:`/etc/nginx/` (with winscp for example) 
+
+
+
+Apply the right to the http-krb5.keytab file
+""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+.. code-block:: bash   
+
+   sudo chmod 640 /etc/nginx/http-krb5.keytab
+   sudo chown root:www-data /etc/nginx/http-krb5.keytab
+   
+
+Case of a use of a rodc
+""""""""""""""""""""""""""""
+
+* For **RODC** Add the srvwapt account to the allowed password group for replication
+
+* Remember to preload the password of the wapt server with the different rodc server.
+
+.. figure:: rodc-preload.png
+  :align: center
+  :alt: Preload Password srvwapt account
+  
 Post-configuring
 """"""""""""""""
 
