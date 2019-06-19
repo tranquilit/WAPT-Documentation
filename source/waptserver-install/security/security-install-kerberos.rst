@@ -94,14 +94,14 @@ controller (eg: **srvads.mydomain.lan**).
 .. SUBSTITUTION: change ownership and permission on keytab
 
 
-My wapt server does not have access to a write active directory
+My wapt server does not have access to a writeable active directory
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Connect to your active directory (Not a RODC)
 
 Create a computer account "srvwapt" (with graphical interface)
 
-* Place the spn on the account "srvwapt$"
+* Add a spn on the "srvwapt$" account 
 
 .. code-block:: bash
 
@@ -114,7 +114,7 @@ Create a keytab for this wapt server :
    ktpass -out C:\http-krb5.keytab -princ HTTP/srvwapt@MYDOMAIN.LAN rndpass -minpass 64 -crypto all -pType KRB5_NT_PRINCIPAL /mapuser srvwapt$@MYDOMAIN.LAN
    Reset SRVWAPT$'s password [y/n]?  y
    
-Transfer this file in :file:`/etc/nginx/` (with winscp for example) 
+Transfer this file to :file:`/etc/nginx/` (with winscp for example) 
 
 
 
@@ -133,7 +133,7 @@ Case of a use of a rodc
 
 * Remember to preload the password of the wapt server with the different rodc server.
 
-.. figure:: rodc-preload.png
+.. figure:: ../rodc-preload.png
   :align: center
   :alt: Preload Password srvwapt account
   
