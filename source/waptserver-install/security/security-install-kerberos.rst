@@ -126,7 +126,6 @@ Apply the right to the http-krb5.keytab file
    sudo chmod 640 /etc/nginx/http-krb5.keytab
    sudo chown root:www-data /etc/nginx/http-krb5.keytab
    
-
 Case of a use of a rodc
 """"""""""""""""""""""""""""
 
@@ -138,8 +137,19 @@ Case of a use of a rodc
   :align: center
   :alt: Preload Password srvwapt account
   
+  
+Test Keytab 
+""""""""""""""""""""""""""""""""""""""""""""""""""""" 
+ 
+If a RW or RODC server is available from the wapt server, you can test your keytab with this command :
+
+.. code-block:: bash   
+ 
+   kinit -kt /etc/nginx/http-krb5.keytab HTTP/srvwapt@MYDOMAIN.LAN
+  
+  
 Post-configuring
-""""""""""""""""
+"""""""""""""""""
 
 You can now use post-configuration script to configure the WAPT Server
 to use Kerberos.
