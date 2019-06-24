@@ -144,7 +144,7 @@ pipeline {
 				verbose: false)]
         }
     }
-    stage('Publish release'){
+    stage('Publish release prod'){
             when { tag "release-*" }
             steps {
                 echo 'Publishing to doc.wapt.fr'
