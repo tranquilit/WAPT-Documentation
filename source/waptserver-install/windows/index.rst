@@ -67,6 +67,60 @@ Asked Questions <wapt_faq>`.
   :alt: Accept the WAPT license terms
 
   Accept the WAPT license terms
+  
+* Choose additional task (leave as is for a first installation)
+
+.. figure:: windows-additional-task.png
+  :align: center
+  :alt: Choose additional task
+
+  Choose additional task 
+  
+* Choose password for waptserver
+
+.. figure:: windows-choose-password.png
+  :align: center
+  :alt: Choose Password
+
+  Choose Password 
+  
+  
+* Create a key if this is your first installation, otherwise select the existing key.
+
+.. figure:: windows-create-key.png
+  :align: center
+  :alt: Create key
+
+  Create Key
+  
+
+* Choose Password for private key
+
+.. figure:: windows-choose-password-key.png
+  :align: center
+  :alt: Choose Password for private key
+
+  Choose Password for private key
+  
+  
+* Build waptagent 
+
+.. figure:: windows-build-waptagent.png
+  :align: center
+  :alt: Build waptagent 
+
+  Choose Build waptagent 
+  
+* Choose prefix 
+
+.. figure:: windows-choose-prefix.png
+  :align: center
+  :alt: Build waptagent 
+
+  Choose prefix  
+  
+
+  
 
 * choose the installation directory (leave the default) and click
   on :guilabel:`Next` to go on to the next step;
@@ -118,52 +172,6 @@ Asked Questions <wapt_faq>`.
 
 * click on :guilabel:`Finished` to close the installer;
 
-Post-configuring the Windows WAPT Server
-----------------------------------------
-
-* fill in the DNS name of the WAPT Server. The DNS will configure automatically
-  the WAPT Server URL and the WAPT repository URL;
-
-* click on :guilabel:`Test DNS name` to check the configuration of the DNS;
-
-.. note::
-
-  If there are no :abbr:`DNS (Domain Name Service)` field configured for
-  the WAPT Server, the post-configuration wizard will propose to use plain IP
-  addresses instead of a DNS address.
-
-.. figure:: windows-verify-dns-configuration.png
-  :align: center
-  :alt: Checking DNS
-
-  Checking DNS
-
-* click on :guilabel:`Next` to go on to the next step;
-
-* choose the :term:`SuperAdmin` password for the WAPT Server;
-
-.. figure:: windows-setup-superadmin-password.png
-  :align: center
-  :alt: Choosing the SuperAdmin password for the WAPT Server
-
-  Choosing the SuperAdmin password for the WAPT Server
-
-* start the WAPT Server on Windows;
-
-.. figure:: windows-waptserver-start.png
-  :align: center
-  :alt: Starting the WAPT Server on Windows
-
-  Starting the WAPT Server on Windows
-
-* choose to launch the console with or without the configuration wizard:
-
-.. hint::
-
-  Here two choices are available to you, you may let yourself be guided
-  by the configuration wizard and go directly to the documentation on
-  :ref:`using the WAPT console <using_the_WAPT_console>`,
-  or you may choose continue the configuration manually.
 
 .. figure:: windows-launch-console-or-continue-configuration.png
   :align: center
