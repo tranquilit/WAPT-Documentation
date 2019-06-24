@@ -68,6 +68,17 @@ Asked Questions <wapt_faq>`.
 
   Accept the WAPT license terms
   
+  
+* choose the installation directory (leave the default) and click
+  on :guilabel:`Next` to go on to the next step;
+
+.. figure:: windows-installation-folder.png
+  :align: center
+  :alt: Choose the WAPT destination folder
+
+  Choose the WAPT destination folder
+  
+  
 * Choose additional task (leave as is for a first installation)
 
 .. figure:: windows-additional-task.png
@@ -120,32 +131,6 @@ Asked Questions <wapt_faq>`.
   Choose prefix  
   
 
-  
-
-* choose the installation directory (leave the default) and click
-  on :guilabel:`Next` to go on to the next step;
-
-.. figure:: windows-installation-folder.png
-  :align: center
-  :alt: Choose the WAPT destination folder
-
-  Choose the WAPT destination folder
-
-* choose the installation options for the WAPT Server;
-
-.. note::
-
-  * check :guilabel:`Install WAPT service` if you want to have the WAPT
-    service running on your :term:`Administrator` workstation;
-
-  * check :guilabel:`Launch notification tray upon session opening`
-    if you want to have the WAPT icon running in the tray by default;
-
-.. figure:: windows-installation-summary.png
-  :align: center
-  :alt: Summary of the WAPT Server installation
-
-  Summary of the WAPT Server installation
 
 * click on the :guilabel:`Install` to launch the installation,
   wait for the installation to complete, then click on
@@ -163,21 +148,8 @@ Asked Questions <wapt_faq>`.
 
   Installation has finished
 
-.. note::
-
-  * check :guilabel:`Start notification tray` to start WAPT Tray now;
-
-  * check :guilabel:`Start WAPT Server post-configuration` to edit a few
-    post-configuration parameters (see below);
 
 * click on :guilabel:`Finished` to close the installer;
-
-
-.. figure:: windows-launch-console-or-continue-configuration.png
-  :align: center
-  :alt: Choosing to launch the console with or without the configuration wizard
-
-  Choosing to launch the console with or without the configuration wizard
 
 .. note::
 
