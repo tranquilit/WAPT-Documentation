@@ -23,7 +23,7 @@ The second one is automated and relies on :abbr:`GPO (Group Policy Objects)`.
 
 .. note::
 
-  The :program:`waptsetup.exe` installer is available at
+  The :program:`waptagent.exe` installer is available at
   http://wapt.mydomain.lan/wapt/waptagent.exe.
 
   If you do not sign the :file:`waptagent.exe` installer with a commercial

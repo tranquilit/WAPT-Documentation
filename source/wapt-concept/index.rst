@@ -249,6 +249,11 @@ when an Active Directory Server is operating within the :term:`Organization`:
 If the host is no longer a member of its Active Directory group,
 then the *profile* package will be uninstalled.
 
+.. note::
+
+   For performance reasons, this feature is enabled only if the "use_ad_groups" option is enabled in wapt-get.ini
+
+
 Dependency mechanism
 ++++++++++++++++++++
 

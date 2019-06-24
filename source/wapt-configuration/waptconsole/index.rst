@@ -199,11 +199,6 @@ Starting the WAPT console
 
 * log into the WAPT console with the :term:`SuperAdmin` login and password;
 
-.. versionadded:: 1.5 Enterprise
-
-  Alternatively, you may choose to connect with an account that is a member
-  of your Active Directory ``waptadmin`` security group (this behavior
-  will work well if you have activated Kerberos on your WAPT Server).
 
 .. figure:: waptconsole-authentification.png
   :align: center
