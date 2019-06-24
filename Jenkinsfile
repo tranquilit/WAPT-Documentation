@@ -144,6 +144,38 @@ pipeline {
 				verbose: false)]
         }
     }
+    stage('Publish release'){
+            when { tag "release-*" }
+            steps {
+                echo 'Publishing to doc.wapt.fr'
+                sshPublisher alwaysPublishFromMaster: true, 
+                publishers: [sshPublisherDesc(configName: 'root@wapt.fr', 
+                transfers: [sshTransfer(excludes: '', 
+					execCommand: '', execTimeout: 120000, 
+					flatten: false, 
+					makeEmptyDirs: false, 
+					noDefaultExcludes: false, 
+					patternSeparator: '[, ]+', 
+					remoteDirectory: '/var/www/wapt.fr/en/doc-1.7/', 
+					remoteDirectorySDF: false, 
+					removePrefix: 'build/en/doc/', 
+					sourceFiles: 'build/en/doc/**'),
+                sshTransfer(excludes: '', 
+					execCommand: '', execTimeout: 120000, 
+					flatten: false, 
+					makeEmptyDirs: false, 
+					noDefaultExcludes: false, 
+					patternSeparator: '[, ]+', 
+					remoteDirectory: '/var/www/wapt.fr/fr/doc-1.7/', 
+					remoteDirectorySDF: false, 
+					removePrefix: 'build/fr/doc/', 
+					sourceFiles: 'build/fr/doc/**') 
+                ], 
+                usePromotionTimestamp: false, 
+                useWorkspaceInPromotion: false, 
+                verbose: false)]
+            }
+        }
   }
   
   post {
