@@ -163,5 +163,5 @@ Asked Questions <wapt_faq>`.
 
 The WAPT Server on your Windows is ready.
 
-You may go to the documentation on :ref:`installing the WAPT console
-<installing_the_WAPT_console>`!!
+You may go to the documentation on :ref:`installing the waptagent
+<install_waptagent>`!!
