@@ -12,6 +12,103 @@
 Changelog
 =========
 
+WAPT-1.7.4.6143 (2019-06-25)
+---------------------------
+
+(hash da870a2c)
+
+Improvements
+++++++++++++
+
+* Wapt Self service application is now fully usable. It is available ib <wapt>\waptself.exe
+
+* Add an option to set a random UUID instead of BIOS UUID at setup. This is to workaround bugged BIOS with duplicated Ids.
+
+* Better Sphinxdocs for WAPT Libraries
+
+Changes
++++++++
+
+* [Upd] Behaviour Change : Use computer FQDN from tcpip registry entry (first NV Hostname key) then fixed domain then DHCP
+
+* [Fix] Invert Zip and signature steps in package build operations to workaround issue with Bad Magic Number when signing already zipped big packages
+
+* [New] Add use_ad_groups wapt-get global parameter to activate groups from AD (this is a time consuming task, so better not activate it...)
+
+Fixes
++++++
+
+* [Fix] appendprofile infinite loop during setup
+
+* [Fix] read forced uuid from wapt-get.ini earlier to avoid loading a bad host certificate in memory if changing from bios uuid to forced uuid
+
+* [Fix] setting use_random_uuid in waptagent.iss
+
+* [Fix] waptstarter setup : force deactivate server, hostpackages
+
+* [Fix] include waptself in waptstarter, don't include innosetup in waptstarter
+
+* [Fix] ensure_unicode : add utf16 decoding test before cp850
+
+* [Fix] add ensure_unicode for tasks logs to avoid unicode decode errors in get_tasks_status callback
+ 
+* [New] host status : add boot_count attribute
+
+* [Fix] fix potential float / unicode error when scanning win updates (Enterprise)
+
+* [Fix] handles properly excluded files in package signatures
+
+* [Fix] waptexit: avoid some work after checking if waptservice is running if it is not running.
+
+* [Fix] a case where WAPTLocalJsonGet could loop forever if auth fails
+
+* [Fix] setup.pyc in manifest but not in zipped package.
+
+excludes exactly ['.svn','.git','.gitignore','setup.pyc'] when signing and zipping
+
+inc_build before signing
+
+* [Upd] add use_ad_groups setting in waptagent build. Default to False (Enterprise)
+
+* [Fix] Better detection of waptbasedir for python27.dll loading
+
+* [Fix] allow to sign source package directory to workaround bug in python zipfile (bad magic number)
+
+* [New] Add a htpasswd password file method for restricted access to only add_host method
+
+Allow add_host if provided host certificate is already signed by server and content can be verified
+
+* [Fix] wapt-get.exe crash with "can not load... " when python 3.7 is installed from MS store
+
+* [Fix] load private_dir conf parameter earlier
+
+* [Upd] put a rnd- in front of randomly generated uuid
+
+add a checkbox to use random uuid (if not already defined in wapt-get.ini)
+
+* update SSL CA certifi lib
+
+* [Imp] utf8 decode user /password in localservice auth
+
+* [Upd] allow authentication on local waptservice with token
+
+* [New] filter packages on hosts based on the valid_from and valid_until control attributes
+
+force update sooner if valid_from or valid_until or forced_install_on is sooner than regular planned update_period
+
+* [Fix] events reporting from service tasks.
+
+* [Fix] waptexit: fix waptexit not closing of writing for running tasks but auto upgrade has been disabled
+
+* waptexit: add waptexit_disable_upgrade option to remove the triggering of upgrade from waptexit, but keep the waiting for pending and running tasks.
+
+  Fix / add 'running_tasks' key in waptservice checkupgrades.json. Was not reflecting an up to date state.
+
+* [New] add new packages attributes : name, valid_from, valid_until, forced_install_on
+
+* fix regression on profile packages not taken in account
+
+
 WAPT-1.7.4.6082 (2019-05-20)
 ---------------------------
 
@@ -20,7 +117,7 @@ WAPT-1.7.4.6082 (2019-05-20)
 Fixes
 +++++
 
-* waptexit: fix waptexit not closing of witing for running tasks but auto upgrade has been disabled
+* waptexit: fix waptexit not closing if waiting for running tasks but auto upgrade has been disabled.
 
 * fix events reporting from service's tasks.
 
@@ -29,8 +126,9 @@ Updated
 
 * add new packages attributes : name, valid_from, valid_until, forced_install_on
 
-* waptexit: add waptexit_disable_upgrade option to remove the triggering of upgrade from waptexit, but keep the waiting for pending and running tasks.
-Fix / add 'running_tasks' key in waptservice checkupgrades.json. Was not reflecting an up to date state.
+* waptexit: add `waptexit_disable_upgrade` option to remove the triggering of upgrade from waptexit, but keep the waiting for pending and running tasks.
+
+* improved: add 'running_tasks' key in waptservice checkupgrades.json. Was not reflecting an up to date state.
 
 * waptself: 
 
