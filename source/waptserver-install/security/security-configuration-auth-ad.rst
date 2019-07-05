@@ -55,7 +55,7 @@ Enabling Active Directory authentication
 
   .. code-block:: bash
 
-    wapt_admin_group_dn=CN=waptadmins,OU=groupes,OU=tranquilit,DC=mydomain,DC=lanC=lan
+    wapt_admin_group_dn=CN=waptadmins,OU=groupes,OU=tranquilit,DC=mydomain,DC=lan
     ldap_auth_server=srvads.mydomain.lan
     ldap_auth_base_dn=DC=mydomain,DC=lan
     ldap_auth_ssl_enabled=False
