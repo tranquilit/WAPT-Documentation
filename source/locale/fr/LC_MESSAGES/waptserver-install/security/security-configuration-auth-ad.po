@@ -90,7 +90,7 @@ msgid ""
 "packages on the main repository (authentication mode by login and "
 "password);"
 msgstr ""
-"seuls le compte :term:`SuperAdmin` et les membres du groupe de sécurité "
+"seul le compte :term:`SuperAdmin` et les membres du groupe de sécurité "
 "Active Directory **waptadmins** pourront charger des paquets sur le dépôt"
 " WAPT (mode d'authentification par login / mot de passe) ;"
 
@@ -334,4 +334,3 @@ msgstr ""
 #~ "TLS entre le serveur WAPT et le"
 #~ " serveur Active Directory, utiliser la "
 #~ "commande suivante :"
-
