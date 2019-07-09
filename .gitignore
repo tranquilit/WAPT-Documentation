@@ -43,6 +43,7 @@ coverage.xml
 # Sphinx documentation
 docs/_build/
 source/.doctrees/
+source/_build/
 .doctrees/
 source/locale/**/*.tmp
 .vscode\settings.json
