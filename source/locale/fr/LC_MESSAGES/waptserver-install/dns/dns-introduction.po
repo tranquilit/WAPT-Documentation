@@ -29,7 +29,7 @@ msgid ""
 "DNS configuration is not strictly required, but it is very strongly "
 "recommended."
 msgstr ""
-"La configuration DNS n'est pas obligatoire ;elle est fortement recommandée."
+"La configuration DNS n'est pas obligatoire ; elle est fortement recommandée."
 
 #: ../../source/wapt_server_install/dns/dns_introduction.rst:22
 msgid ""
