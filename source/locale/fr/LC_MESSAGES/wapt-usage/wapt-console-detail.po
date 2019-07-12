@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-25 18:44+0200\n"
+"POT-Creation-Date: 2019-07-12 12:16+0200\n"
 "PO-Revision-Date: 2019-03-01 11:05+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -46,157 +46,6 @@ msgstr "Agir sur les machines"
 #: ../../source/wapt-usage/wapt-console-detail.rst:35
 msgid "Host configuration menu"
 msgstr "Menu de configuration des postes"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:37
-msgid ""
-"List of actions available to be performed on the hosts from the WAPT "
-"console"
-msgstr ""
-"Liste des fonctions de configuration des Postes client dans la console "
-"WAPT"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:42
-#: ../../source/wapt-usage/wapt-console-detail.rst:158
-#: ../../source/wapt-usage/wapt-console-detail.rst:199
-#: ../../source/wapt-usage/wapt-console-detail.rst:369
-#: ../../source/wapt-usage/wapt-console-detail.rst:543
-#: ../../source/wapt-usage/wapt-console-detail.rst:591
-#: ../../source/wapt-usage/wapt-console-detail.rst:612
-#: ../../source/wapt-usage/wapt-console-detail.rst:680
-msgid "Description"
-msgstr "Description"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:42
-msgid "Multi-selection"
-msgstr "Multi-sélection"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:44
-msgid "Edit the configuration of the host"
-msgstr "Modifier la liste des paquets de la machine"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:44
-#: ../../source/wapt-usage/wapt-console-detail.rst:45
-#: ../../source/wapt-usage/wapt-console-detail.rst:46
-#: ../../source/wapt-usage/wapt-console-detail.rst:47
-#: ../../source/wapt-usage/wapt-console-detail.rst:48
-#: ../../source/wapt-usage/wapt-console-detail.rst:49
-#: ../../source/wapt-usage/wapt-console-detail.rst:50
-#: ../../source/wapt-usage/wapt-console-detail.rst:51
-#: ../../source/wapt-usage/wapt-console-detail.rst:52
-#: ../../source/wapt-usage/wapt-console-detail.rst:53
-#: ../../source/wapt-usage/wapt-console-detail.rst:62
-#: ../../source/wapt-usage/wapt-console-detail.rst:63
-#: ../../source/wapt-usage/wapt-console-detail.rst:64
-#: ../../source/wapt-usage/wapt-console-detail.rst:65
-#: ../../source/wapt-usage/wapt-console-detail.rst:66
-#: ../../source/wapt-usage/wapt-console-detail.rst:67
-#: ../../source/wapt-usage/wapt-console-detail.rst:68
-msgid "*yes*"
-msgstr "*yes*"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:45
-msgid "Refresh the list of available packages"
-msgstr "Actualiser la liste des paquets disponibles"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:46
-msgid "Offer the user to launch an upgrade"
-msgstr "Proposer aux utilisateurs de lancer un upgrade"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:47
-msgid "Send a message to the selected hosts"
-msgstr "Envoyer un message aux machines sélectionnées"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:48
-msgid "Audit the packages installed on selected hosts"
-msgstr "Auditer les paquets installés sur les postes sélectionnés"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:49
-#: ../../source/wapt-usage/wapt-console-detail.rst:52
-msgid "Add one or more packages on selected hosts"
-msgstr "Ajouter un ou plusieurs paquets aux machines sélectionnées"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:50
-msgid "Remove one or more packages from selected hosts"
-msgstr "Retirer un ou plusieurs paquets aux machines sélectionnées"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:51
-msgid "Prevent packages from being installed on hosts"
-msgstr "Interdire l'installation des paquets sur les machines"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:53
-msgid "Remove the host and/or the host package"
-msgstr "Supprime la machine et/ou le paquet machine"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:54
-msgid "Launch TIShelp with a remote host"
-msgstr "Lance TISHelp sur la machine distante"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:54
-#: ../../source/wapt-usage/wapt-console-detail.rst:55
-#: ../../source/wapt-usage/wapt-console-detail.rst:56
-#: ../../source/wapt-usage/wapt-console-detail.rst:57
-#: ../../source/wapt-usage/wapt-console-detail.rst:58
-#: ../../source/wapt-usage/wapt-console-detail.rst:59
-#: ../../source/wapt-usage/wapt-console-detail.rst:60
-#: ../../source/wapt-usage/wapt-console-detail.rst:61
-msgid "*no*"
-msgstr "*non*"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:55
-msgid "Initiate a VNC connection with the remote host"
-msgstr "Lancer une connexion VNC avec la machine distante"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:56
-msgid "Connect via Veyon"
-msgstr "Se connecter avec Veyon"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:57
-msgid "Launch a RDP connection on the selected host"
-msgstr "Lancer une connexion RDP avec le poste sélectionné"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:58
-msgid "Launch remote user support (msra.exe)"
-msgstr "lance une assistance à distance (msra.exe)"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:59
-msgid "Manage hosts with :program:`compmgmt.msc`"
-msgstr "Gérer les machines avec :program:`compmgmt.msc`"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:60
-msgid "Manage Users and Groups with :program:`lusrmgr.msc`"
-msgstr "Gérer les Utilisateurs et les Groupes avec :program:`lusrmgr.msc`"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:61
-msgid "Manage Services with :program:`services.msc`"
-msgstr "Gérer les services avec :program:`services.msc`"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:62
-msgid "Send a WakeOnLAN special packet to selected hosts"
-msgstr "envoie une requête WakeOnLAN aux machines sélectionnées"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:63
-msgid "Search for applicable Windows updates"
-msgstr "Lancer la recherche des Mises à jour Windows à appliquer"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:64
-msgid "Download pending Windows updates"
-msgstr "Lancer le téléchargement des Mise à jour Windows en attente"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:65
-msgid "Trigger the installation of pending Windows updates"
-msgstr "Lancer l'installation des mise à jour Windows en attente"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:66
-msgid "Add Active Directory groups to the selected machines"
-msgstr "Ajouter les groupes AD des machines sélectionnées en dépendance"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:67
-msgid "Trigger an inventory update on selected hosts"
-msgstr "Lancer une remontée d'inventaire des machines sélectionnées"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:68
-msgid "Restart the WAPT service"
-msgstr "Lancer le redémarrage de Waptservice"
 
 #: ../../source/wapt-usage/wapt-console-detail.rst:72
 msgid "Searching a host"
@@ -346,46 +195,6 @@ msgstr "l'utilisateur connecté actuellement ou dernièrement sur le poste ;"
 msgid "Host summary"
 msgstr "Résumé de l'état de la machine"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:153
-msgid "Status of packages in the WAPT console"
-msgstr "Statut des paquets dans la console"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:158
-msgid "Status"
-msgstr "Statut"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:160
-msgid "List of installed WAPT packages"
-msgstr "La liste des paquets WAPT installés."
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:160
-msgid "Status: **OK**"
-msgstr "Statut : ``OK``"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:161
-msgid "List of packages waiting to be installed"
-msgstr "Liste des paquets en attente d'installation"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:161
-msgid "Status: **MISSING**"
-msgstr "Statut : ``MISSING``"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:162
-msgid "List of packages pending updates"
-msgstr "Liste des paquets en attente d'une mise à jour"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:162
-msgid "Status: **NEED-UPGRADE**"
-msgstr "Statut : ``NEED-UPGRADE``"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:163
-msgid "List of packages that have failed to install"
-msgstr "Liste des paquets dont l'installation a échoué"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:163
-msgid "Status: **ERROR**"
-msgstr "Statut : ``ERROR``"
-
 #: ../../source/wapt-usage/wapt-console-detail.rst:166
 msgid ""
 "When a package returns a status **ERROR**, click on it to show the "
@@ -422,55 +231,6 @@ msgid ""
 msgstr ""
 "si plusieurs machines sont sélectionnées, l'action sera lancée sur toutes"
 " les machines sélectionnées ;"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:194
-msgid "Acting on packages installed on a specific host"
-msgstr "Agir sur les paquets installés sur la machine"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:199
-msgid "Action"
-msgstr "Fonction"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:201
-msgid "Install a package"
-msgstr "Installer un paquet"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:201
-msgid "installs the selected package on selected hosts"
-msgstr "installe le paquet sélectionné sur les machines sélectionnées"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:203
-msgid "Force a package"
-msgstr "Forcer un paquet"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:203
-msgid "forces the re-installation of a selected package on selected hosts"
-msgstr "force la reinstallation d'un paquet sur les machines sélectionnées"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:206
-#: ../../source/wapt-usage/wapt-console-detail.rst:479
-msgid "Remove a package"
-msgstr "Supprimer un paquet"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:206
-msgid "removes the selected package from the selected hosts"
-msgstr "désinstalle le paquet sélectionné sur les machines sélectionnées"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:208
-msgid "Forget a package"
-msgstr "Oublier un paquet"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:208
-msgid "tells the selected hosts not to use WAPT for managing the selected package"
-msgstr "oublie le paquet sur les machines sélectionnées"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:211
-msgid "Audit the package"
-msgstr "Auditer le paquet"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:211
-msgid "triggers an audit on the selected package"
-msgstr "lance un audit forcé du paquet sélectionné"
 
 #: ../../source/wapt-usage/wapt-console-detail.rst:215
 msgid "Hardware inventory tab"
@@ -718,78 +478,6 @@ msgstr "Cocher ou décocher les filtres de votre choix."
 msgid "Advanced search functionalities in the WAPT console"
 msgstr "Fonctions de recherches avancées de la console WAPT"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:364
-msgid "Choice of filters"
-msgstr "Choix des filtres"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:369
-msgid "Possible options"
-msgstr "Choix possibles"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:371
-msgid ":guilabel:`Host`"
-msgstr ":guilabel:`Machine`"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:371
-msgid ""
-":guilabel:`Host` section in the :guilabel:`Hardware inventory` tab when a"
-" host is selected"
-msgstr ""
-"Partie host dans l'onglet :guilabel:`Inventaire matériel` lorsque l'on "
-"sélectionne une machine"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:375
-msgid ":guilabel:`Hardware`"
-msgstr ":guilabel:`Matériel`"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:375
-msgid ""
-":guilabel:`DMI` section in the :guilabel:`Hardware inventory` tab when a "
-"host is selected"
-msgstr ""
-"Partie DMI dans l'onglet :guilabel:`Inventaire matériel` lorsque l'on "
-"sélectionne une machine"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:379
-msgid ":guilabel:`Software`"
-msgstr ":guilabel:`Logiciel`"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:379
-msgid ":guilabel:`Software inventory` section when a host is selected"
-msgstr "Partie :guilabel:`Inventaire logiciel` lorsque l'on clique sur une machine"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:382
-msgid ":guilabel:`Package`"
-msgstr ":guilabel:`Paquet`"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:382
-msgid "List of packages installed on the selected hosts"
-msgstr "Liste des paquets installés sur l'ensemble des postes"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:384
-msgid ":guilabel:`Have errors`"
-msgstr ":guilabel:`Ont des erreurs`"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:384
-msgid "Search only for hosts for which a tasks has not finished correctly"
-msgstr "Recherche uniquement sur les machines qui sont en erreur"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:387
-msgid ":guilabel:`Needing upgrades`"
-msgstr ":guilabel:`Nécessite des mise à jour`"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:387
-msgid "Search only for hosts needing upgrades"
-msgstr "Recherche uniquement sur les machines qui nécessitent une mise à jour"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:389
-msgid ":guilabel:`Group selection`"
-msgstr ":guilabel:`Sélection du groupe`"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:389
-msgid "Filter hosts based on their membership/ dependency to a group package"
-msgstr "Filtre de recherche sur les membres appartenant à ce paquet *group*"
-
 #: ../../source/wapt-usage/wapt-console-detail.rst:398
 msgid "Do a search based on a WAPT package"
 msgstr "Effectuer une recherche à partir d'un paquet"
@@ -920,6 +608,10 @@ msgstr ""
 ":guilabel:`Dernière version seulement`. Pour supprimer un paquet du "
 "dépôt, :menuselection:`Clic-droit --> Supprimer`."
 
+#: ../../source/wapt-usage/wapt-console-detail.rst:479
+msgid "Remove a package"
+msgstr "Supprimer un paquet"
+
 #: ../../source/wapt-usage/wapt-console-detail.rst:481
 msgid ""
 "To edit a package, :menuselection:`Right-click --> Edit package`, the "
@@ -1022,6 +714,13 @@ msgstr "onglet :guilabel:`Basique` des options de base ;"
 #: ../../source/wapt-usage/wapt-console-detail.rst:685
 msgid "Arguments"
 msgstr "Paramètres"
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:543
+#: ../../source/wapt-usage/wapt-console-detail.rst:591
+#: ../../source/wapt-usage/wapt-console-detail.rst:612
+#: ../../source/wapt-usage/wapt-console-detail.rst:680
+msgid "Description"
+msgstr "Description"
 
 #: ../../source/wapt-usage/wapt-console-detail.rst:544
 #: ../../source/wapt-usage/wapt-console-detail.rst:592
@@ -2499,4 +2198,221 @@ msgstr "Les plugins apparaîtront alors dans le menu :"
 
 #~ msgid "add CAPTURE"
 #~ msgstr "ajouter CAPTURE"
+
+#~ msgid ""
+#~ "List of actions available to be "
+#~ "performed on the hosts from the "
+#~ "WAPT console"
+#~ msgstr ""
+#~ "Liste des fonctions de configuration des"
+#~ " Postes client dans la console WAPT"
+
+#~ msgid "Multi-selection"
+#~ msgstr "Multi-sélection"
+
+#~ msgid "Edit the configuration of the host"
+#~ msgstr "Modifier la liste des paquets de la machine"
+
+#~ msgid "*yes*"
+#~ msgstr "*yes*"
+
+#~ msgid "Refresh the list of available packages"
+#~ msgstr "Actualiser la liste des paquets disponibles"
+
+#~ msgid "Offer the user to launch an upgrade"
+#~ msgstr "Proposer aux utilisateurs de lancer un upgrade"
+
+#~ msgid "Send a message to the selected hosts"
+#~ msgstr "Envoyer un message aux machines sélectionnées"
+
+#~ msgid "Audit the packages installed on selected hosts"
+#~ msgstr "Auditer les paquets installés sur les postes sélectionnés"
+
+#~ msgid "Add one or more packages on selected hosts"
+#~ msgstr "Ajouter un ou plusieurs paquets aux machines sélectionnées"
+
+#~ msgid "Remove one or more packages from selected hosts"
+#~ msgstr "Retirer un ou plusieurs paquets aux machines sélectionnées"
+
+#~ msgid "Prevent packages from being installed on hosts"
+#~ msgstr "Interdire l'installation des paquets sur les machines"
+
+#~ msgid "Remove the host and/or the host package"
+#~ msgstr "Supprime la machine et/ou le paquet machine"
+
+#~ msgid "Launch TIShelp with a remote host"
+#~ msgstr "Lance TISHelp sur la machine distante"
+
+#~ msgid "*no*"
+#~ msgstr "*non*"
+
+#~ msgid "Initiate a VNC connection with the remote host"
+#~ msgstr "Lancer une connexion VNC avec la machine distante"
+
+#~ msgid "Connect via Veyon"
+#~ msgstr "Se connecter avec Veyon"
+
+#~ msgid "Launch a RDP connection on the selected host"
+#~ msgstr "Lancer une connexion RDP avec le poste sélectionné"
+
+#~ msgid "Launch remote user support (msra.exe)"
+#~ msgstr "lance une assistance à distance (msra.exe)"
+
+#~ msgid "Manage hosts with :program:`compmgmt.msc`"
+#~ msgstr "Gérer les machines avec :program:`compmgmt.msc`"
+
+#~ msgid "Manage Users and Groups with :program:`lusrmgr.msc`"
+#~ msgstr "Gérer les Utilisateurs et les Groupes avec :program:`lusrmgr.msc`"
+
+#~ msgid "Manage Services with :program:`services.msc`"
+#~ msgstr "Gérer les services avec :program:`services.msc`"
+
+#~ msgid "Send a WakeOnLAN special packet to selected hosts"
+#~ msgstr "envoie une requête WakeOnLAN aux machines sélectionnées"
+
+#~ msgid "Search for applicable Windows updates"
+#~ msgstr "Lancer la recherche des Mises à jour Windows à appliquer"
+
+#~ msgid "Download pending Windows updates"
+#~ msgstr "Lancer le téléchargement des Mise à jour Windows en attente"
+
+#~ msgid "Trigger the installation of pending Windows updates"
+#~ msgstr "Lancer l'installation des mise à jour Windows en attente"
+
+#~ msgid "Add Active Directory groups to the selected machines"
+#~ msgstr "Ajouter les groupes AD des machines sélectionnées en dépendance"
+
+#~ msgid "Trigger an inventory update on selected hosts"
+#~ msgstr "Lancer une remontée d'inventaire des machines sélectionnées"
+
+#~ msgid "Restart the WAPT service"
+#~ msgstr "Lancer le redémarrage de Waptservice"
+
+#~ msgid "Status of packages in the WAPT console"
+#~ msgstr "Statut des paquets dans la console"
+
+#~ msgid "Status"
+#~ msgstr "Statut"
+
+#~ msgid "List of installed WAPT packages"
+#~ msgstr "La liste des paquets WAPT installés."
+
+#~ msgid "Status: **OK**"
+#~ msgstr "Statut : ``OK``"
+
+#~ msgid "List of packages waiting to be installed"
+#~ msgstr "Liste des paquets en attente d'installation"
+
+#~ msgid "Status: **MISSING**"
+#~ msgstr "Statut : ``MISSING``"
+
+#~ msgid "List of packages pending updates"
+#~ msgstr "Liste des paquets en attente d'une mise à jour"
+
+#~ msgid "Status: **NEED-UPGRADE**"
+#~ msgstr "Statut : ``NEED-UPGRADE``"
+
+#~ msgid "List of packages that have failed to install"
+#~ msgstr "Liste des paquets dont l'installation a échoué"
+
+#~ msgid "Status: **ERROR**"
+#~ msgstr "Statut : ``ERROR``"
+
+#~ msgid "Acting on packages installed on a specific host"
+#~ msgstr "Agir sur les paquets installés sur la machine"
+
+#~ msgid "Action"
+#~ msgstr "Fonction"
+
+#~ msgid "Install a package"
+#~ msgstr "Installer un paquet"
+
+#~ msgid "installs the selected package on selected hosts"
+#~ msgstr "installe le paquet sélectionné sur les machines sélectionnées"
+
+#~ msgid "Force a package"
+#~ msgstr "Forcer un paquet"
+
+#~ msgid "forces the re-installation of a selected package on selected hosts"
+#~ msgstr "force la reinstallation d'un paquet sur les machines sélectionnées"
+
+#~ msgid "removes the selected package from the selected hosts"
+#~ msgstr "désinstalle le paquet sélectionné sur les machines sélectionnées"
+
+#~ msgid "Forget a package"
+#~ msgstr "Oublier un paquet"
+
+#~ msgid ""
+#~ "tells the selected hosts not to "
+#~ "use WAPT for managing the selected "
+#~ "package"
+#~ msgstr "oublie le paquet sur les machines sélectionnées"
+
+#~ msgid "Audit the package"
+#~ msgstr "Auditer le paquet"
+
+#~ msgid "triggers an audit on the selected package"
+#~ msgstr "lance un audit forcé du paquet sélectionné"
+
+#~ msgid "Choice of filters"
+#~ msgstr "Choix des filtres"
+
+#~ msgid "Possible options"
+#~ msgstr "Choix possibles"
+
+#~ msgid ":guilabel:`Host`"
+#~ msgstr ":guilabel:`Machine`"
+
+#~ msgid ""
+#~ ":guilabel:`Host` section in the "
+#~ ":guilabel:`Hardware inventory` tab when a "
+#~ "host is selected"
+#~ msgstr ""
+#~ "Partie host dans l'onglet "
+#~ ":guilabel:`Inventaire matériel` lorsque l'on "
+#~ "sélectionne une machine"
+
+#~ msgid ":guilabel:`Hardware`"
+#~ msgstr ":guilabel:`Matériel`"
+
+#~ msgid ""
+#~ ":guilabel:`DMI` section in the "
+#~ ":guilabel:`Hardware inventory` tab when a "
+#~ "host is selected"
+#~ msgstr ""
+#~ "Partie DMI dans l'onglet :guilabel:`Inventaire"
+#~ " matériel` lorsque l'on sélectionne une "
+#~ "machine"
+
+#~ msgid ":guilabel:`Software`"
+#~ msgstr ":guilabel:`Logiciel`"
+
+#~ msgid ":guilabel:`Software inventory` section when a host is selected"
+#~ msgstr ""
+#~ "Partie :guilabel:`Inventaire logiciel` lorsque "
+#~ "l'on clique sur une machine"
+
+#~ msgid ":guilabel:`Package`"
+#~ msgstr ":guilabel:`Paquet`"
+
+#~ msgid "List of packages installed on the selected hosts"
+#~ msgstr "Liste des paquets installés sur l'ensemble des postes"
+
+#~ msgid ":guilabel:`Have errors`"
+#~ msgstr ":guilabel:`Ont des erreurs`"
+
+#~ msgid "Search only for hosts for which a tasks has not finished correctly"
+#~ msgstr "Recherche uniquement sur les machines qui sont en erreur"
+
+#~ msgid ":guilabel:`Needing upgrades`"
+#~ msgstr ":guilabel:`Nécessite des mise à jour`"
+
+#~ msgid "Search only for hosts needing upgrades"
+#~ msgstr "Recherche uniquement sur les machines qui nécessitent une mise à jour"
+
+#~ msgid ":guilabel:`Group selection`"
+#~ msgstr ":guilabel:`Sélection du groupe`"
+
+#~ msgid "Filter hosts based on their membership/ dependency to a group package"
+#~ msgstr "Filtre de recherche sur les membres appartenant à ce paquet *group*"
 

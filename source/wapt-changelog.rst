@@ -13,7 +13,7 @@ Changelog
 =========
 
 WAPT-1.7.4.6143 (2019-06-25)
----------------------------
+----------------------------
 
 (hash da870a2c)
 
@@ -51,7 +51,7 @@ Fixes
 * [Fix] ensure_unicode : add utf16 decoding test before cp850
 
 * [Fix] add ensure_unicode for tasks logs to avoid unicode decode errors in get_tasks_status callback
- 
+
 * [New] host status : add boot_count attribute
 
 * [Fix] fix potential float / unicode error when scanning win updates (Enterprise)
@@ -110,7 +110,7 @@ force update sooner if valid_from or valid_until or forced_install_on is sooner 
 
 
 WAPT-1.7.4.6082 (2019-05-20)
----------------------------
+----------------------------
 
 (hash 38e08433)
 
@@ -130,15 +130,15 @@ Updated
 
 * improved: add 'running_tasks' key in waptservice checkupgrades.json. Was not reflecting an up to date state.
 
-* waptself: 
+* waptself:
 
   - Start support of high DPI
-  
-  - loads Icons in background 
+
+  - loads Icons in background
 
 
 WAPT-1.7.4.6078 (2019-05-17)
----------------------------
+----------------------------
 
 (hash 5b6851ae)
 
@@ -148,7 +148,7 @@ Fixes
 * takes profiles packages (AD based groups) in account (Enterprise)
 
 WAPT-1.7.4.6077 (2019-05-15)
----------------------------
+----------------------------
 
 (hash 4be40c534c4627)
 
@@ -163,7 +163,7 @@ Fixes and improvements over rc2
 +++++++++++++++++++++++++++++++
 
 WAPT-1.7.4.6074 (2019-05-09)
----------------------------
+----------------------------
 
 (hash 95a146c002)
 
@@ -177,9 +177,9 @@ Fixes and improvements over rc2
   - does not work with repositories behind proxies and client side auth
 
   - https server certificate is not checked when downloading icons).
-  
+
   - High DPI not handled properly
-  
+
   - Cosmetic and ergonomic improvements still to come...
 
 * [IMP] waptserver setup on windows : open port 80 on firewall in addition to 443
@@ -246,7 +246,7 @@ Fixes
 * [FIX] bug in fallback package_uuid calculation. didn't include the version...
 
 WAPT-1.7.4 rc1 (2019-04-16)
------------------------
+---------------------------
 
 (hash 4cdcaa06c83b)
 
@@ -279,11 +279,11 @@ Details
   missing attributes in waptdb.installed_matching
 
 * [NEW] Add client certificate path and client private key path for waptconsole access to client side ssl auth protected servers
-  
+
 * [FIX] fix regression on wapt-get edit <package>
 
   make filter_on_host_cap a global property of Wapt class instead of func parameter
- 
+
 * [FIX] Fix regression if there are spaces in org unit name. Console was stripping space for https://roundup.tranquil.it/wapt/issue911 and https://roundup.tranquil.it/wapt/issue908 and https://assistance.tranquil.it/scp/tickets.php?id=4341
 
 * allow '0'..'9', 'A'..'Z', 'a'..'z', '-','_','=','~','.' in package names for org unit packages. replaces space with ~ in package names and ',' with '_'
@@ -327,8 +327,8 @@ Details
 * [IMP]waptconsole layout: anchors for running task memo
 
 * [FIX] Makefullyvisible for main form
-  
-  avoid forms outside the visible area when disconnecting a seonc ddisplay 
+
+  avoid forms outside the visible area when disconnecting a seonc ddisplay
 
 * Fix layout of tasks panel for Windows 10
 
@@ -363,7 +363,7 @@ Details
 * core : tasks, events waptservice action : timeout in milliseconds instead of seconds for consistency
 
 WAPT-1.7.3.11 (2019-03-25)
--------------------------
+--------------------------
 
 (hash 92ccb177d5c)
 
@@ -406,7 +406,7 @@ WAPT-1.7.3.11 (2019-03-25)
 * [NEW] waptconsole : Add audit scheduling setup in waptagent dialog (Enterprise)
 
   add set_waptaudit_task_period in innosetup installers
-  
+
 * [IMP] setuphelpers: add win32_displays  to default wmi keys for report
 
 * [IMP] server setup : create X509 certificate / RSA key for hosts ssl certificate signing and authentication during setup of server
@@ -418,7 +418,7 @@ WAPT-1.7.3.11 (2019-03-25)
 * [IMP] waptservice : Process update of packages as a task instead of waiting for its completion when upgrading (to avoid timeout when running upgrade waptservice task)
 
   add `update_packages` optional (default True) parameter for upgrade waptservice action
-  
+
 * [NEW] Add audit scheduling setup in waptagent compilation dialog (Enterprise)
 
 * [NEW] setuphelpers : Add get_local_profiles setuphelpers
@@ -451,7 +451,7 @@ WAPT-1.7.3.11 (2019-03-25)
 
 
 WAPT-1.7.3.10 (2019-03-06)
--------------------------
+--------------------------
 
 (hash ec8aa25ef)
 
@@ -464,13 +464,13 @@ New
 +++
 
 * Much reworked wizard pages embedded in waptserversetup.exe windows server installer. Install of waptserver on Windows is easy again.
-  
+
    register server as a client of waptserver
-   
+
    create new key / cert pair
-   
+
    build waptagent.exe and waptupgrade package
-   
+
    configure package prefix
 
 * If client certificate signing is enabled on waptserver (waptserver.ini config), the server sign a CSR for the client when the client is registered. See https://www.wapt.fr/fr/doc/waptserver-install/security/security-configuration-certificate-authentication.html
@@ -492,11 +492,11 @@ New
     /CA=1 (or 0)): create a certification authority certificate if 1 (default to 1)
 
     /CodeSigning=1 (or 0) ): create a code signing certificate if 1 (default to 1)
-     
+
     /ClientAuth=1 (or 0) : create a certificate for authenticating a client on a https server with ssl auth. (default to 1)
-    
+
     /CAKeyFilename : path to CA private key to use for signing the new certificate (default to  %LOCALAPPDATA%\waptconsole\waptconsole.ini [global] default_ca_key_path setting)
-    
+
     /CACertFilename : path to CA certificate to use for signing the new certificate (default to  %LOCALAPPDATA%\waptconsole\waptconsole.ini [global] default_ca_cert_path setting)
 
     /CAKeyPassword : specify the password for CA private key in clear text form to use for signing the new certificate (no default)
@@ -549,18 +549,18 @@ Improvements and fixes
 * [FIX] Reduce the risk of "database is locked" error
 
 * [FIX] fix deprecation warning for verifier and signer when checking crl signature
- 
+
 * [FIX] persistent_dir calculation in package's call_setup_hook when package_uuid is None in local wapt DB (for clients migrated from pre 1.7 wapt, error None has no len() in audit log)
 
 * [FIX] regression Don't try to use host_certificate / key for client side ssl auth if they are not accessible
 
-* [IMP] Define proxies for crl download in wapt-get scan-packages 
+* [IMP] Define proxies for crl download in wapt-get scan-packages
 
 * [IMP] Fix bad normalization action icon
 
 * [IMP] paste from clipboard action available in most packages editing grid
 
-* [IMP] Propose to define package root dev path, package prefix, waptagent or new private key/ cert when launching waptconsole 
+* [IMP] Propose to define package root dev path, package prefix, waptagent or new private key/ cert when launching waptconsole
 
 * [IMP] Remove the need to define waptdev directory when editing groups / profiles / wua packages / self-service packages
 
@@ -669,7 +669,7 @@ Bug fixes
 * fix install_delay for Windows Updates stored as a time_delta in waptdb (Enterprise)
 
 Improvements
-++++++++++++++++++++++++
+++++++++++++
 
 * Add versioning on group packages filenames
 
@@ -698,8 +698,8 @@ Improvements
 WAPT-1.7.3.3 (2019-02-11)
 -------------------------
 
-* Core 
-  
+* Core
+
   - Better support for locales, maturities and architecture packages filtering
 
 * Self service rule packages (Enterprise)
@@ -710,33 +710,33 @@ WAPT-1.7.3.3 (2019-02-11)
 
 * Package to define which Windows Updates are allowed / forbidden to be deployed by Wapt WUA agents
 
-* **waptagent** build : 
+* **waptagent** build :
 
   - Add option for use_fqdn_as_uuid when building waptagent.exe
 
   - Add option to define the profile package to be deployed upon Wapt install on hosts.
-  
+
   - Add options to enable WaptWUA (Windows updates with Wapt) (Enterprise)
 
 * Host Profile packages (Enterprise)
 
   - Specific packages (like Group packages) which are installed or removed depending of wapt-get.ini [global] host_profiles ini key
 
-  - If a "profile" package name matches Computer's AD Groups, it is deployed automatically. 
+  - If a "profile" package name matches Computer's AD Groups, it is deployed automatically.
 
 * Reporting (Enterprise)
 
   - Import / Export queries as json files
 
-  - Softwares names normalization as a separate dialog.  
+  - Softwares names normalization as a separate dialog.
 
-* **waptexit** : 
+* **waptexit** :
 
   - reworked to make it more robust
 
   - Takes in account packages to remove
 
-  - Takes in account Wapt WUA Updates (Enterprise). 
+  - Takes in account Wapt WUA Updates (Enterprise).
 
     - command line switch :  /install_wua_updates
 
@@ -747,12 +747,12 @@ WAPT-1.7.3.3 (2019-02-11)
 * **waptconsole** Custom commands:
 
   - Ability to define custom popupmenu commands which are launched for the selection of hosts. Custom variables {uid}
-  
-* Other improvements : 
+
+* Other improvements :
   French translations fixes
 
 Changelog 1.7.2
---------------------------
+---------------
 
 * Reporting (Enterprise)
 
@@ -760,7 +760,7 @@ Changelog 1.7.2
 
   Duplicate action / copy paste for reporting queries
 
-* setuphelpers: added helpers 
+* setuphelpers: added helpers
   processes_for_file
   add get_computer_domain
 
@@ -823,7 +823,7 @@ Improvements
   some wmi fallbacks to avoid unregistered machines when WMI is broken on them
 
 * Online wua scans (Enterprise)
- 
+
 * Add a random package_uuid when signing a package metadata which could be used later as a primary key
 
   creates a random package_uuid when installing in DEV mode

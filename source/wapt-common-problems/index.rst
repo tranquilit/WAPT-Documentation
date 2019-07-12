@@ -711,7 +711,7 @@ this means that the software installer does not provide an *uninstall key*.
 Two solutions:
 
 * use the argument ``get_version`` to provide the path
-  to another ``uninstallkey``:
+  to another ``uninstallkey``;
 
 .. code-block:: python
 

@@ -1,349 +1,311 @@
+
 msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-07 09:39+0100\n"
+"POT-Creation-Date: 2019-07-12 12:16+0200\n"
 "PO-Revision-Date: 2018-11-07 14:02+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 1.8.8\n"
 
-#: ../../source/wapt_server_install/windows/index.rst:8
-#: ../../source/wapt_server_install/windows/index.rst:15
+#: ../../source/waptserver-install/windows/index.rst:8
+#: ../../source/waptserver-install/windows/index.rst:15
 msgid "Installing WAPT Server on Windows"
 msgstr "Installer WAPT sur Microsoft Windows"
 
-#: ../../source/wapt_server_install/windows/index.rst:8
+#: ../../source/waptserver-install/windows/index.rst:8
 msgid "Server, WAPT, Windows, install, installation, documentation"
 msgstr "Server, WAPT, Windows, Install, documentation"
 
-#: ../../source/wapt_server_install/windows/index.rst:19
+#: ../../source/waptserver-install/windows/index.rst:19
 msgid ""
 "The WAPT Server can not be installed on a computer with services already "
 "listening on ports 80 and 443 (example WSUS with IIS)."
 msgstr ""
-"le serveur WAPT ne peut pas être installé sur une machine qui écoute déjà sur le "
-"port 80 et 443 (exemple WSUS avec IIS) ;"
+"le serveur WAPT ne peut pas être installé sur une machine qui écoute déjà"
+" sur le port 80 et 443 (exemple WSUS avec IIS) ;"
 
-#: ../../source/wapt_server_install/windows/index.rst:22
+#: ../../source/waptserver-install/windows/index.rst:22
 msgid "ports 80, 443 and 8080 are used by the WAPT Server and must be available;"
 msgstr ""
-"les ports 80, 443 et 8080 sont utilisés par le serveur WAPT et doivent être "
-"disponibles ;"
+"les ports 80, 443 et 8080 sont utilisés par le serveur WAPT et doivent "
+"être disponibles ;"
 
-#: ../../source/wapt_server_install/windows/index.rst:24
+#: ../../source/waptserver-install/windows/index.rst:24
 msgid ""
-"If ports 80 and 443 are already occupied by another web service, you should take "
-"a look at the documentation for :ref:`changing the default ports on Windows "
-"<windows_changing_port_80_443>`."
+"If ports 80 and 443 are already occupied by another web service, you "
+"should take a look at the documentation for :ref:`changing the default "
+"ports on Windows <windows_changing_port_80_443>`."
 msgstr ""
-"si les port 80 et 443 sont déjà occupés par un autre service, vous pouvez "
-"suivre la documentation pour :ref:`changer les ports d'écoute <windows_changing_port_80_443>` ;"
+"si les port 80 et 443 sont déjà occupés par un autre service, vous pouvez"
+" suivre la documentation pour :ref:`changer les ports d'écoute "
+"<windows_changing_port_80_443>` ;"
 
-#: ../../source/wapt_server_install/windows/index.rst:28
+#: ../../source/waptserver-install/windows/index.rst:28
 msgid ""
-"port 8088 is used on client machines by the WAPT agent and must be available;"
+"port 8088 is used on client machines by the WAPT agent and must be "
+"available;"
 msgstr ""
-"le port 8088 est utilisé sur les postes clients par l'agent WAPT et doit être "
-"disponible ;"
+"le port 8088 est utilisé sur les postes clients par l'agent WAPT et doit "
+"être disponible ;"
 
-#: ../../source/wapt_server_install/windows/index.rst:31
+#: ../../source/waptserver-install/windows/index.rst:31
 msgid "The WAPT server **will not run** on a x86 version of Windows;"
 msgstr "WAPT Serveur n'est pas installable sur une version x86 de Windows ;"
 
-#: ../../source/wapt_server_install/windows/index.rst:33
+#: ../../source/waptserver-install/windows/index.rst:33
 msgid ""
-"The installation of the WAPT server must be done using a **Local Administrator** "
-"account on the host;"
+"The installation of the WAPT server must be done using a **Local "
+"Administrator** account on the host;"
 msgstr ""
-"l'installation de WAPTServer doit être faite avec le compte **Administrateur "
-"Local** de la machine ;"
+"l'installation de WAPTServer doit être faite avec le compte "
+"**Administrateur Local** de la machine ;"
 
-#: ../../source/wapt_server_install/windows/index.rst:38
+#: ../../source/waptserver-install/windows/index.rst:38
 msgid ""
-"**From WAPT Server 1.5 onward**, :program:`Nginx` is the **ONLY** supported web "
-"server. **Apache or IIS (with or without WSUS) are no longer supported in WAPT**."
+"**From WAPT Server 1.5 onward**, :program:`Nginx` is the **ONLY** "
+"supported web server. **Apache or IIS (with or without WSUS) are no "
+"longer supported in WAPT**."
 msgstr ""
-"**À partir de la version WAPT 1.5**, le **SEUL** serveur web supporté est :"
-"program:`Nginx`. **Les serveurs web Apache ou IIS (notamment en cohabitation "
-"avec un WSUS sur les ports 80 et 443), ne sont plus supportés officiellement**."
+"**À partir de la version WAPT 1.5**, le **SEUL** serveur web supporté est"
+" :program:`Nginx`. **Les serveurs web Apache ou IIS (notamment en "
+"cohabitation avec un WSUS sur les ports 80 et 443), ne sont plus "
+"supportés officiellement**."
 
-#: ../../source/wapt_server_install/windows/index.rst:42
+#: ../../source/waptserver-install/windows/index.rst:42
 msgid ""
-"In case of problems when installing WAPT, visit the :ref:`Frequently Asked "
-"Questions <wapt_faq>`."
+"In case of problems when installing WAPT, visit the :ref:`Frequently "
+"Asked Questions <wapt_faq>`."
 msgstr ""
-"En cas de difficulté lors de l'installation de WAPT, visitez :ref:`les questions "
-"fréquentes <wapt_faq>`."
+"En cas de difficulté lors de l'installation de WAPT, visitez :ref:`les "
+"questions fréquentes <wapt_faq>`."
 
-#: ../../source/wapt_server_install/windows/index.rst:47
+#: ../../source/waptserver-install/windows/index.rst:47
 msgid "installing WAPT on a Linux server is the recommended method;"
 msgstr "l'installation de WAPT sur un serveur Linux est la méthode à privilégier ;"
 
-#: ../../source/wapt_server_install/windows/index.rst:49
+#: ../../source/waptserver-install/windows/index.rst:49
 msgid ""
-"the WAPT Server may be installed on **64bit only** Windows 7, 8.1, 10 and "
-"Windows Server 2008/R2, 2012/R2, 2016 and 2019;"
+"the WAPT Server may be installed on **64bit only** Windows 7, 8.1, 10 and"
+" Windows Server 2008/R2, 2012/R2, 2016 and 2019;"
 msgstr ""
-"le serveur WAPT peut s'installer sur Windows 7, 8.1, 10 et Windows Server 2008 "
-"et R2, 2012 et R2, 2016 et 2019 en **64bit uniquement** ;"
+"le serveur WAPT peut s'installer sur Windows 7, 8.1, 10 et Windows Server"
+" 2008 et R2, 2012 et R2, 2016 et 2019 en **64bit uniquement** ;"
 
-#: ../../source/wapt_server_install/windows/index.rst:52
+#: ../../source/waptserver-install/windows/index.rst:52
 msgid ""
-"download and execute `waptserversetup.exe <http://wapt.tranquil.it/wapt/releases/"
-"latest/waptserversetup.exe>`_;"
+"download and execute `waptserversetup.exe "
+"<http://wapt.tranquil.it/wapt/releases/latest/waptserversetup.exe>`_;"
 msgstr ""
-"télécharger et exécuter `waptserversetup.exe <https://wapt.tranquil.it/wapt/"
-"releases/latest/waptserversetup.exe>`_ ;"
+"télécharger et exécuter `waptserversetup.exe "
+"<https://wapt.tranquil.it/wapt/releases/latest/waptserversetup.exe>`_ ;"
 
-#: ../../source/wapt_server_install/windows/index.rst:54
+#: ../../source/waptserver-install/windows/index.rst:54
 msgid "choose the installation language;"
 msgstr "choisir la langue d'installation ;"
 
-#: ../../source/wapt_server_install/windows/index.rst:60
+#: ../../source/waptserver-install/windows/index.rst:60
 msgid "Choose the language for WAPT"
 msgstr "Choisir la langue pour WAPT"
 
-#: ../../source/wapt_server_install/windows/index.rst:62
+#: ../../source/waptserver-install/windows/index.rst:62
 msgid ""
-"accept the GNU Public License and click on :guilabel:`Next` to go on to the next "
-"step;"
+"accept the GNU Public License and click on :guilabel:`Next` to go on to "
+"the next step;"
 msgstr ""
-"accepter la licence GNU Public Licence et cliquer sur :guilabel:`Suivant` pour "
-"passer à l'étape suivante ;"
+"accepter la licence GNU Public Licence et cliquer sur :guilabel:`Suivant`"
+" pour passer à l'étape suivante ;"
 
-#: ../../source/wapt_server_install/windows/index.rst:69
+#: ../../source/waptserver-install/windows/index.rst:69
 msgid "Accept the WAPT license terms"
 msgstr "Accepter la licence pour le logiciel WAPT"
 
-#: ../../source/wapt_server_install/windows/index.rst:71
+#: ../../source/waptserver-install/windows/index.rst:72
 msgid ""
-"choose the installation directory (leave the default) and click on :guilabel:"
-"`Next` to go on to the next step;"
+"choose the installation directory (leave the default) and click on "
+":guilabel:`Next` to go on to the next step;"
 msgstr ""
-"choisir le répertoire d'installation (laisser par défaut) et cliquer sur :"
-"guilabel:`Suivant` pour passer à l'étape suivante ;"
+"choisir le répertoire d'installation (laisser par défaut) et cliquer sur "
+":guilabel:`Suivant` pour passer à l'étape suivante ;"
 
-#: ../../source/wapt_server_install/windows/index.rst:78
+#: ../../source/waptserver-install/windows/index.rst:79
 msgid "Choose the WAPT destination folder"
 msgstr "Choisir le dossier d'installation de WAPT"
 
-#: ../../source/wapt_server_install/windows/index.rst:80
-msgid "choose the installation options for the WAPT Server;"
-msgstr "choisir les services à installer avec le serveur WAPT"
-
-#: ../../source/wapt_server_install/windows/index.rst:84
-msgid ""
-"check :guilabel:`Install WAPT service` if you want to have the WAPT service "
-"running on your :term:`Administrator` workstation;"
+#: ../../source/waptserver-install/windows/index.rst:82
+msgid "Choose additional task (leave as is for a first installation)"
 msgstr ""
-"cocher :guilabel:`Installer le service WAPT` pour lancer l'agent WAPT sur votre "
-"station d':term:`Administrateur` ;"
 
-#: ../../source/wapt_server_install/windows/index.rst:87
-msgid ""
-"check :guilabel:`Launch notification tray upon session opening` if you want to "
-"have the WAPT icon running in the tray by default;"
+#: ../../source/waptserver-install/windows/index.rst:88
+msgid "Choose additional task"
 msgstr ""
-"cocher :guilabel:`Lancer l'icône de notification lors de l'ouverture de session` "
-"pour que l'icône WAPT soit accessible dans la barre de tâches ;"
 
-#: ../../source/wapt_server_install/windows/index.rst:94
-msgid "Summary of the WAPT Server installation"
-msgstr "Résumé de l'installation"
+#: ../../source/waptserver-install/windows/index.rst:90
+#, fuzzy
+msgid "Choose password for waptserver"
+msgstr "Configuration du mot de passe SuperAdmin de WAPT"
 
-#: ../../source/wapt_server_install/windows/index.rst:96
+#: ../../source/waptserver-install/windows/index.rst:96
+msgid "Choose Password"
+msgstr ""
+
+#: ../../source/waptserver-install/windows/index.rst:99
 msgid ""
-"click on the :guilabel:`Install` to launch the installation, wait for the "
-"installation to complete, then click on :guilabel:`Finish` (leave default "
-"options);"
+"Create a key if this is your first installation, otherwise select the "
+"existing key."
+msgstr ""
+
+#: ../../source/waptserver-install/windows/index.rst:105
+msgid "Create Key"
+msgstr ""
+
+#: ../../source/waptserver-install/windows/index.rst:108
+#: ../../source/waptserver-install/windows/index.rst:114
+msgid "Choose Password for private key"
+msgstr ""
+
+#: ../../source/waptserver-install/windows/index.rst:117
+msgid "Build waptagent"
+msgstr ""
+
+#: ../../source/waptserver-install/windows/index.rst:123
+msgid "Choose Build waptagent"
+msgstr ""
+
+#: ../../source/waptserver-install/windows/index.rst:125
+#: ../../source/waptserver-install/windows/index.rst:131
+msgid "Choose prefix"
+msgstr ""
+
+#: ../../source/waptserver-install/windows/index.rst:135
+msgid ""
+"click on the :guilabel:`Install` to launch the installation, wait for the"
+" installation to complete, then click on :guilabel:`Finish` (leave "
+"default options);"
 msgstr "cliquer sur :guilabel:`Installer` pour passer à l'étape suivante ;"
 
-#: ../../source/wapt_server_install/windows/index.rst:104
+#: ../../source/waptserver-install/windows/index.rst:143
 msgid "Progress of installation of the WAPT Server"
 msgstr "Progression de l'installation"
 
-#: ../../source/wapt_server_install/windows/index.rst:110
+#: ../../source/waptserver-install/windows/index.rst:149
 msgid "Installation has finished"
 msgstr "Installation terminée"
 
-#: ../../source/wapt_server_install/windows/index.rst:114
-msgid "check :guilabel:`Start notification tray` to start WAPT Tray now;"
-msgstr ""
-"cocher :guilabel:`Lancement de l'icône de notification` pour que l'icône WAPT "
-"s'affiche dans la barre de tâche de votre serveur WAPT Windows ;"
-
-#: ../../source/wapt_server_install/windows/index.rst:116
-msgid ""
-"check :guilabel:`Start WAPT Server post-configuration` to edit a few post-"
-"configuration parameters (see below);"
-msgstr ""
-"cocher :guilabel:`Lancement de la post-configuration du serveur` pour éditer "
-"certains paramètres immédiatement (voir ci-après) ;"
-
-#: ../../source/wapt_server_install/windows/index.rst:119
+#: ../../source/waptserver-install/windows/index.rst:152
 msgid "click on :guilabel:`Finished` to close the installer;"
 msgstr ""
-"cliquer sur :guilabel:`Terminé` pour terminer l'installation du serveur WAPT."
+"cliquer sur :guilabel:`Terminé` pour terminer l'installation du serveur "
+"WAPT."
 
-#: ../../source/wapt_server_install/windows/index.rst:122
-msgid "Post-configuring the Windows WAPT Server"
-msgstr "Post-Configuration"
-
-#: ../../source/wapt_server_install/windows/index.rst:124
+#: ../../source/waptserver-install/windows/index.rst:156
 msgid ""
-"fill in the DNS name of the WAPT Server. The DNS will configure automatically "
-"the WAPT Server URL and the WAPT repository URL;"
-msgstr ""
-"indiquer le nom DNS du serveur WAPT. Le DNS va permettre de configurer "
-"automatiquement les champs URL et Serveur ;"
-
-#: ../../source/wapt_server_install/windows/index.rst:127
-msgid "click on :guilabel:`Test DNS name` to check the configuration of the DNS;"
-msgstr "cliquer sur :guilabel:`Tester le nom DNS` pour vérifier la configuration ;"
-
-#: ../../source/wapt_server_install/windows/index.rst:131
-msgid ""
-"If there are no :abbr:`DNS (Domain Name Service)` field configured for the WAPT "
-"Server, the post-configuration wizard will propose to use plain IP addresses "
-"instead of a DNS address."
-msgstr ""
-"S'il n'y a pas d'enregistrements :abbr:`DNS (Domain Name Server)`, cliquez sur :"
-"guilabel:`Tester le nom DNS` et valider l'utilisation de l'IP à la place du nom "
-"DNS."
-
-#: ../../source/wapt_server_install/windows/index.rst:139
-msgid "Checking DNS"
-msgstr "Vérification des DNS"
-
-#: ../../source/wapt_server_install/windows/index.rst:141
-msgid "click on :guilabel:`Next` to go on to the next step;"
-msgstr "cliquer sur :guilabel:`Suivant` pour passer à l'étape suivante ;"
-
-#: ../../source/wapt_server_install/windows/index.rst:143
-msgid "choose the :term:`SuperAdmin` password for the WAPT Server;"
-msgstr "choisir le mot de passe :term:`SuperAdmin` pour l'accès au serveur WAPT :"
-
-#: ../../source/wapt_server_install/windows/index.rst:149
-msgid "Choosing the SuperAdmin password for the WAPT Server"
-msgstr "Configuration du mot de passe SuperAdmin de WAPT"
-
-#: ../../source/wapt_server_install/windows/index.rst:151
-msgid "start the WAPT Server on Windows;"
-msgstr "démarrer le serveur WAPT sous Windows ;"
-
-#: ../../source/wapt_server_install/windows/index.rst:157
-msgid "Starting the WAPT Server on Windows"
-msgstr "Démarrage du serveur WAPT sous Windows"
-
-#: ../../source/wapt_server_install/windows/index.rst:159
-msgid "choose to launch the console with or without the configuration wizard:"
-msgstr "choisir de lancer la console avec ou sans l'assistant de configuration:"
-
-#: ../../source/wapt_server_install/windows/index.rst:163
-msgid ""
-"Here two choices are available to you, you may let yourself be guided by the "
-"configuration wizard and go directly to the documentation on :ref:`using the "
-"WAPT console <using_the_WAPT_console>`, or you may choose continue the "
-"configuration manually."
-msgstr ""
-"Ici deux choix s'offrent à vous, vous pouvez vous laisser guider par l'assistant "
-"de configuration et passer directement à :ref:`l'utilisation de la console WAPT "
-"<using_the_WAPT_console>`, ou vous pouvez continuer la configuration "
-"manuellement."
-
-#: ../../source/wapt_server_install/windows/index.rst:172
-msgid "Choosing to launch the console with or without the configuration wizard"
-msgstr "Choisir de lancer la console avec ou sans l'assistant de configuration"
-
-#: ../../source/wapt_server_install/windows/index.rst:176
-msgid ""
-"*Kerberos authentication for initial desktop registration* is not available on "
-"WAPT Server on Windows. If you require strong authentication for registration, "
-"please install a WAPT Server on Linux."
+"*Kerberos authentication for initial desktop registration* is not "
+"available on WAPT Server on Windows. If you require strong authentication"
+" for registration, please install a WAPT Server on Linux."
 msgstr ""
 "Sur Windows la partie *authentification Kerberos des machines pour "
-"l'enregistrement* n'est pas disponible. Si vous souhaitez l'activer, basculer "
-"sur une installation Linux."
+"l'enregistrement* n'est pas disponible. Si vous souhaitez l'activer, "
+"basculer sur une installation Linux."
 
-#: ../../source/wapt_server_install/windows/index.rst:180
+#: ../../source/waptserver-install/windows/index.rst:160
 msgid ""
-"The post-configuration wizard will generate a self-signed certificate. If you "
-"prefer, you may install a :ref:`commercial certificate or a certificate from an "
-"internal Certificate Authority <install_ssl_certificate>`."
+"The post-configuration wizard will generate a self-signed certificate. If"
+" you prefer, you may install a :ref:`commercial certificate or a "
+"certificate from an internal Certificate Authority "
+"<install_ssl_certificate>`."
 msgstr ""
-"Le script de post-configuration génère un certificat autosigné. Si vous le "
-"souhaitez, vous pouvez le remplacer par un certificat commercial ou un "
-"certificat issu d'une CA interne en suivant la documentation :ref:"
-"`d'installation d'un certificat ssl <install_ssl_certificate>`."
+"Le script de post-configuration génère un certificat autosigné. Si vous "
+"le souhaitez, vous pouvez le remplacer par un certificat commercial ou un"
+" certificat issu d'une CA interne en suivant la documentation "
+":ref:`d'installation d'un certificat ssl <install_ssl_certificate>`."
 
-#: ../../source/wapt_server_install/windows/index.rst:184
+#: ../../source/waptserver-install/windows/index.rst:164
 msgid "The WAPT Server on your Windows is ready."
 msgstr "Le serveur WAPT sur Windows est prêt."
 
-#: ../../source/wapt_server_install/windows/index.rst:186
+#: ../../source/waptserver-install/windows/index.rst:166
+#, fuzzy
 msgid ""
-"You may go to the documentation on :ref:`installing the WAPT console "
-"<installing_the_WAPT_console>`!!"
+"You may go to the documentation on :ref:`installing the waptagent "
+"<install_waptagent>`!!"
 msgstr ""
-"Passez maintenant à l'étape suivante pour :ref:`lancer la console WAPT <starting-"
-"waptconsole>`."
+"Passez maintenant à l'étape suivante pour :ref:`lancer la console WAPT "
+"<starting-waptconsole>`."
 
 #~ msgid "WAPT Server installation and configuration on Windows"
 #~ msgstr "Installation et configuration de WAPT sur un Windows"
 
 #~ msgid ""
-#~ "In case of installation of WAPT Server on a machine where IIS is already "
-#~ "installed (WSUS), please refer to WAPT install with IIS service : :ref:`wapt-"
-#~ "server_win_install_iis`"
+#~ "In case of installation of WAPT "
+#~ "Server on a machine where IIS is"
+#~ " already installed (WSUS), please refer "
+#~ "to WAPT install with IIS service :"
+#~ " :ref:`wapt-server_win_install_iis`"
 #~ msgstr ""
-#~ "En cas d'installation de WAPT sur la même machine que votre IIS (WSUS), voir "
-#~ "la documentation WAPT avec service IIS : :ref:`wapt-server_win_install_iis`"
+#~ "En cas d'installation de WAPT sur "
+#~ "la même machine que votre IIS "
+#~ "(WSUS), voir la documentation WAPT avec"
+#~ " service IIS : :ref:`wapt-"
+#~ "server_win_install_iis`"
 
 #~ msgid ""
-#~ "WAPT Server on Windows \"without IIS service\" documentation : :ref:`wapt-"
+#~ "WAPT Server on Windows \"without IIS "
+#~ "service\" documentation : :ref:`wapt-"
 #~ "server_win_install_classic`"
 #~ msgstr ""
-#~ "La documentation d'installation d'un serveur WAPT Windows \"sans service IIS"
-#~ "\" : :ref:`wapt-server_win_install_classic`"
+#~ "La documentation d'installation d'un serveur"
+#~ " WAPT Windows \"sans service IIS\" :"
+#~ " :ref:`wapt-server_win_install_classic`"
 
 #~ msgid "Ports 80, 443, 8080 are used by WAPT Server and must be available;"
 #~ msgstr ""
-#~ "Les ports 80, 443 et 8080 sont utilisés par le serveur WAPT et doivent être "
-#~ "disponibles ;"
+#~ "Les ports 80, 443 et 8080 sont "
+#~ "utilisés par le serveur WAPT et "
+#~ "doivent être disponibles ;"
 
 #~ msgid ""
-#~ "Local port 8088 is used on local clients by WAPT agents and must be available;"
+#~ "Local port 8088 is used on local"
+#~ " clients by WAPT agents and must "
+#~ "be available;"
 #~ msgstr ""
-#~ "Le port 8088 est utilisé sur les postes clients par l'agent WAPT et doit être "
-#~ "disponible ;"
+#~ "Le port 8088 est utilisé sur les"
+#~ " postes clients par l'agent WAPT et"
+#~ " doit être disponible ;"
 
 #~ msgid ""
-#~ "WAPT Server can be installed on Windows 7, 8, 8.1, 10 and Windows Server 2008/"
-#~ "R2, 2012/R2 and 2016. Only 64bits Operating Systems are supported;"
+#~ "WAPT Server can be installed on "
+#~ "Windows 7, 8, 8.1, 10 and Windows"
+#~ " Server 2008/R2, 2012/R2 and 2016. "
+#~ "Only 64bits Operating Systems are "
+#~ "supported;"
 #~ msgstr ""
-#~ "Le serveur WAPT peut s'installer sur vista, 7, 8, 8.1, 10 et windows serveur "
-#~ "2003, 2008 et R2, 2012 et R2 et 2016 en 64bit (les versions 32bit ne sont "
-#~ "plus supportées);"
+#~ "Le serveur WAPT peut s'installer sur "
+#~ "vista, 7, 8, 8.1, 10 et windows"
+#~ " serveur 2003, 2008 et R2, 2012 "
+#~ "et R2 et 2016 en 64bit (les "
+#~ "versions 32bit ne sont plus supportées);"
 
 #~ msgid "Start the installation of the WAPT Server"
 #~ msgstr "Lancer l'installation du serveur WAPT"
 
 #~ msgid ""
-#~ "acccept the GNU Public Licence :abbr:`EULA (End User License Agreement)`;"
+#~ "acccept the GNU Public Licence "
+#~ ":abbr:`EULA (End User License Agreement)`;"
 #~ msgstr "Accepter la licence GNU Public Licence"
 
 #~ msgid "click on :guilabel:`Next` to go to the next step;"
 #~ msgstr "Cliquer sur :guilabel:`Suivant` pour passer à l'étape suivante."
 
 #~ msgid ""
-#~ "choose the destination directory (it is recommended to keep the default "
+#~ "choose the destination directory (it is"
+#~ " recommended to keep the default "
 #~ "choice);"
 #~ msgstr "Choisir le répertoire d'installation (laisser par défaut)."
 
@@ -351,18 +313,24 @@ msgstr ""
 #~ msgstr "Fin de l'installation"
 
 #~ msgid ""
-#~ "Your WAPT Server installation is now ready. You can move forward to :ref:"
-#~ "`Installing the WAPT console <installing_the_WAPT_console>`."
+#~ "Your WAPT Server installation is now "
+#~ "ready. You can move forward to "
+#~ ":ref:`Installing the WAPT console "
+#~ "<installing_the_WAPT_console>`."
 #~ msgstr ""
-#~ "Le serveur WAPT sur Windows est prêt. Passer maintenant à l'installation de "
-#~ "la console avec WAPT Setup en visitant : :ref:`Installer la console WAPT "
-#~ "<installing_the_WAPT_console>`"
+#~ "Le serveur WAPT sur Windows est "
+#~ "prêt. Passer maintenant à l'installation "
+#~ "de la console avec WAPT Setup en"
+#~ " visitant : :ref:`Installer la console "
+#~ "WAPT <installing_the_WAPT_console>`"
 
 #~ msgid ""
-#~ "launch the installation of the WAPT Server and click on :guilabel:`Next` to "
-#~ "go on to the next step;"
+#~ "launch the installation of the WAPT "
+#~ "Server and click on :guilabel:`Next` to"
+#~ " go on to the next step;"
 #~ msgstr ""
-#~ "lancer l'installation du serveur WAPT et cliquer sur :guilabel:`Suivant` pour "
+#~ "lancer l'installation du serveur WAPT et"
+#~ " cliquer sur :guilabel:`Suivant` pour "
 #~ "passer à l'étape suivante ;"
 
 #~ msgid "WAPT installer"
@@ -382,3 +350,124 @@ msgstr ""
 
 #~ msgid "Choice for starting the console"
 #~ msgstr "Choix pour le lancement de la console"
+
+#~ msgid "choose the installation options for the WAPT Server;"
+#~ msgstr "choisir les services à installer avec le serveur WAPT"
+
+#~ msgid ""
+#~ "check :guilabel:`Install WAPT service` if "
+#~ "you want to have the WAPT service"
+#~ " running on your :term:`Administrator` "
+#~ "workstation;"
+#~ msgstr ""
+#~ "cocher :guilabel:`Installer le service WAPT`"
+#~ " pour lancer l'agent WAPT sur votre"
+#~ " station d':term:`Administrateur` ;"
+
+#~ msgid ""
+#~ "check :guilabel:`Launch notification tray upon"
+#~ " session opening` if you want to "
+#~ "have the WAPT icon running in the"
+#~ " tray by default;"
+#~ msgstr ""
+#~ "cocher :guilabel:`Lancer l'icône de "
+#~ "notification lors de l'ouverture de "
+#~ "session` pour que l'icône WAPT soit "
+#~ "accessible dans la barre de tâches ;"
+
+#~ msgid "Summary of the WAPT Server installation"
+#~ msgstr "Résumé de l'installation"
+
+#~ msgid "check :guilabel:`Start notification tray` to start WAPT Tray now;"
+#~ msgstr ""
+#~ "cocher :guilabel:`Lancement de l'icône de "
+#~ "notification` pour que l'icône WAPT "
+#~ "s'affiche dans la barre de tâche "
+#~ "de votre serveur WAPT Windows ;"
+
+#~ msgid ""
+#~ "check :guilabel:`Start WAPT Server post-"
+#~ "configuration` to edit a few post-"
+#~ "configuration parameters (see below);"
+#~ msgstr ""
+#~ "cocher :guilabel:`Lancement de la post-"
+#~ "configuration du serveur` pour éditer "
+#~ "certains paramètres immédiatement (voir ci-"
+#~ "après) ;"
+
+#~ msgid "Post-configuring the Windows WAPT Server"
+#~ msgstr "Post-Configuration"
+
+#~ msgid ""
+#~ "fill in the DNS name of the "
+#~ "WAPT Server. The DNS will configure "
+#~ "automatically the WAPT Server URL and"
+#~ " the WAPT repository URL;"
+#~ msgstr ""
+#~ "indiquer le nom DNS du serveur "
+#~ "WAPT. Le DNS va permettre de "
+#~ "configurer automatiquement les champs URL "
+#~ "et Serveur ;"
+
+#~ msgid ""
+#~ "click on :guilabel:`Test DNS name` to"
+#~ " check the configuration of the DNS;"
+#~ msgstr ""
+#~ "cliquer sur :guilabel:`Tester le nom "
+#~ "DNS` pour vérifier la configuration ;"
+
+#~ msgid ""
+#~ "If there are no :abbr:`DNS (Domain "
+#~ "Name Service)` field configured for the"
+#~ " WAPT Server, the post-configuration "
+#~ "wizard will propose to use plain "
+#~ "IP addresses instead of a DNS "
+#~ "address."
+#~ msgstr ""
+#~ "S'il n'y a pas d'enregistrements "
+#~ ":abbr:`DNS (Domain Name Server)`, cliquez "
+#~ "sur :guilabel:`Tester le nom DNS` et "
+#~ "valider l'utilisation de l'IP à la "
+#~ "place du nom DNS."
+
+#~ msgid "Checking DNS"
+#~ msgstr "Vérification des DNS"
+
+#~ msgid "click on :guilabel:`Next` to go on to the next step;"
+#~ msgstr "cliquer sur :guilabel:`Suivant` pour passer à l'étape suivante ;"
+
+#~ msgid "choose the :term:`SuperAdmin` password for the WAPT Server;"
+#~ msgstr ""
+#~ "choisir le mot de passe "
+#~ ":term:`SuperAdmin` pour l'accès au serveur "
+#~ "WAPT :"
+
+#~ msgid "start the WAPT Server on Windows;"
+#~ msgstr "démarrer le serveur WAPT sous Windows ;"
+
+#~ msgid "Starting the WAPT Server on Windows"
+#~ msgstr "Démarrage du serveur WAPT sous Windows"
+
+#~ msgid "choose to launch the console with or without the configuration wizard:"
+#~ msgstr "choisir de lancer la console avec ou sans l'assistant de configuration:"
+
+#~ msgid ""
+#~ "Here two choices are available to "
+#~ "you, you may let yourself be "
+#~ "guided by the configuration wizard and"
+#~ " go directly to the documentation on"
+#~ " :ref:`using the WAPT console "
+#~ "<using_the_WAPT_console>`, or you may choose"
+#~ " continue the configuration manually."
+#~ msgstr ""
+#~ "Ici deux choix s'offrent à vous, "
+#~ "vous pouvez vous laisser guider par "
+#~ "l'assistant de configuration et passer "
+#~ "directement à :ref:`l'utilisation de la "
+#~ "console WAPT <using_the_WAPT_console>`, ou "
+#~ "vous pouvez continuer la configuration "
+#~ "manuellement."
+
+#~ msgid "Choosing to launch the console with or without the configuration wizard"
+#~ msgstr "Choisir de lancer la console avec ou sans l'assistant de configuration"
+

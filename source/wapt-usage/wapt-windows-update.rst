@@ -98,6 +98,7 @@ Options                    Default Value                        Description
 ``filter``                 Type='Software' or Type='Driver'     Define the filter to apply for the Windows update scan
 ``download_scheduling``    None                                 Set the Windows Update scan recurrence (Will not do anything if *wsus* package rule or :file:`wsuscn2.cab` file have not changed) (ex: 2h)
 ``install_scheduling``     None                                 Set the Windows Update install recurrence (Will do nothing if no update is pending) (ex: 2h)
+``install_at_shutdown``    False                                Install update when the machine will shutdown
 ``install_delay``          None                                 Set a deferred installation delay before publication in the repository (ex: 7d)
 ========================== ==================================== =========================================================================================================================
 
@@ -114,10 +115,29 @@ Example WAPTWUA section in :file:`wapt-get.ini` file:
 	offline =true
 	default_allow =false
 	allow_direct_download=false
-	download_scheduling=1d
+	download_scheduling=12h
 	install_at_shutdown=true
 	install_scheduling=12h
 	install_delay=7d
+
+The :guilabel:`install_scheduling` option will try to install every 12 hours to install updates on client.
+It's not in graphical options due to a potential danger. Indeed, trying to install updates on your
+IT infrastructure while working hours can impact your production.
+
+
+
+
+When you create waptagent.exe from console, these options are equivalent to this :
+
+  .. figure:: wapt-wua-agent-options.png
+    :align: center
+    :alt: WAPT Windows Update agent options
+
+.. hint::
+  if :guilabel:`default_allow` option is ``True`` and Wapt WUA is enabled too,
+  client will contact waptserver and ask to waptserver to download missing
+  updates. Client will install missing updates on its own.
+
 
 Using WAPTWUA from the console
 ------------------------------
@@ -202,4 +222,46 @@ and is not present on the WAPT server (This update is not missing on any host).
   :align: center
   :alt: List Windows Update
 
-  List Windows Update
+
+Launch Wua on client
+++++++++++++++++++++
+
+From the console you have three options.
+
+.. figure:: wapt-wua-console-button.png
+  :align: center
+  :alt: List of wua button on console
+
+
+The :guilabel:`Trigger the scan of pending Winfows Updates` button  will launch the scan on the client,
+it will list all updates flagged for the OS.
+You can scan the client from the console like that or with command-line ``wapt-get waptwua-scan``
+
+.. hint::
+
+  Every 30 minutes, server will scan every clients;
+  if an update is waiting and isn't on waptserver yet, it will dowload it from microsoft servers.
+  You can force this scan with the :guilabel:`Download index and missing cabs from Microsoft Web site`
+  button in tab :menuselection:`Windows Updates --> Windows Updates list`
+
+
+When an update is ``pending``, it's waiting for the server to accept the installation or will do it automatically
+
+.. figure:: wapt-wua-console-pending.png
+  :align: center
+  :alt: WUA pending example
+
+If you want to download from the console, use :guilabel:`Trigger the download of pending Winfows Updates` button .
+
+the command-line for downloading kb from the client is ``wapt-get waptwua-download``, it will scan status of windows
+against current rules and download missing kb and send result to server.
+
+
+If you want to install the pending update, command-line is ``wapt-get waptwua-install``
+But if you want to install from console, click on :guilabel:`Trigger the install of pending Winfows Updates` button .
+
+
+.. hint::
+  When you want to install the pending updates in cache, Waptservice gives them to wua service.
+  WUA service will be enabled by waptservice just for the time to install the updates.
+  When installations are done, waptservice will stop and disable wua service anew.

@@ -43,6 +43,7 @@ With a clean Windows installed:
 
 * create a development environment with ``virtualenv``;
 
+
 .. code-block:: bash
 
     mkdir c:\tranquilit

@@ -61,6 +61,7 @@ that is to say it has both the server name and the DNS suffix.
 
   * do not change the line with :file:`localhost`;
 
+
 Configuring the IP address of the WAPT Server
 """""""""""""""""""""""""""""""""""""""""""""
 
