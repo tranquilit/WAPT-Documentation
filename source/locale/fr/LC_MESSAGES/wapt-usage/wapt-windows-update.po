@@ -519,7 +519,6 @@ msgstr ""
 " WAPT le demande ;"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:227
-#, fuzzy
 msgid "Launch Wua on client"
 msgstr "Lancer WAPT WUA sur le client"
 
