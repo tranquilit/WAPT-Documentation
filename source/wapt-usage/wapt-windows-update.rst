@@ -1,4 +1,4 @@
-.. Reminder for header structure :
+.. Reminstall_scheduling	inder for header structure :
    Niveau 1 : ====================
    Niveau 2 : --------------------
    Niveau 3 : ++++++++++++++++++++

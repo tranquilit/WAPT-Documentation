@@ -23,7 +23,7 @@ msgstr ""
 #: ../../source/wapt-usage/wapt-selfservice.rst:8
 #: ../../source/wapt-usage/wapt-selfservice.rst:15
 msgid "Using WAPT SelfService"
-msgstr "Utiliser le libre-service WAPT"
+msgstr "Utiliser le WAPT SelfService"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:8
 msgid "WAPT, selfservice, documentation"
@@ -48,7 +48,7 @@ msgid ""
 "With WAPT 1.7 you can now filter the list of self-service packages available "
 "for your users."
 msgstr ""
-"Avec WAPT 1.7, vous pouvez maintenant filtrer les paquets libre-service "
+"Avec WAPT 1.7, vous pouvez maintenant filtrer les paquets en libre-service "
 "disponibles pour vos utilisateurs."
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:29

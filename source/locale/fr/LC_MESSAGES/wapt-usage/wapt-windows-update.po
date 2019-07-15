@@ -286,7 +286,7 @@ msgstr ""
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:101
 msgid "``install_at_shutdown``"
-msgstr "``install_scheduling``"
+msgstr "``install_at_shutdown``"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:101
 msgid "Install update when the machine will shutdown"
