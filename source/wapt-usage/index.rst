@@ -21,7 +21,6 @@ the :term:`Users` and the :term:`Package Deployers`.
   wapt-console.rst
   wapt-console-detail.rst
   wapttray.rst
-  wapt-web-interface.rst
   command-line-interface/index.rst
   waptexit.rst
 

@@ -114,71 +114,30 @@ on a Linux server.
 Backing up the WAPT Server on Windows
 -------------------------------------
 
-.. attention::
 
-  Obsolete in WAPT 1.5
+* backup the WAPT repository folder :file:`C:\\wapt\\waptserver\\repository` and :file:`C:\wapt` and :file:`C:\wapt\waptserver\nginx\ssl`
+  on a remote backup destination;
 
-* stop WAPT related services on the server;
+Backup PostgreSQL Database with pg_dump.exe :
 
 .. code-block:: bash
 
-  net stop WAPTService
-  net stop WAPTServer
-  net stop WAPTApache
-
-* backup the WAPT root folder :file:`C:\\Program Files (x86)\\wapt`
-  on a remote backup destination;
-
-  **Exemple**: backup on an external hard disk drive :file:`W:`
-
-  We advise you to use :program:`FastCopy` software, available
-  on `Tranquil IT repository <https://store.wapt.fr/>`_:
-
-  .. code-block:: bash
-
-    FastCopy.exe /cmd=diff /error_stop=TRUE /force_close /acl=TRUE /verify=TRUE "C:\\Program Files (x86)\\wapt\\" /to="W:\\wapt"
-
-  Using the GUI interface of :program:`FastCopy`, make sure to check
-  the :guilabel:`ACL` checkbox.
+  "C:\wapt\waptserver\pgsql-9.6\bin\pg_dumpall.exe" -U postgres -f C:\backup_wapt.sql
 
 * restart WAPT related services on the server;
 
-.. code-block:: bash
 
-  net start WAPTMongodb
-  net start WAPTServer
-  net start WAPTApache
-  net start WAPTService
-
+  
 Restoring the WAPT Server on Windows
 ------------------------------------
 
-* stop WAPT related services on the server;
+* restore the following directories :file:`C:\\wapt\\waptserver\\repository` and :file:`C:\wapt` and :file:`C:\wapt\waptserver\nginx\ssl`
+
+* Apply the total right to the folder :file:`C:\\wapt\\waptserver\\repository` for the "Network Service" group
+
+Backup PostgreSQL Database with pg_restore.exe :
 
 .. code-block:: bash
 
-  net stop WAPTService
-  net stop WAPTServer
-  net stop WAPTApache
-  net stop WAPTMongodb
+  "C:\wapt\waptserver\pgsql-9.6\bin\psql.exe" -f c:\backup_wapt.sql -U postgres
 
-* restore the following directories:
-
-.. code-block:: bash
-
-  FastCopy.exe /cmd=diff /error_stop=TRUE /force_close /acl=TRUE /verify=TRUE "W:\\wapt" /to="C:\\Program Files (x86)\\wapt\\"
-
-* restart WAPT related services on the server;
-
-.. code-block:: bash
-
-    net start WAPTMongodb
-    net start WAPTServer
-    net start WAPTApache
-    net start WAPTService
-
-* restore the following directories:
-
-.. code-block:: bash
-
-  FastCopy.exe /cmd=diff /error_stop=TRUE /force_close /acl=TRUE /verify=TRUE "W:\wapt" /to="C:\\Program Files (x86)\\wapt\\"
