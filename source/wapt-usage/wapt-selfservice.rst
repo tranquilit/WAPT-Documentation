@@ -118,4 +118,8 @@ It is possible to Change the logo that appears in the self service interface, th
 
 To do this, simply place the logo you want here:  :file:`<wapt>\\templates\\waptself-logo.png`
 
+.. note::
+
+	It is highly recommended to use a PNG file with 200*150px 
+
  

@@ -35,7 +35,7 @@ How to perform actions of the hosts?
   Host configuration menu
 
 .. table:: List of actions available to be performed on the hosts from the WAPT console
-  :width: 20, 50, 20
+  :widths: 20, 50, 20
   :align: center
 
   ===================================================== ========================
@@ -151,7 +151,7 @@ Common informations displayed in the :guilabel:`Hardware inventory` tab are:
   Host summary
 
 .. table:: Status of packages in the WAPT console
-  :width: 60, 20
+  :widths: 60, 20
   :align: center
 
   ============================================= ================================
@@ -192,7 +192,7 @@ Acting on packages installed on a host
     selected hosts;
 
 .. table:: Acting on packages installed on a specific host
-  :width: 60, 20
+  :widths: 60, 20
   :align: center
 
   =================== ==========================================================
@@ -362,7 +362,7 @@ Choose the filters to check or uncheck.
   Advanced search functionalities in the WAPT console
 
 .. table:: Choice of filters
-  :width: 60, 20
+  :widths: 60, 20
   :align: center
 
   ============================= ================================================
