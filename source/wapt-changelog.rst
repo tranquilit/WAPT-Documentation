@@ -12,6 +12,45 @@
 Changelog
 =========
 
+WAPT-1.7.4.6165 (2019-08-02)
+----------------------------
+
+(hash f153fab4)
+
+Improvements
+++++++++++++
+
+* [New] add unregister action to wapt-get
+
+* [Upd] improvements with the alt logo in the self-service
+
+Changes
++++++++
+
+* [Upd] Use version to build the package name of unit, groups and profile type package, like for base packages. 
+
+* [Upd] Add logs to uwsgi
+
+Fixes
++++++
+
+* [Fix] Bugfixes with the icons of the app self-service
+
+* [Fix] Bugfixes with the logos in the self-service
+
+* [Upd] waptexit : don't cancel tasks on CloseQuery
+
+* [Upd] patch server.py earlier to avoid "execute cannot be used while an asynchronous query is underway"
+
+* [Fix] fix waptexit doint nothing if allow_cancel_upgrade=0 and waptexit_disable_upgrade=0
+
+* [Fix] fix issue with merge of wsus rules (can cause memory errors if more than one wsus package is applied on a host) (waptenterprise)
+
+* [Fix] fix wua auto install_scheduling issue
+
+* [Fix] waptexit : add a watchdog to workaround some cases where it hangs (threading issue ?)
+
+
 WAPT-1.7.4.6143 (2019-06-25)
 ----------------------------
 
@@ -20,7 +59,7 @@ WAPT-1.7.4.6143 (2019-06-25)
 Improvements
 ++++++++++++
 
-* Wapt Self service application is now fully usable. It is available ib <wapt>\waptself.exe
+* Wapt Self service application is now fully usable. It is available in <wapt>\waptself.exe
 
 * Add an option to set a random UUID instead of BIOS UUID at setup. This is to workaround bugged BIOS with duplicated Ids.
 

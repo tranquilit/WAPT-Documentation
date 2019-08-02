@@ -3,17 +3,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-01 10:44+0100\n"
+"POT-Creation-Date: 2019-08-02 10:11+0200\n"
 "PO-Revision-Date: 2019-03-01 11:15+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 1.8.8\n"
+"Generated-By: Babel 2.7.0\n"
 
 #: ../../source/waptserver-backup.rst:8 ../../source/waptserver-backup.rst:14
 msgid "Backing up the WAPT Server"
@@ -36,15 +35,13 @@ msgid "This procedure is valid for WAPT 1.5 and above."
 msgstr "Cette procédure n'est valable que pour WAPT 1.5 et supérieure."
 
 #: ../../source/waptserver-backup.rst:23 ../../source/waptserver-backup.rst:63
-#: ../../source/waptserver-backup.rst:121
-#: ../../source/waptserver-backup.rst:156
 msgid "stop WAPT related services on the server;"
 msgstr "stopper les services liés à WAPT sur la machine ;"
 
 #: ../../source/waptserver-backup.rst:31
 msgid ""
-"backup these directories using a backup tool (ex: :program:`rsync`, :program:"
-"`WInSCP`, etc..);"
+"backup these directories using a backup tool (ex: :program:`rsync`, "
+":program:`WInSCP`, etc..);"
 msgstr ""
 "sauvegarder les répertoires suivants à l'aide d'un outil de sauvegarde "
 "(ex : :program:`rsync` ou :program:`WinSCP`) ;"
@@ -58,8 +55,7 @@ msgstr ""
 "(adapter le nom du fichier et la date) ;"
 
 #: ../../source/waptserver-backup.rst:49 ../../source/waptserver-backup.rst:106
-#: ../../source/waptserver-backup.rst:144
-#: ../../source/waptserver-backup.rst:171
+#: ../../source/waptserver-backup.rst:127
 msgid "restart WAPT related services on the server;"
 msgstr "relancer les services liés à WAPT sur la machine ;"
 
@@ -69,26 +65,25 @@ msgstr "Restaurer le serveur WAPT sur Linux"
 
 #: ../../source/waptserver-backup.rst:60
 msgid ""
-"In case of a complete crash, restart a standard WAPT Server installation on "
-"a Linux server."
+"In case of a complete crash, restart a standard WAPT Server installation "
+"on a Linux server."
 msgstr ""
 "En cas de crash, relancer une installation standard du serveur WAPT pour "
 "Linux."
 
-#: ../../source/waptserver-backup.rst:71 ../../source/waptserver-backup.rst:165
-#: ../../source/waptserver-backup.rst:180
+#: ../../source/waptserver-backup.rst:71
 msgid "restore the following directories:"
 msgstr "restaurer les répertoires :"
 
 #: ../../source/waptserver-backup.rst:81
 msgid ""
 "restore the database (adapt the name of your file). The first command "
-"**deletes** the WAPT database (if it exists). Make sure that your dump file "
-"is correct before deleting!"
+"**deletes** the WAPT database (if it exists). Make sure that your dump "
+"file is correct before deleting!"
 msgstr ""
 "restaurer la base de données (adapter votre nom de fichier). La première "
-"commande **supprime** ci-dessous la base WAPT (si elle existe), vérifier que "
-"votre dump est correct avant de la supprimer :"
+"commande **supprime** ci-dessous la base WAPT (si elle existe), vérifier "
+"que votre dump est correct avant de la supprimer :"
 
 #: ../../source/waptserver-backup.rst:90
 msgid "apply ownership rights to the restored folders:"
@@ -102,41 +97,38 @@ msgstr "scanner les répertoires de paquets :"
 msgid "Backing up the WAPT Server on Windows"
 msgstr "Sauvegarder le serveur WAPT sur Windows"
 
-#: ../../source/waptserver-backup.rst:119
-msgid "Obsolete in WAPT 1.5"
-msgstr "Obsolète pour WAPT 1.5"
-
-#: ../../source/waptserver-backup.rst:129
+#: ../../source/waptserver-backup.rst:118
 msgid ""
-"backup the WAPT root folder :file:`C:\\\Program Files (x86)\\\wapt` on a "
-"remote backup destination;"
+"backup the WAPT repository folder "
+":file:`C:\\\\wapt\\\\waptserver\\\\repository` and :file:`C:\\wapt` and "
+":file:`C:\\wapt\\waptserver\\nginx\\ssl` on a remote backup destination;"
 msgstr ""
-"sauvegarder le dossier WAPT racine :file:`C:\\\Program Files (x86)\\\wapt` "
-"sur un support externe :"
+
+#: ../../source/waptserver-backup.rst:121
+msgid "Backup PostgreSQL Database with pg_dump.exe :"
+msgstr ""
 
 #: ../../source/waptserver-backup.rst:132
-msgid "**Exemple**: backup on an external hard disk drive :file:`W:`"
-msgstr "**Exemple** : sauvegarde sur un disque externe :file:`W:`"
+msgid "Restoring the WAPT Server on Windows"
+msgstr "Restaurer le serveur WAPT sur Windows"
 
 #: ../../source/waptserver-backup.rst:134
 msgid ""
-"We advise you to use :program:`FastCopy` software, available on `Tranquil IT "
-"repository <https://store.wapt.fr/>`_:"
+"restore the following directories "
+":file:`C:\\\\wapt\\\\waptserver\\\\repository` and :file:`C:\\wapt` and "
+":file:`C:\\wapt\\waptserver\\nginx\\ssl`"
 msgstr ""
-"Nous vous conseillons d'utiliser le paquet :program:`FastCopy` disponible "
-"sur le `store Tranquil IT <https://store.wapt.fr/>`_:"
 
-#: ../../source/waptserver-backup.rst:141
+#: ../../source/waptserver-backup.rst:136
 msgid ""
-"Using the GUI interface of :program:`FastCopy`, make sure to check the :"
-"guilabel:`ACL` checkbox."
+"Apply the total right to the folder "
+":file:`C:\\\\wapt\\\\waptserver\\\\repository` for the \"Network "
+"Service\" group"
 msgstr ""
-"Avec le logiciel :program:`FastCopy` en interface graphique, veillez à bien "
-"cocher la case :guilabel:`ACL`."
 
-#: ../../source/waptserver-backup.rst:154
-msgid "Restoring the WAPT Server on Windows"
-msgstr "Restaurer le serveur WAPT sur Windows"
+#: ../../source/waptserver-backup.rst:138
+msgid "Backup PostgreSQL Database with pg_restore.exe :"
+msgstr ""
 
 #~ msgid "Complete backup"
 #~ msgstr "Sauvegarde Complète"
@@ -157,10 +149,13 @@ msgstr "Restaurer le serveur WAPT sur Windows"
 #~ msgstr "Arrêt des services liés au serveur WAPT"
 
 #~ msgid ""
-#~ "If you want to restore to a previous state where you can make a recovery "
-#~ "of every file from your WAPT Server:"
+#~ "If you want to restore to a "
+#~ "previous state where you can make "
+#~ "a recovery of every file from your"
+#~ " WAPT Server:"
 #~ msgstr ""
-#~ "Si on souhaite rétablir un état initial vous pouvez restaurer l'ensemble "
+#~ "Si on souhaite rétablir un état "
+#~ "initial vous pouvez restaurer l'ensemble "
 #~ "des fichiers du serveur WAPT :"
 
 #~ msgid "files;"
@@ -186,28 +181,38 @@ msgstr "Restaurer le serveur WAPT sur Windows"
 
 #~ msgid "Restore WAPT Server files from the external backup folder (W:)"
 #~ msgstr ""
-#~ "Restauration des fichiers du serveur WAPT depuis un emplacement de "
-#~ "sauvegarde (W:)"
+#~ "Restauration des fichiers du serveur "
+#~ "WAPT depuis un emplacement de sauvegarde"
+#~ " (W:)"
 
 #~ msgid "Minimum repository backup/restore"
 #~ msgstr "Sauvegarde/Restauration à minima du repository"
 
 #~ msgid ""
-#~ "Packages are located in the :file:`C:\\Program Files (x86)\\wapt"
-#~ "\\waptserver\repository\\` directory."
+#~ "Packages are located in the "
+#~ ":file:`C:\\Program Files (x86)\\wapt\\waptserver\r"
+#~ "epository\\` directory."
 #~ msgstr ""
-#~ "L'ensemble des paquets sont contenus dans le dossier :file:`C:\\Program "
-#~ "Files\\wapt\\waptserver\repository\\`."
+#~ "L'ensemble des paquets sont contenus "
+#~ "dans le dossier :file:`C:\\Program "
+#~ "Files\\wapt\\waptserver\r"
+#~ "epository\\`."
 
 #~ msgid ""
-#~ "In case of a complete server crash, recovering the repository will "
-#~ "suffice to bring back the WAPT Server to a normal operating state, "
-#~ "according the new server has been configured the same way as the crashed "
-#~ "server (same prefix)."
+#~ "In case of a complete server "
+#~ "crash, recovering the repository will "
+#~ "suffice to bring back the WAPT "
+#~ "Server to a normal operating state, "
+#~ "according the new server has been "
+#~ "configured the same way as the "
+#~ "crashed server (same prefix)."
 #~ msgstr ""
-#~ "En cas de crash serveur, la restauration du repository suffit a retrouver "
-#~ "un fonctionnement normal de WAPT, sur une nouvelle installation à "
-#~ "l'identique de la précédente (même préfixe)"
+#~ "En cas de crash serveur, la "
+#~ "restauration du repository suffit a "
+#~ "retrouver un fonctionnement normal de "
+#~ "WAPT, sur une nouvelle installation à"
+#~ " l'identique de la précédente (même "
+#~ "préfixe)"
 
 #~ msgid "Minimal backup"
 #~ msgstr "Sauvegarde minimale"
@@ -216,15 +221,52 @@ msgstr "Restaurer le serveur WAPT sur Windows"
 #~ msgstr "Restauration minimale"
 
 #~ msgid ""
-#~ "On a fresh installation, with the same configuration (prefix), the "
-#~ "procedure for recovering will be that in reverse order of backuping"
+#~ "On a fresh installation, with the "
+#~ "same configuration (prefix), the procedure "
+#~ "for recovering will be that in "
+#~ "reverse order of backuping"
 #~ msgstr ""
-#~ "Sur une installation neuve, avec les mêmes caractéristiques (préfixe), on "
-#~ "effectue la procédure inverse."
+#~ "Sur une installation neuve, avec les "
+#~ "mêmes caractéristiques (préfixe), on effectue"
+#~ " la procédure inverse."
 
 #~ msgid ""
-#~ "We use :program:`FastCopy` software, available in the Tranquil IT WAPT "
-#~ "store:"
+#~ "We use :program:`FastCopy` software, available"
+#~ " in the Tranquil IT WAPT store:"
 #~ msgstr ""
-#~ "On utilise le logiciel :program:`FastCopy`, disponible dans les dépôts "
-#~ "WAPT:"
+#~ "On utilise le logiciel :program:`FastCopy`,"
+#~ " disponible dans les dépôts WAPT:"
+
+#~ msgid "Obsolete in WAPT 1.5"
+#~ msgstr "Obsolète pour WAPT 1.5"
+
+#~ msgid ""
+#~ "backup the WAPT root folder "
+#~ ":file:`C:\\\\Program Files (x86)\\\\wapt` on a"
+#~ " remote backup destination;"
+#~ msgstr ""
+#~ "sauvegarder le dossier WAPT racine "
+#~ ":file:`C:\\\\Program Files (x86)\\\\wapt` sur "
+#~ "un support externe :"
+
+#~ msgid "**Exemple**: backup on an external hard disk drive :file:`W:`"
+#~ msgstr "**Exemple** : sauvegarde sur un disque externe :file:`W:`"
+
+#~ msgid ""
+#~ "We advise you to use :program:`FastCopy`"
+#~ " software, available on `Tranquil IT "
+#~ "repository <https://store.wapt.fr/>`_:"
+#~ msgstr ""
+#~ "Nous vous conseillons d'utiliser le "
+#~ "paquet :program:`FastCopy` disponible sur le"
+#~ " `store Tranquil IT <https://store.wapt.fr/>`_:"
+
+#~ msgid ""
+#~ "Using the GUI interface of "
+#~ ":program:`FastCopy`, make sure to check "
+#~ "the :guilabel:`ACL` checkbox."
+#~ msgstr ""
+#~ "Avec le logiciel :program:`FastCopy` en "
+#~ "interface graphique, veillez à bien "
+#~ "cocher la case :guilabel:`ACL`."
+

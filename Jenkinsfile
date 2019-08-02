@@ -84,7 +84,7 @@ pipeline {
 					makeEmptyDirs: false, 
 					noDefaultExcludes: false, 
 					patternSeparator: '[, ]+', 
-					remoteDirectory: '/var/www/doc/en/doc/', 
+					remoteDirectory: '/var/www/doc/wapt/en/doc/', 
 					remoteDirectorySDF: false, 
 					removePrefix: 'build/en/doc/', 
 					sourceFiles: 'build/en/doc/**'),
@@ -94,7 +94,7 @@ pipeline {
 					makeEmptyDirs: false, 
 					noDefaultExcludes: false, 
 					patternSeparator: '[, ]+', 
-					remoteDirectory: '/var/www/doc/fr/doc/', 
+					remoteDirectory: '/var/www/doc/wapt/fr/doc/', 
 					remoteDirectorySDF: false, 
 					removePrefix: 'build/fr/doc/', 
 					sourceFiles: 'build/fr/doc/**'), 
@@ -104,7 +104,7 @@ pipeline {
 					makeEmptyDirs: false, 
 					noDefaultExcludes: false, 
 					patternSeparator: '[, ]+', 
-					remoteDirectory: '/var/www/doc/fr/doc/', 
+					remoteDirectory: '/var/www/doc/wapt/fr/doc/', 
 					remoteDirectorySDF: false, 
 					removePrefix: 'build/fr/epub/', 
 					sourceFiles: 'build/fr/epub/*.epub'),
@@ -114,7 +114,7 @@ pipeline {
 					makeEmptyDirs: false, 
 					noDefaultExcludes: false, 
 					patternSeparator: '[, ]+', 
-					remoteDirectory: '/var/www/doc/en/doc/', 
+					remoteDirectory: '/var/www/doc/wapt/en/doc/', 
 					remoteDirectorySDF: false, 
 					removePrefix: 'build/en/epub/', 
 					sourceFiles: 'build/en/epub/*.epub'),
@@ -124,7 +124,7 @@ pipeline {
 					makeEmptyDirs: false, 
 					noDefaultExcludes: false, 
 					patternSeparator: '[, ]+', 
-					remoteDirectory: '/var/www/doc/fr/doc/', 
+					remoteDirectory: '/var/www/doc/wapt/fr/doc/', 
 					remoteDirectorySDF: false, 
 					removePrefix: 'build/fr/latex/', 
 					sourceFiles: 'build/fr/latex/WAPT.pdf'),
@@ -134,7 +134,7 @@ pipeline {
 					makeEmptyDirs: false, 
 					noDefaultExcludes: false, 
 					patternSeparator: '[, ]+', 
-					remoteDirectory: '/var/www/doc/en/doc/', 
+					remoteDirectory: '/var/www/doc/wapt/en/doc/', 
 					remoteDirectorySDF: false, 
 					removePrefix: 'build/en/latex/', 
 					sourceFiles: 'build/en/latex/WAPT.pdf') 
@@ -175,7 +175,7 @@ pipeline {
                 useWorkspaceInPromotion: false, 
                 verbose: false)]
             }
-        }
+    }
   }
   
   post {
