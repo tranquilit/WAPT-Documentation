@@ -22,15 +22,16 @@ Main functional benefits of the Enterprise version of WAPT
    :alt: Logo WAPT Enterprise
 
 WAPT is designed to help IT system administrators manage the lifecycle
-of their installed base of Windows applications.
+of their installed base of Windows applications, drivers, OSes
+and configurations in system and user context.
 
 With WAPT Enterprise, you benefit automatically from the base functions
-included in WAPT to help you deploy, upgrade and remove software
+included in WAPT Community to help you deploy, upgrade and remove software
 and configurations on your Windows devices, from a central console.
 
 WAPT is an *opencore* model and the **Enterprise** version is based
 on the **Community** version with the following features designed
-to answer the needs of large and medium Organisations:
+to answer the needs of larger Organisations:
 
 * **Active Directory authentication** of WAPT package developers,
   package deployers, self-service users and for the initial registering
@@ -48,10 +49,10 @@ to answer the needs of large and medium Organisations:
   SSL certificates for package deployers);
 
 * **Use of differentiated self service**
-  WAPT Enterprise allows you to define lists of allowed packages
-  to existing groups in Active Directory.
-  Users are free to install qualified packages without
-  having to submit a ticket to their IT teams.
+  WAPT Enterprise allows you to apply lists of allowed packages
+  to groups in Active Directory.
+  Allowed users are free to install qualified packages from their list
+  of approved packages without having to submit a ticket to their IT teams.
 
 * **WAPT WUA**
   WAPT allows to manage the Windows Updates on your endpoints.
@@ -79,18 +80,19 @@ Access to future improvements in WAPT Enterprise
 
 By subscribing to a WAPT Enterprise contract and by maintaining
 your subscription valid, you benefit from the future improvements brought into
-the core of WAPT and you benefit automatically from all future improvement
-of the WAPT Enterprise version.
+the core of WAPT and you benefit automatically from all future improvements
+to the WAPT Enterprise version.
 
 A lapsing of your subscription will automatically switch your WAPT instance
 back to its corresponding Community version; advanced functions only available
 in the Enterprise version will no longer be accessible.
 
-Unlimited telephone support for your daily usage of WAPT
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Direct telephone support for your daily usage of WAPT
++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Tranquil IT, the creator of WAPT, allows you a privileged access to
-its core team of WAPT experts and developers.
+When your subscription reaches above a certain volume, Tranquil IT, the creator
+of WAPT, allows you a privileged access to its core team of WAPT experts
+and developers.
 
 We give you access to a dedicated telephone hot-line with a direct answer
 to satisfy your needs for support.
@@ -99,11 +101,11 @@ We are committed to providing you with reliable and pertinent answers
 on the subscribed perimeter, quickly.
 
 By subscribing or renewing your WAPT Enterprise contract, you will receive
-a notification indicating the practicalities to follow to access our support.
+a notification indicating the practicalities to access our support.
 
 .. attention::
 
-  The unlimited support concerns only the support on the use
+  The support concerns only the use in your Organization
   of the WAPT Enterprise software; additional support for adapting,
   personalizing, debugging or creating WAPT packages may be obtained
   with prepaid support tickets.

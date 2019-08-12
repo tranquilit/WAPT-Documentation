@@ -50,7 +50,7 @@ Security Certification
 Security Certification from French Cyberdefense Agency ANSSI
 ------------------------------------------------------------
 
-Following its first level security certification obtained on 14 february 2018,
+Following its first level security certification obtained on 14 February 2018,
 WAPT has been prized with a `higher level certification <https://www.tranquil.it/wp-content/uploads/qualification-anssi-tranquil-it.pdf>`_
 from ANSSI.
 
