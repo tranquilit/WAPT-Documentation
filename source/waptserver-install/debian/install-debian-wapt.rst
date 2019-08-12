@@ -19,7 +19,7 @@ Installing the WAPT Server on Debian Linux
   The upgrade procedure is different from installation.
   For upgrade, please refer to :ref:`Upgrading the WAPT Server <upgrade-wapt>`.
 
-Installing the WAPT Server runs a few steps:
+Installing the WAPT Server requires a few steps:
 
 * configuring the repositories;
 
@@ -40,16 +40,15 @@ Configuring DEB repositories and installing WAPT and PostgreSQL packages
 
 .. attention::
 
- * If you subscribed to **WAPT Enterprise** do not use that repo but the Enterprise repository provided in your documentation.
+  If you subscribed to **WAPT Enterprise** do not use that repo
+  but the Enterprise repository provided in your documentation.
 
 .. code-block:: bash
 
   apt-get update && apt-get upgrade
   apt-get install apt-transport-https lsb-release gnupg
   wget -O - https://wapt.tranquil.it/debian/tiswapt-pub.gpg  | apt-key add -
-  echo  "deb  https://wapt.tranquil.it/debian/wapt-1.7/ $(lsb_release -c -s) main"  > /etc/apt/sources.list.d/wapt.list
-
-
+  echo "deb https://wapt.tranquil.it/debian/wapt-1.7/ $(lsb_release -c -s) main" > /etc/apt/sources.list.d/wapt.list
 
 .. note::
 
@@ -100,7 +99,7 @@ Post-configuring
 
     *****************
 
-            < OK >          < Cancel >
+    < OK >          < Cancel >
 
 * confirm the password;
 
@@ -110,7 +109,7 @@ Post-configuring
 
     *****************
 
-            < OK >          < Cancel >
+    < OK >          < Cancel >
 
 * choose the authentication mode for the initial registering of the WAPT agents;
 

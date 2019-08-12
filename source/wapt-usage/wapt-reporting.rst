@@ -110,10 +110,15 @@ Query examples
   from hosts
   group by 1,2
 
-Normalizing the name of software
---------------------------------
+Normalizing software names
+--------------------------
 
-To solve this problem, we propose to standardize the name of the software with WAPT.
+Sometimes, the version of the software or its architecture are an integral part
+of the software name. When they register with the WAPT Server inventory, they
+appear as different software whereas they are just one software for us humans.
+
+To solve this problem, we propose to standardize the name
+of the software with WAPT.
 
 .. figure:: wapt_console-report-normalize.png
   :align: center

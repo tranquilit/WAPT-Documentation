@@ -14,12 +14,11 @@
 Using WAPT SelfService
 ======================
 
-
 Presentation
 ------------
 
-With WAPT 1.7 you can now filter the list of self-service packages available
-for your users.
+With WAPT 1.7 **Enterprise** you can now filter the list
+of self-service packages available for your users.
 
 Your users will be able to install a selection of WAPT packages
 without having to be a :term:`Local Administrator` on their desktop.
@@ -31,8 +30,8 @@ This is a time saving feature for the Organization's IT support Helpdesk.
 How it works?
 -------------
 
-With WAPT 1.7, a new type of WAPT package exists beside *base*, *group*,
-*host* and *unit* packages: they are **selfservice** packages.
+With WAPT 1.7 **Enterprise**, a new type of WAPT package exists beside *base*,
+*group*, *host* and *unit* packages: they are **selfservice** packages.
 
 .. figure:: wapt_console-selfservice.png
   :align: center
@@ -50,9 +49,10 @@ How to use the **selfservice** feature?
 
 .. hint::
 
-  Feature only available with WAPT **Enterprise**. 
-  In the community version, only administrator users and members of the "waptselfservice" group can access self-service on the agent. 
-  It is not possible to filter the packages accessible to the user.
+  Feature only available with WAPT **Enterprise**.
+  In the **Community** version, only Local Administrator users and members
+  of the *waptselfservice* group can access self-service on the agent.
+  It is not possible to filter the packages made accessible to the user.
 
 In the console go to the tab :guilabel:`Self-service` rules.
 
@@ -78,48 +78,57 @@ You can now create your first *selfservice* rule package.
 .. note::
 
   If a group appears in multiple *selfservice* packages,
-  then the rules will be merged.
-  
-How to use the selfservice on the user station?
----------------------------------------------------------
+  then the rules are merged.
 
-The self service is accessible to users in the start menu under the name "Self service software WAPT".
+How to use the selfservice on the user station?
+-----------------------------------------------
+
+The self-service is accessible to users in the start menu under the name
+:guilabel:`Self-Service software WAPT`.
 
 It is also available directly in :file:`<base>\waptself.exe`
 
-The login and password to enter when launching the selfservice is a windows identification (locale or active directory).
+The login and password to enter when launching the selfservice
+are the User's credentials (local or Active Directory credentials).
 
 The self-service then displays a list of packages available for installation.
 
 .. figure:: waptself.png
   :align: center
   :alt: Self Service
-  
-* The user can have more details on each package with "+".
 
-* Different filter are available for the user on the left side panel.
+* the user can have more details on each package with the :guilabel:`+` icon;
 
-* The "Update Catalog" button is used to force an "wapt-get update" on the wapt agent.
+* different filters are available for the user on the left side panel;
 
-* The list of package categories is available for user. To add a category to the list, you must specify the category in the control file of the relevant package. In the "categories" field of the control file.
+* the :guilabel:`Update Catalog` button is used to force a
+  :command:`wapt-get update` on the wapt agent;
 
-* The current task list of the wapt agent is available with the "task bar" button.
+* the list of package categories is dsiplayed to the user.
+  To add a category to the list, you must specify the category
+  in the *categories* section of the :file:`control` file
+  of the relevant package;
 
-* It is possible to change the language of the interface with the configuration button at the bottom left.
+* the current task list of the wapt agent is available
+  with the ::guilabel:`task bar` button;
+
+* it is possible to change the language of the interface
+  with the :guilabel:`configuration` button at the bottom left.
 
 Customization
-++++++++++++++++++++
++++++++++++++
 
 .. hint::
 
-  Feature only available with WAPT **Enterprise**. 
+  Feature only available with WAPT **Enterprise**.
 
-It is possible to Change the logo that appears in the self service interface, this will allow you to display the logo of your organization for example.
+It is possible to change the logo that appears in the self-service interface
+This will allow you to display the logo of your Organization for example.
 
-To do this, simply place the logo you want here:  :file:`<wapt>\\templates\\waptself-logo.png`
+To do this, simply place the logo you want in
+:file:`<wapt>\\templates\\waptself-logo.png`
 
 .. note::
 
-	It is highly recommended to use a PNG file with 200*150px.
-
- 
+	It is highly recommended to use a :file:`.PNG` file
+  with a 200 * 150px resolution.
