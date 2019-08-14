@@ -135,8 +135,9 @@ these options are equivalent to this:
 .. hint::
 
   if :guilabel:`default_allow` option is ``True`` and Wapt WUA is enabled too,
-  client will contact waptserver and ask to download the missing
-  updates. The client will install missing updates on its own.
+  clients will contact the WAPT Server and ask to download the missing
+  updates. The clients will install missing updates on their own
+  at time of upgrade.
 
 Using WAPTWUA from the console
 ------------------------------
@@ -198,8 +199,8 @@ The left pane displays updates categories, allowing you to filter by:
 
 * classification;
 
-In the right pane grid, if the :guilabel:`Downloaded on` column is empty,
-it means that the update was not yet been downloaded by the WAPT server
+In the right panel grid, if the :guilabel:`Downloaded on` column is empty,
+it means that the update has not yet been downloaded by the WAPT server
 and is not present on the WAPT server (This update is not missing on any host).
 
 * you can force the download of an update by
@@ -221,9 +222,8 @@ and is not present on the WAPT server (This update is not missing on any host).
   :align: center
   :alt: List Windows Update
 
-
-Launch Wua on client
-++++++++++++++++++++
+Launch WUA on clients
++++++++++++++++++++++
 
 From the console you have three options.
 
@@ -233,8 +233,8 @@ From the console you have three options.
 
 The :guilabel:`Trigger the scan of pending Windows Updates` button
 will launch the scan on the client and list all updates flagged for the OS.
-You can scan the client from the console like that or
-using :command:`wapt-get waptwua-scan` from command-line.
+You can scan the client from the console like that or by
+using :command:`wapt-get waptwua-scan` from the command-line.
 
 .. hint::
 
@@ -255,16 +255,20 @@ If you want to download from the console,
 use the :guilabel:`Trigger the download of pending Windows Updates` button.
 
 The command-line for downloading kb from the client is
-:command:`wapt-get waptwua-download`, it will scan status of windows
-against current rules and download missing kb and send the result to server.
+:command:`wapt-get waptwua-download`, it will scan the current status of Windows
+against current rules, download missing kb and send the result to server.
 
 If you want to install the pending update(s), use :command:`wapt-get waptwua-install`
 from the command-line prompt.
+
 If you want to trigger the installation from the console,
 click on :guilabel:`Trigger the install of pending Windows Updates` button.
 
-
 .. hint::
-  When you want to install the pending updates in cache, Waptservice gives them to wua service.
-  WUA service will be enabled by waptservice just for the time to install the updates.
-  When installations are done, waptservice will stop and disable wua service anew.
+
+  When you want to install the pending updates stored in cache,
+  the WAPT Service triggers the :abbr:`WUA (Windows Update Agent)` service.
+
+  The WAPT Service will enable and start the WUA Service temporarily
+  to install the updates. When updates are installed, waptservice will stop
+  and disable the WUA service until the next cycle.

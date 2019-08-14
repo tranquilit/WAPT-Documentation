@@ -64,7 +64,7 @@ run :program:`waptexit` with the argument:
 
 .. code-block:: bash
 
-  waptexit.exe -allow_cancel_upgrade=True
+  waptexit.exe -allow_cancel_upgrade = True
 
 Otherwise :program:`waptexit` will take the value indicated in
 :file:`C:\\Program Files (x86)\\wapt\\wapt-get.ini`:
@@ -72,7 +72,7 @@ Otherwise :program:`waptexit` will take the value indicated in
 .. code-block:: ini
 
    [global]
-   allow_cancel_upgrade = 0
+   allow_cancel_upgrade = False
 
 If this value is not indicated in
 :file:`C:\\Program Files (x86)\\wapt\\wapt\\wapt-get.ini`,
@@ -81,12 +81,12 @@ then the default value will be **10**.
 Increase the trigger time in waptexit
 -------------------------------------
 
-To specify the waiting time before the automatic start of the installations
+To specify the wait time before the automatic start of the installations
 you can start :program:`waptexit` with the argument:
 
 .. code-block:: bash
 
-  waptexit.exe -waptexit_countdown=10000
+  waptexit.exe -waptexit_countdown = 10000
 
 Otherwise :program:`waptexit` will take the value indicated
 in the configuration :file:`C:\\Program Files (x86)\\wapt\\wapt-get.ini`:
@@ -126,12 +126,12 @@ then the default value will be **False**.
 Launching the installation of packages with a special level of priority
 -----------------------------------------------------------------------
 
-To tell WAPT to run only the installations of packages with high priority,
+To tell WAPT to only upgrade high priority packages,
 you can run :program:`waptexit` with the argument:
 
 .. code-block:: bat
 
-  waptexit.exe -priorities=high
+  waptexit.exe -priorities = high
 
 Otherwise :program:`waptexit` will take the value indicated in
 :file:`C:\\Program Files (x86)\\wapt\\wapt-get.ini`:
