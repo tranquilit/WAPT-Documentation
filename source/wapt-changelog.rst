@@ -12,6 +12,41 @@
 Changelog
 =========
 
+WAPT-1.7.4-6178 (2019-09-06)
+----------------------------
+
+(hash 4f0c896a)
+
+* [Sec] Update python modules python-engineio  and werkzeug to fix vulnerabilities
+
+ CVE-2019-14806
+
+ GHSA-j3jp-gvr5-7hwq
+
+* [Upd] Don't canonicalize package filenames by default when scanning server repository to ease migration from previous buggy wapt.
+
+* [Fix] package filename not rewritten in Packages when renaming package
+
+* [New] wapt-scanpackages : Add explicit option to trigger rename of packages filenames which do not comply with canonic form
+
+* [New] wapt-scanpackages  : Add option in to provide proxy
+
+* [Upd] return "OK by default in package's audit skeleton
+
+* [Imp] waptconsole cosmetic : minheight 18 pixels for grid headers
+
+* [Fix] waptserver database model : bad default datatype in model.py for created_by and updated_by (were not used until now)
+
+* [Fix] ensure_unicode for msi output : try cp850 before utf16 to avoid chinese garbage in run output
+
+* [New] added connected_users to hosts_for_package provider
+
+* [Fix] use win32api to get local connected IPV4 ip address instead of socket module. In some cases, secoket can't retreive the ip...
+
+* [New] Waptselfservice : Add option in wapt-get.ini to disable unfiltered packages view of local admin
+
+* [Imp] Waptselfservice  4K improvements.
+
 WAPT-1.7.4.6165 (2019-08-02)
 ----------------------------
 
