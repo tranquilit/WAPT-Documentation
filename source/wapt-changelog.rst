@@ -12,10 +12,10 @@
 Changelog
 =========
 
-WAPT-1.7.4-6182 (2019-09-09)
+WAPT-1.7.4-6183 (2019-09-09)
 ----------------------------
 
-(hash 46247bd1a956a)
+(hash 8777fd5f)
 
 * [Sec] Update python modules python-engineio  and werkzeug to fix vulnerabilities
 
