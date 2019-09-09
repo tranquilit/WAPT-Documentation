@@ -12,16 +12,36 @@
 Changelog
 =========
 
-WAPT-1.7.4-6178 (2019-09-06)
+WAPT-1.7.4-6182 (2019-09-09)
 ----------------------------
 
-(hash 4f0c896a)
+(hash 46247bd1a956a)
 
 * [Sec] Update python modules python-engineio  and werkzeug to fix vulnerabilities
 
  CVE-2019-14806
 
  GHSA-j3jp-gvr5-7hwq
+ 
+* [Upd] Python modules
+
+  eventlet from 0.24.1 to 0.25.1
+  
+  flask from 1.0.2 to 1.1.1
+
+  greenlet from 0.4.13 to 0.4.15
+
+  itsdangerous from 0.24 to 1.1.0
+
+  peewee from 3.6.4 to 3.10
+
+  python-socketio from 1.9.0 to 4.3.1
+
+  websocket-client from 0.50 to 0.56
+
+* [Upd] Add a request_timeout for client websockets of 15s per default
+
+* [Fix] When building packages, excluded directories (for example .git or svn) were still included in manifest file.
 
 * [Upd] Don't canonicalize package filenames by default when scanning server repository to ease migration from previous buggy wapt.
 
