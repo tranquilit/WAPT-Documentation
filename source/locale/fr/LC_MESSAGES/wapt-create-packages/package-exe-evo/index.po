@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-02 10:11+0200\n"
+"POT-Creation-Date: 2019-09-16 09:56+0200\n"
 "PO-Revision-Date: 2018-11-07 11:50+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -12,12 +12,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: ../../source/wapt-create-packages/package-exe-evo/index.rst:8
 #, fuzzy
-msgid "Advanced *.exe packages"
-msgstr "Packager des paquets \\*.exe évolués"
+msgid "Advanced \\*.exe packages"
+msgstr "Créer un paquet \\*.exe evolué"
 
 #: ../../source/wapt-create-packages/package-exe-evo/index.rst:8
 msgid "exe, WAPT, advanced, complex, installing, installation, documentation"
@@ -517,4 +517,7 @@ msgstr ""
 #~ "Permet de forcer l'installation même si"
 #~ " une uninstallkey avec une version "
 #~ "identique est trouvée."
+
+#~ msgid "Advanced *.exe packages"
+#~ msgstr "Packager des paquets \\*.exe évolués"
 

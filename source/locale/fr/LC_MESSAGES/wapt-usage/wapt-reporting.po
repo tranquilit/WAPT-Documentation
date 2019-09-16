@@ -7,18 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-01 10:44+0100\n"
+"POT-Creation-Date: 2019-09-16 09:56+0200\n"
 "PO-Revision-Date: 2019-03-01 11:06+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: en\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 1.8.8\n"
-"X-Poedit-SourceCharset: UTF-8\n"
 
 #: ../../source/wapt-usage/wapt-reporting.rst:8
 #: ../../source/wapt-usage/wapt-reporting.rst:17
@@ -50,16 +48,16 @@ msgstr "WAPT **Enterprise** offre des fonctionnalités avancées de reporting."
 #: ../../source/wapt-usage/wapt-reporting.rst:28
 msgid "Indeed, who better than you to know what you want in your report."
 msgstr ""
-"En effet, qui mieux que vous même pour savoir ce que vous voulez dans votre "
-"rapport."
+"En effet, qui mieux que vous même pour savoir ce que vous voulez dans "
+"votre rapport."
 
 #: ../../source/wapt-usage/wapt-reporting.rst:30
 msgid ""
-"With WAPT we offer to write your own SQL queries to display the result in the "
-"wapt console."
+"With WAPT we offer to write your own SQL queries to display the result in"
+" the wapt console."
 msgstr ""
-"Avec WAPT nous vous proposons d'écrire vos propres requêtes SQL pour afficher "
-"vos résultats souhaités dans votre console WAPT."
+"Avec WAPT nous vous proposons d'écrire vos propres requêtes SQL pour "
+"afficher vos résultats souhaités dans votre console WAPT."
 
 #: ../../source/wapt-usage/wapt-reporting.rst:34
 msgid "WAPT query Designer"
@@ -67,19 +65,19 @@ msgstr "Concepteur de requêtes WAPT"
 
 #: ../../source/wapt-usage/wapt-reporting.rst:36
 msgid ""
-"The query designer offers you the ability to edit your own queries on the WAPT "
-"PostgreSQL database."
+"The query designer offers you the ability to edit your own queries on the"
+" WAPT PostgreSQL database."
 msgstr ""
 "Le concepteur de requêtes vous offre la possibilité d'éditer vos propres "
 "requêtes à exécuter sur la base de données PostgreSQL du serveur WAPT."
 
 #: ../../source/wapt-usage/wapt-reporting.rst:39
 msgid ""
-"To create a new report, click on :menuselection:`Reporting --> Design Mode --> "
-"New query`."
+"To create a new report, click on :menuselection:`Reporting --> Design "
+"Mode --> New query`."
 msgstr ""
-"Pour créer un nouveau rapport, cliquez sur :menuselection:`Rapport --> Mode "
-"Conception --> Nouvelle Requête`."
+"Pour créer un nouveau rapport, cliquez sur :menuselection:`Rapport --> "
+"Mode Conception --> Nouvelle Requête`."
 
 #: ../../source/wapt-usage/wapt-reporting.rst:46
 msgid "Designing a query in WAPT reporting"
@@ -99,49 +97,50 @@ msgstr "Pour éditer / modifier / sauvegarder vos rapports :"
 
 #: ../../source/wapt-usage/wapt-reporting.rst:56
 msgid ""
-"the :guilabel:`Reload queries` button is used to reload queries saved on the "
-"server, for example, if a colleague has just edited a new query;"
+"the :guilabel:`Reload queries` button is used to reload queries saved on "
+"the server, for example, if a colleague has just edited a new query;"
 msgstr ""
-"le bouton :guilabel:`Recharger les requêtes` est utilisé pour recharger les "
-"requêtes enregistrées sur le serveur, par exemple, si un collègue vient de "
-"modifier une nouvelle requête ;"
+"le bouton :guilabel:`Recharger les requêtes` est utilisé pour recharger "
+"les requêtes enregistrées sur le serveur, par exemple, si un collègue "
+"vient de modifier une nouvelle requête ;"
 
 #: ../../source/wapt-usage/wapt-reporting.rst:59
 msgid "the :guilabel:`New query` button will add a new blank query to the list;"
 msgstr ""
-"le bouton :guilabel:`Nouvelle requête` ajoutera une nouvelle requête vide à la "
-"liste ;"
+"le bouton :guilabel:`Nouvelle requête` ajoutera une nouvelle requête vide"
+" à la liste ;"
 
 #: ../../source/wapt-usage/wapt-reporting.rst:61
 msgid ""
-"the :guilabel:`Delete query` button will delete the selected query from the "
-"WAPT server;"
+"the :guilabel:`Delete query` button will delete the selected query from "
+"the WAPT server;"
 msgstr ""
-"le bouton :guilabel:`Supprimer la requête` supprimera la requête sélectionnée "
-"du serveur WAPT ;"
+"le bouton :guilabel:`Supprimer la requête` supprimera la requête "
+"sélectionnée du serveur WAPT ;"
 
 #: ../../source/wapt-usage/wapt-reporting.rst:64
 msgid ""
-"the :guilabel:`Export to Excel` button will export the result of your query to "
-"a spreadsheet;"
+"the :guilabel:`Export to Excel` button will export the result of your "
+"query to a spreadsheet;"
 msgstr ""
 "le bouton :guilabel:`Exporter vers Excel` exportera le résultat de votre "
 "requête vers une feuille de calcul ;"
 
 #: ../../source/wapt-usage/wapt-reporting.rst:67
 msgid ""
-"the :guilabel:`Save queries` button will save your query to the WAPT server;"
+"the :guilabel:`Save queries` button will save your query to the WAPT "
+"server;"
 msgstr ""
-"le bouton :guilabel:`Enregistrer la requête` enregistrera votre requête sur le "
-"serveur WAPT ;"
+"le bouton :guilabel:`Enregistrer la requête` enregistrera votre requête "
+"sur le serveur WAPT ;"
 
 #: ../../source/wapt-usage/wapt-reporting.rst:69
 msgid ""
-"the :guilabel:`Duplicate` button will duplicate an existing query to avoid "
-"writing a request from scratch;"
+"the :guilabel:`Duplicate` button will duplicate an existing query to "
+"avoid writing a request from scratch;"
 msgstr ""
-"le bouton :guilabel:`Dupliquer` dupliquera une requête existante pour éviter "
-"d'écrire une requête à partir de zéro ;"
+"le bouton :guilabel:`Dupliquer` dupliquera une requête existante pour "
+"éviter d'écrire une requête à partir de zéro ;"
 
 #: ../../source/wapt-usage/wapt-reporting.rst:72
 msgid "the :guilabel:`Execute` button executes the selected query;"
@@ -150,16 +149,16 @@ msgstr "le bouton :guilabel:`Exécuter` exécute la requête sélectionnée ;"
 #: ../../source/wapt-usage/wapt-reporting.rst:76
 msgid "the queries are saved in the PostgreSQL WAPT database;"
 msgstr ""
-"les requêtes sont sauvegardées dans la base de données PostgreSQL du serveur "
-"WAPT ;"
+"les requêtes sont sauvegardées dans la base de données PostgreSQL du "
+"serveur WAPT ;"
 
 #: ../../source/wapt-usage/wapt-reporting.rst:78
 msgid ""
 "the shortcut :kbd:`CTRL+space` allows you to build your queries more "
 "effectively;"
 msgstr ""
-"le raccourci :kbd:`CTRL+Espace` vous permet de construire vos requêtes plus "
-"efficacement en mode conception ;"
+"le raccourci :kbd:`CTRL+Espace` vous permet de construire vos requêtes "
+"plus efficacement en mode conception ;"
 
 #: ../../source/wapt-usage/wapt-reporting.rst:81
 msgid "Query examples"
@@ -178,66 +177,80 @@ msgid "Windows versions:"
 msgstr "versions de Windows:"
 
 #: ../../source/wapt-usage/wapt-reporting.rst:114
-#: ../../source/wapt-usage/wapt-reporting.rst:122
-msgid "Normalizing the name of software"
+#, fuzzy
+msgid "Normalizing software names"
 msgstr "Normaliser les noms d'un logiciel"
 
 #: ../../source/wapt-usage/wapt-reporting.rst:116
 msgid ""
-"To solve this problem, we propose to standardize the name of the software with "
-"WAPT."
+"Sometimes, the version of the software or its architecture are an "
+"integral part of the software name. When they register with the WAPT "
+"Server inventory, they appear as different software whereas they are just"
+" one software for us humans."
 msgstr ""
-"Pour résoudre ce problème, nous proposons de standardiser le nom de certains "
-"logiciels."
 
-#: ../../source/wapt-usage/wapt-reporting.rst:124
-msgid "click :guilabel:`Normalize Software Names` in the :guilabel:`Tools` menu;"
-msgstr ""
-"cliquez sur :guilabel:`Normaliser les noms de logiciels` dans le menu :"
-"guilabel:`Outils` ;"
-
-#: ../../source/wapt-usage/wapt-reporting.rst:126
+#: ../../source/wapt-usage/wapt-reporting.rst:120
 msgid ""
-"select the software to standardize, for example, all different version of "
-"Adobe Flash Player;"
+"To solve this problem, we propose to standardize the name of the software"
+" with WAPT."
 msgstr ""
-"sélectionner le logiciel à standardiser, par exemple, toutes les différentes "
-"versions d'Adobe Flash Player ;"
+"Pour résoudre ce problème, nous proposons de standardiser le nom de "
+"certains logiciels."
+
+#: ../../source/wapt-usage/wapt-reporting.rst:127
+msgid "Normalizing the name of software"
+msgstr "Normaliser les noms d'un logiciel"
 
 #: ../../source/wapt-usage/wapt-reporting.rst:129
-msgid ""
-"on the column :guilabel:`normalized`, press :kbd:`F2` to assign a standardized "
-"name to the selected software. Then press :kbd:`Enter`;"
+msgid "click :guilabel:`Normalize Software Names` in the :guilabel:`Tools` menu;"
 msgstr ""
-"sur la colonne :guilabel:`normalized`, appuyez sur :kbd:`F2` pour attribuer un "
-"nom standardisé au logiciel sélectionné. Puis appuyez sur :kbd:`Entrée` ;"
+"cliquez sur :guilabel:`Normaliser les noms de logiciels` dans le menu "
+":guilabel:`Outils` ;"
+
+#: ../../source/wapt-usage/wapt-reporting.rst:131
+msgid ""
+"select the software to standardize, for example, all different version of"
+" Adobe Flash Player;"
+msgstr ""
+"sélectionner le logiciel à standardiser, par exemple, toutes les "
+"différentes versions d'Adobe Flash Player ;"
 
 #: ../../source/wapt-usage/wapt-reporting.rst:134
 msgid ""
-"to select several programs, select them with the :kbd:`shift-up/down` key "
-"combination;"
+"on the column :guilabel:`normalized`, press :kbd:`F2` to assign a "
+"standardized name to the selected software. Then press :kbd:`Enter`;"
 msgstr ""
-"pour sélectionner plusieurs programmes, sélectionnez-les avec la combinaison "
-"de touches :kbd:`shift-up/down` ;"
+"sur la colonne :guilabel:`normalized`, appuyez sur :kbd:`F2` pour "
+"attribuer un nom standardisé au logiciel sélectionné. Puis appuyez sur "
+":kbd:`Entrée` ;"
 
-#: ../../source/wapt-usage/wapt-reporting.rst:137
+#: ../../source/wapt-usage/wapt-reporting.rst:139
 msgid ""
-"you can also indicate a software like *windows update* or *banned* (Press :kbd:"
-"`spacebar` in the corresponding column);"
+"to select several programs, select them with the :kbd:`shift-up/down` key"
+" combination;"
 msgstr ""
-"vous pouvez aussi indiquer un logiciel comme *windows update* ou *banned* "
-"(Appuyez sur :kbd:`Espace` dans la colonne correspondante) ;"
+"pour sélectionner plusieurs programmes, sélectionnez-les avec la "
+"combinaison de touches :kbd:`shift-up/down` ;"
 
-#: ../../source/wapt-usage/wapt-reporting.rst:140
+#: ../../source/wapt-usage/wapt-reporting.rst:142
+msgid ""
+"you can also indicate a software like *windows update* or *banned* (Press"
+" :kbd:`spacebar` in the corresponding column);"
+msgstr ""
+"vous pouvez aussi indiquer un logiciel comme *windows update* ou *banned*"
+" (Appuyez sur :kbd:`Espace` dans la colonne correspondante) ;"
+
+#: ../../source/wapt-usage/wapt-reporting.rst:145
 msgid "press on :guilabel:`Import` to load the changes from the server;"
 msgstr ""
 "cliquez sur :guilabel:`Importer` pour charger les changements depuis le "
 "serveur ;"
 
-#: ../../source/wapt-usage/wapt-reporting.rst:142
+#: ../../source/wapt-usage/wapt-reporting.rst:147
 msgid "press on :guilabel:`Write` to save your changes;"
 msgstr "cliquez sur :guilabel:`Ecrire` pour sauvegarder vos modifications ;"
 
-#: ../../source/wapt-usage/wapt-reporting.rst:144
+#: ../../source/wapt-usage/wapt-reporting.rst:149
 msgid "You can now run your queries on this standardized name."
 msgstr "Vous pouvez maintenant exécuter vos requêtes avec ce nom standardisé."
+

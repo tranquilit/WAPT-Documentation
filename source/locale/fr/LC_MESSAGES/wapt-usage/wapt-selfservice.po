@@ -7,17 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-02 10:11+0200\n"
+"POT-Creation-Date: 2019-09-16 09:56+0200\n"
 "PO-Revision-Date: 2019-08-02 10:30+0200\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: en\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
-"X-Generator: Poedit 2.2.3\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:8
 #: ../../source/wapt-usage/wapt-selfservice.rst:15
@@ -28,74 +27,80 @@ msgstr "Utiliser le WAPT SelfService"
 msgid "WAPT, selfservice, documentation"
 msgstr "WAPT, self-service, documentation"
 
-#: ../../source/wapt-usage/wapt-selfservice.rst:19
+#: ../../source/wapt-usage/wapt-selfservice.rst:18
 msgid "Presentation"
 msgstr "Présentation"
 
-#: ../../source/wapt-usage/wapt-selfservice.rst:21
+#: ../../source/wapt-usage/wapt-selfservice.rst:20
+#, fuzzy
 msgid ""
-"With WAPT 1.7 you can now filter the list of self-service packages available "
-"for your users."
+"With WAPT 1.7 **Enterprise** you can now filter the list of self-service "
+"packages available for your users."
 msgstr ""
-"Avec WAPT 1.7, vous pouvez maintenant filtrer les paquets en libre-service "
-"disponibles pour vos utilisateurs."
+"Avec WAPT 1.7, vous pouvez maintenant filtrer les paquets en libre-"
+"service disponibles pour vos utilisateurs."
 
-#: ../../source/wapt-usage/wapt-selfservice.rst:24
+#: ../../source/wapt-usage/wapt-selfservice.rst:23
 msgid ""
-"Your users will be able to install a selection of WAPT packages without having "
-"to be a :term:`Local Administrator` on their desktop."
+"Your users will be able to install a selection of WAPT packages without "
+"having to be a :term:`Local Administrator` on their desktop."
 msgstr ""
 "Vos utilisateurs pourront installer une sélection de paquets WAPT sans "
 "nécessiter de droits :term:`Administrateur Local`."
 
-#: ../../source/wapt-usage/wapt-selfservice.rst:27
+#: ../../source/wapt-usage/wapt-selfservice.rst:26
 msgid ""
-"The :term:`Users` gain in autonomy while deploying software and configurations "
-"that are trusted and authorized by the :term:`Organization`. This is a time "
-"saving feature for the Organization's IT support Helpdesk."
+"The :term:`Users` gain in autonomy while deploying software and "
+"configurations that are trusted and authorized by the "
+":term:`Organization`. This is a time saving feature for the "
+"Organization's IT support Helpdesk."
 msgstr ""
-"Les :term:`Utilisateurs` gagnent en autonomie en déployant des logiciels et "
-"des configurations fiables et autorisées par l':term:`Organisation`. Il s'agit "
-"d'un gain de temps pour le service d'assistance informatique de l'Organisation."
+"Les :term:`Utilisateurs` gagnent en autonomie en déployant des logiciels "
+"et des configurations fiables et autorisées par l':term:`Organisation`. "
+"Il s'agit d'un gain de temps pour le service d'assistance informatique de"
+" l'Organisation."
 
-#: ../../source/wapt-usage/wapt-selfservice.rst:32
+#: ../../source/wapt-usage/wapt-selfservice.rst:31
 msgid "How it works?"
 msgstr "Comment ça fonctionne ?"
 
-#: ../../source/wapt-usage/wapt-selfservice.rst:34
+#: ../../source/wapt-usage/wapt-selfservice.rst:33
+#, fuzzy
 msgid ""
-"With WAPT 1.7, a new type of WAPT package exists beside *base*, *group*, "
-"*host* and *unit* packages: they are **selfservice** packages."
+"With WAPT 1.7 **Enterprise**, a new type of WAPT package exists beside "
+"*base*, *group*, *host* and *unit* packages: they are **selfservice** "
+"packages."
 msgstr ""
 "Avec WAPT 1.7, un nouveau type de paquet WAPT existe à côté des paquets "
 "*base*, *group*, *host* et *unit* : ce sont des paquets **self-service**."
 
-#: ../../source/wapt-usage/wapt-selfservice.rst:41
+#: ../../source/wapt-usage/wapt-selfservice.rst:40
 msgid "Create a *selfservice* package"
 msgstr "Créer un paquet *self-service*"
 
-#: ../../source/wapt-usage/wapt-selfservice.rst:43
+#: ../../source/wapt-usage/wapt-selfservice.rst:42
 msgid ""
-"A *selfservice* package may now be deployed on hosts to list the different "
-"self-service rules that apply to the host."
+"A *selfservice* package may now be deployed on hosts to list the "
+"different self-service rules that apply to the host."
 msgstr ""
-"Un package *self-service* peut maintenant être déployé sur les machines pour "
-"lister les différentes règles de self-service qui s'appliquent à la machine."
+"Un package *self-service* peut maintenant être déployé sur les machines "
+"pour lister les différentes règles de self-service qui s'appliquent à la "
+"machine."
 
-#: ../../source/wapt-usage/wapt-selfservice.rst:47
+#: ../../source/wapt-usage/wapt-selfservice.rst:46
 msgid "How to use the **selfservice** feature?"
 msgstr "Comment utiliser la focntionnalité de *self-service* ?"
 
-#: ../../source/wapt-usage/wapt-selfservice.rst:49
+#: ../../source/wapt-usage/wapt-selfservice.rst:48
 msgid "Enterprise"
 msgstr "Enterprise"
 
-#: ../../source/wapt-usage/wapt-selfservice.rst:53
+#: ../../source/wapt-usage/wapt-selfservice.rst:52
 msgid ""
-"Feature only available with WAPT **Enterprise**. In the community version, "
-"only administrator users and members of the \"waptselfservice\" group can "
-"access self-service on the agent. It is not possible to filter the packages "
-"accessible to the user."
+"Feature only available with WAPT **Enterprise**. In the **Community** "
+"version, only Local Administrator users and members of the "
+"*waptselfservice* group can access self-service on the agent. It is not "
+"possible to filter the packages made accessible to the user."
 msgstr ""
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:57
@@ -105,7 +110,8 @@ msgstr "Dans la console, allez dans l'onglet :guilabel:`Règles de self-service`
 #: ../../source/wapt-usage/wapt-selfservice.rst:59
 msgid "You can now create your first *selfservice* rule package."
 msgstr ""
-"Vous pouvez maintenant créer votre premier paquet de règles *self-service*."
+"Vous pouvez maintenant créer votre premier paquet de règles *self-"
+"service*."
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:61
 msgid "give a name to your new *selfservice* package;"
@@ -113,25 +119,27 @@ msgstr "donner un nom au nouveau paquet de *self-service* ;"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:63
 msgid ""
-"click on :guilabel:`Add` to add an Active Directory group (at the bottom left);"
+"click on :guilabel:`Add` to add an Active Directory group (at the bottom "
+"left);"
 msgstr ""
-"cliquer sur :guilabel:`Ajouter` pour ajouter un groupe Active Directory (en "
-"bas à gauche) ;"
+"cliquer sur :guilabel:`Ajouter` pour ajouter un groupe Active Directory "
+"(en bas à gauche) ;"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:65
 msgid ""
-"name the *selfservice* group (with :kbd:`F2` or type directly into the cell);"
+"name the *selfservice* group (with :kbd:`F2` or type directly into the "
+"cell);"
 msgstr ""
-"nommer le groupe *self-service* (avec :kbd:`F2` ou tapez directement dans la "
-"cellule) ;"
+"nommer le groupe *self-service* (avec :kbd:`F2` ou tapez directement dans"
+" la cellule) ;"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:67
 msgid ""
-"drag the allowed software and configuration packages for this *selfservice* "
-"group into the central column;"
+"drag the allowed software and configuration packages for this "
+"*selfservice* group into the central column;"
 msgstr ""
-"faire glisser les paquets logiciels et les paquets de configuration autorisés "
-"pour ce groupe *self-service* dans la colonne centrale ;"
+"faire glisser les paquets logiciels et les paquets de configuration "
+"autorisés pour ce groupe *self-service* dans la colonne centrale ;"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:70
 msgid "add as many groups as you want in the package;"
@@ -144,20 +152,21 @@ msgstr "enregistrer le paquet et le déployer sur une sélection de machines ;"
 #: ../../source/wapt-usage/wapt-selfservice.rst:74
 msgid ""
 "once the package is deployed, only allowed packages listed in the "
-"*selfservice* group(s) of which the :term:`User` is a member will be shown to "
-"the logged in :term:`User`;"
+"*selfservice* group(s) of which the :term:`User` is a member will be "
+"shown to the logged in :term:`User`;"
 msgstr ""
-"une fois le paquet déployé, seuls les paquets autorisés listés dans le(s) "
-"groupe(s) *self-service* dont l':term:`Utilisateur` est membre seront affichés "
-"pour l':term:`Utilisateur` actuellement connecté ;"
+"une fois le paquet déployé, seuls les paquets autorisés listés dans le(s)"
+" groupe(s) *self-service* dont l':term:`Utilisateur` est membre seront "
+"affichés pour l':term:`Utilisateur` actuellement connecté ;"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:80
+#, fuzzy
 msgid ""
-"If a group appears in multiple *selfservice* packages, then the rules will be "
-"merged."
+"If a group appears in multiple *selfservice* packages, then the rules are"
+" merged."
 msgstr ""
-"Si un groupe apparaît dans plusieurs paquets *self-service*, alors les règles "
-"seront fusionnées."
+"Si un groupe apparaît dans plusieurs paquets *self-service*, alors les "
+"règles seront fusionnées."
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:84
 #, fuzzy
@@ -165,107 +174,138 @@ msgid "How to use the selfservice on the user station?"
 msgstr "Comment utiliser la focntionnalité de *self-service* ?"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:86
+#, fuzzy
 msgid ""
-"The self service is accessible to users in the start menu under the name "
-"\"Self service software WAPT\"."
+"The self-service is accessible to users in the start menu under the name "
+":guilabel:`Self-Service software WAPT`."
 msgstr ""
-"Le self service est accessible aux utilisateurs dans le menu démarrer sous le "
-"nom \"Self service logiciels WAPT\"."
+"Le self service est accessible aux utilisateurs dans le menu démarrer "
+"sous le nom \"Self service logiciels WAPT\"."
 
-#: ../../source/wapt-usage/wapt-selfservice.rst:88
+#: ../../source/wapt-usage/wapt-selfservice.rst:89
 msgid "It is also available directly in :file:`<base>\\waptself.exe`"
 msgstr "Il est aussi disponible directement à :file:`<base>\\waptself.exe`"
 
-#: ../../source/wapt-usage/wapt-selfservice.rst:90
+#: ../../source/wapt-usage/wapt-selfservice.rst:91
+#, fuzzy
 msgid ""
-"The login and password to enter when launching the selfservice is a windows "
-"identification (locale or active directory)."
+"The login and password to enter when launching the selfservice are the "
+"User's credentials (local or Active Directory credentials)."
 msgstr ""
-"Les identifiants à entrer au démarrage du self service sont ceux de Windows "
-"(local ou active directory)."
+"Les identifiants à entrer au démarrage du self service sont ceux de "
+"Windows (local ou active directory)."
 
-#: ../../source/wapt-usage/wapt-selfservice.rst:92
+#: ../../source/wapt-usage/wapt-selfservice.rst:94
 msgid ""
-"The self-service then displays a list of packages available for installation."
+"The self-service then displays a list of packages available for "
+"installation."
 msgstr ""
 "Le self service affiche ensuite une liste de paquets disponibles pour "
 "l'installation."
 
-#: ../../source/wapt-usage/wapt-selfservice.rst:98
-msgid "The user can have more details on each package with \"+\"."
-msgstr ""
-"L'utilisateur peut avoir plus de détails sur chaque paquets en cliquant sur le "
-"\"+\"."
-
 #: ../../source/wapt-usage/wapt-selfservice.rst:100
-msgid "Different filter are available for the user on the left side panel."
+#, fuzzy
+msgid ""
+"the user can have more details on each package with the :guilabel:`+` "
+"icon;"
+msgstr ""
+"L'utilisateur peut avoir plus de détails sur chaque paquets en cliquant "
+"sur le \"+\"."
+
+#: ../../source/wapt-usage/wapt-selfservice.rst:102
+#, fuzzy
+msgid "different filters are available for the user on the left side panel;"
 msgstr ""
 "Différents filtres sont disponibles pour l'utilisateur sur le panneau de "
 "gauche."
 
-#: ../../source/wapt-usage/wapt-selfservice.rst:102
-msgid ""
-"The \"Update Catalog\" button is used to force an \"wapt-get update\" on the "
-"wapt agent."
-msgstr ""
-"Le bouton \"mettre à jour le catalogue\" est utilisé pour forcer un \"wapt-get "
-"update\" sur l'agent WAPT."
-
 #: ../../source/wapt-usage/wapt-selfservice.rst:104
+#, fuzzy
 msgid ""
-"The list of package categories is available for user. To add a category to the "
-"list, you must specify the category in the control file of the relevant "
-"package. In the \"categories\" field of the control file."
+"the :guilabel:`Update Catalog` button is used to force a :command:`wapt-"
+"get update` on the wapt agent;"
 msgstr ""
-"La liste des catégories de paquets est disponible pour l'utilisateur. Pour "
-"ajouter une catégorie à la liste, vous devez juste spécifier une nouvelle "
-"catégorie dans le fichier control de paquet souhaité. Précisément dans le "
-"champ \"categories\"."
+"Le bouton \"mettre à jour le catalogue\" est utilisé pour forcer un "
+"\"wapt-get update\" sur l'agent WAPT."
 
-#: ../../source/wapt-usage/wapt-selfservice.rst:106
+#: ../../source/wapt-usage/wapt-selfservice.rst:107
+#, fuzzy
 msgid ""
-"The current task list of the wapt agent is available with the \"task bar\" "
-"button."
+"the list of package categories is dsiplayed to the user. To add a "
+"category to the list, you must specify the category in the *categories* "
+"section of the :file:`control` file of the relevant package;"
 msgstr ""
-"Les tâches actuellement en cours par l'agent wapt sont disponibles en cliquant "
-"sur le bouton \"task bar\"."
+"La liste des catégories de paquets est disponible pour l'utilisateur. "
+"Pour ajouter une catégorie à la liste, vous devez juste spécifier une "
+"nouvelle catégorie dans le fichier control de paquet souhaité. "
+"Précisément dans le champ \"categories\"."
 
-#: ../../source/wapt-usage/wapt-selfservice.rst:108
+#: ../../source/wapt-usage/wapt-selfservice.rst:112
+#, fuzzy
 msgid ""
-"It is possible to change the language of the interface with the configuration "
-"button at the bottom left."
+"the current task list of the wapt agent is available with the "
+"::guilabel:`task bar` button;"
 msgstr ""
-"Il est possible de changer le langage de l'interface en cliquant sur le bouton "
-"de configuration en bas à gauche de l'interface."
+"Les tâches actuellement en cours par l'agent wapt sont disponibles en "
+"cliquant sur le bouton \"task bar\"."
 
-#: ../../source/wapt-usage/wapt-selfservice.rst:111
+#: ../../source/wapt-usage/wapt-selfservice.rst:115
+#, fuzzy
+msgid ""
+"it is possible to change the language of the interface with the "
+":guilabel:`configuration` button at the bottom left."
+msgstr ""
+"Il est possible de changer le langage de l'interface en cliquant sur le "
+"bouton de configuration en bas à gauche de l'interface."
+
+#: ../../source/wapt-usage/wapt-selfservice.rst:119
 msgid "Customization"
 msgstr "Customisation"
 
-#: ../../source/wapt-usage/wapt-selfservice.rst:115
+#: ../../source/wapt-usage/wapt-selfservice.rst:123
 msgid "Feature only available with WAPT **Enterprise**."
 msgstr ""
 "Cette fonctionnalité est uniquement disponible dans la version WAPT "
 "**Enterprise**."
 
-#: ../../source/wapt-usage/wapt-selfservice.rst:117
+#: ../../source/wapt-usage/wapt-selfservice.rst:125
+#, fuzzy
 msgid ""
-"It is possible to Change the logo that appears in the self service interface, "
-"this will allow you to display the logo of your organization for example."
+"It is possible to change the logo that appears in the self-service "
+"interface This will allow you to display the logo of your Organization "
+"for example."
 msgstr ""
 "Il est possible de changer le logo qui apparaît dans l'interface du self-"
-"service, cela vous permet de le remplacer par celui de votre organisation par "
-"exemple."
+"service, cela vous permet de le remplacer par celui de votre organisation"
+" par exemple."
 
-#: ../../source/wapt-usage/wapt-selfservice.rst:119
+#: ../../source/wapt-usage/wapt-selfservice.rst:128
+#, fuzzy
 msgid ""
-"To do this, simply place the logo you want here:  :file:`<wapt>\\\\templates\\"
-"\\waptself-logo.png`"
+"To do this, simply place the logo you want in :file:`<wapt>\\\\templates"
+"\\\\waptself-logo.png`"
 msgstr ""
 "Pour faire cela, placez simplement le logo que vous souhaitez à cet "
 "emplacement :  :file:`<wapt>\\\\templates\\\\waptself-logo.png`"
 
-#: ../../source/wapt-usage/wapt-selfservice.rst:123
-msgid "It is highly recommended to use a PNG file with 200*150px."
+#: ../../source/wapt-usage/wapt-selfservice.rst:133
+#, fuzzy
+msgid "It is highly recommended to use a :file:`.PNG` file"
 msgstr ""
-"Il est hautement recommandé d'utiliser une image PNG de dimension 200*150px."
+"Il est hautement recommandé d'utiliser une image PNG de dimension "
+"200*150px."
+
+#: ../../source/wapt-usage/wapt-selfservice.rst:134
+msgid "with a 200 * 150px resolution."
+msgstr ""
+
+#~ msgid ""
+#~ "Feature only available with WAPT "
+#~ "**Enterprise**. In the community version, "
+#~ "only administrator users and members of"
+#~ " the \"waptselfservice\" group can access"
+#~ " self-service on the agent. It "
+#~ "is not possible to filter the "
+#~ "packages accessible to the user."
+#~ msgstr ""
+
