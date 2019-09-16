@@ -12,10 +12,10 @@
 Changelog
 =========
 
-WAPT-1.7.4-6183 (2019-09-09)
+WAPT-1.7.4-6190 (2019-09-16)
 ----------------------------
 
-(hash 8777fd5f)
+(hash 99f09b9e)
 
 * [Sec] Update python modules python-engineio  and werkzeug to fix vulnerabilities
 
@@ -36,6 +36,8 @@ WAPT-1.7.4-6183 (2019-09-09)
   peewee from 3.6.4 to 3.10
 
   python-socketio from 1.9.0 to 4.3.1
+  
+  python-engineio 3.8.1 to 3.9.3
 
   websocket-client from 0.50 to 0.56
 
@@ -63,9 +65,20 @@ WAPT-1.7.4-6183 (2019-09-09)
 
 * [Fix] use win32api to get local connected IPV4 ip address instead of socket module. In some cases, secoket can't retreive the ip...
 
+* [Fix] "wapt-get unregister" command not working properly
+
 * [New] Waptselfservice : Add option in wapt-get.ini to disable unfiltered packages view of local admin
 
 * [Imp] Waptselfservice  4K improvements.
+
+* [Fix] Waptselfservice 
+
+- packages "restricted" were shown in selfservice / now corrected
+
+- if the repo have no packages segmentation error / now corrected
+
+- if the repo have changed segmentation error / now corrected
+ 
 
 WAPT-1.7.4.6165 (2019-08-02)
 ----------------------------
