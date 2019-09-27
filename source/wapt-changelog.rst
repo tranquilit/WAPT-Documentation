@@ -12,6 +12,25 @@
 Changelog
 =========
 
+WAPT-1.7.4-6196 (2019-09-27)
+----------------------------
+
+(hash f9cb3ebd)
+
+* Revert package naming of waptupgrade to previous one to ease upgrade from previous wapt.
+
+* Increase waptservice_timeout to  20 seconds per default 
+
+* Fix for AD auth when there are non ascii chars (encoding)
+
+* Missing french translations for columns in Import packages grid
+
+* Set a fallback calculated package_uuid in database for old package without package_uuid attribute in db status report
+
+* wapt-scanpackages : add an option to update the local Packages DB table from Packages file index
+
+* add an option to filters maturities
+
 WAPT-1.7.4-6192 (2019-09-17)
 ----------------------------
 
