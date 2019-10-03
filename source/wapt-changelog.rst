@@ -12,6 +12,54 @@
 Changelog
 =========
 
+WAPT-1.7.4-6212 (2019-10-03)
+----------------------------
+
+(hash fc897cfed)
+
+* [Fix] Allow nonascii utf8 encoded user and password for server basic auth
+
+* [Upd] Waptconsole: Default package filtering to x64 and console locale to avoid mistakes when importing.
+
+* [Imp] Waptconsole: increase default Port Socket listening test timeout (for rdp, remote service access etc..) to 3s instead of 200ms...
+
+* [Imp] Waptconsole: Sort Org unit by description in treeview
+
+  Right click change current row selection in Org Ou treeview
+
+* [New] wapt-scanpackages : add an option to update the local Packages DB table from Packages file index
+
+* [Fix] Regression introduced in previous build : maturities 'PROD' and '' are equivalent when filtering allowed packages
+
+* [Fix] Waptconsole: grid headers too small for highdpi.
+
+* [Upd] waptupgrade package filename: keep old naming without 'all' arch (for backward compatibility)
+
+* [Imp] waptservice_timeout = 20 seconds now
+
+* [Fix] AD auth for waptconsole with non ascii chars
+
+* [Imp] Missing french translations for columns in Import packages grid
+
+* [Fix] Be sure to terminate output threads in waptwinutils.run
+
+* [Imp] Avoid showOnTop flickering for VisLoading
+
+* setuphelpers.run_powershell! add $ProgressPreference = "SilentlyContinue" prefix command
+
+* waptservice: protect test of host_cert date if file is deleted outside of service scope
+
+* Improve WaptBaseRepo class : 
+
+  packages cache handling when repo parameters (filters...) are changed
+
+  allow direct setting of cabundle for WaptBaseRepo
+
+  keep a fingerprint of input config parameters
+
+* [Upd] Set a fallback calculated package_uuid value in database for compatbility with old package status reports
+
+
 WAPT-1.7.4-6196 (2019-09-27)
 ----------------------------
 
