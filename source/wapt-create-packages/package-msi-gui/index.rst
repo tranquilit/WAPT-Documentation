@@ -130,6 +130,7 @@ The :program:`PyScripter` IDE allows to edit files in the WAPT package.
 
   PyScripter - Customizing a package with Pyscripter
 
+
 Presentation of Pyscripter
 ++++++++++++++++++++++++++
 

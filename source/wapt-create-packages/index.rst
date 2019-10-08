@@ -41,3 +41,24 @@ and you will quickly become a master of WAPT.
   updatepackage/index.rst
   audit/index.rst
   secret-data/encrypt-paquet.rst
+
+Videos is also available.
+----------------------------------------
+
+
+Creating and deploying an msi package with WAPT 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+.. raw:: html
+
+   <center><iframe width="560" height="315" src="https://www.youtube.com/embed/Z6wr6emPGCU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+
+
+
+Creating, configuring and deploying an exe package with WAPT 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+
+.. raw:: html
+
+   <center><iframe width="560" height="315" src="https://www.youtube.com/embed/z_EN2CBCTcY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>

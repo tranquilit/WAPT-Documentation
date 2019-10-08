@@ -110,6 +110,12 @@ Query examples
   from hosts
   group by 1,2
 
+
+You can also find several example of request on the forum of tranquil it : 
+
+https://forum.tranquil.it/viewforum.php?f=18&sid=b2a0081dd9a8adb5c57386974d691c6d
+
+
 Normalizing software names
 --------------------------
 
@@ -147,3 +153,10 @@ of the software with WAPT.
 * press on :guilabel:`Write` to save your changes;
 
 You can now run your queries on this standardized name.
+
+Demonstration video
+------------------------------------------------------
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/UjBfelmJyKo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

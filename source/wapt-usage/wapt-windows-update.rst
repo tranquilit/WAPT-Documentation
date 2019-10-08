@@ -272,3 +272,12 @@ click on :guilabel:`Trigger the install of pending Windows Updates` button.
   The WAPT Service will enable and start the WUA Service temporarily
   to install the updates. When updates are installed, waptservice will stop
   and disable the WUA service until the next cycle.
+
+
+
+Demonstration video
+------------------------------------------------------
+
+.. raw:: html
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/x36gAaT31Ko" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

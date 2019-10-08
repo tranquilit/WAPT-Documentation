@@ -86,7 +86,7 @@ How to use the selfservice on the user station?
 The self-service is accessible to users in the start menu under the name
 :guilabel:`Self-Service software WAPT`.
 
-It is also available directly in :file:`<base>\waptself.exe`
+It is also available directly in :file:`<base>\\waptself.exe`
 
 The login and password to enter when launching the selfservice
 are the User's credentials (local or Active Directory credentials).
@@ -131,3 +131,11 @@ To do this, simply place the logo you want in
 .. note::
 
    It is highly recommended to use a :file:`.PNG` file with a 200 * 150px resolution.
+   
+   
+Demonstration video
+------------------------------------------------------
+
+.. raw:: html
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/-_sm8KBwDOw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
