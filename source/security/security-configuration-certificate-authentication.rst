@@ -32,28 +32,6 @@ That configuration restricts the visibility of WAPT Server to registered clients
     We advise you to enabe Kerberos or login/password registration in WAPT Server post-configuration.
 
 
-Generate Certificate Authority for Nginx
-"""""""""""""""""""""""""""""""""""""""""""""""
-
-Using :file:`wapt-get.exe` command, generate the Certificate Authority for Nginx :
-
-.. code-block:: bash
-  
-  mkdir c:\nginx_keys
-  wapt-get.exe create-keycert /CA=1 /CodeSigning=0 /NoPrivateKeyPassword /CommonName=wapt-serverauth-ca /ConfigFilename=wapt-get.ini /BaseDir=c:\nginx_keys\
-
-
-Transfer the two generated files on WAPT Server, set **clients_signing_key** and **clients_signing_certificate** values in :file:`/opt/waptserver/conf/waptserver.ini`
-
-.. code-block:: ini
-
-  [options]
-  ...
-  clients_signing_key = /opt/waptserver/nginx/wapt-serverauth-ca.pem
-  clients_signing_certificate = /opt/waptserver/nginx/wapt-serverauth-ca.crt
-
-
-
 Enabling Client-Side Certificate Authentication
 """""""""""""""""""""""""""""""""""""""""""""""
 
