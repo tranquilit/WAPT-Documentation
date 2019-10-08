@@ -90,9 +90,6 @@ Install on Debian Linux
 
   debian/install-debian-base.rst
   debian/install-debian-wapt.rst
-  debian/install-debian-kerberos.rst
-  security/security-install-ssl-certificate.rst
-  security/security-configuration-certificate-authentication
 
 Install on CentOS7
 ------------------
@@ -102,9 +99,6 @@ Install on CentOS7
 
   centos/install-centos-base.rst
   centos/install-centos-wapt.rst
-  centos/install-centos-kerberos.rst
-  security/security-install-ssl-certificate.rst
-  security/security-configuration-certificate-authentication
 
 Install on Microsoft Windows
 ----------------------------
@@ -115,14 +109,3 @@ Install on Microsoft Windows
   windows/index.rst
   windows/change-port.rst
 
-Authenticating WAPT Administrators against Active Directory
------------------------------------------------------------
-
-.. note::
-
-  This feature is only available in WAPT **Enterprise**.
-
-.. toctree::
-  :maxdepth: 1
-
-  security/security-configuration-auth-ad.rst

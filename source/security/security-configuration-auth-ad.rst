@@ -109,5 +109,3 @@ a SSL certificate has been configured for the Domain Controller.
 
 * restart :program:`waptserver` with :code:`systemctl restart waptserver`;
 
-You may go to the documentation on :ref:`installing the WAPT console
-<installing_the_WAPT_console>`!!

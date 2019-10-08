@@ -151,16 +151,6 @@ Asked Questions <wapt_faq>`.
 
 * click on :guilabel:`Finished` to close the installer;
 
-.. note::
-
-   *Kerberos authentication for initial desktop registration* is not available
-   on WAPT Server on Windows. If you require strong authentication
-   for registration, please install a WAPT Server on Linux.
-
-   The post-configuration wizard will generate a self-signed certificate.
-   If you prefer, you may install a :ref:`commercial certificate or a
-   certificate from an internal Certificate Authority <install_ssl_certificate>`.
-
 The WAPT Server on your Windows is ready.
 
 You may go to the documentation on :ref:`installing the waptagent

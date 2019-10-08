@@ -10,12 +10,11 @@
   :keywords: Kerberos, authentication, Debian, WAPT, documentation, RedHat,
              CentOS
 
+
 Configuring Kerberos authentication
 +++++++++++++++++++++++++++++++++++
 
 .. note::
-
-  * this configuration is required when using WAPT **Enterprise** version;
 
   * indeed without Kerberos authentication, you have to either trust initial
     registration or enter a password for each workstation
@@ -27,7 +26,27 @@ Configuring Kerberos authentication
 
   * the kerberos authentication will be used only when registering the device;
 
-.. SUBSTITUTION: kerberos installation instruction
+
+
+Installing the Kerberos components
+""""""""""""""""""""""""""""""""""
+
+For centos
+
+.. code-block:: bash
+
+   yum install krb5-workstation msktutil nginx-mod-http-auth-spnego
+
+For Debian
+
+.. code-block:: bash
+
+   apt-get install krb5-user msktutil libnginx-mod-http-auth-spnego
+
+.. note::
+
+   The feature is not available with a wapt windows server
+
 
 Configuring krb5
 """"""""""""""""
@@ -91,9 +110,6 @@ controller (eg: **srvads.mydomain.lan**).
   and it must return the name that will be used by WAPT agent running
   on client workstations.
 
-.. SUBSTITUTION: change ownership and permission on keytab
-
-
 My wapt server does not have access to a writeable active directory
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -109,7 +125,7 @@ Create a computer account "srvwapt" (with graphical interface)
    
 Create a keytab for this wapt server : 
    
-.. code-block:: bash   
+.. code-block:: batch   
 
    ktpass -out C:\http-krb5.keytab -princ HTTP/srvwapt@MYDOMAIN.LAN rndpass -minpass 64 -crypto all -pType KRB5_NT_PRINCIPAL /mapuser srvwapt$@MYDOMAIN.LAN
    Reset SRVWAPT$'s password [y/n]?  y
@@ -143,19 +159,10 @@ Case of a use of a rodc
 
 * Remember to preload the password of the wapt server with the different rodc server.
 
-.. figure:: ../rodc-preload.png
+.. figure:: rodc-preload.png
   :align: center
   :alt: Preload Password srvwapt account
   
-  
-Test Keytab 
-""""""""""""""""""""""""""""""""""""""""""""""""""""" 
- 
-If a RW or RODC server is available from the wapt server, you can test your keytab with this command :
-
-.. code-block:: bash   
- 
-   kinit -kt /etc/nginx/http-krb5.keytab HTTP/srvwapt@MYDOMAIN.LAN
   
   
 Post-configuring
@@ -176,13 +183,3 @@ and the WAPT Server to use Kerberos authentication.
   /opt/wapt/waptserver/scripts/postconf.sh --force-https
 
 Kerberos authentication is now configured.
-
-.. note::
-
-  The post-configuration script generates a self-signed certificate.
-  If you prefer, you may replace it with a :ref:`commercial certificate or a
-  certificate issued by a Trusted internal Authority of Certification
-  <install_ssl_certificate>`.
-
-Otherwise, go on directly to the next step to :ref:`installing
-the WAPT console <installing_the_WAPT_console>`.

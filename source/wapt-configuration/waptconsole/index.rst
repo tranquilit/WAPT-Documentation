@@ -148,42 +148,6 @@ Setting up the WAPT Server URL
     on the main repository` to download the list of available packages
     from the WAPT repository;
 
-Configuring the verification of certificates
---------------------------------------------
-
-.. attention::
-
-  * it is highly recommended for security reasons to keep HTTPS validation
-    enabled;
-
-  * HTTPS certificate validation ensures security, for more information
-    please refer to :ref:`this documentation on HTTPS certificate verification
-    <HTTPS_certificate_verification>`;
-
-  * for a first time trial of WAPT, it is simpler not to enable this options.
-    This security feature may be enabled later on;
-
-To enable SSL/ TLS certificate validation of WAPT agent connections
-to the WAPT Server, use the following command in a :program:`cmd.exe`
-shell with :term:`Local Administrator` elevated privileges:
-
-.. code-block:: bash
-
-   wapt-get enable-check-certificate
-   net stop waptservice
-   net start waptservice
-
-.. hint::
-
-  HTTPS certificate validation ensures security, for more information
-  please refer to :ref:`the documentation on verifying certificates
-  <activating_HTTPS_certificate_verification>`.
-
-* check that the HTTPS certificate is valid using the following command line:
-
-.. code-block:: bash
-
-   wapt-get update -f
 
 .. _starting-waptconsole:
 

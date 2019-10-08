@@ -60,7 +60,7 @@ Installing the WAPT Server Debian packages:
 .. code-block:: bash
 
     apt-get update
-    apt-get install tis-waptserver tis-waptrepo tis-waptsetup
+    apt-get install tis-waptserver tis-waptsetup
 
 Post-configuring
 """"""""""""""""
@@ -116,10 +116,7 @@ Post-configuring
   * choice #1 allows to register computers without authentication
     (same method as WAPT 1.3). The WAPT server registers all computers that ask;
 
-  * Choice #2 activates the initial registration based on Kerberos.
-    Check only if you have followed the documentation on
-    :ref:`configuring Kerberos authentication for Debian
-    <configure_krb5_auth_debian>`;
+  * Choice #2 activates the initial registration based on Kerberos. (you can activate it later)
 
   * choice #3 does not activate the Kerberos authentication mechanism
     for the initial registering of machines equipped with WAPT.
@@ -203,19 +200,6 @@ Flag            Definition
                 is permanently redirected to 443*
 =============== ================================================================
 
-.. important::
-
-  It is advisable to activate Kerberos authentication if your network requires
-  a high level of security (see :ref:`Enable Kerberos Configuration
-  <configure_krb5_auth_debian>`). The Kerberos authentication answers security
-  problems addressed in :ref:`this section of the documentation
-  <initial_machine_registration>`.
-  **If you are just testing WAPT, you may pass this step of the documentation**.
-
-The post-configuration script generates a self-signed certificate.
-If you prefer, you may replace it with a :ref:`commercial certificate
-or a certificate issued by a Trusted internal Certificate Authority
-<install_ssl_certificate>`.
 
 The WAPT Server is now ready.
 

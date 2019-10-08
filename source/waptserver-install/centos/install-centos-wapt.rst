@@ -116,9 +116,7 @@ Post-configuring
   * choice #1 allows to register computers without authentication
     (same method as WAPT 1.3). The WAPT server registers all computers that ask;
 
-  * Choice #2 activates the initial registration based on Kerberos. Check only
-    if you have followed the documentation on configuring Kerberos
-    authentication for :ref:`CentOS <configure_krb5_auth_centos>`;
+  * Choice #2 activates the initial registration based on Kerberos. (you can activate it later);
 
   * choice #3 does not activate the kerberos authentication mechanism for the
     initial registering of machines equipped with WAPT. The WAPT server will
@@ -201,18 +199,6 @@ Flag            Definition
                 is permanently redirected to 443*
 =============== ================================================================
 
-.. important::
-
-  It is advisable to activate :ref:`Kerberos authentication if your network
-  requires a high level of security <configure_krb5_auth_centos>`.
-  The Kerberos authentication answers security problems addressed
-  in :ref:`this section of the documentation <initial_machine_registration>`.
-  **If you are just testing WAPT, you may pass this step of the documentation**.
-
-The post-configuration script generates a self-signed certificate.
-If you prefer, you may replace it with a :ref:`commercial certificate
-or a certificate issued by a Trusted internal Certificate
-Authority <install_ssl_certificate>`.
 
 The WAPT Server is now ready.
 

@@ -137,7 +137,7 @@ WAPT support and training
   wapt-enterprise.rst
 
 .. toctree::
-  :maxdepth: 1
+  :maxdepth: 2
   :caption: Documentation
 
   waptserver-install/index.rst
@@ -148,6 +148,7 @@ WAPT support and training
   wapt-replication/index.rst
   wapt-create-packages/index.rst
   wapt-common-problems/index.rst
+  security/secure-my-wapt-server.rst
 
 .. toctree::
   :maxdepth: 1

@@ -33,5 +33,4 @@ of the documentation:
 
    ini-file/wapt-get.ini.rst
    ini-file/waptconsole.ini.rst
-   certificate/enable-check-certificate.rst
    ini-file/index.rst

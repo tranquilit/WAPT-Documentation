@@ -110,7 +110,7 @@ The self-service then displays a list of packages available for installation.
   of the relevant package;
 
 * the current task list of the wapt agent is available
-  with the ::guilabel:`task bar` button;
+  with the :guilabel:`task bar` button;
 
 * it is possible to change the language of the interface
   with the :guilabel:`configuration` button at the bottom left.
@@ -130,5 +130,4 @@ To do this, simply place the logo you want in
 
 .. note::
 
-	It is highly recommended to use a :file:`.PNG` file
-  with a 200 * 150px resolution.
+   It is highly recommended to use a :file:`.PNG` file with a 200 * 150px resolution.
