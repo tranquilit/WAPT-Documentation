@@ -66,6 +66,7 @@ we have all files required to build the WAPT agent installer.
 
   * the checkbox :guilabel:`Verify the WAPT Server HTTPS certificate`;
 
+
   * the field :guilabel:`Path to the bundle of certificates` to verify
     the HTTPS certificate of the WAPT Server;
 
@@ -73,17 +74,30 @@ we have all files required to build the WAPT agent installer.
 
   * the field :guilabel:`Organization` to identify the origin of WAPT packages;
 
+  * the field :guilabel:`Sign waptupgrade with both sha256 and sha1` can be ignored because it is only useful when upgrading from version 1.3 ;
+  
+  * the field :guilabel:`Use computer FQDN for UUID` crazy can be checked if you want to uniquely identify your computer from their name rather than from their BIOS serial number;
+
+  * the field :guilabel:`Use computer FQDN for UUID` crazy can be checked if you want to uniquely identify your computer from their name rather than from their BIOS serial number;
+  
+.. danger::
+
+   * The checkbox **Use Kerberos for the initial registration** must be checked
+     **ONLY IF** you have followed the documentation
+     on **Configuring the Kerberos authentication**.
+   
+   * The checkbox **Verify the WAPT Server HTTPS certificate**must be checked
+     **ONLY IF** you have followed the documentation
+     on **Activating the verification of the SSL / TLS certificate**.
+
+
 .. figure:: waptagent-organisation-info.png
   :align: center
   :alt: Fill in the informations on your Organisation
 
   Fill in the informations on your Organisation
+  
 
-.. danger::
-
-   The checkbox **Use Kerberos for the initial registration** must be checked
-   **ONLY IF** you have followed the documentation
-   on **Configuring the Kerberos authentication**.
 
 * provide the password for unlocking the private key:
 
