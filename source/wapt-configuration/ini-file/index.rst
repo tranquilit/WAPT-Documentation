@@ -22,6 +22,8 @@ in :file:`C:\\wapt\\conf\\waptserver.ini`.
 
   **Modifying these files is reserved to advanced users !!**
 
+.. _waptserver_configuration:
+
 Section [option]
 ----------------
 

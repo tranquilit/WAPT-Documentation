@@ -76,6 +76,12 @@ on the ``repo_url`` parameter in :file:`wapt-get.ini`:
 * do not forget to synchronize the :file:`waptwua` folder
   if you are replicating your packages with distant repositories;
 
+
+.. note::
+
+   If in your company, a proxy is needed to go out on the Internet, then be sure to inform this proxy server in the wapt server configuration.
+   :ref:`Configuring the waptserver.ini <waptserver_configuration>`.
+
 Configuring WAPTWUA on the WAPT agent
 -------------------------------------
 
@@ -190,6 +196,12 @@ Windows Updates list tab
 ++++++++++++++++++++++++
 
 The :guilabel:`Windows Update List` tab lists all needed Windows Updates.
+
+.. important::
+
+   The server does not directly scan the wsussc2.cab itself, it lets wua wapt agents do it. 
+   If it is missing from the list of categories, os, kbs ... on this tab, you must run a scan on one of the machines present in the console.
+   If you run a wua scan on a Windows 7 agent, the CAB and Windows 7 files will be displayed on the Windows Update List tab.
 
 The left pane displays updates categories, allowing you to filter by:
 

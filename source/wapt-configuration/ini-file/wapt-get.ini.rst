@@ -35,9 +35,9 @@ Description of available options for the WAPT agent
 
 .. tabularcolumns:: |\\X{5}{12}|\\X{7}{12}|
 
-======================================================= =======================================================================
+======================================================= ==============================================================================================================================================
 Options                                                 Description
-======================================================= =======================================================================
+======================================================= ==============================================================================================================================================
 ``repo_url`` = https://srvwapt.mydomain.lan/wapt        If the field is left empty, the WAPT agent will make a :term:`DNS`
                                                         query on the :term:`SRV` field ``_wapt._tcp.<dnsdomain>`` to find
                                                         the repository (the ``dnsdomain`` attribute must be configured).
@@ -68,8 +68,16 @@ Options                                                 Description
                                                         ``info``, ``warning``, ``critical``.
 
 ``maturities`` = PROD                                   List of packages maturities than can be viewed and installed by
-                                                        WAPT Agent. Default value is ``PROD``. Any value can be used.                                                        
-======================================================= =======================================================================
+                                                        WAPT Agent. Default value is ``PROD``. Any value can be used.    
+														
+``use_fqdn_as_uuid`` = 1                                Allows you to use the fqdn name rather than the uuid BIOS as the unique machine identifier in wapt.	
+
+``waptaudit_task_period`` = 120                         Define the frequency where the agent checks if he has audits to perform. 	
+
+``language`` = en										Allows you to set the list of wapt agent languages ​​to modify the list of packages visible by wapt.		
+
+``host_profiles`` = tis-firefox,tis-java                Allows you to define a wapt package list that the wapt agent must install. 
+======================================================= ==============================================================================================================================================
 
 .. _wapt-get-ini-waptserver:
 .. _wapt-get-ini-kerberos:
