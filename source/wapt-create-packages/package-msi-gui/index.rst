@@ -72,34 +72,6 @@ from the 7-zip official website.
     However, the second method that consists of first testing locally
     the package before uploading is the recommended method.
 
-Build and upload the package
-----------------------------
-
-When the MSI installers are known to have been correctly built,
-you may choose to upload them directly
-by selecting :guilabel:`Build and upload`.
-
-.. figure:: package_wizard_build_upload.png
-  :align: center
-  :alt: Pyscripter - required informations for 7-zip package
-
-  Pyscripter - required informations for 7-zip package
-
-.. figure:: package_build_upload.png
-  :align: center
-  :alt: Validating the package build and upload process
-
-  Validating the package build and upload process
-
-Frequent problems:
-
-* invalid *uninstall key*;
-
-* non-silent setup;
-
-* invalid silent switch;
-
-* creation of useless shortcuts;
 
 Customize the package before build-upload
 -----------------------------------------
@@ -189,3 +161,42 @@ on the :ref:`structure of a WAPT package <structure_wapt-package>`.
 
 To customize a package, please visit the documentation
 on :ref:`customizing your WAPT packages <customizing_your_packages>`.
+
+
+Installation test
+----------------------------------------------------------------------------------
+
+You can then test the launch of an installation on your development station.
+
+.. figure:: run_install.png
+  :align: center
+  
+Python Console allows you to check if the installation went well.
+
+
+Build the package and send to the wapt server
+----------------------------------------------------------------------------------
+
+Once your package ready, you can build it and send it to the wapt server
+
+
+.. figure:: run-build.png
+  :align: center
+  :alt: Option "-i build-upload" of PyScripter project
+
+  Option "-i build-upload" of PyScripter project
+  
+Enter the password of your private key (to sign your wapt package)
+  
+.. figure:: password-key.PNG
+  :align: center
+  
+Enter the username and password to send the wapt package to the server.
+  
+.. figure:: build-upload-login.PNG
+  :align: center
+  
+  
+Your package is now available and visible in your console wapt in the tab tab "private deposit"
+
+Do not forget to click on "update available packages"
