@@ -67,7 +67,7 @@ domain name (i.e. *<MYDOMAIN.LAN>*).
     dns_lookup_realm=false
 
 Retrieving a service keytab
-"""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""
 
 Use the :`command:`kinit` and :command:`klist`. You can use an
 :term:`Administrator` account or any other account with the delegated
@@ -162,6 +162,26 @@ Case of a use of a rodc
 .. figure:: rodc-preload.png
   :align: center
   :alt: Preload Password srvwapt account
+  
+  
+In case you have multiple domains active directory
+""""""""""""""""""""""""""""""""""""""""""""""""""""  
+
+If you have multiple Active Directory domains, you must create one keytab per domain (you the above procedures) :
+
+* http-krb5-domain1.local.keytab
+* http-krb5-domain2.local.keytab
+* http-krb5-domain3.local.keytab
+
+You will then have to merge all these keytab into one :
+
+.. code-block:: bash
+
+    ktutil
+	read_kt http-krb5-domain1.local.keytab
+	read_kt http-krb5-domain2.local.keytab
+	read_kt http-krb5-domain3.local.keytab
+	write_kt http-krb5.keytab
   
   
   
