@@ -180,7 +180,7 @@ has been successfully uploaded to https://srvwapt/wapt/.
   GPOs may be used to deploy the WAPT agent on your Organization's computer.
 
 Package *test-waptupgrade*
-""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""
 
 The ``test-waptupgrade`` package has also been uploaded on the repository.
 
