@@ -12,10 +12,10 @@
 Changelog
 =========
 
-WAPT-1.7.4-6221 (2019-10-15)
+WAPT-1.7.4-6222 (2019-10-15)
 ----------------------------
 
-(hash 0ca3d6f0)
+(hash 1fa9f8c1)
 
 * [Fix] Allow nonascii utf8 encoded user and password for server basic auth
 
