@@ -12,10 +12,10 @@
 Changelog
 =========
 
-WAPT-1.7.4-6212 (2019-10-03)
+WAPT-1.7.4-6221 (2019-10-15)
 ----------------------------
 
-(hash fc897cfed)
+(hash 0ca3d6f0)
 
 * [Fix] Allow nonascii utf8 encoded user and password for server basic auth
 
@@ -26,6 +26,12 @@ WAPT-1.7.4-6212 (2019-10-03)
 * [Imp] Waptconsole: Sort Org unit by description in treeview
 
   Right click change current row selection in Org Ou treeview
+
+* [New] option to set waptservice_password=NOPASSWORD in waptstarter installer
+
+* [Fix] grid sorting for package / version / size of packages
+
+* [Fix] don't create waptconsole link for starter
 
 * [New] wapt-scanpackages : add an option to update the local Packages DB table from Packages file index
 
@@ -2453,7 +2459,7 @@ Installeur waptagent
 * :program:`waptupgrade` fait systématiquement une installation complète
   (pas d'installation incrémentale) ;
 
-Améliorations 1.5.0.12-amo -> 1.5.0.16
+Improvements 1.5.0.12-amo -> 1.5.0.16
 ++++++++++++++++++++++++++++++++++++++
 
 * :file:`setup.py` pas obligatoire pour uninstall ;
@@ -2994,8 +3000,8 @@ Watpserver
 * [ADD] the versions of the WAPT agent, WAPT Server are shown in the main web page
   of the WAPT Server (with a red indicator if there is a problem);
 
-Création de paquets
-+++++++++++++++++++
+Packaging
++++++++++
 
 * [ADD] functions to :program:`setuphelpers` to manage shortcuts:
 
