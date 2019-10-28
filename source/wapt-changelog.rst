@@ -12,6 +12,29 @@
 Changelog
 =========
 
+WAPT-1.7.4-6230 (2019-10-23) (not released)
+----------------------------
+(hash 391d382f)
+
+* return server git hash version and edition in ping and usage_statistics
+
+* be sure to have server_uuid on windows when during setup
+
+* fix for .git partially included in built package manifest
+
+WAPT-1.7.4-6229 (2019-10-23)
+----------------------------
+
+(hash b30b1b1a)
+
+* [Fix] 100% cpu load on one core on waptserver even when Idle. 
+python-engineio upgrade to 3.10.0
+python-socketio upgraded to 4.3.1
+
+* [Imp] Don't try run session_setup on package whic don't have one defined.
+
+Limit text output on console (slow)
+
 WAPT-1.7.4-6223 (2019-10-15)
 ----------------------------
 
