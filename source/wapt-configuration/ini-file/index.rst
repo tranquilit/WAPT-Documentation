@@ -35,9 +35,9 @@ Several options can be defined in the section:
 
 .. tabularcolumns:: |\X{5}{12}|\X{7}{12}|
 
-================================================================= =========================================================================
+================================================================= ==================================================================================================================================================
 Options                                                           Description
-================================================================= =========================================================================
+================================================================= ==================================================================================================================================================
 ``db_name`` = wapt                                                Name of the PostgreSQL database that the WAPT
                                                                   Server will connect to.
 ``db_host`` =                                                     Address of the PostgreSQL server (empty by default,
@@ -64,7 +64,8 @@ Options                                                           Description
 ``allow_unauthenticated_connect`` = False                         Defines whether websocket connexions should be authenticated
 ``http_proxy`` = http://proxy.ad.tranquil.it:3128                 Defines the proxy server to allow the WAPT server to recover
                                                                   its :abbr:`CRL (Certificate Revocation List)`
-================================================================= =========================================================================
+``host_organizational_unit_dn`` = OU=TOTO,OU=TEST,DC=DEMO,DC=LAN  Allows you to force an organizational unit on the wapt agent. (Convenient to assign a fake ou for out-of-domain pc)																  
+================================================================= ==================================================================================================================================================
 
 .. _config_nginx:
 

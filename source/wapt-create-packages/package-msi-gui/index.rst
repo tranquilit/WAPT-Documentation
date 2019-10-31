@@ -56,7 +56,7 @@ from the 7-zip official website.
 
 * Two solutions are available:
 
-  * click on :guilabel:`OK` (recommended) to launch package customization;
+  * click on :guilabel:`Make and edit ....` (recommended) to launch package customization;
 
   * click on :guilabel:`Build and upload` to directly build and upload
     the package.
@@ -80,7 +80,7 @@ Before uploading a package to your WAPT repository, you may choose to customize
 its behavior to your Organization's needs by editing it with
 :program:`PyScripter`.
 
-When creating the package template, click on :guilabel:`OK`.
+When creating the package template, click on :guilabel:`Make and edit ....`.
 
 .. figure:: package_wizard_ok.png
   :align: center

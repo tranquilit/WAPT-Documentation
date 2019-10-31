@@ -137,4 +137,9 @@ Example config file :
         }
 
     }
+	
+.. attention::
+
+   Be careful, wapt does not support crl at the moment, which means that when you delete a machine in the console, it still has access to the wapt repo. 
+   
 

@@ -12,10 +12,42 @@
 Changelog
 =========
 
-WAPT-1.7.4-6212 (2019-10-03)
+WAPT-1.7.4-6232 (2019-10-31) 
 ----------------------------
 
-(hash fc897cfed)
+(hash2090b0e6d52cecfb04f8fa4c279e7c0a0252d6e2
+
+* wapt-get session-setupp : fix bad print in session_setup. regression introduced in b30b1b1a550a4 (1.7.4.6229)
+
+WAPT-1.7.4-6230 (2019-10-23) (not released)
+----------------------------
+(hash 391d382f)
+
+* return server git hash version and edition in ping and usage_statistics
+
+* be sure to have server_uuid on windows when during setup
+
+* fix for .git partially included in built package manifest
+
+WAPT-1.7.4-6229 (2019-10-23)
+----------------------------
+
+(hash b30b1b1a)
+
+* [Fix] 100% cpu load on one core on waptserver even when Idle. 
+python-engineio upgrade to 3.10.0
+python-socketio upgraded to 4.3.1
+
+* [Imp] Don't try run session_setup on package whic don't have one defined.
+
+Limit text output on console (slow)
+
+WAPT-1.7.4-6223 (2019-10-15)
+----------------------------
+
+(hash 86ddeaa2d)
+
+* [Fix] Newlines in packages installs logged output.
 
 * [Fix] Allow nonascii utf8 encoded user and password for server basic auth
 
@@ -26,6 +58,12 @@ WAPT-1.7.4-6212 (2019-10-03)
 * [Imp] Waptconsole: Sort Org unit by description in treeview
 
   Right click change current row selection in Org Ou treeview
+
+* [New] option to set waptservice_password=NOPASSWORD in waptstarter installer
+
+* [Fix] grid sorting for package / version / size of packages
+
+* [Fix] don't create waptconsole link for starter
 
 * [New] wapt-scanpackages : add an option to update the local Packages DB table from Packages file index
 
@@ -2453,7 +2491,7 @@ Installeur waptagent
 * :program:`waptupgrade` fait systématiquement une installation complète
   (pas d'installation incrémentale) ;
 
-Améliorations 1.5.0.12-amo -> 1.5.0.16
+Improvements 1.5.0.12-amo -> 1.5.0.16
 ++++++++++++++++++++++++++++++++++++++
 
 * :file:`setup.py` pas obligatoire pour uninstall ;
@@ -2994,8 +3032,8 @@ Watpserver
 * [ADD] the versions of the WAPT agent, WAPT Server are shown in the main web page
   of the WAPT Server (with a red indicator if there is a problem);
 
-Création de paquets
-+++++++++++++++++++
+Packaging
++++++++++
 
 * [ADD] functions to :program:`setuphelpers` to manage shortcuts:
 
