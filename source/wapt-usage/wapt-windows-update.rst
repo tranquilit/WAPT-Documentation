@@ -93,19 +93,20 @@ You then have several options:
 
 .. tabularcolumns:: |\X{5}{12}|\X{7}{12}|
 
-========================== ==================================== =========================================================================================================================
-Options                    Default Value                        Description
-========================== ==================================== =========================================================================================================================
-``enabled``                False                                Enable or disable WAPTWUA on this machine.
-``offline``                True                                 Defined if the scan should be done using :file:`wsuscn2.cab` files or Online with Microsoft servers
-``allow_direct_download``  False                                Allow direct download of updates from Microsoft servers if the WAPT server is not available
-``default_allow``          False                                Set if missing update is authorized or not by default
-``filter``                 Type='Software' or Type='Driver'     Define the filter to apply for the Windows update scan
-``download_scheduling``    None                                 Set the Windows Update scan recurrence (Will not do anything if *wsus* package rule or :file:`wsuscn2.cab` file have not changed) (ex: 2h)
-``install_scheduling``     None                                 Set the Windows Update install recurrence (Will do nothing if no update is pending) (ex: 2h)
-``install_at_shutdown``    False                                Install update when the machine will shutdown
-``install_delay``          None                                 Set a deferred installation delay before publication in the repository (ex: 7d)
-========================== ==================================== =========================================================================================================================
+============================== ==================================== ======================================================================================================================================================================
+Options                        Default Value                        Description
+============================== ==================================== ======================================================================================================================================================================
+``enabled``                    False                                Enable or disable WAPTWUA on this machine.
+``offline``                    True                                 Defined if the scan should be done using :file:`wsuscn2.cab` files or Online with Microsoft servers
+``allow_direct_download``      False                                Allow direct download of updates from Microsoft servers if the WAPT server is not available
+``default_allow``              False                                Set if missing update is authorized or not by default
+``filter``                     Type='Software' or Type='Driver'     Define the filter to apply for the Windows update scan
+``download_scheduling``        None                                 Set the Windows Update scan recurrence (Will not do anything if *wsus* package rule or :file:`wsuscn2.cab` file have not changed) (ex: 2h)
+``install_scheduling``         None                                 Set the Windows Update install recurrence (Will do nothing if no update is pending) (ex: 2h)
+``install_at_shutdown``        False                                Install update when the machine will shutdown
+``install_delay``              None                                 Set a deferred installation delay before publication in the repository (ex: 7d)
+``allowed_severities``         None									Define a severity list that will be automatically accepted during a wapt windows update scan. ex : Important,Critical,Moderate    
+============================== ==================================== ======================================================================================================================================================================
 
 .. hint::
 
