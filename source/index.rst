@@ -40,7 +40,7 @@ Security Certification
   for WAPT Enterprise Edition 1.5.0.13
 
   Cybersecurity solutions are many and diverse, but not all of them offer
-  the same level of effectiveness, robustness and trust
+  the same level of effectiveness, robustness and trust.
 
   Security Visas that the French cyberdefense agency, ANSSI, delivers allow to
   identify more easily the most reliable security solutions. They are recognized
@@ -103,9 +103,8 @@ Main features
 * reduce your need for support by your IT teams, whose reaction times
   are often long because of their workloads;
 
-* to build a better contact with your IT support teams because IT works better
-  as malfunctions happen less often because of standard, better managed
-  and more predictable software configurations
+* have better working and more predictable IT systems because
+  of standard software configurations;
 
 Source code repository
 ----------------------

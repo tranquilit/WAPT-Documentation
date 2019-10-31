@@ -203,7 +203,7 @@ Operations to follow:
 * change the listening port in the
   :file:`/opt/wapt/.config/syncthing/config.xml` file:
 
-.. code:: xml
+.. code-block:: xml
 
   <gui enabled="true" tls="true" debugging="false">
       <address>0.0.0.0:8384</address>

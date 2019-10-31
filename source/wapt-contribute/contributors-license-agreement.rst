@@ -17,10 +17,11 @@ and to accept larger grants of existing software products.
 These licenses help us achieve our goal of providing reliable and
 long-lived software products through collaborative open source software
 development.
+
 In all cases, contributors retain full rights to use
-their original contributions for any other purpose outside of Apache
-while providing the ASF and its projects the right to distribute
-and build upon their work within WAPT.
+their original contributions for any other purpose outside of WAPT
+while providing WAPT and its projects the right to distribute
+and build upon their work.
 
 Contributor License Agreements
 ==============================
