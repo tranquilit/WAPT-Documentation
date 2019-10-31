@@ -12,6 +12,13 @@
 Changelog
 =========
 
+WAPT-1.7.4-6232 (2019-10-31) 
+----------------------------
+
+(hash2090b0e6d52cecfb04f8fa4c279e7c0a0252d6e2
+
+* wapt-get session-setupp : fix bad print in session_setup. regression introduced in b30b1b1a550a4 (1.7.4.6229)
+
 WAPT-1.7.4-6230 (2019-10-23) (not released)
 ----------------------------
 (hash 391d382f)
