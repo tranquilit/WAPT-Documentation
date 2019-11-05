@@ -18,10 +18,7 @@ By default, all WAPT packages are signed with your private key,
 which already provides a great level of security. However you can
 further improve the security of WAPT.
 
-This documentation is necessary if your network requires
-a high level of security.
-
-To fully secure your WAPT server; you will want to do the following:
+To fully secure your WAPT setup; you will want to do the following:
 
 * enable authenticated registration to filter who is authorized
   to register the device with the WAPT server;
@@ -33,9 +30,10 @@ To fully secure your WAPT server; you will want to do the following:
 * configure authentication against Active Directory to allow
   access to the WAPT console only to authorized WAPT admins;
 
-* enable Client-Side Certificate Authentication to only allow access
-  to authenticated devices (Note: it is especially important
-  if you want to expose your WAPT server to the outside);
+* enable Client-Side Certificate Authentication to only allow
+  authenticated devices to access the WAPT server (Note: it is especially
+  important if you want to expose your WAPT server to the outside
+  in a :abbr:`DMZ (De-Militarized Zone)`);
 
 .. toctree::
   :maxdepth: 4
