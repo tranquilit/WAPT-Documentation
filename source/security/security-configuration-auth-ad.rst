@@ -53,7 +53,7 @@ Enabling Active Directory authentication
 * to enable authentication of the WAPT server on Active Directory,
   configure the file :file:`/opt/wapt/conf/waptserver.ini` as follows:
 
-  .. code-block:: bash
+  .. code-block:: ini
 
     wapt_admin_group_dn=CN=waptadmins,OU=groupes,OU=tranquilit,DC=mydomain,DC=lan
     ldap_auth_server=srvads.mydomain.lan
@@ -99,13 +99,12 @@ a SSL certificate has been configured for the Domain Controller.
     cp cainterne.pem /etc/pki/ca-trust/source/anchors/cainterne.pem
     update-ca-trust
 
-* Once you have setup LDAP SSL/ TLS on your Active Directory (please refer
+* once you have setup LDAP SSL/ TLS on your Active Directory (please refer
   to Microsoft documentation for that), then you can enable support for SSL/
   TLS security for AD in :file:`/opt/wapt/conf/waptserver.ini`:
 
-  .. code-block:: bash
+  .. code-block:: ini
 
-    ldap_auth_ssl_enabled=True
+    ldap_auth_ssl_enabled = True
 
 * restart :program:`waptserver` with :code:`systemctl restart waptserver`;
-

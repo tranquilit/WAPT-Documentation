@@ -6,17 +6,18 @@
    Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
-  :description: Configuring Kerberos authentication on CentOS/ RedHat
+  :description: Configuring Kerberos authentication
   :keywords: Kerberos, authentication, Debian, WAPT, documentation, RedHat,
              CentOS
 
+.. _configuring_kerberos_authentication:
 
 Configuring Kerberos authentication
 +++++++++++++++++++++++++++++++++++
 
 .. note::
 
-  * indeed without Kerberos authentication, you have to either trust initial
+  * without Kerberos authentication, you have to either trust initial
     registration or enter a password for each workstation
     on initial registration;
 
@@ -24,9 +25,7 @@ Configuring Kerberos authentication
     with the WAPT Server <initial_machine_registration>` and :ref:`signing
     inventory updates <signing_inventory_updates>`;
 
-  * the kerberos authentication will be used only when registering the device;
-
-
+  * the Kerberos authentication will be used only when registering the device;
 
 Installing the Kerberos components
 """"""""""""""""""""""""""""""""""
@@ -45,8 +44,7 @@ For Debian
 
 .. note::
 
-   The feature is not available with a wapt windows server
-
+   The feature is not available with a WAPT Windows server
 
 Configuring krb5
 """"""""""""""""
@@ -59,7 +57,7 @@ domain name (i.e. *<MYDOMAIN.LAN>*).
 
   ``default_realm`` must be written with **ALL CAPS**!!
 
-.. code-block:: bash
+.. code-block:: ini
 
   [libdefaults]
     default_realm = MYDOMAIN.LAN
@@ -67,7 +65,7 @@ domain name (i.e. *<MYDOMAIN.LAN>*).
     dns_lookup_realm=false
 
 Retrieving a service keytab
-"""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""
 
 Use the :`command:`kinit` and :command:`klist`. You can use an
 :term:`Administrator` account or any other account with the delegated
@@ -110,81 +108,80 @@ controller (eg: **srvads.mydomain.lan**).
   and it must return the name that will be used by WAPT agent running
   on client workstations.
 
-My wapt server does not have access to a writeable active directory
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+My WAPT server does not have access to a writeable Active Directory
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* Connect to your active directory (Not a RODC)
+* connect to your Active Directory (Not a RODC);
 
-Create a computer account "srvwapt" (with graphical interface)
+* create a computer account *srvwapt*;
 
-* Add a spn on the "srvwapt$" account 
+* add a :abbr:`SPN (Service Principal Name)` on the *srvwapt$* account;
 
 .. code-block:: bash
 
    setspn -A HTTP/srvwapt.mydomain.lan srvwapt
-   
-Create a keytab for this wapt server : 
-   
-.. code-block:: batch   
 
-   ktpass -out C:\http-krb5.keytab -princ HTTP/srvwapt@MYDOMAIN.LAN rndpass -minpass 64 -crypto all -pType KRB5_NT_PRINCIPAL /mapuser srvwapt$@MYDOMAIN.LAN
-   Reset SRVWAPT$'s password [y/n]?  y
-   
-Transfer this file to :file:`/etc/nginx/` (with winscp for example) 
+* create a keytab for this WAPT server:
 
+.. code-block:: batch
 
+     ktpass -out C:\http-krb5.keytab -princ HTTP/srvwapt@MYDOMAIN.LAN rndpass -minpass 64 -crypto all -pType KRB5_NT_PRINCIPAL /mapuser srvwapt$@MYDOMAIN.LAN
+     Reset SRVWAPT$'s password [y/n]?  y
 
-Apply the right to the http-krb5.keytab file
-""""""""""""""""""""""""""""""""""""""""""""""""""""""
+* transfer this file to :file:`/etc/nginx/`
+  (with :program:`winscp` for example);
 
-For Debian :
+* apply the proper access rights to the :file:`http-krb5.keytab` file:
 
-.. code-block:: bash   
+  - on Debian:
 
-   sudo chmod 640 /etc/nginx/http-krb5.keytab
-   sudo chown root:www-data /etc/nginx/http-krb5.keytab
-   
-For Centos : 
+    .. code-block:: bash
 
-.. code-block:: bash
+       sudo chmod 640 /etc/nginx/http-krb5.keytab
+       sudo chown root:www-data /etc/nginx/http-krb5.keytab
 
-    sudo chown root:nginx /etc/nginx/http-krb5.keytab
-    sudo chmod 640 /etc/nginx/http-krb5.keytab
-	
-   
-Case of a use of a rodc
-""""""""""""""""""""""""""""
+  - on Centos:
 
-* For **RODC** Add the srvwapt account to the allowed password group for replication
+    .. code-block:: bash
 
-* Remember to preload the password of the wapt server with the different rodc server.
+        sudo chown root:nginx /etc/nginx/http-krb5.keytab
+        sudo chmod 640 /etc/nginx/http-krb5.keytab
+
+Case of use of a RODC
+"""""""""""""""""""""
+
+* For :abbr:`RODC (Read-Only Domain Controler)`, add the *srvwapt* account
+  to the allowed password group for replication;
+
+* remember to preload the password of the WAPT server
+  with the different RODC servers;
 
 .. figure:: rodc-preload.png
   :align: center
   :alt: Preload Password srvwapt account
-  
-  
-In case you have multiple domains active directory
-""""""""""""""""""""""""""""""""""""""""""""""""""""  
 
-If you have multiple Active Directory domains, you must create one keytab per domain (you the above procedures) :
+In case you have multiple Active Directory domains
+""""""""""""""""""""""""""""""""""""""""""""""""""
 
-* http-krb5-domain1.local.keytab
-* http-krb5-domain2.local.keytab
-* http-krb5-domain3.local.keytab
+If you have multiple Active Directory domains,
+you must create one :file:`keytab` per domain by following the procedure
+above, ex:
 
-You will then have to merge all these keytab into one :
+* :file:`http-krb5-domain1.local.keytab`
+* :file:`http-krb5-domain2.local.keytab`
+* :file:`http-krb5-domain3.local.keytab`
+
+You will then have to merge all these :file:`keytabs`
+into a unique :file:`keytab`:
 
 .. code-block:: bash
 
-    ktutil
+  ktutil
 	read_kt http-krb5-domain1.local.keytab
 	read_kt http-krb5-domain2.local.keytab
 	read_kt http-krb5-domain3.local.keytab
 	write_kt http-krb5.keytab
-  
-  
-  
+
 Post-configuring
 """""""""""""""""
 
@@ -202,4 +199,4 @@ and the WAPT Server to use Kerberos authentication.
 
   /opt/wapt/waptserver/scripts/postconf.sh --force-https
 
-Kerberos authentication is now configured.
+Kerberos authentication will now be configured.

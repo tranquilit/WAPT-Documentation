@@ -9,6 +9,8 @@
     :description: Using valid SSL / TLS certificates for the WAPT Server
     :keywords: certificat, WAPT, SSL / TLS, Certificate Authority, documentation
 
+.. |date| date::
+
 .. _client_side_certificate_authentication:
 
 Configure Client-Side Certificate Authentication
@@ -20,24 +22,32 @@ Configure Client-Side Certificate Authentication
 
   Feature only available with WAPT **Enterprise**.
 
-If your business need a public WAPT server on Internet, it can be secured with **Client-Side Certificate Authentication**. 
+If your business needs a public WAPT server on Internet,
+it can be secured with **Client-Side Certificate Authentication**.
 
-That configuration restricts the visibility of WAPT Server to registered clients only, using the Agent private key generated during registration.
+That configuration restricts the visibility of WAPT Server
+to registered clients only. It is done by relying on the WAPT agent's
+private key generated during registration. It works as follows:
 
-  * The agent sends a CSR to WAPT server which is signed and sent back to WAPT agent. 
-  * Using that signed certificate, the agent can access protected parts of Nginx server
+* the WAPT agent sends a :abbr:`CSR (Certificate Signing Request)`
+  to the WAPT server which the WAPT server signs and sends back to WAPT agent;
+
+* using the signed certificate, the agent can access
+  protected parts of the :program:`Nginx` web server
 
 .. note::
-    
-    We advise you to enabe Kerberos or login/password registration in WAPT Server post-configuration.
 
+    We advise you to enable Kerberos or login/password registration
+    in WAPT Server post-configuration.
 
 Enabling Client-Side Certificate Authentication
 """""""""""""""""""""""""""""""""""""""""""""""
 
-Add a Nginx configuration file :file:`/etc/nginx/certificate-auth.conf`. This file is used to restrict access to specific actions with Certificate Authentication
+* add a :program:`Nginx` configuration file :file:`/etc/nginx/certificate-auth.conf`.
+  This file is used to restrict access to specific actions
+  with Certificate Authentication:
 
-.. code-block:: nginx
+.. code-block:: ini
 
     proxy_set_header X-Ssl-Authenticated $ssl_client_verify;
     proxy_set_header X-Ssl-Client-DN $ssl_client_s_dn;
@@ -45,10 +55,9 @@ Add a Nginx configuration file :file:`/etc/nginx/certificate-auth.conf`. This fi
         return 401;
     }
 
-
 Example config file :
 
-.. code-block:: nginx
+.. code-block:: ini
 
     server {
         listen                      80;
@@ -97,7 +106,7 @@ Example config file :
                 proxy_set_header Expires "Sun, 19 Nov 1978 05:00:00 GMT";
 
                 include /etc/nginx/certificate-auth.conf;
-                
+
                 rewrite ^/(wapt|wapt-host|waptwua)/(.*)$ /$1/$2 break;
                 root "/var/www";
             }
@@ -137,9 +146,10 @@ Example config file :
         }
 
     }
-	
+
 .. attention::
 
-   Be careful, wapt does not support crl at the moment, which means that when you delete a machine in the console, it still has access to the wapt repo. 
-   
-
+   Be careful, as of |date|, WAPT does not support :abbr:`CRL (Certificate
+   Revocation Lists)`, which means that when you delete a machine
+   in the WAPT console, the machine will still have access
+   to the WAPT repository.

@@ -24,12 +24,12 @@ The WAPT agent checks the HTTPS server certificate according
 to the ``verify_cert`` value in section ``[global]``
 in :file:`C:\\Program Files (x86)\\wapt\\wapt-get.ini`.
 
-.. table:: Options for "verify_cert"
+.. table:: Options for ``verify_cert``
   :widths: 30, 50
   :align: center
 
   =============================================================================== =============================================================================================================================================================================================================================================
-  Options for verify_cert                                                         Working principle of the WAPT agent
+  Options for ``verify_cert``                                                     Working principle of the WAPT agent
   =============================================================================== =============================================================================================================================================================================================================================================
   ``verify_cert`` = 0                                                             the WAPT agent will not check the WAPT Server HTTPS certificate
 
@@ -42,9 +42,8 @@ in :file:`C:\\Program Files (x86)\\wapt\\wapt-get.ini`.
 
 .. hint::
 
-   To quickly and easily enable verification of the https certificate, you can use the Pinning method
-
-
+   To quickly and easily enable verification of the https certificate,
+   you can use the *Pinning* method.
 
 Pinning the certificate
 -----------------------
@@ -54,10 +53,11 @@ with a well defined and restricted bundle.
 
 .. hint::
 
-   This method is the easiest when using a self-signed certificate
+   This method is the easiest when using a self-signed certificate.
 
 For this, you need to launch the following commands in the Windows
-:program:`cmd.exe` shell (with elevated privileges if UAC is active).
+:program:`cmd.exe` shell (with elevated privileges if :abbr:`UAC (User Account
+Control)` is active).
 
 If you already have a Windows :program:`cmd.exe` shell open,
 close it and open a new shell so to take into account
@@ -69,29 +69,22 @@ the updated environment variables:
     net stop waptservice
     net start waptservice
 
-
-Validate the certificate by using the following command:
-
- .. code-block:: bash
-
-     wapt-get update
+Validate the certificate with :command:`wapt-get update`
 
 When you have executed the :command:`update` command, make sure that everything
 has gone well, and if in doubt check :ref:`error_run_check_cert`.
 
 .. note::
 
-  the command *enable-check-certificate* downloads the certificate
-  :file:`srvwapt.mydomain.lan.crt` in the folder
-  :file:`C:\\Program Files (x86)\\WAPT\\ssl\\server`
-  ;
+  * the command *enable-check-certificate* downloads the certificate
+    :file:`srvwapt.mydomain.lan.crt` in the folder
+    :file:`C:\\Program Files (x86)\\WAPT\\ssl\\server`;
 
-  it then modifies the file :file:`wapt-get.ini` to specify the value
-  ``verify_cert`` =
-  :file:`C:\\Program Files (x86)\\wapt\\ssl\\server\\srvwapt.mydomain.lan.crt`
-  ;
+  * it then modifies the file :file:`wapt-get.ini` to specify the value
+    ``verify_cert`` =
+    :file:`C:\\Program Files (x86)\\wapt\\ssl\\server\\srvwapt.mydomain.lan.crt`;
 
-  the WAPT agent will now verify certificates using the pinned certificate;
+  * the WAPT agent will now verify certificates using the pinned certificate;
 
 .. attention::
 
@@ -102,12 +95,16 @@ has gone well, and if in doubt check :ref:`error_run_check_cert`.
    your WAPT Server, if you want the WAPT agents to continue to be able
    to establish trusted HTTPS connections.
 
-Use a commercial certificate or certificates provided by your organization;
------------------------------------------------------------------------------------
+How to use a commercial certificate or certificates provided by your organization?
+----------------------------------------------------------------------------------
 
-If the pinning method does not suit you, you can replace the self-signed certificate generated during the installation of wapt.
+If the pinning method does not suit you, you can replace
+the self-signed certificate generated during the installation
+of :program:`WAPT`.
 
-Replace the old certificate with the new one in the folder :file:`/opt/wapt/waptserver/ssl/` (linux) :file:`c:\\wapt\\waptserver\\ssl\\` (windows)
+Replace the old certificate with the new one in the folder
+:file:`/opt/wapt/waptserver/ssl/` (linux) or
+:file:`c:\\wapt\\waptserver\\ssl\\` (windows).
 
 The new key pair must be in PEM encoded Base64 format
 
@@ -125,8 +122,8 @@ The new key pair must be in PEM encoded Base64 format
 
   Example: :code:`echo srvwapt.mydomain.lan.crt ca.crt > cert.pem`
 
-
-For linux servers it is also necessary to replace the rights :
+For linux servers it is also necessary to reset the :abbr:`ACLs (Access Control
+List)`:
 
 .. code-block:: bash
 
@@ -135,33 +132,36 @@ For linux servers it is also necessary to replace the rights :
 
    #Centos :
    chown root:nginx /opt/wapt/waptserver/ssl/*.pem
-   
-   
+
 * restart :program:`Nginx` to take into account the new certificates;
 
-Linux:
+  * Linux:
 
-.. code-block:: bash
+    .. code-block:: bash
 
-  systemctl restart nginx
-  
-Windows: 
+      systemctl restart nginx
 
-.. code-block:: bash
+  * Windows:
 
-  net stop waptnginx
-  net start waptnginx
+    .. code-block:: bash
 
+      net stop waptnginx
+      net start waptnginx
 
-Agent configuration
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Configuring the WAPT agent
+++++++++++++++++++++++++++
 
-For a commercial certificate you can set verify_cert to 1 in wapt-get.ini
+For a commercial certificate you can set ``verify_cert`` = 1
+in :file:`wapt-get.ini`.
 
-For a certificate issued by an internal certificate authority, you must place the certificate in the :file:`C:\\Program Files (x86)\\wapt\\ssl\\server\\ca.crt` folder and specify the certificate path in verify_cert in the agent's wapt-get.ini file.
+For a certificate issued by an internal Certificate Authority,
+you must place the certificate in the
+:file:`C:\\Program Files (x86)\\wapt\\ssl\\server\\ca.crt` folder
+and specify the certificate path in ``verify_cert``
+in the agent's :file:`wapt-get.ini`.
 
-To apply the new configuration to the entire fleet, you can regenerate a wapt agent with the appropriate settings.
-
+To apply the new configuration to your entire fleet,
+you can regenerate a WAPT agent with the appropriate settings.
 
 Verifying the certificate in the WAPT console
 ---------------------------------------------
@@ -170,5 +170,5 @@ When the WAPT console first starts, it reads the content of
 :file:`C:\\Program Files (x86)\\WAPT\\wapt-get.ini` and it builds its configuration
 file :file:`C:\\Users\\admin\\AppData\\Local\\waptconsole\\waptconsole.ini`.
 
-This sets properly the ``verify_cert`` attribute for the HTTPS communication of WAPT console with the WAPT Server.
-
+This properly sets the ``verify_cert`` attribute for the HTTPS communication
+between the WAPT console and the WAPT Server.

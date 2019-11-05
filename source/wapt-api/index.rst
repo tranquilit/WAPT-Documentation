@@ -5,25 +5,27 @@
    Niveau 4 : """"""""""""""""""""
    Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
 
+.. meta::
+ :description: Using the WAPT server APIs
+ :keywords: API, Application Protocol Interface, WAPT, documentation
 
-Use WAPT API
-=================
+.. _using_the_wapt_api:
 
-This documentation does not refer to all the available URLs of APIs but the most useful ones.
+Using the WAPT API
+==================
 
+..note::
 
+  This documentation stub does not describe all the available
+  :abbr:`APIs (Application Protocol Interfaces)`, but the most useful ones.
 
-Use the wapt server API
-----------------------------------
+The file that lists all the available URLs :file:`/opt/wapt/waptserver/server.py`.
 
-The file that lists all the available URLs is here: :file:`/opt/wapt/waptserver/server.py`
-
-We then described some specific urls that may be useful to you.
+URLs are formed by calling the proper command from the WAPT Server, ex:
+https://srvwapt/{command_path}.
 
 upload_host
-++++++++++++++++++++
-
-https://srvwapt/upload_host
++++++++++++
 
 Handle the upload of multiple host packages
 
@@ -44,82 +46,109 @@ Returns:
    Requires basic authentication on the URL (username / password)
 
 api/v3/packages
-++++++++++++++++++++
++++++++++++++++
 
-TODO ... Liste le package
+.. todo::
 
 /api/v3/upload_packages
-++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++
+
+.. todo::
 
 /api/v3/packages_delete
-++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++
+
+.. todo::
 
 /ping
-++++++++++++++++++++++++++++++++++++++++
++++++
+
+.. todo::
 
 /api/v3/trigger_wakeonlan
-+++++++++++++++++++++++++++++++++++
-
-/api/v2/waptagent_version
-+++++++++++++++++++++++++++++++++++
-
-/api/v3/trigger_cancel_task
-+++++++++++++++++++++++++++++++++++
-
-/api/v1/groups
-+++++++++++++++++++++++++++++++++++
-
-/api/v3/get_ad_ou
 +++++++++++++++++++++++++
 
+.. todo::
+
+/api/v2/waptagent_version
++++++++++++++++++++++++++
+
+.. todo::
+
+/api/v3/trigger_cancel_task
++++++++++++++++++++++++++++
+
+.. todo::
+
+/api/v1/groups
+++++++++++++++
+
+.. todo::
+
+/api/v3/get_ad_ou
++++++++++++++++++
+
+.. todo::
+
 /api/v3/hosts_delete
-++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++
+
+.. todo::
 
 /api/v1/hosts
-++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++++++++
+
+.. todo::
 
 /api/v1/host_data
-++++++++++++++++++++++++++++++++++
++++++++++++++++++
+
+.. todo::
 
 /api/v3/hosts_for_package
-++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++
+
+.. todo::
 
 /api/v1/usage_statistics
-++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++
+
+.. todo::
 
 /api/v3/host_tasks_status
-+++++++++++++++++++++++++++++++
++++++++++++++++++++++++++
+
+.. todo::
 
 /api/v3/trigger_host_action
-+++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++
 
+.. todo::
 
-Use the wapt agent API
-----------------------------------
-
+Using the WAPT agent API with WAPT packages
+-------------------------------------------
 
 install
-++++++++++++++++++++
++++++++
 
 http://127.0.0.1:8088
 
 Methods: GET
 
-Args: list wapt package 
+Args: list of WAPT packages
 
 .. note::
 
    Requires basic authentication on the URL (username / password)
-   
-   
-remove   
-++++++++++++++
+
+remove
+++++++
 
 package_download
-++++++++++++++++++++++
+++++++++++++++++
 
 inventory
-++++++++++++++
++++++++++
 
 register
-+++++++++++++++
+++++++++
