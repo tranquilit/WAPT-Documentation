@@ -16,7 +16,7 @@ Simple .exe package
 
 .. note:: Variation compared to MSI
 
-  WAPT prefers MSI installers because most :file:`.exe` are not standardized
+  WAPT prefers MSI installers because most :mimetype:`.exe` are not standardized
   and silent arguments can be different from one piece of software to another.
 
 .. hint::
@@ -137,7 +137,7 @@ has been installed once.
 
 The *uninstall key* is available in the Windows registry:
 
-.. code-block:: console
+.. code-block:: bash
 
   HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall
 
@@ -194,7 +194,7 @@ The *uninstall key* is available in the Windows registry:
   We can notice the correct uninstallation by launching again
   the :command:`wapt-get list-registry` command.
 
-  .. code-block:: console
+  .. code-block:: bash
 
     UninstallKey          Software          Version            Uninstallstring
     --------------------- ----------------- ------------------ ---------------

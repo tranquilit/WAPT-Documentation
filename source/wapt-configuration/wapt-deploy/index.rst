@@ -26,12 +26,12 @@ The second one is automated and relies on :abbr:`GPO (Group Policy Objects)`.
   The :program:`waptagent.exe` installer is available at
   http://wapt.mydomain.lan/wapt/waptagent.exe.
 
-  If you do not sign the :file:`waptagent.exe` installer with a commercial
+  If you do not sign the :program:`waptagent.exe` installer with a commercial
   ``Code Signing`` certificate or a ``Code Signing`` certificate issued
   by the :term:`Certificate Authority` of your Organization
   after having generated it, web browsers will show a warning message
   when downloading the installer. To remove the warning message, you must
-  sign the :file:`.exe` with a ``Code Signing`` certificate that can be verified
+  sign the :mimetype:`.exe` with a ``Code Signing`` certificate that can be verified
   by a CA bundle stored in the machine's certificate store.
 
 .. hint:: When to deploy the WAPT agent manually?
@@ -85,7 +85,7 @@ Installing *waptagent.exe*
 .. hint::
 
   leave :guilabel:`Force-reinstall VC++ enabled` checked. If the option box
-  is ticked it is because the installation is necessary.
+  is ticked it is because its installation is necessary.
 
 .. figure:: wapdeply-select-additional-tasks.png
   :align: center
@@ -163,7 +163,7 @@ Deploying automatically the WAPT agents
     or to your :term:`Organization`;
 
   * or just simply, you prefer to act with your head instead
-    of with your feet ;)
+    of your feet ;)
 
 Deploying the WAPT agents silently
 ++++++++++++++++++++++++++++++++++
@@ -188,7 +188,7 @@ Settings                    Value                                               
 ``/dnsdomain``              mydomain.lan                                                      Domain in :file:`wapt-get.ini` filled in during installation
 ``/wapt_server``            https://srvwapt.mydomain.lan                                      URL of the WAPT server in :file:`wapt-get.ini` filled in during installation
 ``/repo_url``               https://repo1.mydomain.lan/wapt                                   URL of the WAPT repository in :file:`wapt-get.ini` filled in during installation
-``/StartPackages=``         basic-group                                                       Group of WAPT packages to install by default 
+``/StartPackages=``         basic-group                                                       Group of WAPT packages to install by default
 ``/verify_cert=``           1 or relative path :file:`ssl\\server\\srvwapt.mydomain.lan.crt`  Value of ``verify_cert`` entered during installation
 ``/CopyServersTrustedCA``   path to a bundle to copy to :file:`ssl\server`                    Certificate bundle for https connections (to be defined by ``verify_cert``)
 ``/CopypackagesTrustedCA``  path to a certificate bundle to copy into :file:`ssl`             Certificate bundle for verifying package signatures
@@ -321,7 +321,8 @@ Passing arguments
 
 * click on :guilabel:`OK` to go on to the next step;
 
-* apply resulting GPO strategy to the Organization's Computers OU (Organizational Units);
+* apply resulting GPO strategy to the Organization's Computers :abbr:`OU
+  (Organizational Units)`;
 
 Additional arguments available for waptdeploy
 """""""""""""""""""""""""""""""""""""""""""""
@@ -335,10 +336,10 @@ Settings            Value                                                       
 ``--waptsetupurl``  https://wapt/wapt/waptagent.exe                                      Gives explicitly the WAPT agent URL/path to use to download the WAPT agent
 ``--tasks``         autorunTray,installService,installredist2008,autoUpgradePolicy       Sets :program:`waptagent` installation tasks
 ``--wait``          10                                                                   Timeout for installing the WAPT agent.
-``--setupargs=``    /dnsdomain=mydomain.lan /wapt_server= /repo_url=                     Passing additional parameters to :program:`waptagent` 
+``--setupargs=``    /dnsdomain=mydomain.lan /wapt_server= /repo_url=                     Passing additional parameters to :program:`waptagent`
 =================== ==================================================================== ================================================================================================
 
-.. code-block:: console
+.. code-block:: bash
 
   --hash="43254648348435423486"--minversion=1.5.1.23 --waptsetupurl=http://srvwapt.mydomain.lan/waptagent.exe --wait=10
 
@@ -350,7 +351,8 @@ Settings            Value                                                       
 Launching waptdeploy with a scheduled task
 ++++++++++++++++++++++++++++++++++++++++++
 
-You may also choose to launch :program:`waptdeploy` using a scheduled task that has been set by GPO.
+You may also choose to launch :program:`waptdeploy` using a scheduled task
+that has been set by GPO.
 
 .. hint::
 
@@ -375,13 +377,13 @@ and :file:`waptagent.exe`:
 * then create a GPO to set up a scheduled task that will launch
   :program:`waptdeploy`:
 
-  .. code-block:: console
+  .. code-block:: bash
 
     c:\windows\temp\waptdeploy.exe
 
   Arguments:
 
-  .. code-block:: console
+  .. code-block:: bash
 
     --hash="43254648348435423486"--minversion=1.5.1.23 --waptsetupurl=C:\windows\temp\waptagent.exe --wait=10
 

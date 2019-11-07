@@ -378,7 +378,7 @@ Defines the required minimum free disk space to install the package.
 
 Example:
 
-.. code-block:: console
+.. code-block:: bash
 
   installed_size: 254251008
 
@@ -400,7 +400,7 @@ Indicates processes that are impacted when installing a package.
 
 Example:
 
-.. code-block:: console
+.. code-block:: bash
 
   impacted_process : firefox.exe,chrome.exe,iexplorer.exe
 
@@ -420,7 +420,7 @@ Periodicity of execution of audit checks.
 
 Example:
 
-.. code-block:: console
+.. code-block:: bash
 
   audit_schedule : 60
 
@@ -440,7 +440,7 @@ Software editor of the binaries embedded in the WAPT base package.
 
 Example:
 
-.. code-block:: console
+.. code-block:: bash
 
   editor: Mozilla
 
@@ -455,7 +455,7 @@ Keyword list to categorize the WAPT package.
 
 Example:
 
-.. code-block:: console
+.. code-block:: bash
 
   keywords: editeur,bureautique,tableur
 
@@ -470,7 +470,7 @@ Reference of the software license for the embedded software binaries.
 
 Example:
 
-.. code-block:: console
+.. code-block:: bash
 
   licence: GPLV3
 
@@ -485,7 +485,7 @@ Official homepage of the software binaries embedded in the WAPT package.
 
 Example:
 
-.. code-block:: console
+.. code-block:: bash
 
   homepage: https://wapt.fr
 

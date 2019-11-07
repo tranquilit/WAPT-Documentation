@@ -537,7 +537,7 @@ Command :command:`uninstall_cmd` ...
 
 ... returns the silent uninstall command.
 
-.. code-block:: console
+.. code-block:: bash
 
   "C:\Program Files\WinSCP\unins000.exe" /SILENT
 

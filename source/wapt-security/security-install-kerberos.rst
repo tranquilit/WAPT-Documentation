@@ -150,7 +150,7 @@ My WAPT server does not have access to a writeable Active Directory
 Case of use of a RODC
 """""""""""""""""""""
 
-* For :abbr:`RODC (Read-Only Domain Controler)`, add the *srvwapt* account
+* for :abbr:`RODC (Read-Only Domain Controller)`, add the *srvwapt* account
   to the allowed password group for replication;
 
 * remember to preload the password of the WAPT server

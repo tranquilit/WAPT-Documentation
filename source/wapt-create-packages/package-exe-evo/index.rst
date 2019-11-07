@@ -66,7 +66,7 @@ We make changes to the Mozilla Firefox ESR setup accordingly.
   Settings                Default   Description
                           value
   ======================= ========= ================================================
-  ``exe``                  ..       name of the :file:`.exe` file to execute.
+  ``exe``                  ..       name of the :mimetype:`.exe` file to execute.
   ``silentflags``          ..       silent parameters to pass as arguments
                                     to the installer.
   ``key``                  None     software *uninstall key*.
