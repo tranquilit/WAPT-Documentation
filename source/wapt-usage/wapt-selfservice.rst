@@ -80,15 +80,15 @@ You can now create your first *selfservice* rule package.
   If a group appears in multiple *selfservice* packages,
   then the rules are merged.
 
-How to use the selfservice on the user station?
------------------------------------------------
+How to use the self-service on the user station?
+------------------------------------------------
 
 The self-service is accessible to users in the start menu under the name
 :guilabel:`Self-Service software WAPT`.
 
-It is also available directly in :file:`<base>\\waptself.exe`
+It is also available directly in :file:`<base>\\waptself.exe`.
 
-The login and password to enter when launching the selfservice
+The login and password to enter when launching the self-service
 are the User's credentials (local or Active Directory credentials).
 
 The self-service then displays a list of packages available for installation.
@@ -102,14 +102,14 @@ The self-service then displays a list of packages available for installation.
 * different filters are available for the user on the left side panel;
 
 * the :guilabel:`Update Catalog` button is used to force a
-  :command:`wapt-get update` on the wapt agent;
+  :command:`wapt-get update` on the WAPT agent;
 
-* the list of package categories is dsiplayed to the user.
+* the list of package categories is displayed to the user.
   To add a category to the list, you must specify the category
   in the *categories* section of the :file:`control` file
   of the relevant package;
 
-* the current task list of the wapt agent is available
+* the current task list of the WAPT agent is available
   with the :guilabel:`task bar` button;
 
 * it is possible to change the language of the interface
@@ -130,11 +130,11 @@ To do this, simply place the logo you want in
 
 .. note::
 
-   It is highly recommended to use a :file:`.PNG` file with a 200 * 150px resolution.
-   
-   
-Demonstration video
-------------------------------------------------------
+   It is highly recommended to use a :mimetype:`.png` file with a *200 x 150px*
+   resolution.
+
+Video of WAPT self-service feature in action
+--------------------------------------------
 
 .. raw:: html
 
