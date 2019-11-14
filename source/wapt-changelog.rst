@@ -12,6 +12,16 @@
 Changelog
 =========
 
+WAPT-1.7.4-6234 (2019-11-14) 
+----------------------------
+
+(hash ad237eee)
+
+* waptserver : upgrade peewee DB python module to 3.11.2. explicit connection handling to DB to track potential limbo connections (which could lead to db pool exhaustion)
+
+* waptwua : Trap exception when pushing WU to Windows cache to allow valid updates to be installed even if some could not be verified properly.
+
+
 WAPT-1.7.4-6232 (2019-10-31) 
 ----------------------------
 
