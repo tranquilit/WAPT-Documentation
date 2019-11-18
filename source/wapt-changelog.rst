@@ -12,6 +12,17 @@
 Changelog
 =========
 
+WAPT-1.7.4-6237 (2019-11-18) 
+----------------------------
+
+(hash 1c00cefd)
+
+* waptserver : add fix to workaround flask-socketio bug https://github.com/miguelgrinberg/Flask-SocketIO/issues/1054 (AttributeError: 'Request' object has no attribute 'sid')
+
+* waptserver : be sure db is closed before trying to open it (for dev mode)
+
+* waptserver : add logs messages when an exception message is sent back to the user.
+
 WAPT-1.7.4-6234 (2019-11-14) 
 ----------------------------
 
