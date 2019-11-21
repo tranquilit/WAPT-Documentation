@@ -9,7 +9,7 @@
   :description: Replicating a repository to preserve the bandwidth
                 on remote sites
   :keywords: multiple repository, WAPT, replication, replicate,
-             bandwidth, Syncthing 
+             bandwidth, Syncthing
 
 Replicating a repository to preserve the bandwidth on remote sites
 ==================================================================
@@ -46,8 +46,7 @@ It works as follows:
   on your distant sites, Tranquil IT sells inexpensive appliances
   that are pre-configured according to your storage needs (16/30/60Go).
 
-  The appliances are available in our
-  `online shop <https://www.tranquil.it/shop>`_.
+  `Contact us<https://www.tranquil.it/en/contact>`_.
 
 Introducing Syncthing
 ---------------------
