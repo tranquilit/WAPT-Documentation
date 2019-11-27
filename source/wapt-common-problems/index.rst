@@ -23,14 +23,14 @@ It sometimes happens to setup a WAPT Server and then forget its password.
 To reset the WAPT console :term:`SuperAdmin` password you have to relaunch
 the post-configuration process on the WAPT Server.
 
-Reseting the WAPT Linux Server password
-+++++++++++++++++++++++++++++++++++++++
+Resetting the WAPT Linux Server password
+++++++++++++++++++++++++++++++++++++++++
 
 * connect to the server with SSH;
 
 * connect with user root (or use sudo);
 
-* launch post-configuration script :
+* launch post-configuration script:
 
 .. code-block:: bash
 
@@ -78,7 +78,7 @@ To re-sign every WAPT packages using the new key
 
 .. code-block:: bash
 
-  wapt-get sign-packages c:\waptdev\*
+  wapt-get sign-packages C:\\waptdev\\*
 
 My private key has been stolen
 ------------------------------
@@ -87,10 +87,10 @@ My private key has been stolen
 
   **WAPT security relies on protecting your private keys.**
 
-WAPT does not handle key revocation yet
-(:abbr:`CRL (Certificate Revocation List)`).
+WAPT does not handle key revocation yet using a (:abbr:`CRL (Certificate
+Revocation List)`.
 
-The solution consists in deleting every :file:`.crt` certificate associated
+The solution consists in deleting every :mimetype:`.crt` certificate associated
 to the stolen private key, located in the :file:`C:\\Program Files (x86)\\wapt\\ssl`
 folder.
 
@@ -682,7 +682,7 @@ You can check using the Windows Command Line utility:
 
 If the returned key is not that which has been entered in the install section
 of the :file:`setup.py`, it is not possible to use
-the function :command:`install_msi_if_needed`.
+:command:`install_msi_if_needed`.
 
 You must review the install section of your :file:`setup.py`,
 use the :command:`run()` function and manually manage exceptions.
@@ -757,3 +757,6 @@ to solve false positives related to WAPT:
     "C:\wapt\waptagent.exe"
     "C:\wapt\waptconsole.exe"
     "C:\wapt\waptexit.exe"
+    "C:\Windows\Temp\waptdeploy.exe"
+    "C:\Windows\Temp\waptagent.exe"
+    "C:\Windows\Temp\is-?????.tmp\waptagent.tmp"
