@@ -27,8 +27,7 @@ such architectures.
   wapt-replicate-to-multiple-repositories/index.rst
 
 
-Deprecated configuration
-========================
+Deprecated configurations
 
 .. toctree::
   :maxdepth: 1
