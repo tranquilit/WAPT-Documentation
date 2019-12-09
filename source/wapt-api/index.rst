@@ -48,82 +48,82 @@ Returns:
 api/v3/packages
 +++++++++++++++
 
-.. todo::
+:TODO:
 
 /api/v3/upload_packages
 +++++++++++++++++++++++
 
-.. todo::
+:TODO:
 
 /api/v3/packages_delete
 +++++++++++++++++++++++
 
-.. todo::
+:TODO:
 
 /ping
 +++++
 
-.. todo::
+:TODO:
 
 /api/v3/trigger_wakeonlan
 +++++++++++++++++++++++++
 
-.. todo::
+:TODO:
 
 /api/v2/waptagent_version
 +++++++++++++++++++++++++
 
-.. todo::
+:TODO:
 
 /api/v3/trigger_cancel_task
 +++++++++++++++++++++++++++
 
-.. todo::
+:TODO:
 
 /api/v1/groups
 ++++++++++++++
 
-.. todo::
+:TODO:
 
 /api/v3/get_ad_ou
 +++++++++++++++++
 
-.. todo::
+:TODO:
 
 /api/v3/hosts_delete
 ++++++++++++++++++++
 
-.. todo::
+:TODO:
 
 /api/v1/hosts
 +++++++++++++
 
-.. todo::
+:TODO:
 
 /api/v1/host_data
 +++++++++++++++++
 
-.. todo::
+:TODO:
 
 /api/v3/hosts_for_package
 +++++++++++++++++++++++++
 
-.. todo::
+:TODO:
 
 /api/v1/usage_statistics
 ++++++++++++++++++++++++
 
-.. todo::
+:TODO:
 
 /api/v3/host_tasks_status
 +++++++++++++++++++++++++
 
-.. todo::
+:TODO:
 
 /api/v3/trigger_host_action
 +++++++++++++++++++++++++++
 
-.. todo::
+:TODO:
 
 Using the WAPT agent API with WAPT packages
 -------------------------------------------

@@ -41,7 +41,7 @@ WAPT-1.7.4-6232 (2019-10-31)
 * wapt-get session-setupp : fix bad print in session_setup. regression introduced in b30b1b1a550a4 (1.7.4.6229)
 
 WAPT-1.7.4-6230 (2019-10-23) (not released)
-----------------------------
+-------------------------------------------
 (hash 391d382f)
 
 * return server git hash version and edition in ping and usage_statistics
@@ -56,6 +56,7 @@ WAPT-1.7.4-6229 (2019-10-23)
 (hash b30b1b1a)
 
 * [Fix] 100% cpu load on one core on waptserver even when Idle. 
+
 python-engineio upgrade to 3.10.0
 python-socketio upgraded to 4.3.1
 
