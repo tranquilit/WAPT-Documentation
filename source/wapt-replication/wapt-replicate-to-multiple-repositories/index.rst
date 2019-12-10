@@ -50,15 +50,15 @@ It works as follows:
 Introducing WAPT Agent replication role
 ---------------------------------------
 
-Starting with WAPT 1.7.6, repository replication can be enabled using WAPT 
- agent installed on an existing machine or a dedicated appliance or VM.
+Starting with WAPT 1.7.6, repository replication can be enabled using WAPT agent installed on an existing machine or a dedicated appliance or VM.
 
-The replication role is deployed through a WAPT package that enables Nginx web server
- and configures scheduling, packages types, packages sync, and much more.
+The replication role is deployed through a WAPT package that enables Nginx web server and configures scheduling, packages types, packages sync, and much more.
 
 
 Enabling replication on WAPT Agent 
 ++++++++++++++++++++++++++++++++++
+
+To enable replication on an existing agent (Linux/Windows) you need to deploy a WAPT package
 
 :TODO:
 
@@ -67,20 +67,30 @@ WAPT Agent replication configuration
 
 WAPT Agent replication configuration is set in :file:`wapt-get.ini` :
 
-========================= ======================================================
-Options                   Definition
-========================= ======================================================
-TODO                      Use a UPnP port mapping for incoming synchronization
-                          connections.
+==================================== ======================= ======================================================
+Options                              Example value           Definition
+==================================== ======================= ======================================================
+enable_remote_repo                   True                    Enables remote repository sync
+                                                             connections.
+
+local_repo_path                      /var/www/wapt/          Set local repository path
+
+local_repo_time_for_sync_start       22:30                   Set sync start time
+
+local_repo_time_for_sync_stop        05:30                   Set sync stop time
+
+local_repo_sync_task_period          25                      Set sync period 
+
+local_repo_limit_bandwidth           2                       Set sync allowed bandwidth 
+
+remote_repo_dirs                     wapt,waptwua,wapt-host  Set synced folders
+==================================== ======================= ======================================================
 
 
-========================= ======================================================
+WAPT Server need to be aware of repository sync :file:`waptserver.ini` :
 
-
-:TODO:
-
-
-
-
-
-
+==================================== ======================= ======================================================
+Options                              Example value           Definition
+==================================== ======================= ======================================================
+remote_repo_support                  True                    Enables remote repository sync server side (sync.json)
+==================================== ======================= ======================================================
