@@ -54,13 +54,38 @@ Starting with WAPT 1.7.6, repository replication can be enabled using WAPT agent
 
 The replication role is deployed through a WAPT package that enables Nginx web server and configures scheduling, packages types, packages sync, and much more.
 
+Replication behavior
+++++++++++++++++++++
+
+Repository replication in WAPT is now handled by WAPT Agent natively (Enterprise versions only)
+
+It's based on a **sync.json** file which indexes every files present in these folders :
+
+* wapt
+* waptwua
+* wapt-host
+
+By default, only wapt folder is synced, you can select which folder to sync by adding up elements in **remote_repo_dirs** parameters.
+
+Once **enable_remote_repo** is enabled on an agent, it will sync packages locally inside the **local_repo_path** folder.
+
+It will also add that agent in the :file:`Repositories` tab as a Remote repository, enabling new actions such as "Force Sync" or "Check files".
+
+Every parameters of WAPT repository sync must be set in :file:`[repo-sync]` section of :file:`wapt-get.ini`
+
 
 Enabling replication on WAPT Agent 
 ++++++++++++++++++++++++++++++++++
 
-To enable replication on an existing agent (Linux/Windows) you need to deploy a WAPT package
+To enable replication on an existing agent (Linux/Windows) you need to deploy a WAPT package. It's role is to :
 
-:TODO:
+* Install and enable Nginx web server
+* Configure nginx virtualhost
+* Enable remote repository configuration in :file:`wapt-get.ini`
+
+A package is available in our public store to enable repository replication on Windows WAPT agent : **url**
+
+
 
 WAPT Agent replication configuration
 ++++++++++++++++++++++++++++++++++++
