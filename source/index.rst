@@ -148,6 +148,7 @@ WAPT support and training
   wapt-create-packages/index.rst
   wapt-common-problems/index.rst
   wapt-security/secure-my-wapt-server.rst
+  wapt-api/index.rst
 
 .. toctree::
   :maxdepth: 1

@@ -12,7 +12,7 @@ The official Syncthing documentation is available
 `online <https://docs.syncthing.net/>`_.
 
 Implementing the replication
-----------------------------
+++++++++++++++++++++++++++++
 
 .. hint::
 
