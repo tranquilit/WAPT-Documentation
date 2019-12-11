@@ -14,7 +14,7 @@
 Using the WAPT API
 ==================
 
-..note::
+.. note::
 
   This documentation stub does not describe all the available
   :abbr:`APIs (Application Protocol Interfaces)`, but the most useful ones.
@@ -23,6 +23,13 @@ The file that lists all the available URLs :file:`/opt/wapt/waptserver/server.py
 
 URLs are formed by calling the proper command from the WAPT Server, ex:
 https://srvwapt/{command_path}.
+
+
+Python code example
+-------------------
+
+
+API 
 
 upload_host
 +++++++++++
