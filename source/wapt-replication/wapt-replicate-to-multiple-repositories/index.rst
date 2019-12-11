@@ -90,7 +90,7 @@ A package is available in our public store to enable repository replication on W
 WAPT Agent replication configuration
 ++++++++++++++++++++++++++++++++++++
 
-WAPT Agent replication configuration is set in :file:`wapt-get.ini` :
+WAPT Agent replication configuration is set in :file:`[repo-sync]` section of :file:`wapt-get.ini` :
 
 ==================================== ======================= ======================================================
 Options                              Example value           Definition
@@ -98,7 +98,7 @@ Options                              Example value           Definition
 enable_remote_repo                   True                    Enables remote repository sync
                                                              connections.
 
-local_repo_path                      /var/www/wapt/          Set local repository path
+local_repo_path                      /var/www/               Set local root repository path
 
 local_repo_time_for_sync_start       22:30                   Set sync start time
 
@@ -106,9 +106,9 @@ local_repo_time_for_sync_stop        05:30                   Set sync stop time
 
 local_repo_sync_task_period          25                      Set sync period 
 
-local_repo_limit_bandwidth           2                       Set sync allowed bandwidth 
+local_repo_limit_bandwidth           2                       Set sync allowed bandwidth (Mbits/s)
 
-remote_repo_dirs                     wapt,waptwua,wapt-host  Set synced folders
+remote_repo_dirs                     wapt,waptwua,wapt-host  Set synced folders (default: wapt)
 ==================================== ======================= ======================================================
 
 
