@@ -1,5 +1,11 @@
 .. _syncthing_usage:
 
+.. hint::
+
+  WAPT repositories synchronization is now native in WAPT Enterprise. 
+  
+  You can find the new documentation here : :ref:`replication_usage`
+
 (Deprecated) Introducing Syncthing
 ----------------------------------
 
