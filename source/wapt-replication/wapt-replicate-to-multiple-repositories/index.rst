@@ -42,6 +42,7 @@ It works as follows:
   * the WAPT clients connect in priority with the repository
     that is the closest to them, the local repository;
 
+
 .. hint::
 
   The former method used to sync repositories was Syncthing. 
@@ -68,13 +69,13 @@ It's based on a ``sync.json`` file which indexes every files present in these fo
 * waptwua
 * wapt-host
 
-By default, only wapt folder is synced, you can select which folder to sync by adding up elements in ``remote_repo_dirs`` parameters.
+Enabling replication has the following effects :
 
-Once ``enable_remote_repo`` is enabled on an agent, it will sync packages locally inside the ``local_repo_path`` folder.
+* Once ``enable_remote_repo`` is enabled on an agent, it will sync packages locally inside the ``local_repo_path`` folder.
+* It adds that agent in the :guilabel:`Repositories` tab as a Remote repository, enabling new actions such as :guilabel:`Force Sync` or :guilabel:`Check files`.
+* By default, only wapt folder is synced, you can select which folder to sync by adding up elements in ``remote_repo_dirs`` parameters.
 
-It will also add that agent in the :file:`Repositories` tab as a Remote repository, enabling new actions such as "Force Sync" or "Check files".
-
-Every parameters of WAPT repository sync must be set in :file:`[repo-sync]` section of :file:`wapt-get.ini`
+Every parameters of WAPT repository sync must be set in ``[repo-sync]`` section of :file:`wapt-get.ini`
 
 
 Enabling replication on WAPT Agent 
@@ -93,7 +94,7 @@ A package is available in our public store to enable repository replication on W
 WAPT Agent replication configuration
 ++++++++++++++++++++++++++++++++++++
 
-WAPT Agent replication configuration is set in :file:`[repo-sync]` section of :file:`wapt-get.ini` :
+WAPT Agent replication configuration is set in ``[repo-sync]`` section of :file:`wapt-get.ini` :
 
 ==================================== ======================= ====================================================== 
 Options                              Example value           Definition

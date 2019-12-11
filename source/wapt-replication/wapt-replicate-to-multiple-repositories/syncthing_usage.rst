@@ -1,4 +1,5 @@
 
+.. _syncthing_usage:
 
 (Deprecated) Introducing Syncthing
 ----------------------------------
@@ -9,8 +10,6 @@
   
   You can find the new documentation here : :ref:`replication_usage`
   
-
-.. _syncthing_usage:
 
 Syncthing is a multi-OS open source peer to peer synchronization utility.
 
