@@ -69,14 +69,17 @@ Options                                                 Description
 
 ``maturities`` = PROD                                   List of packages maturities than can be viewed and installed by
                                                         WAPT Agent. Default value is ``PROD``. Any value can be used.    
-														
-``use_fqdn_as_uuid`` = 1                                Allows you to use the fqdn name rather than the uuid BIOS as the unique machine identifier in wapt.	
 
-``waptaudit_task_period`` = 120                         Define the frequency where the agent checks if he has audits to perform. 	
+``use_fqdn_as_uuid`` = 1                                Allows you to use the fqdn name rather than the uuid BIOS as the unique machine identifier in wapt.
 
-``language`` = en										Allows you to set the list of wapt agent languages ​​to modify the list of packages visible by wapt.		
+``waptaudit_task_period`` = 120                         Define the frequency where the agent checks if he has audits to perform. 
+
+``locales`` = en                                        Allows you to set the list of wapt agent languages to modify the list of packages visible by wapt (for package filtering). You 
+                                                        can add multiple language (eg. ``locales=fr,en``) in order of preference.
 
 ``host_profiles`` = tis-firefox,tis-java                Allows you to define a wapt package list that the wapt agent must install. 
+
+``language`` = en                                       Force default langauge for GUI (not for package filtering)
 ======================================================= ==============================================================================================================================================
 
 .. _wapt-get-ini-waptserver:
