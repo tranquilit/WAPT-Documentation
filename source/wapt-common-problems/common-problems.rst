@@ -586,18 +586,14 @@ Some packages return the following error in the WAPT console:
 
 .. code-block:: bash
 
-  has been installed but the *uninstall key* can not be found
+  XXX has been installed but the uninstall key can not be found.
 
 Explanation
 """""""""""
 
-WAPT relies on Windows to install MSI and EXE.
-
-* with :command:`install_msi_if_needed` (https://github.com/tranquilit/WAPT/blob/branch-1.3.8/setuphelpers.py#L3498);
-  https://github.com/tranquilit/WAPT/blob/branch-1.5.1/setuphelpers.py#L3717
-
-* with :command:`install_exe_if_needed` (https://github.com/tranquilit/WAPT/blob/branch-1.3.8/setuphelpers.py#L3547);
-  https://github.com/tranquilit/WAPT/blob/branch-1.5.1/setuphelpers.py#L3795
+WAPT relies on Windows to install :mimetype:`.msi` binaries
+with :command:`install_msi_if_needed` and :mimetype:`.exe` binaries
+with :command:`install_exe_if_needed`.
 
 By default, WAPT accepts return codes *0* (OK) and *3010* (computer restart
 required) and it verifies that the *uninstall key* is present.

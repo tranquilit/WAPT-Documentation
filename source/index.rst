@@ -146,7 +146,8 @@ WAPT support and training
   waptserver-backup.rst
   wapt-replication/index.rst
   wapt-create-packages/index.rst
-  wapt-common-problems/index.rst
+  wapt-common-problems/common-problems.rst
+  wapt-common-problems/common-mistakes.rst
   wapt-security/secure-my-wapt-server.rst
 
 .. toctree::
