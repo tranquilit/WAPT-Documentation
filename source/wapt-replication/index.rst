@@ -25,3 +25,11 @@ such architectures.
 
   wapt-work-with-repositories/index.rst
   wapt-replicate-to-multiple-repositories/index.rst
+
+
+Deprecated configurations
+
+.. toctree::
+  :maxdepth: 1
+
+  wapt-replicate-to-multiple-repositories/syncthing_usage.rst

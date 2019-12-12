@@ -41,6 +41,7 @@ coverage.xml
 *.log
 
 # Sphinx documentation
+build/
 docs/_build/
 source/.doctrees/
 source/_build/
