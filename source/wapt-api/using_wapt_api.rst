@@ -86,6 +86,24 @@ API V1
     parsed = json.loads(hosts_wapt)
     print(json.dumps(parsed, indent=1, sort_keys=True))
 
+  .. hint::
+
+     This is the same exemple with a simple html request:
+
+     .. code-block:: console
+  
+         https://admin:MYPASSWORD@srvwapt/api/v1/hosts
+
+     This one just show request with reachable status, the computer name, its connected ips and its mac addresses. Display limit is 10000
+
+     .. code-block:: console
+
+        https://admin:MYPASSWORD@srvwapt/api/v1/hosts?columns=reachable,computer_fqdn,connected_ips,mac_addresses&limit=10000
+  
+
+
+
+
 /api/v1/groups
 ++++++++++++++
 
@@ -96,6 +114,18 @@ API V1
     group_wapt = wgets('https://%s:%s@%s/api/v1/groups' % (wapt_user,wapt_password,wapt_url))
     parsed = json.loads(group_wapt)
     print(json.dumps(parsed, indent=1, sort_keys=True))
+
+
+  .. hint::
+
+     This is the same exemple with a simple html request:
+
+     .. code-block:: console
+  
+         https://admin:MYPASSWORD@srvwapt/api/v1/groups
+
+  
+
 
 /api/v1/host_data
 +++++++++++++++++
@@ -112,8 +142,8 @@ dmi
     #      uuid=<uuid>
     #      field=packages, dmi or softwares
 
-Example: get *dmi* information of host which has UUID 14F620FF-DE70-9E5B-996A-B597E8F9B4CB:
-https://srvwapt.ad.test.fr/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4CB&field=dmi
+Example: get *dmi* information of host which has UUID 14F620FF-DE70-9E5B-996A-B597E8F9B4AD:
+https://srvwapt.ad.mydomain.fr/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD&field=dmi
 
 .. note::
 
@@ -122,10 +152,20 @@ https://srvwapt.ad.test.fr/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F
 
 .. code-block:: python
 
-    dmi_host_data_wapt = wgets('https://%s:%s@%s/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4CB&field=dmi' % (wapt_user,wapt_password,wapt_url))
+    dmi_host_data_wapt = wgets('https://%s:%s@%s/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD&field=dmi' % (wapt_user,wapt_password,wapt_url))
     #print(dmi_host_data_wapt)
     parsed = json.loads(dmi_host_data_wapt)
     print(json.dumps(parsed, indent=1, sort_keys=True))
+
+
+.. hint::
+
+   This is the same exemple with a simple html request:
+
+   .. code-block:: console
+  
+      https://admin:MYPASSWORD@srvwapt/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD&field=dmi
+
 
 installed_packages
 """"""""""""""""""
@@ -134,9 +174,19 @@ Option *installed_packages* will list all packages installed on a specific host.
 
 .. code-block:: python
 
-  install_packages_data_wapt = wgets('https://%s:%s@%s/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4CB&field=installed_packages' % (wapt_user,wapt_password,wapt_url))
+  install_packages_data_wapt = wgets('https://%s:%s@%s/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD&field=installed_packages' % (wapt_user,wapt_password,wapt_url))
   parsed = json.loads(install_packages_data_wapt)
   print(json.dumps(parsed, indent=1, sort_keys=True))
+
+
+.. hint::
+
+   This is the same exemple with a simple html request:
+
+   .. code-block:: console
+  
+      https://admin:MYPASSWORD@srvwapt/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD&field=installed_packages
+
 
 installed_softwares
 """""""""""""""""""
@@ -146,10 +196,20 @@ on a specific host.
 
 .. code-block:: python
 
-  install_softwares_data_wapt = wgets('https://%s:%s@%s/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4CB&field=installed_softwares' % (wapt_user,wapt_password,wapt_url))
+  install_softwares_data_wapt = wgets('https://%s:%s@%s/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD&field=installed_softwares' % (wapt_user,wapt_password,wapt_url))
   #print(install_softwares_data_wapt)
   parsed = json.loads(install_softwares_data_wapt)
   print(json.dumps(parsed, indent=1, sort_keys=True))
+
+.. hint::
+
+   This is the same exemple with a simple html request:
+
+   .. code-block:: console
+  
+      https://admin:MYPASSWORD@srvwapt/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD&field=installed_softwares
+
+
 
 wsusupdates
 """""""""""
@@ -158,10 +218,21 @@ Option *wsusupdates* will list all windows update installed on a specific host.
 
 .. code-block:: python
 
-    wsusupdates_data_wapt = wgets('https://%s:%s@%s/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4CB&field=wsusupdates' % (wapt_user,wapt_password,wapt_url))
+    wsusupdates_data_wapt = wgets('https://%s:%s@%s/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD&field=wsusupdates' % (wapt_user,wapt_password,wapt_url))
     #print(wsusupdates_data_wapt)
     parsed = json.loads(wsusupdates_data_wapt)
     print(json.dumps(parsed, indent=1, sort_keys=True))
+
+
+.. hint::
+
+   This is the same exemple with a simple html request:
+
+   .. code-block:: console
+  
+      https://admin:MYPASSWORD@srvwapt/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD&field=wsusupdates
+
+
 
 /api/v1/usage_statistics
 ++++++++++++++++++++++++
@@ -180,6 +251,17 @@ Get usage statistics from the server.
   parsed = json.loads(usage_statistics_wapt)
   print(json.dumps(parsed, indent=1, sort_keys=True))
 
+
+.. hint::
+
+   This is the same exemple with a simple html request:
+
+   .. code-block:: console
+  
+      https://admin:MYPASSWORD@srvwapt/api/v1/usage_statistics
+
+
+
 API V2
 ------
 
@@ -193,6 +275,17 @@ Display :program:`waptagent.exe` version on the server.
     waptagent_version =  wgets('https://%s:%s@%s/api/v2/waptagent_version' % (wapt_user,wapt_password,wapt_url))
     parsed = json.loads(waptagent_version)
     print(json.dumps(parsed, indent=1, sort_keys=True))
+
+
+.. hint::
+
+   This is the same exemple with a simple html request:
+
+   .. code-block:: console
+  
+      https://admin:MYPASSWORD@srvwapt/api/v2/waptagent_version
+
+
 
 API V3
 ------
@@ -208,6 +301,17 @@ List packages on the repository, get control file on package.
   parsed = json.loads(packages_wapt)
   print(json.dumps(parsed, indent=1, sort_keys=True))
 
+
+.. hint::
+
+   This is the same exemple with a simple html request:
+
+   .. code-block:: console
+  
+      https://admin:MYPASSWORD@srvwapt/api/v3/packages
+
+
+
 /api/v3/known_packages
 ++++++++++++++++++++++
 
@@ -218,6 +322,16 @@ List all packages with last *signed_on* information.
   known_packages_wapt =  wgets('https://%s:%s@%s/api/v3/known_packages' % (wapt_user,wapt_password,wapt_url))
   parsed = json.loads(known_packages_wapt)
   print(json.dumps(parsed, indent=1, sort_keys=True))
+
+.. hint::
+
+   This is the same exemple with a simple html request:
+
+   .. code-block:: console
+  
+      https://admin:MYPASSWORD@srvwapt/api/v3/known_packages
+
+
 
 /api/v3/trigger_cancel_task
 +++++++++++++++++++++++++++
@@ -246,6 +360,17 @@ in the WAPT console.
   parsed = json.loads(get_ad_ou)
   print(json.dumps(parsed, indent=1, sort_keys=True))
 
+
+.. hint::
+
+   This is the same exemple with a simple html request:
+
+   .. code-block:: console
+  
+      https://admin:MYPASSWORD@srvwapt/api/v3/get_ad_ou
+
+
+
 /api/v3/get_ad_sites
 ++++++++++++++++++++
 
@@ -253,9 +378,19 @@ List Active Directory sites.
 
 .. code-block:: python
 
-  get_ad_sites =  wgets('https://%s:%s@%s/api/v3/get_ad_ou' % (wapt_user,wapt_password,wapt_url))
+  get_ad_sites =  wgets('https://%s:%s@%s/api/v3/get_ad_sites' % (wapt_user,wapt_password,wapt_url))
   parsed = json.loads(get_ad_sites)
   print(json.dumps(parsed, indent=1, sort_keys=True))
+
+.. hint::
+
+   This is the same exemple with a simple html request:
+
+   .. code-block:: console
+  
+      https://admin:MYPASSWORD@srvwapt/api/v3/get_ad_sites
+
+
 
 /api/v3/hosts_for_package
 +++++++++++++++++++++++++
@@ -269,19 +404,42 @@ https://srvwapt.ad.domain.fr/api/v3/hosts_for_package?package=demo-namepackage
   parsed = json.loads(hosts_for_package)
   print(json.dumps(parsed, indent=1, sort_keys=True))
 
+
+.. hint::
+
+   This is the same exemple with a simple html request:
+
+   .. code-block:: console
+  
+      https://admin:MYPASSWORD@srvwapt/api/v3/hosts_for_package?package=demo-namepackage
+
+
+
+
 /api/v3/host_tasks_status
 +++++++++++++++++++++++++
 
 List tasks on a particular host.
 
 Example with host uuid:
-https://srvwapt.ad.domain.fr/api/v3/host_tasks_status?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4CB
+https://srvwapt.ad.domain.fr/api/v3/host_tasks_status?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD
 
 .. code-block:: python
 
-  host_tasks_status =  wgets('https://%s:%s@%s/api/v3/host_tasks_status?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4CB' % (wapt_user,wapt_password,wapt_url))
+  host_tasks_status =  wgets('https://%s:%s@%s/api/v3/host_tasks_status?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD' % (wapt_user,wapt_password,wapt_url))
   parsed = json.loads(host_tasks_status)
   print(json.dumps(parsed, indent=1, sort_keys=True))
+
+
+.. hint::
+
+   This is the same exemple with a simple html request:
+
+   .. code-block:: console
+  
+      https://admin:MYPASSWORD@srvwapt/api/v3/host_tasks_status?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD
+
+
 
 .. attention::
 
@@ -393,9 +551,9 @@ and a list of host uuids.
 
   .. code-block:: bash
 
-    curl --insecure -X POST --data-raw '{"uuids":["04F98281-7D37-B35D-8803-8577E0049D15","14F620FF-DE70-9E5B-996A-B597E8F9B4CB"]}' -H "Content-Type: application/json" "https://admin:MYPASSWORD@srvwapt/api/v3/trigger_wakeonlan"
+    curl --insecure -X POST --data-raw '{"uuids":["04F98281-7D37-B35D-8803-8577E0049D15","14F620FF-DE70-9E5B-996A-B597E8F9B4AD"]}' -H "Content-Type: application/json" "https://admin:MYPASSWORD@srvwapt/api/v3/trigger_wakeonlan"
 
-    {"msg": "Wakeonlan packets sent to 2 machines.", "result": [{"computer_fqdn": "win10-1803.ad.domain.fr", "mac_addresses": ["02:4f:25:74:67:71"], "uuid": "14F620FF-DE70-9E5B-996A-B597E8F9B4CB"}, {"computer_fqdn": "win10-1809.ad.alejeune.fr", "mac_addresses": ["7e:c4:f4:9a:87:2d"], "uuid": "04F98281-7D37-B35D-8803-8577E0049D15"}], "success": true, "request_time": null}
+    {"msg": "Wakeonlan packets sent to 2 machines.", "result": [{"computer_fqdn": "win10-1803.ad.domain.fr", "mac_addresses": ["02:4f:25:74:67:71"], "uuid": "14F620FF-DE70-9E5B-996A-B597E8F9B4AD"}, {"computer_fqdn": "win10-1809.ad.alejeune.fr", "mac_addresses": ["7e:c4:f4:9a:87:2d"], "uuid": "04F98281-7D37-B35D-8803-8577E0049D15"}], "success": true, "request_time": null}
 
 /api/v3/hosts_delete
 ++++++++++++++++++++
