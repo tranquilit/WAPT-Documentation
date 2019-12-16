@@ -116,11 +116,11 @@ msgstr ""
 
 #: ../../source/wapt-create-packages/session-setup/index.rst:56
 msgid ""
-"The WAPT agent stores in its local database (:file:`C:\\\Program Files "
-"(x86)\\\wapt\\\waptdb.sqlite`) the instruction sets of all WAPT packages."
+"The WAPT agent stores in its local database (:file:`C:\\Program Files "
+"(x86)\\wapt\\waptdb.sqlite`) the instruction sets of all WAPT packages."
 msgstr ""
 "WAPT enregistre en base locale les instructions de tous les paquets dans le "
-"fichier :file:`C:\\\Program Files (x86)\\\wapt\\\waptdb.sqlite`."
+"fichier :file:`C:\\Program Files (x86)\\wapt\\waptdb.sqlite`."
 
 #: ../../source/wapt-create-packages/session-setup/index.rst:62
 msgid ""
@@ -132,12 +132,12 @@ msgstr ""
 
 #: ../../source/wapt-create-packages/session-setup/index.rst:65
 msgid ""
-"The WAPT agent stores in is local :file:`%appdata%\\\wapt\\\waptsession."
+"The WAPT agent stores in is local :file:`%appdata%\\wapt\\waptsession."
 "sqlite` database the instances of :command:`session_setup` that have been "
 "already been played."
 msgstr ""
 "Le :command:`session_setup` va enregistrer dans le fichier :file:`%appdata%\\"
-"\\wapt\\\waptsession.sqlite` les :command:`session_setup` déjà exécutées."
+"\\wapt\\waptsession.sqlite` les :command:`session_setup` déjà exécutées."
 
 #: ../../source/wapt-create-packages/session-setup/index.rst:69
 msgid ""

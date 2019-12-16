@@ -73,8 +73,8 @@ msgid "the name of hosts or the the name of the server;"
 msgstr "le nom des machines et du serveur ;"
 
 #: ../../source/waptserver-install/index.rst:51
-msgid "the path to the folder :file:`C:\\\waptdev`;"
-msgstr "le chemin ver le répertoire :file:`C:\\\waptdev` ;"
+msgid "the path to the folder :file:`C:\\waptdev`;"
+msgstr "le chemin ver le répertoire :file:`C:\\waptdev` ;"
 
 #: ../../source/waptserver-install/index.rst:54
 msgid "Hardware recommendations"

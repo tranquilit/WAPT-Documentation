@@ -282,11 +282,11 @@ msgstr ""
 #: ../../source/wapt-usage/wapt-selfservice.rst:128
 #, fuzzy
 msgid ""
-"To do this, simply place the logo you want in :file:`<wapt>\\\\templates"
-"\\\\waptself-logo.png`"
+"To do this, simply place the logo you want in :file:`<wapt>\\templates"
+"\\waptself-logo.png`"
 msgstr ""
 "Pour faire cela, placez simplement le logo que vous souhaitez à cet "
-"emplacement :  :file:`<wapt>\\\\templates\\\\waptself-logo.png`"
+"emplacement :  :file:`<wapt>\\templates\\waptself-logo.png`"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:133
 #, fuzzy

@@ -1138,8 +1138,8 @@ msgid ""
 msgstr "Chemin vers le certificat associée a la clé privé pour signer les paquets"
 
 #: ../../source/wapt-usage/wapt-console-detail.rst:569
-msgid ":file:`C:\\\\private\\\\mykey.crt`"
-msgstr ":file:`C:\\\\private\\\\mykey.crt`"
+msgid ":file:`C:\\private\\mykey.crt`"
+msgstr ":file:`C:\\private\\mykey.crt`"
 
 #: ../../source/wapt-usage/wapt-console-detail.rst:573
 msgid ""
@@ -1178,8 +1178,8 @@ msgstr ""
 "développement"
 
 #: ../../source/wapt-usage/wapt-console-detail.rst:595
-msgid ":file:`C:\\\\waptdev`"
-msgstr ":file:`C:\\\\waptdev`"
+msgid ":file:`C:\\waptdev`"
+msgstr ":file:`C:\\waptdev`"
 
 #: ../../source/wapt-usage/wapt-console-detail.rst:596
 msgid "HTTP proxy to use"

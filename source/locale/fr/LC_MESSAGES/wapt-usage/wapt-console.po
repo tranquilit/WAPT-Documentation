@@ -294,8 +294,8 @@ msgstr ""
 "suivants :"
 
 #: ../../source/wapt-usage/wapt-console.rst:190
-msgid ":file:`C:\\\Program Files (x86)\\\wapt\\\ssl`;"
-msgstr ":file:`C:\\\Program Files (x86)\\\wapt\\\ssl` ;"
+msgid ":file:`C:\\Program Files (x86)\\wapt\\ssl`;"
+msgstr ":file:`C:\\Program Files (x86)\\wapt\\ssl` ;"
 
 #: ../../source/wapt-usage/wapt-console.rst:192
 msgid ":file:`%appdata%\\waptconsole\\ssl`;"

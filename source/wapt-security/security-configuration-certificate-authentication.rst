@@ -6,26 +6,26 @@
    Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
-    :description: Using valid SSL / TLS certificates for the WAPT Server
+    :description: Configuring Client-Side Certificate Authentication
     :keywords: certificat, WAPT, SSL / TLS, Certificate Authority, documentation
 
 .. |date| date::
 
 .. _client_side_certificate_authentication:
 
-Configure Client-Side Certificate Authentication
-+++++++++++++++++++++++++++++++++++++++++++++++++++++
+Configuring Client-Side Certificate Authentication
+++++++++++++++++++++++++++++++++++++++++++++++++++
 
 .. versionadded:: 1.7 Enterprise
 
 .. hint::
 
-  Feature only available with WAPT **Enterprise**.
+  This feature is only available with WAPT **Enterprise**.
 
 If your business needs a public WAPT server on Internet,
 it can be secured with **Client-Side Certificate Authentication**.
 
-That configuration restricts the visibility of WAPT Server
+That configuration restricts the visibility of the WAPT Server
 to registered clients only. It is done by relying on the WAPT agent's
 private key generated during registration. It works as follows:
 
@@ -33,11 +33,11 @@ private key generated during registration. It works as follows:
   to the WAPT server which the WAPT server signs and sends back to WAPT agent;
 
 * using the signed certificate, the agent can access
-  protected parts of the :program:`Nginx` web server
+  protected parts of the :program:`Nginx` web server;
 
 .. note::
 
-    We advise you to enable Kerberos or login/password registration
+    We advise you to enable Kerberos or login / password registration
     in WAPT Server post-configuration.
 
 Enabling Client-Side Certificate Authentication
@@ -55,7 +55,7 @@ Enabling Client-Side Certificate Authentication
         return 401;
     }
 
-Example config file :
+Example config file:
 
 .. code-block:: ini
 

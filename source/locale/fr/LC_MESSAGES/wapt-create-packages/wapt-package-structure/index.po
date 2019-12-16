@@ -853,10 +853,10 @@ msgstr "Exemple :"
 #: ../../source/wapt-create-packages/wapt-package-structure/index.rst:385
 msgid ""
 "The testing of available free disk space is done on the "
-":file:`C:\\\\Program Files` folder."
+":file:`C:\\Program Files` folder."
 msgstr ""
 "Le test d'espace disque disponible est fait sur le dossier "
-":file:`C:\\\\Program Files`."
+":file:`C:\\Program Files`."
 
 #: ../../source/wapt-create-packages/wapt-package-structure/index.rst:388
 msgid "The value set in *installed_size* must be in bytes."
@@ -1156,11 +1156,11 @@ msgstr "A l'installation du paquet, :program:`wapt-get` vérifie :"
 msgid ""
 "that the signature of :file:`manifest.sha256` matches the actual "
 ":file:`manifest.sha256` file (the agent will verify the public "
-"certificates in :file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl` );"
+"certificates in :file:`C:\\Program Files (x86)\\wapt\\ssl` );"
 msgstr ""
 "que la signature du :file:`manifest.sha256` correspond bien au fichier "
 ":file:`manifest.sha256` actuel (l\\'agent testera les certificats publics"
-" présents dans :file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl`) ;"
+" présents dans :file:`C:\\Program Files (x86)\\wapt\\ssl`) ;"
 
 #: ../../source/wapt-create-packages/wapt-package-structure/index.rst:626
 msgid ""

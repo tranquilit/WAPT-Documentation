@@ -700,12 +700,12 @@ msgstr ""
 #: ../../source/wapt-concept/index.rst:341
 msgid ""
 "If the WAPT package signature does not match any of the public keys "
-"located in :file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl`, the WAPT "
+"located in :file:`C:\\Program Files (x86)\\wapt\\ssl`, the WAPT "
 "agent will refuse to install the package."
 msgstr ""
 "Si l'agent WAPT ne parvient pas à vérifier le paquet avec les chaînes de "
-"certificats publics qu'il connaît dans :file:`C:\\\\Program Files "
-"(x86)\\\\wapt\\\\ssl`, l'agent WAPT refusera d'installer paquet."
+"certificats publics qu'il connaît dans :file:`C:\\Program Files "
+"(x86)\\wapt\\ssl`, l'agent WAPT refusera d'installer paquet."
 
 #: ../../source/wapt-concept/index.rst:345
 msgid ""
@@ -1200,11 +1200,11 @@ msgstr ""
 #: ../../source/wapt-concept/index.rst:600
 msgid ""
 "Packages to be installed will be downloaded and cached in the folder "
-":file:`C:\\\\Program Files (x86)\\\\wapt\\\\cache`."
+":file:`C:\\Program Files (x86)\\wapt\\cache`."
 msgstr ""
 "Si des paquets sont en attente d'installation, ils seront automatiquement"
-" téléchargés dans le dossier :file:`C:\\\\Program Files "
-"(x86)\\\\wapt\\\\cache`."
+" téléchargés dans le dossier :file:`C:\\Program Files "
+"(x86)\\wapt\\cache`."
 
 #: ../../source/wapt-concept/index.rst:603
 msgid ""

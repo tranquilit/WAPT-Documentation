@@ -50,11 +50,11 @@ msgstr "La commande :command:`makepath` ..."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:31
 msgid ""
-"... makes the path variable for :file:`C:\\\\Program Files "
-"(x86)\\\\Mozilla\\\\Firefox`."
+"... makes the path variable for :file:`C:\\Program Files "
+"(x86)\\Mozilla\\Firefox`."
 msgstr ""
-"... fabrique la variable pour le chemin :file:`C:\\\\Program Files "
-"(x86)\\\\Mozilla\\\\Firefox`."
+"... fabrique la variable pour le chemin :file:`C:\\Program Files "
+"(x86)\\Mozilla\\Firefox`."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:35
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:53
@@ -119,8 +119,8 @@ msgstr "La commande :command:`mkdirs` ..."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:49
 #, fuzzy
-msgid "... creates the directory :file:`C:\\\\test`."
-msgstr "... crée le répertoire :file:`C:\\\test`."
+msgid "... creates the directory :file:`C:\\test`."
+msgstr "... crée le répertoire :file:`C:\\test`."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:58
 msgid "Commande :command:`remove_tree` ..."
@@ -128,8 +128,8 @@ msgstr "La commande :command:`remove_tree` ..."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:64
 #, fuzzy
-msgid "... destroys the directory :file:`C:\\\\tmp\\\\target`."
-msgstr "... détruit le répertoire :file:`C:\\\tmp\\\target`."
+msgid "... destroys the directory :file:`C:\\tmp\\target`."
+msgstr "... détruit le répertoire :file:`C:\\tmp\\target`."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:71
 msgid ""
@@ -152,10 +152,10 @@ msgstr "La commande :command:`isdir` ..."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:83
 msgid ""
-"... checks if :file:`C:\\\\Program Files (x86)\\\\software` is a "
+"... checks if :file:`C:\\Program Files (x86)\\software` is a "
 "directory."
 msgstr ""
-"... vérifie que :file:`C:\\\\Program Files (x86)\\\\software` est un "
+"... vérifie que :file:`C:\\Program Files (x86)\\software` est un "
 "répertoire."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:90
@@ -173,10 +173,10 @@ msgstr "La commande :command:`isfile` ..."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:99
 msgid ""
-"... checks if :file:`C:\\\\Program Files (x86)\\\\software\\\\file` is a "
+"... checks if :file:`C:\\Program Files (x86)\\software\\file` is a "
 "file."
 msgstr ""
-"... vérifie que :file:`C:\\\\Program Files (x86)\\\\software\\\\file` est"
+"... vérifie que :file:`C:\\Program Files (x86)\\software\\file` est"
 " un fichier."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:103
@@ -198,11 +198,11 @@ msgstr "La commande :command:`dir_is_empty` ..."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:118
 msgid ""
-"... checks that directory :file:`C:\\\\Program Files (x86)\\\\software` "
+"... checks that directory :file:`C:\\Program Files (x86)\\software` "
 "is empty."
 msgstr ""
-"... vérifie que le répertoire :file:`C:\\\\Program Files "
-"(x86)\\\\software` est vide."
+"... vérifie que le répertoire :file:`C:\\Program Files "
+"(x86)\\software` est vide."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:128
 msgid "Copying a file"
@@ -214,11 +214,11 @@ msgstr "La commande :command:`filecopyto` ..."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:136
 msgid ""
-"... copies :file:`file.txt` into the :file:`C:\\\\Program Files "
-"(x86)\\\\software` directory."
+"... copies :file:`file.txt` into the :file:`C:\\Program Files "
+"(x86)\\software` directory."
 msgstr ""
 "... copie le fichier :file:`file.txt` dans le répertoire "
-":file:`C:\\\\Program Files (x86)\\\\software`."
+":file:`C:\\Program Files (x86)\\software`."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:147
 msgid "Copying a directory"
@@ -230,11 +230,11 @@ msgstr "La commande :command:`copytree2` ..."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:155
 msgid ""
-"... copies the :file:`sources` folder into the :file:`C:\\\\projet` "
+"... copies the :file:`sources` folder into the :file:`C:\\projet` "
 "directory."
 msgstr ""
 "... copie le dossier :file:`sources` dans le répertoire "
-":file:`C:\\\\projet`."
+":file:`C:\\projet`."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:166
 msgid "Retrieving the version of a file"
@@ -264,11 +264,11 @@ msgstr "La commande :command:`registry_readstring` ..."
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:196
 msgid ""
 "... checks if registry key *{8A69D345-D564-463c-AFF1-A69D9E530F96}* "
-"exists in registry path :file:`SOFTWARE\\\\Google\\\\Update\\\\Clients` "
+"exists in registry path :file:`SOFTWARE\\Google\\Update\\Clients` "
 "of *HKEY_LOCAL_MACHINE*."
 msgstr ""
 "... vérifie que la clé *{8A69D345-D564-463c-AFF1-A69D9E530F96}* existe "
-"dans le répertoire :file:`SOFTWARE\\\\Google\\\\Update\\\\Clients` de la "
+"dans le répertoire :file:`SOFTWARE\\Google\\Update\\Clients` de la "
 "ruche *HKEY_LOCAL_MACHINE*."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:205
@@ -287,12 +287,12 @@ msgstr "Afficher la valeur d'une clé de registre"
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:216
 msgid ""
 "... reads the value *{8A69D345-D564-463c-AFF1-A69D9E530F96}* stored in "
-"the registry path :file:`SOFTWARE\\\\Google\\\\Update\\\\Clients` of "
+"the registry path :file:`SOFTWARE\\Google\\Update\\Clients` of "
 "*HKEY_LOCAL_MACHINE*."
 msgstr ""
 "... lit la valeur de la clé *{8A69D345-D564-463c-AFF1-A69D9E530F96}* "
 "inscrite dans le répertoire "
-":file:`SOFTWARE\\\\Google\\\\Update\\\\Clients` de la ruche "
+":file:`SOFTWARE\\Google\\Update\\Clients` de la ruche "
 "*HKEY_LOCAL_MACHINE*."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:228
@@ -306,11 +306,11 @@ msgstr "La commande :command:`registry_setstring` ..."
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:236
 msgid ""
 "... modifies the value of the registry key *TOUVersion* stored in the "
-"registry path :file:`SOFTWARE\\\\Microsoft\\\\Windows Live` of "
+"registry path :file:`SOFTWARE\\Microsoft\\Windows Live` of "
 "*HKEY_CURRENT_USER*."
 msgstr ""
 "... modifie la valeur de la clé *TOUVersion* dans le répertoire "
-":file:`SOFTWARE\\\\Microsoft\\\\Windows Live` de la ruche "
+":file:`SOFTWARE\\Microsoft\\Windows Live` de la ruche "
 "*HKEY_CURRENT_USER*."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:244
@@ -336,13 +336,13 @@ msgstr "La commande :command:`create_desktop_shortcut` ..."
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:258
 msgid ""
 "... creates the shortcut *WAPT Console Management* into "
-":file:`C:\\\\Users\\\\Public` directory pointing to :file:`C:\\\\Program "
-"Files (x86)\\\\wapt\\\\waptconsole.exe`; the shortcut is available for "
+":file:`C:\\Users\\Public` directory pointing to :file:`C:\\Program "
+"Files (x86)\\wapt\\waptconsole.exe`; the shortcut is available for "
 "all users."
 msgstr ""
 "... crée le raccourci :guilabel:`WAPT Console Management` dans le "
-"répertoire :file:`C:\\\\Users\\\\Public` pointant vers l'exécutable "
-":program:`C:\\\\Program Files (x86)\\\\wapt\\\\waptconsole.exe` ; le "
+"répertoire :file:`C:\\Users\\Public` pointant vers l'exécutable "
+":program:`C:\\Program Files (x86)\\wapt\\waptconsole.exe` ; le "
 "raccourci est ajouté pour tous les utilisateurs."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:267
@@ -360,10 +360,10 @@ msgstr "La commande :command:`remove_desktop_shortcut` ..."
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:275
 msgid ""
 "... deletes the *WAPT Console Management* shortcut from the folder "
-":file:`C:\\\\Users\\\\Public`; the shortcut is deleted for all users."
+":file:`C:\\Users\\Public`; the shortcut is deleted for all users."
 msgstr ""
 "... supprime le raccourci :guilabel:`WAPT Console Management` du "
-"répertoire :file:`C:\\\\Users\\\\Public` ; le raccourci est supprimé pour"
+"répertoire :file:`C:\\Users\\Public` ; le raccourci est supprimé pour"
 " tous les utilisateurs."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:283
@@ -389,11 +389,11 @@ msgstr "La commande :command:`create_user_desktop_shortcut` ..."
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:298
 msgid ""
 "... creates the shortcut *WAPT Console Management* on user desktop "
-"pointing to :file:`C:\\\\Program Files (x86)\\\\wapt\\\\waptconsole.exe`."
+"pointing to :file:`C:\\Program Files (x86)\\wapt\\waptconsole.exe`."
 msgstr ""
 "... crée le raccourci :guilabel:`WAPT Console Management` sur le bureau "
-"de l'utilisateur pointant vers l'exécutable :program:`C:\\\\Program Files"
-" (x86)\\\\wapt\\\\waptconsole.exe`."
+"de l'utilisateur pointant vers l'exécutable :program:`C:\\Program Files"
+" (x86)\\wapt\\waptconsole.exe`."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:306
 msgid ""
@@ -487,10 +487,10 @@ msgstr "La commande :command:`programfiles64` ..."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:382
 msgid ""
-"... returns native Program Files directory, eg. :file:`C:\\\\Program "
+"... returns native Program Files directory, eg. :file:`C:\\Program "
 "Files (x86)` on either win64 or win32 architecture."
 msgstr ""
-"Renvoie le répertoire natif du programme, c.à.d. :file:`C:\\\\Program "
+"Renvoie le répertoire natif du programme, c.à.d. :file:`C:\\Program "
 "Files (x86)` pour les architecture win64 et win32."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:389
@@ -518,10 +518,10 @@ msgstr "La commande :command:`user_appdata` ..."
 #, python-format
 msgid ""
 "... returns roaming *AppData* profile path of logged on user "
-"(:file:`C:\\\\Users\\\\%username%\\\\AppData\\\\Roaming`)."
+"(:file:`C:\\Users\\%username%\\AppData\\Roaming`)."
 msgstr ""
 "... renvoie le profil *appdata* itinérant de l'utilisateur courant "
-"(:file:`C:\\\\Users\\\\%username%\\\\AppData\\\\Roaming`)."
+"(:file:`C:\\Users\\%username%\\AppData\\Roaming`)."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:418
 msgid ""
@@ -539,10 +539,10 @@ msgstr "La commande :command:`user_local_appdata` ..."
 #, python-format
 msgid ""
 "... returns the local *AppData* profile path of the logged on user "
-"(:file:`C:\\\\Users\\\\%username%\\\\AppData\\\\Local`)."
+"(:file:`C:\\Users\\%username%\\AppData\\Local`)."
 msgstr ""
 "... renvoie le profil *appdata* local de l'utilisateur courant "
-"(:file:`C:\\\\Users\\\\%username%\\\\AppData\\\\Local`)."
+"(:file:`C:\\Users\\%username%\\AppData\\Local`)."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:434
 msgid ""

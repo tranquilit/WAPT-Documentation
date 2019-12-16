@@ -67,12 +67,12 @@ msgstr "Le multi-dépôts avec WAPT"
 #: ../../source/wapt-replication/wapt-work-with-repositories/index.rst:36
 msgid ""
 "When using repositories with different signers, the additional signer's public "
-"certificates must be added to :file:`C:\\\Program Files (x86)\\\wapt\\\ssl`. "
+"certificates must be added to :file:`C:\\Program Files (x86)\\wapt\\ssl`. "
 "You then must deploy WAPT agent with both keys."
 msgstr ""
 "Dans le cas où les paquets peuvent être signés avec deux clés privées "
 "différentes, il faudra ajouter les différents certificats publics dans le "
-"dossier :file:`C:\\\Program Files (x86)\\\wapt\\\ssl` de l'agent WAPT "
+"dossier :file:`C:\\Program Files (x86)\\wapt\\ssl` de l'agent WAPT "
 "déployé."
 
 #: ../../source/wapt-replication/wapt-work-with-repositories/index.rst:40
@@ -141,7 +141,7 @@ msgstr ""
 msgid ""
 "To do so, modify :file:`%appdata%\\local\\waptconsole\\waptconsole.ini` file:"
 msgstr ""
-"Pour cela, modifier le fichier :file:`%appdata%\\\..\\\local\\\waptconsole\\"
+"Pour cela, modifier le fichier :file:`%appdata%\\..\\local\\waptconsole\\"
 "\\waptconsole.ini` :"
 
 #~ msgid "Dedicated section for a secondary repository:"

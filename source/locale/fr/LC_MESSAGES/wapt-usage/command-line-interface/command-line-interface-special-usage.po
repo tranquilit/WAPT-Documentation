@@ -78,12 +78,12 @@ msgstr "wapt-get download"
 #, fuzzy
 msgid ""
 "The :code:`wapt-get download <package name>` command downloads the WAPT "
-"package to the local cache located at :file:`C:\\\\Program "
+"package to the local cache located at :file:`C:\\Program "
 "Files\\wapt\\cache`."
 msgstr ""
 "La commande :code:`wapt-get download <nom du paquet>` télécharge le "
-"paquet dans le cache local WAPT : :file:`C:\\\\Program Files "
-"(x86)\\\\wapt\\\\cache`."
+"paquet dans le cache local WAPT : :file:`C:\\Program Files "
+"(x86)\\wapt\\cache`."
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:45
 msgid "The command :code:`wapt-get download tis-7zip` returns:"
@@ -96,12 +96,12 @@ msgstr "wapt-get download-upgrade"
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:57
 msgid ""
 "The:code:`wapt-get download-upgrade`command downloads packages to be "
-"upgraded to the local WAPT cache :file:`C:\\\\Program Files "
+"upgraded to the local WAPT cache :file:`C:\\Program Files "
 "(x86)\\wapt\\cache`."
 msgstr ""
 "La commande :code:`wapt-get download-upgrade` télécharge les paquets à "
 "mettre à jour, en prévision de leur installation, dans le cache local "
-"WAPT :file:`C:\\\\Program Files (x86)\\\\wapt\\\\cache`."
+"WAPT :file:`C:\\Program Files (x86)\\wapt\\cache`."
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:60
 msgid "The command :code:`wapt-get download-upgrade` returns:"
@@ -561,11 +561,11 @@ msgstr ""
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:290
 msgid ""
-"The downloaded certificate is stored in :file:`C:\\\\Program "
-"Files(x86)\\\\wapt\\ssl\\\\server`."
+"The downloaded certificate is stored in :file:`C:\\Program "
+"Files(x86)\\wapt\\ssl\\server`."
 msgstr ""
-"Le certificat téléchargé est stocké dans :file:`C:\\\\Program Files "
-"(x86)\\\\wapt\\\\ssl\\\\server`."
+"Le certificat téléchargé est stocké dans :file:`C:\\Program Files "
+"(x86)\\wapt\\ssl\\server`."
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:293
 msgid "The command :code:`wapt-get get-server-certificate` returns:"

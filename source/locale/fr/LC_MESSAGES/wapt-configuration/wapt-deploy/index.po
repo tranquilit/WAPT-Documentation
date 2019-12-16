@@ -385,8 +385,8 @@ msgid "``/verify_cert=``"
 msgstr "``/verify_cert=``"
 
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:192
-msgid "1 or relative path :file:`ssl\\\\server\\\\srvwapt.mydomain.lan.crt`"
-msgstr "1 ou chemin relatif :file:`ssl\\\\server\\\\srvwapt.mydomain.lan.crt`"
+msgid "1 or relative path :file:`ssl\\server\\srvwapt.mydomain.lan.crt`"
+msgstr "1 ou chemin relatif :file:`ssl\\server\\srvwapt.mydomain.lan.crt`"
 
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:192
 msgid "Value of ``verify_cert`` entered during installation"
@@ -398,7 +398,7 @@ msgstr "``/CopyServersTrustedCA``"
 
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:193
 msgid "path to a bundle to copy to :file:`ssl\\server`"
-msgstr "chemin vers un bundle à copier dans :file:`ssl\\\\server`"
+msgstr "chemin vers un bundle à copier dans :file:`ssl\\server`"
 
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:193
 msgid ""
@@ -423,10 +423,10 @@ msgstr "Bundle de certificats pour vérifier la signature des paquets"
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:199
 msgid ""
 "The :file:`iss` file for the InnoSetup installer is available here: "
-":file:`C:\\\\Program Files (x86)\\\\wapt\\\\waptsetup\\\\waptsetup.iss`."
+":file:`C:\\Program Files (x86)\\wapt\\waptsetup\\waptsetup.iss`."
 msgstr ""
 "Le fichier :file:`iss` de l'installeur InnoSetup est disponible ici : "
-":file:`C:\\\\Program Files (x86)\\\\wapt\\\\waptsetup\\\\waptsetup.iss`."
+":file:`C:\\Program Files (x86)\\wapt\\waptsetup\\waptsetup.iss`."
 
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:202
 msgid ""
@@ -716,19 +716,19 @@ msgstr ""
 
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:363
 #, fuzzy
-msgid "Source : :file:`\\\\mydomain.lan\\\\netlogon\\\\waptagent.exe`"
+msgid "Source : :file:`\\mydomain.lan\\netlogon\\waptagent.exe`"
 msgstr ""
-"Source : :file:`\\\\mydomain.lan\\\n"
-"etlogon\\\\waptagent.exe` Destination : :file:`C:\\\\windows\\\t"
-"emp\\\\waptagent.exe`"
+"Source : :file:`\\mydomain.lan\\n"
+"etlogon\\waptagent.exe` Destination : :file:`C:\\windows\\t"
+"emp\\waptagent.exe`"
 
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:364
 #, fuzzy
-msgid "Destination : :file:`C:\\\\windows\\\\temp\\\\waptagent.exe`"
+msgid "Destination : :file:`C:\\windows\\temp\\waptagent.exe`"
 msgstr ""
-"Source : :file:`\\\\mydomain.lan\\\n"
-"etlogon\\\\waptagent.exe` Destination : :file:`C:\\\\windows\\\t"
-"emp\\\\waptagent.exe`"
+"Source : :file:`\\mydomain.lan\\n"
+"etlogon\\waptagent.exe` Destination : :file:`C:\\windows\\t"
+"emp\\waptagent.exe`"
 
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:370
 msgid "WAPT agent installation progress"
@@ -792,7 +792,7 @@ msgstr "Configuration de la gestion de l'alimentation"
 #~ "Source : :file:`\\mydomain.lan\\netlogon\\waptdeploy.exe` "
 #~ "Destination : :file:`C:\\windows\\temp\\waptdeploy.exe`"
 #~ msgstr ""
-#~ "Source : :file:`\\\\mydomain.lan\\netlogon\\waptdeploy.exe` "
+#~ "Source : :file:`\\mydomain.lan\\netlogon\\waptdeploy.exe` "
 #~ "Destination : :file:`C:\\windows\\temp\\waptdeploy.exe`"
 
 #~ msgid "Execute:"

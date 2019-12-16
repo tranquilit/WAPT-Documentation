@@ -135,7 +135,7 @@ Restoring the WAPT Server on Windows
 
 * Apply the total right to the folder :file:`C:\\wapt\\waptserver\\repository` for the "Network Service" group
 
-Backup PostgreSQL Database with pg_restore.exe :
+Restore PostgreSQL Database with pg_restore.exe :
 
 .. code-block:: bash
 

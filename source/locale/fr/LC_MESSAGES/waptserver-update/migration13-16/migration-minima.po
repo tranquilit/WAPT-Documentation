@@ -42,10 +42,10 @@ msgstr "Linux : :file:`/var/www/wapt/` ou :file:`/var/www/html/wapt/` ;"
 
 #: ../../source/waptserver-update/migration13-16/migration-minima.rst:22
 #, fuzzy
-msgid "Windows: :file:`C:\\\\wapt\\waptserver\\\\repository\\\\wapt`;"
+msgid "Windows: :file:`C:\\wapt\\waptserver\\repository\\wapt`;"
 msgstr ""
-"Windows : :file:`C:\\\\wapt\\\\waptserver\\\r"
-"epository\\\\wapt` ;"
+"Windows : :file:`C:\\wapt\\waptserver\\r"
+"epository\\wapt` ;"
 
 #: ../../source/waptserver-update/migration13-16/migration-minima.rst:25
 msgid "Installing and re-importing the WAPT packages"

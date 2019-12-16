@@ -92,11 +92,11 @@ msgstr "Modifier le port dans la configuration Nginx"
 #: ../../source/waptserver-install/windows/change-port.rst:53
 #, fuzzy
 msgid ""
-"open the file :file:`C:\\\\Program Files "
-"(x86)\\\\wapt\\\\waptserver\\\\nginx\\\\conf\\\\nginx.conf`"
+"open the file :file:`C:\\Program Files "
+"(x86)\\wapt\\waptserver\\nginx\\conf\\nginx.conf`"
 msgstr ""
-"ouvrir le fichier :file:`C:\\\\Program Files "
-"(x86)\\\\wapt\\\\waptserver\\\\nginx\\\\conf\\\n"
+"ouvrir le fichier :file:`C:\\Program Files "
+"(x86)\\wapt\\waptserver\\nginx\\conf\\n"
 "ginx.conf`"
 
 #: ../../source/waptserver-install/windows/change-port.rst:55
@@ -112,8 +112,8 @@ msgid "restart :program:`Nginx` with :code:`net start WAPTNginx`;"
 msgstr "relancer :program:`Nginx` avec :code:`net start WAPTNginx` :"
 
 #: ../../source/waptserver-install/windows/change-port.rst:71
-msgid "open :file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get.ini`;"
-msgstr "ouvrir :file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get.ini` ;"
+msgid "open :file:`C:\\Program Files (x86)\\wapt\\wapt-get.ini`;"
+msgstr "ouvrir :file:`C:\\Program Files (x86)\\wapt\\wapt-get.ini` ;"
 
 #: ../../source/waptserver-install/windows/change-port.rst:73
 msgid "add the port to the specified URL, example:"

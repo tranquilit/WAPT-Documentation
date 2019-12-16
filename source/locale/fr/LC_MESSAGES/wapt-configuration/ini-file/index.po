@@ -39,11 +39,11 @@ msgstr ""
 #, fuzzy
 msgid ""
 "The WAPT Server configuration file on Windows systems is found in "
-":file:`C:\\\\wapt\\\\conf\\\\waptserver.ini`."
+":file:`C:\\wapt\\conf\\waptserver.ini`."
 msgstr ""
 "La configuration du serveur WAPT sous Windows est situé dans "
-":file:`C:\\\\Program Files "
-"(x86)\\\\wapt\\\\waptserver\\\\waptserver.ini`."
+":file:`C:\\Program Files "
+"(x86)\\wapt\\waptserver\\waptserver.ini`."
 
 #: ../../source/wapt-configuration/ini-file/index.rst:23
 msgid "**Modifying these files is reserved to advanced users !!**"

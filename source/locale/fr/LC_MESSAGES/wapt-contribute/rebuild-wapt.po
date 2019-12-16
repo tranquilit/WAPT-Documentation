@@ -190,10 +190,10 @@ msgstr ""
 #: ../../source/wapt-contribute/rebuild-wapt.rst:113
 msgid ""
 "copy the code signing certificate into "
-":file:`C:\\\\users\\\\buildbot\\\\Documents`;"
+":file:`C:\\users\\buildbot\\Documents`;"
 msgstr ""
 "copier le certificat de signature de code dans le fichier "
-":file:`C:\\\\Users\\\\buildbot\\\\Documents` ;"
+":file:`C:\\Users\\buildbot\\Documents` ;"
 
 #: ../../source/wapt-contribute/rebuild-wapt.rst:116
 msgid "Installing Lazarus"
@@ -219,10 +219,10 @@ msgstr ""
 #, fuzzy
 msgid ""
 "The :file:`.iss` files are located in "
-":file:`C:\\\\tranquilit\\\\wapt\\\\waptsetup` ;"
+":file:`C:\\tranquilit\\wapt\\waptsetup` ;"
 msgstr ""
-"Les fichiers :file:`.iss` se situent dans :file:`C:\\\t"
-"ranquilit\\\\wapt\\\\waptsetup` ;"
+"Les fichiers :file:`.iss` se situent dans :file:`C:\\t"
+"ranquilit\\wapt\\waptsetup` ;"
 
 #: ../../source/wapt-contribute/rebuild-wapt.rst:177
 msgid ""

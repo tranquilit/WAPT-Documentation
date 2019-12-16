@@ -79,12 +79,12 @@ msgstr ""
 #: ../../source/wapt-create-packages/secret-data/encrypt-paquet.rst:39
 msgid ""
 "When a WAPT agent registers with the WAPT server, it generates a private key/ "
-"public certificate pair in :file:`C:\\\Program Files (x86)\\\wapt\\"
+"public certificate pair in :file:`C:\\Program Files (x86)\\wapt\\"
 "\\private`."
 msgstr ""
 "Lorsque qu'un agent WAPT s\\'enregistre auprès du serveur WAPT, il génère un "
-"couple clé privée / certificat public dans :file:`C:\\\Program Files (x86)\\"
-"\\wapt\\\private`."
+"couple clé privée / certificat public dans :file:`C:\\Program Files (x86)\\"
+"\\wapt\\private`."
 
 #: ../../source/wapt-create-packages/secret-data/encrypt-paquet.rst:43
 msgid ""

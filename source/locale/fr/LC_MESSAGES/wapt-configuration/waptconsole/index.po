@@ -143,11 +143,11 @@ msgstr ""
 
 #: ../../source/wapt-configuration/waptconsole/index.rst:80
 msgid ""
-"choose the WAPT destination folder (:file:`C:\\\\Program Files "
-"(x86)\\\\wapt` by default);"
+"choose the WAPT destination folder (:file:`C:\\Program Files "
+"(x86)\\wapt` by default);"
 msgstr ""
-"choisir le dossier d'installation (:file:`C:\\\\Program Files "
-"(x86)\\\\wapt` par défaut) ;"
+"choisir le dossier d'installation (:file:`C:\\Program Files "
+"(x86)\\wapt` par défaut) ;"
 
 #: ../../source/wapt-configuration/waptconsole/index.rst:87
 msgid "Choose the WAPT destination folder"
@@ -307,11 +307,11 @@ msgstr "Lancer la console WAPT"
 
 #: ../../source/wapt-configuration/waptconsole/index.rst:193
 msgid ""
-"launch the WAPT console by looking for the binary :file:`C:\\\\Program "
-"Files (x86)\\\\wapt\\\\waptconsole.exe`"
+"launch the WAPT console by looking for the binary :file:`C:\\Program "
+"Files (x86)\\wapt\\waptconsole.exe`"
 msgstr ""
 "lancer la console en allant chercher l'exécutable dans "
-":file:`C:\\\\Program Files (x86)\\\\wapt\\\\waptconsole.exe` ;"
+":file:`C:\\Program Files (x86)\\wapt\\waptconsole.exe` ;"
 
 #: ../../source/wapt-configuration/waptconsole/index.rst:196
 msgid ""

@@ -32,8 +32,8 @@ msgid "The WAPT service operates as a **privileged** system account."
 msgstr "Le service WAPT fonctionne en compte système **privilégié**."
 
 #: ../../source/wapt-security-principles/safety-principle.rst:28
-msgid "From WAPT version 1.5, the default installation directory becomes :file:`C:\\\Program Files (x86)\\\wapt`."
-msgstr "A partir de la version 1.5 de WAPT, le répertoire d'installation par défaut devient :file:`C:\\\Program Files (x86)\\\wapt`."
+msgid "From WAPT version 1.5, the default installation directory becomes :file:`C:\\Program Files (x86)\\wapt`."
+msgstr "A partir de la version 1.5 de WAPT, le répertoire d'installation par défaut devient :file:`C:\\Program Files (x86)\\wapt`."
 
 #: ../../source/wapt-security-principles/safety-principle.rst:33
 msgid "the sub-components :program:`wapttray`, :program:`waptservice` and :program:`waptexit` of the WAPT agent may be optionally deactivated according to usage context."
@@ -474,12 +474,12 @@ msgid "For the secured version of WAPT to work correctly:"
 msgstr "Pour fonctionner correctement en version sécurisée :"
 
 #: ../../source/wapt-security-principles/safety-principle.rst:407
-msgid "an option for verifying the server HTTPS certificate is introduced in :file:`C:\\\Program Files (x86)\\\wapt\\wapt-get.ini` on the WAPT agents that will **force the verification of the server certificate by the WAPT agents**;"
-msgstr "une option de vérification du certificat HTTPS serveur est introduite dans le fichier :file:`C:\\\Program Files (x86)\\\wapt\\\wapt-get.ini` des agents WAPT qui **force la vérification du certificat serveur par les agents WAPT** ;"
+msgid "an option for verifying the server HTTPS certificate is introduced in :file:`C:\\Program Files (x86)\\wapt\\wapt-get.ini` on the WAPT agents that will **force the verification of the server certificate by the WAPT agents**;"
+msgstr "une option de vérification du certificat HTTPS serveur est introduite dans le fichier :file:`C:\\Program Files (x86)\\wapt\\wapt-get.ini` des agents WAPT qui **force la vérification du certificat serveur par les agents WAPT** ;"
 
 #: ../../source/wapt-security-principles/safety-principle.rst:412
-msgid "an option for verifying the server HTTPS certificate is introduced in :file:`C:\\\Program Files (x86)\\\wapt\\wapt-get.ini` on the WAPT agents that will force the verification of the server certificate by the **WAPT console**;"
-msgstr "une option de vérification du certificat HTTPS serveur est introduite dans le fichier :file:`C:\\\Program Files (x86)\\\wapt\\\wapt-get.ini` des agents WAPT qui **force la vérification du certificat serveur par les agents WAPT** ;"
+msgid "an option for verifying the server HTTPS certificate is introduced in :file:`C:\\Program Files (x86)\\wapt\\wapt-get.ini` on the WAPT agents that will force the verification of the server certificate by the **WAPT console**;"
+msgstr "une option de vérification du certificat HTTPS serveur est introduite dans le fichier :file:`C:\\Program Files (x86)\\wapt\\wapt-get.ini` des agents WAPT qui **force la vérification du certificat serveur par les agents WAPT** ;"
 
 #: ../../source/wapt-security-principles/safety-principle.rst:417
 msgid "Technically, it may be implemented in two ways:"
@@ -491,8 +491,8 @@ msgstr ""
 "utiliser un utilitaire de vérification de certificat implémenté dans la configuration du service :program:`Nginx` du serveur WAPT ; cette méthode est généralement fournie par une :term:`Autorité de Certification` validée pour votre réseau ;"
 
 #: ../../source/wapt-security-principles/safety-principle.rst:423
-msgid "by using the *certificate pinning* method, which consists of providing the WAPT agent a short list of trusted certificates that will be stored in :file:`C:\\\Program Files (x86)\\\wapt\\\ssl\\\server`;"
-msgstr "utiliser la méthode d'*épinglage de certificat* qui consiste a fournir à l'agent WAPT une liste de certificats de confiance qui sera stockée et maintenue dans le dossier :file:`C:\\\Program Files (x86)\\\wapt\\\ssl\\\server` ;"
+msgid "by using the *certificate pinning* method, which consists of providing the WAPT agent a short list of trusted certificates that will be stored in :file:`C:\\Program Files (x86)\\wapt\\ssl\\server`;"
+msgstr "utiliser la méthode d'*épinglage de certificat* qui consiste a fournir à l'agent WAPT une liste de certificats de confiance qui sera stockée et maintenue dans le dossier :file:`C:\\Program Files (x86)\\wapt\\ssl\\server` ;"
 
 #: ../../source/wapt-security-principles/safety-principle.rst:429
 msgid "Security function F1C: no listening port on the WAPT agents"
@@ -524,10 +524,10 @@ msgstr "éviter qu'une entité non-autorisée envoie un inventaire falsifié d'u
 
 #: ../../source/wapt-security-principles/safety-principle.rst:469
 msgid ""
-"On the first :command:`register`, each device generates a key/ certificate pair that is stored in :file:`C:\\\Program Files (x86)\\\wapt\\\private`, only accessible in read-only mode to :term:`Local Administrators`. Once the device has "
+"On the first :command:`register`, each device generates a key/ certificate pair that is stored in :file:`C:\\Program Files (x86)\\wapt\\private`, only accessible in read-only mode to :term:`Local Administrators`. Once the device has "
 "successfully registered, the public key is sent to the WAPT Server;"
 msgstr ""
-"Au premier :command:`register`, chaque machine crée un couple clé privée / certificat public dans le répertoire :file:`C:\\\Program Files (x86)\\\wapt\\\private` accessible en lecture uniquement aux :term:`Administrateurs Locaux`. Une "
+"Au premier :command:`register`, chaque machine crée un couple clé privée / certificat public dans le répertoire :file:`C:\\Program Files (x86)\\wapt\\private` accessible en lecture uniquement aux :term:`Administrateurs Locaux`. Une "
 "fois la machine enregistrée, la clé publique est envoyée au serveur WAPT ;"
 
 #: ../../source/wapt-security-principles/safety-principle.rst:474
@@ -614,7 +614,7 @@ msgstr "éviter qu'une entité non-autorisée modifie le contenu ou le comportem
 
 #: ../../source/wapt-security-principles/safety-principle.rst:545
 msgid "when an :term:`Administrator` or a :term:`Package Deployer` builds a WAPT package, the file :file:`manifest.sha256` is created that lists the control sums of all files in the package;"
-msgstr "quand un :term:`Administrateur` ou un :term:`Déployeur de Paquets` construit un paquet WAPT, un fichier :file:`WAPT\\\manifest.sha256` est créé qui liste les sommes de contrôle de tous les fichiers du paquet ;"
+msgstr "quand un :term:`Administrateur` ou un :term:`Déployeur de Paquets` construit un paquet WAPT, un fichier :file:`WAPT\\manifest.sha256` est créé qui liste les sommes de contrôle de tous les fichiers du paquet ;"
 
 #: ../../source/wapt-security-principles/safety-principle.rst:549
 msgid "a file :file:`signature.sha256` **encrypted** with the WAPT agent's private key is then created in the folder :file:`<WAPT>`; it contains the control sum of the file :file:`manifest.sha256`;"
@@ -629,9 +629,9 @@ msgid "when a WAPT agent downloads a WAPT package, the agent checks that the fil
 msgstr "quand un agent WAPT télécharge un paquet WAPT, l'agent vérifie que le fichier :file:`signature.sha256` a été signé avec la clé privée qui correspond au certificat présent dans le dossier :file:`WAPT\\certificate.crt` ;"
 
 #: ../../source/wapt-security-principles/safety-principle.rst:559
-msgid "the WAPT agent then checks that the certificate or the chain of certificates in :file:`certificate.crt` has been signed with a key matching one of the certificates present in the folder :file:`C:\\\Program Files (x86)\\\wapt\\\ssl`;"
+msgid "the WAPT agent then checks that the certificate or the chain of certificates in :file:`certificate.crt` has been signed with a key matching one of the certificates present in the folder :file:`C:\\Program Files (x86)\\wapt\\ssl`;"
 msgstr ""
-"l'agent WAPT vérifie ensuite que le certificat (ou la chaîne de certificat) :file:`certificate.crt` a bien été signé avec une clé privée correspondant à un des certificats présents dans le dossier :file:`C:\\\Program Files (x86)\\\wapt\\"
+"l'agent WAPT vérifie ensuite que le certificat (ou la chaîne de certificat) :file:`certificate.crt` a bien été signé avec une clé privée correspondant à un des certificats présents dans le dossier :file:`C:\\Program Files (x86)\\wapt\\"
 "\\ssl` ;"
 
 #: ../../source/wapt-security-principles/safety-principle.rst:564
@@ -639,7 +639,7 @@ msgid ""
 "the WAPT agent then generates the control sum of all the files contained in the package (except the files :file:`signature.sha256` and :file:`certificate.crt `) and verifies that it matches the file :file:`manifest.sha256` contained in the "
 "package;"
 msgstr ""
-"l'agent WAPT fait ensuite la somme de contrôle de tous les fichiers du paquet (excepté les fichiers :file:`signature.sha256` et :file:`certificate.crt` ) et vérifie que cela correspond au fichier :file:`WAPT\\\manifest.sha256` du paquet ;"
+"l'agent WAPT fait ensuite la somme de contrôle de tous les fichiers du paquet (excepté les fichiers :file:`signature.sha256` et :file:`certificate.crt` ) et vérifie que cela correspond au fichier :file:`WAPT\\manifest.sha256` du paquet ;"
 
 #: ../../source/wapt-security-principles/safety-principle.rst:569
 msgid "if one of these steps does not pass, this means that a file has been modified/ added/ removed. The execution of the :file:`setup.py` is then canceled."
@@ -682,8 +682,8 @@ msgid "The attributes listed in *signed_attributes* are signed with the private 
 msgstr "Les attributs listés dans *signed_attributes* sont signés avec la clé privée de l':term:`Administrateur` et la signature est stockée dans l'attribut *signature* du fichier :file:`control`."
 
 #: ../../source/wapt-security-principles/safety-principle.rst:612
-msgid "The certificate matching the private key is stored in :file:`<WAPT>\\\certificate.crt` inside the WAPT package."
-msgstr "Le certificat associé à cette clé privée est stocké dans le fichier :file:`<WAPT>\\\certificate.crt` à l\\'intérieur du paquet WAPT."
+msgid "The certificate matching the private key is stored in :file:`<WAPT>\\certificate.crt` inside the WAPT package."
+msgstr "Le certificat associé à cette clé privée est stocké dans le fichier :file:`<WAPT>\\certificate.crt` à l\\'intérieur du paquet WAPT."
 
 #: ../../source/wapt-security-principles/safety-principle.rst:615
 msgid "On the WAPT Server, the index :file:`Packages` is regenerated when the :command:`wapt-scanpackages` command is triggered by adding or removing a package."
@@ -715,8 +715,8 @@ msgid "an unauthorized entity modifying the behavior of a WAPT agent;"
 msgstr "éviter qu'une entité non-autorisée modifie le comportement de l'agent WAPT ;"
 
 #: ../../source/wapt-security-principles/safety-principle.rst:642
-msgid "The installation folder :file:`C:\\\Program Files (x86)\\\wapt` is accessible in read-write mode:"
-msgstr "Le répertoire d'installation :file:`C:\\\Program Files (x86)\\\wapt` est accessible en lecture et modification :"
+msgid "The installation folder :file:`C:\\Program Files (x86)\\wapt` is accessible in read-write mode:"
+msgstr "Le répertoire d'installation :file:`C:\\Program Files (x86)\\wapt` est accessible en lecture et modification :"
 
 #: ../../source/wapt-security-principles/safety-principle.rst:645
 msgid "to the :term:`Local Administrators` by direct access to the installation folder of the WAPT agent on the device;"
@@ -743,8 +743,8 @@ msgid "an unauthorized entity impersonating the identity of a WAPT equipped devi
 msgstr "éviter qu'une entité non-autorisée usurpe l'identité d'une machine ;"
 
 #: ../../source/wapt-security-principles/safety-principle.rst:664
-msgid "No access right is granted to any :term:`user` to :file:`C:\\\Program Files (x86)\\\wapt\\\private`, whomever he may be. Only the WAPT agent has a write and read access to this folder."
-msgstr "Aucun droit d'accès au répertoire :file:`C:\\\Program Files (x86)\\\wapt\\\private` n'est accordé à aucun :term:`Utilisateur`, quelqu'il soit. Seul l'agent WAPT a accès en lecture et écriture à ce répertoire."
+msgid "No access right is granted to any :term:`user` to :file:`C:\\Program Files (x86)\\wapt\\private`, whomever he may be. Only the WAPT agent has a write and read access to this folder."
+msgstr "Aucun droit d'accès au répertoire :file:`C:\\Program Files (x86)\\wapt\\private` n'est accordé à aucun :term:`Utilisateur`, quelqu'il soit. Seul l'agent WAPT a accès en lecture et écriture à ce répertoire."
 
 #: ../../source/wapt-security-principles/safety-principle.rst:670
 msgid "This method for storing the key and the certificate results from a technical design choice that says that the WAPT equipped device would embed any and all information related to itself."

@@ -118,12 +118,12 @@ msgstr ""
 " :file:`mongodump.exe`."
 
 #: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:57
-msgid "backup the entire directory :file:`C:\\\\wapt` of the WAPT Server;"
-msgstr "sauvegardez tout le repertoire :file:`C:\\\\wapt` de votre server WAPT ;"
+msgid "backup the entire directory :file:`C:\\wapt` of the WAPT Server;"
+msgstr "sauvegardez tout le repertoire :file:`C:\\wapt` de votre server WAPT ;"
 
 #: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:59
-msgid "backup the folder :file:`C:\\\\private`;"
-msgstr "sauvegardez le dossier :file:`C:\\\\private` ;"
+msgid "backup the folder :file:`C:\\private`;"
+msgstr "sauvegardez le dossier :file:`C:\\private` ;"
 
 #: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:61
 msgid ""
@@ -208,20 +208,20 @@ msgstr "restaurer les paquets WAPT de la machine windows sur le serveur Linux :
 #, fuzzy
 msgid ""
 "upload the content of "
-":file:`C:\\\\wapt\\waptserver\\\\repository\\\\wapt` in "
+":file:`C:\\wapt\\waptserver\\repository\\wapt` in "
 ":file:`/var/www/wapt/`;"
 msgstr ""
-"uploader le contenu de :file:`C:\\\\wapt\\\\waptserver\\\r"
-"epository\\\\wapt` dans :file:`/var/www/wapt/` ;"
+"uploader le contenu de :file:`C:\\wapt\\waptserver\\r"
+"epository\\wapt` dans :file:`/var/www/wapt/` ;"
 
 #: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:119
 #, fuzzy
 msgid ""
-"upload the content of :file:`C:\\\\wapt\\waptserver\\\\repository"
-"\\\\wapt-host` in :file:`/var/www/wapt-host/`;"
+"upload the content of :file:`C:\\wapt\\waptserver\\repository"
+"\\wapt-host` in :file:`/var/www/wapt-host/`;"
 msgstr ""
-"uploader le contenu de :file:`C:\\\\wapt\\\\waptserver\\\r"
-"epository\\\\wapt-host` dans :file:`/var/www/wapt-host/` ;"
+"uploader le contenu de :file:`C:\\wapt\\waptserver\\r"
+"epository\\wapt-host` dans :file:`/var/www/wapt-host/` ;"
 
 #: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:124
 msgid ""
@@ -254,12 +254,12 @@ msgstr "Votre serveur WAPT fonctionne à nouveau en version 1.3.13 sous Linux."
 #: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:145
 msgid ""
 "You may now install your :program:`waptagent` on your "
-":term:`Administrator` management PC and restore the :file:`C:\\\\private`"
+":term:`Administrator` management PC and restore the :file:`C:\\private`"
 " folder on your workstation."
 msgstr ""
 "Vous pouvez maintenant installer votre :program:`waptagent` sur votre PC "
 "d\\':term:`Administrateur`, et restaurer le dossier "
-":file:`C:\\\\private`."
+":file:`C:\\private`."
 
 #: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:150
 msgid ""

@@ -113,11 +113,11 @@ msgstr ""
 
 #: ../../source/wapt-create-packages/audit/index.rst:66
 msgid ""
-"WAPT saves in its local database :file:`C:\\\Program Files (x86)\\\wapt\\\waptdb."
+"WAPT saves in its local database :file:`C:\\Program Files (x86)\\wapt\\waptdb."
 "sqlite` the audit scripts of all installed WAPT packages."
 msgstr ""
 "WAPT enregistre en base locale les instructions d\\'audit de tous les paquets "
-"lors de l'installation dans le fichier :file:`C:\\\Program Files (x86)\\\wapt\\"
+"lors de l'installation dans le fichier :file:`C:\\Program Files (x86)\\wapt\\"
 "\\waptdb.sqlite`."
 
 #: ../../source/wapt-create-packages/audit/index.rst:69
