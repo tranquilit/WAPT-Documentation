@@ -3,17 +3,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-27 10:29+0100\n"
+"POT-Creation-Date: 2019-12-16 14:09+0100\n"
 "PO-Revision-Date: 2019-02-27 11:04+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
-"X-Generator: Poedit 1.8.8\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:8
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:15
@@ -25,12 +24,13 @@ msgid "wapt-get.ini, configuration, documentation, WAPT"
 msgstr "wapt-get.ini, configuration"
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:17
+#, fuzzy
 msgid ""
-"The configuration file :file:`C:\\Program Files(x86)\\wapt\\wapt-get.ini` "
-"defines the behavior of the WAPT agent."
+"The configuration file :file:`C:\\\\Program Files(x86)\\\\wapt\\\\wapt-"
+"get.ini` defines the behavior of the WAPT agent."
 msgstr ""
-"Le fichier de configuration :file:`C:\\Program Files (x86)\\wapt\\wapt-get."
-"ini` définit le comportement de l'agent WAPT sur la machine."
+"Le fichier de configuration :file:`C:\\Program Files (x86)\\wapt\\wapt-"
+"get.ini` définit le comportement de l'agent WAPT sur la machine."
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:20
 msgid "The ``[global]`` section is required:"
@@ -42,54 +42,56 @@ msgstr "Description des options possibles pour l'agent WAPT"
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:31
 msgid ""
-"If ``repo_url`` and ``wapt_server`` fields are empty, the WAPT agent will look "
-"for a repository using SRV records in the ``dnsdomain`` zone."
+"If ``repo_url`` and ``wapt_server`` fields are empty, the WAPT agent will"
+" look for a repository using SRV records in the ``dnsdomain`` zone."
 msgstr ""
-"Si les champs ``repo_url`` et ``wapt_server`` sont vides, le client WAPT ira "
-"chercher son dépôt en utilisant l'enregistrement SRV dans la zone ``dnsdomain``."
+"Si les champs ``repo_url`` et ``wapt_server`` sont vides, le client WAPT "
+"ira chercher son dépôt en utilisant l'enregistrement SRV dans la zone "
+"``dnsdomain``."
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:32
 msgid ""
-"If there is no ``wapt_server`` attribute in the ``[global]`` section, no WAPT "
-"Server will be used."
+"If there is no ``wapt_server`` attribute in the ``[global]`` section, no "
+"WAPT Server will be used."
 msgstr ""
-"S'il n'y a pas de clé ``wapt_server`` dans la section ``[global]``, aucun "
-"serveur wapt ne sera contacté."
+"S'il n'y a pas de clé ``wapt_server`` dans la section ``[global]``, aucun"
+" serveur wapt ne sera contacté."
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:33
 msgid ""
-"If there is no ``repo_url`` attribute in the ``[global]`` section, a repository "
-"in the ``[wapt]`` section will have to be explicitly defined."
+"If there is no ``repo_url`` attribute in the ``[global]`` section, a "
+"repository in the ``[wapt]`` section will have to be explicitly defined."
 msgstr ""
-"S'il n'y a pas d\\'attribut ``repo_url`` dans la section ``[global]``, il sera "
-"nécessaire de définir explicitement un dépôt dans une section ``[wapt]``, et de "
-"l'activer en l'ajoutant à la clé ``repositories`` de la section ``[global]``."
+"S'il n'y a pas d\\'attribut ``repo_url`` dans la section ``[global]``, il"
+" sera nécessaire de définir explicitement un dépôt dans une section "
+"``[wapt]``, et de l'activer en l'ajoutant à la clé ``repositories`` de la"
+" section ``[global]``."
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:34
 msgid ""
-"It will have to be enabled by adding it to the ``repositories`` attribute of the "
-"``[global]`` section."
+"It will have to be enabled by adding it to the ``repositories`` attribute"
+" of the ``[global]`` section."
 msgstr ""
-"Les dépôts activés sont listés dans le paramètres ``repositories`` de la section "
-"``[global]``"
+"Les dépôts activés sont listés dans le paramètres ``repositories`` de la "
+"section ``[global]``"
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:39
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:85
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:136
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:160
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:174
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:96
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:147
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:171
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:185
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:199
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:196
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:210
 msgid "Options"
 msgstr "Options"
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:39
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:85
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:136
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:160
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:174
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:96
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:147
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:171
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:185
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:199
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:196
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:210
 msgid "Description"
 msgstr "Description"
 
@@ -99,12 +101,13 @@ msgstr "``repo_url`` = https://srvwapt.mydomain.lan/wapt"
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:41
 msgid ""
-"If the field is left empty, the WAPT agent will make a :term:`DNS` query on the :"
-"term:`SRV` field ``_wapt._tcp.<dnsdomain>`` to find the repository (the "
-"``dnsdomain`` attribute must be configured)."
+"If the field is left empty, the WAPT agent will make a :term:`DNS` query "
+"on the :term:`SRV` field ``_wapt._tcp.<dnsdomain>`` to find the "
+"repository (the ``dnsdomain`` attribute must be configured)."
 msgstr ""
-"Adresse du dêpôt WAPT. Si laissé vide, la recherche se fait sur le champ :term:"
-"`DNS` :term:`SRV` ``_wapt._tcp.<dnsdomain>`` (``dnsdomain`` doit être renseigné)."
+"Adresse du dêpôt WAPT. Si laissé vide, la recherche se fait sur le champ "
+":term:`DNS` :term:`SRV` ``_wapt._tcp.<dnsdomain>`` (``dnsdomain`` doit "
+"être renseigné)."
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:45
 msgid "``wapt_server`` = https://srvwapt.mydomain.lan"
@@ -112,13 +115,13 @@ msgstr "``wapt_server`` = https://srvwapt.mydomain.lan"
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:45
 msgid ""
-"If the attribute is left empty, the WAPT agent will make a :term:`DNS` :term:"
-"`SRV` query on the ``_waptserver._tcp.<dnsdomain>`` field (the ``dnsdomain`` "
-"attribute must be configured)"
+"If the attribute is left empty, the WAPT agent will make a :term:`DNS` "
+":term:`SRV` query on the ``_waptserver._tcp.<dnsdomain>`` field (the "
+"``dnsdomain`` attribute must be configured)"
 msgstr ""
-"Si l'attribut est vide, la recherche se fait sur le champ :term:`DNS` :term:"
-"`SRV` ``_waptserver._tcp.<dnsdomain>`` (l'attribut ``dnsdomain``  doit être "
-"renseigné)"
+"Si l'attribut est vide, la recherche se fait sur le champ :term:`DNS` "
+":term:`SRV` ``_waptserver._tcp.<dnsdomain>`` (l'attribut ``dnsdomain``  "
+"doit être renseigné)"
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:49
 msgid "``dnsdomain`` = mydomain.lan"
@@ -126,11 +129,11 @@ msgstr "``dnsdomain`` = mydomain.lan"
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:49
 msgid ""
-"DNS suffix to use for auto-discovery of the WAPT Server and repositories with :"
-"term:`SRV` / :term:`CNAME field` DNS queries."
+"DNS suffix to use for auto-discovery of the WAPT Server and repositories "
+"with :term:`SRV` / :term:`CNAME field` DNS queries."
 msgstr ""
-"Suffixe DNS à utiliser pour la recherche automatique par champs :term:`SRV` ou :"
-"term:`CNAME` du dépôt principal et du serveur WAPT."
+"Suffixe DNS à utiliser pour la recherche automatique par champs "
+":term:`SRV` ou :term:`CNAME` du dépôt principal et du serveur WAPT."
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:52
 msgid "``use_hostpackages`` = 1"
@@ -170,11 +173,11 @@ msgstr "``waptservice_password`` = 5e884898da"
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:60
 msgid ""
-"sha256 hashed password when the WAPT service is used locally from a command "
-"prompt (NOPASSWORD disables the requirement for a password)"
+"sha256 hashed password when the WAPT service is used locally from a "
+"command prompt (NOPASSWORD disables the requirement for a password)"
 msgstr ""
-"Mot de passe hashé sha256 hex lors de l'appel d'une fonction par le service "
-"WAPT. ``NOPASSWORD`` permet de ne pas mettre de mot de passe."
+"Mot de passe hashé sha256 hex lors de l'appel d'une fonction par le "
+"service WAPT. ``NOPASSWORD`` permet de ne pas mettre de mot de passe."
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:63
 msgid "``waptservice_port`` = 8088"
@@ -185,7 +188,8 @@ msgid "WAPT agent loopback port. It is not accessible from the network."
 msgstr "Port local HTTPS d'écoute du service WAPT."
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:65
-msgid "``dbdir`` = :file:`C:\\Program Files(x86)\\wapt\\db`"
+#, fuzzy
+msgid "``dbdir`` = :file:`C:\\\\Program Files(x86)\\\\wapt\\\\db`"
 msgstr "``dbdir`` = :file:`C:\\Program Files(x86)\\wapt\\db`"
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:65
@@ -210,80 +214,129 @@ msgstr "``maturities`` = PROD"
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:70
 msgid ""
-"List of packages maturities than can be viewed and installed by WAPT Agent. "
-"Default value is ``PROD``. Any value can be used."
+"List of packages maturities than can be viewed and installed by WAPT "
+"Agent. Default value is ``PROD``. Any value can be used."
 msgstr ""
-"Liste des maturités de paquets qui peuvent être vus et installés par l'agent "
-"WAPT. La valeur par défaut est ``PROD``. N'importe quelle valeur peut être "
-"utilisée."
+"Liste des maturités de paquets qui peuvent être vus et installés par "
+"l'agent WAPT. La valeur par défaut est ``PROD``. N'importe quelle valeur "
+"peut être utilisée."
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:78
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:73
+msgid "``use_fqdn_as_uuid`` = 1"
+msgstr ""
+
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:73
+msgid ""
+"Allows you to use the fqdn name rather than the uuid BIOS as the unique "
+"machine identifier in wapt."
+msgstr ""
+
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:75
+#, fuzzy
+msgid "``waptaudit_task_period`` = 120"
+msgstr "``waptupdate_task_period`` = 120"
+
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:75
+msgid "Define the frequency where the agent checks if he has audits to perform."
+msgstr ""
+
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:77
+#, fuzzy
+msgid "``locales`` = en"
+msgstr "``loglevel`` = warning"
+
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:77
+msgid ""
+"Allows you to set the list of wapt agent languages to modify the list of "
+"packages visible by wapt (for package filtering). You can add multiple "
+"language (eg. ``locales=fr,en``) in order of preference."
+msgstr ""
+
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:80
+msgid "``host_profiles`` = tis-firefox,tis-java"
+msgstr ""
+
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:80
+msgid "Allows you to define a wapt package list that the wapt agent must install."
+msgstr ""
+
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:82
+msgid "``language`` = en"
+msgstr ""
+
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:82
+msgid "Force default langauge for GUI (not for package filtering)"
+msgstr ""
+
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:89
 msgid "WAPT Server configuration attributes"
 msgstr "Paramètres d'accès au serveur WAPT"
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:80
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:91
 msgid "These options will set WAPT agent behaviour when connecting to WAPT Server"
 msgstr ""
-"Ces options définissent le comportement de l'agent WAPT lors de la connexion au "
-"serveur WAPT"
+"Ces options définissent le comportement de l'agent WAPT lors de la "
+"connexion au serveur WAPT"
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:87
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:98
 msgid "``wapt_server`` ="
 msgstr "``wapt_server`` ="
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:87
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:98
 msgid ""
 "WAPT Server URL. If the attribute is not present, no WAPT Server will be "
-"contacted. If the attribute is empty, a DNS query will be triggered to find the "
-"WAPT Server using the ``dnsdomain`` attribute for the DNS zone."
+"contacted. If the attribute is empty, a DNS query will be triggered to "
+"find the WAPT Server using the ``dnsdomain`` attribute for the DNS zone."
 msgstr ""
-"URL du serveur WAPT. Si pas présent, aucun serveur n'est contacté. Si vide, une "
-"recherche DNS est effectuée sur la zone ``dnsdomain``."
+"URL du serveur WAPT. Si pas présent, aucun serveur n'est contacté. Si "
+"vide, une recherche DNS est effectuée sur la zone ``dnsdomain``."
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:91
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:102
 msgid "``dnsdomain`` ="
 msgstr "``dnsdomain`` ="
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:91
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:102
 msgid "DNS zone on which the DNS SRV ``_waptserver._tcp`` is searched."
 msgstr "Zone sur laquelle la recherche DNS SRV ``_waptserver._tcp`` est effectuée."
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:93
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:104
 msgid "``wapt_server_timeout`` = 10"
 msgstr "``wapt_server_timeout`` = 10"
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:93
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:104
 msgid "WAPT Server HTTPS connection timeout in seconds"
 msgstr ""
-"Timeout en secondes lors de la tentative de connexion https vers le serveur."
+"Timeout en secondes lors de la tentative de connexion https vers le "
+"serveur."
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:95
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:106
 msgid "``use_kerberos`` = 1"
 msgstr "``use_kerberos`` = 1"
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:95
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:106
 msgid "Use Kerberos authentication for initial registration on the WAPT Server."
 msgstr ""
-"Utilisation de l'authentification Kerberos pour l'enregistrement sécurisé avec "
-"le serveur WAPT."
+"Utilisation de l'authentification Kerberos pour l'enregistrement sécurisé"
+" avec le serveur WAPT."
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:97
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:108
 msgid "``verify_cert`` ="
 msgstr "``verify_cert`` ="
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:97
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:108
 msgid "See the documentation on activating the"
 msgstr "Voir la documentation pour activer la"
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:98
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:109
+#, fuzzy
 msgid ""
-":file:`C:\\Program Files (x86)\\wapt\\ssl\\server\\srvwapt.mydomain."
-"lan.crt`"
+":file:`C:\\\\Program Files "
+"(x86)\\\\wapt\\\\ssl\\\\server\\\\srvwapt.mydomain.lan.crt`"
 msgstr ""
-":file:`C:\\Program Files (x86)\\wapt\\ssl\\server\\srvwapt.mydomain."
-"lan.crt`"
+":file:`C:\\Program Files "
+"(x86)\\wapt\\ssl\\server\\srvwapt.mydomain.lan.crt`"
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:98
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:109
 msgid ""
 ":ref:`verification of HTTPS certificates "
 "<activating_HTTPS_certificate_verification>`."
@@ -291,299 +344,316 @@ msgstr ""
 ":ref:`vérification des certifificats HTTPS "
 "<activating_HTTPS_certificate_verification>`."
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:100
-msgid "``public_certs_dir`` = :file:`C:\\Program Files (x86)\\wapt\\ssl`"
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:111
+#, fuzzy
+msgid "``public_certs_dir`` = :file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl`"
 msgstr "``public_certs_dir`` = :file:`C:\\Program Files (x86)\\wapt\\ssl`"
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:100
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:111
+#, fuzzy
 msgid ""
-"Folder of certificates authorized to verify the signature of WAPT packages, by "
-"default, ``<wapt_base_dir>\\ssl``. Only files in this directory with :file:`."
-"crt` or :file:`.pem` extension are taken into account. There may be several X509 "
-"certificates in each file. Authorized packages in WAPT are those whose signature "
-"may be verified by one of the certificates contained in the PEM files of this "
-"directory. Each repository may have its own folder of authorized certificates."
+"Folder of certificates authorized to verify the signature of WAPT "
+"packages, by default, ``<wapt_base_dir>\\\\ssl``. Only files in this "
+"directory with :file:`.crt` or :file:`.pem` extension are taken into "
+"account. There may be several X509 certificates in each file. Authorized "
+"packages in WAPT are those whose signature may be verified by one of the "
+"certificates contained in the PEM files of this directory. Each "
+"repository may have its own folder of authorized certificates."
 msgstr ""
-"Répertoire des certificats autorisés pour la vérification de _signature_ des "
-"paquets. Par défaut : ``<wapt_base_dir>\\ssl``. Seuls fes fichiers dans ce "
-"répertoire avec l'extension :file:`.crt` ou :file:`.pem` sont pris en compte. Il "
-"peut y avoir plusieurs certificats X509 dans chaque fichier. Les certificats de "
-"paquets autorisés sont ceux dont la signature peut être vérifiée par l'un des "
-"certificats contenus dans les fichiers PEM de ce répertoire. Chaque dépôt peut "
-"avoir son propre répertoire de certificats autorisés."
+"Répertoire des certificats autorisés pour la vérification de _signature_ "
+"des paquets. Par défaut : ``<wapt_base_dir>\\ssl``. Seuls fes fichiers "
+"dans ce répertoire avec l'extension :file:`.crt` ou :file:`.pem` sont "
+"pris en compte. Il peut y avoir plusieurs certificats X509 dans chaque "
+"fichier. Les certificats de paquets autorisés sont ceux dont la signature"
+" peut être vérifiée par l'un des certificats contenus dans les fichiers "
+"PEM de ce répertoire. Chaque dépôt peut avoir son propre répertoire de "
+"certificats autorisés."
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:112
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:123
 msgid "Using several repositories"
 msgstr "Utiliser plusieurs dépôts"
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:114
-msgid ""
-"There can be more sections in the :file:`wapt-get.ini` file to define more "
-"repositories."
-msgstr "D'autres sections peuvent être définies pour décrire chaque nouveau dépôt."
-
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:117
-msgid ""
-"``[wapt]``: main repository. Revelant attributes: ``repo_url``, ``verify_cert``, "
-"``dnsdomain``, ``http_proxy``, ``use_http_proxy_for_repo``, ``timeout``. If this "
-"section does not exist, parameters are read from the ``[global]`` section;"
-msgstr ""
-"``[wapt]``: dépôt principal. Options pertinentes: ``repo_url``, ``verify_cert``, "
-"``dnsdomain``, ``http_proxy``, ``use_http_proxy_for_repo``, ``timeout``. Si "
-"cette section n'existe pas, les paramètres sont lus dans la section "
-"``[global]`` ;"
-
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:122
-msgid ""
-"``[wapt-template]``: external remote repository that will be used in the WAPT "
-"console for importing new or updated packages."
-msgstr "``[wapt-templates]`` : dépôt externe par défaut dans la console WAPT ;"
-
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:125
 msgid ""
-"``[wapt-host]``: repository for host packages. If this section does not exists, "
-"default locations will be used on the main repository."
-msgstr ""
-"``[wapt-host]``: dépôt pour les paquets machines. Si cette section n'existe pas, "
-"elle est extrapolée des paramètres du dépôt principal ;"
+"There can be more sections in the :file:`wapt-get.ini` file to define "
+"more repositories."
+msgstr "D'autres sections peuvent être définies pour décrire chaque nouveau dépôt."
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:130
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:128
+msgid ""
+"``[wapt]``: main repository. Revelant attributes: ``repo_url``, "
+"``verify_cert``, ``dnsdomain``, ``http_proxy``, "
+"``use_http_proxy_for_repo``, ``timeout``. If this section does not exist,"
+" parameters are read from the ``[global]`` section;"
+msgstr ""
+"``[wapt]``: dépôt principal. Options pertinentes: ``repo_url``, "
+"``verify_cert``, ``dnsdomain``, ``http_proxy``, "
+"``use_http_proxy_for_repo``, ``timeout``. Si cette section n'existe pas, "
+"les paramètres sont lus dans la section ``[global]`` ;"
+
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:133
+msgid ""
+"``[wapt-template]``: external remote repository that will be used in the "
+"WAPT console for importing new or updated packages."
+msgstr "``[wapt-templates]`` : dépôt externe par défaut dans la console WAPT ;"
+
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:136
+msgid ""
+"``[wapt-host]``: repository for host packages. If this section does not "
+"exists, default locations will be used on the main repository."
+msgstr ""
+"``[wapt-host]``: dépôt pour les paquets machines. Si cette section "
+"n'existe pas, elle est extrapolée des paramètres du dépôt principal ;"
+
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:141
 msgid ""
 "Active repositories are listed in the ``repositories`` attribute of the "
 "``[global]`` section."
 msgstr ""
-"Les dépôts activés sont listés dans le paramètres ``repositories`` de la section "
-"``[global]``"
+"Les dépôts activés sont listés dans le paramètres ``repositories`` de la "
+"section ``[global]``"
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:138
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:149
 msgid "``repositories`` = repo1, repo2"
 msgstr "``repositories`` = depot1,depot2"
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:138
-msgid ""
-"List of enabled repositories, separated by a comma. Each value defines a section "
-"of the :file:`wapt-get.ini` file. In each section, it is possible to define "
-"``repo_url``, ``dnsdomain``, ``public_certs_dir``, ``http_proxy``."
-msgstr ""
-"Liste des dépots activés. Séparateur : virgule. Les valeurs désignent le nom de "
-"la section du fichier :file:`wapt-get.ini`. Dans chaque section, on peut "
-"préciser ``repo_url``, ``dnsdomain``, ``public_certs_dir``, ``http_proxy``"
-
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:145
-#, python-format
-msgid ""
-"This parameter can be configured both in the WAPT agent configuration and in the "
-"WAPT console configuration file :file:`C:\\Users\\%username%\\AppData\\"
-"\\Local\\waptconsole\\waptconsole.ini`."
-msgstr ""
-"Ce paramètre est également à définir dans la configuration de la console WAPT "
-"située dans :file:`C:\\Users\\%username%\\AppData\\Local\\waptconsole\\"
-"\\waptconsole.ini`."
-
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:149
 msgid ""
-"For information on configuring the WAPT console, please refer to :ref:`this "
-"documentation <waptconsole_ini_file>`."
+"List of enabled repositories, separated by a comma. Each value defines a "
+"section of the :file:`wapt-get.ini` file. In each section, it is possible"
+" to define ``repo_url``, ``dnsdomain``, ``public_certs_dir``, "
+"``http_proxy``."
 msgstr ""
-"Pour plus d'informations, visitez :ref:`la documentation sur la configuration de "
-"la console WAPT <waptconsole_ini_file>`."
+"Liste des dépots activés. Séparateur : virgule. Les valeurs désignent le "
+"nom de la section du fichier :file:`wapt-get.ini`. Dans chaque section, "
+"on peut préciser ``repo_url``, ``dnsdomain``, ``public_certs_dir``, "
+"``http_proxy``"
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:155
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:156
+#, fuzzy, python-format
+msgid ""
+"This parameter can be configured both in the WAPT agent configuration and"
+" in the WAPT console configuration file "
+":file:`C:\\\\Users\\\\%username%\\\\AppData\\\\Local\\\\waptconsole\\\\waptconsole.ini`."
+msgstr ""
+"Ce paramètre est également à définir dans la configuration de la console "
+"WAPT située dans "
+":file:`C:\\Users\\%username%\\AppData\\Local\\waptconsole\\\\waptconsole.ini`."
+
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:160
+msgid ""
+"For information on configuring the WAPT console, please refer to "
+":ref:`this documentation <waptconsole_ini_file>`."
+msgstr ""
+"Pour plus d'informations, visitez :ref:`la documentation sur la "
+"configuration de la console WAPT <waptconsole_ini_file>`."
+
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:166
 msgid "Settings for ``waptexit``"
 msgstr "Paramètres pour *waptexit*"
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:162
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:173
 msgid "``allow_cancel_upgrade`` = 1"
 msgstr "``allow_cancel_upgrade`` = 1"
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:162
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:173
 msgid "Prevents users from canceling package upgrades on computer shutdown"
 msgstr "Interdire à l'utilisateur d'annuler la mise à jour."
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:163
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:174
 msgid "``pre_shutdown_timeout`` = 180"
 msgstr "``pre_shutdown_timeout`` = 180"
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:163
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:174
 msgid "Timeout for scripts at computer shutdown"
 msgstr "Temps d'attente maximum pour l'exécution des scripts à l'extinction."
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:164
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:175
 msgid "``max_gpo_script_wait`` = 180"
 msgstr "``max_gpo_script_wait`` = 180"
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:164
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:175
 msgid "Timeout for GPO execution at computer shutdown"
 msgstr "Temps d'attente maximum pour l'application des GPO à l'extinction."
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:165
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:176
 msgid "``hiberboot_enabled`` = 0"
 msgstr "``hiberboot_enabled`` = 0"
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:165
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:176
 msgid "Disables Hiberboot on Windows 10 to make ``waptexit`` work correctly"
 msgstr "Désactive Hiberboot pour utiliser :program:`waptexit` sur Windows 10."
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:169
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:180
 msgid "Settings for ``wapttray``"
 msgstr "Paramètres pour *wapttray*"
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:176
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:187
 msgid "``notify_user`` = 0"
 msgstr "``notify_user`` = 0"
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:176
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:187
 msgid "Prevents ``wapttray`` from sending notifications (popup)"
 msgstr "Empêche :program:`waptray` d'envoyer des notifications (popup)."
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:180
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:191
 msgid "Proxy settings"
 msgstr "Paramètres *proxy*"
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:187
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:198
 msgid "``http_proxy`` = http://user:pwd@host_fqdn:port"
 msgstr "``http_proxy`` = http://user:pwd@host_fqdn:port"
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:187
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:198
 msgid "HTTP proxy address"
 msgstr "Adresse du proxy HTTP à utiliser."
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:188
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:199
 msgid "``use_http_proxy_for_repo`` = 0"
 msgstr "``use_http_proxy_for_repo`` = 0"
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:188
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:199
 msgid "Using the proxy to access the repositories"
 msgstr "Utiliser le proxy pour accéder au dépôt."
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:189
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:200
 msgid "``use_http_proxy_for_server`` = 0"
 msgstr "``use_http_proxy_for_server`` = 0"
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:189
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:200
 msgid "Use a proxy to access the WAPT Server"
 msgstr "Utiliser le proxy pour accéder au serveur d'inventaire."
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:190
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:201
 msgid "``use_http_proxy_for_templates`` = 0"
 msgstr "``use_http_proxy_for_templates`` = 0"
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:190
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:201
 msgid "Use a proxy to access package template server."
 msgstr "Utiliser le proxy pour accéder au serveur de templates de paquets."
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:194
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:205
 msgid "Settings for creating packages"
 msgstr "Paramètres pour la création de paquets"
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:201
-msgid "``personal_certificate_path`` = C:\\private\\org-coder.crt"
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:212
+#, fuzzy
+msgid "``personal_certificate_path`` = C:\\\\private\\\\org-coder.crt"
 msgstr "``personal_certificate_path`` = C:\\private\\org-codeur.crt"
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:201
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:212
 msgid "Path to the Administrator's private key"
 msgstr "Chemin de la clé privée qui permettra de signer les paquets."
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:202
-msgid "``default_sources_root`` = C:\\waptdev"
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:213
+#, fuzzy
+msgid "``default_sources_root`` = C:\\\\waptdev"
 msgstr "``default_sources_root`` = C:\\waptdev"
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:202
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:213
 msgid "Directory for storing packages in development"
 msgstr "Répertoire de développement des paquets."
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:203
-msgid "``default_sources_root_host`` = C:\\waptdev\\hosts"
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:214
+#, fuzzy
+msgid "``default_sources_root_host`` = C:\\\\waptdev\\\\hosts"
 msgstr "``default_sources_root_host`` = C:\\waptdev\\hosts"
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:203
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:214
 msgid "Directory for storing host packages in development"
 msgstr "Répertoire de développement des paquets hosts."
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:204
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:215
 msgid "``default_package_prefix`` = tis"
 msgstr "``default_package_prefix`` = tis"
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:204
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:205
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:215
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:216
 msgid "Default prefix for new or imported packages"
 msgstr "Préfixe des paquets par défaut."
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:205
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:216
 msgid "``default_sources_suffix`` = wapt"
 msgstr "``default_sources_suffix`` = wapt"
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:209
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:220
 msgid "Overriding settings of *upload* functions"
 msgstr "Paramètres de surcharge des commandes *upload*"
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:211
-msgid ""
-"It's possible do override :command:`upload` commands to define a particular "
-"behavior when uploading packages. It's possible for example to upload packages "
-"on several repositories, or via another protocol, etc."
-msgstr ""
-"Il est possible de surcharger les commandes :command:`upload` pour définir un "
-"comportement particulier lors de l'envoi des paquets. On pourrait par exemple "
-"envoyer le paquet sur plusieurs dépôts, via un autre protocole, etc."
-
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:215
-msgid ""
-"To upload packages on the repository (:command:`wapt-get upload-package` or :"
-"command:`build-upload`), use:"
-msgstr ""
-"Pour téléverser le paquet hôte sur le serveur (:command:`upload-package` ou :"
-"command:`build-upload` d'un paquet machine), utiliser :"
-
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:222
 msgid ""
-"To upload host-packages on the repository (:command:`upload-package` or :command:"
-"`build-upload` of a host package), use:"
+"It's possible do override :command:`upload` commands to define a "
+"particular behavior when uploading packages. It's possible for example to"
+" upload packages on several repositories, or via another protocol, etc."
 msgstr ""
-"Pour téléverser le paquet hôte sur le serveur (:command:`upload-package` ou :"
-"command:`build-upload` d'un paquet machine), utiliser :"
+"Il est possible de surcharger les commandes :command:`upload` pour "
+"définir un comportement particulier lors de l'envoi des paquets. On "
+"pourrait par exemple envoyer le paquet sur plusieurs dépôts, via un autre"
+" protocole, etc."
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:229
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:226
+msgid ""
+"To upload packages on the repository (:command:`wapt-get upload-package` "
+"or :command:`build-upload`), use:"
+msgstr ""
+"Pour téléverser le paquet hôte sur le serveur (:command:`upload-package` "
+"ou :command:`build-upload` d'un paquet machine), utiliser :"
+
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:233
+msgid ""
+"To upload host-packages on the repository (:command:`upload-package` or "
+":command:`build-upload` of a host package), use:"
+msgstr ""
+"Pour téléverser le paquet hôte sur le serveur (:command:`upload-package` "
+"ou :command:`build-upload` d'un paquet machine), utiliser :"
+
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:240
 msgid "To launch a command after a package :command:`upload`, use:"
 msgstr "Pour  à exécuter après l':command:`upload` :"
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:236
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:247
 msgid "Configuration of WAPT agents"
 msgstr "Déployer une configuration *wapt-get.ini*"
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:238
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:249
 msgid "After standard installation, the default configuration is:"
 msgstr "Lors de l'installation les paramètres par défaut sont :"
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:248
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:259
 msgid ""
 "Making changes in :file:`wapt-get.ini` and regenerating an agent is not "
 "sufficient to push the new configuration."
 msgstr ""
-"Modifier le :file:`wapt-get.ini` et regénérer un agent ne suffit pas à pousser "
-"une nouvelle configuration."
+"Modifier le :file:`wapt-get.ini` et regénérer un agent ne suffit pas à "
+"pousser une nouvelle configuration."
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:251
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:262
 msgid ""
-"You can create a WAPT package to push updated :file:`wapt-get.ini` settings."
+"You can create a WAPT package to push updated :file:`wapt-get.ini` "
+"settings."
 msgstr ""
 "Vous pouvez en revanche faire un paquet WAPT qui va pousser la nouvelle "
 "configuration."
 
-#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:253
+#: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:264
 msgid ""
-"The package is available from the Tranquil IT repository: https://store.wapt.fr/"
-"store/details-tis-wapt-conf-policy_6_all.wapt :"
+"The package is available from the Tranquil IT repository: "
+"https://store.wapt.fr/store/details-tis-wapt-conf-policy_6_all.wapt :"
 msgstr ""
-"Le paquet exemple est présent dans le dépôt Tranquil IT : https://store.wapt.fr/"
-"package_details?package=tis-wapt-conf-policy_6_all.wapt :"
+"Le paquet exemple est présent dans le dépôt Tranquil IT : "
+"https://store.wapt.fr/package_details?package=tis-wapt-conf-"
+"policy_6_all.wapt :"
 
 #~ msgid ""
-#~ "Defines the command to use to upload packages on the repository (wapt-get "
-#~ "upload-package or build-upload)."
+#~ "Defines the command to use to "
+#~ "upload packages on the repository "
+#~ "(wapt-get upload-package or build-"
+#~ "upload)."
 #~ msgstr ""
-#~ "Indiquer la commande à exécuter pour téléverser un paquet sur le serveur (:"
-#~ "command:`wapt-get upload-package` ou :command:`build-upload`)."
+#~ "Indiquer la commande à exécuter pour "
+#~ "téléverser un paquet sur le serveur "
+#~ "(:command:`wapt-get upload-package` ou "
+#~ ":command:`build-upload`)."
 
 #~ msgid "``wapt_server=http://wapt.tranquil.it/waptserver``"
 #~ msgstr "``wapt_server=http://wapt.tranquil.it/waptserver``"
@@ -628,39 +698,50 @@ msgstr ""
 #~ msgstr "Utiliser (1) ou non (0) le proxy."
 
 #~ msgid ""
-#~ "Path of certificate to use for pinning the validation of HTTPS certificate of "
-#~ "the server."
+#~ "Path of certificate to use for "
+#~ "pinning the validation of HTTPS "
+#~ "certificate of the server."
 #~ msgstr ""
-#~ "Paramétrage de la vérification du certificat HTTPS du serveur WAPT pour "
-#~ "sécuriser les échanges."
+#~ "Paramétrage de la vérification du "
+#~ "certificat HTTPS du serveur WAPT pour"
+#~ " sécuriser les échanges."
 
 #~ msgid ""
-#~ "Possible values : * 1 (default value) : use Python Certifi root CA list "
-#~ "(certifi <wapt_base_dir>\\lib\\site-packages\\certifi\\cacert.pem) \n"
+#~ "Possible values : * 1 (default "
+#~ "value) : use Python Certifi root "
+#~ "CA list (certifi <wapt_base_dir>\\lib\\site-"
+#~ "packages\\certifi\\cacert.pem) \n"
 #~ "* 0 : disable HTTPS certificate check\n"
 #~ "* path to a file : path to a PEM encoded X509 certificate"
 #~ msgstr ""
-#~ "Valeurs possibles : * 1 (valeur par défaut) :  fichier de certificats racines "
-#~ "standard de Python est utilisé (certifi <wapt_base_dir>\\lib\\site-packages"
-#~ "\\certifi\\cacert.pem) * 0 : aucun contrôle du certificat du serveur n'est "
-#~ "effectué. * chemin de fichier : chemin vers un fichier de certificats "
-#~ "d'autorité X509, encodés en PEM."
+#~ "Valeurs possibles : * 1 (valeur "
+#~ "par défaut) :  fichier de certificats"
+#~ " racines standard de Python est "
+#~ "utilisé (certifi <wapt_base_dir>\\lib\\site-"
+#~ "packages\\certifi\\cacert.pem) * 0 : aucun "
+#~ "contrôle du certificat du serveur n'est"
+#~ " effectué. * chemin de fichier : "
+#~ "chemin vers un fichier de certificats"
+#~ " d'autorité X509, encodés en PEM."
 
 #~ msgid "Settings hardening WAPT agent security"
 #~ msgstr "Paramètres pour sécurisation de l'agent WAPT"
 
 #~ msgid ""
-#~ "Go to :ref:`verification-des-certificats-HTTPS-activate` for more information."
+#~ "Go to :ref:`verification-des-certificats-"
+#~ "HTTPS-activate` for more information."
 #~ msgstr "Voir :ref:`verification-des-certificats-HTTPS-activate`"
 
 #~ msgid "Setting up multiple repositories"
 #~ msgstr "Paramètres pour l'utilisation de plusieurs repo"
 
 #~ msgid ""
-#~ "Description of available options to define proxy settings to use with the "
-#~ "WAPT agent"
+#~ "Description of available options to "
+#~ "define proxy settings to use with "
+#~ "the WAPT agent"
 #~ msgstr ""
-#~ "Description des options possibles pour définir les paramètres de proxy à "
+#~ "Description des options possibles pour "
+#~ "définir les paramètres de proxy à "
 #~ "utiliser pour l'agent WAPT"
 
 #~ msgid "Use a proxy to access the WAPT repository"
@@ -682,47 +763,62 @@ msgstr ""
 #~ msgstr "Adresse du serveur WAPT (pour l'inventaire)."
 
 #~ msgid ""
-#~ "Directory storing the public certificate for validating the signature of the "
+#~ "Directory storing the public certificate "
+#~ "for validating the signature of the "
 #~ "packages."
 #~ msgstr ""
-#~ "Répertoire des certificats autorisés pour la vérification de _signature_ des "
+#~ "Répertoire des certificats autorisés pour "
+#~ "la vérification de _signature_ des "
 #~ "paquets."
 
 #~ msgid "Default value: :file:`C:\\Program Files (x86)\\wapt\\ssl`"
 #~ msgstr "Par défaut : ``<wapt_base_dir>\\ssl``."
 
 #~ msgid ""
-#~ "Only files with :file:`.pem` and :file:`.crt` extension in this directory are "
-#~ "taken into account."
+#~ "Only files with :file:`.pem` and "
+#~ ":file:`.crt` extension in this directory "
+#~ "are taken into account."
 #~ msgstr ""
-#~ "Seuls fes fichiers dans ce répertoire avec l'extension :file:`.crt` ou :file:"
-#~ "`.pem` sont pris en compte."
+#~ "Seuls fes fichiers dans ce répertoire"
+#~ " avec l'extension :file:`.crt` ou "
+#~ ":file:`.pem` sont pris en compte."
 
 #~ msgid "There can be more than one X509 certificate in a single file."
 #~ msgstr "Il peut y avoir plusieurs certificats X509 dans chaque fichier."
 
 #~ msgid ""
-#~ "The WAPT agent will use the certificate store in that directory to validate "
-#~ "the signature of the packages before installing the package."
+#~ "The WAPT agent will use the "
+#~ "certificate store in that directory to"
+#~ " validate the signature of the "
+#~ "packages before installing the package."
 #~ msgstr ""
-#~ "Les certificats de paquets autorisés sont ceux dont la signature peut être "
-#~ "vérifiée par l'un des certificats contenus dans les fichiers PEM de ce "
-#~ "répertoire."
+#~ "Les certificats de paquets autorisés "
+#~ "sont ceux dont la signature peut "
+#~ "être vérifiée par l'un des certificats"
+#~ " contenus dans les fichiers PEM de"
+#~ " ce répertoire."
 
 #~ msgid ""
-#~ "Each repository can have its own directory with allowed public certificates."
+#~ "Each repository can have its own "
+#~ "directory with allowed public certificates."
 #~ msgstr "Chaque dépôt peut avoir son propre répertoire de certificats autorisés."
 
 #~ msgid ""
-#~ "If the ``[wapt]`` section does not exists, the main repository configuration "
-#~ "will be read from the ``[global]`` section."
+#~ "If the ``[wapt]`` section does not "
+#~ "exists, the main repository configuration "
+#~ "will be read from the ``[global]`` "
+#~ "section."
 #~ msgstr ""
-#~ "Si cette section n'existe pas, les paramètres sont lus dans la section "
+#~ "Si cette section n'existe pas, les "
+#~ "paramètres sont lus dans la section "
 #~ "``[global]``"
 
 #~ msgid ""
-#~ "In each section you can set the following parameters: ``repo_url``, "
+#~ "In each section you can set the"
+#~ " following parameters: ``repo_url``, "
 #~ "``dnsdomain``, ``public_certs_dir``, ``http_proxy``."
 #~ msgstr ""
-#~ "Dans chaque section, on peut préciser ``repo_url``, ``dnsdomain``, "
-#~ "``public_certs_dir``, ``http_proxy``"
+#~ "Dans chaque section, on peut préciser"
+#~ " ``repo_url``, ``dnsdomain``, ``public_certs_dir``, "
+#~ "``http_proxy``"
+

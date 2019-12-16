@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Tranquil IT
+# This file is distributed under the same license as the WAPT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WAPT 1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-16 14:09+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/wapt-common-problems/common-mistakes.rst:8
+#: ../../source/wapt-common-problems/common-mistakes.rst:13
+msgid "Common mistakes"
+msgstr ""
+
+#: ../../source/wapt-common-problems/common-mistakes.rst:8
+msgid "WAPT, documentation, mistakes"
+msgstr ""
+
+#: ../../source/wapt-common-problems/common-mistakes.rst:16
+msgid "Using a network drive to store and deliver WAPT packages"
+msgstr ""
+
+#: ../../source/wapt-common-problems/common-mistakes.rst:18
+msgid ""
+"The standard way WAPT works is with a secure web server delivering WAPT "
+"packages to the WAPT Clients."
+msgstr ""
+
+#: ../../source/wapt-common-problems/common-mistakes.rst:21
+msgid ""
+"Tranquil IT advises against using a network drive for delivering WAPT "
+"packages for several reasons:"
+msgstr ""
+
+#: ../../source/wapt-common-problems/common-mistakes.rst:24
+msgid ""
+"a web server is extremely easy to setup, secure, maintain, backup and "
+"monitor;"
+msgstr ""
+
+#: ../../source/wapt-common-problems/common-mistakes.rst:26
+msgid ""
+"to work correctly, a WAPT package needs to be self-contained. Indeed, we "
+"do not know if the network will be available at the time of the "
+"installation launch (for example if we have a waptexit that starts when "
+"the workstation is shutting down on a network with 802.1x user "
+"authentication, there will no longer be a network available at the time "
+"of installation). The self-contained nature of WAPT makes it more "
+"deterministic than other deployment solutions;"
+msgstr ""
+
+#: ../../source/wapt-common-problems/common-mistakes.rst:34
+msgid ""
+"network congestion may result from downloading large packages on large "
+"fleets of devices because you have less control over bandwidth rates or "
+"you may not be able to finish a partial download;"
+msgstr ""
+
+#: ../../source/wapt-common-problems/common-mistakes.rst:38
+msgid "this method breaks or at least weakens the security framework of WAPT;"
+msgstr ""
+
+#: ../../source/wapt-common-problems/common-mistakes.rst:40
+msgid ""
+"this method does not allow you to expose your repositories to internet "
+"for your traveling personnel;"
+msgstr ""
+
+#: ../../source/wapt-common-problems/common-mistakes.rst:45
+msgid ""
+"Even though WAPT *can work* independently of the transport mode, "
+"**Tranquil IT will not officially support using a network drive to store "
+"and deliver WAPT packages**."
+msgstr ""
+

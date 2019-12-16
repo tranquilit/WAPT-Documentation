@@ -3,27 +3,26 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-06 17:21+0100\n"
+"POT-Creation-Date: 2019-12-16 14:09+0100\n"
 "PO-Revision-Date: 2018-11-07 11:01+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 1.8.8\n"
 
-#: ../../source/wapt_contribute/contributors_license_agreement.rst:8
+#: ../../source/wapt-contribute/contributors-license-agreement.rst:8
 msgid "Become a contributor to WAPT"
 msgstr "Contribuer à WAPT"
 
-#: ../../source/wapt_contribute/contributors_license_agreement.rst:8
+#: ../../source/wapt-contribute/contributors-license-agreement.rst:8
 msgid "Contribute, WAPT, CLA, ICLA, CCLA, Contributor's License Agreement"
 msgstr "Contribuer, WAPT, CLA, ICLA, CCLA, Contributor's License Agreement"
 
-#: ../../source/wapt_contribute/contributors_license_agreement.rst:13
+#: ../../source/wapt-contribute/contributors-license-agreement.rst:13
 msgid ""
 "Tranquil IT uses various licenses to distribute software and "
 "documentation, to accept regular contributions from individuals and "
@@ -33,27 +32,25 @@ msgstr ""
 "documentation, to accept regular contributions from individuals and "
 "corporations, and to accept larger grants of existing software products."
 
-#: ../../source/wapt_contribute/contributors_license_agreement.rst:17
+#: ../../source/wapt-contribute/contributors-license-agreement.rst:17
 msgid ""
 "These licenses help us achieve our goal of providing reliable and long-"
 "lived software products through collaborative open source software "
-"development. In all cases, contributors retain full rights to use their "
-"original contributions for any other purpose outside of Apache while "
-"providing the ASF and its projects the right to distribute and build "
-"upon their work within WAPT."
+"development."
 msgstr ""
-"These licenses help us achieve our goal of providing reliable and long-"
-"lived software products through collaborative open source software "
-"development. In all cases, contributors retain full rights to use their "
-"original contributions for any other purpose outside of Apache while "
-"providing the ASF and its projects the right to distribute and build "
-"upon their work within WAPT."
 
-#: ../../source/wapt_contribute/contributors_license_agreement.rst:26
+#: ../../source/wapt-contribute/contributors-license-agreement.rst:21
+msgid ""
+"In all cases, contributors retain full rights to use their original "
+"contributions for any other purpose outside of WAPT while providing WAPT "
+"and its projects the right to distribute and build upon their work."
+msgstr ""
+
+#: ../../source/wapt-contribute/contributors-license-agreement.rst:27
 msgid "Contributor License Agreements"
 msgstr "Contributor License Agreements"
 
-#: ../../source/wapt_contribute/contributors_license_agreement.rst:28
+#: ../../source/wapt-contribute/contributors-license-agreement.rst:29
 msgid ""
 "Tranquil IT desires that **all contributors of ideas, code, or "
 "documentation** to any Tranquil IT projects **complete**, **sign**, and "
@@ -62,54 +59,54 @@ msgid ""
 msgstr ""
 "Tranquil IT desires that **all contributors of ideas, code, or "
 "documentation** to any Tranquil IT projects **complete**, **sign**, and "
-"**submit** via email an Individual Contributor License Agreement (ICLA)."
-"**"
+"**submit** via email an Individual Contributor License Agreement "
+"(ICLA).**"
 
-#: ../../source/wapt_contribute/contributors_license_agreement.rst:32
+#: ../../source/wapt-contribute/contributors-license-agreement.rst:33
 msgid ""
 "The purpose of this agreement is to clearly define the terms under which "
 "intellectual property has been contributed to Tranquil IT and thereby "
 "allow us to defend the project should there be a legal dispute regarding "
 "the software at some future time. A signed `Individual CLA (ICLA) "
-"<https://www.wapt.fr/download/tranquilit_icla.pdf>`_ is required to be "
-"on file before an individual is given commit rights to any Tranquil IT "
+"<https://www.wapt.fr/download/tranquilit_icla.pdf>`_ is required to be on"
+" file before an individual is given commit rights to any Tranquil IT "
 "project."
 msgstr ""
 "The purpose of this agreement is to clearly define the terms under which "
 "intellectual property has been contributed to Tranquil IT and thereby "
 "allow us to defend the project should there be a legal dispute regarding "
 "the software at some future time. A signed `Individual CLA (ICLA) "
-"<https://www.wapt.fr/download/tranquilit_icla.pdf>`_ is required to be "
-"on file before an individual is given commit rights to any Tranquil IT "
+"<https://www.wapt.fr/download/tranquilit_icla.pdf>`_ is required to be on"
+" file before an individual is given commit rights to any Tranquil IT "
 "project."
 
-#: ../../source/wapt_contribute/contributors_license_agreement.rst:40
+#: ../../source/wapt-contribute/contributors-license-agreement.rst:41
 msgid ""
 "For a corporation that has assigned employees to work on a Tranquil IT "
-"project, a `Corporate CLA (CCLA) <https://www.wapt.fr/download/"
-"tranquilit_ccla.pdf>`_ is available for contributing intellectual "
-"property via the corporation, that may have been assigned as part of an "
-"employment agreement."
+"project, a `Corporate CLA (CCLA) "
+"<https://www.wapt.fr/download/tranquilit_ccla.pdf>`_ is available for "
+"contributing intellectual property via the corporation, that may have "
+"been assigned as part of an employment agreement."
 msgstr ""
 "For a corporation that has assigned employees to work on a Tranquil IT "
-"project, a `Corporate CLA (CCLA) <https://www.wapt.fr/download/"
-"tranquilit_ccla.pdf>`_ is available for contributing intellectual "
-"property via the corporation, that may have been assigned as part of an "
-"employment agreement."
+"project, a `Corporate CLA (CCLA) "
+"<https://www.wapt.fr/download/tranquilit_ccla.pdf>`_ is available for "
+"contributing intellectual property via the corporation, that may have "
+"been assigned as part of an employment agreement."
 
-#: ../../source/wapt_contribute/contributors_license_agreement.rst:45
+#: ../../source/wapt-contribute/contributors-license-agreement.rst:46
 msgid ""
-"Note that a Corporate CLA does not remove the need for every developer "
-"to sign their own ICLA as an individual, which covers both contributions "
+"Note that a Corporate CLA does not remove the need for every developer to"
+" sign their own ICLA as an individual, which covers both contributions "
 "which are owned and those that are not owned by the corporation signing "
 "the CCLA."
 msgstr ""
-"Note that a Corporate CLA does not remove the need for every developer "
-"to sign their own ICLA as an individual, which covers both contributions "
+"Note that a Corporate CLA does not remove the need for every developer to"
+" sign their own ICLA as an individual, which covers both contributions "
 "which are owned and those that are not owned by the corporation signing "
 "the CCLA."
 
-#: ../../source/wapt_contribute/contributors_license_agreement.rst:52
+#: ../../source/wapt-contribute/contributors-license-agreement.rst:53
 msgid ""
 "The CCLA legally binds the corporation, so it must be signed by a person "
 "with authority to enter into legal contracts on behalf of the "
@@ -119,7 +116,7 @@ msgstr ""
 "with authority to enter into legal contracts on behalf of the "
 "corporation."
 
-#: ../../source/wapt_contribute/contributors_license_agreement.rst:55
+#: ../../source/wapt-contribute/contributors-license-agreement.rst:56
 msgid ""
 "The ICLA is not tied to any employer you may have, so it is recommended "
 "to use one's personal email address in the contact details, rather than "
@@ -129,27 +126,27 @@ msgstr ""
 "to use one's personal email address in the contact details, rather than "
 "an @work address."
 
-#: ../../source/wapt_contribute/contributors_license_agreement.rst:59
+#: ../../source/wapt-contribute/contributors-license-agreement.rst:60
 msgid ""
-"Your Full name will be published unless you provide an alternative "
-"Public name. For example if your full name is Andrew Bernard Charles "
-"Dickens, but you wish to be known as Andrew Dickens, please enter the "
-"latter as your Public name."
+"Your Full name will be published unless you provide an alternative Public"
+" name. For example if your full name is Andrew Bernard Charles Dickens, "
+"but you wish to be known as Andrew Dickens, please enter the latter as "
+"your Public name."
 msgstr ""
-"Your Full name will be published unless you provide an alternative "
-"Public name. For example if your full name is Andrew Bernard Charles "
-"Dickens, but you wish to be known as Andrew Dickens, please enter the "
-"latter as your Public name."
+"Your Full name will be published unless you provide an alternative Public"
+" name. For example if your full name is Andrew Bernard Charles Dickens, "
+"but you wish to be known as Andrew Dickens, please enter the latter as "
+"your Public name."
 
-#: ../../source/wapt_contribute/contributors_license_agreement.rst:64
+#: ../../source/wapt-contribute/contributors-license-agreement.rst:65
 msgid "The email address and other contact details are not published."
 msgstr "The email address and other contact details are not published."
 
-#: ../../source/wapt_contribute/contributors_license_agreement.rst:67
+#: ../../source/wapt-contribute/contributors-license-agreement.rst:68
 msgid "Submitting License Agreements"
 msgstr "Submitting License Agreements"
 
-#: ../../source/wapt_contribute/contributors_license_agreement.rst:69
+#: ../../source/wapt-contribute/contributors-license-agreement.rst:70
 msgid ""
 "Documents may be submitted by email and signed by hand or by electronic "
 "signature. Postal mail hard copy and fax are no longer supported."
@@ -157,7 +154,7 @@ msgstr ""
 "Documents may be submitted by email and signed by hand or by electronic "
 "signature. Postal mail hard copy and fax are no longer supported."
 
-#: ../../source/wapt_contribute/contributors_license_agreement.rst:73
+#: ../../source/wapt-contribute/contributors-license-agreement.rst:74
 msgid ""
 "When submitting by email, please fill the form with a pdf viewer, then "
 "print, sign, scan all pages into a single pdf file, and attach the pdf "
@@ -167,7 +164,7 @@ msgstr ""
 "print, sign, scan all pages into a single pdf file, and attach the pdf "
 "file to an email to contributors-agreement[at]tranquil[dot]it."
 
-#: ../../source/wapt_contribute/contributors_license_agreement.rst:77
+#: ../../source/wapt-contribute/contributors-license-agreement.rst:78
 msgid ""
 "If you prefer to sign electronically, please fill the form, save it "
 "locally (e.g. icla.pdf), and sign the file by preparing a detached PGP "
@@ -177,7 +174,7 @@ msgstr ""
 "locally (e.g. icla.pdf), and sign the file by preparing a detached PGP "
 "signature. For example,"
 
-#: ../../source/wapt_contribute/contributors_license_agreement.rst:85
+#: ../../source/wapt-contribute/contributors-license-agreement.rst:86
 msgid ""
 "The above will create a file icla.pdf.asc. Send both the file (icla.pdf) "
 "and signature (icla.pdf.asc) as attachments in the same email to "
@@ -191,11 +188,11 @@ msgstr ""
 "(file plus signature) per email. Please do not submit your public key to "
 "Tranquil IT. Instead, please upload your public key to pgpkeys.mit.edu."
 
-#: ../../source/wapt_contribute/contributors_license_agreement.rst:92
+#: ../../source/wapt-contribute/contributors-license-agreement.rst:93
 msgid "send to contributors-agreement@tranquil.it"
 msgstr "send to contributors-agreement@tranquil.it"
 
-#: ../../source/wapt_contribute/contributors_license_agreement.rst:94
+#: ../../source/wapt-contribute/contributors-license-agreement.rst:95
 msgid ""
 "The files should be named icla.pdf and icla.pdf.asc for individual "
 "agreements; The files should be named ccla.pdf and ccla.pdf.asc for "
@@ -205,7 +202,7 @@ msgstr ""
 "agreements; The files should be named ccla.pdf and ccla.pdf.asc for "
 "corporate agreements;"
 
-#: ../../source/wapt_contribute/contributors_license_agreement.rst:97
+#: ../../source/wapt-contribute/contributors-license-agreement.rst:98
 msgid ""
 "Please note that typing your name in the field at the bottom of the "
 "document is not signing, regardless of the font that is used. Signing is "
@@ -217,7 +214,7 @@ msgstr ""
 "either writing your signature by hand on a printed copy of the document, "
 "or digitally signing via gpg. Unsigned documents will not be accepted."
 
-#: ../../source/wapt_contribute/contributors_license_agreement.rst:103
+#: ../../source/wapt-contribute/contributors-license-agreement.rst:104
 msgid ""
 "From wikipedia.com: A signature is a handwritten (and often stylized) "
 "depiction of someone's name or nickname, on documents as a proof of "
@@ -227,7 +224,7 @@ msgstr ""
 "depiction of someone's name or nickname, on documents as a proof of "
 "identity and intent."
 
-#: ../../source/wapt_contribute/contributors_license_agreement.rst:106
+#: ../../source/wapt-contribute/contributors-license-agreement.rst:107
 msgid ""
 "For answers to frequently asked licensing questions, please consult or "
 "post on the Tranquil IT forum located at https://forum.tranquil.it/."
@@ -243,3 +240,29 @@ msgstr ""
 
 #~ msgid "Contribuer à WAPT"
 #~ msgstr "Contribuer à WAPT"
+
+#~ msgid ""
+#~ "These licenses help us achieve our "
+#~ "goal of providing reliable and long-"
+#~ "lived software products through collaborative"
+#~ " open source software development. In "
+#~ "all cases, contributors retain full "
+#~ "rights to use their original "
+#~ "contributions for any other purpose "
+#~ "outside of Apache while providing the"
+#~ " ASF and its projects the right "
+#~ "to distribute and build upon their "
+#~ "work within WAPT."
+#~ msgstr ""
+#~ "These licenses help us achieve our "
+#~ "goal of providing reliable and long-"
+#~ "lived software products through collaborative"
+#~ " open source software development. In "
+#~ "all cases, contributors retain full "
+#~ "rights to use their original "
+#~ "contributions for any other purpose "
+#~ "outside of Apache while providing the"
+#~ " ASF and its projects the right "
+#~ "to distribute and build upon their "
+#~ "work within WAPT."
+

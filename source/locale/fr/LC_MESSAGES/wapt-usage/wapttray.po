@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-02 10:11+0200\n"
+"POT-Creation-Date: 2019-12-16 14:09+0100\n"
 "PO-Revision-Date: 2019-02-27 17:09+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: ../../source/wapt-usage/wapttray.rst:8
 #: ../../source/wapt-usage/wapttray.rst:15
@@ -24,9 +24,10 @@ msgid "WAPT, Tray, documentation"
 msgstr "WAPT, Tray, documentation"
 
 #: ../../source/wapt-usage/wapttray.rst:17
+#, fuzzy
 msgid ""
 ":program:`wapttray` is a utility working in user context, it is located "
-"in the WAPT folder :file:`C:\\Program Files (x86)\\wapt`."
+"in the WAPT folder :file:`C:\\\\Program Files (x86)\\\\wapt`."
 msgstr ""
 "Le WAPTtray est utilisable en compte utilisateur, il est situé dans le "
 "dossier :file:`C:\\Program Files (x86)\\wapt\\wapttray.exe`."
@@ -41,9 +42,10 @@ msgstr ""
 "l'ouverture de session."
 
 #: ../../source/wapt-usage/wapttray.rst:23
+#, fuzzy
 msgid ""
 "We can also launch :program:`wapttray` manually with a startup GPO "
-"pointing on :file:`C:\\Program Files (x86)\\wapt\\wapttray.exe`."
+"pointing on :file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapttray.exe`."
 msgstr ""
 "On peut aussi lancer le WAPTtray avec une GPO de démarrage exécutant "
 ":file:`C:\\Program Files (x86)\\wapt\\wapttray.exe`."
@@ -117,7 +119,7 @@ msgstr ""
 
 #: ../../source/wapt-usage/wapttray.rst:58
 msgid ""
-"opens the :file:`C:\\Program Files (x86)\\wapt\\wapt-get.ini` file "
+"opens the :file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get.ini` file "
 "with :term:`Local Administrator` privileges (credentials may be asked)"
 msgstr ""
 
@@ -333,14 +335,11 @@ msgstr ""
 #~ msgstr "Afficher le fichier de configuration"
 
 #~ msgid ""
-#~ "opens the :file:`C:\\Program Files "
-#~ "(x86)\\wapt\\wapt-get.ini` file with "
-#~ ":term:`Local Administrator` privileges (credentials"
-#~ " may be asked)"
+#~ "opens the :file:`C:\\Program Files (x86)\\wapt"
+#~ "\\wapt-get.ini` file with :term:`Local "
+#~ "Administrator` privileges (credentials may be"
+#~ " asked)"
 #~ msgstr ""
-#~ "lance l'édition du fichier "
-#~ ":file:`C:\\Program Files (x86)\\wapt\\wapt-"
-#~ "get.ini` en mode :term:`Administrateur`."
 
 #~ msgid "Reloading network related service configuration"
 #~ msgstr "Recharger la configuration réseau du service"

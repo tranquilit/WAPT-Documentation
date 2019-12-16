@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Tranquil IT
+# This file is distributed under the same license as the WAPT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WAPT 1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-16 14:09+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/wapt-security/security-configuration-certificate-authentication.rst:8
+#: ../../source/wapt-security/security-configuration-certificate-authentication.rst:17
+msgid "Configuring Client-Side Certificate Authentication"
+msgstr ""
+
+#: ../../source/wapt-security/security-configuration-certificate-authentication.rst:8
+msgid "certificat, WAPT, SSL / TLS, Certificate Authority, documentation"
+msgstr ""
+
+#: ../../source/wapt-security/security-configuration-certificate-authentication.rst:19
+msgid "Enterprise"
+msgstr ""
+
+#: ../../source/wapt-security/security-configuration-certificate-authentication.rst:23
+msgid "This feature is only available with WAPT **Enterprise**."
+msgstr ""
+
+#: ../../source/wapt-security/security-configuration-certificate-authentication.rst:25
+msgid ""
+"If your business needs a public WAPT server on Internet, it can be "
+"secured with **Client-Side Certificate Authentication**."
+msgstr ""
+
+#: ../../source/wapt-security/security-configuration-certificate-authentication.rst:28
+msgid ""
+"That configuration restricts the visibility of the WAPT Server to "
+"registered clients only. It is done by relying on the WAPT agent's "
+"private key generated during registration. It works as follows:"
+msgstr ""
+
+#: ../../source/wapt-security/security-configuration-certificate-authentication.rst:32
+msgid ""
+"the WAPT agent sends a :abbr:`CSR (Certificate Signing Request)` to the "
+"WAPT server which the WAPT server signs and sends back to WAPT agent;"
+msgstr ""
+
+#: ../../source/wapt-security/security-configuration-certificate-authentication.rst:35
+msgid ""
+"using the signed certificate, the agent can access protected parts of the"
+" :program:`Nginx` web server;"
+msgstr ""
+
+#: ../../source/wapt-security/security-configuration-certificate-authentication.rst:40
+msgid ""
+"We advise you to enable Kerberos or login / password registration in WAPT"
+" Server post-configuration."
+msgstr ""
+
+#: ../../source/wapt-security/security-configuration-certificate-authentication.rst:44
+msgid "Enabling Client-Side Certificate Authentication"
+msgstr ""
+
+#: ../../source/wapt-security/security-configuration-certificate-authentication.rst:46
+msgid ""
+"add a :program:`Nginx` configuration file :file:`/etc/nginx/certificate-"
+"auth.conf`. This file is used to restrict access to specific actions with"
+" Certificate Authentication:"
+msgstr ""
+
+#: ../../source/wapt-security/security-configuration-certificate-authentication.rst:58
+msgid "Example config file:"
+msgstr ""
+
+#: ../../source/wapt-security/security-configuration-certificate-authentication.rst:152
+msgid ""
+"Be careful, as of |date|, WAPT does not support :abbr:`CRL (Certificate "
+"Revocation Lists)`, which means that when you delete a machine in the "
+"WAPT console, the machine will still have access to the WAPT repository."
+msgstr ""
+

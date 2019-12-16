@@ -1,0 +1,430 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Tranquil IT
+# This file is distributed under the same license as the WAPT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WAPT 1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-16 14:09+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/wapt-api/using_wapt_api.rst:9
+#: ../../source/wapt-api/using_wapt_api.rst:16
+msgid "Using the WAPT server APIs"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:9
+msgid "API, Application Protocol Interface, WAPT, documentation"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:20
+msgid ""
+"This documentation does not describe all the available :abbr:`APIs "
+"(Application Protocol Interfaces)`, it will however concentrate on the "
+"most useful ones."
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:24
+msgid "All available URLs may be found in :file:`/opt/wapt/waptserver/server.py`."
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:26
+msgid ""
+"URLs are formed by calling the proper command from the WAPT Server, ex: "
+":file:`https://srvwapt/{command_path}`."
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:32
+msgid "This documentation contains examples using Python code or curl."
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:35
+msgid "API V1"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:38
+msgid "/api/v1/hosts"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:40
+msgid "get registration data of one or several hosts:"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:63
+msgid "list all hosts. Available parameters are;"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:65
+msgid "*reachable*"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:67
+msgid "*computer_fqdn* ==> computer_name"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:69
+msgid "*connected_ips*"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:71
+msgid "*mac_addresses*"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:73
+msgid "This example shows a request with parameters:"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:81
+msgid "This example is a global request:"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:91
+#: ../../source/wapt-api/using_wapt_api.rst:121
+#: ../../source/wapt-api/using_wapt_api.rst:163
+#: ../../source/wapt-api/using_wapt_api.rst:184
+#: ../../source/wapt-api/using_wapt_api.rst:206
+#: ../../source/wapt-api/using_wapt_api.rst:229
+#: ../../source/wapt-api/using_wapt_api.rst:257
+#: ../../source/wapt-api/using_wapt_api.rst:282
+#: ../../source/wapt-api/using_wapt_api.rst:307
+#: ../../source/wapt-api/using_wapt_api.rst:328
+#: ../../source/wapt-api/using_wapt_api.rst:366
+#: ../../source/wapt-api/using_wapt_api.rst:387
+#: ../../source/wapt-api/using_wapt_api.rst:410
+#: ../../source/wapt-api/using_wapt_api.rst:436
+msgid "This is the same exemple with a simple html request:"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:97
+msgid ""
+"This one just show request with reachable status, the computer name, its "
+"connected ips and its mac addresses. Display limit is 10000"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:108
+msgid "/api/v1/groups"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:110
+msgid ""
+"get all group packages. Group is found with section *group* in the "
+"package."
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:131
+msgid "/api/v1/host_data"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:134
+msgid "dmi"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:135
+msgid "get :abbr:`DMI (Desktop Management Interface)` info for a host:"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:139
+msgid ""
+"# #    Get additional data for a host #    query: #      uuid=<uuid> #"
+"      field=packages, dmi or softwares"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:145
+msgid ""
+"Example: get *dmi* information of host which has UUID 14F620FF-DE70-9E5B-"
+"996A-B597E8F9B4AD: https://srvwapt.ad.mydomain.fr/api/v1/host_data?uuid"
+"=14F620FF-DE70-9E5B-996A-B597E8F9B4AD&field=dmi"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:150
+msgid ""
+"*dmi* is not the only available option. You can also lookup information "
+"using *installed_packages*, *wsusupdates* ou *installed_softwares*."
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:171
+msgid "installed_packages"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:173
+msgid ""
+"Option *installed_packages* will list all packages installed on a "
+"specific host."
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:192
+msgid "installed_softwares"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:194
+msgid ""
+"Option *installed_softwares* will list all softwares installed on a "
+"specific host."
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:215
+msgid "wsusupdates"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:217
+msgid ""
+"Option *wsusupdates* will list all windows update installed on a specific"
+" host."
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:238
+msgid "/api/v1/usage_statistics"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:240
+msgid "Get usage statistics from the server."
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:244
+msgid ""
+"This API is useful if you have several wapt servers and you want to know "
+"how many hosts are there."
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:266
+msgid "API V2"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:269
+msgid "/api/v2/waptagent_version"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:271
+msgid "Display :program:`waptagent.exe` version on the server."
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:291
+msgid "API V3"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:294
+msgid "/api/v3/packages"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:296
+msgid "List packages on the repository, get control file on package."
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:316
+msgid "/api/v3/known_packages"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:318
+msgid "List all packages with last *signed_on* information."
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:337
+msgid "/api/v3/trigger_cancel_task"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:339
+msgid "Cancel a running task."
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:343
+msgid "Voir avec Hubert"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:352
+msgid "/api/v3/get_ad_ou"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:354
+msgid ""
+"List :abbr:`OU (Organisational Unit)` seen by hosts and displayed in the "
+"WAPT console."
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:375
+msgid "/api/v3/get_ad_sites"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:377
+msgid "List Active Directory sites."
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:396
+msgid "/api/v3/hosts_for_package"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:398
+msgid ""
+"List hosts with a specific package installed "
+"https://srvwapt.ad.domain.fr/api/v3/hosts_for_package?package=demo-"
+"namepackage"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:420
+msgid "/api/v3/host_tasks_status"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:422
+msgid "List tasks on a particular host."
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:424
+msgid ""
+"Example with host uuid: "
+"https://srvwapt.ad.domain.fr/api/v3/host_tasks_status?uuid=14F620FF-DE70"
+"-9E5B-996A-B597E8F9B4AD"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:446
+msgid "Next API are with POST method."
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:449
+msgid "/api/v3/upload_packages"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:451
+#: ../../source/wapt-api/using_wapt_api.rst:458
+#: ../../source/wapt-api/using_wapt_api.rst:594
+msgid "Todo"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:453
+#: ../../source/wapt-api/using_wapt_api.rst:460
+msgid "faire des tests"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:456
+msgid "/api/v3/upload_hosts"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:463
+msgid "/api/v3/change_password"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:465
+msgid ""
+"Change admin password [only this account]. Request must be a python "
+"dictionnary *{}*. Keys must be:"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:468
+msgid "user"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:470
+msgid "password"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:472
+msgid "new_password"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:479
+msgid "/api/v3/login"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:481
+msgid "Initialize a connection to the server."
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:491
+msgid ""
+"We can make a connection by html form than POST: "
+"https://admin:MYPASSWORD@srvwapt/api/v3/get_ad_sites"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:495
+msgid "/api/v3/packages_delete"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:497
+msgid ""
+"Delete package with a precise version. Request must be in python list "
+"*[]*. It can takes several packages separated by commas *,*."
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:500
+msgid "Example:"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:507
+msgid "/api/v3/reset_hosts_sid"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:509
+msgid ""
+"There is several possibilities : "
+"https://srvwapt.ad.domain.fr/api/v3/reset_hosts_sid will reinitialize all"
+" host connections."
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:513
+msgid "For the POST method:"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:515
+msgid ""
+"Syntax is : :file:`--data-raw` : a dictionnary with key :guilabel:`uuids`"
+" with value a host uuid list"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:526
+#: ../../source/wapt-api/using_wapt_api.rst:550
+msgid "If you want several hosts:"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:535
+msgid "/api/v3/trigger_wakeonlan"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:537
+msgid "If hosts are WakeOnLan enabled, this API is useful."
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:539
+msgid ""
+"Syntax is :file:`--data-raw`: a dictionnary with key *uuids* and a list "
+"of host uuids."
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:559
+msgid "/api/v3/hosts_delete"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:575
+msgid "If you want to delete a host from the inventory:"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:583
+msgid "If you do not want to delete in the inventory server:"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:592
+msgid "/api/v3/trigger_host_action"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:596
+msgid "Tests"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:599
+msgid "/upload_waptsetup"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:611
+msgid "/ping"
+msgstr ""
+
+#: ../../source/wapt-api/using_wapt_api.rst:613
+msgid "Ping get general information from a wapt server."
+msgstr ""
+

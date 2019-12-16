@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-01 11:26+0100\n"
+"POT-Creation-Date: 2019-12-16 14:09+0100\n"
 "PO-Revision-Date: 2019-02-27 11:27+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -141,10 +141,9 @@ msgstr ""
 "*portable*. Pour cela, il faudra :"
 
 #: ../../source/wapt-create-packages/package-additional/index.rst:90
-msgid "create the folder for the software in :file:`C:\\Program Files (x86)`;"
-msgstr ""
-"créer le répertoire d'installation dans :file:`C:\\Program Files "
-"(x86)` ;"
+#, fuzzy
+msgid "create the folder for the software in :file:`C:\\\\Program Files (x86)`;"
+msgstr "créer le répertoire d'installation dans :file:`C:\\Program Files (x86)` ;"
 
 #: ../../source/wapt-create-packages/package-additional/index.rst:92
 msgid "copy the software in that folder;"
@@ -176,14 +175,14 @@ msgstr ""
 
 #: ../../source/wapt-create-packages/package-additional/index.rst:121
 #, fuzzy
-msgid "The file :file:`C:\\waptdev\\tis-adwcleaner-wapt` is created."
+msgid "The file :file:`C:\\\\waptdev\\\\tis-adwcleaner-wapt` is created."
 msgstr "Le fichier :file:`C:\\waptdev\\tis-adwcleaner-wapt` est créé."
 
 #: ../../source/wapt-create-packages/package-additional/index.rst:123
 #, fuzzy
 msgid ""
 "download and copy/ paste :program:`adwcleaner.exe` binary in "
-":file:`C:\\waptdev\\tis-adwcleaner-wapt` directory;"
+":file:`C:\\\\waptdev\\\\tis-adwcleaner-wapt` directory;"
 msgstr ""
 "télécharger puis copier / coller l'exécutable :program:`adwcleaner.exe` "
 "dans le répertoire :file:`C:\\waptdev\\tis-adwcleaner-wapt` ;"
@@ -191,11 +190,11 @@ msgstr ""
 #: ../../source/wapt-create-packages/package-additional/index.rst:126
 #, fuzzy
 msgid ""
-"open and make desired changes to :file:`C:\\waptdev\\tis-adwcleaner-"
-"wapt\\setup.py` installation file;"
+"open and make desired changes to :file:`C:\\\\waptdev\\\\tis-adwcleaner-"
+"wapt\\\\setup.py` installation file;"
 msgstr ""
-"ouvrir et modifier ensuite le fichier d'installation "
-":file:`C:\\waptdev\\tis-adwcleaner-wapt\\setup.py` ;"
+"ouvrir et modifier ensuite le fichier d'installation :file:`C:\\waptdev"
+"\\tis-adwcleaner-wapt\\setup.py` ;"
 
 #~ msgid ""
 #~ "``session_setup`` customization will occur "

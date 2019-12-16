@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-02 10:11+0200\n"
+"POT-Creation-Date: 2019-12-16 14:09+0100\n"
 "PO-Revision-Date: 2019-03-01 11:05+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: ../../source/wapt-usage/wapt-console-detail.rst:8
 msgid "Using the WAPT console"
@@ -1138,7 +1138,8 @@ msgid ""
 msgstr "Chemin vers le certificat associée a la clé privé pour signer les paquets"
 
 #: ../../source/wapt-usage/wapt-console-detail.rst:569
-msgid ":file:`C:\\private\\mykey.crt`"
+#, fuzzy
+msgid ":file:`C:\\\\private\\\\mykey.crt`"
 msgstr ":file:`C:\\private\\mykey.crt`"
 
 #: ../../source/wapt-usage/wapt-console-detail.rst:573
@@ -1178,7 +1179,8 @@ msgstr ""
 "développement"
 
 #: ../../source/wapt-usage/wapt-console-detail.rst:595
-msgid ":file:`C:\\waptdev`"
+#, fuzzy
+msgid ":file:`C:\\\\waptdev`"
 msgstr ":file:`C:\\waptdev`"
 
 #: ../../source/wapt-usage/wapt-console-detail.rst:596

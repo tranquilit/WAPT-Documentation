@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-12 12:16+0200\n"
+"POT-Creation-Date: 2019-12-16 14:09+0100\n"
 "PO-Revision-Date: 2019-02-27 10:56+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -698,9 +698,10 @@ msgstr ""
 "correctement **signé**."
 
 #: ../../source/wapt-concept/index.rst:341
+#, fuzzy
 msgid ""
 "If the WAPT package signature does not match any of the public keys "
-"located in :file:`C:\\Program Files (x86)\\wapt\\ssl`, the WAPT "
+"located in :file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl`, the WAPT "
 "agent will refuse to install the package."
 msgstr ""
 "Si l'agent WAPT ne parvient pas à vérifier le paquet avec les chaînes de "
@@ -1198,9 +1199,10 @@ msgstr ""
 "vérifier s'il a des choses à faire."
 
 #: ../../source/wapt-concept/index.rst:600
+#, fuzzy
 msgid ""
 "Packages to be installed will be downloaded and cached in the folder "
-":file:`C:\\Program Files (x86)\\wapt\\cache`."
+":file:`C:\\\\Program Files (x86)\\\\wapt\\\\cache`."
 msgstr ""
 "Si des paquets sont en attente d'installation, ils seront automatiquement"
 " téléchargés dans le dossier :file:`C:\\Program Files "

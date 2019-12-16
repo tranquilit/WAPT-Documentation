@@ -3,17 +3,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-27 10:29+0100\n"
+"POT-Creation-Date: 2019-12-16 14:09+0100\n"
 "PO-Revision-Date: 2019-02-27 12:05+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.5.3\n"
-"X-Generator: Poedit 1.8.8\n"
+"Generated-By: Babel 2.6.0\n"
 
 #: ../../source/wapt-usage/wapt-console.rst:8
 #: ../../source/wapt-usage/wapt-console.rst:15
@@ -36,11 +35,11 @@ msgstr ""
 
 #: ../../source/wapt-usage/wapt-console.rst:22
 msgid ""
-"The installation of the WAPT agent on computers will register them on the WAPT "
-"inventory server."
+"The installation of the WAPT agent on computers will register them on the"
+" WAPT inventory server."
 msgstr ""
-"L'installation de l'agent WAPT sur un client va enclencher l'enregistrement du "
-"client dans l'inventaire du serveur WAPT."
+"L'installation de l'agent WAPT sur un client va enclencher "
+"l'enregistrement du client dans l'inventaire du serveur WAPT."
 
 #: ../../source/wapt-usage/wapt-console.rst:25
 msgid "The hosts will then appear in the WAPT console."
@@ -48,11 +47,13 @@ msgstr "Le client apparaîtra alors dans la console WAPT."
 
 #: ../../source/wapt-usage/wapt-console.rst:27
 msgid ""
-"To install the WAPT agent manually on a computer, download the WAPT agent from "
-"https://wapt_server/wapt/waptagent.exe then launch its installation."
+"To install the WAPT agent manually on a computer, download the WAPT agent"
+" from https://wapt_server/wapt/waptagent.exe then launch its "
+"installation."
 msgstr ""
-"Pour installer l'agent WAPT manuellement sur un poste client, télécharger "
-"l'agent WAPT : https://wapt/wapt/waptagent.exe puis lancer son installation."
+"Pour installer l'agent WAPT manuellement sur un poste client, télécharger"
+" l'agent WAPT : https://wapt/wapt/waptagent.exe puis lancer son "
+"installation."
 
 #: ../../source/wapt-usage/wapt-console.rst:34
 msgid "Download the WAPT agent to be deployed on computers"
@@ -64,13 +65,14 @@ msgid ""
 "documentation on :ref:`installing the WAPT agent <install_waptagent>`."
 msgstr ""
 "Si vous avez sauté l'étape de création de l'agent WAPT, visitez la "
-"documentation pour :ref:`créer et déployer l'agent WAPT <install_waptagent>`."
+"documentation pour :ref:`créer et déployer l'agent WAPT "
+"<install_waptagent>`."
 
 #: ../../source/wapt-usage/wapt-console.rst:41
 msgid "On your **management computer**, hosts are displayed in the WAPT console."
 msgstr ""
-"Sur votre **poste de management**, dans la console :program:`waptconsole.exe` "
-"doit apparaître le client dans la console."
+"Sur votre **poste de management**, dans la console "
+":program:`waptconsole.exe` doit apparaître le client dans la console."
 
 #: ../../source/wapt-usage/wapt-console.rst:47
 msgid "Inventory of hosts registered with WAPT"
@@ -79,12 +81,12 @@ msgstr "Inventaire des clients enregistrés dans WAPT"
 #: ../../source/wapt-usage/wapt-console.rst:51
 msgid ""
 "If a host does not appear in the console after having installed the WAPT "
-"agent, open the Windows command line utility :program:`cmd.exe` on the host "
-"and type :command:`wapt-get register`."
+"agent, open the Windows command line utility :program:`cmd.exe` on the "
+"host and type :command:`wapt-get register`."
 msgstr ""
 "Si le poste ne remonte pas directement dans la console à l'issue de "
-"l'installation de l'agent, taper manuellement la commande ``wapt-get register -"
-"S`` sur le client."
+"l'installation de l'agent, taper manuellement la commande ``wapt-get "
+"register -S`` sur le client."
 
 #: ../../source/wapt-usage/wapt-console.rst:56
 msgid "Duplicating packages from external repositories"
@@ -108,8 +110,9 @@ msgstr "changer le préfixe (par exemple de *tis* à *test*) ;"
 
 #: ../../source/wapt-usage/wapt-console.rst:71
 msgid ""
-"resigning the WAPT package with the :term:`Administrator`'s private key to "
-"allow the deployment of the duplicated package on your WAPT equipped hosts;"
+"resigning the WAPT package with the :term:`Administrator`'s private key "
+"to allow the deployment of the duplicated package on your WAPT equipped "
+"hosts;"
 msgstr ""
 "re-signer le paquet avec votre clé privée d':term:`Administrateur` pour "
 "permettre le déploiement du paquet dupliqué sur vos postes clients ;"
@@ -120,26 +123,27 @@ msgstr "et enfin, uploader celui-ci sur votre dépôt WAPT ;"
 
 #: ../../source/wapt-usage/wapt-console.rst:78
 msgid ""
-"By importing a package in your repository and signing it, you then become "
-"responsible for that package and for what it does. **It has been signed with "
-"your own private key**."
+"By importing a package in your repository and signing it, you then become"
+" responsible for that package and for what it does. **It has been signed "
+"with your own private key**."
 msgstr ""
 "En important un paquet dans votre dépôt, vous devenez responsable de ce "
 "paquet. **Il est signé avec votre signature**."
 
 #: ../../source/wapt-usage/wapt-console.rst:82
 msgid ""
-"**Tranquil IT** disclaims any liability if you choose to use WAPT packages "
-"retrieved from her repositories. Without a support contract, Tranquil IT does "
-"not guarantee the suitability of the package for your own particular use case, "
-"nor does she guarantee the ability of the package to comply with your :term:"
-"`Organization`'s internal security policies."
+"**Tranquil IT** disclaims any liability if you choose to use WAPT "
+"packages retrieved from her repositories. Without a support contract, "
+"Tranquil IT does not guarantee the suitability of the package for your "
+"own particular use case, nor does she guarantee the ability of the "
+"package to comply with your :term:`Organization`'s internal security "
+"policies."
 msgstr ""
-"**Tranquil IT** décline toute responsabilité si vous utilisez des paquets WAPT "
-"récupérés depuis son dépôt. Sans contrat de support, elle n'offre aucune "
-"garantie sur l'adéquation du paquet à votre usage ou la capacité du paquet à "
-"être conforme à aux politiques internes de sécurité de votre :term:"
-"`Organisation`."
+"**Tranquil IT** décline toute responsabilité si vous utilisez des paquets"
+" WAPT récupérés depuis son dépôt. Sans contrat de support, elle n'offre "
+"aucune garantie sur l'adéquation du paquet à votre usage ou la capacité "
+"du paquet à être conforme à aux politiques internes de sécurité de votre "
+":term:`Organisation`."
 
 #: ../../source/wapt-usage/wapt-console.rst:88
 msgid "go to the :guilabel:`Private repository` tab;"
@@ -156,13 +160,13 @@ msgstr "On obtient tous les paquets logiciels présents sur le dépôt WAPT."
 #: ../../source/wapt-usage/wapt-console.rst:98
 msgid ""
 "If no packages has been imported, the list is empty. Only the *test-"
-"waptupgrade* package will be present if the WAPT agent has been generated "
-"previously. Visit the documentation on :ref:`creating a WAPT agent "
+"waptupgrade* package will be present if the WAPT agent has been generated"
+" previously. Visit the documentation on :ref:`creating a WAPT agent "
 "<create_WAPT_agent>`."
 msgstr ""
-"Si aucun paquet n'a été importé, cette liste sera vide. Seul le paquet ``test-"
-"waptupgrade`` sera présent :ref:`si l'agent WAPT a été généré précédemment "
-"<create_WAPT_agent>`."
+"Si aucun paquet n'a été importé, cette liste sera vide. Seul le paquet "
+"``test-waptupgrade`` sera présent :ref:`si l'agent WAPT a été généré "
+"précédemment <create_WAPT_agent>`."
 
 #: ../../source/wapt-usage/wapt-console.rst:102
 msgid "Two options are available to import packages:"
@@ -174,37 +178,37 @@ msgstr "Importer depuis internet"
 
 #: ../../source/wapt-usage/wapt-console.rst:107
 msgid ""
-"That first method allows to download packages directly from a WAPT repository "
-"external to your :term:`Organization`."
+"That first method allows to download packages directly from a WAPT "
+"repository external to your :term:`Organization`."
 msgstr ""
-"Cette première méthode permet de télécharger des paquets directement depuis "
-"des dépôts WAPT extérieurs à votre :term:`Organisation`."
+"Cette première méthode permet de télécharger des paquets directement "
+"depuis des dépôts WAPT extérieurs à votre :term:`Organisation`."
 
 #: ../../source/wapt-usage/wapt-console.rst:110
 msgid ""
 "To import from a different repository than Tranquil IT, define a new "
-"repository address in the WAPT console preferences. For example: http://wapt."
-"otherorganization.com/wapt/."
+"repository address in the WAPT console preferences. For example: "
+"http://wapt.otherorganization.com/wapt/."
 msgstr ""
-"Pour importer depuis un dépôt différent de celui de Tranquil IT, indiquer dans "
-"les préférences l'adresse d'un autre dépôt WAPT. Par exemple : https://wapt."
-"autredomaine.local/wapt/."
+"Pour importer depuis un dépôt différent de celui de Tranquil IT, indiquer"
+" dans les préférences l'adresse d'un autre dépôt WAPT. Par exemple : "
+"https://wapt.autredomaine.local/wapt/."
 
 #: ../../source/wapt-usage/wapt-console.rst:116
 msgid ""
-"If no repository is set, the repository https://wapt.tranquil.it/wapt will be "
-"implicitly set."
+"If no repository is set, the repository https://wapt.tranquil.it/wapt "
+"will be implicitly set."
 msgstr ""
-"si aucun dépôt n'est renseigné, la valeur https://wapt.tranquil.it/wapt sera "
-"la valeur implicite ;"
+"si aucun dépôt n'est renseigné, la valeur https://wapt.tranquil.it/wapt "
+"sera la valeur implicite ;"
 
 #: ../../source/wapt-usage/wapt-console.rst:119
 msgid ""
-"Starting with WAPT 1.3.12.13, **external repository SSL/ TLS certificates are "
-"verified by default**."
+"Starting with WAPT 1.3.12.13, **external repository SSL/ TLS certificates"
+" are verified by default**."
 msgstr ""
-"à partir de la version 1.3.12.13, la vérification de la validité du certificat "
-"SSL / TLS du dépôt extérieur est **activée par défaut** ;"
+"à partir de la version 1.3.12.13, la vérification de la validité du "
+"certificat SSL / TLS du dépôt extérieur est **activée par défaut** ;"
 
 #: ../../source/wapt-usage/wapt-console.rst:122
 msgid "click on :guilabel:`Import from Internet`;"
@@ -216,16 +220,17 @@ msgstr "Importer un paquet depuis internet"
 
 #: ../../source/wapt-usage/wapt-console.rst:130
 msgid ""
-"The grid view displays the list of available packages on the remote repository."
+"The grid view displays the list of available packages on the remote "
+"repository."
 msgstr "La liste affiche les paquets disponibles sur le serveur distant."
 
 #: ../../source/wapt-usage/wapt-console.rst:132
 msgid ""
-"to import a package, select a package then :menuselection:`Right-click --> "
-"Import`;"
+"to import a package, select a package then :menuselection:`Right-click "
+"--> Import`;"
 msgstr ""
-"pour importer un paquet, sélectionner un paquet puis :menuselection:`clic-"
-"droit --> importer` ;"
+"pour importer un paquet, sélectionner un paquet puis :menuselection"
+":`clic-droit --> importer` ;"
 
 #: ../../source/wapt-usage/wapt-console.rst:139
 #: ../../source/wapt-usage/wapt-console.rst:262
@@ -263,8 +268,8 @@ msgstr "Entrer le mot de passe de la clé privée"
 #: ../../source/wapt-usage/wapt-console.rst:167
 #: ../../source/wapt-usage/wapt-console.rst:246
 msgid ""
-"The WAPT console confirms that the package has been duplicated in your local "
-"WAPT repository."
+"The WAPT console confirms that the package has been duplicated in your "
+"local WAPT repository."
 msgstr "La console confirme la duplication du paquet dans le dépôt WAPT local."
 
 #: ../../source/wapt-usage/wapt-console.rst:174
@@ -287,14 +292,16 @@ msgstr "Console WAPT affichant le paquet dupliqué"
 #: ../../source/wapt-usage/wapt-console.rst:187
 msgid ""
 "If the verification of the package signature is enabled, the public "
-"certificate of the signer must be located in one of the following folders:"
+"certificate of the signer must be located in one of the following "
+"folders:"
 msgstr ""
-"Si la vérification de la signature du paquet lors de l'import depuis Internet "
-"est activée, le certificat public doit être présent dans un des dossiers "
-"suivants :"
+"Si la vérification de la signature du paquet lors de l'import depuis "
+"Internet est activée, le certificat public doit être présent dans un des "
+"dossiers suivants :"
 
 #: ../../source/wapt-usage/wapt-console.rst:190
-msgid ":file:`C:\\Program Files (x86)\\wapt\\ssl`;"
+#, fuzzy
+msgid ":file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl`;"
 msgstr ":file:`C:\\Program Files (x86)\\wapt\\ssl` ;"
 
 #: ../../source/wapt-usage/wapt-console.rst:192
@@ -306,8 +313,8 @@ msgid ""
 "If the certificate is not found in one of these two folders, then the "
 "following error will occur and the package will not be imported."
 msgstr ""
-"Si ce n'est pas le cas, l'erreur suivante se produira et empêchera l'import du "
-"paquet depuis ce dépôt."
+"Si ce n'est pas le cas, l'erreur suivante se produira et empêchera "
+"l'import du paquet depuis ce dépôt."
 
 #: ../../source/wapt-usage/wapt-console.rst:201
 msgid "Error while validating the signature of the external repository"
@@ -319,20 +326,21 @@ msgstr "Editer un paquet avant de l'importer"
 
 #: ../../source/wapt-usage/wapt-console.rst:206
 msgid ""
-"Starting with WAPT 1.3.12.13, it is now possible to edit a package downloaded "
-"from an external repository before importing it in your main WAPT repository."
+"Starting with WAPT 1.3.12.13, it is now possible to edit a package "
+"downloaded from an external repository before importing it in your main "
+"WAPT repository."
 msgstr ""
 "Avec la sortie de WAPT 1.3.12.13, il est désormais possible d'éditer "
-"directement un paquet depuis le dépôt externe avant de l'importer dans le "
-"dépôt local."
+"directement un paquet depuis le dépôt externe avant de l'importer dans le"
+" dépôt local."
 
 #: ../../source/wapt-usage/wapt-console.rst:209
 msgid ""
-"To achieve this, choose instead the second option :guilabel:`Download and "
-"Edit` to import the package from an external WAPT repository."
+"To achieve this, choose instead the second option :guilabel:`Download and"
+" Edit` to import the package from an external WAPT repository."
 msgstr ""
-"Pour cela, choisir la deuxième option :guilabel:`Télécharger et éditer` lors "
-"de l'import du paquet depuis Internet."
+"Pour cela, choisir la deuxième option :guilabel:`Télécharger et éditer` "
+"lors de l'import du paquet depuis Internet."
 
 #: ../../source/wapt-usage/wapt-console.rst:216
 msgid "Process for importing and editing a package"
@@ -341,13 +349,13 @@ msgstr "Procédure pour télécharger et éditer un paquet"
 #: ../../source/wapt-usage/wapt-console.rst:218
 msgid ":program:`PyScripter`, if installed, opens the WAPT package."
 msgstr ""
-"L'éditeur :program:`PyScripter`, si installé au préalable, s'ouvre alors avec "
-"le projet WAPT du paquet."
+"L'éditeur :program:`PyScripter`, si installé au préalable, s'ouvre alors "
+"avec le projet WAPT du paquet."
 
 #: ../../source/wapt-usage/wapt-console.rst:220
 msgid ""
-"Please refer to the documentation on :ref:`creating WAPT packages from scratch "
-"<creating_WAPT_packages>`."
+"Please refer to the documentation on :ref:`creating WAPT packages from "
+"scratch <creating_WAPT_packages>`."
 msgstr ""
 "Voir la documentation pour savoir comment :ref:`créer des paquets WAPT "
 "<creating_WAPT_packages>`."
@@ -359,8 +367,8 @@ msgstr "Importer depuis un fichier"
 #: ../../source/wapt-usage/wapt-console.rst:226
 msgid "That second method allows to import a :file:`.wapt` file from any medium."
 msgstr ""
-"Cette deuxième méthode permet d'indiquer un fichier :file:`.wapt` téléchargé "
-"au préalable avec un navigateur web."
+"Cette deuxième méthode permet d'indiquer un fichier :file:`.wapt` "
+"téléchargé au préalable avec un navigateur web."
 
 #: ../../source/wapt-usage/wapt-console.rst:228
 msgid "click on :guilabel:`Import from File`;"
@@ -392,18 +400,19 @@ msgstr "Changer le préfixe et re-signer le paquet"
 
 #: ../../source/wapt-usage/wapt-console.rst:267
 msgid ""
-"When importing, the changing of the prefix and the re-signing of the WAPT "
-"package are transparent and automatic."
+"When importing, the changing of the prefix and the re-signing of the WAPT"
+" package are transparent and automatic."
 msgstr ""
 "Lors d'un import, le changement de préfixe et la re-signature sont "
 "transparents et automatiques."
 
 #: ../../source/wapt-usage/wapt-console.rst:270
 msgid ""
-"Once the package is ready, the WAPT package is uploaded onto the main WAPT "
-"repository."
+"Once the package is ready, the WAPT package is uploaded onto the main "
+"WAPT repository."
 msgstr ""
-"Une fois que le paquet est prêt, il est transféré vers le dépôt WAPT local."
+"Une fois que le paquet est prêt, il est transféré vers le dépôt WAPT "
+"local."
 
 #: ../../source/wapt-usage/wapt-console.rst:274
 msgid "Deploying WAPT packages from the WAPT console"
@@ -415,11 +424,11 @@ msgstr "éditer le poste sur lequel le logiciel sera déployé ;"
 
 #: ../../source/wapt-usage/wapt-console.rst:280
 msgid ""
-"Selecting multiple hosts using common shortcut keys :kbd:`Control-A` or :kbd:"
-"`Shift-Arrow` is possible."
+"Selecting multiple hosts using common shortcut keys :kbd:`Control-A` or "
+":kbd:`Shift-Arrow` is possible."
 msgstr ""
-"La sélection multiple en utilisant les touches habituelles :kbd:`Control-A` :"
-"kbd:`Shift-Flèche` est possible."
+"La sélection multiple en utilisant les touches habituelles "
+":kbd:`Control-A` :kbd:`Shift-Flèche` est possible."
 
 #: ../../source/wapt-usage/wapt-console.rst:287
 msgid "Select the host to configure"
@@ -427,18 +436,19 @@ msgstr "Sélectionner le poste à configurer"
 
 #: ../../source/wapt-usage/wapt-console.rst:289
 msgid ""
-"A window opens, on the right side appears the list of packages available on "
-"the local WAPT repository, and on the left side is shown the list of packages "
-"currently assigned to the host."
+"A window opens, on the right side appears the list of packages available "
+"on the local WAPT repository, and on the left side is shown the list of "
+"packages currently assigned to the host."
 msgstr ""
-"une fenêtre s'ouvre, à droite la liste des paquets disponibles sur le dépot "
-"WAPT local et à gauche la liste des paquets actuellement attribués au poste ;"
+"une fenêtre s'ouvre, à droite la liste des paquets disponibles sur le "
+"dépot WAPT local et à gauche la liste des paquets actuellement attribués "
+"au poste ;"
 
 #: ../../source/wapt-usage/wapt-console.rst:293
 msgid "drag and drop packages from the right pane to the left pane;"
 msgstr ""
-"glisser-déposer le paquet souhaité depuis l'encart de droite vers l'encart de "
-"gauche ;"
+"glisser-déposer le paquet souhaité depuis l'encart de droite vers "
+"l'encart de gauche ;"
 
 #: ../../source/wapt-usage/wapt-console.rst:299
 msgid "Drag and drop the package on the host or the selection of hosts"
@@ -446,20 +456,22 @@ msgstr "Glisser-déposer le paquet sur le poste ou la sélection de postes"
 
 #: ../../source/wapt-usage/wapt-console.rst:301
 msgid ""
-"clicking on :guilabel:`Save and Apply to hosts` will launch the installation "
-"of the package(s) immediately on the selected host(s) that are connected to "
-"the WAPT Server;"
+"clicking on :guilabel:`Save and Apply to hosts` will launch the "
+"installation of the package(s) immediately on the selected host(s) that "
+"are connected to the WAPT Server;"
 msgstr ""
 "cliquer sur :guilabel:`Enregistrer et Appliquer à la machine` lance "
 "immédiatement l'installation sur le poste concerné ;"
 
 #: ../../source/wapt-usage/wapt-console.rst:305
 msgid ""
-"clicking on :guilabel:`Save` will save the current configuration. Upgrading of "
-"the packages will occur on the the WAPT agents' next update cycle;"
+"clicking on :guilabel:`Save` will save the current configuration. "
+"Upgrading of the packages will occur on the the WAPT agents' next update "
+"cycle;"
 msgstr ""
-"cliquer sur :guilabel:`Enregistrer`, enregistre la nouvelle configuration. La "
-"mise à jour sera appliquée au prochain cycle de mises à jour ;"
+"cliquer sur :guilabel:`Enregistrer`, enregistre la nouvelle "
+"configuration. La mise à jour sera appliquée au prochain cycle de mises à"
+" jour ;"
 
 #: ../../source/wapt-usage/wapt-console.rst:313
 msgid "Save and apply configuration on selected host(s)"
@@ -471,12 +483,12 @@ msgstr "Mise à jour lancée"
 
 #: ../../source/wapt-usage/wapt-console.rst:321
 msgid ""
-"To launch the installation of WAPT packages, click successively on :guilabel:"
-"`Update available packages` then :guilabel:`Apply updates`."
+"To launch the installation of WAPT packages, click successively on "
+":guilabel:`Update available packages` then :guilabel:`Apply updates`."
 msgstr ""
-"Pour lancer l'installation des paquets, cliquer successivement sur :guilabel:"
-"`Lancer la mise à jour des paquets disponibles` puis :guilabel:`Lancer "
-"l'installation des paquets`."
+"Pour lancer l'installation des paquets, cliquer successivement sur "
+":guilabel:`Lancer la mise à jour des paquets disponibles` puis "
+":guilabel:`Lancer l'installation des paquets`."
 
 #: ../../source/wapt-usage/wapt-console.rst:328
 msgid "Applying updates"
@@ -484,10 +496,11 @@ msgstr "Lancer la mise à jour des paquets disponibles"
 
 #: ../../source/wapt-usage/wapt-console.rst:330
 msgid ""
-"The installation of the WAPT package(s) is launched on the selected host(s) "
-"connected to the WAPT Server."
+"The installation of the WAPT package(s) is launched on the selected "
+"host(s) connected to the WAPT Server."
 msgstr ""
-"L'installation du paquet WAPT se lance sur le poste ou les postes sélectionnés."
+"L'installation du paquet WAPT se lance sur le poste ou les postes "
+"sélectionnés."
 
 #~ msgid "Launch upgrade immediately"
 #~ msgstr "Lancement immédiat de la mise à jour"
@@ -496,10 +509,13 @@ msgstr ""
 #~ msgstr "Démonstration de la duplication de paquets"
 
 #~ msgid ""
-#~ "clicking on :guilabel:`Save and Apply to hosts` will launch the "
-#~ "installation of the package immediately on the selected host(s)"
+#~ "clicking on :guilabel:`Save and Apply to"
+#~ " hosts` will launch the installation "
+#~ "of the package immediately on the "
+#~ "selected host(s)"
 #~ msgstr ""
-#~ "\"Enregistrer et Appliquer à la machine\" lance immédiatement l'installation"
+#~ "\"Enregistrer et Appliquer à la "
+#~ "machine\" lance immédiatement l'installation"
 
 #~ msgid "The upgrade has been triggered"
 #~ msgstr "La mise à jour est lancée"
@@ -521,3 +537,4 @@ msgstr ""
 
 #~ msgid "Dialog asking for your private key password"
 #~ msgstr "Demande du mot de passe de la clé privée"
+

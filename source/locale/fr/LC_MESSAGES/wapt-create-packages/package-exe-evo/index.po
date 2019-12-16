@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-16 09:56+0200\n"
+"POT-Creation-Date: 2019-12-16 14:09+0100\n"
 "PO-Revision-Date: 2018-11-07 11:50+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 #: ../../source/wapt-create-packages/package-exe-evo/index.rst:8
 #, fuzzy
-msgid "Advanced \\*.exe packages"
+msgid "Advanced *.exe packages"
 msgstr "Créer un paquet \\*.exe evolué"
 
 #: ../../source/wapt-create-packages/package-exe-evo/index.rst:8
@@ -108,7 +108,7 @@ msgid "``exe``"
 msgstr ""
 
 #: ../../source/wapt-create-packages/package-exe-evo/index.rst:69
-msgid "name of the :file:`.exe` file to execute."
+msgid "name of the :mimetype:`.exe` file to execute."
 msgstr ""
 
 #: ../../source/wapt-create-packages/package-exe-evo/index.rst:70
@@ -423,7 +423,7 @@ msgstr ""
 #~ msgstr "``exe``"
 
 #~ msgid "name of the :file:`.exe` file to execute."
-#~ msgstr "nom du fichier EXE à exécuter."
+#~ msgstr ""
 
 #~ msgid "``silentflags``"
 #~ msgstr "``silentflags``"

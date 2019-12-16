@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-05 15:09+0100\n"
+"POT-Creation-Date: 2019-12-16 14:09+0100\n"
 "PO-Revision-Date: 2018-11-02 18:27+0200\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -14,18 +14,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: ../../source/wapt_replication/index.rst:8
-#: ../../source/wapt_replication/index.rst:15
+#: ../../source/wapt-replication/index.rst:8
+#: ../../source/wapt-replication/index.rst:15
 msgid "Replicating repositories and working with multiple repositories"
 msgstr "Répliquer des dépôt et fonctionner avec plusieurs dépôts"
 
-#: ../../source/wapt_replication/index.rst:8
+#: ../../source/wapt-replication/index.rst:8
 msgid "multi-repo, multi-repositories, replicate, replication, bandwidth"
 msgstr ""
 "multi-dépôt, multi-repo, replication, répliquer, bande passante, "
 "documentation"
 
-#: ../../source/wapt_replication/index.rst:17
+#: ../../source/wapt-replication/index.rst:17
 msgid ""
 "Different architectures may be considered to implement validation "
 "workflows for WAPT packages or to provide solutions to bandwidth "
@@ -35,13 +35,17 @@ msgstr ""
 "contraintes de développement et de qualification des paquets ou pour "
 "résoudre des contraintes de bande passante."
 
-#: ../../source/wapt_replication/index.rst:20
+#: ../../source/wapt-replication/index.rst:20
 msgid ""
 "You'll find in this part of the documentation how to implement such "
 "architectures."
 msgstr ""
 "Vous trouverez ci-dessous les documentations pour mettre en place ces "
 "architectures."
+
+#: ../../source/wapt-replication/index.rst:30
+msgid "Deprecated configurations"
+msgstr ""
 
 #~ msgid "Replication / multi-repositories"
 #~ msgstr "Réplication / Multi-Dépôts"

@@ -1,300 +1,320 @@
+
 msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-05 15:09+0100\n"
+"POT-Creation-Date: 2019-12-16 14:09+0100\n"
 "PO-Revision-Date: 2018-11-05 20:14+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 1.8.8\n"
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:8
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:16
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:26
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:8
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:16
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:26
 msgid "Creating a package template from the WAPT console"
 msgstr "Créer un paquet WAPT depuis la console"
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:8
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:8
 msgid ""
-"msi, WAPT, advanced, complex, console, installing, installation, documentation"
+"msi, WAPT, advanced, complex, console, installing, installation, "
+"documentation"
 msgstr "msi, WAPT, evolués, complexes"
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:22
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:22
 msgid ""
-"To create WAPT packages directly from the WAPT console, it is necessary to have "
-"installed the WAPT development environment *tis-waptdev*."
+"To create WAPT packages directly from the WAPT console, it is necessary "
+"to have installed the WAPT development environment *tis-waptdev*."
 msgstr ""
-"Pré-requis : Pour créer des paquets à partir de la console, il faut d'abord "
-"avoir installé l'environment de développement WAPT *tis-waptdev*."
+"Pré-requis : Pour créer des paquets à partir de la console, il faut "
+"d'abord avoir installé l'environment de développement WAPT *tis-waptdev*."
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:28
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:28
 msgid ""
-"In that example, we use the 7-zip MSI setup downloaded from the 7-zip official "
-"website."
+"In that example, we use the 7-zip MSI setup downloaded from the 7-zip "
+"official website."
 msgstr "Dans cet exemple, l'installeur de 7zip est utilisé au format MSI."
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:31
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:31
 msgid "download the 7-zip MSI installer:"
 msgstr "obtenir l'installeur MSI de 7zip ;"
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:33
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:33
 msgid "`download 7-zip MSI x64 <http://www.7-zip.org/a/7z1604-x64.msi>`_;"
 msgstr "`télécharger 7-zip MSI x64 <https://www.7-zip.org/a/7z1604-x64.msi>`_ ;"
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:35
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:35
 msgid "`download 7-zip MSI x86 <http://www.7-zip.org/a/7z1604.msi>`_;"
 msgstr "`télécharger 7-zip MSI x86 <https://www.7-zip.org/a/7z1604.msi>`_ ;"
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:37
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:37
 msgid "create a WAPT package Template from the installer;"
 msgstr "créer le modèle de paquet depuis l'installeur ;"
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:39
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:39
 msgid ""
-"In the WAPT console, click on :menuselection:`Tools --> Make package template "
-"from setup file`"
+"In the WAPT console, click on :menuselection:`Tools --> Make package "
+"template from setup file`"
 msgstr ""
-"Dans la console WAPT, cliquer sur :menuselection:`Outils --> Créer un modèle de "
-"paquet depuis un installeur`."
+"Dans la console WAPT, cliquer sur :menuselection:`Outils --> Créer un "
+"modèle de paquet depuis un installeur`."
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:46
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:46
 msgid "Pyscripter - WAPT console window for creating a package template"
 msgstr "PyScripter - Menu pour la création de modèle de paquets depuis la console"
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:48
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:48
 msgid ""
-"Select the downloaded MSI setup file and fill in the required fields. Verify "
-"that the package name does not contains any version number."
+"Select the downloaded MSI setup file and fill in the required fields. "
+"Verify that the package name does not contains any version number."
 msgstr ""
 "Sélectionner l'installeur MSI téléchargé et renseigner les différentes "
-"informations demandées. Veillez bien à ce que le nom du paquet ne contienne pas "
-"de numéro de version."
+"informations demandées. Veillez bien à ce que le nom du paquet ne "
+"contienne pas de numéro de version."
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:55
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:55
 msgid "Informations required for creating the package"
 msgstr "PyScripter - Renseignements nécesssaires pour la création du paquet"
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:57
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:57
 msgid "Two solutions are available:"
 msgstr "deux solutions sont proposées :"
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:59
-msgid "click on :guilabel:`OK` (recommended) to launch package customization;"
-msgstr ""
-"cliquer sur :guilabel:`OK` (recommandée) pour lancer la personnalisation du "
-"paquet ;"
-
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:61
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:59
+#, fuzzy
 msgid ""
-"click on :guilabel:`Build and upload` to directly build and upload the package."
+"click on :guilabel:`Make and edit ....` (recommended) to launch package "
+"customization;"
+msgstr ""
+"cliquer sur :guilabel:`OK` (recommandée) pour lancer la personnalisation "
+"du paquet ;"
+
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:61
+msgid ""
+"click on :guilabel:`Build and upload` to directly build and upload the "
+"package."
 msgstr ""
 "cliquer sur :guilabel:`Build and upload` pour lancer la création et le "
 "chargement direct du paquet sur le serveur WAPT (non recommandé) ;"
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:66
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:66
 msgid ""
-"The button :guilabel:`Build and upload` directly uploads the package into the "
-"private repository without testing."
+"The button :guilabel:`Build and upload` directly uploads the package into"
+" the private repository without testing."
 msgstr ""
-"Le bouton :guilabel:`Build and upload` envoi directement le paquet dans le "
-"dépôt privé sans tester l'installation."
+"Le bouton :guilabel:`Build and upload` envoi directement le paquet dans "
+"le dépôt privé sans tester l'installation."
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:69
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:69
 msgid ""
 "This method works relatively well with MSI installers because their "
 "installation is more standardized."
 msgstr ""
-"Cette méthode fonctionne assez bien avec les MSI car leur installation est "
-"standard."
+"Cette méthode fonctionne assez bien avec les MSI car leur installation "
+"est standard."
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:72
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:72
 msgid ""
-"However, the second method that consists of first testing locally the package "
-"before uploading is the recommended method."
+"However, the second method that consists of first testing locally the "
+"package before uploading is the recommended method."
 msgstr ""
 "Cependant la deuxième méthode qui consiste à tester localement le paquet "
 "d'abord puis à l'uploader est la méthode recommandée."
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:76
-msgid "Build and upload the package"
-msgstr "Construire et charger le paquet WAPT"
-
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:78
-msgid ""
-"When the MSI installers are known to have been correctly built, you may choose "
-"to upload them directly by selecting :guilabel:`Build and upload`."
-msgstr ""
-"Si l'installeur MSI est réalisé dans les règles de l'art, il est possible de le "
-"packager directement en cliquant sur le bouton :guilabel:`Build and upload`."
-
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:86
-msgid "Pyscripter - required informations for 7-zip package"
-msgstr "PyScripter - Renseignements nécessaires pour la création du paquet 7zip"
-
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:92
-msgid "Validating the package build and upload process"
-msgstr "Validation de la création et upload du paquet"
-
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:94
-msgid "Frequent problems:"
-msgstr "Les problèmes suivant sont parfois rencontrés :"
-
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:96
-msgid "invalid *uninstall key*;"
-msgstr "clé de désinstallation invalide ;"
-
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:98
-msgid "non-silent setup;"
-msgstr "installation non-silencieuse ;"
-
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:100
-msgid "invalid silent switch;"
-msgstr "argument silencieux invalide ;"
-
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:102
-msgid "creation of useless shortcuts;"
-msgstr "ajout de raccourcis inutiles ;"
-
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:105
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:77
 msgid "Customize the package before build-upload"
 msgstr "Personnaliser le paquet avant build-upload"
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:107
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:79
 msgid ""
-"Before uploading a package to your WAPT repository, you may choose to customize "
-"its behavior to your Organization's needs by editing it with :program:"
-"`PyScripter`."
+"Before uploading a package to your WAPT repository, you may choose to "
+"customize its behavior to your Organization's needs by editing it with "
+":program:`PyScripter`."
 msgstr ""
 "La méthode conseillée avant l':command:`upload` d'un paquet est de "
 "personnaliser son comportement en l'éditant avec :program:`PyScripter`."
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:111
-msgid "When creating the package template, click on :guilabel:`OK`."
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:83
+#, fuzzy
+msgid ""
+"When creating the package template, click on :guilabel:`Make and edit "
+"....`."
 msgstr "Lors de la création du modèle de paquet, cliquer sur :guilabel:`OK`."
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:117
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:89
 msgid "PyScripter - Informations required for creating the package"
 msgstr "PyScripter - Renseignements nécésssaires pour la création du paquet"
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:123
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:95
 msgid "PyScripter - The package has been created"
 msgstr ""
-"PyScripter - Validation de la création du modèle et ouverture de PyScripter"
+"PyScripter - Validation de la création du modèle et ouverture de "
+"PyScripter"
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:125
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:97
 msgid "The :program:`PyScripter` IDE allows to edit files in the WAPT package."
 msgstr ""
-"L'IDE :program:`PyScripter` se lance et permet d'éditer les fichiers du paquet."
+"L'IDE :program:`PyScripter` se lance et permet d'éditer les fichiers du "
+"paquet."
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:131
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:103
 msgid "PyScripter - Customizing a package with Pyscripter"
 msgstr "PyScripter - Personnalisation du paquet avec PyScripter"
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:134
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:107
 msgid "Presentation of Pyscripter"
 msgstr "Présentation de PyScripter"
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:137
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:110
 msgid "PyScripter project explorer"
 msgstr "L'explorateur de projets PyScripter"
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:143
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:116
 msgid "PyScripter - project explorer"
 msgstr "PyScripter - Explorateur de projets PyScripter"
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:145
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:118
 msgid ""
-"The PyScripter project explorer lists the different files that you might need, "
-"notably the :file:`control` file and the :file:`setup.py` file."
+"The PyScripter project explorer lists the different files that you might "
+"need, notably the :file:`control` file and the :file:`setup.py` file."
 msgstr ""
-"L'explorateur de projets PyScripter liste les différents fichiers dont vous "
-"pouvez avoir besoin, notamment le fichier :file:`control` et le fichier :file:"
-"`setup.py`."
+"L'explorateur de projets PyScripter liste les différents fichiers dont "
+"vous pouvez avoir besoin, notamment le fichier :file:`control` et le "
+"fichier :file:`setup.py`."
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:149
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:122
 msgid "Run Configurations"
 msgstr "Run Configurations"
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:155
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:128
 msgid "PyScripter - Run commands in the PyScripter project explorer"
 msgstr "PyScripter - Commandes Run dans l'explorateur de projets PyScripter"
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:157
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:130
 msgid ""
-"The :command:`Run` option in the project explorer of:program:`PyScripter` will "
-"allow you to launch actions on the packages that you are editing."
+"The :command:`Run` option in the project explorer of:program:`PyScripter`"
+" will allow you to launch actions on the packages that you are editing."
 msgstr ""
-"Les options de :command:`Run` dans l'explorateur de projets de :program:"
-"`PyScripter` vont vous permettre de lancer des actions de votre paquet en cours "
-"d'édition."
+"Les options de :command:`Run` dans l'explorateur de projets de "
+":program:`PyScripter` vont vous permettre de lancer des actions de votre "
+"paquet en cours d'édition."
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:161
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:134
 msgid "Editor panel"
 msgstr "Zone d'édition"
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:167
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:140
 msgid "PyScripter - Editor panel"
 msgstr "PyScripter - zone d'édition de PyScripter"
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:169
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:142
 msgid ""
-"The edition panel in :program:`PyScripter` allows to edit the :file:`setup.py` "
-"file and the :file:`control` file."
+"The edition panel in :program:`PyScripter` allows to edit the "
+":file:`setup.py` file and the :file:`control` file."
 msgstr ""
-"La Zone d'édition de :program:`PyScripter` permet d'éditer le fichier :file:"
-"`setup.py` ainsi que le fichier :file:`control`."
+"La Zone d'édition de :program:`PyScripter` permet d'éditer le fichier "
+":file:`setup.py` ainsi que le fichier :file:`control`."
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:173
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:146
 msgid "Python Console"
 msgstr "Console Python"
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:179
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:152
 msgid "PyScripter - Python console in PyScripter"
 msgstr "PyScripter - console python de PyScripter"
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:181
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:154
 msgid ""
-"This is the python console visible in :program:`PyScripter`, it will allow you "
-"to display the python output when you execute :command:`Run` commands."
+"This is the python console visible in :program:`PyScripter`, it will "
+"allow you to display the python output when you execute :command:`Run` "
+"commands."
 msgstr ""
 "C'est la console python visible dans :program:`PyScripter`, elle va vous "
-"permettre d'afficher la sortie python lorsque vous exécuterez des commandes :"
-"command:`run`."
+"permettre d'afficher la sortie python lorsque vous exécuterez des "
+"commandes :command:`run`."
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:184
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:157
 msgid ""
-"You can also use it to test/ debug portions of your script :file:`setup.py`."
+"You can also use it to test/ debug portions of your script "
+":file:`setup.py`."
 msgstr ""
-"Vous pouvez également l'utiliser pour tester / déboguer des portions de votre "
-"script :file:`setup.py`."
+"Vous pouvez également l'utiliser pour tester / déboguer des portions de "
+"votre script :file:`setup.py`."
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:186
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:159
 msgid ""
-"To learn more about the composition of a wapt package, visit the documentation "
-"on the :ref:`structure of a WAPT package <structure_wapt-package>`."
+"To learn more about the composition of a wapt package, visit the "
+"documentation on the :ref:`structure of a WAPT package <structure_wapt-"
+"package>`."
 msgstr ""
 "Pour en savoir plus sur la composition d'un paquet wapt, visitez la "
-"documentation sur la :ref:`structure d'un paquet WAPT <structure_wapt-package>`."
+"documentation sur la :ref:`structure d'un paquet WAPT <structure_wapt-"
+"package>`."
 
-#: ../../source/wapt_create_packages/package_msi_gui/index.rst:189
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:162
 msgid ""
-"To customize a package, please visit the documentation on :ref:`customizing "
-"your WAPT packages <customizing_your_packages>`."
+"To customize a package, please visit the documentation on "
+":ref:`customizing your WAPT packages <customizing_your_packages>`."
 msgstr ""
-"Si vous voulez parfaire vos paquets WAPT, visitez la documentation pour :ref:"
-"`personnaliser vos paquets <customizing_your_packages>`."
+"Si vous voulez parfaire vos paquets WAPT, visitez la documentation pour "
+":ref:`personnaliser vos paquets <customizing_your_packages>`."
+
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:167
+msgid "Installation test"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:169
+msgid ""
+"You can then test the launch of an installation on your development "
+"station."
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:174
+msgid "Python Console allows you to check if the installation went well."
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:178
+msgid "Build the package and send to the wapt server"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:180
+msgid "Once your package ready, you can build it and send it to the wapt server"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:187
+msgid "Option \"-i build-upload\" of PyScripter project"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:189
+msgid "Enter the password of your private key (to sign your wapt package)"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:194
+msgid "Enter the username and password to send the wapt package to the server."
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:200
+msgid ""
+"Your package is now available and visible in your console wapt in the tab"
+" tab \"private deposit\""
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-msi-gui/index.rst:202
+msgid "Do not forget to click on \"update available packages\""
+msgstr ""
 
 #~ msgid ""
-#~ "Since WAPT 1.3.12, it's possible to directly make a package template from "
-#~ "console."
+#~ "Since WAPT 1.3.12, it's possible to "
+#~ "directly make a package template from"
+#~ " console."
 #~ msgstr ""
-#~ "Depuis la version 1.3.12 de WAPT, il est possible d'instancier directement "
+#~ "Depuis la version 1.3.12 de WAPT, "
+#~ "il est possible d'instancier directement "
 #~ "un paquet depuis la console."
 
 #~ msgid "Download MSI setup file"
@@ -307,16 +327,25 @@ msgstr ""
 #~ msgstr "Création d'un paquet WAPT depuis la console"
 
 #~ msgid ""
-#~ "The button :guilabel:`Build and upload` uploads directly the package to the "
-#~ "WAPT repository without having been tested. That method works fine with very "
-#~ "well built and standardized MSI. However, the method consisting of testing "
-#~ "first the package locally then uploading it is the recommended method."
+#~ "The button :guilabel:`Build and upload` "
+#~ "uploads directly the package to the "
+#~ "WAPT repository without having been "
+#~ "tested. That method works fine with "
+#~ "very well built and standardized MSI."
+#~ " However, the method consisting of "
+#~ "testing first the package locally then"
+#~ " uploading it is the recommended "
+#~ "method."
 #~ msgstr ""
-#~ "Le bouton **Build and upload** envoi directement le paquet dans le dépôt "
-#~ "privé sans tester l'installation. Cette méthode fonctionne assez bien avec "
-#~ "les MSI car leur installation est standard. Cependant la deuxième méthode "
-#~ "qui consiste à tester localement le paquet d'abord puis à l'uploader est la "
-#~ "méthode recommandée."
+#~ "Le bouton **Build and upload** envoi "
+#~ "directement le paquet dans le dépôt "
+#~ "privé sans tester l'installation. Cette "
+#~ "méthode fonctionne assez bien avec les"
+#~ " MSI car leur installation est "
+#~ "standard. Cependant la deuxième méthode "
+#~ "qui consiste à tester localement le "
+#~ "paquet d'abord puis à l'uploader est "
+#~ "la méthode recommandée."
 
 #~ msgid "Direct build-upload of the package onto the repository"
 #~ msgstr "Build-upload direct du paquet sur le dépôt"
@@ -329,3 +358,40 @@ msgstr ""
 
 #~ msgid "Pyscripter project explorer"
 #~ msgstr "L'Explorateur de projets"
+
+#~ msgid "Build and upload the package"
+#~ msgstr "Construire et charger le paquet WAPT"
+
+#~ msgid ""
+#~ "When the MSI installers are known "
+#~ "to have been correctly built, you "
+#~ "may choose to upload them directly "
+#~ "by selecting :guilabel:`Build and upload`."
+#~ msgstr ""
+#~ "Si l'installeur MSI est réalisé dans "
+#~ "les règles de l'art, il est "
+#~ "possible de le packager directement en"
+#~ " cliquant sur le bouton :guilabel:`Build"
+#~ " and upload`."
+
+#~ msgid "Pyscripter - required informations for 7-zip package"
+#~ msgstr "PyScripter - Renseignements nécessaires pour la création du paquet 7zip"
+
+#~ msgid "Validating the package build and upload process"
+#~ msgstr "Validation de la création et upload du paquet"
+
+#~ msgid "Frequent problems:"
+#~ msgstr "Les problèmes suivant sont parfois rencontrés :"
+
+#~ msgid "invalid *uninstall key*;"
+#~ msgstr "clé de désinstallation invalide ;"
+
+#~ msgid "non-silent setup;"
+#~ msgstr "installation non-silencieuse ;"
+
+#~ msgid "invalid silent switch;"
+#~ msgstr "argument silencieux invalide ;"
+
+#~ msgid "creation of useless shortcuts;"
+#~ msgstr "ajout de raccourcis inutiles ;"
+

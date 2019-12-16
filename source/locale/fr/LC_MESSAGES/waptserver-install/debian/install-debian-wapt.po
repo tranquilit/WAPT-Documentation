@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-16 09:56+0200\n"
+"POT-Creation-Date: 2019-12-16 14:09+0100\n"
 "PO-Revision-Date: 2019-02-27 11:56+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -145,15 +145,11 @@ msgstr ""
 
 #: ../../source/waptserver-install/debian/install-debian-wapt.rst:119
 msgid ""
-"Choice #2 activates the initial registration based on Kerberos. Check "
-"only if you have followed the documentation on :ref:`configuring Kerberos"
-" authentication for Debian <configure_krb5_auth_debian>`;"
+"Choice #2 activates the initial registration based on Kerberos. (you can "
+"activate it later)"
 msgstr ""
-"Le choix 2 active l'enregistrement kerberos. A cocher uniquement si vous "
-"avez suivi la documentation pour configurer l'authentification Kerberos "
-"pour :ref:`Debian <configure_krb5_auth_debian>` ;"
 
-#: ../../source/waptserver-install/debian/install-debian-wapt.rst:124
+#: ../../source/waptserver-install/debian/install-debian-wapt.rst:121
 msgid ""
 "choice #3 does not activate the Kerberos authentication mechanism for the"
 " initial registering of machines equipped with WAPT. The WAPT server will"
@@ -164,19 +160,19 @@ msgstr ""
 " l'enregistrement des machines. The serveur WAPT réclamera le mot de "
 "passe du *SuperAdmin* à chaque nouvel enregistrement ;"
 
-#: ../../source/waptserver-install/debian/install-debian-wapt.rst:140
+#: ../../source/waptserver-install/debian/install-debian-wapt.rst:137
 msgid "select :guilabel:`OK` to start WAPT Server;"
 msgstr "sélectionner :guilabel:`OK` pour démarrer le serveur WAPT ;"
 
-#: ../../source/waptserver-install/debian/install-debian-wapt.rst:148
+#: ../../source/waptserver-install/debian/install-debian-wapt.rst:145
 msgid "select :guilabel:`Yes` to configure Nginx;"
 msgstr "sélectionner :guilabel:`Yes` pour configurer Nginx ;"
 
-#: ../../source/waptserver-install/debian/install-debian-wapt.rst:156
+#: ../../source/waptserver-install/debian/install-debian-wapt.rst:153
 msgid "enter the :term:`FQDN` of the WAPT Server;"
 msgstr "entrer le nom :term:`FQDN` du serveur WAPT ;"
 
-#: ../../source/waptserver-install/debian/install-debian-wapt.rst:168
+#: ../../source/waptserver-install/debian/install-debian-wapt.rst:165
 msgid ""
 "select :guilabel:`OK` and a self-signed certificate will be generated, "
 "this step may take a long time ..."
@@ -184,7 +180,7 @@ msgstr ""
 "faites :guilabel:`OK` et un certificat autosigné est généré, cette étape "
 "peu être longue ..."
 
-#: ../../source/waptserver-install/debian/install-debian-wapt.rst:177
+#: ../../source/waptserver-install/debian/install-debian-wapt.rst:174
 msgid ""
 "Nginx is now configured, select :guilabel:`OK` to restart "
 ":program:`Nginx`:"
@@ -192,27 +188,27 @@ msgstr ""
 "Nginx est maintenant configuré, sélectionner :guilabel:`OK` pour "
 "redémarrer :program:`Nginx` :"
 
-#: ../../source/waptserver-install/debian/install-debian-wapt.rst:186
+#: ../../source/waptserver-install/debian/install-debian-wapt.rst:183
 msgid "The post-configuration is now finished."
 msgstr "La post-configuration est maintenant terminée."
 
-#: ../../source/waptserver-install/debian/install-debian-wapt.rst:195
+#: ../../source/waptserver-install/debian/install-debian-wapt.rst:192
 msgid "Listing of post-configuration script options:"
 msgstr "Détail des arguments possibles du script de post-configuration :"
 
-#: ../../source/waptserver-install/debian/install-debian-wapt.rst:200
+#: ../../source/waptserver-install/debian/install-debian-wapt.rst:197
 msgid "Flag"
 msgstr "Flag"
 
-#: ../../source/waptserver-install/debian/install-debian-wapt.rst:200
+#: ../../source/waptserver-install/debian/install-debian-wapt.rst:197
 msgid "Definition"
 msgstr "Définition"
 
-#: ../../source/waptserver-install/debian/install-debian-wapt.rst:202
+#: ../../source/waptserver-install/debian/install-debian-wapt.rst:199
 msgid "*--force-https*"
 msgstr "*--force-https*"
 
-#: ../../source/waptserver-install/debian/install-debian-wapt.rst:202
+#: ../../source/waptserver-install/debian/install-debian-wapt.rst:199
 msgid ""
 "Configures :program:`Nginx` so that *port 80 is permanently redirected to"
 " 443*"
@@ -220,40 +216,11 @@ msgstr ""
 "Configure :program:`Nginx` de sorte que *port 80 soit redirigé en "
 "permanence vers 443*."
 
-#: ../../source/waptserver-install/debian/install-debian-wapt.rst:208
-msgid ""
-"It is advisable to activate Kerberos authentication if your network "
-"requires a high level of security (see :ref:`Enable Kerberos "
-"Configuration <configure_krb5_auth_debian>`). The Kerberos authentication"
-" answers security problems addressed in :ref:`this section of the "
-"documentation <initial_machine_registration>`. **If you are just testing "
-"WAPT, you may pass this step of the documentation**."
-msgstr ""
-"Il est conseillé d'activer l':ref:`authentification Kerberos si votre "
-"réseau nécessite un niveau de sécurité élevé "
-"<configure_krb5_auth_centos>`. L'authentification Kerberos répond aux "
-"problèmes de sécurité abordés dans :ref:`cette section de la "
-"documentation <initial_machine_registration>`. **Si vous êtes en train de"
-" tester WAPT, vous pouvez passer cette étape de la documentation**."
-
-#: ../../source/waptserver-install/debian/install-debian-wapt.rst:215
-msgid ""
-"The post-configuration script generates a self-signed certificate. If you"
-" prefer, you may replace it with a :ref:`commercial certificate or a "
-"certificate issued by a Trusted internal Certificate Authority "
-"<install_ssl_certificate>`."
-msgstr ""
-"Le script de post-configuration génère un certificat autosigné. Si vous "
-"le souhaitez, vous pouvez le remplacer par un certificat commercial ou un"
-" certificat issu d'une CA interne en suivant la documentation pour "
-":ref:`utiliser un certificat SSL / TLS valide pour le serveur WAPT "
-"<install_ssl_certificate>`."
-
-#: ../../source/waptserver-install/debian/install-debian-wapt.rst:220
+#: ../../source/waptserver-install/debian/install-debian-wapt.rst:204
 msgid "The WAPT Server is now ready."
 msgstr "Le serveur WAPT est prêt."
 
-#: ../../source/waptserver-install/debian/install-debian-wapt.rst:222
+#: ../../source/waptserver-install/debian/install-debian-wapt.rst:206
 msgid ""
 "You may go to the documentation on :ref:`installing the WAPT console "
 "<installing_the_WAPT_console>`!!"
@@ -498,4 +465,60 @@ msgstr ""
 #~ " à mettre à jour votre *lsb_release*"
 #~ " dans :file:`/etc/apt/sources.list.d/wapt.list`, "
 #~ "(exemple : *jessie* -> *stretch*)."
+
+#~ msgid ""
+#~ "Choice #2 activates the initial "
+#~ "registration based on Kerberos. Check "
+#~ "only if you have followed the "
+#~ "documentation on :ref:`configuring Kerberos "
+#~ "authentication for Debian "
+#~ "<configure_krb5_auth_debian>`;"
+#~ msgstr ""
+#~ "Le choix 2 active l'enregistrement "
+#~ "kerberos. A cocher uniquement si vous"
+#~ " avez suivi la documentation pour "
+#~ "configurer l'authentification Kerberos pour "
+#~ ":ref:`Debian <configure_krb5_auth_debian>` ;"
+
+#~ msgid ""
+#~ "It is advisable to activate Kerberos "
+#~ "authentication if your network requires "
+#~ "a high level of security (see "
+#~ ":ref:`Enable Kerberos Configuration "
+#~ "<configure_krb5_auth_debian>`). The Kerberos "
+#~ "authentication answers security problems "
+#~ "addressed in :ref:`this section of the"
+#~ " documentation <initial_machine_registration>`. **If"
+#~ " you are just testing WAPT, you "
+#~ "may pass this step of the "
+#~ "documentation**."
+#~ msgstr ""
+#~ "Il est conseillé d'activer "
+#~ "l':ref:`authentification Kerberos si votre "
+#~ "réseau nécessite un niveau de sécurité"
+#~ " élevé <configure_krb5_auth_centos>`. "
+#~ "L'authentification Kerberos répond aux "
+#~ "problèmes de sécurité abordés dans "
+#~ ":ref:`cette section de la documentation "
+#~ "<initial_machine_registration>`. **Si vous êtes "
+#~ "en train de tester WAPT, vous "
+#~ "pouvez passer cette étape de la "
+#~ "documentation**."
+
+#~ msgid ""
+#~ "The post-configuration script generates "
+#~ "a self-signed certificate. If you "
+#~ "prefer, you may replace it with a"
+#~ " :ref:`commercial certificate or a "
+#~ "certificate issued by a Trusted internal"
+#~ " Certificate Authority <install_ssl_certificate>`."
+#~ msgstr ""
+#~ "Le script de post-configuration génère"
+#~ " un certificat autosigné. Si vous le"
+#~ " souhaitez, vous pouvez le remplacer "
+#~ "par un certificat commercial ou un "
+#~ "certificat issu d'une CA interne en "
+#~ "suivant la documentation pour :ref:`utiliser"
+#~ " un certificat SSL / TLS valide pour"
+#~ " le serveur WAPT <install_ssl_certificate>`."
 

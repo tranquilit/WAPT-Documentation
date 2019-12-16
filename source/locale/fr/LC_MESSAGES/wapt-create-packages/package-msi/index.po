@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-16 09:56+0200\n"
+"POT-Creation-Date: 2019-12-16 14:09+0100\n"
 "PO-Revision-Date: 2019-02-27 11:40+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -15,13 +15,17 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 
 #: ../../source/wapt-create-packages/package-msi/index.rst:8
-#: ../../source/wapt-create-packages/package-msi/index.rst:15
-msgid "Packaging simple \\*.msi packages"
+#, fuzzy
+msgid "Packaging simple *.msi packages"
 msgstr "Packager des paquets \\*.msi simples"
 
 #: ../../source/wapt-create-packages/package-msi/index.rst:8
 msgid "msi, WAPT, simple, documentation"
 msgstr "msi, WAPT, simples, documentation"
+
+#: ../../source/wapt-create-packages/package-msi/index.rst:15
+msgid "Packaging simple \\*.msi packages"
+msgstr "Packager des paquets \\*.msi simples"
 
 #: ../../source/wapt-create-packages/package-msi/index.rst:17
 msgid "Prerequisites"
@@ -136,7 +140,8 @@ msgid "Using the automatic template has the following effects:"
 msgstr "La procédure de création automatique de ce modèle de paquet :"
 
 #: ../../source/wapt-create-packages/package-msi/index.rst:96
-msgid "it creates a WAPT package folder in :file:`C:\\waptdev`;"
+#, fuzzy
+msgid "it creates a WAPT package folder in :file:`C:\\\\waptdev`;"
 msgstr "il crée le dossier du paquet dans :file:`C:\\waptdev` ;"
 
 #: ../../source/wapt-create-packages/package-msi/index.rst:98
@@ -338,12 +343,13 @@ msgstr ""
 "contenus dans le paquet ;"
 
 #: ../../source/wapt-create-packages/package-msi/index.rst:203
+#, fuzzy
 msgid ""
-"it compresses the folder :file:`C:\\waptdev\\tis-tightvnc-wapt` with a "
+"it compresses the folder :file:`C:\\\\waptdev\\tis-tightvnc-wapt` with a "
 "canonical name;"
 msgstr ""
-"il zippe le répertoire :file:`C:\\waptdev\\tis-tightvnc-wapt` avec un "
-"nom canonique pour les paquets WAPT ;"
+"il zippe le répertoire :file:`C:\\waptdev\\tis-tightvnc-wapt` avec un nom"
+" canonique pour les paquets WAPT ;"
 
 #: ../../source/wapt-create-packages/package-msi/index.rst:206
 msgid "it adds the signature (requires the private key);"

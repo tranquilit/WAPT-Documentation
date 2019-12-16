@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-16 09:56+0200\n"
+"POT-Creation-Date: 2019-12-16 14:09+0100\n"
 "PO-Revision-Date: 2019-02-27 17:08+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -74,13 +74,13 @@ msgstr ""
 
 #: ../../source/wapt-usage/waptexit.rst:46
 #: ../../source/wapt-usage/waptexit.rst:56
+#, fuzzy
 msgid ""
 "The behavior of :program:`waptexit` is customizable in "
-":file:`C:\\Program Files (x86)\\wapt\\wapt-get.ini`."
+":file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get.ini`."
 msgstr ""
 "Le comportement de :program:`waptexit` est paramétrable depuis le fichier"
-" de configuration :file:`C:\\Program Files (x86)\\wapt\\wapt-"
-"get.ini`."
+" de configuration :file:`C:\\Program Files (x86)\\wapt\\wapt-get.ini`."
 
 #: ../../source/wapt-usage/waptexit.rst:50
 msgid "Manually triggering the execution of WAPTexit"
@@ -111,17 +111,19 @@ msgstr ""
 #: ../../source/wapt-usage/waptexit.rst:69
 #: ../../source/wapt-usage/waptexit.rst:114
 #: ../../source/wapt-usage/waptexit.rst:136
+#, fuzzy
 msgid ""
 "Otherwise :program:`waptexit` will take the value indicated in "
-":file:`C:\\Program Files (x86)\\wapt\\wapt-get.ini`:"
+":file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get.ini`:"
 msgstr ""
 "Sinon :program:`waptexit` prendra la valeur indiquée dans "
 ":file:`C:\\Program Files (x86)\\wapt\\wapt-get.ini` :"
 
 #: ../../source/wapt-usage/waptexit.rst:77
+#, fuzzy
 msgid ""
-"If this value is not indicated in :file:`C:\\Program Files "
-"(x86)\\wapt\\wapt\\wapt-get.ini`, then the default value will be "
+"If this value is not indicated in :file:`C:\\\\Program Files "
+"(x86)\\\\wapt\\\\wapt\\\\wapt-get.ini`, then the default value will be "
 "**10**."
 msgstr ""
 "Si cette valeur n'est pas indiquée dans :file:`C:\\Program Files "
@@ -141,17 +143,19 @@ msgstr ""
 "installations vous pouvez lancer :program:`waptexit` avec l'argument :"
 
 #: ../../source/wapt-usage/waptexit.rst:91
+#, fuzzy
 msgid ""
 "Otherwise :program:`waptexit` will take the value indicated in the "
-"configuration :file:`C:\\Program Files (x86)\\wapt\\wapt-get.ini`:"
+"configuration :file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get.ini`:"
 msgstr ""
 "Sinon :program:`waptexit` prendra la valeur indiquée dans le fichier de "
 "configuration :file:`C:\\Program Files (x86)\\wapt\\wapt-get.ini` :"
 
 #: ../../source/wapt-usage/waptexit.rst:99
+#, fuzzy
 msgid ""
-"If this value is not indicated in :file:`C:\\Program Files "
-"(x86)\\wapt\\wapt\\wapt-get.ini`, then the default value will be "
+"If this value is not indicated in :file:`C:\\\\Program Files "
+"(x86)\\\\wapt\\\\wapt\\\\wapt-get.ini`, then the default value will be "
 "**1**."
 msgstr ""
 "Si cette valeur n'est pas indiquée dans :file:`C:\\Program Files "
@@ -172,14 +176,14 @@ msgstr ""
 "paquet), vous pouvez lancer :program:`waptexit` avec l'argument :"
 
 #: ../../source/wapt-usage/waptexit.rst:122
+#, fuzzy
 msgid ""
-"If this value is not indicated in :file:`C:\\Program Files "
-"(x86)\\wapt\\wapt\\wapt-get.ini`, then the default value will be "
+"If this value is not indicated in :file:`C:\\\\Program Files "
+"(x86)\\\\wapt\\\\wapt\\\\wapt-get.ini`, then the default value will be "
 "**False**."
 msgstr ""
 "Si cette valeur n'est pas indiquée dans :file:`C:\\Program Files "
-"(x86)\\wapt\\wapt-get.ini`, alors la valeur par default sera "
-"**False**."
+"(x86)\\wapt\\wapt-get.ini`, alors la valeur par default sera **False**."
 
 #: ../../source/wapt-usage/waptexit.rst:127
 msgid "Launching the installation of packages with a special level of priority"
@@ -196,14 +200,15 @@ msgstr ""
 "l'argument :"
 
 #: ../../source/wapt-usage/waptexit.rst:144
+#, fuzzy
 msgid ""
-"If this value is not indicated in :file:`C:\\Program Files "
-"(x86)\\wapt\\wapt\\wapt-get.ini`, then the default value will be "
+"If this value is not indicated in :file:`C:\\\\Program Files "
+"(x86)\\\\wapt\\\\wapt\\\\wapt-get.ini`, then the default value will be "
 "**Empty** (no filter on priority)."
 msgstr ""
 "Si cette valeur n'est pas indiquée dans :file:`C:\\Program Files "
-"(x86)\\wapt\\wapt-get.ini`, alors la valeur par défaut sera **Vide** "
-"(pas de filtrage sur la priorité)."
+"(x86)\\wapt\\wapt-get.ini`, alors la valeur par défaut sera **Vide** (pas"
+" de filtrage sur la priorité)."
 
 #: ../../source/wapt-usage/waptexit.rst:149
 msgid "Customizing WAPTexit"
@@ -213,12 +218,12 @@ msgstr "Personnaliser waptexit"
 #, fuzzy
 msgid ""
 "It is possible to customize waptexit by placing the image you want in "
-":file:`C:\\Program Files (x86)\\wapt\\templates\\waptexit-"
+":file:`C:\\\\Program Files (x86)\\\\wapt\\\\templates\\\\waptexit-"
 "logo.png`."
 msgstr ""
 "Il est possible de personnaliser waptexit en plaçant l'image que vous "
-"souhaitez dans :file:`C:\\Program Files (x86)\\wapt\\templates"
-"\\waptexit-logo.png`."
+"souhaitez dans :file:`C:\\Program Files (x86)\\wapt\\templates\\waptexit-"
+"logo.png`."
 
 #: ../../source/wapt-usage/waptexit.rst:155
 msgid "Registering/ unregistering WAPTexit"

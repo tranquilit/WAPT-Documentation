@@ -1,0 +1,66 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Tranquil IT
+# This file is distributed under the same license as the WAPT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WAPT 1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-16 14:09+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/wapt-security/secure-my-wapt-server.rst:8
+#: ../../source/wapt-security/secure-my-wapt-server.rst:15
+msgid "Enhancing the security of the WAPT server"
+msgstr ""
+
+#: ../../source/wapt-security/secure-my-wapt-server.rst:8
+msgid "Documentation, Security, WAPT"
+msgstr ""
+
+#: ../../source/wapt-security/secure-my-wapt-server.rst:17
+msgid ""
+"By default, all WAPT packages are signed with your private key, which "
+"already provides a great level of security. However you can further "
+"improve the security of WAPT."
+msgstr ""
+
+#: ../../source/wapt-security/secure-my-wapt-server.rst:21
+msgid "To fully secure your WAPT setup; you will want to do the following:"
+msgstr ""
+
+#: ../../source/wapt-security/secure-my-wapt-server.rst:23
+msgid ""
+"enable authenticated registration to filter who is authorized to register"
+" the device with the WAPT server;"
+msgstr ""
+
+#: ../../source/wapt-security/secure-my-wapt-server.rst:26
+msgid ""
+"enable https certificate verification on the agents and the console to "
+"ensure that the WAPT agents and the WAPT console are connecting to the "
+"correct WAPT server;"
+msgstr ""
+
+#: ../../source/wapt-security/secure-my-wapt-server.rst:30
+msgid ""
+"configure authentication against Active Directory to allow access to the "
+"WAPT console only to authorized WAPT admins;"
+msgstr ""
+
+#: ../../source/wapt-security/secure-my-wapt-server.rst:33
+msgid ""
+"enable Client-Side Certificate Authentication to only allow authenticated"
+" devices to access the WAPT server (Note: it is especially important if "
+"you want to expose your WAPT server to the outside in a :abbr:`DMZ (De-"
+"Militarized Zone)`);"
+msgstr ""
+

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-16 09:56+0200\n"
+"POT-Creation-Date: 2019-12-16 14:09+0100\n"
 "PO-Revision-Date: 2019-02-27 10:59+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -39,45 +39,44 @@ msgstr ""
 #, fuzzy
 msgid ""
 "The WAPT Server configuration file on Windows systems is found in "
-":file:`C:\\wapt\\conf\\waptserver.ini`."
+":file:`C:\\\\wapt\\\\conf\\\\waptserver.ini`."
 msgstr ""
 "La configuration du serveur WAPT sous Windows est situé dans "
-":file:`C:\\Program Files "
-"(x86)\\wapt\\waptserver\\waptserver.ini`."
+":file:`C:\\Program Files (x86)\\wapt\\waptserver\\waptserver.ini`."
 
 #: ../../source/wapt-configuration/ini-file/index.rst:23
 msgid "**Modifying these files is reserved to advanced users !!**"
 msgstr "La modification de ces fichiers est à réserver aux utilisateurs avertis !!"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:26
+#: ../../source/wapt-configuration/ini-file/index.rst:28
 msgid "Section [option]"
 msgstr "Partie [option]"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:28
+#: ../../source/wapt-configuration/ini-file/index.rst:30
 msgid "Several options can be defined in the section:"
 msgstr "On peut lui passer plusieurs options dans la section :"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:37
+#: ../../source/wapt-configuration/ini-file/index.rst:39
 msgid "Options"
 msgstr "Options"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:37
+#: ../../source/wapt-configuration/ini-file/index.rst:39
 msgid "Description"
 msgstr "Description"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:39
+#: ../../source/wapt-configuration/ini-file/index.rst:41
 msgid "``db_name`` = wapt"
 msgstr "``db_name`` = wapt"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:39
+#: ../../source/wapt-configuration/ini-file/index.rst:41
 msgid "Name of the PostgreSQL database that the WAPT Server will connect to."
 msgstr "Nom de la base PostgreSQL à laquelle le serveur WAPT va se connecter"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:41
+#: ../../source/wapt-configuration/ini-file/index.rst:43
 msgid "``db_host`` ="
 msgstr "``db_host`` ="
 
-#: ../../source/wapt-configuration/ini-file/index.rst:41
+#: ../../source/wapt-configuration/ini-file/index.rst:43
 msgid ""
 "Address of the PostgreSQL server (empty by default, it will use a local "
 "Unix Socket)."
@@ -85,11 +84,11 @@ msgstr ""
 "Adresse du serveur PostgreSQL (par défaut vide car la connexion par "
 "socket UNIX est par défaut)"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:43
+#: ../../source/wapt-configuration/ini-file/index.rst:45
 msgid "``db_user`` ="
 msgstr "``db_user`` ="
 
-#: ../../source/wapt-configuration/ini-file/index.rst:43
+#: ../../source/wapt-configuration/ini-file/index.rst:45
 msgid ""
 "Name of the PostgreSQL user connecting to the database (default: empty, "
 "it will use a local UNIX socket)."
@@ -97,11 +96,11 @@ msgstr ""
 "Nom d'utilisateur pour la base PostgreSQL (par défaut vide car la "
 "connexion par socket UNIX est activée par défaut)"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:45
+#: ../../source/wapt-configuration/ini-file/index.rst:47
 msgid "``db_password`` ="
 msgstr "``db_password`` ="
 
-#: ../../source/wapt-configuration/ini-file/index.rst:45
+#: ../../source/wapt-configuration/ini-file/index.rst:47
 msgid ""
 "Password for authenticating the user on the PostgreSQL database (default:"
 " empty, it will use a local UNIX socket)"
@@ -109,106 +108,106 @@ msgstr ""
 "Mot de passe pour la base PostgreSQL (par défaut vide car la connexion "
 "par socket UNIX est activée par défaut)"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:47
+#: ../../source/wapt-configuration/ini-file/index.rst:49
 msgid "``wapt_user`` = admin"
 msgstr "``wapt_user`` = admin"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:47
+#: ../../source/wapt-configuration/ini-file/index.rst:49
 msgid "Defines the :term:`SuperAdmin` username in the WAPT console."
 msgstr "Identifiant de connexion du :term:`SuperAdmin` pour la console WAPT"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:48
+#: ../../source/wapt-configuration/ini-file/index.rst:50
 msgid "``wapt_password`` = 46642dd2b1dfezfezgfezgadf0ezgeezgezf53d"
 msgstr "``wapt_password`` = 46642dd2b1dfezfezgfezgadf0ezgeezgezf53d"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:48
+#: ../../source/wapt-configuration/ini-file/index.rst:50
 msgid ":term:`SuperAdmin` password for connecting to the WAPT console."
 msgstr "Mot de passe du :term:`SuperAdmin` pour la console WAPT"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:49
+#: ../../source/wapt-configuration/ini-file/index.rst:51
 msgid "``secret_key`` =  FKjfzjfkF687fjrkeznfkj7678jknk78687"
 msgstr "``secret_key`` =  FKjfzjfkF687fjrkeznfkj7678jknk78687"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:49
+#: ../../source/wapt-configuration/ini-file/index.rst:51
 msgid ""
 "Random string for initializing the Python Flask application server. It is"
 " generated when first installing the WAPT Server and is unique for every "
 "WAPT Server."
 msgstr "Chaîne d'initialisation du moteur de gestion de session Flask"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:52
+#: ../../source/wapt-configuration/ini-file/index.rst:54
 msgid "``wapt_folder`` = /var/www/wapt"
 msgstr "``wapt_folder`` = /var/www/wapt"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:52
+#: ../../source/wapt-configuration/ini-file/index.rst:54
 msgid "Directory of the WAPT repository."
 msgstr "Répertoire du dépôt WAPT"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:53
+#: ../../source/wapt-configuration/ini-file/index.rst:55
 msgid "``server_uuid`` = 76efezfa6-b309-1fez5-92cd-8ea48fc122dc"
 msgstr "``server_uuid`` = 76efezfa6-b309-1fez5-92cd-8ea48fc122dc"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:53
+#: ../../source/wapt-configuration/ini-file/index.rst:55
 msgid "WAPT Server :term:`UUID` (this anonymous id is used for WAPT statistics)."
 msgstr ":term:`UUID` du server (pour les statistiques anonymes WAPT)"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:54
+#: ../../source/wapt-configuration/ini-file/index.rst:56
 msgid "``use_kerberos`` = true"
 msgstr "``use_kerberos`` = True"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:54
+#: ../../source/wapt-configuration/ini-file/index.rst:56
 msgid "Requires a Kerberos authentication when first registering the WAPT agent."
 msgstr ""
 "Exige une authentification Kerberos pour l'enregistrement initial d'une "
 "machine sur le serveur WAPT"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:55
+#: ../../source/wapt-configuration/ini-file/index.rst:57
 msgid "``loglevel`` = debug"
 msgstr "``loglevel`` = debug"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:55
+#: ../../source/wapt-configuration/ini-file/index.rst:57
 msgid "Debug level."
 msgstr "Niveau de debug"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:56
+#: ../../source/wapt-configuration/ini-file/index.rst:58
 msgid "``client_tasks_timeout`` = 1"
 msgstr "``client_tasks_timeout`` = 1"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:56
+#: ../../source/wapt-configuration/ini-file/index.rst:58
 msgid "Maximum allowed delay before WAPT agent requests timeout"
 msgstr "Délai d'attente maximum pour la réponse de l'agent WAPT"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:57
+#: ../../source/wapt-configuration/ini-file/index.rst:59
 msgid "``signature_clockskew`` = 72000"
 msgstr "``signature_clockskew`` = 72000"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:57
+#: ../../source/wapt-configuration/ini-file/index.rst:59
 msgid "Maximum allowed time difference for the websockets"
 msgstr ""
 "Décalage de temps autorisé pour les timestamps lors d'une connexion "
 "websocket"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:58
+#: ../../source/wapt-configuration/ini-file/index.rst:60
 msgid "``db_connect_timeout`` = 10"
 msgstr "``db_connect_timeout`` = 10"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:58
+#: ../../source/wapt-configuration/ini-file/index.rst:60
 msgid "Maximum allowed delay before PostgreSQL queries timeout"
 msgstr "Délai d'attente maximum pour les requête de PostgreSQL"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:59
+#: ../../source/wapt-configuration/ini-file/index.rst:61
 msgid "``db_max_connections`` = 100"
 msgstr "``db_max_connections`` = 100"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:59
+#: ../../source/wapt-configuration/ini-file/index.rst:61
 msgid "Maximum simultaneous connexions to the PostgreSQL database"
 msgstr "Nombre de connexions simultanés pour les requetes de PostgreSQL"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:60
+#: ../../source/wapt-configuration/ini-file/index.rst:62
 msgid "``allow_unauthenticated_registration`` = True"
 msgstr "``allow_unauthenticated_registration`` = True"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:60
+#: ../../source/wapt-configuration/ini-file/index.rst:62
 msgid ""
 "Allows the initial registration of the WAPT agent using a login and a "
 "password"
@@ -216,19 +215,19 @@ msgstr ""
 "Permet une authentification Identifiant / Mot de passe pour "
 "l'enregisrement initial"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:62
+#: ../../source/wapt-configuration/ini-file/index.rst:64
 msgid "``allow_unauthenticated_connect`` = False"
 msgstr "``allow_unauthenticated_connect`` = False"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:62
+#: ../../source/wapt-configuration/ini-file/index.rst:64
 msgid "Defines whether websocket connexions should be authenticated"
 msgstr "Définit si les requêtes websocket doivent être authentifiées"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:63
+#: ../../source/wapt-configuration/ini-file/index.rst:65
 msgid "``http_proxy`` = http://proxy.ad.tranquil.it:3128"
 msgstr "``http_proxy`` = http://proxy.ad.tranquil.it:3128"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:63
+#: ../../source/wapt-configuration/ini-file/index.rst:65
 msgid ""
 "Defines the proxy server to allow the WAPT server to recover its "
 ":abbr:`CRL (Certificate Revocation List)`"
@@ -236,11 +235,21 @@ msgstr ""
 "Définit le serveur proxy du serveur WAPT (pour récupérer des :abbr:`CRL "
 "(Certificate Revocation List)` )"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:70
+#: ../../source/wapt-configuration/ini-file/index.rst:67
+msgid "``host_organizational_unit_dn`` = OU=TOTO,OU=TEST,DC=DEMO,DC=LAN"
+msgstr ""
+
+#: ../../source/wapt-configuration/ini-file/index.rst:67
+msgid ""
+"Allows you to force an organizational unit on the wapt agent. (Convenient"
+" to assign a fake ou for out-of-domain pc)"
+msgstr ""
+
+#: ../../source/wapt-configuration/ini-file/index.rst:73
 msgid "Configuring Nginx"
 msgstr "Configurer Nginx"
 
-#: ../../source/wapt-configuration/ini-file/index.rst:72
+#: ../../source/wapt-configuration/ini-file/index.rst:75
 msgid "The default Nginx configuration is as follows:"
 msgstr "La configuration nginx par défaut est la suivante :"
 

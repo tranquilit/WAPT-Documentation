@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-16 09:56+0200\n"
+"POT-Creation-Date: 2019-12-16 14:09+0100\n"
 "PO-Revision-Date: 2019-08-02 10:30+0200\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: en\n"
@@ -170,7 +170,7 @@ msgstr ""
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:84
 #, fuzzy
-msgid "How to use the selfservice on the user station?"
+msgid "How to use the self-service on the user station?"
 msgstr "Comment utiliser la focntionnalité de *self-service* ?"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:86
@@ -183,13 +183,14 @@ msgstr ""
 "sous le nom \"Self service logiciels WAPT\"."
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:89
-msgid "It is also available directly in :file:`<base>\\waptself.exe`"
+#, fuzzy
+msgid "It is also available directly in :file:`<base>\\\\waptself.exe`."
 msgstr "Il est aussi disponible directement à :file:`<base>\\waptself.exe`"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:91
 #, fuzzy
 msgid ""
-"The login and password to enter when launching the selfservice are the "
+"The login and password to enter when launching the self-service are the "
 "User's credentials (local or Active Directory credentials)."
 msgstr ""
 "Les identifiants à entrer au démarrage du self service sont ceux de "
@@ -223,7 +224,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "the :guilabel:`Update Catalog` button is used to force a :command:`wapt-"
-"get update` on the wapt agent;"
+"get update` on the WAPT agent;"
 msgstr ""
 "Le bouton \"mettre à jour le catalogue\" est utilisé pour forcer un "
 "\"wapt-get update\" sur l'agent WAPT."
@@ -231,7 +232,7 @@ msgstr ""
 #: ../../source/wapt-usage/wapt-selfservice.rst:107
 #, fuzzy
 msgid ""
-"the list of package categories is dsiplayed to the user. To add a "
+"the list of package categories is displayed to the user. To add a "
 "category to the list, you must specify the category in the *categories* "
 "section of the :file:`control` file of the relevant package;"
 msgstr ""
@@ -243,8 +244,8 @@ msgstr ""
 #: ../../source/wapt-usage/wapt-selfservice.rst:112
 #, fuzzy
 msgid ""
-"the current task list of the wapt agent is available with the "
-"::guilabel:`task bar` button;"
+"the current task list of the WAPT agent is available with the "
+":guilabel:`task bar` button;"
 msgstr ""
 "Les tâches actuellement en cours par l'agent wapt sont disponibles en "
 "cliquant sur le bouton \"task bar\"."
@@ -282,21 +283,23 @@ msgstr ""
 #: ../../source/wapt-usage/wapt-selfservice.rst:128
 #, fuzzy
 msgid ""
-"To do this, simply place the logo you want in :file:`<wapt>\\templates"
-"\\waptself-logo.png`"
+"To do this, simply place the logo you want in :file:`<wapt>\\\\templates"
+"\\\\waptself-logo.png`"
 msgstr ""
 "Pour faire cela, placez simplement le logo que vous souhaitez à cet "
 "emplacement :  :file:`<wapt>\\templates\\waptself-logo.png`"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:133
 #, fuzzy
-msgid "It is highly recommended to use a :file:`.PNG` file"
+msgid ""
+"It is highly recommended to use a :mimetype:`.png` file with a *200 x "
+"150px* resolution."
 msgstr ""
 "Il est hautement recommandé d'utiliser une image PNG de dimension "
 "200*150px."
 
-#: ../../source/wapt-usage/wapt-selfservice.rst:134
-msgid "with a 200 * 150px resolution."
+#: ../../source/wapt-usage/wapt-selfservice.rst:137
+msgid "Video of WAPT self-service feature in action"
 msgstr ""
 
 #~ msgid ""
@@ -307,5 +310,8 @@ msgstr ""
 #~ " self-service on the agent. It "
 #~ "is not possible to filter the "
 #~ "packages accessible to the user."
+#~ msgstr ""
+
+#~ msgid "with a 200 * 150px resolution."
 #~ msgstr ""
 

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-12 12:16+0200\n"
+"POT-Creation-Date: 2019-12-16 14:09+0100\n"
 "PO-Revision-Date: 2019-02-27 11:08+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -142,12 +142,13 @@ msgstr ""
 "accepter la licence ;"
 
 #: ../../source/wapt-configuration/waptconsole/index.rst:80
+#, fuzzy
 msgid ""
-"choose the WAPT destination folder (:file:`C:\\Program Files "
-"(x86)\\wapt` by default);"
+"choose the WAPT destination folder (:file:`C:\\\\Program Files "
+"(x86)\\\\wapt` by default);"
 msgstr ""
-"choisir le dossier d'installation (:file:`C:\\Program Files "
-"(x86)\\wapt` par défaut) ;"
+"choisir le dossier d'installation (:file:`C:\\Program Files (x86)\\wapt` "
+"par défaut) ;"
 
 #: ../../source/wapt-configuration/waptconsole/index.rst:87
 msgid "Choose the WAPT destination folder"
@@ -244,76 +245,20 @@ msgstr ""
 "cocher :guilabel:`Mettre à jour la liste des paquets disponibles sur le "
 "dépôt principal` pour télécharger la liste des paquets disponibles ;"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:152
-msgid "Configuring the verification of certificates"
-msgstr "Configurer la vérification du certificat"
-
-#: ../../source/wapt-configuration/waptconsole/index.rst:156
-msgid ""
-"it is highly recommended for security reasons to keep HTTPS validation "
-"enabled;"
-msgstr ""
-"il est fortement conseillé pour les réseaux sécurisés d'activer la "
-"vérification du certificat HTTPS ;"
-
-#: ../../source/wapt-configuration/waptconsole/index.rst:159
-msgid ""
-"HTTPS certificate validation ensures security, for more information "
-"please refer to :ref:`this documentation on HTTPS certificate "
-"verification <HTTPS_certificate_verification>`;"
-msgstr ""
-"la vérification du certificat HTTPS du serveur permet de répondre aux "
-"différents problèmes de sécurité mentionnés dans la :ref:`documentation "
-"sur la vérification des certificates HTTPS "
-"<HTTPS_certificate_verification>` ;"
-
-#: ../../source/wapt-configuration/waptconsole/index.rst:163
-msgid ""
-"for a first time trial of WAPT, it is simpler not to enable this options."
-" This security feature may be enabled later on;"
-msgstr ""
-"pour une première installation de test, il est plus simple de ne pas "
-"l'activer. Cette fonction de sécurité pourra être activée par la suite ;"
-
-#: ../../source/wapt-configuration/waptconsole/index.rst:166
-msgid ""
-"To enable SSL/ TLS certificate validation of WAPT agent connections to "
-"the WAPT Server, use the following command in a :program:`cmd.exe` shell "
-"with :term:`Local Administrator` elevated privileges:"
-msgstr ""
-"Pour activer la verification du certificat SSL / TLS du serveur WAPT, "
-"lancer la commande suivante dans un shell :program:`cmd.exe` en tant "
-"qu':term:`Administrateur Local` :"
-
-#: ../../source/wapt-configuration/waptconsole/index.rst:178
-msgid ""
-"HTTPS certificate validation ensures security, for more information "
-"please refer to :ref:`the documentation on verifying certificates "
-"<activating_HTTPS_certificate_verification>`."
-msgstr ""
-"Les détails du fonctionnement de la vérification SSL / TLS pour l'agent "
-"et la console WAPT :ref:`sont disponibles ici "
-"<activating_HTTPS_certificate_verification>`."
-
-#: ../../source/wapt-configuration/waptconsole/index.rst:182
-msgid ""
-"check that the HTTPS certificate is valid using the following command "
-"line:"
-msgstr "vérifier que la validation est effective en utilisant la commande :"
-
-#: ../../source/wapt-configuration/waptconsole/index.rst:191
+#: ../../source/wapt-configuration/waptconsole/index.rst:155
 msgid "Starting the WAPT console"
 msgstr "Lancer la console WAPT"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:193
+#: ../../source/wapt-configuration/waptconsole/index.rst:157
+#, fuzzy
 msgid ""
-"launch the WAPT console by looking for the binary :file:`C:\\Program "
-"Files (x86)\\wapt\\waptconsole.exe`"
+"launch the WAPT console by looking for the binary :file:`C:\\\\Program "
+"Files (x86)\\\\wapt\\\\waptconsole.exe`"
 msgstr ""
-"lancer la console en allant chercher l'exécutable dans "
-":file:`C:\\Program Files (x86)\\wapt\\waptconsole.exe` ;"
+"lancer la console en allant chercher l'exécutable dans :file:`C:\\Program"
+" Files (x86)\\wapt\\waptconsole.exe` ;"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:196
+#: ../../source/wapt-configuration/waptconsole/index.rst:160
 msgid ""
 "on first start, you must start the WAPT console with elevated privileges."
 " :menuselection:`Right-click on the WAPT console binary --> Start as "
@@ -323,17 +268,17 @@ msgstr ""
 ":menuselection:`Clic-droit sur waptconsole.exe --> Exécuter en tant "
 "qu'Administrateur Local` ;"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:200
+#: ../../source/wapt-configuration/waptconsole/index.rst:164
 msgid "log into the WAPT console with the :term:`SuperAdmin` login and password;"
 msgstr ""
 "s'identifier sur la console de management avec l'identifiant et le mot de"
 " passe de :term:`SuperAdmin` ;"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:207
+#: ../../source/wapt-configuration/waptconsole/index.rst:171
 msgid "WAPT Server connexion form"
 msgstr "Mire de connexion au serveur WAPT"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:209
+#: ../../source/wapt-configuration/waptconsole/index.rst:173
 msgid ""
 "if you have any issue logging into the WAPT console, please refer to the "
 "FAQ: :ref:`msg_error_open`;"
@@ -341,17 +286,17 @@ msgstr ""
 "Si vous rencontrez des problèmes pour vous connecter à la console WAPT, "
 "visitez la :ref:`section des problèmes fréquents <msg_error_open>`."
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:214
+#: ../../source/wapt-configuration/waptconsole/index.rst:178
 msgid ""
 "A message may appear indicating that your WAPT agent version is obsolete "
 "or not yet present."
 msgstr "Un message peut apparaître indiquant que l'agent WAPT est introuvable."
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:221
+#: ../../source/wapt-configuration/waptconsole/index.rst:185
 msgid "Mismatch error between the versions of the console and that of the agent"
 msgstr "Erreur de disparité entre la version de la console et de l'agent"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:223
+#: ../../source/wapt-configuration/waptconsole/index.rst:187
 msgid ""
 "Go to the next step to :ref:`create your certificate "
 "<create_certificate>`!!"
@@ -486,4 +431,71 @@ msgstr ""
 #~ " Directory (ce comportement fonctionnera si"
 #~ " vous avez bien activé le Kerberos"
 #~ " sur votre serveur WAPT)."
+
+#~ msgid "Configuring the verification of certificates"
+#~ msgstr "Configurer la vérification du certificat"
+
+#~ msgid ""
+#~ "it is highly recommended for security"
+#~ " reasons to keep HTTPS validation "
+#~ "enabled;"
+#~ msgstr ""
+#~ "il est fortement conseillé pour les "
+#~ "réseaux sécurisés d'activer la vérification"
+#~ " du certificat HTTPS ;"
+
+#~ msgid ""
+#~ "HTTPS certificate validation ensures security,"
+#~ " for more information please refer to"
+#~ " :ref:`this documentation on HTTPS "
+#~ "certificate verification "
+#~ "<HTTPS_certificate_verification>`;"
+#~ msgstr ""
+#~ "la vérification du certificat HTTPS du"
+#~ " serveur permet de répondre aux "
+#~ "différents problèmes de sécurité mentionnés"
+#~ " dans la :ref:`documentation sur la "
+#~ "vérification des certificates HTTPS "
+#~ "<HTTPS_certificate_verification>` ;"
+
+#~ msgid ""
+#~ "for a first time trial of WAPT,"
+#~ " it is simpler not to enable "
+#~ "this options. This security feature may"
+#~ " be enabled later on;"
+#~ msgstr ""
+#~ "pour une première installation de test,"
+#~ " il est plus simple de ne pas"
+#~ " l'activer. Cette fonction de sécurité "
+#~ "pourra être activée par la suite ;"
+
+#~ msgid ""
+#~ "To enable SSL/ TLS certificate "
+#~ "validation of WAPT agent connections to"
+#~ " the WAPT Server, use the following"
+#~ " command in a :program:`cmd.exe` shell "
+#~ "with :term:`Local Administrator` elevated "
+#~ "privileges:"
+#~ msgstr ""
+#~ "Pour activer la verification du "
+#~ "certificat SSL / TLS du serveur WAPT,"
+#~ " lancer la commande suivante dans un"
+#~ " shell :program:`cmd.exe` en tant "
+#~ "qu':term:`Administrateur Local` :"
+
+#~ msgid ""
+#~ "HTTPS certificate validation ensures security,"
+#~ " for more information please refer to"
+#~ " :ref:`the documentation on verifying "
+#~ "certificates <activating_HTTPS_certificate_verification>`."
+#~ msgstr ""
+#~ "Les détails du fonctionnement de la "
+#~ "vérification SSL / TLS pour l'agent et"
+#~ " la console WAPT :ref:`sont disponibles "
+#~ "ici <activating_HTTPS_certificate_verification>`."
+
+#~ msgid ""
+#~ "check that the HTTPS certificate is "
+#~ "valid using the following command line:"
+#~ msgstr "vérifier que la validation est effective en utilisant la commande :"
 
