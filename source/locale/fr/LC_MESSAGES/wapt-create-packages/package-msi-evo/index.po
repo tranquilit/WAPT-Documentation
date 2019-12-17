@@ -15,7 +15,7 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 
 #: ../../source/wapt-create-packages/package-msi-evo/index.rst:8
-#, fuzzy
+
 msgid "Packaging advanced *.msi package"
 msgstr "Packager des paquets \\*.msi évolués"
 

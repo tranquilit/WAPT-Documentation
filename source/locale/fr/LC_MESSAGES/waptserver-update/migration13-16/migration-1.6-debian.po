@@ -239,7 +239,7 @@ msgstr ""
 "n'a pas changé ;"
 
 #: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:157
-#, fuzzy
+
 msgid ""
 "open the :program:`waptconsole` by selecting :file:`C:\\\\Program Files "
 "(x86)\\\\wapt\\\\waptconsole.exe` (default location) or "

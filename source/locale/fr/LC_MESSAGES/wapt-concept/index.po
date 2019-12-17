@@ -577,7 +577,6 @@ msgid "Conceptual diagram of the dependency mechanism"
 msgstr "Schéma conceptuel de la notion de dépendance"
 
 #: ../../source/wapt-concept/index.rst:283
-#, fuzzy
 msgid ""
 "When attributing a software package to a host as a dependency, only the "
 "software canonical name without its version number is registered as a "
@@ -594,7 +593,6 @@ msgstr ""
 "son bureau!*)."
 
 #: ../../source/wapt-concept/index.rst:290
-#, fuzzy
 msgid ""
 "For each dependency, the WAPT agent will take care of automatically "
 "installing the latest available package version. So if several version of"
@@ -698,7 +696,6 @@ msgstr ""
 "correctement **signé**."
 
 #: ../../source/wapt-concept/index.rst:341
-#, fuzzy
 msgid ""
 "If the WAPT package signature does not match any of the public keys "
 "located in :file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl`, the WAPT "
@@ -1199,7 +1196,6 @@ msgstr ""
 "vérifier s'il a des choses à faire."
 
 #: ../../source/wapt-concept/index.rst:600
-#, fuzzy
 msgid ""
 "Packages to be installed will be downloaded and cached in the folder "
 ":file:`C:\\\\Program Files (x86)\\\\wapt\\\\cache`."

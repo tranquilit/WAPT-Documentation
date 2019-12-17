@@ -117,7 +117,7 @@ msgstr ""
 "machine."
 
 #: ../../source/wapt-create-packages/session-setup/index.rst:56
-#, fuzzy
+
 msgid ""
 "The WAPT agent stores in its local database (:file:`C:\\\\Program Files "
 "(x86)\\\\wapt\\\\waptdb.sqlite`) the instruction sets of all WAPT "
@@ -135,7 +135,7 @@ msgstr ""
 " fois par paquet ou version de paquet et par profil utilisateur**."
 
 #: ../../source/wapt-create-packages/session-setup/index.rst:65
-#, fuzzy
+
 msgid ""
 "The WAPT agent stores in is local "
 ":file:`%appdata%\\\\wapt\\\\waptsession.sqlite` database the instances of"

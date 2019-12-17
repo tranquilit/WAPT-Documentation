@@ -3,16 +3,17 @@ msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-07 14:08+0100\n"
-"PO-Revision-Date: 2018-11-07 14:13+0100\n"
-"Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
+"PO-Revision-Date: 2019-11-15 08:14+0000\n"
+"Last-Translator: Bertrand LEMOIGNE <blemoigne@tranquil.it>\n"
+"Language-Team: French <https://srvweblate.tranquil.it/projects/"
+"wapt-documentation/wapt-security-principlescrypto/fr/>\n"
 "Language: fr\n"
-"Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 3.9.1\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 1.8.8\n"
 
 #: ../../source/wapt_security_principles/crypto.rst:8
 #: ../../source/wapt_security_principles/crypto.rst:15
@@ -113,7 +114,7 @@ msgstr ":file:`<WAPT>\\ssl\\server` : répertoire par défaut pour stocker les 
 
 #: ../../source/wapt_security_principles/crypto.rst:62
 msgid ":file:`<WAPT>\\private`: default certificate directory for signing the inventory and the Websocket connections;"
-msgstr ":file:`<WAPT>\\private` : répertoire par défaut pour les certificats permettant de signer l'inventaire et les connexions Websocket ;"
+msgstr ":file:`<WAPT>\\\private` : répertoire par défaut pour les certificats permettant de signer l'inventaire et les connexions Websocket ;"
 
 #: ../../source/wapt_security_principles/crypto.rst:65
 msgid ":file:`%LOCALAPPDATA%\\waptconsole\\waptconsole.ini`: configuration file for the console and package development actions for the :program:`wapt-get` tool;"
@@ -157,7 +158,10 @@ msgstr "**Postes clients WAPT**"
 
 #: ../../source/wapt_security_principles/crypto.rst:92
 msgid "realm of Windows PCs that the :term:`Organization` has allowed the :term:`Administrators` to manage with WAPT. The Windows clients are joined to the :term:`Organization`'s Active Directory domain;"
-msgstr "PC sous Windows à administrer pour lesquels les :term:`Administrateurs` ont reçu l'accréditation de la part de l':term:`Organisation`. Les Postes client sont joints au domaine Active Directory de l':term:`Organisation`."
+msgstr ""
+"PC sous Windows à administrer pour lesquels les :term :`Administrateurs` ont "
+"reçu l'accréditation de la part de l' :term :`Organisation`. Les postes "
+"clients sont joints au domaine Active Directory de l' :term :`Organisation` ;"
 
 #: ../../source/wapt_security_principles/crypto.rst:96
 msgid "**Internal WAPT repositories**"
@@ -173,7 +177,10 @@ msgstr "**Serveur WAPT**"
 
 #: ../../source/wapt_security_principles/crypto.rst:103
 msgid "it is the Linux / Nginx/ PostgreSQL /WAPT server that the :term:`Organization` uses to keep the inventory of WAPT equipped devices."
-msgstr "il s'agit d'un serveur Linux / Nginx / PostgreSQL / WAPT de l':term:`Organisation` qui gère l'inventaire et le status des Postes clients WAPT ;"
+msgstr ""
+"il s'agit d'un serveur Linux / Nginx / PostgreSQL / WAPT de "
+"l':term:`Organisation` qui gère l'inventaire et le statut des postes clients "
+"WAPT."
 
 #: ../../source/wapt_security_principles/crypto.rst:106
 msgid "By default, the WAPT Server also plays the role of an internal WAPT Repository. The WAPT Server has a machine account in the :term:`Organization`'s Active Directory."
@@ -341,11 +348,15 @@ msgstr "Le certificat du client WAPT est utilisé dans les situations suivantes�
 
 #: ../../source/wapt_security_principles/crypto.rst:237
 msgid "when updating the WAPT client status on the server (:command:`update_server_status`) **signing informations**;"
-msgstr "lors de la mise à jour du statut du poste sur le serveur. (:command:`update_server_status`) : **signature des informations**"
+msgstr ""
+"lors de la mise à jour du statut du poste sur le serveur. ( :command "
+":`update_server_status`) : **signature des informations** ;"
 
 #: ../../source/wapt_security_principles/crypto.rst:240
 msgid "when the WAPT agent establishes a Websocket with the server (:program:`waptservice`) **signing the WAPT client UUID**;"
-msgstr "lors de la connexion Websocket du poste vers le serveur (:program:`waptservice`) : **signature de l'UUID du poste**"
+msgstr ""
+"lors de la connexion Websocket du poste vers le serveur "
+"(:program:`waptservice`) : **signature de l'UUID du poste** ;"
 
 #: ../../source/wapt_security_principles/crypto.rst:244
 msgid "First emission and later update of the WAPT agent's certificate"
@@ -353,11 +364,17 @@ msgstr "Émission initiale et mise à jour du certificat du client WAPT"
 
 #: ../../source/wapt_security_principles/crypto.rst:246
 msgid "on finishing the installation process of the WAPT agent on the device, the WAPT agent automatically registers itself on the WAPT Server by sending a Kerberos authenticated HTTPS request that uses the TGT of the machine account."
-msgstr "à l'issu du processus d'installation de l'agent WAPT sur le Poste client, l'agent WAPT s'enregistre automatiquement auprès du serveur WAPT en émettant une requête https authentifiée par Kerberos qui utilise le TGT du compte machine ;"
+msgstr ""
+"à l'issue du processus d'installation de l'agent WAPT sur le poste client, "
+"l'agent WAPT s'enregistre automatiquement auprès du serveur WAPT en émettant "
+"une requête https authentifiée par Kerberos qui utilise le TGT du compte "
+"machine ;"
 
 #: ../../source/wapt_security_principles/crypto.rst:251
 msgid "The WAPT agent uses Windows kerberos APIs implemented with :program:`kerberos-sspi` and :program:`requests-kerberos` python modules."
-msgstr "L'agent WAPT utilise les API kerberos de Windows en s'appuyant sur les modules python :program:`kerberos-sspi` et :program:`requests-kerberos` ;"
+msgstr ""
+"L'agent WAPT utilise les API Kerberos de Windows en s'appuyant sur les "
+"modules python :program:`kerberos-sspi` et :program:`requests-kerberos` ;"
 
 #: ../../source/wapt_security_principles/crypto.rst:256
 msgid "this process works if and only if the device is joined to the Windows domain for which the WAPT Server is configured."
@@ -369,7 +386,7 @@ msgstr "si la clé et les certificats n'ont pas encore été générés, ou s'il
 
 #: ../../source/wapt_security_principles/crypto.rst:263
 msgid "the key is 2048 bit RSA encoded in PEM format and stored in the file :file:`<WAPT>\\private\\<device FQDN>.pem`;"
-msgstr "la clé est de type RSA 2048 bits encodée en PEM et stockée dans le fichier :file:`<WAPT>\\private\\<fqdn du poste>.pem` ;"
+msgstr "la clé est de type RSA 2048 bits encodée en PEM et stockée dans le fichier :file:`<WAPT>\\\private\\\<fqdn du poste>.pem` ;"
 
 #: ../../source/wapt_security_principles/crypto.rst:266
 msgid "the generated certificate has the following attributes:"
@@ -405,7 +422,7 @@ msgstr "le certificat est sauvegardé dans le fichier :file:`<WAPT>\\private\\<d
 
 #: ../../source/wapt_security_principles/crypto.rst:285
 msgid "Only machine accounts and :term:`Local Administrators` have access to the :file:`<WAPT>\\private` directory because specific ACLs have been applied upon first installation of the WAPT agent on the device."
-msgstr "Seuls le compte machine et les :term:`Administrateurs Locaux` ont accès au répertoire :file:`<WAPT>\\private` car des ACL spécifiques sont appliquées à l'installation de l'agent WAPT sur le poste."
+msgstr "Seuls le compte machine et les :term:`Administrateurs Locaux` ont accès au répertoire :file:`<WAPT>\\\private` car des ACL spécifiques sont appliquées à l'installation de l'agent WAPT sur le poste."
 
 #: ../../source/wapt_security_principles/crypto.rst:289
 msgid "the inventory and the WAPT agent status updates are sent to the WAPT Server over POST HTTPS requests;"
@@ -473,11 +490,11 @@ msgstr "Depuis la console, l':term:`Administrateur` compile un installeur person
 
 #: ../../source/wapt_security_principles/crypto.rst:338
 msgid "The WAPT console includes in its personalized installer the certificates present in the :file:`<WAPT>\\ssl` directory of the PC on which the installer is being compiled."
-msgstr "La console WAPT incorpore dans cet installeur les certificats présents dans le répertoire :file:`<WAPT>\\ssl` du poste depuis lequel l'installeur est compilé."
+msgstr "La console WAPT incorpore dans cet installeur les certificats présents dans le répertoire :file:`<WAPT>\\\ssl` du poste depuis lequel l'installeur est compilé."
 
 #: ../../source/wapt_security_principles/crypto.rst:342
 msgid "The :term:`Administrator` must insure to save in :file:`<WAPT>\\ssl` only the certificates of Authorities that are strictly necessary before launching the compilation of the installer."
-msgstr "L':term:`Administrateur` doit s'assurer d'enregistrer dans :file:`<WAPT>\\ssl` uniquement les certificats d'autorité nécessaires avant de lancer la compilation de l'agent."
+msgstr "L':term:`Administrateur` doit s'assurer d'enregistrer dans :file:`<WAPT>\\\ssl` uniquement les certificats d'autorité nécessaires avant de lancer la compilation de l'agent."
 
 #: ../../source/wapt_security_principles/crypto.rst:346
 msgid "New or updated certificates of :term:`Certificate Authority` for the verification of packages and the validation of actions may also be deployed a posteriori with an Active Directory GPO or a WAPT package."
@@ -507,7 +524,11 @@ msgstr "*verify_cert* = 1"
 #: ../../source/wapt_security_principles/crypto.rst:365
 #: ../../source/wapt_security_principles/crypto.rst:442
 msgid "this method will only work well if the HTTPS server is configured to send its certificate and the intermediary certificates upon initialization of the TLS connexion."
-msgstr "Vérifie le certificat du serveur https en utilisant le bundle fourni par le module :program:`certifi`. Ne fonctionnera bien que si le serveur https est configuré pour renvoyer son certificat et les certificats intermédiaires à l'initialisation de communication TLS ;"
+msgstr ""
+"Vérifie le certificat du serveur https en utilisant le bundle fourni par le "
+"module :program:`certifi`. Ne fonctionnera bien que si le serveur https est "
+"configuré pour renvoyer son certificat et les certificats intermédiaires à "
+"l'initialisation de la connexion TLS ;"
 
 #: ../../source/wapt_security_principles/crypto.rst:369
 #: ../../source/wapt_security_principles/crypto.rst:446
@@ -817,12 +838,12 @@ msgstr "Elle consiste à :"
 
 #: ../../source/wapt_security_principles/crypto.rst:629
 msgid "reading the control attributes from the WAPT package's :file:`control` file;"
-msgstr "lire les attributs du fichier control depuis le fichier :file:`<WAPT>\\control` du ZIP du paquet ;"
+msgstr "lire les attributs du fichier control depuis le fichier :file:`<WAPT>\\\control` du ZIP du paquet ;"
 
 #: ../../source/wapt_security_principles/crypto.rst:631
 #: ../../source/wapt_security_principles/crypto.rst:670
 msgid "recovering the X509 certificate from the certificate holder from the WAPT package's :file:`certificate.crt` file;"
-msgstr "récupérer le certificat X509 du signataire depuis le fichier :file:`<WAPT>\\certificate.crt` du ZIP du paquet ;"
+msgstr "récupérer le certificat X509 du signataire depuis le fichier :file:`<WAPT>\\\certificate.crt` du ZIP du paquet ;"
 
 #: ../../source/wapt_security_principles/crypto.rst:634
 msgid "decoding the base64 formated signature attribute;"
@@ -870,7 +891,7 @@ msgstr "vérifier que le certificat a été signé par une autorité de confianc
 
 #: ../../source/wapt_security_principles/crypto.rst:676
 msgid "verifying the signature of the file :file:`manifest.sha256` with the public key;"
-msgstr "vérifier la signature du fichier :file:`<WAPT>\\manifest.sha256` avec la clé publique ;"
+msgstr "vérifier la signature du fichier :file:`<WAPT>\\\manifest.sha256` avec la clé publique ;"
 
 #: ../../source/wapt_security_principles/crypto.rst:680
 msgid "Signing immediate actions"
@@ -992,7 +1013,7 @@ msgstr "le certificat X509 du signataire de l'action est extrait du json (format
 
 #: ../../source/wapt_security_principles/crypto.rst:776
 msgid "the WAPT client tests whether the certificate is to be trusted, i.e. that it is present in :file:`<WAPT>\\ssl` or that it has been signed by a Trusted Authority (certificate of the Authority present in :file:`<WAPT>\\ssl`);"
-msgstr "le client WAPT teste si le certificat est un certificat de confiance, c'est-à-dire présent dans :file:`<WAPT>\\ssl` ou signé par une autorité de confiance (certificat de l'autorité présent dans :file:`<WAPT>\\ssl` ;"
+msgstr "le client WAPT teste si le certificat est un certificat de confiance, c'est-à-dire présent dans :file:`<WAPT>\\ssl` ou signé par une autorité de confiance (certificat de l'autorité présent dans :file:`<WAPT>\\\ssl` ;"
 
 #: ../../source/wapt_security_principles/crypto.rst:781
 msgid "the WAPT client checks whether the certificate can verify the signature that is present in the JSON structure of the action, which consists of:"
@@ -1029,7 +1050,7 @@ msgstr "Pour chaque paquet, une somme *md5* du paquet est calculée et disponibl
 
 #: ../../source/wapt_security_principles/crypto.rst:805
 msgid "When installing a package, the WAPT client checks whether a local version of the package is already available in the cache directory :file:`<WAPT>\\cache`."
-msgstr "Lors de l'installation d'un paquet, le client vérifie si le paquet est déjà disponible localement dans le répertoire :file:`<WAPT>\\cache`."
+msgstr "Lors de l'installation d'un paquet, le client vérifie si le paquet est déjà disponible localement dans le répertoire :file:`<WAPT>\\\cache`."
 
 #: ../../source/wapt_security_principles/crypto.rst:808
 msgid "If the package file is cached, its *md5* sum is calculated and compared with the *md5* sum in the index file. If they are different, the cached package is deleted."
@@ -1111,7 +1132,7 @@ msgstr "La vérification de la signature du paquet permettra d'être effectiveme
 #~ " hexadécimal et stockées sous forme "
 #~ "d'une liste JSON [(nom de "
 #~ "fichier,hash),] dans le fichier "
-#~ ":file:`<WAPT>\\manifest.sha256` du ZIP du "
+#~ ":file:`<WAPT>\\\manifest.sha256` du ZIP du "
 #~ "paquet ;"
 
 #~ msgid ""
@@ -1123,7 +1144,7 @@ msgstr "La vérification de la signature du paquet permettra d'être effectiveme
 #~ "padded:"
 #~ msgstr ""
 #~ "le contenu du fichier "
-#~ ":file:`<WAPT>\\manifest.sha256` est signé par "
+#~ ":file:`<WAPT>\\\manifest.sha256` est signé par "
 #~ "la clé privée de l':term:`Administrateur` "
 #~ "(clé RSA de 2048 bits), un "
 #~ "algorithme de hachage ``sha256`` et un"
@@ -1200,7 +1221,7 @@ msgstr "La vérification de la signature du paquet permettra d'être effectiveme
 #~ "vérifier que le certificat a été "
 #~ "signé avec une autorité dont le "
 #~ "certificat est présent dans le "
-#~ "répertoire :file:`<WAPT>\\ssl` du client ;"
+#~ "répertoire :file:`<WAPT>\\\ssl` du client ;"
 
 #~ msgid ""
 #~ "The WAPT console signs these actions "
@@ -1570,7 +1591,7 @@ msgstr "La vérification de la signature du paquet permettra d'être effectiveme
 #~ msgstr ""
 #~ "le certificat X509 du signataire, "
 #~ "sérialisé en format PEM est stocké "
-#~ "dans le fichier :file:`<WAPT>\\certificate.crt`"
+#~ "dans le fichier :file:`<WAPT>\\\certificate.crt`"
 #~ " du ZIP du paquet ;"
 
 #~ msgid ""
@@ -1635,7 +1656,7 @@ msgstr "La vérification de la signature du paquet permettra d'être effectiveme
 #~ msgstr ""
 #~ "la signature est sérialisée en base64"
 #~ " et stockée dans le fichier "
-#~ ":file:`<WAPT>\\signature.sha256` du ZIP du "
+#~ ":file:`<WAPT>\\\signature.sha256` du ZIP du "
 #~ "paquet ;"
 
 #~ msgid ""

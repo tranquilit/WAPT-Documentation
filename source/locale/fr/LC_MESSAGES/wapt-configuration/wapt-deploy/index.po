@@ -48,7 +48,6 @@ msgstr ""
 "Objects / Stratégies de Groupes)`."
 
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:26
-#, fuzzy
 msgid ""
 "The :program:`waptagent.exe` installer is available at "
 "http://wapt.mydomain.lan/wapt/waptagent.exe."
@@ -57,7 +56,6 @@ msgstr ""
 "suivante : https://wapt.mydomain.lan/wapt/waptagent.exe"
 
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:29
-#, fuzzy
 msgid ""
 "If you do not sign the :program:`waptagent.exe` installer with a "
 "commercial ``Code Signing`` certificate or a ``Code Signing`` certificate"
@@ -154,7 +152,6 @@ msgstr ""
 "pour passer à l'étape suivante ;"
 
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:87
-#, fuzzy
 msgid ""
 "leave :guilabel:`Force-reinstall VC++ enabled` checked. If the option box"
 " is ticked it is because its installation is necessary."
@@ -283,7 +280,6 @@ msgstr ""
 "pour votre :term:`Organisation` ;"
 
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:165
-#, fuzzy
 msgid "or just simply, you prefer to act with your head instead of your feet ;)"
 msgstr ""
 "ou bien tout simplement, vous préférez agir avec votre tête plutôt "
@@ -386,7 +382,6 @@ msgid "``/verify_cert=``"
 msgstr "``/verify_cert=``"
 
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:192
-#, fuzzy
 msgid "1 or relative path :file:`ssl\\\\server\\\\srvwapt.mydomain.lan.crt`"
 msgstr "1 ou chemin relatif :file:`ssl\\server\\srvwapt.mydomain.lan.crt`"
 
@@ -423,7 +418,6 @@ msgid "Certificate bundle for verifying package signatures"
 msgstr "Bundle de certificats pour vérifier la signature des paquets"
 
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:199
-#, fuzzy
 msgid ""
 "The :file:`iss` file for the InnoSetup installer is available here: "
 ":file:`C:\\\\Program Files (x86)\\\\wapt\\\\waptsetup\\\\waptsetup.iss`."
@@ -611,7 +605,6 @@ msgid "WAPTdeploy GPO to be deployed on next startup"
 msgstr "GPO WAPTdeploy to be deployed on next startup"
 
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:324
-#, fuzzy
 msgid ""
 "apply resulting GPO strategy to the Organization's Computers :abbr:`OU "
 "(Organizational Units)`;"
@@ -719,14 +712,12 @@ msgstr ""
 "fichiers :file:`waptdeploy.exe` et :file:`waptagent.exe` :"
 
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:365
-#, fuzzy
 msgid "Source : :file:`\\\\mydomain.lan\\\\netlogon\\\\waptagent.exe`"
 msgstr ""
 "Source : :file:`\\mydomain.lan\\netlogon\\waptagent.exe` Destination : "
 ":file:`C:\\windows\\temp\\waptagent.exe`"
 
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:366
-#, fuzzy
 msgid "Destination : :file:`C:\\\\windows\\\\temp\\\\waptagent.exe`"
 msgstr ""
 "Source : :file:`\\mydomain.lan\\netlogon\\waptagent.exe` Destination : "

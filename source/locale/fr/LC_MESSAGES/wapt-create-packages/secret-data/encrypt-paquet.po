@@ -77,7 +77,7 @@ msgstr ""
 "paquet WAPT"
 
 #: ../../source/wapt-create-packages/secret-data/encrypt-paquet.rst:39
-#, fuzzy
+
 msgid ""
 "When a WAPT agent registers with the WAPT server, it generates a private "
 "key/ public certificate pair in :file:`C:\\\\Program Files "

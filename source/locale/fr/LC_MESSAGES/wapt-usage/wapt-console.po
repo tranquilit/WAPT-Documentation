@@ -300,7 +300,7 @@ msgstr ""
 "dossiers suivants :"
 
 #: ../../source/wapt-usage/wapt-console.rst:190
-#, fuzzy
+
 msgid ":file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl`;"
 msgstr ":file:`C:\\Program Files (x86)\\wapt\\ssl` ;"
 

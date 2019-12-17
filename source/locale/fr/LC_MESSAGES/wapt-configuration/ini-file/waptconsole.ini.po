@@ -24,7 +24,6 @@ msgid "wapt-get.ini, configuration, WAPT, documentation"
 msgstr "wapt-get.ini, configuration"
 
 #: ../../source/wapt-configuration/ini-file/waptconsole.ini.rst:19
-#, fuzzy, python-format
 msgid ""
 "The configuration file for the WAPT console is stored in "
 ":file:`C:\\\\Users\\\\%username%\\\\AppData\\\\Local\\\\waptconsole\\\\waptconsole.ini`."

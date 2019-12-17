@@ -188,7 +188,7 @@ msgstr ""
 " ;"
 
 #: ../../source/wapt-contribute/rebuild-wapt.rst:114
-#, fuzzy
+
 msgid ""
 "copy the code signing certificate into "
 ":file:`C:\\\\users\\\\buildbot\\\\Documents`;"
@@ -217,7 +217,7 @@ msgstr ""
 "unicode.exe"
 
 #: ../../source/wapt-contribute/rebuild-wapt.rst:176
-#, fuzzy
+
 msgid ""
 "The :file:`.iss` files are located in "
 ":file:`C:\\\\tranquilit\\\\wapt\\\\waptsetup` ;"

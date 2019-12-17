@@ -98,7 +98,7 @@ msgstr ""
 "Signing autosignés."
 
 #: ../../source/waptserver-update/migration13-16/suite-upgrade.rst:50
-#, fuzzy
+
 msgid ""
 "You must insure that the old certificate in "
 ":file:`C:\\\\private\\\\mykey.crt` and the key "
@@ -130,7 +130,7 @@ msgid "Code Signing certificate"
 msgstr "Certificat Code Signing"
 
 #: ../../source/waptserver-update/migration13-16/suite-upgrade.rst:69
-#, fuzzy
+
 msgid ""
 "Normally, you will not have to recreate a new key. Only the certificate "
 "will have to be changed. **You must enter the path to your key** (ex: "

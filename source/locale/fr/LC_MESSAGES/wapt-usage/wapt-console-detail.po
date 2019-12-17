@@ -69,7 +69,7 @@ msgid "Multi-selection"
 msgstr ""
 
 #: ../../source/wapt-usage/wapt-console-detail.rst:44
-#, fuzzy
+
 msgid "Edit the configuration of the host"
 msgstr "la description de la machine ;"
 
@@ -90,12 +90,12 @@ msgstr "la description de la machine ;"
 #: ../../source/wapt-usage/wapt-console-detail.rst:66
 #: ../../source/wapt-usage/wapt-console-detail.rst:67
 #: ../../source/wapt-usage/wapt-console-detail.rst:68
-#, fuzzy
+
 msgid "*yes*"
 msgstr "yes"
 
 #: ../../source/wapt-usage/wapt-console-detail.rst:45
-#, fuzzy
+
 msgid "Refresh the list of available packages"
 msgstr ""
 "Une barre de recherche est également disponible pour filtrer les paquets "
@@ -110,7 +110,7 @@ msgid "Send a message to the selected hosts"
 msgstr ""
 
 #: ../../source/wapt-usage/wapt-console-detail.rst:48
-#, fuzzy
+
 msgid "Audit the packages installed on selected hosts"
 msgstr "Agir sur les paquets installés sur la machine"
 
@@ -124,7 +124,7 @@ msgid "Remove one or more packages from selected hosts"
 msgstr ""
 
 #: ../../source/wapt-usage/wapt-console-detail.rst:51
-#, fuzzy
+
 msgid "Prevent packages from being installed on hosts"
 msgstr "Agir sur les paquets installés sur la machine"
 
@@ -429,7 +429,7 @@ msgstr ""
 " les machines sélectionnées ;"
 
 #: ../../source/wapt-usage/wapt-console-detail.rst:194
-#, fuzzy
+
 msgid "Acting on packages installed on a specific host"
 msgstr "Agir sur les paquets installés sur la machine"
 
@@ -438,7 +438,7 @@ msgid "Action"
 msgstr ""
 
 #: ../../source/wapt-usage/wapt-console-detail.rst:201
-#, fuzzy
+
 msgid "Install a package"
 msgstr "Interdire un paquet"
 
@@ -447,7 +447,7 @@ msgid "installs the selected package on selected hosts"
 msgstr ""
 
 #: ../../source/wapt-usage/wapt-console-detail.rst:203
-#, fuzzy
+
 msgid "Force a package"
 msgstr "Supprimer un paquet"
 
@@ -465,7 +465,7 @@ msgid "removes the selected package from the selected hosts"
 msgstr ""
 
 #: ../../source/wapt-usage/wapt-console-detail.rst:208
-#, fuzzy
+
 msgid "Forget a package"
 msgstr "Interdire un paquet"
 
@@ -474,7 +474,7 @@ msgid "tells the selected hosts not to use WAPT for managing the selected packag
 msgstr ""
 
 #: ../../source/wapt-usage/wapt-console-detail.rst:211
-#, fuzzy
+
 msgid "Audit the package"
 msgstr "Filtrage par paquet"
 
@@ -733,17 +733,17 @@ msgid "Choice of filters"
 msgstr ""
 
 #: ../../source/wapt-usage/wapt-console-detail.rst:369
-#, fuzzy
+
 msgid "Possible options"
 msgstr "Cacher les actions non disponibles"
 
 #: ../../source/wapt-usage/wapt-console-detail.rst:371
-#, fuzzy
+
 msgid ":guilabel:`Host`"
 msgstr ":guilabel:`Product` ;"
 
 #: ../../source/wapt-usage/wapt-console-detail.rst:371
-#, fuzzy
+
 msgid ""
 ":guilabel:`Host` section in the :guilabel:`Hardware inventory` tab when a"
 " host is selected"
@@ -752,12 +752,12 @@ msgstr ""
 "Updates` sont :"
 
 #: ../../source/wapt-usage/wapt-console-detail.rst:375
-#, fuzzy
+
 msgid ":guilabel:`Hardware`"
 msgstr ":guilabel:`éditeur` ;"
 
 #: ../../source/wapt-usage/wapt-console-detail.rst:375
-#, fuzzy
+
 msgid ""
 ":guilabel:`DMI` section in the :guilabel:`Hardware inventory` tab when a "
 "host is selected"
@@ -766,7 +766,7 @@ msgstr ""
 "Updates` sont :"
 
 #: ../../source/wapt-usage/wapt-console-detail.rst:379
-#, fuzzy
+
 msgid ":guilabel:`Software`"
 msgstr ":guilabel:`nom du logiciel` ;"
 
@@ -775,17 +775,17 @@ msgid ":guilabel:`Software inventory` section when a host is selected"
 msgstr ""
 
 #: ../../source/wapt-usage/wapt-console-detail.rst:382
-#, fuzzy
+
 msgid ":guilabel:`Package`"
 msgstr ":guilabel:`éditeur` ;"
 
 #: ../../source/wapt-usage/wapt-console-detail.rst:382
-#, fuzzy
+
 msgid "List of packages installed on the selected hosts"
 msgstr "Agir sur les paquets installés sur la machine"
 
 #: ../../source/wapt-usage/wapt-console-detail.rst:384
-#, fuzzy
+
 msgid ":guilabel:`Have errors`"
 msgstr ":guilabel:`éditeur` ;"
 
@@ -794,7 +794,7 @@ msgid "Search only for hosts for which a tasks has not finished correctly"
 msgstr ""
 
 #: ../../source/wapt-usage/wapt-console-detail.rst:387
-#, fuzzy
+
 msgid ":guilabel:`Needing upgrades`"
 msgstr ":guilabel:`Kbids` ;"
 
@@ -803,7 +803,7 @@ msgid "Search only for hosts needing upgrades"
 msgstr ""
 
 #: ../../source/wapt-usage/wapt-console-detail.rst:389
-#, fuzzy
+
 msgid ":guilabel:`Group selection`"
 msgstr ":guilabel:`Product` ;"
 
@@ -1138,7 +1138,7 @@ msgid ""
 msgstr "Chemin vers le certificat associée a la clé privé pour signer les paquets"
 
 #: ../../source/wapt-usage/wapt-console-detail.rst:569
-#, fuzzy
+
 msgid ":file:`C:\\\\private\\\\mykey.crt`"
 msgstr ":file:`C:\\private\\mykey.crt`"
 
@@ -1179,7 +1179,7 @@ msgstr ""
 "développement"
 
 #: ../../source/wapt-usage/wapt-console-detail.rst:595
-#, fuzzy
+
 msgid ":file:`C:\\\\waptdev`"
 msgstr ":file:`C:\\waptdev`"
 

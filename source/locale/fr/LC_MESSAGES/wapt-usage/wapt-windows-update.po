@@ -92,7 +92,7 @@ msgstr ""
 "jour."
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:51
-#, fuzzy
+
 msgid ""
 "Regularly, the host will analyze the available updates using the "
 ":file:`wsuscn2.cab` file. The host will send its list of needed updates "
@@ -104,7 +104,7 @@ msgstr ""
 "serveur WAPT."
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:55
-#, fuzzy
+
 msgid ""
 "If an update is pending on the host and if that update is not present on "
 "the WAPT server, the server will download the needed update from official"
@@ -128,12 +128,12 @@ msgid "Downloaded updates are stored:"
 msgstr "Les mises à jour téléchargées sont stockées :"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:66
-#, fuzzy
+
 msgid "on Linux hosts in :file:`/var/www/waptwua`;"
 msgstr "sur des serveurs Linux dans :file:`/var/www/waptwua` ;"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:68
-#, fuzzy
+
 msgid ""
 "on Windows hosts in "
 ":file:`C:\\\\wapt\\\\waptserver\\\\repository\\\\waptwua`;"
@@ -334,7 +334,7 @@ msgid "Example WAPTWUA section in :file:`wapt-get.ini` file:"
 msgstr "Exemple de section WAPTWUA dans le fichier :file:`wapt-get.ini` :"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:129
-#, fuzzy
+
 msgid ""
 "The :guilabel:`install_scheduling` option will try every 12 hours to "
 "install updates on client. It is not in graphical options due to a "
@@ -348,7 +348,7 @@ msgstr ""
 "heures de travail peut impacter votre production."
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:135
-#, fuzzy
+
 msgid ""
 "When you create the :file:`waptagent.exe` from your console, these "
 "options are equivalent to this:"
@@ -357,7 +357,7 @@ msgstr ""
 "équivalentes à celles-ci :"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:144
-#, fuzzy
+
 msgid ""
 "if :guilabel:`default_allow` option is ``True`` and Wapt WUA is enabled "
 "too, clients will contact the WAPT Server and ask to download the missing"
@@ -505,7 +505,7 @@ msgid "classification;"
 msgstr "la classification ;"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:215
-#, fuzzy
+
 msgid ""
 "In the right panel grid, if the :guilabel:`Downloaded on` column is "
 "empty, it means that the update has not yet been downloaded by the WAPT "
@@ -554,7 +554,7 @@ msgstr ""
 " WAPT le demande ;"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:239
-#, fuzzy
+
 msgid "Launch WUA on clients"
 msgstr "Lancer WAPT WUA sur le client"
 
@@ -579,7 +579,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:259
-#, fuzzy
+
 msgid ""
 "You can force this scan with the :guilabel:`Download index and missing "
 "cabs from Microsoft Web site` button in tab :menuselection:`Windows "
@@ -594,7 +594,7 @@ msgstr ""
 " Windows`"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:267
-#, fuzzy
+
 msgid ""
 "If you want to download from the console, use the :guilabel:`Trigger the "
 "download of pending Windows Updates` button."
@@ -603,7 +603,7 @@ msgstr ""
 ":guilabel:`Lancer le téléchargement des Mises à jour Windows en attente`."
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:270
-#, fuzzy
+
 msgid ""
 "The command-line for downloading kb from the client is :command:`wapt-get"
 " waptwua-download`, it will scan the current status of Windows against "
@@ -620,7 +620,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:277
-#, fuzzy
+
 msgid ""
 "If you want to trigger the installation from the console, click on "
 ":guilabel:`Trigger the install of pending Windows Updates` button."

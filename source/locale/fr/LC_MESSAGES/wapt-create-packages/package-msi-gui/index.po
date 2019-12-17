@@ -86,7 +86,7 @@ msgid "Two solutions are available:"
 msgstr "deux solutions sont proposées :"
 
 #: ../../source/wapt-create-packages/package-msi-gui/index.rst:59
-#, fuzzy
+
 msgid ""
 "click on :guilabel:`Make and edit ....` (recommended) to launch package "
 "customization;"
@@ -140,7 +140,7 @@ msgstr ""
 "personnaliser son comportement en l'éditant avec :program:`PyScripter`."
 
 #: ../../source/wapt-create-packages/package-msi-gui/index.rst:83
-#, fuzzy
+
 msgid ""
 "When creating the package template, click on :guilabel:`Make and edit "
 "....`."

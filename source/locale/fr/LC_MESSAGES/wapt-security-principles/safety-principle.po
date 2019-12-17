@@ -39,7 +39,7 @@ msgid "The WAPT service operates as a **privileged** system account."
 msgstr "Le service WAPT fonctionne en compte système **privilégié**."
 
 #: ../../source/wapt-security-principles/safety-principle.rst:28
-#, fuzzy
+
 msgid ""
 "From WAPT version 1.5, the default installation directory becomes "
 ":file:`C:\\\\Program Files (x86)\\\\wapt`."
@@ -791,7 +791,7 @@ msgid "For the secured version of WAPT to work correctly:"
 msgstr "Pour fonctionner correctement en version sécurisée :"
 
 #: ../../source/wapt-security-principles/safety-principle.rst:407
-#, fuzzy
+
 msgid ""
 "an option for verifying the server HTTPS certificate is introduced in "
 ":file:`C:\\\\Program Files (x86)\\\\wapt\\wapt-get.ini` on the WAPT "
@@ -804,7 +804,7 @@ msgstr ""
 "agents WAPT** ;"
 
 #: ../../source/wapt-security-principles/safety-principle.rst:412
-#, fuzzy
+
 msgid ""
 "an option for verifying the server HTTPS certificate is introduced in "
 ":file:`C:\\\\Program Files (x86)\\\\wapt\\wapt-get.ini` on the WAPT "
@@ -833,7 +833,7 @@ msgstr ""
 "validée pour votre réseau ;"
 
 #: ../../source/wapt-security-principles/safety-principle.rst:423
-#, fuzzy
+
 msgid ""
 "by using the *certificate pinning* method, which consists of providing "
 "the WAPT agent a short list of trusted certificates that will be stored "
@@ -887,7 +887,7 @@ msgstr ""
 "machine existante dans la base de données WAPT ;"
 
 #: ../../source/wapt-security-principles/safety-principle.rst:469
-#, fuzzy
+
 msgid ""
 "On the first :command:`register`, each device generates a key/ "
 "certificate pair that is stored in :file:`C:\\\\Program Files "
@@ -1080,7 +1080,7 @@ msgstr ""
 ":file:`WAPT\\certificate.crt` ;"
 
 #: ../../source/wapt-security-principles/safety-principle.rst:559
-#, fuzzy
+
 msgid ""
 "the WAPT agent then checks that the certificate or the chain of "
 "certificates in :file:`certificate.crt` has been signed with a key "
@@ -1181,7 +1181,7 @@ msgstr ""
 "l'attribut *signature* du fichier :file:`control`."
 
 #: ../../source/wapt-security-principles/safety-principle.rst:612
-#, fuzzy
+
 msgid ""
 "The certificate matching the private key is stored in "
 ":file:`<WAPT>\\\\certificate.crt` inside the WAPT package."
@@ -1252,7 +1252,7 @@ msgstr ""
 "WAPT ;"
 
 #: ../../source/wapt-security-principles/safety-principle.rst:642
-#, fuzzy
+
 msgid ""
 "The installation folder :file:`C:\\\\Program Files (x86)\\\\wapt` is "
 "accessible in read-write mode:"
@@ -1303,7 +1303,7 @@ msgid ""
 msgstr "éviter qu'une entité non-autorisée usurpe l'identité d'une machine ;"
 
 #: ../../source/wapt-security-principles/safety-principle.rst:664
-#, fuzzy
+
 msgid ""
 "No access right is granted to any :term:`user` to :file:`C:\\\\Program "
 "Files (x86)\\\\wapt\\\\private`, whomever he may be. Only the WAPT agent "

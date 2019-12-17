@@ -27,7 +27,6 @@ msgid "Configuring the WAPT Server"
 msgstr "Configurer le serveur WAPT"
 
 #: ../../source/wapt-configuration/ini-file/index.rst:15
-#, fuzzy
 msgid ""
 "The WAPT Server configuration file on GNU/ Linux systems is found in "
 ":file:`/opt/wapt/conf/waptserver.ini`."
@@ -36,7 +35,6 @@ msgstr ""
 ":file:`/opt/wapt/waptserver/waptserver.ini`."
 
 #: ../../source/wapt-configuration/ini-file/index.rst:18
-#, fuzzy
 msgid ""
 "The WAPT Server configuration file on Windows systems is found in "
 ":file:`C:\\\\wapt\\\\conf\\\\waptserver.ini`."

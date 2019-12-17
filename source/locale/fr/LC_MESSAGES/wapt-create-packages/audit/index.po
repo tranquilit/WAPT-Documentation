@@ -117,7 +117,7 @@ msgstr ""
 "chaque paquet WAPT logiciel installé sur la machine."
 
 #: ../../source/wapt-create-packages/audit/index.rst:66
-#, fuzzy
+
 msgid ""
 "WAPT saves in its local database :file:`C:\\\\Program Files "
 "(x86)\\\\wapt\\\\waptdb.sqlite` the audit scripts of all installed WAPT "

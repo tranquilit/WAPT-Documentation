@@ -851,7 +851,7 @@ msgid "Example:"
 msgstr "Exemple :"
 
 #: ../../source/wapt-create-packages/wapt-package-structure/index.rst:385
-#, fuzzy
+
 msgid ""
 "The testing of available free disk space is done on the "
 ":file:`C:\\\\Program Files` folder."
@@ -1153,7 +1153,7 @@ msgid "On installing a package, :program:`wapt-get` checks:"
 msgstr "A l'installation du paquet, :program:`wapt-get` vérifie :"
 
 #: ../../source/wapt-create-packages/wapt-package-structure/index.rst:622
-#, fuzzy
+
 msgid ""
 "that the signature of :file:`manifest.sha256` matches the actual "
 ":file:`manifest.sha256` file (the agent will verify the public "

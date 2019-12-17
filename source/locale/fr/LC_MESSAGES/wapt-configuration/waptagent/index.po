@@ -24,7 +24,7 @@ msgid "waptagent.exe, installeur, InnoSetup, documentation, WAPT"
 msgstr "waptagent.exe, installeur, InnoSetup, WAPT, documentation"
 
 #: ../../source/wapt-configuration/waptagent/index.rst:15
-#, fuzzy
+
 msgid "WAPT agent installer"
 msgstr "Générer l'installeur de l'agent WAPT"
 
@@ -123,7 +123,7 @@ msgstr ""
 "pour compiler l'installeur WAPT :"
 
 #: ../../source/wapt-configuration/waptagent/index.rst:67
-#, fuzzy
+
 msgid ""
 "files that will be used during building of the WAPT agent are located in "
 ":file:`C:\\\\Program Files (x86)\\\\wapt`;"
@@ -132,7 +132,7 @@ msgstr ""
 " le répertoire d'installation :file:`C:\\Program Files (x86)\\wapt` ;"
 
 #: ../../source/wapt-configuration/waptagent/index.rst:70
-#, fuzzy
+
 msgid ""
 "installer source files (:file:`.iss` files) are located in "
 ":file:`C:\\\\Program Files (x86)\\\\wapt\\\\waptsetup`;"
@@ -141,7 +141,7 @@ msgstr ""
 " dans :file:`C:\\Program Files (x86)\\wapt\\waptsetup` ;"
 
 #: ../../source/wapt-configuration/waptagent/index.rst:75
-#, fuzzy
+
 msgid ""
 "Before building the WAPT agent, please verify the public certificate(s) "
 "in :file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl`."
@@ -161,7 +161,7 @@ msgstr ""
 "copier dans ce dossier."
 
 #: ../../source/wapt-configuration/waptagent/index.rst:84
-#, fuzzy
+
 msgid ""
 "**DO NOT COPY the private key** of any :term:`Administrator` in "
 ":file:`C:\\\\Program Files (x86)\\\\wapt`."
@@ -198,7 +198,7 @@ msgid "the field :guilabel:`Public certificate`: **required**;"
 msgstr "le champ **obligatoire** :guilabel:`Certificat public` ;"
 
 #: ../../source/wapt-configuration/waptagent/index.rst:102
-#, fuzzy
+
 msgid "example : :file:`C:\\\\private\\\\mydomain.crt`"
 msgstr "exemple : :file:`C:\\private\\mydomain.crt`"
 
@@ -291,7 +291,7 @@ msgstr ""
 "documentation **Configurer l'authentification Kerberos**."
 
 #: ../../source/wapt-configuration/waptagent/index.rst:140
-#, fuzzy
+
 msgid ""
 "The checkbox **Verify the WAPT Server HTTPS certificate**must be checked "
 "**ONLY IF** you have followed the documentation on **Activating the "

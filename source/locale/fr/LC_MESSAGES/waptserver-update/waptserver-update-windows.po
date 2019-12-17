@@ -4,16 +4,17 @@ msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-05 15:09+0100\n"
-"PO-Revision-Date: 2018-11-07 10:25+0100\n"
-"Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
+"PO-Revision-Date: 2019-12-07 14:15+0000\n"
+"Last-Translator: Bertrand LEMOIGNE <blemoigne@tranquil.it>\n"
+"Language-Team: French <https://srvweblate.tranquil.it/projects/"
+"wapt-documentation/waptserver-updatewaptserver-update-windows/fr/>\n"
 "Language: fr\n"
-"Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 3.9.1\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 1.8.8\n"
 
 #: ../../source/waptserver_update/waptserver_update_windows.rst:8
 #: ../../source/waptserver_update/waptserver_update_windows.rst:15
@@ -75,11 +76,11 @@ msgid ""
 "WAPTSetup from https://wapt.tranquil.it/wapt/releases/latest/waptsetup.exe."
 msgstr ""
 "Sur le poste Administrateur, télécharger manuellement WAPTSetup depuis : "
-"https://wapt.tranquil.it/wapt/releases/latest/waptsetup.exe"
+"https://wapt.tranquil.it/wapt/releases/latest/waptsetup.exe."
 
 #: ../../source/waptserver_update/waptserver_update_windows.rst:46
 msgid "then :ref:`create the WAPT agent <create_WAPT_agent>`:"
-msgstr "puis :ref:`créer l'agent WAPT <create_WAPT_agent>` ;"
+msgstr "puis :ref:`créer l'agent WAPT <create_WAPT_agent>` :"
 
 #: ../../source/waptserver_update/waptserver_update_windows.rst:48
 msgid ""
@@ -108,7 +109,7 @@ msgstr "soit créer un paquet **waptupgrade** et l'affecter à l'ensemble du par
 
 #: ../../source/waptserver_update/waptserver_update_windows.rst:61
 msgid "update the WAPT agents"
-msgstr "mettre à jour les clients WAPT ;"
+msgstr "mettre à jour les clients WAPT"
 
 #: ../../source/waptserver_update/waptserver_update_windows.rst:63
 msgid ""

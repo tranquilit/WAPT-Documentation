@@ -57,7 +57,6 @@ msgstr ""
 "correctement protégé."
 
 #: ../../source/wapt-configuration/wapt-certificate/index.rst:37
-#, fuzzy
 msgid ""
 "The :file:`wapt-private.pem` file is the private key, it is located by "
 "default in the :file:`C:\\\\private` folder of the :term:`Administrator` "
@@ -88,7 +87,6 @@ msgid "public certificate signed with private key: :file:`wapt-private.crt`"
 msgstr "Le certificat public *wapt-private.crt*"
 
 #: ../../source/wapt-configuration/wapt-certificate/index.rst:49
-#, fuzzy
 msgid ""
 "The :file:`wapt-private.crt` file is the public certificate that is used "
 "along with the private key. It is by default created in the "
@@ -235,7 +233,6 @@ msgstr ""
 "les recommandations :term:`ANSSI`)."
 
 #: ../../source/wapt-configuration/wapt-certificate/index.rst:126
-#, fuzzy
 msgid ""
 "the path to your private key must not be in the installation path of WAPT"
 " (:file:`C:\\\\Program Files (x86)\\\\wapt`);"
@@ -244,7 +241,6 @@ msgstr ""
 " d'installation de WAPT (:file:`C:\\Program Files (x86)\\wapt`) ;"
 
 #: ../../source/wapt-configuration/wapt-certificate/index.rst:129
-#, fuzzy
 msgid ""
 "if your key is stored in :file:`C:\\\\Program Files (x86)\\\\wapt`, your "
 ":term:`Administrator` private key will be deployed on your clients, "
@@ -260,7 +256,6 @@ msgid "Confirmation of the copy of the certificate in the ssl folder"
 msgstr "Confirmation de copie dans le répertoire ssl"
 
 #: ../../source/wapt-configuration/wapt-certificate/index.rst:139
-#, fuzzy
 msgid ""
 "click on :guilabel:`Yes` to copy the newly generated certificate in the "
 ":file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl` folder. This certificate"
@@ -355,7 +350,6 @@ msgstr ""
 "paire de clé de type *Code Signing* ou de type *Non Code Signing*."
 
 #: ../../source/wapt-configuration/wapt-certificate/index.rst:220
-#, fuzzy
 msgid ""
 "the path to your private key must not be in the installation path of WAPT"
 " (:file:`C:\\\\Program Files (x86)\\\\wapt` );"
@@ -364,7 +358,6 @@ msgstr ""
 " d'installation de WAPT (:file:`C:\\Program Files (x86)\\wapt`) ;"
 
 #: ../../source/wapt-configuration/wapt-certificate/index.rst:223
-#, fuzzy
 msgid ""
 "if your key is stored in :file:`C:\\\\Program Files (x86)\\\\wapt` , your"
 " Administrator private key will be deployed on your clients, **absolutely"
@@ -375,7 +368,6 @@ msgstr ""
 "création de l'agent WAPT, **absolument à ne pas faire!**"
 
 #: ../../source/wapt-configuration/wapt-certificate/index.rst:233
-#, fuzzy
 msgid ""
 "click on :guilabel:`Yes` to copy the newly generated certificate in the "
 ":file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl` folder. This certificate"

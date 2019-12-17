@@ -4,16 +4,17 @@ msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-27 10:29+0100\n"
-"PO-Revision-Date: 2019-03-01 11:18+0100\n"
-"Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
+"PO-Revision-Date: 2019-12-07 14:15+0000\n"
+"Last-Translator: Bertrand LEMOIGNE <blemoigne@tranquil.it>\n"
+"Language-Team: French <https://srvweblate.tranquil.it/projects/"
+"wapt-documentation/waptserver-updatewaptserver-update-debian/fr/>\n"
 "Language: fr\n"
-"Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 3.9.1\n"
 "Generated-By: Babel 2.5.3\n"
-"X-Generator: Poedit 1.8.8\n"
 
 #: ../../source/waptserver-update/waptserver-update-debian.rst:8
 #: ../../source/waptserver-update/waptserver-update-debian.rst:15
@@ -31,7 +32,7 @@ msgstr ""
 
 #: ../../source/waptserver-update/waptserver-update-debian.rst:21
 msgid "first of all, update the Debian underlying distribution:"
-msgstr "d'abord mettre à jour le serveur Debian subjacent ;"
+msgstr "d'abord mettre à jour le serveur Debian subjacent :"
 
 #: ../../source/waptserver-update/waptserver-update-debian.rst:27
 msgid ""
@@ -51,7 +52,7 @@ msgstr ""
 
 #: ../../source/waptserver-update/waptserver-update-debian.rst:42
 msgid "launch the post-configuration step"
-msgstr "lancer la post-configuration ;"
+msgstr "lancer la post-configuration"
 
 #: ../../source/waptserver-update/waptserver-update-debian.rst:46
 msgid ""
@@ -82,23 +83,24 @@ msgstr ""
 #: ../../source/waptserver-update/waptserver-update-debian.rst:60
 msgid "The password requested in step 4 is used to access the WAPT console."
 msgstr ""
-"Le mot de passe demandé en étape 4 est utilisé pour accéder à la console WAPT."
+"Le mot de passe demandé en étape #4 est utilisé pour accéder à la console "
+"WAPT."
 
 #: ../../source/waptserver-update/waptserver-update-debian.rst:62
 msgid "start the WAPT Server:"
-msgstr "démarrer le serveur WAPT ;"
+msgstr "démarrer le serveur WAPT :"
 
 #: ../../source/waptserver-update/waptserver-update-debian.rst:68
 msgid ""
 "upgrade the WAPT console by following the same set of steps as :ref:`installing "
 "the WAPT console <installing_the_WAPT_console>`;"
 msgstr ""
-"mettre à jour la console WAPT en suivant la même procédure que celle pour :ref:"
-"`installer la console WAPT <installing_the_WAPT_console>` ;"
+"mettre à jour la console WAPT en suivant la même procédure que pour :ref:`"
+"installer la console WAPT <installing_the_WAPT_console>` ;"
 
 #: ../../source/waptserver-update/waptserver-update-debian.rst:71
 msgid "then :ref:`create the WAPT agent <create_WAPT_agent>`:"
-msgstr "puis :ref:`créer l'agent WAPT <create_WAPT_agent>` ;"
+msgstr "puis :ref:`créer l'agent WAPT <create_WAPT_agent>` :"
 
 #: ../../source/waptserver-update/waptserver-update-debian.rst:73
 msgid ""
@@ -127,7 +129,7 @@ msgstr "soit créer un paquet **waptupgrade** et l'affecter à l'ensemble du par
 
 #: ../../source/waptserver-update/waptserver-update-debian.rst:86
 msgid "update the WAPT agents"
-msgstr "mettre à jour les clients WAPT ;"
+msgstr "mettre à jour les clients WAPT"
 
 #: ../../source/waptserver-update/waptserver-update-debian.rst:88
 msgid ""
@@ -142,8 +144,8 @@ msgid ""
 "Download and install the latest version of the WAPT agent by visiting http://"
 "wapt.mydomain.lan/wapt/waptagent.exe."
 msgstr ""
-"Télécharger et installer la dernière version de l'agent qui a été mis à jour : "
-"https://wapt.mydomain.lan/wapt/waptagent.exe."
+"Télécharger et installer la dernière version de l'agent WAPT qui a été mis à "
+"jour : https://wapt.mydomain.lan/wapt/waptagent.exe."
 
 #: ../../source/waptserver-update/waptserver-update-debian.rst:94
 msgid ""

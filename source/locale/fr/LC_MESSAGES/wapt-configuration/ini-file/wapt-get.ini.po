@@ -24,7 +24,6 @@ msgid "wapt-get.ini, configuration, documentation, WAPT"
 msgstr "wapt-get.ini, configuration"
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:17
-#, fuzzy
 msgid ""
 "The configuration file :file:`C:\\\\Program Files(x86)\\\\wapt\\\\wapt-"
 "get.ini` defines the behavior of the WAPT agent."
@@ -188,7 +187,6 @@ msgid "WAPT agent loopback port. It is not accessible from the network."
 msgstr "Port local HTTPS d'écoute du service WAPT."
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:65
-#, fuzzy
 msgid "``dbdir`` = :file:`C:\\\\Program Files(x86)\\\\wapt\\\\db`"
 msgstr "``dbdir`` = :file:`C:\\Program Files(x86)\\wapt\\db`"
 
@@ -232,7 +230,6 @@ msgid ""
 msgstr ""
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:75
-#, fuzzy
 msgid "``waptaudit_task_period`` = 120"
 msgstr "``waptupdate_task_period`` = 120"
 
@@ -241,7 +238,6 @@ msgid "Define the frequency where the agent checks if he has audits to perform."
 msgstr ""
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:77
-#, fuzzy
 msgid "``locales`` = en"
 msgstr "``loglevel`` = warning"
 
@@ -328,7 +324,6 @@ msgid "See the documentation on activating the"
 msgstr "Voir la documentation pour activer la"
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:109
-#, fuzzy
 msgid ""
 ":file:`C:\\\\Program Files "
 "(x86)\\\\wapt\\\\ssl\\\\server\\\\srvwapt.mydomain.lan.crt`"
@@ -345,12 +340,10 @@ msgstr ""
 "<activating_HTTPS_certificate_verification>`."
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:111
-#, fuzzy
 msgid "``public_certs_dir`` = :file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl`"
 msgstr "``public_certs_dir`` = :file:`C:\\Program Files (x86)\\wapt\\ssl`"
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:111
-#, fuzzy
 msgid ""
 "Folder of certificates authorized to verify the signature of WAPT "
 "packages, by default, ``<wapt_base_dir>\\\\ssl``. Only files in this "
@@ -430,7 +423,6 @@ msgstr ""
 "``http_proxy``"
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:156
-#, fuzzy, python-format
 msgid ""
 "This parameter can be configured both in the WAPT agent configuration and"
 " in the WAPT console configuration file "
@@ -537,7 +529,6 @@ msgid "Settings for creating packages"
 msgstr "Paramètres pour la création de paquets"
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:212
-#, fuzzy
 msgid "``personal_certificate_path`` = C:\\\\private\\\\org-coder.crt"
 msgstr "``personal_certificate_path`` = C:\\private\\org-codeur.crt"
 
@@ -546,7 +537,6 @@ msgid "Path to the Administrator's private key"
 msgstr "Chemin de la clé privée qui permettra de signer les paquets."
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:213
-#, fuzzy
 msgid "``default_sources_root`` = C:\\\\waptdev"
 msgstr "``default_sources_root`` = C:\\waptdev"
 
@@ -555,7 +545,6 @@ msgid "Directory for storing packages in development"
 msgstr "Répertoire de développement des paquets."
 
 #: ../../source/wapt-configuration/ini-file/wapt-get.ini.rst:214
-#, fuzzy
 msgid "``default_sources_root_host`` = C:\\\\waptdev\\\\hosts"
 msgstr "``default_sources_root_host`` = C:\\waptdev\\hosts"
 

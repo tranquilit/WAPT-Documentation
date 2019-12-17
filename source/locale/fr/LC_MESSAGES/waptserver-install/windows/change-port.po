@@ -90,7 +90,7 @@ msgid "Configuring the new listening ports in the Nginx"
 msgstr "Modifier le port dans la configuration Nginx"
 
 #: ../../source/waptserver-install/windows/change-port.rst:53
-#, fuzzy
+
 msgid ""
 "open the file :file:`C:\\\\Program Files "
 "(x86)\\\\wapt\\\\waptserver\\\\nginx\\\\conf\\\\nginx.conf`"
@@ -111,7 +111,7 @@ msgid "restart :program:`Nginx` with :code:`net start WAPTNginx`;"
 msgstr "relancer :program:`Nginx` avec :code:`net start WAPTNginx` :"
 
 #: ../../source/waptserver-install/windows/change-port.rst:71
-#, fuzzy
+
 msgid "open :file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get.ini`;"
 msgstr "ouvrir :file:`C:\\Program Files (x86)\\wapt\\wapt-get.ini` ;"
 

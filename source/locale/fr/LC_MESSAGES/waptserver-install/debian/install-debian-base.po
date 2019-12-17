@@ -4,16 +4,17 @@ msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-05 15:09+0100\n"
-"PO-Revision-Date: 2018-11-06 16:55+0100\n"
-"Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
+"PO-Revision-Date: 2019-12-07 14:15+0000\n"
+"Last-Translator: Bertrand LEMOIGNE <blemoigne@tranquil.it>\n"
+"Language-Team: French <https://srvweblate.tranquil.it/projects/"
+"wapt-documentation/waptserver-installdebianinstall-debian-base/fr/>\n"
 "Language: fr\n"
-"Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 3.9.1\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 1.8.8\n"
 
 #: ../../source/wapt_server_install/debian/install_debian_base.rst:8
 #: ../../source/wapt_server_install/debian/install_debian_base.rst:15
@@ -47,8 +48,8 @@ msgid ""
 "The different parameters presented below are not specific to WAPT; you "
 "may adapt them as required for your environment."
 msgstr ""
-"Les différents paramètrages préconisés ci-dessous ne sont pas spécifique "
-"à WAPT ; vous devrez les adapter à votre environment."
+"Les différents paramétrages préconisés ci-dessous ne sont pas spécifiques à "
+"WAPT ; vous devrez les adapter à votre environnement."
 
 #: ../../source/wapt_common_resources/linux_server_naming.rst
 #: /mnt/oldhome/dcardon/docwapt/wapt/poswap/source/wapt_server_install/debian/install_debian_base.rst>:11
@@ -99,8 +100,8 @@ msgid ""
 "The short name of the WAPT Server must not be longer than 15 characters "
 "(the limit is due to sAMAccountName restriction in Active Directory)."
 msgstr ""
-"Le nom du serveur WAPT ne doit pas dépasser 15 caractères (limite liée "
-"au sAMAccountName dans Active Directory)"
+"Le nom du serveur WAPT ne doit pas dépasser 15 caractères (limite liée au "
+"sAMAccountName dans Active Directory)."
 
 #: ../../source/wapt_server_install/debian/install_debian_base.rst:37
 msgid ""
@@ -170,7 +171,7 @@ msgstr ""
 
 #: ../../source/wapt_server_install/debian/install_debian_base.rst:85
 msgid ":ref:`srv_dns`"
-msgstr ":ref:`srv_dns` ;"
+msgstr ":ref:`srv_dns`"
 
 #: ../../source/wapt_server_install/debian/install_debian_base.rst:87
 msgid ""
@@ -186,7 +187,7 @@ msgstr "vérifier que la machine est à l'heure (avec NTP installé) ;"
 
 #: ../../source/wapt_server_install/debian/install_debian_base.rst:106
 msgid "If the NTP package is not installed."
-msgstr "Si le paquet NTP n'est pas installé :"
+msgstr "Si le paquet NTP n'est pas installé."
 
 #: ../../source/wapt_server_install/debian/install_debian_base.rst:114
 msgid "update and upgrade your Debian;"
@@ -198,7 +199,7 @@ msgstr "installer systemd ;"
 
 #: ../../source/wapt_server_install/debian/install_debian_base.rst:127
 msgid "install certificates;"
-msgstr "installer ca-certificates :"
+msgstr "installer les certificats :"
 
 #: ../../source/wapt_server_install/debian/install_debian_base.rst:133
 msgid "restart server;"

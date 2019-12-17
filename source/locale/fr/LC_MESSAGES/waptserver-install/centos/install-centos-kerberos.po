@@ -1,28 +1,29 @@
-
 msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-12 12:16+0200\n"
-"PO-Revision-Date: 2018-11-06 16:46+0100\n"
-"Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
+"PO-Revision-Date: 2019-12-04 11:15+0000\n"
+"Last-Translator: Bertrand LEMOIGNE <blemoigne@tranquil.it>\n"
+"Language-Team: French <https://srvweblate.tranquil.it/projects/"
+"wapt-documentation/waptserver-installcentosinstall-centos-kerberos/fr/>\n"
 "Language: fr\n"
-"Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 3.9.1\n"
 "Generated-By: Babel 2.6.0\n"
 
 #: ../../source/waptserver-install/centos/install-centos-kerberos.rst:21
 #: ../../source/waptserver-install/centos/install-centos-kerberos.rst:60
 msgid "Configuring Kerberos authentication on CentOS/ RedHat"
-msgstr "Configurer l'authentification Kerberos avec Debian ou CentOS / RedHat"
+msgstr "Configurer l'authentification Kerberos sur CentOS/RedHat"
 
 #: ../../source/waptserver-install/centos/install-centos-kerberos.rst:21
 #: ../../source/waptserver-install/centos/install-centos-kerberos.rst:60
 msgid "Kerberos, authentication, Debian, WAPT, documentation, RedHat, CentOS"
-msgstr "Kerberos, authentification, Debian, documentation, CentOS"
+msgstr "Kerberos, authentification, Debian, WAPT, documentation, RedHat, CentOS"
 
 #: ../../source/waptserver-install/security/security-install-kerberos.rst:14
 msgid "Configuring Kerberos authentication"
@@ -48,9 +49,9 @@ msgid ""
 "machine with the WAPT Server <initial_machine_registration>` and "
 ":ref:`signing inventory updates <signing_inventory_updates>`;"
 msgstr ""
-"pour plus d'information rendez-vous sur :ref:`Enregistrer une machine "
-"avec le serveur WAPT <initial_machine_registration>` et sur :ref:`Signer "
-"les remontées d'inventaire <signing_inventory_updates>` ;"
+"pour plus d'informations, rendez-vous sur :ref:`Enregistrer une machine avec "
+"le serveur WAPT <initial_machine_registration>` et sur :ref:`Signer les "
+"remontées d'inventaire <signing_inventory_updates>` ;"
 
 #: ../../source/waptserver-install/security/security-install-kerberos.rst:28
 msgid "the kerberos authentication will be used only when registering the device;"
@@ -134,71 +135,80 @@ msgid ""
 "$(hostname)` and it must return the name that will be used by WAPT agent "
 "running on client workstations."
 msgstr ""
-"Pour vérfier votre *hostname*, la ligne de commande :file:`echo "
-"$(hostname)` doit renvoyer l'adresse DNS qu'utiliseront les agents WAPT."
+"Pour vérifier votre *hostname*, la ligne de commande :file:`echo $(hostname)`"
+" doit renvoyer le nom DNS qu'utiliseront les agents WAPT."
 
 #: ../../source/waptserver-install/security/security-install-kerberos.rst:98
 msgid "My wapt server does not have access to a writeable active directory"
 msgstr ""
+"Mon serveur WAPT n'a pas accès à un Active Directory en mode lecture / "
+"écriture"
 
 #: ../../source/waptserver-install/security/security-install-kerberos.rst:100
 msgid "Connect to your active directory (Not a RODC)"
-msgstr ""
+msgstr "Se connecter à votre Active Directory (pas un RODC)"
 
 #: ../../source/waptserver-install/security/security-install-kerberos.rst:102
 msgid "Create a computer account \"srvwapt\" (with graphical interface)"
-msgstr ""
+msgstr "Créer un compte machine \"srvwapt\" (avec l'interface graphique)"
 
 #: ../../source/waptserver-install/security/security-install-kerberos.rst:104
 msgid "Add a spn on the \"srvwapt$\" account"
-msgstr ""
+msgstr "Ajouter un SPN au compte \"srvwapt$\""
 
 #: ../../source/waptserver-install/security/security-install-kerberos.rst:110
 msgid "Create a keytab for this wapt server :"
-msgstr ""
+msgstr "Créer un keytab pour ce serveur WAPT :"
 
 #: ../../source/waptserver-install/security/security-install-kerberos.rst:117
 msgid "Transfer this file to :file:`/etc/nginx/` (with winscp for example)"
 msgstr ""
+"Transférer ce fichier vers :file:`/etc/nginx/` (avec winscp par exemple)"
 
 #: ../../source/waptserver-install/security/security-install-kerberos.rst:122
-#, fuzzy
 msgid "Apply the right to the http-krb5.keytab file"
-msgstr "Enfin modifier le propriétaire du keytab et ses permissions."
+msgstr ""
+"Enfin modifier le propriétaire du fichier http-krb5.keytab et ses "
+"permissions."
 
 #: ../../source/waptserver-install/security/security-install-kerberos.rst:124
 msgid "For Debian :"
-msgstr ""
+msgstr "Pour Debian :"
 
 #: ../../source/waptserver-install/security/security-install-kerberos.rst:131
 msgid "For Centos :"
-msgstr ""
+msgstr "Pour Centos :"
 
 #: ../../source/waptserver-install/security/security-install-kerberos.rst:140
 msgid "Case of a use of a rodc"
-msgstr ""
+msgstr "Cas d'un RODC"
 
 #: ../../source/waptserver-install/security/security-install-kerberos.rst:142
 msgid ""
 "For **RODC** Add the srvwapt account to the allowed password group for "
 "replication"
 msgstr ""
+"Pour un RODC, ajouter le compte \"srvwapt\" au groupe \"Groupe de "
+"réplication dont le mot de passe RODC est autorisé\"."
 
 #: ../../source/waptserver-install/security/security-install-kerberos.rst:144
 msgid ""
 "Remember to preload the password of the wapt server with the different "
 "rodc server."
 msgstr ""
+"Penser à initialiser le mot de passe du serveur WAPT sur le serveur RODC."
 
 #: ../../source/waptserver-install/security/security-install-kerberos.rst:152
 msgid "Test Keytab"
-msgstr ""
+msgstr "Tester keytab"
 
 #: ../../source/waptserver-install/security/security-install-kerberos.rst:154
 msgid ""
 "If a RW or RODC server is available from the wapt server, you can test "
 "your keytab with this command :"
 msgstr ""
+"Si un contrôleur de domaine est disponible depuis le serveur WAPT, vous "
+"pouvez tester votre keytab avec la commande suivante :"
 
 #: ../../source/waptserver-install/security/security-install-kerberos.rst:162
 msgid "Post-configuring"
@@ -350,4 +360,3 @@ msgstr ""
 
 #~ msgid "Kerberos, authentification, CentOS, WAPT, documentation"
 #~ msgstr "Kerberos, authentification, Debian, documentation"
-

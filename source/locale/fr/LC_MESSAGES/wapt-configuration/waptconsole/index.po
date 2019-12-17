@@ -142,7 +142,7 @@ msgstr ""
 "accepter la licence ;"
 
 #: ../../source/wapt-configuration/waptconsole/index.rst:80
-#, fuzzy
+
 msgid ""
 "choose the WAPT destination folder (:file:`C:\\\\Program Files "
 "(x86)\\\\wapt` by default);"
@@ -250,7 +250,7 @@ msgid "Starting the WAPT console"
 msgstr "Lancer la console WAPT"
 
 #: ../../source/wapt-configuration/waptconsole/index.rst:157
-#, fuzzy
+
 msgid ""
 "launch the WAPT console by looking for the binary :file:`C:\\\\Program "
 "Files (x86)\\\\wapt\\\\waptconsole.exe`"

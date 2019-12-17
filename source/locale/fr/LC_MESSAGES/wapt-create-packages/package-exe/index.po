@@ -28,7 +28,7 @@ msgid "Variation compared to MSI"
 msgstr "Variation par rapport aux MSI"
 
 #: ../../source/wapt-create-packages/package-exe/index.rst:19
-#, fuzzy
+
 msgid ""
 "WAPT prefers MSI installers because most :mimetype:`.exe` are not "
 "standardized and silent arguments can be different from one piece of "

@@ -75,7 +75,7 @@ msgid "wapt-get download"
 msgstr "wapt-get download"
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:42
-#, fuzzy
+
 msgid ""
 "The :code:`wapt-get download <package name>` command downloads the WAPT "
 "package to the local cache located at :file:`C:\\\\Program "
@@ -94,7 +94,7 @@ msgid "wapt-get download-upgrade"
 msgstr "wapt-get download-upgrade"
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:57
-#, fuzzy
+
 msgid ""
 "The:code:`wapt-get download-upgrade`command downloads packages to be "
 "upgraded to the local WAPT cache :file:`C:\\\\Program Files "
@@ -561,7 +561,7 @@ msgstr ""
 "échanges avec le serveur."
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:290
-#, fuzzy
+
 msgid ""
 "The downloaded certificate is stored in :file:`C:\\\\Program "
 "Files(x86)\\\\wapt\\ssl\\\\server`."

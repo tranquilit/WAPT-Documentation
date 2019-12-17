@@ -66,7 +66,7 @@ msgid "Multi-repository WAPT architecture"
 msgstr "Le multi-dépôts avec WAPT"
 
 #: ../../source/wapt-replication/wapt-work-with-repositories/index.rst:36
-#, fuzzy
+
 msgid ""
 "When using repositories with different signers, the additional signer's "
 "public certificates must be added to :file:`C:\\\\Program Files "

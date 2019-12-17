@@ -305,7 +305,7 @@ msgid "``remote_repo_support``"
 msgstr ""
 
 #: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:124
-#, fuzzy
+
 msgid "Enables remote repository sync server side (sync.json)"
 msgstr "ajouter la machine distante :"
 

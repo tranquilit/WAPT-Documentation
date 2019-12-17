@@ -185,7 +185,7 @@ msgid "https://forum.tranquil.it/viewforum.php?f=18&sid=b2a0081dd9a8adb5c5738697
 msgstr ""
 
 #: ../../source/wapt-usage/wapt-reporting.rst:120
-#, fuzzy
+
 msgid "Normalizing software names"
 msgstr "Normaliser les noms d'un logiciel"
 

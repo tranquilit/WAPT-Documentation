@@ -141,7 +141,7 @@ msgstr ""
 "*portable*. Pour cela, il faudra :"
 
 #: ../../source/wapt-create-packages/package-additional/index.rst:90
-#, fuzzy
+
 msgid "create the folder for the software in :file:`C:\\\\Program Files (x86)`;"
 msgstr "créer le répertoire d'installation dans :file:`C:\\Program Files (x86)` ;"
 
@@ -174,12 +174,12 @@ msgstr ""
 "faire un paquet applicatif ;"
 
 #: ../../source/wapt-create-packages/package-additional/index.rst:121
-#, fuzzy
+
 msgid "The file :file:`C:\\\\waptdev\\\\tis-adwcleaner-wapt` is created."
 msgstr "Le fichier :file:`C:\\waptdev\\tis-adwcleaner-wapt` est créé."
 
 #: ../../source/wapt-create-packages/package-additional/index.rst:123
-#, fuzzy
+
 msgid ""
 "download and copy/ paste :program:`adwcleaner.exe` binary in "
 ":file:`C:\\\\waptdev\\\\tis-adwcleaner-wapt` directory;"
@@ -188,7 +188,7 @@ msgstr ""
 "dans le répertoire :file:`C:\\waptdev\\tis-adwcleaner-wapt` ;"
 
 #: ../../source/wapt-create-packages/package-additional/index.rst:126
-#, fuzzy
+
 msgid ""
 "open and make desired changes to :file:`C:\\\\waptdev\\\\tis-adwcleaner-"
 "wapt\\\\setup.py` installation file;"

@@ -98,7 +98,7 @@ msgid "Backing up the WAPT Server on Windows"
 msgstr "Sauvegarder le serveur WAPT sur Windows"
 
 #: ../../source/waptserver-backup.rst:118
-#, fuzzy
+
 msgid ""
 "backup the WAPT repository folder "
 ":file:`C:\\\\wapt\\\\waptserver\\\\repository` and :file:`C:\\wapt` and "
@@ -117,7 +117,7 @@ msgid "Restoring the WAPT Server on Windows"
 msgstr "Restaurer le serveur WAPT sur Windows"
 
 #: ../../source/waptserver-backup.rst:134
-#, fuzzy
+
 msgid ""
 "restore the following directories "
 ":file:`C:\\\\wapt\\\\waptserver\\\\repository` and :file:`C:\\wapt` and "
@@ -127,7 +127,7 @@ msgstr ""
 ":file:`C:\\wapt` et enfin :file:`C:\\wapt\\waptserver\\nginx\\ssl`"
 
 #: ../../source/waptserver-backup.rst:136
-#, fuzzy
+
 msgid ""
 "Apply the total right to the folder "
 ":file:`C:\\\\wapt\\\\waptserver\\\\repository` for the \"Network "
@@ -138,7 +138,7 @@ msgstr ""
 "Service\""
 
 #: ../../source/waptserver-backup.rst:138
-#, fuzzy
+
 msgid "Restore PostgreSQL Database with pg_restore.exe :"
 msgstr "Restaurer la base de données PostgreSQL avec pg_restore.exe :"
 

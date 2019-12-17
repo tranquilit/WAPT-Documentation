@@ -34,7 +34,7 @@ msgid ""
 "system and user context."
 msgstr ""
 "WAPT est conçu pour aider les administrateurs de systèmes informatiques à gérer "
-"le cycle de vie de leur base installée d'applications Windows, de pilotes, de "
+"le cycle de vie de leur base d'applications Windows, de pilotes, de "
 "systèmes d'exploitation et de configurations en contexte système et en contexte "
 "utilisateur."
 

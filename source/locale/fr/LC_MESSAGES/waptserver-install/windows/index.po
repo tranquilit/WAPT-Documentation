@@ -147,7 +147,7 @@ msgid "Choose additional task"
 msgstr ""
 
 #: ../../source/waptserver-install/windows/index.rst:90
-#, fuzzy
+
 msgid "Choose password for waptserver"
 msgstr "Configuration du mot de passe SuperAdmin de WAPT"
 
@@ -209,7 +209,7 @@ msgid "The WAPT Server on your Windows is ready."
 msgstr "Le serveur WAPT sur Windows est prêt."
 
 #: ../../source/waptserver-install/windows/index.rst:156
-#, fuzzy
+
 msgid ""
 "You may go to the documentation on :ref:`installing the waptagent "
 "<install_waptagent>`!!"

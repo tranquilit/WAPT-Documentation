@@ -32,7 +32,7 @@ msgstr ""
 " mise à jour, rendez-vous sur : :ref:`upgrade-wapt`."
 
 #: ../../source/waptserver-install/debian/install-debian-wapt.rst:22
-#, fuzzy
+
 msgid "Installing the WAPT Server requires a few steps:"
 msgstr ""
 "L'installation de la partie serveur de WAPT se décompose en plusieurs "

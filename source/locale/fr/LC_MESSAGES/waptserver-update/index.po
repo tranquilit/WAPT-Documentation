@@ -4,14 +4,16 @@ msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-01 11:26+0100\n"
-"PO-Revision-Date: 2019-03-01 11:14+0100\n"
-"Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
+"PO-Revision-Date: 2019-12-07 14:15+0000\n"
+"Last-Translator: Bertrand LEMOIGNE <blemoigne@tranquil.it>\n"
+"Language-Team: French <https://srvweblate.tranquil.it/projects/"
+"wapt-documentation/waptserver-updateindex/fr/>\n"
 "Language: fr\n"
-"Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 3.9.1\n"
 "Generated-By: Babel 2.6.0\n"
 
 #: ../../source/waptserver-update/index.rst:8
@@ -42,19 +44,16 @@ msgid "The upgrade process follows the process for a minor update:"
 msgstr "La mise à jour s'effectue comme une mise à jour mineure."
 
 #: ../../source/waptserver-update/index.rst:28
-#, fuzzy
 msgid ":ref:`minor update for Debian <wapt_minor_upgrade_debian>`;"
 msgstr ":ref:`mise à jour mineure pour Debian <wapt_minor_upgrade_debian>`;"
 
 #: ../../source/waptserver-update/index.rst:30
-#, fuzzy
 msgid ":ref:`minor update for CentOS <wapt_minor_upgrade_centos>`;"
 msgstr ":ref:`mise à jour mineure pour CentOS <wapt_minor_upgrade_centos>`;"
 
 #: ../../source/waptserver-update/index.rst:32
-#, fuzzy
 msgid ":ref:`minor update for Windows <wapt_minor_upgrade_windows>`;"
-msgstr ":ref:`mise à jour mineure pour Windows <wapt_minor_upgrade_windows>`;"
+msgstr ":ref :`mise à jour mineure pour Windows <wapt_minor_upgrade_windows>` ;"
 
 #: ../../source/waptserver-update/index.rst:36
 msgid ""
@@ -205,4 +204,3 @@ msgstr ""
 #~ "Update. Lors de la mise à jour "
 #~ "en Debian Stretch, la base PostgreSQL"
 #~ " devra être mise à jour en 9.6."
-

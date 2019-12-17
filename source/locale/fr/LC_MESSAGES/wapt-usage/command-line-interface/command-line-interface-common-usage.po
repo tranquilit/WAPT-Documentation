@@ -313,7 +313,7 @@ msgid "wapt-get clean"
 msgstr "wapt-get clean"
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:183
-#, fuzzy
+
 msgid ""
 "The :command:`clean` command removes packages from the "
 ":file:`C:\\\\Program Files (x86)\\\\wapt\\\\cache` folder."

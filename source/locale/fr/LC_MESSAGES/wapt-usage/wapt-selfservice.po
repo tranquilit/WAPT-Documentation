@@ -32,7 +32,7 @@ msgid "Presentation"
 msgstr "Présentation"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:20
-#, fuzzy
+
 msgid ""
 "With WAPT 1.7 **Enterprise** you can now filter the list of self-service "
 "packages available for your users."
@@ -65,7 +65,7 @@ msgid "How it works?"
 msgstr "Comment ça fonctionne ?"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:33
-#, fuzzy
+
 msgid ""
 "With WAPT 1.7 **Enterprise**, a new type of WAPT package exists beside "
 "*base*, *group*, *host* and *unit* packages: they are **selfservice** "
@@ -160,7 +160,7 @@ msgstr ""
 "affichés pour l':term:`Utilisateur` actuellement connecté ;"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:80
-#, fuzzy
+
 msgid ""
 "If a group appears in multiple *selfservice* packages, then the rules are"
 " merged."
@@ -169,12 +169,12 @@ msgstr ""
 "règles seront fusionnées."
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:84
-#, fuzzy
+
 msgid "How to use the self-service on the user station?"
 msgstr "Comment utiliser la focntionnalité de *self-service* ?"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:86
-#, fuzzy
+
 msgid ""
 "The self-service is accessible to users in the start menu under the name "
 ":guilabel:`Self-Service software WAPT`."
@@ -183,12 +183,12 @@ msgstr ""
 "sous le nom \"Self service logiciels WAPT\"."
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:89
-#, fuzzy
+
 msgid "It is also available directly in :file:`<base>\\\\waptself.exe`."
 msgstr "Il est aussi disponible directement à :file:`<base>\\waptself.exe`"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:91
-#, fuzzy
+
 msgid ""
 "The login and password to enter when launching the self-service are the "
 "User's credentials (local or Active Directory credentials)."
@@ -205,7 +205,7 @@ msgstr ""
 "l'installation."
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:100
-#, fuzzy
+
 msgid ""
 "the user can have more details on each package with the :guilabel:`+` "
 "icon;"
@@ -214,14 +214,14 @@ msgstr ""
 "sur le \"+\"."
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:102
-#, fuzzy
+
 msgid "different filters are available for the user on the left side panel;"
 msgstr ""
 "Différents filtres sont disponibles pour l'utilisateur sur le panneau de "
 "gauche."
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:104
-#, fuzzy
+
 msgid ""
 "the :guilabel:`Update Catalog` button is used to force a :command:`wapt-"
 "get update` on the WAPT agent;"
@@ -230,7 +230,7 @@ msgstr ""
 "\"wapt-get update\" sur l'agent WAPT."
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:107
-#, fuzzy
+
 msgid ""
 "the list of package categories is displayed to the user. To add a "
 "category to the list, you must specify the category in the *categories* "
@@ -242,7 +242,7 @@ msgstr ""
 "Précisément dans le champ \"categories\"."
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:112
-#, fuzzy
+
 msgid ""
 "the current task list of the WAPT agent is available with the "
 ":guilabel:`task bar` button;"
@@ -251,7 +251,7 @@ msgstr ""
 "cliquant sur le bouton \"task bar\"."
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:115
-#, fuzzy
+
 msgid ""
 "it is possible to change the language of the interface with the "
 ":guilabel:`configuration` button at the bottom left."
@@ -270,7 +270,7 @@ msgstr ""
 "**Enterprise**."
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:125
-#, fuzzy
+
 msgid ""
 "It is possible to change the logo that appears in the self-service "
 "interface This will allow you to display the logo of your Organization "
@@ -281,7 +281,7 @@ msgstr ""
 " par exemple."
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:128
-#, fuzzy
+
 msgid ""
 "To do this, simply place the logo you want in :file:`<wapt>\\\\templates"
 "\\\\waptself-logo.png`"
@@ -290,7 +290,7 @@ msgstr ""
 "emplacement :  :file:`<wapt>\\templates\\waptself-logo.png`"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:133
-#, fuzzy
+
 msgid ""
 "It is highly recommended to use a :mimetype:`.png` file with a *200 x "
 "150px* resolution."
