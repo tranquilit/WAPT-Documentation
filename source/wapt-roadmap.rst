@@ -148,12 +148,6 @@ WAPT 1.7
 * software and configuration management using AD Organizational Units
   (*unit* packages) (**Enterprise**);
 
-WAPT 1.8
---------
-
-* python based plugins inside the WAPT console;
-
-* integration of TISHelp for remote user handling (**Enterprise**);
 
 Later
 -----
