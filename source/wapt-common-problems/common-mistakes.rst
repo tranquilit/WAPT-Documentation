@@ -45,3 +45,23 @@ WAPT packages for several reasons:
   Even though WAPT *can work* independently of the transport mode,
   **Tranquil IT will not officially support using a network drive to store
   and deliver WAPT packages**.
+
+Using the register() function in your audit scripts
+---------------------------------------------------
+
+The register() function forces the sending to the WAPT server
+of the WAPT agent's hardware and software inventory.
+
+This function is very taxing on the server's performance because it forces
+the server to parse a relatively large :abbr:`JSON (Java Script Object Notation)`
+:abbr:`BLOB (Binary Large OBject)` and to inject the result into the PostgreSQL
+database.
+
+The function is by default triggered manually or when a new package upgrade
+is applied.
+
+When you use the register() function in an audit script, it will run every time
+the audit script is triggered and load the server with no apparent benefit.
+
+Therefore, **we do not recommend the use of the register() function
+in audit scripts**.

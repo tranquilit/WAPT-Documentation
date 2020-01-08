@@ -60,9 +60,9 @@ Generating or renewing a private key
 The procedure is:
 
 * generate a new private key/ public certificate. You will then keep
-  the private key (file :file:`. pem`) in a safe location;
+  the private key (file :mimetype:`.pem`) in a safe location;
 
-* deploy the new certificate :file:`.crt` on your clients in the folder
+* deploy the new certificate :mimetype:`.crt` on your clients in the folder
   :file:`C:\\Program Files (x86)\\ssl` manually or using
   a :abbr:`GPO (Group Policy Object)`;
 
@@ -87,7 +87,7 @@ My private key has been stolen
 
   **WAPT security relies on protecting your private keys.**
 
-WAPT does not handle key revocation yet using a (:abbr:`CRL (Certificate
+WAPT does not handle key revocation yet using a :abbr:`CRL (Certificate
 Revocation List)`.
 
 The solution consists in deleting every :mimetype:`.crt` certificate associated
@@ -103,7 +103,7 @@ My BIOS UUID bugs
   of the machine as the host identifier;
 
 * the :term:`UUID` is supposed to be unique.
-  Unfortunately, for some :abbr:`OEM (Original Equipment Manufacturers)`
+  Unfortunately, for some :abbr:`OEMs (Original Equipment Manufacturers)`
   and some manufacturing batches, BIOS :term:`UUID` are identical;
 
 * the machine will register in the WAPT console but it will replace
@@ -136,7 +136,7 @@ Adding the waptagent.exe url
 Add ``waptsetupurl`` argument in WAPTdeploy GPO arguments
 of :program:`waptdeploy`.
 
-.. code-block:: bash
+.. code-block:: ini
 
    --waptsetupurl=https://monserverserveurwapt/waptagent.exe
 
@@ -663,8 +663,8 @@ Solution
   refer to the :ref:`section of this documentation on installing a package
   <common_problems_installing_a_package>`.
 
-Solution: with `install_msi_if_needed`
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Solution: with ``install_msi_if_needed``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The informations being extracted from the MSI installer, this means that
 the MSI file does not return correct values
