@@ -19,126 +19,152 @@ msgstr ""
 
 #: ../../source/wapt-security/enable-check-certificate.rst:8
 msgid "Securing the communications between the agent and the WAPT Server"
-msgstr ""
+msgstr "Sécruriser la communication entre l'agent et le serveur WAPT"
 
 #: ../../source/wapt-security/enable-check-certificate.rst:8
 msgid ""
 "pinning, certificate pinning, bundle, wapt-get.ini, Certificate "
 "Authority, enable-check-certificate, WAPT, documentation"
-msgstr ""
+msgstr "épingler, épinglage de certificat, paquet, wapt-get.ini, Certificat "
+"d'Authorité, enable-check-certificate, WAPT, documentation"
 
 #: ../../source/wapt-security/enable-check-certificate.rst:18
 msgid "Activating the verification of the SSL / TLS certificate"
-msgstr ""
+msgstr "Activer la vérification du certificat SSL / TLS"
 
 #: ../../source/wapt-security/enable-check-certificate.rst:20
 msgid ""
 "When running the WAPT Server post-configuration script, the script will "
 "generate a self-signed certificate in order to enable HTTPS "
 "communications."
-msgstr ""
+msgstr "Lorsque le script post-configuration est lancé sur le serveur WAPT, le script va "
+"générer un certificat auto-signé afin d'activer les communications "
+"HTTPS."
 
 #: ../../source/wapt-security/enable-check-certificate.rst:23
 msgid ""
 "The WAPT agent checks the HTTPS server certificate according to the "
 "``verify_cert`` value in section ``[global]`` in :file:`C:\\\\Program "
 "Files (x86)\\\\wapt\\\\wapt-get.ini`."
-msgstr ""
+msgstr "L'agent WAPT vérifie que le certificat du serveur renseigné dans l'option "
+"``verify_cert`` de la section ``[global]`` dans le fichier :file:`C:\\\\Program "
+"Files (x86)\\\\wapt\\\\wapt-get.ini` corresponde."
 
 #: ../../source/wapt-security/enable-check-certificate.rst:45
 msgid ""
 "To quickly and easily enable verification of the https certificate, you "
 "can use the *Pinning* method."
-msgstr ""
+msgstr "Pour activer rapidement et simplement la vérification du certificat htts, vous "
+"pouvez utiliser la méthode d'*Épinglage*"
 
 #: ../../source/wapt-security/enable-check-certificate.rst:49
 msgid "Pinning the certificate"
-msgstr ""
+msgstr "Épingler le certificat"
 
 #: ../../source/wapt-security/enable-check-certificate.rst:51
 msgid ""
 "The *pinning of certificate* consists of verifying the SSL/ TLS "
 "certificate with a well defined and restricted bundle."
-msgstr ""
+msgstr "L'*épinglage de certificat* consiste à vérifier le certificat "
+"SSL/ TLS à l'aide de la définition d'un paquet bien défini et restrictif."
 
 #: ../../source/wapt-security/enable-check-certificate.rst:56
 msgid "This method is the easiest when using a self-signed certificate."
-msgstr ""
+msgstr "Cette méthode est la plus simple concernant les certificats auto-signés."
 
 #: ../../source/wapt-security/enable-check-certificate.rst:58
 msgid ""
 "For this, you need to launch the following commands in the Windows "
 ":program:`cmd.exe` shell (with elevated privileges if :abbr:`UAC (User "
 "Account Control)` is active)."
-msgstr ""
+msgstr "Pour cela, vous aurez besoin de lancer la commande suivante dans "
+"la console Windows :program:`cmd.exe` (avec élévation de privilèges si les :abbr:`UAC (User "
+"Account Control)` sont activées)."
 
 #: ../../source/wapt-security/enable-check-certificate.rst:62
 msgid ""
 "If you already have a Windows :program:`cmd.exe` shell open, close it and"
 " open a new shell so to take into account the updated environment "
 "variables:"
-msgstr ""
+msgstr "Si vous avez déjà une console Windows :program:`cmd.exe` d'ouverte, fermez-là et"
+" ouvrez-en une nouvelle afin de prendre en compte la mise à jour des variables "
+"d'environnement:"
 
 #: ../../source/wapt-security/enable-check-certificate.rst:72
 msgid "Validate the certificate with :command:`wapt-get update`"
-msgstr ""
+msgstr "Validez le certificat avec :command:`wapt-get update`"
 
 #: ../../source/wapt-security/enable-check-certificate.rst:74
 msgid ""
 "When you have executed the :command:`update` command, make sure that "
 "everything has gone well, and if in doubt check "
 ":ref:`error_run_check_cert`."
-msgstr ""
+msgstr "Lorsque vous avez exécuté la commande :command:`update`, assurez-vous que "
+"tout ce soit bien déroulé et en cas de doute, vérifiez "
+":ref:`error_run_check_cert`."
+
 
 #: ../../source/wapt-security/enable-check-certificate.rst:79
 msgid ""
 "the command *enable-check-certificate* downloads the certificate "
 ":file:`srvwapt.mydomain.lan.crt` in the folder :file:`C:\\\\Program Files"
 " (x86)\\\\WAPT\\\\ssl\\\\server`;"
-msgstr ""
+msgstr "La commande *enable-check-certificate* va télécharger le certificat "
+":file:`srvwapt.mydomain.lan.crt` dans le dossier :file:`C:\\\\Program Files"
+" (x86)\\\\WAPT\\\\ssl\\\\server`;"
 
 #: ../../source/wapt-security/enable-check-certificate.rst:83
 msgid ""
 "it then modifies the file :file:`wapt-get.ini` to specify the value "
 "``verify_cert`` = :file:`C:\\\\Program Files "
 "(x86)\\\\wapt\\\\ssl\\\\server\\\\srvwapt.mydomain.lan.crt`;"
-msgstr ""
+msgstr "cela va alors moidifier le fichier :file:`wapt-get.ini` avec de spécifiée la valeur "
+"``verify_cert`` = :file:`C:\\\\Program Files "
+"(x86)\\\\wapt\\\\ssl\\\\server\\\\srvwapt.mydomain.lan.crt`;"
+
 
 #: ../../source/wapt-security/enable-check-certificate.rst:87
 msgid "the WAPT agent will now verify certificates using the pinned certificate;"
-msgstr ""
+msgstr "l'agent WAPT va désormais vérifier les certificats en utilisant le certificat épinglé;"
 
 #: ../../source/wapt-security/enable-check-certificate.rst:91
 msgid ""
 "If you use the *certificate pinning* method, be reminded to archive the "
 ":file:`/opt/wapt/waptserver/ssl` folder on your WAPT Server."
-msgstr ""
+msgstr "Si vous utilisez la méthode d'*épinglage de certificat*, n'oubliez pas de sauvegarder le "
+"dossier :file:`/opt/wapt/waptserver/ssl` sur votre serveur WAPT."
 
 #: ../../source/wapt-security/enable-check-certificate.rst:94
 msgid ""
 "The file will have to be restored on your server if you migrate or "
 "upgrade your WAPT Server, if you want the WAPT agents to continue to be "
 "able to establish trusted HTTPS connections."
-msgstr ""
+msgstr "Le fichier devra être restauré sur votre serveur si vous migrez ou "
+"mettez à jour votre seveur WAPT, si vous voulez que les agents WAPT continuent "
+"d'avoir une connexion HTTPS sécurisée."
 
 #: ../../source/wapt-security/enable-check-certificate.rst:99
 msgid ""
 "How to use a commercial certificate or certificates provided by your "
 "organization?"
-msgstr ""
+msgstr "Comment utiliser le ou les certificat(s) founi(s) par votre "
+"organisation ?"
 
 #: ../../source/wapt-security/enable-check-certificate.rst:101
 msgid ""
 "If the pinning method does not suit you, you can replace the self-signed "
 "certificate generated during the installation of :program:`WAPT`."
-msgstr ""
+msgstr "Si la méthode d'épinglage ne vous convient pas, vous pouvez remplacer le certificat "
+"auto-signé généré pendant l'installation de :program:`WAPT`."
 
 #: ../../source/wapt-security/enable-check-certificate.rst:105
 msgid ""
 "Replace the old certificate with the new one in the folder "
 ":file:`/opt/wapt/waptserver/ssl/` (linux) or "
 ":file:`c:\\\\wapt\\\\waptserver\\\\ssl\\\\` (windows)."
-msgstr ""
+msgstr "Remplacez l'ancien certificat avec le nouveau dans le dossier "
+":file:`/opt/wapt/waptserver/ssl/` (linux) ou "
+":file:`c:\\\\wapt\\\\waptserver\\\\ssl\\\\` (windows)."
 
 #: ../../source/wapt-security/enable-check-certificate.rst:109
 msgid "The new key pair must be in PEM encoded Base64 format"
@@ -260,4 +286,3 @@ msgstr ""
 #~ "certificate bundle :file:`C:\\\\Program Files "
 #~ "(x86)\\\\wapt\\\\ssl\\\\srvwapt.mydomain.lan.crt`"
 #~ msgstr ""
-
