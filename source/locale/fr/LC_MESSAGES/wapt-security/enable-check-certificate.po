@@ -168,7 +168,7 @@ msgstr "Remplacez l'ancien certificat avec le nouveau dans le dossier "
 
 #: ../../source/wapt-security/enable-check-certificate.rst:109
 msgid "The new key pair must be in PEM encoded Base64 format"
-msgstr ""
+msgstr "La nouvelle paire de clé doit être une PEM encodée en Base64 "
 
 #: ../../source/wapt-security/enable-check-certificate.rst:113
 msgid ""
