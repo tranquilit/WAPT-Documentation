@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 14:09+0100\n"
+"POT-Creation-Date: 2020-01-13 17:15+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,19 +20,21 @@ msgstr ""
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:8
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:15
 msgid "Configuring authentication against Active Directory"
-msgstr ""
+msgstr "Configurer l'authentification par Active Directory"
 
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:8
 msgid "Active Directory, WAPT, authentification, Kerberos, documentation"
-msgstr ""
+msgstr "Active Directory, WAPT, authentification, Kerberos, documentation"
 
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:17
 msgid "Enterprise"
-msgstr ""
+msgstr "Enterprise"
 
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:21
 msgid "Feature only available with WAPT **Enterprise**."
 msgstr ""
+"Fonctionnalité uniquement disponlible dans le version **Enterprise** de "
+"WAPT"
 
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:23
 msgid ""
@@ -40,6 +42,9 @@ msgid ""
 ":term:`SuperAdmin` account whose password is setup during initial post-"
 "configuration."
 msgstr ""
+"Par défaut, le serveur WAPT est configuré avec un seul compte "
+":term:`SuperAdmin` dont le mot de passe est configuré lors du premier "
+"post-configuration."
 
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:26
 msgid ""
@@ -47,6 +52,9 @@ msgid ""
 "should not be used since it cannot provide the necessary traceability for"
 " administrative actions that are done on the network."
 msgstr ""
+"Sur un vaste réseau sécurisé, ce compte :term:`SuperAdmin` ne devrait pas"
+" être utilisé puisqu'il ne peut fournir une traçabilité nécessairesur les"
+" actions d'administration menées sur le réseau."
 
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:30
 msgid ""
@@ -55,12 +63,18 @@ msgid ""
 "and the :term:`Package Deployers`; this will allow to use named accounts "
 "for administrative tasks."
 msgstr ""
+"Il est donc nécessaire de configurer l'authentification par l'Active "
+"Directory de l':term:`Organisation` pour les :term:`Administrateurs` et "
+"les :term:`Déployeurs de paquets`; cela permettra d'utiliser des comptes "
+"nominatifs pour les tâches d'administration."
 
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:37
 msgid ""
 "Active Directory authentication is used to authenticate access to the "
 "inventory via the WAPT Console;"
 msgstr ""
+"L'authentication par Active Directory est utilisé pour accéder à "
+"l'inventaire via la console WAPT;"
 
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:40
 msgid ""
@@ -69,6 +83,11 @@ msgid ""
 "Directory login **AND** a private key whose certificate is recognized by "
 "the remote devices to manage his installed base of devices using WAPT;"
 msgstr ""
+"cependant, toutes les actions menées sur les appareils équipés de WAPT "
+"sont basées sur les signatures X.509, un :term:`Administrateur` aura donc"
+" besoin d'un compte dans l'Active Directory **ET** d'une clé privée dont "
+"le certificat est reconnu par l'appareil avec WAPT qui va piloter le "
+"parc;"
 
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:46
 msgid ""
@@ -77,101 +96,118 @@ msgid ""
 "packages on the main repository (authentication mode by login and "
 "password);"
 msgstr ""
+"seul le compte :term:`SuperAdmin` et les membres du groupe **waptadmins**"
+" dans l'Active Directory pourra téléverser des paquets dans le répertoire"
+" principal ( le mode d'authentification se fait par login et mot de "
+"passe);"
 
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:51
 msgid "Enabling Active Directory authentication"
-msgstr ""
+msgstr "Activer l'authentification par Active Directory"
 
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:53
 msgid ""
 "to enable authentication of the WAPT server on Active Directory, "
 "configure the file :file:`/opt/wapt/conf/waptserver.ini` as follows:"
 msgstr ""
+"pour activer l'authentification par Active Directory sur le serveur WAPT,"
+" configurez les fichier :file:`/opt/wapt/conf/waptserver.ini` comme ceci:"
 
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:64
 msgid "Settings"
-msgstr ""
+msgstr "Réglages"
 
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:64
 msgid "Value"
-msgstr ""
+msgstr "Valeur"
 
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:64
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:66
 msgid "wapt_admin_group_dn"
-msgstr ""
+msgstr "wapt_admin_group_dn"
 
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:66
 msgid "CN=waptadmins,OU=groups,"
-msgstr ""
+msgstr "CN=waptadmins,OU=groups,"
 
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:66
 msgid ""
 "DN to the group name. All members of this group will be able to connect "
 "to WAPT"
 msgstr ""
+"DN du nom du groupe. Tous les membres de ce groupe pourra se connecter à "
+"WAPT"
 
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:69
 msgid "ldap_auth_server"
-msgstr ""
+msgstr "ldap_auth_server"
 
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:69
 msgid "srvads.mydomain.lan"
-msgstr ""
+msgstr "srvads.mydomain.lan"
 
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:69
 msgid "LDAP server that will be used by WAPT"
-msgstr ""
+msgstr "Le serveur LDAP qui sera utilisé par WAPT"
 
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:70
 msgid "ldap_auth_base_dn"
-msgstr ""
+msgstr "ldap_auth_base_dn"
 
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:70
 msgid "DC=mydomain,DC=lan"
-msgstr ""
+msgstr "DC=mydomain,DC=lan"
 
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:70
 msgid "DN for the search"
-msgstr ""
+msgstr "DN pour la recherche"
 
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:71
 msgid "ldap_auth_ssl_enable"
-msgstr ""
+msgstr "ldap_auth_ssl_enable"
 
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:71
 msgid "False"
-msgstr ""
+msgstr "False"
 
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:71
 msgid "/"
-msgstr ""
+msgstr "/"
 
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:74
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:110
 msgid "restart :program:`waptserver` with :code:`systemctl restart waptserver`;"
 msgstr ""
+"redémarrez :program:`waptserver` avec :code:`systemctl restart "
+"waptserver`;"
 
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:77
 msgid ""
 "Enabling SSL/ TLS support for the LDAP connection to the Active Directory"
 " Domain Controller"
 msgstr ""
+"Activez le support SSL/ TLS pour les connexions LDAP dans le Contrôleur "
+"de Domaine Active Directory"
 
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:79
 msgid ""
 "By default, authentication on Active Directory relies on LDAP SSL "
 "(default port 646)."
 msgstr ""
+"Par défaut, l'authentification d'un Active Directory se repose sur du "
+"LDAP SSL (port par défaut 646)."
 
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:82
 msgid ""
 "SSL/ TLS is not enabled by default on Microsoft Active Directory until a "
 "SSL certificate has been configured for the Domain Controller."
 msgstr ""
+"SSL /TLS n'est pas activé par défaut sur un Microsoft Active Directory "
+"jusqu'à ce qu'un certificat SSL soit configuré sur le Contrôleur de "
+"Domaine."
 
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:87
 msgid ""
@@ -179,6 +215,9 @@ msgid ""
 "operating system (CentOS) for validating the SSL/ TLS connection to "
 "Active Directory."
 msgstr ""
+"Le serveur WAPT utilise des *paquets* de Certificat d'Authorité du "
+"système d'exploitation (CentOS) pour valider la connexion SSL /TLS vers "
+"l'Active Directory."
 
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:90
 msgid ""
@@ -186,12 +225,18 @@ msgid ""
 "an internal CA, you'll need to add these certificates to the certificate "
 "store of CentOS."
 msgstr ""
+"Si le certificat Active Directory est auto-signé ou a été signé par un CA"
+" interne, vous aurez besoin d'ajouter ces certificats au magasin de "
+"certificat de CentOS."
 
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:94
+#, fuzzy
 msgid ""
 "Add a :term:`Certificate Authority` in the :file:`/etc/pki/ca-"
 "trust/source/anchors/` and update the CA store."
 msgstr ""
+"Ajouter un :term:`Certificat d'Authorité` dans le dossier :file:`/etc/pki"
+"/ca-trust/source/anchors/` et mettez à jour le magasin des CA."
 
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:102
 msgid ""
@@ -199,4 +244,7 @@ msgid ""
 "to Microsoft documentation for that), then you can enable support for "
 "SSL/ TLS security for AD in :file:`/opt/wapt/conf/waptserver.ini`:"
 msgstr ""
-
+"une fois que le LDAP SSL/ TLS sur votre Active Directory est configuré "
+"(veuillez vous référer à la documentation Microsoft), vous pouvez activer"
+" le support pour la sécurité SSL /TLS pour AD dans "
+":file:`/opt/wapt/conf/waptserver.ini`:"
