@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 14:09+0100\n"
+"POT-Creation-Date: 2020-01-13 11:34+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,47 +43,6 @@ msgid ""
 "The WAPT agent checks the HTTPS server certificate according to the "
 "``verify_cert`` value in section ``[global]`` in :file:`C:\\\\Program "
 "Files (x86)\\\\wapt\\\\wapt-get.ini`."
-msgstr ""
-
-#: ../../source/wapt-security/enable-check-certificate.rst:27
-#: ../../source/wapt-security/enable-check-certificate.rst:32
-msgid "Options for ``verify_cert``"
-msgstr ""
-
-#: ../../source/wapt-security/enable-check-certificate.rst:32
-msgid "Working principle of the WAPT agent"
-msgstr ""
-
-#: ../../source/wapt-security/enable-check-certificate.rst:34
-msgid "``verify_cert`` = 0"
-msgstr ""
-
-#: ../../source/wapt-security/enable-check-certificate.rst:34
-msgid "the WAPT agent will not check the WAPT Server HTTPS certificate"
-msgstr ""
-
-#: ../../source/wapt-security/enable-check-certificate.rst:36
-msgid "``verify_cert`` = 1"
-msgstr ""
-
-#: ../../source/wapt-security/enable-check-certificate.rst:36
-msgid ""
-"the WAPT agent will check the WAPT Server HTTPS certificate using the "
-"certificate bundle :file:`C:\\\\Program Files (x86)\\\\wapt\\\\lib"
-"\\\\site-packages\\\\certifi\\\\cacert.pem`"
-msgstr ""
-
-#: ../../source/wapt-security/enable-check-certificate.rst:38
-msgid ""
-"``verify_cert`` = C:\\\\Program Files "
-"(x86)\\\\wapt\\\\ssl\\\\srvwapt.mydomain.lan.crt"
-msgstr ""
-
-#: ../../source/wapt-security/enable-check-certificate.rst:38
-msgid ""
-"the WAPT agent will check the WAPT Server HTTPS certificate with the "
-"certificate bundle :file:`C:\\\\Program Files "
-"(x86)\\\\wapt\\\\ssl\\\\srvwapt.mydomain.lan.crt`"
 msgstr ""
 
 #: ../../source/wapt-security/enable-check-certificate.rst:45
@@ -267,4 +226,38 @@ msgid ""
 "This properly sets the ``verify_cert`` attribute for the HTTPS "
 "communication between the WAPT console and the WAPT Server."
 msgstr ""
+
+#~ msgid "Options for ``verify_cert``"
+#~ msgstr ""
+
+#~ msgid "Working principle of the WAPT agent"
+#~ msgstr ""
+
+#~ msgid "``verify_cert`` = 0"
+#~ msgstr ""
+
+#~ msgid "the WAPT agent will not check the WAPT Server HTTPS certificate"
+#~ msgstr ""
+
+#~ msgid "``verify_cert`` = 1"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "the WAPT agent will check the WAPT"
+#~ " Server HTTPS certificate using the "
+#~ "certificate bundle :file:`C:\\\\Program Files "
+#~ "(x86)\\\\wapt\\\\lib\\\\site-packages\\\\certifi\\\\cacert.pem`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``verify_cert`` = C:\\\\Program Files "
+#~ "(x86)\\\\wapt\\\\ssl\\\\srvwapt.mydomain.lan.crt"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "the WAPT agent will check the WAPT"
+#~ " Server HTTPS certificate with the "
+#~ "certificate bundle :file:`C:\\\\Program Files "
+#~ "(x86)\\\\wapt\\\\ssl\\\\srvwapt.mydomain.lan.crt`"
+#~ msgstr ""
 

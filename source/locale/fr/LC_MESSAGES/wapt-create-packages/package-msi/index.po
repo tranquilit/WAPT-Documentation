@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 14:09+0100\n"
+"POT-Creation-Date: 2020-01-13 11:34+0100\n"
 "PO-Revision-Date: 2019-02-27 11:40+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -15,17 +15,13 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 
 #: ../../source/wapt-create-packages/package-msi/index.rst:8
-
-msgid "Packaging simple *.msi packages"
+#: ../../source/wapt-create-packages/package-msi/index.rst:15
+msgid "Packaging simple \\*.msi packages"
 msgstr "Packager des paquets \\*.msi simples"
 
 #: ../../source/wapt-create-packages/package-msi/index.rst:8
 msgid "msi, WAPT, simple, documentation"
 msgstr "msi, WAPT, simples, documentation"
-
-#: ../../source/wapt-create-packages/package-msi/index.rst:15
-msgid "Packaging simple \\*.msi packages"
-msgstr "Packager des paquets \\*.msi simples"
 
 #: ../../source/wapt-create-packages/package-msi/index.rst:17
 msgid "Prerequisites"
@@ -140,7 +136,6 @@ msgid "Using the automatic template has the following effects:"
 msgstr "La procédure de création automatique de ce modèle de paquet :"
 
 #: ../../source/wapt-create-packages/package-msi/index.rst:96
-
 msgid "it creates a WAPT package folder in :file:`C:\\\\waptdev`;"
 msgstr "il crée le dossier du paquet dans :file:`C:\\waptdev` ;"
 
@@ -343,7 +338,6 @@ msgstr ""
 "contenus dans le paquet ;"
 
 #: ../../source/wapt-create-packages/package-msi/index.rst:203
-
 msgid ""
 "it compresses the folder :file:`C:\\\\waptdev\\tis-tightvnc-wapt` with a "
 "canonical name;"

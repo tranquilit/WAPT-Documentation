@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 14:09+0100\n"
+"POT-Creation-Date: 2020-01-13 11:34+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -98,13 +98,13 @@ msgstr ""
 #: ../../source/wapt-common-problems/common-problems.rst:62
 msgid ""
 "generate a new private key/ public certificate. You will then keep the "
-"private key (file :file:`. pem`) in a safe location;"
+"private key (file :mimetype:`.pem`) in a safe location;"
 msgstr ""
 
 #: ../../source/wapt-common-problems/common-problems.rst:65
 msgid ""
-"deploy the new certificate :file:`.crt` on your clients in the folder "
-":file:`C:\\\\Program Files (x86)\\\\ssl` manually or using a :abbr:`GPO "
+"deploy the new certificate :mimetype:`.crt` on your clients in the folder"
+" :file:`C:\\\\Program Files (x86)\\\\ssl` manually or using a :abbr:`GPO "
 "(Group Policy Object)`;"
 msgstr ""
 
@@ -135,7 +135,7 @@ msgstr ""
 
 #: ../../source/wapt-common-problems/common-problems.rst:90
 msgid ""
-"WAPT does not handle key revocation yet using a (:abbr:`CRL (Certificate "
+"WAPT does not handle key revocation yet using a :abbr:`CRL (Certificate "
 "Revocation List)`."
 msgstr ""
 
@@ -163,7 +163,7 @@ msgstr ""
 #: ../../source/wapt-common-problems/common-problems.rst:105
 msgid ""
 "the :term:`UUID` is supposed to be unique. Unfortunately, for some "
-":abbr:`OEM (Original Equipment Manufacturers)` and some manufacturing "
+":abbr:`OEMs (Original Equipment Manufacturers)` and some manufacturing "
 "batches, BIOS :term:`UUID` are identical;"
 msgstr ""
 
@@ -915,7 +915,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/wapt-common-problems/common-problems.rst:667
-msgid "Solution: with `install_msi_if_needed`"
+msgid "Solution: with ``install_msi_if_needed``"
 msgstr ""
 
 #: ../../source/wapt-common-problems/common-problems.rst:669
@@ -1007,4 +1007,36 @@ msgid ""
 "Below is a list of useful exceptions to declare in your central AV "
 "interface to solve false positives related to WAPT:"
 msgstr ""
+
+#~ msgid ""
+#~ "generate a new private key/ public "
+#~ "certificate. You will then keep the "
+#~ "private key (file :file:`. pem`) in "
+#~ "a safe location;"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "deploy the new certificate :file:`.crt` "
+#~ "on your clients in the folder "
+#~ ":file:`C:\\\\Program Files (x86)\\\\ssl` manually"
+#~ " or using a :abbr:`GPO (Group Policy"
+#~ " Object)`;"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "WAPT does not handle key revocation "
+#~ "yet using a (:abbr:`CRL (Certificate "
+#~ "Revocation List)`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "the :term:`UUID` is supposed to be "
+#~ "unique. Unfortunately, for some :abbr:`OEM "
+#~ "(Original Equipment Manufacturers)` and some"
+#~ " manufacturing batches, BIOS :term:`UUID` "
+#~ "are identical;"
+#~ msgstr ""
+
+#~ msgid "Solution: with `install_msi_if_needed`"
+#~ msgstr ""
 

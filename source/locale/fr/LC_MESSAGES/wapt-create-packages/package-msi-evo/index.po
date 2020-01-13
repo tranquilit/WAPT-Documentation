@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 14:09+0100\n"
+"POT-Creation-Date: 2020-01-13 11:34+0100\n"
 "PO-Revision-Date: 2018-11-07 14:13+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 
 #: ../../source/wapt-create-packages/package-msi-evo/index.rst:8
-
-msgid "Packaging advanced *.msi package"
+#, fuzzy
+msgid "Packaging advanced \\*.msi package"
 msgstr "Packager des paquets \\*.msi évolués"
 
 #: ../../source/wapt-create-packages/package-msi-evo/index.rst:8
@@ -90,126 +90,6 @@ msgid ""
 msgstr ""
 "après installation, la fonction testera finalement la présence de la clé "
 "de déinstallation et sa version pour vérifier que tout s'est bien passé ;"
-
-#: ../../source/wapt-create-packages/package-msi-evo/index.rst:70
-msgid "List of arguments available with *install_exe_if_needed*"
-msgstr ""
-
-#: ../../source/wapt-create-packages/package-msi-evo/index.rst:75
-msgid "Settings"
-msgstr ""
-
-#: ../../source/wapt-create-packages/package-msi-evo/index.rst:75
-msgid "Default value"
-msgstr ""
-
-#: ../../source/wapt-create-packages/package-msi-evo/index.rst:75
-msgid "Description"
-msgstr ""
-
-#: ../../source/wapt-create-packages/package-msi-evo/index.rst:78
-msgid "``msi``"
-msgstr ""
-
-#: ../../source/wapt-create-packages/package-msi-evo/index.rst:78
-msgid "name of the MSI file to execute."
-msgstr ""
-
-#: ../../source/wapt-create-packages/package-msi-evo/index.rst:79
-msgid "``min_version``"
-msgstr ""
-
-#: ../../source/wapt-create-packages/package-msi-evo/index.rst:79
-#: ../../source/wapt-create-packages/package-msi-evo/index.rst:89
-msgid "None"
-msgstr ""
-
-#: ../../source/wapt-create-packages/package-msi-evo/index.rst:79
-msgid "minimal version above which the software will update."
-msgstr ""
-
-#: ../../source/wapt-create-packages/package-msi-evo/index.rst:81
-msgid "``killbefore``"
-msgstr ""
-
-#: ../../source/wapt-create-packages/package-msi-evo/index.rst:81
-msgid "[]"
-msgstr ""
-
-#: ../../source/wapt-create-packages/package-msi-evo/index.rst:81
-msgid "list of programs to kill before installing the package."
-msgstr ""
-
-#: ../../source/wapt-create-packages/package-msi-evo/index.rst:83
-msgid "``accept_returncodes``"
-msgstr ""
-
-#: ../../source/wapt-create-packages/package-msi-evo/index.rst:83
-msgid "[0,3010]"
-msgstr ""
-
-#: ../../source/wapt-create-packages/package-msi-evo/index.rst:83
-msgid "accepted codes other than 0 and 3010 returned by the function."
-msgstr ""
-
-#: ../../source/wapt-create-packages/package-msi-evo/index.rst:85
-msgid "``timeout``"
-msgstr ""
-
-#: ../../source/wapt-create-packages/package-msi-evo/index.rst:85
-msgid "300"
-msgstr ""
-
-#: ../../source/wapt-create-packages/package-msi-evo/index.rst:85
-msgid "maximum installation wait time (in seconds)."
-msgstr ""
-
-#: ../../source/wapt-create-packages/package-msi-evo/index.rst:87
-msgid "``properties``"
-msgstr ""
-
-#: ../../source/wapt-create-packages/package-msi-evo/index.rst:87
-msgid "{}"
-msgstr ""
-
-#: ../../source/wapt-create-packages/package-msi-evo/index.rst:87
-msgid "additional properties to pass as arguments to MSI setup file."
-msgstr ""
-
-#: ../../source/wapt-create-packages/package-msi-evo/index.rst:89
-msgid "``get_version``"
-msgstr ""
-
-#: ../../source/wapt-create-packages/package-msi-evo/index.rst:89
-msgid ""
-"value passed as parameter to control the version number instead of the "
-"value returned by the *installed_softwares* function"
-msgstr ""
-
-#: ../../source/wapt-create-packages/package-msi-evo/index.rst:93
-msgid "``remove_old_version``"
-msgstr ""
-
-#: ../../source/wapt-create-packages/package-msi-evo/index.rst:93
-#: ../../source/wapt-create-packages/package-msi-evo/index.rst:96
-msgid "False"
-msgstr ""
-
-#: ../../source/wapt-create-packages/package-msi-evo/index.rst:93
-msgid ""
-"automatically removes an older version of a software whose *uninstall "
-"key* is identical"
-msgstr ""
-
-#: ../../source/wapt-create-packages/package-msi-evo/index.rst:96
-msgid "``force``"
-msgstr ""
-
-#: ../../source/wapt-create-packages/package-msi-evo/index.rst:96
-msgid ""
-"forces the installation of the software even though the same *uninstall "
-"key* has been found"
-msgstr ""
 
 #: ../../source/wapt-create-packages/package-msi-evo/index.rst:103
 msgid ""
@@ -308,75 +188,70 @@ msgstr ""
 #~ msgstr "Considérations supplémentaires"
 
 #~ msgid "List of arguments available with *install_exe_if_needed*"
-#~ msgstr "Liste des paramètres utilisables avec install_msi_if_needed"
+#~ msgstr ""
 
 #~ msgid "Settings"
-#~ msgstr "Paramètre"
+#~ msgstr ""
 
 #~ msgid "Default value"
-#~ msgstr "Valeur par défaut"
+#~ msgstr ""
 
 #~ msgid "Description"
-#~ msgstr "Description"
+#~ msgstr ""
 
 #~ msgid "``msi``"
-#~ msgstr "``msi``"
+#~ msgstr ""
 
 #~ msgid "name of the MSI file to execute."
-#~ msgstr "nom du fichier MSI à exécuter."
+#~ msgstr ""
 
 #~ msgid "``min_version``"
-#~ msgstr "``min_version``"
+#~ msgstr ""
 
 #~ msgid "None"
-#~ msgstr "None"
+#~ msgstr ""
 
 #~ msgid "minimal version above which the software will update."
-#~ msgstr "version minimale au dessus de laquelle il mettra à jour."
+#~ msgstr ""
 
 #~ msgid "``killbefore``"
-#~ msgstr "``killbefore``"
+#~ msgstr ""
 
 #~ msgid "[]"
-#~ msgstr "[]"
+#~ msgstr ""
 
 #~ msgid "list of programs to kill before installing the package."
-#~ msgstr "liste des programmes à tuer avant de lancer l'installation."
+#~ msgstr ""
 
 #~ msgid "``accept_returncodes``"
-#~ msgstr "``accept_returncodes``"
+#~ msgstr ""
 
 #~ msgid "[0,3010]"
-#~ msgstr "[0,3010]"
+#~ msgstr ""
 
 #~ msgid "accepted codes other than 0 and 3010 returned by the function."
 #~ msgstr ""
-#~ "codes de retour autres que 0 ou"
-#~ " 3010 acceptés en retour par la "
-#~ "fonction."
 
 #~ msgid "``timeout``"
-#~ msgstr "``timeout``"
+#~ msgstr ""
 
 #~ msgid "300"
-#~ msgstr "300"
+#~ msgstr ""
 
 #~ msgid "maximum installation wait time (in seconds)."
-#~ msgstr "durée d'attente maximale d'installation (en secondes)."
+#~ msgstr ""
 
 #~ msgid "``properties``"
-#~ msgstr "``properties``"
+#~ msgstr ""
 
 #~ msgid "{}"
-#~ msgstr "{}"
+#~ msgstr ""
 
 #~ msgid "additional properties to pass as arguments to MSI setup file."
 #~ msgstr ""
-#~ "propriétés supplémentaires à passer en "
-#~ "argument au MSI pour l'installation."
 
 #~ msgid "``get_version``"
-#~ msgstr "``get_version``"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "value passed as parameter to control "
@@ -384,35 +259,25 @@ msgstr ""
 #~ "value returned by the *installed_softwares*"
 #~ " function"
 #~ msgstr ""
-#~ "utiliser la fonction passée en paramètre"
-#~ " pour le contrôle de version au "
-#~ "lieu de celle retournée par la "
-#~ "fonction *installed_softwares*"
 
 #~ msgid "``remove_old_version``"
-#~ msgstr "``remove_old_version``"
+#~ msgstr ""
 
 #~ msgid "False"
-#~ msgstr "False"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "automatically removes an older version "
 #~ "of a software whose *uninstall key* "
 #~ "is identical"
 #~ msgstr ""
-#~ "supprimme automatiquement une ancienne version"
-#~ " d'un logiciel dont la *uninstallkey* "
-#~ "est identique"
 
 #~ msgid "``force``"
-#~ msgstr "``force``"
+#~ msgstr ""
 
 #~ msgid ""
 #~ "forces the installation of the software"
 #~ " even though the same *uninstall key*"
 #~ " has been found"
 #~ msgstr ""
-#~ "force l'installation du logiciel même si"
-#~ " une *uninstall key* avec une version"
-#~ " identique est trouvée."
 

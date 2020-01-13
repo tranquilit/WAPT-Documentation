@@ -3,279 +3,283 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-05 15:09+0100\n"
+"POT-Creation-Date: 2020-01-13 11:34+0100\n"
 "PO-Revision-Date: 2019-12-04 11:15+0000\n"
 "Last-Translator: Bertrand LEMOIGNE <blemoigne@tranquil.it>\n"
-"Language-Team: French <https://srvweblate.tranquil.it/projects/"
-"wapt-documentation/wapt-roadmap/fr/>\n"
 "Language: fr\n"
+"Language-Team: French <https://srvweblate.tranquil.it/projects/wapt-"
+"documentation/wapt-roadmap/fr/>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 3.9.1\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: ../../source/wapt_roadmap.rst:12
+#: ../../source/wapt-roadmap.rst:12
 msgid "History and roadmap"
 msgstr "Histoire et Roadmap"
 
-#: ../../source/wapt_roadmap.rst:15
+#: ../../source/wapt-roadmap.rst:15
 msgid "WAPT 0.8 Community (novembre 2013)"
 msgstr "WAPT 0.8 Community (novembre 2013)"
 
-#: ../../source/wapt_roadmap.rst:17
+#: ../../source/wapt-roadmap.rst:17
 msgid "cleaning and stabilisation of console code;"
 msgstr "nettoyage et stabilisation du code de la console ;"
 
-#: ../../source/wapt_roadmap.rst:19
+#: ../../source/wapt-roadmap.rst:19
 msgid ""
-"transfer of :program:`waptservice` local service from :program:`Lazarus` to :"
-"program:`Python`;"
+"transfer of :program:`waptservice` local service from :program:`Lazarus` "
+"to :program:`Python`;"
 msgstr "passage du waptservice local sur le poste de Lazarus à Python ;"
 
-#: ../../source/wapt_roadmap.rst:22
+#: ../../source/wapt-roadmap.rst:22
 msgid ""
-"addition of firewall rules to allow access to :program:`waptservice` from :"
-"program:`waptserver`;"
+"addition of firewall rules to allow access to :program:`waptservice` from"
+" :program:`waptserver`;"
 msgstr ""
-"gestion de l'ouverture de port sur le firewall windows pour l'accès au :program:"
-"`waptservice` depuis le :program:`waptserveur` ;"
+"gestion de l'ouverture de port sur le firewall windows pour l'accès au "
+":program:`waptservice` depuis le :program:`waptserveur` ;"
 
-#: ../../source/wapt_roadmap.rst:25
+#: ../../source/wapt-roadmap.rst:25
 msgid "display wapt package update status in wapt console;"
 msgstr ""
-"affichage de l'état de mise à jour des paquets wapt sur les postes dans la "
-"console ;"
+"affichage de l'état de mise à jour des paquets wapt sur les postes dans "
+"la console ;"
 
-#: ../../source/wapt_roadmap.rst:27
+#: ../../source/wapt-roadmap.rst:27
 msgid ""
-"possibility to import packages from TIS repository and adding them to local "
-"repository;"
+"possibility to import packages from TIS repository and adding them to "
+"local repository;"
 msgstr ""
-"possibilité de récupérer un paquet depuis le dépôt TIS et de l'intégrer au "
-"dépôt local ;"
+"possibilité de récupérer un paquet depuis le dépôt TIS et de l'intégrer "
+"au dépôt local ;"
 
-#: ../../source/wapt_roadmap.rst:30
+#: ../../source/wapt-roadmap.rst:30
 msgid "build system embryo;"
 msgstr "embryon du système de build ;"
 
-#: ../../source/wapt_roadmap.rst:32
+#: ../../source/wapt-roadmap.rst:32
 msgid ""
-"after :program:`waptsetup` customization build in :program:`waptconsole`, "
-"possibility to upload it directly from :program:`waptconsole`;"
+"after :program:`waptsetup` customization build in :program:`waptconsole`,"
+" possibility to upload it directly from :program:`waptconsole`;"
 msgstr ""
-"après la création du :program:`waptsetup` customisé dans la :program:"
-"`waptconsole`, possibilité de l'uploader directement depuis la :program:"
-"`waptconsole` ;"
+"après la création du :program:`waptsetup` customisé dans la "
+":program:`waptconsole`, possibilité de l'uploader directement depuis la "
+":program:`waptconsole` ;"
 
-#: ../../source/wapt_roadmap.rst:36
+#: ../../source/wapt-roadmap.rst:36
 msgid "WAPT 0.9 Community (septembre 2014)"
 msgstr "WAPT 0.9 Community (septembre 2014)"
 
-#: ../../source/wapt_roadmap.rst:38
+#: ../../source/wapt-roadmap.rst:38
 msgid "Windows :program:`waptserver` packaging;"
 msgstr "packaging du waptserver sous Windows ;"
 
-#: ../../source/wapt_roadmap.rst:40
+#: ../../source/wapt-roadmap.rst:40
 msgid "Windows postconfiguration tool to ease server installation;"
 msgstr ""
 "création d'un outil de postconfiguration sous Windows pour faciliter "
 "l'installation ;"
 
-#: ../../source/wapt_roadmap.rst:42
+#: ../../source/wapt-roadmap.rst:42
 msgid "transition to https for all connexions;"
 msgstr "passage en https pour toutes les connexions ;"
 
-#: ../../source/wapt_roadmap.rst:44
+#: ../../source/wapt-roadmap.rst:44
 msgid "possibility to ask remote package removal;"
 msgstr "possibilité de demander la suppression d'un paquet sur une machine ;"
 
-#: ../../source/wapt_roadmap.rst:46
+#: ../../source/wapt-roadmap.rst:46
 msgid "improving error feedbacks;"
 msgstr "améliorer les retours d'erreur ;"
 
-#: ../../source/wapt_roadmap.rst:48
+#: ../../source/wapt-roadmap.rst:48
 msgid "display package description when selecting in the WAPT console;"
 msgstr ""
-"affichage de la description du paquet lorsqu'on le sélectionne dans les listes "
-"dans waptconsole ;"
+"affichage de la description du paquet lorsqu'on le sélectionne dans les "
+"listes dans waptconsole ;"
 
-#: ../../source/wapt_roadmap.rst:50
+#: ../../source/wapt-roadmap.rst:50
 msgid ""
-"host identification through computer account thanks to Kerberos (inactive by "
-"default);"
+"host identification through computer account thanks to Kerberos (inactive"
+" by default);"
 msgstr ""
-"identification de la machine à travers le compte Machine grâce à kerberos (pas "
-"configuré par défaut) ;"
+"identification de la machine à travers le compte Machine grâce à kerberos"
+" (pas configuré par défaut) ;"
 
-#: ../../source/wapt_roadmap.rst:53
+#: ../../source/wapt-roadmap.rst:53
 msgid "waptselfservice group to delegates installation group;"
 msgstr ""
-"gestion du groupe de waptselfservice pour déléguer des droits d'installation ;"
+"gestion du groupe de waptselfservice pour déléguer des droits "
+"d'installation ;"
 
-#: ../../source/wapt_roadmap.rst:55
+#: ../../source/wapt-roadmap.rst:55
 msgid ""
-"possibility to push :program:`waptagent` installation on a host through MS-RPC "
-"(if firewall allows it);"
+"possibility to push :program:`waptagent` installation on a host through "
+"MS-RPC (if firewall allows it);"
 msgstr ""
-"possibilité de pousser une installation waptsetup sur un poste à travers les MS-"
-"RPC (si le firewall ne le bloque pas) ;"
+"possibilité de pousser une installation waptsetup sur un poste à travers "
+"les MS-RPC (si le firewall ne le bloque pas) ;"
 
-#: ../../source/wapt_roadmap.rst:59
+#: ../../source/wapt-roadmap.rst:59
 msgid "WAPT 1.0 Community (févier 2015)"
 msgstr "WAPT 1.0 Community (février 2015)"
 
-#: ../../source/wapt_roadmap.rst:61
+#: ../../source/wapt-roadmap.rst:61
 msgid ""
-"The release of that milestone has been announced at `Bruxelles FOSDEM the 1st "
-"of February 2015 <https://fosdem.org/2015/schedule/event/"
-"wapt_apt_get_for_windows/>`_."
+"The release of that milestone has been announced at `Bruxelles FOSDEM the"
+" 1st of February 2015 "
+"<https://fosdem.org/2015/schedule/event/wapt_apt_get_for_windows/>`_."
 msgstr ""
-"La release de cette milestone a été annoncée lors de la `conférence FOSDEM à "
-"Bruxelles le dimanche 1er février 2015 <https://fosdem.org/2015/schedule/event/"
-"wapt_apt_get_for_windows/>`_."
+"La release de cette milestone a été annoncée lors de la `conférence "
+"FOSDEM à Bruxelles le dimanche 1er février 2015 "
+"<https://fosdem.org/2015/schedule/event/wapt_apt_get_for_windows/>`_."
 
-#: ../../source/wapt_roadmap.rst:64
+#: ../../source/wapt-roadmap.rst:64
 msgid ""
-"internationalization of the console, service, server and notification messages;"
+"internationalization of the console, service, server and notification "
+"messages;"
 msgstr ""
-"internationalisation de la console, du service, du serveur et des messages de "
-"notification ;"
+"internationalisation de la console, du service, du serveur et des "
+"messages de notification ;"
 
-#: ../../source/wapt_roadmap.rst:67
+#: ../../source/wapt-roadmap.rst:67
 msgid "scenari documentation;"
 msgstr "mise en place de documenation scénari ;"
 
-#: ../../source/wapt_roadmap.rst:69
+#: ../../source/wapt-roadmap.rst:69
 msgid ""
-"addition of icon for packages for a better rendering on wapt website store.wapt."
-"fr;"
+"addition of icon for packages for a better rendering on wapt website "
+"store.wapt.fr;"
 msgstr ""
-"rajout de l'icône de l'application dans le paquet wapt pour un affichage plus "
-"joli sur le site web wapt.tranquil.it ;"
+"rajout de l'icône de l'application dans le paquet wapt pour un affichage "
+"plus joli sur le site web wapt.tranquil.it ;"
 
-#: ../../source/wapt_roadmap.rst:72
+#: ../../source/wapt-roadmap.rst:72
 msgid ""
-"windows installer improvements to avoid conflicts during installation (open "
-"ports check, etc.);"
+"windows installer improvements to avoid conflicts during installation "
+"(open ports check, etc.);"
 msgstr ""
 "installeur Windows plus précautionneux pour éviter des conflits lors de "
 "l'installation (vérification des ouvertures de ports, etc.) ;"
 
-#: ../../source/wapt_roadmap.rst:75
+#: ../../source/wapt-roadmap.rst:75
 msgid "bug correction with obscure network specificities;"
 msgstr ""
-"correction extensive de bug obscures lié à des spécificités d'installation et "
-"de réseau;"
+"correction extensive de bug obscures lié à des spécificités "
+"d'installation et de réseau;"
 
-#: ../../source/wapt_roadmap.rst:77
+#: ../../source/wapt-roadmap.rst:77
 msgid ":program:`builbot` continuous building process;"
 msgstr "mise en place d'un système de build automatique buildbot ;"
 
-#: ../../source/wapt_roadmap.rst:80
+#: ../../source/wapt-roadmap.rst:80
 msgid "WAPT 1.1 Community (février 2015)"
 msgstr "WAPT 1.1 Community (février 2015)"
 
-#: ../../source/wapt_roadmap.rst:82
+#: ../../source/wapt-roadmap.rst:82
 msgid ""
-"several bugs and anomalies have been corrected on 1.0.0 version thanks to "
-"feedback from users;"
+"several bugs and anomalies have been corrected on 1.0.0 version thanks to"
+" feedback from users;"
 msgstr ""
-"correction de plusieurs anomalies gênantes portées à notre connaissance par des "
-"utilisateurs de la 1.0.0 ;"
+"correction de plusieurs anomalies gênantes portées à notre connaissance "
+"par des utilisateurs de la 1.0.0 ;"
 
-#: ../../source/wapt_roadmap.rst:85
+#: ../../source/wapt-roadmap.rst:85
 msgid "display of reachability of hosts in the WAPT console;"
 msgstr "affichage de l'état joignable d'une machine (machine éteinte / allumée) ;"
 
-#: ../../source/wapt_roadmap.rst:88
+#: ../../source/wapt-roadmap.rst:88
 msgid "WAPT 1.3 et 1.5 Community (2016-2017)"
 msgstr "WAPT 1.3 et 1.5 Community (2016-2017)"
 
-#: ../../source/wapt_roadmap.rst:90
+#: ../../source/wapt-roadmap.rst:90
 msgid ""
-"integration of the authentication of local service in Windows Active Directory "
-"or Samba-AD;"
+"integration of the authentication of local service in Windows Active "
+"Directory or Samba-AD;"
 msgstr ""
-"intégration de l'authentification du service local dans le domaine Microsoft "
-"Active Directory ou Samba4-AD ;"
+"intégration de l'authentification du service local dans le domaine "
+"Microsoft Active Directory ou Samba4-AD ;"
 
-#: ../../source/wapt_roadmap.rst:93
+#: ../../source/wapt-roadmap.rst:93
 msgid "adding of a integrated agent building wizard in the WAPT console;"
 msgstr "ajout d'un wizard de création de paquets intégrés à la console WAPT ;"
 
-#: ../../source/wapt_roadmap.rst:95
+#: ../../source/wapt-roadmap.rst:95
 msgid ""
 "role segregation between :term:`Package Developers` and :term:`Package "
 "Deployers`;"
 msgstr ""
-"différenciation des rôles entre les :term:`Développeurs de Paquets` et les :"
-"term:`Déployeurs de Paquets` ;"
+"différenciation des rôles entre les :term:`Développeurs de Paquets` et "
+"les :term:`Déployeurs de Paquets` ;"
 
-#: ../../source/wapt_roadmap.rst:98
+#: ../../source/wapt-roadmap.rst:98
 msgid ""
-"replacement of :program:`MongoDB` by :program:`PostgreSQL` with JSON extension;"
+"replacement of :program:`MongoDB` by :program:`PostgreSQL` with JSON "
+"extension;"
 msgstr ""
-"passage du serveur à PostgreSQL avec les extensions JSON en remplacement de "
-"MongoDB ;"
+"passage du serveur à PostgreSQL avec les extensions JSON en remplacement "
+"de MongoDB ;"
 
-#: ../../source/wapt_roadmap.rst:101
+#: ../../source/wapt-roadmap.rst:101
 msgid "Websockets implementation;"
 msgstr "passage en Websocket ;"
 
-#: ../../source/wapt_roadmap.rst:103
+#: ../../source/wapt-roadmap.rst:103
 msgid ""
-"host identification through a shared secret for workgroup hosts that cannot "
-"access MSAD or Samba-AD domain;"
+"host identification through a shared secret for workgroup hosts that "
+"cannot access MSAD or Samba-AD domain;"
 msgstr ""
-"option d'identification de la machine à travers un secret partagé en mode "
-"fallback pour les postes non intégrés au domaine, ou bien ne pouvant accéder au "
-"serveur Active Directory ou Samba-AD ;"
+"option d'identification de la machine à travers un secret partagé en mode"
+" fallback pour les postes non intégrés au domaine, ou bien ne pouvant "
+"accéder au serveur Active Directory ou Samba-AD ;"
 
-#: ../../source/wapt_roadmap.rst:107
+#: ../../source/wapt-roadmap.rst:107
 msgid "WAPT 1.5 Enterprise (début 2018)"
 msgstr "WAPT 1.5 Enterprise (début 2018)"
 
-#: ../../source/wapt_roadmap.rst:109
+#: ../../source/wapt-roadmap.rst:109
 msgid ""
-"The features and functionalities described in the section are only relevant to "
-"the **Enterprise** version of WAPT."
+"The features and functionalities described in the section are only "
+"relevant to the **Enterprise** version of WAPT."
 msgstr ""
 "Les fonctionnalités décrites dans cette section concernent la version "
 "**Enterprise** de WAPT."
 
-#: ../../source/wapt_roadmap.rst:112
+#: ../../source/wapt-roadmap.rst:112
 msgid "management by Organisational Units (Machine OU);"
 msgstr "gestion par Unité organisationelle (OU Machine) ;"
 
-#: ../../source/wapt_roadmap.rst:114
+#: ../../source/wapt-roadmap.rst:114
 msgid ""
-"taking into account of the Certificate Authority for signing packages, in "
-"addition to individual certificates;"
+"taking into account of the Certificate Authority for signing packages, in"
+" addition to individual certificates;"
 msgstr ""
-"prise en compte de certificat d'autorité pour la signature de paquets, en plus "
-"des certificats individuels ;"
+"prise en compte de certificat d'autorité pour la signature de paquets, en"
+" plus des certificats individuels ;"
 
-#: ../../source/wapt_roadmap.rst:117
+#: ../../source/wapt-roadmap.rst:117
 msgid ""
-"kerberos based SSO authentication of :term:`Administrators` in the WAPT console;"
+"kerberos based SSO authentication of :term:`Administrators` in the WAPT "
+"console;"
 msgstr ""
-"authentification Kerberos de l':term:`Administrateur` sur la console WAPT ;"
+"authentification Kerberos de l':term:`Administrateur` sur la console "
+"WAPT ;"
 
-#: ../../source/wapt_roadmap.rst:121
+#: ../../source/wapt-roadmap.rst:121
 msgid "WAPT 1.6 (August 2018)"
 msgstr "WAPT 1.6 (Août 2018)"
 
-#: ../../source/wapt_roadmap.rst:123
+#: ../../source/wapt-roadmap.rst:123
 msgid ""
-"recurring audit function to insure configurations are maintained over time "
-"(**Enterprise**);"
+"recurring audit function to insure configurations are maintained over "
+"time (**Enterprise**);"
 msgstr ""
-"fonction d'audit périodique de la conformité du poste / référentiel des paquets "
-"(**Enterprise**) ;"
+"fonction d'audit périodique de la conformité du poste / référentiel des "
+"paquets (**Enterprise**) ;"
 
-#: ../../source/wapt_roadmap.rst:126
+#: ../../source/wapt-roadmap.rst:126
 msgid ""
 "(tech preview) Windows Update management in WAPT, reproducing WSUS "
 "functionnalities (**Enterprise**);"
@@ -283,89 +287,81 @@ msgstr ""
 "(tech preview) gestion des mises à jour OS dans WAPT reproduisant le "
 "fonctionnement d'un WSUS (**Enterprise**) ;"
 
-#: ../../source/wapt_roadmap.rst:129
+#: ../../source/wapt-roadmap.rst:129
 msgid ""
-"authentication by certificate of the WAPT client when accessing a repository or "
-"connecting to the WAPT Server (inventory, websockets);"
+"authentication by certificate of the WAPT client when accessing a "
+"repository or connecting to the WAPT Server (inventory, websockets);"
 msgstr ""
-"authentification du client WAPT par certificat pour l'accès aux dépôts de "
-"paquets, et pour les connexions vers le serveur (inventaire, websockets) ;"
+"authentification du client WAPT par certificat pour l'accès aux dépôts de"
+" paquets, et pour les connexions vers le serveur (inventaire, "
+"websockets) ;"
 
-#: ../../source/wapt_roadmap.rst:133
+#: ../../source/wapt-roadmap.rst:133
 msgid "WAPT 1.7"
 msgstr "WAPT 1.7"
 
-#: ../../source/wapt_roadmap.rst:135
+#: ../../source/wapt-roadmap.rst:135
 msgid ""
-"customizable WAPT reporting integrated within the WAPT console (**Enterprise**);"
+"customizable WAPT reporting integrated within the WAPT console "
+"(**Enterprise**);"
 msgstr "reporting personnalisable intégré à console WAPT (**Enterprise**) ;"
 
-#: ../../source/wapt_roadmap.rst:138
+#: ../../source/wapt-roadmap.rst:138
 msgid ""
-"discrimination between user self-service packages and restricted packages that "
-"may be installed only by :term:`Administrators` (**Enterprise**);"
+"discrimination between user self-service packages and restricted packages"
+" that may be installed only by :term:`Administrators` (**Enterprise**);"
 msgstr ""
-"différentiation entre les paquets accessibles en selfservice utilisateur et les "
-"paquets disponibles uniquement pour déploiement par les :term:`Administrateurs` "
-"(**Enterprise**) ;"
+"différentiation entre les paquets accessibles en selfservice utilisateur "
+"et les paquets disponibles uniquement pour déploiement par les "
+":term:`Administrateurs` (**Enterprise**) ;"
 
-#: ../../source/wapt_roadmap.rst:141
+#: ../../source/wapt-roadmap.rst:141
 msgid ""
-"global updates according to the package's criticity level (**Enterprise**);"
+"global updates according to the package's criticity level "
+"(**Enterprise**);"
 msgstr ""
 "mises à jour globales différenciées suivant la criticité des paquets "
 "(**Enterprise**) :"
 
-#: ../../source/wapt_roadmap.rst:143
+#: ../../source/wapt-roadmap.rst:143
 msgid "immediate upgrade for critical updates;"
 msgstr "immédiate pour les mises à jour critiques ;"
 
-#: ../../source/wapt_roadmap.rst:145
+#: ../../source/wapt-roadmap.rst:145
 msgid ""
-"with the user accepting the upgrade if it impacts the user's current activities;"
+"with the user accepting the upgrade if it impacts the user's current "
+"activities;"
 msgstr ""
-"avec acceptation de l'utilisateur pour les autres si les process impactés sont "
-"lancés ;"
+"avec acceptation de l'utilisateur pour les autres si les process impactés"
+" sont lancés ;"
 
-#: ../../source/wapt_roadmap.rst:148
+#: ../../source/wapt-roadmap.rst:148
 msgid ""
-"software and configuration management using AD Organizational Units (*unit* "
-"packages) (**Enterprise**);"
+"software and configuration management using AD Organizational Units "
+"(*unit* packages) (**Enterprise**);"
 msgstr "gestion par Unités Organisationnelles (paquets *unit*) (**Enterprise**) ;"
 
-#: ../../source/wapt_roadmap.rst:152
-msgid "WAPT 1.8"
-msgstr "WAPT 1.8"
-
-#: ../../source/wapt_roadmap.rst:154
-msgid "python based plugins inside the WAPT console;"
-msgstr "possibilité de plugins (python) dans la console ;"
-
-#: ../../source/wapt_roadmap.rst:156
-msgid "integration of TISHelp for remote user handling (**Enterprise**);"
-msgstr "intégration de TISHelp (solution de prise en main à distance) ;"
-
-#: ../../source/wapt_roadmap.rst:159
+#: ../../source/wapt-roadmap.rst:153
 msgid "Later"
 msgstr "Plus tard"
 
-#: ../../source/wapt_roadmap.rst:161
+#: ../../source/wapt-roadmap.rst:155
 msgid ""
-"creation of the :abbr:`GPO (Group Policy Object)` for deploying the WAPT agent "
-"directly from the WAPT console (**Enterprise**);"
+"creation of the :abbr:`GPO (Group Policy Object)` for deploying the WAPT "
+"agent directly from the WAPT console (**Enterprise**);"
 msgstr ""
-"création de la :abbr:`GPO (Group Policy Object)` de déploiement du waptsetup."
-"exe directement à partir de la waptconsole (**Enterprise**) ;"
+"création de la :abbr:`GPO (Group Policy Object)` de déploiement du "
+"waptsetup.exe directement à partir de la waptconsole (**Enterprise**) ;"
 
-#: ../../source/wapt_roadmap.rst:164
+#: ../../source/wapt-roadmap.rst:158
 msgid ""
-"signature of packages and actions, and token based authentication on the WAPT "
-"console (**Enterprise**);"
+"signature of packages and actions, and token based authentication on the "
+"WAPT console (**Enterprise**);"
 msgstr ""
-"signature des paquets et actions, et authentification sur la console par token "
-"physique (**Enterprise**) ;"
+"signature des paquets et actions, et authentification sur la console par "
+"token physique (**Enterprise**) ;"
 
-#: ../../source/wapt_roadmap.rst:167
+#: ../../source/wapt-roadmap.rst:161
 msgid ""
 "integration of inventory in GLPI and other asset management tools "
 "(**Community** and **Enterprise**);"
@@ -373,33 +369,33 @@ msgstr ""
 "module d'intégration GLPI pour la gestion administrative / comptable de "
 "l'inventaire et la gestion d'incident (**Community** et **Enterprise**) ;"
 
-#: ../../source/wapt_roadmap.rst:170
+#: ../../source/wapt-roadmap.rst:164
 msgid "asset management from the WAPT console (**Enterprise**);"
 msgstr "gestion des licences directement dans la console WAPT (**Enterprise**) ;"
 
-#: ../../source/wapt_roadmap.rst:172
+#: ../../source/wapt-roadmap.rst:166
 msgid ""
-"kerberos based SSO authentication of the :term:`Users` on the :program:"
-"`webservice` (**Enterprise**);"
+"kerberos based SSO authentication of the :term:`Users` on the "
+":program:`webservice` (**Enterprise**);"
 msgstr ""
 "authentification SSO de l':term:`Utilisateur` sur le webservice "
 "(**Enterprise**) ;"
 
-#: ../../source/wapt_roadmap.rst:175
+#: ../../source/wapt-roadmap.rst:169
 msgid ""
-"creation of *stub* packages to avoid licensing problems for some proprietary "
-"software. The :term:`Package Developer` would download the package from a "
-"trusted public repository, then he would download the software binaries from "
-"the editor's website to obtain a complete package. This will facilitate the "
-"creation of packages embedding software with restricted distribution rights "
-"(**Enterprise**);"
+"creation of *stub* packages to avoid licensing problems for some "
+"proprietary software. The :term:`Package Developer` would download the "
+"package from a trusted public repository, then he would download the "
+"software binaries from the editor's website to obtain a complete package."
+" This will facilitate the creation of packages embedding software with "
+"restricted distribution rights (**Enterprise**);"
 msgstr ""
-"gestion de paquet \"stub\" pour les logiciels propriétaires (l':term:"
-"`Administrateur` téléchargera le paquet à partir d'une source publique, puis "
-"chargera les exécutables d'installation dans le paquet pour obtenir un paquet "
-"complet). Cela permet la création facilitée de paquets sans enfreindre les "
-"règles de rediffusion d'applications imposées par certains éditeurs logiciels "
-"(**Enterprise**) ;"
+"gestion de paquet \"stub\" pour les logiciels propriétaires "
+"(l':term:`Administrateur` téléchargera le paquet à partir d'une source "
+"publique, puis chargera les exécutables d'installation dans le paquet "
+"pour obtenir un paquet complet). Cela permet la création facilitée de "
+"paquets sans enfreindre les règles de rediffusion d'applications imposées"
+" par certains éditeurs logiciels (**Enterprise**) ;"
 
 #~ msgid "Roadmap"
 #~ msgstr "Roadmap"
@@ -408,11 +404,14 @@ msgstr ""
 #~ msgstr "WAPT (2016-2017)"
 
 #~ msgid ""
-#~ "creation of a website presenting packages, including description as made on "
-#~ "packages.debian.org"
+#~ "creation of a website presenting "
+#~ "packages, including description as made "
+#~ "on packages.debian.org"
 #~ msgstr ""
-#~ "création d'un site web packages.tranquil.it avec une présentation des "
-#~ "paquets, une description un peu comme le site packages.debian.org"
+#~ "création d'un site web packages.tranquil.it"
+#~ " avec une présentation des paquets, "
+#~ "une description un peu comme le "
+#~ "site packages.debian.org"
 
 #~ msgid "suppresion of waptconsole in waptagent by default"
 #~ msgstr "suppression de la waptconsole de l'installeur waptagent par défaut"
@@ -425,7 +424,8 @@ msgstr ""
 
 #~ msgid "elaboration of package building farm commercial plan "
 #~ msgstr ""
-#~ "élaboration d'une offre commerciale de ferme de build pour les éditeurs "
+#~ "élaboration d'une offre commerciale de "
+#~ "ferme de build pour les éditeurs "
 #~ "logiciels"
 
 #~ msgid "Bare-metal host installation"
@@ -433,29 +433,46 @@ msgstr ""
 
 #~ msgid "reporting module for infrastructure management;"
 #~ msgstr ""
-#~ "création d'un module de reporting pour la gestion administrative du parc ;"
+#~ "création d'un module de reporting pour"
+#~ " la gestion administrative du parc ;"
 
 #~ msgid ""
-#~ "creation of an internal Public Key Infrastructure (:term:`PKI`) to easily "
-#~ "manage certificates for WAPT and other uses;"
+#~ "creation of an internal Public Key "
+#~ "Infrastructure (:term:`PKI`) to easily manage"
+#~ " certificates for WAPT and other "
+#~ "uses;"
 #~ msgstr ""
-#~ "création d'une :term:`PKI` interne à WAPT pour permettre de gérer les "
+#~ "création d'une :term:`PKI` interne à "
+#~ "WAPT pour permettre de gérer les "
 #~ "certificats des Gestionnaires WAPT ;"
 
 #~ msgid "host OU synchronisation beween MSAD or Samba-AD and WAPT (**DONE**);"
 #~ msgstr ""
-#~ "synchronisation des OU machines depuis l'Active Directory Microsoft ou du "
+#~ "synchronisation des OU machines depuis "
+#~ "l'Active Directory Microsoft ou du "
 #~ "SaMBa4-AD ;"
 
 #~ msgid "improved management of remote repositories;"
 #~ msgstr "gestion améliorée des dépôts distants ;"
 
 #~ msgid ""
-#~ ";reporting on the state of synchronisation between main and remote "
+#~ ";reporting on the state of "
+#~ "synchronisation between main and remote "
 #~ "repositories"
 #~ msgstr ""
-#~ "rapport d'état de la synchronisation et du bon fonctionnement des dépôts "
+#~ "rapport d'état de la synchronisation et"
+#~ " du bon fonctionnement des dépôts "
 #~ "secondaires ;"
 
 #~ msgid "Further improvements"
 #~ msgstr "A l'avenir"
+
+#~ msgid "WAPT 1.8"
+#~ msgstr "WAPT 1.8"
+
+#~ msgid "python based plugins inside the WAPT console;"
+#~ msgstr "possibilité de plugins (python) dans la console ;"
+
+#~ msgid "integration of TISHelp for remote user handling (**Enterprise**);"
+#~ msgstr "intégration de TISHelp (solution de prise en main à distance) ;"
+
