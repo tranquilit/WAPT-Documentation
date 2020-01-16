@@ -27,8 +27,8 @@ Configuring Kerberos authentication
 
   * the Kerberos authentication will be used only when registering the device;
 
-Installing the Kerberos components
-""""""""""""""""""""""""""""""""""
+Installing the Kerberos components and configuring krb5.conf file
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
 
 For centos
 
@@ -46,9 +46,6 @@ For Debian
 
    The feature is not available with a WAPT Windows server
 
-Configuring krb5
-""""""""""""""""
-
 Modify the :file:`/etc/krb5.conf` file and **replace all the content with the
 following 4 lines** replacing **MYDOMAIN.LAN** with your Active Directory
 domain name (i.e. *<MYDOMAIN.LAN>*).
@@ -64,10 +61,7 @@ domain name (i.e. *<MYDOMAIN.LAN>*).
     dns_lookup_kdc = true
     dns_lookup_realm=false
 
-Retrieving a service keytab
-"""""""""""""""""""""""""""
-
-Use the :`command:`kinit` and :command:`klist`. You can use an
+Retrieving a service keytab. Use the :`command:`kinit` and :command:`klist`. You can use an
 :term:`Administrator` account or any other account with the delegated
 right to join a computer to the domain in the proper destination container
 (by default *CN=Computers*).
@@ -108,6 +102,45 @@ controller (eg: **srvads.mydomain.lan**).
   and it must return the name that will be used by WAPT agent running
   on client workstations.
 
+* apply the proper access rights to the :file:`http-krb5.keytab` file:
+
+  - on Debian:
+
+    .. code-block:: bash
+
+       sudo chmod 640 /etc/nginx/http-krb5.keytab
+       sudo chown root:www-data /etc/nginx/http-krb5.keytab
+
+  - on Centos:
+
+    .. code-block:: bash
+
+        sudo chown root:nginx /etc/nginx/http-krb5.keytab
+        sudo chmod 640 /etc/nginx/http-krb5.keytab
+
+Post-configuring
+^^^^^^^^^^^^^^^^
+
+You can now use post-configuration script to configure the WAPT Server
+to use Kerberos.
+
+The post-configuration script will configure :program:`Nginx`
+and the WAPT Server to use Kerberos authentication.
+
+.. hint::
+
+  This post-configuration script must be run as **root**.
+
+.. code-block:: bash
+
+  /opt/wapt/waptserver/scripts/postconf.sh --force-https 
+
+Kerberos authentication will now be configured.
+
+
+Special use cases
+"""""""""""""""""
+
 My WAPT server does not have access to a writeable Active Directory
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -147,8 +180,8 @@ My WAPT server does not have access to a writeable Active Directory
         sudo chown root:nginx /etc/nginx/http-krb5.keytab
         sudo chmod 640 /etc/nginx/http-krb5.keytab
 
-Case of use of a RODC
-"""""""""""""""""""""
+WAPT agent only have access to a RODC domain controller
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * for :abbr:`RODC (Read-Only Domain Controller)`, add the *srvwapt* account
   to the allowed password group for replication;
@@ -160,8 +193,8 @@ Case of use of a RODC
   :align: center
   :alt: Preload Password srvwapt account
 
-In case you have multiple Active Directory domains
-""""""""""""""""""""""""""""""""""""""""""""""""""
+You have multiple Active Directory domains with or without relationship
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you have multiple Active Directory domains,
 you must create one :file:`keytab` per domain by following the procedure
@@ -177,26 +210,9 @@ into a unique :file:`keytab`:
 .. code-block:: bash
 
   ktutil
-	read_kt http-krb5-domain1.local.keytab
-	read_kt http-krb5-domain2.local.keytab
-	read_kt http-krb5-domain3.local.keytab
-	write_kt http-krb5.keytab
+  read_kt http-krb5-domain1.local.keytab
+  read_kt http-krb5-domain2.local.keytab
+  read_kt http-krb5-domain3.local.keytab
+  write_kt http-krb5.keytab
 
-Post-configuring
-"""""""""""""""""
 
-You can now use post-configuration script to configure the WAPT Server
-to use Kerberos.
-
-The post-configuration script will configure :program:`Nginx`
-and the WAPT Server to use Kerberos authentication.
-
-.. hint::
-
-  This post-configuration script must be run as **root**.
-
-.. code-block:: bash
-
-  /opt/wapt/waptserver/scripts/postconf.sh --force-https
-
-Kerberos authentication will now be configured.
