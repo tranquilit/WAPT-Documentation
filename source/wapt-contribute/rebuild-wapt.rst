@@ -208,6 +208,43 @@ the lines :code:`#define signtool ..`.
 Rebuild WAPT Agent for MacOS
 ----------------------------
 
+Generating the agent package
+++++++++++++++++++++++++++++
+
+* If you do not have access to the sudo command, you'll need to enable the root user. ( https://support.apple.com/en-us/HT204012 )
+
+* Make sure your version of Python is 2.7 ; install pip, then use pip to install the gitpython module.
+
+.. code-block:: bash
+   
+   python --version # Should be Python 2.7
+   sudo easy_install pip
+   sudo pip install gitpython
+
+* From the root of the WAPT directory, navigate to waptservice/pkg.
+
+* Execute the createpkg script with administrator rights.
+
+.. code-block:: bash
+
+   sudo ./createpkg.py 
+
+It may ask for additional software (the Command Line Developer Tools) and install them after a prompt which you should answer 'yes' to.
+
+
+* The agent package should have been generated, under a name along the lines of tis-waptagent-1.7.6.6550-tismacos-fdc24bca.pkg .
+
+
+Installing the agent package
+++++++++++++++++++++++++++++
+
+* Execute the following command :
+.. code-block:: bash
+
+   sudo installer -pkg tis-waptagent*.pkg -target /
+   
+If the installation is successful, you should have the wapt files in /opt and access to the wapt, wapt-get, waptpython and waptservice commands.
+
 Rebuild WAPT Agent for Linux
 ----------------------------
 
