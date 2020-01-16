@@ -12,8 +12,8 @@
 
 .. _install_waptagent:
 
-Deploying the WAPT agent
-========================
+Deploying the WAPT agent For Windows
+====================================
 
 Two methods are available to deploy the :program:`waptagent.exe`.
 
