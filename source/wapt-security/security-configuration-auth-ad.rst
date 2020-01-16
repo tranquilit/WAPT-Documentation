@@ -68,10 +68,24 @@ Enabling Active Directory authentication
                                                     be able to connect to WAPT
   ldap_auth_server      srvads.mydomain.lan         LDAP server that will be used by WAPT
   ldap_auth_base_dn     DC=mydomain,DC=lan          DN for the search
-  ldap_auth_ssl_enable  False                       /
+  ldap_auth_ssl_enable  True/False                  Default value : True
   ===================== =========================== =====================================
 
 * restart :program:`waptserver` with :code:`systemctl restart waptserver`;
+
+.. warning::
+
+  For Microsoft Active Directory, Microsoft has `announced <https://support.microsoft.com/en-gb/help/4520412/2020-ldap-channel-binding-and-ldap-signing-requirement-for-windows>`_
+  that SimpleBind authentication on MS-AD without SSL/TLS will be blocked by default from 
+  April 2020. If you don't have a certificate installed, you'll have to modify a registry 
+  key to have authentication working.
+
+.. note::
+
+  By default Samba-AD does not allow SimpleBind auth without SSL/TLS. If you don't have
+  a valid certificate you'll need to modify the `ldap server require strong auth` parameter 
+  in :file:`/etc/samba/smb.conf`. For more information you may refer to Tranquil IT documention 
+  on https://dev.tranquil.it/samba/en/
 
 Enabling SSL/ TLS support for the LDAP connection to the Active Directory Domain Controller
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
