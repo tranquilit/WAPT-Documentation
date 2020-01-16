@@ -13,12 +13,15 @@
 Recompiling WAPT from source
 ============================
 
+Rebuilding on Windows
+---------------------
+
 .. todo::
 
   Review this section
 
 WAPT components
----------------
++++++++++++++++
 
 Python environment
 
@@ -29,7 +32,7 @@ Python environment
 * server python libraries in :file:`requirements-server.txt`;
 
 Create a development environment with virtualenv
-------------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++
 
 With a clean Windows installed:
 
@@ -51,7 +54,7 @@ With a clean Windows installed:
     cd c:\tranquilit\wapt init_workdir.bat
 
 Build environment on Debian Linux
----------------------------------
++++++++++++++++++++++++++++++++++
 
 .. code-block:: bash
 
@@ -64,7 +67,7 @@ Build environment on Debian Linux
     python createdeb.py
 
 Lazarus environment
--------------------
++++++++++++++++++++
 
 WAPT relies on the following third-party freepascal/ lazarus librairies:
 
@@ -84,7 +87,7 @@ WAPT relies on the following third-party freepascal/ lazarus librairies:
 * thmtlport: https://svn.code.sf.net/p/lazarus-ccr/svn/components/thtmlport;
 
 Tranquil IT packages
---------------------
+++++++++++++++++++++
 
 * pltis_python4delphi: https://github.com/tranquilit/pltis_python4delphi;
 
@@ -96,7 +99,7 @@ Tranquil IT packages
 * pltis_superobject: https://github.com/tranquilit/pltis_superobject;
 
 Building WAPT
--------------
+++++++++++++-
 
 Installing the WAPT development environment
 +++++++++++++++++++++++++++++++++++++++++++
@@ -168,7 +171,7 @@ Installing the server environment on Windows
     waptpython waptserver\winsetup.py all
 
 Create the InnoSetup installers
--------------------------------
++++++++++++++++++++++++++++++++
 
 * install Innosetup from
   http://www.jrsoftware.org/download.php/ispack-unicode.exe
@@ -200,3 +203,13 @@ The installer's global parameters are defined with #define in the file header.
 
 If you do not sign the installers, you may comment
 the lines :code:`#define signtool ..`.
+
+
+Rebuild WAPT Agent for MacOS
+----------------------------
+
+Rebuild WAPT Agent for Linux
+----------------------------
+
+
+
