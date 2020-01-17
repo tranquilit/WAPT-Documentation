@@ -245,6 +245,12 @@ Installing the agent package
    
 If the installation is successful, you should have the wapt files in /opt and access to the wapt, wapt-get, waptpython and waptservice commands.
 
+* The agent should launch at the next reboot, but you probably want to start it right now with the following command:
+.. code-block:: bash
+
+   sudo launchctl load -w /Library/LaunchDaemons/wapt.plist
+
+
 Rebuild WAPT Agent for Linux
 ----------------------------
 

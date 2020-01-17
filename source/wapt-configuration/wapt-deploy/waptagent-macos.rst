@@ -23,17 +23,34 @@ Deploying the WAPT agent for MacOS
 Registering the agent
 +++++++++++++++++++++
 
-* You may create and configure a wapt-get.ini file in /opt/wapt ( :ref:`wapt-get-ini` )
-
-* You may need to add the following lines to your bash_profile file (~/.bash_profile). If it doesn't exist, you'll need to create it first.
-
-.. code-block:: bash
-
-   export LC_ALL=en_US.UTF-8
-   export LANG=en_US.UTF-8
+* You need to create and configure a wapt-get.ini file in /opt/wapt ( :ref:`wapt-get-ini` ). An example of what it should look like is present further down on this page : you may use it after changing the parameters to suit your needs.
 
 * Finally, execute the following command to register your machine :
 
 .. code-block:: bash
 
    sudo wapt-get register
+   
+   
+Example of a wapt-get.ini file
+++++++++++++++++++++++++++++++
+
+.. code-block:: bash
+
+   [global]
+   repo_url=http://192.168.73.129/wapt
+   send_usage_report=1
+   use_hostpackages=1
+   wapt_server=http://192.168.73.129
+   use_kerberos=0
+   check_certificates_validity=1
+   verify_cert=/opt/wapt/ssl/verify.crt
+   personal_certificate_path=/opt/wapt/ssl/personal_certificate.crt
+   dnsdomain=
+   max_gpo_script_wait=180
+   pre_shutdown_timeout=180
+   hiberboot_enabled=0
+   host_profiles=
+   [wapt-templates]
+   repo_url=https://store.wapt.fr/wapt
+   verify_cert=1
