@@ -213,14 +213,6 @@ Generating the agent package
 
 * If you do not have access to the sudo command, you'll need to enable the root user. ( https://support.apple.com/en-us/HT204012 )
 
-* Make sure your version of Python is 2.7 ; install pip, then use pip to install the gitpython module.
-
-.. code-block:: bash
-   
-   python --version # Should be Python 2.7
-   sudo easy_install pip
-   sudo pip install gitpython
-
 * From the root of the WAPT directory, navigate to waptservice/pkg.
 
 * Execute the createpkg script with administrator rights.
