@@ -63,7 +63,6 @@ msgstr ""
 "cette ancienne version de Debian ;"
 
 #: ../../source/waptserver-update/index.rst:39
-#, fuzzy
 msgid ""
 "consider migrating your existing WAPT installation to Debian Buster or "
 "CentOS7;"
@@ -80,7 +79,6 @@ msgid "The upgrade process follows the process for a minor update."
 msgstr "La mise à jour s'effectue comme une mise à jour mineure."
 
 #: ../../source/waptserver-update/index.rst:49
-#, fuzzy
 msgid ""
 "if you are in Debian Stretch, it is recommended to upgrade to Debian "
 "Buster 64 bits;"
@@ -97,10 +95,9 @@ msgstr ""
 "de Windows Update ;"
 
 #: ../../source/waptserver-update/index.rst:54
-#, fuzzy
 msgid "when upgrading to Debian10, the PostgreSQL database must be upgraded;"
 msgstr ""
-"lors de la mise à jour vers Debian9, la base de données PostgreSQL doit "
+"lors de la mise à jour vers Debian10, la base de données PostgreSQL doit "
 "être mise à jour ;"
 
 #: ../../source/waptserver-update/index.rst:58
@@ -206,4 +203,3 @@ msgstr ""
 #~ "Update. Lors de la mise à jour "
 #~ "en Debian Stretch, la base PostgreSQL"
 #~ " devra être mise à jour en 9.6."
-

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-17 10:23+0100\n"
+"POT-Creation-Date: 2020-01-17 10:34+0100\n"
 "PO-Revision-Date: 2019-03-01 10:59+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -345,7 +345,13 @@ msgid ""
 " and access to the wapt, wapt-get, waptpython and waptservice commands."
 msgstr ""
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:249
+#: ../../source/wapt-contribute/rebuild-wapt.rst:248
+msgid ""
+"The agent should launch at the next reboot, but you probably want to "
+"start it right now with the following command:"
+msgstr ""
+
+#: ../../source/wapt-contribute/rebuild-wapt.rst:255
 msgid "Rebuild WAPT Agent for Linux"
 msgstr ""
 
