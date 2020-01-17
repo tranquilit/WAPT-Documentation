@@ -23,12 +23,10 @@ msgid "WAPT, History, Genesis, changelog, documentation"
 msgstr "WAPT, Histoire, Genèse"
 
 #: ../../source/wapt-changelog.rst:16
-#, fuzzy
 msgid "WAPT-1.7.4-6237 (2019-11-18)"
 msgstr "WAPT-1.7.4.6078 (2019-05-17)"
 
 #: ../../source/wapt-changelog.rst:18
-#, fuzzy
 msgid "(hash 1c00cefd)"
 msgstr "(hash 95a146c002)"
 
@@ -50,12 +48,10 @@ msgid ""
 msgstr ""
 
 #: ../../source/wapt-changelog.rst:27
-#, fuzzy
 msgid "WAPT-1.7.4-6234 (2019-11-14)"
 msgstr "WAPT-1.7.4-6183 (2019-09-09)"
 
 #: ../../source/wapt-changelog.rst:29
-#, fuzzy
 msgid "(hash ad237eee)"
 msgstr "(hash da870a2c)"
 
@@ -73,7 +69,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/wapt-changelog.rst:37
-#, fuzzy
+
 msgid "WAPT-1.7.4-6232 (2019-10-31)"
 msgstr "WAPT-1.7.4-6183 (2019-09-09)"
 
@@ -92,7 +88,7 @@ msgid "WAPT-1.7.4-6230 (2019-10-23) (not released)"
 msgstr ""
 
 #: ../../source/wapt-changelog.rst:45
-#, fuzzy
+
 msgid "(hash 391d382f)"
 msgstr "(hash da870a2c)"
 
@@ -109,12 +105,12 @@ msgid "fix for .git partially included in built package manifest"
 msgstr ""
 
 #: ../../source/wapt-changelog.rst:54
-#, fuzzy
+
 msgid "WAPT-1.7.4-6229 (2019-10-23)"
 msgstr "WAPT-1.7.4.6082 (2019-05-20)"
 
 #: ../../source/wapt-changelog.rst:56
-#, fuzzy
+
 msgid "(hash b30b1b1a)"
 msgstr "(hash 5b6851ae)"
 
@@ -136,12 +132,12 @@ msgid "Limit text output on console (slow)"
 msgstr ""
 
 #: ../../source/wapt-changelog.rst:68
-#, fuzzy
+
 msgid "WAPT-1.7.4-6223 (2019-10-15)"
 msgstr "WAPT-1.7.4.6143 (2019-06-25)"
 
 #: ../../source/wapt-changelog.rst:70
-#, fuzzy
+
 msgid "(hash 86ddeaa2d)"
 msgstr "(hash da870a2c)"
 
@@ -150,7 +146,7 @@ msgid "[Fix] Newlines in packages installs logged output."
 msgstr ""
 
 #: ../../source/wapt-changelog.rst:74
-#, fuzzy
+
 msgid "[Fix] Allow nonascii utf8 encoded user and password for server basic auth"
 msgstr "[Imp] utf8 decode user /password in localservice auth"
 
@@ -181,12 +177,12 @@ msgid ""
 msgstr ""
 
 #: ../../source/wapt-changelog.rst:86
-#, fuzzy
+
 msgid "[Fix] grid sorting for package / version / size of packages"
 msgstr "Display package version for missing packages"
 
 #: ../../source/wapt-changelog.rst:88
-#, fuzzy
+
 msgid "[Fix] don't create waptconsole link for starter"
 msgstr "fix host_certificate not found for waptstarter"
 
@@ -267,12 +263,12 @@ msgid ""
 msgstr ""
 
 #: ../../source/wapt-changelog.rst:124
-#, fuzzy
+
 msgid "WAPT-1.7.4-6196 (2019-09-27)"
 msgstr "WAPT-1.7.4.6165 (2019-08-02)"
 
 #: ../../source/wapt-changelog.rst:126
-#, fuzzy
+
 msgid "(hash f9cb3ebd)"
 msgstr "(hash f153fab4)"
 
@@ -311,12 +307,12 @@ msgid "add an option to filters maturities"
 msgstr ""
 
 #: ../../source/wapt-changelog.rst:143
-#, fuzzy
+
 msgid "WAPT-1.7.4-6192 (2019-09-17)"
 msgstr "WAPT-1.7.4-6183 (2019-09-09)"
 
 #: ../../source/wapt-changelog.rst:145
-#, fuzzy
+
 msgid "(hash 3e00ac6688)"
 msgstr "(hash 38e08433)"
 
@@ -365,7 +361,7 @@ msgid "python-socketio from 1.9.0 to 4.3.1"
 msgstr "python-socketio from 1.9.0 to 4.3.1"
 
 #: ../../source/wapt-changelog.rst:167
-#, fuzzy
+
 msgid "python-engineio 3.8.1 to 3.9.3"
 msgstr "python-engineio 2.0.1 -> 2.0.4"
 
@@ -462,7 +458,7 @@ msgid "[Imp] Waptselfservice  4K improvements."
 msgstr "[Imp] Waptselfservice  4K improvements."
 
 #: ../../source/wapt-changelog.rst:201
-#, fuzzy
+
 msgid "[Fix] Waptselfservice"
 msgstr "waptservice"
 
@@ -4064,7 +4060,7 @@ msgid "WAPT-1.5.1.23 (2018-03-28)"
 msgstr "WAPT-1.5.1.23 (2018-03-28)"
 
 #: ../../source/wapt-changelog.rst:1751
-#, fuzzy
+
 msgid ""
 "waptexit: Displays a custom PNG logo if one is created in "
 ":file:`%WAPT_HOME%\\\\templates\\\\waptexit-logo.png`"
@@ -4549,7 +4545,7 @@ msgstr ""
 "includes dnsdomain, proxy, and list of trusted certificates);"
 
 #: ../../source/wapt-changelog.rst:1985
-#, fuzzy
+
 msgid ""
 "[FIX] fixed display in the Windows task bar of the login window (to allow"
 " in particular the autofill of the password by password managers); "
@@ -5498,7 +5494,7 @@ msgstr ""
 "privée est recherchée dans le même répertoire que le certificat ;"
 
 #: ../../source/wapt-changelog.rst:2407
-#, fuzzy
+
 msgid ""
 "remplacement du fichier :file:`WAPT/wapt.psproj` à chaque édition d'un "
 "paquet (pour mettre à jour le chemin vers les modules WAPT suivant "
@@ -5673,7 +5669,7 @@ msgstr ""
 "(pas d'installation incrémentale) ;"
 
 #: ../../source/wapt-changelog.rst:2517
-#, fuzzy
+
 msgid "Improvements 1.5.0.12-amo -> 1.5.0.16"
 msgstr "Améliorations 1.5.0.12-amo -> 1.5.0.16"
 
@@ -5690,7 +5686,7 @@ msgid "corrigé la recherche de dépots en s'appuyant sur les DNS ;"
 msgstr "corrigé la recherche de dépots en s'appuyant sur les DNS ;"
 
 #: ../../source/wapt-changelog.rst:2525
-#, fuzzy
+
 msgid "corrigé \\\\0000 pour PostgreSQL ;"
 msgstr "corrigé \\0000 pour PostgreSQL ;"
 
@@ -5843,7 +5839,7 @@ msgid "[NEW] Découverte des options silencieuses ;"
 msgstr "[NEW] Découverte des options silencieuses ;"
 
 #: ../../source/wapt-changelog.rst:2598
-#, fuzzy
+
 msgid ""
 "[NEW] Utilisation des fonctions :command:`install_exe_if_needed` et "
 ":command:`install_msi_if_needed` au lieu d'un simple :command:`run()` "
@@ -5864,7 +5860,7 @@ msgstr ""
 "des paquets machines ;"
 
 #: ../../source/wapt-changelog.rst:2604
-#, fuzzy
+
 msgid ""
 "[NEW] Vérification optionnelle de la signature des paquets que l'on "
 "importe d'un dépôt extérieur. La liste des certificats autorisés se "
@@ -6015,7 +6011,7 @@ msgstr ""
 "get.ini.tmpl`"
 
 #: ../../source/wapt-changelog.rst:2655
-#, fuzzy
+
 msgid ""
 "[FIX]  la compilation du :program:`waptagent` échoue si les clés / "
 "certificats existent déjà mais que le certificat a été supprimé de "
@@ -6282,7 +6278,7 @@ msgid "WAPT 1.3.8.2 (2016-11-18)"
 msgstr "WAPT 1.3.8.2 (2016-11-18)"
 
 #: ../../source/wapt-changelog.rst:2780
-#, fuzzy
+
 msgid ""
 "[SEC] Fix inheritance of rights on wapt root folder for Windows 10 during"
 " setup when installed in :file:`C:\\\\wapt`. On Windows 10, "
@@ -6311,7 +6307,7 @@ msgid "This can be achieved with a GPO, or a wapt package"
 msgstr "This can be achieved with a GPO, or a wapt package"
 
 #: ../../source/wapt-changelog.rst:2789
-#, fuzzy
+
 msgid ""
 "[IMP] in next versions of WAPT, the default install path of wapt will be "
 "changed from root folder :file:`C:\\\\wapt` to a more standard "
@@ -7260,7 +7256,7 @@ msgstr ""
 " in the ``[uwsgi]`` section, put:"
 
 #: ../../source/wapt-changelog.rst:3092
-#, fuzzy
+
 msgid ""
 "On Windows, edit :file:`C:\\\\wapt\\waptserver\\\\waptserver.ini` and "
 "replace:"
@@ -10559,4 +10555,3 @@ msgstr "[ADD] first public version of WAPT"
 
 #~ msgid "Création de paquets"
 #~ msgstr "Création de paquets"
-

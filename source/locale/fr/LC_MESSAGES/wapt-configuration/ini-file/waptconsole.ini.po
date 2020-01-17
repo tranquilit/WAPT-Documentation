@@ -160,7 +160,6 @@ msgid "Launches the console in debug mode."
 msgstr "Lancer la console en debug."
 
 #: ../../source/wapt-configuration/ini-file/waptconsole.ini.rst:61
-#, fuzzy
 msgid ""
 "``verify_cert`` = C:\\\\Program Files "
 "(x86)\\\\wapt\\\\ssl\\\\server\\\\srvwapt.mydomain.lan.crt"
@@ -233,7 +232,6 @@ msgid "Configuring external repositories"
 msgstr "Configurer des dépôts externes"
 
 #: ../../source/wapt-configuration/ini-file/waptconsole.ini.rst:86
-#, fuzzy, python-format
 msgid ""
 "You may add several external repositories by adding ``[sections]`` in "
 ":file:`C:\\\\Users\\\\%username%\\\\AppData\\\\Local\\\\waptconsole\\\\waptconsole.ini`."
@@ -403,4 +401,3 @@ msgstr "Suffixe des paquets par défaut."
 
 #~ msgid "``verify_cert`` ="
 #~ msgstr "``verify_cert`` = "
-

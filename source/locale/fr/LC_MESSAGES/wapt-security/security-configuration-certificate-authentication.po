@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the WAPT package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.7\n"
@@ -86,4 +85,3 @@ msgid ""
 "Revocation Lists)`, which means that when you delete a machine in the "
 "WAPT console, the machine will still have access to the WAPT repository."
 msgstr ""
-

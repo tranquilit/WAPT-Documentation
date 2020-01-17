@@ -25,7 +25,6 @@ msgid "Debian, WAPT, installer, documentation"
 msgstr "Debian, WAPT, installer, documentation"
 
 #: ../../source/waptserver-install/debian/install-debian-base.rst:17
-#, fuzzy
 msgid ""
 "In order to install a fresh Debian Linux 10 *Buster* (physical or "
 "virtual) without graphical interface, please refer to the `Debian "
@@ -214,4 +213,3 @@ msgstr ""
 
 #~ msgid "Debian, WAPT, install, documentation"
 #~ msgstr "Debian, WAPT, installer"
-

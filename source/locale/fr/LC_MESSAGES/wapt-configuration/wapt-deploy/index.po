@@ -25,7 +25,6 @@ msgid ""
 msgstr "waptagent.exe, waptsetup.exe, déployer"
 
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:16
-#, fuzzy
 msgid "Deploying the WAPT agent For Windows"
 msgstr "Déployer l'agent WAPT"
 
@@ -972,4 +971,3 @@ msgstr "Configuration de la gestion de l'alimentation"
 
 #~ msgid "Startup properties showing WAPTdeploy GPO"
 #~ msgstr "Propriétés de démarrage affichant la GPO WAPTdeploy"
-

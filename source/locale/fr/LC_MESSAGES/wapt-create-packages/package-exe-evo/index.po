@@ -15,7 +15,6 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 
 #: ../../source/wapt-create-packages/package-exe-evo/index.rst:8
-#, fuzzy
 msgid "Advanced \\*.exe packages"
 msgstr "Créer un paquet \\*.exe evolué"
 
@@ -383,4 +382,3 @@ msgstr ""
 
 #~ msgid "name of the :mimetype:`.exe` file to execute."
 #~ msgstr ""
-

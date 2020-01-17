@@ -69,7 +69,6 @@ msgid ""
 msgstr "Visa de sécurité de l'ANSSI pour WAPT Enterprise 1.5.0.13"
 
 #: ../../source/index.rst:42
-#, fuzzy
 msgid ""
 "Cybersecurity solutions are many and diverse, but not all of them offer "
 "the same level of effectiveness, robustness and trust."
@@ -320,4 +319,3 @@ msgstr ":ref:`search`"
 #~ " les dysfonctionnements diminue du fait "
 #~ "de configurations logicielles et système "
 #~ "mieux maîtrisée et plus prévisibles ;"
-

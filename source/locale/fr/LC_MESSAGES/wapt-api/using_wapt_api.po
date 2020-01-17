@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the WAPT package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.7\n"
@@ -427,4 +426,3 @@ msgstr ""
 #: ../../source/wapt-api/using_wapt_api.rst:613
 msgid "Ping get general information from a wapt server."
 msgstr ""
-
