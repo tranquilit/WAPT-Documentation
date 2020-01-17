@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 14:09+0100\n"
+"POT-Creation-Date: 2020-01-17 14:13+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,25 +19,30 @@ msgstr ""
 #: ../../source/wapt-security/security-configuration-certificate-authentication.rst:8
 #: ../../source/wapt-security/security-configuration-certificate-authentication.rst:17
 msgid "Configuring Client-Side Certificate Authentication"
-msgstr ""
+msgstr "Configurer l'authentification par Certificat sur le Client"
 
 #: ../../source/wapt-security/security-configuration-certificate-authentication.rst:8
 msgid "certificat, WAPT, SSL / TLS, Certificate Authority, documentation"
-msgstr ""
+msgstr "certificat, WAPT, SSL / TLS, Certificat d'Authorité, documentation"
 
 #: ../../source/wapt-security/security-configuration-certificate-authentication.rst:19
 msgid "Enterprise"
-msgstr ""
+msgstr "Enterprise"
 
 #: ../../source/wapt-security/security-configuration-certificate-authentication.rst:23
 msgid "This feature is only available with WAPT **Enterprise**."
 msgstr ""
+"Cette fonctionnalité n'est disponible qu'en version **Enterprise** de "
+"WAPT."
 
 #: ../../source/wapt-security/security-configuration-certificate-authentication.rst:25
 msgid ""
 "If your business needs a public WAPT server on Internet, it can be "
 "secured with **Client-Side Certificate Authentication**."
 msgstr ""
+"Si votre entreprise a besoin d'un serveur WAPT ouvert sur Internet, il "
+"peut être securisé grâce à l'**authentification par Certificat sur le "
+"Client**."
 
 #: ../../source/wapt-security/security-configuration-certificate-authentication.rst:28
 msgid ""
@@ -45,28 +50,37 @@ msgid ""
 "registered clients only. It is done by relying on the WAPT agent's "
 "private key generated during registration. It works as follows:"
 msgstr ""
+"Cette configuration restreint la visibilité du serveur WAPT aux clients "
+"enregistrés uniquement. Cela se base sur la clé privée de l'agent généré "
+"lors de son enregistrement. Il marche comme ce qui suit:"
 
 #: ../../source/wapt-security/security-configuration-certificate-authentication.rst:32
 msgid ""
 "the WAPT agent sends a :abbr:`CSR (Certificate Signing Request)` to the "
 "WAPT server which the WAPT server signs and sends back to WAPT agent;"
 msgstr ""
+"l'agent WAPT envoie un :abbr:`CSR (Certificate Signing Request)` au "
+"serveur WAPT que ce dernier va signer et renvoyer à l'agent WAPT;"
 
 #: ../../source/wapt-security/security-configuration-certificate-authentication.rst:35
 msgid ""
 "using the signed certificate, the agent can access protected parts of the"
 " :program:`Nginx` web server;"
 msgstr ""
+"en utilisant le certificat signé, l'agent peut accéder à l'arborescence protégée"
+" du serveur web :program:`Nginx`;"
 
 #: ../../source/wapt-security/security-configuration-certificate-authentication.rst:40
 msgid ""
 "We advise you to enable Kerberos or login / password registration in WAPT"
 " Server post-configuration."
 msgstr ""
+"Nous vous recommandons d'activer Kerberos ou bien l'enregistrement par "
+"identifiant / mot de passe dans le post-configuration du serveur WAPT."
 
 #: ../../source/wapt-security/security-configuration-certificate-authentication.rst:44
 msgid "Enabling Client-Side Certificate Authentication"
-msgstr ""
+msgstr "Activer l'authentification par Certificat sur le Client"
 
 #: ../../source/wapt-security/security-configuration-certificate-authentication.rst:46
 msgid ""
@@ -74,10 +88,13 @@ msgid ""
 "auth.conf`. This file is used to restrict access to specific actions with"
 " Certificate Authentication:"
 msgstr ""
+"Ajoutez une configuration :program:`Nginx` dans le fichier "
+":file:`/etc/nginx/certificate-auth.conf`. Ce fichier est utilisé pour "
+"restreindre l'accès aux actions propres au Certificat d'Authentification:"
 
 #: ../../source/wapt-security/security-configuration-certificate-authentication.rst:58
 msgid "Example config file:"
-msgstr ""
+msgstr "Exemple d'un fichier de configuration:"
 
 #: ../../source/wapt-security/security-configuration-certificate-authentication.rst:152
 msgid ""
@@ -85,3 +102,7 @@ msgid ""
 "Revocation Lists)`, which means that when you delete a machine in the "
 "WAPT console, the machine will still have access to the WAPT repository."
 msgstr ""
+"Soyez prudent, en date du |date|, WAPT ne supporte pas les :abbr:`CRL "
+"(Certificate Revocation Lists)`, ce qui signifie que lorsque vous "
+"supprimez une machine dans la console WAPT, la machine pourra toujours "
+"accéder au répertoire WAPT."
