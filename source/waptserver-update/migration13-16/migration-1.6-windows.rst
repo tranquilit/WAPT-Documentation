@@ -61,9 +61,9 @@ of :program:`waptserver`.
 * install a fresh version **1.3.13** of WAPT on Linux (debian 8 x64)
   or CentOS7/ RedHat7 (x64):
 
-To install a new Linux Debian9 (Stretch) on a physical or virtual machine
+To install a new Linux Debian 10 (Buster) on a physical or virtual machine
 without a graphical user interface, please visit the official
-documentation for `Debian9 <https://www.debian.org/releases/stretch/amd64/>`_.
+documentation for `Debian9 <https://www.debian.org/releases/buster/amd64/>`_.
 
 * if the WAPT agents point to an IP address, then the new Debian based WAPT
   Server must have the same IP address as the old Windows based WAPT Server.

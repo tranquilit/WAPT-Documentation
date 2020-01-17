@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 14:09+0100\n"
+"POT-Creation-Date: 2020-01-17 10:23+0100\n"
 "PO-Revision-Date: 2019-03-01 10:59+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -23,43 +23,47 @@ msgstr "Recompiler WAPT à partir des sources"
 msgid "Python, WAPT, virtualenv, CodeTyphon, Lazarus, InnoSetup, documentation"
 msgstr "Python, WAPT, virtualenv, CodeTyphon, Lazarus, InnoSetup"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:16
+#: ../../source/wapt-contribute/rebuild-wapt.rst:17
+msgid "Rebuilding on Windows"
+msgstr ""
+
+#: ../../source/wapt-contribute/rebuild-wapt.rst:19
 msgid "Todo"
 msgstr "Todo"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:18
+#: ../../source/wapt-contribute/rebuild-wapt.rst:21
 msgid "Review this section"
 msgstr "Review this section"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:21
+#: ../../source/wapt-contribute/rebuild-wapt.rst:24
 msgid "WAPT components"
 msgstr "Composants de WAPT"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:23
+#: ../../source/wapt-contribute/rebuild-wapt.rst:26
 msgid "Python environment"
 msgstr "Environment Python"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:25
+#: ../../source/wapt-contribute/rebuild-wapt.rst:28
 msgid "Python 2.7.13;"
 msgstr "Python 2.7.13 ;"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:27
+#: ../../source/wapt-contribute/rebuild-wapt.rst:30
 msgid "client python libraries in :file:`requirements.txt`;"
 msgstr "client python libraries in :file:`requirements.txt` ;"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:29
+#: ../../source/wapt-contribute/rebuild-wapt.rst:32
 msgid "server python libraries in :file:`requirements-server.txt`;"
 msgstr "server python libraries in :file:`requirements-server.txt` ;"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:32
+#: ../../source/wapt-contribute/rebuild-wapt.rst:35
 msgid "Create a development environment with virtualenv"
 msgstr "créer l'environment de développement ``virtualenv`` ;"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:34
+#: ../../source/wapt-contribute/rebuild-wapt.rst:37
 msgid "With a clean Windows installed:"
 msgstr "Pour une installation propre de zéro sur Windows :"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:36
+#: ../../source/wapt-contribute/rebuild-wapt.rst:39
 msgid ""
 "install python2.7.12 from "
 "https://www.python.org/ftp/python/2.7.12/python-2.7.12.msi;"
@@ -67,27 +71,27 @@ msgstr ""
 "installer python2.7.12 depuis "
 "https://www.python.org/ftp/python/2.7.12/python-2.7.12.msi ;"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:38
+#: ../../source/wapt-contribute/rebuild-wapt.rst:41
 msgid "upgrade :program:`python-setuptools`:"
 msgstr "mettre à jour :program:`python-setuptools` :"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:44
+#: ../../source/wapt-contribute/rebuild-wapt.rst:47
 msgid "create a development environment with ``virtualenv``;"
 msgstr "créer l'environment de développement ``virtualenv`` ;"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:54
+#: ../../source/wapt-contribute/rebuild-wapt.rst:57
 msgid "Build environment on Debian Linux"
 msgstr "Environment de build sur Linux Debian"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:67
+#: ../../source/wapt-contribute/rebuild-wapt.rst:70
 msgid "Lazarus environment"
 msgstr "Environment Lazarus"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:69
+#: ../../source/wapt-contribute/rebuild-wapt.rst:72
 msgid "WAPT relies on the following third-party freepascal/ lazarus librairies:"
 msgstr "WAPT utilise les bibliothèques tierces freepascal / lazarus suivantes :"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:71
+#: ../../source/wapt-contribute/rebuild-wapt.rst:74
 msgid ""
 "pl_indy: http://www.pilotlogic.com/sitejoom/index.php/wiki/85-wiki"
 "/codetyphon-studio/ct-packages/271-pl-indy;"
@@ -95,11 +99,11 @@ msgstr ""
 "pl_indy : http://www.pilotlogic.com/sitejoom/index.php/wiki/85-wiki"
 "/codetyphon-studio/ct-packages/271-pl-indy ;"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:73
+#: ../../source/wapt-contribute/rebuild-wapt.rst:76
 msgid "superobject: https://code.google.com/p/superobject/;"
 msgstr "superobject : https://code.google.com/p/superobject/ ;"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:75
+#: ../../source/wapt-contribute/rebuild-wapt.rst:78
 msgid ""
 "virtualtrees: http://www.pilotlogic.com/sitejoom/index.php/85-wiki"
 "/codetyphon-studio/ct-packages/301-pl-virtualtrees and "
@@ -111,33 +115,33 @@ msgstr ""
 "https://svn.code.sf.net/p/lazarus-ccr/svn/components/virtualtreeview-"
 "new/trunk/ ;"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:78
+#: ../../source/wapt-contribute/rebuild-wapt.rst:81
 msgid "python4delphi: https://code.google.com/p/python4delphi/;"
 msgstr "python4delphi : https://code.google.com/p/python4delphi/ ;"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:80
+#: ../../source/wapt-contribute/rebuild-wapt.rst:83
 msgid "delphizmq: https://github.com/bvarga/delphizmq;"
 msgstr "delphizmq : https://github.com/bvarga/delphizmq ;"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:82
+#: ../../source/wapt-contribute/rebuild-wapt.rst:85
 msgid "JCL: http://wiki.delphi-jedi.org/wiki/JCL_Installation;"
 msgstr "JCL : https://wiki.delphi-jedi.org/wiki/JCL_Installation ;"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:84
+#: ../../source/wapt-contribute/rebuild-wapt.rst:87
 msgid "thmtlport: https://svn.code.sf.net/p/lazarus-ccr/svn/components/thtmlport;"
 msgstr ""
 "thmtlport : https://svn.code.sf.net/p/lazarus-"
 "ccr/svn/components/thtmlport ;"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:87
+#: ../../source/wapt-contribute/rebuild-wapt.rst:90
 msgid "Tranquil IT packages"
 msgstr "Packages TIS"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:89
+#: ../../source/wapt-contribute/rebuild-wapt.rst:92
 msgid "pltis_python4delphi: https://github.com/tranquilit/pltis_python4delphi;"
 msgstr "pltis_python4delphi : https://github.com/tranquilit/pltis_python4delphi ;"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:91
+#: ../../source/wapt-contribute/rebuild-wapt.rst:94
 msgid ""
 "pltis_utils: https://github.com/tranquilit/pltis_utils: subset of "
 "libraries from JEDI JCL project adapted to lazarus;"
@@ -145,27 +149,27 @@ msgstr ""
 "pltis_utils : https://github.com/tranquilit/pltis_utils : sous-ensemble "
 "de librairies du projet JEDI JCL adapté à lazarus ;"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:94
+#: ../../source/wapt-contribute/rebuild-wapt.rst:97
 msgid "pltis_sogrid: https://github.com/tranquilit/pltis_sogrid;"
 msgstr "pltis_sogrid : https://github.com/tranquilit/pltis_sogrid ;"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:96
+#: ../../source/wapt-contribute/rebuild-wapt.rst:99
 msgid "pltis_superobject: https://github.com/tranquilit/pltis_superobject;"
 msgstr "pltis_superobject : https://github.com/tranquilit/pltis_superobject ;"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:99
-msgid "Building WAPT"
-msgstr "Construire WAPT"
+#: ../../source/wapt-contribute/rebuild-wapt.rst:101
+msgid "Building WAPT ++++++++++++-"
+msgstr ""
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:102
+#: ../../source/wapt-contribute/rebuild-wapt.rst:105
 msgid "Installing the WAPT development environment"
 msgstr "Créer un environment de développement avec virtualenv"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:104
+#: ../../source/wapt-contribute/rebuild-wapt.rst:107
 msgid "On a clean Windows 7 install as a :term:`Local Administrator`:"
 msgstr "en tant qu'un :term:`Administrateur Local` :"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:106
+#: ../../source/wapt-contribute/rebuild-wapt.rst:109
 msgid ""
 "install the WAPT agent from "
 "https://srvwapt.mydomain.lan/wapt/waptagent.exe;"
@@ -173,22 +177,21 @@ msgstr ""
 "installer l'agent WAPT à partir de "
 "https://srvwapt.ad.tranquil.it/wapt/waptagent.exe ;"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:108
+#: ../../source/wapt-contribute/rebuild-wapt.rst:111
 msgid "deactivate UAC;"
 msgstr "Désactiver les UAC ;"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:110
+#: ../../source/wapt-contribute/rebuild-wapt.rst:113
 msgid "show hidden files and file extensions;"
 msgstr "afficher les fichiers cachés et les extensions de fichiers ;"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:112
+#: ../../source/wapt-contribute/rebuild-wapt.rst:115
 msgid "increase the width of the CMD windows and flip to quick edit mode;"
 msgstr ""
 "augmenter la largeur des fenêtres du CMD et passer en mode édition rapide"
 " ;"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:114
-
+#: ../../source/wapt-contribute/rebuild-wapt.rst:117
 msgid ""
 "copy the code signing certificate into "
 ":file:`C:\\\\users\\\\buildbot\\\\Documents`;"
@@ -196,19 +199,19 @@ msgstr ""
 "copier le certificat de signature de code dans le fichier "
 ":file:`C:\\Users\\buildbot\\Documents` ;"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:117
+#: ../../source/wapt-contribute/rebuild-wapt.rst:120
 msgid "Installing Lazarus"
 msgstr "Installer Lazarus"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:163
+#: ../../source/wapt-contribute/rebuild-wapt.rst:166
 msgid "Installing the server environment on Windows"
 msgstr "Installer l'environnement serveur sur Windows"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:171
+#: ../../source/wapt-contribute/rebuild-wapt.rst:174
 msgid "Create the InnoSetup installers"
 msgstr "Créer les installeurs InnoSetup"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:173
+#: ../../source/wapt-contribute/rebuild-wapt.rst:176
 msgid ""
 "install Innosetup from http://www.jrsoftware.org/download.php/ispack-"
 "unicode.exe"
@@ -216,8 +219,7 @@ msgstr ""
 "installer Innosetup : https://www.jrsoftware.org/download.php/ispack-"
 "unicode.exe"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:176
-
+#: ../../source/wapt-contribute/rebuild-wapt.rst:179
 msgid ""
 "The :file:`.iss` files are located in "
 ":file:`C:\\\\tranquilit\\\\wapt\\\\waptsetup` ;"
@@ -225,7 +227,7 @@ msgstr ""
 "Les fichiers :file:`.iss` se situent dans "
 ":file:`C:\\tranquilit\\wapt\\waptsetup` ;"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:178
+#: ../../source/wapt-contribute/rebuild-wapt.rst:181
 msgid ""
 "The :program:`waptsetup` installer includes the python libraries, the "
 "command line tool :program:`wapt-get`, the local webservice "
@@ -238,7 +240,7 @@ msgstr ""
 "le webservice local :program:`waptservice`, les outils de packaging et la"
 " console WAPT :program:`waptconsole`."
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:183
+#: ../../source/wapt-contribute/rebuild-wapt.rst:186
 msgid ""
 "The file :file:`waptserver.iss` allows to build an installer that "
 "includes a Nginx web server in front and the Flask webservice "
@@ -249,7 +251,7 @@ msgstr ""
 "construire un installeur qui inclut un serveur Nginx en frontal pour le "
 "webservice Flask :program:`waptserver.py`."
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:186
+#: ../../source/wapt-contribute/rebuild-wapt.rst:189
 msgid ""
 "The :file:`waptstarter` installer only includes the local webservice and "
 "the command line tool :program:`wapt-get`. It does not include the WAPT "
@@ -261,7 +263,7 @@ msgstr ""
 ":`wapt-get`, mais pas la console WAPT :program:`waptconsole`, ni les "
 "outils de packaging."
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:190
+#: ../../source/wapt-contribute/rebuild-wapt.rst:193
 msgid ""
 ":menuselection:`Right-click on the .iss file --> Compile ` will compile "
 "an installer with :program:`InnoSetup`."
@@ -269,11 +271,11 @@ msgstr ""
 ":menuselection:`Clic-droit sur le fichier iss --> Compiler` crée un "
 "installeur avec :program:`InnoSetup`."
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:193
+#: ../../source/wapt-contribute/rebuild-wapt.rst:196
 msgid "or using the command line:"
 msgstr "ou en ligne de commande :"
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:199
+#: ../../source/wapt-contribute/rebuild-wapt.rst:202
 msgid ""
 "The installer's global parameters are defined with #define in the file "
 "header."
@@ -281,13 +283,71 @@ msgstr ""
 "Les paramètres généraux des installeurs sont définis par des #define en "
 "tête de fichier."
 
-#: ../../source/wapt-contribute/rebuild-wapt.rst:201
+#: ../../source/wapt-contribute/rebuild-wapt.rst:204
 msgid ""
 "If you do not sign the installers, you may comment the lines "
 ":code:`#define signtool ..`."
 msgstr ""
 "Si vous ne signez pas les installeurs, vous pouvez commenter les lignes "
 ":code:`#define signtool ..`."
+
+#: ../../source/wapt-contribute/rebuild-wapt.rst:209
+msgid "Rebuild WAPT Agent for MacOS"
+msgstr ""
+
+#: ../../source/wapt-contribute/rebuild-wapt.rst:212
+msgid "Generating the agent package"
+msgstr ""
+
+#: ../../source/wapt-contribute/rebuild-wapt.rst:214
+msgid ""
+"If you do not have access to the sudo command, you'll need to enable the "
+"root user. ( https://support.apple.com/en-us/HT204012 )"
+msgstr ""
+
+#: ../../source/wapt-contribute/rebuild-wapt.rst:216
+msgid ""
+"Make sure your version of Python is 2.7 ; install pip, then use pip to "
+"install the gitpython module."
+msgstr ""
+
+#: ../../source/wapt-contribute/rebuild-wapt.rst:224
+msgid "From the root of the WAPT directory, navigate to waptservice/pkg."
+msgstr ""
+
+#: ../../source/wapt-contribute/rebuild-wapt.rst:226
+msgid "Execute the createpkg script with administrator rights."
+msgstr ""
+
+#: ../../source/wapt-contribute/rebuild-wapt.rst:232
+msgid ""
+"It may ask for additional software (the Command Line Developer Tools) and"
+" install them after a prompt which you should answer 'yes' to."
+msgstr ""
+
+#: ../../source/wapt-contribute/rebuild-wapt.rst:235
+msgid ""
+"The agent package should have been generated, under a name along the "
+"lines of tis-waptagent-1.7.6.6550-tismacos-fdc24bca.pkg ."
+msgstr ""
+
+#: ../../source/wapt-contribute/rebuild-wapt.rst:239
+msgid "Installing the agent package"
+msgstr ""
+
+#: ../../source/wapt-contribute/rebuild-wapt.rst:241
+msgid "Execute the following command :"
+msgstr ""
+
+#: ../../source/wapt-contribute/rebuild-wapt.rst:246
+msgid ""
+"If the installation is successful, you should have the wapt files in /opt"
+" and access to the wapt, wapt-get, waptpython and waptservice commands."
+msgstr ""
+
+#: ../../source/wapt-contribute/rebuild-wapt.rst:249
+msgid "Rebuild WAPT Agent for Linux"
+msgstr ""
 
 #~ msgid "create a virtual environment"
 #~ msgstr "créer virtualenv"
@@ -439,4 +499,7 @@ msgstr ""
 
 #~ msgid "cmd"
 #~ msgstr "cmd"
+
+#~ msgid "Building WAPT"
+#~ msgstr "Construire WAPT"
 

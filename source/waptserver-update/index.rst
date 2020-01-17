@@ -37,7 +37,7 @@ The upgrade process follows the process for a minor update:
     with that old Debian version;
 
   * consider migrating your existing WAPT installation
-    to Debian Stretch or CentOS7;
+    to Debian Buster or CentOS7;
 
 Upgrading from 1.5 to 1.6
 -------------------------
@@ -46,12 +46,12 @@ The upgrade process follows the process for a minor update.
 
 .. note::
 
-  * if you are in Debian Jessie, it is recommended to upgrade
-    to Debian Strech 64 bits;
+  * if you are in Debian Stretch, it is recommended to upgrade
+    to Debian Buster 64 bits;
 
   * this is mandatory for the **Enterprise** version with Windows Update support;
 
-  * when upgrading to Debian9, the PostgreSQL database
+  * when upgrading to Debian10, the PostgreSQL database
     must be upgraded;
 
 Upgrading from 1.3 to 1.6

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-13 17:15+0100\n"
+"POT-Creation-Date: 2020-01-17 10:23+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -170,21 +170,40 @@ msgid "ldap_auth_ssl_enable"
 msgstr "ldap_auth_ssl_enable"
 
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:71
-msgid "False"
-msgstr "False"
+msgid "True/False"
+msgstr ""
 
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:71
-msgid "/"
-msgstr "/"
+msgid "Default value : True"
+msgstr ""
 
 #: ../../source/wapt-security/security-configuration-auth-ad.rst:74
-#: ../../source/wapt-security/security-configuration-auth-ad.rst:110
+#: ../../source/wapt-security/security-configuration-auth-ad.rst:124
 msgid "restart :program:`waptserver` with :code:`systemctl restart waptserver`;"
 msgstr ""
 "redémarrez :program:`waptserver` avec :code:`systemctl restart "
 "waptserver`;"
 
-#: ../../source/wapt-security/security-configuration-auth-ad.rst:77
+#: ../../source/wapt-security/security-configuration-auth-ad.rst:78
+msgid ""
+"For Microsoft Active Directory, Microsoft has `announced "
+"<https://support.microsoft.com/en-gb/help/4520412/2020-ldap-channel-"
+"binding-and-ldap-signing-requirement-for-windows>`_ that SimpleBind "
+"authentication on MS-AD without SSL/TLS will be blocked by default from "
+"April 2020. If you don't have a certificate installed, you'll have to "
+"modify a registry key to have authentication working."
+msgstr ""
+
+#: ../../source/wapt-security/security-configuration-auth-ad.rst:85
+msgid ""
+"By default Samba-AD does not allow SimpleBind auth without SSL/TLS. If "
+"you don't have a valid certificate you'll need to modify the `ldap server"
+" require strong auth` parameter in :file:`/etc/samba/smb.conf`. For more "
+"information you may refer to Tranquil IT documention on "
+"https://dev.tranquil.it/samba/en/"
+msgstr ""
+
+#: ../../source/wapt-security/security-configuration-auth-ad.rst:91
 msgid ""
 "Enabling SSL/ TLS support for the LDAP connection to the Active Directory"
 " Domain Controller"
@@ -192,7 +211,7 @@ msgstr ""
 "Activez le support SSL/ TLS pour les connexions LDAP dans le Contrôleur "
 "de Domaine Active Directory"
 
-#: ../../source/wapt-security/security-configuration-auth-ad.rst:79
+#: ../../source/wapt-security/security-configuration-auth-ad.rst:93
 msgid ""
 "By default, authentication on Active Directory relies on LDAP SSL "
 "(default port 646)."
@@ -200,7 +219,7 @@ msgstr ""
 "Par défaut, l'authentification d'un Active Directory se repose sur du "
 "LDAP SSL (port par défaut 646)."
 
-#: ../../source/wapt-security/security-configuration-auth-ad.rst:82
+#: ../../source/wapt-security/security-configuration-auth-ad.rst:96
 msgid ""
 "SSL/ TLS is not enabled by default on Microsoft Active Directory until a "
 "SSL certificate has been configured for the Domain Controller."
@@ -209,7 +228,7 @@ msgstr ""
 "jusqu'à ce qu'un certificat SSL soit configuré sur le Contrôleur de "
 "Domaine."
 
-#: ../../source/wapt-security/security-configuration-auth-ad.rst:87
+#: ../../source/wapt-security/security-configuration-auth-ad.rst:101
 msgid ""
 "The WAPT Server uses the Certificate Authority *bundles* from the "
 "operating system (CentOS) for validating the SSL/ TLS connection to "
@@ -219,7 +238,7 @@ msgstr ""
 "système d'exploitation (CentOS) pour valider la connexion SSL /TLS vers "
 "l'Active Directory."
 
-#: ../../source/wapt-security/security-configuration-auth-ad.rst:90
+#: ../../source/wapt-security/security-configuration-auth-ad.rst:104
 msgid ""
 "If the Active Directory certificate is self-signed or has been signed by "
 "an internal CA, you'll need to add these certificates to the certificate "
@@ -229,7 +248,7 @@ msgstr ""
 " interne, vous aurez besoin d'ajouter ces certificats au magasin de "
 "certificat de CentOS."
 
-#: ../../source/wapt-security/security-configuration-auth-ad.rst:94
+#: ../../source/wapt-security/security-configuration-auth-ad.rst:108
 #, fuzzy
 msgid ""
 "Add a :term:`Certificate Authority` in the :file:`/etc/pki/ca-"
@@ -238,7 +257,7 @@ msgstr ""
 "Ajouter un :term:`Certificat d'Authorité` dans le dossier :file:`/etc/pki"
 "/ca-trust/source/anchors/` et mettez à jour le magasin des CA."
 
-#: ../../source/wapt-security/security-configuration-auth-ad.rst:102
+#: ../../source/wapt-security/security-configuration-auth-ad.rst:116
 msgid ""
 "once you have setup LDAP SSL/ TLS on your Active Directory (please refer "
 "to Microsoft documentation for that), then you can enable support for "
@@ -248,3 +267,10 @@ msgstr ""
 "(veuillez vous référer à la documentation Microsoft), vous pouvez activer"
 " le support pour la sécurité SSL /TLS pour AD dans "
 ":file:`/opt/wapt/conf/waptserver.ini`:"
+
+#~ msgid "False"
+#~ msgstr "False"
+
+#~ msgid "/"
+#~ msgstr "/"
+

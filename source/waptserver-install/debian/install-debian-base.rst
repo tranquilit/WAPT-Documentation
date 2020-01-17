@@ -14,9 +14,9 @@
 Setting up the GNU/Linux Debian server
 ++++++++++++++++++++++++++++++++++++++
 
-In order to install a fresh Debian Linux 9 *Stretch* (physical or virtual)
+In order to install a fresh Debian Linux 10 *Buster* (physical or virtual)
 without graphical interface, please refer to the
-`Debian GNU/Linux Installation Guide <https://www.debian.org/releases/stretch/amd64/>`_.
+`Debian GNU/Linux Installation Guide <https://www.debian.org/releases/buster/amd64/>`_.
 
 .. _installation_debian_manuelle:
 

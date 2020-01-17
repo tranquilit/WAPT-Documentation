@@ -3,17 +3,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-01 11:26+0100\n"
+"POT-Creation-Date: 2020-01-17 10:29+0100\n"
 "PO-Revision-Date: 2019-12-07 14:15+0000\n"
 "Last-Translator: Bertrand LEMOIGNE <blemoigne@tranquil.it>\n"
-"Language-Team: French <https://srvweblate.tranquil.it/projects/"
-"wapt-documentation/waptserver-updateindex/fr/>\n"
 "Language: fr\n"
+"Language-Team: French <https://srvweblate.tranquil.it/projects/wapt-"
+"documentation/waptserver-updateindex/fr/>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 3.9.1\n"
 "Generated-By: Babel 2.6.0\n"
 
 #: ../../source/waptserver-update/index.rst:8
@@ -64,12 +63,13 @@ msgstr ""
 "cette ancienne version de Debian ;"
 
 #: ../../source/waptserver-update/index.rst:39
+#, fuzzy
 msgid ""
-"consider migrating your existing WAPT installation to Debian Stretch or "
+"consider migrating your existing WAPT installation to Debian Buster or "
 "CentOS7;"
 msgstr ""
-"envisagez de migrer votre installation WAPT existante vers Debian Stretch"
-" ou CentOS7 ;"
+"envisagez de migrer votre installation WAPT existante vers Debian Buster "
+"ou CentOS7 ;"
 
 #: ../../source/waptserver-update/index.rst:43
 msgid "Upgrading from 1.5 to 1.6"
@@ -80,12 +80,13 @@ msgid "The upgrade process follows the process for a minor update."
 msgstr "La mise à jour s'effectue comme une mise à jour mineure."
 
 #: ../../source/waptserver-update/index.rst:49
+#, fuzzy
 msgid ""
-"if you are in Debian Jessie, it is recommended to upgrade to Debian "
-"Strech 64 bits;"
+"if you are in Debian Stretch, it is recommended to upgrade to Debian "
+"Buster 64 bits;"
 msgstr ""
 "si vous êtes sur Debian Jessie, il est recommandé de mettre à niveau vers"
-" Debian Strech 64 bits ;"
+" Debian Buster 64 bits ;"
 
 #: ../../source/waptserver-update/index.rst:52
 msgid ""
@@ -96,7 +97,8 @@ msgstr ""
 "de Windows Update ;"
 
 #: ../../source/waptserver-update/index.rst:54
-msgid "when upgrading to Debian9, the PostgreSQL database must be upgraded;"
+#, fuzzy
+msgid "when upgrading to Debian10, the PostgreSQL database must be upgraded;"
 msgstr ""
 "lors de la mise à jour vers Debian9, la base de données PostgreSQL doit "
 "être mise à jour ;"
@@ -204,3 +206,4 @@ msgstr ""
 #~ "Update. Lors de la mise à jour "
 #~ "en Debian Stretch, la base PostgreSQL"
 #~ " devra être mise à jour en 9.6."
+
