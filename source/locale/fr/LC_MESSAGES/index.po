@@ -231,6 +231,8 @@ msgid ""
 "have better working and more predictable IT systems because of standard "
 "software configurations;"
 msgstr ""
+"avoir une meilleure qualité de travail et rendre prédictible le parc informatique "
+"grâce à une configuration standarde pour les logiciels;"
 
 #: ../../source/index.rst:110
 msgid "Source code repository"

@@ -82,7 +82,6 @@ msgid "``default_realm`` must be written with **ALL CAPS**!!"
 msgstr "``default_realm`` doit être écrit en **MAJUSCULE**!!"
 
 #: ../../source/wapt-security/security-install-kerberos.rst:64
-#, fuzzy
 msgid ""
 "Retrieving a service keytab. Use the :`command:`kinit` and "
 ":command:`klist`. You can use an :term:`Administrator` account or any "
