@@ -67,6 +67,15 @@ Performing minor updates on a CentOS/ RedHat based WAPT Server
       do not answer :guilabel:`Yes` when the post-configuration asks you
       to configure :program:`Nginx`;
 
+
+  .. attention::
+
+    * with WAPT 1.8 post-configuration, WAPT WUA packages will be moved from their current storage location to waptwua root folder (:file:`/var/www/waptwua`).
+
+    * if repository replication has been set, all KB/CAB packages will be re-synchronized on remote repositories
+
+
+
   .. code-block:: bash
 
     /opt/wapt/waptserver/scripts/postconf.sh
