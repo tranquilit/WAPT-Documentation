@@ -20,8 +20,8 @@ Upgrading the WAPT Server
    This way, you'll be able to go back easily in the rare case that
    the update fails.
 
-Upgrading from 1.6 to 1.7
--------------------------
+Upgrading from 1.6/1.7 to 1.8
+-----------------------------
 
 The upgrade process follows the process for a minor update:
 
@@ -33,7 +33,7 @@ The upgrade process follows the process for a minor update:
 
 .. attention::
 
-  * Debian Jessie is now deprecated. WAPT 1.7 will not work
+  * Debian Jessie is now deprecated. WAPT 1.8 will not work
     with that old Debian version;
 
   * consider migrating your existing WAPT installation
@@ -69,7 +69,7 @@ Minor Upgrades
 --------------
 
 This procedures concerns the classic method for upgrading the WAPT Server
-for minor versions, for exemple from 1.6.0 to 1.6.1.
+for minor versions, for exemple from 1.7.4 to 1.8.
 
 The migration process includes:
 
