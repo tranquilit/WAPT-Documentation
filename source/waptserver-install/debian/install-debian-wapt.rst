@@ -48,7 +48,7 @@ Configuring DEB repositories and installing WAPT and PostgreSQL packages
   apt-get update && apt-get upgrade
   apt-get install apt-transport-https lsb-release gnupg
   wget -O - https://wapt.tranquil.it/debian/tiswapt-pub.gpg  | apt-key add -
-  echo "deb https://wapt.tranquil.it/debian/wapt-1.7/ $(lsb_release -c -s) main" > /etc/apt/sources.list.d/wapt.list
+  echo "deb https://wapt.tranquil.it/debian/wapt-1.8/ $(lsb_release -c -s) main" > /etc/apt/sources.list.d/wapt.list
 
 .. note::
 

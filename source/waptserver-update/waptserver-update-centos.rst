@@ -37,7 +37,7 @@ Performing minor updates on a CentOS/ RedHat based WAPT Server
     cat > /etc/yum.repos.d/wapt.repo <<EOF
     [wapt]
     name=WAPT Server Repo
-    baseurl=https://wapt.tranquil.it/centos7/wapt-1.7/
+    baseurl=https://wapt.tranquil.it/centos7/wapt-1.8/
     enabled=1
     gpgcheck=0
     EOF
