@@ -6,13 +6,13 @@
    Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
-  :description: Deploying the WAPT agent
+  :description: Deploying the WAPT agent for Windows
   :keywords: waptagent.exe, waptsetup.exe, deployment, deploy, deploying,
              documentation, WAPT
 
 .. _install_waptagent:
 
-Deploying the WAPT agent For Windows
+Deploying the WAPT agent for Windows
 ====================================
 
 Two methods are available to deploy the :program:`waptagent.exe`.

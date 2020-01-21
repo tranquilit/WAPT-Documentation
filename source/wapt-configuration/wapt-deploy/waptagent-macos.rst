@@ -16,26 +16,30 @@ Deploying the WAPT agent for MacOS
 
 .. attention::
 
-  Currently, the agent has only been tested on High Sierra (version 10.13) and Mojave (10.14) while the latest version is Catalina (10.15). 
-  Catalina may have introduced changes that could prevent the agent from working.
+  Currently, the agent has only been tested on `High Sierra <https://en.wikipedia.org/wiki/MacOS_High_Sierra>`_
+  (version 10.13) and `Mojave <https://en.wikipedia.org/wiki/MacOS_Mojave>`_ (10.14)
+  while the latest MacOS version is `Catalina <https://en.wikipedia.org/wiki/MacOS_Catalina>`_
+  (10.15). Catalina may have introduced changes that could prevent the agent
+  from working.
 
-   
 Registering the agent
 +++++++++++++++++++++
 
-* You need to create and configure a wapt-get.ini file in :file:`/opt/wapt` ( :ref:`wapt-get-ini` ). An example of what it should look like is present further down on this page : you may use it after changing the parameters to suit your needs.
+* create and configure a :file:`wapt-get.ini` file in :file:`/opt/wapt`
+  ( :ref:`wapt-get-ini` ). An example of what it should look like is present
+  further down on this page : you may use it after changing
+  the parameters to suit your needs;
 
-* Finally, execute the following command to register your machine :
+* finally, execute the following command on your MacOS to register your machine:
 
 .. code-block:: bash
 
    sudo wapt-get register
-   
-   
+
 Example of a wapt-get.ini file
 ++++++++++++++++++++++++++++++
 
-.. code-block:: bash
+.. code-block:: ini
 
    [global]
    repo_url=https://waptserver.mydomain.lan/wapt

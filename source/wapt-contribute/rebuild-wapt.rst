@@ -13,17 +13,14 @@
 Recompiling WAPT from source
 ============================
 
-Rebuilding on Windows
----------------------
+Building the WAPT Agent for Windows
+-----------------------------------
 
-.. todo::
-
-  Review this section
-
-WAPT components
-+++++++++++++++
+WAPT requirements
++++++++++++++++++
 
 Python environment
+""""""""""""""""""
 
 * Python 2.7.13;
 
@@ -31,43 +28,8 @@ Python environment
 
 * server python libraries in :file:`requirements-server.txt`;
 
-Create a development environment with virtualenv
-++++++++++++++++++++++++++++++++++++++++++++++++
-
-With a clean Windows installed:
-
-* install python2.7.12 from https://www.python.org/ftp/python/2.7.12/python-2.7.12.msi;
-
-* upgrade :program:`python-setuptools`:
-
-.. code-block:: bash
-
-    c:\python27\python -m pip install -U pip setuptools
-
-* create a development environment with ``virtualenv``;
-
-
-.. code-block:: bash
-
-    mkdir c:\tranquilit
-    git clone git@github.com:tranquilit/WAPT.git (ou git clean -fxd ...)
-    cd c:\tranquilit\wapt init_workdir.bat
-
-Build environment on Debian Linux
-+++++++++++++++++++++++++++++++++
-
-.. code-block:: bash
-
-    mkdir ~/tranquilit/
-    cd ~/tranquilit/
-    git clone git@github.com:tranquilit/WAPT.git
-    cd ~/tranquilit/wapt/waptserver/deb
-    python createdeb.py
-    cd ~/tranquilit/wapt/waptrepo/deb
-    python createdeb.py
-
 Lazarus environment
-+++++++++++++++++++
+"""""""""""""""""""
 
 WAPT relies on the following third-party freepascal/ lazarus librairies:
 
@@ -87,7 +49,7 @@ WAPT relies on the following third-party freepascal/ lazarus librairies:
 * thmtlport: https://svn.code.sf.net/p/lazarus-ccr/svn/components/thtmlport;
 
 Tranquil IT packages
-++++++++++++++++++++
+""""""""""""""""""""
 
 * pltis_python4delphi: https://github.com/tranquilit/pltis_python4delphi;
 
@@ -98,8 +60,26 @@ Tranquil IT packages
 
 * pltis_superobject: https://github.com/tranquilit/pltis_superobject;
 
-Building WAPT
-++++++++++++-
+Creating a development environment with virtualenv
+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+With a clean Windows installed:
+
+* install python2.7.12 from https://www.python.org/ftp/python/2.7.12/python-2.7.12.msi;
+
+* upgrade :program:`python-setuptools`:
+
+.. code-block:: bash
+
+    c:\python27\python -m pip install -U pip setuptools
+
+* create a development environment with ``virtualenv``;
+
+  .. code-block:: bash
+
+      mkdir c:\tranquilit
+      git clone git@github.com:tranquilit/WAPT.git (ou git clean -fxd ...)
+      cd c:\tranquilit\wapt init_workdir.bat
 
 Installing the WAPT development environment
 +++++++++++++++++++++++++++++++++++++++++++
@@ -170,8 +150,8 @@ Installing the server environment on Windows
     cd \tranquilit\wapt
     waptpython waptserver\winsetup.py all
 
-Create the InnoSetup installers
-+++++++++++++++++++++++++++++++
+Creating the InnoSetup installers
++++++++++++++++++++++++++++++++++
 
 * install Innosetup from
   http://www.jrsoftware.org/download.php/ispack-unicode.exe
@@ -199,52 +179,66 @@ or using the command line:
 
   "C:\Program Files (x86)\Inno Setup 5\ISCC.exe" C:\tranquilit\wapt\waptsetup\waptsetup.iss
 
-The installer's global parameters are defined with #define in the file header.
+The installer's global parameters are defined with *#define* in the file header.
 
 If you do not sign the installers, you may comment
 the lines :code:`#define signtool ..`.
 
-
-Rebuild WAPT Agent for MacOS
-----------------------------
+Building the WAPT Agent for MacOS
+---------------------------------
 
 Generating the agent package
 ++++++++++++++++++++++++++++
 
-* If you do not have access to the sudo command, you'll need to enable the root user. ( https://support.apple.com/en-us/HT204012 )
+* if you do not have access to the :command:`sudo` command,
+  you'll need to `enable the root user <https://support.apple.com/en-us/HT204012>`_;
 
-* From the root of the WAPT directory, navigate to waptservice/pkg.
+* from the root of the WAPT directory, navigate to waptservice/pkg;
 
-* Execute the createpkg script with administrator rights.
+* execute the *createpkg* script with administrator rights;
 
-.. code-block:: bash
+  .. code-block:: bash
 
-   sudo ./createpkg.py 
+     sudo ./createpkg.py
 
-It may ask for additional software (the Command Line Developer Tools) and install them after a prompt which you should answer 'yes' to.
+It may ask for additional software (the Command Line Developer Tools)
+and install them after a prompt which you should answer :guilabel:`Yes` to;
 
-
-* The agent package should have been generated, under a name along the lines of tis-waptagent-1.7.6.6550-tismacos-fdc24bca.pkg .
-
+* the agent package should have been generated, under a name
+  along the lines of :file:`tis-waptagent-1.7.6.6550-tismacos-fdc24bca.pkg`;
 
 Installing the agent package
 ++++++++++++++++++++++++++++
 
-* Execute the following command :
+* execute the following command on your MacOS:
+
+  .. code-block:: bash
+
+     sudo installer -pkg tis-waptagent*.pkg -target /
+
+If the installation is successful, you should have the wapt files in
+:file:`/opt` and access to the :command:`wapt`, :command:`wapt-get`,
+:command:`waptpython` and :command:`waptservice` commands.
+
+* the agent should launch at the next reboot, but you probably want to start it
+  right away with the following command:
+
+  .. code-block:: bash
+
+     sudo launchctl load -w /Library/LaunchDaemons/wapt.plist
+
+Building the WAPT Agent for Linux
+---------------------------------
+
+Building the environment on Debian Linux
+++++++++++++++++++++++++++++++++++++++++
+
 .. code-block:: bash
 
-   sudo installer -pkg tis-waptagent*.pkg -target /
-   
-If the installation is successful, you should have the wapt files in /opt and access to the wapt, wapt-get, waptpython and waptservice commands.
-
-* The agent should launch at the next reboot, but you probably want to start it right now with the following command:
-.. code-block:: bash
-
-   sudo launchctl load -w /Library/LaunchDaemons/wapt.plist
-
-
-Rebuild WAPT Agent for Linux
-----------------------------
-
-
-
+    mkdir ~/tranquilit/
+    cd ~/tranquilit/
+    git clone git@github.com:tranquilit/WAPT.git
+    cd ~/tranquilit/wapt/waptserver/deb
+    python createdeb.py
+    cd ~/tranquilit/wapt/waptrepo/deb
+    python createdeb.py

@@ -6,14 +6,14 @@
    Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
-  :description: Deploying the WAPT agent on Linux
+  :description: Deploying the WAPT agent for Linux
   :keywords: waptagent, linux, deployment, deploy, deploying, documentation, WAPT
 
 .. _install_waptagent_linux:
 
-Deploying the WAPT agent on Linux
-=================================
+Deploying the WAPT agent for Linux
+==================================
 
 Currently support :
 * Debian 9 Stretch and Debian 10 Buster
-* 
+*
