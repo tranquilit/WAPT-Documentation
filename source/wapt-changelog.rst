@@ -12,6 +12,114 @@
 Changelog
 =========
 
+WAPT-1.8.0-6631 (2019-11-18) 
+----------------------------
+(hash 856cfedc)
+
+Major changes :
+++++++++++++++++++++++++++++
+
+* Client Agent for Linux Debian 8,9,10, Linux Centos 7, Ubuntu 18,19 and Mac os. the package are named wapt-agent and available in https://wapt.tranquil.it/wapt/releases/latest/ 
+
+* Repositiory access rules defined in waptconsole. Depending of client IP, site, computername, one can define which secondary reporitory to use
+
+* The package and signature process has been changed to be compatible with python3. Serialization of dict is now sorted by key alphabetically. Wapt agents prior than version 1.7.1 will not be able to use new packages. (see git hash SHA-1: f571e55594617b43ed83003faeef4911474a84db
+)
+
+* Embedded syncing mechanism to upgrade any wapt agent into a secondary remote repository.
+
+* waptconsole can now run without elevated priviledges. The build of waptagent / waptupgrade package are done in a temporary location. When editing a package from waptconsole, PyScripter should be launched with elevated priviledges.
+
+* waptagent can be digitally signed optionnally, if MS signtool.exe is present in <wapt>\utils\ and if there is a pkcs#12 p12 file with same name as personal certificate crt file, and encrypted with same password.
+
+* package filename now includes a hash of package content to make it easier to check if download is complete and if package has been scanned (improved speed for large number of packages)
+
+* The wapt admin password must be regenerated (with postconf) if it not pbkdf2 based. See in your waptserver.ini file, wapt_password must start with "$pbkdf2-"
+
+
+Fixes and detailed changelog
+++++++++++++++++++++++++++++
+
+* wapt-get.py can be run on linux and macos in addition to windows.
+
+
+* waptconsole host's packages status reportig : now displays current version with 'NEED-UPGRADE','NEED-REMOVE','ERROR' status and future version with 'NEED-INSTALL' status. The status is stored in server's DB so can be queried for reporting.
+
+* setuhelpers : there now different setuphelpers for each operating system family.
+
+* waptconsole : add an action to safely trigger upgrades on remote hosts for packages only if associated processes (impacted_process control attribute) are not running, to avoid disturbing users. (Enterprise)
+
+* wapt-get --service upgrade : add handling of --force , --notify_server_on_start=0/1, notify_server_on_finish=0/1 switches
+
+* package signature's date is now taken in account when comparing packages
+
+* add 'host_ad_site' key in [global] in wapt-get.ini to define a fake ad site for host
+
+* waptconsole / packages grid : if multiple packages are selected, the associated "show clients" grid lists packages status for selected clients (Enterprise)
+
+* waptagent build: add checkbox to enable repo rules lookup when installing agent (Enterprise)
+
+* waptconsole / import packages: Don't reimport existing dependencies. Checkbox to disable import of dependencies.
+
+* wapt-scanpackages speed optimizations : don't reextract certificates and icon for skipped package entries. use md5 from filename if supplied when scanning.
+
+* waptexit : fix arguments to waptexit for only_if_not_process_running and install_wua_updates (bool)
+
+* waptagent / waptwua fix wapt wua enabled setting reset to False when upgrading with waptagent and enabled=don't touch
+
+* waptserver / waptwua repository : all cabs files are now in root directory instead of microsft original file tree. The files are moved when upgrading to 1.8
+
+* waptupgrade package : increment build nr if building a new waptagent of the same main wapt version
+
+* waptserver parameter trusted_signers_certificates_folder :  path to trusted signers certificate directory. If defined, only packages signed by this trusted CA are accepted on the server when uploading through server
+
+* waptserver parameter 'remote_repo_support' : If true, a task is scheduled to scan repositories (waptn waptwua wapt-hosts) and creates a sync.json file for remote secondary repositories.
+
+* when buiding waptagent, don't include non CA packages certificates by default in waptagent. A chebox is added to enable non can certificates to be scanned and added
+
+* when building waptagent, one can add or remove certificates in the grid with Ctrl+Del or drag and drop.
+
+* waptconsole / hist packages status grid : fix F5 refresh
+
+* waptconsole / build agent : build an enterprise agent even if no valid licence (Enterprise)
+
+* fix forced_update_on control attribute : don't take into account for next_update_on if in the past.
+
+* waptconsole: try to accept waptserver password with non ascii chars
+
+* waptstarter: remove socle from default host profile
+
+* waptagent build : rework of server certificate path relocation when building / installing
+
+* some syntax preparation work for future python3
+
+* some preparation work for detailed ACL handling (Enterprise)
+
+
+Python libraries / modules updates
+++++++++++++++++++++++++++++++++++
+
+* use waitress for waptservice wsgi server instead of unmaintained Rocket
+
+* Flask-SocketIO 3.0.1 -> 4.2.1
+
+* MarkupSafe 1.0 -> 1.1.1
+
+* python_ldap-2.4.44 -> python_ldap-3.2.0
+
+
+WAPT-1.7.4-6237 (2019-11-18) 
+----------------------------
+
+(hash 1c00cefd)
+
+* waptserver : add fix to workaround flask-socketio bug https://github.com/miguelgrinberg/Flask-SocketIO/issues/1054 (AttributeError: 'Request' object has no attribute 'sid')
+
+* waptserver : be sure db is closed before trying to open it (for dev mode)
+
+* waptserver : add logs messages when an exception message is sent back to the user.
+
+
 WAPT-1.7.4-6237 (2019-11-18) 
 ----------------------------
 
