@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-17 10:29+0100\n"
+"POT-Creation-Date: 2020-01-21 16:12+0100\n"
 "PO-Revision-Date: 2019-12-07 14:15+0000\n"
 "Last-Translator: Bertrand LEMOIGNE <blemoigne@tranquil.it>\n"
 "Language: fr\n"
@@ -35,8 +35,8 @@ msgstr ""
 "d'échec de la mise à jour."
 
 #: ../../source/waptserver-update/index.rst:24
-msgid "Upgrading from 1.6 to 1.7"
-msgstr "Mise à jour de 1.6 vers 1.7"
+msgid "Upgrading from 1.6/1.7 to 1.8"
+msgstr "Mise à jour de 1.6/1.7 vers 1.8"
 
 #: ../../source/waptserver-update/index.rst:26
 msgid "The upgrade process follows the process for a minor update:"
@@ -56,10 +56,10 @@ msgstr ":ref :`mise à jour mineure pour Windows <wapt_minor_upgrade_windows>`
 
 #: ../../source/waptserver-update/index.rst:36
 msgid ""
-"Debian Jessie is now deprecated. WAPT 1.7 will not work with that old "
+"Debian Jessie is now deprecated. WAPT 1.8 will not work with that old "
 "Debian version;"
 msgstr ""
-"Debian Jessie est maintenant obsolète. WAPT 1.7 ne fonctionnera pas avec "
+"Debian Jessie est maintenant obsolète. WAPT 1.8 ne fonctionnera pas avec "
 "cette ancienne version de Debian ;"
 
 #: ../../source/waptserver-update/index.rst:39
@@ -115,10 +115,10 @@ msgstr "Mise à jour mineure"
 #: ../../source/waptserver-update/index.rst:71
 msgid ""
 "This procedures concerns the classic method for upgrading the WAPT Server"
-" for minor versions, for exemple from 1.6.0 to 1.6.1."
+" for minor versions, for exemple from 1.7.4 to 1.8."
 msgstr ""
 "Cette procédure concerne la mise à jour classique du serveur WAPT pour "
-"les versions mineures, par exemple de 1.6.0 à 1.6.1."
+"les versions mineures, par exemple de 1.7.4 à 1.8."
 
 #: ../../source/waptserver-update/index.rst:74
 msgid "The migration process includes:"
@@ -203,3 +203,4 @@ msgstr ""
 #~ "Update. Lors de la mise à jour "
 #~ "en Debian Stretch, la base PostgreSQL"
 #~ " devra être mise à jour en 9.6."
+

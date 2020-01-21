@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-13 11:34+0100\n"
+"POT-Creation-Date: 2020-01-21 16:12+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,7 +24,8 @@ msgstr "Sécruriser la communication entre l'agent et le serveur WAPT"
 msgid ""
 "pinning, certificate pinning, bundle, wapt-get.ini, Certificate "
 "Authority, enable-check-certificate, WAPT, documentation"
-msgstr "épingler, épinglage de certificat, paquet, wapt-get.ini, Certificat "
+msgstr ""
+"épingler, épinglage de certificat, paquet, wapt-get.ini, Certificat "
 "d'Authorité, enable-check-certificate, WAPT, documentation"
 
 #: ../../source/wapt-security/enable-check-certificate.rst:18
@@ -36,25 +37,77 @@ msgid ""
 "When running the WAPT Server post-configuration script, the script will "
 "generate a self-signed certificate in order to enable HTTPS "
 "communications."
-msgstr "Lorsque le script post-configuration est lancé sur le serveur WAPT, le script va "
-"générer un certificat auto-signé afin d'activer les communications "
-"HTTPS."
+msgstr ""
+"Lorsque le script post-configuration est lancé sur le serveur WAPT, le "
+"script va générer un certificat auto-signé afin d'activer les "
+"communications HTTPS."
 
 #: ../../source/wapt-security/enable-check-certificate.rst:23
 msgid ""
 "The WAPT agent checks the HTTPS server certificate according to the "
 "``verify_cert`` value in section ``[global]`` in :file:`C:\\\\Program "
 "Files (x86)\\\\wapt\\\\wapt-get.ini`."
-msgstr "L'agent WAPT vérifie que le certificat du serveur renseigné dans l'option "
-"``verify_cert`` de la section ``[global]`` dans le fichier :file:`C:\\\\Program "
-"Files (x86)\\\\wapt\\\\wapt-get.ini` corresponde."
+msgstr ""
+"L'agent WAPT vérifie que le certificat du serveur renseigné dans l'option"
+" ``verify_cert`` de la section ``[global]`` dans le fichier "
+":file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get.ini` corresponde."
+
+#: ../../source/wapt-security/enable-check-certificate.rst:27
+#: ../../source/wapt-security/enable-check-certificate.rst:32
+msgid "Options for ``verify_cert``"
+msgstr ""
+
+#: ../../source/wapt-security/enable-check-certificate.rst:32
+msgid "Working principle of the WAPT agent"
+msgstr ""
+
+#: ../../source/wapt-security/enable-check-certificate.rst:34
+msgid "``verify_cert`` = 0"
+msgstr ""
+
+#: ../../source/wapt-security/enable-check-certificate.rst:34
+msgid "the WAPT agent will not check the WAPT Server HTTPS certificate"
+msgstr ""
+
+#: ../../source/wapt-security/enable-check-certificate.rst:36
+msgid "``verify_cert`` = 1"
+msgstr ""
+
+#: ../../source/wapt-security/enable-check-certificate.rst:36
+msgid ""
+"the WAPT agent will check the WAPT Server HTTPS certificate using the "
+"certificate bundle :file:`C:\\\\Program Files (x86)\\\\wapt\\\\lib"
+"\\\\site-packages\\\\certifi\\\\cacert.pem`"
+msgstr ""
+
+#: ../../source/wapt-security/enable-check-certificate.rst:38
+#, fuzzy
+msgid ""
+"``verify_cert`` = C:\\\\Program Files "
+"(x86)\\\\wapt\\\\ssl\\\\srvwapt.mydomain.lan.crt"
+msgstr ""
+"cela va alors modifier le fichier :file:`wapt-get.ini` avec de spécifiée "
+"la valeur ``verify_cert`` = :file:`C:\\\\Program Files "
+"(x86)\\\\wapt\\\\ssl\\\\server\\\\srvwapt.mydomain.lan.crt`;"
+
+#: ../../source/wapt-security/enable-check-certificate.rst:38
+#, fuzzy
+msgid ""
+"the WAPT agent will check the WAPT Server HTTPS certificate with the "
+"certificate bundle :file:`C:\\\\Program Files "
+"(x86)\\\\wapt\\\\ssl\\\\srvwapt.mydomain.lan.crt`"
+msgstr ""
+"L'agent WAPT vérifie que le certificat du serveur renseigné dans l'option"
+" ``verify_cert`` de la section ``[global]`` dans le fichier "
+":file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get.ini` corresponde."
 
 #: ../../source/wapt-security/enable-check-certificate.rst:45
 msgid ""
 "To quickly and easily enable verification of the https certificate, you "
 "can use the *Pinning* method."
-msgstr "Pour activer rapidement et simplement la vérification du certificat htts, vous "
-"pouvez utiliser la méthode d'*Épinglage*"
+msgstr ""
+"Pour activer rapidement et simplement la vérification du certificat htts,"
+" vous pouvez utiliser la méthode d'*Épinglage*"
 
 #: ../../source/wapt-security/enable-check-certificate.rst:49
 msgid "Pinning the certificate"
@@ -64,8 +117,9 @@ msgstr "Épingler le certificat"
 msgid ""
 "The *pinning of certificate* consists of verifying the SSL/ TLS "
 "certificate with a well defined and restricted bundle."
-msgstr "L'*épinglage de certificat* consiste à vérifier le certificat "
-"SSL/ TLS à l'aide de la définition d'un paquet bien défini et restrictif."
+msgstr ""
+"L'*épinglage de certificat* consiste à vérifier le certificat SSL/ TLS à "
+"l'aide de la définition d'un paquet bien défini et restrictif."
 
 #: ../../source/wapt-security/enable-check-certificate.rst:56
 msgid "This method is the easiest when using a self-signed certificate."
@@ -76,18 +130,20 @@ msgid ""
 "For this, you need to launch the following commands in the Windows "
 ":program:`cmd.exe` shell (with elevated privileges if :abbr:`UAC (User "
 "Account Control)` is active)."
-msgstr "Pour cela, vous aurez besoin de lancer la commande suivante dans "
-"la console Windows :program:`cmd.exe` (avec élévation de privilèges si les :abbr:`UAC (User "
-"Account Control)` sont activées)."
+msgstr ""
+"Pour cela, vous aurez besoin de lancer la commande suivante dans la "
+"console Windows :program:`cmd.exe` (avec élévation de privilèges si les "
+":abbr:`UAC (User Account Control)` sont activées)."
 
 #: ../../source/wapt-security/enable-check-certificate.rst:62
 msgid ""
 "If you already have a Windows :program:`cmd.exe` shell open, close it and"
 " open a new shell so to take into account the updated environment "
 "variables:"
-msgstr "Si vous avez déjà une console Windows :program:`cmd.exe` d'ouverte, fermez-là et"
-" ouvrez-en une nouvelle afin de prendre en compte la mise à jour des variables "
-"d'environnement:"
+msgstr ""
+"Si vous avez déjà une console Windows :program:`cmd.exe` d'ouverte, "
+"fermez-là et ouvrez-en une nouvelle afin de prendre en compte la mise à "
+"jour des variables d'environnement:"
 
 #: ../../source/wapt-security/enable-check-certificate.rst:72
 msgid "Validate the certificate with :command:`wapt-get update`"
@@ -98,70 +154,77 @@ msgid ""
 "When you have executed the :command:`update` command, make sure that "
 "everything has gone well, and if in doubt check "
 ":ref:`error_run_check_cert`."
-msgstr "Lorsque vous avez exécuté la commande :command:`update`, assurez-vous que "
-"tout ce soit bien déroulé et en cas de doute, vérifiez "
+msgstr ""
+"Lorsque vous avez exécuté la commande :command:`update`, assurez-vous que"
+" tout ce soit bien déroulé et en cas de doute, vérifiez "
 ":ref:`error_run_check_cert`."
-
 
 #: ../../source/wapt-security/enable-check-certificate.rst:79
 msgid ""
 "the command *enable-check-certificate* downloads the certificate "
 ":file:`srvwapt.mydomain.lan.crt` in the folder :file:`C:\\\\Program Files"
 " (x86)\\\\WAPT\\\\ssl\\\\server`;"
-msgstr "La commande *enable-check-certificate* va télécharger le certificat "
-":file:`srvwapt.mydomain.lan.crt` dans le dossier :file:`C:\\\\Program Files"
-" (x86)\\\\WAPT\\\\ssl\\\\server`;"
+msgstr ""
+"La commande *enable-check-certificate* va télécharger le certificat "
+":file:`srvwapt.mydomain.lan.crt` dans le dossier :file:`C:\\\\Program "
+"Files (x86)\\\\WAPT\\\\ssl\\\\server`;"
 
 #: ../../source/wapt-security/enable-check-certificate.rst:83
 msgid ""
 "it then modifies the file :file:`wapt-get.ini` to specify the value "
 "``verify_cert`` = :file:`C:\\\\Program Files "
 "(x86)\\\\wapt\\\\ssl\\\\server\\\\srvwapt.mydomain.lan.crt`;"
-msgstr "cela va alors modifier le fichier :file:`wapt-get.ini` avec de spécifiée la valeur "
-"``verify_cert`` = :file:`C:\\\\Program Files "
+msgstr ""
+"cela va alors modifier le fichier :file:`wapt-get.ini` avec de spécifiée "
+"la valeur ``verify_cert`` = :file:`C:\\\\Program Files "
 "(x86)\\\\wapt\\\\ssl\\\\server\\\\srvwapt.mydomain.lan.crt`;"
-
 
 #: ../../source/wapt-security/enable-check-certificate.rst:87
 msgid "the WAPT agent will now verify certificates using the pinned certificate;"
-msgstr "l'agent WAPT va désormais vérifier les certificats en utilisant le certificat épinglé;"
+msgstr ""
+"l'agent WAPT va désormais vérifier les certificats en utilisant le "
+"certificat épinglé;"
 
 #: ../../source/wapt-security/enable-check-certificate.rst:91
 msgid ""
 "If you use the *certificate pinning* method, be reminded to archive the "
 ":file:`/opt/wapt/waptserver/ssl` folder on your WAPT Server."
-msgstr "Si vous utilisez la méthode d'*épinglage de certificat*, n'oubliez pas de sauvegarder le "
-"dossier :file:`/opt/wapt/waptserver/ssl` sur votre serveur WAPT."
+msgstr ""
+"Si vous utilisez la méthode d'*épinglage de certificat*, n'oubliez pas de"
+" sauvegarder le dossier :file:`/opt/wapt/waptserver/ssl` sur votre "
+"serveur WAPT."
 
 #: ../../source/wapt-security/enable-check-certificate.rst:94
 msgid ""
 "The file will have to be restored on your server if you migrate or "
 "upgrade your WAPT Server, if you want the WAPT agents to continue to be "
 "able to establish trusted HTTPS connections."
-msgstr "Le fichier devra être restauré sur votre serveur si vous migrez ou "
-"mettez à jour votre seveur WAPT, si vous voulez que les agents WAPT continuent "
+msgstr ""
+"Le fichier devra être restauré sur votre serveur si vous migrez ou mettez"
+" à jour votre seveur WAPT, si vous voulez que les agents WAPT continuent "
 "d'avoir une connexion HTTPS sécurisée."
 
 #: ../../source/wapt-security/enable-check-certificate.rst:99
 msgid ""
 "How to use a commercial certificate or certificates provided by your "
 "organization?"
-msgstr "Comment utiliser le ou les certificat(s) founi(s) par votre "
-"organisation ?"
+msgstr "Comment utiliser le ou les certificat(s) founi(s) par votre organisation ?"
 
 #: ../../source/wapt-security/enable-check-certificate.rst:101
 msgid ""
 "If the pinning method does not suit you, you can replace the self-signed "
 "certificate generated during the installation of :program:`WAPT`."
-msgstr "Si la méthode d'épinglage ne vous convient pas, vous pouvez remplacer le certificat "
-"auto-signé généré pendant l'installation de :program:`WAPT`."
+msgstr ""
+"Si la méthode d'épinglage ne vous convient pas, vous pouvez remplacer le "
+"certificat auto-signé généré pendant l'installation de :program:`WAPT`."
 
 #: ../../source/wapt-security/enable-check-certificate.rst:105
 msgid ""
 "Replace the old certificate with the new one in the folder "
 ":file:`/opt/wapt/waptserver/ssl/` (linux) or "
 ":file:`c:\\\\wapt\\\\waptserver\\\\ssl\\\\` (windows)."
-msgstr "Remplacez l'ancien certificat avec le nouveau dans le dossier "
+msgstr ""
+"Remplacez l'ancien certificat avec le nouveau dans le dossier "
 ":file:`/opt/wapt/waptserver/ssl/` (linux) ou "
 ":file:`c:\\\\wapt\\\\waptserver\\\\ssl\\\\` (windows)."
 
@@ -173,8 +236,9 @@ msgstr "La nouvelle paire de clé doit être une PEM encodée en Base64 "
 msgid ""
 "**Special case where your certificate has been signed by an internal "
 "Certificate Authority**"
-msgstr "**Cas spécifique où votre certificat a été signé par un "
-"Certificat d'Authorité** interne"
+msgstr ""
+"**Cas spécifique où votre certificat a été signé par un Certificat "
+"d'Authorité** interne"
 
 #: ../../source/wapt-security/enable-check-certificate.rst:116
 msgid ""
@@ -183,16 +247,15 @@ msgid ""
 "Authority`'s certificate."
 msgstr ""
 "Les certificats issus d'un :term:`Certificat d'Authorité` interne doit "
-"avoir la chaîne complète jusqu'au :term:`Certificat "
-"d'Authorité`."
+"avoir la chaîne complète jusqu'au :term:`Certificat d'Authorité`."
 
 #: ../../source/wapt-security/enable-check-certificate.rst:120
 msgid ""
 "You can manually add the certificate chain up to the Certificate "
 "Authority to the certificate that will be used by :program:`Nginx`."
 msgstr ""
-"Vous pouvez ajouter la chaîne du Certificat d'Authorité manuellement "
-"au certificat qui sera utilisé par :program:`Nginx`.""
+"Vous pouvez ajouter la chaîne du Certificat d'Authorité manuellement au "
+"certificat qui sera utilisé par :program:`Nginx`.\""
 
 #: ../../source/wapt-security/enable-check-certificate.rst:123
 msgid "Example: :code:`echo srvwapt.mydomain.lan.crt ca.crt > cert.pem`"
@@ -208,7 +271,9 @@ msgstr ""
 
 #: ../../source/wapt-security/enable-check-certificate.rst:136
 msgid "restart :program:`Nginx` to take into account the new certificates;"
-msgstr "redémarrer :program:`Nginx` pour qu'il prenne en compte les nouveaux certificats;"
+msgstr ""
+"redémarrer :program:`Nginx` pour qu'il prenne en compte les nouveaux "
+"certificats;"
 
 #: ../../source/wapt-security/enable-check-certificate.rst:138
 msgid "Linux:"
@@ -227,8 +292,8 @@ msgid ""
 "For a commercial certificate you can set ``verify_cert`` = 1 in :file"
 ":`wapt-get.ini`."
 msgstr ""
-"Pour un certificat commercial, vous pouvez paramétrer ``verify_cert`` = 1 dans :file"
-":`wapt-get.ini`."
+"Pour un certificat commercial, vous pouvez paramétrer ``verify_cert`` = 1"
+" dans :file:`wapt-get.ini`."
 
 #: ../../source/wapt-security/enable-check-certificate.rst:157
 msgid ""
@@ -239,16 +304,16 @@ msgid ""
 msgstr ""
 "Pour un certificat issu d'un Certificat d'Authorité interne, vous devez "
 "placer le certificat dans le dossier :file:`C:\\\\Program Files "
-"(x86)\\\\wapt\\\\ssl\\\\server\\\\ca.crt` et renseigner le "
-"chemin du certificat dans ``verify_cert`` dans le :file:`wapt-get.ini`. de l'agent."
+"(x86)\\\\wapt\\\\ssl\\\\server\\\\ca.crt` et renseigner le chemin du "
+"certificat dans ``verify_cert`` dans le :file:`wapt-get.ini`. de l'agent."
 
 #: ../../source/wapt-security/enable-check-certificate.rst:163
 msgid ""
 "To apply the new configuration to your entire fleet, you can regenerate a"
 " WAPT agent with the appropriate settings."
 msgstr ""
-"Pour appliquer la nouvelle configuration à tout votre parc, vous pouvez regénérer un"
-"agent WAPT avec les options appropriées."
+"Pour appliquer la nouvelle configuration à tout votre parc, vous pouvez "
+"regénérer unagent WAPT avec les options appropriées."
 
 #: ../../source/wapt-security/enable-check-certificate.rst:167
 msgid "Verifying the certificate in the WAPT console"
@@ -261,17 +326,18 @@ msgid ""
 "its configuration file "
 ":file:`C:\\\\Users\\\\admin\\\\AppData\\\\Local\\\\waptconsole\\\\waptconsole.ini`."
 msgstr ""
-"Lorsque la console WAPT se lance pour la première fois, elle va lire le contenu de "
-":file:`C:\\\\Program Files (x86)\\\\WAPT\\\\wapt-get.ini` et va créer "
-"son fichier de configuration dans "
+"Lorsque la console WAPT se lance pour la première fois, elle va lire le "
+"contenu de :file:`C:\\\\Program Files (x86)\\\\WAPT\\\\wapt-get.ini` et "
+"va créer son fichier de configuration dans "
 ":file:`C:\\\\Users\\\\admin\\\\AppData\\\\Local\\\\waptconsole\\\\waptconsole.ini`."
 
 #: ../../source/wapt-security/enable-check-certificate.rst:173
 msgid ""
 "This properly sets the ``verify_cert`` attribute for the HTTPS "
 "communication between the WAPT console and the WAPT Server."
-msgstr "Cela va configurer correctement l'attribut ``verify_cert`` pour "
-"les communications HTTPS entre la console WAPT et le serveur WAPT."
+msgstr ""
+"Cela va configurer correctement l'attribut ``verify_cert`` pour les "
+"communications HTTPS entre la console WAPT et le serveur WAPT."
 
 #~ msgid "Options for ``verify_cert``"
 #~ msgstr ""
@@ -306,3 +372,4 @@ msgstr "Cela va configurer correctement l'attribut ``verify_cert`` pour "
 #~ "certificate bundle :file:`C:\\\\Program Files "
 #~ "(x86)\\\\wapt\\\\ssl\\\\srvwapt.mydomain.lan.crt`"
 #~ msgstr ""
+

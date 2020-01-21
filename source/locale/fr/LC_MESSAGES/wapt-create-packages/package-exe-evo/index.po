@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-13 11:34+0100\n"
+"POT-Creation-Date: 2020-01-21 16:12+0100\n"
 "PO-Revision-Date: 2018-11-07 11:50+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -84,6 +84,132 @@ msgstr "la fonction nécessite l'ajout de la clé de désinstallation en paramè
 #: ../../source/wapt-create-packages/package-exe-evo/index.rst:43
 msgid "We make changes to the Mozilla Firefox ESR setup accordingly."
 msgstr "On modifie notre exemple Mozilla Firefox ESR en conséquence :"
+
+#: ../../source/wapt-create-packages/package-exe-evo/index.rst:61
+#, fuzzy
+msgid "List of arguments available with *install_exe_if_needed*"
+msgstr "Utiliser *install_exe_if_needed*"
+
+#: ../../source/wapt-create-packages/package-exe-evo/index.rst:66
+msgid "Settings"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-exe-evo/index.rst:66
+msgid "Default value"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-exe-evo/index.rst:66
+msgid "Description"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-exe-evo/index.rst:69
+msgid "``exe``"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-exe-evo/index.rst:69
+msgid "name of the :mimetype:`.exe` file to execute."
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-exe-evo/index.rst:70
+msgid "``silentflags``"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-exe-evo/index.rst:70
+msgid "silent parameters to pass as arguments to the installer."
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-exe-evo/index.rst:72
+msgid "``key``"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-exe-evo/index.rst:72
+#: ../../source/wapt-create-packages/package-exe-evo/index.rst:73
+#: ../../source/wapt-create-packages/package-exe-evo/index.rst:80
+msgid "None"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-exe-evo/index.rst:72
+msgid "software *uninstall key*."
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-exe-evo/index.rst:73
+msgid "``min_version``"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-exe-evo/index.rst:73
+msgid "minimal version above which the software will update."
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-exe-evo/index.rst:75
+msgid "``killbefore``"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-exe-evo/index.rst:75
+msgid "[ ]"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-exe-evo/index.rst:75
+msgid "list of programs to kill before installing the package."
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-exe-evo/index.rst:77
+msgid "``accept_returncodes``"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-exe-evo/index.rst:77
+msgid "[0,3010]"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-exe-evo/index.rst:77
+msgid "accepted codes other than 0 and 3010 returned by the function."
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-exe-evo/index.rst:79
+msgid "``timeout``"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-exe-evo/index.rst:79
+msgid "300"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-exe-evo/index.rst:79
+msgid "maximum installation wait time (in seconds)."
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-exe-evo/index.rst:80
+msgid "``get_version``"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-exe-evo/index.rst:80
+msgid ""
+"value passed as parameter to control the version number instead of the "
+"value returned by the :command:`installed_softwares` function."
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-exe-evo/index.rst:83
+msgid "``remove_old_version``"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-exe-evo/index.rst:83
+#: ../../source/wapt-create-packages/package-exe-evo/index.rst:85
+msgid "False"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-exe-evo/index.rst:83
+msgid ""
+"automatically removes an older version of a software whose uninstallkey "
+"is identical"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-exe-evo/index.rst:85
+msgid "``force``"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-exe-evo/index.rst:85
+msgid ""
+"forces the installation of the software even though the same uninstallkey"
+" has been found"
+msgstr ""
 
 #: ../../source/wapt-create-packages/package-exe-evo/index.rst:89
 msgid "As a consequence, the package will have a different behavior:"
@@ -382,3 +508,4 @@ msgstr ""
 
 #~ msgid "name of the :mimetype:`.exe` file to execute."
 #~ msgstr ""
+
