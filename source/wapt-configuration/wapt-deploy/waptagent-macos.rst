@@ -34,39 +34,66 @@ Install WAPT Agent package from public repository
   installer -pkg /Volumes/Mac/Users/johnsmith/Downloads/tis-waptagent-1.8.0.6632-tismacos-bdc0beea.pkg -target /Applications
 
 
-Registering the agent
-+++++++++++++++++++++
+Create agent configuration file
++++++++++++++++++++++++++++++++
 
-* create and configure a :file:`wapt-get.ini` file in :file:`/opt/wapt`
-  ( :ref:`wapt-get-ini` ). An example of what it should look like is present
-  further down on this page : you may use it after changing
-  the parameters to suit your needs;
+The requisities for your WAPT agent to work are :
 
-* finally, execute the following command on your MacOS to register your machine:
+* ``wapt-get.ini`` config file in :file:`/opt/wapt/`
+* a public certificate of the package-signing authority in :file:`/opt/wapt/ssl/`
 
-.. code-block:: bash
+You need to create and configure the :file:`wapt-get.ini` file in :file:`/opt/wapt` (:ref:`wapt-get-ini`). 
 
-   sudo wapt-get register
+An example of what it should look like is present further down on this page. You may use it after changing the parameters to suit your needs.
 
-Example of a wapt-get.ini file
-++++++++++++++++++++++++++++++
+.. code-block :: bash
 
-.. code-block:: ini
+  vim /opt/wapt/wapt-get.ini
 
-   [global]
-   repo_url=https://waptserver.mydomain.lan/wapt
-   send_usage_report=1
-   use_hostpackages=1
-   wapt_server=https://waptserver.mydomain.lan
-   use_kerberos=0
-   check_certificates_validity=1
-   verify_cert=/opt/wapt/ssl/verify.crt
-   personal_certificate_path=/opt/wapt/ssl/personal_certificate.crt
-   dnsdomain=
-   max_gpo_script_wait=180
-   pre_shutdown_timeout=180
-   hiberboot_enabled=0
-   host_profiles=
-   [wapt-templates]
-   repo_url=https://store.wapt.fr/wapt
-   verify_cert=1
+.. code-block :: ini
+
+  [global]
+  repo_url=https://srvwapt.mydomain.lan/wapt
+  wapt_server=https://srvwapt.mydomain.lan/
+  use_hostpackages=1
+  use_kerberos=0
+  check_certificates_validity=1
+  verify_cert=/opt/wapt/ssl/server/verify.crt
+  personal_certificate_path=/opt/wapt/private/personal_certificate.crt
+
+
+Copy package-signing certificate
+++++++++++++++++++++++++++++++++
+
+You need to copy manually, or by script, the public certificate of your package signing certificate authority.
+
+It shoud be located on your Windows machine in :file:`C:\\Program Files (x86)\\wapt\\ssl\\`.
+
+Copy your certificate(s) in :file:`/opt/wapt/ssl` using WinSCP or rsync for example.
+
+
+Copy SSL/TLS certificate
+++++++++++++++++++++++++
+ 
+If you already have configured your WAPT server to use correct Nginx SSL/TLS certificates ( :ref:`activating_HTTPS_certificate_verification` ), you must copy the certificate in your WAPT MacOS agent.
+
+It shoud be located on your Windows machine in :file:`C:\\Program Files (x86)\\wapt\\ssl\\server\\`.
+
+Copy your certificate(s) in :file:`/opt/wapt/ssl/server/` using WinSCP or rsync for example.
+
+
+Register your agent
++++++++++++++++++++
+
+.. code-block :: bash
+
+  systemctl restart waptservice.service
+
+Finally, execute the following command to register your machine :
+
+.. code-block :: bash
+
+   wapt-get register
+   wapt-get update
+
+Your MacOS Agent is now installed and configured and will appear in your WAPT Console.

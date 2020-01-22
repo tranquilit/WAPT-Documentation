@@ -26,7 +26,7 @@ Major changes :
 As a consequence, the DNS query method (with SRV records) is no more supported.
 
 * The package and signature process has been changed to be compatible with python3. Serialization of dict is now sorted by key alphabetically.
- Wapt agents prior than version 1.7.1 will not be able to use new packages. (see git hash SHA-1: f571e55594617b43ed83003faeef4911474a84db)
+  Wapt agents prior than version 1.7.1 will not be able to use new packages. (see git hash SHA-1: f571e55594617b43ed83003faeef4911474a84db)
 
 * A wapt agent can now be declared as a secondary Remote repository. Integrated syncing with main server repository is handled automatically. (Enterprise)
 
