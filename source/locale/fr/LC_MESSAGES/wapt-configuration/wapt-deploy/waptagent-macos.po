@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-21 16:12+0100\n"
+"POT-Creation-Date: 2020-01-22 14:16+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,28 +31,70 @@ msgstr ""
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:19
 msgid ""
-"Currently, the agent has only been tested on High Sierra (version 10.13) "
-"and Mojave (10.14) while the latest version is Catalina (10.15). Catalina"
-" may have introduced changes that could prevent the agent from working."
+"Currently, the agent has only been tested on `High Sierra "
+"<https://en.wikipedia.org/wiki/MacOS_High_Sierra>`_ (version 10.13) and "
+"`Mojave <https://en.wikipedia.org/wiki/MacOS_Mojave>`_ (10.14) while the "
+"latest MacOS version is `Catalina "
+"<https://en.wikipedia.org/wiki/MacOS_Catalina>`_ (10.15). Catalina may "
+"have introduced changes that could prevent the agent from working."
 msgstr ""
 
-#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:24
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:27
+msgid "Install WAPT Agent package from public repository"
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:29
+msgid ""
+"Download WAPT agent for Apple Mac OSX from Tranquil IT public repository "
+": https://wapt.tranquil.it/wapt/releases/latest/"
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:30
+msgid "Install the downloaded package using installer :"
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:38
 msgid "Registering the agent"
 msgstr ""
 
-#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:26
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:40
 msgid ""
-"You need to create and configure a wapt-get.ini file in :file:`/opt/wapt`"
-" ( :ref:`wapt-get-ini` ). An example of what it should look like is "
-"present further down on this page : you may use it after changing the "
-"parameters to suit your needs."
+"create and configure a :file:`wapt-get.ini` file in :file:`/opt/wapt` ( "
+":ref:`wapt-get-ini` ). An example of what it should look like is present "
+"further down on this page : you may use it after changing the parameters "
+"to suit your needs;"
 msgstr ""
 
-#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:28
-msgid "Finally, execute the following command to register your machine :"
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:45
+msgid ""
+"finally, execute the following command on your MacOS to register your "
+"machine:"
 msgstr ""
 
-#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:36
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:52
 msgid "Example of a wapt-get.ini file"
 msgstr ""
+
+#~ msgid ""
+#~ "Currently, the agent has only been "
+#~ "tested on High Sierra (version 10.13)"
+#~ " and Mojave (10.14) while the latest"
+#~ " version is Catalina (10.15). Catalina "
+#~ "may have introduced changes that could"
+#~ " prevent the agent from working."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You need to create and configure a"
+#~ " wapt-get.ini file in :file:`/opt/wapt` "
+#~ "( :ref:`wapt-get-ini` ). An "
+#~ "example of what it should look "
+#~ "like is present further down on "
+#~ "this page : you may use it "
+#~ "after changing the parameters to suit"
+#~ " your needs."
+#~ msgstr ""
+
+#~ msgid "Finally, execute the following command to register your machine :"
+#~ msgstr ""
 

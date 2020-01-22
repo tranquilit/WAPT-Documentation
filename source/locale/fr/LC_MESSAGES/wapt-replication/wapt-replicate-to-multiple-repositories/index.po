@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 14:09+0100\n"
+"POT-Creation-Date: 2020-01-22 14:16+0100\n"
 "PO-Revision-Date: 2018-11-06 14:34+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -89,9 +89,9 @@ msgstr ""
 
 #: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:57
 msgid ""
-"Starting with WAPT 1.7.6, repository replication can be enabled using "
-"WAPT agent installed on an existing machine, a dedicated appliance or "
-"Virtual Machine."
+"Starting with WAPT 1.8, repository replication can be enabled using WAPT "
+"agent installed on an existing machine, a dedicated appliance or Virtual "
+"Machine."
 msgstr ""
 
 #: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:59
@@ -152,160 +152,199 @@ msgid ""
 "sync by adding up elements in ``remote_repo_dirs`` parameters."
 msgstr ""
 
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:77
+msgid ""
+"Synchronization period can be configured with "
+"``local_repo_time_for_sync_start`` and ``local_repo_time_for_sync_stop`` "
+"parameters"
+msgstr ""
+
 #: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:78
+msgid ""
+"Bandwidth allocated to sync is configured with "
+"``local_repo_limit_bandwidth``"
+msgstr ""
+
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:80
 msgid ""
 "Every parameters of WAPT repository sync must be set in ``[repo-sync]`` "
 "section of :file:`wapt-get.ini`"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:82
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:84
 msgid "Enabling replication on WAPT Agent"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:84
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:86
 msgid ""
 "To enable replication on an existing agent (Linux/Windows) you need to "
 "deploy a WAPT package. It's role is to :"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:86
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:88
 msgid "Install and enable Nginx web server"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:87
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:89
 msgid "Configure nginx virtualhost"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:88
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:90
 msgid "Enable remote repository configuration in :file:`wapt-get.ini`"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:90
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:92
 msgid ""
 "A package is available in our public store to enable repository "
-"replication on Windows WAPT agent : **url**"
-msgstr ""
-
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:95
-msgid "WAPT Agent replication configuration"
+"replication on Windows WAPT agent : https://store.wapt.fr/store/tis-"
+"enable-remote-repo-nginx"
 msgstr ""
 
 #: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:97
+msgid "WAPT Agent replication configuration"
+msgstr ""
+
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:99
 msgid ""
 "WAPT Agent replication configuration is set in ``[repo-sync]`` section of"
 " :file:`wapt-get.ini` :"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:100
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:122
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:102
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:126
 msgid "Options"
 msgstr "Options"
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:100
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:122
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:102
+msgid "Mandatory"
+msgstr ""
+
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:102
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:126
 msgid "Example value"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:100
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:122
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:102
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:126
 msgid "Definition"
 msgstr "Définition"
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:102
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:104
 msgid "``enable_remote_repo``"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:102
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:124
-msgid "True"
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:104
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:106
+msgid "Yes"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:102
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:104
+msgid "``True``"
+msgstr ""
+
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:104
 msgid "Enables remote repository sync connections."
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:105
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:106
 msgid "``local_repo_path``"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:105
-msgid "/var/www/"
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:106
+msgid "``/var/www/``"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:105
-msgid "Set local root repository path"
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:106
+msgid "Set local packages root repository path"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:107
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:108
 msgid "``local_repo_time_for_sync_start``"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:107
-msgid "22:30"
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:108
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:110
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:112
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:114
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:116
+msgid "No"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:107
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:108
+msgid "``22:30``"
+msgstr ""
+
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:108
 msgid "Set sync start time (HH:MM / 24h format)"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:109
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:110
 msgid "``local_repo_time_for_sync_stop``"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:109
-msgid "05:30"
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:110
+msgid "``05:30``"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:109
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:110
 msgid "Set sync stop time (HH:MM / 24h format)"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:111
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:112
 msgid "``local_repo_sync_task_period``"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:111
-msgid "25"
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:112
+msgid "``25``"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:111
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:112
 msgid "Set sync period (minutes)"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:113
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:114
 msgid "``local_repo_limit_bandwidth``"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:113
-msgid "2"
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:114
+msgid "``2``"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:113
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:114
 msgid "Set sync allowed bandwidth (Mbits/s)"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:115
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:116
 msgid "``remote_repo_dirs``"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:115
-msgid "wapt,waptwua,wapt-host"
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:116
+msgid "``wapt,waptwua,wapt-host``"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:115
-msgid "Set synced folders (default: wapt)"
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:116
+msgid "Set synced folders (default: wapt,waptwua)"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:119
-msgid "WAPT Server need to be aware of repository sync :file:`waptserver.ini` :"
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:121
+msgid "WAPT Server replication configuration"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:124
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:123
+msgid ""
+"WAPT Server need to be aware of repository sync in ``[global]`` section "
+"of :file:`waptserver.ini` :"
+msgstr ""
+
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:128
 msgid "``remote_repo_support``"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:124
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:128
+msgid "True"
+msgstr ""
 
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:128
 msgid "Enables remote repository sync server side (sync.json)"
 msgstr "ajouter la machine distante :"
 
@@ -878,4 +917,48 @@ msgstr "ajouter la machine distante :"
 #~ "Exemple de paquet pour modifier le "
 #~ "champ *repo_url* de :file:`wapt-get.ini` "
 #~ ":"
+
+#~ msgid ""
+#~ "Starting with WAPT 1.7.6, repository "
+#~ "replication can be enabled using WAPT"
+#~ " agent installed on an existing "
+#~ "machine, a dedicated appliance or "
+#~ "Virtual Machine."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A package is available in our "
+#~ "public store to enable repository "
+#~ "replication on Windows WAPT agent : "
+#~ "**url**"
+#~ msgstr ""
+
+#~ msgid "/var/www/"
+#~ msgstr ""
+
+#~ msgid "Set local root repository path"
+#~ msgstr ""
+
+#~ msgid "22:30"
+#~ msgstr ""
+
+#~ msgid "05:30"
+#~ msgstr ""
+
+#~ msgid "25"
+#~ msgstr ""
+
+#~ msgid "2"
+#~ msgstr ""
+
+#~ msgid "wapt,waptwua,wapt-host"
+#~ msgstr ""
+
+#~ msgid "Set synced folders (default: wapt)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "WAPT Server need to be aware of"
+#~ " repository sync :file:`waptserver.ini` :"
+#~ msgstr ""
 

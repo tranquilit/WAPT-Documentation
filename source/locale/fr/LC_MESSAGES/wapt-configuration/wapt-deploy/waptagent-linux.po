@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-21 16:12+0100\n"
+"POT-Creation-Date: 2020-01-22 14:16+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,15 +18,66 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:8
-#: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:15
-msgid "Deploying the WAPT agent on Linux"
+msgid "Deploying the WAPT agent for Linux"
 msgstr ""
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:8
 msgid "waptagent, linux, deployment, deploy, deploying, documentation, WAPT"
 msgstr ""
 
-#: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:17
-msgid "Currently support : * Debian 9 Stretch and Debian 10 Buster *"
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:15
+msgid "Deploying the WAPT Agent on Linux"
 msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:17
+msgid ""
+"Download manually your WAPT Linux Agent corresponding to your OS and your"
+" WAPT Server version :"
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:21
+msgid ""
+"You can look for your corresponding version with your internet browser : "
+"https://wapt.tranquil.it/wapt/releases/"
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:22
+msgid "Copy the link of the binary that you need"
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:25
+msgid "Installation on Debian"
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:37
+msgid "Installation on CentOS"
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:52
+msgid "Registering the agent"
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:54
+msgid ""
+"You need to create and configure the :file:`wapt-get.ini` file in "
+":file:`/opt/wapt` (:ref:`wapt-get-ini`). An example of what it should "
+"look like is present further down on this page. You may use it after "
+"changing the parameters to suit your needs."
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:77
+msgid "Finally, execute the following command to register your machine :"
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:85
+msgid ""
+"Your Linux Agent is now installed and configured and will appear in your "
+"WAPT Console."
+msgstr ""
+
+#~ msgid "Deploying the WAPT agent on Linux"
+#~ msgstr ""
+
+#~ msgid "Currently support : * Debian 9 Stretch and Debian 10 Buster *"
+#~ msgstr ""
 

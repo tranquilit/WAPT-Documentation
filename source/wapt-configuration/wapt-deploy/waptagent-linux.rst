@@ -14,7 +14,7 @@
 Deploying the WAPT Agent on Linux
 =================================
 
-- Download manually your WAPT Linux Agent corresponding to your OS and your WAPT Server version :
+Download manually your WAPT Linux Agent corresponding to your OS and your WAPT Server version :
 
 .. note ::
 
@@ -24,7 +24,7 @@ Deploying the WAPT Agent on Linux
 Installation on Debian
 ++++++++++++++++++++++++++++++++++++++++
 
-.. code-block :: console
+.. code-block :: bash
 
   apt-get update && apt-get upgrade
   apt-get install apt-transport-https lsb-release gnupg
@@ -36,7 +36,7 @@ Installation on Debian
 Installation on CentOS
 ++++++++++++++++++++++++++++++++++++++++
 
-.. code-block :: console
+.. code-block :: bash
 
   cat > /etc/yum.repos.d/wapt.repo <<EOF
   [wapt]
@@ -51,14 +51,16 @@ Installation on CentOS
 Registering the agent
 =================================
 
-* You need to create and configure the :file:`wapt-get.ini` file in :file:`/opt/wapt` (:ref:`wapt-get-ini`). An example of what it should look like is present further down on this page. You may use it after changing the parameters to suit your needs.
+You need to create and configure the :file:`wapt-get.ini` file in :file:`/opt/wapt` (:ref:`wapt-get-ini`). 
 
-.. code-block :: console
-
-  vi /opt/wapt/wapt-get.ini
-
+An example of what it should look like is present further down on this page. You may use it after changing the parameters to suit your needs.
 
 .. code-block :: bash
+
+  vim /opt/wapt/wapt-get.ini
+
+
+.. code-block :: ini
 
   [global]
   repo_url=https://srvwapt.mydomain.lan/wapt
@@ -70,17 +72,16 @@ Registering the agent
   verify_cert=0
 
 
-.. code-block :: console
+.. code-block :: bash
 
   systemctl restart waptservice.service
 
-* Finally, execute the following command to register your machine :
+Finally, execute the following command to register your machine :
 
-.. code-block :: console
+.. code-block :: bash
 
    wapt-get register
    wapt-get update
 
 
 Your Linux Agent is now installed and configured and will appear in your WAPT Console.
-

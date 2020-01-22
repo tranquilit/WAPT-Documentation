@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-17 10:23+0100\n"
+"POT-Creation-Date: 2020-01-22 14:16+0100\n"
 "PO-Revision-Date: 2019-02-27 11:10+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -15,7 +15,9 @@ msgstr ""
 "Generated-By: Babel 2.6.0\n"
 
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:8
-msgid "Deploying the WAPT agent"
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:16
+#, fuzzy
+msgid "Deploying the WAPT agent for Windows"
 msgstr "Déployer l'agent WAPT"
 
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:8
@@ -23,10 +25,6 @@ msgid ""
 "waptagent.exe, waptsetup.exe, deployment, deploy, deploying, "
 "documentation, WAPT"
 msgstr "waptagent.exe, waptsetup.exe, déployer"
-
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:16
-msgid "Deploying the WAPT agent For Windows"
-msgstr "Déployer l'agent WAPT"
 
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:18
 msgid "Two methods are available to deploy the :program:`waptagent.exe`."
@@ -971,3 +969,7 @@ msgstr "Configuration de la gestion de l'alimentation"
 
 #~ msgid "Startup properties showing WAPTdeploy GPO"
 #~ msgstr "Propriétés de démarrage affichant la GPO WAPTdeploy"
+
+#~ msgid "Deploying the WAPT agent"
+#~ msgstr "Déployer l'agent WAPT"
+
