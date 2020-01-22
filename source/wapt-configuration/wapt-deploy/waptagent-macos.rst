@@ -22,6 +22,18 @@ Deploying the WAPT agent for MacOS
   (10.15). Catalina may have introduced changes that could prevent the agent
   from working.
 
+
+Install WAPT Agent package from public repository
++++++++++++++++++++++++++++++++++++++++++++++++++
+
+* Download WAPT agent for Apple Mac OSX from Tranquil IT public repository : https://wapt.tranquil.it/wapt/releases/latest/
+* Install the downloaded package using installer :
+
+.. code-block:: bash
+  
+  installer -pkg /Volumes/Mac/Users/johnsmith/Downloads/tis-waptagent-1.8.0.6632-tismacos-bdc0beea.pkg -target /Applications
+
+
 Registering the agent
 +++++++++++++++++++++
 
