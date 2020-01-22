@@ -26,17 +26,27 @@ Installation on Debian
 
 .. code-block :: console
 
-  wget https://wapt.tranquil.it/wapt/releases/wapt-1.8.x.xxxx/tis-waptagent-1.8.x.xxxx-debian-x.deb
-  dpkg -i tis-waptagent-1.8.x.xxxx-debian-x.deb
+  apt-get update && apt-get upgrade
+  apt-get install apt-transport-https lsb-release gnupg
+  wget -O - https://wapt.tranquil.it/debian/tiswapt-pub.gpg  | apt-key add -
+  echo "deb https://wapt.tranquil.it/debian/wapt-1.8/ $(lsb_release -c -s) main" > /etc/apt/sources.list.d/wapt.list
+  apt-get update
+  apt-get install tis-waptagent
 
 Installation on CentOS
 ++++++++++++++++++++++++++++++++++++++++
 
 .. code-block :: console
 
+  cat > /etc/yum.repos.d/wapt.repo <<EOF
+  [wapt]
+  name=WAPT Server Repo
+  baseurl=https://wapt.tranquil.it/centos7/wapt-1.8/
+  enabled=1
+  gpgcheck=0
+  EOF
 
-  wget https://wapt.tranquil.it/wapt/releases/wapt-1.8.x.xxxx/tis-waptagent-1.8.x.xxxx-community.el7.x86_64.rpm
-  yum install tis-waptagent-1.8.x.xxxx-community.el7.x86_64.rpm
+  yum install tis-waptagent
 
 Registering the agent
 =================================
