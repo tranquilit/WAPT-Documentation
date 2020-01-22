@@ -74,6 +74,8 @@ Enabling replication has the following effects :
 * Once ``enable_remote_repo`` is enabled on an agent, it will sync packages locally inside the ``local_repo_path`` folder.
 * It adds that agent in the :guilabel:`Repositories` tab as a Remote repository, enabling new actions such as :guilabel:`Force Sync` or :guilabel:`Check files`.
 * By default, only wapt folder is synced, you can select which folder to sync by adding up elements in ``remote_repo_dirs`` parameters.
+* Synchronization period can be configured with ``local_repo_time_for_sync_start`` and ``local_repo_time_for_sync_stop`` parameters
+* Bandwidth allocated to sync is configured with ``local_repo_limit_bandwidth``
 
 Every parameters of WAPT repository sync must be set in ``[repo-sync]`` section of :file:`wapt-get.ini`
 
@@ -87,7 +89,7 @@ To enable replication on an existing agent (Linux/Windows) you need to deploy a 
 * Configure nginx virtualhost
 * Enable remote repository configuration in :file:`wapt-get.ini`
 
-A package is available in our public store to enable repository replication on Windows WAPT agent : **url**
+A package is available in our public store to enable repository replication on Windows WAPT agent : https://store.wapt.fr/store/tis-enable-remote-repo-nginx
 
 
 
