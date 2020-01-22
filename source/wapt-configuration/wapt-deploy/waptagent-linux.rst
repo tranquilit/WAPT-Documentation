@@ -116,6 +116,16 @@ It shoud be located on your Windows machine in :file:`C:\\Program Files (x86)\\w
 
 Copy your certificate(s) in :file:`/opt/wapt/ssl/server/` using WinSCP or rsync for example.
 
+Not using SSL/TLS certificate
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If you are not using SSL/TLS certificate with your WAPT Server, you must change in :file:`/opt/wapt/wapt-get.ini` the following lines to 0 :
+
+.. code-block :: bash
+
+  check_certificates_validity=0
+  verify_cert=0
+
 
 Register your agent
 +++++++++++++++++++
