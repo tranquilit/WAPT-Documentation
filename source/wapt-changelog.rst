@@ -12,25 +12,25 @@
 Changelog
 =========
 
-WAPT-1.8.0-6631 (2019-11-18) 
+WAPT-1.8.0-6636 (2020-01-22) 
 ----------------------------
-(hash 856cfedc)
+(hash 6637bdb38b62a49a)
 
 Major changes :
 ++++++++++++++++++++++++++++
 
 * Client Agent for Linux Debian 8,9,10, Linux Centos 7, Ubuntu 18,19 and Mac os. the package are named wapt-agent and available in https://wapt.tranquil.it/wapt/releases/latest/ 
 
-* Repositiory access rules defined in waptconsole. Depending of client IP, site, computername, one can define which secondary reporitory to use
+* Repository access rules defined in waptconsole. Depending of client IP, site, computername, one can define which secondary reporitory URL to use (Enterprise).
+ 
+As a consequence, the DNS query method (with SRV records) is no more supported.
 
-* The package and signature process has been changed to be compatible with python3. Serialization of dict is now sorted by key alphabetically. Wapt agents prior than version 1.7.1 will not be able to use new packages. (see git hash SHA-1: f571e55594617b43ed83003faeef4911474a84db
-)
+* The package and signature process has been changed to be compatible with python3. Serialization of dict is now sorted by key alphabetically.
+ Wapt agents prior than version 1.7.1 will not be able to use new packages. (see git hash SHA-1: f571e55594617b43ed83003faeef4911474a84db)
 
-* Embedded syncing mechanism to upgrade any wapt agent into a secondary remote repository.
+* A wapt agent can now be declared as a secondary Remote repository. Integrated syncing with main server repository is handled automatically. (Enterprise)
 
 * waptconsole can now run without elevated priviledges. The build of waptagent / waptupgrade package are done in a temporary location. When editing a package from waptconsole, PyScripter should be launched with elevated priviledges.
-
-* waptagent can be digitally signed optionnally, if MS signtool.exe is present in <wapt>\utils\ and if there is a pkcs#12 p12 file with same name as personal certificate crt file, and encrypted with same password.
 
 * package filename now includes a hash of package content to make it easier to check if download is complete and if package has been scanned (improved speed for large number of packages)
 
@@ -40,14 +40,17 @@ Major changes :
 Fixes and detailed changelog
 ++++++++++++++++++++++++++++
 
+* waptagent can optionnally be digitally signed, if MS signtool.exe is present in <wapt>\utils\ and if there is a pkcs#12 p12 file with same name as personal certificate crt file, and encrypted with same password.
+
 * wapt-get.py can be run on linux and macos in addition to windows.
 
+* waptconsole host's packages status reporting : now displays current version with 'NEED-UPGRADE','NEED-REMOVE','ERROR' status and future version with 'NEED-INSTALL' status.
 
-* waptconsole host's packages status reportig : now displays current version with 'NEED-UPGRADE','NEED-REMOVE','ERROR' status and future version with 'NEED-INSTALL' status. The status is stored in server's DB so can be queried for reporting.
+The status is stored in server's DB HostPackagesStatus so can be queried for reporting.
 
-* setuhelpers : there now different setuphelpers for each operating system family.
+* setuphelpers : there now different setuphelpers for each operating system family.
 
-* waptconsole : add an action to safely trigger upgrades on remote hosts for packages only if associated processes (impacted_process control attribute) are not running, to avoid disturbing users. (Enterprise)
+* waptconsole : add an action to safely trigger upgrades on remote hosts only if associated processes (impacted_process control attribute) are not running, to avoid disturbing users. (Enterprise)
 
 * wapt-get --service upgrade : add handling of --force , --notify_server_on_start=0/1, notify_server_on_finish=0/1 switches
 
@@ -55,7 +58,7 @@ Fixes and detailed changelog
 
 * add 'host_ad_site' key in [global] in wapt-get.ini to define a fake ad site for host
 
-* waptconsole / packages grid : if multiple packages are selected, the associated "show clients" grid lists packages status for selected clients (Enterprise)
+* waptconsole / packages grid : if multiple packages are selected, the associated "show clients" grid shows packages status for all selected clients (Enterprise)
 
 * waptagent build: add checkbox to enable repo rules lookup when installing agent (Enterprise)
 
@@ -75,11 +78,11 @@ Fixes and detailed changelog
 
 * waptserver parameter 'remote_repo_support' : If true, a task is scheduled to scan repositories (waptn waptwua wapt-hosts) and creates a sync.json file for remote secondary repositories.
 
-* when buiding waptagent, don't include non CA packages certificates by default in waptagent. A chebox is added to enable non can certificates to be scanned and added
+* when buiding waptagent, don't include non CA packages certificates by default in waptagent. A checkbox is available to still enable non CA certificates to be scanned and added
 
-* when building waptagent, one can add or remove certificates in the grid with Ctrl+Del or drag and drop.
+* when building waptagent, can add or remove certificates in the grid with Ctrl+Del or drag and drop.
 
-* waptconsole / hist packages status grid : fix F5 refresh
+* waptconsole / host packages status grid : fix F5 refresh
 
 * waptconsole / build agent : build an enterprise agent even if no valid licence (Enterprise)
 
@@ -90,6 +93,16 @@ Fixes and detailed changelog
 * waptstarter: remove socle from default host profile
 
 * waptagent build : rework of server certificate path relocation when building / installing
+
+* Don't sign agent certificate if not valid human auth (admin, passwd or ldap) or kerberos auth provided.
+
+Be explicit on auth methods
+
+Stores registration auth method in db only if valid human auth or kerberos auth provided
+
+When registering, be sure we trust a already signed certificate with CN matching the host.
+
+Stores the signed host certificate in server DB on proper registration.
 
 * some syntax preparation work for future python3
 
