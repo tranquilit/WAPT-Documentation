@@ -12,9 +12,9 @@
 Changelog
 =========
 
-WAPT-1.8.0-6639 (2020-01-22) 
+WAPT-1.8.0-6641 (2020-01-24) 
 ----------------------------
-(hash 3ae19358)
+(hash 3dbb3de8)
 
 Major changes :
 ++++++++++++++++++++++++++++
@@ -108,6 +108,7 @@ Stores the signed host certificate in server DB on proper registration.
 
 * some preparation work for detailed ACL handling (Enterprise)
 
+* don't enable client ssl auth by default in waptserver as nginx reverse proxy server is perhaps misconfigured.
 
 Python libraries / modules updates
 ++++++++++++++++++++++++++++++++++
