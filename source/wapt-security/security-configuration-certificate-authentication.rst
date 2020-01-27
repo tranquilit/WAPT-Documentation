@@ -43,9 +43,23 @@ private key generated during registration. It works as follows:
 Enabling Client-Side Certificate Authentication
 """""""""""""""""""""""""""""""""""""""""""""""
 
+* be sure to unset the custom headers relative to client side authentication results when request is proxied
+  without being checked by nginx ssl module.
+  for the X-Ssl-Authenticated and X-Ssl-Client-DN headers. 
+  These headers are trusted by the waptserver if `X-Ssl-Authenticated` is SUCCESS
+  and waptserver.ini parameter `use_ssl_client_auth` is set to True.
+
+.. code-block:: ini
+
+    location / { 
+        ... 
+        proxy_set_header X-Ssl-Authenticated "";
+        proxy_set_header X-Ssl-Client-DN "";
+
 * add a :program:`Nginx` configuration file :file:`/etc/nginx/certificate-auth.conf`.
   This file is used to restrict access to specific actions
   with Certificate Authentication:
+
 
 .. code-block:: ini
 
@@ -96,6 +110,10 @@ Example config file:
             proxy_set_header Host $host;
             proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
             proxy_set_header X-Forwarded-Proto $scheme;
+            # be sure we ignore these headers if they are coming from clients
+            proxy_set_header X-Ssl-Client-Dn  "";
+            proxy_set_header X-Ssl-Authenticated  "";
+
 
             client_max_body_size 4096m;
             client_body_timeout 1800;
