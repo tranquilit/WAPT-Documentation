@@ -50,13 +50,14 @@ It works as follows:
   You can find the old documentation here : :ref:`syncthing_usage`
 
 
-
 Introducing WAPT Agent replication role
 ---------------------------------------
 
 Starting with WAPT 1.8, repository replication can be enabled using WAPT agent installed on an existing machine, a dedicated appliance or Virtual Machine.
 
 The replication role is deployed through a WAPT package that enables Nginx web server and configures scheduling, packages types, packages sync, and much more.
+
+Coming with that feature, repository rules allows agent to dynamically select the best WAPT repository from a list of rules stored on the server.
 
 Replication behavior
 ++++++++++++++++++++
@@ -92,9 +93,8 @@ To enable replication on an existing agent (Linux/Windows) you need to deploy a 
 A package is available in our public store to enable repository replication on Windows WAPT agent : https://store.wapt.fr/store/tis-enable-remote-repo-nginx
 
 
-
 WAPT Agent replication configuration
-++++++++++++++++++++++++++++++++++++
+""""""""""""""""""""""""""""""""""""
 
 WAPT Agent replication configuration is set in ``[repo-sync]`` section of :file:`wapt-get.ini` :
 
@@ -118,7 +118,7 @@ Options                              Mandatory               Example value      
 
 
 WAPT Server replication configuration
-+++++++++++++++++++++++++++++++++++++
+"""""""""""""""""""""""""""""""""""""
 
 WAPT Server need to be aware of repository sync in ``[global]`` section of :file:`waptserver.ini` :
 
@@ -127,3 +127,44 @@ Options                              Example value           Definition
 ==================================== ======================= ======================================================
 ``remote_repo_support``              True                    Enables remote repository sync server side (sync.json)
 ==================================== ======================= ======================================================
+
+
+Enabling repository rules
++++++++++++++++++++++++++
+
+Repository rules are configured in WAPT Console.
+
+It can be based on several parameters :
+
+==================================== =========================== ====================================================================================
+Options                              Example value               Definition
+==================================== =========================== ====================================================================================
+Domain name                          ``ad.domain.lan``           Rule based on Active Directory domain name 
+Domain sites and services            ``Paris-HQ``                Rule based on Active Directory Sites and Services
+Agent IP                             ``192.168.85.0/24``         Rule based on Agent IP sub-network
+Public IP                            ``256.89.299.22``           Rule based on Public IP (NATed hosts)
+Hostname                             ```desktop-04feb1``         Rule based on hostname
+==================================== =========================== ====================================================================================
+
+Add a rule in WAPT Console
+"""""""""""""""""""""""""""
+
+:TODO:
+
+
+Use repository rules on WAPT agent
+""""""""""""""""""""""""""""""""""
+
+.. warning::
+
+  If you already configured GeoIP redirects on Nginx, you should disable it as it might conflicts with repository rules.
+  
+
+To enable WAPT Agent repository rules usage, you must enable a settings in ``[global]`` section of :file:`wapt-get.ini` :
+
+==================================== ======================= =========================== ====================================================================================
+Options                              Mandatory               Example value               Definition
+==================================== ======================= =========================== ====================================================================================
+``use_repo_rules ``                  No                      ``True``                    Enables repository rules usage
+==================================== ======================= =========================== ====================================================================================
+
