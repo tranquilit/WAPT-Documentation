@@ -107,7 +107,7 @@ Options                              Mandatory               Example value      
 
 ``local_repo_time_for_sync_start``   No                      ``22:30``                   Set sync start time (HH:MM / 24h format)
 
-``local_repo_time_for_sync_end``    No                      ``05:30``                   Set sync stop time (HH:MM / 24h format)
+``local_repo_time_for_sync_end``     No                      ``05:30``                   Set sync stop time (HH:MM / 24h format)
 
 ``local_repo_sync_task_period``      No                      ``25``                      Set sync period (minutes)
 
@@ -115,6 +115,7 @@ Options                              Mandatory               Example value      
 
 ``remote_repo_dirs``                 No                      ``wapt,waptwua,wapt-host``  Set synced folders (default: wapt,waptwua)
 ==================================== ======================= =========================== ====================================================================================
+
 
 Below an example of :file:`wapt-get.ini` :
 
@@ -130,6 +131,7 @@ Below an example of :file:`wapt-get.ini` :
   local_repo_time_for_sync_start = 20:30
   local_repo_time_for_sync_end = 05:30
   local_repo_sync_task_period = 25
+  local_repo_limit_bandwidth = 4
   remote_repo_dirs = wapt,waptwua,wapt-host
 
 
