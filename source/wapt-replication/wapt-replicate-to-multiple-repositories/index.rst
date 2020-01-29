@@ -50,8 +50,8 @@ It works as follows:
   You can find the old documentation here : :ref:`syncthing_usage`
 
 
-Introducing WAPT Agent replication role
----------------------------------------
+WAPT Agent replication role
+---------------------------
 
 Starting with WAPT 1.8, repository replication can be enabled using WAPT agent installed on an existing machine, a dedicated appliance or Virtual Machine.
 
@@ -107,7 +107,7 @@ Options                              Mandatory               Example value      
 
 ``local_repo_time_for_sync_start``   No                      ``22:30``                   Set sync start time (HH:MM / 24h format)
 
-``local_repo_time_for_sync_stop``    No                      ``05:30``                   Set sync stop time (HH:MM / 24h format)
+``local_repo_time_for_sync_end``    No                      ``05:30``                   Set sync stop time (HH:MM / 24h format)
 
 ``local_repo_sync_task_period``      No                      ``25``                      Set sync period (minutes)
 
@@ -115,6 +115,23 @@ Options                              Mandatory               Example value      
 
 ``remote_repo_dirs``                 No                      ``wapt,waptwua,wapt-host``  Set synced folders (default: wapt,waptwua)
 ==================================== ======================= =========================== ====================================================================================
+
+Below an example of :file:`wapt-get.ini` :
+
+.. code::
+
+  [global]
+  ...
+  use_repo_rules = True
+
+  [repo-sync]
+  enable_remote_repo = True
+  local_repo_path = D:\WAPT\
+  local_repo_time_for_sync_start = 20:30
+  local_repo_time_for_sync_end = 05:30
+  local_repo_sync_task_period = 25
+  remote_repo_dirs = wapt,waptwua,wapt-host
+
 
 
 WAPT Server replication configuration
@@ -128,6 +145,9 @@ Options                              Example value           Definition
 ``remote_repo_support``              True                    Enables remote repository sync server side (sync.json)
 ==================================== ======================= ======================================================
 
+
+Repository rules
+---------------------------
 
 Enabling repository rules
 +++++++++++++++++++++++++
@@ -143,7 +163,7 @@ Domain name                          ``ad.domain.lan``           Rule based on A
 Domain sites and services            ``Paris-HQ``                Rule based on Active Directory Sites and Services
 Agent IP                             ``192.168.85.0/24``         Rule based on Agent IP sub-network
 Public IP                            ``256.89.299.22``           Rule based on Public IP (NATed hosts)
-Hostname                             ```desktop-04feb1``         Rule based on hostname
+Hostname                             ``desktop-04feb1``          Rule based on hostname
 ==================================== =========================== ====================================================================================
 
 Add a rule in WAPT Console
@@ -165,6 +185,13 @@ To enable WAPT Agent repository rules usage, you must enable a settings in ``[gl
 ==================================== ======================= =========================== ====================================================================================
 Options                              Mandatory               Example value               Definition
 ==================================== ======================= =========================== ====================================================================================
-``use_repo_rules ``                  No                      ``True``                    Enables repository rules usage
+``use_repo_rules``                   No                      ``True``                    Enables repository rules usage
 ==================================== ======================= =========================== ====================================================================================
 
+Below an example of :file:`wapt-get.ini` :
+
+.. code::
+
+  [global]
+  ...
+  use_repo_rules = True
