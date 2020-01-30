@@ -21,7 +21,44 @@ Differentiating the role level in WAPT
 .. hint::
 
   Feature only available with WAPT Enterprise
-  
+
+Introduction
+++++++++++++++++++++++++
+
+WAPT offers the possibility to differentiate adminstrator users roles base on a Public Key Infrastructure (PKI) to sign packages and actions. 
+
+.. hint::
+
+  The following description of roles differentiation is temporary as it will evolve in near future
+
+.. figure:: role-separation-schematics.png
+  :align: center
+  :alt: WAPT admins users roles differentiation
+
+  WAPT admins users roles differentiation
+
+There are three cases :
+
+====================================================== =======================================================================================================
+Private key + certificate types                        Key usages
+====================================================== =======================================================================================================
+Simple private key + certificate                       Allows authentication on WAPT console + interactions with WAPT agents
+Developer private key + certificate                    Allows authentication on WAPT console + interactions with WAPT agents + packages signing
+Certificate Authoriy (CA) private key + certificate    Allows authentication + interactions + packages signing + private key issuing
+====================================================== =======================================================================================================
+
+Common WAPT install will generate a CA private key by default, allowing private key issuing for developers 
+and package signing.
+
+It's possible to emit a Certificate Authority for each subsidiaries. It's then possible to issue personnal private key + certificate for each IT admins.
+
+By looking at the above schematics, we can deduce the following thing :
+
+* WAPT agents in HQ can be managed by HQ IT team and cannot be managed by subsidiaries IT teams.
+* WAPT agents in the subsidiary having both certificates, from HQ and subsidiary, can be managed by local IT team and by HQ IT team. 
+
+The usage of an existing PKI is possible, WAPT Console comes with a simple certificate generator.
+
 
 Generating a new certificate
 ++++++++++++++++++++++++++++
