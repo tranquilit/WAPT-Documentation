@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-30 14:49+0100\n"
+"POT-Creation-Date: 2020-01-30 18:20+0100\n"
 "PO-Revision-Date: 2019-12-10 11:15+0000\n"
 "Last-Translator: Bertrand LEMOIGNE <blemoigne@tranquil.it>\n"
 "Language: fr\n"
@@ -64,6 +64,117 @@ msgstr "WAPTtray dans la barre des tâches"
 #: ../../source/wapt-usage/wapttray.rst:40
 msgid "Functionalities of the WAPTtray"
 msgstr "Fonctionnalités de WAPTtray"
+
+#: ../../source/wapt-usage/wapttray.rst:42
+#, fuzzy
+msgid "List of functionalities of the WAPTtray"
+msgstr "Fonctionnalités de WAPTtray"
+
+#: ../../source/wapt-usage/wapttray.rst:46
+msgid "Action"
+msgstr ""
+
+#: ../../source/wapt-usage/wapttray.rst:47
+msgid "Description"
+msgstr ""
+
+#: ../../source/wapt-usage/wapttray.rst:48
+msgid "Showing the status of packages"
+msgstr ""
+
+#: ../../source/wapt-usage/wapttray.rst:49
+msgid "launches the local web interface in a browser"
+msgstr ""
+
+#: ../../source/wapt-usage/wapttray.rst:50
+msgid "Launching the installation of a update"
+msgstr ""
+
+#: ../../source/wapt-usage/wapttray.rst:51
+msgid "launches the installation of pending upgrades"
+msgstr ""
+
+#: ../../source/wapt-usage/wapttray.rst:52
+msgid "Refreshing the list of available"
+msgstr ""
+
+#: ../../source/wapt-usage/wapttray.rst:53
+msgid ""
+"refreshes the list of available packages. Double-clicking on the tray "
+"icon brings about the same effect."
+msgstr ""
+
+#: ../../source/wapt-usage/wapttray.rst:55
+msgid "Launching the WAPT console"
+msgstr ""
+
+#: ../../source/wapt-usage/wapttray.rst:56
+msgid "launches the WAPT console"
+msgstr ""
+
+#: ../../source/wapt-usage/wapttray.rst:57
+msgid "Viewing the configuration file"
+msgstr ""
+
+#: ../../source/wapt-usage/wapttray.rst:58
+msgid ""
+"opens the :file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get.ini` file "
+"with :term:`Local Administrator` privileges (credentials may be asked)"
+msgstr ""
+
+#: ../../source/wapt-usage/wapttray.rst:60
+msgid "Reloading network related service configuration"
+msgstr ""
+
+#: ../../source/wapt-usage/wapttray.rst:61
+msgid ""
+"reloads the connection to the WAPT Server in the event of a network "
+"reconfiguration"
+msgstr ""
+
+#: ../../source/wapt-usage/wapttray.rst:63
+msgid "Uploading the host's inventory to the WAPT Server"
+msgstr ""
+
+#: ../../source/wapt-usage/wapttray.rst:64
+msgid "updates the host's inventory with the WAPT Server"
+msgstr ""
+
+#: ../../source/wapt-usage/wapttray.rst:65
+msgid "Configuring all installed packages for the User"
+msgstr ""
+
+#: ../../source/wapt-usage/wapttray.rst:66
+msgid ""
+"launches a :command:`session-setup` to configure user environment for all"
+" packages installed on the host"
+msgstr ""
+
+#: ../../source/wapt-usage/wapttray.rst:68
+msgid "Canceling WAPT tasks running on the host"
+msgstr ""
+
+#: ../../source/wapt-usage/wapttray.rst:69
+msgid ""
+"shows running tasks, allows to cancel a running task, allows to cancel "
+"all running tasks"
+msgstr ""
+
+#: ../../source/wapt-usage/wapttray.rst:71
+msgid "Stopping and starting the WAPT service"
+msgstr ""
+
+#: ../../source/wapt-usage/wapttray.rst:72
+msgid "stops and reloads the *WAPTservice*"
+msgstr ""
+
+#: ../../source/wapt-usage/wapttray.rst:73
+msgid "Exiting the WAPTtray"
+msgstr ""
+
+#: ../../source/wapt-usage/wapttray.rst:74
+msgid "closes the tray :guilabel:`icon` without stopping the local *WAPTservice*"
+msgstr ""
 
 #~ msgid "Canceling WAPT tasks running on the host;"
 #~ msgstr "Annuler les tâches en cours ou à venir"

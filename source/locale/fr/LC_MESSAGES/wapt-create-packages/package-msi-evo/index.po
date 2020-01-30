@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-30 14:49+0100\n"
+"POT-Creation-Date: 2020-01-30 18:20+0100\n"
 "PO-Revision-Date: 2018-11-07 14:13+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -89,6 +89,126 @@ msgid ""
 msgstr ""
 "après installation, la fonction testera finalement la présence de la clé "
 "de déinstallation et sa version pour vérifier que tout s'est bien passé ;"
+
+#: ../../source/wapt-create-packages/package-msi-evo/index.rst:70
+msgid "List of arguments available with *install_exe_if_needed*"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-msi-evo/index.rst:75
+msgid "Settings"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-msi-evo/index.rst:75
+msgid "Default value"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-msi-evo/index.rst:75
+msgid "Description"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-msi-evo/index.rst:78
+msgid "``msi``"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-msi-evo/index.rst:78
+msgid "name of the MSI file to execute."
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-msi-evo/index.rst:79
+msgid "``min_version``"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-msi-evo/index.rst:79
+#: ../../source/wapt-create-packages/package-msi-evo/index.rst:89
+msgid "None"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-msi-evo/index.rst:79
+msgid "minimal version above which the software will update."
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-msi-evo/index.rst:81
+msgid "``killbefore``"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-msi-evo/index.rst:81
+msgid "[]"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-msi-evo/index.rst:81
+msgid "list of programs to kill before installing the package."
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-msi-evo/index.rst:83
+msgid "``accept_returncodes``"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-msi-evo/index.rst:83
+msgid "[0,3010]"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-msi-evo/index.rst:83
+msgid "accepted codes other than 0 and 3010 returned by the function."
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-msi-evo/index.rst:85
+msgid "``timeout``"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-msi-evo/index.rst:85
+msgid "300"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-msi-evo/index.rst:85
+msgid "maximum installation wait time (in seconds)."
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-msi-evo/index.rst:87
+msgid "``properties``"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-msi-evo/index.rst:87
+msgid "{}"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-msi-evo/index.rst:87
+msgid "additional properties to pass as arguments to MSI setup file."
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-msi-evo/index.rst:89
+msgid "``get_version``"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-msi-evo/index.rst:89
+msgid ""
+"value passed as parameter to control the version number instead of the "
+"value returned by the *installed_softwares* function"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-msi-evo/index.rst:93
+msgid "``remove_old_version``"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-msi-evo/index.rst:93
+#: ../../source/wapt-create-packages/package-msi-evo/index.rst:96
+msgid "False"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-msi-evo/index.rst:93
+msgid ""
+"automatically removes an older version of a software whose *uninstall "
+"key* is identical"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-msi-evo/index.rst:96
+msgid "``force``"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-msi-evo/index.rst:96
+msgid ""
+"forces the installation of the software even though the same *uninstall "
+"key* has been found"
+msgstr ""
 
 #: ../../source/wapt-create-packages/package-msi-evo/index.rst:103
 msgid ""

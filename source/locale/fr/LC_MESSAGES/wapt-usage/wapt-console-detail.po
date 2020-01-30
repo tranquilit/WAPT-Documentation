@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-30 14:49+0100\n"
+"POT-Creation-Date: 2020-01-30 18:20+0100\n"
 "PO-Revision-Date: 2019-03-01 11:05+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -46,6 +46,162 @@ msgstr "Agir sur les machines"
 #: ../../source/wapt-usage/wapt-console-detail.rst:35
 msgid "Host configuration menu"
 msgstr "Menu de configuration des postes"
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:37
+msgid ""
+"List of actions available to be performed on the hosts from the WAPT "
+"console"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:42
+#: ../../source/wapt-usage/wapt-console-detail.rst:158
+#: ../../source/wapt-usage/wapt-console-detail.rst:199
+#: ../../source/wapt-usage/wapt-console-detail.rst:369
+#: ../../source/wapt-usage/wapt-console-detail.rst:543
+#: ../../source/wapt-usage/wapt-console-detail.rst:591
+#: ../../source/wapt-usage/wapt-console-detail.rst:612
+#: ../../source/wapt-usage/wapt-console-detail.rst:680
+msgid "Description"
+msgstr "Description"
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:42
+msgid "Multi-selection"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:44
+#, fuzzy
+msgid "Edit the configuration of the host"
+msgstr "la description de la machine ;"
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:44
+#: ../../source/wapt-usage/wapt-console-detail.rst:45
+#: ../../source/wapt-usage/wapt-console-detail.rst:46
+#: ../../source/wapt-usage/wapt-console-detail.rst:47
+#: ../../source/wapt-usage/wapt-console-detail.rst:48
+#: ../../source/wapt-usage/wapt-console-detail.rst:49
+#: ../../source/wapt-usage/wapt-console-detail.rst:50
+#: ../../source/wapt-usage/wapt-console-detail.rst:51
+#: ../../source/wapt-usage/wapt-console-detail.rst:52
+#: ../../source/wapt-usage/wapt-console-detail.rst:53
+#: ../../source/wapt-usage/wapt-console-detail.rst:62
+#: ../../source/wapt-usage/wapt-console-detail.rst:63
+#: ../../source/wapt-usage/wapt-console-detail.rst:64
+#: ../../source/wapt-usage/wapt-console-detail.rst:65
+#: ../../source/wapt-usage/wapt-console-detail.rst:66
+#: ../../source/wapt-usage/wapt-console-detail.rst:67
+#: ../../source/wapt-usage/wapt-console-detail.rst:68
+#, fuzzy
+msgid "*yes*"
+msgstr "yes"
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:45
+#, fuzzy
+msgid "Refresh the list of available packages"
+msgstr ""
+"Une barre de recherche est également disponible pour filtrer les paquets "
+"lorsqu'ils sont nombreux."
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:46
+msgid "Offer the user to launch an upgrade"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:47
+msgid "Send a message to the selected hosts"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:48
+#, fuzzy
+msgid "Audit the packages installed on selected hosts"
+msgstr "Agir sur les paquets installés sur la machine"
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:49
+#: ../../source/wapt-usage/wapt-console-detail.rst:52
+msgid "Add one or more packages on selected hosts"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:50
+msgid "Remove one or more packages from selected hosts"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:51
+#, fuzzy
+msgid "Prevent packages from being installed on hosts"
+msgstr "Agir sur les paquets installés sur la machine"
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:53
+msgid "Remove the host and/or the host package"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:54
+msgid "Launch TIShelp with a remote host"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:54
+#: ../../source/wapt-usage/wapt-console-detail.rst:55
+#: ../../source/wapt-usage/wapt-console-detail.rst:56
+#: ../../source/wapt-usage/wapt-console-detail.rst:57
+#: ../../source/wapt-usage/wapt-console-detail.rst:58
+#: ../../source/wapt-usage/wapt-console-detail.rst:59
+#: ../../source/wapt-usage/wapt-console-detail.rst:60
+#: ../../source/wapt-usage/wapt-console-detail.rst:61
+msgid "*no*"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:55
+msgid "Initiate a VNC connection with the remote host"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:56
+msgid "Connect via Veyon"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:57
+msgid "Launch a RDP connection on the selected host"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:58
+msgid "Launch remote user support (msra.exe)"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:59
+msgid "Manage hosts with :program:`compmgmt.msc`"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:60
+msgid "Manage Users and Groups with :program:`lusrmgr.msc`"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:61
+msgid "Manage Services with :program:`services.msc`"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:62
+msgid "Send a WakeOnLAN special packet to selected hosts"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:63
+msgid "Search for applicable Windows updates"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:64
+msgid "Download pending Windows updates"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:65
+msgid "Trigger the installation of pending Windows updates"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:66
+msgid "Add Active Directory groups to the selected machines"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:67
+msgid "Trigger an inventory update on selected hosts"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:68
+msgid "Restart the WAPT service"
+msgstr ""
 
 #: ../../source/wapt-usage/wapt-console-detail.rst:72
 msgid "Searching a host"
@@ -195,6 +351,46 @@ msgstr "l'utilisateur connecté actuellement ou dernièrement sur le poste ;"
 msgid "Host summary"
 msgstr "Résumé de l'état de la machine"
 
+#: ../../source/wapt-usage/wapt-console-detail.rst:153
+msgid "Status of packages in the WAPT console"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:158
+msgid "Status"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:160
+msgid "List of installed WAPT packages"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:160
+msgid "Status: **OK**"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:161
+msgid "List of packages waiting to be installed"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:161
+msgid "Status: **MISSING**"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:162
+msgid "List of packages pending updates"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:162
+msgid "Status: **NEED-UPGRADE**"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:163
+msgid "List of packages that have failed to install"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:163
+msgid "Status: **ERROR**"
+msgstr ""
+
 #: ../../source/wapt-usage/wapt-console-detail.rst:166
 msgid ""
 "When a package returns a status **ERROR**, click on it to show the "
@@ -231,6 +427,60 @@ msgid ""
 msgstr ""
 "si plusieurs machines sont sélectionnées, l'action sera lancée sur toutes"
 " les machines sélectionnées ;"
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:194
+#, fuzzy
+msgid "Acting on packages installed on a specific host"
+msgstr "Agir sur les paquets installés sur la machine"
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:199
+msgid "Action"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:201
+#, fuzzy
+msgid "Install a package"
+msgstr "Interdire un paquet"
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:201
+msgid "installs the selected package on selected hosts"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:203
+#, fuzzy
+msgid "Force a package"
+msgstr "Supprimer un paquet"
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:203
+msgid "forces the re-installation of a selected package on selected hosts"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:206
+#: ../../source/wapt-usage/wapt-console-detail.rst:479
+msgid "Remove a package"
+msgstr "Supprimer un paquet"
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:206
+msgid "removes the selected package from the selected hosts"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:208
+#, fuzzy
+msgid "Forget a package"
+msgstr "Interdire un paquet"
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:208
+msgid "tells the selected hosts not to use WAPT for managing the selected package"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:211
+#, fuzzy
+msgid "Audit the package"
+msgstr "Filtrage par paquet"
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:211
+msgid "triggers an audit on the selected package"
+msgstr ""
 
 #: ../../source/wapt-usage/wapt-console-detail.rst:215
 msgid "Hardware inventory tab"
@@ -478,6 +728,89 @@ msgstr "Cocher ou décocher les filtres de votre choix."
 msgid "Advanced search functionalities in the WAPT console"
 msgstr "Fonctions de recherches avancées de la console WAPT"
 
+#: ../../source/wapt-usage/wapt-console-detail.rst:364
+msgid "Choice of filters"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:369
+#, fuzzy
+msgid "Possible options"
+msgstr "Cacher les actions non disponibles"
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:371
+#, fuzzy
+msgid ":guilabel:`Host`"
+msgstr ":guilabel:`Product` ;"
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:371
+#, fuzzy
+msgid ""
+":guilabel:`Host` section in the :guilabel:`Hardware inventory` tab when a"
+" host is selected"
+msgstr ""
+"Les informations affichées par défaut dans l'onglet :guilabel:`Windows "
+"Updates` sont :"
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:375
+#, fuzzy
+msgid ":guilabel:`Hardware`"
+msgstr ":guilabel:`éditeur` ;"
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:375
+#, fuzzy
+msgid ""
+":guilabel:`DMI` section in the :guilabel:`Hardware inventory` tab when a "
+"host is selected"
+msgstr ""
+"Les informations affichées par défaut dans l'onglet :guilabel:`Windows "
+"Updates` sont :"
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:379
+#, fuzzy
+msgid ":guilabel:`Software`"
+msgstr ":guilabel:`nom du logiciel` ;"
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:379
+msgid ":guilabel:`Software inventory` section when a host is selected"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:382
+#, fuzzy
+msgid ":guilabel:`Package`"
+msgstr ":guilabel:`éditeur` ;"
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:382
+#, fuzzy
+msgid "List of packages installed on the selected hosts"
+msgstr "Agir sur les paquets installés sur la machine"
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:384
+#, fuzzy
+msgid ":guilabel:`Have errors`"
+msgstr ":guilabel:`éditeur` ;"
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:384
+msgid "Search only for hosts for which a tasks has not finished correctly"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:387
+#, fuzzy
+msgid ":guilabel:`Needing upgrades`"
+msgstr ":guilabel:`Kbids` ;"
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:387
+msgid "Search only for hosts needing upgrades"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:389
+#, fuzzy
+msgid ":guilabel:`Group selection`"
+msgstr ":guilabel:`Product` ;"
+
+#: ../../source/wapt-usage/wapt-console-detail.rst:389
+msgid "Filter hosts based on their membership/ dependency to a group package"
+msgstr ""
+
 #: ../../source/wapt-usage/wapt-console-detail.rst:398
 msgid "Do a search based on a WAPT package"
 msgstr "Effectuer une recherche à partir d'un paquet"
@@ -608,10 +941,6 @@ msgstr ""
 ":guilabel:`Dernière version seulement`. Pour supprimer un paquet du "
 "dépôt, :menuselection:`Clic-droit --> Supprimer`."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:479
-msgid "Remove a package"
-msgstr "Supprimer un paquet"
-
 #: ../../source/wapt-usage/wapt-console-detail.rst:481
 msgid ""
 "To edit a package, :menuselection:`Right-click --> Edit package`, the "
@@ -714,13 +1043,6 @@ msgstr "onglet :guilabel:`Basique` des options de base ;"
 #: ../../source/wapt-usage/wapt-console-detail.rst:685
 msgid "Arguments"
 msgstr "Paramètres"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:543
-#: ../../source/wapt-usage/wapt-console-detail.rst:591
-#: ../../source/wapt-usage/wapt-console-detail.rst:612
-#: ../../source/wapt-usage/wapt-console-detail.rst:680
-msgid "Description"
-msgstr "Description"
 
 #: ../../source/wapt-usage/wapt-console-detail.rst:544
 #: ../../source/wapt-usage/wapt-console-detail.rst:592
