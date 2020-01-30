@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-21 16:12+0100\n"
+"POT-Creation-Date: 2020-01-30 14:49+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,55 +47,6 @@ msgid ""
 "The WAPT agent checks the HTTPS server certificate according to the "
 "``verify_cert`` value in section ``[global]`` in :file:`C:\\\\Program "
 "Files (x86)\\\\wapt\\\\wapt-get.ini`."
-msgstr ""
-"L'agent WAPT vérifie que le certificat du serveur renseigné dans l'option"
-" ``verify_cert`` de la section ``[global]`` dans le fichier "
-":file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get.ini` corresponde."
-
-#: ../../source/wapt-security/enable-check-certificate.rst:27
-#: ../../source/wapt-security/enable-check-certificate.rst:32
-msgid "Options for ``verify_cert``"
-msgstr ""
-
-#: ../../source/wapt-security/enable-check-certificate.rst:32
-msgid "Working principle of the WAPT agent"
-msgstr ""
-
-#: ../../source/wapt-security/enable-check-certificate.rst:34
-msgid "``verify_cert`` = 0"
-msgstr ""
-
-#: ../../source/wapt-security/enable-check-certificate.rst:34
-msgid "the WAPT agent will not check the WAPT Server HTTPS certificate"
-msgstr ""
-
-#: ../../source/wapt-security/enable-check-certificate.rst:36
-msgid "``verify_cert`` = 1"
-msgstr ""
-
-#: ../../source/wapt-security/enable-check-certificate.rst:36
-msgid ""
-"the WAPT agent will check the WAPT Server HTTPS certificate using the "
-"certificate bundle :file:`C:\\\\Program Files (x86)\\\\wapt\\\\lib"
-"\\\\site-packages\\\\certifi\\\\cacert.pem`"
-msgstr ""
-
-#: ../../source/wapt-security/enable-check-certificate.rst:38
-#, fuzzy
-msgid ""
-"``verify_cert`` = C:\\\\Program Files "
-"(x86)\\\\wapt\\\\ssl\\\\srvwapt.mydomain.lan.crt"
-msgstr ""
-"cela va alors modifier le fichier :file:`wapt-get.ini` avec de spécifiée "
-"la valeur ``verify_cert`` = :file:`C:\\\\Program Files "
-"(x86)\\\\wapt\\\\ssl\\\\server\\\\srvwapt.mydomain.lan.crt`;"
-
-#: ../../source/wapt-security/enable-check-certificate.rst:38
-#, fuzzy
-msgid ""
-"the WAPT agent will check the WAPT Server HTTPS certificate with the "
-"certificate bundle :file:`C:\\\\Program Files "
-"(x86)\\\\wapt\\\\ssl\\\\srvwapt.mydomain.lan.crt`"
 msgstr ""
 "L'agent WAPT vérifie que le certificat du serveur renseigné dans l'option"
 " ``verify_cert`` de la section ``[global]`` dans le fichier "
@@ -365,6 +316,11 @@ msgstr ""
 #~ "``verify_cert`` = C:\\\\Program Files "
 #~ "(x86)\\\\wapt\\\\ssl\\\\srvwapt.mydomain.lan.crt"
 #~ msgstr ""
+#~ "cela va alors modifier le fichier "
+#~ ":file:`wapt-get.ini` avec de spécifiée "
+#~ "la valeur ``verify_cert`` = "
+#~ ":file:`C:\\\\Program Files "
+#~ "(x86)\\\\wapt\\\\ssl\\\\server\\\\srvwapt.mydomain.lan.crt`;"
 
 #~ msgid ""
 #~ "the WAPT agent will check the WAPT"
@@ -372,4 +328,9 @@ msgstr ""
 #~ "certificate bundle :file:`C:\\\\Program Files "
 #~ "(x86)\\\\wapt\\\\ssl\\\\srvwapt.mydomain.lan.crt`"
 #~ msgstr ""
+#~ "L'agent WAPT vérifie que le certificat"
+#~ " du serveur renseigné dans l'option "
+#~ "``verify_cert`` de la section ``[global]`` "
+#~ "dans le fichier :file:`C:\\\\Program Files "
+#~ "(x86)\\\\wapt\\\\wapt-get.ini` corresponde."
 

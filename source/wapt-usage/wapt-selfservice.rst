@@ -122,16 +122,49 @@ Customization
 
   Feature only available with WAPT **Enterprise**.
 
+
+Logo
+""""
+
 It is possible to change the logo that appears in the self-service interface
 This will allow you to display the logo of your Organization for example.
 
 To do this, simply place the logo you want in
 :file:`<wapt>\\templates\\waptself-logo.png`
 
+
 .. note::
 
    It is highly recommended to use a :mimetype:`.png` file with a *200 x 150px*
    resolution.
+
+
+Categories
+""""""""""
+
+Default categories are
+
+* Internet
+
+* Utilities
+
+* Messaging
+
+* Security
+
+* System and network
+
+* Storage
+
+* Media
+
+* Development
+
+* Office​​
+
+But you can create your own category easily by filling the :file:`control` file's section at :guilabel:`categories` and write anything,
+**Self-Service software WAPT** will automatically take it.
+
 
 Video of WAPT self-service feature in action
 --------------------------------------------
