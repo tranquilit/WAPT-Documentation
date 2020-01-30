@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-21 16:12+0100\n"
+"POT-Creation-Date: 2020-01-30 11:42+0100\n"
 "PO-Revision-Date: 2019-12-07 14:15+0000\n"
 "Last-Translator: Bertrand LEMOIGNE <blemoigne@tranquil.it>\n"
 "Language: fr\n"
@@ -36,36 +36,41 @@ msgstr ""
 msgid "first of all, update the CentOS/ RedHat underlying distribution:"
 msgstr "d'abord mettre à jour le serveur CentOS / RedHat subjacent ;"
 
-#: ../../source/waptserver-update/waptserver-update-centos.rst:27
-msgid "upgrade the WAPT Server:"
-msgstr "mettre à niveau le serveur WAPT ;"
+#: ../../source/waptserver-update/waptserver-update-centos.rst:29
+msgid "WAPT Enterprise"
+msgstr ""
 
 #: ../../source/waptserver-update/waptserver-update-centos.rst:31
-msgid ""
-"If you subscribed to **WAPT Enterprise** don't use that repo but the "
-"Enterprise repository provided in your documentation."
-msgstr ""
-"Si vous êtes abonné à **WAPT Enterprise** n'utilisez pas ce repo mais le "
-"lien vers le dépôt Enterprise fourni dans votre documentation."
-
-#: ../../source/waptserver-update/waptserver-update-centos.rst:33
+#: ../../source/waptserver-update/waptserver-update-centos.rst:58
 msgid "Modify the repository address then launch the upgrade."
 msgstr "Modifier l'adresse du dépôt puis lancer la mise à niveau."
 
-#: ../../source/waptserver-update/waptserver-update-centos.rst:49
+#: ../../source/waptserver-update/waptserver-update-centos.rst:35
 msgid ""
-"If you have retrieved the WAPT RPM Packages with a :program:`wget`, we "
-"can install the new packages using a :command:`yum` command."
+"To access WAPT Enterprise ressources, you must use the username and "
+"password provided by our sales department."
 msgstr ""
-"Si vous avez récupéré les paquets rpm à travers un :program:`wget`, on "
-"peut installer les nouveaux paquets à travers la commande "
-":command:`yum` :"
+
+#: ../../source/waptserver-update/waptserver-update-centos.rst:37
+msgid ""
+"Replace **user** and **password** in the **baseurl** parameter to access "
+"WAPT Enterprise repository."
+msgstr ""
 
 #: ../../source/waptserver-update/waptserver-update-centos.rst:56
+msgid "WAPT Community"
+msgstr ""
+
+#: ../../source/waptserver-update/waptserver-update-centos.rst:76
+#, fuzzy
+msgid "Post-configuration"
+msgstr "lancer la post-configuration :"
+
+#: ../../source/waptserver-update/waptserver-update-centos.rst:79
 msgid "launch the post-configuration step:"
 msgstr "lancer la post-configuration :"
 
-#: ../../source/waptserver-update/waptserver-update-centos.rst:60
+#: ../../source/waptserver-update/waptserver-update-centos.rst:83
 msgid ""
 "we advise that you launch the post-configuration steps after each server "
 "upgrade so that the server uses the latest configuration format;"
@@ -73,7 +78,7 @@ msgstr ""
 "il est recommandé de lancer la post-configuration après chaque mise à "
 "jour pour que le serveur utilise le format de configuration le plus sûr ;"
 
-#: ../../source/waptserver-update/waptserver-update-centos.rst:63
+#: ../../source/waptserver-update/waptserver-update-centos.rst:86
 msgid ""
 "it is not required to reset a password for the WAPT console during the "
 "post-configuration step;"
@@ -81,7 +86,7 @@ msgstr ""
 "il n'est pas obligatoire de redéfinir un mot de passe pour la console "
 "WAPT lors de la post-configuration ;"
 
-#: ../../source/waptserver-update/waptserver-update-centos.rst:66
+#: ../../source/waptserver-update/waptserver-update-centos.rst:89
 msgid ""
 "if you have personalized the configuration of :program:`Nginx`, do not "
 "answer :guilabel:`Yes` when the post-configuration asks you to configure "
@@ -91,28 +96,28 @@ msgstr ""
 "répondre :guilabel:`Oui` lorsque postconf vous demande de configurer "
 ":program:`Nginx` ;"
 
-#: ../../source/waptserver-update/waptserver-update-centos.rst:73
+#: ../../source/waptserver-update/waptserver-update-centos.rst:96
 msgid ""
 "with WAPT 1.8 post-configuration, WAPT WUA packages will be moved from "
 "their current storage location to waptwua root folder "
 "(:file:`/var/www/waptwua`)."
 msgstr ""
-"avec WAPT 1.8, la post-configuration va déplacer tous les fichiers "
-"à la racine du dossier waptwua (:file:`/var/www/waptwua`)."
+"avec WAPT 1.8, la post-configuration va déplacer tous les fichiers à la "
+"racine du dossier waptwua (:file:`/var/www/waptwua`)."
 
-#: ../../source/waptserver-update/waptserver-update-centos.rst:75
+#: ../../source/waptserver-update/waptserver-update-centos.rst:98
 msgid ""
 "if repository replication has been set, all KB/CAB packages will be re-"
 "synchronized on remote repositories"
 msgstr ""
-"si la réplication de dépôts à été mise en place, cela aura pour conséquence"
-"de resynchroniser toutes les KB/CAB sur vos dépôts distants."
+"si la réplication de dépôts à été mise en place, cela aura pour "
+"conséquencede resynchroniser toutes les KB/CAB sur vos dépôts distants."
 
-#: ../../source/waptserver-update/waptserver-update-centos.rst:83
+#: ../../source/waptserver-update/waptserver-update-centos.rst:106
 msgid "start the WAPT Server:"
 msgstr "démarrer le serveur WAPT :"
 
-#: ../../source/waptserver-update/waptserver-update-centos.rst:89
+#: ../../source/waptserver-update/waptserver-update-centos.rst:112
 msgid ""
 "upgrade the WAPT console by following the same set of steps as "
 ":ref:`installing the WAPT console <installing_the_WAPT_console>`;"
@@ -120,11 +125,11 @@ msgstr ""
 "mettre à jour la console WAPT en suivant la même procédure que pour "
 ":ref:`installer la console WAPT <installing_the_WAPT_console>` ;"
 
-#: ../../source/waptserver-update/waptserver-update-centos.rst:92
+#: ../../source/waptserver-update/waptserver-update-centos.rst:115
 msgid "then :ref:`create the WAPT agent <create_WAPT_agent>`:"
 msgstr "puis :ref:`créer l'agent WAPT <create_WAPT_agent>` :"
 
-#: ../../source/waptserver-update/waptserver-update-centos.rst:94
+#: ../../source/waptserver-update/waptserver-update-centos.rst:117
 msgid ""
 "You will have to keep the same prefix for your packages and change "
 "nothing in relation to the private key/ public certificate pair!"
@@ -132,29 +137,29 @@ msgstr ""
 "Cependant, il faudra conserver le même préfix et surtout ne rien changer "
 "concernant le couple clé privée / clé publique !"
 
-#: ../../source/waptserver-update/waptserver-update-centos.rst:97
+#: ../../source/waptserver-update/waptserver-update-centos.rst:120
 msgid "This will generate a **waptupgrade** package in the private repository."
 msgstr "Cela va générer un paquet **waptupgrade** dans le dépôt privé."
 
-#: ../../source/waptserver-update/waptserver-update-centos.rst:101
+#: ../../source/waptserver-update/waptserver-update-centos.rst:124
 msgid "There are two methods for deploying the updates:"
 msgstr "Il y a deux manières de déployer la mise à jour :"
 
-#: ../../source/waptserver-update/waptserver-update-centos.rst:103
+#: ../../source/waptserver-update/waptserver-update-centos.rst:126
 msgid "using a :abbr:`GPO (Group Policy Object)` and :program:`waptdeploy`;"
 msgstr ""
 "soit utiliser une :abbr:`GPO (Group Policy Object)` et "
 ":program:`waptdeploy` ;"
 
-#: ../../source/waptserver-update/waptserver-update-centos.rst:105
+#: ../../source/waptserver-update/waptserver-update-centos.rst:128
 msgid "using a :program:`waptupgrade` package and deploy it using WAPT;"
 msgstr "soit créer un paquet **waptupgrade** et l'affecter à l'ensemble du parc ;"
 
-#: ../../source/waptserver-update/waptserver-update-centos.rst:107
+#: ../../source/waptserver-update/waptserver-update-centos.rst:130
 msgid "update the WAPT agents:"
 msgstr "mettre à jour les clients WAPT :"
 
-#: ../../source/waptserver-update/waptserver-update-centos.rst:109
+#: ../../source/waptserver-update/waptserver-update-centos.rst:132
 msgid ""
 "The steps to follow to update WAPT agents are the same as the ones to "
 "first install the WAPT agents."
@@ -162,7 +167,7 @@ msgstr ""
 "La procédure à suivre pour la mise à jour des clients est la même que "
 "pour la première installation."
 
-#: ../../source/waptserver-update/waptserver-update-centos.rst:112
+#: ../../source/waptserver-update/waptserver-update-centos.rst:135
 msgid ""
 "Download and install the latest version of the WAPT agent by visiting "
 "http://wapt.mydomain.lan/wapt/waptagent.exe."
@@ -170,7 +175,7 @@ msgstr ""
 "Télécharger et installer la dernière version de l'agent WAPT qui a été "
 "mis à jour : https://wapt.mydomain.lan/wapt/waptagent.exe."
 
-#: ../../source/waptserver-update/waptserver-update-centos.rst:115
+#: ../../source/waptserver-update/waptserver-update-centos.rst:138
 msgid ""
 "As mentioned above, this procedure may be made automatic with a GPO or a "
 "**waptupgrade** package."
@@ -189,4 +194,29 @@ msgstr ""
 #~ "Si vous avez configuré un dépôt "
 #~ "rpm pour WAPT, il suffit alors de"
 #~ " lancer la mise à jour."
+
+#~ msgid "upgrade the WAPT Server:"
+#~ msgstr "mettre à niveau le serveur WAPT ;"
+
+#~ msgid ""
+#~ "If you subscribed to **WAPT Enterprise**"
+#~ " don't use that repo but the "
+#~ "Enterprise repository provided in your "
+#~ "documentation."
+#~ msgstr ""
+#~ "Si vous êtes abonné à **WAPT "
+#~ "Enterprise** n'utilisez pas ce repo mais"
+#~ " le lien vers le dépôt Enterprise "
+#~ "fourni dans votre documentation."
+
+#~ msgid ""
+#~ "If you have retrieved the WAPT RPM"
+#~ " Packages with a :program:`wget`, we "
+#~ "can install the new packages using "
+#~ "a :command:`yum` command."
+#~ msgstr ""
+#~ "Si vous avez récupéré les paquets "
+#~ "rpm à travers un :program:`wget`, on "
+#~ "peut installer les nouveaux paquets à"
+#~ " travers la commande :command:`yum` :"
 

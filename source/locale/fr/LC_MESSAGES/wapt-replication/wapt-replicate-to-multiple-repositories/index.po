@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-22 14:16+0100\n"
+"POT-Creation-Date: 2020-01-30 10:45+0100\n"
 "PO-Revision-Date: 2018-11-06 14:34+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -83,117 +83,124 @@ msgstr ""
 msgid "You can find the old documentation here : :ref:`syncthing_usage`"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:55
-msgid "Introducing WAPT Agent replication role"
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:54
+msgid "WAPT Agent replication role"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:57
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:56
 msgid ""
 "Starting with WAPT 1.8, repository replication can be enabled using WAPT "
 "agent installed on an existing machine, a dedicated appliance or Virtual "
 "Machine."
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:59
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:58
 msgid ""
 "The replication role is deployed through a WAPT package that enables "
 "Nginx web server and configures scheduling, packages types, packages "
 "sync, and much more."
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:62
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:60
+msgid ""
+"Coming with that feature, repository rules allows agent to dynamically "
+"select the best WAPT repository from a list of rules stored on the "
+"server."
+msgstr ""
+
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:63
 msgid "Replication behavior"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:64
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:65
 msgid ""
 "Repository replication in WAPT is now handled by WAPT Agent natively "
 "(Enterprise versions only)"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:66
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:67
 msgid ""
 "It's based on a ``sync.json`` file which indexes every files present in "
 "these folders :"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:68
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:69
 msgid "wapt"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:69
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:70
 msgid "waptwua"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:70
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:71
 msgid "wapt-host"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:72
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:73
 msgid "Enabling replication has the following effects :"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:74
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:75
 msgid ""
 "Once ``enable_remote_repo`` is enabled on an agent, it will sync packages"
 " locally inside the ``local_repo_path`` folder."
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:75
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:76
 msgid ""
 "It adds that agent in the :guilabel:`Repositories` tab as a Remote "
 "repository, enabling new actions such as :guilabel:`Force Sync` or "
 ":guilabel:`Check files`."
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:76
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:77
 msgid ""
 "By default, only wapt folder is synced, you can select which folder to "
 "sync by adding up elements in ``remote_repo_dirs`` parameters."
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:77
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:78
 msgid ""
 "Synchronization period can be configured with "
 "``local_repo_time_for_sync_start`` and ``local_repo_time_for_sync_stop`` "
 "parameters"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:78
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:79
 msgid ""
 "Bandwidth allocated to sync is configured with "
 "``local_repo_limit_bandwidth``"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:80
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:81
 msgid ""
 "Every parameters of WAPT repository sync must be set in ``[repo-sync]`` "
 "section of :file:`wapt-get.ini`"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:84
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:85
 msgid "Enabling replication on WAPT Agent"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:86
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:87
 msgid ""
 "To enable replication on an existing agent (Linux/Windows) you need to "
 "deploy a WAPT package. It's role is to :"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:88
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:89
 msgid "Install and enable Nginx web server"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:89
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:90
 msgid "Configure nginx virtualhost"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:90
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:91
 msgid "Enable remote repository configuration in :file:`wapt-get.ini`"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:92
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:93
 msgid ""
 "A package is available in our public store to enable repository "
 "replication on Windows WAPT agent : https://store.wapt.fr/store/tis-"
@@ -211,21 +218,28 @@ msgid ""
 msgstr ""
 
 #: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:102
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:126
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:145
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:162
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:188
 msgid "Options"
 msgstr "Options"
 
 #: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:102
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:188
 msgid "Mandatory"
 msgstr ""
 
 #: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:102
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:126
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:145
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:162
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:188
 msgid "Example value"
 msgstr ""
 
 #: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:102
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:126
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:145
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:162
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:188
 msgid "Definition"
 msgstr "Définition"
 
@@ -239,6 +253,7 @@ msgid "Yes"
 msgstr ""
 
 #: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:104
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:190
 msgid "``True``"
 msgstr ""
 
@@ -267,6 +282,7 @@ msgstr ""
 #: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:112
 #: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:114
 #: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:116
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:190
 msgid "No"
 msgstr ""
 
@@ -279,7 +295,7 @@ msgid "Set sync start time (HH:MM / 24h format)"
 msgstr ""
 
 #: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:110
-msgid "``local_repo_time_for_sync_stop``"
+msgid "``local_repo_time_for_sync_end``"
 msgstr ""
 
 #: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:110
@@ -326,27 +342,141 @@ msgstr ""
 msgid "Set synced folders (default: wapt,waptwua)"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:121
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:120
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:193
+msgid "Below an example of :file:`wapt-get.ini` :"
+msgstr ""
+
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:140
 msgid "WAPT Server replication configuration"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:123
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:142
 msgid ""
 "WAPT Server need to be aware of repository sync in ``[global]`` section "
 "of :file:`waptserver.ini` :"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:128
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:147
 msgid "``remote_repo_support``"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:128
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:147
 msgid "True"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:128
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:147
 msgid "Enables remote repository sync server side (sync.json)"
 msgstr "ajouter la machine distante :"
+
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:152
+msgid "Repository rules"
+msgstr ""
+
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:155
+#, fuzzy
+msgid "Enabling repository rules"
+msgstr "Répliquer un dépôt"
+
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:157
+msgid "Repository rules are configured in WAPT Console."
+msgstr ""
+
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:159
+msgid "It can be based on several parameters :"
+msgstr ""
+
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:164
+msgid "Domain name"
+msgstr ""
+
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:164
+msgid "``ad.domain.lan``"
+msgstr ""
+
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:164
+msgid "Rule based on Active Directory domain name"
+msgstr ""
+
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:165
+msgid "Domain sites and services"
+msgstr ""
+
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:165
+msgid "``Paris-HQ``"
+msgstr ""
+
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:165
+msgid "Rule based on Active Directory Sites and Services"
+msgstr ""
+
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:166
+msgid "Agent IP"
+msgstr ""
+
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:166
+msgid "``192.168.85.0/24``"
+msgstr ""
+
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:166
+msgid "Rule based on Agent IP sub-network"
+msgstr ""
+
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:167
+msgid "Public IP"
+msgstr ""
+
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:167
+msgid "``256.89.299.22``"
+msgstr ""
+
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:167
+msgid "Rule based on Public IP (NATed hosts)"
+msgstr ""
+
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:168
+msgid "Hostname"
+msgstr ""
+
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:168
+msgid "``desktop-04feb1``"
+msgstr ""
+
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:168
+msgid "Rule based on hostname"
+msgstr ""
+
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:172
+msgid "Add a rule in WAPT Console"
+msgstr ""
+
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst
+msgid "TODO"
+msgstr ""
+
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:178
+msgid "Use repository rules on WAPT agent"
+msgstr ""
+
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:182
+msgid ""
+"If you already configured GeoIP redirects on Nginx, you should disable it"
+" as it might conflicts with repository rules."
+msgstr ""
+
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:185
+msgid ""
+"To enable WAPT Agent repository rules usage, you must enable a settings "
+"in ``[global]`` section of :file:`wapt-get.ini` :"
+msgstr ""
+
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:190
+msgid "``use_repo_rules``"
+msgstr ""
+
+#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:190
+msgid "Enables repository rules usage"
+msgstr ""
 
 #~ msgid "Content of the definition file for the :program:`waptsync` service:"
 #~ msgstr "*Contenu* :"
@@ -960,5 +1090,11 @@ msgstr "ajouter la machine distante :"
 #~ msgid ""
 #~ "WAPT Server need to be aware of"
 #~ " repository sync :file:`waptserver.ini` :"
+#~ msgstr ""
+
+#~ msgid "Introducing WAPT Agent replication role"
+#~ msgstr ""
+
+#~ msgid "``local_repo_time_for_sync_stop``"
 #~ msgstr ""
 

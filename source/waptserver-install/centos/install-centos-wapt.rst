@@ -32,10 +32,34 @@ Installing the WAPT Server runs a few steps:
 Configuring RPM repositories and installing WAPT and PostgreSQL packages
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-.. attention:: 
+WAPT Enterprise
+^^^^^^^^^^^^^^^
 
- * If you subscribed to **WAPT Enterprise** do not use that repo but the Enterprise repository provided in your documentation.
+.. hint::
 
+   To access WAPT Enterprise ressources, you must use the username and password provided by our sales department.
+   
+   Replace **user** and **password** in the **baseurl** parameter to access WAPT Enterprise repository.
+
+
+.. code-block:: bash
+
+  cat > /etc/yum.repos.d/wapt.repo <<EOF
+  [wapt]
+  name=WAPT Server Repo
+  baseurl=https://user:password@srvwapt-pro.tranquil.it/entreprise/centos7/wapt-1.8/
+  enabled=1
+  gpgcheck=1
+  EOF
+
+  wget -q -O /tmp/tranquil_it.gpg "https://wapt.tranquil.it/centos7/RPM-GPG-KEY-TISWAPT-7"; rpm --import /tmp/tranquil_it.gpg
+  yum install epel-release
+  yum install cabextract  
+  yum install postgresql96-server postgresql96-contrib tis-waptserver tis-waptsetup
+
+
+WAPT Community
+^^^^^^^^^^^^^^
 
 .. code-block:: bash
 
@@ -44,9 +68,10 @@ Configuring RPM repositories and installing WAPT and PostgreSQL packages
   name=WAPT Server Repo
   baseurl=https://wapt.tranquil.it/centos7/wapt-1.8/
   enabled=1
-  gpgcheck=0
+  gpgcheck=1
   EOF
 
+  wget -q -O /tmp/tranquil_it.gpg "https://wapt.tranquil.it/centos7/RPM-GPG-KEY-TISWAPT-7"; rpm --import /tmp/tranquil_it.gpg
   yum install postgresql96-server postgresql96-contrib tis-waptserver tis-waptsetup
 
 .. note::
@@ -54,16 +79,17 @@ Configuring RPM repositories and installing WAPT and PostgreSQL packages
    During installation, you may be asked for the Kerberos realm.
    Just press :kbd:`Enter` to skip this step.
 
-Initializing the PostgreSQL database and activating the services
-
-  .. code-block:: bash
-
-    sudo /usr/pgsql-9.6/bin/postgresql96-setup initdb
-    sudo systemctl enable postgresql-9.6 waptserver nginx
-    sudo systemctl start postgresql-9.6 nginx
 
 Post-configuring
 """"""""""""""""
+
+Initializing the PostgreSQL database and activating the services
+
+.. code-block:: bash
+
+  sudo /usr/pgsql-9.6/bin/postgresql96-setup initdb
+  sudo systemctl enable postgresql-9.6 waptserver nginx
+  sudo systemctl start postgresql-9.6 nginx
 
 .. attention::
 

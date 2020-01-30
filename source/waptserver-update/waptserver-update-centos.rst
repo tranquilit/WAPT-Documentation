@@ -24,34 +24,57 @@ Performing minor updates on a CentOS/ RedHat based WAPT Server
 
     yum update
 
-* upgrade the WAPT Server:
 
-  .. attention::
+WAPT Enterprise
++++++++++++++++
 
-   * If you subscribed to **WAPT Enterprise** don't use that repo but the Enterprise repository provided in your documentation.
+Modify the repository address then launch the upgrade.
 
-  Modify the repository address then launch the upgrade.
+.. hint::
 
-  .. code-block:: bash
+   To access WAPT Enterprise ressources, you must use the username and password provided by our sales department.
+   
+   Replace **user** and **password** in the **baseurl** parameter to access WAPT Enterprise repository.  
 
-    cat > /etc/yum.repos.d/wapt.repo <<EOF
-    [wapt]
-    name=WAPT Server Repo
-    baseurl=https://wapt.tranquil.it/centos7/wapt-1.8/
-    enabled=1
-    gpgcheck=0
-    EOF
+.. code-block:: bash
 
-    yum update
-    yum install postgresql96-server postgresql96-contrib tis-waptserver tis-waptsetup
+  cat > /etc/yum.repos.d/wapt.repo <<EOF
+  [wapt]
+  name=WAPT Enterprise Server Repo
+  baseurl=https://user:password@srvwapt-pro.tranquil.it/entreprise/centos7/wapt-1.8/
+  enabled=1
+  gpgcheck=1
+  EOF
+
+  wget -q -O /tmp/tranquil_it.gpg "https://wapt.tranquil.it/centos7/RPM-GPG-KEY-TISWAPT-7"; rpm --import /tmp/tranquil_it.gpg
+  yum install epel-release
+  yum install cabextract
+  yum install postgresql96-server postgresql96-contrib tis-waptserver tis-waptsetup
 
 
-  If you have retrieved the WAPT RPM Packages with a :program:`wget`,
-  we can install the new packages using a :command:`yum` command.
+WAPT Community
+++++++++++++++
 
-  .. code-block:: bash
+Modify the repository address then launch the upgrade.
 
-    yum install tis-wapt*.rpm
+.. code-block:: bash
+
+  cat > /etc/yum.repos.d/wapt.repo <<EOF
+  [wapt]
+  name=WAPT Server Repo
+  baseurl=https://wapt.tranquil.it/centos7/wapt-1.8/
+  enabled=1
+  gpgcheck=1
+  EOF
+
+  wget -q -O /tmp/tranquil_it.gpg "https://wapt.tranquil.it/centos7/RPM-GPG-KEY-TISWAPT-7"; rpm --import /tmp/tranquil_it.gpg
+  yum install postgresql96-server postgresql96-contrib tis-waptserver tis-waptsetup
+
+  
+
+Post-configuration
+++++++++++++++++++
+
 
 * launch the post-configuration step:
 

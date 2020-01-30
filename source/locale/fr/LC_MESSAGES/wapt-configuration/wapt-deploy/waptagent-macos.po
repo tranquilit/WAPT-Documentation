@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-22 14:16+0100\n"
+"POT-Creation-Date: 2020-01-30 10:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,25 +54,92 @@ msgid "Install the downloaded package using installer :"
 msgstr ""
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:38
-msgid "Registering the agent"
+msgid "Create agent configuration file"
 msgstr ""
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:40
+msgid "The requisities for your WAPT agent to work are :"
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:42
+msgid "``wapt-get.ini`` config file in :file:`/opt/wapt/`"
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:43
 msgid ""
-"create and configure a :file:`wapt-get.ini` file in :file:`/opt/wapt` ( "
-":ref:`wapt-get-ini` ). An example of what it should look like is present "
-"further down on this page : you may use it after changing the parameters "
-"to suit your needs;"
+"a public certificate of the package-signing authority in "
+":file:`/opt/wapt/ssl/`"
 msgstr ""
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:45
 msgid ""
-"finally, execute the following command on your MacOS to register your "
-"machine:"
+"You need to create and configure the :file:`wapt-get.ini` file in "
+":file:`/opt/wapt` (:ref:`wapt-get-ini`)."
 msgstr ""
 
-#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:52
-msgid "Example of a wapt-get.ini file"
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:47
+msgid ""
+"An example of what it should look like is present further down on this "
+"page. You may use it after changing the parameters to suit your needs."
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:66
+msgid "Copy package-signing certificate"
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:68
+msgid ""
+"You need to copy manually, or by script, the public certificate of your "
+"package signing certificate authority."
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:70
+msgid ""
+"It shoud be located on your Windows machine in :file:`C:\\\\Program Files"
+" (x86)\\\\wapt\\\\ssl\\\\`."
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:72
+msgid ""
+"Copy your certificate(s) in :file:`/opt/wapt/ssl` using WinSCP or rsync "
+"for example."
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:76
+msgid "Copy SSL/TLS certificate"
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:78
+msgid ""
+"If you already have configured your WAPT server to use correct Nginx "
+"SSL/TLS certificates ( :ref:`activating_HTTPS_certificate_verification` "
+"), you must copy the certificate in your WAPT MacOS agent."
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:80
+msgid ""
+"It shoud be located on your Windows machine in :file:`C:\\\\Program Files"
+" (x86)\\\\wapt\\\\ssl\\\\server\\\\`."
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:82
+msgid ""
+"Copy your certificate(s) in :file:`/opt/wapt/ssl/server/` using WinSCP or"
+" rsync for example."
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:86
+msgid "Register your agent"
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:92
+msgid "Finally, execute the following command to register your machine :"
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:99
+msgid ""
+"Your MacOS Agent is now installed and configured and will appear in your "
+"WAPT Console."
 msgstr ""
 
 #~ msgid ""
@@ -96,5 +163,27 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Finally, execute the following command to register your machine :"
+#~ msgstr ""
+
+#~ msgid "Registering the agent"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "create and configure a :file:`wapt-"
+#~ "get.ini` file in :file:`/opt/wapt` ( "
+#~ ":ref:`wapt-get-ini` ). An example "
+#~ "of what it should look like is "
+#~ "present further down on this page "
+#~ ": you may use it after changing"
+#~ " the parameters to suit your needs;"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "finally, execute the following command "
+#~ "on your MacOS to register your "
+#~ "machine:"
+#~ msgstr ""
+
+#~ msgid "Example of a wapt-get.ini file"
 #~ msgstr ""
 

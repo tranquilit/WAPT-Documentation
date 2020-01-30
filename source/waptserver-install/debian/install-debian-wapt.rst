@@ -38,10 +38,38 @@ Configuring DEB repositories and installing WAPT and PostgreSQL packages
   and it is necessary to get the gpg public key below in order
   to avoid warning messages during installation.
 
-.. attention::
 
-  If you subscribed to **WAPT Enterprise** do not use that repo
-  but the Enterprise repository provided in your documentation.
+WAPT Enterprise
+^^^^^^^^^^^^^^^
+
+.. hint::
+
+   To access WAPT Enterprise ressources, you must use the username and password provided by our sales department.
+   
+   Replace **user** and **password** in the **deb** parameter to access WAPT Enterprise repository.
+
+.. code-block:: bash
+ 
+  apt-get update && apt-get upgrade
+  apt-get install apt-transport-https lsb-release
+  wget -O - https://wapt.tranquil.it/debian/tiswapt-pub.gpg  | apt-key add -
+  echo  "deb  https://user:password@srvwapt-pro.tranquil.it/entreprise/debian/wapt-1.8/ $(lsb_release -c -s) main"  > /etc/apt/sources.list.d/wapt.list
+
+.. note::
+ 
+  During installation, you may be asked for the Kerberos realm. Just press
+  :kbd:`Enter` to skip this step.
+ 
+Installing the WAPT Server Debian packages:
+ 
+.. code-block:: bash
+ 
+    apt-get update
+    apt-get install tis-waptserver tis-waptrepo tis-waptsetup
+
+
+WAPT Community
+^^^^^^^^^^^^^^
 
 .. code-block:: bash
 

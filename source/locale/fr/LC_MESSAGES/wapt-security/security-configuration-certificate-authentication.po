@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-17 14:13+0100\n"
+"POT-Creation-Date: 2020-01-30 10:45+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -67,8 +67,8 @@ msgid ""
 "using the signed certificate, the agent can access protected parts of the"
 " :program:`Nginx` web server;"
 msgstr ""
-"en utilisant le certificat signé, l'agent peut accéder à l'arborescence protégée"
-" du serveur web :program:`Nginx`;"
+"en utilisant le certificat signé, l'agent peut accéder à l'arborescence "
+"protégée du serveur web :program:`Nginx`;"
 
 #: ../../source/wapt-security/security-configuration-certificate-authentication.rst:40
 msgid ""
@@ -84,6 +84,16 @@ msgstr "Activer l'authentification par Certificat sur le Client"
 
 #: ../../source/wapt-security/security-configuration-certificate-authentication.rst:46
 msgid ""
+"be sure to unset the custom headers relative to client side "
+"authentication results when request is proxied without being checked by "
+"nginx ssl module. for the X-Ssl-Authenticated and X-Ssl-Client-DN "
+"headers. These headers are trusted by the waptserver if `X-Ssl-"
+"Authenticated` is SUCCESS and waptserver.ini parameter "
+"`use_ssl_client_auth` is set to True."
+msgstr ""
+
+#: ../../source/wapt-security/security-configuration-certificate-authentication.rst:59
+msgid ""
 "add a :program:`Nginx` configuration file :file:`/etc/nginx/certificate-"
 "auth.conf`. This file is used to restrict access to specific actions with"
 " Certificate Authentication:"
@@ -92,11 +102,11 @@ msgstr ""
 ":file:`/etc/nginx/certificate-auth.conf`. Ce fichier est utilisé pour "
 "restreindre l'accès aux actions propres au Certificat d'Authentification:"
 
-#: ../../source/wapt-security/security-configuration-certificate-authentication.rst:58
+#: ../../source/wapt-security/security-configuration-certificate-authentication.rst:72
 msgid "Example config file:"
 msgstr "Exemple d'un fichier de configuration:"
 
-#: ../../source/wapt-security/security-configuration-certificate-authentication.rst:152
+#: ../../source/wapt-security/security-configuration-certificate-authentication.rst:170
 msgid ""
 "Be careful, as of |date|, WAPT does not support :abbr:`CRL (Certificate "
 "Revocation Lists)`, which means that when you delete a machine in the "
@@ -106,3 +116,4 @@ msgstr ""
 "(Certificate Revocation Lists)`, ce qui signifie que lorsque vous "
 "supprimez une machine dans la console WAPT, la machine pourra toujours "
 "accéder au répertoire WAPT."
+
