@@ -12,6 +12,131 @@
 Changelog
 =========
 
+WAPT-1.8.1-6692 (2020-02-03) 
+----------------------------
+(hash f08ccb1c)
+
+Major changes :
+++++++++++++++++++++++++++++
+
+* waptconsole : Added a page to show packages install status summary (merge) of all selected hosts, grouped by package,version,install status, with count of hosts.
+  Context menu allow to apply selectively the pending actions. On enterprise, one can apply safely (only packages for which there is no running process on client side)
+ 
+* Prevent users from saving a host package if targeted host(s) do not accept their personal certificate. (Checked on waptconsole when editing / mass updating host packages, and on server when uploding packages)
+
+  The personal certificate file (.crt) must contains first the personal certificate, followed by the issuer CA certificates to rebuild certificate chain.
+
+Important note about SSL client side authentication
++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+In your nginx configuration, be sure to reset the headers `X-Ssl-Authenticated` and `X-Ssl-Client-DN` as waptserver *trust* these headers if 
+ssl cient side auth is enabled in waptserver.ini.
+
+If SSL client side auth is required these headers should be populated by `proxy_set_header` with result of `ssl_verify_client` as explained in ./wapt-security/security-configuration-certificate-authentication.html#enabling-client-side-certificate-authentication
+
+Fixes and detailed changelog
+++++++++++++++++++++++++++++
+
+* Security: blank X-Ssl* headers in default nginx templates
+
+* waptconsole: Allow update of host package only if user certificate is actually allowed on the host (based on last update of host status in database).
+
+* Imp: Add and option to disable automatic hiding of panels...
+
+* Imp: Add explicit AllowUnauthenticatedRegistration task to waptserversetup windows
+
+* Fix: regression : kerberos register_host did not work anymore
+
+* Remove explicit VCRedistNeedsInstall task. Use /VCRedistInstall=(0/1) if you need to force install or force not install vcredist VC_2008_SP1_MFC_SEC_UPD_REDIST_X86
+
+* Fix: use wapt-get.ini for 'scan-packages' and'update-packages' wapt-get actions
+
+* Fix: auth asked when checking if server is available (ping) and client ssl auth is enabled
+
+* Imp: if client ssl auth failed with http error 400, retry without ssl auth to be able to ask for new certificate
+
+* Revert over 6641: sign host certificate if an authenticated user is provided or data is signed with a key which can be verified by existing certificate in database for this host uuid
+
+* Advanced Filters for selected host packages status. Filter on Install status and Section + keyword. Pending button to show only pending installations / removes 
+
+* Fix for target_os in uvisimportpackage.lfm
+
+* Add .vscode directory
+
+* Add missing templates for vscode
+
+* When receiving 401 from server when registering, retry registering without ssl auth.
+
+* Be sure to have proper host private key saved on disk when receiving signed certificate from server.
+
+* Fix ssl auth for mass package dependencies / conflicts updates 
+
+* Fix import packages from external repos with ssl auth
+
+* backports from master:
+
+- target OS in import packages
+
+- choose editor for packages in linux in cmdline
+
+* backports from master:
+
+  - refactoring for HostCapabilities.waptos
+
+  - add new target_os unix for mac and linux
+
+  - so target_os : windows, darwin (for mac), linux or unix
+
+* Fix WAPT.wapt_base_dir
+
+* Fix makepath in linux/macOS
+
+* Some refactoring / fixes for setuphelpers
+
+* Fix for rights_to_check in repo-sync client
+
+* Fix for repo-sync
+
+* allow kerberos or ssl auth check in waptserver only if enabled in waptserver.ini config file.
+
+* Add two setuphelpers for linux : type_debian and type_redhat
+indent the local sync.json
+
+* use get_os_version and windows_version_from_registry instead of windows_version
+
+* use windows_version_registry for get_os_version on windows
+
+* backport host_capabilities.os from master
+
+* Add automatic maintenance of a CRL for clients auth certificates signed by server
+
+   default CRL lifetime to 30 days
+
+   check renewal of client cert CRL every hour
+
+   add a parameter for the next update time of crl
+
+   add `clients_signing_crl_url` `clients_signing_crl_days` `known_certificates_folder` waptserver parameters
+
+   add a /ssl location in nginx templates
+
+   add crl_urls in client auth signed certificates
+
+   add a scheduled task to renew server side crl
+
+   add `clients_signing_crl` waptserver parameter to add client cert to server crl when host is unregistered.
+
+   Add revoke_cert methode to SSLCRL class
+
+   Add a authorityKeyIdentifier to the client auth CRL
+
+* force restart if windows task is broken
+
+* use sys._exit(10) to ask nssm to restart service in case of unhandled exception in waptservice (loops..)
+
+* don't log / store into db Wapt.runstatus if not changed
+
+
 WAPT-1.8.0-6641 (2020-01-24) 
 ----------------------------
 (hash 3dbb3de8)
