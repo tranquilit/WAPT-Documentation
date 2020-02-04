@@ -471,6 +471,47 @@ Read the diagram clockwise:
 
 * the updated inventory is reported in the console;
 
+
+WAPT agent behavior with packages install / remove / session_setup / audit 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+A key concept that can be hard to understand is the behavior of WAPT agent when installing a package and the considerations around it.
+
+WAPT agent package installation can be split in SSS steps :
+
+* package downloaded in agent cache
+* package unzip to temp folder
+* :file:`setup.py` content is stored in WAPT agent database located in :file:`C:\\Program Files (x86)\\wapt\\db\\waptdb.sqlite`
+* software installed from unzipped files
+* in case of success : downloaded package + unzipped files are deleted and status is send to server
+* in case of failure : downloaded package is kept - unzipped files are deleted - error status send to server
+
+That behavior is important as it has an impact on further actions. 
+
+.. figure:: concept_wapt_install_behavior.png
+  :align: center
+  :alt: WAPT install behavior
+
+  WAPT install behavior
+
+
+For instance when removing a package the following steps are done :
+
+* :file:`setup.py` content is retrieved from WAPT agent database located in :file:`C:\\Program Files (x86)\\wapt\\db\\waptdb.sqlite`
+* Software uninstall from registry :command:`UninstallString` is executed
+* If defined, :command:`uninstall()` function is executed from retrieved source code
+
+Similar steps are reproduced when executing :command:`session_setup` and :command:`audit`.
+
+.. figure:: concept_wapt_others_behavior.png
+  :align: center
+  :alt: WAPT behavior audit session_setup
+
+  WAPT behavior with uninstall / session_setup and audit
+
+
+
+
 WAPT Server architecture
 ++++++++++++++++++++++++
 
