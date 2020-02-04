@@ -105,14 +105,14 @@ Options                        Default Value                        Description
 ``install_scheduling``         None                                 Set the Windows Update install recurrence (Will do nothing if no update is pending) (ex: 2h)
 ``install_at_shutdown``        False                                Install update when the machine will shutdown
 ``install_delay``              None                                 Set a deferred installation delay before publication in the repository (ex: 7d)
-``allowed_severities``         None									Define a severity list that will be automatically accepted during a wapt windows update scan. ex : Important,Critical,Moderate    
+``allowed_severities``         None									                Define a severity list that will be automatically accepted during a wapt windows update scan. ex : Important,Critical,Moderate    
 ============================== ==================================== ======================================================================================================================================================================
 
 .. hint::
 
 	These options can be set when generating the agent.
 
-Example WAPTWUA section in :file:`wapt-get.ini` file:
+Example :command:`[waptwua]` section in :file:`wapt-get.ini` file:
 
 .. code-block:: ini
 
@@ -145,6 +145,21 @@ these options are equivalent to this:
   clients will contact the WAPT Server and ask to download the missing
   updates. The clients will install missing updates on their own
   at time of upgrade.
+
+
+Example package source code to modify :command:`[waptwua]` settings :
+
+.. code-block:: python
+
+   def install():
+    inifile_writestring(WAPT.config_filename,'waptwua','enabled','true')
+    inifile_writestring(WAPT.config_filename,'waptwua','offline','true')
+    inifile_writestring(WAPT.config_filename,'waptwua','filter',"Type='Software' or Type='Driver'")
+    inifile_writestring(WAPT.config_filename,'waptwua','install_at_shutdown','true')
+    inifile_writestring(WAPT.config_filename,'waptwua','download_scheduling','7d')
+    inifile_writestring(WAPT.config_filename,'waptwua','allowed_severities','Critical,Important')
+
+
 
 Using WAPTWUA from the console
 ------------------------------
