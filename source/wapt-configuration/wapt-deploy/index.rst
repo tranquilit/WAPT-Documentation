@@ -412,7 +412,7 @@ and :file:`waptagent.exe`:
 
 
 Uninstall WAPT agent from clients
-++++++++++++++++++++++++++++++++++++++++++
+--------------------------------------
 
 If you need to uninstall WAPT agents from clients, the uninstaller is automatically created in WAPT install location, by default :file:`C:\\Program Files (x86)\\wapt\\unins000.exe`
 
