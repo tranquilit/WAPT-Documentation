@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-22 14:16+0100\n"
+"POT-Creation-Date: 2020-02-04 19:24+0100\n"
 "PO-Revision-Date: 2019-02-27 11:10+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -309,6 +309,7 @@ msgstr "Arguments supplémentaires disponibles pour waptdeploy"
 
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:186
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:333
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:435
 msgid "Settings"
 msgstr "Paramètre"
 
@@ -319,6 +320,7 @@ msgstr "Valeur"
 
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:186
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:333
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:435
 msgid "Description"
 msgstr "Description"
 
@@ -773,6 +775,50 @@ msgstr "autorise que la tâche puisse démarrer même sur batterie :"
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:411
 msgid "Power settings"
 msgstr "Configuration de la gestion de l'alimentation"
+
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:415
+msgid "Uninstall WAPT agent from clients"
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:417
+msgid ""
+"If you need to uninstall WAPT agents from clients, the uninstaller is "
+"automatically created in WAPT install location, by default "
+":file:`C:\\\\Program Files (x86)\\\\wapt\\\\unins000.exe`"
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:419
+msgid ""
+"Default silent uninstall of WAPT agent can be achieved with the following"
+" command :"
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:425
+msgid ""
+"An additional argument can be passed to unins000.exe to cleanup "
+"everything :"
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:432
+msgid "Complete list of command-line arguments for unins000.exe :"
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:437
+#, fuzzy
+msgid "``/VERYSILENT``"
+msgstr "``/verify_cert=``"
+
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:437
+msgid "Launches unins000.exe silently"
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:438
+msgid "``/purge_wapt_dir=1``"
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:438
+msgid "Purges WAPT install directory (removes remaining folders and files)"
+msgstr ""
 
 #~ msgid ""
 #~ "Advanced network configuration and system "

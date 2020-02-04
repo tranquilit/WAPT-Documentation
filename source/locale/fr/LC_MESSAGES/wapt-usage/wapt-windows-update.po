@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 14:09+0100\n"
+"POT-Creation-Date: 2020-02-04 19:24+0100\n"
 "PO-Revision-Date: 2019-03-01 11:07+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: en\n"
@@ -92,7 +92,6 @@ msgstr ""
 "jour."
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:51
-
 msgid ""
 "Regularly, the host will analyze the available updates using the "
 ":file:`wsuscn2.cab` file. The host will send its list of needed updates "
@@ -104,7 +103,6 @@ msgstr ""
 "serveur WAPT."
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:55
-
 msgid ""
 "If an update is pending on the host and if that update is not present on "
 "the WAPT server, the server will download the needed update from official"
@@ -128,12 +126,10 @@ msgid "Downloaded updates are stored:"
 msgstr "Les mises à jour téléchargées sont stockées :"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:66
-
 msgid "on Linux hosts in :file:`/var/www/waptwua`;"
 msgstr "sur des serveurs Linux dans :file:`/var/www/waptwua` ;"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:68
-
 msgid ""
 "on Windows hosts in "
 ":file:`C:\\\\wapt\\\\waptserver\\\\repository\\\\waptwua`;"
@@ -330,11 +326,11 @@ msgid "These options can be set when generating the agent."
 msgstr "Ces options peuvent être définies lors de la génération de l'agent."
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:115
-msgid "Example WAPTWUA section in :file:`wapt-get.ini` file:"
+#, fuzzy
+msgid "Example :command:`[waptwua]` section in :file:`wapt-get.ini` file:"
 msgstr "Exemple de section WAPTWUA dans le fichier :file:`wapt-get.ini` :"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:129
-
 msgid ""
 "The :guilabel:`install_scheduling` option will try every 12 hours to "
 "install updates on client. It is not in graphical options due to a "
@@ -348,7 +344,6 @@ msgstr ""
 "heures de travail peut impacter votre production."
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:135
-
 msgid ""
 "When you create the :file:`waptagent.exe` from your console, these "
 "options are equivalent to this:"
@@ -357,7 +352,6 @@ msgstr ""
 "équivalentes à celles-ci :"
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:144
-
 msgid ""
 "if :guilabel:`default_allow` option is ``True`` and Wapt WUA is enabled "
 "too, clients will contact the WAPT Server and ask to download the missing"
@@ -370,10 +364,14 @@ msgstr ""
 " jour tout seul."
 
 #: ../../source/wapt-usage/wapt-windows-update.rst:150
+msgid "Example package source code to modify :command:`[waptwua]` settings :"
+msgstr ""
+
+#: ../../source/wapt-usage/wapt-windows-update.rst:165
 msgid "Using WAPTWUA from the console"
 msgstr "Utiliser de WAPTWUA depuis la console"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:152
+#: ../../source/wapt-usage/wapt-windows-update.rst:167
 msgid ""
 "The :guilabel:`WAPT Windows Update Agent` tab in the console WAPT comes "
 "with two sub-menus to manage WAPTWUA."
@@ -381,11 +379,11 @@ msgstr ""
 "L'onglet :guilabel:`WAPT Windows Update Agent` de la console WAPT est "
 "fourni avec deux sous-menus pour gérer WAPTWUA."
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:156
+#: ../../source/wapt-usage/wapt-windows-update.rst:171
 msgid "WAPTWUA Package"
 msgstr "Paquet WAPTWUA"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:158
+#: ../../source/wapt-usage/wapt-windows-update.rst:173
 msgid ""
 "The :guilabel:`WAPTWUA Package` tab allows you to create *wsus* rules "
 "packages."
@@ -393,7 +391,7 @@ msgstr ""
 "L'onglet :guilabel:`WAPTWUA Package` vous permet de créer des paquets de "
 "règles *wsus*."
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:160
+#: ../../source/wapt-usage/wapt-windows-update.rst:175
 msgid ""
 "when this type of package is installed on a machine, it indicates to the "
 "WAPTWUA agent the authorized or forbidden :abbr:`KBs (Knowledge Base "
@@ -403,7 +401,7 @@ msgstr ""
 "l'agent WAPTWUA les :abbr:`KBs (Knowledge Base articles)` autorisés ou "
 "interdits ;"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:164
+#: ../../source/wapt-usage/wapt-windows-update.rst:179
 msgid ""
 "when several *wsus* packages are installed on a machine, the different "
 "rules will be merged;"
@@ -411,7 +409,7 @@ msgstr ""
 "lorsque plusieurs paquets *wsus* sont installés sur une machine, les "
 "différentes règles seront fusionnées ;"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:167
+#: ../../source/wapt-usage/wapt-windows-update.rst:182
 msgid ""
 "when a :file:`cab` is neither mentioned as authorized, nor mentioned as "
 "prohibited, WAPT agents will then take the value of ``default_allow`` in "
@@ -421,7 +419,7 @@ msgstr ""
 "comme interdit, les agents WAPT prendront alors la valeur "
 "``default_allow`` dans le fichier :file:`wapt-get.ini` ;"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:171
+#: ../../source/wapt-usage/wapt-windows-update.rst:186
 msgid ""
 "If a Windows update has not yet been downloaded to the WAPT server, then "
 "the WAPT agent will flag the update as *MISSING*."
@@ -429,7 +427,7 @@ msgstr ""
 "Si une mise à jour Windows n'a pas encore été téléchargée sur le serveur "
 "WAPT, l'agent WAPT marquera la mise à jour comme *MISSING*."
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:176
+#: ../../source/wapt-usage/wapt-windows-update.rst:191
 msgid ""
 "if the WAPTWUA agent configuration is set to ``default_allow = True``, "
 "then it will be necessary to specify the forbidden :file:`cab`;"
@@ -437,7 +435,7 @@ msgstr ""
 "si la configuration de l'agent WAPTWUA est définie avec ``default_allow ="
 " True``, alors il sera nécessaire de spécifier la cabine interdite ;"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:179
+#: ../../source/wapt-usage/wapt-windows-update.rst:194
 msgid ""
 "if the WAPTWUA agent configuration is set to ``default_allow = False``, "
 "then it will be necessary to specify the authorized :file:`cab`;"
@@ -445,7 +443,7 @@ msgstr ""
 "si la configuration de l'agent WAPTWUA est définie avec ``default_allow ="
 " False``, alors il sera nécessaire de spécifier le :file:`cab` autorisé ;"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:184
+#: ../../source/wapt-usage/wapt-windows-update.rst:199
 msgid ""
 "to test updates on a small set of computers, you can set WAPTWUA default "
 "value to ``default_allow = False``;"
@@ -454,7 +452,7 @@ msgstr ""
 "pouvez définir la valeur par défaut de WAPTWUA avec ``default_allow = "
 "False`` ;"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:187
+#: ../../source/wapt-usage/wapt-windows-update.rst:202
 msgid ""
 "you can test updates on a small sample of hosts and if everything is "
 "good, you can release the updates to the entire base of computers;"
@@ -463,21 +461,21 @@ msgstr ""
 "et si tout va bien, vous pouvez diffuser les mises à jour sur l'ensemble "
 "de la base des ordinateurs ;"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:194
+#: ../../source/wapt-usage/wapt-windows-update.rst:209
 msgid "Creating a *wsus* Package"
 msgstr "Créer un paquet *wsus*"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:197
+#: ../../source/wapt-usage/wapt-windows-update.rst:212
 msgid "Windows Updates list tab"
 msgstr "Onglet Liste des mises à jour de Windows"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:199
+#: ../../source/wapt-usage/wapt-windows-update.rst:214
 msgid "The :guilabel:`Windows Update List` tab lists all needed Windows Updates."
 msgstr ""
 "L'onglet :guilabel:`Windows Update List` liste toutes les mises à jour "
 "Windows nécessaires."
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:203
+#: ../../source/wapt-usage/wapt-windows-update.rst:218
 msgid ""
 "The server does not directly scan the wsussc2.cab itself, it lets wua "
 "wapt agents do it. If it is missing from the list of categories, os, kbs "
@@ -486,26 +484,25 @@ msgid ""
 "Windows 7 files will be displayed on the Windows Update List tab."
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:207
+#: ../../source/wapt-usage/wapt-windows-update.rst:222
 msgid "The left pane displays updates categories, allowing you to filter by:"
 msgstr ""
 "Le volet de gauche affiche les catégories de mises à jour, vous "
 "permettant de filtrer par :"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:209
+#: ../../source/wapt-usage/wapt-windows-update.rst:224
 msgid "criticality;"
 msgstr "la criticité ;"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:211
+#: ../../source/wapt-usage/wapt-windows-update.rst:226
 msgid "product;"
 msgstr "le produit ;"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:213
+#: ../../source/wapt-usage/wapt-windows-update.rst:228
 msgid "classification;"
 msgstr "la classification ;"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:215
-
+#: ../../source/wapt-usage/wapt-windows-update.rst:230
 msgid ""
 "In the right panel grid, if the :guilabel:`Downloaded on` column is "
 "empty, it means that the update has not yet been downloaded by the WAPT "
@@ -517,7 +514,7 @@ msgstr ""
 " le serveur WAPT et n'est pas présente sur le serveur WAPT (Cette mise à "
 "jour ne manque sur aucun hôte)."
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:219
+#: ../../source/wapt-usage/wapt-windows-update.rst:234
 msgid ""
 "you can force the download of an update by :menuselection:`right-click "
 "--> Download`;"
@@ -525,7 +522,7 @@ msgstr ""
 "vous pouvez forcer le téléchargement d'une mise à jour par "
 ":menuselection:`Clic droit --> Télécharger` ;"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:222
+#: ../../source/wapt-usage/wapt-windows-update.rst:237
 msgid ""
 "you can also force the download of the :file:`wsusscn2.cab` file with the"
 " :guilabel:`Download WSUSScan cab from Microsoft Web Site` button;"
@@ -534,7 +531,7 @@ msgstr ""
 ":file:`wsusscn2.cab` avec le bouton :guilabel:`Download WSUSScan cab from"
 " Microsoft Web Site` ;"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:225
+#: ../../source/wapt-usage/wapt-windows-update.rst:240
 msgid ""
 "you can see the Windows Updates download on the server with the "
 ":guilabel:`Show download task` button;"
@@ -542,7 +539,7 @@ msgstr ""
 "vous pouvez voir le téléchargement des mises à jour Windows sur le "
 "serveur avec le bouton :guilabel:`Montrer les téléchargements` ;"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:230
+#: ../../source/wapt-usage/wapt-windows-update.rst:245
 msgid ""
 "To cleanup your :file:`WAPTWUA` folder, you can remove no longer needed "
 "Windows updates. WAPT server will only re-download deleted updates if one"
@@ -553,16 +550,15 @@ msgstr ""
 "re-téléchargera les mises à jour supprimées que si l'un des hôtes équipés"
 " WAPT le demande ;"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:239
-
+#: ../../source/wapt-usage/wapt-windows-update.rst:254
 msgid "Launch WUA on clients"
 msgstr "Lancer WAPT WUA sur le client"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:241
+#: ../../source/wapt-usage/wapt-windows-update.rst:256
 msgid "From the console you have three options."
 msgstr "Vous avez alors plusieurs options :"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:247
+#: ../../source/wapt-usage/wapt-windows-update.rst:262
 msgid ""
 "The :guilabel:`Trigger the scan of pending Windows Updates` button will "
 "launch the scan on the client and list all updates flagged for the OS. "
@@ -570,7 +566,7 @@ msgid ""
 ":`wapt-get waptwua-scan` from the command-line."
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:254
+#: ../../source/wapt-usage/wapt-windows-update.rst:269
 msgid ""
 "Every 30 minutes, the WAPT Server will look for updates that have been "
 "requested at least once by WAPT Clients and that have not yet been "
@@ -578,8 +574,7 @@ msgid ""
 "download it from official Microsoft servers."
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:259
-
+#: ../../source/wapt-usage/wapt-windows-update.rst:274
 msgid ""
 "You can force this scan with the :guilabel:`Download index and missing "
 "cabs from Microsoft Web site` button in tab :menuselection:`Windows "
@@ -593,8 +588,7 @@ msgstr ""
 " dans l'onglet :menuselection:`Windows Updates --> Liste des mises à jour"
 " Windows`"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:267
-
+#: ../../source/wapt-usage/wapt-windows-update.rst:282
 msgid ""
 "If you want to download from the console, use the :guilabel:`Trigger the "
 "download of pending Windows Updates` button."
@@ -602,8 +596,7 @@ msgstr ""
 "Si vous voulez télécharger depuis la console, cliquez sur le bouton "
 ":guilabel:`Lancer le téléchargement des Mises à jour Windows en attente`."
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:270
-
+#: ../../source/wapt-usage/wapt-windows-update.rst:285
 msgid ""
 "The command-line for downloading kb from the client is :command:`wapt-get"
 " waptwua-download`, it will scan the current status of Windows against "
@@ -613,14 +606,13 @@ msgstr ""
 "get waptwua-download``, cela va scanner des force les mises à jour, "
 "télécharger les KB manquantes et envoyer le résultat au serveur."
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:274
+#: ../../source/wapt-usage/wapt-windows-update.rst:289
 msgid ""
 "If you want to install the pending update(s), use :command:`wapt-get "
 "waptwua-install` from the command-line prompt."
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:277
-
+#: ../../source/wapt-usage/wapt-windows-update.rst:292
 msgid ""
 "If you want to trigger the installation from the console, click on "
 ":guilabel:`Trigger the install of pending Windows Updates` button."
@@ -628,20 +620,20 @@ msgstr ""
 "Si vous voulez télécharger depuis la console, cliquez sur le bouton "
 ":guilabel:`Lancer le téléchargement des Mises à jour Windows en attente`."
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:282
+#: ../../source/wapt-usage/wapt-windows-update.rst:297
 msgid ""
 "When you want to install the pending updates stored in cache, the WAPT "
 "Service triggers the :abbr:`WUA (Windows Update Agent)` service."
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:285
+#: ../../source/wapt-usage/wapt-windows-update.rst:300
 msgid ""
 "The WAPT Service will enable and start the WUA Service temporarily to "
 "install the updates. When updates are installed, waptservice will stop "
 "and disable the WUA service until the next cycle."
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:292
+#: ../../source/wapt-usage/wapt-windows-update.rst:307
 msgid "Demonstration video"
 msgstr ""
 

@@ -81,6 +81,13 @@ Enabling replication has the following effects :
 Every parameters of WAPT repository sync must be set in ``[repo-sync]`` section of :file:`wapt-get.ini`
 
 
+.. figure:: replication_behavior.png
+    :align: center
+    :alt: WAPT agent replication behavior
+
+    Replication role behavior
+
+
 Enabling replication on WAPT Agent 
 ++++++++++++++++++++++++++++++++++
 
@@ -90,7 +97,7 @@ To enable replication on an existing agent (Linux/Windows) you need to deploy a 
 * Configure nginx virtualhost
 * Enable remote repository configuration in :file:`wapt-get.ini`
 
-A package is available in our public store to enable repository replication on Windows WAPT agent : https://store.wapt.fr/store/tis-enable-remote-repo-nginx
+A package is available in our public store to enable repository replication on Windows or Linux WAPT agent : https://store.wapt.fr/store/tis-remote-repo-conf
 
 
 WAPT Agent replication configuration
@@ -151,6 +158,22 @@ Options                              Example value           Definition
 Repository rules
 ---------------------------
 
+Repository rules behavior
++++++++++++++++++++++++++
+
+By enabling repository rules support, WAPT agent will automatically retrieve :file:`rules.json` file from WAPT server.
+
+The :file:`rules.json` file is a signed JSON file containing a list of sorted rules to apply to WAPT agent, redirecting its downloads to the appropriate repository.
+
+If no rules can be matched, WAPT agent fallbacks to :file:`wapt-get.ini` :command:`repo_url` file settings.
+
+.. figure:: repository_rules.png
+    :align: center
+    :alt: WAPT agent replication behavior
+
+    Repository rules behavior
+
+
 Enabling repository rules
 +++++++++++++++++++++++++
 
@@ -164,7 +187,7 @@ Options                              Example value               Definition
 Domain name                          ``ad.domain.lan``           Rule based on Active Directory domain name 
 Domain sites and services            ``Paris-HQ``                Rule based on Active Directory Sites and Services
 Agent IP                             ``192.168.85.0/24``         Rule based on Agent IP sub-network
-Public IP                            ``256.89.299.22``           Rule based on Public IP (NATed hosts)
+Public IP                            ``256.89.299.22/32``        Rule based on Public IP (NATed hosts)
 Hostname                             ``desktop-04feb1``          Rule based on hostname
 ==================================== =========================== ====================================================================================
 
