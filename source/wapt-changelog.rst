@@ -12,9 +12,9 @@
 Changelog
 =========
 
-WAPT-1.8.1-6692 (2020-02-03) 
+WAPT-1.8.1-6700 (2020-02-04) 
 ----------------------------
-(hash f08ccb1c)
+(hash dae3fc37)
 
 Major changes :
 ++++++++++++++++++++++++++++
@@ -37,7 +37,9 @@ If SSL client side auth is setup these headers can be populated by `proxy_set_he
 Fixes and detailed changelog
 ++++++++++++++++++++++++++++
 
-* Security: blank X-Ssl* headers in default nginx templates
+* Security fix for waitress module
+
+* Security: blank `X-Ssl*` headers in default nginx templates
 
 * waptconsole: Allow update of host package only if user certificate is actually allowed on the host (based on last update of host status in database).
 
@@ -141,18 +143,23 @@ WAPT-1.8.0-6641 (2020-01-24)
 Major changes :
 ++++++++++++++++++++++++++++
 
-* Client Agent for Linux Debian 8,9,10, Linux Centos 7, Ubuntu 18,19 and Mac os. the package are named wapt-agent and available in https://wapt.tranquil.it/wapt/releases/latest/ 
+* Client Agent for Linux Debian 8,9,10, Linux Centos 7, Ubuntu 18,19 and Mac os. the packages are named wapt-agent and available in https://wapt.tranquil.it/wapt/releases/latest/ 
 
 * Repository access rules defined in waptconsole. Depending of client IP, site, computername, one can define which secondary reporitory URL to use (Enterprise).
  
-  As a consequence, the DNS query method (with SRV records) is no more supported.
+  As a consequence, the DNS query method (with SRV records) is no more supported for repositories
 
-* The package and signature process has been changed to be compatible with python3. Serialization of dict is now sorted by key alphabetically.
+* The package and signature process has been changed to be compatible with python3. Serialization of dict is now sorted by key alphabetically to be deterministic across python versions.
   Wapt agents prior than version 1.7.1 will not be able to use new packages. (see git hash SHA-1: f571e55594617b43ed83003faeef4911474a84db)
 
 * A wapt agent can now be declared as a secondary Remote repository. Integrated syncing with main server repository is handled automatically. (Enterprise)
 
 * waptconsole can now run without elevated priviledges. The build of waptagent / waptupgrade package are done in a temporary location. When editing a package from waptconsole, PyScripter should be launched with elevated priviledges.
+
+  Note that you could deploy the agent with GPO without actually rebuilding an waptagent. Command line options are available on stock waptsetup-tis.exe to configure repo url (/repo_url=) , server url (/wapt_server=), 
+  	server certificate bundle location (/CopyServersTrustedCA=), packages certificates checking (/CopyPackagesTrustedCA=), /use_random_uuid, /StartPackages, /append_host_profiles, /DisableHiberBoot, /waptaudit_task_period.
+  
+  Some options are still missing. and could be added in a future release.
 
 * package filename now includes a hash of package content to make it easier to check if download is complete and if package has been scanned (improved speed for large number of packages)
 
