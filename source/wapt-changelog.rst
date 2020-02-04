@@ -20,11 +20,11 @@ Major changes :
 ++++++++++++++++++++++++++++
 
 * waptconsole : Added a page to show packages install status summary (merge) of all selected hosts, grouped by package,version,install status, with count of hosts.
-  Context menu allow to apply selectively the pending actions. On enterprise, one can apply safely (only packages for which there is no running process on client side)
+  Context menu allow to apply selectively the pending actions. On enterprise, one can apply safely the updates (only packages for which there is no running process on client side)
  
 * Prevent users from saving a host package if targeted host(s) do not accept their personal certificate. (Checked on waptconsole when editing / mass updating host packages, and on server when uploding packages)
 
-  The personal certificate file (.crt) must contains first the personal certificate, followed by the issuer CA certificates to rebuild certificate chain.
+  The personal certificate file (.crt) must contains at first the personal certificate, followed by the issuer CA certificates, so that wapt can rebuild certificate chain and check intersection with host's trusted certificates.
 
 Important note about SSL client side authentication
 +++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -32,7 +32,7 @@ Important note about SSL client side authentication
 In your nginx configuration, be sure to reset the headers `X-Ssl-Authenticated` and `X-Ssl-Client-DN` as waptserver *trust* these headers if 
 ssl cient side auth is enabled in waptserver.ini.
 
-If SSL client side auth is required these headers should be populated by `proxy_set_header` with result of `ssl_verify_client` as explained in ./wapt-security/security-configuration-certificate-authentication.html#enabling-client-side-certificate-authentication
+If SSL client side auth is setup these headers can be populated by `proxy_set_header` with result of `ssl_verify_client` as explained in ./wapt-security/security-configuration-certificate-authentication.html#enabling-client-side-certificate-authentication
 
 Fixes and detailed changelog
 ++++++++++++++++++++++++++++
@@ -47,37 +47,33 @@ Fixes and detailed changelog
 
 * Fix: regression : kerberos register_host did not work anymore
 
-* Remove explicit VCRedistNeedsInstall task. Use /VCRedistInstall=(0/1) if you need to force install or force not install vcredist VC_2008_SP1_MFC_SEC_UPD_REDIST_X86
+* waptsetup: Remove explicit VCRedistNeedsInstall task. Use /VCRedistInstall=(0/1) if you need to force install or force not install vcredist VC_2008_SP1_MFC_SEC_UPD_REDIST_X86
 
-* Fix: use wapt-get.ini for 'scan-packages' and'update-packages' wapt-get actions
+* Fix: wapt-get.exe: use wapt-get.ini for 'scan-packages' and'update-packages' wapt-get actions
 
-* Fix: auth asked when checking if server is available (ping) and client ssl auth is enabled
+* Fix: wapt-get: auth asked when checking if server is available (ping) and client ssl auth is enabled
 
-* Imp: if client ssl auth failed with http error 400, retry without ssl auth to be able to ask for new certificate
+* Imp: wapt client: if client ssl auth failed with http error 400, retry without ssl auth to be able to ask for new certificate signing
 
-* Revert over 6641: sign host certificate if an authenticated user is provided or data is signed with a key which can be verified by existing certificate in database for this host uuid
+* waptserver register behaviour : Revert over rev 6641: sign host certificate if an authenticated user is provided or data is signed with a key which can be verified by existing certificate in database for this host uuid
 
-* Advanced Filters for selected host packages status. Filter on Install status and Section + keyword. Pending button to show only pending installations / removes 
+* waptserver register behaviour : When receiving 401 from server when registering, retry registering without ssl auth.
 
-* Fix for target_os in uvisimportpackage.lfm
+* wapt client: Be sure to have proper host private key saved on disk when receiving signed certificate from server.
 
-* Add .vscode directory
+* waptconsole: Advanced Filters for selected host packages status. Filter on Install status and Section + keyword. Pending button to show only pending installations / removes 
 
-* Add missing templates for vscode
+* wapt-get make-template / edit package : Add .vscode directory. Add template project for vscode
 
-* When receiving 401 from server when registering, retry registering without ssl auth.
+* waptconsole: Fix ssl auth for mass package dependencies / conflicts updates 
 
-* Be sure to have proper host private key saved on disk when receiving signed certificate from server.
-
-* Fix ssl auth for mass package dependencies / conflicts updates 
-
-* Fix import packages from external repos with ssl auth
+* waptconsole: Fix import packages from external repos with ssl auth
 
 * backports from master:
 
-- target OS in import packages
+  - target OS in import packages
 
-- choose editor for packages in linux in cmdline
+  - choose editor for packages in linux in cmdline
 
 * backports from master:
 
@@ -97,10 +93,11 @@ Fixes and detailed changelog
 
 * Fix for repo-sync
 
-* allow kerberos or ssl auth check in waptserver only if enabled in waptserver.ini config file.
+* waptserver : allow kerberos or ssl auth check in waptserver only if enabled in waptserver.ini config file.
 
 * Add two setuphelpers for linux : type_debian and type_redhat
-indent the local sync.json
+
+  indent the local sync.json
 
 * use get_os_version and windows_version_from_registry instead of windows_version
 
@@ -132,9 +129,9 @@ indent the local sync.json
 
 * force restart if windows task is broken
 
-* use sys._exit(10) to ask nssm to restart service in case of unhandled exception in waptservice (loops..)
+* waptservice: use sys._exit(10) to ask nssm to restart service in case of unhandled exception in waptservice (loops..)
 
-* don't log / store into db Wapt.runstatus if not changed
+* wapt client: don't log / store into db Wapt.runstatus if not changed
 
 
 WAPT-1.8.0-6641 (2020-01-24) 
@@ -148,7 +145,7 @@ Major changes :
 
 * Repository access rules defined in waptconsole. Depending of client IP, site, computername, one can define which secondary reporitory URL to use (Enterprise).
  
-As a consequence, the DNS query method (with SRV records) is no more supported.
+  As a consequence, the DNS query method (with SRV records) is no more supported.
 
 * The package and signature process has been changed to be compatible with python3. Serialization of dict is now sorted by key alphabetically.
   Wapt agents prior than version 1.7.1 will not be able to use new packages. (see git hash SHA-1: f571e55594617b43ed83003faeef4911474a84db)
