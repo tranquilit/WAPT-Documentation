@@ -132,6 +132,7 @@ WAPT support and training
   :caption: Presentation
 
   wapt-concept/index.rst
+  wapt-concept/wapt-SRP.rst
   wapt-security-principles/index.rst
   wapt-enterprise.rst
 
