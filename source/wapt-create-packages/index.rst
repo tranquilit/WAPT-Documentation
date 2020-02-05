@@ -37,12 +37,18 @@ and you will quickly become a master of WAPT.
   package-exe-evo/index.rst
   package-additional/index.rst
   session-setup/index.rst
-  package-additional/setuphelpers-useful.rst
-  updatepackage/index.rst
   audit/index.rst
+  package-additional/setuphelpers-useful.rst
+  
+.. toctree::
+  :maxdepth: 1
+  :caption: Advanced usage 
+  
+  updatepackage/index.rst
   secret-data/encrypt-paquet.rst
+  package-additional/use-other-editor.rst
 
-Videos is also available.
+Videos are also available.
 ----------------------------------------
 
 
