@@ -37,10 +37,11 @@ WAPT Enterprise
 
 .. hint::
 
-   To access WAPT Enterprise ressources, you must use the username and password provided by our sales department.
-   
-   Replace **user** and **password** in the **baseurl** parameter to access WAPT Enterprise repository.
+   To access WAPT Enterprise ressources, you must use the username and password
+   provided by our sales department.
 
+   Replace **user** and **password** in the **baseurl** parameter
+   to access WAPT Enterprise repository.
 
 .. code-block:: bash
 
@@ -54,9 +55,8 @@ WAPT Enterprise
 
   wget -q -O /tmp/tranquil_it.gpg "https://wapt.tranquil.it/centos7/RPM-GPG-KEY-TISWAPT-7"; rpm --import /tmp/tranquil_it.gpg
   yum install epel-release
-  yum install cabextract  
+  yum install cabextract
   yum install postgresql96-server postgresql96-contrib tis-waptserver tis-waptsetup
-
 
 WAPT Community
 ^^^^^^^^^^^^^^
@@ -79,17 +79,16 @@ WAPT Community
    During installation, you may be asked for the Kerberos realm.
    Just press :kbd:`Enter` to skip this step.
 
-
 Post-configuring
 """"""""""""""""
 
-Initializing the PostgreSQL database and activating the services
+* initialize the PostgreSQL database and activate the services:
 
-.. code-block:: bash
+  .. code-block:: bash
 
-  sudo /usr/pgsql-9.6/bin/postgresql96-setup initdb
-  sudo systemctl enable postgresql-9.6 waptserver nginx
-  sudo systemctl start postgresql-9.6 nginx
+    sudo /usr/pgsql-9.6/bin/postgresql96-setup initdb
+    sudo systemctl enable postgresql-9.6 waptserver nginx
+    sudo systemctl start postgresql-9.6 nginx
 
 .. attention::
 
@@ -224,7 +223,6 @@ Flag            Definition
 *--force-https* Configures :program:`Nginx` so that *port 80
                 is permanently redirected to 443*
 =============== ================================================================
-
 
 The WAPT Server is now ready.
 

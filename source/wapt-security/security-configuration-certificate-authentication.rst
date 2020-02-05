@@ -43,31 +43,30 @@ private key generated during registration. It works as follows:
 Enabling Client-Side Certificate Authentication
 """""""""""""""""""""""""""""""""""""""""""""""
 
-* be sure to unset the custom headers relative to client side authentication results when request is proxied
-  without being checked by nginx ssl module.
-  for the X-Ssl-Authenticated and X-Ssl-Client-DN headers. 
+* be sure to unset the custom headers relative to client side authentication results
+  when requests are proxied without being checked by nginx ssl module.
   These headers are trusted by the waptserver if `X-Ssl-Authenticated` is SUCCESS
-  and waptserver.ini parameter `use_ssl_client_auth` is set to True.
+  and :file:`waptserver.ini` parameter ``use_ssl_client_auth``
+  is set to **True**:
 
-.. code-block:: ini
+  .. code-block:: ini
 
-    location / { 
-        ... 
-        proxy_set_header X-Ssl-Authenticated "";
-        proxy_set_header X-Ssl-Client-DN "";
+      location / {
+          ...
+          proxy_set_header X-Ssl-Authenticated "";
+          proxy_set_header X-Ssl-Client-DN "";
 
 * add a :program:`Nginx` configuration file :file:`/etc/nginx/certificate-auth.conf`.
   This file is used to restrict access to specific actions
   with Certificate Authentication:
 
+  .. code-block:: ini
 
-.. code-block:: ini
-
-    proxy_set_header X-Ssl-Authenticated $ssl_client_verify;
-    proxy_set_header X-Ssl-Client-DN $ssl_client_s_dn;
-    if ($ssl_client_verify != SUCCESS) {
-        return 401;
-    }
+      proxy_set_header X-Ssl-Authenticated $ssl_client_verify;
+      proxy_set_header X-Ssl-Client-DN $ssl_client_s_dn;
+      if ($ssl_client_verify != SUCCESS) {
+          return 401;
+      }
 
 Example config file:
 
@@ -113,7 +112,6 @@ Example config file:
             # be sure we ignore these headers if they are coming from clients
             proxy_set_header X-Ssl-Client-Dn  "";
             proxy_set_header X-Ssl-Authenticated  "";
-
 
             client_max_body_size 4096m;
             client_body_timeout 1800;

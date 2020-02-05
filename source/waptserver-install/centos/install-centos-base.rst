@@ -84,10 +84,12 @@ Configuring the IP address of the WAPT Server
 * apply the network configuration by rebooting the machine
   with a :code:`reboot`;
 
-* if it has not already be done, create the DNS entry for the WAPT Server
-  in the :term:`Organization` Active Directory;
+  .. code-block:: bash
 
-* :ref:`srv_dns`
+    reboot
+
+* if it has not already be done, :ref:`create the DNS entries
+  for the WAPT Server <srv_dns>` in the :term:`Organization` Active Directory;
 
 * after reboot, configure the system language in English in order to have
   non-localized logs for easier searching of common errors;
@@ -100,13 +102,13 @@ Configuring the IP address of the WAPT Server
 * check that the machine clock is on time (with NTP installed),
   and that SELinux and the firewall are enabled;
 
-.. code-block:: bash
+  .. code-block:: bash
 
-  yum list installed | grep ntp
-  service ntpd status
-  date
-  sestatus
-  systemctl status firewalld
+    yum list installed | grep ntp
+    service ntpd status
+    date
+    sestatus
+    systemctl status firewalld
 
 .. hint::
 
@@ -116,7 +118,7 @@ Configuring the IP address of the WAPT Server
 
     yum install ntp
     systemctl enable ntpd.service
-    systemctl start ntpd 
+    systemctl start ntpd
 
 * update CentOS7 and set up the :abbr:`EPEL (Extra Packages
   for Enterprise Linux)` repository;

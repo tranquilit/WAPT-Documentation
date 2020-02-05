@@ -16,8 +16,8 @@ Configuring the Organization's DNS for WAPT
 
 .. note::
 
-  DNS configuration is not strictly required,
-  but it is very strongly recommended.
+  **DNS configuration is not strictly required,
+  but it is very strongly recommended**.
 
 In order to make make your WAPT setup easier to manage, it is strongly
 recommended to configure the :term:`DNS` server to include :term:`A field`

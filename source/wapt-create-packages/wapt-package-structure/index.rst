@@ -194,6 +194,7 @@ by a dash (*-*) character.
 
 architecture
 """"""""""""
+
 .. versionadded:: 1.5
 
 Defines whether the package may be installed on x64 or x32 processor
