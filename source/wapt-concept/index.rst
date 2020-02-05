@@ -191,7 +191,7 @@ example: **OU=room1,OU=prod,OU=computers,DC=mydomain,DC=lan**.
 By default, each computer looks for the *unit* packages
 that the host belongs to:
 
-* OU=room1,OU=prod,OU=computers,DC=mydomain,DC=lan
+* OU=room1,OU=prod,OU=computers,DC=mydomain,DC=lan;
 
 * OU=computers,DC=mydomain,DC=lan;
 
@@ -205,7 +205,6 @@ They are stored in the web directory https://srvwapt.mydomain.lan/wapt-host/.
 
   If the computer is removed from an Organizational Unit,
   obsolete *unit* packages will be removed.
-
 
 *WAPTWUA* packages
 """"""""""""""""""
@@ -240,7 +239,7 @@ of authorized packages that Users are allowed to install by themselves.
 However, *profile* packages work a little differently and are most useful
 when an Active Directory Server is operating within the :term:`Organization`:
 
-* the WAPT agent will list the Active Directory groups where the Host belongs;
+* the WAPT agent will list the Active Directory groups where the host belongs;
 
 * if a *profile* package has the same name as the Active Directory group,
   then the WAPT agent will install automatically the *profile* package
@@ -251,8 +250,8 @@ then the *profile* package will be uninstalled.
 
 .. note::
 
-   For performance reasons, this feature is enabled only if the "use_ad_groups" option is enabled in wapt-get.ini
-
+   For performance reasons, this feature is enabled only
+   if the *use_ad_groups* option is enabled in :file:`wapt-get.ini`.
 
 Dependency mechanism
 ++++++++++++++++++++
@@ -283,7 +282,7 @@ or :term:`Package Deployer` has defined for it.
   When attributing a software package to a host as a dependency,
   only the software canonical name without its version number is registered
   as a dependency (ex : *I want Freemind to be installed on this machine
-  in its latest version and that :program: `Freemind` to be configured
+  in its latest version and :program: `Freemind` to be configured
   so that the :term: `User` does not call me because she does not find
   the icon on her desktop!*).
 
@@ -472,10 +471,11 @@ Read the diagram clockwise:
 * the updated inventory is reported in the console;
 
 
-WAPT agent behavior with packages install / remove / session_setup / audit 
+WAPT agent behavior with packages install / remove / session_setup / audit
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-A key concept that can be hard to understand is the behavior of WAPT agent when installing a package and the considerations around it.
+A key concept that can be hard to understand is the behavior of WAPT agent
+when installing a package and the considerations around it.
 
 WAPT agent package installation can be split in SSS steps :
 
@@ -486,7 +486,7 @@ WAPT agent package installation can be split in SSS steps :
 * in case of success : downloaded package + unzipped files are deleted and status is send to server
 * in case of failure : downloaded package is kept - unzipped files are deleted - error status send to server
 
-That behavior is important as it has an impact on further actions. 
+That behavior is important as it has an impact on further actions.
 
 .. figure:: concept_wapt_install_behavior.png
   :align: center

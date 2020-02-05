@@ -14,6 +14,8 @@
 Using WAPT SelfService
 ======================
 
+.. versionadded:: 1.7 Enterprise
+
 Presentation
 ------------
 
@@ -27,8 +29,8 @@ The :term:`Users` gain in autonomy while deploying software and configurations
 that are trusted and authorized by the :term:`Organization`.
 This is a time saving feature for the Organization's IT support Helpdesk.
 
-How it works?
--------------
+How does it work?
+-----------------
 
 With WAPT 1.7 **Enterprise**, a new type of WAPT package exists beside *base*,
 *group*, *host* and *unit* packages: they are **selfservice** packages.
@@ -45,14 +47,15 @@ self-service rules that apply to the host.
 How to use the **selfservice** feature?
 ---------------------------------------
 
-.. versionadded:: 1.7 Enterprise
-
 .. hint::
 
-  Feature only available with WAPT **Enterprise**.
-  In the **Community** version, only Local Administrator users and members
+  The **selfservice** feature is only available with WAPT **Enterprise**.
+
+  In the **Community** version, only Local Administrator and members
   of the *waptselfservice* group can access self-service on the agent.
-  It is not possible to filter the packages made accessible to the user.
+
+  In the **Community** version, it is not possible to filter
+  the packages made accessible to the user.
 
 In the console go to the tab :guilabel:`Self-service` rules.
 
@@ -115,59 +118,52 @@ The self-service then displays a list of packages available for installation.
 * it is possible to change the language of the interface
   with the :guilabel:`configuration` button at the bottom left.
 
-Customization
-+++++++++++++
+Customizing the Self Service interface
+++++++++++++++++++++++++++++++++++++++
 
-.. hint::
-
-  Feature only available with WAPT **Enterprise**.
-
-
-Logo
-""""
+Adding the Logo of your Organisation
+""""""""""""""""""""""""""""""""""""
 
 It is possible to change the logo that appears in the self-service interface
-This will allow you to display the logo of your Organization for example.
+and therefore improve the acceptation of the Self Service feature by your users.
 
 To do this, simply place the logo you want in
 :file:`<wapt>\\templates\\waptself-logo.png`
-
 
 .. note::
 
    It is highly recommended to use a :mimetype:`.png` file with a *200 x 150px*
    resolution.
 
+Managing package categories
+"""""""""""""""""""""""""""
 
-Categories
-""""""""""
+Default categories are:
 
-Default categories are
+* Internet;
 
-* Internet
+* Utilities;
 
-* Utilities
+* Messaging;
 
-* Messaging
+* Security;
 
-* Security
+* System and network;
 
-* System and network
+* Storage;
 
-* Storage
+* Media;
 
-* Media
+* Development;
 
-* Development
+* Office​​;
 
-* Office​​
+You can create your own categories easily by filling the :file:`control`
+file's ``categories`` section of any WAPT package and write a new category
+of your choice, WAPT will automatically show the package in the new category.
 
-But you can create your own category easily by filling the :file:`control` file's section at :guilabel:`categories` and write anything,
-**Self-Service software WAPT** will automatically take it.
-
-
-Video of WAPT self-service feature in action
---------------------------------------------
+Video demonstration
+-------------------
 
 .. raw:: html
 

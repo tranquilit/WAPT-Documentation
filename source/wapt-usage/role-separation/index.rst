@@ -25,11 +25,13 @@ Differentiating the role level in WAPT
 Introduction
 ++++++++++++++++++++++++
 
-WAPT offers the possibility to differentiate adminstrator users roles base on a Public Key Infrastructure (PKI) to sign packages and actions. 
+WAPT offers the possibility to differentiate administrator roles based
+on a :abbr:`PKI (Public Key Infrastructure)` to sign packages and actions.
 
 .. hint::
 
-  The following description of roles differentiation is temporary as it will evolve in near future
+  The following description of roles differentiation is temporary
+  as it will evolve in the near future
 
 .. figure:: role-separation-schematics.png
   :align: center
@@ -43,22 +45,27 @@ There are three cases :
 Private key + certificate types                        Key usages
 ====================================================== =======================================================================================================
 Simple private key + certificate                       Allows authentication on WAPT console + interactions with WAPT agents
-Developer private key + certificate                    Allows authentication on WAPT console + interactions with WAPT agents + packages signing
-Certificate Authoriy (CA) private key + certificate    Allows authentication + interactions + packages signing + private key issuing
+Developer private key + certificate                    Allows authentication on WAPT console + interactions with WAPT agents + package signing
+Certificate Authority (CA) private key + certificate   Allows authentication + interactions + package signing + private key issuing
 ====================================================== =======================================================================================================
 
-Common WAPT install will generate a CA private key by default, allowing private key issuing for developers 
-and package signing.
+Common WAPT install will generate a CA private key by default,
+allowing private key issuing for developers and package signing.
 
-It's possible to emit a Certificate Authority for each subsidiaries. It's then possible to issue personnal private key + certificate for each IT admins.
+It is possible to emit a Certificate Authority for each subsidiaries.
+It is then possible to issue a personal private key
+and its corresponding certificate to each IT admins.
 
-By looking at the above schematics, we can deduce the following thing :
+By looking at the above schematics, we can deduce the following conclusion:
 
-* WAPT agents in HQ can be managed by HQ IT team and cannot be managed by subsidiaries IT teams.
-* WAPT agents in the subsidiary having both certificates, from HQ and subsidiary, can be managed by local IT team and by HQ IT team. 
+* WAPT agents in HQ can be managed by HQ IT team
+  and cannot be managed by subsidiaries IT teams;
 
-The usage of an existing PKI is possible, WAPT Console comes with a simple certificate generator.
+* WAPT agents in the subsidiary having both certificates,
+  from HQ and subsidiary, can be managed by local IT team and by HQ IT team;
 
+The usage of an existing PKI is possible,
+WAPT Console comes with a simple certificate generator.
 
 Generating a new certificate
 ++++++++++++++++++++++++++++
@@ -72,8 +79,8 @@ Generating a new certificate
 Generating the Certificate Authority (CA)
 +++++++++++++++++++++++++++++++++++++++++
 
-When installing WAPT, you are asked to create a pem / crt pair by checking
-the boxes :guilabel:`Certificate CA` and :guilabel:`Code Signing`.
+When installing WAPT, you are asked to create a :mimetype:`.pem` / :mimetype:`.crt`
+pair by checking the boxes :guilabel:`Certificate CA` and :guilabel:`Code Signing`.
 
 This crt/ pem pair will allow to sign WAPT packages and new certificates.
 
@@ -87,13 +94,14 @@ To create a new pem/ crt pair from the private key, click on
 
   The new certificate will not be a self-signed certificate;
 
-  This new certificate will be signed by the AC (the key generated at the time of the first installation of WAPT);
+  This new certificate will be signed by the AC (the key generated
+  at the time of the first installation of WAPT);
 
 You must then fill in the :guilabel:`AC's certificate`
 and the :guilabel:`AC's key`.
 
 When generating the new pem/ crt pair, you have the option to choose whether
-or not the new certificate will a **Code Signing** type.
+or not the new certificate will be a **Code Signing** type.
 
 .. hint::
 

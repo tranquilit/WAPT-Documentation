@@ -24,15 +24,14 @@ Using WAPT Windows Update Agent (WAPTWUA)
 
   Since version 1.7, WAPT is able to manage Windows Updates on your endpoints.
 
-  * The internals of WAPTWUA is based
-    on the :abbr:`WUA (Windows Update Agent)` API;
+  * the internals of WAPTWUA is based on the :abbr:`WUA (Windows Update Agent)` API;
 
-  * For more information: https://docs.microsoft.com/en-us/windows/desktop/wua_sdk/using-the-windows-update-agent-api
+  * for more information: https://docs.microsoft.com/en-us/windows/desktop/wua_sdk/using-the-windows-update-agent-api;
 
 Working principle
 -----------------
 
-Regularly, the WAPT server downloads an updated :file:`wsuscn2.cab` file
+Regularly, the WAPT server downloads an updated :file:`wsusscn2.cab` file
 from Microsoft servers. By default, downloads happen once a day
 and no download is triggered if the file has not changed
 since the last download.
@@ -43,13 +42,13 @@ since the last download.
 
   WAPT Windows Update flow process
 
-The :file:`wsuscn2.cab` file is then downloaded by the WAPT agent
+The :file:`wsusscn2.cab` file is then downloaded by the WAPT agent
 from its nearest repository and then passed on to
 the standard :abbr:`WUA (Windows Update Agent)` Windows utility
 to crunch the update tree for the host.
 
 Regularly, the host will analyze the available updates using
-the :file:`wsuscn2.cab` file. The host will send its list of needed updates
+the :file:`wsusscn2.cab` file. The host will send its list of needed updates
 as determined by its WUA to the WAPT server.
 
 If an update is pending on the host and if that update is not present
@@ -76,11 +75,11 @@ on the ``repo_url`` parameter in :file:`wapt-get.ini`:
 * do not forget to synchronize the :file:`waptwua` folder
   if you are replicating your packages with distant repositories;
 
-
 .. note::
 
-   If in your company, a proxy is needed to go out on the Internet, then be sure to inform this proxy server in the wapt server configuration.
-   :ref:`Configuring the waptserver.ini <waptserver_configuration>`.
+   If in your company, a proxy is needed to go out on the Internet,
+   then be sure to :ref:`set the proxy server
+   in the waptserver.ini file <waptserver_configuration>`.
 
 Configuring WAPTWUA on the WAPT agent
 -------------------------------------
@@ -97,15 +96,15 @@ You then have several options:
 Options                        Default Value                        Description
 ============================== ==================================== ======================================================================================================================================================================
 ``enabled``                    False                                Enable or disable WAPTWUA on this machine.
-``offline``                    True                                 Defined if the scan should be done using :file:`wsuscn2.cab` files or Online with Microsoft servers
+``offline``                    True                                 Defined if the scan should be done using :file:`wsusscn2.cab` files or Online with Microsoft servers
 ``allow_direct_download``      False                                Allow direct download of updates from Microsoft servers if the WAPT server is not available
 ``default_allow``              False                                Set if missing update is authorized or not by default
 ``filter``                     Type='Software' or Type='Driver'     Define the filter to apply for the Windows update scan
-``download_scheduling``        None                                 Set the Windows Update scan recurrence (Will not do anything if *wsus* package rule or :file:`wsuscn2.cab` file have not changed) (ex: 2h)
+``download_scheduling``        None                                 Set the Windows Update scan recurrence (Will not do anything if *wsus* package rule or :file:`wsusscn2.cab` file have not changed) (ex: 2h)
 ``install_scheduling``         None                                 Set the Windows Update install recurrence (Will do nothing if no update is pending) (ex: 2h)
 ``install_at_shutdown``        False                                Install update when the machine will shutdown
 ``install_delay``              None                                 Set a deferred installation delay before publication in the repository (ex: 7d)
-``allowed_severities``         None									                Define a severity list that will be automatically accepted during a wapt windows update scan. ex : Important,Critical,Moderate    
+``allowed_severities``         None									                Define a severity list that will be automatically accepted during a wapt windows update scan. ex : Important,Critical,Moderate
 ============================== ==================================== ======================================================================================================================================================================
 
 .. hint::
@@ -146,8 +145,7 @@ these options are equivalent to this:
   updates. The clients will install missing updates on their own
   at time of upgrade.
 
-
-Example package source code to modify :command:`[waptwua]` settings :
+Example package source code to modify ``[waptwua]`` settings :
 
 .. code-block:: python
 
@@ -159,12 +157,10 @@ Example package source code to modify :command:`[waptwua]` settings :
     inifile_writestring(WAPT.config_filename,'waptwua','download_scheduling','7d')
     inifile_writestring(WAPT.config_filename,'waptwua','allowed_severities','Critical,Important')
 
-
-
 Using WAPTWUA from the console
 ------------------------------
 
-The :guilabel:`WAPT Windows Update Agent` tab in the console WAPT
+The :guilabel:`WAPT Windows Update Agent` tab in the WAPT console
 comes with two sub-menus to manage WAPTWUA.
 
 WAPTWUA Package
@@ -200,7 +196,7 @@ then the WAPT agent will flag the update as *MISSING*.
     you can set WAPTWUA default value to ``default_allow = False``;
 
   * you can test updates on a small sample of hosts and if everything is good,
-    you can release the updates to the entire base of computers;
+    you can release the updates to the entire fleet of computers;
 
 .. figure:: wapt_console-wua.png
   :align: center
@@ -215,9 +211,12 @@ The :guilabel:`Windows Update List` tab lists all needed Windows Updates.
 
 .. important::
 
-   The server does not directly scan the wsussc2.cab itself, it lets wua wapt agents do it. 
-   If it is missing from the list of categories, os, kbs ... on this tab, you must run a scan on one of the machines present in the console.
-   If you run a wua scan on a Windows 7 agent, the CAB and Windows 7 files will be displayed on the Windows Update List tab.
+   The server does not scan the :file:`wsussc2.cab` itself,
+   it lets the WUA wapt agents do it.
+   If an update seems to you as missing from the list, you must run a scan
+   on one of the machines present in the console.
+   If you run a WUA scan on a Windows 7 agent, the CAB and Windows 7
+   files will be displayed on the Windows Update List tab.
 
 The left pane displays updates categories, allowing you to filter by:
 
@@ -284,7 +283,7 @@ use the :guilabel:`Trigger the download of pending Windows Updates` button.
 
 The command-line for downloading kb from the client is
 :command:`wapt-get waptwua-download`, it will scan the current status of Windows
-against current rules, download missing kb and send the result to server.
+against current rules, download missing kb and send the result to the server.
 
 If you want to install the pending update(s), use :command:`wapt-get waptwua-install`
 from the command-line prompt.
@@ -301,10 +300,8 @@ click on :guilabel:`Trigger the install of pending Windows Updates` button.
   to install the updates. When updates are installed, waptservice will stop
   and disable the WUA service until the next cycle.
 
-
-
-Demonstration video
-------------------------------------------------------
+Video demonstration
+-------------------
 
 .. raw:: html
 

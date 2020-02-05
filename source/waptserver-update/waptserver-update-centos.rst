@@ -24,7 +24,6 @@ Performing minor updates on a CentOS/ RedHat based WAPT Server
 
     yum update
 
-
 WAPT Enterprise
 +++++++++++++++
 
@@ -32,9 +31,11 @@ Modify the repository address then launch the upgrade.
 
 .. hint::
 
-   To access WAPT Enterprise ressources, you must use the username and password provided by our sales department.
-   
-   Replace **user** and **password** in the **baseurl** parameter to access WAPT Enterprise repository.  
+   To access WAPT Enterprise ressources, you must use the username and password
+   provided by our sales department.
+
+   Replace **user** and **password** in the **baseurl** parameter
+   to access WAPT Enterprise repository.
 
 .. code-block:: bash
 
@@ -51,11 +52,10 @@ Modify the repository address then launch the upgrade.
   yum install cabextract
   yum install postgresql96-server postgresql96-contrib tis-waptserver tis-waptsetup
 
-
 WAPT Community
 ++++++++++++++
 
-Modify the repository address then launch the upgrade.
+* modify the repository address then launch the upgrade:
 
 .. code-block:: bash
 
@@ -70,11 +70,8 @@ Modify the repository address then launch the upgrade.
   wget -q -O /tmp/tranquil_it.gpg "https://wapt.tranquil.it/centos7/RPM-GPG-KEY-TISWAPT-7"; rpm --import /tmp/tranquil_it.gpg
   yum install postgresql96-server postgresql96-contrib tis-waptserver tis-waptsetup
 
-  
-
 Post-configuration
 ++++++++++++++++++
-
 
 * launch the post-configuration step:
 
@@ -90,14 +87,14 @@ Post-configuration
       do not answer :guilabel:`Yes` when the post-configuration asks you
       to configure :program:`Nginx`;
 
-
   .. attention::
 
-    * with WAPT 1.8 post-configuration, WAPT WUA packages will be moved from their current storage location to waptwua root folder (:file:`/var/www/waptwua`).
+    * with WAPT 1.8 post-configuration, WAPT WUA packages will be moved
+      from their current storage location
+      to the waptwua root folder (:file:`/var/www/waptwua`).
 
-    * if repository replication has been set, all KB/CAB packages will be re-synchronized on remote repositories
-
-
+    * if repository replication has been set, all KB/CAB packages
+      will be re-synchronized on remote repositories.
 
   .. code-block:: bash
 

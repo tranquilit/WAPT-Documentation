@@ -79,7 +79,6 @@ To edit / modify / save your reports:
    more effectively;
 
 Query examples
-
 ++++++++++++++
 
 * Computers list:
@@ -110,11 +109,11 @@ Query examples
   from hosts
   group by 1,2
 
-
-You can also find several example of request on the forum of tranquil it : 
-
-https://forum.tranquil.it/viewforum.php?f=18&sid=b2a0081dd9a8adb5c57386974d691c6d
-
+You can also find several more examples of queries
+on `Tranquil IT's Forum <https://forum.tranquil.it/viewforum.php?f=18&sid=b2a0081dd9a8adb5c57386974d691c6d>`_.
+Feel free to post your own queries on the same forum with an explanation
+of what your query does, ideally with a screen capture or a table showing
+a sample of your query result.
 
 Normalizing software names
 --------------------------
@@ -154,8 +153,8 @@ of the software with WAPT.
 
 You can now run your queries on this standardized name.
 
-Demonstration video
-------------------------------------------------------
+Video demonstration
+-------------------
 
 .. raw:: html
 
