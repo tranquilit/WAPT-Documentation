@@ -1,0 +1,286 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Tranquil IT
+# This file is distributed under the same license as the WAPT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WAPT 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-05 18:00+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:8
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:13
+msgid "Using another IDE for WAPT"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:8
+msgid "IDE, PyScripter, VSCode, PyCharm, WAPT"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:16
+msgid "Introduction"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:18
+msgid ""
+"If you are used to work with another :term:`IDE`, you can be relieved now"
+" as WAPT supports other editors."
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:20
+msgid "Some editors are natively supported :"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:22
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:47
+msgid "PyScripter"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:23
+msgid "VSCode"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:24
+msgid "VSCodium"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:26
+msgid ""
+"Other editors can be selected and will be launched when you create a new "
+"template for a WAPT package from WAPT Console"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:30
+msgid "Configure WAPT to use another IDE"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:34
+msgid ""
+"Using a supported IDE will launch the WAPT package project with a valid "
+"debug configuration"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:38
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:97
+msgid "Using Microsoft Windows"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:40
+msgid ""
+"To configure another editor for WAPT, you must modify "
+":code:`editor_for_packages` in :code:`[global]` section of "
+":file:`%LOCALAPPDATA%\\\\waptconsole\\\\waptconsole.ini`."
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:42
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:74
+msgid "Possible values are :"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:45
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:77
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:104
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:126
+msgid "Editor name"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:45
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:77
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:104
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:126
+msgid "editor_for_packages value"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:47
+msgid "None"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:48
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:79
+msgid "Microsoft Visual Studio Code"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:48
+msgid ":file:`vscode` or :file:`code`"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:49
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:80
+msgid "Microsoft Visual Studio Codium"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:49
+msgid ":file:`vscodium` or :file:`codium`"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:52
+msgid "Example config in :file:`waptconsole.ini` :"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:62
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:119
+msgid "Using Linux/Apple macOS"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:64
+msgid ""
+"To configure another editor for WAPT, you must modify "
+":code:`editor_for_packages` in :code:`[global]` section of "
+":file:`/opt/wapt/wapt-get.ini`."
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:66
+msgid ""
+"By default, if :code:`editor_for_packages` is empty, WAPT will try to "
+"launch (in that order) :"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:68
+msgid "vscodium"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:69
+msgid "vscode"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:70
+msgid "nano"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:71
+msgid "vim"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:72
+msgid "vi"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:79
+msgid ":code:`vscode` or :code:`code`"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:80
+msgid ":code:`vscodium` or :code:`codium`"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:81
+msgid "Nano"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:81
+msgid ":code:`nano`"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:82
+msgid "Vim"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:82
+msgid ":code:`vim`"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:83
+msgid "Vi"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:83
+msgid ":code:`vi`"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:94
+msgid "Configure WAPT to use a custom editor"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:99
+msgid "Custom editors can be used, for example Notepad++ or PyCharm."
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:101
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:123
+msgid "Custom editors example :"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:106
+msgid "Notepad++"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:106
+msgid ":code:`C:\\Program Files\\Notepad++\\notepad++.exe {setup_filename}`"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:107
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:128
+msgid "PyCharm"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:107
+msgid ""
+":code:`C:\\Program Files\\JetBrains\\PyCharm Community Edition "
+"2019.3.2\\bin\\pycharm64.exe {wapt_sources_dir}`"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:121
+msgid "Custom editors can be used, for example PyCharm."
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:128
+msgid ":code:`/opt/pycharm/bin/pycharm_x64 {wapt_sources_dir}`"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:139
+msgid "Custom arguments"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:141
+msgid "Arguments can be passed in the :code:`editor_for_packages` command :"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:144
+msgid "Argument"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:144
+msgid "Description"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:146
+msgid ":code:`{setup_filename}`"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:146
+msgid "Launches custom editor and edit WAPT package setup.py file"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:147
+msgid ":code:`{control_filename}`"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:147
+msgid "Launches custom editor and edit WAPT package control file"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:148
+msgid ":code:`{wapt_sources_dir}`"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:148
+msgid "Launches custom editor and opens WAPT package folder"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:149
+msgid ":code:`{wapt_base_dir}`"
+msgstr ""
+
+#: ../../source/wapt-create-packages/package-additional/use-other-editor.rst:149
+msgid "Launches custom editor and opens WAPT install folder"
+msgstr ""
+

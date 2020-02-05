@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 14:09+0100\n"
+"POT-Creation-Date: 2020-02-05 18:00+0100\n"
 "PO-Revision-Date: 2018-11-07 12:25+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -49,18 +49,25 @@ msgstr ""
 "Pour créer vos paquets et les personnaliser, suivez cette documentation "
 "et vous maîtriserez très vite les subtilités du fonctionnement de WAPT."
 
-#: ../../source/wapt-create-packages/index.rst:46
-msgid "Videos is also available."
+#: ../../source/wapt-create-packages/index.rst:43
+msgid "Advanced usage"
 msgstr ""
 
-#: ../../source/wapt-create-packages/index.rst:50
+#: ../../source/wapt-create-packages/index.rst:52
+msgid "Videos are also available."
+msgstr ""
+
+#: ../../source/wapt-create-packages/index.rst:56
 msgid "Creating and deploying an msi package with WAPT"
 msgstr ""
 
-#: ../../source/wapt-create-packages/index.rst:60
+#: ../../source/wapt-create-packages/index.rst:66
 msgid "Creating, configuring and deploying an exe package with WAPT"
 msgstr ""
 
 #~ msgid "It is advizable to read :ref:`envdev_setup` before continuing."
 #~ msgstr "Veillez à consulter préalablement la page :ref:`envdev_setup`."
+
+#~ msgid "Videos is also available."
+#~ msgstr ""
 

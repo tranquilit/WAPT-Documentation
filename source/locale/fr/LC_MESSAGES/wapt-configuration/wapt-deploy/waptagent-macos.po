@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-30 10:45+0100\n"
+"POT-Creation-Date: 2020-02-05 18:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgstr ""
 msgid "Deploying the WAPT agent for MacOS"
 msgstr ""
 
-#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:19
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:21
 msgid ""
 "Currently, the agent has only been tested on `High Sierra "
 "<https://en.wikipedia.org/wiki/MacOS_High_Sierra>`_ (version 10.13) and "
@@ -39,107 +39,114 @@ msgid ""
 "have introduced changes that could prevent the agent from working."
 msgstr ""
 
-#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:27
-msgid "Install WAPT Agent package from public repository"
-msgstr ""
-
-#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:29
-msgid ""
-"Download WAPT agent for Apple Mac OSX from Tranquil IT public repository "
-": https://wapt.tranquil.it/wapt/releases/latest/"
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:28
+msgid "Installing the WAPT Agent package from Tranquil IT's public repository"
 msgstr ""
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:30
-msgid "Install the downloaded package using installer :"
+msgid ""
+"download WAPT agent for Apple Mac OSX from `Tranquil IT public repository"
+" <https://wapt.tranquil.it/wapt/releases/latest/>`_;"
 msgstr ""
 
-#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:38
-msgid "Create agent configuration file"
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:33
+msgid "install the downloaded package:"
 msgstr ""
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:40
-msgid "The requisities for your WAPT agent to work are :"
+msgid "Creating the agent configuration file"
 msgstr ""
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:42
-msgid "``wapt-get.ini`` config file in :file:`/opt/wapt/`"
+msgid "The requisites for your WAPT agent to work are:"
 msgstr ""
 
-#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:43
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:44
+msgid "``wapt-get.ini`` config file in :file:`/opt/wapt/`;"
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:46
 msgid ""
 "a public certificate of the package-signing authority in "
-":file:`/opt/wapt/ssl/`"
+":file:`/opt/wapt/ssl/`;"
 msgstr ""
 
-#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:45
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:48
 msgid ""
 "You need to create and configure the :file:`wapt-get.ini` file in "
 ":file:`/opt/wapt` (:ref:`wapt-get-ini`)."
 msgstr ""
 
-#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:47
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:51
 msgid ""
 "An example of what it should look like is present further down on this "
 "page. You may use it after changing the parameters to suit your needs."
 msgstr ""
 
-#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:66
-msgid "Copy package-signing certificate"
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:70
+msgid "Copying the package-signing certificate"
 msgstr ""
 
-#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:68
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:72
 msgid ""
 "You need to copy manually, or by script, the public certificate of your "
 "package signing certificate authority."
 msgstr ""
 
-#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:70
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:75
 msgid ""
-"It shoud be located on your Windows machine in :file:`C:\\\\Program Files"
-" (x86)\\\\wapt\\\\ssl\\\\`."
-msgstr ""
-
-#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:72
-msgid ""
-"Copy your certificate(s) in :file:`/opt/wapt/ssl` using WinSCP or rsync "
-"for example."
-msgstr ""
-
-#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:76
-msgid "Copy SSL/TLS certificate"
+"The certificate should be located on your Windows machine in "
+":file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl\\\\`."
 msgstr ""
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:78
 msgid ""
-"If you already have configured your WAPT server to use correct Nginx "
-"SSL/TLS certificates ( :ref:`activating_HTTPS_certificate_verification` "
-"), you must copy the certificate in your WAPT MacOS agent."
-msgstr ""
-
-#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:80
-msgid ""
-"It shoud be located on your Windows machine in :file:`C:\\\\Program Files"
-" (x86)\\\\wapt\\\\ssl\\\\server\\\\`."
+"Copy your certificate(s) in :file:`/opt/wapt/ssl` using :program:`WinSCP`"
+" or :program:`rsync`."
 msgstr ""
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:82
+msgid "Copying the SSL/TLS certificate"
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:84
 msgid ""
-"Copy your certificate(s) in :file:`/opt/wapt/ssl/server/` using WinSCP or"
-" rsync for example."
+"If you already have configured your WAPT server to use correct "
+":ref:`Nginx SSL/TLS certificates "
+"<activating_HTTPS_certificate_verification>`, you must copy the "
+"certificate in your WAPT Linux agent."
 msgstr ""
 
-#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:86
-msgid "Register your agent"
-msgstr ""
-
-#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:92
-msgid "Finally, execute the following command to register your machine :"
-msgstr ""
-
-#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:99
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:88
 msgid ""
-"Your MacOS Agent is now installed and configured and will appear in your "
-"WAPT Console."
+"The certificate should be located on your Windows machine in "
+":file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl\\\\server\\\\`."
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:91
+msgid ""
+"Copy your certificate(s) in :file:`/opt/wapt/ssl/server/` using "
+":program:`WinSCP` or :program:`rsync`."
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:95
+msgid "Registering your MacOS agent"
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:97
+msgid "restart the WAPT service"
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:103
+msgid ""
+"finally, execute the following command to register your MacOS host with "
+"the WAPT server:"
+msgstr ""
+
+#: ../../source/wapt-configuration/wapt-deploy/waptagent-macos.rst:111
+msgid ""
+"Your MacOS Agent is now installed and configured and it will now appear "
+"in your WAPT Console with a MacOS icon."
 msgstr ""
 
 #~ msgid ""
@@ -185,5 +192,79 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Example of a wapt-get.ini file"
+#~ msgstr ""
+
+#~ msgid "Install WAPT Agent package from public repository"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Download WAPT agent for Apple Mac "
+#~ "OSX from Tranquil IT public repository"
+#~ " : https://wapt.tranquil.it/wapt/releases/latest/"
+#~ msgstr ""
+
+#~ msgid "Install the downloaded package using installer :"
+#~ msgstr ""
+
+#~ msgid "Create agent configuration file"
+#~ msgstr ""
+
+#~ msgid "The requisities for your WAPT agent to work are :"
+#~ msgstr ""
+
+#~ msgid "``wapt-get.ini`` config file in :file:`/opt/wapt/`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "a public certificate of the package-"
+#~ "signing authority in :file:`/opt/wapt/ssl/`"
+#~ msgstr ""
+
+#~ msgid "Copy package-signing certificate"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "It shoud be located on your "
+#~ "Windows machine in :file:`C:\\\\Program Files"
+#~ " (x86)\\\\wapt\\\\ssl\\\\`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Copy your certificate(s) in "
+#~ ":file:`/opt/wapt/ssl` using WinSCP or rsync"
+#~ " for example."
+#~ msgstr ""
+
+#~ msgid "Copy SSL/TLS certificate"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you already have configured your "
+#~ "WAPT server to use correct Nginx "
+#~ "SSL/TLS certificates ( "
+#~ ":ref:`activating_HTTPS_certificate_verification` ), you"
+#~ " must copy the certificate in your"
+#~ " WAPT MacOS agent."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "It shoud be located on your "
+#~ "Windows machine in :file:`C:\\\\Program Files"
+#~ " (x86)\\\\wapt\\\\ssl\\\\server\\\\`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Copy your certificate(s) in "
+#~ ":file:`/opt/wapt/ssl/server/` using WinSCP or "
+#~ "rsync for example."
+#~ msgstr ""
+
+#~ msgid "Register your agent"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Your MacOS Agent is now installed "
+#~ "and configured and will appear in "
+#~ "your WAPT Console."
 #~ msgstr ""
 
