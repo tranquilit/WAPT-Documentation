@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 14:09+0100\n"
+"POT-Creation-Date: 2020-02-05 18:00+0100\n"
 "PO-Revision-Date: 2019-03-01 11:06+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: en\n"
@@ -160,36 +160,37 @@ msgstr ""
 "le raccourci :kbd:`CTRL+Espace` vous permet de construire vos requêtes "
 "plus efficacement en mode conception ;"
 
-#: ../../source/wapt-usage/wapt-reporting.rst:81
+#: ../../source/wapt-usage/wapt-reporting.rst:82
 msgid "Query examples"
 msgstr "Exemples de requêtes"
 
-#: ../../source/wapt-usage/wapt-reporting.rst:85
+#: ../../source/wapt-usage/wapt-reporting.rst:84
 msgid "Computers list:"
 msgstr "Liste des ordinateurs :"
 
-#: ../../source/wapt-usage/wapt-reporting.rst:91
+#: ../../source/wapt-usage/wapt-reporting.rst:90
 msgid "Computers MAC addresses and IP:"
 msgstr "Adresses MAC et IP des ordinateurs :"
 
-#: ../../source/wapt-usage/wapt-reporting.rst:102
+#: ../../source/wapt-usage/wapt-reporting.rst:101
 msgid "Windows versions:"
 msgstr "versions de Windows:"
 
-#: ../../source/wapt-usage/wapt-reporting.rst:114
-msgid "You can also find several example of request on the forum of tranquil it :"
+#: ../../source/wapt-usage/wapt-reporting.rst:112
+msgid ""
+"You can also find several more examples of queries on `Tranquil IT's "
+"Forum "
+"<https://forum.tranquil.it/viewforum.php?f=18&sid=b2a0081dd9a8adb5c57386974d691c6d>`_."
+" Feel free to post your own queries on the same forum with an explanation"
+" of what your query does, ideally with a screen capture or a table "
+"showing a sample of your query result."
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-reporting.rst:116
-msgid "https://forum.tranquil.it/viewforum.php?f=18&sid=b2a0081dd9a8adb5c57386974d691c6d"
-msgstr ""
-
-#: ../../source/wapt-usage/wapt-reporting.rst:120
-
+#: ../../source/wapt-usage/wapt-reporting.rst:119
 msgid "Normalizing software names"
 msgstr "Normaliser les noms d'un logiciel"
 
-#: ../../source/wapt-usage/wapt-reporting.rst:122
+#: ../../source/wapt-usage/wapt-reporting.rst:121
 msgid ""
 "Sometimes, the version of the software or its architecture are an "
 "integral part of the software name. When they register with the WAPT "
@@ -197,7 +198,7 @@ msgid ""
 " one software for us humans."
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-reporting.rst:126
+#: ../../source/wapt-usage/wapt-reporting.rst:125
 msgid ""
 "To solve this problem, we propose to standardize the name of the software"
 " with WAPT."
@@ -205,17 +206,17 @@ msgstr ""
 "Pour résoudre ce problème, nous proposons de standardiser le nom de "
 "certains logiciels."
 
-#: ../../source/wapt-usage/wapt-reporting.rst:133
+#: ../../source/wapt-usage/wapt-reporting.rst:132
 msgid "Normalizing the name of software"
 msgstr "Normaliser les noms d'un logiciel"
 
-#: ../../source/wapt-usage/wapt-reporting.rst:135
+#: ../../source/wapt-usage/wapt-reporting.rst:134
 msgid "click :guilabel:`Normalize Software Names` in the :guilabel:`Tools` menu;"
 msgstr ""
 "cliquez sur :guilabel:`Normaliser les noms de logiciels` dans le menu "
 ":guilabel:`Outils` ;"
 
-#: ../../source/wapt-usage/wapt-reporting.rst:137
+#: ../../source/wapt-usage/wapt-reporting.rst:136
 msgid ""
 "select the software to standardize, for example, all different version of"
 " Adobe Flash Player;"
@@ -223,7 +224,7 @@ msgstr ""
 "sélectionner le logiciel à standardiser, par exemple, toutes les "
 "différentes versions d'Adobe Flash Player ;"
 
-#: ../../source/wapt-usage/wapt-reporting.rst:140
+#: ../../source/wapt-usage/wapt-reporting.rst:139
 msgid ""
 "on the column :guilabel:`normalized`, press :kbd:`F2` to assign a "
 "standardized name to the selected software. Then press :kbd:`Enter`;"
@@ -232,7 +233,7 @@ msgstr ""
 "attribuer un nom standardisé au logiciel sélectionné. Puis appuyez sur "
 ":kbd:`Entrée` ;"
 
-#: ../../source/wapt-usage/wapt-reporting.rst:145
+#: ../../source/wapt-usage/wapt-reporting.rst:144
 msgid ""
 "to select several programs, select them with the :kbd:`shift-up/down` key"
 " combination;"
@@ -240,7 +241,7 @@ msgstr ""
 "pour sélectionner plusieurs programmes, sélectionnez-les avec la "
 "combinaison de touches :kbd:`shift-up/down` ;"
 
-#: ../../source/wapt-usage/wapt-reporting.rst:148
+#: ../../source/wapt-usage/wapt-reporting.rst:147
 msgid ""
 "you can also indicate a software like *windows update* or *banned* (Press"
 " :kbd:`spacebar` in the corresponding column);"
@@ -248,21 +249,33 @@ msgstr ""
 "vous pouvez aussi indiquer un logiciel comme *windows update* ou *banned*"
 " (Appuyez sur :kbd:`Espace` dans la colonne correspondante) ;"
 
-#: ../../source/wapt-usage/wapt-reporting.rst:151
+#: ../../source/wapt-usage/wapt-reporting.rst:150
 msgid "press on :guilabel:`Import` to load the changes from the server;"
 msgstr ""
 "cliquez sur :guilabel:`Importer` pour charger les changements depuis le "
 "serveur ;"
 
-#: ../../source/wapt-usage/wapt-reporting.rst:153
+#: ../../source/wapt-usage/wapt-reporting.rst:152
 msgid "press on :guilabel:`Write` to save your changes;"
 msgstr "cliquez sur :guilabel:`Ecrire` pour sauvegarder vos modifications ;"
 
-#: ../../source/wapt-usage/wapt-reporting.rst:155
+#: ../../source/wapt-usage/wapt-reporting.rst:154
 msgid "You can now run your queries on this standardized name."
 msgstr "Vous pouvez maintenant exécuter vos requêtes avec ce nom standardisé."
 
-#: ../../source/wapt-usage/wapt-reporting.rst:158
-msgid "Demonstration video"
+#: ../../source/wapt-usage/wapt-reporting.rst:157
+msgid "Video demonstration"
 msgstr ""
+
+#~ msgid ""
+#~ "You can also find several example "
+#~ "of request on the forum of "
+#~ "tranquil it :"
+#~ msgstr ""
+
+#~ msgid "https://forum.tranquil.it/viewforum.php?f=18&sid=b2a0081dd9a8adb5c57386974d691c6d"
+#~ msgstr ""
+
+#~ msgid "Demonstration video"
+#~ msgstr ""
 

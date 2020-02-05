@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-04 19:24+0100\n"
+"POT-Creation-Date: 2020-02-05 12:22+0100\n"
 "PO-Revision-Date: 2018-11-06 14:34+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -456,7 +456,7 @@ msgid "Public IP"
 msgstr ""
 
 #: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:190
-msgid "``256.89.299.22``"
+msgid "``256.89.299.22/32``"
 msgstr ""
 
 #: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:190
@@ -1133,5 +1133,8 @@ msgstr ""
 #~ "replication on Windows WAPT agent : "
 #~ "https://store.wapt.fr/store/tis-enable-remote-"
 #~ "repo-nginx"
+#~ msgstr ""
+
+#~ msgid "``256.89.299.22``"
 #~ msgstr ""
 

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 14:09+0100\n"
+"POT-Creation-Date: 2020-02-05 12:22+0100\n"
 "PO-Revision-Date: 2018-11-02 18:27+0200\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -27,15 +27,24 @@ msgstr ""
 
 #: ../../source/wapt-replication/index.rst:17
 msgid ""
-"Different architectures may be considered to implement validation "
-"workflows for WAPT packages or to provide solutions to bandwidth "
-"constrained remote sites."
+"Large infrastructure with remote sites and subsidiaries sometimes "
+"requires services to be replicated locally to avoid bandwidth congestion."
 msgstr ""
-"Différentes architectures peuvent être envisagées pour respecter des "
-"contraintes de développement et de qualification des paquets ou pour "
-"résoudre des contraintes de bande passante."
 
-#: ../../source/wapt-replication/index.rst:20
+#: ../../source/wapt-replication/index.rst:24
+#, fuzzy
+msgid "Repository replication and multiple repositories"
+msgstr "Répliquer des dépôt et fonctionner avec plusieurs dépôts"
+
+#: ../../source/wapt-replication/index.rst:28
+msgid ""
+"WAPT offers the possibility to replicate its repositories on local "
+"agents, directly managed through WAPT Console. WAPT agents can be "
+"configured to automatically select the best repository based on a set of "
+"rules."
+msgstr ""
+
+#: ../../source/wapt-replication/index.rst:32
 msgid ""
 "You'll find in this part of the documentation how to implement such "
 "architectures."
@@ -43,7 +52,13 @@ msgstr ""
 "Vous trouverez ci-dessous les documentations pour mettre en place ces "
 "architectures."
 
-#: ../../source/wapt-replication/index.rst:30
+#: ../../source/wapt-replication/index.rst:41
+msgid ""
+"Speaking of repositories, its sometimes usefull to configure two or more "
+"repositories for different usage (prod,dev,licensed)."
+msgstr ""
+
+#: ../../source/wapt-replication/index.rst:50
 msgid "Deprecated configurations"
 msgstr ""
 
@@ -113,4 +128,16 @@ msgstr ""
 
 #~ msgid "Managing multiple repositories"
 #~ msgstr "Gérer des dépôts multiples"
+
+#~ msgid ""
+#~ "Different architectures may be considered "
+#~ "to implement validation workflows for "
+#~ "WAPT packages or to provide solutions"
+#~ " to bandwidth constrained remote sites."
+#~ msgstr ""
+#~ "Différentes architectures peuvent être "
+#~ "envisagées pour respecter des contraintes "
+#~ "de développement et de qualification des"
+#~ " paquets ou pour résoudre des "
+#~ "contraintes de bande passante."
 

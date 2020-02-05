@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-04 19:24+0100\n"
+"POT-Creation-Date: 2020-02-05 18:00+0100\n"
 "PO-Revision-Date: 2019-02-27 11:10+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -49,9 +49,10 @@ msgstr ""
 "Objects / Stratégies de Groupes)`."
 
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:26
+#, fuzzy
 msgid ""
 "The :program:`waptagent.exe` installer is available at "
-"http://wapt.mydomain.lan/wapt/waptagent.exe."
+"http://<wapt.mydomain.lan>/wapt/waptagent.exe."
 msgstr ""
 "L'installeur :program:`waptsetup.exe` est disponible à l'adresse "
 "suivante : https://wapt.mydomain.lan/wapt/waptagent.exe"
@@ -89,18 +90,17 @@ msgid "testing WAPT;"
 msgstr "tester WAPT ;"
 
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:43
-msgid ""
-"using WAPT in an association/ an organization with a small number of "
-"computers, etc;"
+#, fuzzy
+msgid "using WAPT in an organization with a small number of computers, etc;"
 msgstr ""
 "maintenir à jour un petit parc de PC dans une petite entreprise, une "
 "association, etc ;"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:47
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:46
 msgid "Deploying waptagent.exe automatically"
 msgstr "Déployer manuellement l'agent WAPT"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:51
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:50
 msgid ""
 "This operation requires :term:`Local Administrator` rights on the local "
 "computer."
@@ -108,31 +108,31 @@ msgstr ""
 "Cette manipulation requiert les droits d':term:`Administrateur Local` sur"
 " la machine."
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:55
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:54
 msgid "Installing *waptagent.exe*"
 msgstr "Installer *waptagent.exe*"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:57
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:56
 msgid "choose the language and click on :guilabel:`Next` to go to next step;"
 msgstr ""
 "choisir la langue pour l'installation puis cliquer sur "
 ":guilabel:`Suivant` pour passer à l'étape suivante ;"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:63
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:62
 msgid "Choose the installation language"
 msgstr "Choisir la langue pour l'installation"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:65
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:64
 msgid "accept the license terms and click on :guilabel:`Next` to go to next step;"
 msgstr ""
 "accepter la licence puis cliquer sur :guilabel:`Suivant` pour passer à "
 "l'étape suivante ;"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:71
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:70
 msgid "Accepting the EULA"
 msgstr "Accepter la licence"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:73
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:72
 msgid ""
 "choose the installation directory and click on :guilabel:`Next` to go to "
 "next step;"
@@ -140,11 +140,11 @@ msgstr ""
 "choisir le répértoire d'installation puis cliquer sur :guilabel:`Suivant`"
 " pour passer à l'étape suivante ;"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:80
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:79
 msgid "Select the installation folder for the WAPT agent"
 msgstr "Sélectionner le répertoire d'installation de l'agent WAPT"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:82
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:81
 msgid ""
 "choose the additional parameters and click on :guilabel:`Next` to go to "
 "next step;"
@@ -152,7 +152,7 @@ msgstr ""
 "choisir les tâches complémentaires puis cliquer sur :guilabel:`Suivant` "
 "pour passer à l'étape suivante ;"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:87
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:86
 msgid ""
 "leave :guilabel:`Force-reinstall VC++ enabled` checked. If the option box"
 " is ticked it is because its installation is necessary."
@@ -160,11 +160,11 @@ msgstr ""
 "Laisser coché :guilabel:`Force-reinstall VC++`. Si l'option est cochée, "
 "c'est que l'installation du composant est nécessaire."
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:94
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:93
 msgid "Choose the installer's options"
 msgstr "Choisir les options d'installation"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:96
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:95
 msgid ""
 "choose the WAPT repository and the WAPT Server and click on "
 ":guilabel:`Next` to go to next step;"
@@ -172,19 +172,19 @@ msgstr ""
 "choisir le dépôt et le serveur puis cliquer sur :guilabel:`Suivant` pour "
 "passer à l'étape suivante ;"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:103
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:102
 msgid "Choose the WAPT repository and server"
 msgstr "Choisir le dépôt et le serveur WAPT"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:105
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:104
 msgid "install the WAPT agent by clicking on :guilabel:`Install`;"
 msgstr "installer l'agent WAPT en cliquant sur :guilabel:`Installer` ;"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:111
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:110
 msgid "Summary of installation options"
 msgstr "Fenêtre récapitulative des options d'installation"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:113
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:112
 msgid ""
 "wait for the installation of the WAPT agent to finish, then click on "
 ":guilabel:`Finish` to exit;"
@@ -192,11 +192,11 @@ msgstr ""
 "attendre la fin de l'installation de l'agent WAPT puis cliquer sur "
 ":guilabel:`Fin` pour terminer ;"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:120
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:119
 msgid "Installation in progress"
 msgstr "Progression de l'installation"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:122
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:121
 msgid ""
 "The installation of the WAPT agent is finished. With :program:`cmd.exe`, "
 "launch a :command:`register` to register the machine with the WAPT Server"
@@ -206,11 +206,11 @@ msgstr ""
 ":command:`register` pour enregistrer la machine sur le serveur WAPT et un"
 " :command:`update` pour afficher la liste des paquets WAPT disponibles."
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:130
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:129
 msgid "End of WAPT agent installation"
 msgstr "Fin de l'installation de l'agent WAPT"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:134
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:133
 msgid ""
 "tick :guilabel:`Register this host on WAPT Server` to register the "
 "computer on the WAPT inventory server;"
@@ -218,7 +218,7 @@ msgstr ""
 "cocher :guilabel:`Enregistrer cet ordinateur dans le serveur WAPT` pour "
 "enregistrer l'ordinateur dans l'inventaire central WAPT ;"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:137
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:136
 msgid ""
 "tick :guilabel:`Update package list from repository` to update the list "
 "of available packages;"
@@ -226,7 +226,7 @@ msgstr ""
 "cocher :guilabel:`\"Mettre à jour la liste des paquets disponibles sur le"
 " dépôt principal` pour télécharger la liste des paquets disponibles ;"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:140
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:139
 msgid ""
 "To manage your Organization's WAPT clients, visit the :ref:`documentation"
 " on using the WAPT console <using_the_WAPT_console>`."
@@ -234,15 +234,15 @@ msgstr ""
 "Pour gérer les client WAPT, voir :ref:`Comment utiliser la console WAPT "
 "<using_the_WAPT_console>`."
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:144
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:143
 msgid "Deploying automatically the WAPT agents"
 msgstr "Déployer automatiquement les agents WAPT"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:146
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:145
 msgid "Technical pre-requisites"
 msgstr "Pré-requis techniques"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:148
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:147
 msgid ""
 "Advanced network and system administration knowledge is required to "
 "achieve this procedure. A properly configured network will ensure its "
@@ -252,7 +252,7 @@ msgstr ""
 " nécessaires pour réaliser cette procédure. Un réseau correctement "
 "configuré assurera son succès."
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:154
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:153
 msgid ""
 "When to deploy the WAPT agent automatically? The following method is "
 "useful in these cases:"
@@ -260,11 +260,11 @@ msgstr ""
 "La méthode décrite dans cette section est particulièrement efficace dans "
 "les situations suivantes :"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:157
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:156
 msgid "a large organization with many computers;"
 msgstr "vous gérez un grand parc de machines ;"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:159
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:158
 msgid ""
 "a Samba Active Directory or Microsoft Active Directory for which you have"
 " enough administration privileges;"
@@ -272,7 +272,7 @@ msgstr ""
 "vous disposez d'un domaine SaMBa Active Directory ou Microsoft Active "
 "Directory pour lequel vous avez des droits d'administration suffisants ;"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:162
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:161
 msgid ""
 "the security and the traceability of actions are important to you or to "
 "your :term:`Organization`;"
@@ -280,71 +280,72 @@ msgstr ""
 "la sécurité et la traçabilité des actions est importante pour vous ou "
 "pour votre :term:`Organisation` ;"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:165
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:164
 msgid "or just simply, you prefer to act with your head instead of your feet ;)"
 msgstr ""
 "ou bien tout simplement, vous préférez agir avec votre tête plutôt "
 "qu'avec vos pieds ;) ;"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:169
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:168
 msgid "Deploying the WAPT agents silently"
 msgstr "Déployer l'agent WAPT silencieusement"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:172
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:171
 msgid "Without waptdeploy"
 msgstr "Sans waptdeploy"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:174
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:173
+#, fuzzy
 msgid ""
-":program:`waptagent.exe` is an InnoSetup installer, it can be executed "
+":program:`waptagent.exe` is an *InnoSetup* installer, it can be executed "
 "with these silent switches:"
 msgstr ""
 "Le :program:`waptagent` est un installeur InnoSetup, il peut donc être "
 "déployé silencieusement avec les arguments suivants :"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:181
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:328
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:180
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:327
 msgid "Additional arguments available for waptdeploy"
 msgstr "Arguments supplémentaires disponibles pour waptdeploy"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:186
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:333
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:435
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:185
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:332
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:436
 msgid "Settings"
 msgstr "Paramètre"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:186
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:333
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:185
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:332
 msgid "Value"
 msgstr "Valeur"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:186
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:333
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:435
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:185
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:332
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:436
 msgid "Description"
 msgstr "Description"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:188
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:187
 msgid "``/dnsdomain``"
 msgstr "``/dnsdomain``"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:188
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:187
 msgid "mydomain.lan"
 msgstr "mydomain.lan"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:188
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:187
 msgid "Domain in :file:`wapt-get.ini` filled in during installation"
 msgstr "Domaine dans :file:`wapt-get.ini` renseigné lors de l'installation"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:189
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:188
 msgid "``/wapt_server``"
 msgstr "``/wapt_server``"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:189
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:188
 msgid "https://srvwapt.mydomain.lan"
 msgstr "https://srvwapt.mydomain.lan"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:189
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:188
 msgid ""
 "URL of the WAPT server in :file:`wapt-get.ini` filled in during "
 "installation"
@@ -352,15 +353,15 @@ msgstr ""
 "URL du serveur WAPT dans :file:`wapt-get.ini` renseigné lors de "
 "l'installation"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:190
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:189
 msgid "``/repo_url``"
 msgstr "``/repo_url``"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:190
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:189
 msgid "https://repo1.mydomain.lan/wapt"
 msgstr "https://repo1.mydomain.lan/wapt"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:190
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:189
 msgid ""
 "URL of the WAPT repository in :file:`wapt-get.ini` filled in during "
 "installation"
@@ -368,39 +369,39 @@ msgstr ""
 "URL du dépôt WAPT dans :file:`wapt-get.ini` renseigné lors de "
 "l'installation"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:191
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:190
 msgid "``/StartPackages=``"
 msgstr "``/StartPackages=``"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:191
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:190
 msgid "basic-group"
 msgstr "basic-group"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:191
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:190
 msgid "Group of WAPT packages to install by default"
 msgstr "Groupe de paquets WAPT à installer par défaut"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:192
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:191
 msgid "``/verify_cert=``"
 msgstr "``/verify_cert=``"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:192
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:191
 msgid "1 or relative path :file:`ssl\\\\server\\\\srvwapt.mydomain.lan.crt`"
 msgstr "1 ou chemin relatif :file:`ssl\\server\\srvwapt.mydomain.lan.crt`"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:192
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:191
 msgid "Value of ``verify_cert`` entered during installation"
 msgstr "Valeur de ``verify_cert`` renseigné lors de l'installation"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:193
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:192
 msgid "``/CopyServersTrustedCA``"
 msgstr "``/CopyServersTrustedCA``"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:193
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:192
 msgid "path to a bundle to copy to :file:`ssl\\server`"
 msgstr "chemin vers un bundle à copier dans :file:`ssl\\server`"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:193
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:192
 msgid ""
 "Certificate bundle for https connections (to be defined by "
 "``verify_cert``)"
@@ -408,19 +409,19 @@ msgstr ""
 "Bundle de certificats pour les connexions https (à définir par "
 "``verify_cert``)"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:194
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:193
 msgid "``/CopypackagesTrustedCA``"
 msgstr "``/CopypackagesTrustedCA``"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:194
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:193
 msgid "path to a certificate bundle to copy into :file:`ssl`"
 msgstr "chemin vers un bundle à copier dans ssl"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:194
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:193
 msgid "Certificate bundle for verifying package signatures"
 msgstr "Bundle de certificats pour vérifier la signature des paquets"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:199
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:198
 msgid ""
 "The :file:`iss` file for the InnoSetup installer is available here: "
 ":file:`C:\\\\Program Files (x86)\\\\wapt\\\\waptsetup\\\\waptsetup.iss`."
@@ -428,7 +429,7 @@ msgstr ""
 "Le fichier :file:`iss` de l'installeur InnoSetup est disponible ici : "
 ":file:`C:\\Program Files (x86)\\wapt\\waptsetup\\waptsetup.iss`."
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:202
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:201
 msgid ""
 "You may choose to adapt it to your specific needs. Once modified, you'll "
 "just have to recreate a :program:`waptagent`."
@@ -436,9 +437,10 @@ msgstr ""
 "Vous pouvez l'adapter à vos besoins spécifiques. Une fois modifié il "
 "suffira de relancer la création d'un :program:`waptagent`."
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:205
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:204
+#, fuzzy
 msgid ""
-"To learn more about the options available with InnoSetup, visit `this "
+"To learn more about the options available with *InnoSetup*, visit `this "
 "documentation "
 "<http://www.jrsoftware.org/ishelp/index.php?topic=setupcmdline.us>`_."
 msgstr ""
@@ -446,23 +448,24 @@ msgstr ""
 "sur la `documentation InnoSetup "
 "<https://www.jrsoftware.org/ishelp/index.php?topic=setupcmdline>`_."
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:209
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:208
 msgid "With waptdeploy"
 msgstr "Avec waptdeploy"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:211
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:210
 msgid ":program:`waptdeploy` is a small binary that:"
 msgstr "Le :program:`waptdeploy` est un petit exécutable qui :"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:213
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:212
 msgid "checks the version of the WAPT agent;"
 msgstr "teste la version installée de WAPT ;"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:215
-msgid "downloads with http the :program:`waptagent.exe` installer;"
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:214
+#, fuzzy
+msgid "downloads via https the :program:`waptagent.exe` installer;"
 msgstr "télécharge par http l'installeur :program:`waptagent.exe` ;"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:217
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:216
 msgid ""
 "launches the silent installer with arguments (checked options defined "
 "during the compilation of the WAPT agent);"
@@ -470,7 +473,7 @@ msgstr ""
 "lance l'installeur en mode silencieux avec les options sélectionnées à la"
 " création du waptagent ;"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:224
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:223
 msgid ""
 "updates the WAPT Server with the WAPT agent status (WAPT version, package"
 " status);"
@@ -478,7 +481,7 @@ msgstr ""
 "mettre à jour le serveur avec le statut de la machine (version WAPT, "
 "situation des packages) ;"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:228
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:227
 msgid ""
 ":program:`waptdeploy` must be started as :term:`Local Administrator`, "
 "that is why we advise you to use a GPO."
@@ -486,11 +489,11 @@ msgstr ""
 ":program:`waptdeploy` doit être lancé en tant qu':term:`Administrateur "
 "Local`, d'où l'utilisation d'une GPO."
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:232
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:231
 msgid "Creating a GPO to deploy the WAPT agents"
 msgstr "Créer la GPO de déploiement avec WAPTdeploy"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:234
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:233
 msgid ""
 "Download :file:`waptdeploy.exe` by visiting: "
 "http://wapt.tranquil.it/wapt/releases/latest/waptdeploy.exe."
@@ -498,11 +501,11 @@ msgstr ""
 "Télécharger :program:`waptdeploy.exe` ici : "
 "https://wapt.tranquil.it/wapt/releases/latest/waptdeploy.exe."
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:238
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:237
 msgid "Creating the GPO"
 msgstr "Créer la GPO"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:240
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:239
 msgid ""
 "create a new group strategy called **install_wapt** on the Active "
 "Directory server (Microsoft or Samba-AD);"
@@ -510,7 +513,7 @@ msgstr ""
 "créer une nouvelle stratégie de groupe **install_wapt** sur le serveur "
 "Active Directory (Microsoft ou SaMBa-AD) ;"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:243
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:242
 msgid ""
 "add a new strategy: :menuselection:`Computer configuration --> Strategies"
 " --> Windows configuration --> Scripts --> Startup --> Add`;"
@@ -519,36 +522,36 @@ msgstr ""
 "Stratégies --> Paramètres Windows --> Scripts --> Démarrage --> "
 "Ajouter` ;"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:250
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:249
 msgid "Creating a group strategy to deploy the WAPT agent"
 msgstr "Créer une stratégie de groupe pour déployer l'agent WAPT"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:252
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:251
 msgid "click on :guilabel:`Browse` to select the :file:`waptdeploy.exe` script;"
 msgstr ""
 "cliquer sur :guilabel:`Parcourir` pour sélectionner le script "
 ":program:`waptdeploy.exe` ;"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:258
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:257
 msgid "Finding the waptdeploy.exe file on your computer"
 msgstr "Rechercher le script waptdeploy.exe"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:260
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:259
 msgid "copy :file:`waptdeploy.exe` in the destination folder;"
 msgstr "copier :program:`waptdeploy` dans le dossier ;"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:266
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:274
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:265
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:273
 msgid "Selecting the waptdeploy.exe script"
 msgstr "Sélectionner le script waptdeploy.exe"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:268
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:267
 msgid "click on :guilabel:`Open` to import the :file:`waptdeploy.exe` script;"
 msgstr ""
 "cliquer sur :guilabel:`Ouvrir` pour importer le script "
 ":program`waptdeploy.exe` ;"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:276
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:275
 msgid ""
 "click on :guilabel:`Open` to confirm the importation of the "
 ":program:`waptdeploy` binary;"
@@ -556,11 +559,11 @@ msgstr ""
 "cliquer sur :guilabel:`Ouvrir` pour confirmer l'importation du script "
 ":program:`waptdeploy` ;"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:280
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:279
 msgid "Passing arguments"
 msgstr "Renseigner les arguments"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:284
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:283
 msgid ""
 "Starting with version 1.3.7, it is necessary to provide the checksum of "
 "the :file:`waptagent.exe` as an argument to the *waptdeploy* GPO."
@@ -568,7 +571,7 @@ msgstr ""
 "À partir de la version 1.3.7, il est nécessaire de placer un checksum "
 "dans les paramètres de scripts."
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:287
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:286
 msgid ""
 "This will prevent the remote machine from executing an erroneous/ "
 "corrupted :program:`waptagent` binary."
@@ -576,38 +579,39 @@ msgstr ""
 "Ceci permet de s'assurer que le :program:`waptdeploy` ne lancera pas un "
 "installeur falsifié ou corrompu."
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:296
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:295
+#, fuzzy
 msgid ""
 "Parameters and :program:`waptagent.exe` checksum to use for the "
 "*waptdeploy* GPO are available on the WAPT Server by visiting "
-"https://wapt.mydomain.lan.nt."
+"https://<wapt.mydomain.lan>."
 msgstr ""
 "Les paramètres complets à utiliser ainsi que le checksum du "
 ":program:`waptagent.exe` sont désormais disponibles sur la page d'accueil"
 " du serveur WAPT local à l'adresse https://srvwapt.mydomain.lan/."
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:304
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:303
 msgid "Web console of the WAPT Server"
 msgstr "Console Web du serveur WAPT"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:306
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:305
 msgid "copy the required parameters;"
 msgstr "copier les paramètres indiqués ;"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:312
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:311
 msgid "add the *waptdeploy* script to the startup GPO"
 msgstr "Ajouter le script *waptdeploy* à la GPO de démarrage"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:314
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:322
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:313
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:321
 msgid "click on :guilabel:`OK` to go on to the next step;"
 msgstr "cliquer sur :guilabel:`OK` pour passer à l'étape suivante ;"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:320
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:319
 msgid "WAPTdeploy GPO to be deployed on next startup"
 msgstr "GPO WAPTdeploy to be deployed on next startup"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:324
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:323
 msgid ""
 "apply resulting GPO strategy to the Organization's Computers :abbr:`OU "
 "(Organizational Units)`;"
@@ -615,81 +619,82 @@ msgstr ""
 "appliquer la stratégie sur l'OU qui contient les ordinateurs de "
 "l':abbr:`UO (:term:`Unité Organisationnelle`)` ;"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:335
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:334
 msgid "``--force``"
 msgstr "``--force``"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:335
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:334
 msgid ""
 "Forces the installation of :program:`waptagent.exe` even if the WAPT "
 "agent is already installed"
 msgstr "Force l'installation de :program:`waptagent` même s'il est déjà installé."
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:336
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:335
 msgid "``--waptsetupurl``"
 msgstr "``--waptsetupurl``"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:336
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:335
 msgid "https://wapt/wapt/waptagent.exe"
 msgstr "http://wapt/wapt/waptagent.exe"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:336
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:335
 msgid "Gives explicitly the WAPT agent URL/path to use to download the WAPT agent"
 msgstr ""
 "Donne explicitement le chemin / l\\'url de téléchargement de l'agent à "
 "installer."
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:337
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:336
 msgid "``--tasks``"
 msgstr "``--tasks``"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:337
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:336
 msgid "autorunTray,installService,installredist2008,autoUpgradePolicy"
 msgstr "autorunTray,installService,installredist2008,autoUpgradePolicy"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:337
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:336
 msgid "Sets :program:`waptagent` installation tasks"
 msgstr ""
 "Indique les tâches pour le programme d'installation :program:`waptagent`."
 " Par défaut, toutes les tâches sont activées"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:338
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:337
 msgid "``--wait``"
 msgstr "``--wait``"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:338
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:337
 msgid "10"
 msgstr "10"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:338
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:337
 msgid "Timeout for installing the WAPT agent."
 msgstr "Timeout pour l'installation de l'agent WAPT."
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:339
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:338
 msgid "``--setupargs=``"
 msgstr "``--setupargs=``"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:339
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:338
 msgid "/dnsdomain=mydomain.lan /wapt_server= /repo_url="
 msgstr "/dnsdomain=mydomain.lan /wapt_server= /repo_url="
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:339
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:338
 msgid "Passing additional parameters to :program:`waptagent`"
 msgstr "Passer des arguments supplémentaires à :program:`waptagent`"
 
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:346
+msgid "Launching waptdeploy with a scheduled task"
+msgstr "Lancer waptdeploy avec une tâche planifiée"
+
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:348
+#, fuzzy
 msgid ""
-"For :program:`waptdeploy` to work best, you may execute the same GPO on "
+"For :program:`waptdeploy` to work best, you may execute the GPO upon "
 "computer shutdown;"
 msgstr ""
 "Pour un bon fonctionnement de :program:`waptdeploy`, vous pouvez aussi "
 "exécuter la même GPO à l'arrêt de l'ordinateur ;"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:352
-msgid "Launching waptdeploy with a scheduled task"
-msgstr "Lancer waptdeploy avec une tâche planifiée"
-
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:354
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:351
 msgid ""
 "You may also choose to launch :program:`waptdeploy` using a scheduled "
 "task that has been set by GPO."
@@ -697,7 +702,7 @@ msgstr ""
 "Vous pouvez également lancer :program:`waptdeploy` avec une tâche "
 "planifiée installée par GPO."
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:359
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:356
 msgid ""
 "This method is particularly effective for deploying WAPT on workstations "
 "when the network is neither available on starting up or shutting down."
@@ -706,7 +711,7 @@ msgstr ""
 "WAPT sur des Postes Client où le réseau n'est ni disponible au démarrage "
 "ni disponible à l'arrêt."
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:362
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:359
 msgid ""
 "The method consists of using a GPO to copy :file:`waptdeploy.exe` and "
 ":file:`waptagent.exe`:"
@@ -714,23 +719,23 @@ msgstr ""
 "La méthode consiste à utiliser une GPO \"Copie de fichier\", copiez les "
 "fichiers :file:`waptdeploy.exe` et :file:`waptagent.exe` :"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:365
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:362
 msgid "Source : :file:`\\\\mydomain.lan\\\\netlogon\\\\waptagent.exe`"
 msgstr ""
 "Source : :file:`\\mydomain.lan\\netlogon\\waptagent.exe` Destination : "
 ":file:`C:\\windows\\temp\\waptagent.exe`"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:366
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:364
 msgid "Destination : :file:`C:\\\\windows\\\\temp\\\\waptagent.exe`"
 msgstr ""
 "Source : :file:`\\mydomain.lan\\netlogon\\waptagent.exe` Destination : "
 ":file:`C:\\windows\\temp\\waptagent.exe`"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:372
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:370
 msgid "WAPT agent installation progress"
 msgstr "Propriétés affichant la copie des fichiers"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:374
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:372
 msgid ""
 "copy :file:`waptdeploy.exe` and :file:`waptagent.exe` in the netlogon "
 "share of your Active Directory Server;"
@@ -738,7 +743,7 @@ msgstr ""
 "Copier :file:`waptdeploy.exe` et :file:`waptagent.exe` dans le partage "
 "netlogon sur votre serveur Active Directory."
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:377
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:375
 msgid ""
 "then create a GPO to set up a scheduled task that will launch "
 ":program:`waptdeploy`:"
@@ -746,15 +751,15 @@ msgstr ""
 "Créer ensuite une GPO de tâche planifiée qui lancera "
 ":program:`waptdeploy` :"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:384
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:382
 msgid "Arguments:"
 msgstr "Arguments :"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:394
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:392
 msgid "Task installation properties"
 msgstr "Propriétés de la tâche d'installation"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:396
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:394
 msgid ""
 "choose a time after which the scheduled task will trigger and set the re-"
 "triggering of the task every 30 minutes until success:"
@@ -762,62 +767,62 @@ msgstr ""
 "Préciser ensuite une heure de lancement et préciser que la tâche doit "
 "être répétée toutes les 30 minutes ou jusqu'à sa réussite :"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:403
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:401
 msgid "Advanced properties of the installation task"
 msgstr "Propriétés avancées de la tâche d'installation"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:405
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:403
 msgid ""
 "allow the scheduled task to start even if the device is powered on "
 "battery:"
 msgstr "autorise que la tâche puisse démarrer même sur batterie :"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:411
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:409
 msgid "Power settings"
 msgstr "Configuration de la gestion de l'alimentation"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:415
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:412
 msgid "Uninstall WAPT agent from clients"
 msgstr ""
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:417
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:414
 msgid ""
 "If you need to uninstall WAPT agents from clients, the uninstaller is "
-"automatically created in WAPT install location, by default "
-":file:`C:\\\\Program Files (x86)\\\\wapt\\\\unins000.exe`"
+"automatically created in the WAPT install location, by default it is "
+":file:`C:\\\\Program Files (x86)\\\\wapt\\\\unins000.exe`."
 msgstr ""
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:419
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:418
 msgid ""
-"Default silent uninstall of WAPT agent can be achieved with the following"
-" command :"
+"default silent uninstall of WAPT agent can be achieved with the following"
+" command:"
 msgstr ""
 
 #: ../../source/wapt-configuration/wapt-deploy/index.rst:425
 msgid ""
-"An additional argument can be passed to unins000.exe to cleanup "
-"everything :"
+"an additional argument can be passed to :command:`unins000.exe` to "
+"cleanup everything:"
 msgstr ""
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:432
-msgid "Complete list of command-line arguments for unins000.exe :"
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:433
+msgid "Complete list of command-line arguments for :command:`unins000.exe`:"
 msgstr ""
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:437
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:438
 #, fuzzy
 msgid "``/VERYSILENT``"
 msgstr "``/verify_cert=``"
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:437
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:438
 msgid "Launches unins000.exe silently"
 msgstr ""
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:438
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:439
 msgid "``/purge_wapt_dir=1``"
 msgstr ""
 
-#: ../../source/wapt-configuration/wapt-deploy/index.rst:438
-msgid "Purges WAPT install directory (removes remaining folders and files)"
+#: ../../source/wapt-configuration/wapt-deploy/index.rst:439
+msgid "Purges WAPT directory (removes all folders and files)"
 msgstr ""
 
 #~ msgid ""
@@ -1018,4 +1023,29 @@ msgstr ""
 
 #~ msgid "Deploying the WAPT agent"
 #~ msgstr "Déployer l'agent WAPT"
+
+#~ msgid ""
+#~ "If you need to uninstall WAPT "
+#~ "agents from clients, the uninstaller is"
+#~ " automatically created in WAPT install "
+#~ "location, by default :file:`C:\\\\Program "
+#~ "Files (x86)\\\\wapt\\\\unins000.exe`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Default silent uninstall of WAPT agent"
+#~ " can be achieved with the following"
+#~ " command :"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "An additional argument can be passed "
+#~ "to unins000.exe to cleanup everything :"
+#~ msgstr ""
+
+#~ msgid "Complete list of command-line arguments for unins000.exe :"
+#~ msgstr ""
+
+#~ msgid "Purges WAPT install directory (removes remaining folders and files)"
+#~ msgstr ""
 
