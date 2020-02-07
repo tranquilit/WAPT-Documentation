@@ -45,6 +45,7 @@ and you will quickly become a master of WAPT.
   :caption: Advanced usage 
   
   updatepackage/index.rst
+  package-msu/index.rst
   secret-data/encrypt-paquet.rst
   package-additional/use-other-editor.rst
 
