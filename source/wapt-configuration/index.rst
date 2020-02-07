@@ -36,3 +36,10 @@ of the documentation:
    ini-file/wapt-get.ini.rst
    ini-file/waptconsole.ini.rst
    ini-file/index.rst
+
+To uninstall WAPT agent properly
+
+.. toctree::
+   :maxdepth: 1
+
+   wapt-uninstall/index.rst

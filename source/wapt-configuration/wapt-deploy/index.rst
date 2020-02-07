@@ -407,34 +407,3 @@ and :file:`waptagent.exe`:
     :alt: Power settings
 
     Power settings
-
-Uninstall WAPT agent from clients
----------------------------------
-
-If you need to uninstall WAPT agents from clients,
-the uninstaller is automatically created in the WAPT install location,
-by default it is :file:`C:\\Program Files (x86)\\wapt\\unins000.exe`.
-
-* default silent uninstall of WAPT agent can be achieved
-  with the following command:
-
-   .. code:: bash
-
-      unins000.exe /VERYSILENT
-
-* an additional argument can be passed to :command:`unins000.exe`
-  to cleanup everything:
-
-   .. code:: bash
-
-      unins000.exe /VERYSILENT /purge_wapt_dir=1
-
-
-Complete list of command-line arguments for :command:`unins000.exe`:
-
-===================== =====================================================
-Settings              Description
-===================== =====================================================
-``/VERYSILENT``       Launches unins000.exe silently
-``/purge_wapt_dir=1`` Purges WAPT directory (removes all folders and files)
-===================== =====================================================
