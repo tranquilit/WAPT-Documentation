@@ -14,7 +14,7 @@
 Packaging Windows Update \*.msu packages  
 =========================================
 
-.. hint:: Prerequisites
+.. hint::
 
     Pre-requisites: to build WAPT packages, :ref:`the WAPT development
     environment must be installed <envdev_setup>`;

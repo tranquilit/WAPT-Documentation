@@ -42,6 +42,13 @@ since the last download.
 
   WAPT Windows Update flow process
 
+.. note::
+
+   In some cases, you may wish to push new KBs before the next Patch Tuesday release.
+
+   To to do, there is a specific documentation on packaging \*.msu files for these "Out-of-band" updates :ref:`simple_msu_packaging`
+
+
 The :file:`wsusscn2.cab` file is then downloaded by the WAPT agent
 from its nearest repository and then passed on to
 the standard :abbr:`WUA (Windows Update Agent)` Windows utility
