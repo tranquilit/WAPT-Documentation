@@ -35,37 +35,39 @@ Several options can be defined in the section:
 
 .. tabularcolumns:: |\X{5}{12}|\X{7}{12}|
 
-================================================================= ==================================================================================================================================================
-Options                                                           Description
-================================================================= ==================================================================================================================================================
-``db_name`` = wapt                                                Name of the PostgreSQL database that the WAPT
-                                                                  Server will connect to.
-``db_host`` =                                                     Address of the PostgreSQL server (empty by default,
-                                                                  it will use a local Unix Socket).
-``db_user`` =                                                     Name of the PostgreSQL user connecting to the database
-                                                                  (default: empty, it will use a local UNIX socket).
-``db_password`` =                                                 Password for authenticating the user on the PostgreSQL database
-                                                                  (default: empty, it will use a local UNIX socket)
-``wapt_user`` = admin                                             Defines the :term:`SuperAdmin` username in the WAPT console.
-``wapt_password`` = 46642dd2b1dfezfezgfezgadf0ezgeezgezf53d       :term:`SuperAdmin` password for connecting to the WAPT console.
-``secret_key`` =  FKjfzjfkF687fjrkeznfkj7678jknk78687             Random string for initializing the Python Flask application server.
-                                                                  It is generated when first installing the WAPT Server
-                                                                  and is unique for every WAPT Server.
-``wapt_folder`` = /var/www/wapt                                   Directory of the WAPT repository.
-``server_uuid`` = 76efezfa6-b309-1fez5-92cd-8ea48fc122dc          WAPT Server :term:`UUID` (this anonymous id is used for WAPT statistics).
-``use_kerberos`` = true                                           Requires a Kerberos authentication when first registering the WAPT agent.
-``loglevel`` = debug                                              Debug level.
-``client_tasks_timeout`` = 1                                      Maximum allowed delay before WAPT agent requests timeout
-``signature_clockskew`` = 72000                                   Maximum allowed time difference for the websockets
-``db_connect_timeout`` = 10                                       Maximum allowed delay before PostgreSQL queries timeout
-``db_max_connections`` = 100                                      Maximum simultaneous connexions to the PostgreSQL database
-``allow_unauthenticated_registration`` = True                     Allows the initial registration of the WAPT agent using
-                                                                  a login and a password
-``allow_unauthenticated_connect`` = False                         Defines whether websocket connexions should be authenticated
-``http_proxy`` = http://proxy.ad.tranquil.it:3128                 Defines the proxy server to allow the WAPT server to recover
-                                                                  its :abbr:`CRL (Certificate Revocation List)`
-``host_organizational_unit_dn`` = OU=TOTO,OU=TEST,DC=DEMO,DC=LAN  Allows you to force an organizational unit on the wapt agent. (Convenient to assign a fake ou for out-of-domain pc)																  
-================================================================= ==================================================================================================================================================
+=========================================================================== ==================================================================================================================================================
+Options                                                                     Description
+=========================================================================== ==================================================================================================================================================
+``db_name`` = wapt                                                          Name of the PostgreSQL database that the WAPT
+                                                                            Server will connect to.
+``db_host`` =                                                               Address of the PostgreSQL server (empty by default,
+                                                                            it will use a local Unix Socket).
+``db_user`` =                                                               Name of the PostgreSQL user connecting to the database
+                                                                            (default: empty, it will use a local UNIX socket).
+``db_password`` =                                                           Password for authenticating the user on the PostgreSQL database (default: empty, it will use a local UNIX socket)
+``wapt_user`` = admin                                                       Defines the :term:`SuperAdmin` username in the WAPT console.
+``wapt_password`` = 46642dd2b1dfezfezgfezgadf0ezgeezgezf53d                 :term:`SuperAdmin` password for connecting to the WAPT console.
+``secret_key`` =  FKjfzjfkF687fjrkeznfkj7678jknk78687                       Random string for initializing the Python Flask application server.
+                                                                            It is generated when first installing the WAPT Server
+                                                                            and is unique for every WAPT Server.
+``wapt_folder`` = /var/www/wapt                                             Directory of the WAPT repository.
+``waptwua_folder`` = /var/www/waptwua                                       Location of WAPT WUA folder
+``server_uuid`` = 76efezfa6-b309-1fez5-92cd-8ea48fc122dc                    WAPT Server :term:`UUID` (this anonymous id is used for WAPT statistics).
+``use_kerberos`` = true                                                     Requires a Kerberos authentication when first registering the WAPT agent.
+``loglevel`` = debug                                                        Debug level.
+``client_tasks_timeout`` = 1                                                Maximum allowed delay before WAPT agent requests timeout
+``signature_clockskew`` = 72000                                             Maximum allowed time difference for the websockets
+``db_connect_timeout`` = 10                                                 Maximum allowed delay before PostgreSQL queries timeout
+``db_max_connections`` = 100                                                Maximum simultaneous connexions to the PostgreSQL database
+``allow_unauthenticated_registration`` = True                               Allows the initial registration of the WAPT agent using
+                                                                            a login and a password
+``allow_unauthenticated_connect`` = False                                   Defines whether websocket connexions should be authenticated
+``http_proxy`` = http://proxy.ad.tranquil.it:3128                           Defines the proxy server to allow the WAPT server to recover
+                                                                            its :abbr:`CRL (Certificate Revocation List)`
+``wol_port`` = 9,123,4000                                                   List of WakeOnLAN UDP ports to send magic packets to
+``wapt_admin_group_dn`` = CN=waptadmins,OU=groups,DC=ad,DC=domain,DC=lan    LDAP DN of Active Directory User Group allowed to connect to WAPT console
+``remote_repo_support`` = True                                              Enables replication on remote repository
+=========================================================================== ==================================================================================================================================================
 
 .. _config_nginx:
 

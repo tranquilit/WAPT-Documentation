@@ -88,6 +88,8 @@ on the ``repo_url`` parameter in :file:`wapt-get.ini`:
    then be sure to :ref:`set the proxy server
    in the waptserver.ini file <waptserver_configuration>`.
 
+.. _wapt_wua_agent:
+
 Configuring WAPTWUA on the WAPT agent
 -------------------------------------
 

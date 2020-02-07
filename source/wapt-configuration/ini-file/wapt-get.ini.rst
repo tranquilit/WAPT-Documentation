@@ -35,52 +35,55 @@ Description of available options for the WAPT agent
 
 .. tabularcolumns:: |\\X{5}{12}|\\X{7}{12}|
 
-======================================================= ==============================================================================================================================================
-Options                                                 Description
-======================================================= ==============================================================================================================================================
-``repo_url`` = https://srvwapt.mydomain.lan/wapt        If the field is left empty, the WAPT agent will make a :term:`DNS`
-                                                        query on the :term:`SRV` field ``_wapt._tcp.<dnsdomain>`` to find
-                                                        the repository (the ``dnsdomain`` attribute must be configured).
+================================================================= ==============================================================================================================================================
+Options                                                           Description
+================================================================= ==============================================================================================================================================
+``repo_url`` = https://srvwapt.mydomain.lan/wapt                  If the field is left empty, the WAPT agent will make a :term:`DNS`
+                                                                  query on the :term:`SRV` field ``_wapt._tcp.<dnsdomain>`` to find
+                                                                  the repository (the ``dnsdomain`` attribute must be configured).
 
-``wapt_server`` = https://srvwapt.mydomain.lan          If the attribute is left empty, the WAPT agent will make a
-                                                        :term:`DNS` :term:`SRV` query on the ``_waptserver._tcp.<dnsdomain>``
-                                                        field (the ``dnsdomain`` attribute must be configured)
+``wapt_server`` = https://srvwapt.mydomain.lan                    If the attribute is left empty, the WAPT agent will make a
+                                                                  :term:`DNS` :term:`SRV` query on the ``_waptserver._tcp.<dnsdomain>``
+                                                                  field (the ``dnsdomain`` attribute must be configured)
 
-``dnsdomain`` = mydomain.lan                            DNS suffix to use for auto-discovery of the WAPT Server and
-                                                        repositories with :term:`SRV` / :term:`CNAME field` DNS queries.
+``dnsdomain`` = mydomain.lan                                      DNS suffix to use for auto-discovery of the WAPT Server and
+                                                                  repositories with :term:`SRV` / :term:`CNAME field` DNS queries.
 
-``use_hostpackages`` = 1                                Use host packages (default 1).
+``use_hostpackages`` = 1                                          Use host packages (default 1).
 
-``waptupdate_task_period`` = 120                        Update frequency (120 minutes by default).
+``waptupdate_task_period`` = 120                                  Update frequency (120 minutes by default).
 
-``waptupgrade_task_period`` = 360                       Upgrade frequency (disabled by default)
+``waptupgrade_task_period`` = 360                                 Upgrade frequency (disabled by default)
 
-``waptservice_user`` = admin                            Identifier used by the WAPT service when executing actions.
+``waptservice_user`` = admin                                      Identifier used by the WAPT service when executing actions.
 
-``waptservice_password`` = 5e884898da                   sha256 hashed password when the WAPT service is used locally from
-                                                        a command prompt (NOPASSWORD disables the requirement for a password)
+``waptservice_password`` = 5e884898da                             sha256 hashed password when the WAPT service is used locally from
+                                                                  a command prompt (NOPASSWORD disables the requirement for a password)
 
-``waptservice_port`` = 8088                             WAPT agent loopback port. It is not accessible from the network.
+``waptservice_port`` = 8088                                       WAPT agent loopback port. It is not accessible from the network.
 
-``dbdir`` = :file:`C:\\Program Files(x86)\\wapt\\db`    Folder where the database :file:`waptdb.sqlite` file will be stored.
+``dbdir`` = :file:`C:\\Program Files(x86)\\wapt\\db`              Folder where the database :file:`waptdb.sqlite` file will be stored.
 
-``loglevel`` = warning                                  Log level of the WAPT agent. Possible values are: ``debug``,
-                                                        ``info``, ``warning``, ``critical``.
+``loglevel`` = warning                                            Log level of the WAPT agent. Possible values are: ``debug``,
+                                                                  ``info``, ``warning``, ``critical``.
 
-``maturities`` = PROD                                   List of packages maturities than can be viewed and installed by
-                                                        WAPT Agent. Default value is ``PROD``. Any value can be used.    
+``maturities`` = PROD                                             List of packages maturities than can be viewed and installed by
+                                                                  WAPT Agent. Default value is ``PROD``. Any value can be used.    
 
-``use_fqdn_as_uuid`` = 1                                Allows you to use the fqdn name rather than the uuid BIOS as the unique machine identifier in wapt.
+``use_fqdn_as_uuid`` = 1                                          Allows you to use the fqdn name rather than the uuid BIOS as the unique machine identifier in wapt.
 
-``waptaudit_task_period`` = 120                         Define the frequency where the agent checks if he has audits to perform. 
+``waptaudit_task_period`` = 120                                   Define the frequency where the agent checks if he has audits to perform. 
 
-``locales`` = en                                        Allows you to set the list of wapt agent languages to modify the list of packages visible by wapt (for package filtering). You 
-                                                        can add multiple language (eg. ``locales=fr,en``) in order of preference.
+``locales`` = en                                                  Allows you to set the list of wapt agent languages to modify the list of packages visible by wapt (for package filtering). You 
+                                                                  can add multiple language (eg. ``locales=fr,en``) in order of preference.
 
-``host_profiles`` = tis-firefox,tis-java                Allows you to define a wapt package list that the wapt agent must install. 
+``host_profiles`` = tis-firefox,tis-java                          Allows you to define a wapt package list that the wapt agent must install. 
 
-``language`` = en                                       Force default langauge for GUI (not for package filtering)
-======================================================= ==============================================================================================================================================
+``language`` = en                                                 Force default langauge for GUI (not for package filtering)
+
+``host_organizational_unit_dn`` = OU=TOTO,OU=TEST,DC=DEMO,DC=LAN  Allows you to force an Organizational Unit on the WAPT agent. (Convenient to assign a fake OU for out-of-domain PC)
+
+================================================================= ==============================================================================================================================================
 
 .. _wapt-get-ini-waptserver:
 .. _wapt-get-ini-kerberos:
@@ -135,6 +138,9 @@ to define more repositories.
 
 * ``[wapt-host]``: repository for host packages. If this section
   does not exists, default locations will be used on the main repository.
+
+
+More information on that usage can be found here : :ref:`work_multiple_repos`
 
 .. note::
 
@@ -215,6 +221,12 @@ Options                                                      Description
 ``default_package_prefix`` = tis                             Default prefix for new or imported packages
 ``default_sources_suffix`` = wapt                            Default prefix for new or imported packages
 ============================================================ ==================================================
+
+Settings for ``WAPT Windows Updates``
+-------------------------------------
+
+Refer to :ref:`wapt_wua_agent`
+
 
 Overriding settings of *upload* functions
 -----------------------------------------

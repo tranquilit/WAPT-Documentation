@@ -10,6 +10,8 @@
   :keywords: multi-repositories, business applications, licenced applications,
              license restricted software, self-service applications
 
+.. _work_multiple_repos:
+
 Working with multiple repositories
 ==================================
 
