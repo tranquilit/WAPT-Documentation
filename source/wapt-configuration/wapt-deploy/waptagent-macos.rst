@@ -62,9 +62,8 @@ You may use it after changing the parameters to suit your needs.
   wapt_server=https://srvwapt.mydomain.lan/
   use_hostpackages=1
   use_kerberos=0
-  check_certificates_validity=1
   verify_cert=/opt/wapt/ssl/server/verify.crt
-  personal_certificate_path=/opt/wapt/private/personal_certificate.crt
+
 
 Copying the package-signing certificate
 +++++++++++++++++++++++++++++++++++++++
