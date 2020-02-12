@@ -12,9 +12,9 @@
 Changelog
 =========
 
-WAPT-1.8.1-6700 (2020-02-04) 
+WAPT-1.8.1-6740 (2020-02-12) 
 ----------------------------
-(hash dae3fc37)
+(hash 5562c161)
 
 Major changes :
 ++++++++++++++++++++++++++++
@@ -37,17 +37,41 @@ If SSL client side auth is setup these headers can be populated by `proxy_set_he
 Fixes and detailed changelog
 ++++++++++++++++++++++++++++
 
-* Security fix for waitress module
+* Security fix: update waitress module to 1.4.3 (CVE-2020-5236)
 
-* Security: blank `X-Ssl*` headers in default nginx templates
+* Security fix: blank `X-Ssl*` headers in default nginx templates
+
+* Fix: regression : kerberos register_host did not work anymore
+
+* on server, '<repository root>/wapt/ssl' dir is moved automatically on winsetup / postconf to (per default) '<repository root>/ssl', a /ssl location is added.
+  
+  This /ssl should be accessible from clients at the location specified by the server parameter 'clients_signing_crl_url' (in waptserver.ini)
+
+* Improved logs readability. Log count of used DB connections from pool on waptserver to troubleshoot DB connection issues. Log level can be specified by subcomponent with 
+
+  loglevel_waptcore,loglevel_waptserver,loglevel_waptserver.app,loglevel_waptws,loglevel_waptdb waptserver.ini options.
+
+* Reworked explicit DB Open/close on waptserver to not get a DB connection from pool if not useful. Prevent short of DB connections.
+
+* waptwinsetup : don't create unused directories wapt-group and waptserver\log
+
+* Add msu and msix extensions for Package wizard setup file dialog
+
+* fallback with os._exit(10) for waptservice restart. Added a handler in nssm configuration to honor the restart.
+
+* increase waitress threads to 10 on waptservice
+
+* Lower the default number of pooled DB connections (db_max_connections) to 90, to be lower than postgresql default of 100
+
+* waptserver : allow kerberos or ssl auth check in waptserver only if enabled in waptserver.ini config file.
 
 * waptconsole: Allow update of host package only if user certificate is actually allowed on the host (based on last update of host status in database).
+
+* waptconsole / build waptagent: checkbox to specify to include or not non certificate authority certificates in build. The normal setup would be to uncheck this, to not deploy non CA certificates, on wapt root CA.
 
 * Imp: Add and option to disable automatic hiding of panels...
 
 * Imp: Add explicit AllowUnauthenticatedRegistration task to waptserversetup windows
-
-* Fix: regression : kerberos register_host did not work anymore
 
 * waptsetup: Remove explicit VCRedistNeedsInstall task. Use /VCRedistInstall=(0/1) if you need to force install or force not install vcredist VC_2008_SP1_MFC_SEC_UPD_REDIST_X86
 
@@ -95,8 +119,6 @@ Fixes and detailed changelog
 
 * Fix for repo-sync
 
-* waptserver : allow kerberos or ssl auth check in waptserver only if enabled in waptserver.ini config file.
-
 * Add two setuphelpers for linux : type_debian and type_redhat
 
   indent the local sync.json
@@ -134,6 +156,12 @@ Fixes and detailed changelog
 * waptservice: use sys._exit(10) to ask nssm to restart service in case of unhandled exception in waptservice (loops..)
 
 * wapt client: don't log / store into db Wapt.runstatus if not changed
+
+* waptserver postconf: fix for rights on some wapt directories.
+
+* Add mutual conflicts to deb/rpm packages for waptagent/waptserver to avoid simultaneous install.
+
+* 
 
 
 WAPT-1.8.0-6641 (2020-01-24) 
