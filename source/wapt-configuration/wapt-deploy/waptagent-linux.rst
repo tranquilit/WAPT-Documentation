@@ -137,7 +137,6 @@ using :program:`WinSCP` or :program:`rsync`.
 
   .. code-block:: bash
 
-    check_certificates_validity=0
     verify_cert=0
 
 Registering your Linux agent
