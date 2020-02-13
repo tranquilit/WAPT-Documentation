@@ -12,9 +12,9 @@
 Changelog
 =========
 
-WAPT-1.8.1-6740 (2020-02-12) 
+WAPT-1.8.1-6742 (2020-02-12) 
 ----------------------------
-(hash 5562c161)
+(hash 80dbdbe7)
 
 Major changes :
 ++++++++++++++++++++++++++++
@@ -128,6 +128,8 @@ Fixes and detailed changelog
 * use windows_version_registry for get_os_version on windows
 
 * backport host_capabilities.os from master
+
+* Fix for make-template for malformed .exe installer
 
 * Add automatic maintenance of a CRL for clients auth certificates signed by server
 
