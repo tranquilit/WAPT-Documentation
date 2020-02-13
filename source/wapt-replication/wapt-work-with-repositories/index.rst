@@ -6,14 +6,14 @@
    Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
-  :description: Working with multiple repositories
-  :keywords: multi-repositories, business applications, licenced applications,
+  :description: Working with multiple public or private repositories
+  :keywords: multi-repositories, business applications, licensed applications,
              license restricted software, self-service applications
 
 .. _work_multiple_repos:
 
-Working with multiple repositories
-==================================
+Working with multiple public or private repositories
+====================================================
 
 Multi-repository is now supported by WAPT.
 This functionality is useful in several use cases:

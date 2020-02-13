@@ -8,8 +8,8 @@
 .. meta::
   :description: Replicating a repository to preserve the bandwidth
                 on remote sites
-  :keywords: multiple repository, WAPT, replication, replicate,
-             bandwidth, Syncthing
+  :keywords: multiple repositories, WAPT, replication, replicate,
+             bandwidth management
 
 .. _replication_usage:
 
@@ -17,7 +17,7 @@ Replicating a repository to preserve the bandwidth on remote sites
 ==================================================================
 
 When WAPT is used on bandwidth limited remote sites, it makes sense to have
-a local device that replicates the main WAPT repository to reduce
+a local device that will replicate the main WAPT repository to reduce
 the network bandwidth consumed when deploying updates on your remote devices.
 
 With remote repositories, WAPT remains a solution with a low operating cost
@@ -34,7 +34,8 @@ It works as follows:
 
   * a small form factor and no maintenance appliance with the role
     of secondary repository is deployed on the local network
-    of each remote site;
+    of each remote site; a workstation can also be used, although
+    it may not be up and running if you want to connect to it;
 
   * the remote repository replicates the packages from the main repository
     and other repositories;
@@ -42,44 +43,65 @@ It works as follows:
   * the WAPT clients connect in priority with the repository
     that is the closest to them, the local repository;
 
-
 .. hint::
 
-  The former method used to sync repositories was Syncthing. 
-  
-  You can find the old documentation here : :ref:`syncthing_usage`
+  The former method used to sync repositories was Syncthing and that method
+  is available both for the Community and the Enterprise versions of WAPT.
 
+  You can find the old documentation here : :ref:`syncthing_usage`.
+
+  **The method explained below is for the Enterprise version only**.
 
 WAPT Agent replication role
 ---------------------------
 
-Starting with WAPT 1.8, repository replication can be enabled using WAPT agent installed on an existing machine, a dedicated appliance or Virtual Machine.
+.. versionadded:: WAPT 1.8 Enterprise
 
-The replication role is deployed through a WAPT package that enables Nginx web server and configures scheduling, packages types, packages sync, and much more.
+Starting with WAPT 1.8, repository replication can be enabled using a WAPT agent
+installed on an existing machine, a dedicated appliance or Virtual Machine.
 
-Coming with that feature, repository rules allows agent to dynamically select the best WAPT repository from a list of rules stored on the server.
+The replication role is deployed through a WAPT package that enables
+the :program:`Nginx web server` and configures scheduling, packages types,
+packages sync, and much more.
+
+This feature allows WAPT agents to find dynamically their closest available
+WAPT repository from a list of rules stored on the WAPT server.
 
 Replication behavior
 ++++++++++++++++++++
 
-Repository replication in WAPT is now handled by WAPT Agent natively (Enterprise versions only)
+Repository replication in WAPT is now handled by WAPT agents natively
+(**Enterprise versions only**).
 
-It's based on a ``sync.json`` file which indexes every files present in these folders :
+It is based on a :file:`sync.json` file which indexes every files
+present in these folders:
 
-* wapt
-* waptwua
-* wapt-host
+* wapt;
 
-Enabling replication has the following effects :
+* waptwua;
 
-* Once ``enable_remote_repo`` is enabled on an agent, it will sync packages locally inside the ``local_repo_path`` folder.
-* It adds that agent in the :guilabel:`Repositories` tab as a Remote repository, enabling new actions such as :guilabel:`Force Sync` or :guilabel:`Check files`.
-* By default, only wapt folder is synced, you can select which folder to sync by adding up elements in ``remote_repo_dirs`` parameters.
-* Synchronization period can be configured with ``local_repo_time_for_sync_start`` and ``local_repo_time_for_sync_stop`` parameters
-* Bandwidth allocated to sync is configured with ``local_repo_limit_bandwidth``
+* wapt-host;
 
-Every parameters of WAPT repository sync must be set in ``[repo-sync]`` section of :file:`wapt-get.ini`
+Enabling replication has the following effects:
 
+* once ``enable_remote_repo`` is enabled on a WAPT agent, it will sync packages
+  locally inside the :file:`local_repo_path` folder;
+
+* it adds the WAPT agent in the :guilabel:`Repositories` tab
+  as a Remote repository, enabling new actions such as :guilabel:`Force Sync`
+  or :guilabel:`Check files`;
+
+* by default, only the :file:`wapt` folder is synchronized, you can select
+  which folder to sync by adding up elements in ``remote_repo_dirs`` parameters;
+
+* synchronization period can be configured with ``local_repo_time_for_sync_start``
+  and ``local_repo_time_for_sync_stop`` parameters;
+
+* bandwidth allocated to sync can be configured with ``local_repo_limit_bandwidth``;
+
+Every parameters of WAPT repository sync must be set
+in the ``[repo-sync]`` section of the WAPT agent's :file:`wapt-get.ini`
+configuration file.
 
 .. figure:: replication_behavior.png
     :align: center
@@ -87,30 +109,34 @@ Every parameters of WAPT repository sync must be set in ``[repo-sync]`` section 
 
     Replication role behavior
 
-
-Enabling replication on WAPT Agent 
+Enabling replication on WAPT Agent
 ++++++++++++++++++++++++++++++++++
 
-To enable replication on an existing agent (Linux/Windows) you need to deploy a WAPT package. It's role is to :
+To enable replication on an existing agent (Linux/Windows) you need to deploy
+a WAPT package. It's role is to:
 
-* Install and enable Nginx web server
-* Configure nginx virtualhost
-* Enable remote repository configuration in :file:`wapt-get.ini`
+* install and enable the :program:`Nginx web server`;
 
-A package is available in our public store to enable repository replication on Windows or Linux WAPT agent : https://store.wapt.fr/store/tis-remote-repo-conf
+* configure nginx virtualhost;
 
+* enable remote repository configuration in :file:`wapt-get.ini`;
+
+A ready-to-use WAPT package is available in our public store
+to enable repository replication on Windows or Linux WAPT agents:
+https://store.wapt.fr/store/tis-remote-repo-conf.
 
 WAPT Agent replication configuration
 """"""""""""""""""""""""""""""""""""
 
-WAPT Agent replication configuration is set in ``[repo-sync]`` section of :file:`wapt-get.ini` :
+WAPT Agent replication configuration is set in the ``[repo-sync]``
+section in the :file:`wapt-get.ini` configuration file of the WAPT agent:
 
 ==================================== ======================= =========================== ====================================================================================
 Options                              Mandatory               Example value               Definition
 ==================================== ======================= =========================== ====================================================================================
 ``enable_remote_repo``               Yes                     ``True``                    Enables remote repository sync connections.
 
-``local_repo_path``                  Yes                     ``/var/www/``               Set local packages root repository path 
+``local_repo_path``                  Yes                     ``/var/www/``               Set local packages root repository path
 
 ``local_repo_time_for_sync_start``   No                      ``22:30``                   Set sync start time (HH:MM / 24h format)
 
@@ -123,10 +149,9 @@ Options                              Mandatory               Example value      
 ``remote_repo_dirs``                 No                      ``wapt,waptwua,wapt-host``  Set synced folders (default: wapt,waptwua)
 ==================================== ======================= =========================== ====================================================================================
 
+Below is an example of :file:`wapt-get.ini`:
 
-Below an example of :file:`wapt-get.ini` :
-
-.. code::
+.. code-block:: ini
 
   [global]
   ...
@@ -141,12 +166,11 @@ Below an example of :file:`wapt-get.ini` :
   local_repo_limit_bandwidth = 4
   remote_repo_dirs = wapt,waptwua,wapt-host
 
-
-
 WAPT Server replication configuration
 """""""""""""""""""""""""""""""""""""
 
-WAPT Server need to be aware of repository sync in ``[global]`` section of :file:`waptserver.ini` :
+The WAPT Server needs to be aware of repositories to sync in the ``[global]``
+section of its :file:`waptserver.ini` file:
 
 ==================================== ======================= ======================================================
 Options                              Example value           Definition
@@ -154,18 +178,21 @@ Options                              Example value           Definition
 ``remote_repo_support``              True                    Enables remote repository sync server side (sync.json)
 ==================================== ======================= ======================================================
 
-
 Repository rules
----------------------------
+----------------
 
 Repository rules behavior
 +++++++++++++++++++++++++
 
-By enabling repository rules support, WAPT agent will automatically retrieve :file:`rules.json` file from WAPT server.
+By enabling repository rules support, the WAPT agents will automatically
+retrieve their :file:`rules.json` file from the WAPT server.
 
-The :file:`rules.json` file is a signed JSON file containing a list of sorted rules to apply to WAPT agent, redirecting its downloads to the appropriate repository.
+The :file:`rules.json` file is a signed :mimetype:`.JSON` file
+that contains a list of sorted rules to apply to the WAPT agent,
+so to redirect its downloads from the most appropriate repository.
 
-If no rules can be matched, WAPT agent fallbacks to :file:`wapt-get.ini` :command:`repo_url` file settings.
+If no rules can be matched, WAPT agent fallbacks onto the ``repo_url`` settings
+of the WAPT server :file:`wapt-get.ini` configuration file.
 
 .. figure:: repository_rules.png
     :align: center
@@ -173,39 +200,42 @@ If no rules can be matched, WAPT agent fallbacks to :file:`wapt-get.ini` :comman
 
     Repository rules behavior
 
-
 Enabling repository rules
 +++++++++++++++++++++++++
 
 Repository rules are configured in WAPT Console.
 
-It can be based on several parameters :
+It can be based on several parameters:
 
 ==================================== =========================== ====================================================================================
 Options                              Example value               Definition
 ==================================== =========================== ====================================================================================
-Domain name                          ``ad.domain.lan``           Rule based on Active Directory domain name 
+Domain name                          ``ad.domain.lan``           Rule based on Active Directory domain name
+
 Domain sites and services            ``Paris-HQ``                Rule based on Active Directory Sites and Services
+
 Agent IP                             ``192.168.85.0/24``         Rule based on Agent IP sub-network
+
 Public IP                            ``256.89.299.22/32``        Rule based on Public IP (NATed hosts)
+
 Hostname                             ``desktop-04feb1``          Rule based on hostname
 ==================================== =========================== ====================================================================================
 
-Add a rule in WAPT Console
-"""""""""""""""""""""""""""
+Adding a rule in the WAPT Console
+"""""""""""""""""""""""""""""""""
 
 :TODO:
 
-
-Use repository rules on WAPT agent
-""""""""""""""""""""""""""""""""""
+Using repository rules on WAPT agents
+"""""""""""""""""""""""""""""""""""""
 
 .. warning::
 
-  If you already configured GeoIP redirects on Nginx, you should disable it as it might conflicts with repository rules.
-  
+  **If you have configured GeoIP redirects on Nginx,
+  you should disable it as it might conflicts with repository rules**.
 
-To enable WAPT Agent repository rules usage, you must enable a settings in ``[global]`` section of :file:`wapt-get.ini` :
+To enable WAPT Agent repository rules, you must enable this setting in the ``[global]``
+section of :file:`wapt-get.ini` configuration of the WAPT agent:
 
 ==================================== ======================= =========================== ====================================================================================
 Options                              Mandatory               Example value               Definition
@@ -213,9 +243,9 @@ Options                              Mandatory               Example value      
 ``use_repo_rules``                   No                      ``True``                    Enables repository rules usage
 ==================================== ======================= =========================== ====================================================================================
 
-Below an example of :file:`wapt-get.ini` :
+Below is an example of :file:`wapt-get.ini`:
 
-.. code::
+.. code-block:: ini
 
   [global]
   ...
