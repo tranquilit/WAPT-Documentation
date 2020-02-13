@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-05 15:09+0100\n"
+"POT-Creation-Date: 2020-02-13 10:30+0100\n"
 "PO-Revision-Date: 2018-11-02 18:27+0200\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -14,30 +14,34 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: ../../source/wapt_configuration/index.rst:8
-#: ../../source/wapt_configuration/index.rst:14
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/index.rst:8
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/index.rst:14
 msgid "Configuring WAPT"
 msgstr "Configurer WAPT"
 
-#: ../../source/wapt_configuration/index.rst:8
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/index.rst:8
 msgid ""
 "waptconsole, waptagent, wapt_deploy, WAPT, preferences, post-"
 "configuration, documentation"
 msgstr "waptconsole, waptagent, wapt_deploy, WAPT, préférences, post-configuration"
 
-#: ../../source/wapt_configuration/index.rst:16
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/index.rst:16
 msgid ""
 "The WAPT Server having been successfully installed, the next steps are as"
 " follow:"
 msgstr "Le serveur WAPT est installé, les étapes suivantes sont :"
 
-#: ../../source/wapt_configuration/index.rst:28
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/index.rst:30
 msgid ""
 "To go further, more configuration options are available in this part of "
 "the documentation:"
 msgstr ""
 "Pour aller plus loin, les différentes possibilités de configuration sont "
 "détaillées dans :"
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/index.rst:40
+msgid "To uninstall WAPT agent properly"
+msgstr ""
 
 #~ msgid "Configuration WAPT"
 #~ msgstr "Post-Installation et Configuration"

@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Tranquil IT
+# This file is distributed under the same license as the WAPT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WAPT 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-13 10:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:8
+msgid "Packaging Windows Update *.msu packages"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:8
+msgid "msu, WAPT, simple, documentation"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:15
+msgid "Packaging Windows Update \\*.msu packages"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:19
+msgid ""
+"Pre-requisites: to build WAPT packages, :ref:`the WAPT development "
+"environment must be installed <envdev_setup>`;"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:22
+msgid ""
+"Between Patch Tuesday releases, Microsoft may release additional KBs or "
+"critical ones that needs to be pushed to hosts quickly."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:25
+msgid "For that purpose, WAPT provides a package template for \\*.msu files."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:27
+msgid ""
+"In that example, we use the KB4522355 downloaded from Microsoft Catalog "
+"website."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:30
+msgid "download the KB package from Microsoft Catalog website :"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:32
+msgid ""
+"`download KB4522355 MSU "
+"<https://www.catalog.update.microsoft.com/Search.aspx?q=KB4522355>`_;"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:36
+msgid "Creating a MSU package template from the WAPT console"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:38
+msgid "create a WAPT package Template from the downloaded MSU file;"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:40
+msgid ""
+"In the WAPT console, click on :menuselection:`Tools --> Make package "
+"template from setup file`"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:47
+msgid "Pyscripter - WAPT console window for creating a package template"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:50
+msgid "select the downloaded MSU package and fill in the required fields."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:56
+msgid "Informations required for creating the MSU package"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:59
+msgid ""
+"click on :guilabel:`Make and edit ....` (recommended) to launch package "
+"customization;"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:61
+msgid ""
+"WAPT package IDE is launched using source code from pre-defined MSU "
+"template."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:63
+msgid "As usual with WAPT packages, test - build - upload and it's done."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:66
+msgid "Creating a MSU package template from command line"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:68
+msgid ""
+"launch a Windows Command Line utility :program:`cmd.exe` as :term:`Local "
+"Administrator`;"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:75
+msgid "Windows Command Line utility launched as Local Administrator"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:77
+msgid "instantiate a package from the pre-defined MSU template;"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:84
+msgid "output example with :program:`KB4522355`:"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:98
+msgid ""
+"WAPT package IDE is launched, here is an example source code from pre-"
+"defined MSU template"
+msgstr ""
+

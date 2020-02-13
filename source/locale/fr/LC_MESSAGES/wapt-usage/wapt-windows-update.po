@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-05 18:00+0100\n"
+"POT-Creation-Date: 2020-02-13 10:30+0100\n"
 "PO-Revision-Date: 2019-03-01 11:07+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: en\n"
@@ -18,24 +18,24 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:8
-#: ../../source/wapt-usage/wapt-windows-update.rst:17
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:8
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:17
 msgid "Using WAPT Windows Update Agent (WAPTWUA)"
 msgstr "Utiliser l'agent de mise à jour Windows (WAPTWUA)"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:8
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:8
 msgid "WAPT, Windows, Updates, WUA, documentation"
 msgstr "WAPT, Windows, Mises à jour, WUA, documentation"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:14
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:14
 msgid "Enterprise"
 msgstr "Enterprise"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:21
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:21
 msgid "Feature only available with WAPT **Enterprise** version"
 msgstr "Fonctionnalité uniquement disponible avec WAPT **Enterprise**"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:25
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:25
 msgid ""
 "Since version 1.7, WAPT is able to manage Windows Updates on your "
 "endpoints."
@@ -43,7 +43,7 @@ msgstr ""
 "Depuis la version 1.7, WAPT est capable de gérer les mises à jour Windows"
 " sur vos terminaux."
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:27
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:27
 #, fuzzy
 msgid ""
 "the internals of WAPTWUA is based on the :abbr:`WUA (Windows Update "
@@ -52,7 +52,7 @@ msgstr ""
 "Le fonctionnement interne de WAPTWUA est basé sur l'API :abbr:`WUA "
 "(Windows Update Agent)`."
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:29
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:29
 #, fuzzy
 msgid ""
 "for more information: https://docs.microsoft.com/en-"
@@ -61,11 +61,11 @@ msgstr ""
 "Pour plus d\\'informations : https://docs.microsoft.com/en-"
 "us/windows/desktop/wua_sdk/using-the-windows-update-agent-api"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:32
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:32
 msgid "Working principle"
 msgstr "Principe de fonctionnement"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:34
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:34
 msgid ""
 "Regularly, the WAPT server downloads an updated :file:`wsusscn2.cab` file"
 " from Microsoft servers. By default, downloads happen once a day and no "
@@ -77,11 +77,23 @@ msgstr ""
 "téléchargements ont lieu une fois par jour et aucun téléchargement n'est "
 "déclenché si le fichier n'a pas changé depuis le dernier téléchargement."
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:43
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:43
 msgid "WAPT Windows Update flow process"
 msgstr "Processus de mise à jour de Windows WAPT"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:45
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:47
+msgid ""
+"In some cases, you may wish to push new KBs before the next Patch Tuesday"
+" release."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:49
+msgid ""
+"To to do, there is a specific documentation on packaging \\*.msu files "
+"for these \"Out-of-band\" updates :ref:`simple_msu_packaging`"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:52
 msgid ""
 "The :file:`wsusscn2.cab` file is then downloaded by the WAPT agent from "
 "its nearest repository and then passed on to the standard :abbr:`WUA "
@@ -93,7 +105,7 @@ msgstr ""
 "standard *Windows Update Agent* Windows qui traitera l'arbre des mises à "
 "jour."
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:50
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:57
 msgid ""
 "Regularly, the host will analyze the available updates using the "
 ":file:`wsusscn2.cab` file. The host will send its list of needed updates "
@@ -104,7 +116,7 @@ msgstr ""
 "nécessaires déterminée par l'agent WUA est ensuite envoyée par l'hôte au "
 "serveur WAPT."
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:54
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:61
 msgid ""
 "If an update is pending on the host and if that update is not present on "
 "the WAPT server, the server will download the needed update from official"
@@ -114,7 +126,7 @@ msgstr ""
 "n'est pas présente sur le serveur WAPT, le serveur téléchargera la mise à"
 " jour nécessaire depuis les serveurs Microsoft."
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:60
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:67
 msgid ""
 "This mode of operation allows to download only the necessary updates on "
 "the computers, thus saving bandwidth, download time and disk space."
@@ -123,15 +135,15 @@ msgstr ""
 "nécessaires sur les ordinateurs qui en ont besoin, économisant ainsi de "
 "la bande passante, du temps de téléchargement et de l\\'espace disque."
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:63
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:70
 msgid "Downloaded updates are stored:"
 msgstr "Les mises à jour téléchargées sont stockées :"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:65
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:72
 msgid "on Linux hosts in :file:`/var/www/waptwua`;"
 msgstr "sur des serveurs Linux dans :file:`/var/www/waptwua` ;"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:67
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:74
 msgid ""
 "on Windows hosts in "
 ":file:`C:\\\\wapt\\\\waptserver\\\\repository\\\\waptwua`;"
@@ -139,7 +151,7 @@ msgstr ""
 "sur des machines Windows dans "
 ":file:`C:\\wapt\\waptserver\\repository\\waptwua` ;"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:69
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:76
 msgid ""
 "The WAPT Windows Update Agent repository download URL is based on the "
 "``repo_url`` parameter in :file:`wapt-get.ini`:"
@@ -147,7 +159,7 @@ msgstr ""
 "L'URL de téléchargement des mise à jour Windows depuis le dépôt WAPT est "
 "basée sur le paramètre ``repo_url`` du fichier :file:`wapt-get.ini` :"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:72
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:79
 msgid ""
 "in case of repository replication, it is fully operational with WAPT "
 "Windows Update to reduce bandwidth use;"
@@ -155,7 +167,7 @@ msgstr ""
 "la réplication des WAPT Windows Update fonctionne pour réduire l\\'usage "
 "de la bande passante ;"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:75
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:82
 msgid ""
 "do not forget to synchronize the :file:`waptwua` folder if you are "
 "replicating your packages with distant repositories;"
@@ -163,65 +175,65 @@ msgstr ""
 "n\\'oubliez pas de synchroniser le dossier :file:`waptwua`  si vous "
 "répliquez vos paquets avec des dépôts distants ;"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:80
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:87
 msgid ""
 "If in your company, a proxy is needed to go out on the Internet, then be "
 "sure to :ref:`set the proxy server in the waptserver.ini file "
 "<waptserver_configuration>`."
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:85
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:94
 msgid "Configuring WAPTWUA on the WAPT agent"
 msgstr "Configurer WAPTWUA sur l'agent WAPT"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:87
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:96
 msgid "*WAPTWUA* is configured in :file:`wapt-get.ini`."
 msgstr "*WAPTWUA* est configuré dans :file:`wapt-get.ini`."
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:89
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:98
 msgid "Add ``[waptwua]`` section."
 msgstr "Ajouter une section ``[waptwua]``."
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:91
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:100
 msgid "You then have several options:"
 msgstr "Vous avez alors plusieurs options :"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:96
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:105
 msgid "Options"
 msgstr "Options"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:96
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:105
 msgid "Default Value"
 msgstr "Valeur par défaut"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:96
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:105
 msgid "Description"
 msgstr "Description"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:98
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:107
 msgid "``enabled``"
 msgstr "``enabled``"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:98
-#: ../../source/wapt-usage/wapt-windows-update.rst:100
-#: ../../source/wapt-usage/wapt-windows-update.rst:101
-#: ../../source/wapt-usage/wapt-windows-update.rst:105
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:107
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:109
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:110
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:114
 msgid "False"
 msgstr "False"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:98
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:107
 msgid "Enable or disable WAPTWUA on this machine."
 msgstr "Activez ou désactivez WAPTWUA sur cette machine."
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:99
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:108
 msgid "``offline``"
 msgstr "``offline``"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:99
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:108
 msgid "True"
 msgstr "True"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:99
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:108
 msgid ""
 "Defined if the scan should be done using :file:`wsusscn2.cab` files or "
 "Online with Microsoft servers"
@@ -229,11 +241,11 @@ msgstr ""
 "Définir si l'analyse doit être effectuée à l'aide des fichiers "
 ":file:`wsusscn2.cab` ou en ligne avec les serveurs Microsoft."
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:100
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:109
 msgid "``allow_direct_download``"
 msgstr "``allow_direct_download``"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:100
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:109
 msgid ""
 "Allow direct download of updates from Microsoft servers if the WAPT "
 "server is not available"
@@ -241,38 +253,38 @@ msgstr ""
 "Autoriser le téléchargement direct des mises à jour à partir des serveurs"
 " Microsoft si le serveur WAPT n'est pas disponible."
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:101
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:110
 msgid "``default_allow``"
 msgstr "``default_allow``"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:101
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:110
 msgid "Set if missing update is authorized or not by default"
 msgstr "Définir si la mise à jour manquante est autorisée ou non par défaut"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:102
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:111
 msgid "``filter``"
 msgstr "``filter``"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:102
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:111
 msgid "Type='Software' or Type='Driver'"
 msgstr "Type='Software' ou Type='Driver'"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:102
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:111
 msgid "Define the filter to apply for the Windows update scan"
 msgstr "Définir le filtre à appliquer pour l'analyse des mises à jour Windows"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:103
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:112
 msgid "``download_scheduling``"
 msgstr "``download_scheduling``"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:103
-#: ../../source/wapt-usage/wapt-windows-update.rst:104
-#: ../../source/wapt-usage/wapt-windows-update.rst:106
-#: ../../source/wapt-usage/wapt-windows-update.rst:107
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:112
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:113
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:115
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:116
 msgid "None"
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:103
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:112
 msgid ""
 "Set the Windows Update scan recurrence (Will not do anything if *wsus* "
 "package rule or :file:`wsusscn2.cab` file have not changed) (ex: 2h)"
@@ -281,11 +293,11 @@ msgstr ""
 "la règle du paquet *wsus* ou le fichier :file:`wsusscn2.cab` n'ont pas "
 "changé) (ex : 2h)"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:104
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:113
 msgid "``install_scheduling``"
 msgstr "``install_scheduling``"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:104
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:113
 msgid ""
 "Set the Windows Update install recurrence (Will do nothing if no update "
 "is pending) (ex: 2h)"
@@ -293,19 +305,19 @@ msgstr ""
 "Définir la fréquence d'installation des mises à jour Windows (Ne fera "
 "rien si aucune mise à jour n'est en attente) (ex : 2h)"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:105
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:114
 msgid "``install_at_shutdown``"
 msgstr "``install_at_shutdown``"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:105
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:114
 msgid "Install update when the machine will shutdown"
 msgstr "Installe les mises à jour à l'extinction de la machine"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:106
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:115
 msgid "``install_delay``"
 msgstr "``install_delay``"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:106
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:115
 msgid ""
 "Set a deferred installation delay before publication in the repository "
 "(ex: 7d)"
@@ -313,26 +325,26 @@ msgstr ""
 "Définir un délai d'installation différé avant la publication dans le "
 "dépôt (ex : 7d)"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:107
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:116
 msgid "``allowed_severities``"
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:107
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:116
 msgid ""
 "Define a severity list that will be automatically accepted during a wapt "
 "windows update scan. ex : Important,Critical,Moderate"
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:112
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:121
 msgid "These options can be set when generating the agent."
 msgstr "Ces options peuvent être définies lors de la génération de l'agent."
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:114
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:123
 #, fuzzy
 msgid "Example :command:`[waptwua]` section in :file:`wapt-get.ini` file:"
 msgstr "Exemple de section WAPTWUA dans le fichier :file:`wapt-get.ini` :"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:128
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:137
 msgid ""
 "The :guilabel:`install_scheduling` option will try every 12 hours to "
 "install updates on client. It is not in graphical options due to a "
@@ -345,7 +357,7 @@ msgstr ""
 "d'installer les misesà jour sur votre parc informatique pendant les "
 "heures de travail peut impacter votre production."
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:134
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:143
 msgid ""
 "When you create the :file:`waptagent.exe` from your console, these "
 "options are equivalent to this:"
@@ -353,7 +365,7 @@ msgstr ""
 "Lorsque vous créer waptagent.exe depuis la console, ces options sont "
 "équivalentes à celles-ci :"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:143
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:152
 msgid ""
 "if :guilabel:`default_allow` option is ``True`` and Wapt WUA is enabled "
 "too, clients will contact the WAPT Server and ask to download the missing"
@@ -365,15 +377,15 @@ msgstr ""
 "télécharger les mises à jour manquantes. Le client installera ses mises à"
 " jour tout seul."
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:148
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:157
 msgid "Example package source code to modify ``[waptwua]`` settings :"
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:161
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:170
 msgid "Using WAPTWUA from the console"
 msgstr "Utiliser de WAPTWUA depuis la console"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:163
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:172
 #, fuzzy
 msgid ""
 "The :guilabel:`WAPT Windows Update Agent` tab in the WAPT console comes "
@@ -382,11 +394,11 @@ msgstr ""
 "L'onglet :guilabel:`WAPT Windows Update Agent` de la console WAPT est "
 "fourni avec deux sous-menus pour gérer WAPTWUA."
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:167
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:176
 msgid "WAPTWUA Package"
 msgstr "Paquet WAPTWUA"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:169
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:178
 msgid ""
 "The :guilabel:`WAPTWUA Package` tab allows you to create *wsus* rules "
 "packages."
@@ -394,7 +406,7 @@ msgstr ""
 "L'onglet :guilabel:`WAPTWUA Package` vous permet de créer des paquets de "
 "règles *wsus*."
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:171
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:180
 msgid ""
 "when this type of package is installed on a machine, it indicates to the "
 "WAPTWUA agent the authorized or forbidden :abbr:`KBs (Knowledge Base "
@@ -404,7 +416,7 @@ msgstr ""
 "l'agent WAPTWUA les :abbr:`KBs (Knowledge Base articles)` autorisés ou "
 "interdits ;"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:175
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:184
 msgid ""
 "when several *wsus* packages are installed on a machine, the different "
 "rules will be merged;"
@@ -412,7 +424,7 @@ msgstr ""
 "lorsque plusieurs paquets *wsus* sont installés sur une machine, les "
 "différentes règles seront fusionnées ;"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:178
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:187
 msgid ""
 "when a :file:`cab` is neither mentioned as authorized, nor mentioned as "
 "prohibited, WAPT agents will then take the value of ``default_allow`` in "
@@ -422,7 +434,7 @@ msgstr ""
 "comme interdit, les agents WAPT prendront alors la valeur "
 "``default_allow`` dans le fichier :file:`wapt-get.ini` ;"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:182
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:191
 msgid ""
 "If a Windows update has not yet been downloaded to the WAPT server, then "
 "the WAPT agent will flag the update as *MISSING*."
@@ -430,7 +442,7 @@ msgstr ""
 "Si une mise à jour Windows n'a pas encore été téléchargée sur le serveur "
 "WAPT, l'agent WAPT marquera la mise à jour comme *MISSING*."
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:187
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:196
 msgid ""
 "if the WAPTWUA agent configuration is set to ``default_allow = True``, "
 "then it will be necessary to specify the forbidden :file:`cab`;"
@@ -438,7 +450,7 @@ msgstr ""
 "si la configuration de l'agent WAPTWUA est définie avec ``default_allow ="
 " True``, alors il sera nécessaire de spécifier la cabine interdite ;"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:190
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:199
 msgid ""
 "if the WAPTWUA agent configuration is set to ``default_allow = False``, "
 "then it will be necessary to specify the authorized :file:`cab`;"
@@ -446,7 +458,7 @@ msgstr ""
 "si la configuration de l'agent WAPTWUA est définie avec ``default_allow ="
 " False``, alors il sera nécessaire de spécifier le :file:`cab` autorisé ;"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:195
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:204
 msgid ""
 "to test updates on a small set of computers, you can set WAPTWUA default "
 "value to ``default_allow = False``;"
@@ -455,7 +467,7 @@ msgstr ""
 "pouvez définir la valeur par défaut de WAPTWUA avec ``default_allow = "
 "False`` ;"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:198
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:207
 #, fuzzy
 msgid ""
 "you can test updates on a small sample of hosts and if everything is "
@@ -465,21 +477,21 @@ msgstr ""
 "et si tout va bien, vous pouvez diffuser les mises à jour sur l'ensemble "
 "de la base des ordinateurs ;"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:205
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:214
 msgid "Creating a *wsus* Package"
 msgstr "Créer un paquet *wsus*"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:208
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:217
 msgid "Windows Updates list tab"
 msgstr "Onglet Liste des mises à jour de Windows"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:210
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:219
 msgid "The :guilabel:`Windows Update List` tab lists all needed Windows Updates."
 msgstr ""
 "L'onglet :guilabel:`Windows Update List` liste toutes les mises à jour "
 "Windows nécessaires."
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:214
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:223
 msgid ""
 "The server does not scan the :file:`wsussc2.cab` itself, it lets the WUA "
 "wapt agents do it. If an update seems to you as missing from the list, "
@@ -488,25 +500,25 @@ msgid ""
 " displayed on the Windows Update List tab."
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:221
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:230
 msgid "The left pane displays updates categories, allowing you to filter by:"
 msgstr ""
 "Le volet de gauche affiche les catégories de mises à jour, vous "
 "permettant de filtrer par :"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:223
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:232
 msgid "criticality;"
 msgstr "la criticité ;"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:225
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:234
 msgid "product;"
 msgstr "le produit ;"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:227
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:236
 msgid "classification;"
 msgstr "la classification ;"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:229
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:238
 msgid ""
 "In the right panel grid, if the :guilabel:`Downloaded on` column is "
 "empty, it means that the update has not yet been downloaded by the WAPT "
@@ -518,7 +530,7 @@ msgstr ""
 " le serveur WAPT et n'est pas présente sur le serveur WAPT (Cette mise à "
 "jour ne manque sur aucun hôte)."
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:233
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:242
 msgid ""
 "you can force the download of an update by :menuselection:`right-click "
 "--> Download`;"
@@ -526,7 +538,7 @@ msgstr ""
 "vous pouvez forcer le téléchargement d'une mise à jour par "
 ":menuselection:`Clic droit --> Télécharger` ;"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:236
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:245
 msgid ""
 "you can also force the download of the :file:`wsusscn2.cab` file with the"
 " :guilabel:`Download WSUSScan cab from Microsoft Web Site` button;"
@@ -535,7 +547,7 @@ msgstr ""
 ":file:`wsusscn2.cab` avec le bouton :guilabel:`Download WSUSScan cab from"
 " Microsoft Web Site` ;"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:239
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:248
 msgid ""
 "you can see the Windows Updates download on the server with the "
 ":guilabel:`Show download task` button;"
@@ -543,7 +555,7 @@ msgstr ""
 "vous pouvez voir le téléchargement des mises à jour Windows sur le "
 "serveur avec le bouton :guilabel:`Montrer les téléchargements` ;"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:244
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:253
 msgid ""
 "To cleanup your :file:`WAPTWUA` folder, you can remove no longer needed "
 "Windows updates. WAPT server will only re-download deleted updates if one"
@@ -554,15 +566,15 @@ msgstr ""
 "re-téléchargera les mises à jour supprimées que si l'un des hôtes équipés"
 " WAPT le demande ;"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:253
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:262
 msgid "Launch WUA on clients"
 msgstr "Lancer WAPT WUA sur le client"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:255
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:264
 msgid "From the console you have three options."
 msgstr "Vous avez alors plusieurs options :"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:261
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:270
 msgid ""
 "The :guilabel:`Trigger the scan of pending Windows Updates` button will "
 "launch the scan on the client and list all updates flagged for the OS. "
@@ -570,7 +582,7 @@ msgid ""
 ":`wapt-get waptwua-scan` from the command-line."
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:268
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:277
 msgid ""
 "Every 30 minutes, the WAPT Server will look for updates that have been "
 "requested at least once by WAPT Clients and that have not yet been "
@@ -578,7 +590,7 @@ msgid ""
 "download it from official Microsoft servers."
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:273
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:282
 msgid ""
 "You can force this scan with the :guilabel:`Download index and missing "
 "cabs from Microsoft Web site` button in tab :menuselection:`Windows "
@@ -592,7 +604,7 @@ msgstr ""
 " dans l'onglet :menuselection:`Windows Updates --> Liste des mises à jour"
 " Windows`"
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:281
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:290
 msgid ""
 "If you want to download from the console, use the :guilabel:`Trigger the "
 "download of pending Windows Updates` button."
@@ -600,7 +612,7 @@ msgstr ""
 "Si vous voulez télécharger depuis la console, cliquez sur le bouton "
 ":guilabel:`Lancer le téléchargement des Mises à jour Windows en attente`."
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:284
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:293
 #, fuzzy
 msgid ""
 "The command-line for downloading kb from the client is :command:`wapt-get"
@@ -611,13 +623,13 @@ msgstr ""
 "get waptwua-download``, cela va scanner des force les mises à jour, "
 "télécharger les KB manquantes et envoyer le résultat au serveur."
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:288
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:297
 msgid ""
 "If you want to install the pending update(s), use :command:`wapt-get "
 "waptwua-install` from the command-line prompt."
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:291
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:300
 msgid ""
 "If you want to trigger the installation from the console, click on "
 ":guilabel:`Trigger the install of pending Windows Updates` button."
@@ -625,20 +637,20 @@ msgstr ""
 "Si vous voulez télécharger depuis la console, cliquez sur le bouton "
 ":guilabel:`Lancer le téléchargement des Mises à jour Windows en attente`."
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:296
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:305
 msgid ""
 "When you want to install the pending updates stored in cache, the WAPT "
 "Service triggers the :abbr:`WUA (Windows Update Agent)` service."
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:299
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:308
 msgid ""
 "The WAPT Service will enable and start the WUA Service temporarily to "
 "install the updates. When updates are installed, waptservice will stop "
 "and disable the WUA service until the next cycle."
 msgstr ""
 
-#: ../../source/wapt-usage/wapt-windows-update.rst:304
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-windows-update.rst:313
 msgid "Video demonstration"
 msgstr ""
 

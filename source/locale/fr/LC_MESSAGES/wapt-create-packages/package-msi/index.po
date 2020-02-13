@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-13 11:34+0100\n"
+"POT-Creation-Date: 2020-02-13 10:30+0100\n"
 "PO-Revision-Date: 2019-02-27 11:40+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -14,20 +14,24 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:8
-#: ../../source/wapt-create-packages/package-msi/index.rst:15
-msgid "Packaging simple \\*.msi packages"
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:8
+#, fuzzy
+msgid "Packaging simple *.msi packages"
 msgstr "Packager des paquets \\*.msi simples"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:8
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:8
 msgid "msi, WAPT, simple, documentation"
 msgstr "msi, WAPT, simples, documentation"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:17
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:15
+msgid "Packaging simple \\*.msi packages"
+msgstr "Packager des paquets \\*.msi simples"
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:17
 msgid "Prerequisites"
 msgstr "Pré-requis"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:19
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:19
 msgid ""
 "Pre-requisites: to build WAPT packages, :ref:`the WAPT development "
 "environment must be installed <envdev_setup>`;"
@@ -35,7 +39,7 @@ msgstr ""
 "Pour la création de paquet il faut d'abord avoir :ref:`installé "
 "l'environment de développement WAPT <envdev_setup>` ;"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:24
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:24
 msgid ""
 "From WAPT version 1.3.12 and above, a new package template creation "
 "wizard is available to help you make basic packages. For more information"
@@ -49,11 +53,11 @@ msgstr ""
 "d':ref:`utiliser l'interface graphique pour instancier vos modèles de "
 "paquets <creation_paquets_console>`."
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:30
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:30
 msgid "Download the TightVNC MSI installer"
 msgstr "télécharger l'installeur MSI de TighVNC ;"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:32
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:32
 msgid ""
 "`download TightVNC MSI x64 "
 "<http://www.tightvnc.com/download/2.8.5/tightvnc-2.8.5-gpl-setup-"
@@ -63,7 +67,7 @@ msgstr ""
 "<https://www.tightvnc.com/download/2.8.5/tightvnc-2.8.5-gpl-setup-"
 "64bit.msi>`_ ;"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:34
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:34
 msgid ""
 "`download TightVNC MSI x86 "
 "<http://www.tightvnc.com/download/2.8.5/tightvnc-2.8.5-gpl-setup-"
@@ -73,11 +77,11 @@ msgstr ""
 "<https://www.tightvnc.com/download/2.8.5/tightvnc-2.8.5-gpl-setup-"
 "32bit.msi>`_ ;"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:36
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:36
 msgid "look up documentation relating to silent flags;"
 msgstr "rechercher la documentation associée pour les flags silencieux ;"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:38
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:38
 msgid ""
 "`documentation TightVNC "
 "<http://www.tightvnc.com/doc/win/TightVNC_2.7_for_Windows_Installing_from_MSI_Packages.pdf>`_;"
@@ -85,7 +89,7 @@ msgstr ""
 "`documentation TightVNC "
 "<https://www.tightvnc.com/doc/win/TightVNC_2.7_for_Windows_Installing_from_MSI_Packages.pdf>`_ ;"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:44
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:44
 msgid ""
 "This command should install :program:`TightVNC` with its default "
 "parameters. However, MSI allows you to customize the behavior of the "
@@ -95,7 +99,7 @@ msgstr ""
 "par défaut. Cependant, MSI vous permet de personnaliser son installation "
 "grâce aux propriétés de MSI. La syntaxe générale est :"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:52
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:52
 msgid ""
 "launch a Windows Command Line utility :program:`cmd.exe` as :term:`Local "
 "Administrator`;"
@@ -103,23 +107,23 @@ msgstr ""
 "lancer une invite de commande Windows :program:`cmd.exe` en tant "
 "qu':term:`Administrateur Local` ;"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:59
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:59
 msgid "Windows Command Line utility launched as Local Administrator"
 msgstr "Invite de commande Windows lancée en tant qu'Administrateur Local"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:61
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:61
 msgid "instantiate a package from the pre-defined MSI template;"
 msgstr "instancier le paquet à partir du modèle prévu pour un installeur MSI ;"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:67
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:67
 msgid "Exemple with :program:`TightVNC`:"
 msgstr "Exemple avec :program:`TightVNC` :"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:81
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:81
 msgid "Customizing the package"
 msgstr "Personnaliser le paquet WAPT"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:83
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:83
 msgid ""
 ":program:`PyScripter` opens with the new project, ready to be customized "
 "and built."
@@ -127,33 +131,33 @@ msgstr ""
 ":program:`PyScripter` s'ouvre alors avec le projet TightVNC prêt à être "
 "davantage personnalisé."
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:90
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:90
 msgid "PyScripter with TightVNC project opened"
 msgstr "PyScripter avec le projet TightVNC ouvert"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:94
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:94
 msgid "Using the automatic template has the following effects:"
 msgstr "La procédure de création automatique de ce modèle de paquet :"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:96
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:96
 msgid "it creates a WAPT package folder in :file:`C:\\\\waptdev`;"
 msgstr "il crée le dossier du paquet dans :file:`C:\\waptdev` ;"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:98
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:98
 msgid "it copies the MSI setup file in that directory;"
 msgstr "il copie le fichier MSI dans ce dossier ;"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:100
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:100
 msgid "it creates a generic :file:`setup.py` file;"
 msgstr "il crée le fichier :file:`setup.py` générique ;"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:102
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:102
 msgid ""
 "it creates the :file:`control` file containing the WAPT package meta-"
 "informations;"
 msgstr "il crée le fichier :file:`control` qui identifie le paquet ;"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:105
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:105
 msgid ""
 "it creates the PyScripter project file containing pre-configured WAPT "
 "related helpers;"
@@ -161,15 +165,15 @@ msgstr ""
 "il crée le fichier :file:`wapt.psproj` générique contenant des fonctions "
 "d'exécution WAPT pré-paramétrées ;"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:110
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:110
 msgid "Then it's possible to:"
 msgstr "On pourra ensuite :"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:112
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:112
 msgid "check and complete :file:`control` file informations;"
 msgstr "contrôler et compléter les informations du fichier control ;"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:114
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:114
 msgid ""
 "add additional files (x86 version of the installer, configuration files, "
 "etc);"
@@ -177,11 +181,11 @@ msgstr ""
 "ajouter des fichiers supplémentaires (version x86 du MSI, fichiers de "
 "configuration, etc) ;"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:117
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:117
 msgid "customize setup instructions in :file:`setup.py`;"
 msgstr "personnaliser la procédure d'installation dans :file:`setup.py` ;"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:119
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:119
 msgid ""
 "make changes to the :file:`control` file as necessary "
 "(:ref:`envdev_setup`);"
@@ -189,7 +193,7 @@ msgstr ""
 "modifier le fichier :file:`control` si nécessaire, voir : "
 ":ref:`structure_control` ;"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:125
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:125
 msgid ""
 "You may observe that a subversion (*-1*; dash+number one) has been added."
 " It is the WAPT packaging version."
@@ -197,7 +201,7 @@ msgstr ""
 "À noter qu'une sous version (*-1* ; tiret + chiffre un) a été ajoutée. "
 "C'est la version du paquet WAPT."
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:128
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:128
 msgid ""
 "This allows to preserve the software version when iteratively improving "
 "the WAPT package."
@@ -205,11 +209,11 @@ msgstr ""
 "Cela permet de ne pas modifier la version réelle du logiciel quand on "
 "pousse une nouvelle installation sur le parc."
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:131
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:131
 msgid "check the *setup.py* file;"
 msgstr "vérifier le fichier *setup.py* ;"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:133
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:133
 msgid ""
 "In the :file:`setup.py` file, you will have to check whether the "
 "*uninstall key* automatically that has been filled matches the MSI and "
@@ -218,7 +222,7 @@ msgstr ""
 "Dans le fichier :file:`setup.py` il faudra vérifier que la clé de "
 "désinstallation et les paramètres silencieux sont corrects pour le MSI."
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:150
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:150
 msgid ""
 "Since WAPT version 1.3.12, :command:`install_msi_if_needed` is the "
 "function used by default when creating a package Template from a MSI."
@@ -227,7 +231,7 @@ msgstr ""
 " utilisée par défaut lors de la création d'un modèle de paquet pour un "
 "MSI."
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:153
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:153
 msgid ""
 "In this example, we will use the :command:`run` function to show the "
 "evolution of the package. The function :command:`install_msi_if_needed` "
@@ -239,11 +243,11 @@ msgstr ""
 "expliquée dans la :ref:`partie paquet msi evolué de la documentation "
 "<complex_msi_packaging>`."
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:158
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:158
 msgid "test installing the package on you development computer;"
 msgstr "tester l'installation du paquet sur votre machine de développement ;"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:160
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:160
 msgid ""
 "A major advantage of :program:`PyScripter` and WAPT is to be able to test"
 " WAPT packages locally, to improve them quickly and iteratively."
@@ -252,60 +256,60 @@ msgstr ""
 " est de pouvoir tester en local les paquets WAPT rapidement et de manière"
 " itérative."
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:167
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:167
 msgid "Test installing the package from you development computer"
 msgstr "tester l'installation du paquet sur la machine de développement ;"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:172
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:172
 msgid "Settings"
 msgstr "Paramètre"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:172
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:172
 msgid "Value"
 msgstr "Valeur"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:172
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:172
 msgid "Description"
 msgstr "Description"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:174
-#: ../../source/wapt-create-packages/package-msi/index.rst:177
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:174
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:177
 msgid ":command:`install`"
 msgstr ":command:`install`"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:174
-#: ../../source/wapt-create-packages/package-msi/index.rst:179
-#: ../../source/wapt-create-packages/package-msi/index.rst:181
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:174
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:179
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:181
 msgid "Execute"
 msgstr "Exécuter"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:174
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:174
 msgid "Launch the software installation with its arguments from :file:`setup.py`."
 msgstr ""
 "Lancer l'installation du logiciel avec les paramètres renseignés dans "
 ":file:`setup.py`."
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:177
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:177
 msgid "Debug"
 msgstr "Débogguer"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:177
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:177
 msgid "Launch the line by line debugger."
 msgstr "Lancer le debugger ligne par ligne."
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:179
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:179
 msgid ":command:`remove`"
 msgstr ":command:`remove`"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:179
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:179
 msgid "Launch the uninstallation."
 msgstr "Lancer la désinstallation."
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:181
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:181
 msgid ":command:`-i build-upload`"
 msgstr ":command:`-i build-upload`"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:181
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:181
 msgid ""
 "Increment the WAPT packaging version, build the package and upload it on "
 "the WAPT repository."
@@ -313,11 +317,11 @@ msgstr ""
 "Modifier la version du paquet et lance la construction et l'envoi du "
 "paquet sur le dépôt."
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:187
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:187
 msgid "Build and upload the package"
 msgstr "Construire et charger le paquet WAPT"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:189
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:189
 msgid ""
 "Once the project has been created, build the package without "
 "modifications from the Windows command prompt."
@@ -325,11 +329,11 @@ msgstr ""
 "Une fois le projet de paquet créé, on peut lancer la construction du "
 "paquet sans modification depuis l'invite de commande Windows."
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:198
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:198
 msgid "When executing that command, here is what is really happening:"
 msgstr "Lorsqu'on exécute cette commande, WAPT :"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:200
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:200
 msgid ""
 "the :file:`manifest.sha256` file containing the list of files included in"
 " the package is created;"
@@ -337,7 +341,7 @@ msgstr ""
 "génère le fichier :file:`manifest.sha256` avec la liste des fichiers "
 "contenus dans le paquet ;"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:203
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:203
 msgid ""
 "it compresses the folder :file:`C:\\\\waptdev\\tis-tightvnc-wapt` with a "
 "canonical name;"
@@ -345,15 +349,15 @@ msgstr ""
 "il zippe le répertoire :file:`C:\\waptdev\\tis-tightvnc-wapt` avec un nom"
 " canonique pour les paquets WAPT ;"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:206
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:206
 msgid "it adds the signature (requires the private key);"
 msgstr "ajoute la signature (nécessite la présence de la clé privée) ;"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:208
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:208
 msgid "it loads the WAPT package onto the WAPT repository using HTTPS;"
 msgstr "charge le fichier WAPT en https vers le dépôt WAPT ;"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:210
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:210
 msgid ""
 "it recreates the :file:`https://srvwapt.mydomain.lan/wapt/Packages` index"
 " to take into account the new or updated package;"
@@ -362,15 +366,15 @@ msgstr ""
 ":file:`https://srvwapt.mydomain.lan/wapt/Packages` pour prendre en compte"
 " le nouveau paquet ou la nouvelle version du paquet ;"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:213
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:213
 msgid "The package is now ready to be deployed."
 msgstr "Le paquet est prêt à être déployé."
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:215
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:215
 msgid "Example:"
 msgstr "Exemple :"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:257
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:257
 msgid ""
 "It is also possible to execute :command:`build-upload` directly from the "
 ":guilabel:`Run Configurations` panel in :program:`PyScripter`:"
@@ -379,7 +383,7 @@ msgstr ""
 "panneau :guilabel:`Run Configurations` du projet dans "
 ":program:`PyScripter` :"
 
-#: ../../source/wapt-create-packages/package-msi/index.rst:264
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:264
 msgid "Option \"-i build-upload\" of PyScripter project"
 msgstr "L'option \"-i build-upload\" du projet PyScripter"
 
