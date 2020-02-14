@@ -67,8 +67,7 @@ Asked Questions <wapt_faq>`.
   :alt: Accept the WAPT license terms
 
   Accept the WAPT license terms
-  
-  
+
 * choose the installation directory (leave the default) and click
   on :guilabel:`Next` to go on to the next step;
 
@@ -77,60 +76,56 @@ Asked Questions <wapt_faq>`.
   :alt: Choose the WAPT destination folder
 
   Choose the WAPT destination folder
-  
-  
-* Choose additional task (leave as is for a first installation)
+
+* choose additional task (leave as is for a first installation);
 
 .. figure:: windows-additional-task.png
   :align: center
   :alt: Choose additional task
 
-  Choose additional task 
-  
-* Choose password for waptserver
+  Choose additional task
+
+* choose the password for the WAPT server;
 
 .. figure:: windows-choose-password.png
   :align: center
   :alt: Choose Password
 
-  Choose Password 
-  
-  
-* Create a key if this is your first installation, otherwise select the existing key.
+  Choose Password
+
+
+* create a key if this is your first installation,
+  otherwise select the existing key;
 
 .. figure:: windows-create-key.png
   :align: center
-  :alt: Create key
+  :alt: Create the signature key
 
-  Create Key
-  
+  Create the signature key
 
-* Choose Password for private key
+* choose the password for the private key;
 
 .. figure:: windows-choose-password-key.png
   :align: center
-  :alt: Choose Password for private key
+  :alt: Choose the password of the private key
 
-  Choose Password for private key
-  
-  
-* Build waptagent 
+  Choose the password of the private key
+
+* build the WAPT agent;
 
 .. figure:: windows-build-waptagent.png
   :align: center
-  :alt: Build waptagent 
+  :alt: Build the WAPT agent
 
-  Choose Build waptagent 
-  
-* Choose prefix 
+  Build the WAPT agent
+
+* choose the prefix used for naming your WAPT packages;
 
 .. figure:: windows-choose-prefix.png
   :align: center
-  :alt: Build waptagent 
+  :alt: Choose the prefix used for naming your WAPT packages
 
-  Choose prefix  
-  
-
+  Choose the prefix used for naming your WAPT packages
 
 * click on the :guilabel:`Install` to launch the installation,
   wait for the installation to complete, then click on
@@ -148,10 +143,9 @@ Asked Questions <wapt_faq>`.
 
   Installation has finished
 
-
 * click on :guilabel:`Finished` to close the installer;
 
 The WAPT Server on your Windows is ready.
 
-You may go to the documentation on :ref:`installing the waptagent
+You may now go to the documentation on :ref:`installing the waptagent
 <install_waptagent>`!!

@@ -14,8 +14,8 @@
 Replicating repositories and working with multiple repositories
 ===============================================================
 
-Large infrastructure with remote sites and subsidiaries sometimes requires services
-to be replicated locally to avoid bandwidth congestion.
+Large organizations with remote sites and subsidiaries sometimes
+require services to be replicated locally to avoid bandwidth congestion.
 
 .. figure:: repository_header.png
     :align: center
@@ -23,11 +23,12 @@ to be replicated locally to avoid bandwidth congestion.
 
     Repository replication and multiple repositories
 
+.. versionadded:: WAPT Enterprise 1.8
 
-
-WAPT offers the possibility to replicate its repositories on local agents, directly
-managed through WAPT Console. WAPT agents can be configured to automatically select the best
-repository based on a set of rules.
+**WAPT Enterprise offers the possibility to upgrade remote agents to serve
+as remote repositories that can be managed directly from the WAPT Console.
+All WAPT agents can then be centrally configured to automatically select the best
+repository based on a set of rules**.
 
 You'll find in this part of the documentation how to implement
 such architectures.
@@ -37,17 +38,16 @@ such architectures.
 
   wapt-replicate-to-multiple-repositories/index.rst
 
-
-Speaking of repositories, its sometimes usefull to configure two or more repositories for different usage (prod,dev,licensed).
+Speaking of repositories, it is sometimes useful to configure two
+or more repositories for different uses (prod, dev, licensed, selfservice).
 
 .. toctree::
   :maxdepth: 1
 
   wapt-work-with-repositories/index.rst
 
-
-Deprecated configurations
---------------------------
+Deprecated configurations and features
+--------------------------------------
 
 .. toctree::
   :maxdepth: 1

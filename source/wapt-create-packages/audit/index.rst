@@ -6,18 +6,18 @@
    Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
-    :description: Creating an Audit package
+    :description: Using the Audit functions
     :keywords: audit, WAPT, personalize
 
-Using Audit functions
+Using the Audit functions
 =========================
 
 .. note::
 
   This feature is available in the **Enterprise** version.
 
-Principle of audit
-------------------
+Why auditing?
+-------------
 
 The audit function allows to make regular checks to desktop configurations
 and to centralize the results of these checks in the WAPT console.
@@ -150,8 +150,9 @@ to be launched manually or from teh WAPT console.
 
 Otherwise, the periodicity may be indicated in several ways:
 
-* An integer (in minutes);
-* An integer followed by a letter (m = minutes, h = hours , d = days ,
+* an integer (in minutes);
+
+* an integer followed by a letter (m = minutes, h = hours , d = days ,
   w = weeks);
 
 Default behavior of the audit function

@@ -63,6 +63,17 @@ to answer the needs of larger Organisations:
   with WAPT for insuring a greater level of security and conformity
   for their networks, systems, software and applications.
 
+* **dynamic repository configuration**.
+  Starting with WAPT 1.8, repository replication can be enabled using a WAPT agent
+  installed on an existing machine, a dedicated appliance or Virtual Machine.
+
+  The replication role is deployed through a WAPT package that enables
+  the :program:`Nginx web server` and configures scheduling, packages types,
+  packages sync, and much more.
+
+  This feature allows WAPT agents to find dynamically their closest available
+  WAPT repository from a list of rules stored on the WAPT server.
+
 The Enterprise version of WAPT is particularly advisable for Organizations:
 
 * that manage large installed bases of devices (generally above 300 units);

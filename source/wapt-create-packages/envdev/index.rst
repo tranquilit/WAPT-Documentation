@@ -49,8 +49,8 @@ a representative sample of machines in your inventory. So the more heterogeneous
 your installed base of machines, the larger your sample must be.
 
 This method consists of testing the installation of the package
-on as many plateforms and configurations as possible,
-so to improve its reliability, before the WAPT package is transfered
+on as many platforms and configurations as possible,
+so to improve its reliability, before the WAPT package is transferred
 to production repositories.
 
 Testing method

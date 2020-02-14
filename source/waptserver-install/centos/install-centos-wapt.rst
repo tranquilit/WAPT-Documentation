@@ -32,18 +32,22 @@ Installing the WAPT Server runs a few steps:
 Configuring RPM repositories and installing WAPT and PostgreSQL packages
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-The configuration of repositories for **WAPT Enterprise** and **WAPT Community** Edition differs. Make sure
-to take the right one!
+The configuration of repositories for **WAPT Enterprise**
+and **WAPT Community** Edition differs. **Make sure to choose the right one!**
 
 During installation, you may be asked for the Kerberos realm. Just press
 :kbd:`Enter` to skip this step.
 
 .. important::
 
-    This is the configuration for **WAPT Enterprise** Edition. For WAPT Community Edition please see below.
+    This is the configuration for **WAPT Enterprise** Edition.
+    For WAPT Community Edition please see below.
 
-    To access WAPT Enterprise ressources, you must use the username and password provided by our sales department.
-    Replace **user** and **password** in the **baseurl** parameter to access WAPT Enterprise repository.
+    To access WAPT Enterprise ressources, you must use the username
+    and password provided by our sales department.
+
+    Replace **user** and **password** in the **baseurl** parameter
+    to access WAPT Enterprise repository.
 
     .. code-block:: bash
 
@@ -57,26 +61,27 @@ During installation, you may be asked for the Kerberos realm. Just press
 
 .. important::
 
-    This is the configuration for **WAPT Community** Edition. For WAPT Enterprise Edition please see above.
+  **Below is the configuration for WAPT Community** Edition.
+  For WAPT Enterprise Edition please see above.
 
-    .. code-block:: bash
+  .. code-block:: bash
 
-      cat > /etc/yum.repos.d/wapt.repo <<EOF
-      [wapt]
-      name=WAPT Server Repo
-      baseurl=https://wapt.tranquil.it/centos7/wapt-1.8/
-      enabled=1
-      gpgcheck=1
-      EOF
+    cat > /etc/yum.repos.d/wapt.repo <<EOF
+    [wapt]
+    name=WAPT Server Repo
+    baseurl=https://wapt.tranquil.it/centos7/wapt-1.8/
+    enabled=1
+    gpgcheck=1
+    EOF
 
 Installing the WAPT Server packages
+"""""""""""""""""""""""""""""""""""
 
 .. code-block:: bash
 
   wget -q -O /tmp/tranquil_it.gpg "https://wapt.tranquil.it/centos7/RPM-GPG-KEY-TISWAPT-7"; rpm --import /tmp/tranquil_it.gpg
-  yum install epel-release 
+  yum install epel-release
   yum install postgresql96-server postgresql96-contrib tis-waptserver tis-waptsetup cabextract
-
 
 Post-configuring
 """"""""""""""""

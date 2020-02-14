@@ -88,21 +88,18 @@ API V1
 
   .. hint::
 
-     This is the same exemple with a simple html request:
+    This is the same exemple with a simple html request:
 
-     .. code-block:: console
-  
-         https://admin:MYPASSWORD@srvwapt/api/v1/hosts
+    .. code-block:: console
 
-     This one just show request with reachable status, the computer name, its connected ips and its mac addresses. Display limit is 10000
+      https://admin:MYPASSWORD@srvwapt/api/v1/hosts
+
+    This one just show request with reachable status, the computer name,
+    its connected ips and its mac addresses. Display limit is 10000
 
      .. code-block:: console
 
         https://admin:MYPASSWORD@srvwapt/api/v1/hosts?columns=reachable,computer_fqdn,connected_ips,mac_addresses&limit=10000
-  
-
-
-
 
 /api/v1/groups
 ++++++++++++++
@@ -118,14 +115,11 @@ API V1
 
   .. hint::
 
-     This is the same exemple with a simple html request:
+    This is the same exemple with a simple html request:
 
-     .. code-block:: console
-  
-         https://admin:MYPASSWORD@srvwapt/api/v1/groups
+    .. code-block:: console
 
-  
-
+      https://admin:MYPASSWORD@srvwapt/api/v1/groups
 
 /api/v1/host_data
 +++++++++++++++++
@@ -157,15 +151,13 @@ https://srvwapt.ad.mydomain.fr/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B59
     parsed = json.loads(dmi_host_data_wapt)
     print(json.dumps(parsed, indent=1, sort_keys=True))
 
-
 .. hint::
 
-   This is the same exemple with a simple html request:
+  This is the same exemple with a simple html request:
 
-   .. code-block:: console
-  
-      https://admin:MYPASSWORD@srvwapt/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD&field=dmi
+  .. code-block:: console
 
+    https://admin:MYPASSWORD@srvwapt/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD&field=dmi
 
 installed_packages
 """"""""""""""""""
@@ -178,15 +170,13 @@ Option *installed_packages* will list all packages installed on a specific host.
   parsed = json.loads(install_packages_data_wapt)
   print(json.dumps(parsed, indent=1, sort_keys=True))
 
-
 .. hint::
 
-   This is the same exemple with a simple html request:
+  This is the same exemple with a simple html request:
 
-   .. code-block:: console
-  
-      https://admin:MYPASSWORD@srvwapt/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD&field=installed_packages
+  .. code-block:: console
 
+    https://admin:MYPASSWORD@srvwapt/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD&field=installed_packages
 
 installed_softwares
 """""""""""""""""""
@@ -206,10 +196,8 @@ on a specific host.
    This is the same exemple with a simple html request:
 
    .. code-block:: console
-  
+
       https://admin:MYPASSWORD@srvwapt/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD&field=installed_softwares
-
-
 
 wsusupdates
 """""""""""
@@ -218,21 +206,18 @@ Option *wsusupdates* will list all windows update installed on a specific host.
 
 .. code-block:: python
 
-    wsusupdates_data_wapt = wgets('https://%s:%s@%s/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD&field=wsusupdates' % (wapt_user,wapt_password,wapt_url))
-    #print(wsusupdates_data_wapt)
-    parsed = json.loads(wsusupdates_data_wapt)
-    print(json.dumps(parsed, indent=1, sort_keys=True))
-
+  wsusupdates_data_wapt = wgets('https://%s:%s@%s/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD&field=wsusupdates' % (wapt_user,wapt_password,wapt_url))
+  #print(wsusupdates_data_wapt)
+  parsed = json.loads(wsusupdates_data_wapt)
+  print(json.dumps(parsed, indent=1, sort_keys=True))
 
 .. hint::
 
-   This is the same exemple with a simple html request:
+  This is the same exemple with a simple html request:
 
-   .. code-block:: console
-  
-      https://admin:MYPASSWORD@srvwapt/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD&field=wsusupdates
+  .. code-block:: console
 
-
+    https://admin:MYPASSWORD@srvwapt/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD&field=wsusupdates
 
 /api/v1/usage_statistics
 ++++++++++++++++++++++++
@@ -251,16 +236,13 @@ Get usage statistics from the server.
   parsed = json.loads(usage_statistics_wapt)
   print(json.dumps(parsed, indent=1, sort_keys=True))
 
-
 .. hint::
 
-   This is the same exemple with a simple html request:
+  This is the same exemple with a simple html request:
 
-   .. code-block:: console
-  
-      https://admin:MYPASSWORD@srvwapt/api/v1/usage_statistics
+  .. code-block:: console
 
-
+    https://admin:MYPASSWORD@srvwapt/api/v1/usage_statistics
 
 API V2
 ------
@@ -272,20 +254,17 @@ Display :program:`waptagent.exe` version on the server.
 
 .. code-block:: python
 
-    waptagent_version =  wgets('https://%s:%s@%s/api/v2/waptagent_version' % (wapt_user,wapt_password,wapt_url))
-    parsed = json.loads(waptagent_version)
-    print(json.dumps(parsed, indent=1, sort_keys=True))
-
+  waptagent_version =  wgets('https://%s:%s@%s/api/v2/waptagent_version' % (wapt_user,wapt_password,wapt_url))
+  parsed = json.loads(waptagent_version)
+  print(json.dumps(parsed, indent=1, sort_keys=True))
 
 .. hint::
 
    This is the same exemple with a simple html request:
 
-   .. code-block:: console
-  
-      https://admin:MYPASSWORD@srvwapt/api/v2/waptagent_version
+  .. code-block:: console
 
-
+    https://admin:MYPASSWORD@srvwapt/api/v2/waptagent_version
 
 API V3
 ------
@@ -304,13 +283,11 @@ List packages on the repository, get control file on package.
 
 .. hint::
 
-   This is the same exemple with a simple html request:
+  This is the same exemple with a simple html request:
 
-   .. code-block:: console
-  
-      https://admin:MYPASSWORD@srvwapt/api/v3/packages
+  .. code-block:: console
 
-
+    https://admin:MYPASSWORD@srvwapt/api/v3/packages
 
 /api/v3/known_packages
 ++++++++++++++++++++++
@@ -325,22 +302,16 @@ List all packages with last *signed_on* information.
 
 .. hint::
 
-   This is the same exemple with a simple html request:
+  This is the same exemple with a simple html request:
 
-   .. code-block:: console
-  
-      https://admin:MYPASSWORD@srvwapt/api/v3/known_packages
+  .. code-block:: console
 
-
+    https://admin:MYPASSWORD@srvwapt/api/v3/known_packages
 
 /api/v3/trigger_cancel_task
 +++++++++++++++++++++++++++
 
 Cancel a running task.
-
-.. attention::
-
-   Voir avec Hubert
 
 .. code-block:: python
 
@@ -363,13 +334,11 @@ in the WAPT console.
 
 .. hint::
 
-   This is the same exemple with a simple html request:
+  This is the same exemple with a simple html request:
 
-   .. code-block:: console
-  
-      https://admin:MYPASSWORD@srvwapt/api/v3/get_ad_ou
+  .. code-block:: console
 
-
+    https://admin:MYPASSWORD@srvwapt/api/v3/get_ad_ou
 
 /api/v3/get_ad_sites
 ++++++++++++++++++++
@@ -384,13 +353,11 @@ List Active Directory sites.
 
 .. hint::
 
-   This is the same exemple with a simple html request:
+  This is the same exemple with a simple html request:
 
-   .. code-block:: console
-  
-      https://admin:MYPASSWORD@srvwapt/api/v3/get_ad_sites
+  .. code-block:: console
 
-
+    https://admin:MYPASSWORD@srvwapt/api/v3/get_ad_sites
 
 /api/v3/hosts_for_package
 +++++++++++++++++++++++++
@@ -404,17 +371,13 @@ https://srvwapt.ad.domain.fr/api/v3/hosts_for_package?package=demo-namepackage
   parsed = json.loads(hosts_for_package)
   print(json.dumps(parsed, indent=1, sort_keys=True))
 
-
 .. hint::
 
-   This is the same exemple with a simple html request:
+  This is the same exemple with a simple html request:
 
-   .. code-block:: console
-  
-      https://admin:MYPASSWORD@srvwapt/api/v3/hosts_for_package?package=demo-namepackage
+  .. code-block:: console
 
-
-
+    https://admin:MYPASSWORD@srvwapt/api/v3/hosts_for_package?package=demo-namepackage
 
 /api/v3/host_tasks_status
 +++++++++++++++++++++++++
@@ -430,34 +393,31 @@ https://srvwapt.ad.domain.fr/api/v3/host_tasks_status?uuid=14F620FF-DE70-9E5B-99
   parsed = json.loads(host_tasks_status)
   print(json.dumps(parsed, indent=1, sort_keys=True))
 
-
 .. hint::
 
-   This is the same exemple with a simple html request:
+  This is the same exemple with a simple html request:
 
-   .. code-block:: console
-  
-      https://admin:MYPASSWORD@srvwapt/api/v3/host_tasks_status?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD
+  .. code-block:: console
 
-
+    https://admin:MYPASSWORD@srvwapt/api/v3/host_tasks_status?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD
 
 .. attention::
 
-   Next API are with POST method.
+   **Next API are with POST method**.
 
 /api/v3/upload_packages
 +++++++++++++++++++++++
 
 .. todo::
 
-   faire des tests
+   Tests
 
 /api/v3/upload_hosts
 ++++++++++++++++++++
 
 .. todo::
 
-   faire des tests
+   Tests
 
 /api/v3/change_password
 +++++++++++++++++++++++
@@ -610,7 +570,7 @@ If you do not want to delete in the inventory server:
 /ping
 +++++
 
-Ping get general information from a wapt server.
+Ping get general information from a WAPT server.
 
 .. code-block:: python
 

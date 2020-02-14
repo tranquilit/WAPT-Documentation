@@ -38,21 +38,25 @@ Installing the WAPT Server requires a few steps:
 Configuring DEB repositories and installing WAPT and PostgreSQL packages
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-The configuration of repositories for **WAPT Enterprise** and **WAPT Community** Edition differs. Make sure
-to take the right one!
+The configuration of repositories for **WAPT Enterprise**
+and **WAPT Community** Edition differs. **Make sure to choose the right one!**
 
 During installation, you may be asked for the Kerberos realm. Just press
 :kbd:`Enter` to skip this step.
 
 .. important::
 
-    This is the configuration for **WAPT Enterprise** Edition. For WAPT Community Edition please see below.
+  **Below is the configuration for WAPT Community** Edition.
+  For WAPT Enterprise Edition please see above.
 
-    To access WAPT Enterprise ressources, you must use the username and password provided by our sales department.
-    Replace **user** and **password** in the **deb** parameter to access WAPT Enterprise repository.
+  To access WAPT Enterprise ressources, you must use the username
+  and password provided by our sales department.
+
+  Replace **user** and **password** in the **deb** parameter
+  to access WAPT Enterprise repository.
 
     .. code-block:: bash
-     
+
       apt-get update && apt-get upgrade
       apt-get install apt-transport-https lsb-release
       wget -O - https://wapt.tranquil.it/debian/tiswapt-pub.gpg  | apt-key add -
@@ -60,16 +64,18 @@ During installation, you may be asked for the Kerberos realm. Just press
 
 .. important::
 
-    This is the configuration for **WAPT Community** Edition. For WAPT Enterprise Edition please see above.
+  Below is the configuration for **WAPT Community** Edition.
+  For WAPT Enterprise Edition please see above.
 
-    .. code-block:: bash
+  .. code-block:: bash
 
-      apt-get update && apt-get upgrade
-      apt-get install apt-transport-https lsb-release gnupg
-      wget -O - https://wapt.tranquil.it/debian/tiswapt-pub.gpg  | apt-key add -
-      echo "deb https://wapt.tranquil.it/debian/wapt-1.8/ $(lsb_release -c -s) main" > /etc/apt/sources.list.d/wapt.list
+    apt-get update && apt-get upgrade
+    apt-get install apt-transport-https lsb-release gnupg
+    wget -O - https://wapt.tranquil.it/debian/tiswapt-pub.gpg  | apt-key add -
+    echo "deb https://wapt.tranquil.it/debian/wapt-1.8/ $(lsb_release -c -s) main" > /etc/apt/sources.list.d/wapt.list
 
-Installing the WAPT Server Debian packages
+Installing the WAPT Server packages
+"""""""""""""""""""""""""""""""""""
 
 .. code-block:: bash
 
@@ -168,7 +174,7 @@ Post-configuring
 
   .. code-block:: bash
 
-     FQDN for the WAPT server (eg. wapt.acme.com)
+     FQDN for the WAPT server (eg. wapt.mydomain.lan)
 
      ---------------------------------------------
      wapt.mydomain.lan

@@ -19,7 +19,9 @@ WAPT Documentation
   :alt: WAPT Logo
 
 Welcome to WAPT's official documentation by Tranquil IT,
-last compiled on |date|. `PDF <WAPT.pdf>`_
+last compiled on |date|.
+
+Click `here <WAPT.pdf>`_ for a PDF version of the complete documentation.
 
 WAPT is a software deployment tool whose core set of features
 is licensed under the GPLv3.

@@ -27,27 +27,27 @@ Performing minor updates on a Debian based WAPT Server
 * add the package repository for Debian packages, import the GPG key
   from the repository and install the WAPT Server packages:
 
-
 WAPT Enterprise
-++++++++++++++++++++++
++++++++++++++++
 
 .. hint::
 
-   To access WAPT Enterprise ressources, you must use the username and password provided by our sales department.
-   
-   Replace **user** and **password** in the **deb** parameter to access WAPT Enterprise repository.
+   **To access WAPT Enterprise ressources**, you must use the username
+   and password provided by our sales department.
+
+   Replace **user** and **password** in the **deb** parameter
+   to access WAPT Enterprise repository.
 
 .. code-block:: bash
 
    apt-get install apt-transport-https lsb-release
    wget -O - https://wapt.tranquil.it/debian/tiswapt-pub.gpg  | apt-key add -
-   echo  "deb  https://user:password@srvwapt-pro.tranquil.it/entreprise/debian/wapt-1.8/ $(lsb_release -c -s) main"  > /etc/apt/sources.list.d/wapt.list 
+   echo  "deb  https://user:password@srvwapt-pro.tranquil.it/entreprise/debian/wapt-1.8/ $(lsb_release -c -s) main"  > /etc/apt/sources.list.d/wapt.list
    apt-get update
    apt-get install tis-waptserver tis-waptrepo tis-waptsetup
 
-
 WAPT Community
-++++++++++++++++
+++++++++++++++
 
 .. code-block:: bash
 
@@ -57,9 +57,8 @@ WAPT Community
   apt-get update
   apt-get install tis-waptserver tis-waptsetup
 
-
 Post-configuration
-++++++++++++++++++++
+++++++++++++++++++
 
 * launch the post-configuration step
 
@@ -77,10 +76,12 @@ Post-configuration
 
   .. attention::
 
-    * with WAPT 1.8 post-configuration, WAPT WUA packages will be moved from their current storage location to waptwua root folder (:file:`/var/www/waptwua`).
+    * with WAPT 1.8 post-configuration, WAPT WUA packages will be moved
+      from their current storage location to waptwua
+      root folder (:file:`/var/www/waptwua`).
 
-    * if repository replication has been set, all KB/CAB packages will be re-synchronized on remote repositories
-
+    * if repository replication has been set, all KB/CAB packages
+      will be re-synchronized on remote repositories
 
   .. code-block:: bash
 

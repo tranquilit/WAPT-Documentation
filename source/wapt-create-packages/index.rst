@@ -39,32 +39,28 @@ and you will quickly become a master of WAPT.
   session-setup/index.rst
   audit/index.rst
   package-additional/setuphelpers-useful.rst
-  
+
 .. toctree::
   :maxdepth: 1
-  :caption: Advanced usage 
-  
+  :caption: Advanced usage
+
   updatepackage/index.rst
   package-msu/index.rst
   secret-data/encrypt-paquet.rst
   package-additional/use-other-editor.rst
 
-Videos are also available.
-----------------------------------------
+Videos showing WAPT in action
+-----------------------------
 
-
-Creating and deploying an msi package with WAPT 
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Creating and deploying an msi package with WAPT
++++++++++++++++++++++++++++++++++++++++++++++++
 
 .. raw:: html
 
    <center><iframe width="560" height="315" src="https://www.youtube.com/embed/Z6wr6emPGCU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
-
-
-
-Creating, configuring and deploying an exe package with WAPT 
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+Creating, configuring and deploying an exe package with WAPT
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 .. raw:: html
 

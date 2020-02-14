@@ -6,11 +6,11 @@
    Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
-    :description: Automatically update a software package
+    :description: Updating automatically a software package
     :keywords: WAPT, documentation, automatic update
 
-Automatically update a software package
-=======================================
+Updating automatically a software package
+=========================================
 
 .. note::
 

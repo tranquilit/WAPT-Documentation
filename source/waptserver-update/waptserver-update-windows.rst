@@ -34,11 +34,12 @@ Performing minor updates on a Windows based WAPT Server
 
 .. note::
 
-  The procedure to follow is the same as the one for :ref:`installing a WAPT Server on Windows <wapt-server_win_install>` .
+  The procedure to follow is the same as the one for
+  :ref:`installing a WAPT Server on Windows <wapt-server_win_install>` .
 
 .. attention::
 
-  **The prefix must not be changed and you must not generate a new key!**
+  **The prefix must NOT be changed and you must NOT generate a new key!**
 
 * on the workstation that you use to build your packages, manually
   download WAPTSetup from https://wapt.tranquil.it/wapt/releases/latest/waptsetup.exe.

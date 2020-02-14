@@ -74,16 +74,16 @@ The overall disk requirement will depend on the number and size of your WAPT
 packages (softwares) that you will store on your main repository;
 30GB is a good start.
 
-DNS configuration
------------------
+Configuring the DNS
+-------------------
 
 .. toctree::
   :maxdepth: 1
 
   dns/dns-introduction.rst
 
-Install on Debian Linux
------------------------
+Installing WAPT Server on Debian Linux
+--------------------------------------
 
 .. toctree::
   :maxdepth: 1
@@ -91,8 +91,8 @@ Install on Debian Linux
   debian/install-debian-base.rst
   debian/install-debian-wapt.rst
 
-Install on CentOS7
-------------------
+Installing WAPT Server on CentOS7
+---------------------------------
 
 .. toctree::
   :maxdepth: 1
@@ -100,12 +100,11 @@ Install on CentOS7
   centos/install-centos-base.rst
   centos/install-centos-wapt.rst
 
-Install on Microsoft Windows
-----------------------------
+Installing WAPT Server on a Windows host
+----------------------------------------
 
 .. toctree::
   :maxdepth: 1
 
   windows/index.rst
   windows/change-port.rst
-

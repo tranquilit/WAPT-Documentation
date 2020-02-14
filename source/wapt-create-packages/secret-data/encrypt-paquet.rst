@@ -110,5 +110,5 @@ text and decrypt it with its private key.
 .. attention::
 
   The python output (log install of the package) is readable by the users
-  on the machine, so you should not display the decrypted text
-  with a :command:`print` during installation.
+  on the machine, so **you should not display the decrypted text
+  with a :command:`print` during installation**.

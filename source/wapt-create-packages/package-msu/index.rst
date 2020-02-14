@@ -11,7 +11,7 @@
 
 .. _simple_msu_packaging:
 
-Packaging Windows Update \*.msu packages  
+Packaging Windows Update \*.msu packages
 =========================================
 
 .. hint::
@@ -19,18 +19,17 @@ Packaging Windows Update \*.msu packages
     Pre-requisites: to build WAPT packages, :ref:`the WAPT development
     environment must be installed <envdev_setup>`;
 
-Between Patch Tuesday releases, Microsoft may release additional KBs 
-or critical ones that needs to be pushed to hosts quickly.
+Between Patch Tuesday releases, Microsoft may release additional KBs
+or critical updates that will need to be pushed to hosts quickly.
 
 For that purpose, WAPT provides a package template for \*.msu files.
 
 In that example, we use the KB4522355 downloaded
 from Microsoft Catalog website.
 
-* download the KB package from Microsoft Catalog website :
+* download the KB package from Microsoft Catalog website:
 
   * `download KB4522355 MSU <https://www.catalog.update.microsoft.com/Search.aspx?q=KB4522355>`_;
-
 
 Creating a MSU package template from the WAPT console
 -----------------------------------------------------
@@ -38,7 +37,7 @@ Creating a MSU package template from the WAPT console
 * create a WAPT package Template from the downloaded MSU file;
 
   In the WAPT console, click on :menuselection:`Tools -->
-  Make package template from setup file`
+  Make package template from setup file`;
 
   .. figure:: tools_make_package_template.png
     :align: center
@@ -46,8 +45,7 @@ Creating a MSU package template from the WAPT console
 
     Pyscripter - WAPT console window for creating a package template
 
-
-* select the downloaded MSU package and fill in the required fields.
+* select the downloaded MSU package and fill in the required fields;
 
   .. figure:: package_wizard_msu.png
     :align: center
@@ -55,12 +53,18 @@ Creating a MSU package template from the WAPT console
 
     Informations required for creating the MSU package
 
+* click on :guilabel:`Make and edit ....` (recommended)
+  to launch package customization;
 
-* click on :guilabel:`Make and edit ....` (recommended) to launch package customization;
+* WAPT package IDE is launched using the source code
+  from the pre-defined MSU template.
 
-* WAPT package IDE is launched using source code from pre-defined MSU template.
+* as usual with WAPT packages, test - build - sign - upload - affect to hosts
+  and it is done!!
 
-* As usual with WAPT packages, test - build - upload and it's done.
+* if the KB becomes bundled with the following patch Tuesday, you can select
+  the hosts onto which the package has been applied and forget the KB package
+  on the hosts;
 
 Creating a MSU package template from command line
 -------------------------------------------------
@@ -79,7 +83,7 @@ Creating a MSU package template from command line
   .. code-block:: bash
 
     wapt-get make-template c:\download\file.msu <yourprefix>-kb4522355
-  
+
 
 * output example with :program:`KB4522355`:
 
@@ -94,11 +98,11 @@ Creating a MSU package template from command line
     You can build and upload the WAPT package by launching
       C:\Program Files (x86)\wapt\wapt-get.exe build-upload c:\waptdev\tis-kb4522355-wapt
 
-
-* WAPT package IDE is launched, here is an example source code from pre-defined MSU template
+* WAPT package IDE is launched, here is an example source code from
+  the pre-defined MSU template
 
   .. code-block:: python
-    
+
     # -*- coding: utf-8 -*-
     from setuphelpers import *
     import re
@@ -134,8 +138,4 @@ Creating a MSU package template from command line
 
           if waiting_for_reboot():
               print('A reboot is needed !')
-
-
-
-
    

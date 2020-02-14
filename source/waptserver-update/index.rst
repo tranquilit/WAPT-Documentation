@@ -33,8 +33,8 @@ The upgrade process follows the process for a minor update:
 
 .. attention::
 
-  * Debian Jessie is now deprecated. WAPT 1.8 will not work
-    with that old Debian version;
+  * Debian Jessie is now deprecated. **WAPT 1.8 will not work
+    with old Debian version**;
 
   * consider migrating your existing WAPT installation
     to Debian Buster or CentOS7;
@@ -49,7 +49,7 @@ The upgrade process follows the process for a minor update.
   * if you are in Debian Stretch, it is recommended to upgrade
     to Debian Buster 64 bits;
 
-  * this is mandatory for the **Enterprise** version with Windows Update support;
+  * this is **MANDATORY** for the **Enterprise** version with Windows Update support;
 
   * when upgrading to Debian10, the PostgreSQL database
     must be upgraded;
