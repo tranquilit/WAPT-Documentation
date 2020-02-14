@@ -64,7 +64,6 @@ You may use it after changing the parameters to suit your needs.
   use_kerberos=0
   verify_cert=/opt/wapt/ssl/server/verify.crt
 
-
 Copying the package-signing certificate
 +++++++++++++++++++++++++++++++++++++++
 

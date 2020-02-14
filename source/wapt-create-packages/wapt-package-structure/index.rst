@@ -40,7 +40,13 @@ A WAPT package is a zip file containing several things:
 
 * a :file:`signature.sha256` file in the folder :file:`WAPT`;
 
-* a :file:`wapt.psproj` file in the folder :file:`WAPT`;
+* a :file:`wapt.psproj` file in the folder :file:`WAPT`,
+  this file is used to store the :program:`PyScripter` configuration data
+  for the WAPT package;
+
+* since WAPT 1.8, a hidden :file:`.vscode` folder that contains
+  a :file:`launch.json` and a :file:`settings.json` file
+  used to store the :program:`VScode` configuration data for the WAPT package;
 
 .. _structure_control:
 
