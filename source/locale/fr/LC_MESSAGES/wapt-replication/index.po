@@ -3,62 +3,64 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-15 13:51+0100\n"
+"POT-Creation-Date: 2020-02-15 16:13+0100\n"
 "PO-Revision-Date: 2020-02-15 15:06+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 1.8.8\n"
-"X-Poedit-SourceCharset: UTF-8\n"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/index.rst:8
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/index.rst:15
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/index.rst:16
 msgid "Replicating repositories and working with multiple repositories"
 msgstr "Répliquer des dépôt et fonctionner avec plusieurs dépôts"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/index.rst:8
-msgid "multi-repo, multi-repositories, replicate, replication, bandwidth"
+#, fuzzy
+msgid ""
+"multi-repo, multi-repositories, replicate, replication, bandwidth, Edge "
+"Computing"
 msgstr ""
 "multi-dépôt, multi-repo, replication, répliquer, bande passante, "
 "documentation"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/index.rst:17
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/index.rst:18
+#, fuzzy
 msgid ""
 "Large organizations with remote sites and subsidiaries sometimes require "
-"services to be replicated locally to avoid bandwidth congestion."
+"services to be replicated locally to avoid bandwidth congestion (*Edge "
+"Computing*)."
 msgstr ""
 "Les grandes organisations ayant des sites et des filiales à distance "
 "exigent parfois que certains services soient reproduits localement pour "
 "éviter l'encombrement de la bande passante (*Edge Computing*)."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/index.rst:24
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/index.rst:26
 msgid "Repository replication and multiple repositories"
 msgstr "Répliquer des dépôt et fonctionner avec plusieurs dépôts"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/index.rst:26
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/index.rst:28
 msgid "Enterprise 1.8"
 msgstr "Enterprise 1.8"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/index.rst:28
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/index.rst:30
 msgid ""
 "**WAPT Enterprise offers the possibility to upgrade remote agents to "
 "serve as remote repositories that can be managed directly from the WAPT "
 "Console. All WAPT agents can then be centrally configured to "
 "automatically select the best repository based on a set of rules**."
 msgstr ""
-"**WAPT Enterprise offre la possibilité de transformer des agents "
-"distants pour qu'ils servent de dépôts distants pouvant être gérés "
-"directement à partir de la console WAPT. Tous les agents WAPT peuvent "
-"alors être configurés de manière centralisée pour sélectionner "
-"automatiquement leur meilleur dépôt en fonction d'un ensemble de "
-"règles**."
+"**WAPT Enterprise offre la possibilité de transformer des agents distants"
+" pour qu'ils servent de dépôts distants pouvant être gérés directement à "
+"partir de la console WAPT. Tous les agents WAPT peuvent alors être "
+"configurés de manière centralisée pour sélectionner automatiquement leur "
+"meilleur dépôt en fonction d'un ensemble de règles**."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/index.rst:33
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/index.rst:35
 msgid ""
 "You'll find in this part of the documentation how to implement such "
 "architectures."
@@ -66,16 +68,16 @@ msgstr ""
 "Vous trouverez ci-dessous les documentations pour mettre en place ces "
 "architectures."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/index.rst:41
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/index.rst:43
 msgid ""
-"Speaking of repositories, it is sometimes useful to configure two or "
-"more repositories for different uses (prod, dev, licensed, selfservice)."
+"Speaking of repositories, it is sometimes useful to configure two or more"
+" repositories for different uses (prod, dev, licensed, selfservice)."
 msgstr ""
 "En parlant de dépôts, il est parfois utile de configurer deux ou "
 "plusieurs dépôts pour différentes utilisations (prod, dev, licensed, "
 "selfservice)."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/index.rst:50
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/index.rst:52
 msgid "Deprecated configurations and features"
 msgstr "Configurations et caractéristiques dépréciées"
 
@@ -86,37 +88,47 @@ msgstr "Configurations et caractéristiques dépréciées"
 #~ msgstr "Multi-dépots"
 
 #~ msgid ""
-#~ "Preserving the available bandwidth on remote sites or managing "
-#~ "multiple repositories"
+#~ "Preserving the available bandwidth on "
+#~ "remote sites or managing multiple "
+#~ "repositories"
 #~ msgstr ""
-#~ "Préserver la bande passante des sites secondaires à faible débit ou "
-#~ "gérer des dépôts multiples"
+#~ "Préserver la bande passante des sites"
+#~ " secondaires à faible débit ou gérer"
+#~ " des dépôts multiples"
 
 #~ msgid "Replicating repositories"
 #~ msgstr "Répliquer des dépôt"
 
 #~ msgid ""
-#~ "the main WAPT repository is replicated to remote sites in a "
-#~ "synchronous or asynchronous way"
+#~ "the main WAPT repository is replicated"
+#~ " to remote sites in a synchronous "
+#~ "or asynchronous way"
 #~ msgstr ""
-#~ "le dépôt de paquets du serveur WAPT est répliqué sur les sites "
-#~ "distants de manière synchrone ou asynchrone"
+#~ "le dépôt de paquets du serveur "
+#~ "WAPT est répliqué sur les sites "
+#~ "distants de manière synchrone ou "
+#~ "asynchrone"
 
 #~ msgid ""
-#~ "To easily implement the replication of your main repository on your "
-#~ "distant sites, Tranquil IT provides appliances that are preconfigured "
-#~ "according to your storage needs (16/30/60Go)."
+#~ "To easily implement the replication of"
+#~ " your main repository on your distant"
+#~ " sites, Tranquil IT provides appliances "
+#~ "that are preconfigured according to your"
+#~ " storage needs (16/30/60Go)."
 #~ msgstr ""
-#~ "Pour mettre en place facilement une réplication de dépôt sur vos "
-#~ "sites distants, nous proposons des appliances pré-configurés et de "
-#~ "différentes taille de stockage (16/32/64Go)."
+#~ "Pour mettre en place facilement une "
+#~ "réplication de dépôt sur vos sites "
+#~ "distants, nous proposons des appliances "
+#~ "pré-configurés et de différentes taille "
+#~ "de stockage (16/32/64Go)."
 
 #~ msgid ""
-#~ "The appliances are available in our online shop: https://www.tranquil."
-#~ "it/shop."
+#~ "The appliances are available in our "
+#~ "online shop: https://www.tranquil.it/shop."
 #~ msgstr ""
-#~ "Les boîtiers sont disponibles dans notre boutique en ligne : https://"
-#~ "www.tranquil.it/shop."
+#~ "Les boîtiers sont disponibles dans notre"
+#~ " boutique en ligne : "
+#~ "https://www.tranquil.it/shop."
 
 #~ msgid "Working with multiple repositories"
 #~ msgstr "Fonctionner avec plusieurs dépôts"
@@ -137,10 +149,14 @@ msgstr "Configurations et caractéristiques dépréciées"
 #~ msgstr "Gérer des dépôts multiples"
 
 #~ msgid ""
-#~ "Different architectures may be considered to implement validation "
-#~ "workflows for WAPT packages or to provide solutions to bandwidth "
-#~ "constrained remote sites."
+#~ "Different architectures may be considered "
+#~ "to implement validation workflows for "
+#~ "WAPT packages or to provide solutions"
+#~ " to bandwidth constrained remote sites."
 #~ msgstr ""
-#~ "Différentes architectures peuvent être envisagées pour respecter des "
-#~ "contraintes de développement et de qualification des paquets ou pour "
-#~ "résoudre des contraintes de bande passante."
+#~ "Différentes architectures peuvent être "
+#~ "envisagées pour respecter des contraintes "
+#~ "de développement et de qualification des"
+#~ " paquets ou pour résoudre des "
+#~ "contraintes de bande passante."
+
