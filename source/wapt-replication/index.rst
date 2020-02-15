@@ -7,7 +7,8 @@
 
 .. meta::
   :description: Replicating repositories and working with multiple repositories
-  :keywords: multi-repo, multi-repositories, replicate, replication, bandwidth
+  :keywords: multi-repo, multi-repositories, replicate, replication, bandwidth,
+             Edge Computing
 
 .. _wapt_multi-repositories:
 
@@ -15,7 +16,8 @@ Replicating repositories and working with multiple repositories
 ===============================================================
 
 Large organizations with remote sites and subsidiaries sometimes
-require services to be replicated locally to avoid bandwidth congestion.
+require services to be replicated locally to avoid bandwidth congestion
+(*Edge Computing*).
 
 .. figure:: repository_header.png
     :align: center

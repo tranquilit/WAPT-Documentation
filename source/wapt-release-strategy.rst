@@ -45,7 +45,7 @@ This delay will provide several benefits to the Enterprise release process:
   to insure upgrade procedures work smoothly;
 
 * give a little time to the forum and the mailing list to index
-  questions and answers that to eventually include into the official
+  questions and answers to eventually include into the official
   documentation;
 
 * give the documentation team a fixed functional target to document

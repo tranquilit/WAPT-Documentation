@@ -1,19 +1,20 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: WAPT 1.6\n"
+"Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-15 13:51+0100\n"
-"PO-Revision-Date: 2019-12-07 14:15+0000\n"
-"Last-Translator: Bertrand LEMOIGNE <blemoigne@tranquil.it>\n"
+"PO-Revision-Date: 2020-02-15 16:02+0100\n"
+"Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
-"Language-Team: French <https://srvweblate.tranquil.it/projects/wapt-"
-"documentation/waptserver-updatewaptserver-update-debian/fr/>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Language-Team: Tranquil IT <contact@tranquil.it>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-update/waptserver-update-debian.rst:8
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-update/waptserver-update-debian.rst:15
@@ -27,8 +28,7 @@ msgstr "debian, WAPT, documentation, exemples, mettre à jour"
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-update/waptserver-update-debian.rst:19
 msgid "Ports 80 and 443 are used by the WAPT Server and must be available."
 msgstr ""
-"Les ports 80, 443 sont utilisés par le serveur WAPT et doivent être "
-"disponibles."
+"Les ports 80, 443 sont utilisés par le serveur WAPT et doivent être disponibles."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-update/waptserver-update-debian.rst:21
 msgid "first of all, update the Debian underlying distribution:"
@@ -36,36 +36,39 @@ msgstr "d'abord mettre à jour le serveur Debian subjacent :"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-update/waptserver-update-debian.rst:27
 msgid ""
-"add the package repository for Debian packages, import the GPG key from "
-"the repository and install the WAPT Server packages:"
+"add the package repository for Debian packages, import the GPG key from the "
+"repository and install the WAPT Server packages:"
 msgstr ""
 "ajouter le dépôt de paquets Debian, importer la clé GPG de ce dépôt et "
 "installer les paquets pour le serveur WAPT :"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-update/waptserver-update-debian.rst:31
 msgid "WAPT Enterprise"
-msgstr ""
+msgstr "WAPT Enterprise"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-update/waptserver-update-debian.rst:35
 msgid ""
 "**To access WAPT Enterprise ressources**, you must use the username and "
 "password provided by our sales department."
 msgstr ""
+"Pour accéder au site de téléchargement WAPT Enterprise, vous devez utiliser le "
+"nom d'utilisateur et le mot de passe fournis par notre service commercial."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-update/waptserver-update-debian.rst:38
 msgid ""
-"Replace **user** and **password** in the **deb** parameter to access WAPT"
-" Enterprise repository."
+"Replace **user** and **password** in the **deb** parameter to access WAPT "
+"Enterprise repository."
 msgstr ""
+"Remplacez **user** et **password** dans le paramètre **deb** pour accéder au "
+"dépôt WAPT Enterprise."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-update/waptserver-update-debian.rst:50
 msgid "WAPT Community"
-msgstr ""
+msgstr "WAPT Community"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-update/waptserver-update-debian.rst:61
-#, fuzzy
 msgid "Post-configuration"
-msgstr "lancer la post-configuration"
+msgstr "Post-configuration"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-update/waptserver-update-debian.rst:63
 msgid "launch the post-configuration step"
@@ -76,49 +79,47 @@ msgid ""
 "we advise that you launch the post-configuration steps after each server "
 "upgrade so that the server uses the latest configuration format;"
 msgstr ""
-"il est recommandé de lancer la post-configuration après chaque mise à "
-"jour pour que le serveur utilise le format de configuration le plus sûr ;"
+"il est recommandé de lancer la post-configuration après chaque mise à jour pour "
+"que le serveur utilise le format de configuration le plus sûr ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-update/waptserver-update-debian.rst:70
 msgid ""
-"it is not required to reset a password for the WAPT console during the "
-"post-configuration step;"
+"it is not required to reset a password for the WAPT console during the post-"
+"configuration step;"
 msgstr ""
-"il n'est pas obligatoire de redéfinir un mot de passe pour la console "
-"WAPT lors de la post-configuration ;"
+"il n'est pas obligatoire de redéfinir un mot de passe pour la console WAPT lors "
+"de la post-configuration ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-update/waptserver-update-debian.rst:73
 msgid ""
-"if you have personalized the configuration of :program:`Nginx`, do not "
-"answer :guilabel:`Yes` when the post-configuration ask you to configure "
-":program:`Nginx`;"
+"if you have personalized the configuration of :program:`Nginx`, do not answer :"
+"guilabel:`Yes` when the post-configuration ask you to configure :program:"
+"`Nginx`;"
 msgstr ""
 "si vous avez personnalisé la configuration de :program:`Nginx`, ne pas "
-"répondre :guilabel:`Oui` lorsque postconf vous demande de configurer "
-":program:`Nginx` ;"
+"répondre :guilabel:`Oui` lorsque postconf vous demande de configurer :program:"
+"`Nginx` ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-update/waptserver-update-debian.rst:79
 msgid ""
-"with WAPT 1.8 post-configuration, WAPT WUA packages will be moved from "
-"their current storage location to waptwua root folder "
-"(:file:`/var/www/waptwua`)."
+"with WAPT 1.8 post-configuration, WAPT WUA packages will be moved from their "
+"current storage location to waptwua root folder (:file:`/var/www/waptwua`)."
 msgstr ""
-"avec WAPT 1.8, la post-configuration va déplacer tous les fichiers à la "
-"racine du dossier waptwua (:file:`/var/www/waptwua`)."
+"avec WAPT 1.8, la post-configuration va déplacer tous les fichiers à la racine "
+"du dossier waptwua (:file:`/var/www/waptwua`)."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-update/waptserver-update-debian.rst:83
 msgid ""
 "if repository replication has been set, all KB/CAB packages will be re-"
 "synchronized on remote repositories"
 msgstr ""
-"si la réplication de dépôts à été mise en place, cela aura pour "
-"conséquencede resynchroniser toutes les KB/CAB sur vos dépôts distants."
+"si la réplication de dépôts à été mise en place, cela aura pour conséquencede "
+"resynchroniser toutes les KB/CAB sur vos dépôts distants."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-update/waptserver-update-debian.rst:90
 msgid "The password requested in step 4 is used to access the WAPT console."
 msgstr ""
-"Le mot de passe demandé en étape #4 est utilisé pour accéder à la console"
-" WAPT."
+"Le mot de passe demandé en étape #4 est utilisé pour accéder à la console WAPT."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-update/waptserver-update-debian.rst:92
 msgid "start the WAPT Server:"
@@ -126,11 +127,11 @@ msgstr "démarrer le serveur WAPT :"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-update/waptserver-update-debian.rst:98
 msgid ""
-"upgrade the WAPT console by following the same set of steps as "
-":ref:`installing the WAPT console <installing_the_WAPT_console>`;"
+"upgrade the WAPT console by following the same set of steps as :ref:`installing "
+"the WAPT console <installing_the_WAPT_console>`;"
 msgstr ""
-"mettre à jour la console WAPT en suivant la même procédure que pour "
-":ref:`installer la console WAPT <installing_the_WAPT_console>` ;"
+"mettre à jour la console WAPT en suivant la même procédure que pour :ref:"
+"`installer la console WAPT <installing_the_WAPT_console>` ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-update/waptserver-update-debian.rst:101
 msgid "then :ref:`create the WAPT agent <create_WAPT_agent>`:"
@@ -138,8 +139,8 @@ msgstr "puis :ref:`créer l'agent WAPT <create_WAPT_agent>` :"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-update/waptserver-update-debian.rst:103
 msgid ""
-"You will have to keep the same prefix for your packages and change "
-"nothing in relation to the private key/ public certificate pair!"
+"You will have to keep the same prefix for your packages and change nothing in "
+"relation to the private key/ public certificate pair!"
 msgstr ""
 "Cependant, il faudra conserver le même préfix et surtout ne rien changer "
 "concernant le couple clé privée / clé publique !"
@@ -155,8 +156,7 @@ msgstr "Il y a deux manières de déployer la mise à jour :"
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-update/waptserver-update-debian.rst:112
 msgid "using a :abbr:`GPO (Group Policy Object)` and :program:`waptdeploy`;"
 msgstr ""
-"soit utiliser une :abbr:`GPO (Group Policy Object)` et "
-":program:`waptdeploy` ;"
+"soit utiliser une :abbr:`GPO (Group Policy Object)` et :program:`waptdeploy` ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-update/waptserver-update-debian.rst:114
 msgid "using a :program:`waptupgrade` package and deploy it using WAPT;"
@@ -168,27 +168,27 @@ msgstr "mettre à jour les clients WAPT"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-update/waptserver-update-debian.rst:118
 msgid ""
-"The steps to follow to update WAPT agents are the same as the ones to "
-"first install the WAPT agents."
+"The steps to follow to update WAPT agents are the same as the ones to first "
+"install the WAPT agents."
 msgstr ""
-"La procédure à suivre pour la mise à jour des clients est la même que "
-"pour la première installation."
+"La procédure à suivre pour la mise à jour des clients est la même que pour la "
+"première installation."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-update/waptserver-update-debian.rst:121
 msgid ""
-"Download and install the latest version of the WAPT agent by visiting "
-"http://wapt.mydomain.lan/wapt/waptagent.exe."
+"Download and install the latest version of the WAPT agent by visiting http://"
+"wapt.mydomain.lan/wapt/waptagent.exe."
 msgstr ""
-"Télécharger et installer la dernière version de l'agent WAPT qui a été "
-"mis à jour : https://wapt.mydomain.lan/wapt/waptagent.exe."
+"Télécharger et installer la dernière version de l'agent WAPT qui a été mis à "
+"jour : https://wapt.mydomain.lan/wapt/waptagent.exe."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-update/waptserver-update-debian.rst:124
 msgid ""
 "As mentioned above, this procedure may be made automatic with a GPO or a "
 "**waptupgrade** package."
 msgstr ""
-"Comme mentionné ci-dessus, cette procédure peut s'automatiser avec une "
-"GPO ou un paquet de mise à jour **waptupgrade**."
+"Comme mentionné ci-dessus, cette procédure peut s'automatiser avec une GPO ou "
+"un paquet de mise à jour **waptupgrade**."
 
 #~ msgid "Upgrading the WAPT Server on Debian"
 #~ msgstr "Mettre à jour le serveur WAPT sous Debian"
@@ -197,20 +197,8 @@ msgstr ""
 #~ msgstr "mettre à jour le serveur WAPT ;"
 
 #~ msgid ""
-#~ "If you subscribed to **WAPT Enterprise**"
-#~ " don't use that repo but the "
-#~ "Enterprise repository provided in your "
-#~ "documentation."
+#~ "If you subscribed to **WAPT Enterprise** don't use that repo but the "
+#~ "Enterprise repository provided in your documentation."
 #~ msgstr ""
-#~ "Si vous êtes abonné à **WAPT "
-#~ "Enterprise** n'utilisez pas ce repo mais"
-#~ " le lien vers le dépôt Enterprise "
-#~ "fourni dans votre documentation."
-
-#~ msgid ""
-#~ "To access WAPT Enterprise ressources, "
-#~ "you must use the username and "
-#~ "password provided by our sales "
-#~ "department."
-#~ msgstr ""
-
+#~ "Si vous êtes abonné à **WAPT Enterprise** n'utilisez pas ce repo mais le "
+#~ "lien vers le dépôt Enterprise fourni dans votre documentation."

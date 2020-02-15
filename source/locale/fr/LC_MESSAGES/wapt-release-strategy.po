@@ -3,107 +3,141 @@
 # This file is distributed under the same license as the WAPT package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-15 13:51+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-02-15 14:54+0100\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
+"Language-Team: Tranquil IT <contact@tranquil.it>\n"
+"Language: fr\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-release-strategy.rst:8
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-release-strategy.rst:15
 msgid "WAPT release Strategy"
-msgstr ""
+msgstr "Stratégie de sortie des mises à jour de WAPT"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-release-strategy.rst:8
 msgid "Documentation, WAPT, release"
-msgstr ""
+msgstr "Documentation, WAPT, sortie, stratégie"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-release-strategy.rst:17
 msgid "WAPT does not release on a fixed date schedule."
-msgstr ""
+msgstr "Les mises à jour WAPT ne sortent pas selon un calendrier fixe."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-release-strategy.rst:19
 msgid ""
-"Instead Tranquil IT will release a new major version of WAPT when new "
-"major functional updates are integrated into the core of the product."
+"Instead Tranquil IT will release a new major version of WAPT when new major "
+"functional updates are integrated into the core of the product."
 msgstr ""
+"Au lieu de cela, Tranquil IT sortira une nouvelle version majeure de WAPT "
+"lorsque de nouvelles mises à jour fonctionnelles majeures seront intégrées "
+"au cœur du produit."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-release-strategy.rst:22
 msgid ""
-"Tranquil IT will release intermediary minor versions of WAPT between "
-"major releases to correct functional and security defects."
+"Tranquil IT will release intermediary minor versions of WAPT between major "
+"releases to correct functional and security defects."
 msgstr ""
+"Tranquil IT publiera des versions mineures intermédiaires de WAPT entre les "
+"versions majeures afin de corriger les défauts de fonctionnement et de "
+"sécurité."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-release-strategy.rst:26
 msgid "Release delay between the Enterprise and the Community versions"
-msgstr ""
+msgstr "Délai de publication entre les versions Enterprise et Community"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-release-strategy.rst:28
 msgid ""
-"A new major version will be released as **Community** and that same "
-"version will be released as an **Enterprise** :abbr:`RC1 (Release "
-"Candidate #1)`. Before releasing, the Community version will have "
-"undergone thorough internal testing to insure no regression has slipped "
-"into the core of WAPT."
+"A new major version will be released as **Community** and that same version "
+"will be released as an **Enterprise** :abbr:`RC1 (Release Candidate #1)`. "
+"Before releasing, the Community version will have undergone thorough "
+"internal testing to insure no regression has slipped into the core of WAPT."
 msgstr ""
+"Une nouvelle version majeure sera publiée sous le nom de **Community** et "
+"cette même version sera publiée sous le nom de **Enterprise** :abbr:`RC1 "
+"(Release Candidate #1)`. Avant sa sortie, la version Community aura subi "
+"des tests internes approfondis pour s'assurer qu'aucune régression ne s'est "
+"glissée dans le cœur de WAPT."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-release-strategy.rst:33
 msgid "**Community users are encouraged to update to the new major version**."
 msgstr ""
+"**Les utilisateurs de la version Community seront encouragés à adopter la "
+"nouvelle version majeure**."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-release-strategy.rst:35
 msgid ""
-"The Enterprise release will cycle through several RCs and the final "
-"general availability Enterprise version will then become available "
-"between 4 and 8 weeks after the release of the Community version."
+"The Enterprise release will cycle through several RCs and the final general "
+"availability Enterprise version will then become available between 4 and 8 "
+"weeks after the release of the Community version."
 msgstr ""
+"La version Enterprise passera par plusieurs CR et la version Enterprise "
+"finale sera alors disponible entre 4 et 8 semaines après la sortie de la "
+"version Community."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-release-strategy.rst:39
 msgid ""
-"This delay will provide several benefits to the Enterprise release "
-"process:"
+"This delay will provide several benefits to the Enterprise release process:"
 msgstr ""
+"Ce délai apportera plusieurs bénéfice au processus de sortie de la version "
+"Enterprise :"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-release-strategy.rst:41
 msgid ""
 "allow additional time to perform in depth testing of the new Enterprise "
 "features while avoiding regressions;"
 msgstr ""
+"accorder plus de temps pour effectuer des tests approfondis des nouvelles "
+"fonctionnalités Enterprise tout en évitant les régressions ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-release-strategy.rst:44
 msgid ""
-"allow Tranquil IT to work with a small set of selected Enterprise "
-"customers to insure upgrade procedures work smoothly;"
+"allow Tranquil IT to work with a small set of selected Enterprise customers "
+"to insure upgrade procedures work smoothly;"
 msgstr ""
+"permettre à Tranquil IT de travailler avec un petit groupe de clients "
+"Enterprise sélectionnés afin d'assurer le bon déroulement des procédures de "
+"mise à niveau "
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-release-strategy.rst:47
 msgid ""
-"give a little time to the forum and the mailing list to index questions "
-"and answers that to eventually include into the official documentation;"
+"give a little time to the forum and the mailing list to index questions and "
+"answers that to eventually include into the official documentation;"
 msgstr ""
+"donner un peu de temps au forum et à la liste de diffusion pour indexer les "
+"questions et les réponses qui seront éventuellement incluses dans la "
+"documentation officielle ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-release-strategy.rst:51
 msgid ""
-"give the documentation team a fixed functional target to document the new"
-" or improved features;"
+"give the documentation team a fixed functional target to document the new "
+"or improved features;"
 msgstr ""
+"permettre à l'équipe de documentation de s'appuyer sur une base "
+"fonctionnelle figée pour ainsi documenter de manière fiable les "
+"fonctionnalités nouvelles ou améliorées ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-release-strategy.rst:54
 msgid "give the translation team the necessary delay to update translations;"
 msgstr ""
+"donner à l'équipe de traduction le délai nécessaire pour mettre à jour les "
+"traductions ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-release-strategy.rst:56
 msgid ""
-"give the communication and marketing team a fixed functional target and a"
-" capacity to backward schedule announcements, video podcasts and overall "
+"give the communication and marketing team a fixed functional target and a "
+"capacity to backward schedule announcements, video podcasts and overall "
 "promotion;"
 msgstr ""
-
+"permettre à l'équipe de communication et marketing de s'appuyer sur une "
+"base fonctionnelle figée pour ainsi  rétro-planifier les annonces, les "
+"podcasts vidéo et la promotion générale de WAPT ;"

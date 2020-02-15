@@ -27,15 +27,15 @@ Some code editors are natively supported:
 * VSCodium;
 
 Other editors can be selected and will be launched when you create
-a new template for a WAPT package from WAPT Console
+a new template for a WAPT package from WAPT Console.
 
-Configure WAPT to use another IDE
----------------------------------
+Configuring WAPT to use another IDE
+-----------------------------------
 
 .. note::
 
     Using a supported IDE will launch the WAPT package project
-    with a valid debug configuration
+    with a valid debug configuration.
 
 Using Microsoft Windows
 +++++++++++++++++++++++
@@ -54,7 +54,7 @@ Microsoft Visual Studio Code    :program:`vscode` or :program:`code`
 Microsoft Visual Studio Codium  :program:`vscodium` or :program:`codium`
 =============================== ==========================================
 
-Example config in :file:`waptconsole.ini` :
+Example config in :file:`waptconsole.ini`:
 
 .. code-block:: ini
 
@@ -146,7 +146,7 @@ PyCharm      :file:`/opt/pycharm/bin/pycharm_x64 {wapt_sources_dir}`
 Custom arguments
 ++++++++++++++++
 
-Arguments can be passed in the :code:`editor_for_packages` command :
+Arguments can be passed in the :code:`editor_for_packages` command:
 
 ========================== ==========================================================
 Argument                   Description

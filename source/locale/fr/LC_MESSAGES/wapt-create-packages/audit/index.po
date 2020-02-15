@@ -4,19 +4,19 @@ msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-15 13:51+0100\n"
-"PO-Revision-Date: 2019-02-27 11:26+0100\n"
+"PO-Revision-Date: 2020-02-15 14:06+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 1.8.8\n"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/audit/index.rst:8
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/audit/index.rst:13
-#, fuzzy
 msgid "Using the Audit functions"
 msgstr "Utiliser les fonctions d\\'Audit"
 
@@ -30,19 +30,19 @@ msgstr "Cette fonctionnalité est disponible dans la version **Entreprise**."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/audit/index.rst:20
 msgid "Why auditing?"
-msgstr ""
+msgstr "Pour quoi faire ?"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/audit/index.rst:22
 msgid ""
-"The audit function allows to make regular checks to desktop "
-"configurations and to centralize the results of these checks in the WAPT "
-"console. This feature allows you to ascertain that your installed base of"
-" machines matches your set of conformity rules over time."
+"The audit function allows to make regular checks to desktop configurations and "
+"to centralize the results of these checks in the WAPT console. This feature "
+"allows you to ascertain that your installed base of machines matches your set "
+"of conformity rules over time."
 msgstr ""
-"L'audit permet d'effectuer des vérifications régulières sur les "
-"configurations des postes et de centraliser le résultat des vérifications"
-" dans la console WAPT. Ceci permet de vérifier que votre parc est "
-"conforme à votre référentiel sur la durée."
+"L'audit permet d'effectuer des vérifications régulières sur les configurations "
+"des postes et de centraliser le résultat des vérifications dans la console "
+"WAPT. Ceci permet de vérifier que votre parc est conforme à votre référentiel "
+"sur la durée."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/audit/index.rst:27
 msgid "For example you can:"
@@ -58,8 +58,7 @@ msgstr "vérifier régulièrement la bonne configuration d'un logiciel ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/audit/index.rst:33
 msgid ""
-"regularly check the presence of the correct version of a piece of "
-"software;"
+"regularly check the presence of the correct version of a piece of software;"
 msgstr "vérifier régulièrement la présence de la bonne version d'un logiciel ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/audit/index.rst:35
@@ -68,13 +67,11 @@ msgstr "vérifier régulièrement les configurations de sécurité d'un poste ;
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/audit/index.rst:37
 msgid ""
-"The :command:`audit` function benefits from the depth and the breadth of "
-"python libraries for unmatched levels of precision and finesse for your "
-"auditing needs."
+"The :command:`audit` function benefits from the depth and the breadth of python "
+"libraries for unmatched levels of precision and finesse for your auditing needs."
 msgstr ""
-"La fonction :command:`audit` bénéficie de toute la puissance et de "
-"l'étendue des librairies python pour atteindre une précision d'audit "
-"élevée."
+"La fonction :command:`audit` bénéficie de toute la puissance et de l'étendue "
+"des librairies python pour atteindre une précision d'audit élevée."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/audit/index.rst:42
 msgid "Working principle of the audit function"
@@ -83,23 +80,20 @@ msgstr "Fonctionnement de l'Audit"
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/audit/index.rst:44
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/audit/index.rst:143
 msgid ""
-"The :command:`audit` tasks are launched once after every "
-":command:`upgrade`, then regularly as defined with the ``audit_schedule``"
-" value."
+"The :command:`audit` tasks are launched once after every :command:`upgrade`, "
+"then regularly as defined with the ``audit_schedule`` value."
 msgstr ""
-"Les tâches d':command:`audit` s'exécutent après un :command:`upgrade` "
-"puis à intervalle régulier défini par la valeur de ``audit_schedule``."
+"Les tâches d':command:`audit` s'exécutent après un :command:`upgrade` puis à "
+"intervalle régulier défini par la valeur de ``audit_schedule``."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/audit/index.rst:47
 msgid "To manually launch an audit check, you may also use the following command:"
 msgstr ""
-"Pour executer manuellement un audit vous pouvez également exécuter la "
-"commande :"
+"Pour executer manuellement un audit vous pouvez également exécuter la commande :"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/audit/index.rst:55
 msgid ""
-"By default, the audit function will not launch if the audit is note "
-"necessary."
+"By default, the audit function will not launch if the audit is note necessary."
 msgstr "Par défaut l'audit ne sera pas exécuté si l'audit n'est pas nécessaire."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/audit/index.rst:57
@@ -108,21 +102,20 @@ msgstr "Pour forcer l'exécution vous pouvez exécuter la commande :"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/audit/index.rst:63
 msgid ""
-"Calling this function will launch the :command:`audit` scripts present in"
-" each WAPT package installed on the machine."
+"Calling this function will launch the :command:`audit` scripts present in each "
+"WAPT package installed on the machine."
 msgstr ""
-"L'appel à cette fonction permet d'exécuter la partie :command:`audit` de "
-"chaque paquet WAPT logiciel installé sur la machine."
+"L'appel à cette fonction permet d'exécuter la partie :command:`audit` de chaque "
+"paquet WAPT logiciel installé sur la machine."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/audit/index.rst:66
 msgid ""
-"WAPT saves in its local database :file:`C:\\\\Program Files "
-"(x86)\\\\wapt\\\\waptdb.sqlite` the audit scripts of all installed WAPT "
-"packages."
+"WAPT saves in its local database :file:`C:\\\\Program Files (x86)\\\\wapt\\"
+"\\waptdb.sqlite` the audit scripts of all installed WAPT packages."
 msgstr ""
-"WAPT enregistre en base locale les instructions d\\'audit de tous les "
-"paquets lors de l'installation dans le fichier :file:`C:\\Program Files "
-"(x86)\\wapt\\\\waptdb.sqlite`."
+"WAPT enregistre en base locale les instructions d\\'audit de tous les paquets "
+"lors de l'installation dans le fichier :file:`C:\\Program Files (x86)\\wapt\\"
+"\\waptdb.sqlite`."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/audit/index.rst:69
 msgid "Output example of :code:`wapt-get audit`:"
@@ -130,12 +123,11 @@ msgstr "Exemple de sortie de la commande :code:`wapt-get audit` :"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/audit/index.rst:95
 msgid ""
-"In the example above, the audit script had already been executed for "
-"*tis-disable-js-chrome* and *tis-disable-ipv6* ... but not for *tis-"
-"java*."
+"In the example above, the audit script had already been executed for *tis-"
+"disable-js-chrome* and *tis-disable-ipv6* ... but not for *tis-java*."
 msgstr ""
-"Dans l'exemple ci-dessus, l'audit avait déjà été exécuté pour *tis-"
-"disable-js-chrome*, *tis-disable-ipv6* ... mais pas pour *tis-java*."
+"Dans l'exemple ci-dessus, l'audit avait déjà été exécuté pour *tis-disable-js-"
+"chrome*, *tis-disable-ipv6* ... mais pas pour *tis-java*."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/audit/index.rst:99
 msgid "How to write the audit function"
@@ -143,11 +135,11 @@ msgstr "Comment utiliser la fonction d\\'audit ?"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/audit/index.rst:101
 msgid ""
-"The :command:`audit` script is defined in the package's :file:`setup.py` "
-"with a function :command:`def audit()`:"
+"The :command:`audit` script is defined in the package's :file:`setup.py` with a "
+"function :command:`def audit()`:"
 msgstr ""
-"On définit la partie :command:`audit` dans le fichier :file:`setup.py` du"
-" paquet dans une fonction :command:`def audit()` :"
+"On définit la partie :command:`audit` dans le fichier :file:`setup.py` du "
+"paquet dans une fonction :command:`def audit()` :"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/audit/index.rst:104
 msgid "Example:"
@@ -155,11 +147,10 @@ msgstr "Exemple :"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/audit/index.rst:121
 msgid ""
-"This example ascertains that USB storage is not allowed on the "
-"workstation."
+"This example ascertains that USB storage is not allowed on the workstation."
 msgstr ""
-"Cet exemple permet de vérifier que les clés usb sont bien interdites sur "
-"le poste."
+"Cet exemple permet de vérifier que les clés usb sont bien interdites sur le "
+"poste."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/audit/index.rst:123
 msgid "The audit function returns one of these 3 values:"
@@ -179,21 +170,19 @@ msgstr "**ERROR** ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/audit/index.rst:133
 msgid ""
-"With the :command:`audit` function, it is not possible to use files that "
-"are contained in the WAPT packages."
+"With the :command:`audit` function, it is not possible to use files that are "
+"contained in the WAPT packages."
 msgstr ""
-"Avec :command:`audit`, il n'est pas possible de faire appel à des "
-"fichiers contenus dans le paquet."
+"Avec :command:`audit`, il n'est pas possible de faire appel à des fichiers "
+"contenus dans le paquet."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/audit/index.rst:136
 msgid ""
-"To use files embedded in the WAPT package that will be used for an audit,"
-" you must first copy the file(s) in a temporary folder during package "
-"installation."
+"To use files embedded in the WAPT package that will be used for an audit, you "
+"must first copy the file(s) in a temporary folder during package installation."
 msgstr ""
-"Pour utiliser des fichiers lors de l'audit il faut d'abord les copier "
-"dans un répertoire temporaire de la machine lors de l'installation du "
-"paquet."
+"Pour utiliser des fichiers lors de l'audit il faut d'abord les copier dans un "
+"répertoire temporaire de la machine lors de l'installation du paquet."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/audit/index.rst:141
 msgid "Planning an audit"
@@ -205,28 +194,25 @@ msgstr "La valeur est contenue dans le fichier :file:`control` du paquet WAPT."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/audit/index.rst:148
 msgid ""
-"By default, if :command:`audit_schedule` is empty, the audit task will "
-"need to be launched manually or from teh WAPT console."
+"By default, if :command:`audit_schedule` is empty, the audit task will need to "
+"be launched manually or from teh WAPT console."
 msgstr ""
-"Par défault si :command:`audit_schedule` est vide alors il faudra "
-"effectuer l'audit manuellement ou à partir de la console."
+"Par défault si :command:`audit_schedule` est vide alors il faudra effectuer "
+"l'audit manuellement ou à partir de la console."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/audit/index.rst:151
 msgid "Otherwise, the periodicity may be indicated in several ways:"
 msgstr "Sinon la valeur peut être indiquée de plusieurs manières :"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/audit/index.rst:153
-#, fuzzy
 msgid "an integer (in minutes);"
-msgstr "Un entier (représente la valeur en minutes) ;"
+msgstr "un entier (en minutes) ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/audit/index.rst:155
-#, fuzzy
 msgid ""
-"an integer followed by a letter (m = minutes, h = hours , d = days , w = "
-"weeks);"
+"an integer followed by a letter (m = minutes, h = hours , d = days , w = weeks);"
 msgstr ""
-"Un entier suivi d'une lettre (m = minutes , h = heure , d = jour , w = "
+"un entier suivi d'une lettre (m = minutes , h = heure , d = jour , w = "
 "semaine) ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/audit/index.rst:159
@@ -235,16 +221,16 @@ msgstr "Audit par défaut"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/audit/index.rst:161
 msgid ""
-"By default, the only audit function checks the presence of UninstallKey "
-"for its WAPT package."
+"By default, the only audit function checks the presence of UninstallKey for its "
+"WAPT package."
 msgstr ""
-"Par défault, si aucun audit n'est déclaré, l'agent WAPT vérifiera la "
-"présence des uninstallkey du paquet wapt."
+"Par défault, si aucun audit n'est déclaré, l'agent WAPT vérifiera la présence "
+"des uninstallkey du paquet wapt."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/audit/index.rst:164
 msgid ""
-"This way, WAPT ascertains that the software is still present on the host,"
-" according to the host configuration."
+"This way, WAPT ascertains that the software is still present on the host, "
+"according to the host configuration."
 msgstr "De cette manière WAPT vérifie que le logiciel est toujours présent."
 
 #~ msgid "Audit"
@@ -264,4 +250,3 @@ msgstr "De cette manière WAPT vérifie que le logiciel est toujours présent."
 
 #~ msgid "Principle of audit"
 #~ msgstr "Principe de l'audit"
-

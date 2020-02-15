@@ -4,15 +4,16 @@ msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-15 13:51+0100\n"
-"PO-Revision-Date: 2018-11-07 12:25+0100\n"
+"PO-Revision-Date: 2020-02-15 14:08+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 1.8.8\n"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/index.rst:43
 msgid "Advanced usage"
@@ -29,48 +30,40 @@ msgstr "fonctionnement, WAPT, personnaliser, création de paquets, documentation
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/index.rst:19
 msgid ""
-"Installing *tis-pyscripter* will install PyScripter :term:`IDE`. "
-":program:`PyScripter` is required for packaging WAPT packages."
+"Installing *tis-pyscripter* will install PyScripter :term:`IDE`. :program:"
+"`PyScripter` is required for packaging WAPT packages."
 msgstr ""
-"L'installation correcte de *tis-pyscripter*, le paquet qui installe "
-"l':term:`IDE` :program:`PyScripter`, est **primordiale** avant "
-"d'entreprendre toute création ou modification de paquet."
+"L'installation correcte de *tis-pyscripter*, le paquet qui installe l':term:"
+"`IDE` :program:`PyScripter`, est **primordiale** avant d'entreprendre toute "
+"création ou modification de paquet."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/index.rst:22
 msgid ""
-"Please first visit the documentation on :ref:`setting up the environment "
-"for developing WAPT packages <envdev_setup>`."
+"Please first visit the documentation on :ref:`setting up the environment for "
+"developing WAPT packages <envdev_setup>`."
 msgstr ""
-"Veillez à consulter préalablement la documentation relative à la "
-":ref:`mise en place de l'environment de développement PyScripter "
-"<envdev_setup>`."
+"Veillez à consulter préalablement la documentation relative à la :ref:`mise "
+"en place de l'environment de développement PyScripter <envdev_setup>`."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/index.rst:25
 msgid ""
-"To create and customize WAPT packages, follow that documentation and you "
-"will quickly become a master of WAPT."
+"To create and customize WAPT packages, follow that documentation and you will "
+"quickly become a master of WAPT."
 msgstr ""
-"Pour créer vos paquets et les personnaliser, suivez cette documentation "
-"et vous maîtriserez très vite les subtilités du fonctionnement de WAPT."
+"Pour créer vos paquets et les personnaliser, suivez cette documentation et "
+"vous maîtriserez très vite les subtilités du fonctionnement de WAPT."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/index.rst:53
 msgid "Videos showing WAPT in action"
-msgstr ""
+msgstr "Vidéos montrant WAPT en action"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/index.rst:56
 msgid "Creating and deploying an msi package with WAPT"
-msgstr ""
+msgstr "Créer et déployer un paquet msi avec WAPT"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/index.rst:63
 msgid "Creating, configuring and deploying an exe package with WAPT"
-msgstr ""
+msgstr "Créer, configurer et déployer un paquet exe avec WAPT"
 
 #~ msgid "It is advizable to read :ref:`envdev_setup` before continuing."
 #~ msgstr "Veillez à consulter préalablement la page :ref:`envdev_setup`."
-
-#~ msgid "Videos is also available."
-#~ msgstr ""
-
-#~ msgid "Videos are also available."
-#~ msgstr ""
-

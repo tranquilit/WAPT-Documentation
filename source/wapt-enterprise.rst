@@ -48,7 +48,7 @@ to answer the needs of larger Organisations:
   (i.e. **Code Signing** SSL certificates for package developers and **Simple**
   SSL certificates for package deployers);
 
-* **Use of differentiated self service**
+* **differentiated self service**
   WAPT Enterprise allows you to apply lists of allowed packages
   to groups in Active Directory.
   Allowed users are free to install qualified packages from their list

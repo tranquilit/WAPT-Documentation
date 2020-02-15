@@ -6,20 +6,20 @@
    Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
-    :description: Packaging Windows Update \*.msu packages
+    :description: Packaging Windows Update .msu packages
     :keywords: msu, WAPT, simple, documentation
 
 .. _simple_msu_packaging:
 
-Packaging Windows Update \*.msu packages
-=========================================
+Packaging Windows Update .msu packages
+======================================
 
 .. hint::
 
     Pre-requisites: to build WAPT packages, :ref:`the WAPT development
     environment must be installed <envdev_setup>`;
 
-Between Patch Tuesday releases, Microsoft may release additional KBs
+Between *Patch Tuesday* releases, Microsoft may release additional KBs
 or critical updates that will need to be pushed to hosts quickly.
 
 For that purpose, WAPT provides a package template for \*.msu files.
@@ -37,7 +37,7 @@ Creating a MSU package template from the WAPT console
 * create a WAPT package Template from the downloaded MSU file;
 
   In the WAPT console, click on :menuselection:`Tools -->
-  Make package template from setup file`;
+  Package Wizard`;
 
   .. figure:: tools_make_package_template.png
     :align: center
@@ -62,7 +62,7 @@ Creating a MSU package template from the WAPT console
 * as usual with WAPT packages, test - build - sign - upload - affect to hosts
   and it is done!!
 
-* if the KB becomes bundled with the following patch Tuesday, you can select
+* if the KB becomes bundled with the following *Patch Tuesday*, you can select
   the hosts onto which the package has been applied and forget the KB package
   on the hosts;
 
@@ -99,7 +99,7 @@ Creating a MSU package template from command line
       C:\Program Files (x86)\wapt\wapt-get.exe build-upload c:\waptdev\tis-kb4522355-wapt
 
 * WAPT package IDE is launched, here is an example source code from
-  the pre-defined MSU template
+  the pre-defined MSU template:
 
   .. code-block:: python
 
@@ -138,4 +138,3 @@ Creating a MSU package template from command line
 
           if waiting_for_reboot():
               print('A reboot is needed !')
-   

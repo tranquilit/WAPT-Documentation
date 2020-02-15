@@ -205,7 +205,7 @@ Enabling repository rules
 
 Repository rules are configured in WAPT Console.
 
-It can be based on several parameters:
+Rules can be based on several parameters:
 
 ==================================== =========================== ====================================================================================
 Options                              Example value               Definition
