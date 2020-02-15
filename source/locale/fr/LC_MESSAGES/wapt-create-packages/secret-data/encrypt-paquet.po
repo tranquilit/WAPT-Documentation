@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 14:09+0100\n"
+"POT-Creation-Date: 2020-02-15 13:51+0100\n"
 "PO-Revision-Date: 2019-02-27 11:41+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -14,19 +14,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: ../../source/wapt-create-packages/secret-data/encrypt-paquet.rst:8
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/secret-data/encrypt-paquet.rst:8
 msgid "Encrypting data in a WAPT package"
 msgstr "Chiffrer une donnée dans un paquet WAPT"
 
-#: ../../source/wapt-create-packages/secret-data/encrypt-paquet.rst:8
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/secret-data/encrypt-paquet.rst:8
 msgid "WAPT, encrypt, cipher, sensitive data, password, documentation"
 msgstr "WAPT, encrypt, chiffrer, documentation, données sensibles, mots de passe"
 
-#: ../../source/wapt-create-packages/secret-data/encrypt-paquet.rst:13
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/secret-data/encrypt-paquet.rst:13
 msgid "Encrypting some sensitive data contained in a WAPT package"
 msgstr "Chiffrer certaines données senseibles contenues dans un paquet WAPT"
 
-#: ../../source/wapt-create-packages/secret-data/encrypt-paquet.rst:17
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/secret-data/encrypt-paquet.rst:17
 msgid ""
 "This part of the documentation is not recommended for users starting with"
 " WAPT."
@@ -34,11 +34,11 @@ msgstr ""
 "Cette partie de la documentation est déconseillée aux utilisateurs qui "
 "débutent avec WAPT."
 
-#: ../../source/wapt-create-packages/secret-data/encrypt-paquet.rst:21
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/secret-data/encrypt-paquet.rst:21
 msgid "What is the purpose for doing that?"
 msgstr "Pour quoi faire ?"
 
-#: ../../source/wapt-create-packages/secret-data/encrypt-paquet.rst:23
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/secret-data/encrypt-paquet.rst:23
 msgid ""
 "With WAPT, the integrity of the package is ensured. A package whose "
 "content has been modified without being re-signed will systematically be "
@@ -48,7 +48,7 @@ msgstr ""
 "paquet dont le contenu a été modifié sans avoir été re-signé sera "
 "systématiquement refusé par le client WAPT."
 
-#: ../../source/wapt-create-packages/secret-data/encrypt-paquet.rst:27
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/secret-data/encrypt-paquet.rst:27
 msgid ""
 "On the other hand, the content of a WAPT package is not encrypted and "
 "will be readable by everyone. This technical model of transparency brings"
@@ -58,7 +58,7 @@ msgstr ""
 " de tous. Ce modèle technique de transparence apporte cependant de "
 "nombreux bénéfices."
 
-#: ../../source/wapt-create-packages/secret-data/encrypt-paquet.rst:31
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/secret-data/encrypt-paquet.rst:31
 msgid ""
 "This can be annoying in the case of a package that contains a password, a"
 " license key, or any sensitive or confidential data."
@@ -66,18 +66,17 @@ msgstr ""
 "Cela peut être génant dans le cas d'un paquet qui contiendrait un mot de "
 "passe, une clé de licence, ou une donnée sensible."
 
-#: ../../source/wapt-create-packages/secret-data/encrypt-paquet.rst:34
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/secret-data/encrypt-paquet.rst:34
 msgid "Fortunately, **we have a solution**!"
 msgstr "Heureusement **nous avons une solution.**!!"
 
-#: ../../source/wapt-create-packages/secret-data/encrypt-paquet.rst:37
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/secret-data/encrypt-paquet.rst:37
 msgid "Working principle of encrypting portions of the content of a WAPT package"
 msgstr ""
 "Principe de fonctionnement du chiffrement d'une partie du contenu d'un "
 "paquet WAPT"
 
-#: ../../source/wapt-create-packages/secret-data/encrypt-paquet.rst:39
-
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/secret-data/encrypt-paquet.rst:39
 msgid ""
 "When a WAPT agent registers with the WAPT server, it generates a private "
 "key/ public certificate pair in :file:`C:\\\\Program Files "
@@ -87,7 +86,7 @@ msgstr ""
 " un couple clé privée / certificat public dans :file:`C:\\Program Files "
 "(x86)\\\\wapt\\private`."
 
-#: ../../source/wapt-create-packages/secret-data/encrypt-paquet.rst:43
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/secret-data/encrypt-paquet.rst:43
 msgid ""
 "The certificate is sent to the server with the inventory when the WAPT "
 "client is first registered;"
@@ -95,7 +94,7 @@ msgstr ""
 "Le certificat est envoyé au serveur avec l'inventaire lors de "
 "l'enregistrement initial du client WAPT ;"
 
-#: ../../source/wapt-create-packages/secret-data/encrypt-paquet.rst:46
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/secret-data/encrypt-paquet.rst:46
 msgid ""
 "The private key is kept by the agent and is only readable locally by "
 ":term:`Local Administrators`;"
@@ -103,7 +102,7 @@ msgstr ""
 "La clé privée est conservée par l'agent et n'est accessible en lecture "
 "que par les :term:`Administrateurs Locaux` ;"
 
-#: ../../source/wapt-create-packages/secret-data/encrypt-paquet.rst:49
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/secret-data/encrypt-paquet.rst:49
 msgid ""
 "We will therefore encrypt the sensitive data contained inside the package"
 " with the certificate belonging to the machine."
@@ -111,7 +110,7 @@ msgstr ""
 "Nous allons donc chiffrer la donnée sensible contenue dans le paquet avec"
 " le certificat appartenant à la machine."
 
-#: ../../source/wapt-create-packages/secret-data/encrypt-paquet.rst:52
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/secret-data/encrypt-paquet.rst:52
 msgid ""
 "During installation, the WAPT agent will be able to decrypt the sensitive"
 " data using its private key."
@@ -119,7 +118,7 @@ msgstr ""
 "Lors de l'installation l'agent WAPT pourra ainsi déchiffrer la donnée "
 "sensible grâce à sa clé privé."
 
-#: ../../source/wapt-create-packages/secret-data/encrypt-paquet.rst:55
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/secret-data/encrypt-paquet.rst:55
 msgid ""
 "With this mode of operation, the WAPT server and secondary repositories "
 "have no knowledge of the sensitive data."
@@ -127,11 +126,11 @@ msgstr ""
 "Avec ce mode de fonctionnement le serveur WAPT et les dépôts secondaires "
 "n'ont pas connaissance de la donnée sensible."
 
-#: ../../source/wapt-create-packages/secret-data/encrypt-paquet.rst:59
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/secret-data/encrypt-paquet.rst:59
 msgid "Practical case"
 msgstr "Cas pratique"
 
-#: ../../source/wapt-create-packages/secret-data/encrypt-paquet.rst:61
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/secret-data/encrypt-paquet.rst:61
 msgid ""
 "You will find here an example of a WAPT package where we encrypt a string"
 " of text in an :command:`update_package` function and then decrypt this "
@@ -141,7 +140,7 @@ msgstr ""
 "dans dans une fonction :command:`update_package` puis nous déchiffrons ce"
 " texte dans la partie :command:`install`."
 
-#: ../../source/wapt-create-packages/secret-data/encrypt-paquet.rst:65
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/secret-data/encrypt-paquet.rst:65
 msgid ""
 "In this example, the :command:`update_package` function allows us to "
 "browse the WAPT server database to retrieve the certificate from each "
@@ -151,7 +150,7 @@ msgstr ""
 "parcourir la base de donnée du serveur WAPT pour récupérer le certificat "
 "de chaque machine pour ensuite chiffrer le texte sensible avec celui-ci."
 
-#: ../../source/wapt-create-packages/secret-data/encrypt-paquet.rst:69
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/secret-data/encrypt-paquet.rst:69
 msgid ""
 "The encrypted text for each machine is then stored in a :file:`encrypt-"
 "txt.json` file at the root of the package."
@@ -159,7 +158,7 @@ msgstr ""
 "Le texte chiffré pour chaque machine est ensuite stocké dans un fichier "
 ":file:`encrypt-txt.json` à la racine du paquet."
 
-#: ../../source/wapt-create-packages/secret-data/encrypt-paquet.rst:72
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/secret-data/encrypt-paquet.rst:72
 msgid ""
 "During the installation of the package, the WAPT agent will take the "
 "encrypted text and decrypt it with its private key."
@@ -167,11 +166,12 @@ msgstr ""
 "Lors de l'installation du paquet, l'agent WAPT prendra le texte chiffré "
 "et le déchiffrera avec sa clé privé."
 
-#: ../../source/wapt-create-packages/secret-data/encrypt-paquet.rst:112
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/secret-data/encrypt-paquet.rst:112
+#, fuzzy
 msgid ""
 "The python output (log install of the package) is readable by the users "
-"on the machine, so you should not display the decrypted text with a "
-":command:`print` during installation."
+"on the machine, so **you should not display the decrypted text with a "
+":command:`print` during installation**."
 msgstr ""
 "La sortie python (log install du paquet) est acessible en lecture aux "
 "utilisateurs de la machine, vous ne devez donc pas afficher le text "

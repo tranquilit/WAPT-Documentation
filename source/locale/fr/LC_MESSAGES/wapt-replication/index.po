@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-05 12:22+0100\n"
+"POT-Creation-Date: 2020-02-15 13:51+0100\n"
 "PO-Revision-Date: 2018-11-02 18:27+0200\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -14,37 +14,41 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: ../../source/wapt-replication/index.rst:8
-#: ../../source/wapt-replication/index.rst:15
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/index.rst:8
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/index.rst:15
 msgid "Replicating repositories and working with multiple repositories"
 msgstr "Répliquer des dépôt et fonctionner avec plusieurs dépôts"
 
-#: ../../source/wapt-replication/index.rst:8
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/index.rst:8
 msgid "multi-repo, multi-repositories, replicate, replication, bandwidth"
 msgstr ""
 "multi-dépôt, multi-repo, replication, répliquer, bande passante, "
 "documentation"
 
-#: ../../source/wapt-replication/index.rst:17
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/index.rst:17
 msgid ""
-"Large infrastructure with remote sites and subsidiaries sometimes "
-"requires services to be replicated locally to avoid bandwidth congestion."
+"Large organizations with remote sites and subsidiaries sometimes require "
+"services to be replicated locally to avoid bandwidth congestion."
 msgstr ""
 
-#: ../../source/wapt-replication/index.rst:24
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/index.rst:24
 #, fuzzy
 msgid "Repository replication and multiple repositories"
 msgstr "Répliquer des dépôt et fonctionner avec plusieurs dépôts"
 
-#: ../../source/wapt-replication/index.rst:28
-msgid ""
-"WAPT offers the possibility to replicate its repositories on local "
-"agents, directly managed through WAPT Console. WAPT agents can be "
-"configured to automatically select the best repository based on a set of "
-"rules."
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/index.rst:26
+msgid "Enterprise 1.8"
 msgstr ""
 
-#: ../../source/wapt-replication/index.rst:32
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/index.rst:28
+msgid ""
+"**WAPT Enterprise offers the possibility to upgrade remote agents to "
+"serve as remote repositories that can be managed directly from the WAPT "
+"Console. All WAPT agents can then be centrally configured to "
+"automatically select the best repository based on a set of rules**."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/index.rst:33
 msgid ""
 "You'll find in this part of the documentation how to implement such "
 "architectures."
@@ -52,14 +56,14 @@ msgstr ""
 "Vous trouverez ci-dessous les documentations pour mettre en place ces "
 "architectures."
 
-#: ../../source/wapt-replication/index.rst:41
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/index.rst:41
 msgid ""
-"Speaking of repositories, its sometimes usefull to configure two or more "
-"repositories for different usage (prod,dev,licensed)."
+"Speaking of repositories, it is sometimes useful to configure two or more"
+" repositories for different uses (prod, dev, licensed, selfservice)."
 msgstr ""
 
-#: ../../source/wapt-replication/index.rst:50
-msgid "Deprecated configurations"
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/index.rst:50
+msgid "Deprecated configurations and features"
 msgstr ""
 
 #~ msgid "Replication / multi-repositories"
@@ -140,4 +144,30 @@ msgstr ""
 #~ "de développement et de qualification des"
 #~ " paquets ou pour résoudre des "
 #~ "contraintes de bande passante."
+
+#~ msgid ""
+#~ "Large infrastructure with remote sites "
+#~ "and subsidiaries sometimes requires services"
+#~ " to be replicated locally to avoid"
+#~ " bandwidth congestion."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "WAPT offers the possibility to replicate"
+#~ " its repositories on local agents, "
+#~ "directly managed through WAPT Console. "
+#~ "WAPT agents can be configured to "
+#~ "automatically select the best repository "
+#~ "based on a set of rules."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Speaking of repositories, its sometimes "
+#~ "usefull to configure two or more "
+#~ "repositories for different usage "
+#~ "(prod,dev,licensed)."
+#~ msgstr ""
+
+#~ msgid "Deprecated configurations"
+#~ msgstr ""
 

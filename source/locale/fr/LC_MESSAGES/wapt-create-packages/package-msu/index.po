@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-13 10:30+0100\n"
+"POT-Creation-Date: 2020-02-15 13:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,7 +38,7 @@ msgstr ""
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:22
 msgid ""
 "Between Patch Tuesday releases, Microsoft may release additional KBs or "
-"critical ones that needs to be pushed to hosts quickly."
+"critical updates that will need to be pushed to hosts quickly."
 msgstr ""
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:25
@@ -52,7 +52,7 @@ msgid ""
 msgstr ""
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:30
-msgid "download the KB package from Microsoft Catalog website :"
+msgid "download the KB package from Microsoft Catalog website:"
 msgstr ""
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:32
@@ -61,73 +61,116 @@ msgid ""
 "<https://www.catalog.update.microsoft.com/Search.aspx?q=KB4522355>`_;"
 msgstr ""
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:36
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:35
 msgid "Creating a MSU package template from the WAPT console"
 msgstr ""
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:38
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:37
 msgid "create a WAPT package Template from the downloaded MSU file;"
 msgstr ""
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:40
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:39
 msgid ""
 "In the WAPT console, click on :menuselection:`Tools --> Make package "
-"template from setup file`"
+"template from setup file`;"
 msgstr ""
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:47
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:46
 msgid "Pyscripter - WAPT console window for creating a package template"
 msgstr ""
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:50
-msgid "select the downloaded MSU package and fill in the required fields."
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:48
+msgid "select the downloaded MSU package and fill in the required fields;"
 msgstr ""
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:56
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:54
 msgid "Informations required for creating the MSU package"
 msgstr ""
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:59
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:56
 msgid ""
 "click on :guilabel:`Make and edit ....` (recommended) to launch package "
 "customization;"
 msgstr ""
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:61
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:59
 msgid ""
-"WAPT package IDE is launched using source code from pre-defined MSU "
-"template."
+"WAPT package IDE is launched using the source code from the pre-defined "
+"MSU template."
 msgstr ""
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:63
-msgid "As usual with WAPT packages, test - build - upload and it's done."
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:62
+msgid ""
+"as usual with WAPT packages, test - build - sign - upload - affect to "
+"hosts and it is done!!"
 msgstr ""
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:66
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:65
+msgid ""
+"if the KB becomes bundled with the following patch Tuesday, you can "
+"select the hosts onto which the package has been applied and forget the "
+"KB package on the hosts;"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:70
 msgid "Creating a MSU package template from command line"
 msgstr ""
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:68
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:72
 msgid ""
 "launch a Windows Command Line utility :program:`cmd.exe` as :term:`Local "
 "Administrator`;"
 msgstr ""
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:75
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:79
 msgid "Windows Command Line utility launched as Local Administrator"
 msgstr ""
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:77
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:81
 msgid "instantiate a package from the pre-defined MSU template;"
 msgstr ""
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:84
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:88
 msgid "output example with :program:`KB4522355`:"
 msgstr ""
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:98
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:101
 msgid ""
-"WAPT package IDE is launched, here is an example source code from pre-"
-"defined MSU template"
+"WAPT package IDE is launched, here is an example source code from the "
+"pre-defined MSU template"
 msgstr ""
+
+#~ msgid ""
+#~ "Between Patch Tuesday releases, Microsoft "
+#~ "may release additional KBs or critical"
+#~ " ones that needs to be pushed "
+#~ "to hosts quickly."
+#~ msgstr ""
+
+#~ msgid "download the KB package from Microsoft Catalog website :"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the WAPT console, click on "
+#~ ":menuselection:`Tools --> Make package "
+#~ "template from setup file`"
+#~ msgstr ""
+
+#~ msgid "select the downloaded MSU package and fill in the required fields."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "WAPT package IDE is launched using "
+#~ "source code from pre-defined MSU "
+#~ "template."
+#~ msgstr ""
+
+#~ msgid "As usual with WAPT packages, test - build - upload and it's done."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "WAPT package IDE is launched, here "
+#~ "is an example source code from "
+#~ "pre-defined MSU template"
+#~ msgstr ""
 

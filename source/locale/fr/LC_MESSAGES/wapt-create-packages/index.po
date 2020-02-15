@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-05 18:00+0100\n"
+"POT-Creation-Date: 2020-02-15 13:51+0100\n"
 "PO-Revision-Date: 2018-11-07 12:25+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -14,16 +14,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: ../../source/wapt-create-packages/index.rst:8
-#: ../../source/wapt-create-packages/index.rst:15
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/index.rst:43
+msgid "Advanced usage"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/index.rst:8
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/index.rst:15
 msgid "Creating WAPT packages"
 msgstr "Créer des paquets WAPT"
 
-#: ../../source/wapt-create-packages/index.rst:8
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/index.rst:8
 msgid "working, WAPT, personalizing, creating packages, documentation"
 msgstr "fonctionnement, WAPT, personnaliser, création de paquets, documentation"
 
-#: ../../source/wapt-create-packages/index.rst:19
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/index.rst:19
 msgid ""
 "Installing *tis-pyscripter* will install PyScripter :term:`IDE`. "
 ":program:`PyScripter` is required for packaging WAPT packages."
@@ -32,7 +36,7 @@ msgstr ""
 "l':term:`IDE` :program:`PyScripter`, est **primordiale** avant "
 "d'entreprendre toute création ou modification de paquet."
 
-#: ../../source/wapt-create-packages/index.rst:22
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/index.rst:22
 msgid ""
 "Please first visit the documentation on :ref:`setting up the environment "
 "for developing WAPT packages <envdev_setup>`."
@@ -41,7 +45,7 @@ msgstr ""
 ":ref:`mise en place de l'environment de développement PyScripter "
 "<envdev_setup>`."
 
-#: ../../source/wapt-create-packages/index.rst:25
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/index.rst:25
 msgid ""
 "To create and customize WAPT packages, follow that documentation and you "
 "will quickly become a master of WAPT."
@@ -49,19 +53,15 @@ msgstr ""
 "Pour créer vos paquets et les personnaliser, suivez cette documentation "
 "et vous maîtriserez très vite les subtilités du fonctionnement de WAPT."
 
-#: ../../source/wapt-create-packages/index.rst:43
-msgid "Advanced usage"
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/index.rst:53
+msgid "Videos showing WAPT in action"
 msgstr ""
 
-#: ../../source/wapt-create-packages/index.rst:52
-msgid "Videos are also available."
-msgstr ""
-
-#: ../../source/wapt-create-packages/index.rst:56
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/index.rst:56
 msgid "Creating and deploying an msi package with WAPT"
 msgstr ""
 
-#: ../../source/wapt-create-packages/index.rst:66
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/index.rst:63
 msgid "Creating, configuring and deploying an exe package with WAPT"
 msgstr ""
 
@@ -69,5 +69,8 @@ msgstr ""
 #~ msgstr "Veillez à consulter préalablement la page :ref:`envdev_setup`."
 
 #~ msgid "Videos is also available."
+#~ msgstr ""
+
+#~ msgid "Videos are also available."
 #~ msgstr ""
 

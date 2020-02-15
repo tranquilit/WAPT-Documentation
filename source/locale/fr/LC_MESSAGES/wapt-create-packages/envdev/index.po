@@ -1,194 +1,201 @@
+
 msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-06 17:21+0100\n"
+"POT-Creation-Date: 2020-02-15 13:51+0100\n"
 "PO-Revision-Date: 2018-11-07 11:02+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 1.8.8\n"
 
-#: ../../source/wapt_create_packages/envdev/index.rst:9
-#: ../../source/wapt_create_packages/envdev/index.rst:18
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/envdev/index.rst:9
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/envdev/index.rst:18
 msgid "Setting up your WAPT development and test environment"
 msgstr "Créer son environment de développement de paquets WAPT"
 
-#: ../../source/wapt_create_packages/envdev/index.rst:9
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/envdev/index.rst:9
 msgid ""
-"setup.py, WAPT, control, icon.png, certificate.crt, manifest.sha256, signature."
-"sha256, wapt.psproj, package identity, identification, documentation"
+"setup.py, WAPT, control, icon.png, certificate.crt, manifest.sha256, "
+"signature.sha256, wapt.psproj, package identity, identification, "
+"documentation"
 msgstr ""
-"setup.py, WAPT, control, icon.png, certificate.crt, manifest.sha256, signature."
-"sha256, wapt.psproj, fiche d'identité, documentation"
+"setup.py, WAPT, control, icon.png, certificate.crt, manifest.sha256, "
+"signature.sha256, wapt.psproj, fiche d'identité, documentation"
 
-#: ../../source/wapt_create_packages/envdev/index.rst:21
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/envdev/index.rst:21
 msgid "Prerequisites"
 msgstr "Pré-requis"
 
-#: ../../source/wapt_create_packages/envdev/index.rst:25
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/envdev/index.rst:25
 msgid ""
-"it is **required** to be a :term:`Local Administrator` of the machine to use "
-"WAPT's integrated environment for developing WAPT packages;"
+"it is **required** to be a :term:`Local Administrator` of the machine to "
+"use WAPT's integrated environment for developing WAPT packages;"
 msgstr ""
-"il est **impératif** d'être en possession d'un compte :term:`Administrateur "
-"Local` de la machine pour cette opération ;"
+"il est **impératif** d'être en possession d'un compte "
+":term:`Administrateur Local` de la machine pour cette opération ;"
 
-#: ../../source/wapt_create_packages/envdev/index.rst:28
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/envdev/index.rst:28
 msgid ""
-"we advise you to create/ edit packages in a fully controlled environment that "
-"is safe and *disposable*;"
+"we advise you to create/ edit packages in a fully controlled environment "
+"that is safe and *disposable*;"
 msgstr ""
 "nous vous conseillons de créer / éditer vos paquets dans un environment "
 "maîtrisé, sain et *jetable* ;"
 
-#: ../../source/wapt_create_packages/envdev/index.rst:31
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/envdev/index.rst:31
 msgid ""
-"the usage of a disposable virtual machine (like Virtualbox) is recommended;"
+"the usage of a disposable virtual machine (like Virtualbox) is "
+"recommended;"
 msgstr ""
-"l'utilisation d'une machine virtuelle autonome (type Virtualbox ou équivalent) "
-"est vivement recommandée ;"
+"l'utilisation d'une machine virtuelle autonome (type Virtualbox ou "
+"équivalent) est vivement recommandée ;"
 
-#: ../../source/wapt_create_packages/envdev/index.rst:34
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/envdev/index.rst:34
 msgid ""
-"Make sure that you have your private key stored on the development computer"
+"Make sure that you have your private key stored on the development "
+"computer"
 msgstr "Vérifier la présence de la clé privée sur le poste de développement"
 
-#: ../../source/wapt_create_packages/envdev/index.rst:36
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/envdev/index.rst:36
 msgid "In the WAPT console, the fields *private key* and *prefix* must be filled."
 msgstr ""
-"Dans la console, les champs *clé privé* et *prefix* doivent être renseignés."
+"Dans la console, les champs *clé privé* et *prefix* doivent être "
+"renseignés."
 
-#: ../../source/wapt_create_packages/envdev/index.rst:39
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/envdev/index.rst:39
 msgid "Install the *tis-pyscripter* WAPT package"
 msgstr "Installer le paquet *tis-pyscripter*"
 
-#: ../../source/wapt_create_packages/envdev/index.rst:41
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/envdev/index.rst:41
 msgid ""
-"import the *tis-pyscripter* package in your local repository and install it on "
-"your development computer;"
+"import the *tis-pyscripter* package in your local repository and install "
+"it on your development computer;"
 msgstr ""
-"importer le paquet *tis-pyscripter* dans votre dépôt local et l'installer sur "
-"votre machine de développement ;"
+"importer le paquet *tis-pyscripter* dans votre dépôt local et l'installer"
+" sur votre machine de développement ;"
 
-#: ../../source/wapt_create_packages/envdev/index.rst:45
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/envdev/index.rst:45
 msgid "Recommendations regarding the test environment"
 msgstr "Préconisations concernant l'environment de test"
 
-#: ../../source/wapt_create_packages/envdev/index.rst:47
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/envdev/index.rst:47
 msgid ""
 "The recommended method to correctly test your WAPT packages is to use a "
-"representative sample of machines in your inventory. So the more heterogeneous "
-"your installed base of machines, the larger your sample must be."
+"representative sample of machines in your inventory. So the more "
+"heterogeneous your installed base of machines, the larger your sample "
+"must be."
 msgstr ""
-"La méthode préconnisée pour tester correctement vos paquets est d'utiliser un "
-"échantillon de machines représentatif de votre parc. Donc plus votre parc est "
-"hétérogène, plus votre échantillon devra être large."
+"La méthode préconnisée pour tester correctement vos paquets est "
+"d'utiliser un échantillon de machines représentatif de votre parc. Donc "
+"plus votre parc est hétérogène, plus votre échantillon devra être large."
 
-#: ../../source/wapt_create_packages/envdev/index.rst:51
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/envdev/index.rst:51
+#, fuzzy
 msgid ""
-"This method consists of testing the installation of the package on as many "
-"plateforms and configurations as possible, so to improve its reliability, "
-"before the WAPT package is transfered to production repositories."
+"This method consists of testing the installation of the package on as "
+"many platforms and configurations as possible, so to improve its "
+"reliability, before the WAPT package is transferred to production "
+"repositories."
 msgstr ""
-"Cette démarche vise à confronter le paquet à une multitude de plateformes et "
-"d'environments afin qu'il devienne le plus abouti possible en régime de test, "
-"avant d'être basculé en production."
+"Cette démarche vise à confronter le paquet à une multitude de plateformes"
+" et d'environments afin qu'il devienne le plus abouti possible en régime "
+"de test, avant d'être basculé en production."
 
-#: ../../source/wapt_create_packages/envdev/index.rst:57
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/envdev/index.rst:57
 msgid "Testing method"
 msgstr "Démarche de test"
 
-#: ../../source/wapt_create_packages/envdev/index.rst:60
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/envdev/index.rst:60
 msgid "Operating systems and architectures"
 msgstr "Systèmes d'exploitation et architectures"
 
-#: ../../source/wapt_create_packages/envdev/index.rst:62
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/envdev/index.rst:62
 msgid "Windows XP;"
 msgstr "Windows XP ;"
 
-#: ../../source/wapt_create_packages/envdev/index.rst:64
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/envdev/index.rst:64
 msgid "Windows 7;"
 msgstr "Windows 7 ;"
 
-#: ../../source/wapt_create_packages/envdev/index.rst:66
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/envdev/index.rst:66
 msgid "Windows 10;"
 msgstr "Windows 10 ;"
 
-#: ../../source/wapt_create_packages/envdev/index.rst:68
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/envdev/index.rst:68
 msgid "Windows Server 2008 R2;"
 msgstr "Windows Server 2008 R2 ;"
 
-#: ../../source/wapt_create_packages/envdev/index.rst:70
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/envdev/index.rst:70
 msgid "Windows Server 2012 and R2;"
 msgstr "Windows Server 2012 ;"
 
-#: ../../source/wapt_create_packages/envdev/index.rst:72
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/envdev/index.rst:72
 msgid "x86;"
 msgstr "x86 ;"
 
-#: ../../source/wapt_create_packages/envdev/index.rst:74
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/envdev/index.rst:74
 msgid "x64;"
 msgstr "x64 ;"
 
-#: ../../source/wapt_create_packages/envdev/index.rst:76
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/envdev/index.rst:76
 msgid "Physical and virtual machines;"
 msgstr "Machine physique et virtuelle ;"
 
-#: ../../source/wapt_create_packages/envdev/index.rst:78
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/envdev/index.rst:78
 msgid "laptops;"
 msgstr "PC portable ;"
 
-#: ../../source/wapt_create_packages/envdev/index.rst:82
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/envdev/index.rst:82
 msgid ""
-"When possible, RC and Beta version of Operating Systems should be tested (ex: "
-"Windows 10 Creators Update)."
+"When possible, RC and Beta version of Operating Systems should be tested "
+"(ex: Windows 10 Creators Update)."
 msgstr ""
-"On testera si possible les versions RC / Beta des OS si elles sont disponibles "
-"(exemple : Windows 10 Creators Update)."
+"On testera si possible les versions RC / Beta des OS si elles sont "
+"disponibles (exemple : Windows 10 Creators Update)."
 
-#: ../../source/wapt_create_packages/envdev/index.rst:86
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/envdev/index.rst:86
 msgid "State of Windows Updates"
 msgstr "État des mises à jour Windows Update"
 
-#: ../../source/wapt_create_packages/envdev/index.rst:88
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/envdev/index.rst:88
 msgid ""
 "**Microsoft Windows machine without any Windows update installed**: the "
-"objective is to detect Windows updates that are required for the software to "
-"work properly and to adapt the WAPT package accordingly;"
+"objective is to detect Windows updates that are required for the software"
+" to work properly and to adapt the WAPT package accordingly;"
 msgstr ""
-"**Poste Microsoft Windows sans aucune mise à jour Windows Update** : l'objectif "
-"est de détecter les mises à jour indispensables au bon fonctionnement du "
-"logiciel et adapter le paquet en conséquence ;"
+"**Poste Microsoft Windows sans aucune mise à jour Windows Update** : "
+"l'objectif est de détecter les mises à jour indispensables au bon "
+"fonctionnement du logiciel et adapter le paquet en conséquence ;"
 
-#: ../../source/wapt_create_packages/envdev/index.rst:92
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/envdev/index.rst:92
 msgid ""
 "**Microsoft Windows machine with all the latest Windows updates**: the "
-"objective is to detect Windows updates that break the package and to adapt the "
-"WAPT package accordingly;"
+"objective is to detect Windows updates that break the package and to "
+"adapt the WAPT package accordingly;"
 msgstr ""
 "**Poste Microsoft Windows à jour avec les toutes dernières MàJ Windows "
 "Update** : l'objectif est de détecter les mise à jour en conflit avec le "
 "logiciel et d'adapter le paquet en conséquence ;"
 
-#: ../../source/wapt_create_packages/envdev/index.rst:97
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/envdev/index.rst:97
 msgid "State of software installations"
 msgstr "État des installations logicielles"
 
-#: ../../source/wapt_create_packages/envdev/index.rst:99
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/envdev/index.rst:99
 msgid ""
 "**Machines with many installed packages**: the objective is to detect a "
 "possible dependency with an existing application;"
 msgstr ""
-"**Poste avec peu de logiciels déjà installés** : l'objectif est de détecter une "
-"dépendance possible à Java ou autre framework applicatif ;"
+"**Poste avec peu de logiciels déjà installés** : l'objectif est de "
+"détecter une dépendance possible à Java ou autre framework applicatif ;"
 
-#: ../../source/wapt_create_packages/envdev/index.rst:102
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/envdev/index.rst:102
 msgid ""
 "**Machines with many installed packages**: the objective is to detect a "
 "possible conflict with an existing application;"
@@ -196,17 +203,17 @@ msgstr ""
 "**Poste avec beaucoup de logiciels déjà installés** : l'objectif est de "
 "détecter un conflit avec une application existante ;"
 
-#: ../../source/wapt_create_packages/envdev/index.rst:105
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/envdev/index.rst:105
 msgid ""
-"**Install older versions of the software**: it is possible that the software "
-"installer does not support uninstalling a previous version of the software, in "
-"this case, the WAPT package will have to remove older versions of the software "
-"before installing the new version;"
+"**Install older versions of the software**: it is possible that the "
+"software installer does not support uninstalling a previous version of "
+"the software, in this case, the WAPT package will have to remove older "
+"versions of the software before installing the new version;"
 msgstr ""
 "**Installer les anciennes versions du logiciel** : il est possible que "
-"l'installeur ne supporte pas l'écrasement d'une installation précédente, dans "
-"ce cas il faudra prévoir la désinstallation des anciennes versions avant "
-"d'installer la nouvelle version ;"
+"l'installeur ne supporte pas l'écrasement d'une installation précédente, "
+"dans ce cas il faudra prévoir la désinstallation des anciennes versions "
+"avant d'installer la nouvelle version ;"
 
 #~ msgid "**tis-notepadplusplus** : advanced text editor ;"
 #~ msgstr "**tis-notepadplusplus** : éditeur texte avancé ;"
@@ -219,17 +226,23 @@ msgstr ""
 
 #~ msgid "The interface of PyScripter IDE when creating packages looks like that:"
 #~ msgstr ""
-#~ "Lorsque l'on créé un paquet, l'environment de développement PyScripter se "
-#~ "présente ainsi :"
+#~ "Lorsque l'on créé un paquet, "
+#~ "l'environment de développement PyScripter se"
+#~ " présente ainsi :"
 
 #~ msgid ""
-#~ "The advised method for correctly testing your packages is to use a "
-#~ "representative sample of machines that models as closely as possible your "
+#~ "The advised method for correctly testing"
+#~ " your packages is to use a "
+#~ "representative sample of machines that "
+#~ "models as closely as possible your "
 #~ "installed base of devices."
 #~ msgstr ""
-#~ "La méthode préconnisée afin de tester correctement vos paquets est "
-#~ "d'utiliser un ensemble de machines d'horizon différent, représentant de "
-#~ "manière autant fidèle que possible l'hétérogénéité de votre parc."
+#~ "La méthode préconnisée afin de tester"
+#~ " correctement vos paquets est d'utiliser"
+#~ " un ensemble de machines d'horizon "
+#~ "différent, représentant de manière autant "
+#~ "fidèle que possible l'hétérogénéité de "
+#~ "votre parc."
 
 #~ msgid "The operating systems to target in priority:"
 #~ msgstr "Les systèmes d'exploitation à cibler en priorité :"
@@ -238,88 +251,126 @@ msgstr ""
 #~ msgstr "Architectures diverses :"
 
 #~ msgid ""
-#~ "**Microsoft Windows machine without any Windows Update applied**: the "
-#~ "objective is to detect the Windows updates that are required for the "
-#~ "software to work properly and to adapt the package accordingly."
+#~ "**Microsoft Windows machine without any "
+#~ "Windows Update applied**: the objective "
+#~ "is to detect the Windows updates "
+#~ "that are required for the software "
+#~ "to work properly and to adapt the"
+#~ " package accordingly."
 #~ msgstr ""
-#~ "**Poste Microsoft Windows sans aucune mise à jour Windows Update** : "
-#~ "l'objectif est de détecter les mises à jour indispensables au bon "
-#~ "fonctionnement du logiciel et adapter le paquet en conséquence."
+#~ "**Poste Microsoft Windows sans aucune "
+#~ "mise à jour Windows Update** : "
+#~ "l'objectif est de détecter les mises "
+#~ "à jour indispensables au bon "
+#~ "fonctionnement du logiciel et adapter le"
+#~ " paquet en conséquence."
 
 #~ msgid ""
-#~ "**Microsoft Windows machine with all latest Windows Updates applied**: the "
-#~ "objective is to detect the Windows updates that are in conflict with the "
-#~ "software to work properly and to adapt the package accordingly."
+#~ "**Microsoft Windows machine with all "
+#~ "latest Windows Updates applied**: the "
+#~ "objective is to detect the Windows "
+#~ "updates that are in conflict with "
+#~ "the software to work properly and "
+#~ "to adapt the package accordingly."
 #~ msgstr ""
-#~ "**Poste Microsoft Windows à jour avec les toutes dernières MàJ Windows "
-#~ "Update** : l'objectif est de détécter les mise à jour en conflit avec le "
-#~ "logiciel et d'adapter le paquet en conséquence."
+#~ "**Poste Microsoft Windows à jour avec"
+#~ " les toutes dernières MàJ Windows "
+#~ "Update** : l'objectif est de détécter"
+#~ " les mise à jour en conflit "
+#~ "avec le logiciel et d'adapter le "
+#~ "paquet en conséquence."
 
 #~ msgid ""
-#~ "**Machines with few installed packaes**: the objective is to detect a "
-#~ "possible dependency with Java or another application framework."
+#~ "**Machines with few installed packaes**: "
+#~ "the objective is to detect a "
+#~ "possible dependency with Java or another"
+#~ " application framework."
 #~ msgstr ""
-#~ "**Poste avec peu de logiciels déjà installés** : l'objectif est de détecter "
-#~ "une dépendance possible à Java ou autre framework applicatif."
+#~ "**Poste avec peu de logiciels déjà "
+#~ "installés** : l'objectif est de détecter"
+#~ " une dépendance possible à Java ou"
+#~ " autre framework applicatif."
 
 #~ msgid ""
-#~ "**Install older versions of the software**: it is possible that the software "
-#~ "installer does not support removing older installations of the same "
-#~ "software ; in that case, it will be necessary to force the removing of older "
-#~ "version of the software before installing the newer version."
+#~ "**Install older versions of the "
+#~ "software**: it is possible that the "
+#~ "software installer does not support "
+#~ "removing older installations of the same"
+#~ " software ; in that case, it "
+#~ "will be necessary to force the "
+#~ "removing of older version of the "
+#~ "software before installing the newer "
+#~ "version."
 #~ msgstr ""
-#~ "**Installer les anciennes versions du logiciel** : il est possible que "
-#~ "l’installeur ne supporte pas l’écrasement d’une installation précédente, "
-#~ "dans ce cas il faudra prévoir la désinstallation des anciennes versions "
-#~ "avant d’installer la nouvelle version."
+#~ "**Installer les anciennes versions du "
+#~ "logiciel** : il est possible que "
+#~ "l’installeur ne supporte pas l’écrasement "
+#~ "d’une installation précédente, dans ce "
+#~ "cas il faudra prévoir la désinstallation"
+#~ " des anciennes versions avant d’installer"
+#~ " la nouvelle version."
 
 #~ msgid "**tis-python27**: python2.7 libraries;"
 #~ msgstr ":program:`tis-python27` : environment python2.7 ;"
 
 #~ msgid ""
-#~ "edit the :file:`wapt-get.ini` file located in the installation folder :file:"
-#~ "`C:\\wapt` (older installations) or :file:`C:\\Program Files (x86)\\wapt\\` "
-#~ "(default);"
+#~ "edit the :file:`wapt-get.ini` file "
+#~ "located in the installation folder "
+#~ ":file:`C:\\wapt` (older installations) or "
+#~ ":file:`C:\\Program Files (x86)\\wapt\\` (default);"
 #~ msgstr ""
-#~ "éditer le fichier :file:`wapt-get.ini` présent dans le dossier "
-#~ "d'installation :file:`C:\\Program Files (x86)\\wapt\\` ;"
+#~ "éditer le fichier :file:`wapt-get.ini` "
+#~ "présent dans le dossier d'installation "
+#~ ":file:`C:\\Program Files (x86)\\wapt\\` ;"
 
 #~ msgid ""
-#~ "set the default development path :file:`C:\\waptdev` in :file:`wapt-get.ini` "
-#~ "file manually, you can also make this configuration change directly with the "
-#~ "WAPT console;"
+#~ "set the default development path "
+#~ ":file:`C:\\waptdev` in :file:`wapt-get.ini` "
+#~ "file manually, you can also make "
+#~ "this configuration change directly with "
+#~ "the WAPT console;"
 #~ msgstr ""
-#~ "renseigner le chemin du répertoire par défaut :file:`C:\\waptdev` dans :file:"
-#~ "`wapt-get.ini` **ou via la console** ;"
+#~ "renseigner le chemin du répertoire par"
+#~ " défaut :file:`C:\\waptdev` dans :file:`wapt-"
+#~ "get.ini` **ou via la console** ;"
 
 #~ msgid ""
-#~ "All the settings of :file:`wapt-get.ini` can be found here : :ref:`wapt-get-"
-#~ "ini`"
+#~ "All the settings of :file:`wapt-get.ini`"
+#~ " can be found here : :ref:`wapt-"
+#~ "get-ini`"
 #~ msgstr ""
-#~ "L'ensemble des paramètres du fichier :file:`wapt-get.ini` se trouvent ici : :"
-#~ "ref:`wapt-get-ini`"
+#~ "L'ensemble des paramètres du fichier "
+#~ ":file:`wapt-get.ini` se trouvent ici :"
+#~ " :ref:`wapt-get-ini`"
 
 #~ msgid ""
-#~ "You will find below an example of a :file:`wapt-get.ini` file used for "
-#~ "software package development:"
+#~ "You will find below an example of"
+#~ " a :file:`wapt-get.ini` file used for"
+#~ " software package development:"
 #~ msgstr ""
-#~ "Ci-dessous est présenté un exemple de fichier :file:`wapt-get.ini` utilisé "
+#~ "Ci-dessous est présenté un exemple "
+#~ "de fichier :file:`wapt-get.ini` utilisé "
 #~ "pour le développement de paquets :"
 
 #~ msgid "The ``waptdev`` package contains the following tools:"
 #~ msgstr "Le paquet waptdev contient les utilitaires suivants :"
 
 #~ msgid ""
-#~ "**tis-pyscripter**: integrated development environment to easily create, "
-#~ "test and build python scripts;"
+#~ "**tis-pyscripter**: integrated development "
+#~ "environment to easily create, test and"
+#~ " build python scripts;"
 #~ msgstr ""
-#~ ":program:`tis-pyscripter`  : environment de développement intégré "
-#~ "confortable pour écrire des scripts python, les tester, les débugger ;"
+#~ ":program:`tis-pyscripter`  : environment de"
+#~ " développement intégré confortable pour "
+#~ "écrire des scripts python, les tester,"
+#~ " les débugger ;"
 
 #~ msgid ""
-#~ "launch :command:`session-setup` to finish installing the PyScripter package."
+#~ "launch :command:`session-setup` to finish "
+#~ "installing the PyScripter package."
 #~ msgstr ""
-#~ "lancer la commande :command:`session-setup` pour terminer l'installation de "
+#~ "lancer la commande :command:`session-setup`"
+#~ " pour terminer l'installation de "
 #~ "PyScripter."
 
 #~ msgid "Either by disconnecting / reconnecting on the computer;"
@@ -357,8 +408,8 @@ msgstr ""
 
 #~ msgid "**Disabling UAC is only necessary on the packaging computer only.**"
 #~ msgstr ""
-#~ "**Cette manipulation est nécessaire uniquement sur la machine de "
-#~ "développement.**"
+#~ "**Cette manipulation est nécessaire uniquement"
+#~ " sur la machine de développement.**"
 
 #~ msgid "open the Windows Configuration Panel;"
 #~ msgstr "ouvrir le panneau de configuration de Windows ;"
@@ -376,9 +427,12 @@ msgstr ""
 #~ msgstr "cliquer sur :guilabel:`OK` pour confirmer ;"
 
 #~ msgid ""
-#~ "A computer reboot is required for the new configuration to apply correctly."
+#~ "A computer reboot is required for "
+#~ "the new configuration to apply "
+#~ "correctly."
 #~ msgstr ""
-#~ "Un redémarrage de la machine est nécessaire pour que la nouvelle "
+#~ "Un redémarrage de la machine est "
+#~ "nécessaire pour que la nouvelle "
 #~ "configuration s'applique correctement."
 
 #~ msgid "PyScripter"
@@ -392,3 +446,4 @@ msgstr ""
 
 #~ msgid "Python Console"
 #~ msgstr "Console Python"
+

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 14:09+0100\n"
+"POT-Creation-Date: 2020-02-15 13:51+0100\n"
 "PO-Revision-Date: 2019-03-01 11:01+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -14,13 +14,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:8
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:17
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:25
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:8
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:17
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:25
 msgid "WAPT package structure"
 msgstr "Structure d'un paquet WAPT"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:8
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:8
 msgid ""
 "setup.py, WAPT, control, icon.png, certificate.crt, manifest.sha256,  "
 "wapt.psproj, package identity, identification, documentation, "
@@ -29,144 +29,154 @@ msgstr ""
 "setup.py, WAPT, control, icon.png, certificate.crt, manifest.sha256, "
 "signature.sha256, wapt.psproj, fiche d'identité, documentation"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:19
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:19
 msgid "A WAPT package is a zip file containing several things:"
 msgstr "Un paquet WAPT est un fichier zip qui contient plusieurs éléments :"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:27
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:27
 msgid "a file :file:`setup.py`;"
 msgstr "un fichier :file:`setup.py` à la racine ;"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:29
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:29
 msgid "one or several binary files;"
 msgstr "un fichier ou plusieurs fichiers :program:`binaire.exe` à la racine ;"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:31
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:31
 msgid "some additional optional files;"
 msgstr "un fichier ou plusieurs autres fichiers additionnels à la racine ;"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:33
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:33
 msgid "a :file:`control` file in the :file:`WAPT` folder;"
 msgstr "Un fichier :file:`control` dans le dossier :file:`WAPT` ;"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:35
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:35
 msgid "a :file:`icon.png` file in the :file:`WAPT` folder;"
 msgstr "Un fichier :file:`icon.png` dans le dossier :file:`WAPT` ;"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:37
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:37
 msgid "a :file:`certificate.crt` file in the folder :file:`WAPT`;"
 msgstr "Un fichier :file:`certificate.crt` dans le dossier :file:`WAPT` ;"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:39
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:39
 msgid "a :file:`manifest.sha256` file in the folder :file:`WAPT`;"
 msgstr "Un fichier :file:`manifest.sha256` dans le dossier :file:`WAPT` ;"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:41
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:41
 msgid "a :file:`signature.sha256` file in the folder :file:`WAPT`;"
 msgstr "Un fichier :file:`signature.sha256` dans le dossier :file:`WAPT` ;"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:43
-msgid "a :file:`wapt.psproj` file in the folder :file:`WAPT`;"
-msgstr "Un fichier :file:`wapt.psproj` dans le dossier :file:`WAPT` ;"
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:43
+msgid ""
+"a :file:`wapt.psproj` file in the folder :file:`WAPT`, this file is used "
+"to store the :program:`PyScripter` configuration data for the WAPT "
+"package;"
+msgstr ""
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:48
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:614
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:47
+msgid ""
+"since WAPT 1.8, a hidden :file:`.vscode` folder that contains a "
+":file:`launch.json` and a :file:`settings.json` file used to store the "
+":program:`VScode` configuration data for the WAPT package;"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:54
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:621
 msgid "The *control* file"
 msgstr "Le fichier *control*"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:50
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:56
 msgid "The :file:`control` file is the identity card of a package."
 msgstr "Le fichier :file:`control` est la fiche d'identité du paquet."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:88
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:94
 msgid "Settings"
 msgstr "Paramètre"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:88
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:94
 msgid "Description"
 msgstr "Description"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:88
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:94
 msgid "Example value"
 msgstr "Valeur Exemple"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:90
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:96
 msgid "``package``"
 msgstr "``package``"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:90
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:96
 msgid "Package name"
 msgstr "Nom du paquet"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:90
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:96
 msgid "tis-geogebra"
 msgstr "tis-geogebra"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:92
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:98
 msgid "``version``"
 msgstr "``version``"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:92
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:98
 msgid "Package version, can not contain more than 5 delimiters"
 msgstr "Version du paquet, ne peut pas comporter plus de 5 délimiteurs"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:92
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:98
 msgid "5.0.309.0-0"
 msgstr "5.0.309.0-0"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:95
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:101
 msgid "``architecture``"
 msgstr "``architecture``"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:95
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:101
 msgid "Processor architecture"
 msgstr "Architecture de processeur"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:95
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:101
 msgid "x64"
 msgstr "x64"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:97
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:103
 msgid "``section``"
 msgstr "``section``"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:97
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:103
 msgid "Package type (``host``, ``group``, ``base``, ``orga-unit``)"
 msgstr "Type de paquet (``host``, ``group``, ``base``, ``unit``)"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:97
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:103
 msgid "base"
 msgstr "base"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:101
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:107
 msgid "``priority``"
 msgstr "``priority``"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:101
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:107
 msgid "Package install priority (optional, not used as of 1.5.15)"
 msgstr "Niveau de priorité d'installation du paquet (optionnel pour le moment)"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:102
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:108
 msgid "Not mandatory for the moment"
 msgstr "Non pris en charge pour le moment"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:104
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:110
 msgid "``maintainer``"
 msgstr "``maintainer``"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:104
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:110
 msgid "Author of the package"
 msgstr "Auteur du paquet"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:104
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:110
 msgid "Arnold Schwarzenegger terminator@mydomain.lan"
 msgstr "Gérard Bouchard mail@mydomain.lan"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:106
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:112
 msgid "``description``"
 msgstr "``description``"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:106
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:112
 msgid ""
 "Package description that will appear in the console and on the web "
 "interface"
@@ -174,7 +184,7 @@ msgstr ""
 "Description du paquet qui apparaîtra dans la console et sur l'interface "
 "web"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:106
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:112
 msgid ""
 "The Graphing Calculator for Functions, Geometry, Algebra, Calculus, "
 "Statistics and 3D"
@@ -182,275 +192,275 @@ msgstr ""
 "The Graphing Calculator for Functions, Geometry, Algebra, Calculus, "
 "Statistics and 3D"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:109
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:115
 msgid "``description_fr``"
 msgstr "``description_fr``"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:109
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:115
 msgid "Localized description of the package"
 msgstr "Description du paquet dans une langue précise"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:109
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:115
 msgid "Calculatrice graphique"
 msgstr "Calculatrice graphique"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:111
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:117
 msgid "``depends``"
 msgstr "``depends``"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:111
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:117
 msgid "Packages that must be installed before installing the package"
 msgstr "Dépendances à satisfaire avant d'installer le paquet"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:111
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:117
 msgid "tis-java"
 msgstr "tis-java"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:114
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:120
 msgid "``conflicts``"
 msgstr "``conflicts``"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:114
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:120
 msgid "Packages that must be uninstalled before installing the package"
 msgstr "Paquets à désinstaller avant d'installer ce paquet"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:114
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:120
 msgid "tis-graph"
 msgstr "tis-graph"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:117
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:123
 msgid "``maturity``"
 msgstr "``maturity``"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:117
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:123
 msgid "Maturity level (BETA, DEV, PROD)"
 msgstr "Niveau de maturité du paquet (BETA, DEV, STABLE)"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:117
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:123
 msgid "PROD"
 msgstr "PROD"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:119
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:125
 msgid "``locale``"
 msgstr "``locale``"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:119
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:125
 msgid "Language environment for the package"
 msgstr "Environment linguistique prévu pour le paquet"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:119
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:125
 msgid "fr,en,es"
 msgstr "fr,en,es"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:121
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:127
 msgid "``target_os``"
 msgstr "``target_os``"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:121
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:127
 msgid "Accepted Operating System for the package"
 msgstr "OS Accepté par le paquet"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:121
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:127
 msgid "windows"
 msgstr "windows"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:123
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:129
 msgid "``min_os_version``"
 msgstr "``min_os_version``"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:123
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:129
 msgid "Minimum version of Windows for the package to be seen by the WAPT agent"
 msgstr ""
 "Version minimale de l'OS pour que le paquet soit vu par l'agent WAPT le "
 "paquet"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:123
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:129
 msgid "6.0"
 msgstr "6.0"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:126
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:132
 msgid "``max_os_version``"
 msgstr "``max_os_version``"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:126
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:132
 msgid "Maximum version of Windows for the package to be seen by the WAPT agent"
 msgstr ""
 "Version maximale de l'OS pour que le paquet soit vu par l'agent WAPT le "
 "paquet"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:126
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:132
 msgid "8.0"
 msgstr "8.0"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:129
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:135
 msgid "``min_wapt_version``"
 msgstr "``min_wapt_version``"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:129
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:135
 msgid "WAPT's minimal version for the package to work properly"
 msgstr "Version minimale de WAPT pour un fonctionnement correct du paquet"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:129
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:135
 msgid "1.3.8"
 msgstr "1.3.8"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:132
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:138
 msgid "``sources``"
 msgstr "``sources``"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:132
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:138
 msgid "Path to the SVN location of the package (:command:`source` command)"
 msgstr ""
 "Lien de stockage des versions historisées du paquet (commande "
 ":command:`sources`)"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:132
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:138
 msgid "https://srv-svn.mydomain.lan/sources/tis-geogebra-wapt/trunk/"
 msgstr "https://srv-svn.mydomain.lan/sources/tis-geogebra-wapt/trunk/"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:135
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:141
 msgid "``installed_size``"
 msgstr "``installed_size``"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:135
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:141
 msgid "Minimum required free disk space to install the package"
 msgstr "Espace de disque dur libre minimal requis pour installer le paquet"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:135
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:141
 msgid "254251008"
 msgstr "254251008"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:138
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:144
 msgid "``impacted_process``"
 msgstr "``impacted_process``"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:138
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:144
 msgid "Indicates a list of impacted processes when installing a package"
 msgstr "Indique une liste de processus impactés lors de l'installation du paquet"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:138
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:144
 msgid "firefox.exe"
 msgstr "firefox.exe"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:141
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:147
 msgid "``audit_schedule``"
 msgstr "``audit_schedule``"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:141
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:147
 msgid "Periodicity of execution of the audit function in the WAPT package"
 msgstr "Indique la périodicité pour  l'exécution de la fonction audit du paquet"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:141
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:147
 msgid "60"
 msgstr "60"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:144
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:150
 msgid "``editor``"
 msgstr "``editor``"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:144
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:150
 msgid "Editor of the software package"
 msgstr "Indique l'editeur du logiciel integrée dans le paquet"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:144
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:150
 msgid "Mozilla"
 msgstr "Mozilla"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:146
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:152
 msgid "``license``"
 msgstr "``licence``"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:146
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:152
 msgid "Reference of the software license"
 msgstr "Indique la licence du logiciel integrée dans le paquet"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:146
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:152
 msgid "GPLV3"
 msgstr "GPLV3"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:148
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:154
 msgid "``keywords``"
 msgstr "``keywords``"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:148
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:154
 msgid "Set of keywords describing the WAPT package"
 msgstr "Indique une liste de mots clé correspondant au paquet"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:148
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:154
 msgid "Productivity,Text Processor"
 msgstr "Bureautique,Editeur,calcul"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:150
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:156
 msgid "``homepage``"
 msgstr "``homepage``"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:150
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:156
 msgid "Official homepage of the software embedded in the WAPT package"
 msgstr ""
 "Indique la page d'accueil du site officiel de logiciel integrée dans le "
 "paquet"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:150
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:156
 msgid "https://wapt.fr"
 msgstr "https://wapt.fr"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:153
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:159
 msgid "``signer``"
 msgstr "``signer``"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:153
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:159
 msgid "CommonName (CN) of the package's signer"
 msgstr "Nom commun (CN) du signataire du paquet"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:153
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:159
 msgid "Tranquil IT"
 msgstr "Tranquil IT"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:155
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:161
 msgid "``signer_fingerprint``"
 msgstr "``signer_fingerprint``"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:155
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:161
 msgid "Fingerprint of the certificate holder's signature"
 msgstr "Empreinte de la signature du signataire du paquet"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:155
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:161
 msgid "2BAFAF007C174A3B00F12E9CA1E74956"
 msgstr "2BAFAF007C174A3B00F12E9CA1E74956"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:158
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:164
 msgid "``signature``"
 msgstr "``signature``"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:158
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:164
 msgid "SHA256 hash of the package"
 msgstr "Hash SHA256 du paquet"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:158
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:164
 msgid "MLOzLiz0qCHN5fChdylnvXUZ8xNJj4rEu5FAAsDTdEtQ(...)hsduxGRJpN1wLEjGRaMLBlod/p8w=="
 msgstr "MLOzLiz0qCHN5fChdylnvXUZ8xNJj4rEu5FAAsDTdEtQ(...)hsduxGRJpN1wLEjGRaMLBlod/p8w=="
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:160
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:166
 msgid "``signature_date``"
 msgstr "``signature_date``"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:160
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:166
 msgid "Date when the package was signed"
 msgstr "Indique la date de signature du paquet"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:160
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:166
 msgid "20180307-230413"
 msgstr "20180307-230413"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:162
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:168
 msgid "``signed_attributes``"
 msgstr "``signed_attributes``"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:162
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:168
 msgid "List of package's attributes that are signed"
 msgstr "Liste des attributs signés"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:162
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:168
 msgid ""
 "package, version, architecture, section, priority, maintainer, "
 "description, depends, conflicts, maturity, locale, min_os_version, "
@@ -462,7 +472,7 @@ msgstr ""
 "max_os_version, min_wapt_version, sources, installed_size, signer, "
 "signer_fingerprint, signature_date, signed_attributes"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:170
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:176
 msgid ""
 "If the :file:`control` file contains special characters, the "
 ":file:`control` file must be saved in **UTF-8 (No BOM)** format."
@@ -470,19 +480,19 @@ msgstr ""
 "Si le fichier :file:`control` comporte des caractères accentués, le "
 "fichier doit être enregistré en format **UTF-8 (No BOM)**."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:177
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:183
 msgid "PyScripter - UTF-8 (No BOM)"
 msgstr "PyScripter - UTF-8 (No BOM)"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:180
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:186
 msgid "Fields details"
 msgstr "Détails des champs"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:183
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:189
 msgid "package"
 msgstr "package"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:185
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:191
 msgid ""
 "**WAPT package name, without any accent, nor space, nor any special or "
 "uppercase character**."
@@ -490,11 +500,11 @@ msgstr ""
 "**Nom du paquet WAPT, sans accent, sans espace, sans caractère spécial, "
 "sans majuscule**."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:189
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:195
 msgid "version"
 msgstr "version"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:191
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:197
 msgid ""
 "Preferably, always start with the packaged software version split by "
 "points (*.*) and finish with the WAPT packaging version separated by a "
@@ -504,11 +514,11 @@ msgstr ""
 "des points (*.*), puis suffixer avec un tiret (*-*) et le numéro de "
 "version de packaging WAPT."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:196
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:202
 msgid "architecture"
 msgstr "architecture"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:199
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:206
 msgid ""
 "Defines whether the package may be installed on x64 or x32 processor "
 "equipped computers."
@@ -516,7 +526,7 @@ msgstr ""
 "Définit si le paquet pourra s'installer sur une machine équipée d'un "
 "processeur 32bits ou 64bits."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:204
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:211
 msgid ""
 "A x64 package will be invisible for a WAPT agent installed on a x86 "
 "machine."
@@ -524,53 +534,53 @@ msgstr ""
 "Un paquet prévu pour une architecture x64 ne sera pas visible avec un "
 "agent WAPT installé sur un poste équipé d'un processeur x86."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:206
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:213
 msgid "Allowed values:"
 msgstr "Valeurs possibles :"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:208
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:215
 msgid "**x86**: the package is designed for 32bit computers;"
 msgstr ""
 "**x86** : le paquet est destiné uniquement aux machines avec un "
 "processeur 32bits ;"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:210
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:217
 msgid "**x64**: the package is designed for 64bit computers;"
 msgstr ""
 "**x64** : le paquet est destiné uniquement aux machines avec un "
 "processeur 64bits ;"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:212
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:219
 msgid "**all**: the package is designed for 32bit or 64bit computers;"
 msgstr ""
 "**all** : le paquet est a destination des machines avec un processeur "
 "32bits **OU** 64bits ;"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:215
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:222
 msgid "section"
 msgstr "section"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:217
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:224
 msgid "**host**: host package;"
 msgstr "**host** : paquet machine ;"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:219
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:226
 msgid "**group**: group package;"
 msgstr "**group** : paquet groupe ;"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:221
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:228
 msgid "**base**: software package;"
 msgstr "**base** : paquet logiciel ;"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:223
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:230
 msgid "**unit**: :abbr:`OU (Organizationnal Unit)` package;"
 msgstr "**unit** : paquet :abbr:`UO (Unité Organisationnelle)` ;"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:226
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:233
 msgid "priority"
 msgstr "priority"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:228
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:235
 msgid ""
 "This option is not supported at this time. That field will be used to "
 "define package installation priority. This feature will become useful to "
@@ -579,23 +589,23 @@ msgstr ""
 "Cette option n'est pas prise en en charge pour le moment, ce champ "
 "permettra à terme de définir la priorité d'installation d'un paquet WAPT."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:233
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:240
 msgid "maintainer"
 msgstr "maintainer"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:235
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:242
 msgid "Defines the WAPT package creator."
 msgstr "Indique le nom du créateur du paquet WAPT."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:239
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:246
 msgid "To define the WAPT package creator's email address may be useful."
 msgstr "indiquer l'adresse email peut être utile."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:242
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:249
 msgid "description"
 msgstr "description"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:244
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:251
 msgid ""
 "Describes the functionality of the package that will appear in the "
 "console, on the local web interface http://127.0.0.1:8088 and in :code"
@@ -605,7 +615,7 @@ msgstr ""
 "la console, sur l'interface web des clients WAPT http://127.0.0.1:8088 et"
 " dans les lignes de commande :code:`wapt-get`.\\v"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:250
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:257
 msgid ""
 "Adding a field ``description_fr`` or ``description_es`` allows you to "
 "internationalize the description of your package. If the language does "
@@ -615,11 +625,11 @@ msgstr ""
 "préciser une description pour une langue précise. Si la langue n'existe "
 "pas, l'agent wapt utilisera la champ description classique."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:256
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:263
 msgid "depends"
 msgstr "depends"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:258
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:265
 msgid ""
 "Defines the packages that must be installed before, for example *tis-"
 "java* is a dependency for the *LibreOffice* package and *tis-java* must "
@@ -629,25 +639,25 @@ msgstr ""
 "d'installer le paquet WAPT, par exemple *tis-java* devra être installé "
 "avant le paquet *LibreOffice*."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:262
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:269
 msgid "Several dependencies may be defined by splitting them with commas (*,*)."
 msgstr ""
 "On peut définir plusieurs dépendances en les séparant par des virgules "
 "(*,*)"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:264
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:271
 msgid "example:"
 msgstr "exemple :"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:271
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:278
 msgid "conflicts"
 msgstr "conflicts"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:273
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:280
 msgid "Works as the opposite of *depends*."
 msgstr "Fonctionne exactement à l'inverse de *depends*."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:275
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:282
 msgid ""
 "*conflicts* defines package(s) that must be removed before installing a "
 "package, for example *tis-firefox* must be removed before the package "
@@ -659,25 +669,25 @@ msgstr ""
 " *firefox* avant d'installer *firefox-esr*, ou bien si vous voulez "
 "*LibreOffice*, alors il faudra désinstaller *OpenOffice* d'abord."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:279
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:286
 msgid "Several conflicts may be defined by splitting them with commas (*,*)."
 msgstr "On peut définir plusieurs conflits en les séparant par des virgules (*,*)."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:282
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:289
 msgid "maturity"
 msgstr "maturity"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:286
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:293
 msgid "Defines the maturity of a package."
 msgstr "Indique la maturité du paquet."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:288
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:295
 msgid ""
 "By default, WAPT gents will see packages flagged as *PROD* and packages "
 "with an empty maturity."
 msgstr "Un agent verra par défault les paquets *PROD* et les paquet sans maturité."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:291
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:298
 msgid ""
 "For a computer to see packages with different maturity levels, you will "
 "have to configure the *maturities* atrtibute in :file:`wapt-get-ini`"
@@ -686,15 +696,15 @@ msgstr ""
 "maturité, il faudra ajouter dans :file:`wapt-get.ini` la configuration "
 "*maturities*."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:295
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:302
 msgid "locale"
 msgstr "locale"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:299
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:306
 msgid "Defines the language of the WAPT package."
 msgstr "Indique la langue du paquet."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:301
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:308
 msgid ""
 "A WAPT agent will see by default packages that are configured for its "
 "language environment and packages with no language specified."
@@ -702,7 +712,7 @@ msgstr ""
 "Un agent verra par défault les paquets dans sa langue et les paquets avec"
 " un champ local sans valeur."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:304
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:311
 msgid ""
 "For a computer to see a package in another language, you will have to "
 "configure the *locales* in :file:`wapt-get.ini`."
@@ -710,7 +720,7 @@ msgstr ""
 "Pour qu'un Poste client puisse voir un paquet d'une autre langue, il "
 "faudra ajouter dans :file:`wapt-get.ini` la configuration *locales*."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:311
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:318
 msgid ""
 "The language filled in the field must be in `ISO 639-1 "
 "<https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes>`_ format."
@@ -718,15 +728,15 @@ msgstr ""
 "La langue indiquée dans ce champ doit être en `format ISO 639-1 "
 "<https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes>`_."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:316
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:323
 msgid "target_os"
 msgstr "target_os"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:320
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:327
 msgid "Defines the Operating System for the package."
 msgstr "Indique le système d'exploitation prévu pour le paquet."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:322
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:329
 msgid ""
 "A WAPT agent will see by default packages that are configured for its "
 "operating system and packages with no operating system specified."
@@ -734,7 +744,7 @@ msgstr ""
 "Un agent verra par défault les paquets prévus pour son système "
 "d'exploitation et les paquets avec un champ ``target_os`` sans valeur."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:325
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:332
 msgid ""
 "The operating systems in the field *target_os* must be *windows* or left "
 "empty."
@@ -742,11 +752,11 @@ msgstr ""
 "Le système d'exploitation indiqué dans le champ *target_os* du paquet "
 "doit être soit *windows* ou bien vide."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:328
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:335
 msgid "min_os_version"
 msgstr "min_os_version"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:332
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:339
 msgid ""
 "Defines the minimal `Windows Operating System Version "
 "<https://msdn.microsoft.com/en-"
@@ -761,11 +771,11 @@ msgstr ""
 "WindowsXP alors qu'il ne fonctionne qu'avec Windows7 et versions "
 "supérieures."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:337
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:344
 msgid "max_os_version"
 msgstr "max_os_version"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:341
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:348
 msgid ""
 "Defines the maximal `Windows Operating System Version "
 "<https://msdn.microsoft.com/en-"
@@ -779,17 +789,17 @@ msgstr ""
 "attribut peut être utilisé pour installer sur Windows7 des versions plus "
 "récentes d'un logiciel qui ne sont plus supportées sous Windows XP."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:346
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:353
 msgid "min_wapt_version"
 msgstr "min_wapt_version"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:350
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:357
 msgid "WAPT minimum version to install a package"
 msgstr ""
 "Il s'agit de la version minimale de WAPT nécessaire pour installer du "
 "paquet."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:354
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:361
 msgid ""
 "With functionalities in WAPT evolving, some functions that you may have "
 "used in old packages may become obsolete with newer versions of WAPT "
@@ -799,26 +809,26 @@ msgstr ""
 "dans vos anciens paquets peuvent devenir obsolètes avec les nouvelles "
 "versions des agents WAPT."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:358
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:365
 msgid "sources"
 msgstr "sources"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:360
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:367
 msgid "Defines a SVN repository, for example:"
 msgstr "Définit un dépôt SVN, par exemple :"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:362
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:364
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:369
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:371
 msgid "https://svn.mydomain.lan/sources/tis-geogebra-wapt/trunk/"
 msgstr "https://svn.mydomain.lan/sources/tis-geogebra-wapt/trunk/"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:366
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:373
 msgid "This method allows to version a package and collaboratively work on it."
 msgstr ""
 "Cela permet de versionner le paquet et de concevoir collaborativement le "
 "paquet."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:370
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:377
 msgid ""
 "Package versioning is particularly useful when several people create "
 "packages in a collaborative way. This function is also useful to trace "
@@ -830,28 +840,27 @@ msgstr ""
 "permet également une traçabilité qui peut être utile dans un contexte "
 "réglementaire."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:375
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:382
 msgid "installed_size"
 msgstr "installed_size"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:377
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:384
 msgid "Defines the required minimum free disk space to install the package."
 msgstr ""
 "Définit un espace disque libre minimum que doit avoir la machine pour "
 "lancer l'installation du paquet."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:379
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:401
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:421
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:441
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:456
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:471
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:486
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:386
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:408
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:428
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:448
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:463
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:478
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:493
 msgid "Example:"
 msgstr "Exemple :"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:385
-
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:392
 msgid ""
 "The testing of available free disk space is done on the "
 ":file:`C:\\\\Program Files` folder."
@@ -859,25 +868,25 @@ msgstr ""
 "Le test d'espace disque disponible est fait sur le dossier "
 ":file:`C:\\Program Files`."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:388
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:395
 msgid "The value set in *installed_size* must be in bytes."
 msgstr "La valeur renseignée dans *installed_size* doit être en bytes."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:392
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:399
 msgid "To convert storage values to bytes, visit http://bit-calculator.com/."
 msgstr ""
 "Pour convertir des valeurs de stockage en bytes, visiter "
 "http://www.convertworld.com/fr/mesures-informatiques/."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:395
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:402
 msgid "impacted_process"
 msgstr "impacted_process"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:399
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:406
 msgid "Indicates processes that are impacted when installing a package."
 msgstr "Indique les processus impactés par le paquet."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:407
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:414
 msgid ""
 "This field is used by the functions :command:`install_msi_if_needed` and "
 ":command:`install_exe_if_needed` if *killbefore* has not been filled."
@@ -885,7 +894,7 @@ msgstr ""
 "Ce champ est utilisé par les fonctions :command:`install_msi_if_needed` "
 "et :command:`install_exe_if_needed` si *killbefore* n'est pas renseigné."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:410
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:417
 msgid ""
 "*impacted_process* is also used when uninstalling a package. This allows "
 "to close the application if the application is running before being "
@@ -895,23 +904,23 @@ msgstr ""
 "paquet. Cela permet de fermer l'application si l'application est "
 "ouverture avant sa désinstallation."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:415
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:422
 msgid "audit_schedule"
 msgstr "audit_schedule"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:419
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:426
 msgid "Periodicity of execution of audit checks."
 msgstr "Indique une periodicité pour l'exécution de la fonction audit du paquet."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:427
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:434
 msgid "The periodicity may be indicated in several ways:"
 msgstr "La valeur peut être indiquée de plusieurs manières :"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:429
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:436
 msgid "an integer (in minutes);"
 msgstr "Un entier (en minutes) ;"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:431
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:438
 msgid ""
 "an integer followed by a letter (*m* = minutes, *h* = hours, *d* = days, "
 "*w* = weeks);"
@@ -919,18 +928,18 @@ msgstr ""
 "un entier suivi d'une lettre (*m* = minutes , *h* = heure , *d* = jour , "
 "*w* = semaine) ;"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:435
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:442
 msgid "editor"
 msgstr "editor"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:439
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:446
 msgid "Software editor of the binaries embedded in the WAPT base package."
 msgstr "Indique le nom de l'éditeur du logiciel embarqué dans le paquet WAPT."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:447
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:462
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:477
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:492
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:454
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:469
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:484
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:499
 msgid ""
 "The values may be used as filters in the WAPT console and with the self-"
 "service."
@@ -938,45 +947,45 @@ msgstr ""
 "La liste des valeurs pourra être utilisée dans la console et dans le "
 "selfservice pour trier les paquets."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:450
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:457
 msgid "keywords"
 msgstr "keywords"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:454
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:461
 msgid "Keyword list to categorize the WAPT package."
 msgstr "Liste de mots clés décrivant le paquet dans un objectif de classification."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:465
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:472
 msgid "licence"
 msgstr "licence"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:469
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:476
 msgid "Reference of the software license for the embedded software binaries."
 msgstr "Indique la licence du logiciel integré dans le paquet"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:480
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:487
 msgid "homepage"
 msgstr "homepage"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:484
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:491
 msgid "Official homepage of the software binaries embedded in the WAPT package."
 msgstr ""
 "Indique la page d'accueil du site officiel de logiciel integrée dans le "
 "paquet."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:495
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:502
 msgid "signer"
 msgstr "signer"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:497
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:505
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:512
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:519
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:526
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:504
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:512
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:519
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:526
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:533
 msgid "Automatically filled during package signature."
 msgstr "Automatiquement renseigné lors de la signature des paquets."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:499
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:506
 msgid ""
 ":abbr:`CN (Common Name)` of the certificate. It is typically the signer's"
 " full name."
@@ -985,57 +994,57 @@ msgstr ""
 "signataire du paquet. Il s'agit le plus souvent du nom complet du "
 "signataire."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:503
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:510
 msgid "signer_fingerprint"
 msgstr "signer_fingerprint"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:507
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:514
 msgid "Private key fingerprint of the package signer."
 msgstr "Il s'agit de l'empreinte de la clé privée qui a signé le paquet."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:510
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:517
 msgid "signature"
 msgstr "signature"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:514
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:521
 msgid "Signature of the attributes of the package."
 msgstr "Il s'agit de la signature des attributs du paquet."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:517
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:524
 msgid "signature_date"
 msgstr "signature_date"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:521
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:528
 msgid "Date when the attributes of the package have been signed."
 msgstr "Il s'agit de la date de signature des attributs du paquet."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:524
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:531
 msgid "signed_attributes"
 msgstr "signed_attributes"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:528
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:535
 msgid "List of the package's attributes that are signed"
 msgstr "Il s'agit de la liste des attributs signés."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:533
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:540
 msgid "The *setup.py* file"
 msgstr "Le fichier *setup.py*"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:536
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:543
 msgid "import setuphelpers"
 msgstr "import setuphelpers"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:538
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:545
 msgid "That line is found at the beginning of every WAPT package:"
 msgstr "On trouvera au début de chaque paquet cette ligne :"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:544
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:551
 msgid "The package imports all setuphelpers functions."
 msgstr ""
 "Nous demandons au paquet d'importer toutes les fonctions depuis la "
 "librairie ``Setuphelpers``."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:546
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:553
 msgid ""
 "*Setuphelpers* is a WAPT library that offers many methods to more easily "
 "develop highly functional packages."
@@ -1043,15 +1052,15 @@ msgstr ""
 "*Setuphelpers* est la librairie integrée à WAPT, elle embarque des "
 "fonctions simplifiées pour aider à créer des paquets."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:550
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:557
 msgid "uninstallkey list"
 msgstr "uninstallkey list"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:552
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:559
 msgid "We then find:"
 msgstr "Nous trouvons ensuite :"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:558
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:565
 msgid ""
 "We associate here a list of *uninstall keys* to the package. When a "
 "package is removed, the WAPT agent looks up the *uninstallkey* in the "
@@ -1064,7 +1073,7 @@ msgstr ""
 "indiquera à l'agent WAPT les actions à déclencher pour supprimer le "
 "logiciel."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:563
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:570
 msgid ""
 "Even if there is no *uninstallkey* for a software, it is mandatory to "
 "declare an empty *uninstallkey* array:"
@@ -1072,51 +1081,51 @@ msgstr ""
 "Même s'il n'y a pas de *uninstallkey* pour le paquet, il faudra quand "
 "même déclarer une *uninstallkey* vide :"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:571
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:578
 msgid "Function install()"
 msgstr "Fonction install()"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:573
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:580
 msgid "Then comes the :file:`setup.py` function declaration."
 msgstr "Vient ensuite la déclaration de la fonction :program:`setup.py`."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:575
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:582
 msgid ""
 "It is the recipe of the WAPT package, the set of instructions that will "
 "be executed."
 msgstr "C'est la recette du paquet WAPT."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:584
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:591
 msgid "The *wapt.psproj* file"
 msgstr "Le fichier *wapt.psproj*"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:586
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:593
 msgid "Package project file :file:`wapt.psproj` is found in the WAPT folder."
 msgstr "On trouve dans le dossier WAPT un fichier :file:`wapt.psproj`."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:588
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:595
 msgid "It's the PyScripter project file for the WAPT package."
 msgstr "C'est le projet PyScripter du paquet WAPT."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:590
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:597
 msgid "To edit a package with :program:`PyScripter`, just open the file."
 msgstr ""
 "Pour éditer un paquet avec :program:`PyScripter`, il suffira d'ouvrir ce "
 "fichier."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:593
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:600
 msgid "The *icon.png* file"
 msgstr "Le fichier *icon.png*"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:595
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:602
 msgid "The :file:`icon.png` icon file is located in the WAPT folder."
 msgstr "On trouve dans le dossier WAPT un fichier :file:`icon.png`."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:597
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:604
 msgid "It associates an icon to the package."
 msgstr "Il permet d'associer une icône au paquet."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:599
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:606
 msgid ""
 "That icon will appear in the local web interface of WAPT self-service "
 "(http://127.0.0.1:8088)."
@@ -1124,36 +1133,35 @@ msgstr ""
 "Cette icône apparaîtra dans l'interface web du self-service WAPT "
 "(http://127.0.0.1:8088)."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:604
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:611
 msgid "The icon must be a 48px per 48px PNG file."
 msgstr "L'icône devra être au format png 48px par 48px."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:607
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:614
 msgid "The *manifest.sha256* file"
 msgstr "Le fichier *manifest.sha256*"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:609
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:616
 msgid "The :file:`manifest.sha256` manifest file is located in the WAPT folder."
 msgstr "On trouve dans le dossier WAPT un fichier :file:`manifest.sha256`."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:611
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:618
 msgid "It contains the sha256 fingerprint of every file in the WAPT package."
 msgstr "Il contient l'empreinte sha256 de chaque fichier du package."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:616
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:623
 msgid "The :file:`signature` signature file is located in the WAPT folder."
 msgstr "On trouve dans le dossier WAPT un fichier :file:`signature`."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:618
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:625
 msgid "It contains the signature of the :file:`manifest.sha256` file."
 msgstr "Le fichier contient la signature du fichier :file:`manifest.sha256`."
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:620
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:627
 msgid "On installing a package, :program:`wapt-get` checks:"
 msgstr "A l'installation du paquet, :program:`wapt-get` vérifie :"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:622
-
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:629
 msgid ""
 "that the signature of :file:`manifest.sha256` matches the actual "
 ":file:`manifest.sha256` file (the agent will verify the public "
@@ -1163,7 +1171,7 @@ msgstr ""
 ":file:`manifest.sha256` actuel (l\\'agent testera les certificats publics"
 " présents dans :file:`C:\\Program Files (x86)\\wapt\\ssl`) ;"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:626
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:633
 msgid ""
 "that the sha256 fingerprint of each file is identical to the fingerprint "
 "in the :file:`manifest.sha256` file;"
@@ -1171,17 +1179,17 @@ msgstr ""
 "que l'empreinte sha256 de chaque fichier est identique à celle contenue "
 "dans le fichier :file:`manifest.sha256` ;"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:630
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:637
 msgid "Other files"
 msgstr "Autres fichiers"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:632
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:639
 msgid "Other files may be embedded in the WAPT package. For example:"
 msgstr ""
 "D'autres fichiers peuvent être embarqués dans le paquet WAPT. Par "
 "exemple :"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:634
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:641
 msgid ""
 "an installer beside your :file:`setup.py` to be called in your "
 ":program:`setup.py`;"
@@ -1189,11 +1197,11 @@ msgstr ""
 "un installeur à côté du :file:`setup.py` à appeler dans votre "
 ":program:`setup.py` ;"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:637
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:644
 msgid "an answer file to pass on to the software installer;"
 msgstr "un fichier de réponses à passer à l'installeur du logiciel ;"
 
-#: ../../source/wapt-create-packages/wapt-package-structure/index.rst:639
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:646
 msgid "a license file;"
 msgstr "un fichier de licence ;"
 
@@ -1372,4 +1380,7 @@ msgstr "un fichier de licence ;"
 
 #~ msgid "guilabel:`section"
 #~ msgstr "guilabel:`section"
+
+#~ msgid "a :file:`wapt.psproj` file in the folder :file:`WAPT`;"
+#~ msgstr "Un fichier :file:`wapt.psproj` dans le dossier :file:`WAPT` ;"
 

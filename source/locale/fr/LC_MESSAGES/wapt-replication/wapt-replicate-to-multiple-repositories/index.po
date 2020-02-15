@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-05 12:22+0100\n"
+"POT-Creation-Date: 2020-02-15 13:51+0100\n"
 "PO-Revision-Date: 2018-11-06 14:34+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -14,28 +14,30 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:8
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:17
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:8
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:17
 msgid "Replicating a repository to preserve the bandwidth on remote sites"
 msgstr "Répliquer un dépôt pour préserver la bande passante des sites secondaires"
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:8
-msgid "multiple repository, WAPT, replication, replicate, bandwidth, Syncthing"
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:8
+#, fuzzy
+msgid "multiple repositories, WAPT, replication, replicate, bandwidth management"
 msgstr "multi-dépôt, WAPT, réplication, bande passante, Syncthing,"
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:19
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:19
+#, fuzzy
 msgid ""
 "When WAPT is used on bandwidth limited remote sites, it makes sense to "
-"have a local device that replicates the main WAPT repository to reduce "
-"the network bandwidth consumed when deploying updates on your remote "
-"devices."
+"have a local device that will replicate the main WAPT repository to "
+"reduce the network bandwidth consumed when deploying updates on your "
+"remote devices."
 msgstr ""
 "Lorsque WAPT est utilisé sur plusieurs sites distants avec des liens "
 "Internet à faible débit, il devient pertinent de mettre en place un "
 "système de réplication pour alléger la charge réseau liée aux déploiement"
 " des mises à jour WAPT sur les machines de votre parc."
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:23
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:23
 msgid ""
 "With remote repositories, WAPT remains a solution with a low operating "
 "cost because you don't have to implement high bandwidth fiber links to "
@@ -44,24 +46,26 @@ msgstr ""
 "Ainsi, WAPT reste une solution à faible coût d'exploitation car vous "
 "n'aurez pas à passer à la fibre pour bénéficier des avantages de WAPT."
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:31
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:31
 msgid "Replicating WAPT repositories"
 msgstr "Répliquer un dépôt"
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:33
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:33
 msgid "It works as follows:"
 msgstr "Le principe est le suivant :"
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:35
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:35
+#, fuzzy
 msgid ""
 "a small form factor and no maintenance appliance with the role of "
 "secondary repository is deployed on the local network of each remote "
-"site;"
+"site; a workstation can also be used, although it may not be up and "
+"running if you want to connect to it;"
 msgstr ""
 "un petit boîtier avec le rôle de dépôt WAPT est déployé sur le réseau "
 "local de chacun des sites distants ;"
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:39
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:40
 msgid ""
 "the remote repository replicates the packages from the main repository "
 "and other repositories;"
@@ -69,441 +73,454 @@ msgstr ""
 "le dépôt distant réplique les paquets depuis le dépôt principal WAPT et "
 "les éventuels dépôts secondaires ;"
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:42
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:43
 msgid ""
 "the WAPT clients connect in priority with the repository that is the "
 "closest to them, the local repository;"
 msgstr "les clients WAPT consultent en priorité le dépôt le plus proche ;"
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:48
-msgid "The former method used to sync repositories was Syncthing."
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:48
+msgid ""
+"The former method used to sync repositories was Syncthing and that method"
+" is available both for the Community and the Enterprise versions of WAPT."
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:50
-msgid "You can find the old documentation here : :ref:`syncthing_usage`"
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:51
+msgid "You can find the old documentation here : :ref:`syncthing_usage`."
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:54
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:53
+msgid "**The method explained below is for the Enterprise version only**."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:56
 msgid "WAPT Agent replication role"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:56
-msgid ""
-"Starting with WAPT 1.8, repository replication can be enabled using WAPT "
-"agent installed on an existing machine, a dedicated appliance or Virtual "
-"Machine."
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:58
+msgid "1.8 Enterprise"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:58
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:60
 msgid ""
-"The replication role is deployed through a WAPT package that enables "
-"Nginx web server and configures scheduling, packages types, packages "
-"sync, and much more."
+"Starting with WAPT 1.8, repository replication can be enabled using a "
+"WAPT agent installed on an existing machine, a dedicated appliance or "
+"Virtual Machine."
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:60
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:63
 msgid ""
-"Coming with that feature, repository rules allows agent to dynamically "
-"select the best WAPT repository from a list of rules stored on the "
-"server."
+"The replication role is deployed through a WAPT package that enables the "
+":program:`Nginx web server` and configures scheduling, packages types, "
+"packages sync, and much more."
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:63
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:67
+msgid ""
+"This feature allows WAPT agents to find dynamically their closest "
+"available WAPT repository from a list of rules stored on the WAPT server."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:71
 msgid "Replication behavior"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:65
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:73
 msgid ""
-"Repository replication in WAPT is now handled by WAPT Agent natively "
-"(Enterprise versions only)"
+"Repository replication in WAPT is now handled by WAPT agents natively "
+"(**Enterprise versions only**)."
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:67
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:76
 msgid ""
-"It's based on a ``sync.json`` file which indexes every files present in "
-"these folders :"
+"It is based on a :file:`sync.json` file which indexes every files present"
+" in these folders:"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:69
-msgid "wapt"
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:79
+msgid "wapt;"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:70
-msgid "waptwua"
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:81
+msgid "waptwua;"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:71
-msgid "wapt-host"
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:83
+msgid "wapt-host;"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:73
-msgid "Enabling replication has the following effects :"
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:85
+msgid "Enabling replication has the following effects:"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:75
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:87
 msgid ""
-"Once ``enable_remote_repo`` is enabled on an agent, it will sync packages"
-" locally inside the ``local_repo_path`` folder."
+"once ``enable_remote_repo`` is enabled on a WAPT agent, it will sync "
+"packages locally inside the :file:`local_repo_path` folder;"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:76
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:90
 msgid ""
-"It adds that agent in the :guilabel:`Repositories` tab as a Remote "
+"it adds the WAPT agent in the :guilabel:`Repositories` tab as a Remote "
 "repository, enabling new actions such as :guilabel:`Force Sync` or "
-":guilabel:`Check files`."
+":guilabel:`Check files`;"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:77
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:94
 msgid ""
-"By default, only wapt folder is synced, you can select which folder to "
-"sync by adding up elements in ``remote_repo_dirs`` parameters."
+"by default, only the :file:`wapt` folder is synchronized, you can select "
+"which folder to sync by adding up elements in ``remote_repo_dirs`` "
+"parameters;"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:78
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:97
 msgid ""
-"Synchronization period can be configured with "
+"synchronization period can be configured with "
 "``local_repo_time_for_sync_start`` and ``local_repo_time_for_sync_stop`` "
-"parameters"
+"parameters;"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:79
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:100
 msgid ""
-"Bandwidth allocated to sync is configured with "
-"``local_repo_limit_bandwidth``"
+"bandwidth allocated to sync can be configured with "
+"``local_repo_limit_bandwidth``;"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:81
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:102
 msgid ""
-"Every parameters of WAPT repository sync must be set in ``[repo-sync]`` "
-"section of :file:`wapt-get.ini`"
+"Every parameters of WAPT repository sync must be set in the ``[repo-"
+"sync]`` section of the WAPT agent's :file:`wapt-get.ini` configuration "
+"file."
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:88
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:110
 msgid "Replication role behavior"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:92
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:113
 msgid "Enabling replication on WAPT Agent"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:94
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:115
 msgid ""
 "To enable replication on an existing agent (Linux/Windows) you need to "
-"deploy a WAPT package. It's role is to :"
+"deploy a WAPT package. It's role is to:"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:96
-msgid "Install and enable Nginx web server"
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:118
+msgid "install and enable the :program:`Nginx web server`;"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:97
-msgid "Configure nginx virtualhost"
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:120
+msgid "configure nginx virtualhost;"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:98
-msgid "Enable remote repository configuration in :file:`wapt-get.ini`"
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:122
+msgid "enable remote repository configuration in :file:`wapt-get.ini`;"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:100
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:124
 msgid ""
-"A package is available in our public store to enable repository "
-"replication on Windows or Linux WAPT agent : https://store.wapt.fr/store"
-"/tis-remote-repo-conf"
+"A ready-to-use WAPT package is available in our public store to enable "
+"repository replication on Windows or Linux WAPT agents: "
+"https://store.wapt.fr/store/tis-remote-repo-conf."
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:104
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:129
 msgid "WAPT Agent replication configuration"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:106
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:131
 msgid ""
-"WAPT Agent replication configuration is set in ``[repo-sync]`` section of"
-" :file:`wapt-get.ini` :"
+"WAPT Agent replication configuration is set in the ``[repo-sync]`` "
+"section in the :file:`wapt-get.ini` configuration file of the WAPT agent:"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:109
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:152
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:185
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:211
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:135
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:176
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:211
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:241
 msgid "Options"
 msgstr "Options"
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:109
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:211
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:135
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:241
 msgid "Mandatory"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:109
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:152
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:185
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:211
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:135
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:176
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:211
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:241
 msgid "Example value"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:109
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:152
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:185
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:211
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:135
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:176
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:211
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:241
 msgid "Definition"
 msgstr "Définition"
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:111
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:137
 msgid "``enable_remote_repo``"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:111
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:113
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:137
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:139
 msgid "Yes"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:111
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:213
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:137
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:243
 msgid "``True``"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:111
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:137
 msgid "Enables remote repository sync connections."
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:113
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:139
 msgid "``local_repo_path``"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:113
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:139
 msgid "``/var/www/``"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:113
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:139
 msgid "Set local packages root repository path"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:115
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:141
 msgid "``local_repo_time_for_sync_start``"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:115
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:117
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:119
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:121
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:123
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:213
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:141
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:143
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:145
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:147
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:149
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:243
 msgid "No"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:115
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:141
 msgid "``22:30``"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:115
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:141
 msgid "Set sync start time (HH:MM / 24h format)"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:117
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:143
 msgid "``local_repo_time_for_sync_end``"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:117
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:143
 msgid "``05:30``"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:117
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:143
 msgid "Set sync stop time (HH:MM / 24h format)"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:119
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:145
 msgid "``local_repo_sync_task_period``"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:119
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:145
 msgid "``25``"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:119
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:145
 msgid "Set sync period (minutes)"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:121
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:147
 msgid "``local_repo_limit_bandwidth``"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:121
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:147
 msgid "``2``"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:121
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:147
 msgid "Set sync allowed bandwidth (Mbits/s)"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:123
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:149
 msgid "``remote_repo_dirs``"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:123
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:149
 msgid "``wapt,waptwua,wapt-host``"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:123
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:149
 msgid "Set synced folders (default: wapt,waptwua)"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:127
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:216
-msgid "Below an example of :file:`wapt-get.ini` :"
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:152
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:246
+msgid "Below is an example of :file:`wapt-get.ini`:"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:147
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:170
 msgid "WAPT Server replication configuration"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:149
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:172
 msgid ""
-"WAPT Server need to be aware of repository sync in ``[global]`` section "
-"of :file:`waptserver.ini` :"
+"The WAPT Server needs to be aware of repositories to sync in the "
+"``[global]`` section of its :file:`waptserver.ini` file:"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:154
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:178
 msgid "``remote_repo_support``"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:154
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:178
 msgid "True"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:154
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:178
 msgid "Enables remote repository sync server side (sync.json)"
 msgstr "ajouter la machine distante :"
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:159
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:182
 msgid "Repository rules"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:162
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:174
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:185
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:201
 #, fuzzy
 msgid "Repository rules behavior"
 msgstr "Répliquer un dépôt"
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:164
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:187
 msgid ""
-"By enabling repository rules support, WAPT agent will automatically "
-"retrieve :file:`rules.json` file from WAPT server."
+"By enabling repository rules support, the WAPT agents will automatically "
+"retrieve their :file:`rules.json` file from the WAPT server."
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:166
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:190
 msgid ""
-"The :file:`rules.json` file is a signed JSON file containing a list of "
-"sorted rules to apply to WAPT agent, redirecting its downloads to the "
-"appropriate repository."
+"The :file:`rules.json` file is a signed :mimetype:`.JSON` file that "
+"contains a list of sorted rules to apply to the WAPT agent, so to "
+"redirect its downloads from the most appropriate repository."
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:168
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:194
 msgid ""
-"If no rules can be matched, WAPT agent fallbacks to :file:`wapt-get.ini` "
-":command:`repo_url` file settings."
+"If no rules can be matched, WAPT agent fallbacks onto the ``repo_url`` "
+"settings of the WAPT server :file:`wapt-get.ini` configuration file."
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:178
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:204
 #, fuzzy
 msgid "Enabling repository rules"
 msgstr "Répliquer un dépôt"
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:180
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:206
 msgid "Repository rules are configured in WAPT Console."
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:182
-msgid "It can be based on several parameters :"
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:208
+msgid "It can be based on several parameters:"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:187
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:213
 msgid "Domain name"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:187
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:213
 msgid "``ad.domain.lan``"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:187
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:213
 msgid "Rule based on Active Directory domain name"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:188
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:215
 msgid "Domain sites and services"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:188
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:215
 msgid "``Paris-HQ``"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:188
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:215
 msgid "Rule based on Active Directory Sites and Services"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:189
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:217
 msgid "Agent IP"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:189
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:217
 msgid "``192.168.85.0/24``"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:189
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:217
 msgid "Rule based on Agent IP sub-network"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:190
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:219
 msgid "Public IP"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:190
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:219
 msgid "``256.89.299.22/32``"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:190
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:219
 msgid "Rule based on Public IP (NATed hosts)"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:191
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:221
 msgid "Hostname"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:191
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:221
 msgid "``desktop-04feb1``"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:191
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:221
 msgid "Rule based on hostname"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:195
-msgid "Add a rule in WAPT Console"
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:225
+msgid "Adding a rule in the WAPT Console"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst
 msgid "TODO"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:201
-msgid "Use repository rules on WAPT agent"
-msgstr ""
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:230
+#, fuzzy
+msgid "Using repository rules on WAPT agents"
+msgstr "Répliquer un dépôt"
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:205
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:234
 msgid ""
-"If you already configured GeoIP redirects on Nginx, you should disable it"
-" as it might conflicts with repository rules."
+"**If you have configured GeoIP redirects on Nginx, you should disable it "
+"as it might conflicts with repository rules**."
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:208
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:237
 msgid ""
-"To enable WAPT Agent repository rules usage, you must enable a settings "
-"in ``[global]`` section of :file:`wapt-get.ini` :"
+"To enable WAPT Agent repository rules, you must enable this setting in "
+"the ``[global]`` section of :file:`wapt-get.ini` configuration of the "
+"WAPT agent:"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:213
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:243
 msgid "``use_repo_rules``"
 msgstr ""
 
-#: ../../source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:213
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:243
 msgid "Enables repository rules usage"
 msgstr ""
 
@@ -1136,5 +1153,179 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "``256.89.299.22``"
+#~ msgstr ""
+
+#~ msgid "The former method used to sync repositories was Syncthing."
+#~ msgstr ""
+
+#~ msgid "You can find the old documentation here : :ref:`syncthing_usage`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Starting with WAPT 1.8, repository "
+#~ "replication can be enabled using WAPT"
+#~ " agent installed on an existing "
+#~ "machine, a dedicated appliance or "
+#~ "Virtual Machine."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The replication role is deployed through"
+#~ " a WAPT package that enables Nginx"
+#~ " web server and configures scheduling, "
+#~ "packages types, packages sync, and much"
+#~ " more."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Coming with that feature, repository "
+#~ "rules allows agent to dynamically select"
+#~ " the best WAPT repository from a "
+#~ "list of rules stored on the "
+#~ "server."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Repository replication in WAPT is now"
+#~ " handled by WAPT Agent natively "
+#~ "(Enterprise versions only)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "It's based on a ``sync.json`` file "
+#~ "which indexes every files present in "
+#~ "these folders :"
+#~ msgstr ""
+
+#~ msgid "wapt"
+#~ msgstr ""
+
+#~ msgid "waptwua"
+#~ msgstr ""
+
+#~ msgid "wapt-host"
+#~ msgstr ""
+
+#~ msgid "Enabling replication has the following effects :"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once ``enable_remote_repo`` is enabled on "
+#~ "an agent, it will sync packages "
+#~ "locally inside the ``local_repo_path`` folder."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "It adds that agent in the "
+#~ ":guilabel:`Repositories` tab as a Remote "
+#~ "repository, enabling new actions such as"
+#~ " :guilabel:`Force Sync` or :guilabel:`Check "
+#~ "files`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "By default, only wapt folder is "
+#~ "synced, you can select which folder "
+#~ "to sync by adding up elements in"
+#~ " ``remote_repo_dirs`` parameters."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Synchronization period can be configured "
+#~ "with ``local_repo_time_for_sync_start`` and "
+#~ "``local_repo_time_for_sync_stop`` parameters"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Bandwidth allocated to sync is "
+#~ "configured with ``local_repo_limit_bandwidth``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Every parameters of WAPT repository sync"
+#~ " must be set in ``[repo-sync]`` "
+#~ "section of :file:`wapt-get.ini`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To enable replication on an existing "
+#~ "agent (Linux/Windows) you need to deploy"
+#~ " a WAPT package. It's role is "
+#~ "to :"
+#~ msgstr ""
+
+#~ msgid "Install and enable Nginx web server"
+#~ msgstr ""
+
+#~ msgid "Configure nginx virtualhost"
+#~ msgstr ""
+
+#~ msgid "Enable remote repository configuration in :file:`wapt-get.ini`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A package is available in our "
+#~ "public store to enable repository "
+#~ "replication on Windows or Linux WAPT "
+#~ "agent : https://store.wapt.fr/store/tis-remote-"
+#~ "repo-conf"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "WAPT Agent replication configuration is "
+#~ "set in ``[repo-sync]`` section of "
+#~ ":file:`wapt-get.ini` :"
+#~ msgstr ""
+
+#~ msgid "Below an example of :file:`wapt-get.ini` :"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "WAPT Server need to be aware of"
+#~ " repository sync in ``[global]`` section"
+#~ " of :file:`waptserver.ini` :"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "By enabling repository rules support, "
+#~ "WAPT agent will automatically retrieve "
+#~ ":file:`rules.json` file from WAPT server."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The :file:`rules.json` file is a signed"
+#~ " JSON file containing a list of "
+#~ "sorted rules to apply to WAPT "
+#~ "agent, redirecting its downloads to the"
+#~ " appropriate repository."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If no rules can be matched, WAPT"
+#~ " agent fallbacks to :file:`wapt-get.ini`"
+#~ " :command:`repo_url` file settings."
+#~ msgstr ""
+
+#~ msgid "It can be based on several parameters :"
+#~ msgstr ""
+
+#~ msgid "Add a rule in WAPT Console"
+#~ msgstr ""
+
+#~ msgid "Use repository rules on WAPT agent"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you already configured GeoIP "
+#~ "redirects on Nginx, you should disable"
+#~ " it as it might conflicts with "
+#~ "repository rules."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To enable WAPT Agent repository rules"
+#~ " usage, you must enable a settings"
+#~ " in ``[global]`` section of :file:`wapt-"
+#~ "get.ini` :"
 #~ msgstr ""
 

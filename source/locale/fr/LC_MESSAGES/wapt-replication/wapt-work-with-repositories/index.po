@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 14:09+0100\n"
+"POT-Creation-Date: 2020-02-15 13:51+0100\n"
 "PO-Revision-Date: 2019-02-27 11:44+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -14,21 +14,23 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: ../../source/wapt-replication/wapt-work-with-repositories/index.rst:8
-#: ../../source/wapt-replication/wapt-work-with-repositories/index.rst:14
-msgid "Working with multiple repositories"
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-work-with-repositories/index.rst:8
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-work-with-repositories/index.rst:16
+#, fuzzy
+msgid "Working with multiple public or private repositories"
 msgstr "Fonctionner avec plusieurs dépôts"
 
-#: ../../source/wapt-replication/wapt-work-with-repositories/index.rst:8
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-work-with-repositories/index.rst:8
+#, fuzzy
 msgid ""
-"multi-repositories, business applications, licenced applications, license"
+"multi-repositories, business applications, licensed applications, license"
 " restricted software, self-service applications"
 msgstr ""
 "multi-dépôt, WAPT, applications métier, applications commerciales, "
 "applications soumises à licence, logiciels soumis à licences, libre "
 "service"
 
-#: ../../source/wapt-replication/wapt-work-with-repositories/index.rst:16
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-work-with-repositories/index.rst:18
 msgid ""
 "Multi-repository is now supported by WAPT. This functionality is useful "
 "in several use cases:"
@@ -36,7 +38,7 @@ msgstr ""
 "Le multi-dépôt est maintenant géré par WAPT ; cette fonctionnalité est "
 "utile dans différents cas :"
 
-#: ../../source/wapt-replication/wapt-work-with-repositories/index.rst:19
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-work-with-repositories/index.rst:21
 msgid ""
 "to use a secondary private repository, hosting business application "
 "packages, independently of your main repository;"
@@ -44,7 +46,7 @@ msgstr ""
 "pour utiliser un dépôt privé servant à héberger les applications métier "
 "propres à la structure en complément d'un autre dépôt ;"
 
-#: ../../source/wapt-replication/wapt-work-with-repositories/index.rst:22
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-work-with-repositories/index.rst:24
 msgid ""
 "to have remote repositories closer to users in a multi-site architecture "
 "scenario;"
@@ -52,7 +54,7 @@ msgstr ""
 "pour avoir des dépôts privés à proximité des utilisateurs dans un "
 "scénario multi-établissements ;"
 
-#: ../../source/wapt-replication/wapt-work-with-repositories/index.rst:25
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-work-with-repositories/index.rst:27
 msgid ""
 "to allow the usage of an open repository and a secondary repository with "
 "restricted access (licensed software..);"
@@ -61,12 +63,11 @@ msgstr ""
 "service et des dépôts avec restrictions d'accès (logiciels soumis à "
 "licences ...) ;"
 
-#: ../../source/wapt-replication/wapt-work-with-repositories/index.rst:32
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-work-with-repositories/index.rst:34
 msgid "Multi-repository WAPT architecture"
 msgstr "Le multi-dépôts avec WAPT"
 
-#: ../../source/wapt-replication/wapt-work-with-repositories/index.rst:36
-
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-work-with-repositories/index.rst:38
 msgid ""
 "When using repositories with different signers, the additional signer's "
 "public certificates must be added to :file:`C:\\\\Program Files "
@@ -77,21 +78,21 @@ msgstr ""
 " dossier :file:`C:\\Program Files (x86)\\wapt\\ssl` de l'agent WAPT "
 "déployé."
 
-#: ../../source/wapt-replication/wapt-work-with-repositories/index.rst:40
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-work-with-repositories/index.rst:42
 msgid ""
 "Please refer to the documentation to :ref:`create the WAPT agent "
 "<create_WAPT_agent>`."
 msgstr "Voir la documentation :ref:`pour créer l'agent WAPT <create_WAPT_agent>`."
 
-#: ../../source/wapt-replication/wapt-work-with-repositories/index.rst:44
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-work-with-repositories/index.rst:46
 msgid "Configuring the WAPT agents"
 msgstr "Paramétrer les agents WAPT"
 
-#: ../../source/wapt-replication/wapt-work-with-repositories/index.rst:46
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-work-with-repositories/index.rst:48
 msgid "*repositories* parameter:"
 msgstr "paramètre *repositories* :"
 
-#: ../../source/wapt-replication/wapt-work-with-repositories/index.rst:48
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-work-with-repositories/index.rst:50
 msgid ""
 "The parameter *repository* in the ``[global]`` section of the :file"
 ":`wapt-get.ini` file allows to set several options for package "
@@ -103,11 +104,11 @@ msgstr ""
 " ici, dont les paramètres sont à indiquer dans des sections "
 "supplémentaires en fin du fichier :file:`wapt-get.ini`."
 
-#: ../../source/wapt-replication/wapt-work-with-repositories/index.rst:57
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-work-with-repositories/index.rst:59
 msgid "settings of secondary repositories"
 msgstr "paramètres des dépôts secondaires :"
 
-#: ../../source/wapt-replication/wapt-work-with-repositories/index.rst:67
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-work-with-repositories/index.rst:69
 msgid ""
 "With that configuration, WAPT clients will now see packages from the main"
 " repository and from the secondary repository."
@@ -115,11 +116,11 @@ msgstr ""
 "Avec cette configuration, le client verra maintenant les paquets "
 "disponibles sur le dépôt secondaire en plus du dépôt principal."
 
-#: ../../source/wapt-replication/wapt-work-with-repositories/index.rst:70
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-work-with-repositories/index.rst:72
 msgid "The WAPT agents will look for updates on both repositories."
 msgstr "L'agent WAPT ira rechercher des mises à jours dans les deux dépôts."
 
-#: ../../source/wapt-replication/wapt-work-with-repositories/index.rst:76
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-work-with-repositories/index.rst:78
 msgid ""
 "Packages from the secondary repository will also be visible using the web"
 " interface http://127.0.0.1:8088 on WAPT equipped devices."
@@ -127,11 +128,11 @@ msgstr ""
 "Les paquets du dépôt secondaire sont également visibles sur l'interface "
 "web http://127.0.0.1:8088 du poste équipé de l'agent WAPT."
 
-#: ../../source/wapt-replication/wapt-work-with-repositories/index.rst:80
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-work-with-repositories/index.rst:82
 msgid "Configuring the WAPT console with several private repositories"
 msgstr "Paramétrer la console WAPT avec plusieurs dépôts privés"
 
-#: ../../source/wapt-replication/wapt-work-with-repositories/index.rst:82
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-work-with-repositories/index.rst:84
 msgid ""
 "After having configured the WAPT agent for using multiple repositories, "
 "we can make the two repositories show up in the WAPT console."
@@ -139,7 +140,7 @@ msgstr ""
 "Après avoir paramétré les agents WAPT pour utiliser deux dépôts, on peut "
 "faire apparaître ces deux dépôts simultanément dans la console."
 
-#: ../../source/wapt-replication/wapt-work-with-repositories/index.rst:85
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-work-with-repositories/index.rst:87
 msgid ""
 "To do so, modify :file:`%appdata%\\local\\waptconsole\\waptconsole.ini` "
 "file:"
