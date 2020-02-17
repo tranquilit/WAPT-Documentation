@@ -14,9 +14,9 @@
 Configuring WAPT Server for large deployment
 ============================================
 
-The default out-of-the-box WAPT configuration is tailored for about 400 clients. 
-If you have more than 400 clients it is necessary to modify a few system level 
-parameters along with database, nginx and waptserver python server.
+The default operating system, Nginx and Postgresql configuration is adapted for
+around 400 clients in WAPTServer. If you have more than 400 clients it is necessary to 
+modify a few system level parameters along with database, nginx and waptserver python server.
 
 In the future the postconf.sh script might take in charge this configuration 
 depending on the expected number of client computer. 
