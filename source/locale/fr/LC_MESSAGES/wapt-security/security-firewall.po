@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Tranquil IT
+# This file is distributed under the same license as the WAPT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WAPT 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-17 16:07+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-security/security-firewall.rst:8
+msgid "Configuring authentication against Active Directory"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-security/security-firewall.rst:8
+msgid "Firewall, WAPT, security, Kerberos, documentation"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-security/security-firewall.rst:15
+msgid "Firewall configuration for WAPT Server"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-security/security-firewall.rst:17
+msgid ""
+"WAPT Server firewall configuration is essential and should be the first "
+"step towards achieving better security in WAPT."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-security/security-firewall.rst:19
+msgid ""
+"As WAPT aims to be secure by desingn, by doing so a minimal set of ports "
+"are needed to be opened compared to other solutions."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-security/security-firewall.rst:21
+msgid ""
+"You will find in the following documentation firewall command to improve "
+"WAPT security."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-security/security-firewall.rst:24
+msgid "Data-flow diagram of WAPT"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-security/security-firewall.rst:30
+msgid ""
+"As you can see, only ports 80 and 443 must be opened for ingoing "
+"connections as WAPT works with websockets."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-security/security-firewall.rst:34
+msgid "Firewall configuration for WAPT on Debian Linux"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-security/security-firewall.rst:36
+msgid ""
+"By default on Debian Linux, no firewall rules applies. You can disable "
+"ufw and install firewalld instead :"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-security/security-firewall.rst:44
+msgid "We can now apply sample firewall configuration :"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-security/security-firewall.rst:56
+msgid "Firewall configuration for WAPT on CentOS Linux"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-security/security-firewall.rst:58
+msgid "Sample firewalld configuration to apply on WAPT server"
+msgstr ""
+

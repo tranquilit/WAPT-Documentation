@@ -3,384 +3,404 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 14:09+0100\n"
+"POT-Creation-Date: 2020-02-17 16:07+0100\n"
 "PO-Revision-Date: 2020-02-15 17:21+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 1.8.8\n"
-"X-Poedit-SourceCharset: UTF-8\n"
 
-#: ../../source/wapt-configuration/waptagent/index.rst:8
-#: ../../source/wapt-configuration/waptagent/index.rst:60
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:8
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:15
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:70
 msgid "Building the WAPT agent installer"
 msgstr "Générer l'installeur de l'agent WAPT"
 
-#: ../../source/wapt-configuration/waptagent/index.rst:8
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:8
 msgid "waptagent.exe, installeur, InnoSetup, documentation, WAPT"
 msgstr "waptagent.exe, installeur, InnoSetup, WAPT, documentation"
 
-#: ../../source/wapt-configuration/waptagent/index.rst:15
-msgid "WAPT agent installer"
-msgstr "Générer l'installeur de l'agent WAPT"
-
-#: ../../source/wapt-configuration/waptagent/index.rst:18
-msgid "Choice of the unique identification mode of the wapt agents"
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:18
+msgid "Choosing the mode to uniquely identify the WAPT agents"
 msgstr ""
 
-#: ../../source/wapt-configuration/waptagent/index.rst:20
-msgid "In wapt you can choose the unique identification mode of the agents."
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:20
+msgid "In WAPT you can choose the unique identification mode of the agents."
 msgstr ""
 
-#: ../../source/wapt-configuration/waptagent/index.rst:22
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:22
 msgid ""
-"When a wapt agent registers the server must know if it is a new machine or if "
-"it is a machine already registered."
+"When a WAPT agent registers the server must know if it is a new machine "
+"or if it is a machine already registered."
 msgstr ""
 
-#: ../../source/wapt-configuration/waptagent/index.rst:24
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:25
 msgid ""
-"For this, the wapt server looks at the unique number \"UUID\" sent in the "
-"inventory"
+"For this, the WAPT server looks at the unique number \"UUID\" in the "
+"inventory."
 msgstr ""
 
-#: ../../source/wapt-configuration/waptagent/index.rst:26
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:27
 msgid ""
-"Wapt offers 3 modes of operation, it's up to you to choose the mode that suits "
-"you"
+"WAPT offers 3 modes of operation, it is up to you to choose the mode that"
+" best suits you."
 msgstr ""
 
-#: ../../source/wapt-configuration/waptagent/index.rst:30
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:32
 msgid ""
-"When choosing a mode of operation it is difficult to change it, think carefully!"
+"When choosing a mode of operation it is difficult to change it, think "
+"carefully!"
 msgstr ""
 
-#: ../../source/wapt-configuration/waptagent/index.rst:33
-msgid "Identification by UUID number BIOS (serial number)"
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:36
+msgid "Identifying the WAPT agents by their BIOS UUID (serial number)"
 msgstr ""
 
-#: ../../source/wapt-configuration/waptagent/index.rst:35
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:38
 msgid ""
 "This mode of operation makes it possible to identify the machines in the "
 "console in a physical manner."
 msgstr ""
 
-#: ../../source/wapt-configuration/waptagent/index.rst:37
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:41
 msgid ""
 "If you replace a computer and give the new computer the same name as the "
-"previous one, you will have two computers that will appear in the wapt console "
-"since you have two computers physically."
+"previous one, you will have two computers that will appear in the WAPT "
+"console since you will have physically two different computers."
 msgstr ""
 
-#: ../../source/wapt-configuration/waptagent/index.rst:41
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:47
 msgid ""
-"Some vendors do not work properly and assign the same UUID bios to two "
-"different computers. In this case, wapt only sees one computer ..."
+"Some vendors do crappy work and assign the same BIOS UUIDs to entire "
+"batches of computers. In this case, WAPT will only see one computer ..."
 msgstr ""
 
-#: ../../source/wapt-configuration/waptagent/index.rst:44
-msgid "Identification by machine name"
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:51
+msgid "Identifying the WAPT agent by host name"
 msgstr ""
 
-#: ../../source/wapt-configuration/waptagent/index.rst:46
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:53
 msgid ""
-"This mode of operation is similar to that of the active directory. The machines "
-"are identify by name."
+"This mode of operation is similar to that in Active Directory. The "
+"machines are identified by their hostname."
 msgstr ""
 
-#: ../../source/wapt-configuration/waptagent/index.rst:50
-msgid "This mode does not work if some machine in your park has the same name."
-msgstr ""
-
-#: ../../source/wapt-configuration/waptagent/index.rst:53
-msgid "Identification by installation of wapt."
-msgstr ""
-
-#: ../../source/wapt-configuration/waptagent/index.rst:55
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:58
 msgid ""
-"This mode of operation allows PCs to be identified by their wapt installation. "
-"Each installation of wapt generates a unique random number. If you uninstall "
-"wapt and then reinstall it, you will see a new pc appear in the console."
+"This mode does not work if several machines in your fleet share the same "
+"name. We all know it should not happen!!"
 msgstr ""
 
-#: ../../source/wapt-configuration/waptagent/index.rst:62
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:62
+msgid "Identifying the WAPT agents with a randomly generated UUID"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:64
+msgid ""
+"This mode of operation allows PCs to be identified by their WAPT "
+"installation. Each installation of WAPT generates a unique random number."
+" If you uninstall WAPT and then reinstall it, you will see a new pc "
+"appear in your console."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:72
 msgid "The :program:`waptagent` binary is an InnoSetup installer."
 msgstr "L'installeur :program:`waptagent` est un installeur InnoSetup."
 
-#: ../../source/wapt-configuration/waptagent/index.rst:64
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:74
 msgid ""
-"Once the WAPT console has been installed on the :term:`Administrator` computer, "
-"we have all files required to build the WAPT agent installer."
+"Once the WAPT console has been installed on the :term:`Administrator` "
+"computer, we have all files required to build the WAPT agent installer."
 msgstr ""
-"Une fois la console WAPT installée sur le poste de l':term:`Administrateur`, on "
-"dispose de tous les fichiers nécessaires pour compiler l'installeur WAPT :"
+"Une fois la console WAPT installée sur le poste de "
+"l':term:`Administrateur`, on dispose de tous les fichiers nécessaires "
+"pour compiler l'installeur WAPT :"
 
-#: ../../source/wapt-configuration/waptagent/index.rst:67
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:77
 msgid ""
-"files that will be used during building of the WAPT agent are located in :file:"
-"`C:\\\\Program Files (x86)\\\\wapt`;"
+"files that will be used during building of the WAPT agent are located in "
+":file:`C:\\\\Program Files (x86)\\\\wapt`;"
 msgstr ""
-"les fichiers qui seront utilisés pour créer l'installeur se trouvent dans le "
-"répertoire d'installation :file:`C:\\Program Files (x86)\\wapt` ;"
+"les fichiers qui seront utilisés pour créer l'installeur se trouvent dans"
+" le répertoire d'installation :file:`C:\\Program Files (x86)\\wapt` ;"
 
-#: ../../source/wapt-configuration/waptagent/index.rst:70
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:80
 msgid ""
-"installer source files (:file:`.iss` files) are located in :file:`C:\\\\Program "
-"Files (x86)\\\\wapt\\\\waptsetup`;"
+"installer source files (:file:`.iss` files) are located in "
+":file:`C:\\\\Program Files (x86)\\\\wapt\\\\waptsetup`;"
 msgstr ""
-"les fichiers sources de l'installeur (fichiers :file:`*.iss`) se trouvent dans :"
-"file:`C:\\Program Files (x86)\\wapt\\waptsetup` ;"
+"les fichiers sources de l'installeur (fichiers :file:`*.iss`) se trouvent"
+" dans :file:`C:\\Program Files (x86)\\wapt\\waptsetup` ;"
 
-#: ../../source/wapt-configuration/waptagent/index.rst:75
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:85
 msgid ""
-"Before building the WAPT agent, please verify the public certificate(s) in :"
-"file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl`."
+"Before building the WAPT agent, please verify the public certificate(s) "
+"in :file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl`."
 msgstr ""
-"Avant de lancer la création de l'installeur pour l'agent WAPT, vérifier la "
-"présence du certificat public dans le dossier :file:`C:\\Program Files "
-"(x86)\\wapt\\ssl`."
+"Avant de lancer la création de l'installeur pour l'agent WAPT, vérifier "
+"la présence du certificat public dans le dossier :file:`C:\\Program Files"
+" (x86)\\wapt\\ssl`."
 
-#: ../../source/wapt-configuration/waptagent/index.rst:78
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:88
 msgid ""
-"If you wish to deploy other public certificates on your :term:`Organization`'s "
-"computers that are equipped with WAPT, you will have to copy them in that "
-"folder."
+"If you wish to deploy other public certificates on your "
+":term:`Organization`'s computers that are equipped with WAPT, you will "
+"have to copy them in that folder."
 msgstr ""
-"Si vous souhaitez déployer d'autres certificats publics sur les ordinateurs de "
-"l':term:`Organisation` équipés de WAPT, il faudra les copier dans ce dossier."
+"Si vous souhaitez déployer d'autres certificats publics sur les "
+"ordinateurs de l':term:`Organisation` équipés de WAPT, il faudra les "
+"copier dans ce dossier."
 
-#: ../../source/wapt-configuration/waptagent/index.rst:84
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:94
 msgid ""
-"**DO NOT COPY the private key** of any :term:`Administrator` in :file:`C:\\"
-"\\Program Files (x86)\\\\wapt`."
+"**DO NOT COPY the private key** of any :term:`Administrator` in "
+":file:`C:\\\\Program Files (x86)\\\\wapt`."
 msgstr ""
-"**NE PAS COPIER votre clé privée** d\\':term:`Administrateur` dans :file:`C:\\"
-"\\Program Files (x86)\\wapt`."
+"**NE PAS COPIER votre clé privée** d\\':term:`Administrateur` dans "
+":file:`C:\\\\Program Files (x86)\\wapt`."
 
-#: ../../source/wapt-configuration/waptagent/index.rst:87
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:97
 msgid ""
-"This folder is used when building the WAPT agent and the private keys would "
-"then be deployed on all the computers."
+"This folder is used when building the WAPT agent and the private keys "
+"would then be deployed on all the computers."
 msgstr ""
 "Ce dossier est utilisé pour créer l'agent WAPT et votre clé privée se "
 "retrouverait déployée sur l'ensemble du parc."
 
-#: ../../source/wapt-configuration/waptagent/index.rst:90
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:100
 msgid ""
-"In the WAPT console, go to :menuselection:`Tools --> Build the WAPT agent`."
+"In the WAPT console, go to :menuselection:`Tools --> Build the WAPT "
+"agent`."
 msgstr ""
-"dans la console WAPT, ouvrir :menuselection:`Outils --> Créer un agent WAPT` ;"
+"dans la console WAPT, ouvrir :menuselection:`Outils --> Créer un agent "
+"WAPT` ;"
 
-#: ../../source/wapt-configuration/waptagent/index.rst:96
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:106
 msgid "Generate the WAPT agent from the console"
 msgstr "Générateur l'agent WAPT à partir de la console"
 
-#: ../../source/wapt-configuration/waptagent/index.rst:98
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:108
 msgid "fill in the informations that are necessary for the installer:"
 msgstr "renseigner les informations nécessaires à l'installeur :"
 
-#: ../../source/wapt-configuration/waptagent/index.rst:100
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:110
 msgid "the field :guilabel:`Public certificate`: **required**;"
 msgstr "le champ **obligatoire** :guilabel:`Certificat public` ;"
 
-#: ../../source/wapt-configuration/waptagent/index.rst:102
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:112
 msgid "example : :file:`C:\\\\private\\\\mydomain.crt`"
 msgstr "exemple : :file:`C:\\private\\mydomain.crt`"
 
-#: ../../source/wapt-configuration/waptagent/index.rst:104
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:114
 msgid "the field :guilabel:`Address of the WAPT repository`: **required**;"
 msgstr "le champ :guilabel:`Adresse du dépôt WAPT` : **obligatoire** ;"
 
-#: ../../source/wapt-configuration/waptagent/index.rst:106
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:116
 msgid "example : https://srvwapt.mydomain.lan/wapt"
 msgstr "exemple : https://srvwapt.mydomain.lan/wapt"
 
-#: ../../source/wapt-configuration/waptagent/index.rst:108
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:118
 msgid "the field :guilabel:`Address of the WAPT Server`: **required**;"
 msgstr "le champ :guilabel:`Adresse du serveur WAPT` : **obligatoire** ;"
 
-#: ../../source/wapt-configuration/waptagent/index.rst:110
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:120
 msgid "example : https://srvwapt.mydomain.lan"
 msgstr "exemple : https://srvwapt.mydomain.lan"
 
-#: ../../source/wapt-configuration/waptagent/index.rst:112
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:122
 msgid "the checkbox :guilabel:`Verify the WAPT Server HTTPS certificate`;"
 msgstr "la case à cocher :guilabel:`Vérifier le certificat HTTPS du serveur` ;"
 
-#: ../../source/wapt-configuration/waptagent/index.rst:115
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:124
 msgid ""
-"the field :guilabel:`Path to the bundle of certificates` to verify the HTTPS "
-"certificate of the WAPT Server;"
+"the field :guilabel:`Path to the bundle of certificates` to verify the "
+"HTTPS certificate of the WAPT Server;"
 msgstr ""
 "le champ :guilabel:`Chemin du bundle de certificats` pour vérifier le "
 "certificat HTTPS du serveur ;"
 
-#: ../../source/wapt-configuration/waptagent/index.rst:118
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:127
 msgid "the checkbox :guilabel:`Use Kerberos for registering WAPT agents`;"
 msgstr ""
-"la case à cocher :guilabel:`Utiliser Kerberos pour l'enregistrement` initial "
-"des agents WAPT avec le serveur ;"
+"la case à cocher :guilabel:`Utiliser Kerberos pour l'enregistrement` "
+"initial des agents WAPT avec le serveur ;"
 
-#: ../../source/wapt-configuration/waptagent/index.rst:120
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:129
 msgid ""
-"the field :guilabel:`Organization` to identify the origin of WAPT packages;"
+"the field :guilabel:`Organization` to identify the origin of WAPT "
+"packages;"
 msgstr "le champ :guilabel:`Organisation` pour identifier l'origine des paquets ;"
 
-#: ../../source/wapt-configuration/waptagent/index.rst:122
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:131
 msgid ""
-"the field :guilabel:`Sign waptupgrade with both sha256 and sha1` can be ignored "
-"because it is only useful when upgrading from version 1.3 ;"
+"the field :guilabel:`Sign waptupgrade with both sha256 and sha1` can be "
+"ignored because it is only useful when upgrading from version 1.3;"
 msgstr ""
 
-#: ../../source/wapt-configuration/waptagent/index.rst:124
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:134
 msgid ""
-"the field :guilabel:`Use computer FQDN for UUID`  and :guilabel:`Use random "
-"host UUID (for buggy BIOS)`  (see explanation in the previous paragraph of this "
-"documentation.)"
+"the field :guilabel:`Use computer FQDN for UUID` and :guilabel:`Use "
+"random host UUID (for buggy BIOS)` (see explanation in the previous "
+"paragraph of this documentation);"
 msgstr ""
 
-#: ../../source/wapt-configuration/waptagent/index.rst:126
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:138
 msgid ""
-"the field :guilabel:`Enable AD Groups` Enable the installation of profile "
-"packages based on the active directory groups of which the machine is a member. "
-"**This feature can degrade the performance of wapt**"
+"the field :guilabel:`Enable AD Groups` enables the installation of "
+"profile packages based on the Active Directory groups of which the "
+"machine is a member. **This feature can degrade the performance of "
+"WAPT**;"
 msgstr ""
 
-#: ../../source/wapt-configuration/waptagent/index.rst:128
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:143
 msgid ""
-"the field :guilabel:`Append host's profiles`  Allows to define a list of wapt "
-"packages to install obligatorily."
+"the field :guilabel:`Append host's profiles` allows to define a list of "
+"WAPT packages to install obligatorily;"
 msgstr ""
 
-#: ../../source/wapt-configuration/waptagent/index.rst:130
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:146
 msgid ""
-"the field :guilabel:`Automatic periodic packages audit scheduling`  Define the "
-"frequency where the agent checks if he has audits to perform."
+"the field :guilabel:`Automatic periodic packages audit scheduling` define"
+" the frequency at which the WAPT agent checks whether it has audits to "
+"perform;"
 msgstr ""
 
-#: ../../source/wapt-configuration/waptagent/index.rst:132
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:150
 msgid ""
-"Windows update section, go to the windows update agent part of the "
-"documentation for more information on this topic."
+"Windows update section, refer to :ref:`this article on configuring "
+"WAPTWUA on the WAPT agent <wapt_wua_agent>`;"
 msgstr ""
 
-#: ../../source/wapt-configuration/waptagent/index.rst:136
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:155
 msgid ""
-"The checkbox **Use Kerberos for the initial registration** must be checked "
-"**ONLY IF** you have followed the documentation on **Configuring the Kerberos "
-"authentication**."
+"The checkbox **Use Kerberos for the initial registration** must be "
+"checked **ONLY IF** you have followed the documentation on **Configuring "
+"the Kerberos authentication**."
 msgstr ""
-"La case **Utiliser l'enregistrement kerberos pour l'enregistrement initial** "
-"doit être activé **UNIQUEMENT** si vous avez suivi la documentation "
-"**Configurer l'authentification Kerberos**."
+"La case **Utiliser l'enregistrement kerberos pour l'enregistrement "
+"initial** doit être activé **UNIQUEMENT** si vous avez suivi la "
+"documentation **Configurer l'authentification Kerberos**."
 
-#: ../../source/wapt-configuration/waptagent/index.rst:140
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:159
 msgid ""
-"The checkbox **Verify the WAPT Server HTTPS certificate**must be checked **ONLY "
-"IF** you have followed the documentation on **Activating the verification of "
-"the SSL / TLS certificate**."
+"The checkbox **Verify the WAPT Server HTTPS certificate**must be checked "
+"**ONLY IF** you have followed the documentation on **Activating the "
+"verification of the SSL / TLS certificate**."
 msgstr ""
-"La case **Utiliser l'enregistrement kerberos pour l'enregistrement initial** "
-"doit être activé **UNIQUEMENT** si vous avez suivi la documentation "
-"**Configurer l'authentification Kerberos**."
+"La case **Utiliser l'enregistrement kerberos pour l'enregistrement "
+"initial** doit être activé **UNIQUEMENT** si vous avez suivi la "
+"documentation **Configurer l'authentification Kerberos**."
 
-#: ../../source/wapt-configuration/waptagent/index.rst:149
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:167
 msgid "Fill in the informations on your Organisation"
 msgstr "Renseigner les informations sur l'Organisation"
 
-#: ../../source/wapt-configuration/waptagent/index.rst:153
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:169
 msgid "provide the password for unlocking the private key:"
 msgstr "renseignez le mot de passe de la clé privée :"
 
-#: ../../source/wapt-configuration/waptagent/index.rst:159
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:175
 msgid "Provide the password for unlocking the private key"
 msgstr "Entrer le mot de passe de la clé privée"
 
-#: ../../source/wapt-configuration/waptagent/index.rst:165
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:181
 msgid "Progression of WAPT agent installer building"
 msgstr "Progression de la création de l'installeur de l'agent WAPT"
 
-#: ../../source/wapt-configuration/waptagent/index.rst:167
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:183
 msgid ""
-"Once the WAPT agent installer has finished building, a confirmation dialog pops "
-"up indicating that the :program:`waptagent` binary has been successfully "
-"uploaded to https://srvwapt/wapt/."
+"Once the WAPT agent installer has finished building, a confirmation "
+"dialog pops up indicating that the :program:`waptagent` binary has been "
+"successfully uploaded to https://srvwapt/wapt/."
 msgstr ""
-"Une fois la compilation terminée, une confirmation s'affiche informant que le :"
-"program:`waptagent` a bien été chargé sur https://srvwapt.mydomain.lan/wapt/."
+"Une fois la compilation terminée, une confirmation s'affiche informant "
+"que le :program:`waptagent` a bien été chargé sur "
+"https://srvwapt.mydomain.lan/wapt/."
 
-#: ../../source/wapt-configuration/waptagent/index.rst:175
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:191
 msgid "Confirmation of the WAPT agent loading onto WAPT repository"
 msgstr "Confirmation du chargement de l'agent WAPT sur le serveur WAPT"
 
-#: ../../source/wapt-configuration/waptagent/index.rst:179
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:195
 msgid ""
-"A warning shows up indicating that the GPO hash value should be changed. GPOs "
-"may be used to deploy the WAPT agent on your Organization's computer."
+"A warning shows up indicating that the GPO hash value should be changed. "
+"GPOs may be used to deploy the WAPT agent on your Organization's "
+"computer."
 msgstr ""
-"Un avertissement apparaît pour rappeler de changer la valeur du hash dans la "
-"GPO de déploiement de l'agent WAPT."
+"Un avertissement apparaît pour rappeler de changer la valeur du hash dans"
+" la GPO de déploiement de l'agent WAPT."
 
-#: ../../source/wapt-configuration/waptagent/index.rst:183
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:199
 msgid "Package *test-waptupgrade*"
 msgstr "Le paquet *test-waptupgrade*"
 
-#: ../../source/wapt-configuration/waptagent/index.rst:185
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:201
 msgid "The ``test-waptupgrade`` package has also been uploaded on the repository."
 msgstr "Le paquet ``test-waptupgrade`` a également été chargé sur le dépôt."
 
-#: ../../source/wapt-configuration/waptagent/index.rst:187
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:203
 msgid ""
 "The ``test-waptupgrade`` package contains the WAPT agent with arguments "
-"specified during the installation of WAPT on your Administrator's computer."
+"specified during the installation of WAPT on your Administrator's "
+"computer."
 msgstr ""
-"Ce paquet WAPT contient l'agent WAPT avec les paramètres spécifiés lors de "
-"l'installation."
+"Ce paquet WAPT contient l'agent WAPT avec les paramètres spécifiés lors "
+"de l'installation."
 
-#: ../../source/wapt-configuration/waptagent/index.rst:194
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:210
 msgid "New WAPT agent in the repository"
 msgstr "Nouvel agent dans le dépôt WAPT"
 
-#: ../../source/wapt-configuration/waptagent/index.rst:198
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:214
 msgid ""
-"This package is a standard WAPT package designed to upgrade WAPT agents on "
-"client machines."
+"This package is a standard WAPT package designed to upgrade WAPT agents "
+"on client machines."
 msgstr ""
-"Ce paquet permettra de mettre à jour les agents WAPT du parc lorsqu'une mise à "
-"jour de l'agent WAPT sera rendue disponible."
+"Ce paquet permettra de mettre à jour les agents WAPT du parc lorsqu'une "
+"mise à jour de l'agent WAPT sera rendue disponible."
 
 #~ msgid ""
-#~ "To add other public certificates in waptagent setup, copy additional public "
+#~ "To add other public certificates in "
+#~ "waptagent setup, copy additional public "
 #~ "certs in that folder. "
 #~ msgstr ""
-#~ "Pour intégrer d'autres certificats publics dans l'installation, c'est dans "
-#~ "ce dossier qu'il faudra copier/coller les certificats publics "
-#~ "supplémentaires."
+#~ "Pour intégrer d'autres certificats publics "
+#~ "dans l'installation, c'est dans ce "
+#~ "dossier qu'il faudra copier/coller les "
+#~ "certificats publics supplémentaires."
 
 #~ msgid ""
-#~ "Do not under any circumstances save the private key in :file:`C:\\wapt\\` "
+#~ "Do not under any circumstances save "
+#~ "the private key in :file:`C:\\wapt\\` "
 #~ "folder."
 #~ msgstr ""
-#~ "Il ne faut en aucun cas sauvegarder la clé privée dans le dossier :file:`C:"
-#~ "\\Program Files (x86)\\wapt\\`."
+#~ "Il ne faut en aucun cas "
+#~ "sauvegarder la clé privée dans le "
+#~ "dossier :file:`C:\\Program Files (x86)\\wapt\\`."
 
 #~ msgid "**Public key**"
 #~ msgstr "**Clé publique**"
 
 #~ msgid ""
-#~ "That folder is used when building the WAPT agent, do not store your "
-#~ "Administrator private key in the :file:`C:\\Program Files (x86)\\wapt\\` "
-#~ "folder, otherwise the private key will be deployed all over your "
-#~ "Organization, an absolute no go!"
+#~ "That folder is used when building "
+#~ "the WAPT agent, do not store your"
+#~ " Administrator private key in the "
+#~ ":file:`C:\\Program Files (x86)\\wapt\\` folder, "
+#~ "otherwise the private key will be "
+#~ "deployed all over your Organization, an"
+#~ " absolute no go!"
 #~ msgstr ""
-#~ "Il ne faut en aucun cas sauvegarder la clé privée dans le dossier :file:`C:"
-#~ "\\Program Files (x86)\\wapt\\`. Ce dossier est utilisé pendant la création "
-#~ "de l'agent et la clé privée se retrouverait déployée sur l'ensemble du parc."
+#~ "Il ne faut en aucun cas "
+#~ "sauvegarder la clé privée dans le "
+#~ "dossier :file:`C:\\Program Files (x86)\\wapt\\`. "
+#~ "Ce dossier est utilisé pendant la "
+#~ "création de l'agent et la clé "
+#~ "privée se retrouverait déployée sur "
+#~ "l'ensemble du parc."
 
 #~ msgid "Building the WAPT agent from the WAPT console"
 #~ msgstr "Génération depuis la console WAPT"
@@ -392,13 +412,16 @@ msgstr ""
 #~ msgstr "**Le certificat public**"
 
 #~ msgid ""
-#~ "Specify the path to the certificate previously generated (:file:`.crt` "
-#~ "file). The field is **required**, and the path must be absolute, eg. :file:"
-#~ "`C:\\private\\mondomain.crt`."
+#~ "Specify the path to the certificate "
+#~ "previously generated (:file:`.crt` file). The"
+#~ " field is **required**, and the path"
+#~ " must be absolute, eg. "
+#~ ":file:`C:\\private\\mondomain.crt`."
 #~ msgstr ""
-#~ "Spécifier le chemin vers le certificat public précédemment généré (le "
-#~ "fichier :file:`.crt`). Ce champ est **obligatoire**. exemple : :file:`C:"
-#~ "\\private\\mondomain.crt`"
+#~ "Spécifier le chemin vers le certificat"
+#~ " public précédemment généré (le fichier "
+#~ ":file:`.crt`). Ce champ est **obligatoire**."
+#~ " exemple : :file:`C:\\private\\mondomain.crt`"
 
 #~ msgid "**the WAPT repository address**;"
 #~ msgstr "**Adresse du dépôt WAPT**"
@@ -407,28 +430,34 @@ msgstr ""
 #~ msgstr "**Adresse du serveur WAPT**"
 
 #~ msgid ""
-#~ "The WAPT Server URL. That field is **required**. Example : https://srvwapt."
-#~ "mondomaine.local."
+#~ "The WAPT Server URL. That field is"
+#~ " **required**. Example : "
+#~ "https://srvwapt.mondomaine.local."
 #~ msgstr ""
-#~ "URL du serveur WAPT local. Ce champ est **obligatoire**. exemple : https://"
-#~ "srvwapt.mydomain.lan"
+#~ "URL du serveur WAPT local. Ce "
+#~ "champ est **obligatoire**. exemple : "
+#~ "https://srvwapt.mydomain.lan"
 
 #~ msgid "**the WAPT Server HTTPS certificate**;"
 #~ msgstr "**Vérifier le certificat HTTPS du serveur**"
 
 #~ msgid ""
-#~ "**path of SSL/TLS certificate bundle for HTTPS certificate validation**;"
+#~ "**path of SSL/TLS certificate bundle for"
+#~ " HTTPS certificate validation**;"
 #~ msgstr "**Chemin du bundle de certificats pour la vérification**"
 
 #~ msgid "**use kerberos for initial registration**;"
 #~ msgstr "**Utiliser Kerberos pour l'enregistrement**"
 
 #~ msgid ""
-#~ "Tick that checkbox to use Kerberos authentication during initial "
-#~ "registration of WAPT clients with the WAPT Server."
+#~ "Tick that checkbox to use Kerberos "
+#~ "authentication during initial registration of"
+#~ " WAPT clients with the WAPT Server."
 #~ msgstr ""
-#~ "Cocher pour activer l'utilisation de l'authentification Kerberos pour "
-#~ "l'enregistrement des agents dans la base de données du serveur WAPT."
+#~ "Cocher pour activer l'utilisation de "
+#~ "l'authentification Kerberos pour l'enregistrement"
+#~ " des agents dans la base de "
+#~ "données du serveur WAPT."
 
 #~ msgid "**organisation**;"
 #~ msgstr "**Organisation**"
@@ -441,8 +470,9 @@ msgstr ""
 
 #~ msgid "Enter in the password to unlock your private key."
 #~ msgstr ""
-#~ "Renseigner ensuite le mot de passe qui servira à bloquer et débloquer votre "
-#~ "nouvelle clé."
+#~ "Renseigner ensuite le mot de passe "
+#~ "qui servira à bloquer et débloquer "
+#~ "votre nouvelle clé."
 
 #~ msgid "Building in progress"
 #~ msgstr "Création en cours"
@@ -451,14 +481,19 @@ msgstr ""
 #~ msgstr "définir un mot de passe de vérouillage de la clé ;"
 
 #~ msgid ""
-#~ "If you change the content of :guilabel:`Path to the Certificate bundle`, the "
-#~ "new path will point to :file:`C:\\Program Files (x86)\\wapt\\ssl\\server`. "
-#~ "Otherwise, your bundle will not be incorporated into the WAPT agent."
+#~ "If you change the content of "
+#~ ":guilabel:`Path to the Certificate bundle`,"
+#~ " the new path will point to "
+#~ ":file:`C:\\Program Files (x86)\\wapt\\ssl\\server`. "
+#~ "Otherwise, your bundle will not be "
+#~ "incorporated into the WAPT agent."
 #~ msgstr ""
-#~ "Si vous modifiez le :guilabel:`Chemin du bundle de certificats`, le nouveau "
-#~ "chemin devra pointer vers :file:`C:\\Program Files (x86)\\wapt\\ssl"
-#~ "\\server`. Dans le cas contraire votre bundle ne sera pas integré dans le "
-#~ "waptagent."
+#~ "Si vous modifiez le :guilabel:`Chemin du"
+#~ " bundle de certificats`, le nouveau "
+#~ "chemin devra pointer vers :file:`C:\\Program"
+#~ " Files (x86)\\wapt\\ssl\\server`. Dans le "
+#~ "cas contraire votre bundle ne sera "
+#~ "pas integré dans le waptagent."
 
 #~ msgid "example : :file:`C:\\private\\mondomain.crt`"
 #~ msgstr "exemple : :file:`C:\\private\\mondomain.crt`"
@@ -477,3 +512,121 @@ msgstr ""
 
 #~ msgid "WAPT console (repository tab)"
 #~ msgstr "Console WAPT (Onglet \"Dépôts\")"
+
+#~ msgid "WAPT agent installer"
+#~ msgstr "Générer l'installeur de l'agent WAPT"
+
+#~ msgid "Choice of the unique identification mode of the wapt agents"
+#~ msgstr ""
+
+#~ msgid "In wapt you can choose the unique identification mode of the agents."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When a wapt agent registers the "
+#~ "server must know if it is a "
+#~ "new machine or if it is a "
+#~ "machine already registered."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For this, the wapt server looks at"
+#~ " the unique number \"UUID\" sent in"
+#~ " the inventory"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Wapt offers 3 modes of operation, "
+#~ "it's up to you to choose the "
+#~ "mode that suits you"
+#~ msgstr ""
+
+#~ msgid "Identification by UUID number BIOS (serial number)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you replace a computer and give"
+#~ " the new computer the same name "
+#~ "as the previous one, you will have"
+#~ " two computers that will appear in"
+#~ " the wapt console since you have "
+#~ "two computers physically."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Some vendors do not work properly "
+#~ "and assign the same UUID bios to"
+#~ " two different computers. In this "
+#~ "case, wapt only sees one computer "
+#~ "..."
+#~ msgstr ""
+
+#~ msgid "Identification by machine name"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This mode of operation is similar "
+#~ "to that of the active directory. "
+#~ "The machines are identify by name."
+#~ msgstr ""
+
+#~ msgid "This mode does not work if some machine in your park has the same name."
+#~ msgstr ""
+
+#~ msgid "Identification by installation of wapt."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This mode of operation allows PCs "
+#~ "to be identified by their wapt "
+#~ "installation. Each installation of wapt "
+#~ "generates a unique random number. If "
+#~ "you uninstall wapt and then reinstall"
+#~ " it, you will see a new pc "
+#~ "appear in the console."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "the field :guilabel:`Sign waptupgrade with "
+#~ "both sha256 and sha1` can be "
+#~ "ignored because it is only useful "
+#~ "when upgrading from version 1.3 ;"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "the field :guilabel:`Use computer FQDN "
+#~ "for UUID`  and :guilabel:`Use random "
+#~ "host UUID (for buggy BIOS)`  (see "
+#~ "explanation in the previous paragraph of"
+#~ " this documentation.)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "the field :guilabel:`Enable AD Groups` "
+#~ "Enable the installation of profile "
+#~ "packages based on the active directory"
+#~ " groups of which the machine is "
+#~ "a member. **This feature can degrade "
+#~ "the performance of wapt**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "the field :guilabel:`Append host's profiles`"
+#~ "  Allows to define a list of "
+#~ "wapt packages to install obligatorily."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "the field :guilabel:`Automatic periodic "
+#~ "packages audit scheduling`  Define the "
+#~ "frequency where the agent checks if "
+#~ "he has audits to perform."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Windows update section, go to the "
+#~ "windows update agent part of the "
+#~ "documentation for more information on "
+#~ "this topic."
+#~ msgstr ""
+

@@ -1,0 +1,169 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Tranquil IT
+# This file is distributed under the same license as the WAPT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WAPT 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-17 16:07+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-large/index.rst:8
+msgid "Configuring WAPTServer for large deployement"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-large/index.rst:8
+msgid "install, WAPT, documentation, optimization, large deployment"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-large/index.rst:15
+msgid "Configuring WAPT Server for large deployment"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-large/index.rst:17
+msgid ""
+"The default operating system, Nginx and Postgresql configuration is "
+"adapted for around 400 clients in WAPTServer. If you have more than 400 "
+"clients it is necessary to modify a few system level parameters along "
+"with database, nginx and waptserver python server."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-large/index.rst:21
+msgid ""
+"In the future the postconf.sh script might take in charge this "
+"configuration depending on the expected number of client computer."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-large/index.rst:24
+msgid ""
+"With the following parameters one WAPT Server should scale up to around "
+"5000 concurent active client. You may have more clients in the database "
+"if they are not all up at the same time. If you have more than 5000 "
+"clients it is recommanded to have more than one WAPT Server."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-large/index.rst:29
+msgid ""
+"The limit in the number of end point clients is due to the bottleneck in "
+"the python code and the PostgreSQL backend. WAPT performance gets better "
+"with time and in the future it might support a large base on a single "
+"server. However the Nginx part scales very well and it can takes full "
+"advantage of a 10GiB connection for large package deployement."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-large/index.rst:36
+msgid "Configuration change for better performance"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-large/index.rst:40
+msgid ""
+"The parameters that are modified below are linked together and should be "
+"done globally and not individually."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-large/index.rst:44
+msgid "Configuring Nginx"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-large/index.rst:46
+msgid ""
+"In the :file:`/etc/nginx/nginx.conf` file, modify `worker_connections` "
+"parameter. The value should be around 2.5 time the number of WAPT clients"
+" (n connexions for websockets and n connections for packages downloads "
+"and inventory upload + some margin)."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-large/index.rst:57
+msgid ""
+"Then upgrade the number of filedescriptor in the "
+":file:`/etc/nginx/nginx.conf` file :"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-large/index.rst:64
+msgid "Configuring the Linux System"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-large/index.rst:66
+msgid ""
+"Increase the number of filedescriptor. The systemd unit file asks for an "
+"increase in allowed number of filedescriptor (LimitNOFILE=32768). We "
+"should have the same thing for Nginx. There are a few limits to modify."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-large/index.rst:70
+msgid ""
+"First we modify system wide the number of filedescriptor allow for nginx "
+"and wapt. Create the :file:`/etc/security/limits.d/wapt.conf` :"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-large/index.rst:82
+msgid ""
+"Nginx serves as a reverse proxy and makes quite a lot of connections. "
+"Each WAPT client keeps a websocket connection up all the time in order to"
+" respond to actions from the WAPT Server. Linux kernel has a protection "
+"against having too many TCP connections opened at the same time and one "
+"may get `SYN flooding on port` message in the log. In order to avoid "
+"those message it is necessary to modify the two following parameters. It "
+"must around 1.5 time the number of WAPT client."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-large/index.rst:99
+msgid "Configuring PostgreSQL Database"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-large/index.rst:101
+msgid ""
+"The higher number of client need a higher number of connections to the "
+"PostgreSQL database. In the :file:`postgresql.conf` file ( "
+"file:`/etc/postgresql/11/main/postgresql.conf` on debian 10 for example),"
+" you need to increase the following parameter at approximatly 1/4 the "
+"number of clients."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-large/index.rst:111
+msgid "Configuring the WAPTServer"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-large/index.rst:113
+msgid ""
+"Then modify the two following parameter in the "
+":file:`/opt/wapt/conf/waptserver.ini` file. `db_max_connections` should "
+"be equal to postgresql max_connections minus 10 (PostgreSQL needs some "
+"connections for its housekeeping stuff)."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-large/index.rst:117
+msgid ""
+"The `max_clients` parameters should be set around 1.2 times the number of"
+" clients."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-large/index.rst:127
+msgid "Configuration for large package upload"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-large/index.rst:129
+msgid ""
+"Depending on the partitioning of your server you might have to be careful"
+" with the Nginx temporary file upload directory. Nginx acts as a reverse "
+"proxy for the WAPTServer Python engine and its does a caching of packages"
+" upload when uploading a new package from the console."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-large/index.rst:134
+msgid ""
+"The packages are store in the :file:`/var/lib/nginx/proxy` directory. You"
+" have to make sure that the parition hosting this directory is large "
+"enough. You may change this directory location using the following Nginx "
+"configuration parameter."
+msgstr ""
+

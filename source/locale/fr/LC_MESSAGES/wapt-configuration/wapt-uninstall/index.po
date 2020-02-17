@@ -7,111 +7,137 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-13 10:30+0100\n"
+"POT-Creation-Date: 2020-02-17 16:07+0100\n"
 "PO-Revision-Date: 2020-02-17 11:59+0100\n"
+"Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
+"Language: fr\n"
+"Language-Team: Tranquil IT <contact@tranquil.it>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
-"Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Language: fr\n"
-"X-Generator: Poedit 1.8.8\n"
-"X-Poedit-SourceCharset: UTF-8\n"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:9
-msgid "Uninstall WAPT agent from clients"
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:8
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:15
+msgid "Uninstalling WAPT agent from clients"
 msgstr ""
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:11
-msgid "Uninstall WAPT agent properly from Windows / Linux / macOS hosts"
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:8
+msgid "waptagent, linux, uninstalling, uninstall, documentation, WAPT"
 msgstr ""
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:14
-msgid "Uninstall WAPT agent on Windows"
-msgstr ""
-
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:16
-msgid ""
-"If you need to uninstall WAPT agents from clients, the uninstaller is "
-"automatically created in the WAPT install location, by default it is :file:`C:\\"
-"\\Program Files (x86)\\\\wapt\\\\unins000.exe`."
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:18
+msgid "Uninstalling WAPT agent on Windows"
 msgstr ""
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:20
 msgid ""
-"default silent uninstall of WAPT agent can be achieved with the following "
-"command:"
+"If you need to uninstall WAPT agents from clients, the uninstaller is "
+"automatically created in the WAPT install location, by default it is "
+":file:`C:\\\\Program Files (x86)\\\\wapt\\\\unins000.exe`."
 msgstr ""
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:27
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:24
 msgid ""
-"an additional argument can be passed to :command:`unins000.exe` to cleanup "
-"everything:"
+"default silent uninstall of WAPT agent can be achieved with the following"
+" command:"
 msgstr ""
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:35
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:31
+msgid ""
+"an additional argument can be passed to :command:`unins000.exe` to "
+"cleanup everything:"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:38
 msgid "Complete list of command-line arguments for :command:`unins000.exe`:"
 msgstr ""
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:38
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:41
 msgid "Settings"
 msgstr ""
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:38
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:41
 msgid "Description"
 msgstr ""
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:40
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:43
 msgid "``/VERYSILENT``"
 msgstr ""
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:40
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:43
 msgid "Launches unins000.exe silently"
 msgstr ""
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:41
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:44
 msgid "``/purge_wapt_dir=1``"
 msgstr ""
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:41
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:44
 msgid "Purges WAPT directory (removes all folders and files)"
 msgstr ""
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:46
-msgid "Uninstall WAPT agent on Linux"
-msgstr ""
-
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:48
-msgid ""
-"default uninstall of WAPT agent can be achieved with the following command, "
-"depending on your Linux OS:"
+msgid "Uninstalling WAPT agent on Linux"
 msgstr ""
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:59
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:50
+msgid ""
+"default uninstall of WAPT agent can be achieved with the following "
+"command, depending on your Linux OS:"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:61
 msgid "an additional step can be done using these commands (WIP)"
 msgstr ""
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:73
-msgid "Uninstall WAPT agent on macOS"
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:74
+msgid "Uninstalling WAPT agent on macOS"
 msgstr ""
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:75
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:76
 msgid "default uninstall of WAPT agent can be achieved with the following command"
 msgstr ""
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:89
-msgid "Re-enable Windows Update before uninstalling"
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:88
+msgid "Re-enabling Windows Update before uninstalling"
 msgstr ""
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:91
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:90
 msgid ""
-"In the case you have used WAPT to manage Windows Updates, you might want to re-"
-"enable Windows Update default behavior before uninstalling WAPT agent."
+"In the case you have used WAPT to manage Windows Updates, you might want "
+"to re-enable Windows Update default behavior before uninstalling WAPT "
+"agent."
 msgstr ""
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:93
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-uninstall/index.rst:94
 msgid ""
-"To do so, here is an example package to push before uninstalling WAPT agent :"
+"To do so, here is an example package to push before uninstalling the WAPT"
+" agent:"
 msgstr ""
+
+#~ msgid "Uninstall WAPT agent from clients"
+#~ msgstr ""
+
+#~ msgid "Uninstall WAPT agent properly from Windows / Linux / macOS hosts"
+#~ msgstr ""
+
+#~ msgid "Uninstall WAPT agent on Windows"
+#~ msgstr ""
+
+#~ msgid "Uninstall WAPT agent on Linux"
+#~ msgstr ""
+
+#~ msgid "Uninstall WAPT agent on macOS"
+#~ msgstr ""
+
+#~ msgid "Re-enable Windows Update before uninstalling"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To do so, here is an example "
+#~ "package to push before uninstalling WAPT"
+#~ " agent :"
+#~ msgstr ""
+
