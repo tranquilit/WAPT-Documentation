@@ -1,6 +1,6 @@
 .. Reminder for header structure :
    Niveau 1 : ====================
-   Niveau 2 :n --------------------
+   Niveau 2 : --------------------
    Niveau 3 : ++++++++++++++++++++
    Niveau 4 : """"""""""""""""""""
    Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
@@ -9,9 +9,9 @@
     :description: Configuring WAPTServer for large deployement
     :keywords: install, WAPT, documentation, optimization, large deployment
 
-.. _installing_WAPT_Server:
+.. _configuring_WAPT_for_large_deployment:
 
-Configuring WAPTServer for large deployement
+Configuring WAPT Server for large deployment
 ============================================
 
 The default out-of-the-box WAPT configuration is tailored for about 400 clients. 
@@ -21,13 +21,13 @@ parameters along with database, nginx and waptserver python server.
 In the future the postconf.sh script might take in charge this configuration 
 depending on the expected number of client computer. 
 
-With the following parameters one WAPTServer should scale up to around 5000 
+With the following parameters one WAPT Server should scale up to around 5000 
 concurent active client. You may have more clients in the database if they 
 are not all up at the same time. If you have more than 5000 clients it is 
-recommanded to have more than one WAPTServer. 
+recommanded to have more than one WAPT Server. 
 
 The limit in the number of end point clients is due to the bottleneck in the 
-python code and the postgres backend. WAPT performance gets better with time and
+python code and the PostgreSQL backend. WAPT performance gets better with time and
 in the future it might support a large base on a single server. However the Nginx
 part scales very well and it can takes full advantage of a 10GiB connection for
 large package deployement.
@@ -54,6 +54,7 @@ First we modify system wide the number of filedescriptor allow for nginx and wap
 Mofidy the :file:`/etc/security/limits.conf` : 
 
 .. code-block:: bash
+
    wapt         hard    nofile      500000
    wapt         soft    nofile      500000
    www-data     hard    nofile      500000
@@ -66,7 +67,7 @@ The upgrade in the :file:`/etc/nginx/nginx.conf` file :
    worker_rlimit_nofile 32768;
 
 Nginx serves as a reverse proxy and makes quite a lot of connections. Each WAPT client
-keeps a websocket connection up all the time in order to respond to actions from the WAPTServer.
+keeps a websocket connection up all the time in order to respond to actions from the WAPT Server.
 Linux kernel has a protection against having too many TCP connections opened at the same time
 and one may get `SYN flooding on port` message in the log. In order to avoid those message
 it is necessary to modify the two following parameters. It must around 1.5 time the number
@@ -81,7 +82,7 @@ of WAPT client.
 
    sysctl --system
 
-The higher number of client need a higher number of connections to the postgresql 
+The higher number of client need a higher number of connections to the PostgreSQL 
 database. In the :file:`postgresql.conf` file (
 file:`/etc/postgresql/11/main/postgresql.conf` on debian 10 for example), you need to 
 increase the following parameter at approximatly 1/4 the number of clients. 

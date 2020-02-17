@@ -36,6 +36,7 @@ of the documentation:
    ini-file/wapt-get.ini.rst
    ini-file/waptconsole.ini.rst
    ini-file/index.rst
+   wapt-large/index.rst
 
 To uninstall WAPT agent properly
 
