@@ -102,7 +102,6 @@ The :program:`PyScripter` IDE allows to edit files in the WAPT package.
 
   PyScripter - Customizing a package with Pyscripter
 
-
 Presentation of Pyscripter
 ++++++++++++++++++++++++++
 
@@ -162,41 +161,39 @@ on the :ref:`structure of a WAPT package <structure_wapt-package>`.
 To customize a package, please visit the documentation
 on :ref:`customizing your WAPT packages <customizing_your_packages>`.
 
-
-Installation test
-----------------------------------------------------------------------------------
+Testing locally the installation of the WAPT package
+----------------------------------------------------
 
 You can then test the launch of an installation on your development station.
 
 .. figure:: run_install.png
   :align: center
-  
-Python Console allows you to check if the installation went well.
 
+The PyScripter Console allows you to check whether the installation went well.
 
-Build the package and send to the wapt server
-----------------------------------------------------------------------------------
+Building the package and sending it to the WAPT server
+------------------------------------------------------
 
-Once your package ready, you can build it and send it to the wapt server
-
+* once the package is ready, build it and send it to the WAPT server;
 
 .. figure:: run-build.png
   :align: center
   :alt: Option "-i build-upload" of PyScripter project
 
   Option "-i build-upload" of PyScripter project
-  
-Enter the password of your private key (to sign your wapt package)
-  
+
+* enter the password of your private key (to sign your wapt package);
+
 .. figure:: password-key.PNG
   :align: center
-  
-Enter the username and password to send the wapt package to the server.
-  
+
+* enter the username and password to send the WAPT package to the server;
+
 .. figure:: build-upload-login.PNG
   :align: center
-  
-  
-Your package is now available and visible in your console wapt in the tab tab "private deposit"
 
-Do not forget to click on "update available packages"
+* the package is now available and visible in the WAPT Console
+  in the tab :guilabel:`private deposit`.
+
+* click on :guilabel:`update available packages` to refresh the list
+  of available WAPT packages;

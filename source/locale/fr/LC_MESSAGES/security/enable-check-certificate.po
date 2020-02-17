@@ -186,7 +186,7 @@ msgstr "Vous pouvez maintenant passer à la suite de la configuration en :ref:`l
 #~ "relatively small bundle of certificates"
 #~ msgstr ""
 #~ "Le pinning consiste a vérifier le "
-#~ "certificat SSL/TLS à partir d'un bundle"
+#~ "certificat SSL/TLS à partir d'un *bundle*"
 #~ " défini et restreint"
 
 #~ msgid ""
@@ -242,6 +242,6 @@ msgstr "Vous pouvez maintenant passer à la suite de la configuration en :ref:`l
 #~ "(x86)\\wapt\\lib\\site-packages\\certifi\\cacert.pem`"
 #~ msgstr ""
 #~ "l'agent WAPT vérifiera le certificat "
-#~ "HTTPS du serveur avec le bundle "
+#~ "HTTPS du serveur avec le *bundle* "
 #~ ":file:`C:\\Program Files (x86)\\wapt\\lib"
 #~ "\\site-packages\\certifi\\cacert.pem`"

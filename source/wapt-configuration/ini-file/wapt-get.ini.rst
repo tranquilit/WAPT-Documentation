@@ -28,10 +28,17 @@ Description of available options for the WAPT agent
 
 .. note::
 
-    * If ``repo_url`` and ``wapt_server`` fields are empty, the WAPT agent will look for a repository using SRV records in the ``dnsdomain`` zone.
-    * If there is no ``wapt_server`` attribute in the ``[global]`` section, no WAPT Server will be used.
-    * If there is no ``repo_url`` attribute in the ``[global]`` section, a repository in the ``[wapt]`` section will have to be explicitly defined.
-    * It will have to be enabled by adding it to the ``repositories`` attribute of the ``[global]`` section.
+    * if ``repo_url`` and ``wapt_server`` fields are empty, the WAPT agent
+      will look for a repository using SRV records in the ``dnsdomain`` zone;
+
+    * if there is no ``wapt_server`` attribute in the ``[global]`` section,
+      no WAPT Server will be used;
+
+    * if there is no ``repo_url`` attribute in the ``[global]`` section,
+      a repository in the ``[wapt]`` section will have to be explicitly defined;
+
+    * it will have to be enabled by adding it to the ``repositories``
+      attribute to the ``[global]`` section;
 
 .. tabularcolumns:: |\\X{5}{12}|\\X{7}{12}|
 
@@ -68,16 +75,16 @@ Options                                                           Description
                                                                   ``info``, ``warning``, ``critical``.
 
 ``maturities`` = PROD                                             List of packages maturities than can be viewed and installed by
-                                                                  WAPT Agent. Default value is ``PROD``. Any value can be used.    
+                                                                  WAPT Agent. Default value is ``PROD``. Any value can be used.
 
 ``use_fqdn_as_uuid`` = 1                                          Allows you to use the fqdn name rather than the uuid BIOS as the unique machine identifier in wapt.
 
-``waptaudit_task_period`` = 120                                   Define the frequency where the agent checks if he has audits to perform. 
+``waptaudit_task_period`` = 120                                   Define the frequency where the agent checks if he has audits to perform.
 
-``locales`` = en                                                  Allows you to set the list of wapt agent languages to modify the list of packages visible by wapt (for package filtering). You 
+``locales`` = en                                                  Allows you to set the list of wapt agent languages to modify the list of packages visible by wapt (for package filtering). You
                                                                   can add multiple language (eg. ``locales=fr,en``) in order of preference.
 
-``host_profiles`` = tis-firefox,tis-java                          Allows you to define a wapt package list that the wapt agent must install. 
+``host_profiles`` = tis-firefox,tis-java                          Allows you to define a wapt package list that the wapt agent must install.
 
 ``language`` = en                                                 Force default langauge for GUI (not for package filtering)
 
@@ -91,7 +98,7 @@ Options                                                           Description
 WAPT Server configuration attributes
 ------------------------------------
 
-These options will set WAPT agent behaviour when connecting to WAPT Server
+These options will set WAPT agent behavior when connecting to WAPT Server.
 
 .. tabularcolumns:: |\\X{5}{12}|\\X{7}{12}|
 
@@ -140,7 +147,7 @@ to define more repositories.
   does not exists, default locations will be used on the main repository.
 
 
-More information on that usage can be found here : :ref:`work_multiple_repos`
+More information on that usage can be found here : :ref:`work_multiple_repos`.
 
 .. note::
 
@@ -225,8 +232,7 @@ Options                                                      Description
 Settings for ``WAPT Windows Updates``
 -------------------------------------
 
-Refer to :ref:`wapt_wua_agent`
-
+Refer to :ref:`this article on configuring WAPTWUA on the WAPT agent <wapt_wua_agent>`.
 
 Overriding settings of *upload* functions
 -----------------------------------------

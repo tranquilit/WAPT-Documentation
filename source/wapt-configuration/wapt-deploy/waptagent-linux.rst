@@ -6,7 +6,7 @@
    Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
-  :description: Deploying the WAPT agent for Linux
+  :description: Deploying the WAPT Agent on Linux
   :keywords: waptagent, linux, deployment, deploy, deploying, documentation, WAPT
 
 .. _install_waptagent_linux:
@@ -104,7 +104,6 @@ You may use it after changing the parameters to suit your needs.
   use_kerberos=0
   verify_cert=/opt/wapt/ssl/server/verify.crt
 
-
 Copying the package-signing certificate
 +++++++++++++++++++++++++++++++++++++++
 
@@ -142,7 +141,7 @@ using :program:`WinSCP` or :program:`rsync`.
 Registering your Linux agent
 ++++++++++++++++++++++++++++
 
-* restart the WAPT service
+* restart the WAPT service:
 
   .. code-block:: bash
 
@@ -157,4 +156,4 @@ Registering your Linux agent
      wapt-get update
 
 Your Linux Agent is now installed and configured
-and it will now appear in your WAPT Console with a pinguin icon.
+and it will now appear in your WAPT Console with a pinguin icon!!

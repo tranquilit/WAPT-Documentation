@@ -3,346 +3,236 @@
 # This file is distributed under the same license as the WAPT package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-05 18:00+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2020-02-17 11:36+0100\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
+"Language-Team: Tranquil IT <contact@tranquil.it>\n"
+"Language: fr\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:8
 msgid "Deploying the WAPT agent for Linux"
-msgstr ""
+msgstr "Déployer l'agent WAPT sur Linux"
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:8
 msgid "waptagent, linux, deployment, deploy, deploying, documentation, WAPT"
-msgstr ""
+msgstr "waptagent, linux, déploiement, déployer, documentation, WAPT"
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:15
 msgid "Deploying the WAPT Agent on Linux"
-msgstr ""
+msgstr "Déployer l'agent WAPT sur Linux"
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:19
 msgid ""
 "Starting with WAPT 1.8, a Linux agent is available for Linux Debian / "
 "Linux CentOS."
 msgstr ""
+"À partir de WAPT 1.8, un agent Linux est disponible pour Linux Debian / "
+"Linux CentOS."
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:24
 msgid ""
 "the following procedure installs WAPT agent using Tranquil IT "
 "repositories for Debian/CentOS;"
 msgstr ""
+"la procédure suivante installe l'agent WAPT en utilisant les dépôts "
+"Tranquil IT pour Debian / CentOS ;"
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:27
 msgid ""
 "if you wish to install it manually, you can look for your `corresponding "
 "version <https://wapt.tranquil.it/wapt/releases/>`_;"
 msgstr ""
+"si vous souhaitez l'installer manuellement, vous pouvez rechercher votre "
+"`version correspondante <https://wapt.tranquil.it/wapt/releases/>`_ ;"
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:30
 msgid ""
 "copy the link of the binary that you need, download and install it with "
 "dpkg / rpm;"
 msgstr ""
+"copier le lien du binaire dont vous avez besoin, le télécharger et "
+"l'installer avec dpkg / rpm ;"
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:34
 msgid "Installing the WAPT agent on Debian"
-msgstr ""
+msgstr "Installer l'agent WAPT sur Debian"
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:36
 msgid ""
 "The most secure and reliable way to install the latest WAPT agent on "
 "Linux Debian is using Tranquil IT public repository."
 msgstr ""
+"La façon la plus sûre et la plus fiable d'installer le dernier agent WAPT "
+"sur Linux Debian est d'utiliser le dépôt public Tranquil IT."
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:39
 msgid "add Tranquil IT repository in apt repository lists:"
-msgstr ""
+msgstr "ajouter le dépôt Tranquil IT dans les listes apt :"
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:48
 msgid "install WAPT agent using apt-get:"
-msgstr ""
+msgstr "installer l'agent WAPT en utilisant apt-get :"
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:56
 msgid "Installing the WAPT agent on CentOS"
-msgstr ""
+msgstr "Installer l'agent WAPT sur CentOS"
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:58
 msgid ""
 "The most secure and reliable way to install latest WAPT agent on Linux "
 "CentOS is using Tranquil IT public repository."
 msgstr ""
+"La façon la plus sûre et la plus fiable d'installer le dernier agent WAPT "
+"sur CentOS est d'utiliser le dépôt public Tranquil IT."
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:61
 msgid "add Tranquil IT repository in yum repository lists:"
-msgstr ""
+msgstr "ajouter le dépôt Tranquil IT dans les listes yum :"
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:73
 msgid "install WAPT agent using yum:"
-msgstr ""
+msgstr "installer l'agent WAPT en utilisant yum :"
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:80
 msgid "Creating the agent configuration file"
-msgstr ""
+msgstr "Créer le fichier de configuration de l'agent"
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:82
 msgid "The requisites for your WAPT agent to work are:"
 msgstr ""
+"Les conditions requises pour que votre agent WAPT puisse travailler sont "
+"les suivantes :"
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:84
 msgid "``wapt-get.ini`` config file in :file:`/opt/wapt/`;"
 msgstr ""
+"le fichier de configuration ``wapt-get.ini`` se trouve dans le fichier :"
+"file:`/opt/wapt/` ;"
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:86
 msgid ""
-"a public certificate of the package-signing authority in "
-":file:`/opt/wapt/ssl/`;"
+"a public certificate of the package-signing authority in :file:`/opt/wapt/"
+"ssl/`;"
 msgstr ""
+"un certificat public de l'autorité de signature des paquets dans :file:`/"
+"opt/wapt/ssl/` ;"
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:88
 msgid ""
-"You need to create and configure the :file:`wapt-get.ini` file in "
-":file:`/opt/wapt` (:ref:`wapt-get-ini`)."
+"You need to create and configure the :file:`wapt-get.ini` file in :file:`/"
+"opt/wapt` (:ref:`wapt-get-ini`)."
 msgstr ""
+"Vous devez créer et configurer le fichier :file:`wapt-get.ini` dans :file:"
+"`/opt/wapt` (:ref:`wapt-get-ini`)."
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:91
 msgid ""
 "An example of what it should look like is present further down on this "
 "page. You may use it after changing the parameters to suit your needs."
 msgstr ""
+"Un exemple de ce à quoi il devrait ressembler est présenté plus bas sur "
+"cette page. Vous pouvez l'utiliser après avoir modifié les paramètres en "
+"fonction de vos besoins."
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:110
 msgid "Copying the package-signing certificate"
-msgstr ""
+msgstr "Copier le certificat Code-Signing"
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:112
 msgid ""
 "You need to copy manually, or by script, the public certificate of your "
 "package signing certificate authority."
 msgstr ""
+"Vous devez copier manuellement, ou par script, le certificat public de "
+"votre autorité de certification de signature de paquets."
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:115
 msgid ""
-"The certificate should be located on your Windows machine in "
-":file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl\\\\`."
+"The certificate should be located on your Windows machine in :file:`C:\\"
+"\\Program Files (x86)\\\\wapt\\\\ssl\\\\`."
 msgstr ""
+"Le certificat devrait être situé sur votre machine Windows dans :file:`C:"
+"\\\\\\Program Files (x86)\\\\\\\\wapt\\\\\\ssl\\\\`."
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:118
 msgid ""
-"Copy your certificate(s) in :file:`/opt/wapt/ssl` using :program:`WinSCP`"
-" or :program:`rsync`."
+"Copy your certificate(s) in :file:`/opt/wapt/ssl` using :program:`WinSCP` "
+"or :program:`rsync`."
 msgstr ""
+"Copier les certificat(s) dans :file:`/opt/wapt/ssl` en utilisant :program:"
+"`WinSCP` ou :program:`rsync`."
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:122
 msgid "Copying the SSL/TLS certificate"
-msgstr ""
+msgstr "Copier le certificat SSL/TLS"
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:124
 msgid ""
-"If you already have configured your WAPT server to use correct "
-":ref:`Nginx SSL/TLS certificates "
-"<activating_HTTPS_certificate_verification>`, you must copy the "
-"certificate in your WAPT Linux agent."
+"If you already have configured your WAPT server to use correct :ref:"
+"`Nginx SSL/TLS certificates <activating_HTTPS_certificate_verification>`, "
+"you must copy the certificate in your WAPT Linux agent."
 msgstr ""
+"Si vous avez déjà configuré votre serveur WAPT pour utiliser les bons "
+"certificats :ref:`Nginx SSL/TLS "
+"<activating_HTTPS_certificate_verification>`, vous devez copier le "
+"certificat dans votre agent WAPT Linux."
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:128
 msgid ""
-"The certificate should be located on your Windows machine in "
-":file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl\\\\server\\\\`."
+"The certificate should be located on your Windows machine in :file:`C:\\"
+"\\Program Files (x86)\\\\wapt\\\\ssl\\\\server\\\\`."
 msgstr ""
+"Le certificat devrait être situé sur votre machine Windows dans :file:`C:"
+"\\\\\\Program Files (x86)\\\\\\wapt\\\\\\\\ssl\\\\\\server\\\\\\`."
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:131
 msgid ""
-"Copy your certificate(s) in :file:`/opt/wapt/ssl/server/` using "
-":program:`WinSCP` or :program:`rsync`."
+"Copy your certificate(s) in :file:`/opt/wapt/ssl/server/` using :program:"
+"`WinSCP` or :program:`rsync`."
 msgstr ""
+"Copier le(s) certificat(s) dans :file:`/opt/wapt/ssl/server/` en "
+"utilisant :program:`WinSCP` ou :program:`rsync`."
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:136
 msgid ""
 "If you are not using SSL/TLS certificate with your WAPT Server, you must "
 "change in :file:`/opt/wapt/wapt-get.ini` the following lines to 0:"
 msgstr ""
+"Si vous n'utilisez pas de certificat SSL/TLS avec votre serveur WAPT, "
+"vous devez changer dans :file:`/opt/wapt/wapt-get.ini` les lignes "
+"suivantes à *0* :"
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:145
 msgid "Registering your Linux agent"
-msgstr ""
+msgstr "Enregistrer votre agent Linux avec le serveur WAPT"
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:147
 msgid "restart the WAPT service"
-msgstr ""
+msgstr "redémarrer le serveur WAPT :"
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:153
 msgid ""
 "finally, execute the following command to register your Linux host with "
 "the WAPT server:"
 msgstr ""
+"enfin, exécuter la commande suivante pour enregistrer votre hôte Linux "
+"auprès du serveur WAPT :"
 
 #: ../../source/wapt-configuration/wapt-deploy/waptagent-linux.rst:161
 msgid ""
 "Your Linux Agent is now installed and configured and it will now appear "
 "in your WAPT Console with a pinguin icon."
 msgstr ""
-
-#~ msgid "Deploying the WAPT agent on Linux"
-#~ msgstr ""
-
-#~ msgid "Currently support : * Debian 9 Stretch and Debian 10 Buster *"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Download manually your WAPT Linux Agent"
-#~ " corresponding to your OS and your"
-#~ " WAPT Server version :"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "You can look for your corresponding "
-#~ "version with your internet browser : "
-#~ "https://wapt.tranquil.it/wapt/releases/"
-#~ msgstr ""
-
-#~ msgid "Copy the link of the binary that you need"
-#~ msgstr ""
-
-#~ msgid "Registering the agent"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "You need to create and configure "
-#~ "the :file:`wapt-get.ini` file in "
-#~ ":file:`/opt/wapt` (:ref:`wapt-get-ini`). An"
-#~ " example of what it should look "
-#~ "like is present further down on "
-#~ "this page. You may use it after"
-#~ " changing the parameters to suit your"
-#~ " needs."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The following procedure installs WAPT "
-#~ "agent using Tranquil IT repositories for"
-#~ " Debian/CentOS"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "If you wish to install it "
-#~ "manually, you can look for your "
-#~ "corresponding version with your internet "
-#~ "browser : https://wapt.tranquil.it/wapt/releases/"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Copy the link of the binary that"
-#~ " you need, download and install with"
-#~ " dpkg/rpm"
-#~ msgstr ""
-
-#~ msgid "Installation on Debian"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "The most secure and reliable way "
-#~ "to install latest WAPT agent on "
-#~ "Linux Debian is using Tranquil IT "
-#~ "public repository."
-#~ msgstr ""
-
-#~ msgid "Add Tranquil IT repository in apt repository lists :"
-#~ msgstr ""
-
-#~ msgid "Install WAPT agent using apt-get :"
-#~ msgstr ""
-
-#~ msgid "Installation on CentOS"
-#~ msgstr ""
-
-#~ msgid "Add Tranquil IT repository in yum repository lists :"
-#~ msgstr ""
-
-#~ msgid "Install WAPT agent using yum :"
-#~ msgstr ""
-
-#~ msgid "Create agent configuration file"
-#~ msgstr ""
-
-#~ msgid "The requisities for your WAPT agent to work are :"
-#~ msgstr ""
-
-#~ msgid "``wapt-get.ini`` config file in :file:`/opt/wapt/`"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "a public certificate of the package-"
-#~ "signing authority in :file:`/opt/wapt/ssl/`"
-#~ msgstr ""
-
-#~ msgid "Copy package-signing certificate"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "It shoud be located on your "
-#~ "Windows machine in :file:`C:\\\\Program Files"
-#~ " (x86)\\\\wapt\\\\ssl\\\\`."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Copy your certificate(s) in "
-#~ ":file:`/opt/wapt/ssl` using WinSCP or rsync"
-#~ " for example."
-#~ msgstr ""
-
-#~ msgid "Copy SSL/TLS certificate"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "If you already have configured your "
-#~ "WAPT server to use correct Nginx "
-#~ "SSL/TLS certificates ( "
-#~ ":ref:`activating_HTTPS_certificate_verification` ), you"
-#~ " must copy the certificate in your"
-#~ " WAPT Linux agent."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "It shoud be located on your "
-#~ "Windows machine in :file:`C:\\\\Program Files"
-#~ " (x86)\\\\wapt\\\\ssl\\\\server\\\\`."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Copy your certificate(s) in "
-#~ ":file:`/opt/wapt/ssl/server/` using WinSCP or "
-#~ "rsync for example."
-#~ msgstr ""
-
-#~ msgid "Not using SSL/TLS certificate"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "If you are not using SSL/TLS "
-#~ "certificate with your WAPT Server, you"
-#~ " must change in :file:`/opt/wapt/wapt-"
-#~ "get.ini` the following lines to 0 "
-#~ ":"
-#~ msgstr ""
-
-#~ msgid "Register your agent"
-#~ msgstr ""
-
-#~ msgid "Finally, execute the following command to register your machine :"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Your Linux Agent is now installed "
-#~ "and configured and will appear in "
-#~ "your WAPT Console."
-#~ msgstr ""
-
+"Votre agent Linux est maintenant installé et configuré et il apparaîtra "
+"dans votre console WAPT avec une icône de pinguin !!"

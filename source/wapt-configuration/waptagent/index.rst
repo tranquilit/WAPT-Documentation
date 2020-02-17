@@ -11,53 +11,63 @@
 
 .. _create_WAPT_agent:
 
-WAPT agent installer
+Building the WAPT agent installer
 =================================
 
-Choice of the unique identification mode of the wapt agents
-------------------------------------------------------------
+Choosing the mode to uniquely identify the WAPT agents
+------------------------------------------------------
 
-In wapt you can choose the unique identification mode of the agents.
+In WAPT you can choose the unique identification mode of the agents.
 
-When a wapt agent registers the server must know if it is a new machine or if it is a machine already registered.
+When a WAPT agent registers the server must know if it is a new machine
+or if it is a machine already registered.
 
-For this, the wapt server looks at the unique number "UUID" sent in the inventory
+For this, the WAPT server looks at the unique number "UUID" in the inventory.
 
-Wapt offers 3 modes of operation, it's up to you to choose the mode that suits you
+WAPT offers 3 modes of operation, it is up to you to choose
+the mode that best suits you.
 
 .. attention::
 
-   When choosing a mode of operation it is difficult to change it, think carefully!
+  When choosing a mode of operation it is difficult to change it,
+  think carefully!
 
-Identification by UUID number BIOS (serial number)
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Identifying the WAPT agents by their BIOS UUID (serial number)
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-This mode of operation makes it possible to identify the machines in the console in a physical manner. 
+This mode of operation makes it possible to identify the machines
+in the console in a physical manner.
 
-If you replace a computer and give the new computer the same name as the previous one, you will have two computers that will appear in the wapt console since you have two computers physically.
-
-.. note::
-
-   Some vendors do not work properly and assign the same UUID bios to two different computers. In this case, wapt only sees one computer ...
-
-Identification by machine name
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-This mode of operation is similar to that of the active directory. The machines are identify by name.
+If you replace a computer and give the new computer the same name
+as the previous one, you will have two computers that will appear
+in the WAPT console since you will have physically two different computers.
 
 .. note::
 
-   This mode does not work if some machine in your park has the same name.
-   
-Identification by installation of wapt.
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   Some vendors do crappy work and assign the same BIOS UUIDs to entire batches
+   of computers. In this case, WAPT will only see one computer ...
 
-This mode of operation allows PCs to be identified by their wapt installation. Each installation of wapt generates a unique random number.
-If you uninstall wapt and then reinstall it, you will see a new pc appear in the console.
-   
+Identifying the WAPT agent by host name
++++++++++++++++++++++++++++++++++++++++
+
+This mode of operation is similar to that in Active Directory.
+The machines are identified by their hostname.
+
+.. note::
+
+   This mode does not work if several machines in your fleet
+   share the same name. We all know it should not happen!!
+
+Identifying the WAPT agents with a randomly generated UUID
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+This mode of operation allows PCs to be identified by their WAPT installation.
+Each installation of WAPT generates a unique random number.
+If you uninstall WAPT and then reinstall it,
+you will see a new pc appear in your console.
 
 Building the WAPT agent installer
-------------------------------------------------------------
+---------------------------------
 
 The :program:`waptagent` binary is an InnoSetup installer.
 
@@ -111,7 +121,6 @@ we have all files required to build the WAPT agent installer.
 
   * the checkbox :guilabel:`Verify the WAPT Server HTTPS certificate`;
 
-
   * the field :guilabel:`Path to the bundle of certificates` to verify
     the HTTPS certificate of the WAPT Server;
 
@@ -119,36 +128,43 @@ we have all files required to build the WAPT agent installer.
 
   * the field :guilabel:`Organization` to identify the origin of WAPT packages;
 
-  * the field :guilabel:`Sign waptupgrade with both sha256 and sha1` can be ignored because it is only useful when upgrading from version 1.3 ;
-  
-  * the field :guilabel:`Use computer FQDN for UUID`  and :guilabel:`Use random host UUID (for buggy BIOS)`  (see explanation in the previous paragraph of this documentation.)
-  
-  * the field :guilabel:`Enable AD Groups` Enable the installation of profile packages based on the active directory groups of which the machine is a member. **This feature can degrade the performance of wapt**
+  * the field :guilabel:`Sign waptupgrade with both sha256 and sha1`
+    can be ignored because it is only useful when upgrading from version 1.3;
 
-  * the field :guilabel:`Append host's profiles`  Allows to define a list of wapt packages to install obligatorily.
-  
-  * the field :guilabel:`Automatic periodic packages audit scheduling`  Define the frequency where the agent checks if he has audits to perform. 
-  
-  * Windows update section, go to the windows update agent part of the documentation for more information on this topic.
-  
+  * the field :guilabel:`Use computer FQDN for UUID`
+    and :guilabel:`Use random host UUID (for buggy BIOS)`
+    (see explanation in the previous paragraph of this documentation);
+
+  * the field :guilabel:`Enable AD Groups` enables the installation
+    of profile packages based on the Active Directory groups
+    of which the machine is a member. **This feature can degrade
+    the performance of WAPT**;
+
+  * the field :guilabel:`Append host's profiles`
+    allows to define a list of WAPT packages to install obligatorily;
+
+  * the field :guilabel:`Automatic periodic packages audit scheduling`
+    define the frequency at which the WAPT agent checks whether it has
+    audits to perform;
+
+  * Windows update section, refer to :ref:`this article on configuring WAPTWUA
+    on the WAPT agent <wapt_wua_agent>`;
+
 .. danger::
 
    * The checkbox **Use Kerberos for the initial registration** must be checked
      **ONLY IF** you have followed the documentation
      on **Configuring the Kerberos authentication**.
-   
+
    * The checkbox **Verify the WAPT Server HTTPS certificate**must be checked
      **ONLY IF** you have followed the documentation
      on **Activating the verification of the SSL / TLS certificate**.
-
 
 .. figure:: waptagent-organisation-info.png
   :align: center
   :alt: Fill in the informations on your Organisation
 
   Fill in the informations on your Organisation
-  
-
 
 * provide the password for unlocking the private key:
 

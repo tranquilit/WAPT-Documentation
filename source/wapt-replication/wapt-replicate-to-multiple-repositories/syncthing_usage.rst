@@ -8,7 +8,7 @@
 
   WAPT repositories synchronization is now native in WAPT Enterprise.
 
-  You can find the new documentation here : :ref:`replication_usage`
+  You can find the new documentation here : :ref:`replication_usage`.
 
 Syncthing is a multi-OS open source peer to peer synchronization utility.
 

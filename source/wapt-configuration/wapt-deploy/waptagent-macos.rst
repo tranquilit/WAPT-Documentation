@@ -11,8 +11,8 @@
 
 .. _install_waptagent_macos:
 
-Deploying the WAPT agent for MacOS
-==================================
+Deploying the WAPT agent on MacOS
+=================================
 
 .. versionadded:: 1.8
 
@@ -92,7 +92,7 @@ using :program:`WinSCP` or :program:`rsync`.
 Registering your MacOS agent
 ++++++++++++++++++++++++++++
 
-* restart the WAPT service
+* restart the WAPT service:
 
   .. code-block:: bash
 

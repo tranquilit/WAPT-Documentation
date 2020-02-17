@@ -213,7 +213,7 @@ msgid ""
 "of CentOS."
 msgstr ""
 "Si le certificat du contrôleur Active Directory est auto-signé, il faudra "
-"faire le nécessaire afin de rajouter au bundle local de CA de CentOS."
+"faire le nécessaire afin de rajouter au *bundle* local de CA de CentOS."
 
 #: ../../source/waptserver-install/security/security-configuration-auth-ad.rst:94
 msgid ""

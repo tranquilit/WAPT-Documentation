@@ -5,13 +5,17 @@
    Niveau 4 : """"""""""""""""""""
    Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
 
-Uninstall WAPT agent from clients
-=================================
+.. meta::
+  :description: Uninstalling WAPT agent from clients
+  :keywords: waptagent, linux, uninstalling, uninstall, documentation, WAPT
 
-Uninstall WAPT agent properly from Windows / Linux / macOS hosts
+.. _uninstall_waptagent_linux:
 
-Uninstall WAPT agent on Windows
--------------------------------
+Uninstalling WAPT agent from clients
+====================================
+
+Uninstalling WAPT agent on Windows
+----------------------------------
 
 If you need to uninstall WAPT agents from clients,
 the uninstaller is automatically created in the WAPT install location,
@@ -31,7 +35,6 @@ by default it is :file:`C:\\Program Files (x86)\\wapt\\unins000.exe`.
 
    unins000.exe /VERYSILENT /purge_wapt_dir=1
 
-
 Complete list of command-line arguments for :command:`unins000.exe`:
 
 ===================== =====================================================
@@ -41,14 +44,13 @@ Settings              Description
 ``/purge_wapt_dir=1`` Purges WAPT directory (removes all folders and files)
 ===================== =====================================================
 
-
-Uninstall WAPT agent on Linux
--------------------------------
+Uninstalling WAPT agent on Linux
+--------------------------------
 
 * default uninstall of WAPT agent can be achieved
   with the following command, depending on your Linux OS:
 
-.. code:: bash
+.. code-block:: bash
 
    # Debian / Ubuntu
    apt-get remove --purge tis-waptagent
@@ -58,7 +60,7 @@ Uninstall WAPT agent on Linux
 
 * an additional step can be done using these commands (WIP)
 
-.. code:: bash
+.. code-block:: bash
 
    rm -f /opt/wapt/
 
@@ -68,9 +70,8 @@ Uninstall WAPT agent on Linux
    # CentOS / Redhat
    rm /etc/yum/yum.repos.d/wapt.list
 
-
-Uninstall WAPT agent on macOS
--------------------------------
+Uninstalling WAPT agent on macOS
+--------------------------------
 
 * default uninstall of WAPT agent can be achieved
   with the following command
@@ -83,14 +84,14 @@ Uninstall WAPT agent on macOS
     # Remove packages
     sudo pkgutil --forget com.tranquilit.tis-waptagent-enterprise
 
+Re-enabling Windows Update before uninstalling
+----------------------------------------------
 
+In the case you have used WAPT to manage Windows Updates,
+you might want to re-enable Windows Update default behavior
+before uninstalling WAPT agent.
 
-Re-enable Windows Update before uninstalling
------------------------------------------------------------
-
-In the case you have used WAPT to manage Windows Updates, you might want to re-enable Windows Update default behavior before uninstalling WAPT agent.
-
-To do so, here is an example package to push before uninstalling WAPT agent :
+To do so, here is an example package to push before uninstalling the WAPT agent:
 
 .. code-block:: python
 

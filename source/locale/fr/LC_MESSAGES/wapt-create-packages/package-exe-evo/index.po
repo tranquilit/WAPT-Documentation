@@ -1,21 +1,21 @@
-
 msgid ""
 msgstr ""
-"Project-Id-Version: WAPT 1.6\n"
+"Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-13 10:30+0100\n"
-"PO-Revision-Date: 2018-11-07 11:50+0100\n"
+"PO-Revision-Date: 2020-02-17 12:08+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:8
-#, fuzzy
 msgid "Advanced *.exe packages"
 msgstr "Créer un paquet \\*.exe evolué"
 
@@ -32,47 +32,29 @@ msgid "Improving the functionalities of packages"
 msgstr "Améliorer l'installation"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:21
-msgid ""
-"Our package Mozilla Firefox ESR is functional but it requires some "
-"improvements."
-msgstr ""
-"Notre paquet Mozilla Firefox ESR est fonctionnel mais il n'est pas encore"
-" optimal."
+msgid "Our package Mozilla Firefox ESR is functional but it requires some improvements."
+msgstr "Notre paquet Mozilla Firefox ESR est fonctionnel mais il n'est pas encore optimal."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:23
-msgid ""
-"the package installs the software even if the software is already "
-"installed, it will overwrite older versions;"
-msgstr ""
-"le paquet exécute l'installation du logiciel même si le logiciel est déjà"
-" installé, il l'écrase dans tous les cas ;"
+msgid "the package installs the software even if the software is already installed, it will overwrite older versions;"
+msgstr "le paquet exécute l'installation du logiciel même si le logiciel est déjà installé, il l'écrase dans tous les cas ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:26
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:28
-msgid ""
-"the package does not check whether the software version is already "
-"installed;"
+msgid "the package does not check whether the software version is already installed;"
 msgstr "le paquet ne vérifie pas la version du logiciel s'il est déjà installé ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:30
-msgid ""
-"As with MSI installers, those problems are addressed using the function "
-":command:`install_exe_if_needed`."
-msgstr ""
-"Comme avec les MSI, nous résolvons ces problèmes en utilisant la fonction"
-" ``install_exe_if_needed``."
+msgid "As with MSI installers, those problems are addressed using the function :command:`install_exe_if_needed`."
+msgstr "Comme avec les MSI, nous résolvons ces problèmes en utilisant la fonction ``install_exe_if_needed``."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:34
 msgid "Using *install_exe_if_needed*"
 msgstr "Utiliser *install_exe_if_needed*"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:36
-msgid ""
-"The function is slightly the same as that used with MSI installers, with "
-"some differences:"
-msgstr ""
-"La fonction est sensiblement la même que celle utilisée pour les "
-"installeurs MSI, avec quelques différences :"
+msgid "The function is slightly the same as that used with MSI installers, with some differences:"
+msgstr "La fonction est sensiblement la même que celle utilisée pour les installeurs MSI, avec quelques différences :"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:39
 msgid "the function requires to pass the silent flag as an argument;"
@@ -87,63 +69,62 @@ msgid "We make changes to the Mozilla Firefox ESR setup accordingly."
 msgstr "On modifie notre exemple Mozilla Firefox ESR en conséquence :"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:61
-#, fuzzy
 msgid "List of arguments available with *install_exe_if_needed*"
-msgstr "Utiliser *install_exe_if_needed*"
+msgstr "Liste des arguments disponibles avec *install_exe_if_need*."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:66
 msgid "Settings"
-msgstr ""
+msgstr "Paramètres"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:66
 msgid "Default value"
-msgstr ""
+msgstr "Valeur par défaut"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:66
 msgid "Description"
-msgstr ""
+msgstr "Description"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:69
 msgid "``exe``"
-msgstr ""
+msgstr "``exe``"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:69
 msgid "name of the :mimetype:`.exe` file to execute."
-msgstr ""
+msgstr "nom du fichier :mimetype:`.exe` à exécuter."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:70
 msgid "``silentflags``"
-msgstr ""
+msgstr "``silentflags``"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:70
 msgid "silent parameters to pass as arguments to the installer."
-msgstr ""
+msgstr "paramètres silencieux à passer en argument à l'installeur."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:72
 msgid "``key``"
-msgstr ""
+msgstr "``key``"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:72
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:73
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:80
 msgid "None"
-msgstr ""
+msgstr "None"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:72
 msgid "software *uninstall key*."
-msgstr ""
+msgstr "clé de désinstallation du programme."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:73
 msgid "``min_version``"
-msgstr ""
+msgstr "``min_version``"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:73
 msgid "minimal version above which the software will update."
-msgstr ""
+msgstr "version minimale au dessus de laquelle il mettra à jour."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:75
 msgid "``killbefore``"
-msgstr ""
+msgstr "``killbefore``"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:75
 msgid "[ ]"
@@ -151,108 +132,80 @@ msgstr ""
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:75
 msgid "list of programs to kill before installing the package."
-msgstr ""
+msgstr "liste des programmes à tuer avant de lancer l'installation."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:77
 msgid "``accept_returncodes``"
-msgstr ""
+msgstr "``accept_returncodes``"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:77
 msgid "[0,3010]"
-msgstr ""
+msgstr "[0,3010]"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:77
 msgid "accepted codes other than 0 and 3010 returned by the function."
-msgstr ""
+msgstr "codes de retour autres que 0 ou 3010 acceptés en retour par la fonction."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:79
 msgid "``timeout``"
-msgstr ""
+msgstr "``timeout``"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:79
 msgid "300"
-msgstr ""
+msgstr "300"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:79
 msgid "maximum installation wait time (in seconds)."
-msgstr ""
+msgstr "durée d'attente maximale d'installation (en secondes)."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:80
 msgid "``get_version``"
-msgstr ""
+msgstr "``get_version``"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:80
-msgid ""
-"value passed as parameter to control the version number instead of the "
-"value returned by the :command:`installed_softwares` function."
-msgstr ""
+msgid "value passed as parameter to control the version number instead of the value returned by the :command:`installed_softwares` function."
+msgstr "valeur passée en paramètre pour le contrôle de version au lieu de celle retournée par la fonction :command:`installed_softwares`."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:83
 msgid "``remove_old_version``"
-msgstr ""
+msgstr "``remove_old_version``"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:83
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:85
 msgid "False"
-msgstr ""
+msgstr "False"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:83
-msgid ""
-"automatically removes an older version of a software whose uninstallkey "
-"is identical"
-msgstr ""
+msgid "automatically removes an older version of a software whose uninstallkey is identical"
+msgstr "Permet d'enclencher automatiquement la suppression d'une uninstallkey identique avec une version précédente à celle mentionnée"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:85
 msgid "``force``"
-msgstr ""
+msgstr "``force``"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:85
-msgid ""
-"forces the installation of the software even though the same uninstallkey"
-" has been found"
-msgstr ""
+msgid "forces the installation of the software even though the same uninstallkey has been found"
+msgstr "Permet de forcer l'installation même si une uninstallkey avec une version identique est trouvée."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:89
 msgid "As a consequence, the package will have a different behavior:"
 msgstr "En conséquence, le paquet aura un comportement différent :"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:91
-msgid ""
-"Firefox will install only if it is not yet installed or if the installed "
-"version of Firefox is less than 45.5.0, unless the ``--force`` option is "
-"passed as argument when installing the package;"
-msgstr ""
-"le logiciel Firefox s'installera uniquement si le logiciel n'est pas "
-"installé et si la version est strictement inférieure à 45.5.0, sauf si "
-"l'option ``--force`` est indiquée lors de l'installation du paquet ;"
+msgid "Firefox will install only if it is not yet installed or if the installed version of Firefox is less than 45.5.0, unless the ``--force`` option is passed as argument when installing the package;"
+msgstr "le logiciel Firefox s'installera uniquement si le logiciel n'est pas installé et si la version est strictement inférieure à 45.5.0, sauf si l'option ``--force`` est indiquée lors de l'installation du paquet ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:96
-msgid ""
-"on installing, the running :program:`firefox.exe` processes will be "
-"killed;"
-msgstr ""
-"à l'installation, les processus :program:`firefox.exe` en cours "
-"d'exécution seront terminés ;"
+msgid "on installing, the running :program:`firefox.exe` processes will be killed;"
+msgstr "à l'installation, les processus :program:`firefox.exe` en cours d'exécution seront terminés ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:98
-msgid ""
-"the function will add by itself the *uninstall key*, so leave the "
-"*uninstall key* argument empty;"
-msgstr ""
-"la fonction ajoutera elle-même la clé de désinstallation, donc laisser "
-"*uninstallkey* vide ;"
+msgid "the function will add by itself the *uninstall key*, so leave the *uninstall key* argument empty;"
+msgstr "la fonction ajoutera elle-même la clé de désinstallation, donc laisser *uninstallkey* vide ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:101
-msgid ""
-"when finishing the installation of the package, the function will check "
-"that the *uninstall key* is present on the machine and that the version "
-"of Firefox is greater than 45.5.0; if this not the case, the package will"
-" be flagged as **ERROR**;"
-msgstr ""
-"à la fin de l'installation, la fonction ira vérifier si l'*uninstallkey* "
-"est bien présente sur le poste et si la version est bien égale ou "
-"supérieure à 45.5.0, si ce n'est pas le cas, elle basculera le paquet en "
-"**ERROR** ;"
+msgid "when finishing the installation of the package, the function will check that the *uninstall key* is present on the machine and that the version of Firefox is greater than 45.5.0; if this not the case, the package will be flagged as **ERROR**;"
+msgstr "à la fin de l'installation, la fonction ira vérifier si l'*uninstallkey* est bien présente sur le poste et si la version est bien égale ou supérieure à 45.5.0, si ce n'est pas le cas, elle basculera le paquet en **ERROR** ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:107
 msgid "Managing the de-installation of applications"
@@ -263,23 +216,12 @@ msgid "Special case of a non-silent uninstaller"
 msgstr "Cas particulier d'un dé-installeur non-silencieux"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:112
-msgid ""
-"In that particular case, a package using :command:`install_exe_if_needed`"
-" fills in the *uninstall key*, but the *uninstall key* points to a non "
-"silent uninstaller."
-msgstr ""
-"Dans ce cas particulier, un paquet utilisant "
-":command:`install_exe_if_needed` renseigne la clé de désinstallation, "
-"mais cette clé de désinstallation pointe vers un dé-installeur non-"
-"silencieux."
+msgid "In that particular case, a package using :command:`install_exe_if_needed` fills in the *uninstall key*, but the *uninstall key* points to a non silent uninstaller."
+msgstr "Dans ce cas particulier, un paquet utilisant :command:`install_exe_if_needed` renseigne la clé de désinstallation, mais cette clé de désinstallation pointe vers un dé-installeur non-silencieux."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:116
-msgid ""
-"We have to circumvent that problem by using a function that will remove "
-"the *uninstall key* at the end of the installation."
-msgstr ""
-"Il nous faut contourner le problème en utilisant une fonction qui va "
-"supprimer la clé de désinstallation à la fin de l'installation."
+msgid "We have to circumvent that problem by using a function that will remove the *uninstall key* at the end of the installation."
+msgstr "Il nous faut contourner le problème en utilisant une fonction qui va supprimer la clé de désinstallation à la fin de l'installation."
 
 #~ msgid ""
 #~ "The uninstall key is passed as an"
@@ -509,4 +451,3 @@ msgstr ""
 
 #~ msgid "name of the :mimetype:`.exe` file to execute."
 #~ msgstr ""
-
