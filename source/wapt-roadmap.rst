@@ -149,6 +149,16 @@ WAPT 1.7
   (*unit* packages) (**Enterprise**);
 
 
+WAPT 1.8
+--------
+
+* Client agent for Linux Debian, Linux CentOS, Ubuntu and Apple macOS
+
+* Built-in WAPT packages repository replication
+
+* Built-in repository selection rules
+
+
 Later
 -----
 
