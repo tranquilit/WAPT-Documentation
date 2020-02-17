@@ -35,6 +35,14 @@ large package deployement.
 Configuration change for better performance
 -------------------------------------------
 
+.. note::
+
+   The parameters that are modified below are linked together and should be done globally
+   and not individually.
+
+Configuring Nginx
++++++++++++++++++
+
 In the :file:`/etc/nginx/nginx.conf` file, modify `worker_connections` parameter. 
 The value should be around 2.5 time the number of WAPT clients (n connexions 
 for websockets and n connections for packages downloads and inventory upload + 
@@ -46,25 +54,30 @@ some margin).
        worker_connections 4096;
    }
 
+Then upgrade the number of filedescriptor in the :file:`/etc/nginx/nginx.conf` file : 
+
+.. code-block:: bash
+
+   worker_rlimit_nofile 32768;
+
+Configuring the Linux System
+++++++++++++++++++++++++++++
+
 Increase the number of filedescriptor. The systemd unit file asks for an increase
 in allowed number of filedescriptor (LimitNOFILE=32768). We should have the same 
 thing for Nginx. There are a few limits to modify.
 
 First we modify system wide the number of filedescriptor allow for nginx and wapt.
-Mofidy the :file:`/etc/security/limits.conf` : 
+Create the :file:`/etc/security/limits.d/wapt.conf` : 
 
 .. code-block:: bash
 
-   wapt         hard    nofile      500000
-   wapt         soft    nofile      500000
-   www-data     hard    nofile      500000
-   www-data     soft    nofile      500000
-
-The upgrade in the :file:`/etc/nginx/nginx.conf` file : 
-
-.. code-block:: bash
-
-   worker_rlimit_nofile 32768;
+   cat > /etc/security/limits.d/wapt.conf <<EOF 
+   wapt         hard    nofile      32768
+   wapt         soft    nofile      32768
+   www-data     hard    nofile      32768
+   www-data     soft    nofile      32768
+   EOF
 
 Nginx serves as a reverse proxy and makes quite a lot of connections. Each WAPT client
 keeps a websocket connection up all the time in order to respond to actions from the WAPT Server.
@@ -82,6 +95,9 @@ of WAPT client.
 
    sysctl --system
 
+Configuring PostgreSQL Database
++++++++++++++++++++++++++++++++
+
 The higher number of client need a higher number of connections to the PostgreSQL 
 database. In the :file:`postgresql.conf` file (
 file:`/etc/postgresql/11/main/postgresql.conf` on debian 10 for example), you need to 
@@ -90,6 +106,9 @@ increase the following parameter at approximatly 1/4 the number of clients.
 .. code-block:: bash
 
    max_connections = 1000
+
+Configuring the WAPTServer
+++++++++++++++++++++++++++
 
 Then modify the two following parameter in the :file:`/opt/wapt/conf/waptserver.ini` file.
 `db_max_connections` should be equal to postgresql max_connections minus 10 (PostgreSQL needs
