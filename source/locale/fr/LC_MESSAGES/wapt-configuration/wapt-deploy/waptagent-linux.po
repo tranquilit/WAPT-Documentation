@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-17 16:07+0100\n"
-"PO-Revision-Date: 2020-02-17 11:36+0100\n"
+"PO-Revision-Date: 2020-02-17 17:44+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
+"X-Generator: Poedit 1.8.8\n"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:8
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:15
@@ -68,8 +69,8 @@ msgid ""
 "The most secure and reliable way to install the latest WAPT agent on "
 "Linux Debian is using Tranquil IT public repository."
 msgstr ""
-"La façon la plus sûre et la plus fiable d'installer le dernier agent WAPT"
-" sur Linux Debian est d'utiliser le dépôt public Tranquil IT."
+"La façon la plus sûre et la plus fiable d'installer le dernier agent WAPT "
+"sur Linux Debian est d'utiliser le dépôt public Tranquil IT."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:39
 msgid "add Tranquil IT repository in apt repository lists:"
@@ -88,8 +89,8 @@ msgid ""
 "The most secure and reliable way to install latest WAPT agent on Linux "
 "CentOS is using Tranquil IT public repository."
 msgstr ""
-"La façon la plus sûre et la plus fiable d'installer le dernier agent WAPT"
-" sur CentOS est d'utiliser le dépôt public Tranquil IT."
+"La façon la plus sûre et la plus fiable d'installer le dernier agent WAPT "
+"sur CentOS est d'utiliser le dépôt public Tranquil IT."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:61
 msgid "add Tranquil IT repository in yum repository lists:"
@@ -112,24 +113,24 @@ msgstr ""
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:84
 msgid "``wapt-get.ini`` config file in :file:`/opt/wapt/`;"
 msgstr ""
-"le fichier de configuration ``wapt-get.ini`` se trouve dans le fichier "
-":file:`/opt/wapt/` ;"
+"le fichier de configuration ``wapt-get.ini`` se trouve dans le fichier :"
+"file:`/opt/wapt/` ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:86
 msgid ""
-"a public certificate of the package-signing authority in "
-":file:`/opt/wapt/ssl/`;"
+"a public certificate of the package-signing authority in :file:`/opt/wapt/"
+"ssl/`;"
 msgstr ""
-"un certificat public de l'autorité de signature des paquets dans "
-":file:`/opt/wapt/ssl/` ;"
+"un certificat public de l'autorité de signature des paquets dans :file:`/"
+"opt/wapt/ssl/` ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:88
 msgid ""
-"You need to create and configure the :file:`wapt-get.ini` file in "
-":file:`/opt/wapt` (:ref:`wapt-get-ini`)."
+"You need to create and configure the :file:`wapt-get.ini` file in :file:`/"
+"opt/wapt` (:ref:`wapt-get-ini`)."
 msgstr ""
-"Vous devez créer et configurer le fichier :file:`wapt-get.ini` dans "
-":file:`/opt/wapt` (:ref:`wapt-get-ini`)."
+"Vous devez créer et configurer le fichier :file:`wapt-get.ini` dans :file:"
+"`/opt/wapt` (:ref:`wapt-get-ini`)."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:91
 msgid ""
@@ -154,19 +155,19 @@ msgstr ""
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:113
 msgid ""
-"The certificate should be located on your Windows machine in "
-":file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl\\\\`."
+"The certificate should be located on your Windows machine in :file:`C:\\"
+"\\Program Files (x86)\\\\wapt\\\\ssl\\\\`."
 msgstr ""
-"Le certificat devrait être situé sur votre machine Windows dans "
-":file:`C:\\\\\\Program Files (x86)\\\\\\\\wapt\\\\\\ssl\\\\`."
+"Le certificat devrait être situé sur votre machine Windows dans :file:`C:"
+"\\\\\\Program Files (x86)\\\\\\\\wapt\\\\\\ssl\\\\`."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:116
 msgid ""
-"Copy your certificate(s) in :file:`/opt/wapt/ssl` using :program:`WinSCP`"
-" or :program:`rsync`."
+"Copy your certificate(s) in :file:`/opt/wapt/ssl` using :program:`WinSCP` "
+"or :program:`rsync`."
 msgstr ""
-"Copier les certificat(s) dans :file:`/opt/wapt/ssl` en utilisant "
-":program:`WinSCP` ou :program:`rsync`."
+"Copier les certificat(s) dans :file:`/opt/wapt/ssl` en utilisant :program:"
+"`WinSCP` ou :program:`rsync`."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:120
 msgid "Copying the SSL/TLS certificate"
@@ -174,10 +175,9 @@ msgstr "Copier le certificat SSL/TLS"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:122
 msgid ""
-"If you already have configured your WAPT server to use correct "
-":ref:`Nginx SSL/TLS certificates "
-"<activating_HTTPS_certificate_verification>`, you must copy the "
-"certificate in your WAPT Linux agent."
+"If you already have configured your WAPT server to use correct :ref:"
+"`Nginx SSL/TLS certificates <activating_HTTPS_certificate_verification>`, "
+"you must copy the certificate in your WAPT Linux agent."
 msgstr ""
 "Si vous avez déjà configuré votre serveur WAPT pour utiliser les bons "
 "certificats :ref:`Nginx SSL/TLS "
@@ -186,17 +186,16 @@ msgstr ""
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:126
 msgid ""
-"The certificate should be located on your Windows machine in "
-":file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl\\\\server\\\\`."
+"The certificate should be located on your Windows machine in :file:`C:\\"
+"\\Program Files (x86)\\\\wapt\\\\ssl\\\\server\\\\`."
 msgstr ""
-"Le certificat devrait être situé sur votre machine Windows dans "
-":file:`C:\\\\\\Program Files "
-"(x86)\\\\\\wapt\\\\\\\\ssl\\\\\\server\\\\\\`."
+"Le certificat devrait être situé sur votre machine Windows dans :file:`C:"
+"\\\\\\Program Files (x86)\\\\\\wapt\\\\\\\\ssl\\\\\\server\\\\\\`."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:129
 msgid ""
-"Copy your certificate(s) in :file:`/opt/wapt/ssl/server/` using "
-":program:`WinSCP` or :program:`rsync`."
+"Copy your certificate(s) in :file:`/opt/wapt/ssl/server/` using :program:"
+"`WinSCP` or :program:`rsync`."
 msgstr ""
 "Copier le(s) certificat(s) dans :file:`/opt/wapt/ssl/server/` en "
 "utilisant :program:`WinSCP` ou :program:`rsync`."
@@ -215,7 +214,6 @@ msgid "Registering your Linux agent"
 msgstr "Enregistrer votre agent Linux avec le serveur WAPT"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:144
-#, fuzzy
 msgid "restart the WAPT service:"
 msgstr "redémarrer le serveur WAPT :"
 
@@ -228,14 +226,12 @@ msgstr ""
 "auprès du serveur WAPT :"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:158
-#, fuzzy
 msgid ""
 "Your Linux Agent is now installed and configured and it will now appear "
 "in your WAPT Console with a pinguin icon!!"
 msgstr ""
 "Votre agent Linux est maintenant installé et configuré et il apparaîtra "
-"dans votre console WAPT avec une icône de pinguin !!"
+"dans votre console WAPT avec une icône de pingouin !!"
 
 #~ msgid "Deploying the WAPT agent for Linux"
 #~ msgstr "Déployer l'agent WAPT sur Linux"
-

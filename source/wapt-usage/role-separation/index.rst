@@ -31,15 +31,15 @@ on a :abbr:`PKI (Public Key Infrastructure)` to sign packages and actions.
 .. hint::
 
   The following description of roles differentiation is temporary
-  as it will evolve in the near future
+  as it will evolve in the near future.
 
 .. figure:: role-separation-schematics.png
   :align: center
-  :alt: WAPT admins users roles differentiation
+  :alt: WAPT admin users roles differentiation
 
-  WAPT admins users roles differentiation
+  WAPT admin users roles differentiation
 
-There are three cases :
+There are three cases:
 
 ====================================================== =======================================================================================================
 Private key + certificate types                        Key usages

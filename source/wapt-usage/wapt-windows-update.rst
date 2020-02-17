@@ -120,7 +120,7 @@ Options                        Default Value                        Description
 
 	These options can be set when generating the agent.
 
-Example :command:`[waptwua]` section in :file:`wapt-get.ini` file:
+Example ``[waptwua]`` section in :file:`wapt-get.ini` file:
 
 .. code-block:: ini
 

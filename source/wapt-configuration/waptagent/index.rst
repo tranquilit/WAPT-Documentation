@@ -24,8 +24,8 @@ or if it is a machine already registered.
 
 For this, the WAPT server looks at the unique number "UUID" in the inventory.
 
-WAPT offers 3 modes of operation, it is up to you to choose
-the mode that best suits you.
+WAPT offers 3 modes of operation do help you distinguish between hosts,
+it is up to you to choose the mode that best suits you.
 
 .. attention::
 
