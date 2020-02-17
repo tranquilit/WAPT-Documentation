@@ -9,6 +9,15 @@
    :description: Upgrading the WAPT Server
    :keywords: WAPT, upgrade, upgrading, documentation
 
+.. raw:: html
+
+    <style> .red {color:red} </style>
+    <style> .green {color:green} </style>
+
+.. role:: red
+
+.. role:: green
+
 .. _upgrade-wapt:
 
 Upgrading the WAPT Server
@@ -19,6 +28,18 @@ Upgrading the WAPT Server
    If your WAPT Server is a virtual machine, take a snapshot of the VM.
    This way, you'll be able to go back easily in the rare case that
    the update fails.
+
+Before upgrading WAPT Server, please refer to the following upgrading compatibility chart :
+
+================ ================ ================ ================ ================
+\                To WAPT 1.5      To WAPT 1.6      To WAPT 1.7      To WAPT 1.8      
+================ ================ ================ ================ ================
+From WAPT 1.3    :green:`Yes`     :green:`Yes`     :red:`No`        :red:`No`
+From WAPT 1.5    -                :green:`Yes`     :green:`Yes`     :red:`No`
+From WAPT 1.6    -                -                :green:`Yes`     :red:`No`
+From WAPT 1.7    -                -                -                :green:`Yes`
+================ ================ ================ ================ ================
+
 
 Upgrading from 1.6/1.7 to 1.8
 -----------------------------
