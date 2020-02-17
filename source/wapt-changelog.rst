@@ -12,6 +12,32 @@
 Changelog
 =========
 
+WAPT-1.8.1-6756 (2020-02-17) 
+----------------------------
+(hash 43394f3b)
+
+Bug fixes and small improvements
+
+* [IMP] waptconsole: improve the refresh of hosts grid whan a lot of hosts are selected (improved by a factor of around 5)
+
+* [FIX] waptserver Database connections management: don't close DB on teardown as it shoul dnot occur, and seems to trigger some issue when triggering a lot of tasks on remote hosts (error db is closed)
+
+* [FIX] waptconsole: Don't "force" install when triggering the upgrade on remote hosts, to avoid reinstalling softwares when alreadu up to date.
+
+* [IMP] use ldap auth only if session and admin fail (avoid waiting for timeout when ldap is not available but one want to login with plain admin user)
+
+* [FIX] wapt-get upload : encode user and password in http_upload_package to allow non ascii in admin password
+
+* [IMP] waptconsole: Disable auto search on keywords
+
+* [IMP] use DMI 'System_Information.Serial_Number' inforamtion for serialnr Host field instead of 'Chassis_Information.Serial_Number' because Syste_Inforamtion is more often properly defined.
+
+* [IMP] waptconsole: add 'uuid' in the list of searched fields when only 'host' is checked in filters
+
+* [IMP] nginx config : disable caching.
+
+* [IMP] some fixes for vscode project template
+
 WAPT-1.8.1-6742 (2020-02-12) 
 ----------------------------
 (hash 80dbdbe7)
