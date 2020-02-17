@@ -38,6 +38,7 @@ To fully secure your WAPT setup; you will want to do the following:
 .. toctree::
   :maxdepth: 4
 
+  ./security-firewall.rst
   ./security-install-kerberos.rst
   ./enable-check-certificate.rst
   ./security-configuration-auth-ad.rst
