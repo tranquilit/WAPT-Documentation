@@ -6,61 +6,65 @@
    Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
-    :description: Configuring authentication against Active Directory
+    :description: Configuring the firewall on the WAPT Server
     :keywords: Firewall, WAPT, security, Kerberos, documentation
 
 .. _firewall_wapt_secure:
 
-Firewall configuration for WAPT Server
-+++++++++++++++++++++++++++++++++++++++++++++++++++
+Configuring the firewall on the WAPT Server
++++++++++++++++++++++++++++++++++++++++++++
 
-WAPT Server firewall configuration is essential and should be the first step towards achieving better security in WAPT.
+WAPT Server firewall configuration is essential and should be the first step
+towards achieving better security in WAPT.
 
-As WAPT aims to be secure by desingn, by doing so a minimal set of ports are needed to be opened compared to other solutions.
+As WAPT aims to be secure by design, only a minimal set of open ports is needed
+on the WAPT Server compared to other solutions.
 
-You will find in the following documentation firewall command to improve WAPT security.
-
-Data-flow diagram of WAPT
-""""""""""""""""""""""""""
+You will find in the following documentation firewall tips
+to improve WAPT security.
 
 .. figure:: diagramme_flux.png
    :align: center
    :alt: Data-flow diagram of WAPT
 
-As you can see, only ports 80 and 443 must be opened for ingoing connections as WAPT works with websockets.
+   Data-flow diagram of WAPT
 
+As you can see, only ports 80 and 443 must be opened for incoming
+connections as the WAPT frameworks works with websockets initiated
+by the WAPT agents.
 
-Firewall configuration for WAPT on Debian Linux
-"""""""""""""""""""""""""""""""""""""""""""""""
+Configuring the firewall for WAPT Server on Debian Linux
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-By default on Debian Linux, no firewall rules applies. You can disable ufw and install firewalld instead :
+**By default on Debian Linux, no firewall rule applies**.
 
-.. code-block:: bash
+* disable :program:`ufw` and install :program:`firewalld` instead:
 
-    ufw disable
-    apt update
-    apt -y install firewalld
+  .. code-block:: bash
 
-We can now apply sample firewall configuration :
+      ufw disable
+      apt update
+      apt -y install firewalld
 
-.. code-block:: bash
+* simply apply this :program:`firewalld` configuration:
 
-    systemctl start firewalld
-    systemctl enable firewalld
-    firewall-cmd --zone=public --add-port=80/tcp --permanent    
-    firewall-cmd --zone=public --add-port=443/tcp --permanent
-    systemctl restart firewalld
+  .. code-block:: bash
 
+      systemctl start firewalld
+      systemctl enable firewalld
+      firewall-cmd --zone=public --add-port=80/tcp --permanent
+      firewall-cmd --zone=public --add-port=443/tcp --permanent
+      systemctl restart firewalld
 
-Firewall configuration for WAPT on CentOS Linux
-"""""""""""""""""""""""""""""""""""""""""""""""
+Configuring the firewall for WAPT Server on CentOS
+""""""""""""""""""""""""""""""""""""""""""""""""""
 
-Sample firewalld configuration to apply on WAPT server 
+* simply apply this :program:`firewalld` configuration:
 
-.. code-block:: bash
+  .. code-block:: bash
 
-    systemctl start firewalld
-    systemctl enable firewalld
-    firewall-cmd --zone=public --add-port=80/tcp --permanent    
-    firewall-cmd --zone=public --add-port=443/tcp --permanent
-    systemctl restart firewalld
+      systemctl start firewalld
+      systemctl enable firewalld
+      firewall-cmd --zone=public --add-port=80/tcp --permanent
+      firewall-cmd --zone=public --add-port=443/tcp --permanent
+      systemctl restart firewalld
