@@ -56,8 +56,8 @@ and inventory upload + some margin).
        worker_connections 4096;
    }
 
-Then upgrade the number of *filedescriptor*
-in the :file:`/etc/nginx/nginx.conf` file :
+Then upgrade the number of *filedescriptors*
+in the :file:`/etc/nginx/nginx.conf` file:
 
 .. code-block:: bash
 
@@ -66,14 +66,14 @@ in the :file:`/etc/nginx/nginx.conf` file :
 Configuring the Linux System
 ++++++++++++++++++++++++++++
 
-Increase the number of *filedescriptor*. The systemd unit file asks
-for an increase in the allowed number of *filedescriptor* (LimitNOFILE=32768).
+Increase the number of *filedescriptors*. The systemd unit file asks
+for an increase in the allowed number of *filedescriptors* (LimitNOFILE=32768).
 We should have the same thing for Nginx. There are a few limits to modify.
 
-First we modify system wide the number of *filedescriptor* allowed
+First we modify system wide the number of *filedescriptors* allowed
 for Nginx and WAPT.
 
-* cCreate the :file:`/etc/security/limits.d/wapt.conf`:
+* create the :file:`/etc/security/limits.d/wapt.conf`:
 
   .. code-block:: bash
 
@@ -85,7 +85,7 @@ for Nginx and WAPT.
      EOF
 
 Nginx serves as a reverse proxy and makes quite a lot of connections.
-Each WAPT client keeps a websocket connection up all the time in order
+Each WAPT client keeps a *websocket* connection up all the time in order
 to respond to actions from the WAPT Server.
 
 The Linux kernel has a protection against having too many TCP connections
@@ -121,7 +121,7 @@ Configuring the WAPT Server
 In :file:`/opt/wapt/conf/waptserver.ini` file, ``db_max_connections``
 should be equal to PostgreSQL ``max_connections`` minus 10 (PostgreSQL needs
 to keep some connections for its housekeeping stuff). The ``max_clients``
-parameters should be set around 1.2 times the number of WAPT agents:
+parameter should be set around 1.2 times the number of WAPT agents:
 
 .. code-block:: ini
 

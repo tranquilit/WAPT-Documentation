@@ -76,16 +76,18 @@ Enabling Active Directory authentication
 .. warning::
 
   For Microsoft Active Directory, Microsoft has `announced <https://support.microsoft.com/en-gb/help/4520412/2020-ldap-channel-binding-and-ldap-signing-requirement-for-windows>`_
-  that SimpleBind authentication on MS-AD without SSL/TLS will be blocked by default from 
-  April 2020. If you don't have a certificate installed, you'll have to modify a registry 
+  that *SimpleBind* authentication on MS-AD without SSL/TLS
+  will be blocked by default from April 2020. If you don't
+  have a certificate installed, you'll have to modify a registry 
   key to have authentication working.
 
 .. note::
 
-  By default Samba-AD does not allow SimpleBind auth without SSL/TLS. If you don't have
-  a valid certificate you'll need to modify the `ldap server require strong auth` parameter 
-  in :file:`/etc/samba/smb.conf`. For more information you may refer to Tranquil IT documention 
-  on https://dev.tranquil.it/samba/en/
+  By default Samba-AD does not allow *SimpleBind* authentication without SSL/TLS.
+  If you do not have a valid certificate you'll need to modify
+  the ``ldap server require strong auth`` parameter
+  in :file:`/etc/samba/smb.conf`. For more information
+  you may refer to Tranquil IT documentation on https://dev.tranquil.it/samba/en/.
 
 Enabling SSL/ TLS support for the LDAP connection to the Active Directory Domain Controller
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

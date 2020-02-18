@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-05 18:00+0100\n"
-"PO-Revision-Date: 2020-02-17 18:10+0100\n"
+"PO-Revision-Date: 2020-02-18 11:41+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
@@ -255,22 +255,21 @@ msgstr ""
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:122
 msgid "Customizing the Self Service interface"
-msgstr ""
+msgstr "Personnaliser l'interface du libre-service"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:125
 msgid "Adding the Logo of your Organisation"
-msgstr ""
+msgstr "Ajouter le logo de votre organisation"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:127
-#, fuzzy
 msgid ""
 "It is possible to change the logo that appears in the self-service interface "
 "and therefore improve the acceptation of the Self Service feature by your "
 "users."
 msgstr ""
-"Il est possible de changer le logo qui apparaît dans l'interface du self-"
-"service, cela vous permet de le remplacer par celui de votre organisation par "
-"exemple."
+"Il est possible de modifier le logo qui apparaît dans l'interface de libre-"
+"service et donc d'améliorer l'acceptation de la fonction de libre-service par "
+"vos utilisateurs."
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:130
 msgid ""
@@ -289,57 +288,47 @@ msgstr ""
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:139
 msgid "Managing package categories"
-msgstr ""
+msgstr "Gérer les catégories de paquets"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:141
-#, fuzzy
 msgid "Default categories are:"
-msgstr "Les catégories par défaut sont"
+msgstr "Les catégories par défaut sont :"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:143
-#, fuzzy
 msgid "Internet;"
-msgstr "Internet"
+msgstr "Internet ;"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:145
-#, fuzzy
 msgid "Utilities;"
-msgstr "Utilities"
+msgstr "Utilities ;"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:147
-#, fuzzy
 msgid "Messaging;"
-msgstr "Messaging"
+msgstr "Messaging ;"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:149
-#, fuzzy
 msgid "Security;"
-msgstr "Security"
+msgstr "Security ;"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:151
-#, fuzzy
 msgid "System and network;"
-msgstr "System and network"
+msgstr "System and network ;"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:153
-#, fuzzy
 msgid "Storage;"
-msgstr "Storage"
+msgstr "Storage ;"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:155
-#, fuzzy
 msgid "Media;"
-msgstr "Media"
+msgstr "Media ;"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:157
-#, fuzzy
 msgid "Development;"
-msgstr "Development"
+msgstr "Development ;"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:159
-#, fuzzy
 msgid "Office​​;"
-msgstr "Office​​"
+msgstr "Office​​;"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:161
 msgid ""
@@ -347,10 +336,14 @@ msgid ""
 "file's ``categories`` section of any WAPT package and write a new category of "
 "your choice, WAPT will automatically show the package in the new category."
 msgstr ""
+"Vous pouvez créer vos propres catégories facilement en remplissant l'attribut "
+"``catégories`` du fichier :file:`control` de n'importe quel paquet WAPT et "
+"écrire une nouvelle catégorie de votre choix, WAPT affichera automatiquement "
+"le paquet dans la nouvelle catégorie."
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:166
 msgid "Video demonstration"
-msgstr ""
+msgstr "Vidéo de démonstration"
 
 #~ msgid "Customization"
 #~ msgstr "Customisation"

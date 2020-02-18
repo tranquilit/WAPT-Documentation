@@ -24,16 +24,16 @@ by default it is :file:`C:\\Program Files (x86)\\wapt\\unins000.exe`.
 * default silent uninstall of WAPT agent can be achieved
   with the following command:
 
-.. code:: bash
+  .. code:: bash
 
-   unins000.exe /VERYSILENT
+    unins000.exe /VERYSILENT
 
 * an additional argument can be passed to :command:`unins000.exe`
   to cleanup everything:
 
-.. code:: bash
+  .. code:: bash
 
-   unins000.exe /VERYSILENT /purge_wapt_dir=1
+    unins000.exe /VERYSILENT /purge_wapt_dir=1
 
 Complete list of command-line arguments for :command:`unins000.exe`:
 
@@ -50,31 +50,31 @@ Uninstalling WAPT agent on Linux
 * default uninstall of WAPT agent can be achieved
   with the following command, depending on your Linux OS:
 
-.. code-block:: bash
+  .. code-block:: bash
 
-   # Debian / Ubuntu
-   apt-get remove --purge tis-waptagent
+    # Debian / Ubuntu
+    apt-get remove --purge tis-waptagent
 
-   # CentOS / Redhat
-   yum remove tis-waptagent
+    # CentOS / Redhat
+    yum remove tis-waptagent
 
-* an additional step can be done using these commands (WIP)
+* an additional step can be done using these commands (WIP):
 
-.. code-block:: bash
+  .. code-block:: bash
 
-   rm -f /opt/wapt/
+    rm -f /opt/wapt/
 
-   # Debian / Ubuntu
-   rm /etc/apt/sources.list.d/wapt.list
+    # Debian / Ubuntu
+    rm /etc/apt/sources.list.d/wapt.list
 
-   # CentOS / Redhat
-   rm /etc/yum/yum.repos.d/wapt.list
+    # CentOS / Redhat
+    rm /etc/yum/yum.repos.d/wapt.list
 
-Uninstalling WAPT agent on macOS
+Uninstalling WAPT agent on MacOS
 --------------------------------
 
 * default uninstall of WAPT agent can be achieved
-  with the following command
+  with the following command:
 
   .. code:: bash
 
