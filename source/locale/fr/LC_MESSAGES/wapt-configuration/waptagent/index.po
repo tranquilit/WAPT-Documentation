@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-17 16:07+0100\n"
+"POT-Creation-Date: 2020-02-18 09:48+0100\n"
 "PO-Revision-Date: 2020-02-15 17:21+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -46,8 +46,8 @@ msgstr ""
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:27
 msgid ""
-"WAPT offers 3 modes of operation, it is up to you to choose the mode that"
-" best suits you."
+"WAPT offers 3 modes of operation do help you distinguish between hosts, "
+"it is up to you to choose the mode that best suits you."
 msgstr ""
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:32
@@ -628,5 +628,11 @@ msgstr ""
 #~ "windows update agent part of the "
 #~ "documentation for more information on "
 #~ "this topic."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "WAPT offers 3 modes of operation, "
+#~ "it is up to you to choose "
+#~ "the mode that best suits you."
 #~ msgstr ""
 
