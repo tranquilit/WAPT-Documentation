@@ -58,7 +58,7 @@ msgstr "Configurer les dépôts et installer les paquets WAPT et PostgreSQL"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:41
 msgid "The configuration of repositories for **WAPT Enterprise** and **WAPT Community** Edition differs. **Make sure to choose the right one!**"
-msgstr "La configuration des dépôts en **WAPT Enterprise** et en **WAPT Community** diffère. **Assurez-vous de choisir la bonne procédure !!"
+msgstr "La configuration des dépôts en **WAPT Enterprise** et en **WAPT Community** diffère. **Assurez-vous de choisir la bonne procédure !**"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:44
 msgid "During installation, you may be asked for the Kerberos realm. Just press :kbd:`Enter` to skip this step."

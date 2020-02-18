@@ -40,8 +40,8 @@ msgid ""
 "term:`CNAME field` as below:"
 msgstr ""
 "Pour faciliter la configuration des clients, il est fortement recommandé de "
-"configurer le serveur :term:`DNS` pour inclure les :term:`champs A` ou :term:"
-"`CNAME` suivants :"
+"configurer le serveur :term:`DNS` pour inclure le :term:`champ A` ou :term:"
+"`champ CNAME` suivants :"
 
 #: ../../source/waptserver-install/dns/dns-introduction.rst:26
 msgid "*srvwapt.mydomain.lan*;"

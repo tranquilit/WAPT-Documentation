@@ -294,7 +294,7 @@ Passing arguments
 
   Parameters and :program:`waptagent.exe` checksum to use
   for the *waptdeploy* GPO are available on the WAPT Server by visiting
-  https://<wapt.mydomain.lan>.
+  https://wapt.mydomain.lan.
 
   .. figure:: waptdeploy-copy-parameters.png
     :align: center

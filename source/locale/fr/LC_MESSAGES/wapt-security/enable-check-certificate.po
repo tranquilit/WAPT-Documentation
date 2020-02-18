@@ -147,7 +147,7 @@ msgstr "**Cas spécifique où votre certificat a été signé par un Certificat 
 
 #: ../../source/wapt-security/enable-check-certificate.rst:116
 msgid "Certificates issued by an internal :term:`Certificate Authority` must have the complete certificate chain up to the :term:`Certificate Authority`'s certificate."
-msgstr "Les certificats issus d'un :term:`Certificat d'Authorité` interne doit avoir la chaîne complète jusqu'au :term:`Certificat d'Authorité`."
+msgstr "Les certificats issus d'un :term:`Autorité de Certification` interne doit avoir la chaîne complète jusqu'au :term:`Autorité de Certification`."
 
 #: ../../source/wapt-security/enable-check-certificate.rst:120
 msgid "You can manually add the certificate chain up to the Certificate Authority to the certificate that will be used by :program:`Nginx`."

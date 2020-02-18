@@ -51,7 +51,7 @@ msgid ""
 "abbr:`PKI (Public Key Infrastructure)` to sign packages and actions."
 msgstr ""
 "WAPT offre la possibilité de différencier les rôles des administrateurs en "
-"basant leurs identités sur une :abbr:`PKI (Public Key Infrastructure) pour "
+"basant leurs identités sur une :abbr:`PKI (Public Key Infrastructure)` pour "
 "signer les paquets et les actions."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:33

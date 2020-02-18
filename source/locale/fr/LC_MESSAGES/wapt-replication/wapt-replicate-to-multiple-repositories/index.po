@@ -411,7 +411,7 @@ msgid ""
 "section of its :file:`waptserver.ini` file:"
 msgstr ""
 "Le serveur WAPT doit connaître les dépôts à synchroniser dans la section "
-"``[global]`` de son fichier :file:`waptserver.ini\" :"
+"``[global]`` de son fichier :file:`waptserver.ini` :"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:178
 msgid "``remote_repo_support``"
@@ -559,7 +559,7 @@ msgid ""
 msgstr ""
 "Pour activer les règles du dépôt de l'agent WAPT, vous devez activer ce "
 "paramètre dans la section ``[global]`` du fichier de configuration :file:`wapt-"
-"get.ini\" de l'agent WAPT :"
+"get.ini` de l'agent WAPT :"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:243
 msgid "``use_repo_rules``"

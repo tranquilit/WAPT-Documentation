@@ -186,11 +186,11 @@ msgstr ""
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:126
 msgid ""
-"The certificate should be located on your Windows machine in :file:`C:\\"
-"\\Program Files (x86)\\\\wapt\\\\ssl\\\\server\\\\`."
+"The certificate should be located on your Windows machine in "
+":file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl\\\\server\\\\`."
 msgstr ""
-"Le certificat devrait être situé sur votre machine Windows dans :file:`C:"
-"\\\\\\Program Files (x86)\\\\\\wapt\\\\\\\\ssl\\\\\\server\\\\\\`."
+"Le certificat devrait être situé sur votre machine Windows dans "
+":file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl\\\\server\\\\`."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:129
 msgid ""

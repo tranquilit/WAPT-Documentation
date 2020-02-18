@@ -108,7 +108,7 @@ msgstr ":ref:`mise à jour mineure pour CentOS <wapt_minor_upgrade_centos>`;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-update/index.rst:53
 msgid ":ref:`minor update for Windows <wapt_minor_upgrade_windows>`;"
-msgstr ":ref :`mise à jour mineure pour Windows <wapt_minor_upgrade_windows>` ;"
+msgstr ":ref:`mise à jour mineure pour Windows <wapt_minor_upgrade_windows>` ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-update/index.rst:57
 msgid ""

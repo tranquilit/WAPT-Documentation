@@ -131,7 +131,7 @@ msgid ""
 "term:`SRV` / :term:`CNAME field` DNS queries."
 msgstr ""
 "Suffixe DNS à utiliser pour la recherche automatique par champs :term:`SRV` ou :"
-"term:`CNAME` du dépôt principal et du serveur WAPT."
+"term:`champ CNAME` du dépôt principal et du serveur WAPT."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:59
 msgid "``use_hostpackages`` = 1"

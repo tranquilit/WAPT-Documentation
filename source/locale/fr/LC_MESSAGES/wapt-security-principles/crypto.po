@@ -159,9 +159,9 @@ msgstr "**Postes clients WAPT**"
 #: ../../source/wapt_security_principles/crypto.rst:92
 msgid "realm of Windows PCs that the :term:`Organization` has allowed the :term:`Administrators` to manage with WAPT. The Windows clients are joined to the :term:`Organization`'s Active Directory domain;"
 msgstr ""
-"PC sous Windows à administrer pour lesquels les :term :`Administrateurs` ont "
-"reçu l'accréditation de la part de l' :term :`Organisation`. Les postes "
-"clients sont joints au domaine Active Directory de l' :term :`Organisation` ;"
+"PC sous Windows à administrer pour lesquels les :term:`Administrateurs` ont "
+"reçu l'accréditation de la part de l':term:`Organisation`. Les postes "
+"clients sont joints au domaine Active Directory de l':term:`Organisation` ;"
 
 #: ../../source/wapt_security_principles/crypto.rst:96
 msgid "**Internal WAPT repositories**"

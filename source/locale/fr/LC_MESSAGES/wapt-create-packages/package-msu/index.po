@@ -22,7 +22,7 @@ msgstr ""
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:8
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:15
 msgid "Packaging Windows Update .msu packages"
-msgstr "Créer des paquets WAPT de mises à jour Windows avec des *.msu"
+msgstr "Créer des paquets WAPT de mises à jour Windows avec des .msu"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:8
 msgid "msu, WAPT, simple, documentation"
@@ -136,10 +136,10 @@ msgstr "Créer un modèle de paquet MSU en ligne de commande"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:72
 msgid ""
-"launch a Windows Command Line utility :program:`cmd.exe` as :term:`Local "
-"Administrator`;"
+"launch a Windows Command Line utility :program:`cmd.exe` as "
+":term:`Local Administrator`;"
 msgstr ""
-"lancer un utilitaire en ligne de commande Windows :programme:`cmd.exe` en "
+"lancer un utilitaire en ligne de commande Windows :program:`cmd.exe` en "
 "tant qu':term:`Administrateur local` ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:79
