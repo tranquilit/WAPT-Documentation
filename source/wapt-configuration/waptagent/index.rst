@@ -195,8 +195,8 @@ has been successfully uploaded to https://srvwapt/wapt/.
   A warning shows up indicating that the GPO hash value should be changed.
   GPOs may be used to deploy the WAPT agent on your Organization's computer.
 
-Package *test-waptupgrade*
-++++++++++++++++++++++++++
+Updating the WAPT agents
+++++++++++++++++++++++++
 
 The ``test-waptupgrade`` package has also been uploaded on the repository.
 
@@ -214,54 +214,57 @@ specified during the installation of WAPT on your Administrator's computer.
   This package is a standard WAPT package designed
   to upgrade WAPT agents on client machines.
 
+Upgrading the WAPT agents using the *xxx-waptupgrade* package
+is a two step process:
 
+* first the package copies the new :file:`waptagent.exe` file
+  on the client computer and creates a new scheduled task that will run
+  :program:`waptagent.exe` with predefined installation flags two minutes
+  after the creation of the scheduled task.
+  At that point the package itself is installed and the inventory on the server
+  shows the package installation as *OK*, with correct version installed,
+  but the inventory will still show the old version
+  as the agent is not yet updated.
 
-l'upgrade d'un agent avec le paquet xx-waptupgrade, se passe en deux phase : le paquet waptupgrade copie la nouvelle version de waptagent.exe et crée une tâche planifiée qui va lancer ce waptagent.exe une ou deux minutes après.
+* after two minutes the scheduled task starts and runs :program:`waptagent.exe`.
+  :program:`aaptagent.exe` shutdowns the local WAPT service,
+  upgrades the local WAPT install, and then restarts the service.
+  The scheduled task is then automatically removed and the WAPT agent sends back
+  its inventory to the WAPT server.
+  Now the inventory on the servers will show the new version of the agent.
 
-Upgrade of WAPT Agent using the xxx-waptupgrade package is a two step process :
+From an administrator point of view, looking at the console
+you will see the following steps:
 
-* First the package copies the new waptagent.exe file on the client computer and
-  creates a new scheduled task that will run waptagent.exe with predefined installation
-  flags two minutes after the task creation. At that point the package in itself is installed 
-  (even though the agent is not yet updated) and the inventory on the server shows 
-  the package installation as OK, with correct version installed, but the inventory still
-  shows the old version.
+* *xxx-waptupgrade* packages starts being installed;
 
-* After two minutes the scheduled task starts and run waptagent.exe. Waptagent.exe shutdowns 
-  the local WAPT service, upgrades the local wapt install, and then restart the service. The 
-  scheduled tasks is then automatically removed and the agent sends back its inventory to 
-  the server. Now the inventory on the servers show the new version. 
+* *xxx-waptupgrade* is installed, the machine is up to date from a package list
+  point of view, but the version in the inventory is still the old version
+  of the WAPT agent;
 
-From an administrator point of view, looking at the console you will see the following steps:
+* after two minutes the computer connectivity status switches
+  to *disconnected* as the WAPT agent is updated;
 
-* xx-waptupgrade packages gets installed
+* after around two minutes the client computer gets back up online
+  in the console and updates its inventory and shows the new version;
 
-* xx-waptupgrade is installed, the machine is up to date from a package list point of view, 
-  but the version in the inventory is still the old one
+What can go wrong during the upgrades
+"""""""""""""""""""""""""""""""""""""
 
-* after two minutes the computer connectivity status switch to disconnected as the agent
-  get updated
+* the most common issue with the upgrading process is the local antivirus
+  blocking the installation (WAPT is a software installer that keeps
+  a websocket opened to a central management server, so this behavior may
+  be flagged as suspicious by an antivirus, even though this method
+  is the basis of end point management...).
+  **If you have an issue when deploying the upgrade, please check your antivirus
+  console and whitelist the waptagent.exe**. Another option is to re-sign
+  the :program:`waptagent.exe` binary if your organisation has an internal
+  code signing certificate;
 
-* after around two minutes the client computer gets back up online in the console and updates
-  its inventory and shows the new version.
+* the second most common issue is that for some reasons another program
+  is locking a :mimetype:`DLL` that ships with WAPT. This can happen
+  with poorly designed software installers that pick up the local
+  %PATH% variable first and then find WAPTs own openssl or python DLL;
 
-
-What can go wrong during the upgrades:
-
-* the most common issue is that the local antivirus is blocking the installation (WAPT is a 
-  software installer and keeps a websocket to a central management server, this behavior might
-  be flagged as suspisious by an antivirus, even though it is the basis of end point management...).
-  If you have an issue while deploying the upgrade, please check your antivirus console, you 
-  might need to whitelist waptagent.exe binary. Another option is to re-sign the waptagent.exe
-  binary if you have an internal code signing certificate.
-
-* the second most common issue is that for some reasons another program is locking a DLL that
-  ships with WAPT. This can happen with poorly designed installer that pick up the local 
-  %PATH% variable first and find WAPT own openssl or python DLL.
-
-* the third most common issue is a borked Windows install that doesn't run scheduled tasks properly.
-
-
-
-
-
+* the third most common issue is a defective Windows install
+  that does not run scheduled tasks properly, and yes we have seen this!!
