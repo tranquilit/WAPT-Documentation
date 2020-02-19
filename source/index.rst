@@ -144,6 +144,7 @@ WAPT support and training
   waptserver-install/index.rst
   wapt-configuration/index.rst
   wapt-usage/index.rst
+  wapt-usage/enterprise.rst
   waptserver-update/index.rst
   waptserver-backup.rst
   wapt-replication/index.rst

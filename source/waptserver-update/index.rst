@@ -58,7 +58,7 @@ The upgrade process follows the process for a minor update:
     with old Debian version**;
 
   * consider migrating your existing WAPT installation
-    to Debian Buster or CentOS7;
+    to Debian Buster or CentOS7 : :ref:`upgrade-waptserver-os`;
 
 Upgrading WAPT from 1.5 to 1.6
 ------------------------------
@@ -68,7 +68,7 @@ The upgrade process follows the process for a minor update.
 .. note::
 
   * if you are in Debian Stretch, it is recommended to upgrade
-    to Debian Buster 64 bits;
+    to Debian Buster 64 bits : :ref:`upgrade-waptserver-os`;
 
   * this is **MANDATORY** for the **Enterprise** version with Windows Update support;
 
@@ -113,27 +113,4 @@ The migration process includes:
    waptserver-update-debian.rst
    waptserver-update-centos.rst
    waptserver-update-windows.rst
-
-
-Upgrading the Operating System
-------------------------------
-
-In order to upgrade your WAPT server from Stretch to Buster you have to follow the 
-standard procedure for Debian. You first modify the apt source files :file:`/etc/apt/sources.list`
-and :file:`/etc/apt/sources.list.d/wapt.list`, then start upgrade. 
-
-By default the PostgreSQL is not upgraded to PostgreSQL 11. One needs to manually ask
-for upgrade. After upgrade it is possible to remove old PostgreSQL 9 database.
-
-.. code-block:: 
-
-  sed -i 's/stretch/buster/g'  /etc/apt/sources.list
-  sed -i 's/stretch/buster/g'  /etc/apt/sources.list.d/wapt.list
-  apt-get update
-  apt-get update && apt-get dist-upgrade
-  pg_upgradecluster
-  apt-get remove 
-  apt-get autoremove
-  /opt/wapt/waptserver/scripts/postconf.sh
-
- 
+   waptserver-upgrade-os.rst

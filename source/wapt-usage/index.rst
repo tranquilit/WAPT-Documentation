@@ -23,13 +23,3 @@ the :term:`Users` and the :term:`Package Deployers`.
   wapttray.rst
   command-line-interface/index.rst
   waptexit.rst
-
-.. toctree::
-  :maxdepth: 1
-  :caption: Enterprise Features
-
-  wapt-organizational-unit.rst
-  wapt-windows-update.rst
-  wapt-reporting.rst
-  wapt-selfservice.rst
-  role-separation/index.rst
