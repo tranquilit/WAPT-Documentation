@@ -227,16 +227,16 @@ is a two step process:
   as the agent is not yet updated.
 
 * after two minutes the scheduled task starts and runs :program:`waptagent.exe`.
-  :program:`aaptagent.exe` shutdowns the local WAPT service,
+  :program:`waptagent.exe` shutdowns the local WAPT service,
   upgrades the local WAPT install, and then restarts the service.
   The scheduled task is then automatically removed and the WAPT agent sends back
   its inventory to the WAPT server.
-  Now the inventory on the servers will show the new version of the agent.
+  Now the inventory on the server will show the new version of the agent.
 
 From an administrator point of view, looking at the console
 you will see the following steps:
 
-* *xxx-waptupgrade* packages starts being installed;
+* *xxx-waptupgrade* package starts being installed;
 
 * *xxx-waptupgrade* is installed, the machine is up to date from a package list
   point of view, but the version in the inventory is still the old version

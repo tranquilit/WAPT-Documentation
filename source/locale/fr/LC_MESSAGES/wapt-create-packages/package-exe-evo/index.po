@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-13 10:30+0100\n"
-"PO-Revision-Date: 2020-02-17 12:08+0100\n"
+"PO-Revision-Date: 2020-02-19 14:26+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
@@ -17,7 +17,7 @@ msgstr ""
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:8
 msgid "Advanced *.exe packages"
-msgstr "Créer un paquet \\*.exe evolué"
+msgstr "Créer un paquet *.exe evolué"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:8
 msgid "exe, WAPT, advanced, complex, installing, installation, documentation"
@@ -128,7 +128,7 @@ msgstr "``killbefore``"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:75
 msgid "[ ]"
-msgstr ""
+msgstr "[ ]"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:75
 msgid "list of programs to kill before installing the package."
