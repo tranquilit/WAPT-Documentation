@@ -16,7 +16,7 @@ pipeline {
             '''
         }
     }
-	stage('Setup RestructuredText'){
+    stage('Setup RestructuredText'){
         steps {
             sh '''
             echo "Installing requirements"
@@ -24,7 +24,7 @@ pipeline {
             pip install -r requirements.txt
             '''
         }
-	}
+    }
     stage('Gettext'){
         steps{
             sh '''
@@ -51,7 +51,7 @@ pipeline {
             '''
         }
     }
-	stage('Make LatexPDF'){
+    stage('Make LatexPDF'){
         steps{
             sh '''
             echo "make latexpdf EN"
@@ -77,71 +77,71 @@ pipeline {
     stage('Publish over SSH'){
         steps{
             sshPublisher alwaysPublishFromMaster: true, 
-		        publishers: [sshPublisherDesc(configName: 'root@doc.ad.tranquil.it', 
-				transfers: [sshTransfer(excludes: '', 
-					execCommand: '', execTimeout: 120000, 
-					flatten: false, 
-					makeEmptyDirs: false, 
-					noDefaultExcludes: false, 
-					patternSeparator: '[, ]+', 
-					remoteDirectory: '/var/www/doc/wapt/en/doc/', 
-					remoteDirectorySDF: false, 
-					removePrefix: 'build/en/doc/', 
-					sourceFiles: 'build/en/doc/**'),
+                publishers: [sshPublisherDesc(configName: 'root@doc.ad.tranquil.it', 
+                transfers: [sshTransfer(excludes: '', 
+                    execCommand: '', execTimeout: 120000, 
+                    flatten: false, 
+                    makeEmptyDirs: false, 
+                    noDefaultExcludes: false, 
+                    patternSeparator: '[, ]+', 
+                    remoteDirectory: '/var/www/doc/wapt/en/doc/', 
+                    remoteDirectorySDF: false, 
+                    removePrefix: 'build/en/doc/', 
+                    sourceFiles: 'build/en/doc/**'),
                 sshTransfer(excludes: '', 
-					execCommand: '', execTimeout: 120000, 
-					flatten: false, 
-					makeEmptyDirs: false, 
-					noDefaultExcludes: false, 
-					patternSeparator: '[, ]+', 
-					remoteDirectory: '/var/www/doc/wapt/fr/doc/', 
-					remoteDirectorySDF: false, 
-					removePrefix: 'build/fr/doc/', 
-					sourceFiles: 'build/fr/doc/**'), 
+                    execCommand: '', execTimeout: 120000, 
+                    flatten: false, 
+                    makeEmptyDirs: false, 
+                    noDefaultExcludes: false, 
+                    patternSeparator: '[, ]+', 
+                    remoteDirectory: '/var/www/doc/wapt/fr/doc/', 
+                    remoteDirectorySDF: false, 
+                    removePrefix: 'build/fr/doc/', 
+                    sourceFiles: 'build/fr/doc/**'), 
                 sshTransfer(excludes: '', 
-					execCommand: '', execTimeout: 120000, 
-					flatten: false, 
-					makeEmptyDirs: false, 
-					noDefaultExcludes: false, 
-					patternSeparator: '[, ]+', 
-					remoteDirectory: '/var/www/doc/wapt/fr/doc/', 
-					remoteDirectorySDF: false, 
-					removePrefix: 'build/fr/epub/', 
-					sourceFiles: 'build/fr/epub/*.epub'),
+                    execCommand: '', execTimeout: 120000, 
+                    flatten: false, 
+                    makeEmptyDirs: false, 
+                    noDefaultExcludes: false, 
+                    patternSeparator: '[, ]+', 
+                    remoteDirectory: '/var/www/doc/wapt/fr/doc/', 
+                    remoteDirectorySDF: false, 
+                    removePrefix: 'build/fr/epub/', 
+                    sourceFiles: 'build/fr/epub/*.epub'),
                 sshTransfer(excludes: '', 
-					execCommand: '', execTimeout: 120000, 
-					flatten: false, 
-					makeEmptyDirs: false, 
-					noDefaultExcludes: false, 
-					patternSeparator: '[, ]+', 
-					remoteDirectory: '/var/www/doc/wapt/en/doc/', 
-					remoteDirectorySDF: false, 
-					removePrefix: 'build/en/epub/', 
-					sourceFiles: 'build/en/epub/*.epub'),
+                    execCommand: '', execTimeout: 120000, 
+                    flatten: false, 
+                    makeEmptyDirs: false, 
+                    noDefaultExcludes: false, 
+                    patternSeparator: '[, ]+', 
+                    remoteDirectory: '/var/www/doc/wapt/en/doc/', 
+                    remoteDirectorySDF: false, 
+                    removePrefix: 'build/en/epub/', 
+                    sourceFiles: 'build/en/epub/*.epub'),
                 sshTransfer(excludes: '', 
-					execCommand: '', execTimeout: 120000, 
-					flatten: false, 
-					makeEmptyDirs: false, 
-					noDefaultExcludes: false, 
-					patternSeparator: '[, ]+', 
-					remoteDirectory: '/var/www/doc/wapt/fr/doc/', 
-					remoteDirectorySDF: false, 
-					removePrefix: 'build/fr/latex/', 
-					sourceFiles: 'build/fr/latex/WAPT.pdf'),
+                    execCommand: '', execTimeout: 120000, 
+                    flatten: false, 
+                    makeEmptyDirs: false, 
+                    noDefaultExcludes: false, 
+                    patternSeparator: '[, ]+', 
+                    remoteDirectory: '/var/www/doc/wapt/fr/doc/', 
+                    remoteDirectorySDF: false, 
+                    removePrefix: 'build/fr/latex/', 
+                    sourceFiles: 'build/fr/latex/WAPT.pdf'),
                 sshTransfer(excludes: '', 
-					execCommand: '', execTimeout: 120000, 
-					flatten: false, 
-					makeEmptyDirs: false, 
-					noDefaultExcludes: false, 
-					patternSeparator: '[, ]+', 
-					remoteDirectory: '/var/www/doc/wapt/en/doc/', 
-					remoteDirectorySDF: false, 
-					removePrefix: 'build/en/latex/', 
-					sourceFiles: 'build/en/latex/WAPT.pdf') 
-				], 
-				usePromotionTimestamp: false, 
-				useWorkspaceInPromotion: false, 
-				verbose: false)]
+                    execCommand: '', execTimeout: 120000, 
+                    flatten: false, 
+                    makeEmptyDirs: false, 
+                    noDefaultExcludes: false, 
+                    patternSeparator: '[, ]+', 
+                    remoteDirectory: '/var/www/doc/wapt/en/doc/', 
+                    remoteDirectorySDF: false, 
+                    removePrefix: 'build/en/latex/', 
+                    sourceFiles: 'build/en/latex/WAPT.pdf') 
+                ], 
+                usePromotionTimestamp: false, 
+                useWorkspaceInPromotion: false, 
+                verbose: false)]
         }
     }
     stage('Publish release prod'){
@@ -151,45 +151,45 @@ pipeline {
                 sshPublisher alwaysPublishFromMaster: true, 
                 publishers: [sshPublisherDesc(configName: 'root@wapt.fr', 
                 transfers: [sshTransfer(excludes: '', 
-					execCommand: '', execTimeout: 120000, 
-					flatten: false, 
-					makeEmptyDirs: false, 
-					noDefaultExcludes: false, 
-					patternSeparator: '[, ]+', 
-					remoteDirectory: '/var/www/wapt.fr/en/doc-1.7/', 
-					remoteDirectorySDF: false, 
-					removePrefix: 'build/en/doc/', 
-					sourceFiles: 'build/en/doc/**'),
+                    execCommand: '', execTimeout: 120000, 
+                    flatten: false, 
+                    makeEmptyDirs: false, 
+                    noDefaultExcludes: false, 
+                    patternSeparator: '[, ]+', 
+                    remoteDirectory: '/var/www/wapt.fr/en/doc-1.8/', 
+                    remoteDirectorySDF: false, 
+                    removePrefix: 'build/en/doc/', 
+                    sourceFiles: 'build/en/doc/**'),
                 sshTransfer(excludes: '', 
-					execCommand: '', execTimeout: 120000, 
-					flatten: false, 
-					makeEmptyDirs: false, 
-					noDefaultExcludes: false, 
-					patternSeparator: '[, ]+', 
-					remoteDirectory: '/var/www/wapt.fr/fr/doc-1.7/', 
-					remoteDirectorySDF: false, 
-					removePrefix: 'build/fr/doc/', 
-					sourceFiles: 'build/fr/doc/**'),
+                    execCommand: '', execTimeout: 120000, 
+                    flatten: false, 
+                    makeEmptyDirs: false, 
+                    noDefaultExcludes: false, 
+                    patternSeparator: '[, ]+', 
+                    remoteDirectory: '/var/www/wapt.fr/fr/doc-1.8/', 
+                    remoteDirectorySDF: false, 
+                    removePrefix: 'build/fr/doc/', 
+                    sourceFiles: 'build/fr/doc/**'),
                 sshTransfer(excludes: '', 
-					execCommand: '', execTimeout: 120000, 
-					flatten: false, 
-					makeEmptyDirs: false, 
-					noDefaultExcludes: false, 
-					patternSeparator: '[, ]+', 
-					remoteDirectory: '/var/www/wapt.fr/en/doc-1.7/', 
-					remoteDirectorySDF: false, 
-					removePrefix: 'build/en/latex/', 
-					sourceFiles: 'build/en/latex/WAPT.pdf'),
+                    execCommand: '', execTimeout: 120000, 
+                    flatten: false, 
+                    makeEmptyDirs: false, 
+                    noDefaultExcludes: false, 
+                    patternSeparator: '[, ]+', 
+                    remoteDirectory: '/var/www/wapt.fr/en/doc-1.8/', 
+                    remoteDirectorySDF: false, 
+                    removePrefix: 'build/en/latex/', 
+                    sourceFiles: 'build/en/latex/WAPT.pdf'),
                 sshTransfer(excludes: '', 
-					execCommand: '', execTimeout: 120000, 
-					flatten: false, 
-					makeEmptyDirs: false, 
-					noDefaultExcludes: false, 
-					patternSeparator: '[, ]+', 
-					remoteDirectory: '/var/www/wapt.fr/fr/doc-1.7/', 
-					remoteDirectorySDF: false, 
-					removePrefix: 'build/fr/latex/', 
-					sourceFiles: 'build/fr/latex/WAPT.pdf') 
+                    execCommand: '', execTimeout: 120000, 
+                    flatten: false, 
+                    makeEmptyDirs: false, 
+                    noDefaultExcludes: false, 
+                    patternSeparator: '[, ]+', 
+                    remoteDirectory: '/var/www/wapt.fr/fr/doc-1.8/', 
+                    remoteDirectorySDF: false, 
+                    removePrefix: 'build/fr/latex/', 
+                    sourceFiles: 'build/fr/latex/WAPT.pdf') 
                 ], 
                 usePromotionTimestamp: false, 
                 useWorkspaceInPromotion: false, 
@@ -216,14 +216,14 @@ pipeline {
         channel: 'documentation',
         rawMessage: true
     }
-	
+    
     aborted {
         rocketSend message: "Build Aborted - ${env.JOB_NAME} ${env.BUILD_NUMBER} - ${env.BUILD_TIMESTAMP} (<${env.BUILD_URL}|Open>)",
         channel: 'documentation',
         rawMessage: true
     } 
     always {  
-		cleanWs()
-	}
+        cleanWs()
+    }
   }
  }
