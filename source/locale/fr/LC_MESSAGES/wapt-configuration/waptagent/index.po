@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-18 12:03+0100\n"
+"POT-Creation-Date: 2020-02-19 09:55+0100\n"
 "PO-Revision-Date: 2020-02-18 11:20+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -377,8 +377,8 @@ msgstr ""
 " la GPO de déploiement de l'agent WAPT."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:199
-msgid "Package *test-waptupgrade*"
-msgstr "Le paquet *test-waptupgrade*"
+msgid "Updating the WAPT agents"
+msgstr ""
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:201
 msgid "The ``test-waptupgrade`` package has also been uploaded on the repository."
@@ -404,6 +404,93 @@ msgid ""
 msgstr ""
 "Ce paquet permettra de mettre à jour les agents WAPT du parc lorsqu'une "
 "mise à jour de l'agent WAPT sera rendue disponible."
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:217
+msgid ""
+"Upgrading the WAPT agents using the *xxx-waptupgrade* package is a two "
+"step process:"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:220
+msgid ""
+"first the package copies the new :file:`waptagent.exe` file on the client"
+" computer and creates a new scheduled task that will run "
+":program:`waptagent.exe` with predefined installation flags two minutes "
+"after the creation of the scheduled task. At that point the package "
+"itself is installed and the inventory on the server shows the package "
+"installation as *OK*, with correct version installed, but the inventory "
+"will still show the old version as the agent is not yet updated."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:229
+msgid ""
+"after two minutes the scheduled task starts and runs "
+":program:`waptagent.exe`. :program:`aaptagent.exe` shutdowns the local "
+"WAPT service, upgrades the local WAPT install, and then restarts the "
+"service. The scheduled task is then automatically removed and the WAPT "
+"agent sends back its inventory to the WAPT server. Now the inventory on "
+"the servers will show the new version of the agent."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:236
+msgid ""
+"From an administrator point of view, looking at the console you will see "
+"the following steps:"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:239
+msgid "*xxx-waptupgrade* packages starts being installed;"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:241
+msgid ""
+"*xxx-waptupgrade* is installed, the machine is up to date from a package "
+"list point of view, but the version in the inventory is still the old "
+"version of the WAPT agent;"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:245
+msgid ""
+"after two minutes the computer connectivity status switches to "
+"*disconnected* as the WAPT agent is updated;"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:248
+msgid ""
+"after around two minutes the client computer gets back up online in the "
+"console and updates its inventory and shows the new version;"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:252
+msgid "What can go wrong during the upgrades"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:254
+msgid ""
+"the most common issue with the upgrading process is the local antivirus "
+"blocking the installation (WAPT is a software installer that keeps a "
+"websocket opened to a central management server, so this behavior may be "
+"flagged as suspicious by an antivirus, even though this method is the "
+"basis of end point management...). **If you have an issue when deploying "
+"the upgrade, please check your antivirus console and whitelist the "
+"waptagent.exe**. Another option is to re-sign the "
+":program:`waptagent.exe` binary if your organisation has an internal code"
+" signing certificate;"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:264
+msgid ""
+"the second most common issue is that for some reasons another program is "
+"locking a :mimetype:`DLL` that ships with WAPT. This can happen with "
+"poorly designed software installers that pick up the local %PATH% "
+"variable first and then find WAPTs own openssl or python DLL;"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:269
+msgid ""
+"the third most common issue is a defective Windows install that does not "
+"run scheduled tasks properly, and yes we have seen this!!"
+msgstr ""
 
 #~ msgid ""
 #~ "To add other public certificates in "
@@ -557,4 +644,7 @@ msgstr ""
 
 #~ msgid "WAPT agent installer"
 #~ msgstr "Générer l'installeur de l'agent WAPT"
+
+#~ msgid "Package *test-waptupgrade*"
+#~ msgstr "Le paquet *test-waptupgrade*"
 
