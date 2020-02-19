@@ -41,8 +41,8 @@ From WAPT 1.7    -                -                -                :green:`Yes`
 ================ ================ ================ ================ ================
 
 
-Upgrading from 1.6/1.7 to 1.8
------------------------------
+Upgrading WAPT from 1.6/1.7 to 1.8
+----------------------------------
 
 The upgrade process follows the process for a minor update:
 
@@ -60,8 +60,8 @@ The upgrade process follows the process for a minor update:
   * consider migrating your existing WAPT installation
     to Debian Buster or CentOS7;
 
-Upgrading from 1.5 to 1.6
--------------------------
+Upgrading WAPT from 1.5 to 1.6
+------------------------------
 
 The upgrade process follows the process for a minor update.
 
@@ -75,8 +75,8 @@ The upgrade process follows the process for a minor update.
   * when upgrading to Debian10, the PostgreSQL database
     must be upgraded;
 
-Upgrading from 1.3 to 1.6
--------------------------
+Upgrading WAPT from 1.3 to 1.6
+------------------------------
 
 The upgrade from 1.3 to 1.6 is a major upgrade.
 
@@ -113,3 +113,27 @@ The migration process includes:
    waptserver-update-debian.rst
    waptserver-update-centos.rst
    waptserver-update-windows.rst
+
+
+Upgrading the Operating System
+------------------------------
+
+In order to upgrade your WAPT server from Stretch to Buster you have to follow the 
+standard procedure for Debian. You first modify the apt source files :file:`/etc/apt/sources.list`
+and :file:`/etc/apt/sources.list.d/wapt.list`, then start upgrade. 
+
+By default the PostgreSQL is not upgraded to PostgreSQL 11. One needs to manually ask
+for upgrade. After upgrade it is possible to remove old PostgreSQL 9 database.
+
+.. code-block:: 
+
+  sed -i 's/stretch/buster/g'  /etc/apt/sources.list
+  sed -i 's/stretch/buster/g'  /etc/apt/sources.list.d/wapt.list
+  apt-get update
+  apt-get update && apt-get dist-upgrade
+  pg_upgradecluster
+  apt-get remove 
+  apt-get autoremove
+  /opt/wapt/waptserver/scripts/postconf.sh
+
+ 
