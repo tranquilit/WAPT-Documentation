@@ -79,24 +79,6 @@ Searching a host
 
 Allow to search for a value in the selected column.
 
-Filters and actions available with Organizational Units
--------------------------------------------------------
-
-.. figure:: wapt_console-access-to-organisational-unit-menu.png
-  :align: center
-  :alt: WAPT console showing options applicable to OU
-
-  WAPT console showing options applicable to OU
-
-In the **Enterprise** version, you may filter how hosts are displayed based
-on the Active Directory :abbr:`OU (Organizational Units)` they belong to.
-
-The checkbox :guilabel:`Include hosts in subfolders` allows to display hosts
-in subfolders.
-
-You may also choose to create *unit* packages by :menuselection:`Right clicking
-on an OU --> Create or edit the unit package`.
-
 Show the inventory
 ------------------
 

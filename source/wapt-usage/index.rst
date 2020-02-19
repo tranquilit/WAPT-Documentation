@@ -28,6 +28,7 @@ the :term:`Users` and the :term:`Package Deployers`.
   :maxdepth: 1
   :caption: Enterprise Features
 
+  wapt-organizational-unit.rst
   wapt-windows-update.rst
   wapt-reporting.rst
   wapt-selfservice.rst
