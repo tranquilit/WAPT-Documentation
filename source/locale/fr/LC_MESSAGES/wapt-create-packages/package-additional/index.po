@@ -141,7 +141,6 @@ msgstr ""
 "*portable*. Pour cela, il faudra :"
 
 #: ../../source/wapt-create-packages/package-additional/index.rst:90
-
 msgid "create the folder for the software in :file:`C:\\\\Program Files (x86)`;"
 msgstr "créer le répertoire d'installation dans :file:`C:\\Program Files (x86)` ;"
 
@@ -174,12 +173,10 @@ msgstr ""
 "faire un paquet applicatif ;"
 
 #: ../../source/wapt-create-packages/package-additional/index.rst:121
-
 msgid "The file :file:`C:\\\\waptdev\\\\tis-adwcleaner-wapt` is created."
 msgstr "Le fichier :file:`C:\\waptdev\\tis-adwcleaner-wapt` est créé."
 
 #: ../../source/wapt-create-packages/package-additional/index.rst:123
-
 msgid ""
 "download and copy/ paste :program:`adwcleaner.exe` binary in "
 ":file:`C:\\\\waptdev\\\\tis-adwcleaner-wapt` directory;"
@@ -188,62 +185,10 @@ msgstr ""
 "dans le répertoire :file:`C:\\waptdev\\tis-adwcleaner-wapt` ;"
 
 #: ../../source/wapt-create-packages/package-additional/index.rst:126
-
 msgid ""
 "open and make desired changes to :file:`C:\\\\waptdev\\\\tis-adwcleaner-"
 "wapt\\\\setup.py` installation file;"
 msgstr ""
 "ouvrir et modifier ensuite le fichier d'installation :file:`C:\\waptdev"
 "\\tis-adwcleaner-wapt\\setup.py` ;"
-
-#~ msgid ""
-#~ "``session_setup`` customization will occur "
-#~ "only once per user per package; a"
-#~ " shortcut created in that context is"
-#~ " created only once and not at "
-#~ "every startup. To execute a task "
-#~ "at each startup, it is preferable "
-#~ "to define a Windows scheduled task "
-#~ "to be launched by a local GPO "
-#~ "or by a startup script."
-#~ msgstr ""
-#~ "La personnalisation avec session_setup ne "
-#~ "s'exécute qu'une fois par utilisateur et"
-#~ " par paquet ; ainsi, un raccourci "
-#~ "créé dans ce contexte ne sera créé"
-#~ " qu'une seule fois et non à "
-#~ "chaque démarrage."
-
-#~ msgid "Storing of the instruction set in local WAPT agent database ;"
-#~ msgstr "Stockage du jeu d'instructions en base locale de l'agent WAPT ;"
-
-#~ msgid ""
-#~ "Automatic execution of each instruction "
-#~ "set at user logon, limited at one"
-#~ " execution per user per package ;"
-#~ msgstr ""
-#~ "Exécution automatique lors de la "
-#~ "connexion de l'utilisateur, limitée à "
-#~ "une exécution par utilisateur et par "
-#~ "paquet ;"
-
-#~ msgid "Proper uninstallation; "
-#~ msgstr "Gestion de la désinstallation ;"
-
-#~ msgid "Software and installation folder deletion;"
-#~ msgstr "Suppression de l'application et du dossier d'installation ;"
-
-#~ msgid "Desktop shortcu deletion;"
-#~ msgstr "Suppression du raccourci sur le bureau ;"
-
-#~ msgid ""
-#~ "when the package is deployed on "
-#~ "the computer, the ``session_setup`` "
-#~ "customizations are stored in WAPT "
-#~ "agent's local SQLite database;"
-#~ msgstr ""
-#~ "Quand le paquet est déployé, les "
-#~ "instructions sont stockées dans la base"
-#~ " de données locale de l'agent WAPT"
-#~ " ;"
 

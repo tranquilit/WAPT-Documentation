@@ -313,13 +313,10 @@ msgid "wapt-get clean"
 msgstr "wapt-get clean"
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:183
-
 msgid ""
 "The :command:`clean` command removes packages from the "
 ":file:`C:\\\\Program Files (x86)\\\\wapt\\\\cache` folder."
-msgstr ""
-"La commande :command:`clean` supprime du cache les paquets dans le "
-"répertoire :file:`C:\\Program Files (x86)\\wapt\\cache`."
+msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
 
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:186
 msgid ""
@@ -332,39 +329,4 @@ msgstr ""
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:188
 msgid "The command :code:`wapt-get clean` returns:"
 msgstr "La commande :code:`wapt-get clean` renvoie :"
-
-#~ msgid "global"
-#~ msgstr "global"
-
-#~ msgid "Mozilla Web Browser Web Firefox in ESR version"
-#~ msgstr "Navigateur Web Firefox ESR"
-
-#~ msgid "Common commands"
-#~ msgstr "Commandes les plus courantes"
-
-#~ msgid ""
-#~ "It's strongly advised to launch a "
-#~ "``wapt-get update`` command before "
-#~ "launching a ``wapt-get upgrade`` "
-#~ "command;"
-#~ msgstr ""
-#~ "Il est recommandé de lancer un "
-#~ ":command:`update` avant de lancer un "
-#~ ":command:`wapt-get upgrade` ;"
-
-#~ msgid "Attention:"
-#~ msgstr "Attention :"
-
-#~ msgid "Example:"
-#~ msgstr "Exemple :"
-
-#~ msgid "Result:"
-#~ msgstr "Résultat :"
-
-#~ msgid ""
-#~ "=== install packages === tis-firefox"
-#~ "                    | tis-firefox (50.0.2-73)"
-#~ msgstr ""
-#~ "=== install packages === tis-firefox"
-#~ "                    | tis-firefox (50.0.2-73)"
 

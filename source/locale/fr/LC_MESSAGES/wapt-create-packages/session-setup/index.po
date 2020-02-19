@@ -117,14 +117,11 @@ msgstr ""
 "machine."
 
 #: ../../source/wapt-create-packages/session-setup/index.rst:56
-
 msgid ""
 "The WAPT agent stores in its local database (:file:`C:\\\\Program Files "
 "(x86)\\\\wapt\\\\waptdb.sqlite`) the instruction sets of all WAPT "
 "packages."
-msgstr ""
-"WAPT enregistre en base locale les instructions de tous les paquets dans "
-"le fichier :file:`C:\\Program Files (x86)\\wapt\\waptdb.sqlite`."
+msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
 
 #: ../../source/wapt-create-packages/session-setup/index.rst:62
 msgid ""
@@ -135,7 +132,6 @@ msgstr ""
 " fois par paquet ou version de paquet et par profil utilisateur**."
 
 #: ../../source/wapt-create-packages/session-setup/index.rst:65
-
 msgid ""
 "The WAPT agent stores in is local "
 ":file:`%appdata%\\\\wapt\\\\waptsession.sqlite` database the instances of"
@@ -199,33 +195,4 @@ msgstr ""
 "les fichiers dans un répertoire extérieur au paquet lors de "
 "l'installation du paquet (exemple : un sous-répertoire créé à la racine "
 "du répertoire utilisateur)."
-
-#~ msgid ""
-#~ "setting up network drives, shortcuts to"
-#~ " the Organization's directory of document"
-#~ " templates to ensure conformity with "
-#~ "the Organization's standards;"
-#~ msgstr ""
-#~ "configurer des raccourcis réseaux aux "
-#~ "modèles de documents de l'entreprise "
-#~ "pour assurer la conformité des documents"
-#~ " aux chartes éditoriales en vigueur ;"
-
-#~ msgid ""
-#~ "setting up user mail client with "
-#~ "an external data source (directory, "
-#~ "database, etc);"
-#~ msgstr ""
-#~ "paramétrer la messagerie de l'utilisateur "
-#~ "à partir d'un référentiel externe "
-#~ "(annuaire, base de données, etc) ;"
-
-#~ msgid ""
-#~ "setting up office or business software"
-#~ " user preferences with an external "
-#~ "data source (directory, database, etc);"
-#~ msgstr ""
-#~ "paramétrer un logiciel bureautique ou "
-#~ "métier à partir d'un référentiel externe"
-#~ " (annuaire, base de données, etc) ;"
 

@@ -196,20 +196,3 @@ msgstr ""
 "Vous pouvez maintenant passer à l'étape suivante et :ref:`installer WAPT "
 "sur votre Debian <install_wapt_debian>`."
 
-#~ msgid "Network Configuration"
-#~ msgstr "Configuration de base"
-
-#~ msgid "Network IP configuration of WAPT Server"
-#~ msgstr "Configuration IP du serveur WAPT"
-
-#~ msgid "Next step : :ref:`install_wapt_debian`"
-#~ msgstr "Etape suivante : :ref:`install_wapt_debian`"
-
-#~ msgid ""
-#~ "After rebooting, configure system language "
-#~ "in English in order to ease search"
-#~ " in log files."
-#~ msgstr "afin de faciliter la recherche de problèmes dans les logs ;"
-
-#~ msgid "Debian, WAPT, install, documentation"
-#~ msgstr "Debian, WAPT, installer"

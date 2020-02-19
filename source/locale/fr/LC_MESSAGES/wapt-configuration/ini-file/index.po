@@ -8,13 +8,11 @@ msgstr ""
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 1.8.8\n"
-"X-Poedit-SourceCharset: UTF-8\n"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/index.rst:8
 msgid "Advanced settings for WAPTserver"
@@ -30,19 +28,17 @@ msgstr "Configurer le serveur WAPT"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/index.rst:15
 msgid ""
-"The WAPT Server configuration file on GNU/ Linux systems is found in :file:`/opt/"
-"wapt/conf/waptserver.ini`."
+"The WAPT Server configuration file on GNU/ Linux systems is found in "
+":file:`/opt/wapt/conf/waptserver.ini`."
 msgstr ""
-"La configuration du serveur WAPT sous Linux est située dans :file:`/opt/wapt/"
-"waptserver/waptserver.ini`."
+"La configuration du serveur WAPT sous Linux est située dans "
+":file:`/opt/wapt/waptserver/waptserver.ini`."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/index.rst:18
 msgid ""
-"The WAPT Server configuration file on Windows systems is found in :file:`C:\\"
-"\\wapt\\\\conf\\\\waptserver.ini`."
-msgstr ""
-"La configuration du serveur WAPT sous Windows est situé dans :file:`C:\\Program "
-"Files (x86)\\wapt\\waptserver\\waptserver.ini`."
+"The WAPT Server configuration file on Windows systems is found in "
+":file:`C:\\\\wapt\\\\conf\\\\waptserver.ini`."
+msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/index.rst:23
 msgid "**Modifying these files is reserved to advanced users !!**"
@@ -78,11 +74,11 @@ msgstr "``db_host`` ="
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/index.rst:43
 msgid ""
-"Address of the PostgreSQL server (empty by default, it will use a local Unix "
-"Socket)."
+"Address of the PostgreSQL server (empty by default, it will use a local "
+"Unix Socket)."
 msgstr ""
-"Adresse du serveur PostgreSQL (par défaut vide car la connexion par socket UNIX "
-"est par défaut)"
+"Adresse du serveur PostgreSQL (par défaut vide car la connexion par "
+"socket UNIX est par défaut)"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/index.rst:45
 msgid "``db_user`` ="
@@ -90,11 +86,11 @@ msgstr "``db_user`` ="
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/index.rst:45
 msgid ""
-"Name of the PostgreSQL user connecting to the database (default: empty, it will "
-"use a local UNIX socket)."
+"Name of the PostgreSQL user connecting to the database (default: empty, "
+"it will use a local UNIX socket)."
 msgstr ""
-"Nom d'utilisateur pour la base PostgreSQL (par défaut vide car la connexion par "
-"socket UNIX est activée par défaut)"
+"Nom d'utilisateur pour la base PostgreSQL (par défaut vide car la "
+"connexion par socket UNIX est activée par défaut)"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/index.rst:47
 msgid "``db_password`` ="
@@ -102,11 +98,11 @@ msgstr "``db_password`` ="
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/index.rst:47
 msgid ""
-"Password for authenticating the user on the PostgreSQL database (default: empty, "
-"it will use a local UNIX socket)"
+"Password for authenticating the user on the PostgreSQL database (default:"
+" empty, it will use a local UNIX socket)"
 msgstr ""
-"Mot de passe pour la base PostgreSQL (par défaut vide car la connexion par "
-"socket UNIX est activée par défaut)"
+"Mot de passe pour la base PostgreSQL (par défaut vide car la connexion "
+"par socket UNIX est activée par défaut)"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/index.rst:48
 msgid "``wapt_user`` = admin"
@@ -130,9 +126,9 @@ msgstr "``secret_key`` =  FKjfzjfkF687fjrkeznfkj7678jknk78687"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/index.rst:50
 msgid ""
-"Random string for initializing the Python Flask application server. It is "
-"generated when first installing the WAPT Server and is unique for every WAPT "
-"Server."
+"Random string for initializing the Python Flask application server. It is"
+" generated when first installing the WAPT Server and is unique for every "
+"WAPT Server."
 msgstr "Chaîne d'initialisation du moteur de gestion de session Flask"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/index.rst:53
@@ -166,8 +162,8 @@ msgstr "``use_kerberos`` = True"
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/index.rst:56
 msgid "Requires a Kerberos authentication when first registering the WAPT agent."
 msgstr ""
-"Exige une authentification Kerberos pour l'enregistrement initial d'une machine "
-"sur le serveur WAPT"
+"Exige une authentification Kerberos pour l'enregistrement initial d'une "
+"machine sur le serveur WAPT"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/index.rst:57
 msgid "``loglevel`` = debug"
@@ -192,7 +188,8 @@ msgstr "``signature_clockskew`` = 72000"
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/index.rst:59
 msgid "Maximum allowed time difference for the websockets"
 msgstr ""
-"Décalage de temps autorisé pour les timestamps lors d'une connexion websocket"
+"Décalage de temps autorisé pour les timestamps lors d'une connexion "
+"websocket"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/index.rst:60
 msgid "``db_connect_timeout`` = 10"
@@ -216,10 +213,11 @@ msgstr "``allow_unauthenticated_registration`` = True"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/index.rst:62
 msgid ""
-"Allows the initial registration of the WAPT agent using a login and a password"
+"Allows the initial registration of the WAPT agent using a login and a "
+"password"
 msgstr ""
-"Permet une authentification Identifiant / Mot de passe pour l'enregisrement "
-"initial"
+"Permet une authentification Identifiant / Mot de passe pour "
+"l'enregisrement initial"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/index.rst:64
 msgid "``allow_unauthenticated_connect`` = False"
@@ -235,8 +233,8 @@ msgstr "``http_proxy`` = http://proxy.ad.tranquil.it:3128"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/index.rst:65
 msgid ""
-"Defines the proxy server to allow the WAPT server to recover its :abbr:`CRL "
-"(Certificate Revocation List)`"
+"Defines the proxy server to allow the WAPT server to recover its "
+":abbr:`CRL (Certificate Revocation List)`"
 msgstr ""
 "Définit le serveur proxy du serveur WAPT (pour récupérer des :abbr:`CRL "
 "(Certificate Revocation List)` )"
@@ -256,8 +254,8 @@ msgstr "``wapt_admin_group_dn`` = CN=waptadmins,OU=groups,DC=ad,DC=domain,DC=lan
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/index.rst:68
 msgid "LDAP DN of Active Directory User Group allowed to connect to WAPT console"
 msgstr ""
-"LDAP DN du groupe d'utilisateurs Active Directory autorisé à se connecter à la "
-"console WAPT"
+"LDAP DN du groupe d'utilisateurs Active Directory autorisé à se connecter"
+" à la console WAPT"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/index.rst:69
 msgid "``remote_repo_support`` = True"
@@ -275,32 +273,3 @@ msgstr "Configurer Nginx"
 msgid "The default Nginx configuration is as follows:"
 msgstr "La configuration nginx par défaut est la suivante :"
 
-#~ msgid ""
-#~ "WAPT Server configuration on Windows systems is located there : :file:``C:"
-#~ "\\wapt\\waptserver\\waptserver.ini``"
-#~ msgstr ""
-#~ "La configuration du serveur WAPT sous Windows est située dans :         :file:"
-#~ "`C:\\Program Files (x86)\\wapt\\waptserver\\waptserver.ini`"
-
-#~ msgid "Section [uwsgi]"
-#~ msgstr "Partie [uwsgi]"
-
-#~ msgid "To configure uwsgi please refer to official uwsgi documentation :"
-#~ msgstr ""
-#~ "Pour configurer la partie uwsgi reportez vous à la documentation officielle "
-#~ "uwsgi :"
-
-#~ msgid "https://uwsgi-docs.readthedocs.io/en/latest/"
-#~ msgstr "https://uwsgi-docs.readthedocs.io/en/latest/"
-
-#~ msgid "mongodb_port = 27017"
-#~ msgstr "mongodb_port = 27017"
-
-#~ msgid "Defines mongodb port"
-#~ msgstr "Définit le port mongodb"
-
-#~ msgid "mongodb_ip = 127.0.0.1"
-#~ msgstr "mongodb_ip = 127.0.0.1"
-
-#~ msgid "Defines mongodb listening address"
-#~ msgstr "Définit l'adresse d'écoute de mongodb"

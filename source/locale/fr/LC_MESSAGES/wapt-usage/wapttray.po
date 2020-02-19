@@ -8,13 +8,11 @@ msgstr ""
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 1.8.8\n"
-"X-Poedit-SourceCharset: UTF-8\n"
 
 #: ../../source/wapt-usage/wapttray.rst:8
 #: ../../source/wapt-usage/wapttray.rst:15
@@ -26,20 +24,37 @@ msgid "WAPT, Tray, documentation"
 msgstr "WAPT, Tray, documentation"
 
 #: ../../source/wapt-usage/wapttray.rst:17
-msgid ":program:`wapttray` is a utility working in user context, it is located in the WAPT folder :file:`C:\\\\Program Files (x86)\\\\wapt`."
-msgstr "Le WAPTtray est utilisable en compte utilisateur, il est situé dans le dossier :file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapttray.exe`."
+msgid ""
+":program:`wapttray` is a utility working in user context, it is located "
+"in the WAPT folder :file:`C:\\\\Program Files (x86)\\\\wapt`."
+msgstr ""
+"Le WAPTtray est utilisable en compte utilisateur, il est situé dans le "
+"dossier :file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapttray.exe`."
 
 #: ../../source/wapt-usage/wapttray.rst:20
-msgid ":program:`wapttray` launches at logon if the option has been ticked during installation. The icon will show up in the Windows tray toolbar."
-msgstr "Le WAPTtray s'ouvre au démarrage de la session si l'option a été cochée lors de l'installation. Il se place dans la barre des tâches lors de l'ouverture de session."
+msgid ""
+":program:`wapttray` launches at logon if the option has been ticked "
+"during installation. The icon will show up in the Windows tray toolbar."
+msgstr ""
+"Le WAPTtray s'ouvre au démarrage de la session si l'option a été cochée "
+"lors de l'installation. Il se place dans la barre des tâches lors de "
+"l'ouverture de session."
 
 #: ../../source/wapt-usage/wapttray.rst:23
-msgid "We can also launch :program:`wapttray` manually with a startup GPO pointing on :file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapttray.exe`."
-msgstr "On peut aussi lancer le WAPTtray avec une GPO de démarrage exécutant :file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapttray.exe`."
+msgid ""
+"We can also launch :program:`wapttray` manually with a startup GPO "
+"pointing on :file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapttray.exe`."
+msgstr ""
+"On peut aussi lancer le WAPTtray avec une GPO de démarrage exécutant "
+":file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapttray.exe`."
 
 #: ../../source/wapt-usage/wapttray.rst:26
-msgid "The tray icon is handy for autonomous users that want to choose the right moment to upgrade their packages."
-msgstr "L'icône est pratique pour les utilisateurs qui souhaitent choisir le bon moment pour la mise à jour de leur poste."
+msgid ""
+"The tray icon is handy for autonomous users that want to choose the right"
+" moment to upgrade their packages."
+msgstr ""
+"L'icône est pratique pour les utilisateurs qui souhaitent choisir le bon "
+"moment pour la mise à jour de leur poste."
 
 #: ../../source/wapt-usage/wapttray.rst:33
 msgid "WAPTtray in Windows notification tray"
@@ -75,15 +90,21 @@ msgstr "Lancer l'installation d'une mise à jour"
 
 #: ../../source/wapt-usage/wapttray.rst:51
 msgid "launches the installation of pending upgrades"
-msgstr "lance l'installation des paquets lorsque des mises à jours sont disponibles."
+msgstr ""
+"lance l'installation des paquets lorsque des mises à jours sont "
+"disponibles."
 
 #: ../../source/wapt-usage/wapttray.rst:52
 msgid "Refreshing the list of available"
 msgstr "Actualiser la liste des paquets disponibles"
 
 #: ../../source/wapt-usage/wapttray.rst:53
-msgid "refreshes the list of available packages. Double-clicking on the tray icon brings about the same effect."
-msgstr "rafraîchit la liste des paquets disponibles. Un double-clic sur l'icône produit le même effet."
+msgid ""
+"refreshes the list of available packages. Double-clicking on the tray "
+"icon brings about the same effect."
+msgstr ""
+"rafraîchit la liste des paquets disponibles. Un double-clic sur l'icône "
+"produit le même effet."
 
 #: ../../source/wapt-usage/wapttray.rst:55
 msgid "Launching the WAPT console"
@@ -98,15 +119,21 @@ msgid "Viewing the configuration file"
 msgstr "Afficher le fichier de configuration"
 
 #: ../../source/wapt-usage/wapttray.rst:58
-msgid "opens the :file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get.ini` file with :term:`Local Administrator` privileges (credentials may be asked)"
-msgstr "lance l'édition du fichier :file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get.ini` en mode :term:`Administrateur`."
+msgid ""
+"opens the :file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get.ini` file "
+"with :term:`Local Administrator` privileges (credentials may be asked)"
+msgstr ""
+"lance l'édition du fichier :file:`C:\\\\Program Files (x86)\\\\wapt"
+"\\\\wapt-get.ini` en mode :term:`Administrateur`."
 
 #: ../../source/wapt-usage/wapttray.rst:60
 msgid "Reloading network related service configuration"
 msgstr "Recharger la configuration réseau du service"
 
 #: ../../source/wapt-usage/wapttray.rst:61
-msgid "reloads the connection to the WAPT Server in the event of a network reconfiguration"
+msgid ""
+"reloads the connection to the WAPT Server in the event of a network "
+"reconfiguration"
 msgstr "recharge la connexion au serveur WAPT en cas de reconfiguration du réseau"
 
 #: ../../source/wapt-usage/wapttray.rst:63
@@ -122,16 +149,25 @@ msgid "Configuring all installed packages for the User"
 msgstr "Configurer tous les paquets installés pour l'Utilisateur"
 
 #: ../../source/wapt-usage/wapttray.rst:66
-msgid "launches a :command:`session-setup` to configure user environment for all packages installed on the host"
-msgstr "lance un :command:`session-setup` pour configurer l'environnement Utilisateur pour tous les paquets installés sur la machine."
+msgid ""
+"launches a :command:`session-setup` to configure user environment for all"
+" packages installed on the host"
+msgstr ""
+"lance un :command:`session-setup` pour configurer l'environnement "
+"Utilisateur pour tous les paquets installés sur la machine."
 
 #: ../../source/wapt-usage/wapttray.rst:68
 msgid "Canceling WAPT tasks running on the host"
 msgstr "Annuler les tâches WAPT en cours d'exécution sur la machine"
 
 #: ../../source/wapt-usage/wapttray.rst:69
-msgid "shows running tasks, allows to cancel a running task, allows to cancel all running tasks"
-msgstr "affiche les tâches en cours d'exécution, permet d'annuler une tâche en cours d'exécution, permet d'annuler toutes les tâches en cours d'exécution"
+msgid ""
+"shows running tasks, allows to cancel a running task, allows to cancel "
+"all running tasks"
+msgstr ""
+"affiche les tâches en cours d'exécution, permet d'annuler une tâche en "
+"cours d'exécution, permet d'annuler toutes les tâches en cours "
+"d'exécution"
 
 #: ../../source/wapt-usage/wapttray.rst:71
 msgid "Stopping and starting the WAPT service"
@@ -149,208 +185,3 @@ msgstr "Quitter WAPTtray"
 msgid "closes the tray :guilabel:`icon` without stopping the local *WAPTservice*"
 msgstr "ferme l':guilabel:`icône WAPTtray` sans couper le service WAPT local"
 
-#~ msgid "Canceling WAPT tasks running on the host;"
-#~ msgstr "Annuler les tâches en cours ou à venir"
-
-#~ msgid "Using WAPTtray"
-#~ msgstr "Utilisation de WAPTtray"
-
-#~ msgid "Allows to register the host's inventory on the WAPT inventory server."
-#~ msgstr "Permet de renvoyer l'inventaire de la machine au serveur WAPT."
-
-#~ msgid "About this host"
-#~ msgstr "Informations de la machine"
-
-#~ msgid "WAPT version"
-#~ msgstr "Version WAPT"
-
-#~ msgid ""
-#~ "Stop and Start WAPT service by "
-#~ "ticking or unticking :guilabel:`WAPT service"
-#~ " running`."
-#~ msgstr ""
-#~ "Stopper ou démarrer le service WAPT "
-#~ "en cochant ou décochant **Service WAPT"
-#~ " lancé**."
-
-#~ msgid "Exit"
-#~ msgstr "Quitter"
-
-#~ msgid ""
-#~ "When an upgrade is available, the "
-#~ ":guilabel:`icon` blinks Orange and the "
-#~ "user will be able to right-click"
-#~ " on the :guilabel:`icon` and click on"
-#~ " :guilabel:`Install updates` to launch the"
-#~ " WAPT package upgrades."
-#~ msgstr ""
-#~ "Lorsqu'une mise à jour est disponible,"
-#~ " l':guilabel:`icône` va se mettre à "
-#~ "clignoter Orange et l'utilisateur pourra, "
-#~ "lorsqu'il le souhaite, faire un "
-#~ ":menuselection:`Clic droit sur l'icône --> "
-#~ "Installer les mises à jour` pour "
-#~ "lancer leur installation."
-
-#~ msgid ""
-#~ "To force the WAPT agent to look"
-#~ " for available updates, the user can"
-#~ " right-click on the WAPTtray "
-#~ ":guilabel:`icon` and click on "
-#~ ":guilabel:`Update software inventory`."
-#~ msgstr ""
-#~ "Pour forcer l'agent WAPT à vérifier "
-#~ "la disponibilité d'une mise à jour, "
-#~ "l'utilisateur pourra faire un "
-#~ ":menuselection:`Clic droit sur l'icône --> "
-#~ "Mettre à jour l'inventaire des "
-#~ "logiciels`."
-
-#~ msgid ""
-#~ "To launch the WAPT management console"
-#~ " from WAPTtray, right-click on the"
-#~ " :guilabel:`icon` and click on "
-#~ ":guilabel:`Run WAPT Console`."
-#~ msgstr ""
-#~ "Pour lancer la console WAPT depuis "
-#~ "WAPTtray, faire un :menuselection:`Clic droit"
-#~ " sur l'icône --> Lancer la console"
-#~ " WAPT`"
-
-#~ msgid ""
-#~ "Reloads WAPT networking service in case"
-#~ " of changes to configuration file."
-#~ msgstr ""
-#~ "la configuration réseau peut être "
-#~ "rechargée en cas de modification du "
-#~ "fichier de configuration."
-
-#~ msgid ""
-#~ "Allows to open the local web "
-#~ "interface showing the host inventory. "
-#~ "Informations displayed are exactly the "
-#~ "same as displayed in the WAPT "
-#~ "management console."
-#~ msgstr ""
-#~ "l'interface web qui sert à afficher "
-#~ "l'inventaire de la machine peut être "
-#~ "chargée. Les informations affichées sont "
-#~ "les mêmes que celles présentes dans "
-#~ "la console d'administration."
-
-#~ msgid "Displays the version of WAPT installed on the host."
-#~ msgstr "afficher la version de WAPT installée sur la machine ;"
-
-#~ msgid "Several possibilities:"
-#~ msgstr "Plusieurs possibilités :"
-
-#~ msgid "cancel the WAPT tasks running on the host;"
-#~ msgstr "annuler la tâche WAPT en cours ;"
-
-#~ msgid "cancel all WAPT tasks running on the host (running and pending);"
-#~ msgstr "annuler toutes les tâches WAPT en cours ;"
-
-#~ msgid "refreshes the list of available packages."
-#~ msgstr "actualise la liste des paquets disponibles"
-
-#~ msgid "reloads the connection to the WAPT Server"
-#~ msgstr "actualise l'inventaire de la machine avec le serveur"
-
-#~ msgid "service configuration"
-#~ msgstr "configuration du service"
-
-#~ msgid "Uploading the host's inventory"
-#~ msgstr "Remonter l'inventaire de la machine avec le serveur"
-
-#~ msgid "List of functionalities of the WAPTtray"
-#~ msgstr "Fonctionnalités de WAPTtray"
-
-#~ msgid "Action"
-#~ msgstr ""
-
-#~ msgid "Description"
-#~ msgstr ""
-
-#~ msgid "Showing the status of packages"
-#~ msgstr ""
-
-#~ msgid "launches the local web interface in a browser"
-#~ msgstr ""
-
-#~ msgid "Launching the installation of a update"
-#~ msgstr ""
-
-#~ msgid "launches the installation of pending upgrades"
-#~ msgstr ""
-
-#~ msgid "Refreshing the list of available"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "refreshes the list of available "
-#~ "packages. Double-clicking on the tray"
-#~ " icon brings about the same effect."
-#~ msgstr ""
-
-#~ msgid "Launching the WAPT console"
-#~ msgstr ""
-
-#~ msgid "launches the WAPT console"
-#~ msgstr ""
-
-#~ msgid "Viewing the configuration file"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "opens the :file:`C:\\\\Program Files "
-#~ "(x86)\\\\wapt\\\\wapt-get.ini` file with "
-#~ ":term:`Local Administrator` privileges (credentials"
-#~ " may be asked)"
-#~ msgstr ""
-
-#~ msgid "Reloading network related service configuration"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "reloads the connection to the WAPT "
-#~ "Server in the event of a network"
-#~ " reconfiguration"
-#~ msgstr ""
-
-#~ msgid "Uploading the host's inventory to the WAPT Server"
-#~ msgstr ""
-
-#~ msgid "updates the host's inventory with the WAPT Server"
-#~ msgstr ""
-
-#~ msgid "Configuring all installed packages for the User"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "launches a :command:`session-setup` to "
-#~ "configure user environment for all "
-#~ "packages installed on the host"
-#~ msgstr ""
-
-#~ msgid "Canceling WAPT tasks running on the host"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "shows running tasks, allows to cancel"
-#~ " a running task, allows to cancel "
-#~ "all running tasks"
-#~ msgstr ""
-
-#~ msgid "Stopping and starting the WAPT service"
-#~ msgstr ""
-
-#~ msgid "stops and reloads the *WAPTservice*"
-#~ msgstr ""
-
-#~ msgid "Exiting the WAPTtray"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "closes the tray :guilabel:`icon` without "
-#~ "stopping the local *WAPTservice*"
-#~ msgstr ""

@@ -9,12 +9,11 @@ msgstr ""
 "Language: fr\n"
 "Language-Team: French <https://srvweblate.tranquil.it/projects/wapt-"
 "documentation/waptserver-installdnsdns-introduction/fr/>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 1.8.8\n"
 
 #: ../../source/waptserver-install/dns/dns-introduction.rst:8
 #: ../../source/waptserver-install/dns/dns-introduction.rst:15
@@ -36,12 +35,12 @@ msgstr ""
 #: ../../source/waptserver-install/dns/dns-introduction.rst:22
 msgid ""
 "In order to make make your WAPT setup easier to manage, it is strongly "
-"recommended to configure the :term:`DNS` server to include :term:`A field` or :"
-"term:`CNAME field` as below:"
+"recommended to configure the :term:`DNS` server to include :term:`A "
+"field` or :term:`CNAME field` as below:"
 msgstr ""
-"Pour faciliter la configuration des clients, il est fortement recommandé de "
-"configurer le serveur :term:`DNS` pour inclure le :term:`champ A` ou :term:"
-"`champ CNAME` suivants :"
+"Pour faciliter la configuration des clients, il est fortement recommandé "
+"de configurer le serveur :term:`DNS` pour inclure le :term:`champ A` ou "
+":term:`champ CNAME` suivants :"
 
 #: ../../source/waptserver-install/dns/dns-introduction.rst:26
 msgid "*srvwapt.mydomain.lan*;"
@@ -54,21 +53,22 @@ msgstr "*wapt.mydomain.lan* ;"
 #: ../../source/waptserver-install/dns/dns-introduction.rst:30
 msgid "Replace *mydomain.lan* with your network's :term:`DNS` suffix."
 msgstr ""
-"Remplacer *mydomain.lan* par le suffixe :term:`DNS` utilisé sur votre réseau."
+"Remplacer *mydomain.lan* par le suffixe :term:`DNS` utilisé sur votre "
+"réseau."
 
 #: ../../source/waptserver-install/dns/dns-introduction.rst:32
 msgid ""
-"These DNS fields will be used by WAPT agents to locate the WAPT Server and "
-"their WAPT repositories closest to them."
+"These DNS fields will be used by WAPT agents to locate the WAPT Server "
+"and their WAPT repositories closest to them."
 msgstr ""
-"Ces champs seront utilisés par les agents WAPT pour trouver le serveur WAPT ou "
-"un dépôt secondaire WAPT de proximité sur le réseau."
+"Ces champs seront utilisés par les agents WAPT pour trouver le serveur "
+"WAPT ou un dépôt secondaire WAPT de proximité sur le réseau."
 
 #: ../../source/waptserver-install/dns/dns-introduction.rst:36
 msgid "Configuring DNS entries in Microsoft RSAT."
 msgstr ""
-"Configurer les champs DNS avec les \"Outils d'administration de serveur distant"
-"\" Microsoft (RSAT)."
+"Configurer les champs DNS avec les \"Outils d'administration de serveur "
+"distant\" Microsoft (RSAT)."
 
 #: ../../source/waptserver-install/dns/dns-introduction.rst:38
 msgid "The *A* field must point to the WAPT Server IP address;"
@@ -81,18 +81,22 @@ msgstr "Configuration du champ A dans la MMC Windows"
 #: ../../source/waptserver-install/dns/dns-introduction.rst:46
 msgid "You can now install the WAPT Server on your favorite operating system:"
 msgstr ""
-"Vous pouvez maintenant installer votre serveur WAPT sur l'OS de votre choix :"
+"Vous pouvez maintenant installer votre serveur WAPT sur l'OS de votre "
+"choix :"
 
 #: ../../source/waptserver-install/dns/dns-introduction.rst:48
 msgid ""
-":ref:`install the WAPT Server on GNU / Linux Debian <install_base_debian>`;"
+":ref:`install the WAPT Server on GNU / Linux Debian "
+"<install_base_debian>`;"
 msgstr ":ref:`installer le serveur WAPT sur Debian <install_base_debian>` ;"
 
 #: ../../source/waptserver-install/dns/dns-introduction.rst:50
 msgid ":ref:`install the WAPT Server on CentOS / RedHat <install_base_centos>`;"
 msgstr ""
-":ref:`installer le serveur WAPT sur CentOS ou RedHat <install_base_centos>` ;"
+":ref:`installer le serveur WAPT sur CentOS ou RedHat "
+"<install_base_centos>` ;"
 
 #: ../../source/waptserver-install/dns/dns-introduction.rst:52
 msgid ":ref:`install the WAPT Server on Windows <wapt-server_win_install>`;"
 msgstr ":ref:`installer le serveur WAPT sur Windows <wapt-server_win_install>` ;"
+

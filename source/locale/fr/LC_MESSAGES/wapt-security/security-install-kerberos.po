@@ -265,28 +265,3 @@ msgstr ""
 "Vous allez alors fusionner tous ces :file:`keytabs` en un unique "
 ":file:`keytab`:"
 
-#~ msgid "Installing the Kerberos components"
-#~ msgstr ""
-
-#~ msgid "Configuring krb5"
-#~ msgstr ""
-
-#~ msgid "Retrieving a service keytab"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Use the :`command:`kinit` and "
-#~ ":command:`klist`. You can use an "
-#~ ":term:`Administrator` account or any other "
-#~ "account with the delegated right to "
-#~ "join a computer to the domain in"
-#~ " the proper destination container (by "
-#~ "default *CN=Computers*)."
-#~ msgstr ""
-
-#~ msgid "Case of use of a RODC"
-#~ msgstr ""
-
-#~ msgid "In case you have multiple Active Directory domains"
-#~ msgstr ""
-

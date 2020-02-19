@@ -8,13 +8,11 @@ msgstr ""
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 1.8.8\n"
-"X-Poedit-SourceCharset: UTF-8\n"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:8
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:15
@@ -27,11 +25,9 @@ msgstr "wapt-get.ini, configuration"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:17
 msgid ""
-"The configuration file :file:`C:\\\\Program Files(x86)\\\\wapt\\\\wapt-get.ini` "
-"defines the behavior of the WAPT agent."
-msgstr ""
-"Le fichier de configuration :file:`C:\\Program Files (x86)\\wapt\\wapt-get.ini` "
-"définit le comportement de l'agent WAPT sur la machine."
+"The configuration file :file:`C:\\\\Program Files(x86)\\\\wapt\\\\wapt-"
+"get.ini` defines the behavior of the WAPT agent."
+msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:20
 msgid "The ``[global]`` section is required:"
@@ -43,36 +39,38 @@ msgstr "Description des options possibles pour l'agent WAPT"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:31
 msgid ""
-"if ``repo_url`` and ``wapt_server`` fields are empty, the WAPT agent will look "
-"for a repository using SRV records in the ``dnsdomain`` zone;"
+"if ``repo_url`` and ``wapt_server`` fields are empty, the WAPT agent will"
+" look for a repository using SRV records in the ``dnsdomain`` zone;"
 msgstr ""
-"Si les champs ``repo_url`` et ``wapt_server`` sont vides, le client WAPT ira "
-"chercher son dépôt en utilisant l'enregistrement SRV dans la zone ``dnsdomain``."
+"Si les champs ``repo_url`` et ``wapt_server`` sont vides, le client WAPT "
+"ira chercher son dépôt en utilisant l'enregistrement SRV dans la zone "
+"``dnsdomain``."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:34
 msgid ""
-"if there is no ``wapt_server`` attribute in the ``[global]`` section, no WAPT "
-"Server will be used;"
+"if there is no ``wapt_server`` attribute in the ``[global]`` section, no "
+"WAPT Server will be used;"
 msgstr ""
-"S'il n'y a pas de clé ``wapt_server`` dans la section ``[global]``, aucun "
-"serveur wapt ne sera contacté."
+"S'il n'y a pas de clé ``wapt_server`` dans la section ``[global]``, aucun"
+" serveur wapt ne sera contacté."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:37
 msgid ""
-"if there is no ``repo_url`` attribute in the ``[global]`` section, a repository "
-"in the ``[wapt]`` section will have to be explicitly defined;"
+"if there is no ``repo_url`` attribute in the ``[global]`` section, a "
+"repository in the ``[wapt]`` section will have to be explicitly defined;"
 msgstr ""
-"S'il n'y a pas d\\'attribut ``repo_url`` dans la section ``[global]``, il sera "
-"nécessaire de définir explicitement un dépôt dans une section ``[wapt]``, et de "
-"l'activer en l'ajoutant à la clé ``repositories`` de la section ``[global]``."
+"S'il n'y a pas d\\'attribut ``repo_url`` dans la section ``[global]``, il"
+" sera nécessaire de définir explicitement un dépôt dans une section "
+"``[wapt]``, et de l'activer en l'ajoutant à la clé ``repositories`` de la"
+" section ``[global]``."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:40
 msgid ""
-"it will have to be enabled by adding it to the ``repositories`` attribute to the "
-"``[global]`` section;"
+"it will have to be enabled by adding it to the ``repositories`` attribute"
+" to the ``[global]`` section;"
 msgstr ""
-"Les dépôts activés sont listés dans le paramètres ``repositories`` de la section "
-"``[global]``"
+"Les dépôts activés sont listés dans le paramètres ``repositories`` de la "
+"section ``[global]``"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:46
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:106
@@ -100,12 +98,13 @@ msgstr "``repo_url`` = https://srvwapt.mydomain.lan/wapt"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:48
 msgid ""
-"If the field is left empty, the WAPT agent will make a :term:`DNS` query on the :"
-"term:`SRV` field ``_wapt._tcp.<dnsdomain>`` to find the repository (the "
-"``dnsdomain`` attribute must be configured)."
+"If the field is left empty, the WAPT agent will make a :term:`DNS` query "
+"on the :term:`SRV` field ``_wapt._tcp.<dnsdomain>`` to find the "
+"repository (the ``dnsdomain`` attribute must be configured)."
 msgstr ""
-"Adresse du dêpôt WAPT. Si laissé vide, la recherche se fait sur le champ :term:"
-"`DNS` :term:`SRV` ``_wapt._tcp.<dnsdomain>`` (``dnsdomain`` doit être renseigné)."
+"Adresse du dêpôt WAPT. Si laissé vide, la recherche se fait sur le champ "
+":term:`DNS` :term:`SRV` ``_wapt._tcp.<dnsdomain>`` (``dnsdomain`` doit "
+"être renseigné)."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:52
 msgid "``wapt_server`` = https://srvwapt.mydomain.lan"
@@ -113,13 +112,13 @@ msgstr "``wapt_server`` = https://srvwapt.mydomain.lan"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:52
 msgid ""
-"If the attribute is left empty, the WAPT agent will make a :term:`DNS` :term:"
-"`SRV` query on the ``_waptserver._tcp.<dnsdomain>`` field (the ``dnsdomain`` "
-"attribute must be configured)"
+"If the attribute is left empty, the WAPT agent will make a :term:`DNS` "
+":term:`SRV` query on the ``_waptserver._tcp.<dnsdomain>`` field (the "
+"``dnsdomain`` attribute must be configured)"
 msgstr ""
-"Si l'attribut est vide, la recherche se fait sur le champ :term:`DNS` :term:"
-"`SRV` ``_waptserver._tcp.<dnsdomain>`` (l'attribut ``dnsdomain``  doit être "
-"renseigné)"
+"Si l'attribut est vide, la recherche se fait sur le champ :term:`DNS` "
+":term:`SRV` ``_waptserver._tcp.<dnsdomain>`` (l'attribut ``dnsdomain``  "
+"doit être renseigné)"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:56
 msgid "``dnsdomain`` = mydomain.lan"
@@ -127,11 +126,11 @@ msgstr "``dnsdomain`` = mydomain.lan"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:56
 msgid ""
-"DNS suffix to use for auto-discovery of the WAPT Server and repositories with :"
-"term:`SRV` / :term:`CNAME field` DNS queries."
+"DNS suffix to use for auto-discovery of the WAPT Server and repositories "
+"with :term:`SRV` / :term:`CNAME field` DNS queries."
 msgstr ""
-"Suffixe DNS à utiliser pour la recherche automatique par champs :term:`SRV` ou :"
-"term:`champ CNAME` du dépôt principal et du serveur WAPT."
+"Suffixe DNS à utiliser pour la recherche automatique par champs "
+":term:`SRV` ou :term:`champ CNAME` du dépôt principal et du serveur WAPT."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:59
 msgid "``use_hostpackages`` = 1"
@@ -171,11 +170,11 @@ msgstr "``waptservice_password`` = 5e884898da"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:67
 msgid ""
-"sha256 hashed password when the WAPT service is used locally from a command "
-"prompt (NOPASSWORD disables the requirement for a password)"
+"sha256 hashed password when the WAPT service is used locally from a "
+"command prompt (NOPASSWORD disables the requirement for a password)"
 msgstr ""
-"Mot de passe hashé sha256 hex lors de l'appel d'une fonction par le service "
-"WAPT. ``NOPASSWORD`` permet de ne pas mettre de mot de passe."
+"Mot de passe hashé sha256 hex lors de l'appel d'une fonction par le "
+"service WAPT. ``NOPASSWORD`` permet de ne pas mettre de mot de passe."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:70
 msgid "``waptservice_port`` = 8088"
@@ -211,12 +210,12 @@ msgstr "``maturities`` = PROD"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:77
 msgid ""
-"List of packages maturities than can be viewed and installed by WAPT Agent. "
-"Default value is ``PROD``. Any value can be used."
+"List of packages maturities than can be viewed and installed by WAPT "
+"Agent. Default value is ``PROD``. Any value can be used."
 msgstr ""
-"Liste des maturités de paquets qui peuvent être vus et installés par l'agent "
-"WAPT. La valeur par défaut est ``PROD``. N'importe quelle valeur peut être "
-"utilisée."
+"Liste des maturités de paquets qui peuvent être vus et installés par "
+"l'agent WAPT. La valeur par défaut est ``PROD``. N'importe quelle valeur "
+"peut être utilisée."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:80
 msgid "``use_fqdn_as_uuid`` = 1"
@@ -224,11 +223,11 @@ msgstr "``use_fqdn_as_uuid`` = 1"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:80
 msgid ""
-"Allows you to use the fqdn name rather than the uuid BIOS as the unique machine "
-"identifier in wapt."
+"Allows you to use the fqdn name rather than the uuid BIOS as the unique "
+"machine identifier in wapt."
 msgstr ""
-"Permet d'utiliser le nom FQDN plutôt que l'UUID BIOS comme identifiant unique de "
-"la machine dans WAPT."
+"Permet d'utiliser le nom FQDN plutôt que l'UUID BIOS comme identifiant "
+"unique de la machine dans WAPT."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:82
 msgid "``waptaudit_task_period`` = 120"
@@ -245,13 +244,13 @@ msgstr "``loglevel`` = warning"
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:84
 msgid ""
 "Allows you to set the list of wapt agent languages to modify the list of "
-"packages visible by wapt (for package filtering). You can add multiple language "
-"(eg. ``locales=fr,en``) in order of preference."
+"packages visible by wapt (for package filtering). You can add multiple "
+"language (eg. ``locales=fr,en``) in order of preference."
 msgstr ""
-"Permet de définir la liste des langues de l'agent WAPT pour modifier la liste "
-"des paquets visibles par WAPT (pour le filtrage des paquets). Vous pouvez "
-"ajouter plusieurs langues (par exemple ``locales=fr,en``) par ordre de "
-"préférence."
+"Permet de définir la liste des langues de l'agent WAPT pour modifier la "
+"liste des paquets visibles par WAPT (pour le filtrage des paquets). Vous "
+"pouvez ajouter plusieurs langues (par exemple ``locales=fr,en``) par "
+"ordre de préférence."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:87
 msgid "``host_profiles`` = tis-firefox,tis-java"
@@ -268,8 +267,8 @@ msgstr "``language`` = en"
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:89
 msgid "Force default langauge for GUI (not for package filtering)"
 msgstr ""
-"Forcer la langue par défaut de la console graphique (ne s'applique pas au "
-"filtrage des paquets)"
+"Forcer la langue par défaut de la console graphique (ne s'applique pas au"
+" filtrage des paquets)"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:91
 msgid "``host_organizational_unit_dn`` = OU=TOTO,OU=TEST,DC=DEMO,DC=LAN"
@@ -277,11 +276,11 @@ msgstr "``host_organizational_unit_dn`` = OU=TOTO,OU=TEST,DC=DEMO,DC=LAN"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:91
 msgid ""
-"Allows you to force an Organizational Unit on the WAPT agent. (Convenient to "
-"assign a fake OU for out-of-domain PC)"
+"Allows you to force an Organizational Unit on the WAPT agent. (Convenient"
+" to assign a fake OU for out-of-domain PC)"
 msgstr ""
-"Permet de forcer une unité organisationnelle sur l'agent WAPT. (Pratique pour "
-"assigner une fausse OU pour un PC hors domaine)"
+"Permet de forcer une unité organisationnelle sur l'agent WAPT. (Pratique "
+"pour assigner une fausse OU pour un PC hors domaine)"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:99
 msgid "WAPT Server configuration attributes"
@@ -290,8 +289,8 @@ msgstr "Paramètres d'accès au serveur WAPT"
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:101
 msgid "These options will set WAPT agent behavior when connecting to WAPT Server."
 msgstr ""
-"Ces options définissent le comportement de l'agent WAPT lors de sa connexion "
-"avec le serveur WAPT."
+"Ces options définissent le comportement de l'agent WAPT lors de sa "
+"connexion avec le serveur WAPT."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:108
 msgid "``wapt_server`` ="
@@ -300,11 +299,11 @@ msgstr "``wapt_server`` ="
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:108
 msgid ""
 "WAPT Server URL. If the attribute is not present, no WAPT Server will be "
-"contacted. If the attribute is empty, a DNS query will be triggered to find the "
-"WAPT Server using the ``dnsdomain`` attribute for the DNS zone."
+"contacted. If the attribute is empty, a DNS query will be triggered to "
+"find the WAPT Server using the ``dnsdomain`` attribute for the DNS zone."
 msgstr ""
-"URL du serveur WAPT. Si pas présent, aucun serveur n'est contacté. Si vide, une "
-"recherche DNS est effectuée sur la zone ``dnsdomain``."
+"URL du serveur WAPT. Si pas présent, aucun serveur n'est contacté. Si "
+"vide, une recherche DNS est effectuée sur la zone ``dnsdomain``."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:112
 msgid "``dnsdomain`` ="
@@ -321,7 +320,8 @@ msgstr "``wapt_server_timeout`` = 10"
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:114
 msgid "WAPT Server HTTPS connection timeout in seconds"
 msgstr ""
-"Timeout en secondes lors de la tentative de connexion https vers le serveur."
+"Timeout en secondes lors de la tentative de connexion https vers le "
+"serveur."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:116
 msgid "``use_kerberos`` = 1"
@@ -330,8 +330,8 @@ msgstr "``use_kerberos`` = 1"
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:116
 msgid "Use Kerberos authentication for initial registration on the WAPT Server."
 msgstr ""
-"Utilisation de l'authentification Kerberos pour l'enregistrement sécurisé avec "
-"le serveur WAPT."
+"Utilisation de l'authentification Kerberos pour l'enregistrement sécurisé"
+" avec le serveur WAPT."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:118
 msgid "``verify_cert`` ="
@@ -343,10 +343,9 @@ msgstr "Voir la documentation pour activer la"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:119
 msgid ""
-":file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl\\\\server\\\\srvwapt.mydomain."
-"lan.crt`"
-msgstr ""
-":file:`C:\\Program Files (x86)\\wapt\\ssl\\server\\srvwapt.mydomain.lan.crt`"
+":file:`C:\\\\Program Files "
+"(x86)\\\\wapt\\\\ssl\\\\server\\\\srvwapt.mydomain.lan.crt`"
+msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:119
 msgid ""
@@ -358,24 +357,26 @@ msgstr ""
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:121
 msgid "``public_certs_dir`` = :file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl`"
-msgstr "``public_certs_dir`` = :file:`C:\\Program Files (x86)\\wapt\\ssl`"
+msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:121
 msgid ""
-"Folder of certificates authorized to verify the signature of WAPT packages, by "
-"default, ``<wapt_base_dir>\\\\ssl``. Only files in this directory with :file:`."
-"crt` or :file:`.pem` extension are taken into account. There may be several X509 "
-"certificates in each file. Authorized packages in WAPT are those whose signature "
-"may be verified by one of the certificates contained in the PEM files of this "
-"directory. Each repository may have its own folder of authorized certificates."
+"Folder of certificates authorized to verify the signature of WAPT "
+"packages, by default, ``<wapt_base_dir>\\\\ssl``. Only files in this "
+"directory with :file:`.crt` or :file:`.pem` extension are taken into "
+"account. There may be several X509 certificates in each file. Authorized "
+"packages in WAPT are those whose signature may be verified by one of the "
+"certificates contained in the PEM files of this directory. Each "
+"repository may have its own folder of authorized certificates."
 msgstr ""
-"Répertoire des certificats autorisés pour la vérification de _signature_ des "
-"paquets. Par défaut : ``<wapt_base_dir>\\ssl``. Seuls fes fichiers dans ce "
-"répertoire avec l'extension :file:`.crt` ou :file:`.pem` sont pris en compte. Il "
-"peut y avoir plusieurs certificats X509 dans chaque fichier. Les certificats de "
-"paquets autorisés sont ceux dont la signature peut être vérifiée par l'un des "
-"certificats contenus dans les fichiers PEM de ce répertoire. Chaque dépôt peut "
-"avoir son propre répertoire de certificats autorisés."
+"Répertoire des certificats autorisés pour la vérification de _signature_ "
+"des paquets. Par défaut : ``<wapt_base_dir>\\ssl``. Seuls fes fichiers "
+"dans ce répertoire avec l'extension :file:`.crt` ou :file:`.pem` sont "
+"pris en compte. Il peut y avoir plusieurs certificats X509 dans chaque "
+"fichier. Les certificats de paquets autorisés sont ceux dont la signature"
+" peut être vérifiée par l'un des certificats contenus dans les fichiers "
+"PEM de ce répertoire. Chaque dépôt peut avoir son propre répertoire de "
+"certificats autorisés."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:133
 msgid "Using several repositories"
@@ -383,49 +384,51 @@ msgstr "Utiliser plusieurs dépôts"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:135
 msgid ""
-"There can be more sections in the :file:`wapt-get.ini` file to define more "
-"repositories."
+"There can be more sections in the :file:`wapt-get.ini` file to define "
+"more repositories."
 msgstr "D'autres sections peuvent être définies pour décrire chaque nouveau dépôt."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:138
 msgid ""
-"``[wapt]``: main repository. Revelant attributes: ``repo_url``, ``verify_cert``, "
-"``dnsdomain``, ``http_proxy``, ``use_http_proxy_for_repo``, ``timeout``. If this "
-"section does not exist, parameters are read from the ``[global]`` section;"
+"``[wapt]``: main repository. Revelant attributes: ``repo_url``, "
+"``verify_cert``, ``dnsdomain``, ``http_proxy``, "
+"``use_http_proxy_for_repo``, ``timeout``. If this section does not exist,"
+" parameters are read from the ``[global]`` section;"
 msgstr ""
-"``[wapt]``: dépôt principal. Options pertinentes: ``repo_url``, ``verify_cert``, "
-"``dnsdomain``, ``http_proxy``, ``use_http_proxy_for_repo``, ``timeout``. Si "
-"cette section n'existe pas, les paramètres sont lus dans la section "
-"``[global]`` ;"
+"``[wapt]``: dépôt principal. Options pertinentes: ``repo_url``, "
+"``verify_cert``, ``dnsdomain``, ``http_proxy``, "
+"``use_http_proxy_for_repo``, ``timeout``. Si cette section n'existe pas, "
+"les paramètres sont lus dans la section ``[global]`` ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:143
 msgid ""
-"``[wapt-template]``: external remote repository that will be used in the WAPT "
-"console for importing new or updated packages."
+"``[wapt-template]``: external remote repository that will be used in the "
+"WAPT console for importing new or updated packages."
 msgstr "``[wapt-templates]`` : dépôt externe par défaut dans la console WAPT ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:146
 msgid ""
-"``[wapt-host]``: repository for host packages. If this section does not exists, "
-"default locations will be used on the main repository."
+"``[wapt-host]``: repository for host packages. If this section does not "
+"exists, default locations will be used on the main repository."
 msgstr ""
-"``[wapt-host]``: dépôt pour les paquets machines. Si cette section n'existe pas, "
-"elle est extrapolée des paramètres du dépôt principal ;"
+"``[wapt-host]``: dépôt pour les paquets machines. Si cette section "
+"n'existe pas, elle est extrapolée des paramètres du dépôt principal ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:150
 msgid ""
-"More information on that usage can be found here : :ref:`work_multiple_repos`."
+"More information on that usage can be found here : "
+":ref:`work_multiple_repos`."
 msgstr ""
-"Davantage d'informations sur cet usage peuvent être découvertes ici : :ref:"
-"`work_multiple_repos`."
+"Davantage d'informations sur cet usage peuvent être découvertes ici : "
+":ref:`work_multiple_repos`."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:154
 msgid ""
 "Active repositories are listed in the ``repositories`` attribute of the "
 "``[global]`` section."
 msgstr ""
-"Les dépôts activés sont listés dans le paramètres ``repositories`` de la section "
-"``[global]``"
+"Les dépôts activés sont listés dans le paramètres ``repositories`` de la "
+"section ``[global]``"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:162
 msgid "``repositories`` = repo1, repo2"
@@ -433,32 +436,34 @@ msgstr "``repositories`` = depot1,depot2"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:162
 msgid ""
-"List of enabled repositories, separated by a comma. Each value defines a section "
-"of the :file:`wapt-get.ini` file. In each section, it is possible to define "
-"``repo_url``, ``dnsdomain``, ``public_certs_dir``, ``http_proxy``."
+"List of enabled repositories, separated by a comma. Each value defines a "
+"section of the :file:`wapt-get.ini` file. In each section, it is possible"
+" to define ``repo_url``, ``dnsdomain``, ``public_certs_dir``, "
+"``http_proxy``."
 msgstr ""
-"Liste des dépots activés. Séparateur : virgule. Les valeurs désignent le nom de "
-"la section du fichier :file:`wapt-get.ini`. Dans chaque section, on peut "
-"préciser ``repo_url``, ``dnsdomain``, ``public_certs_dir``, ``http_proxy``"
+"Liste des dépots activés. Séparateur : virgule. Les valeurs désignent le "
+"nom de la section du fichier :file:`wapt-get.ini`. Dans chaque section, "
+"on peut préciser ``repo_url``, ``dnsdomain``, ``public_certs_dir``, "
+"``http_proxy``"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:169
 #, python-format
 msgid ""
-"This parameter can be configured both in the WAPT agent configuration and in the "
-"WAPT console configuration file :file:`C:\\\\Users\\\\%username%\\\\AppData\\"
-"\\Local\\\\waptconsole\\\\waptconsole.ini`."
+"This parameter can be configured both in the WAPT agent configuration and"
+" in the WAPT console configuration file "
+":file:`C:\\\\Users\\\\%username%\\\\AppData\\\\Local\\\\waptconsole\\\\waptconsole.ini`."
 msgstr ""
-"Ce paramètre est également à définir dans la configuration de la console WAPT "
-"située dans :file:`C:\\Users\\%username%\\AppData\\Local\\waptconsole\\"
-"\\waptconsole.ini`."
+"Ce paramètre est également à définir dans la configuration de la console "
+"WAPT située dans "
+":file:`C:\\Users\\%username%\\AppData\\Local\\waptconsole\\\\waptconsole.ini`."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:173
 msgid ""
-"For information on configuring the WAPT console, please refer to :ref:`this "
-"documentation <waptconsole_ini_file>`."
+"For information on configuring the WAPT console, please refer to "
+":ref:`this documentation <waptconsole_ini_file>`."
 msgstr ""
-"Pour plus d'informations, visitez :ref:`la documentation sur la configuration de "
-"la console WAPT <waptconsole_ini_file>`."
+"Pour plus d'informations, visitez :ref:`la documentation sur la "
+"configuration de la console WAPT <waptconsole_ini_file>`."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:179
 msgid "Settings for ``waptexit``"
@@ -594,8 +599,8 @@ msgid ""
 "Refer to :ref:`this article on configuring WAPTWUA on the WAPT agent "
 "<wapt_wua_agent>`."
 msgstr ""
-"Se référer à :ref:`cet article sur la configuration de WAPTWUA pour l'agent WAPT "
-"<wapt_wua_agent>`."
+"Se référer à :ref:`cet article sur la configuration de WAPTWUA pour "
+"l'agent WAPT <wapt_wua_agent>`."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:238
 msgid "Overriding settings of *upload* functions"
@@ -603,29 +608,30 @@ msgstr "Paramètres de surcharge des commandes *upload*"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:240
 msgid ""
-"It's possible do override :command:`upload` commands to define a particular "
-"behavior when uploading packages. It's possible for example to upload packages "
-"on several repositories, or via another protocol, etc."
+"It's possible do override :command:`upload` commands to define a "
+"particular behavior when uploading packages. It's possible for example to"
+" upload packages on several repositories, or via another protocol, etc."
 msgstr ""
-"Il est possible de surcharger les commandes :command:`upload` pour définir un "
-"comportement particulier lors de l'envoi des paquets. On pourrait par exemple "
-"envoyer le paquet sur plusieurs dépôts, via un autre protocole, etc."
+"Il est possible de surcharger les commandes :command:`upload` pour "
+"définir un comportement particulier lors de l'envoi des paquets. On "
+"pourrait par exemple envoyer le paquet sur plusieurs dépôts, via un autre"
+" protocole, etc."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:244
 msgid ""
-"To upload packages on the repository (:command:`wapt-get upload-package` or :"
-"command:`build-upload`), use:"
+"To upload packages on the repository (:command:`wapt-get upload-package` "
+"or :command:`build-upload`), use:"
 msgstr ""
-"Pour téléverser le paquet hôte sur le serveur (:command:`upload-package` ou :"
-"command:`build-upload` d'un paquet machine), utiliser :"
+"Pour téléverser le paquet hôte sur le serveur (:command:`upload-package` "
+"ou :command:`build-upload` d'un paquet machine), utiliser :"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:251
 msgid ""
-"To upload host-packages on the repository (:command:`upload-package` or :command:"
-"`build-upload` of a host package), use:"
+"To upload host-packages on the repository (:command:`upload-package` or "
+":command:`build-upload` of a host package), use:"
 msgstr ""
-"Pour téléverser le paquet hôte sur le serveur (:command:`upload-package` ou :"
-"command:`build-upload` d'un paquet machine), utiliser :"
+"Pour téléverser le paquet hôte sur le serveur (:command:`upload-package` "
+"ou :command:`build-upload` d'un paquet machine), utiliser :"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:258
 msgid "To launch a command after a package :command:`upload`, use:"
@@ -644,174 +650,23 @@ msgid ""
 "Making changes in :file:`wapt-get.ini` and regenerating an agent is not "
 "sufficient to push the new configuration."
 msgstr ""
-"Modifier le :file:`wapt-get.ini` et regénérer un agent ne suffit pas à pousser "
-"une nouvelle configuration."
+"Modifier le :file:`wapt-get.ini` et regénérer un agent ne suffit pas à "
+"pousser une nouvelle configuration."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:280
 msgid ""
-"You can create a WAPT package to push updated :file:`wapt-get.ini` settings."
+"You can create a WAPT package to push updated :file:`wapt-get.ini` "
+"settings."
 msgstr ""
 "Vous pouvez en revanche faire un paquet WAPT qui va pousser la nouvelle "
 "configuration."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:282
 msgid ""
-"The package is available from the Tranquil IT repository: https://store.wapt.fr/"
-"store/details-tis-wapt-conf-policy_6_all.wapt :"
+"The package is available from the Tranquil IT repository: "
+"https://store.wapt.fr/store/details-tis-wapt-conf-policy_6_all.wapt :"
 msgstr ""
-"Le paquet exemple est présent dans le dépôt Tranquil IT : https://store.wapt.fr/"
-"package_details?package=tis-wapt-conf-policy_6_all.wapt :"
+"Le paquet exemple est présent dans le dépôt Tranquil IT : "
+"https://store.wapt.fr/package_details?package=tis-wapt-conf-"
+"policy_6_all.wapt :"
 
-#~ msgid ""
-#~ "Defines the command to use to upload packages on the repository (wapt-get "
-#~ "upload-package or build-upload)."
-#~ msgstr ""
-#~ "Indiquer la commande à exécuter pour téléverser un paquet sur le serveur (:"
-#~ "command:`wapt-get upload-package` ou :command:`build-upload`)."
-
-#~ msgid "``wapt_server=http://wapt.tranquil.it/waptserver``"
-#~ msgstr "``wapt_server=http://wapt.tranquil.it/waptserver``"
-
-#~ msgid "Several options can be passed in the section :"
-#~ msgstr "On peut lui passer plusieurs options dans la section :"
-
-#~ msgid "Update frequency"
-#~ msgstr "Fréquence d'update"
-
-#~ msgid "``private_key_p12=C:\\tmp\\ko.p12``"
-#~ msgstr "``private_key_p12=C:\\tmp\\ko.p12``"
-
-#~ msgid "Private key path to sign ``waptagent.exe`` (empty by default)"
-#~ msgstr "Chemin d'une clé privée pour signer ``waptagent.exe`` (vide par défaut)"
-
-#~ msgid "``default_sources_url=https://svn.tranquil.it/sources/``"
-#~ msgstr "``default_sources_url=https://svn.tranquil.it/sources/``"
-
-#~ msgid "Sources URL for package versionning"
-#~ msgstr "URL des sources de vos paquets (versionning)"
-
-#~ msgid "``waptservice_password=5e884898da``"
-#~ msgstr "``waptservice_sslport=8089``"
-
-#~ msgid "Log level for WAPT agent"
-#~ msgstr "Niveau de log de l'agent WAPT"
-
-#~ msgid "Settings for package creation"
-#~ msgstr "Paramètres pour utilisation de l'authentification Kerberos"
-
-#~ msgid "``private_key=C:\\tmp\\ko.pem``"
-#~ msgstr "``private_key=C:\\tmp\\ko.pem``"
-
-#~ msgid "``http_proxy=``"
-#~ msgstr "``http_proxy=``"
-
-#~ msgid "Proxy for HTTP connection : eg. ``http://proxyhost:port``"
-#~ msgstr "Proxy à utiliser sous la forme : ``http://proxyhost:port``"
-
-#~ msgid "Use proxy for connection to WAPT Server (1) or not use it (0)"
-#~ msgstr "Utiliser (1) ou non (0) le proxy."
-
-#~ msgid ""
-#~ "Path of certificate to use for pinning the validation of HTTPS certificate of "
-#~ "the server."
-#~ msgstr ""
-#~ "Paramétrage de la vérification du certificat HTTPS du serveur WAPT pour "
-#~ "sécuriser les échanges."
-
-#~ msgid ""
-#~ "Possible values : * 1 (default value) : use Python Certifi root CA list "
-#~ "(certifi <wapt_base_dir>\\lib\\site-packages\\certifi\\cacert.pem) \n"
-#~ "* 0 : disable HTTPS certificate check\n"
-#~ "* path to a file : path to a PEM encoded X509 certificate"
-#~ msgstr ""
-#~ "Valeurs possibles : * 1 (valeur par défaut) :  fichier de certificats racines "
-#~ "standard de Python est utilisé (certifi <wapt_base_dir>\\lib\\site-packages"
-#~ "\\certifi\\cacert.pem) * 0 : aucun contrôle du certificat du serveur n'est "
-#~ "effectué. * chemin de fichier : chemin vers un fichier de certificats "
-#~ "d'autorité X509, encodés en PEM."
-
-#~ msgid "Settings hardening WAPT agent security"
-#~ msgstr "Paramètres pour sécurisation de l'agent WAPT"
-
-#~ msgid ""
-#~ "Go to :ref:`verification-des-certificats-HTTPS-activate` for more information."
-#~ msgstr "Voir :ref:`verification-des-certificats-HTTPS-activate`"
-
-#~ msgid "Setting up multiple repositories"
-#~ msgstr "Paramètres pour l'utilisation de plusieurs repo"
-
-#~ msgid ""
-#~ "Description of available options to define proxy settings to use with the "
-#~ "WAPT agent"
-#~ msgstr ""
-#~ "Description des options possibles pour définir les paramètres de proxy à "
-#~ "utiliser pour l'agent WAPT"
-
-#~ msgid "Use a proxy to access the WAPT repository"
-#~ msgstr "Choisir l'utilisation du proxy pour le dépôt/repo"
-
-#~ msgid "Description of available options for creating packages"
-#~ msgstr "Description des options possibles pour définir la création de paquets"
-
-#~ msgid "Default suffix for new or imported packages"
-#~ msgstr "Suffixe par sources des paquets par défaut"
-
-#~ msgid "An example package can be found in Tranquil IT's public repository:"
-#~ msgstr "Le paquet exemple est présent dans le dépôt Tranquil IT :"
-
-#~ msgid "Address of the WAPT repository."
-#~ msgstr "Adresse du dêpôt WAPT."
-
-#~ msgid "Address of the WAPT Server (for inventory)."
-#~ msgstr "Adresse du serveur WAPT (pour l'inventaire)."
-
-#~ msgid ""
-#~ "Directory storing the public certificate for validating the signature of the "
-#~ "packages."
-#~ msgstr ""
-#~ "Répertoire des certificats autorisés pour la vérification de _signature_ des "
-#~ "paquets."
-
-#~ msgid "Default value: :file:`C:\\Program Files (x86)\\wapt\\ssl`"
-#~ msgstr "Par défaut : ``<wapt_base_dir>\\ssl``."
-
-#~ msgid ""
-#~ "Only files with :file:`.pem` and :file:`.crt` extension in this directory are "
-#~ "taken into account."
-#~ msgstr ""
-#~ "Seuls fes fichiers dans ce répertoire avec l'extension :file:`.crt` ou :file:"
-#~ "`.pem` sont pris en compte."
-
-#~ msgid "There can be more than one X509 certificate in a single file."
-#~ msgstr "Il peut y avoir plusieurs certificats X509 dans chaque fichier."
-
-#~ msgid ""
-#~ "The WAPT agent will use the certificate store in that directory to validate "
-#~ "the signature of the packages before installing the package."
-#~ msgstr ""
-#~ "Les certificats de paquets autorisés sont ceux dont la signature peut être "
-#~ "vérifiée par l'un des certificats contenus dans les fichiers PEM de ce "
-#~ "répertoire."
-
-#~ msgid ""
-#~ "Each repository can have its own directory with allowed public certificates."
-#~ msgstr "Chaque dépôt peut avoir son propre répertoire de certificats autorisés."
-
-#~ msgid ""
-#~ "If the ``[wapt]`` section does not exists, the main repository configuration "
-#~ "will be read from the ``[global]`` section."
-#~ msgstr ""
-#~ "Si cette section n'existe pas, les paramètres sont lus dans la section "
-#~ "``[global]``"
-
-#~ msgid ""
-#~ "In each section you can set the following parameters: ``repo_url``, "
-#~ "``dnsdomain``, ``public_certs_dir``, ``http_proxy``."
-#~ msgstr ""
-#~ "Dans chaque section, on peut préciser ``repo_url``, ``dnsdomain``, "
-#~ "``public_certs_dir``, ``http_proxy``"
-
-#~ msgid "Refer to :ref:`wapt_wua_agent`"
-#~ msgstr ""
-#~ "Voir :ref:`cet article sur la configuration de WAPTWUA sur l'agent WAPT "
-#~ "<wapt_wua_agent>`."

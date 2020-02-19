@@ -12,12 +12,11 @@ msgstr ""
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 1.8.8\n"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:5
 msgid "(Deprecated) Introducing Syncthing"
@@ -26,34 +25,36 @@ msgstr "Présentation de Syncthing (déprécié)"
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:9
 msgid "WAPT repositories synchronization is now native in WAPT Enterprise."
 msgstr ""
-"La synchronisation des dépôts WAPT est désormais native dans WAPT Enterprise."
+"La synchronisation des dépôts WAPT est désormais native dans WAPT "
+"Enterprise."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:11
 msgid "You can find the new documentation here : :ref:`replication_usage`."
 msgstr ""
-"Vous pouvez trouver la nouvelle documentation ici : :ref:`replication_usage`."
+"Vous pouvez trouver la nouvelle documentation ici : "
+":ref:`replication_usage`."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:13
 msgid "Syncthing is a multi-OS open source peer to peer synchronization utility."
 msgstr ""
-"Syncthing est un logiciel open-source multiplateforme de synchronisation de "
-"fichiers pair à pair."
+"Syncthing est un logiciel open-source multiplateforme de synchronisation "
+"de fichiers pair à pair."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:15
 msgid ""
-"It allows to synchronize folders on several machines while guaranteeing the "
-"security, the authenticity and the integrity of the files."
+"It allows to synchronize folders on several machines while guaranteeing "
+"the security, the authenticity and the integrity of the files."
 msgstr ""
-"Il permet de synchroniser des répertoires sur plusieurs machines en garantissant "
-"la sécurité et l'intégrité des fichiers."
+"Il permet de synchroniser des répertoires sur plusieurs machines en "
+"garantissant la sécurité et l'intégrité des fichiers."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:18
 msgid ""
-"The official Syncthing documentation is available `online <https://docs."
-"syncthing.net/>`_."
+"The official Syncthing documentation is available `online "
+"<https://docs.syncthing.net/>`_."
 msgstr ""
-"La documentation officielle de Syncthing est `disponible en ligne <https://docs."
-"syncthing.net/>_`."
+"La documentation officielle de Syncthing est `disponible en ligne "
+"<https://docs.syncthing.net/>_`."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:22
 msgid "Implementing the replication"
@@ -61,11 +62,11 @@ msgstr "Mettre en place de la réplication"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:26
 msgid ""
-"The following documentation is applicable to Linux Debian and CentOS/ RedHat "
-"based WAPT Servers and remote repositories."
+"The following documentation is applicable to Linux Debian and CentOS/ "
+"RedHat based WAPT Servers and remote repositories."
 msgstr ""
-"La documentation suivante concerne des dépôts et serveurs WAPT basés sur Linux "
-"Debian ou CentOS / RedHat."
+"La documentation suivante concerne des dépôts et serveurs WAPT basés sur "
+"Linux Debian ou CentOS / RedHat."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:30
 msgid "Setting up the remote WAPT repository"
@@ -81,11 +82,11 @@ msgstr "Linux CentOS / RedHat"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:45
 msgid ""
-"The remote WAPT repository is set up, we now must implement the Syncthing "
-"replication."
+"The remote WAPT repository is set up, we now must implement the Syncthing"
+" replication."
 msgstr ""
-"Le dépôt WAPT distant est installé, on doit mettre en place la réplication "
-"Syncthing."
+"Le dépôt WAPT distant est installé, on doit mettre en place la "
+"réplication Syncthing."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:49
 msgid "Configuring the Syncthing service"
@@ -93,16 +94,17 @@ msgstr "Configurer le service web Apache"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:56
 msgid ""
-"modify the :program:`Apache` configuration files to define the correct roots of "
-"the *VirtualHosts*:"
+"modify the :program:`Apache` configuration files to define the correct "
+"roots of the *VirtualHosts*:"
 msgstr ""
-"modifier ensuite les fichiers de configuration Apache afin d'indiquer les "
-"racines correcte aux *VirtualHosts* :"
+"modifier ensuite les fichiers de configuration Apache afin d'indiquer les"
+" racines correcte aux *VirtualHosts* :"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:64
 msgid "change the value of *DocumentRoot* in each configuration file:"
 msgstr ""
-"modifier la valeur de *DocumentRoot* dans chaque fichier de configuration :"
+"modifier la valeur de *DocumentRoot* dans chaque fichier de "
+"configuration :"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:71
 msgid ""
@@ -112,20 +114,21 @@ msgstr "redémarrer :program:`Apache` afin de prendre en compte la configuration
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:80
 msgid ""
-"It is advisable to specify valid SSL certificates in the Apache configuration of "
-"remote repositories."
+"It is advisable to specify valid SSL certificates in the Apache "
+"configuration of remote repositories."
 msgstr ""
-"Il est préférable d'indiquer dans la configuration Apache des certificats SSL "
-"valides pour les dépôts distants."
+"Il est préférable d'indiquer dans la configuration Apache des certificats"
+" SSL valides pour les dépôts distants."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:83
 msgid ""
-"empty the content of the folders :file:`/var/www/wapt` and :file:`/var/www/wapt-"
-"host`; Syncthing will fill again these folders with data from the main "
-"repository."
+"empty the content of the folders :file:`/var/www/wapt` and "
+":file:`/var/www/wapt-host`; Syncthing will fill again these folders with "
+"data from the main repository."
 msgstr ""
-"vider le contenu des dossiers :file:`/var/www/wapt` et :file:`/var/www/wapt-"
-"host`, Syncthing ira peupler ces dossiers avec les données du dépôt principal :"
+"vider le contenu des dossiers :file:`/var/www/wapt` et :file:`/var/www"
+"/wapt-host`, Syncthing ira peupler ces dossiers avec les données du dépôt"
+" principal :"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:93
 msgid "Installing Syncthing on main and remote WAPT repositories"
@@ -159,8 +162,8 @@ msgstr "modifier le port d'écoute du service sur **0.0.0.0** ;"
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:112
 msgid "create an administrator account and enter a strong password;"
 msgstr ""
-"création d'un compte utilisateur administrateur et définition d'un mot de passe "
-"fort ;"
+"création d'un compte utilisateur administrateur et définition d'un mot de"
+" passe fort ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:114
 msgid "activate the HTTPS protocole for the web access;"
@@ -168,15 +171,16 @@ msgstr "activation du protocole https pour l'accès Web ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:116
 msgid ""
-"create the definition file for the :program:`waptsync` service by editing :file:"
-"`/etc/systemd/system/waptsync.service`:"
+"create the definition file for the :program:`waptsync` service by editing"
+" :file:`/etc/systemd/system/waptsync.service`:"
 msgstr ""
-"créer le fichier de définition du service :program:`waptsync` en éditant :file:`/"
-"etc/systemd/system/waptsync.service` :"
+"créer le fichier de définition du service :program:`waptsync` en "
+"éditant :file:`/etc/systemd/system/waptsync.service` :"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:137
 msgid ""
-"create the tree structure required for the :program:`waptsync` service to start:"
+"create the tree structure required for the :program:`waptsync` service to"
+" start:"
 msgstr "créer l'arborescence nécessaire au lancement du service :"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:145
@@ -185,19 +189,19 @@ msgstr "changer le propriétaire de cette arborescence de fichiers :"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:151
 msgid ""
-"activate the :program:`waptsync` service and start it. The configuration files "
-"will appear in the :file:`/opt/wapt/.config/syncthing/` folder:"
+"activate the :program:`waptsync` service and start it. The configuration "
+"files will appear in the :file:`/opt/wapt/.config/syncthing/` folder:"
 msgstr ""
-"activer le service puis le lancer, les fichiers de configuration vont apparaître "
-"dans le dossier :file:`/opt/wapt/.config/syncthing/` :"
+"activer le service puis le lancer, les fichiers de configuration vont "
+"apparaître dans le dossier :file:`/opt/wapt/.config/syncthing/` :"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:161
 msgid ""
-"change the listening port in the :file:`/opt/wapt/.config/syncthing/config.xml` "
-"file:"
+"change the listening port in the "
+":file:`/opt/wapt/.config/syncthing/config.xml` file:"
 msgstr ""
-"modifier le port d'écoute dans le fichier :file:`/opt/wapt/.config/syncthing/"
-"config.xml` :"
+"modifier le port d'écoute dans le fichier "
+":file:`/opt/wapt/.config/syncthing/config.xml` :"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:172
 msgid "start the :program:`waptsync` service:"
@@ -209,10 +213,11 @@ msgstr "Configurer le service Web de Syncthing"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:181
 msgid ""
-"Syncthing's web interface is now accessible by visiting http://<server_ip>:8384."
+"Syncthing's web interface is now accessible by visiting "
+"http://<server_ip>:8384."
 msgstr ""
-"L'interface Web Syncthing est maintenant accessible à l'adresse :file:`http://"
-"<ip serveur>:8384`."
+"L'interface Web Syncthing est maintenant accessible à l'adresse "
+":file:`http://<ip serveur>:8384`."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:185
 msgid "change the host name of the remote repository;"
@@ -225,7 +230,8 @@ msgstr "ajouter un *Utilisateur autorisé GUI* ;"
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:189
 msgid "add the password for the *GUI authorized user*;"
 msgstr ""
-"ajouter un mot de passe d'authentification pour l'*Utilisateur autorisé GUI* ;"
+"ajouter un mot de passe d'authentification pour l'*Utilisateur autorisé "
+"GUI* ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:191
 msgid "check the box :guilabel:`Use HTTPS for the GUI`;"
@@ -241,19 +247,19 @@ msgstr "en ssh sur le serveur, redémarrer le service Syncthing :"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:201
 msgid ""
-"Syncthing's web interface is now only accessible with HTTPS on https://"
-"<server_ip>:8384."
+"Syncthing's web interface is now only accessible with HTTPS on "
+"https://<server_ip>:8384."
 msgstr ""
-"L'interface Web Syncthing est maintenant uniquement accessible en https à "
-"l'adresse : :file:`https://<ip serveur>:8384`."
+"L'interface Web Syncthing est maintenant uniquement accessible en https à"
+" l'adresse : :file:`https://<ip serveur>:8384`."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:204
 msgid ""
-"in the list of shared folders, remove the default folder: :menuselection:`Modify "
-"--> Remove`;"
+"in the list of shared folders, remove the default folder: "
+":menuselection:`Modify --> Remove`;"
 msgstr ""
-"dans la liste des partages, supprimer le répertoire par défaut : :menuselection:"
-"`Modifier --> Enlever` ;"
+"dans la liste des partages, supprimer le répertoire par défaut : "
+":menuselection:`Modifier --> Enlever` ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:207
 msgid "configure the replication:"
@@ -272,20 +278,24 @@ msgid "add a shared folder with :menuselection:`Add a Share`;"
 msgstr "ajouter un répertoire partagé avec :menuselection:`Ajouter un appareil` ;"
 
 #: source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing-share-setup.rst:16
-msgid "fill in the path to the directory to be shared, ex: :file:`/var/www/wapt/`;"
+msgid ""
+"fill in the path to the directory to be shared, ex: "
+":file:`/var/www/wapt/`;"
 msgstr "renseigner le chemin du dossier à partager, ex : :file:`/var/www/wapt/` ;"
 
 #: source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing-share-setup.rst:19
 msgid "in the scroll-down menu :menuselection:`Directory Type --> Only Send`;"
 msgstr ""
-"dans le menu déroulant :menuselection:`Type de partage --> Envoyer seulement` ;"
+"dans le menu déroulant :menuselection:`Type de partage --> Envoyer "
+"seulement` ;"
 
 #: source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing-share-setup.rst:21
 msgid ""
-"in the scroll-down menu :menuselection:`File Recovery Order --> Older First`;"
+"in the scroll-down menu :menuselection:`File Recovery Order --> Older "
+"First`;"
 msgstr ""
-"dans le menu déroulant :menuselection:`Ordre de récupération des fichiers --> "
-"Les plus anciens en premier` ;"
+"dans le menu déroulant :menuselection:`Ordre de récupération des fichiers"
+" --> Les plus anciens en premier` ;"
 
 #: source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing-share-setup.rst:24
 msgid "redo the same operation for wapt-host: :file:`/var/www/wapt-host/`;"
@@ -297,11 +307,12 @@ msgstr "ajouter la machine distante :"
 
 #: source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing-share-setup.rst:28
 msgid ""
-"Once Syncthing has been installed on the main and remote repositories, recover "
-"the remote repository's ID (:menuselection:`Actions --> Show My ID`)."
+"Once Syncthing has been installed on the main and remote repositories, "
+"recover the remote repository's ID (:menuselection:`Actions --> Show My "
+"ID`)."
 msgstr ""
-"Une fois Syncthing installé sur les deux appareils, récupérer l'ID de l'appareil "
-"distant (:menuselection:`Actions --> afficher mon ID`)."
+"Une fois Syncthing installé sur les deux appareils, récupérer l'ID de "
+"l'appareil distant (:menuselection:`Actions --> afficher mon ID`)."
 
 #: source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing-share-setup.rst:32
 msgid "This unique identifier appears like"
@@ -325,8 +336,8 @@ msgstr "renseigner l'ID du dépôt distant ;"
 
 #: source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing-share-setup.rst:45
 msgid ""
-"tick the checkbox for the shared folder :guilabel:`wapt` and :guilabel:`wapt-"
-"host`;"
+"tick the checkbox for the shared folder :guilabel:`wapt` and :guilabel"
+":`wapt-host`;"
 msgstr "cocher les partages :guilabel:`wapt` et :guilabel:`wapt-host` ;"
 
 #: source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing-share-setup.rst:48
@@ -335,19 +346,19 @@ msgstr "Sur le dépôt distant effectuer les actions suivantes :"
 
 #: source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing-share-setup.rst:50
 msgid ""
-"the remote device receives a Syncthing notification that it has been approved "
-"and added to the main device's replication schedule;"
+"the remote device receives a Syncthing notification that it has been "
+"approved and added to the main device's replication schedule;"
 msgstr ""
-"l'appareil distant reçoit une notification d'approbation d'ajout par l'appareil "
-"maître ;"
+"l'appareil distant reçoit une notification d'approbation d'ajout par "
+"l'appareil maître ;"
 
 #: source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing-share-setup.rst:53
 msgid ""
-"the client receives a popup form asking to accept the synchronized shares :file:"
-"`wapt` and :file:`wapt-host`;"
+"the client receives a popup form asking to accept the synchronized shares"
+" :file:`wapt` and :file:`wapt-host`;"
 msgstr ""
-"le client reçoit ensuite une popup pour accepter les partage :file:`wapt` et :"
-"file:`wapt-host` ;"
+"le client reçoit ensuite une popup pour accepter les partage :file:`wapt`"
+" et :file:`wapt-host` ;"
 
 #: source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing-share-setup.rst:56
 msgid "The replication is now operational."
@@ -386,8 +397,8 @@ msgstr "Découverte locale"
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:223
 msgid "Syncthing will then broadcast to announce itself to other Syncthings."
 msgstr ""
-"Syncthing fonctionnera alors avec un system de broadcast pour s'annoncer auprès "
-"des autres Syncthing."
+"Syncthing fonctionnera alors avec un system de broadcast pour s'annoncer "
+"auprès des autres Syncthing."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:226
 msgid "Global discovery"
@@ -395,11 +406,11 @@ msgstr "Découverte globale"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:226
 msgid ""
-"Syncthing registers on an external cloud service and can use this cloud based "
-"service to search other Syncthing devices."
+"Syncthing registers on an external cloud service and can use this cloud "
+"based service to search other Syncthing devices."
 msgstr ""
-"Syncthing s'inscrit sur un serveur **mondial**, et peut utiliser celui-ci pour "
-"rechercher d'autres périphériques."
+"Syncthing s'inscrit sur un serveur **mondial**, et peut utiliser celui-ci"
+" pour rechercher d'autres périphériques."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:229
 msgid "Possible relay"
@@ -407,21 +418,22 @@ msgstr "Relais possible"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:229
 msgid ""
-"The use of relays allows to use external servers to relay the communications. "
-"The relay is activated by default but it will be used only if two devices can "
-"not communicate directly between themselves."
+"The use of relays allows to use external servers to relay the "
+"communications. The relay is activated by default but it will be used "
+"only if two devices can not communicate directly between themselves."
 msgstr ""
-"L'utilisation de relais permet d'utiliser des serveurs externes pour relayer la "
-"communication. Le relais est activé par défaut mais ne sera utilisé que si deux "
-"périphériques ne peuvent pas communiquer directement entre eux."
+"L'utilisation de relais permet d'utiliser des serveurs externes pour "
+"relayer la communication. Le relais est activé par défaut mais ne sera "
+"utilisé que si deux périphériques ne peuvent pas communiquer directement "
+"entre eux."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:235
 msgid ""
-"This operating mode simplifies the global setup but it is not the most advisable "
-"method in relation to security."
+"This operating mode simplifies the global setup but it is not the most "
+"advisable method in relation to security."
 msgstr ""
-"Ce mode de fonctionnement permet une mise en place facilitée mais ce n'est pas "
-"le mode de fonctionnement le plus conseillé pour la sécurité."
+"Ce mode de fonctionnement permet une mise en place facilitée mais ce "
+"n'est pas le mode de fonctionnement le plus conseillé pour la sécurité."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:238
 msgid "uncheck all boxes in network configuration;"
@@ -437,11 +449,11 @@ msgstr "remplacer *default par *tcp://0.0.0.0:22000* ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:244
 msgid ""
-"Then go on the web interface of the remote repositories, click on :guilabel:"
-"`Change` and fill in the IP address of the remote repository:"
+"Then go on the web interface of the remote repositories, click on "
+":guilabel:`Change` and fill in the IP address of the remote repository:"
 msgstr ""
-"Se rendre ensuite sur l'interface de dépôts distants, cliquer sur :guilabel:"
-"`Modifier`, puis définir l'adresse de la machine distante :"
+"Se rendre ensuite sur l'interface de dépôts distants, cliquer sur "
+":guilabel:`Modifier`, puis définir l'adresse de la machine distante :"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:247
 msgid "replace *dynamic* by *tcp://<remote_repo_ip_address>:22000*;"
@@ -449,8 +461,8 @@ msgstr "remplacer *dynamic* par *tcp://ip-du-syncthing-distant:22000*"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:249
 msgid ""
-"This configuration is useful for limiting inbound connections to the Syncthing "
-"service."
+"This configuration is useful for limiting inbound connections to the "
+"Syncthing service."
 msgstr ""
 "Cette configuration permet de limiter les connexions externes du service "
 "Synthing."
@@ -461,11 +473,11 @@ msgstr "Configurer les agents WAPT"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:255
 msgid ""
-"WAPT clients on remote sites must now be configured to look for updates from "
-"their closest available repositories."
+"WAPT clients on remote sites must now be configured to look for updates "
+"from their closest available repositories."
 msgstr ""
-"Les clients des sites distants doivent maintenant être configurés pour pointer "
-"vers leurs dépôts les plus proches."
+"Les clients des sites distants doivent maintenant être configurés pour "
+"pointer vers leurs dépôts les plus proches."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:258
 msgid "Two solutions exist:"
@@ -477,11 +489,11 @@ msgstr "utiliser la détection automatique via les champs :term:`SRV` :term:`DNS
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:262
 msgid ""
-"change manually or via a WAPT package the parameter *repo_url* in the WAPT "
-"agent's :file:`wapt-get.ini` file;"
+"change manually or via a WAPT package the parameter *repo_url* in the "
+"WAPT agent's :file:`wapt-get.ini` file;"
 msgstr ""
-"modifier le champs *repo_url* dans le :file:`wapt-get.ini` des agents WAPT "
-"manuellement ou à l'aide d'un paquet WAPT de configuration ;"
+"modifier le champs *repo_url* dans le :file:`wapt-get.ini` des agents "
+"WAPT manuellement ou à l'aide d'un paquet WAPT de configuration ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:265
 msgid "Configuration example of the WAPT agent - filled in local repository:"
@@ -489,7 +501,9 @@ msgstr "Exemple de configuration de l'agent WAPT - dépôt local renseigné :"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/syncthing_usage.rst:275
 msgid ""
-"Example of a WAPT package designed to remotely change the *repo_url* in :file:"
-"`wapt-get.ini`:"
+"Example of a WAPT package designed to remotely change the *repo_url* in "
+":file:`wapt-get.ini`:"
 msgstr ""
-"Exemple de paquet pour modifier le champ *repo_url* de :file:`wapt-get.ini` :"
+"Exemple de paquet pour modifier le champ *repo_url* de :file:`wapt-"
+"get.ini` :"
+

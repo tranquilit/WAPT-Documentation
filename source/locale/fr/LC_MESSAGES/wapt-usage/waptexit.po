@@ -74,13 +74,10 @@ msgstr ""
 
 #: ../../source/wapt-usage/waptexit.rst:46
 #: ../../source/wapt-usage/waptexit.rst:56
-
 msgid ""
 "The behavior of :program:`waptexit` is customizable in "
 ":file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get.ini`."
-msgstr ""
-"Le comportement de :program:`waptexit` est paramétrable depuis le fichier"
-" de configuration :file:`C:\\Program Files (x86)\\wapt\\wapt-get.ini`."
+msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
 
 #: ../../source/wapt-usage/waptexit.rst:50
 msgid "Manually triggering the execution of WAPTexit"
@@ -111,30 +108,23 @@ msgstr ""
 #: ../../source/wapt-usage/waptexit.rst:69
 #: ../../source/wapt-usage/waptexit.rst:114
 #: ../../source/wapt-usage/waptexit.rst:136
-
 msgid ""
 "Otherwise :program:`waptexit` will take the value indicated in "
 ":file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get.ini`:"
-msgstr ""
-"Sinon :program:`waptexit` prendra la valeur indiquée dans "
-":file:`C:\\Program Files (x86)\\wapt\\wapt-get.ini` :"
+msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
 
 #: ../../source/wapt-usage/waptexit.rst:77
-
 msgid ""
 "If this value is not indicated in :file:`C:\\\\Program Files "
 "(x86)\\\\wapt\\\\wapt\\\\wapt-get.ini`, then the default value will be "
 "**10**."
-msgstr ""
-"Si cette valeur n'est pas indiquée dans :file:`C:\\Program Files "
-"(x86)\\wapt\\wapt-get.ini`, alors la valeur par défaut sera **10**."
+msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
 
 #: ../../source/wapt-usage/waptexit.rst:82
 msgid "Increase the trigger time in waptexit"
 msgstr "Augmenter le temps de déclenchement dans waptexit"
 
 #: ../../source/wapt-usage/waptexit.rst:84
-
 msgid ""
 "To specify the wait time before the automatic start of the installations "
 "you can start :program:`waptexit` with the argument:"
@@ -143,23 +133,17 @@ msgstr ""
 "installations vous pouvez lancer :program:`waptexit` avec l'argument :"
 
 #: ../../source/wapt-usage/waptexit.rst:91
-
 msgid ""
 "Otherwise :program:`waptexit` will take the value indicated in the "
 "configuration :file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get.ini`:"
-msgstr ""
-"Sinon :program:`waptexit` prendra la valeur indiquée dans le fichier de "
-"configuration :file:`C:\\Program Files (x86)\\wapt\\wapt-get.ini` :"
+msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
 
 #: ../../source/wapt-usage/waptexit.rst:99
-
 msgid ""
 "If this value is not indicated in :file:`C:\\\\Program Files "
 "(x86)\\\\wapt\\\\wapt\\\\wapt-get.ini`, then the default value will be "
 "**1**."
-msgstr ""
-"Si cette valeur n'est pas indiquée dans :file:`C:\\Program Files "
-"(x86)\\wapt\\wapt-get.ini`, alors la valeur par défault sera **1**."
+msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
 
 #: ../../source/wapt-usage/waptexit.rst:104
 msgid "Do not interrupt user activity"
@@ -176,21 +160,17 @@ msgstr ""
 "paquet), vous pouvez lancer :program:`waptexit` avec l'argument :"
 
 #: ../../source/wapt-usage/waptexit.rst:122
-
 msgid ""
 "If this value is not indicated in :file:`C:\\\\Program Files "
 "(x86)\\\\wapt\\\\wapt\\\\wapt-get.ini`, then the default value will be "
 "**False**."
-msgstr ""
-"Si cette valeur n'est pas indiquée dans :file:`C:\\Program Files "
-"(x86)\\wapt\\wapt-get.ini`, alors la valeur par default sera **False**."
+msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
 
 #: ../../source/wapt-usage/waptexit.rst:127
 msgid "Launching the installation of packages with a special level of priority"
 msgstr "Lancer l'installation des paquets avec une prioritée spécifique"
 
 #: ../../source/wapt-usage/waptexit.rst:129
-
 msgid ""
 "To tell WAPT to only upgrade high priority packages, you can run "
 ":program:`waptexit` with the argument:"
@@ -200,30 +180,22 @@ msgstr ""
 "l'argument :"
 
 #: ../../source/wapt-usage/waptexit.rst:144
-
 msgid ""
 "If this value is not indicated in :file:`C:\\\\Program Files "
 "(x86)\\\\wapt\\\\wapt\\\\wapt-get.ini`, then the default value will be "
 "**Empty** (no filter on priority)."
-msgstr ""
-"Si cette valeur n'est pas indiquée dans :file:`C:\\Program Files "
-"(x86)\\wapt\\wapt-get.ini`, alors la valeur par défaut sera **Vide** (pas"
-" de filtrage sur la priorité)."
+msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
 
 #: ../../source/wapt-usage/waptexit.rst:149
 msgid "Customizing WAPTexit"
 msgstr "Personnaliser waptexit"
 
 #: ../../source/wapt-usage/waptexit.rst:151
-
 msgid ""
 "It is possible to customize waptexit by placing the image you want in "
 ":file:`C:\\\\Program Files (x86)\\\\wapt\\\\templates\\\\waptexit-"
 "logo.png`."
-msgstr ""
-"Il est possible de personnaliser waptexit en plaçant l'image que vous "
-"souhaitez dans :file:`C:\\Program Files (x86)\\wapt\\templates\\waptexit-"
-"logo.png`."
+msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
 
 #: ../../source/wapt-usage/waptexit.rst:155
 msgid "Registering/ unregistering WAPTexit"
@@ -244,23 +216,4 @@ msgstr "pour activer :program:`waptexit` à l'extinction de la machine :"
 #: ../../source/wapt-usage/waptexit.rst:166
 msgid "to disable :program:`waptexit` at host shutdown:"
 msgstr "pour désactiver :program:`waptexit` à l'extinction de la machine :"
-
-#~ msgid "Using WAPTexit"
-#~ msgstr "Utilisation de WAPTexit"
-
-#~ msgid ""
-#~ ":program:`waptexit` is located here in "
-#~ ":file:`C:\\Program Files (x86\\wapt\\`."
-#~ msgstr "Il est présent ici :file:`C:\\Program Files (x86)\\wapt\\waptexit.exe`"
-
-#~ msgid ""
-#~ "To avoid users cancelling upgrades, we"
-#~ " have to set an argument in "
-#~ ":file:`C:\\Program Files (x86)\\wapt\\wapt-get.ini`."
-#~ msgstr ""
-#~ "Pour désactiver l'interruption de "
-#~ "l'installation des mises à jour, il "
-#~ "faut préciser un paramètre dans le "
-#~ "fichier de configuration :file:`C:\\Program "
-#~ "Files (x86)\\wapt\\wapt-get.ini`."
 

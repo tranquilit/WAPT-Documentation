@@ -227,14 +227,11 @@ msgstr ""
 "n'a pas changé ;"
 
 #: ../../source/waptserver-update/migration13-16/migration-1.6-centos.rst:152
-
 msgid ""
 "open the :program:`waptconsole` by selecting :file:`C:\\\\Program Files "
 "(x86)\\\\wapt\\\\waptconsole.exe` (default location) or "
 ":file:`C:\\\\wapt\\\\waptconsole.exe` (older WAPT versions);"
-msgstr ""
-"ouvrir la console :file:`C:\\Program Files (x86)\\wapt\\waptconsole.exe` "
-"ou :file:`C:\\wapt\\waptconsole.exe` (anciennes versions de WAPT) ;"
+msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
 
 #: ../../source/waptserver-update/migration13-16/migration-1.6-centos.rst:156
 msgid ""
@@ -252,61 +249,4 @@ msgid ""
 msgstr ""
 "Vous pouvez maintenant passer à la suite pour :ref:`générer les clés de "
 "signature <key-regenerate>` !!"
-
-#~ msgid "CentOS migration"
-#~ msgstr "Migration Centos"
-
-#~ msgid "Preamble"
-#~ msgstr "Prélude"
-
-#~ msgid "MongoDB"
-#~ msgstr "MongoDB"
-
-#~ msgid "PostgreSQL"
-#~ msgstr "PostgreSQL"
-
-#~ msgid "Apache2"
-#~ msgstr "Apache2"
-
-#~ msgid "Nginx"
-#~ msgstr "Nginx"
-
-#~ msgid "Uninstalling the WAPT Server"
-#~ msgstr "Désinstallation du serveur WAPT"
-
-#~ msgid "Uninstalling the WAPT packages"
-#~ msgstr "Désinstaller les paquets WAPT"
-
-#~ msgid "Stop Apache2 web service"
-#~ msgstr "Désactiver apache2"
-
-#~ msgid "Additional configuration"
-#~ msgstr "Configuration suplémentaire"
-
-#~ msgid "Upgrading the server"
-#~ msgstr "Mise à jour du serveur"
-
-#~ msgid ""
-#~ "Configuring the repositories and installing"
-#~ " the WAPT Server packages and the "
-#~ "PostGreSQL database server"
-#~ msgstr ""
-#~ "Configuration des dépôts et installation "
-#~ "des paquets du serveur WAPT et de"
-#~ " la base de données Postgresql"
-
-#~ msgid "Installing the upgrade"
-#~ msgstr "Installation de la mise à jour"
-
-#~ msgid "Initializing the database and activating the services"
-#~ msgstr "Initialisation de la base de données et activation des services"
-
-#~ msgid "Starting the WAPT Service"
-#~ msgstr "Démarrer le serveur WAPT"
-
-#~ msgid "Next, launch the installation step."
-#~ msgstr "lancer l'installation ;"
-
-#~ msgid "WAPT 1.5"
-#~ msgstr "WAPT 1.5"
 

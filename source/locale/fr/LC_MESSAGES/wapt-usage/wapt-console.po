@@ -300,9 +300,8 @@ msgstr ""
 "dossiers suivants :"
 
 #: ../../source/wapt-usage/wapt-console.rst:190
-
 msgid ":file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl`;"
-msgstr ":file:`C:\\Program Files (x86)\\wapt\\ssl` ;"
+msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
 
 #: ../../source/wapt-usage/wapt-console.rst:192
 msgid ":file:`%appdata%\\waptconsole\\ssl`;"
@@ -501,40 +500,4 @@ msgid ""
 msgstr ""
 "L'installation du paquet WAPT se lance sur le poste ou les postes "
 "sélectionnés."
-
-#~ msgid "Launch upgrade immediately"
-#~ msgstr "Lancement immédiat de la mise à jour"
-
-#~ msgid "Demo of package duplication"
-#~ msgstr "Démonstration de la duplication de paquets"
-
-#~ msgid ""
-#~ "clicking on :guilabel:`Save and Apply to"
-#~ " hosts` will launch the installation "
-#~ "of the package immediately on the "
-#~ "selected host(s)"
-#~ msgstr ""
-#~ "\"Enregistrer et Appliquer à la "
-#~ "machine\" lance immédiatement l'installation"
-
-#~ msgid "The upgrade has been triggered"
-#~ msgstr "La mise à jour est lancée"
-
-#~ msgid "The package has been duplicated in the local WAPT repository"
-#~ msgstr "Le paquet est dupliqué dans le dépôt local"
-
-#~ msgid "The host to be edited is selected"
-#~ msgstr "Le poste à éditer est sélectionné"
-
-#~ msgid "Inventory showing in the WAPT console"
-#~ msgstr "Affichage de l'inventaire dans la console WAPT"
-
-#~ msgid "Button :guilabel:`Import from internet` shown in the WAPT console"
-#~ msgstr "Bouton :guilabel:`Importer depuis internet` dans la console WAPT"
-
-#~ msgid "Importing a WAPT package"
-#~ msgstr "Procédure pour importer un paquet"
-
-#~ msgid "Dialog asking for your private key password"
-#~ msgstr "Demande du mot de passe de la clé privée"
 

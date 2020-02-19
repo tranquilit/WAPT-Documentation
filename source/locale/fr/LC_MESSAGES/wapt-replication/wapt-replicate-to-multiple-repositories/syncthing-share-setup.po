@@ -6,16 +6,14 @@ msgstr ""
 "POT-Creation-Date: 2018-11-05 15:09+0100\n"
 "PO-Revision-Date: 2019-11-05 20:14+0000\n"
 "Last-Translator: Bertrand LEMOIGNE <blemoigne@tranquil.it>\n"
-"Language-Team: French <https://srvweblate.tranquil.it/projects/"
-"wapt-documentation/"
-"wapt-replicationwapt-replicate-to-multiple-repositoriessyncthing-share-setup/"
-"fr/>\n"
 "Language: fr\n"
+"Language-Team: French <https://srvweblate.tranquil.it/projects/wapt-"
+"documentation/wapt-replicationwapt-replicate-to-multiple-"
+"repositoriessyncthing-share-setup/fr/>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 3.8\n"
 "Generated-By: Babel 2.6.0\n"
 
 #: ../../source/wapt_replication/wapt_replicate_to_multiple_repositories/syncthing_share_setup.rst:10
@@ -32,20 +30,23 @@ msgstr "ajouter un dossier partagé avec :menuselection:`Add a Share` ;"
 
 #: ../../source/wapt_replication/wapt_replicate_to_multiple_repositories/syncthing_share_setup.rst:16
 msgid ""
-"fill in the path to the directory to be shared, ex: :file:`/var/www/wapt/`;"
+"fill in the path to the directory to be shared, ex: "
+":file:`/var/www/wapt/`;"
 msgstr "renseigner le chemin du dossier à partager, ex : :file:`/var/www/wapt/` ;"
 
 #: ../../source/wapt_replication/wapt_replicate_to_multiple_repositories/syncthing_share_setup.rst:19
 msgid "in the scroll-down menu :menuselection:`Directory Type --> Only Send`;"
 msgstr ""
-"dans le menu déroulant :menuselection:`Type de partage --> Envoyer seulement` ;"
+"dans le menu déroulant :menuselection:`Type de partage --> Envoyer "
+"seulement` ;"
 
 #: ../../source/wapt_replication/wapt_replicate_to_multiple_repositories/syncthing_share_setup.rst:21
 msgid ""
-"in the scroll-down menu :menuselection:`File Recovery Order --> Older First`;"
+"in the scroll-down menu :menuselection:`File Recovery Order --> Older "
+"First`;"
 msgstr ""
-"dans le menu déroulant :menuselection:`Ordre de récupération des fichiers --> "
-"Les plus anciens en premier` ;"
+"dans le menu déroulant :menuselection:`Ordre de récupération des fichiers"
+" --> Les plus anciens en premier` ;"
 
 #: ../../source/wapt_replication/wapt_replicate_to_multiple_repositories/syncthing_share_setup.rst:24
 msgid "redo the same operation for wapt-host: :file:`/var/www/wapt-host/`;"
@@ -57,8 +58,9 @@ msgstr "ajouter la machine distante :"
 
 #: ../../source/wapt_replication/wapt_replicate_to_multiple_repositories/syncthing_share_setup.rst:28
 msgid ""
-"Once Syncthing has been installed on the main and remote repositories, recover "
-"the remote repository's ID (:menuselection:`Actions --> Show My ID`)."
+"Once Syncthing has been installed on the main and remote repositories, "
+"recover the remote repository's ID (:menuselection:`Actions --> Show My "
+"ID`)."
 msgstr ""
 "Une fois Syncthing installé sur les deux appareils, récupérer l'ID de "
 "l'appareil distant (:menuselection:`Actions --> afficher mon ID`)."
@@ -85,8 +87,8 @@ msgstr "renseigner l'ID du dépôt distant ;"
 
 #: ../../source/wapt_replication/wapt_replicate_to_multiple_repositories/syncthing_share_setup.rst:45
 msgid ""
-"tick the checkbox for the shared folder :guilabel:`wapt` and :guilabel:`wapt-"
-"host`;"
+"tick the checkbox for the shared folder :guilabel:`wapt` and :guilabel"
+":`wapt-host`;"
 msgstr "cocher les partages :guilabel:`wapt` et :guilabel:`wapt-host` ;"
 
 #: ../../source/wapt_replication/wapt_replicate_to_multiple_repositories/syncthing_share_setup.rst:48
@@ -95,23 +97,21 @@ msgstr "Sur le dépôt distant effectuer les actions suivantes :"
 
 #: ../../source/wapt_replication/wapt_replicate_to_multiple_repositories/syncthing_share_setup.rst:50
 msgid ""
-"the remote device receives a Syncthing notification that it has been approved "
-"and added to the main device's replication schedule;"
+"the remote device receives a Syncthing notification that it has been "
+"approved and added to the main device's replication schedule;"
 msgstr ""
-"l'appareil distant reçoit une notification d'approbation d'ajout par l'appareil "
-"maître ;"
+"l'appareil distant reçoit une notification d'approbation d'ajout par "
+"l'appareil maître ;"
 
 #: ../../source/wapt_replication/wapt_replicate_to_multiple_repositories/syncthing_share_setup.rst:53
 msgid ""
-"the client receives a popup form asking to accept the synchronized shares :file:"
-"`wapt` and :file:`wapt-host`;"
+"the client receives a popup form asking to accept the synchronized shares"
+" :file:`wapt` and :file:`wapt-host`;"
 msgstr ""
-"le client reçoit ensuite une popup pour accepter les partages synchronisés "
-":file:`wapt` et :file:`wapt-host` ;"
+"le client reçoit ensuite une popup pour accepter les partages "
+"synchronisés :file:`wapt` et :file:`wapt-host` ;"
 
 #: ../../source/wapt_replication/wapt_replicate_to_multiple_repositories/syncthing_share_setup.rst:56
 msgid "The replication is now operational."
 msgstr "La réplication est maintenant mise en place."
 
-#~ msgid "Creation of the shared folder"
-#~ msgstr "Création du partage"

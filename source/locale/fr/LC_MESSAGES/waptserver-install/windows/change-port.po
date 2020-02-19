@@ -90,13 +90,10 @@ msgid "Configuring the new listening ports in the Nginx"
 msgstr "Modifier le port dans la configuration Nginx"
 
 #: ../../source/waptserver-install/windows/change-port.rst:53
-
 msgid ""
 "open the file :file:`C:\\\\Program Files "
 "(x86)\\\\wapt\\\\waptserver\\\\nginx\\\\conf\\\\nginx.conf`"
-msgstr ""
-"ouvrir le fichier :file:`C:\\Program Files "
-"(x86)\\wapt\\waptserver\\nginx\\conf\\nginx.conf`"
+msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
 
 #: ../../source/waptserver-install/windows/change-port.rst:55
 msgid "replace the lines:"
@@ -111,9 +108,8 @@ msgid "restart :program:`Nginx` with :code:`net start WAPTNginx`;"
 msgstr "relancer :program:`Nginx` avec :code:`net start WAPTNginx` :"
 
 #: ../../source/waptserver-install/windows/change-port.rst:71
-
 msgid "open :file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get.ini`;"
-msgstr "ouvrir :file:`C:\\Program Files (x86)\\wapt\\wapt-get.ini` ;"
+msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
 
 #: ../../source/waptserver-install/windows/change-port.rst:73
 msgid "add the port to the specified URL, example:"
@@ -165,10 +161,4 @@ msgstr ""
 "Si vous aviez déjà démarré la console WAPT, ne pas oublier de modifier "
 "aussi le port dans la configuration de la console en cliquant sur la "
 ":guilabel:`clé à molette` sur la mire de connexion."
-
-#~ msgid "restart :program:`Nginx`:"
-#~ msgstr "relancer :program:`Nginx` :"
-
-#~ msgid "restart the WAPT service:"
-#~ msgstr "redémarrer ensuite le service WAPT :"
 

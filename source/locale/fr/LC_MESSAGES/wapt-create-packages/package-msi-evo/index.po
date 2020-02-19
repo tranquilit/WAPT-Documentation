@@ -8,13 +8,11 @@ msgstr ""
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 1.8.8\n"
-"X-Poedit-SourceCharset: UTF-8\n"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:8
 msgid "Packaging advanced *.msi package"
@@ -33,36 +31,64 @@ msgid "Improving your MSI based package"
 msgstr "Améliorer le paquet MSI"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:21
-msgid "The installation/ updating of the :program:`TightVNC` package chosen as an example in the previous part of the documentation requires to close all instances of :program:`TightVNC` for the software to upgrade."
-msgstr "L'installation / la mise à jour du paquet TightVNC pris pour exemple précédemment nécessitera de le fermer le temps de la mise à jour."
+msgid ""
+"The installation/ updating of the :program:`TightVNC` package chosen as "
+"an example in the previous part of the documentation requires to close "
+"all instances of :program:`TightVNC` for the software to upgrade."
+msgstr ""
+"L'installation / la mise à jour du paquet TightVNC pris pour exemple "
+"précédemment nécessitera de le fermer le temps de la mise à jour."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:26
 msgid "Manual method: killalltasks"
 msgstr "Méthode manuelle : killalltasks"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:28
-msgid "A simple method is to kill all existing processes of :program:`TightVNC` before launching the installation of the *tis-tightvnc* package."
-msgstr "Une première méthode est de *tuer* tous les processus VNC avant de lancer l'installation du paquet *tis-tightvnc*."
+msgid ""
+"A simple method is to kill all existing processes of :program:`TightVNC` "
+"before launching the installation of the *tis-tightvnc* package."
+msgstr ""
+"Une première méthode est de *tuer* tous les processus VNC avant de lancer"
+" l'installation du paquet *tis-tightvnc*."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:44
 msgid "Elegant method: install_msi_if_needed"
 msgstr "Méthode élégante : install_msi_if_needed"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:57
-msgid "the Setuphelpers library provides a function called :command:`install_msi_if_needed` that addresses all the described problems in only one line of code;"
-msgstr "la librairie de fonctions setuphelpers fournit la fonction :command:`install_msi_if_needed` qui permet de gérer ce cas directement en une seule fonction ;"
+msgid ""
+"the Setuphelpers library provides a function called "
+":command:`install_msi_if_needed` that addresses all the described "
+"problems in only one line of code;"
+msgstr ""
+"la librairie de fonctions setuphelpers fournit la fonction "
+":command:`install_msi_if_needed` qui permet de gérer ce cas directement "
+"en une seule fonction ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:61
-msgid "the function will also test whether a version of the software is already installed on the machine using the *uninstall key*;"
-msgstr "la fonction testera également si une version du logiciel est déjà installée sur la machine avec la clé de désinstallation ;"
+msgid ""
+"the function will also test whether a version of the software is already "
+"installed on the machine using the *uninstall key*;"
+msgstr ""
+"la fonction testera également si une version du logiciel est déjà "
+"installée sur la machine avec la clé de désinstallation ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:64
-msgid "if the *uninstall key* is already present, the new version of the software will be installed only if the installed version is older;"
-msgstr "si présence il y a, l'installation sera enclenchée uniquement si la version actuellement installée est inférieure ;"
+msgid ""
+"if the *uninstall key* is already present, the new version of the "
+"software will be installed only if the installed version is older;"
+msgstr ""
+"si présence il y a, l'installation sera enclenchée uniquement si la "
+"version actuellement installée est inférieure ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:67
-msgid "after the installation, the function will finally test that the *uninstall key* is present and its version, to ascertain that all went well;"
-msgstr "après installation, la fonction testera finalement la présence de la clé de déinstallation et sa version pour vérifier que tout s'est bien passé ;"
+msgid ""
+"after the installation, the function will finally test that the "
+"*uninstall key* is present and its version, to ascertain that all went "
+"well;"
+msgstr ""
+"après installation, la fonction testera finalement la présence de la clé "
+"de déinstallation et sa version pour vérifier que tout s'est bien passé ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:70
 msgid "List of arguments available with *install_exe_if_needed*"
@@ -147,15 +173,21 @@ msgstr "{}"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:87
 msgid "additional properties to pass as arguments to MSI setup file."
-msgstr "propriétés supplémentaires à passer en argument au MSI pour l'installation."
+msgstr ""
+"propriétés supplémentaires à passer en argument au MSI pour "
+"l'installation."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:89
 msgid "``get_version``"
 msgstr "``get_version``"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:89
-msgid "value passed as parameter to control the version number instead of the value returned by the *installed_softwares* function"
-msgstr "valeur passée en paramètre pour le contrôle de version au lieu de celle retournée par la fonction *installed_softwares*"
+msgid ""
+"value passed as parameter to control the version number instead of the "
+"value returned by the *installed_softwares* function"
+msgstr ""
+"valeur passée en paramètre pour le contrôle de version au lieu de celle "
+"retournée par la fonction *installed_softwares*"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:93
 msgid "``remove_old_version``"
@@ -167,32 +199,54 @@ msgid "False"
 msgstr "False"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:93
-msgid "automatically removes an older version of a software whose *uninstall key* is identical"
-msgstr "supprimme automatiquement une ancienne version d'un logiciel dont la *uninstallkey* est identique"
+msgid ""
+"automatically removes an older version of a software whose *uninstall "
+"key* is identical"
+msgstr ""
+"supprimme automatiquement une ancienne version d'un logiciel dont la "
+"*uninstallkey* est identique"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:96
 msgid "``force``"
 msgstr "``force``"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:96
-msgid "forces the installation of the software even though the same *uninstall key* has been found"
-msgstr "force l'installation du logiciel même si une *uninstall key* avec une version identique est trouvée."
+msgid ""
+"forces the installation of the software even though the same *uninstall "
+"key* has been found"
+msgstr ""
+"force l'installation du logiciel même si une *uninstall key* avec une "
+"version identique est trouvée."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:103
-msgid "The :command:`install_msi_if_needed` method searches for an *uninstall key* in the MSI file properties, it is not necessary to fill it manually in the :file:`setup.py` file."
-msgstr "La fonction :command:`install_msi_if_needed` récupère la clé de désinstallation depuis le MSI, il n'est pas nécessaire de l'écrire dans le fichier :file:`setup.py`."
+msgid ""
+"The :command:`install_msi_if_needed` method searches for an *uninstall "
+"key* in the MSI file properties, it is not necessary to fill it manually "
+"in the :file:`setup.py` file."
+msgstr ""
+"La fonction :command:`install_msi_if_needed` récupère la clé de "
+"désinstallation depuis le MSI, il n'est pas nécessaire de l'écrire dans "
+"le fichier :file:`setup.py`."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:107
-msgid "Launch the installation and watch for what's happening in the WAPT console when the software is already installed."
-msgstr "En lançant le paquet, on observe ce qu'il se passe dans la console quand le logiciel est déjà installé."
+msgid ""
+"Launch the installation and watch for what's happening in the WAPT "
+"console when the software is already installed."
+msgstr ""
+"En lançant le paquet, on observe ce qu'il se passe dans la console quand "
+"le logiciel est déjà installé."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:124
 msgid "Handling x32 and x64 architectures"
 msgstr "Gérer les plateformes x32/x64"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:126
-msgid "To handle different processor architectures, use the function :command:`iswin64()`."
-msgstr "Pour la gestion de l'architecture de processeur x32 / x64, on utilise la fonction :command:`iswin64()`."
+msgid ""
+"To handle different processor architectures, use the function "
+":command:`iswin64()`."
+msgstr ""
+"Pour la gestion de l'architecture de processeur x32 / x64, on utilise la "
+"fonction :command:`iswin64()`."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:147
 msgid "Passing additional arguments"
@@ -200,154 +254,7 @@ msgstr "Ajouter des propriétés supplémentaires en argument"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:149
 msgid "To pass additional arguments, store them in a *dict*."
-msgstr "Pour ajouter des propriétés supplémentaires on va les stocker dans un élément *dict*."
+msgstr ""
+"Pour ajouter des propriétés supplémentaires on va les stocker dans un "
+"élément *dict*."
 
-#~ msgid ""
-#~ "It's necessary to anticipate the closing"
-#~ " of running application before "
-#~ "installing/updating one."
-#~ msgstr ""
-#~ "Il faut également prévoir le nécessaire"
-#~ " et gérer la fermeture du / des"
-#~ " programmes avant d'installer une nouvelle"
-#~ " version."
-
-#~ msgid ""
-#~ "the function will also test whether "
-#~ "the software version is already "
-#~ "installed on the computer using the "
-#~ "uninstall key;"
-#~ msgstr ""
-#~ "La fonction testera également si une "
-#~ "version du logiciel est déjà installée"
-#~ " sur la machine avec la clé de"
-#~ " désinstallation ;"
-
-#~ msgid ""
-#~ "if TightVNC is already installed, the"
-#~ " setup would only be launched if "
-#~ "the installed version is inferior to "
-#~ "the the version in the :file:`setup.py`"
-#~ " file;"
-#~ msgstr ""
-#~ "Si présence il y a, l'installation "
-#~ "sera enclenchée uniquement si la version"
-#~ " actuellement installée est inférieure ;"
-
-#~ msgid ""
-#~ "after the installation, the function "
-#~ "will test the existence of the "
-#~ "uninstall key and its version to "
-#~ "check if everything has gone well;"
-#~ msgstr ""
-#~ "Après installation, la fonction testera "
-#~ "finalement la présence de la clé "
-#~ "de déinstallation et sa version pour "
-#~ "vérifier que tout s'est bien passé "
-#~ ";"
-
-#~ msgid "The function ``install_msi_if_needed`` takes the following arguments:"
-#~ msgstr "La fonction ``install_msi_if_needed`` prend les paramètres suivants :"
-
-#~ msgid "install_msi_if_needed"
-#~ msgstr "install_msi_if_needed"
-
-#~ msgid "Behavior of *if_needed*"
-#~ msgstr "Comportement du *if_needed*"
-
-#~ msgid "Other things to keep in mind"
-#~ msgstr "Considérations supplémentaires"
-
-#~ msgid "List of arguments available with *install_exe_if_needed*"
-#~ msgstr ""
-
-#~ msgid "Settings"
-#~ msgstr ""
-
-#~ msgid "Default value"
-#~ msgstr ""
-
-#~ msgid "Description"
-#~ msgstr ""
-
-#~ msgid "``msi``"
-#~ msgstr ""
-
-#~ msgid "name of the MSI file to execute."
-#~ msgstr ""
-
-#~ msgid "``min_version``"
-#~ msgstr ""
-
-#~ msgid "None"
-#~ msgstr ""
-
-#~ msgid "minimal version above which the software will update."
-#~ msgstr ""
-
-#~ msgid "``killbefore``"
-#~ msgstr ""
-
-#~ msgid "[]"
-#~ msgstr ""
-
-#~ msgid "list of programs to kill before installing the package."
-#~ msgstr ""
-
-#~ msgid "``accept_returncodes``"
-#~ msgstr ""
-
-#~ msgid "[0,3010]"
-#~ msgstr ""
-
-#~ msgid "accepted codes other than 0 and 3010 returned by the function."
-#~ msgstr ""
-
-#~ msgid "``timeout``"
-#~ msgstr ""
-
-#~ msgid "300"
-#~ msgstr ""
-
-#~ msgid "maximum installation wait time (in seconds)."
-#~ msgstr ""
-
-#~ msgid "``properties``"
-#~ msgstr ""
-
-#~ msgid "{}"
-#~ msgstr ""
-
-#~ msgid "additional properties to pass as arguments to MSI setup file."
-#~ msgstr ""
-
-#~ msgid "``get_version``"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "value passed as parameter to control "
-#~ "the version number instead of the "
-#~ "value returned by the *installed_softwares*"
-#~ " function"
-#~ msgstr ""
-
-#~ msgid "``remove_old_version``"
-#~ msgstr ""
-
-#~ msgid "False"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "automatically removes an older version "
-#~ "of a software whose *uninstall key* "
-#~ "is identical"
-#~ msgstr ""
-
-#~ msgid "``force``"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "forces the installation of the software"
-#~ " even though the same *uninstall key*"
-#~ " has been found"
-#~ msgstr ""
