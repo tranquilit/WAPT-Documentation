@@ -301,10 +301,9 @@ msgstr ""
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:190
 msgid ":file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl`;"
-msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
+msgstr ":file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl`·;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:192
-#, fuzzy
 msgid ":file:`%appdata%\\\\waptconsole\\\\ssl`;"
 msgstr ":file:`%appdata%\\\\waptconsole\\\\ssl` ;"
 

@@ -27,7 +27,7 @@ msgstr "wapt-get.ini, configuration"
 msgid ""
 "The configuration file :file:`C:\\\\Program Files(x86)\\\\wapt\\\\wapt-"
 "get.ini` defines the behavior of the WAPT agent."
-msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
+msgstr "Le fichier de configuration C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get.ini contrôle le comportement de l'agent WAPT"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:20
 msgid "The ``[global]`` section is required:"
@@ -345,7 +345,7 @@ msgstr "Voir la documentation pour activer la"
 msgid ""
 ":file:`C:\\\\Program Files "
 "(x86)\\\\wapt\\\\ssl\\\\server\\\\srvwapt.mydomain.lan.crt`"
-msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
+msgstr ":file:`C:\\\\Program Files (x86)\\\\wapt\\\\`"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:119
 msgid ""
@@ -357,7 +357,7 @@ msgstr ""
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:121
 msgid "``public_certs_dir`` = :file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl`"
-msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
+msgstr "``public_certs_dir`` = :file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl`"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:121
 msgid ""

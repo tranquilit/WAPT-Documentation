@@ -158,7 +158,7 @@ msgid ""
 ":file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl\\\\`."
 msgstr ""
 "Le certificat devrait être situé sur votre machine Windows dans "
-":file:`C:\\\\\\Program Files (x86)\\\\\\\\wapt\\\\\\ssl\\\\`."
+":file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl\\\\`."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:116
 msgid ""
