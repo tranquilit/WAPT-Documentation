@@ -189,7 +189,7 @@ prefix.
 
   * :file:`C:\\Program Files (x86)\\wapt\\ssl`;
 
-  * :file:`%appdata%\waptconsole\ssl`;
+  * :file:`%appdata%\\waptconsole\\ssl`;
 
   If the certificate is not found in one of these two folders, then the
   following error will occur and the package will not be imported.

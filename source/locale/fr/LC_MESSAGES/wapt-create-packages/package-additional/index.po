@@ -142,7 +142,7 @@ msgstr ""
 
 #: ../../source/wapt-create-packages/package-additional/index.rst:90
 msgid "create the folder for the software in :file:`C:\\\\Program Files (x86)`;"
-msgstr "créer le répertoire d'installation dans :file:`C:\\Program Files (x86)` ;"
+msgstr "créer le répertoire d'installation dans :file:`C:\\\\Program Files (x86)` ;"
 
 #: ../../source/wapt-create-packages/package-additional/index.rst:92
 msgid "copy the software in that folder;"
@@ -174,7 +174,7 @@ msgstr ""
 
 #: ../../source/wapt-create-packages/package-additional/index.rst:121
 msgid "The file :file:`C:\\\\waptdev\\\\tis-adwcleaner-wapt` is created."
-msgstr "Le fichier :file:`C:\\waptdev\\tis-adwcleaner-wapt` est créé."
+msgstr "Le fichier :file:`C:\\\\waptdev\\\\tis-adwcleaner-wapt` est créé."
 
 #: ../../source/wapt-create-packages/package-additional/index.rst:123
 msgid ""

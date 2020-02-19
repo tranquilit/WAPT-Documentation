@@ -1,0 +1,119 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Tranquil IT
+# This file is distributed under the same license as the WAPT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WAPT 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-19 17:05+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:8
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:17
+msgid "Using organizational unit packages in WAPT"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:8
+msgid "WAPT, console, organizational, unit, OU, UO, Active Directory"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:14
+msgid "Enterprise"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:21
+msgid "Feature only available with WAPT **Enterprise**."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:25
+msgid "Working principle"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:27
+msgid "WAPT Enterprise offers organizational unit packages functionnality."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:29
+msgid ""
+"It automates software installations based on your Active Directory "
+"infrastructure."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:31
+msgid ""
+"WAPT agent is aware of its Active Directory sorting, thereby knows the "
+"hierarchy of organizational units, for example :"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:41
+msgid ""
+"If an organizational unit package is defined on each level, WAPT agent "
+"will download them automatically by inheritance and apply each level and "
+"their dependencies."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:46
+msgid "Filters and actions available with Organizational Units"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:52
+msgid "WAPT console showing options applicable to OU"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:56
+msgid ""
+"You can see in the picture that **update** and **upgrade** actions can be"
+" performed through this menu, thus selecting hosts by their "
+"organizational unit."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:60
+msgid ""
+"In the **Enterprise** version, you may filter how hosts are displayed "
+"based on the Active Directory :abbr:`OU (Organizational Units)` they "
+"belong to."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:63
+msgid ""
+"The checkbox :guilabel:`Include hosts in subfolders` allows to display "
+"hosts in subfolders."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:68
+msgid "Creating organizational unit packages in WAPT console"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:70
+msgid ""
+"You can create *unit* packages by :menuselection:`Right clicking on an OU"
+" --> Create or edit the unit package`."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:77
+msgid "Right-click on OU to create unit package."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:80
+msgid ""
+"A window opens and you are prompted to choose which packages must be in "
+"**unit** bundle"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:86
+msgid "Adding package to unit bundle."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:88
+msgid "Save the package and it will be uploaded to the WAPT server."
+msgstr ""
+

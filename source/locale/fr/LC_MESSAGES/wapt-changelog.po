@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-18 09:48+0100\n"
+"POT-Creation-Date: 2020-02-19 17:49+0100\n"
 "PO-Revision-Date: 2020-02-18 10:13+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -251,7 +251,7 @@ msgid ""
 "waptserver\\log"
 msgstr ""
 "waptwinsetup : don't create unused directories wapt-group and "
-"waptserver\\log"
+"waptserver\\\\log"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-changelog.rst:84
 msgid "Add msu and msix extensions for Package wizard setup file dialog"
@@ -5591,11 +5591,12 @@ msgstr ""
 "waptconsole ini file (without ini extension) instead of full path. Handy "
 "when switching between several configurations. Same behaviour as for "
 "waptconsole. Example: :command:`wapt-get -c site3 build-upload "
-"c:\\waptdev\\test-7zip-wapt`;"
+"c:\\\\waptdev\\\\test-7zip-wapt`;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-changelog.rst:2308
-msgid ":code:`wapt-get -c site3 build-upload c:\\waptdev\\test-7zip-wapt`;"
-msgstr ":code:`wapt-get -c site3 build-upload C:\\waptdev\\test-7zip-wapt`;"
+#, fuzzy
+msgid ":code:`wapt-get -c site3 build-upload c:\\\\waptdev\\\\test-7zip-wapt`;"
+msgstr ":code:`wapt-get -c site3 build-upload C:\\\\waptdev\\\\test-7zip-wapt`;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-changelog.rst:2310
 msgid ""
@@ -8274,7 +8275,9 @@ msgstr ""
 msgid ""
 "On Windows, edit :file:`C:\\\\wapt\\waptserver\\\\waptserver.ini` and "
 "replace:"
-msgstr "On Windows, edit :file:`C:\\wapt\\waptserver\\waptserver.ini` and replace:"
+msgstr ""
+"On Windows, edit :file:`C:\\\\wapt\\\\waptserver\\\\waptserver.ini` and "
+"replace:"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-changelog.rst:3405
 msgid "with:"

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-30 18:20+0100\n"
+"POT-Creation-Date: 2020-02-19 17:05+0100\n"
 "PO-Revision-Date: 2020-02-17 18:08+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -14,19 +14,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:8
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:8
 msgid "Using the WAPT console"
 msgstr "Utiliser la console WAPT"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:8
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:8
 msgid "WAPT, console, documentation"
 msgstr "WAPT, console, documentation"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:15
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:15
 msgid "Using the WAPT console (detailed)"
 msgstr "Utiliser la console WAPT (version détaillée)"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:19
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:19
 msgid ""
 "Some functionalities detailed here are only available with the "
 "**Enterprise** version of WAPT."
@@ -34,20 +34,20 @@ msgstr ""
 "Certaines fonctionnalités détaillés ici sont disponible uniquement en "
 "version **Entreprise**."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:26
-#: ../../source/wapt-usage/wapt-console-detail.rst:272
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:26
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:254
 msgid "Software inventory as registered in the Windows registry of the host"
 msgstr "Inventaire des clients enregistrés dans WAPT"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:29
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:29
 msgid "How to perform actions of the hosts?"
 msgstr "Agir sur les machines"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:35
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:35
 msgid "Host configuration menu"
 msgstr "Menu de configuration des postes"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:37
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:37
 msgid ""
 "List of actions available to be performed on the hosts from the WAPT "
 "console"
@@ -55,201 +55,166 @@ msgstr ""
 "Liste des fonctions de configuration des Postes client dans la console "
 "WAPT"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:42
-#: ../../source/wapt-usage/wapt-console-detail.rst:158
-#: ../../source/wapt-usage/wapt-console-detail.rst:199
-#: ../../source/wapt-usage/wapt-console-detail.rst:369
-#: ../../source/wapt-usage/wapt-console-detail.rst:543
-#: ../../source/wapt-usage/wapt-console-detail.rst:591
-#: ../../source/wapt-usage/wapt-console-detail.rst:612
-#: ../../source/wapt-usage/wapt-console-detail.rst:680
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:42
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:140
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:181
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:351
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:525
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:573
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:594
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:662
 msgid "Description"
 msgstr "Description"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:42
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:42
 msgid "Multi-selection"
 msgstr "Multi-sélection"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:44
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:44
 msgid "Edit the configuration of the host"
 msgstr "Modifier la liste des paquets de la machine"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:44
-#: ../../source/wapt-usage/wapt-console-detail.rst:45
-#: ../../source/wapt-usage/wapt-console-detail.rst:46
-#: ../../source/wapt-usage/wapt-console-detail.rst:47
-#: ../../source/wapt-usage/wapt-console-detail.rst:48
-#: ../../source/wapt-usage/wapt-console-detail.rst:49
-#: ../../source/wapt-usage/wapt-console-detail.rst:50
-#: ../../source/wapt-usage/wapt-console-detail.rst:51
-#: ../../source/wapt-usage/wapt-console-detail.rst:52
-#: ../../source/wapt-usage/wapt-console-detail.rst:53
-#: ../../source/wapt-usage/wapt-console-detail.rst:62
-#: ../../source/wapt-usage/wapt-console-detail.rst:63
-#: ../../source/wapt-usage/wapt-console-detail.rst:64
-#: ../../source/wapt-usage/wapt-console-detail.rst:65
-#: ../../source/wapt-usage/wapt-console-detail.rst:66
-#: ../../source/wapt-usage/wapt-console-detail.rst:67
-#: ../../source/wapt-usage/wapt-console-detail.rst:68
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:44
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:45
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:46
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:47
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:48
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:49
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:50
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:51
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:52
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:53
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:62
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:63
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:64
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:65
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:66
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:67
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:68
 msgid "*yes*"
 msgstr "*yes*"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:45
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:45
 msgid "Refresh the list of available packages"
 msgstr "Actualiser la liste des paquets disponibles"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:46
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:46
 msgid "Offer the user to launch an upgrade"
 msgstr "Proposer aux utilisateurs de lancer un upgrade"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:47
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:47
 msgid "Send a message to the selected hosts"
 msgstr "Envoyer un message aux machines sélectionnées"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:48
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:48
 msgid "Audit the packages installed on selected hosts"
 msgstr "Auditer les paquets installés sur les postes sélectionnés"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:49
-#: ../../source/wapt-usage/wapt-console-detail.rst:52
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:49
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:52
 msgid "Add one or more packages on selected hosts"
 msgstr "Ajouter un ou plusieurs paquets aux machines sélectionnées"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:50
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:50
 msgid "Remove one or more packages from selected hosts"
 msgstr "Retirer un ou plusieurs paquets aux machines sélectionnées"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:51
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:51
 msgid "Prevent packages from being installed on hosts"
 msgstr "Interdire l'installation des paquets sur les machines"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:53
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:53
 msgid "Remove the host and/or the host package"
 msgstr "Supprimer la machine et/ou le paquet machine"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:54
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:54
 msgid "Launch TIShelp with a remote host"
 msgstr "Lancer TISHelp sur la machine distante"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:54
-#: ../../source/wapt-usage/wapt-console-detail.rst:55
-#: ../../source/wapt-usage/wapt-console-detail.rst:56
-#: ../../source/wapt-usage/wapt-console-detail.rst:57
-#: ../../source/wapt-usage/wapt-console-detail.rst:58
-#: ../../source/wapt-usage/wapt-console-detail.rst:59
-#: ../../source/wapt-usage/wapt-console-detail.rst:60
-#: ../../source/wapt-usage/wapt-console-detail.rst:61
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:54
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:55
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:56
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:57
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:58
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:59
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:60
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:61
 msgid "*no*"
 msgstr "*no*"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:55
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:55
 msgid "Initiate a VNC connection with the remote host"
 msgstr "Lancer une connexion VNC avec la machine distante"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:56
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:56
 msgid "Connect via Veyon"
 msgstr "Se connecter avec Veyon"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:57
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:57
 msgid "Launch a RDP connection on the selected host"
 msgstr "Lancer une connexion RDP avec le poste sélectionné"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:58
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:58
 msgid "Launch remote user support (msra.exe)"
 msgstr "Lancer une assistance à distance (msra.exe)"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:59
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:59
 msgid "Manage hosts with :program:`compmgmt.msc`"
 msgstr "Gérer les machines avec :program:`compmgmt.msc`"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:60
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:60
 msgid "Manage Users and Groups with :program:`lusrmgr.msc`"
 msgstr "Gérer les Utilisateurs et les Groupes avec :program:`lusrmgr.msc`"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:61
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:61
 msgid "Manage Services with :program:`services.msc`"
 msgstr "Gérer les services avec :program:`services.msc`"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:62
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:62
 msgid "Send a WakeOnLAN special packet to selected hosts"
 msgstr "Envoyer une requête WakeOnLAN aux machines sélectionnées"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:63
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:63
 msgid "Search for applicable Windows updates"
 msgstr "Rechercher des mises à jour Windows à appliquer"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:64
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:64
 msgid "Download pending Windows updates"
 msgstr "Télécharger les mise à jour Windows en attente"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:65
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:65
 msgid "Trigger the installation of pending Windows updates"
 msgstr "Installer les mises à jour Windows en attente"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:66
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:66
 msgid "Add Active Directory groups to the selected machines"
 msgstr "Ajouter les groupes AD des machines sélectionnées en dépendance"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:67
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:67
 msgid "Trigger an inventory update on selected hosts"
 msgstr "Lancer une remontée d'inventaire des machines sélectionnées"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:68
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:68
 msgid "Restart the WAPT service"
 msgstr "Redémarrer le service WAPT"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:72
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:72
 msgid "Searching a host"
 msgstr "Rechercher une machine"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:78
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:78
 msgid "*Search* function in WAPT"
 msgstr "Fonction *Rechercher* de WAPT"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:80
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:80
 msgid "Allow to search for a value in the selected column."
 msgstr "Permet de rechercher une valeur dans la colonne sélectionnée."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:83
-msgid "Filters and actions available with Organizational Units"
-msgstr "Filtres et actions avec les Unités Organisationnelles"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:89
-msgid "WAPT console showing options applicable to OU"
-msgstr "Console WAPT affichant les options applicables aux UO"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:91
-msgid ""
-"In the **Enterprise** version, you may filter how hosts are displayed "
-"based on the Active Directory :abbr:`OU (Organizational Units)` they "
-"belong to."
-msgstr ""
-"**En version entreprise**, vous pouvez filtrer l'affichage des postes en "
-"fonction des :abbr:`UO (Unités Organisationelles)` dans laquelle ils sont"
-" placés dans l'Active Directory"
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:94
-msgid ""
-"The checkbox :guilabel:`Include hosts in subfolders` allows to display "
-"hosts in subfolders."
-msgstr ""
-"La case :guilabel:`Inclure les postes des sous dossiers` permet "
-"d'afficher les machines présentes dans les sous-dossiers."
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:97
-msgid ""
-"You may also choose to create *unit* packages by :menuselection:`Right "
-"clicking on an OU --> Create or edit the unit package`."
-msgstr ""
-"Vous pouvez également créer des paquet *unit* avec un "
-":menuselection:`clic droit sur une UO --> Créer ou éditer le paquet de "
-"l'Unité Organisationnelle`."
-
-#: ../../source/wapt-usage/wapt-console-detail.rst:101
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:83
 msgid "Show the inventory"
 msgstr "Afficher l'inventaire"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:103
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:85
 msgid ""
 "When the WAPT agents :command:`register`, they send some informations to "
 "the WAPT Server."
@@ -257,7 +222,7 @@ msgstr ""
 "Quand les clients lancent leur :command:`register`, ils remontent "
 "certaines informations au serveur WAPT."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:106
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:88
 msgid ""
 "Informations displayed in the console are not updated in real-time, you "
 "have to refresh the display to view new status and informations."
@@ -266,7 +231,7 @@ msgstr ""
 "en temps réel, il faudra régulièrement actualiser l'affichage dans la "
 "console pour faire apparaître les nouvelles informations."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:109
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:91
 msgid ""
 "Click on the :guilabel:`Refresh` button or press :kbd:`F5` on the "
 "keyboard."
@@ -274,11 +239,11 @@ msgstr ""
 "Cliquer sur le bouton :guilabel:`Actualiser` ou appuyer sur la touche "
 ":kbd:`F5` du clavier."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:115
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:97
 msgid "WAPT console displaying inventory"
 msgstr "Console WAPT affichant l'inventaire"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:117
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:99
 msgid ""
 "The WAPT console lists hosts that are registered with the WAPT Server and"
 " some informations that are useful for managing the hosts."
@@ -286,7 +251,7 @@ msgstr ""
 "La console liste les machines inscrites sur le serveur WAPT et certaines "
 "informations utiles à leur gestion."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:120
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:102
 msgid ""
 "Selecting a host displays its informations in the right panel of the WAPT"
 " console (:guilabel:`Hardware inventory` and :guilabel:`Software "
@@ -296,97 +261,97 @@ msgstr ""
 "dans la partie :guilabel:`Inventaire matériel et inventaire logiciel` "
 "dans la partie droite dans la console."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:125
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:107
 msgid "Hardware inventory displays the hardware inventory of the host"
 msgstr "Consulter l'inventaire matériel et inventaire logiciel des machines"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:127
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:109
 msgid ""
 "Common informations displayed in the :guilabel:`Hardware inventory` tab "
 "are:"
 msgstr "Les informations affichées par défaut dans l'onglet général sont :"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:129
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:111
 msgid "the name of the host;"
 msgstr "le nom de la machine ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:131
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:113
 msgid "the description of the host;"
 msgstr "la description de la machine ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:133
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:115
 msgid "the operating system running on the host;"
 msgstr "le système d'exploitation ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:135
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:117
 msgid "the IP address of the host;"
 msgstr "l'adresse IP de la machine ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:137
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:119
 msgid "the last WAPT task that was run on the host;"
 msgstr "la dernière tâche WAPT exécutée ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:139
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:121
 msgid "the manufacturer of the host;"
 msgstr "le constructeur de la machine ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:141
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:123
 msgid "the model of the host;"
 msgstr "le modèle de machine ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:143
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:125
 msgid "the date of the latest update on the host;"
 msgstr "la date de la dernière mise à jour de la machine ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:145
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:127
 msgid "the name of the user last or currently connected on host;"
 msgstr "l'utilisateur connecté actuellement ou dernièrement sur le poste ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:151
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:133
 msgid "Host summary"
 msgstr "Résumé de l'état de la machine"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:153
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:135
 msgid "Status of packages in the WAPT console"
 msgstr "Statut des paquets dans la console WAPT"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:158
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:140
 msgid "Status"
 msgstr "Statut"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:160
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:142
 msgid "List of installed WAPT packages"
 msgstr "La liste des paquets WAPT installés."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:160
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:142
 msgid "Status: **OK**"
 msgstr "Statut : **OK**"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:161
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:143
 msgid "List of packages waiting to be installed"
 msgstr "Liste des paquets en attente d'installation"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:161
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:143
 msgid "Status: **MISSING**"
 msgstr "Statut : **MISSING**"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:162
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:144
 msgid "List of packages pending updates"
 msgstr "Liste des paquets en attente d'une mise à jour"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:162
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:144
 msgid "Status: **NEED-UPGRADE**"
 msgstr "Statut : **NEED-UPGRADE**"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:163
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:145
 msgid "List of packages that have failed to install"
 msgstr "Liste des paquets dont l'installation a échoué"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:163
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:145
 msgid "Status: **ERROR**"
 msgstr "Statut : **ERROR**"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:166
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:148
 msgid ""
 "When a package returns a status **ERROR**, click on it to show the "
 "details of the error. Errors are print messages in the :file:`setup.py` "
@@ -395,27 +360,27 @@ msgstr ""
 "Lorsqu'un paquet est en statut ``ERROR``, cliquer sur le paquet pour "
 "afficher l'erreur remontée."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:174
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:156
 msgid "Error detail"
 msgstr "Détail de l'erreur"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:177
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:159
 msgid "Acting on packages installed on a host"
 msgstr "Agir sur les paquets installés sur la machine"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:183
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:165
 msgid "Possible actions for WAPT packages"
 msgstr "Action possibles pour les paquets WAPT"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:187
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:169
 msgid "multiple selection of packages is possible;"
 msgstr "la sélection multiple est possible ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:189
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:171
 msgid "the host must be seen by the WAPT Server when the action is launched;"
 msgstr "la machine doit être joignable au moment de l'action ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:191
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:173
 msgid ""
 "if several hosts are selected, the action will be launched on all "
 "selected hosts;"
@@ -423,64 +388,64 @@ msgstr ""
 "si plusieurs machines sont sélectionnées, l'action sera lancée sur toutes"
 " les machines sélectionnées ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:194
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:176
 msgid "Acting on packages installed on a specific host"
 msgstr "Agir sur les paquets installés sur la machine"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:199
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:181
 msgid "Action"
 msgstr "Action"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:201
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:183
 msgid "Install a package"
 msgstr "Installer un paquet"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:201
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:183
 msgid "installs the selected package on selected hosts"
 msgstr "installe le paquet sélectionné sur les machines sélectionnées"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:203
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:185
 msgid "Force a package"
 msgstr "Forcer un paquet"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:203
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:185
 msgid "forces the re-installation of a selected package on selected hosts"
 msgstr ""
 "force la réinstallation d'un paquet sélectionné sur les machines "
 "sélectionnées"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:206
-#: ../../source/wapt-usage/wapt-console-detail.rst:479
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:188
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:461
 msgid "Remove a package"
 msgstr "Supprimer un paquet"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:206
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:188
 msgid "removes the selected package from the selected hosts"
 msgstr "désinstalle le paquet sélectionné sur les machines sélectionnées"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:208
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:190
 msgid "Forget a package"
 msgstr "Oublier un paquet"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:208
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:190
 msgid "tells the selected hosts not to use WAPT for managing the selected package"
 msgstr ""
 "demande aux machines sélectionnées de ne plus utiliser WAPT pour gérer le"
 " paquet sélectionné"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:211
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:193
 msgid "Audit the package"
 msgstr "Auditer le paquet"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:211
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:193
 msgid "triggers an audit on the selected package"
 msgstr "lance un audit forcé du paquet sélectionné"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:215
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:197
 msgid "Hardware inventory tab"
 msgstr "Onglet Matériel"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:217
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:199
 msgid ""
 "Informations displayed by default in the :guilabel:`Hardware inventory` "
 "tab are:"
@@ -488,28 +453,28 @@ msgstr ""
 "Les informations affichées par défaut dans l'onglet :guilabel:`Inventaire"
 " matériel` sont :"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:220
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:202
 msgid "informations on the host's hardware components;"
 msgstr "les informations sur les composants matériels de la machine ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:222
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:204
 msgid "some informations about the host;"
 msgstr "diverses informations sur la machine ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:224
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:206
 msgid "some information on the status of WAPT;"
 msgstr "diverses informations sur l'état de WAPT ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:230
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:212
 msgid "Host hardware inventory"
 msgstr "Inventaire matériel d'une machine"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:232
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:214
 msgid "A :guilabel:`Filter` box allows to search for hosts."
 msgstr "Un :guilabel:`Filtre` permet de rechercher des machines."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:236
-#: ../../source/wapt-usage/wapt-console-detail.rst:395
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:218
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:377
 msgid ""
 "Filters work with `regular expression "
 "<https://en.wikipedia.org/wiki/Regular_expression>`_."
@@ -517,7 +482,7 @@ msgstr ""
 "Les filtres fonctionnent en `expression régulière "
 "<https://en.wikipedia.org/wiki/Regular_expression>`_."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:238
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:220
 msgid ""
 "To add a column in the grid, drag and drop a hardware property from the "
 ":guilabel:`Hardware inventory` grid to the main grid."
@@ -526,7 +491,7 @@ msgstr ""
 "propriété d'inventaire matériel depuis la grille :guilabel:`Inventaire "
 "Matériel` vers la grille principale."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:241
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:223
 msgid ""
 "Example: in :guilabel:`hosts`, drag and drop *physical_memory* in the "
 "left panel, and the column :guilabel:`physical_memory` appears in the "
@@ -536,15 +501,15 @@ msgstr ""
 "et la colonne :guilabel:`physical_memory` apparaît dans la grille "
 "principale."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:249
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:231
 msgid "Adding a criteria to the main grid of the WAPT console"
 msgstr "Ajouter un critère à la grille principale de la console WAPT"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:252
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:234
 msgid "Software inventory tab"
 msgstr "Onglet Logiciel"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:254
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:236
 msgid ""
 "Common informations displayed in the :guilabel:`Sofware inventory` tab "
 "are:"
@@ -552,65 +517,65 @@ msgstr ""
 "Les informations affichées par défaut dans l'onglet :guilabel:`Inventaire"
 " logiciel` sont :"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:256
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:238
 msgid ":guilabel:`maker`"
 msgstr ":guilabel:`éditeur` ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:258
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:240
 msgid ":guilabel:`software name`"
 msgstr ":guilabel:`nom du logiciel` ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:260
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:242
 msgid ":guilabel:`software version`;"
 msgstr ":guilabel:`version du logiciel` ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:262
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:244
 msgid ":guilabel:`installation date`;"
 msgstr ":guilabel:`date d'installation` ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:264
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:246
 msgid ":guilabel:`uninstall key`;"
 msgstr ":guilabel:`clé de désinstallation` ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:266
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:248
 msgid ":guilabel:`uninstall string`;"
 msgstr ":guilabel:`chaîne de désinstallation` ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:275
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:257
 msgid "Windows update tab"
 msgstr "Onglet Windows Updates"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:277
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:259
 msgid "Informations displayed in the :guilabel:`Hardware inventory` tab are:"
 msgstr ""
 "Les informations affichées par défaut dans l'onglet :guilabel:`Windows "
 "Updates` sont :"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:279
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:261
 msgid "Windows update agent version;"
 msgstr "la version de l'agent Windows Updates ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:281
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:263
 msgid "date of the last Windows update scan;"
 msgstr "la date du dernier scan Windows Updates ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:283
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:265
 msgid "duration of the last scan;"
 msgstr "la durée du dernier scan ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:285
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:267
 msgid "WAPTWUA status;"
 msgstr "le status de WAPTWUA ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:287
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:269
 msgid "date of the last version of :file:`wsusscn2.cab` processed by WAPT;"
 msgstr "la date de modification du dernier :file:`wsusscn2.cab` traité par WAPT ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:289
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:271
 msgid "status of  WAPTWUA Enabled (True/ False);"
 msgstr "status de WAPTWUA Enabled (True / False) ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:291
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:273
 msgid ""
 "The grid then lists Windows cab files that have been installed or that "
 "are pending installation."
@@ -618,95 +583,95 @@ msgstr ""
 "La grille affiche ensuite la liste des cab Windows installés ou en "
 "attente d'installation."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:294
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:276
 msgid "Informations displayed in the :guilabel:`Windows Updates` tab are:"
 msgstr ""
 "Les informations affichées par défaut la grille de l'onglet "
 ":guilabel:`Windows Updates` sont :"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:296
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:278
 msgid ":guilabel:`Status`;"
 msgstr ":guilabel:`Status` ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:298
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:280
 msgid ":guilabel:`Product`;"
 msgstr ":guilabel:`Product` ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:300
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:282
 msgid ":guilabel:`Update ID`;"
 msgstr ":guilabel:`Update ID` ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:302
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:284
 msgid ":guilabel:`Kbids`;"
 msgstr ":guilabel:`Kbids` ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:304
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:286
 msgid ":guilabel:`Published on`;"
 msgstr ":guilabel:`Published on` ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:306
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:288
 msgid ":guilabel:`installation on`;"
 msgstr ":guilabel:`Installed on` ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:308
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:290
 msgid ":guilabel:`Severity on`;"
 msgstr ":guilabel:`Severity on` ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:310
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:292
 msgid ":guilabel:`Classification`;"
 msgstr ":guilabel:`Classification` ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:312
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:294
 msgid ":guilabel:`Title`;"
 msgstr ":guilabel:`Title` ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:314
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:296
 msgid ":guilabel:`Download size`;"
 msgstr ":guilabel:`Download size` ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:320
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:302
 msgid "Inventory of Windows Updates"
 msgstr "Inventaire des mises à jour Windows"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:323
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:305
 msgid "Task tab"
 msgstr "Onglet Tâches"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:325
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:307
 msgid "Informations displayed by default in the :guilabel:`Tasks` tab are:"
 msgstr ""
 "Les informations affichées par défaut dans l'onglet :guilabel:`Taches` "
 "sont :"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:327
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:309
 msgid "pending tasks;"
 msgstr "les tâches en attente ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:333
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:315
 msgid "Details of pending tasks on the host"
 msgstr "Détail des tâches en attente sur la machine"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:335
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:317
 msgid "completed tasks;"
 msgstr "les tâches terminées ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:341
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:323
 msgid "Details of completed tasks"
 msgstr "Détail des tâches terminées sur la machine"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:343
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:325
 msgid "tasks in error;"
 msgstr "les tâches en erreur ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:349
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:331
 msgid "Details of tasks in error"
 msgstr "Détail des tâches en erreur sur la machine"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:352
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:334
 msgid "Perform a global search on all hosts"
 msgstr "Rechercher sur l'ensemble des postes"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:354
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:336
 msgid ""
 "Performing global searches on all the criteria presented above is "
 "possible."
@@ -714,27 +679,27 @@ msgstr ""
 "Il est possible de faire une recherche globale sur la totalité des "
 "informations décrites précédemment."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:356
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:338
 msgid "Choose the filters to check or uncheck."
 msgstr "Cocher ou décocher les filtres de votre choix."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:362
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:344
 msgid "Advanced search functionalities in the WAPT console"
 msgstr "Fonctions de recherches avancées de la console WAPT"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:364
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:346
 msgid "Choice of filters"
 msgstr "Choix des filtres"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:369
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:351
 msgid "Possible options"
 msgstr "Choix possibles"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:371
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:353
 msgid ":guilabel:`Host`"
 msgstr ":guilabel:`Machine`"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:371
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:353
 msgid ""
 ":guilabel:`Host` section in the :guilabel:`Hardware inventory` tab when a"
 " host is selected"
@@ -742,11 +707,11 @@ msgstr ""
 "Partie host dans l'onglet :guilabel:`Inventaire matériel` lorsque l'on "
 "sélectionne une machine"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:375
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:357
 msgid ":guilabel:`Hardware`"
 msgstr ":guilabel:`Matériel`"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:375
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:357
 msgid ""
 ":guilabel:`DMI` section in the :guilabel:`Hardware inventory` tab when a "
 "host is selected"
@@ -754,51 +719,51 @@ msgstr ""
 ":guilabel:`DMI` dans l'onglet :guilabel:`Inventaire matériel` lorsque "
 "l'on sélectionne une machine"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:379
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:361
 msgid ":guilabel:`Software`"
 msgstr ":guilabel:`Logiciel`"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:379
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:361
 msgid ":guilabel:`Software inventory` section when a host is selected"
 msgstr "Partie :guilabel:`Inventaire logiciel` lorsque l'on clique sur une machine"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:382
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:364
 msgid ":guilabel:`Package`"
 msgstr ":guilabel:`Paquet`"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:382
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:364
 msgid "List of packages installed on the selected hosts"
 msgstr "Liste des paquets installés sur les postes sélectionnés"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:384
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:366
 msgid ":guilabel:`Have errors`"
 msgstr ":guilabel:`Ont des erreurs`"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:384
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:366
 msgid "Search only for hosts for which a tasks has not finished correctly"
 msgstr "Rechercher uniquement sur les machines qui sont en erreur"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:387
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:369
 msgid ":guilabel:`Needing upgrades`"
 msgstr ":guilabel:`Nécessite des mise à jour`"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:387
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:369
 msgid "Search only for hosts needing upgrades"
 msgstr "Rechercher uniquement des machines qui nécessitent une mise à jour"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:389
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:371
 msgid ":guilabel:`Group selection`"
 msgstr ":guilabel:`Sélection du groupe`"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:389
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:371
 msgid "Filter hosts based on their membership/ dependency to a group package"
 msgstr "Filtre de recherche sur les membres appartenant à ce paquet *group*"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:398
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:380
 msgid "Do a search based on a WAPT package"
 msgstr "Effectuer une recherche à partir d'un paquet"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:400
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:382
 msgid ""
 "In the :guilabel:`Private repository`, select the package and then click "
 "on :guilabel:`Show Hosts`."
@@ -806,7 +771,7 @@ msgstr ""
 "Dans :guilabel:`Dépôt privé` sélectionné le paquet qui vous intéresse "
 "puis cliquez sur :guilabel:`Show Host`."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:403
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:385
 msgid ""
 "The grid will display the hosts on which the package is installed. Note "
 "that the filter is only active on the :guilabel:`Package` attribute of "
@@ -816,7 +781,7 @@ msgstr ""
 "est uniquement actif sur l'attribut :guilabel:`Package` du paquet "
 "sélectionné)."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:407
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:389
 msgid ""
 "The different columns display information about the packages installed on"
 " the machine (e.g. *package version*, *package status*, *audit status*, "
@@ -826,11 +791,11 @@ msgstr ""
 "installé sur la machine (ex : *version du paquet*, *status du paquet*, "
 "*status de l'audit*, *date d'installation*, *architecture*)."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:415
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:397
 msgid "Filter by package"
 msgstr "Filtrage par paquet"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:417
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:399
 msgid ""
 "You can also add the columns :guilabel:`Log install` and :guilabel:`Last "
 "Audit Output` to display at a glance the installation and audit logs."
@@ -839,12 +804,12 @@ msgstr ""
 "install` et :guilabel:`Last Audit Output` pour afficher d'un seul coup "
 "d'oeil les log d'installation et d'audit."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:422
-#: ../../source/wapt-usage/wapt-console-detail.rst:453
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:404
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:435
 msgid "Creating a group package"
 msgstr "Créer un groupe de paquets"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:424
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:406
 msgid ""
 "Group packages allows to create a package containing other packages to be"
 " affected as a dependency to a host."
@@ -852,25 +817,25 @@ msgstr ""
 "Les groupes de paquets permettent de créer des listes de paquets à "
 "affecter en dépendance à un ensemble de machines."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:427
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:409
 msgid "To create a group of packages, go to the :guilabel:`Bundles` tab:"
 msgstr ""
 "Pour créer un groupe de paquets, se rendre dans l'onglet "
 ":guilabel:`Groupes de paquets` :"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:433
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:415
 msgid "Package group grid"
 msgstr "Grille des groupes de paquets"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:435
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:417
 msgid "click on :guilabel:`New bundle`;"
 msgstr "cliquer sur :guilabel:`Nouveau groupe de paquets` ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:437
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:419
 msgid "give a name to the *group* package;"
 msgstr "donner un nom au groupe ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:441
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:423
 msgid ""
 "If you name a group package with the same name as an Active Directory "
 "security group (Microsoft or Samba-AD), member of the Active Directory "
@@ -880,7 +845,7 @@ msgstr ""
 "votre annuaire Active Directory (Microsoft ou Samba-AD), alors les "
 "machines du groupe AD seront affectées au groupe WAPT."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:445
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:427
 msgid ""
 "fill in the description, add packages to the group package by dragging "
 "and dropping them or by Right-clicking on the package name, and adding to"
@@ -890,21 +855,21 @@ msgstr ""
 "glisser-déposer ou avec un clique-droit sur le nom du paquet, ajouter au "
 "groupe ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:455
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:437
 msgid "click on :guilabel:`Save` to save the bundle;"
 msgstr "cliquer sur :guilabel:`Enregistrer` pour enregistrer le groupe ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:459
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:441
 msgid "To uninstall a package, it is possible to add banned packages to a bundle."
 msgstr ""
 "Pour désinstaller un paquet, il est possible d'ajouter des paquets "
 "interdits au groupe."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:465
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:447
 msgid "Forbid a package"
 msgstr "Interdire un paquet"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:467
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:449
 msgid ""
 "In the :guilabel:`Software Repository` tab, the list of packages "
 "currently available in the WAPT repository appears. By default, the "
@@ -914,7 +879,7 @@ msgstr ""
 "le dépôt WAPT local. Par défaut, la console n'affichera que les dernières"
 " versions pour chaque paquet."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:471
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:453
 msgid ""
 "To display all package versions, untick :guilabel:`Last version only`. To"
 " delete a package from the repository, :menuselection:`Right-click --> "
@@ -924,7 +889,7 @@ msgstr ""
 ":guilabel:`Dernière version seulement`. Pour supprimer un paquet du "
 "dépôt, :menuselection:`Clic-droit --> Supprimer`."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:481
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:463
 msgid ""
 "To edit a package, :menuselection:`Right-click --> Edit package`, the "
 "package will be downloaded locally in **the base package development "
@@ -934,7 +899,7 @@ msgstr ""
 "le paquet sera téléchargé dans le dossier défini avec le paramètre "
 "``default_sources_root`` de la console."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:485
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:467
 msgid ""
 "Make changes to the package as wanted, rebuild the package and upload it "
 "back to the repository. Once your package has uploaded, refresh the "
@@ -946,13 +911,13 @@ msgstr ""
 " à l'aide du bouton :guilabel:`Actualiser les paquets disponibles` ou de "
 "la touche :kbd:`F5` du clavier."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:490
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:472
 msgid "A search bar is also available to filter packages."
 msgstr ""
 "Une barre de recherche est également disponible pour filtrer les paquets "
 "lorsqu'ils sont nombreux."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:494
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:476
 msgid ""
 "With the :guilabel:`section` drop-down menu, you can choose to create a "
 "profile package rather than a group package"
@@ -960,11 +925,11 @@ msgstr ""
 "Avec le menu déroulant :guilabel:`section`, vous pouvez choisir de créer "
 "un paquet *profile* plutôt qu'un paquet *group*."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:497
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:479
 msgid "Cleaning the local cache from the WAPT console"
 msgstr "Nettoyer le cache de la console"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:499
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:481
 msgid ""
 "When importing a package from Internet, the WAPT console downloads the "
 "package in :file:`%appdata%\\local\\waptconsole\\cache` ."
@@ -972,7 +937,7 @@ msgstr ""
 "Lors de l'import depuis Internet, la console télécharge le paquet dans "
 ":file:`%appdata%\\..\\local\\waptconsole\\cache`."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:502
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:484
 msgid ""
 "To clean the cache and free up disk space, click on :menuselection:`Tools"
 " --> Clean local cache`."
@@ -980,15 +945,15 @@ msgstr ""
 "Pour vider ce cache, depuis la console, cliquer sur "
 ":menuselection:`Outils --> Nettoyer le cache local`."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:509
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:491
 msgid "Cleaning up the local cache"
 msgstr "Nettoyer le cache local"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:512
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:494
 msgid "Changing the password of the WAPT Server"
 msgstr "Changer le mot de passe du serveur WAPT"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:514
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:496
 msgid ""
 "To change the WAPT Server password, click on :menuselection:`Tools --> "
 "Update password`, fill in the old password and a new one."
@@ -997,12 +962,12 @@ msgstr ""
 ":menuselection:`Outils --> Changer le mot de passe`, renseigner l'ancien "
 "mot de passe et saisir le nouveau."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:520
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:502
 msgid "Making changes to the WAPT console preferences"
 msgstr "Modifier la configuration WAPT locale de la console"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:522
-#: ../../source/wapt-usage/wapt-console-detail.rst:605
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:504
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:587
 msgid ""
 "To make changes to console settings, go to :menuselection:`Tools --> "
 "Preferences`."
@@ -1010,87 +975,87 @@ msgstr ""
 "Pour modifier les paramètres d'affichage de la console : "
 ":menuselection:`Affichage --> Préférences d'affichage`."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:529
-#: ../../source/wapt-usage/wapt-console-detail.rst:537
-#: ../../source/wapt-usage/wapt-console-detail.rst:585
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:511
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:519
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:567
 msgid "Configuration options for the WAPT console"
 msgstr "Options de configuration de la console WAPT"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:531
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:513
 msgid ":guilabel:`Basic` tab for basic options;"
 msgstr "onglet :guilabel:`Basique` des options de base ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:542
-#: ../../source/wapt-usage/wapt-console-detail.rst:590
-#: ../../source/wapt-usage/wapt-console-detail.rst:611
-#: ../../source/wapt-usage/wapt-console-detail.rst:685
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:524
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:572
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:593
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:667
 msgid "Arguments"
 msgstr "Paramètres"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:544
-#: ../../source/wapt-usage/wapt-console-detail.rst:592
-#: ../../source/wapt-usage/wapt-console-detail.rst:613
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:526
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:574
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:595
 msgid "Example"
 msgstr "Exemple"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:545
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:527
 msgid "WAPT Server IP address"
 msgstr "Adresse du serveur WAPT"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:546
-#: ../../source/wapt-usage/wapt-console-detail.rst:552
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:528
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:534
 msgid "URL of the WAPT Server"
 msgstr "URL de votre serveur WAPT"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:547
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:529
 msgid "*srvwapt.mydomain.lan*"
 msgstr "srvwapt.mydomain.lan"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:548
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:530
 msgid "URL of the main WAPT repository"
 msgstr "URL du dépôt principal"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:549
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:531
 msgid ""
 "URL of the main WAPT repository (only if :guilabel:`Specify manually` is "
 "checked)"
 msgstr "URL du dépôt principal (uniquement si spécifier manuellement est coché)"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:551
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:533
 msgid "http://srvwapt.mydomain.lan/wapt/"
 msgstr "https://srvwapt.mydomain.lan/wapt/"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:553
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:535
 msgid "URL of the WAPT Server (only if :guilabel:`Specify manually` is checked)"
 msgstr "URL du serveur WAPT (uniquement si spécifier manuellement est coché)"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:554
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:536
 msgid "*https://srvwapt.mydomain.lan/*"
 msgstr "https://srvwapt.mydomain.lan/"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:555
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:537
 msgid "Verifying the HTTPS certificate"
 msgstr "Vérification du certificat https"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:556
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:538
 msgid "Indicates whether the HTTPS certificate must be verified"
 msgstr "Indique si le certificat https doit être verifié"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:557
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:539
 msgid "yes"
 msgstr "yes"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:558
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:540
 msgid "Path to the bundle of certificates"
 msgstr "Chemin vers le bundle de certificats"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:559
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:541
 msgid ""
 "Path to the bundle of certificates that will allow certificates to be "
 "verified"
 msgstr "Chemin vers le bundle de certificats qui permettera la vérification https"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:561
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:543
 msgid ""
 "Visit :ref:`the documentation on activating HTTPS verification "
 "<activating_HTTPS_certificate_verification>`"
@@ -1098,105 +1063,106 @@ msgstr ""
 "Voir :ref:`la documentation pour activer la vérification du certificat "
 "HTTPS <activating_HTTPS_certificate_verification>`."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:563
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:545
 msgid "Prefix to use when creating packages. Ex: *tis* or *demo*"
 msgstr "Préfixe pour la création de paquets WAPT"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:564
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:546
 msgid "Prefix that is given to packages during replication."
 msgstr "Préfixe donné aux paquets lors de la duplication."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:565
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:547
 msgid "prefix"
 msgstr "prefix"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:566
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:548
 msgid "Path to the Administrator's personal certificate"
 msgstr "Chemin du certificat personnel"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:567
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:549
 msgid ""
 "Path to the certificate associated with the private key used to sign "
 "packages"
 msgstr "Chemin vers le certificat associée a la clé privé pour signer les paquets"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:569
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:551
 msgid ":file:`C:\\\\private\\\\mykey.crt`"
-msgstr ":file:`C:\\private\\mykey.crt`"
+msgstr ":file:`C:\\\\private\\\\mykey.crt`"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:573
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:555
+#, fuzzy
 msgid ""
 "The button :guilabel:`Get the server certificate` downloads the WAPT "
-"Server HTTPS certificate to :file:`WAPT\\ssl\\serveur` and tells the WAPT"
-" console to verify HTTPS connections using that bundle of certificates. "
-"The method is called **Certificate pinning**. Before downloding the HTTPS"
-" certificate, you must be sure that you are connecting with the right "
-"server."
+"Server HTTPS certificate to :file:`WAPT\\\\ssl\\\\server` and tells the "
+"WAPT console to verify HTTPS connections using that bundle of "
+"certificates. The method is called **Certificate pinning**. Before "
+"downloding the HTTPS certificate, you must be sure that you are "
+"connecting with the right server."
 msgstr ""
 "Le bouton :guilabel:`Récupération du certificat serveur` permet de "
 "télécharger le certificat HTTPS du serveur dans "
-":file:`WAPT\\ssl\\serveur` et d'indiquer à la console de vérifier la "
+":file:`WAPT\\\\ssl\\\\server` et d'indiquer à la console de vérifier la "
 "connexion HTTPS avec ce bundle. Vous faites ainsi du certificat pinning. "
 "Vous devez en revanche être certain de communiquer avec le bon serveur "
 "quand vous cliquez sur le bouton."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:579
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:561
 msgid ":guilabel:`Advanced` tab for advanced options;"
 msgstr "onglet :guilabel:`Avancé` des options avancées ;"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:587
-#: ../../source/wapt-usage/wapt-console-detail.rst:608
-#: ../../source/wapt-usage/wapt-console-detail.rst:676
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:569
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:590
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:658
 msgid ":header-rows: 1"
 msgstr ":header-rows: 1"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:593
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:575
 msgid "Path to waptdev folder"
 msgstr "Répertoire de base pour waptdev"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:594
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:576
 msgid "Indicates the path to the directory for storing packages being developed"
 msgstr ""
 "Indique le répertoire pour le stockage des paquets en cours de "
 "développement"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:595
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:577
 msgid ":file:`C:\\\\waptdev`"
-msgstr ":file:`C:\\waptdev`"
+msgstr ":file:`C:\\\\waptdev`"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:596
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:578
 msgid "HTTP proxy to use"
 msgstr "Proxy http à utiliser"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:597
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:579
 msgid ""
 "Indicates a proxy server to be used by the WAPT console when accessing "
 "the WAPT repository or the WAPT Server"
 msgstr "Indique un proxy a utiliser par l'agent wapt pour contacter le serveur"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:599
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:581
 msgid "*http://srvproxy.mydomain.local:8080*"
 msgstr "http://srvproxy.mydomain.lan:8080"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:600
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:582
 msgid "Activating the proxy"
 msgstr "Activation du proxy"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:601
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:583
 msgid ""
 "Activate proxy settings for connecting to the WAPT repository or the WAPT"
 " Server"
 msgstr "Active le proxy pour le dépôt et / ou le serveur"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:603
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:585
 msgid "False"
 msgstr "False"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:614
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:596
 msgid "Maximum number of hosts to be displayed in the console"
 msgstr "Nombre maximum de poste affiché"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:615
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:597
 msgid ""
 "Indicates the maximum number of hosts to be displayed in the WAPT "
 "console, so to optimize the behavior of the console."
@@ -1204,62 +1170,62 @@ msgstr ""
 "Indique le nombre de poste maximum à afficher. (ce paramétrage permet "
 "d'optimiser la console)"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:617
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:599
 msgid "2000"
 msgstr "2000"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:618
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:600
 msgid "Langage"
 msgstr "Language"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:619
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:601
 msgid "Selects the langage for the WAPT console"
 msgstr "Défnit la langue pour la console wapt"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:620
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:602
 msgid "English"
 msgstr "English"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:621
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:603
 msgid "Showing debug informations in the WAPT console"
 msgstr "Voir les informations de debug"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:622
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:604
 msgid "Shows debug informations in the WAPT console"
 msgstr ""
 "Permet d'afficher les informations de debug dans la console (il n'est pas"
 " conseillé d'activer ce paramétrage)"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:623
-#: ../../source/wapt-usage/wapt-console-detail.rst:626
-#: ../../source/wapt-usage/wapt-console-detail.rst:629
-#: ../../source/wapt-usage/wapt-console-detail.rst:632
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:605
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:608
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:611
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:614
 msgid "True"
 msgstr "True"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:624
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:606
 msgid "Allow third-party tools in the contextual menus of the hosts"
 msgstr "Autoriser les outils externe dans les menus contextuels des hôtes"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:625
-#: ../../source/wapt-usage/wapt-console-detail.rst:628
-#: ../../source/wapt-usage/wapt-console-detail.rst:631
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:607
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:610
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:613
 msgid "TODO"
 msgstr "TODO"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:627
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:609
 msgid "Activate administration functionalities"
 msgstr "Activer les fonctionalités d'administration"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:630
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:612
 msgid "Hide unavailable options"
 msgstr "Cacher les actions non disponibles"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:637
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:619
 msgid "Generating a new public certificate"
 msgstr "Générer un nouveau certificat public"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:641
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:623
 msgid ""
 "Generating a new public certificate allows to actualize an existing "
 "public certificate without having to regenerate a public key/ certificate"
@@ -1268,17 +1234,17 @@ msgstr ""
 "La génération d'un nouveau certificat public permet d'actualiser le "
 "certificat public sans recréer de couple clé privée / certificat public."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:644
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:626
 msgid ""
 "For that purpose, go to :menuselection:`Tools --> Generate a new "
 "certificate`"
 msgstr "Pour cela cliquer sur :menuselection:`Outils --> Création de certificat`"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:650
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:632
 msgid "Generate a self-signed certificate"
 msgstr "Générer un certificat auto-signé"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:652
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:634
 msgid ""
 "The private key is recovered from current settings, change the **Common "
 "Name** and regenerate a new certificate."
@@ -1286,51 +1252,51 @@ msgstr ""
 "La clé privée est récupérée depuis la configuration existante, changer le"
 " ``Common Name`` puis générer le nouveau certificat."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:655
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:637
 msgid "The old certificate will be invalidated."
 msgstr "L'ancien certificat sera écrasé."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:661
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:643
 msgid "New public certificate has been created"
 msgstr "Génération du certificat public confirmé"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:664
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:646
 msgid "Adding plugins in the Console"
 msgstr "Ajouter des plugins dans la console"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:668
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:650
 msgid ""
 "To add plugins, go to :menuselection:`Tools --> preference --> plugins "
 "Tab`."
 msgstr "Pour cela cliquer sur :menuselection:`Outils --> Préférences --> Plugins`."
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:674
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:656
 msgid "Click :guilabel:`Add` to add plugins, then edit the corresponding columns"
 msgstr ""
 "Cliquer sur :guilabel:`Ajouter` pour ajouter des plugins, puis éditer les"
 " colonnes correspondantes"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:679
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:661
 msgid "Column"
 msgstr "Colonne"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:681
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:663
 msgid "Name"
 msgstr "Nom"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:682
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:664
 msgid "Name that will appear in the menu"
 msgstr "Nom qui apparaîtra dans le menu"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:683
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:665
 msgid "Executable"
 msgstr "Exécutable"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:684
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:666
 msgid "Path of the executable that will be executed after the click"
 msgstr "Chemin vers l'exécutable qui sera exécuté après le clic"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:686
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:668
 msgid ""
 "Arguments passed to the executable. Some variables can be used like {ip},"
 " {uuid} or {computer_fqdn}"
@@ -1338,7 +1304,46 @@ msgstr ""
 "Arguments passés à l'exécutable. Des variables peuvent être employées "
 "telles {ip}, {uuid} or {computer_fqdn}"
 
-#: ../../source/wapt-usage/wapt-console-detail.rst:688
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console-detail.rst:670
 msgid "Plugins will then appear in the menu :"
 msgstr "Les plugins apparaîtront alors dans le menu :"
+
+#~ msgid "Filters and actions available with Organizational Units"
+#~ msgstr "Filtres et actions avec les Unités Organisationnelles"
+
+#~ msgid "WAPT console showing options applicable to OU"
+#~ msgstr "Console WAPT affichant les options applicables aux UO"
+
+#~ msgid ""
+#~ "In the **Enterprise** version, you may"
+#~ " filter how hosts are displayed based"
+#~ " on the Active Directory :abbr:`OU "
+#~ "(Organizational Units)` they belong to."
+#~ msgstr ""
+#~ "**En version entreprise**, vous pouvez "
+#~ "filtrer l'affichage des postes en "
+#~ "fonction des :abbr:`UO (Unités "
+#~ "Organisationelles)` dans laquelle ils sont "
+#~ "placés dans l'Active Directory"
+
+#~ msgid ""
+#~ "The checkbox :guilabel:`Include hosts in "
+#~ "subfolders` allows to display hosts in"
+#~ " subfolders."
+#~ msgstr ""
+#~ "La case :guilabel:`Inclure les postes "
+#~ "des sous dossiers` permet d'afficher les"
+#~ " machines présentes dans les sous-"
+#~ "dossiers."
+
+#~ msgid ""
+#~ "You may also choose to create "
+#~ "*unit* packages by :menuselection:`Right "
+#~ "clicking on an OU --> Create or"
+#~ " edit the unit package`."
+#~ msgstr ""
+#~ "Vous pouvez également créer des paquet"
+#~ " *unit* avec un :menuselection:`clic droit"
+#~ " sur une UO --> Créer ou éditer"
+#~ " le paquet de l'Unité Organisationnelle`."
 

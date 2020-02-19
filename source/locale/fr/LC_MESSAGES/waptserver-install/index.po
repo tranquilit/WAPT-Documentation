@@ -98,7 +98,7 @@ msgstr "le nom des machines et du serveur ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/index.rst:51
 msgid "the path to the folder :file:`C:\\\\waptdev`;"
-msgstr "le chemin ver le répertoire :file:`C:\\waptdev` ;"
+msgstr "le chemin ver le répertoire :file:`C:\\\\waptdev` ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/index.rst:54
 msgid "Hardware recommendations"

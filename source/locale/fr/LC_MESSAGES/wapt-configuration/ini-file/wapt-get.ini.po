@@ -186,7 +186,7 @@ msgstr "Port local HTTPS d'écoute du service WAPT."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:72
 msgid "``dbdir`` = :file:`C:\\\\Program Files(x86)\\\\wapt\\\\db`"
-msgstr "``dbdir`` = :file:`C:\\Program Files(x86)\\wapt\\db`"
+msgstr "``dbdir`` = :file:`C:\\\\Program Files(x86)\\\\wapt\\\\db`"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:72
 msgid "Folder where the database :file:`waptdb.sqlite` file will be stored."
@@ -370,7 +370,7 @@ msgid ""
 "repository may have its own folder of authorized certificates."
 msgstr ""
 "Répertoire des certificats autorisés pour la vérification de _signature_ "
-"des paquets. Par défaut : ``<wapt_base_dir>\\ssl``. Seuls fes fichiers "
+"des paquets. Par défaut : ``<wapt_base_dir>\\\\ssl``. Seuls fes fichiers "
 "dans ce répertoire avec l'extension :file:`.crt` ou :file:`.pem` sont "
 "pris en compte. Il peut y avoir plusieurs certificats X509 dans chaque "
 "fichier. Les certificats de paquets autorisés sont ceux dont la signature"
@@ -455,7 +455,7 @@ msgid ""
 msgstr ""
 "Ce paramètre est également à définir dans la configuration de la console "
 "WAPT située dans "
-":file:`C:\\Users\\%username%\\AppData\\Local\\waptconsole\\\\waptconsole.ini`."
+":file:`C:\\\\Users\\\\%username%\\\\AppData\\\\Local\\\\waptconsole\\\\waptconsole.ini`."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:173
 msgid ""
@@ -555,7 +555,7 @@ msgstr "Paramètres pour la création de paquets"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:225
 msgid "``personal_certificate_path`` = C:\\\\private\\\\org-coder.crt"
-msgstr "``personal_certificate_path`` = C:\\private\\org-codeur.crt"
+msgstr "``personal_certificate_path`` = C:\\\\private\\\\org-codeur.crt"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:225
 msgid "Path to the Administrator's private key"
@@ -563,7 +563,7 @@ msgstr "Chemin de la clé privée qui permettra de signer les paquets."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:226
 msgid "``default_sources_root`` = C:\\\\waptdev"
-msgstr "``default_sources_root`` = C:\\waptdev"
+msgstr "``default_sources_root`` = C:\\\\waptdev"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:226
 msgid "Directory for storing packages in development"
@@ -571,7 +571,7 @@ msgstr "Répertoire de développement des paquets."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:227
 msgid "``default_sources_root_host`` = C:\\\\waptdev\\\\hosts"
-msgstr "``default_sources_root_host`` = C:\\waptdev\\hosts"
+msgstr "``default_sources_root_host`` = C:\\\\waptdev\\\\hosts"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:227
 msgid "Directory for storing host packages in development"

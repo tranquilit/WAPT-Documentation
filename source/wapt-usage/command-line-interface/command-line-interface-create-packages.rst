@@ -32,7 +32,7 @@ You will find the complete procedure for :ref:`creating WAPT packages
     computer, :program:`PyScripter` editor will launch automatically
     and open the package in development mode.
 
-The command :code:`wapt-get make-template C:\Users\User\Downloads\tightvnc-2.8.5-gpl-setup-64bit.msi tis-tightvnc`
+The command :code:`wapt-get make-template C:\\Users\\User\\Downloads\\tightvnc-2.8.5-gpl-setup-64bit.msi tis-tightvnc`
 returns:
 
 .. code-block:: bash
@@ -158,7 +158,7 @@ a package with the private key of the :term:`Administrator`.
   :command:`sign-package` does not rename the WAPT package with the chosen
   prefix of the :term:`Organization`.
 
-The command :code:`wapt-get sign-package C:\waptdev\smp-7zip_16.4.0.0-1_all.wapt`
+The command :code:`wapt-get sign-package C:\\waptdev\\smp-7zip_16.4.0.0-1_all.wapt`
 returns:
 
 .. code-block:: bash
@@ -199,7 +199,7 @@ and uploads a WAPT package onto the main WAPT repository.
   version number is incremented before upload, so to avoid having to modify
   manually the :file:`control` file.
 
-The command :code:`wapt-get -i build-upload C:\waptdev\tis-tightvnc-wapt`
+The command :code:`wapt-get -i build-upload C:\\waptdev\\tis-tightvnc-wapt`
 returns:
 
 .. code-block:: bash
@@ -281,7 +281,7 @@ wapt-get upload-package
 The :command:`wapt-get upload-package <path to the package>` command uploads
 a package onto the main WAPT repository.
 
-The command :code:`wapt-get upload-package C:\waptdev\tis-tightvnc_2.8.5.0-1_all.wapt`
+The command :code:`wapt-get upload-package C:\\waptdev\\tis-tightvnc_2.8.5.0-1_all.wapt`
 returns:
 
 .. code-block:: bash
@@ -297,7 +297,7 @@ wapt-get update-packages
 The :command:`wapt-get update-packages <path to folder>` command scans
 a local repository and creates the :file:`Packages` index file.
 
-The command :code:`wapt-get update-packages D:\Data\WAPT` returns:
+The command :code:`wapt-get update-packages D:\\Data\\WAPT` returns:
 
 .. code-block:: bash
 

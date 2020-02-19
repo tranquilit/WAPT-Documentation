@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 14:09+0100\n"
+"POT-Creation-Date: 2020-02-19 17:05+0100\n"
 "PO-Revision-Date: 2019-02-27 12:05+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -14,26 +14,26 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: ../../source/wapt-usage/wapt-console.rst:8
-#: ../../source/wapt-usage/wapt-console.rst:15
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:8
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:15
 msgid "Using the WAPT console"
 msgstr "Utiliser la console WAPT"
 
-#: ../../source/wapt-usage/wapt-console.rst:8
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:8
 msgid "WAPT, console, documentation"
 msgstr "WAPT, console, documentation"
 
-#: ../../source/wapt-usage/wapt-console.rst:18
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:18
 msgid "Installing the WAPT agent on the devices of your Organization"
 msgstr "Installer l'agent sur les postes utilisateur"
 
-#: ../../source/wapt-usage/wapt-console.rst:20
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:20
 msgid "If you have not done so already, install the WAPT agent on a computer."
 msgstr ""
 "Si vous ne l'avez pas déjà fait, installer l'agent WAPT sur un poste "
 "utilisateur."
 
-#: ../../source/wapt-usage/wapt-console.rst:22
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:22
 msgid ""
 "The installation of the WAPT agent on computers will register them on the"
 " WAPT inventory server."
@@ -41,11 +41,11 @@ msgstr ""
 "L'installation de l'agent WAPT sur un client va enclencher "
 "l'enregistrement du client dans l'inventaire du serveur WAPT."
 
-#: ../../source/wapt-usage/wapt-console.rst:25
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:25
 msgid "The hosts will then appear in the WAPT console."
 msgstr "Le client apparaîtra alors dans la console WAPT."
 
-#: ../../source/wapt-usage/wapt-console.rst:27
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:27
 msgid ""
 "To install the WAPT agent manually on a computer, download the WAPT agent"
 " from https://wapt_server/wapt/waptagent.exe then launch its "
@@ -55,11 +55,11 @@ msgstr ""
 " l'agent WAPT : https://wapt/wapt/waptagent.exe puis lancer son "
 "installation."
 
-#: ../../source/wapt-usage/wapt-console.rst:34
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:34
 msgid "Download the WAPT agent to be deployed on computers"
 msgstr "Télécharger l'agent WAPT à déployer sur les clients"
 
-#: ../../source/wapt-usage/wapt-console.rst:38
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:38
 msgid ""
 "If you have skipped the step for creating the WAPT agent, return to the "
 "documentation on :ref:`installing the WAPT agent <install_waptagent>`."
@@ -68,17 +68,17 @@ msgstr ""
 "documentation pour :ref:`créer et déployer l'agent WAPT "
 "<install_waptagent>`."
 
-#: ../../source/wapt-usage/wapt-console.rst:41
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:41
 msgid "On your **management computer**, hosts are displayed in the WAPT console."
 msgstr ""
 "Sur votre **poste de management**, dans la console "
 ":program:`waptconsole.exe` doit apparaître le client dans la console."
 
-#: ../../source/wapt-usage/wapt-console.rst:47
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:47
 msgid "Inventory of hosts registered with WAPT"
 msgstr "Inventaire des clients enregistrés dans WAPT"
 
-#: ../../source/wapt-usage/wapt-console.rst:51
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:51
 msgid ""
 "If a host does not appear in the console after having installed the WAPT "
 "agent, open the Windows command line utility :program:`cmd.exe` on the "
@@ -88,27 +88,27 @@ msgstr ""
 "l'installation de l'agent, taper manuellement la commande ``wapt-get "
 "register -S`` sur le client."
 
-#: ../../source/wapt-usage/wapt-console.rst:56
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:56
 msgid "Duplicating packages from external repositories"
 msgstr "Dupliquer des paquets"
 
-#: ../../source/wapt-usage/wapt-console.rst:63
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:63
 msgid "Package duplication principles"
 msgstr "Principe de duplication de paquets"
 
-#: ../../source/wapt-usage/wapt-console.rst:65
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:65
 msgid "Duplicating a WAPT package consists of:"
 msgstr "La duplication consiste à :"
 
-#: ../../source/wapt-usage/wapt-console.rst:67
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:67
 msgid "importing an existing WAPT package from an external repository;"
 msgstr "importer un paquet WAPT existant depuis un dépôt externe ;"
 
-#: ../../source/wapt-usage/wapt-console.rst:69
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:69
 msgid "changing its prefix (for example from *tis* to *test*);"
 msgstr "changer le préfixe (par exemple de *tis* à *test*) ;"
 
-#: ../../source/wapt-usage/wapt-console.rst:71
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:71
 msgid ""
 "resigning the WAPT package with the :term:`Administrator`'s private key "
 "to allow the deployment of the duplicated package on your WAPT equipped "
@@ -117,11 +117,11 @@ msgstr ""
 "re-signer le paquet avec votre clé privée d':term:`Administrateur` pour "
 "permettre le déploiement du paquet dupliqué sur vos postes clients ;"
 
-#: ../../source/wapt-usage/wapt-console.rst:74
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:74
 msgid "finally, uploading it on the main WAPT repository;"
 msgstr "et enfin, uploader celui-ci sur votre dépôt WAPT ;"
 
-#: ../../source/wapt-usage/wapt-console.rst:78
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:78
 msgid ""
 "By importing a package in your repository and signing it, you then become"
 " responsible for that package and for what it does. **It has been signed "
@@ -130,7 +130,7 @@ msgstr ""
 "En important un paquet dans votre dépôt, vous devenez responsable de ce "
 "paquet. **Il est signé avec votre signature**."
 
-#: ../../source/wapt-usage/wapt-console.rst:82
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:82
 msgid ""
 "**Tranquil IT** disclaims any liability if you choose to use WAPT "
 "packages retrieved from her repositories. Without a support contract, "
@@ -145,19 +145,19 @@ msgstr ""
 "du paquet à être conforme à aux politiques internes de sécurité de votre "
 ":term:`Organisation`."
 
-#: ../../source/wapt-usage/wapt-console.rst:88
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:88
 msgid "go to the :guilabel:`Private repository` tab;"
 msgstr "se rendre dans l'onglet :guilabel:`Dépôt privé` ;"
 
-#: ../../source/wapt-usage/wapt-console.rst:94
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:94
 msgid "Available software displayed in the WAPT console"
 msgstr "Logiciels disponibles dans les dépôts dans la console WAPT"
 
-#: ../../source/wapt-usage/wapt-console.rst:96
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:96
 msgid "Every software package version available on the WAPT repository is shown."
 msgstr "On obtient tous les paquets logiciels présents sur le dépôt WAPT."
 
-#: ../../source/wapt-usage/wapt-console.rst:98
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:98
 msgid ""
 "If no packages has been imported, the list is empty. Only the *test-"
 "waptupgrade* package will be present if the WAPT agent has been generated"
@@ -168,15 +168,15 @@ msgstr ""
 "``test-waptupgrade`` sera présent :ref:`si l'agent WAPT a été généré "
 "précédemment <create_WAPT_agent>`."
 
-#: ../../source/wapt-usage/wapt-console.rst:102
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:102
 msgid "Two options are available to import packages:"
 msgstr "Deux possibilités existent pour importer des paquets :"
 
-#: ../../source/wapt-usage/wapt-console.rst:105
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:105
 msgid "Import a package from an external repository on the Internet"
 msgstr "Importer depuis internet"
 
-#: ../../source/wapt-usage/wapt-console.rst:107
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:107
 msgid ""
 "That first method allows to download packages directly from a WAPT "
 "repository external to your :term:`Organization`."
@@ -184,7 +184,7 @@ msgstr ""
 "Cette première méthode permet de télécharger des paquets directement "
 "depuis des dépôts WAPT extérieurs à votre :term:`Organisation`."
 
-#: ../../source/wapt-usage/wapt-console.rst:110
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:110
 msgid ""
 "To import from a different repository than Tranquil IT, define a new "
 "repository address in the WAPT console preferences. For example: "
@@ -194,7 +194,7 @@ msgstr ""
 " dans les préférences l'adresse d'un autre dépôt WAPT. Par exemple : "
 "https://wapt.autredomaine.local/wapt/."
 
-#: ../../source/wapt-usage/wapt-console.rst:116
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:116
 msgid ""
 "If no repository is set, the repository https://wapt.tranquil.it/wapt "
 "will be implicitly set."
@@ -202,7 +202,7 @@ msgstr ""
 "si aucun dépôt n'est renseigné, la valeur https://wapt.tranquil.it/wapt "
 "sera la valeur implicite ;"
 
-#: ../../source/wapt-usage/wapt-console.rst:119
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:119
 msgid ""
 "Starting with WAPT 1.3.12.13, **external repository SSL/ TLS certificates"
 " are verified by default**."
@@ -210,21 +210,21 @@ msgstr ""
 "à partir de la version 1.3.12.13, la vérification de la validité du "
 "certificat SSL / TLS du dépôt extérieur est **activée par défaut** ;"
 
-#: ../../source/wapt-usage/wapt-console.rst:122
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:122
 msgid "click on :guilabel:`Import from Internet`;"
 msgstr "cliquer sur :guilabel:`Importer` depuis internet ;"
 
-#: ../../source/wapt-usage/wapt-console.rst:128
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:128
 msgid "Import a package from Internet"
 msgstr "Importer un paquet depuis internet"
 
-#: ../../source/wapt-usage/wapt-console.rst:130
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:130
 msgid ""
 "The grid view displays the list of available packages on the remote "
 "repository."
 msgstr "La liste affiche les paquets disponibles sur le serveur distant."
 
-#: ../../source/wapt-usage/wapt-console.rst:132
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:132
 msgid ""
 "to import a package, select a package then :menuselection:`Right-click "
 "--> Import`;"
@@ -232,52 +232,52 @@ msgstr ""
 "pour importer un paquet, sélectionner un paquet puis :menuselection"
 ":`clic-droit --> importer` ;"
 
-#: ../../source/wapt-usage/wapt-console.rst:139
-#: ../../source/wapt-usage/wapt-console.rst:262
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:139
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:262
 msgid "Imported WAPT package in your local WAPT repository"
 msgstr "Importer un paquet dans le dépôt"
 
-#: ../../source/wapt-usage/wapt-console.rst:141
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:141
 msgid "validate the duplication in your local repository;"
 msgstr "valider la duplication dans le dépôt local ;"
 
-#: ../../source/wapt-usage/wapt-console.rst:147
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:147
 msgid "Confirm the duplication of the package"
 msgstr "Confirmer la duplication du paquet"
 
-#: ../../source/wapt-usage/wapt-console.rst:149
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:149
 msgid "click on :guilabel:`Yes` to confirm the duplication;"
 msgstr "cliquer sur :guilabel:`Oui` pour confirmer ;"
 
-#: ../../source/wapt-usage/wapt-console.rst:151
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:151
 msgid "the download of the package starts ..."
 msgstr "le téléchargement démarre ..."
 
-#: ../../source/wapt-usage/wapt-console.rst:157
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:157
 msgid "Progress of the package duplication process"
 msgstr "Progression de la duplication du paquet"
 
-#: ../../source/wapt-usage/wapt-console.rst:159
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:159
 msgid "then, enter your private key password..."
 msgstr "entrer le mot de passe de votre clé privée ;"
 
-#: ../../source/wapt-usage/wapt-console.rst:165
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:165
 msgid "Enter the password for unlocking the private key"
 msgstr "Entrer le mot de passe de la clé privée"
 
-#: ../../source/wapt-usage/wapt-console.rst:167
-#: ../../source/wapt-usage/wapt-console.rst:246
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:167
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:246
 msgid ""
 "The WAPT console confirms that the package has been duplicated in your "
 "local WAPT repository."
 msgstr "La console confirme la duplication du paquet dans le dépôt WAPT local."
 
-#: ../../source/wapt-usage/wapt-console.rst:174
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:174
 msgid "Confirmation of successful duplication"
 msgstr "Confirmation de la réussite de la duplication"
 
-#: ../../source/wapt-usage/wapt-console.rst:176
-#: ../../source/wapt-usage/wapt-console.rst:255
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:176
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:255
 msgid ""
 "The package then appears in your local WAPT repository with your "
 "Organization's prefix."
@@ -285,11 +285,11 @@ msgstr ""
 "Le paquet apparaît bien dans le dépôt WAPT local avec le préfixe de "
 "l'organisation :"
 
-#: ../../source/wapt-usage/wapt-console.rst:183
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:183
 msgid "WAPT console displaying the duplicated package"
 msgstr "Console WAPT affichant le paquet dupliqué"
 
-#: ../../source/wapt-usage/wapt-console.rst:187
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:187
 msgid ""
 "If the verification of the package signature is enabled, the public "
 "certificate of the signer must be located in one of the following "
@@ -299,15 +299,16 @@ msgstr ""
 "Internet est activée, le certificat public doit être présent dans un des "
 "dossiers suivants :"
 
-#: ../../source/wapt-usage/wapt-console.rst:190
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:190
 msgid ":file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl`;"
 msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
 
-#: ../../source/wapt-usage/wapt-console.rst:192
-msgid ":file:`%appdata%\\waptconsole\\ssl`;"
-msgstr ":file:`%appdata%\\waptconsole\\ssl` ;"
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:192
+#, fuzzy
+msgid ":file:`%appdata%\\\\waptconsole\\\\ssl`;"
+msgstr ":file:`%appdata%\\\\waptconsole\\\\ssl` ;"
 
-#: ../../source/wapt-usage/wapt-console.rst:194
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:194
 msgid ""
 "If the certificate is not found in one of these two folders, then the "
 "following error will occur and the package will not be imported."
@@ -315,15 +316,15 @@ msgstr ""
 "Si ce n'est pas le cas, l'erreur suivante se produira et empêchera "
 "l'import du paquet depuis ce dépôt."
 
-#: ../../source/wapt-usage/wapt-console.rst:201
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:201
 msgid "Error while validating the signature of the external repository"
 msgstr "Erreur lors de la validation de la signature du dépôt extérieur"
 
-#: ../../source/wapt-usage/wapt-console.rst:204
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:204
 msgid "Editing a package before importing it"
 msgstr "Editer un paquet avant de l'importer"
 
-#: ../../source/wapt-usage/wapt-console.rst:206
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:206
 msgid ""
 "Starting with WAPT 1.3.12.13, it is now possible to edit a package "
 "downloaded from an external repository before importing it in your main "
@@ -333,7 +334,7 @@ msgstr ""
 "directement un paquet depuis le dépôt externe avant de l'importer dans le"
 " dépôt local."
 
-#: ../../source/wapt-usage/wapt-console.rst:209
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:209
 msgid ""
 "To achieve this, choose instead the second option :guilabel:`Download and"
 " Edit` to import the package from an external WAPT repository."
@@ -341,17 +342,17 @@ msgstr ""
 "Pour cela, choisir la deuxième option :guilabel:`Télécharger et éditer` "
 "lors de l'import du paquet depuis Internet."
 
-#: ../../source/wapt-usage/wapt-console.rst:216
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:216
 msgid "Process for importing and editing a package"
 msgstr "Procédure pour télécharger et éditer un paquet"
 
-#: ../../source/wapt-usage/wapt-console.rst:218
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:218
 msgid ":program:`PyScripter`, if installed, opens the WAPT package."
 msgstr ""
 "L'éditeur :program:`PyScripter`, si installé au préalable, s'ouvre alors "
 "avec le projet WAPT du paquet."
 
-#: ../../source/wapt-usage/wapt-console.rst:220
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:220
 msgid ""
 "Please refer to the documentation on :ref:`creating WAPT packages from "
 "scratch <creating_WAPT_packages>`."
@@ -359,45 +360,45 @@ msgstr ""
 "Voir la documentation pour savoir comment :ref:`créer des paquets WAPT "
 "<creating_WAPT_packages>`."
 
-#: ../../source/wapt-usage/wapt-console.rst:224
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:224
 msgid "Importing a WAPT package from a file"
 msgstr "Importer depuis un fichier"
 
-#: ../../source/wapt-usage/wapt-console.rst:226
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:226
 msgid "That second method allows to import a :file:`.wapt` file from any medium."
 msgstr ""
 "Cette deuxième méthode permet d'indiquer un fichier :file:`.wapt` "
 "téléchargé au préalable avec un navigateur web."
 
-#: ../../source/wapt-usage/wapt-console.rst:228
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:228
 msgid "click on :guilabel:`Import from File`;"
 msgstr "cliquer sur :guilabel:`Importer` depuis un fichier ;"
 
-#: ../../source/wapt-usage/wapt-console.rst:234
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:234
 msgid "Import from a file"
 msgstr "Importer à partir d'un fichier"
 
-#: ../../source/wapt-usage/wapt-console.rst:236
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:236
 msgid "select the file to import;"
 msgstr "sélectionner le fichier pour l'importer ;"
 
-#: ../../source/wapt-usage/wapt-console.rst:242
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:242
 msgid "Select the file to import"
 msgstr "sélectionner le fichier à importer ;"
 
-#: ../../source/wapt-usage/wapt-console.rst:244
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:244
 msgid "click on :guilabel:`Open` to import the file;"
 msgstr "cliquer sur :guilabel:`Ouvrir` pour importer le fichier ;"
 
-#: ../../source/wapt-usage/wapt-console.rst:253
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:253
 msgid "File imported successfully"
 msgstr "Importation du fichier réussie"
 
-#: ../../source/wapt-usage/wapt-console.rst:265
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:265
 msgid "Changing the prefix and re-signing a WAPT package"
 msgstr "Changer le préfixe et re-signer le paquet"
 
-#: ../../source/wapt-usage/wapt-console.rst:267
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:267
 msgid ""
 "When importing, the changing of the prefix and the re-signing of the WAPT"
 " package are transparent and automatic."
@@ -405,7 +406,7 @@ msgstr ""
 "Lors d'un import, le changement de préfixe et la re-signature sont "
 "transparents et automatiques."
 
-#: ../../source/wapt-usage/wapt-console.rst:270
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:270
 msgid ""
 "Once the package is ready, the WAPT package is uploaded onto the main "
 "WAPT repository."
@@ -413,15 +414,15 @@ msgstr ""
 "Une fois que le paquet est prêt, il est transféré vers le dépôt WAPT "
 "local."
 
-#: ../../source/wapt-usage/wapt-console.rst:274
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:274
 msgid "Deploying WAPT packages from the WAPT console"
 msgstr "Déployer des paquets depuis la console"
 
-#: ../../source/wapt-usage/wapt-console.rst:276
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:276
 msgid "edit the host onto which you want to deploy a WAPT package;"
 msgstr "éditer le poste sur lequel le logiciel sera déployé ;"
 
-#: ../../source/wapt-usage/wapt-console.rst:280
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:280
 msgid ""
 "Selecting multiple hosts using common shortcut keys :kbd:`Control-A` or "
 ":kbd:`Shift-Arrow` is possible."
@@ -429,11 +430,11 @@ msgstr ""
 "La sélection multiple en utilisant les touches habituelles "
 ":kbd:`Control-A` :kbd:`Shift-Flèche` est possible."
 
-#: ../../source/wapt-usage/wapt-console.rst:287
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:287
 msgid "Select the host to configure"
 msgstr "Sélectionner le poste à configurer"
 
-#: ../../source/wapt-usage/wapt-console.rst:289
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:289
 msgid ""
 "A window opens, on the right side appears the list of packages available "
 "on the local WAPT repository, and on the left side is shown the list of "
@@ -443,17 +444,17 @@ msgstr ""
 "dépot WAPT local et à gauche la liste des paquets actuellement attribués "
 "au poste ;"
 
-#: ../../source/wapt-usage/wapt-console.rst:293
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:293
 msgid "drag and drop packages from the right pane to the left pane;"
 msgstr ""
 "glisser-déposer le paquet souhaité depuis l'encart de droite vers "
 "l'encart de gauche ;"
 
-#: ../../source/wapt-usage/wapt-console.rst:299
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:299
 msgid "Drag and drop the package on the host or the selection of hosts"
 msgstr "Glisser-déposer le paquet sur le poste ou la sélection de postes"
 
-#: ../../source/wapt-usage/wapt-console.rst:301
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:301
 msgid ""
 "clicking on :guilabel:`Save and Apply to hosts` will launch the "
 "installation of the package(s) immediately on the selected host(s) that "
@@ -462,7 +463,7 @@ msgstr ""
 "cliquer sur :guilabel:`Enregistrer et Appliquer à la machine` lance "
 "immédiatement l'installation sur le poste concerné ;"
 
-#: ../../source/wapt-usage/wapt-console.rst:305
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:305
 msgid ""
 "clicking on :guilabel:`Save` will save the current configuration. "
 "Upgrading of the packages will occur on the the WAPT agents' next update "
@@ -472,15 +473,15 @@ msgstr ""
 "configuration. La mise à jour sera appliquée au prochain cycle de mises à"
 " jour ;"
 
-#: ../../source/wapt-usage/wapt-console.rst:313
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:313
 msgid "Save and apply configuration on selected host(s)"
 msgstr "Enregistrer et appliquer la configuration à la machine"
 
-#: ../../source/wapt-usage/wapt-console.rst:319
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:319
 msgid "Update launched"
 msgstr "Mise à jour lancée"
 
-#: ../../source/wapt-usage/wapt-console.rst:321
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:321
 msgid ""
 "To launch the installation of WAPT packages, click successively on "
 ":guilabel:`Update available packages` then :guilabel:`Apply updates`."
@@ -489,11 +490,11 @@ msgstr ""
 ":guilabel:`Lancer la mise à jour des paquets disponibles` puis "
 ":guilabel:`Lancer l'installation des paquets`."
 
-#: ../../source/wapt-usage/wapt-console.rst:328
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:328
 msgid "Applying updates"
 msgstr "Lancer la mise à jour des paquets disponibles"
 
-#: ../../source/wapt-usage/wapt-console.rst:330
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/wapt-console.rst:330
 msgid ""
 "The installation of the WAPT package(s) is launched on the selected "
 "host(s) connected to the WAPT Server."

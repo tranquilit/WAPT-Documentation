@@ -553,7 +553,7 @@ To make changes to console settings, go to :menuselection:`Tools
 .. hint::
 
   The button :guilabel:`Get the server certificate` downloads the WAPT Server
-  HTTPS certificate to :file:`WAPT\ssl\serveur` and tells the WAPT console
+  HTTPS certificate to :file:`WAPT\\ssl\\server` and tells the WAPT console
   to verify HTTPS connections using that bundle of certificates. The method
   is called **Certificate pinning**. Before downloding the HTTPS certificate,
   you must be sure that you are connecting with the right server.

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-15 16:13+0100\n"
+"POT-Creation-Date: 2020-02-19 17:49+0100\n"
 "PO-Revision-Date: 2020-02-17 17:45+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -231,8 +231,9 @@ msgid "Notepad++"
 msgstr "Notepad++"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:117
-msgid ":file:`C:\\Program Files\\Notepad++\\notepad++.exe {setup_filename}`"
-msgstr ":file:`C:\\Program Files\\Notepad++\\notepad++.exe {setup_filename}`"
+#, fuzzy
+msgid ":file:`C:\\\\Program Files\\\\Notepad++\\\\notepad++.exe {setup_filename}`"
+msgstr ":file:`C:\\\\Program Files\\\\Notepad++\\\\notepad++.exe {setup_filename}`"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:118
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:137
@@ -240,9 +241,10 @@ msgid "PyCharm"
 msgstr "PyCharm"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:118
+#, fuzzy
 msgid ""
-":file:`C:\\Program Files\\JetBrains\\PyCharm Community Edition "
-"2019.3.2\\bin\\pycharm64.exe {wapt_sources_dir}`"
+":file:`C:\\\\Program Files\\\\JetBrains\\\\PyCharm Community Edition "
+"2019.3.2\\\\bin\\\\pycharm64.exe {wapt_sources_dir}`"
 msgstr ""
 ":file:`C:\\Program Files\\JetBrains\\PyCharm Community Edition "
 "2019.3.2\\bin\\pycharm64.exe {wapt_sources_dir}`"

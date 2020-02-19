@@ -46,9 +46,9 @@ Options                                                                         
 
 ``default_package_prefix`` = tis                                                                Prefix used for naming WAPT packages.
 
-``default_sources_root`` = C:\waptdev                                                           WAPT base package development folder.
+``default_sources_root`` = C:\\waptdev                                                          WAPT base package development folder.
 
-``personal_certificate_path`` = C:\private\mykey.crt                                            Path to the certificate associated with the
+``personal_certificate_path`` = C:\\private\\mykey.crt                                          Path to the certificate associated with the
                                                                                                 :term:`Administrator`'s private key.
 
 ``send_usage_report`` = 1                                                                       Allows the WAPT console to send anonymous
@@ -59,7 +59,6 @@ Options                                                                         
 ``advanced_mode`` = 0                                                                           Launches the console in debug mode.
 
 ``verify_cert`` = C:\\Program Files (x86)\\wapt\\ssl\\server\\srvwapt.mydomain.lan.crt          For :ref:`verifying HTTPS certificates <activating_HTTPS_certificate_verification>` .
-  
 
 ``waptservice_timeout`` = 2                                                                     Timeout for actions applied to WAPT agents
                                                                                                 (ex: :command:`update`).
@@ -126,13 +125,13 @@ Settings for creating WAPT package
 
 .. tabularcolumns:: |\X{5}{12}|\X{7}{12}|
 
-===================================================== ===========================================
-Options                                               Description
-===================================================== ===========================================
-``personal_certificate_path`` = C:\private\coder.crt  Path to the private key to be used
-                                                      to sign packages.
-``default_sources_root`` = C:\waptdev                 WAPT base package development folder.
-``default_sources_root_host`` = C:\waptdev\hosts      WAPT host package development folder.
-``default_package_prefix`` = tis                      Default prefix for new WAPT packages.
-``default_sources_suffix`` = wapt                     Default suffix for new WAPT packages.
-===================================================== ===========================================
+====================================================== ===========================================
+Options                                                Description
+====================================================== ===========================================
+``personal_certificate_path`` = C:\\private\\coder.crt Path to the private key to be used
+                                                       to sign packages.
+``default_sources_root`` = C:\\waptdev                 WAPT base package development folder.
+``default_sources_root_host`` = C:\\waptdev\\hosts     WAPT host package development folder.
+``default_package_prefix`` = tis                       Default prefix for new WAPT packages.
+``default_sources_suffix`` = wapt                      Default suffix for new WAPT packages.
+====================================================== ===========================================

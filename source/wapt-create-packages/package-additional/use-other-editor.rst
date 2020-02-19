@@ -114,8 +114,8 @@ Custom editors example:
 ============ ===========================================================================================================
 Editor name  editor_for_packages value
 ============ ===========================================================================================================
-Notepad++    :file:`C:\Program Files\Notepad++\notepad++.exe {setup_filename}`
-PyCharm      :file:`C:\Program Files\JetBrains\PyCharm Community Edition 2019.3.2\bin\pycharm64.exe {wapt_sources_dir}`
+Notepad++    :file:`C:\\Program Files\\Notepad++\\notepad++.exe {setup_filename}`
+PyCharm      :file:`C:\\Program Files\\JetBrains\\PyCharm Community Edition 2019.3.2\\bin\\pycharm64.exe {wapt_sources_dir}`
 ============ ===========================================================================================================
 
 .. code-block:: ini

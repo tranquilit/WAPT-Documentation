@@ -189,7 +189,7 @@ Settings                    Value                                               
 ``/repo_url``               https://repo1.mydomain.lan/wapt                                   URL of the WAPT repository in :file:`wapt-get.ini` filled in during installation
 ``/StartPackages=``         basic-group                                                       Group of WAPT packages to install by default
 ``/verify_cert=``           1 or relative path :file:`ssl\\server\\srvwapt.mydomain.lan.crt`  Value of ``verify_cert`` entered during installation
-``/CopyServersTrustedCA``   path to a bundle to copy to :file:`ssl\server`                    Certificate bundle for https connections (to be defined by ``verify_cert``)
+``/CopyServersTrustedCA``   path to a bundle to copy to :file:`ssl\\server`                    Certificate bundle for https connections (to be defined by ``verify_cert``)
 ``/CopypackagesTrustedCA``  path to a certificate bundle to copy into :file:`ssl`             Certificate bundle for verifying package signatures
 =========================== ================================================================= =================================================================================================
 

@@ -194,7 +194,7 @@ msgstr ""
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:92
 msgid "It is also available directly in :file:`<base>\\\\waptself.exe`."
-msgstr "Il est aussi disponible directement à :file:`<base>\\waptself.exe`"
+msgstr "Il est aussi disponible directement à :file:`<base>\\\\waptself.exe`"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:94
 msgid ""
@@ -285,7 +285,7 @@ msgid ""
 "\\\\waptself-logo.png`"
 msgstr ""
 "Pour faire cela, placez simplement le logo que vous souhaitez à cet "
-"emplacement :  :file:`<wapt>\\templates\\waptself-logo.png`"
+"emplacement :  :file:`<wapt>\\\\templates\\\\waptself-logo.png`"
 
 #: ../../source/wapt-usage/wapt-selfservice.rst:135
 msgid ""

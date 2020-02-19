@@ -119,7 +119,7 @@ msgstr "La commande :command:`mkdirs` ..."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:49
 msgid "... creates the directory :file:`C:\\\\test`."
-msgstr "... crée le répertoire :file:`C:\\test`."
+msgstr "... crée le répertoire :file:`C:\\\\test`."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:58
 msgid "Commande :command:`remove_tree` ..."
@@ -127,7 +127,7 @@ msgstr "La commande :command:`remove_tree` ..."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:64
 msgid "... destroys the directory :file:`C:\\\\tmp\\\\target`."
-msgstr "... détruit le répertoire :file:`C:\\tmp\\target`."
+msgstr "... détruit le répertoire :file:`C:\\\\tmp\\\\target`."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:71
 msgid ""
@@ -153,7 +153,7 @@ msgid ""
 "... checks if :file:`C:\\\\Program Files (x86)\\\\software` is a "
 "directory."
 msgstr ""
-"... vérifie que :file:`C:\\Program Files (x86)\\software` est un "
+"... vérifie que :file:`C:\\\\Program Files (x86)\\\\software` est un "
 "répertoire."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:90
@@ -174,7 +174,7 @@ msgid ""
 "... checks if :file:`C:\\\\Program Files (x86)\\\\software\\\\file` is a "
 "file."
 msgstr ""
-"... vérifie que :file:`C:\\Program Files (x86)\\software\\file` est un "
+"... vérifie que :file:`C:\\\\Program Files (x86)\\\\software\\\\file` est un "
 "fichier."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:103
@@ -199,7 +199,7 @@ msgid ""
 "... checks that directory :file:`C:\\\\Program Files (x86)\\\\software` "
 "is empty."
 msgstr ""
-"... vérifie que le répertoire :file:`C:\\Program Files (x86)\\software` "
+"... vérifie que le répertoire :file:`C:\\\\Program Files (x86)\\\\software` "
 "est vide."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:128
@@ -216,7 +216,7 @@ msgid ""
 "(x86)\\\\software` directory."
 msgstr ""
 "... copie le fichier :file:`file.txt` dans le répertoire "
-":file:`C:\\Program Files (x86)\\software`."
+":file:`C:\\\\Program Files (x86)\\\\software`."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:147
 msgid "Copying a directory"
@@ -232,7 +232,7 @@ msgid ""
 "directory."
 msgstr ""
 "... copie le dossier :file:`sources` dans le répertoire "
-":file:`C:\\projet`."
+":file:`C:\\\\projet`."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:166
 msgid "Retrieving the version of a file"
@@ -266,7 +266,7 @@ msgid ""
 "of *HKEY_LOCAL_MACHINE*."
 msgstr ""
 "... vérifie que la clé *{8A69D345-D564-463c-AFF1-A69D9E530F96}* existe "
-"dans le répertoire :file:`SOFTWARE\\Google\\Update\\Clients` de la ruche "
+"dans le répertoire :file:`SOFTWARE\\\\Google\\\\Update\\\\Clients` de la ruche "
 "*HKEY_LOCAL_MACHINE*."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:205
@@ -289,7 +289,7 @@ msgid ""
 "*HKEY_LOCAL_MACHINE*."
 msgstr ""
 "... lit la valeur de la clé *{8A69D345-D564-463c-AFF1-A69D9E530F96}* "
-"inscrite dans le répertoire :file:`SOFTWARE\\Google\\Update\\Clients` de "
+"inscrite dans le répertoire :file:`SOFTWARE\\\\Google\\\\Update\\\\Clients` de "
 "la ruche *HKEY_LOCAL_MACHINE*."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:228
@@ -307,7 +307,7 @@ msgid ""
 "*HKEY_CURRENT_USER*."
 msgstr ""
 "... modifie la valeur de la clé *TOUVersion* dans le répertoire "
-":file:`SOFTWARE\\Microsoft\\Windows Live` de la ruche "
+":file:`SOFTWARE\\\\Microsoft\\\\Windows Live` de la ruche "
 "*HKEY_CURRENT_USER*."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:244
@@ -356,7 +356,7 @@ msgid ""
 ":file:`C:\\\\Users\\\\Public`; the shortcut is deleted for all users."
 msgstr ""
 "... supprime le raccourci :guilabel:`WAPT Console Management` du "
-"répertoire :file:`C:\\Users\\Public` ; le raccourci est supprimé pour "
+"répertoire :file:`C:\\\\Users\\\\Public` ; le raccourci est supprimé pour "
 "tous les utilisateurs."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:283
@@ -511,7 +511,7 @@ msgid ""
 "(:file:`C:\\\\Users\\\\%username%\\\\AppData\\\\Roaming`)."
 msgstr ""
 "... renvoie le profil *appdata* itinérant de l'utilisateur courant "
-"(:file:`C:\\Users\\%username%\\AppData\\Roaming`)."
+"(:file:`C:\\\\Users\\\\%username%\\\\AppData\\\\Roaming`)."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:418
 msgid ""
@@ -532,7 +532,7 @@ msgid ""
 "(:file:`C:\\\\Users\\\\%username%\\\\AppData\\\\Local`)."
 msgstr ""
 "... renvoie le profil *appdata* local de l'utilisateur courant "
-"(:file:`C:\\Users\\%username%\\AppData\\Local`)."
+"(:file:`C:\\\\Users\\\\%username%\\\\AppData\\\\Local`)."
 
 #: ../../source/wapt-create-packages/package-additional/setuphelpers-useful.rst:434
 msgid ""

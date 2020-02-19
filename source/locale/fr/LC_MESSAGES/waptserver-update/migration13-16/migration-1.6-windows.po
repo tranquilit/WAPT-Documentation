@@ -119,11 +119,11 @@ msgstr ""
 
 #: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:57
 msgid "backup the entire directory :file:`C:\\\\wapt` of the WAPT Server;"
-msgstr "sauvegardez tout le repertoire :file:`C:\\wapt` de votre server WAPT ;"
+msgstr "sauvegardez tout le repertoire :file:`C:\\\\wapt` de votre server WAPT ;"
 
 #: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:59
 msgid "backup the folder :file:`C:\\\\private`;"
-msgstr "sauvegardez le dossier :file:`C:\\private` ;"
+msgstr "sauvegardez le dossier :file:`C:\\\\private` ;"
 
 #: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:61
 msgid ""
@@ -210,7 +210,7 @@ msgid ""
 ":file:`C:\\\\wapt\\waptserver\\\\repository\\\\wapt` in "
 ":file:`/var/www/wapt/`;"
 msgstr ""
-"uploader le contenu de :file:`C:\\wapt\\waptserver\\repository\\wapt` "
+"uploader le contenu de :file:`C:\\\\wapt\\\\waptserver\\\\repository\\\\wapt` "
 "dans :file:`/var/www/wapt/` ;"
 
 #: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:119
@@ -218,7 +218,7 @@ msgid ""
 "upload the content of :file:`C:\\\\wapt\\waptserver\\\\repository"
 "\\\\wapt-host` in :file:`/var/www/wapt-host/`;"
 msgstr ""
-"uploader le contenu de :file:`C:\\wapt\\waptserver\\repository\\wapt-"
+"uploader le contenu de :file:`C:\\\\wapt\\\\waptserver\\\\repository\\\\wapt-"
 "host` dans :file:`/var/www/wapt-host/` ;"
 
 #: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:124
@@ -256,7 +256,7 @@ msgid ""
 " folder on your workstation."
 msgstr ""
 "Vous pouvez maintenant installer votre :program:`waptagent` sur votre PC "
-"d\\':term:`Administrateur`, et restaurer le dossier :file:`C:\\private`."
+"d\\':term:`Administrateur`, et restaurer le dossier :file:`C:\\\\private`."
 
 #: ../../source/waptserver-update/migration13-16/migration-1.6-windows.rst:150
 msgid ""

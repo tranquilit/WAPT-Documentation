@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-19 09:55+0100\n"
+"POT-Creation-Date: 2020-02-19 17:05+0100\n"
 "PO-Revision-Date: 2020-02-19 14:37+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -213,7 +213,7 @@ msgstr "le champ **obligatoire** :guilabel:`Certificat public` ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:112
 msgid "example : :file:`C:\\\\private\\\\mydomain.crt`"
-msgstr "exemple : :file:`C:\\private\\mydomain.crt`"
+msgstr "exemple : :file:`C:\\\\private\\\\mydomain.crt`"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:114
 msgid "the field :guilabel:`Address of the WAPT repository`: **required**;"
@@ -426,13 +426,14 @@ msgstr ""
 "l'ancienne version car l'agent n'aura pas encore été mis à jour."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:229
+#, fuzzy
 msgid ""
 "after two minutes the scheduled task starts and runs "
-":program:`waptagent.exe`. :program:`aaptagent.exe` shutdowns the local "
+":program:`waptagent.exe`. :program:`waptagent.exe` shutdowns the local "
 "WAPT service, upgrades the local WAPT install, and then restarts the "
 "service. The scheduled task is then automatically removed and the WAPT "
 "agent sends back its inventory to the WAPT server. Now the inventory on "
-"the servers will show the new version of the agent."
+"the server will show the new version of the agent."
 msgstr ""
 "après deux minutes, la tâche programmée démarre et exécute "
 ":program:`waptagent.exe`. :program:`waptagent.exe` arrête le service WAPT"
@@ -450,7 +451,8 @@ msgstr ""
 " les étapes suivantes :"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:239
-msgid "*xxx-waptupgrade* packages starts being installed;"
+#, fuzzy
+msgid "*xxx-waptupgrade* package starts being installed;"
 msgstr "le paquet *xxx-waptupgrade* commence à être installé ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/waptagent/index.rst:241

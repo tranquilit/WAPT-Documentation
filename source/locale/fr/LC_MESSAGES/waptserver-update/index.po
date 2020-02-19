@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-17 16:07+0100\n"
+"POT-Creation-Date: 2020-02-19 17:05+0100\n"
 "PO-Revision-Date: 2020-02-18 11:39+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -91,7 +91,8 @@ msgid "From WAPT 1.7"
 msgstr "Depuis WAPT 1.7"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-update/index.rst:45
-msgid "Upgrading from 1.6/1.7 to 1.8"
+#, fuzzy
+msgid "Upgrading WAPT from 1.6/1.7 to 1.8"
 msgstr "Mise à jour de 1.6/1.7 vers 1.8"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-update/index.rst:47
@@ -127,7 +128,8 @@ msgstr ""
 "ou CentOS7 ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-update/index.rst:64
-msgid "Upgrading from 1.5 to 1.6"
+#, fuzzy
+msgid "Upgrading WAPT from 1.5 to 1.6"
 msgstr "Mise à jour de 1.5 vers 1.6"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-update/index.rst:66
@@ -157,7 +159,8 @@ msgstr ""
 "être mise à jour ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-update/index.rst:79
-msgid "Upgrading from 1.3 to 1.6"
+#, fuzzy
+msgid "Upgrading WAPT from 1.3 to 1.6"
 msgstr "Mise à jour de 1.3 vers 1.6"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-update/index.rst:81
@@ -203,4 +206,23 @@ msgid ""
 msgstr ""
 "Pour la migration majeure WAPT 1.3 vers WAPT 1.6, suivez la documentation"
 " de :ref:`mise à jour majeure 1.3 vers 1.6 <upgrade_1.3_1.6>`."
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-update/index.rst:119
+msgid "Upgrading the Operating System"
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-update/index.rst:121
+msgid ""
+"In order to upgrade your WAPT server from Stretch to Buster you have to "
+"follow the standard procedure for Debian. You first modify the apt source"
+" files :file:`/etc/apt/sources.list` and "
+":file:`/etc/apt/sources.list.d/wapt.list`, then start upgrade."
+msgstr ""
+
+#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-update/index.rst:125
+msgid ""
+"By default the PostgreSQL is not upgraded to PostgreSQL 11. One needs to "
+"manually ask for upgrade. After upgrade it is possible to remove old "
+"PostgreSQL 9 database."
+msgstr ""
 

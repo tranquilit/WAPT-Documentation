@@ -140,7 +140,7 @@ msgstr "La procédure de création automatique de ce modèle de paquet :"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:96
 msgid "it creates a WAPT package folder in :file:`C:\\\\waptdev`;"
-msgstr "il crée le dossier du paquet dans :file:`C:\\waptdev` ;"
+msgstr "il crée le dossier du paquet dans :file:`C:\\\\waptdev` ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msi/index.rst:98
 msgid "it copies the MSI setup file in that directory;"

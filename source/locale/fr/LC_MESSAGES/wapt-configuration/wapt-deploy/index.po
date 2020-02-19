@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-18 12:57+0100\n"
+"POT-Creation-Date: 2020-02-19 17:49+0100\n"
 "PO-Revision-Date: 2020-02-19 14:28+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -381,7 +381,7 @@ msgstr "``/verify_cert=``"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:191
 msgid "1 or relative path :file:`ssl\\\\server\\\\srvwapt.mydomain.lan.crt`"
-msgstr "1 ou chemin relatif :file:`ssl\\server\\srvwapt.mydomain.lan.crt`"
+msgstr "1 ou chemin relatif :file:`ssl\\\\server\\\\srvwapt.mydomain.lan.crt`"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:191
 msgid "Value of ``verify_cert`` entered during installation"
@@ -392,8 +392,9 @@ msgid "``/CopyServersTrustedCA``"
 msgstr "``/CopyServersTrustedCA``"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:192
-msgid "path to a bundle to copy to :file:`ssl\\server`"
-msgstr "chemin vers un bundle à copier dans :file:`ssl\\server`"
+#, fuzzy
+msgid "path to a bundle to copy to :file:`ssl\\\\server`"
+msgstr "chemin vers un bundle à copier dans :file:`ssl\\\\server`"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:192
 msgid ""
@@ -419,7 +420,9 @@ msgstr "Bundle de certificats pour vérifier la signature des paquets"
 msgid ""
 "The :file:`iss` file for the InnoSetup installer is available here: "
 ":file:`C:\\\\Program Files (x86)\\\\wapt\\\\waptsetup\\\\waptsetup.iss`."
-msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
+msgstr ""
+"Le fichier :file:`iss` pour l'installeur InnoSetup est situé ici "
+"C:\\\\Program Files (x86)\\\\wapt\\\\ ."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:201
 msgid ""
@@ -711,14 +714,14 @@ msgstr ""
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:362
 msgid "Source : :file:`\\\\mydomain.lan\\\\netlogon\\\\waptagent.exe`"
 msgstr ""
-"Source : :file:`\\mydomain.lan\\netlogon\\waptagent.exe` Destination : "
-":file:`C:\\windows\\temp\\waptagent.exe`"
+"Source : :file:`\\\\mydomain.lan\\\\netlogon\\\\waptagent.exe` "
+"Destination : :file:`C:\\\\windows\\\\temp\\\\waptagent.exe`"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:364
 msgid "Destination : :file:`C:\\\\windows\\\\temp\\\\waptagent.exe`"
 msgstr ""
-"Source : :file:`\\mydomain.lan\\netlogon\\waptagent.exe` Destination : "
-":file:`C:\\windows\\temp\\waptagent.exe`"
+"Source : :file:`\\\\mydomain.lan\\\\netlogon\\\\waptagent.exe` "
+"Destination : :file:`C:\\\\windows\\\\temp\\\\waptagent.exe`"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:370
 msgid "WAPT agent installation progress"

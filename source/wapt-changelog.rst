@@ -2305,7 +2305,7 @@ WAPT client
   Handy when switching between several configurations. Same behaviour
   as for waptconsole. Example:
 
-  :code:`wapt-get -c site3 build-upload c:\waptdev\test-7zip-wapt`;
+  :code:`wapt-get -c site3 build-upload c:\\waptdev\\test-7zip-wapt`;
 
 * [FIX] Be sure to not loop for ever in websockets retry loop if something
   is wrong in host waptserver or websocket configuration.
