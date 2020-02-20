@@ -34,7 +34,7 @@ Installing the WAPT Agent package from Tranquil IT's public repository
 
   .. code-block:: bash
 
-    installer -pkg /Volumes/Mac/Users/johnsmith/Downloads/tis-waptagent-1.8.0.6632-tismacos-bdc0beea.pkg -target /Applications
+    installer -pkg /Volumes/Macintosh\ HD/Users/johnsmith/Downloads/tis-waptagent-1.8.0.6632-tismacos-bdc0beea.pkg -target /
 
 Creating the agent configuration file
 +++++++++++++++++++++++++++++++++++++
@@ -96,7 +96,7 @@ Registering your MacOS agent
 
   .. code-block:: bash
 
-    systemctl restart waptservice.service
+    sudo launchctl load /Library/LaunchDaemons/com.tranquilit.tis-waptagent.plist
 
 * finally, execute the following command to register your MacOS host
   with the WAPT server:
