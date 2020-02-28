@@ -144,6 +144,19 @@ pipeline {
                 verbose: false)]
         }
     }
+    stage('Clean release prod'){
+            when { tag "release-*" }
+            steps {
+                echo 'Cleanup prod'
+                sshPublisher alwaysPublishFromMaster: true, 
+                publishers: [sshPublisherDesc(configName: 'root@wapt.fr', 
+                transfers: [sshTransfer(execCommand: 'rm -rf /var/www/wapt.fr/fr/doc-1.8/*'),
+                sshTransfer(execCommand: 'rm -rf /var/www/wapt.fr/en/doc-1.8/*')], 
+                usePromotionTimestamp: false, 
+                useWorkspaceInPromotion: false, 
+                verbose: false)]
+            }
+    }
     stage('Publish release prod'){
             when { tag "release-*" }
             steps {
