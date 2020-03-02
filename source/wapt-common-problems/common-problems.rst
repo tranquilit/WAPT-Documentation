@@ -182,8 +182,16 @@ To force the application of the GPO:
 If :program:`waptdeploy` does not show up you will have
 to double check the GPO settings.
 
-You may be using an old :program:`waptdeploy` version, download the latest
-version from `here <https://store.wapt.fr/wapt/releases/latest/waptdeploy.exe>`_.
+# you may be using an old :program:`waptdeploy` version, then `download
+  the latest version <https://store.wapt.fr/wapt/releases/latest/waptdeploy.exe>`_
+  of :program:`waptdeploy` from the WAPT store.
+
+# thanks to Emmanuel EUGENE from French `INSERM <https://www.inserm.fr/en>`_
+  who submitted this possible cause for :program:`waptdeploy`
+  not functioning properly, if you are replicating domain controllers,
+  ensure that the GPOs are correctly synchronized between your DCs
+  and that :abbr:`ACLs (Access Control Lists)` are identically applied
+  on the :file:`SysVols`.
 
 Windows does not wait for the network to be up on startup
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""

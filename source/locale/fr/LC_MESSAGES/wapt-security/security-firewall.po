@@ -33,7 +33,7 @@ msgid ""
 "step towards achieving better security in WAPT."
 msgstr ""
 "La configuration du pare-feu du serveur WAPT est essentielle et devrait "
-"être la première étape vers une meilleure sécurité dans le WAPT."
+"être la première étape vers une meilleure sécurité."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-security/security-firewall.rst:20
 msgid ""
@@ -86,4 +86,3 @@ msgstr "appliquez simplement cette configuration :program:`firewalld` :"
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-security/security-firewall.rst:60
 msgid "Configuring the firewall for WAPT Server on CentOS"
 msgstr "Configurer le pare-feu pour le serveur WAPT sur CentOS"
-
