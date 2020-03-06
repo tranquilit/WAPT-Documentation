@@ -1,9 +1,14 @@
 {
-    "restructuredtext.confPath": "${workspaceFolder}\\source",
+    "python.pythonPath": "c:\\python27\\python.exe",
+    "restructuredtext.builtDocumentationPath" : "${workspaceRoot}\\build\\html",
+    "restructuredtext.updateOnTextChanged"    : "true",
+    "restructuredtext.updateDelay"            : 1000,
+    "restructuredtext.sphinxBuildPath"        : "C:\\python27\\Scripts\\sphinx-build.exe",
     "restructuredtext.linter.extraArgs": [
         "--ignore D001",
         "--ignore D002",
         "--ignore D003",
         "--ignore D004"
-    ]
-}
+    ],
+    "restructuredtext.confPath": "${workspaceFolder}\\source"
+ }

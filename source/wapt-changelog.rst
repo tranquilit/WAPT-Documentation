@@ -12,6 +12,32 @@
 Changelog
 =========
 
+WAPT-1.8.1-6758 (2020-03-06)
+---------------------------- 
+(hash bb93ce41)
+
+On server : 
+* [REF] refactoring for postconf.py / remove old migration from MongoDB
+* [REF] refactoring for winsetup.py / create now a dhparam for nginx on Windows
+* [REF] refactoring for repositories : change repo_diff by remote_repo_diff / add param remote_repo_websockets (by default to True) on server
+* [IMP] disable cache on nginx for Windows and Linux on wapt packages / exe 
+
+On agents : 
+* [REF] change param waptservice_admin_auth_allow by waptservice_admin_filter
+* [REF] delete resync functions for remote repo
+* [IMP] param local_repo_sync_task_period by default to "2h"
+* [FIX] wapt-get / waptservice debug when download a package on linux when not sudo
+* [FIX] fix for plist in macOS
+* [IMP] can now have relative path for packages/directories in wapt-get
+* [IMP] templates have by default setup_uninstall / update etc...
+* [IMP] improvements with templates for vscode
+
+On waptconsole : 
+* [IMP] add possibility of template packages for deb / rpm / pkg 
+* [FIX] Fix for msi, exe, etc in PackageWizard explorer
+* [IMP] Can now choose editor_for_packages directly in waptconsole config
+* [UPD] Some cosmetic / translations improvements for GUI to deploy waptagent 
+
 WAPT-1.8.1-6756 (2020-02-17) 
 ----------------------------
 (hash 43394f3b)
