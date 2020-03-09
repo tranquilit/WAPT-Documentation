@@ -182,8 +182,8 @@ To force the application of the GPO:
 If :program:`waptdeploy` does not show up you will have
 to double check the GPO settings.
 
-# you may be using an old :program:`waptdeploy` version, then `download
-  the latest version <https://store.wapt.fr/wapt/releases/latest/waptdeploy.exe>`_
+# you may be using an old :program:`waptdeploy` version, then
+  `download the latest version <https://store.wapt.fr/wapt/releases/latest/waptdeploy.exe>`_
   of :program:`waptdeploy` from the WAPT store.
 
 # thanks to Emmanuel EUGENE from French `INSERM <https://www.inserm.fr/en>`_

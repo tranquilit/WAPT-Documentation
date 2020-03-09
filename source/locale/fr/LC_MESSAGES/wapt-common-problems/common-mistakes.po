@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-13 11:34+0100\n"
+"POT-Creation-Date: 2020-03-04 12:28+0100\n"
 "PO-Revision-Date: 2020-01-15 12:40+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -16,22 +16,22 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.8.0\n"
 
-#: ../../source/wapt-common-problems/common-mistakes.rst:8
-#: ../../source/wapt-common-problems/common-mistakes.rst:13
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-mistakes.rst:8
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-mistakes.rst:13
 msgid "Common mistakes"
 msgstr "Erreurs courantes"
 
-#: ../../source/wapt-common-problems/common-mistakes.rst:8
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-mistakes.rst:8
 msgid "WAPT, documentation, mistakes"
 msgstr "WAPT, documentation, erreurs"
 
-#: ../../source/wapt-common-problems/common-mistakes.rst:16
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-mistakes.rst:16
 msgid "Using a network drive to store and deliver WAPT packages"
 msgstr "Utiliser un lecteur réseau pour stocker et livrer des paquets WAPT"
 
-#: ../../source/wapt-common-problems/common-mistakes.rst:18
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-mistakes.rst:18
 msgid ""
 "The standard way WAPT works is with a secure web server delivering WAPT "
 "packages to the WAPT Clients."
@@ -39,15 +39,16 @@ msgstr ""
 "Le mode de fonctionnement standard de WAPT est avec un serveur Web "
 "sécurisé qui fournit les paquets WAPT aux clients WAPT."
 
-#: ../../source/wapt-common-problems/common-mistakes.rst:21
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-mistakes.rst:21
+#, fuzzy
 msgid ""
-"Tranquil IT advises against using a network drive for delivering WAPT "
-"packages for several reasons:"
+"**Tranquil IT advises against using a network drive for delivering WAPT "
+"packages** for several reasons:"
 msgstr ""
 "Tranquil IT déconseille l'utilisation d'un lecteur réseau pour la "
 "livraison de paquets WAPT pour plusieurs raisons :"
 
-#: ../../source/wapt-common-problems/common-mistakes.rst:24
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-mistakes.rst:24
 msgid ""
 "a web server is extremely easy to setup, secure, maintain, backup and "
 "monitor;"
@@ -55,7 +56,7 @@ msgstr ""
 "un serveur web est extrêmement facile à installer, à sécuriser, à "
 "maintenir, à sauvegarder et à surveiller ;"
 
-#: ../../source/wapt-common-problems/common-mistakes.rst:26
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-mistakes.rst:26
 msgid ""
 "to work correctly, a WAPT package needs to be self-contained. Indeed, we "
 "do not know if the network will be available at the time of the "
@@ -73,7 +74,7 @@ msgstr ""
 "disponible au moment de l'installation). La nature autonome du WAPT le "
 "rend plus déterministe que les autres solutions de déploiement ;"
 
-#: ../../source/wapt-common-problems/common-mistakes.rst:34
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-mistakes.rst:34
 msgid ""
 "network congestion may result from downloading large packages on large "
 "fleets of devices because you have less control over bandwidth rates or "
@@ -84,11 +85,11 @@ msgstr ""
 "sur la consommation de bande passante ou bien vous ne pouvez pas terminer"
 " un téléchargement partiel ;"
 
-#: ../../source/wapt-common-problems/common-mistakes.rst:38
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-mistakes.rst:38
 msgid "this method breaks or at least weakens the security framework of WAPT;"
 msgstr "cette méthode casse ou au moins affaiblit le cadre de sécurité du WAPT ;"
 
-#: ../../source/wapt-common-problems/common-mistakes.rst:40
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-mistakes.rst:40
 msgid ""
 "this method does not allow you to expose your repositories to internet "
 "for your traveling personnel;"
@@ -96,7 +97,7 @@ msgstr ""
 "cette méthode ne vous permet pas d'exposer vos dépôts sur Internet pour "
 "votre personnel itinérant ;"
 
-#: ../../source/wapt-common-problems/common-mistakes.rst:45
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-mistakes.rst:45
 msgid ""
 "Even though WAPT *can work* independently of the transport mode, "
 "**Tranquil IT will not officially support using a network drive to store "
@@ -106,11 +107,11 @@ msgstr ""
 "**Tranquil IT ne supportera pas officiellement l'utilisation d'un lecteur"
 " réseau pour stocker et livrer des paquets WAPT**."
 
-#: ../../source/wapt-common-problems/common-mistakes.rst:50
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-mistakes.rst:50
 msgid "Using the register() function in your audit scripts"
 msgstr "Utiliser la fonction register() dans vos scripts d'audit"
 
-#: ../../source/wapt-common-problems/common-mistakes.rst:52
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-mistakes.rst:52
 msgid ""
 "The register() function forces the sending to the WAPT server of the WAPT"
 " agent's hardware and software inventory."
@@ -118,7 +119,7 @@ msgstr ""
 "La fonction register() force l'envoi au serveur WAPT de l'inventaire "
 "matériel et logiciel de l'agent WAPT."
 
-#: ../../source/wapt-common-problems/common-mistakes.rst:55
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-mistakes.rst:55
 msgid ""
 "This function is very taxing on the server's performance because it "
 "forces the server to parse a relatively large :abbr:`JSON (Java Script "
@@ -130,7 +131,7 @@ msgstr ""
 "Notation)` :abbr:`BLOB (Binary Large OBject)` relativement grand et à "
 "injecter le résultat dans la base de données PostgreSQL."
 
-#: ../../source/wapt-common-problems/common-mistakes.rst:60
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-mistakes.rst:60
 msgid ""
 "The function is by default triggered manually or when a new package "
 "upgrade is applied."
@@ -138,7 +139,7 @@ msgstr ""
 "La fonction est par défaut déclenchée manuellement ou lorsqu'une nouvelle"
 " mise à niveau de paquet est appliquée."
 
-#: ../../source/wapt-common-problems/common-mistakes.rst:63
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-mistakes.rst:63
 msgid ""
 "When you use the register() function in an audit script, it will run "
 "every time the audit script is triggered and load the server with no "
@@ -148,7 +149,7 @@ msgstr ""
 " sera exécutée à chaque fois que le script d'audit est déclenché et "
 "chargera le serveur sans bénéfice apparent."
 
-#: ../../source/wapt-common-problems/common-mistakes.rst:66
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-mistakes.rst:66
 msgid ""
 "Therefore, **we do not recommend the use of the register() function in "
 "audit scripts**."

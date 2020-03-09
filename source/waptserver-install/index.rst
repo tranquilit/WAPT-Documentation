@@ -68,11 +68,14 @@ From 200 desktops onward  4 CPU 4096Mo
 ========================= ===== ================================================
 
 A minimum of 10GB of free space is necessary for the system,
-the database and log files.
+the database and log files. **For better performance, Tranquil IT recommends
+the database to be stored on fast storage, such as SSD drives
+or PCIe-based solid-state drives**.
 
 The overall disk requirement will depend on the number and size of your WAPT
 packages (softwares) that you will store on your main repository;
-30GB is a good start.
+30GB is a good start. It is not strictly required to store WAPT packages
+on fast drives.
 
 Configuring the DNS
 -------------------

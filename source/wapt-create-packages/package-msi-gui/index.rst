@@ -182,9 +182,9 @@ Building the package and sending it to the WAPT server
 
   Option "-i build-upload" of PyScripter project
 
-* enter the password of your private key (to sign your wapt package);
+* enter the password of your private key (to sign your WAPT package);
 
-.. figure:: password-key.PNG
+.. figure:: password-key.png
   :align: center
 
 * enter the username and password to send the WAPT package to the server;

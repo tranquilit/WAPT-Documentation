@@ -79,7 +79,7 @@ msgstr ""
 
 #: ../../source/wapt-security/security-install-kerberos.rst:55
 msgid "``default_realm`` must be written with **ALL CAPS**!!"
-msgstr "``default_realm`` doit être écrit en **MAJUSCULE**!!"
+msgstr "Le ``default_realm`` doit absolument être écrit en **lettres MAJUSCULES** !!"
 
 #: ../../source/wapt-security/security-install-kerberos.rst:64
 msgid ""
@@ -88,7 +88,7 @@ msgid ""
 "other account with the delegated right to join a computer to the domain "
 "in the proper destination container (by default *CN=Computers*)."
 msgstr ""
-"Récupérer un ticket keytab. Utilisez les commandes :command:`kinit` et "
+"Récupérez un ticket keytab. Utilisez les commandes :command:`kinit` et "
 ":command:`klist`. Vous pouvez utiliser compte :term:`Administrator` ou "
 "n'importe quel autre compte avec une délégation de droit permettant de "
 "joindre un poste au domaine dans la bonne OU de destination (par défaut "
@@ -139,7 +139,7 @@ msgstr ""
 #: ../../source/wapt-security/security-install-kerberos.rst:105
 #: ../../source/wapt-security/security-install-kerberos.rst:167
 msgid "apply the proper access rights to the :file:`http-krb5.keytab` file:"
-msgstr "appliquer les bons droits d'accès au fichier :file:`http-krb5.keytab`:"
+msgstr "appliquez les bons droits d'accès au fichier :file:`http-krb5.keytab`:"
 
 #: ../../source/wapt-security/security-install-kerberos.rst:107
 #: ../../source/wapt-security/security-install-kerberos.rst:169
@@ -193,7 +193,7 @@ msgstr "connectez-vous à votre Active Directory (Pas un RODC);"
 
 #: ../../source/wapt-security/security-install-kerberos.rst:149
 msgid "create a computer account *srvwapt*;"
-msgstr "créer un compte machine *srvwapt*;"
+msgstr "créez un compte machine *srvwapt*;"
 
 #: ../../source/wapt-security/security-install-kerberos.rst:151
 msgid "add a :abbr:`SPN (Service Principal Name)` on the *srvwapt$* account;"
@@ -215,7 +215,7 @@ msgstr ""
 
 #: ../../source/wapt-security/security-install-kerberos.rst:184
 msgid "WAPT agent only have access to a RODC domain controller"
-msgstr "l'agent WAPT a uniquement un accès vers un contrôleur de domaine RODC"
+msgstr "L'agent WAPT a uniquement un accès vers un contrôleur de domaine RODC"
 
 #: ../../source/wapt-security/security-install-kerberos.rst:186
 msgid ""
@@ -243,7 +243,7 @@ msgid ""
 ":file:`keytab` per domain by following the procedure above, ex:"
 msgstr ""
 "Si vous avez des domaines Active Directory multiples, vous devez créer un"
-" :file:`keytab` par domaine en suivant la procédure ci-dessus, ex:\""
+" :file:`keytab` par domaine en suivant la procédure ci-dessus, ex :"
 
 #: ../../source/wapt-security/security-install-kerberos.rst:203
 msgid ":file:`http-krb5-domain1.local.keytab`"
@@ -264,4 +264,3 @@ msgid ""
 msgstr ""
 "Vous allez alors fusionner tous ces :file:`keytabs` en un unique "
 ":file:`keytab`:"
-

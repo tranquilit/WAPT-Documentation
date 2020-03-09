@@ -18,8 +18,8 @@ Using a network drive to store and deliver WAPT packages
 The standard way WAPT works is with a secure web server delivering WAPT packages
 to the WAPT Clients.
 
-Tranquil IT advises against using a network drive for delivering
-WAPT packages for several reasons:
+**Tranquil IT advises against using a network drive for delivering
+WAPT packages** for several reasons:
 
 * a web server is extremely easy to setup, secure, maintain, backup and monitor;
 
