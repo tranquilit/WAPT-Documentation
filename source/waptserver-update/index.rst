@@ -32,7 +32,7 @@ Upgrading the WAPT Server
 Before upgrading WAPT Server, please refer to the following upgrading compatibility chart :
 
 ================ ================ ================ ================ ================
-\                To WAPT 1.5      To WAPT 1.6      To WAPT 1.7      To WAPT 1.8      
+\                To WAPT 1.5      To WAPT 1.6      To WAPT 1.7      To WAPT 1.8
 ================ ================ ================ ================ ================
 From WAPT 1.3    :green:`Yes`     :green:`Yes`     :red:`No`        :red:`No`
 From WAPT 1.5    -                :green:`Yes`     :green:`Yes`     :red:`No`
@@ -58,7 +58,7 @@ The upgrade process follows the process for a minor update:
     with old Debian version**;
 
   * consider migrating your existing WAPT installation
-    to Debian Buster or CentOS7 : :ref:`upgrade-waptserver-os`;
+    to :ref:`Debian Buster or CentOS7 <upgrade-waptserver-os>`;
 
 Upgrading WAPT from 1.5 to 1.6
 ------------------------------
