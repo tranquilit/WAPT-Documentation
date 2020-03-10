@@ -19,8 +19,8 @@ around 400 WAPT agents. If you have more than 400 clients it is necessary to
 modify a few system level parameters along with PostgreSQL database,
 Nginx web and WAPT Server python server.
 
-In the future the :code:`postconf.sh` script might take in charge
-this configuration depending on the expected number of client computer.
+In the future the :code:`postconf.sh` script might take charge of
+this configuration depending on the expected number of client computers.
 
 With the following parameters, one WAPT Server should scale up to around 5000
 concurrent active clients. You may have more clients in the database if they
@@ -46,8 +46,8 @@ Configuring Nginx
 +++++++++++++++++
 
 In the :file:`/etc/nginx/nginx.conf` file, modify ``worker_connections``
-parameter. The value should be around 2.5 time the number of WAPT clients
-(n connexions for websockets and n connections for packages downloads
+parameter. The value should be around 2.5 times the number of WAPT clients
+(n connections for websockets and n connections for package downloads
 and inventory upload + some margin).
 
 .. code-block:: bash
@@ -66,7 +66,7 @@ in the :file:`/etc/nginx/nginx.conf` file:
 Configuring the Linux System
 ++++++++++++++++++++++++++++
 
-Increase the number of *filedescriptors*. The systemd unit file asks
+Increase the number of *filedescriptors*. The system unit file asks
 for an increase in the allowed number of *filedescriptors* (LimitNOFILE=32768).
 We should have the same thing for Nginx. There are a few limits to modify.
 
@@ -91,7 +91,7 @@ to respond to actions from the WAPT Server.
 The Linux kernel has a protection against having too many TCP connections
 opened at the same time and one may get the *SYN flooding on port* message
 in the Nginx log. In order to avoid these messages, it is necessary to modify
-the two following parameters. It must around 1.5 time the number of WAPT clients.
+the two following parameters. It must around 1.5 times the number of WAPT clients.
 
 .. code-block:: bash
 
@@ -135,7 +135,7 @@ Configuration for large package upload
 
 Depending on the partitioning of your WAPT server you might have to be careful
 with the Nginx temporary file upload directory. Nginx acts as a reverse proxy
-for the WAPTServer Python engine and its does a caching of packages upload
+for the WAPTServer Python engine and its does a caching of packages uploaded
 when uploading a new package from the console.
 
 The packages are stored in the :file:`/var/lib/nginx/proxy` directory.
