@@ -169,8 +169,8 @@ Below is an example of :file:`wapt-get.ini`:
 WAPT Server replication configuration
 """""""""""""""""""""""""""""""""""""
 
-The WAPT Server needs to be aware of repositories to sync in the ``[global]``
-section of its :file:`waptserver.ini` file:
+The WAPT Server needs to be aware of repositories to sync in the ``[options]``
+section of its :file:`waptserver.ini` located in :file:`/opt/wapt/conf/`
 
 ==================================== ======================= ======================================================
 Options                              Example value           Definition
