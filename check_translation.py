@@ -14,10 +14,10 @@ for root, dirnames, filenames in os.walk('source/locale/fr/LC_MESSAGES/'):
                 val = 1
                 continue
             if line.strip()=='' and val==1:
-                print "empty translation line %s in %s" % (linenumber,filename)
+                print( "empty translation line %s in %s" % (linenumber,filename))
             val = 0
             if line.startswith('#, fuzzy'):
-                print "fuzzy line %s in %s " % (linenumber,filename)
+                print ("fuzzy line %s in %s " % (linenumber,filename))
             linenumber = linenumber + 1
 
 
