@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Tranquil IT
+# This file is distributed under the same license as the WAPT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WAPT 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-28 16:49+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/waptserver-update/waptserver-upgrade-os.rst:8
+#: ../../source/waptserver-update/waptserver-upgrade-os.rst:25
+msgid "Upgrading the Operating System"
+msgstr ""
+
+#: ../../source/waptserver-update/waptserver-upgrade-os.rst:8
+msgid "WAPT, upgrade, upgrading, documentation, os, operating system"
+msgstr ""
+
+#: ../../source/waptserver-update/waptserver-upgrade-os.rst:28
+msgid "Upgrading from Debian 9 Stretch to Debian 10 Buster"
+msgstr ""
+
+#: ../../source/waptserver-update/waptserver-upgrade-os.rst:30
+msgid ""
+"In order to upgrade your WAPT server from Stretch to Buster you have to "
+"follow the standard procedure for Debian. You first modify the apt source"
+" files :file:`/etc/apt/sources.list` and "
+":file:`/etc/apt/sources.list.d/wapt.list`, then start upgrade."
+msgstr ""
+
+#: ../../source/waptserver-update/waptserver-upgrade-os.rst:34
+msgid ""
+"By default the PostgreSQL is not upgraded to PostgreSQL 11. One needs to "
+"manually ask for upgrade. After upgrade it is possible to remove old "
+"PostgreSQL 9.6 database."
+msgstr ""
+
+#: ../../source/waptserver-update/waptserver-upgrade-os.rst:50
+msgid "Upgrading from CentOS 7 to CentOS 8"
+msgstr ""
+
+#: ../../source/waptserver-update/waptserver-upgrade-os.rst:52
+msgid ""
+"Wapt does not yet support CentOS 8. This section will be updated "
+"accordingly when support will be added."
+msgstr ""
+

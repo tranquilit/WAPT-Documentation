@@ -20,8 +20,8 @@ pipeline {
         steps {
             sh '''
             echo "Installing requirements"
-            pip install -U pip setuptools
-            pip install -r requirements.txt
+            pip3 install -U pip setuptools
+            pip3 install -r requirements.txt
             '''
         }
     }
