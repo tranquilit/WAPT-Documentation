@@ -112,7 +112,7 @@ it needs.
 
 A package is easily transportable.
 
-Here is how a WAPT package looks :
+Here is how a WAPT package looks:
 
 .. figure:: ../wapt-common-resources/wapt-package-structure.png
   :align: center
@@ -460,7 +460,7 @@ Read the diagram clockwise:
 
   * The :term:`Administrator` forces the :command:`upgrade`;
 
-  * the :term:`User` chooses the right time for themself;
+  * the :term:`User` chooses the right time for themself ;
 
   * a scheduled task launches the upgrade;
 
@@ -495,7 +495,7 @@ That behavior is important as it has an impact on further actions.
   WAPT install behavior
 
 
-For instance when removing a package the following steps are taken :
+For instance when removing a package the following steps are taken:
 
 * :file:`setup.py` content is retrieved from WAPT agent database located in :file:`C:\\Program Files (x86)\\wapt\\db\\waptdb.sqlite`
 * Software uninstall from registry :command:`UninstallString` is executed
