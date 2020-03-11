@@ -112,7 +112,7 @@ it needs.
 
 A package is easily transportable.
 
-Here is how a WAPT package looks like:
+Here is how a WAPT package looks :
 
 .. figure:: ../wapt-common-resources/wapt-package-structure.png
   :align: center
@@ -197,7 +197,7 @@ that the host belongs to:
 
 * DC=mydomain,DC=lan;
 
-and then install the list of associated dependencies.
+and then installs the list of associated dependencies.
 
 They are stored in the web directory https://srvwapt.mydomain.lan/wapt-host/.
 
@@ -215,7 +215,7 @@ When this package is installed on the endpoint, the next update scan
 performed by WAPT will choose Windows updates based on this filtering.
 
 If the host has several *WAPTWUA* packages, then WAPT
-will merge all packages rules.
+will merge all package rules.
 
 When this package is installed on the host, the next :command:`update` will scan
 for official Windows updates applicable to the host based on this filtering.
@@ -287,7 +287,7 @@ or :term:`Package Deployer` has defined for it.
   the icon on her desktop!*).
 
 For each dependency, the WAPT agent will take care of automatically installing
-the latest available package version. So if several version
+the latest available package version. So if several versions
 of :program: `Freemind` are available on the repository, the WAPT agent
 will always get the latest version, unless I have pinned the version
 for reason of compatibility with other sets of tools.
@@ -298,7 +298,7 @@ of packages already installed on the machine.
 
 If an update of an installed package is available, the client will switch
 the status of the package to "**NEED UPGRADE**.
-It will then install the software updates on the next :command:`upgrade`.
+It will then install the software updates during the next :command:`upgrade`.
 
 Private key / Public key principle
 ++++++++++++++++++++++++++++++++++
@@ -324,7 +324,7 @@ To work properly, WAPT requires a private key/ public key pair (self-signed,
 issued by an internal :term:`Certificate Authority` or commercially issued).
 
 The **private key** will be used to **sign** WAPT packages whereas
-the **public key** will be distributed with every WAPT clients so that
+the **public key** will be distributed with every WAPT client so that
 WAPT agents may validate the files that were signed with the private key.
 
 The different public keys will be stored in the WAPT subdirectory :file:`ssl`.
@@ -395,7 +395,7 @@ That inventory is stored in a small database integrated in each WAPT agent.
 
   The inventory in the WAPT console
 
-The central inventory allows to filter hosts by their components,
+The central inventory allows you to filter hosts by their components,
 software or any other searchable argument.
 
 Information feedback
@@ -460,7 +460,7 @@ Read the diagram clockwise:
 
   * The :term:`Administrator` forces the :command:`upgrade`;
 
-  * the :term:`User` chooses the right time for herself;
+  * the :term:`User` chooses the right time for themself;
 
   * a scheduled task launches the upgrade;
 
@@ -474,7 +474,7 @@ Read the diagram clockwise:
 WAPT agent behavior with packages install / remove / session_setup / audit
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-A key concept that can be hard to understand is the behavior of WAPT agent
+A key concept that can be hard to understand is the behavior of a WAPT agent
 when installing a package and the considerations around it.
 
 WAPT agent package installation can be split in SSS steps :
@@ -483,8 +483,8 @@ WAPT agent package installation can be split in SSS steps :
 * package unzip to temp folder
 * :file:`setup.py` content is stored in WAPT agent database located in :file:`C:\\Program Files (x86)\\wapt\\db\\waptdb.sqlite`
 * software installed from unzipped files
-* in case of success : downloaded package + unzipped files are deleted and status is send to server
-* in case of failure : downloaded package is kept - unzipped files are deleted - error status send to server
+* in case of success : downloaded package + unzipped files are deleted and status is sent to server
+* in case of failure : downloaded package is kept - unzipped files are deleted - error status sent to server
 
 That behavior is important as it has an impact on further actions.
 
@@ -495,7 +495,7 @@ That behavior is important as it has an impact on further actions.
   WAPT install behavior
 
 
-For instance when removing a package the following steps are done :
+For instance when removing a package the following steps are taken :
 
 * :file:`setup.py` content is retrieved from WAPT agent database located in :file:`C:\\Program Files (x86)\\wapt\\db\\waptdb.sqlite`
 * Software uninstall from registry :command:`UninstallString` is executed
@@ -563,7 +563,7 @@ by WAPT agents:
 
 .. note::
 
-  The WAPT service in not active in the sense that it only receives information
+  The WAPT service is not active in the sense that it only receives information
   from clients. As a consequence, if the inventory server fails,
   the inventory will recover by itself from inventory status reports received
   from the deployed WAPT agents.
@@ -589,7 +589,7 @@ It acts as a relay between the WAPT management console and deployed WAPT agents.
 
 .. note::
 
-  Every action triggered on WAPT agent from the server are signed
+  Every action triggered on a WAPT agent from the server are signed
   with the :term:`Administrator`'s private key. Without a valid private key,
   it is not possible to trigger remote actions on remote WAPT equipped devices.
   For more information on remote actions, please refer to :ref:`signing actions
@@ -671,7 +671,7 @@ WAPT package creation
 WAPT language and development environment
 +++++++++++++++++++++++++++++++++++++++++
 
-WAPT is build using the `Python language <https://www.python.org>`_.
+WAPT is built using the `Python language <https://www.python.org>`_.
 
 Any Rapid Application Development environment intended for Python development
 is suitable.
