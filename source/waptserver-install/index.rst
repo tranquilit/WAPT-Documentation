@@ -73,7 +73,7 @@ the database to be stored on fast storage, such as SSD drives
 or PCIe-based solid-state drives**.
 
 The overall disk requirement will depend on the number and size of your WAPT
-packages (softwares) that you will store on your main repository;
+packages (software) that you will store on your main repository;
 30GB is a good start. It is not strictly required to store WAPT packages
 on fast drives.
 
