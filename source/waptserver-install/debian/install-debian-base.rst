@@ -80,7 +80,7 @@ Configuring the IP address of the WAPT Server
 * apply the network configuration by rebooting the machine
   with a :code:`reboot`;
 
-* if it has not already be done, create the DNS entry for the WAPT Server
+* if it has not already been done, create the DNS entry for the WAPT Server
   in the :term:`Organization`'s Active Directory;
 
 * :ref:`srv_dns`
