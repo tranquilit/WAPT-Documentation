@@ -28,19 +28,19 @@ WAPT Enterprise offers organizational unit packages functionnality.
 
 It automates software installations based on your Active Directory infrastructure.
 
-WAPT agent is aware of its Active Directory sorting, thereby knows the hierarchy of 
-organizational units, for example :
+WAPT agent is aware of its Active Directory sorting, thereby knows the hierarchy of
+organizational units, for example:
 
 .. code:: bash
 
-    DC=ad,DC=domain,DC=lan
-    OU=Paris,DC=ad,DC=domain,DC=lan
-    OU=computers,OU=Paris,DC=ad,DC=domain,DC=lan
-    OU=service1,OU=computers,OU=Paris,DC=ad,DC=domain,DC=lan
+  DC=ad,DC=domain,DC=lan
+  OU=Paris,DC=ad,DC=domain,DC=lan
+  OU=computers,OU=Paris,DC=ad,DC=domain,DC=lan
+  OU=service1,OU=computers,OU=Paris,DC=ad,DC=domain,DC=lan
 
-If an organizational unit package is defined on each level, WAPT agent will download them 
-automatically by inheritance and apply each level and their dependencies.
-
+If an organizational unit package is defined on each level, WAPT agent
+will download them automatically by inheritance and apply each level
+and their dependencies.
 
 Filters and actions available with Organizational Units
 -------------------------------------------------------
@@ -51,18 +51,16 @@ Filters and actions available with Organizational Units
 
   WAPT console showing options applicable to OU
 
-.. hint:: 
+.. hint::
 
-    You can see in the picture that **update** and **upgrade** actions can be performed 
-    through this menu, thus selecting hosts by their organizational unit.
-
+  You can see in the picture that **update** and **upgrade** actions can be performed
+  through this menu, thus selecting hosts by their organizational unit.
 
 In the **Enterprise** version, you may filter how hosts are displayed based
 on the Active Directory :abbr:`OU (Organizational Units)` they belong to.
 
 The checkbox :guilabel:`Include hosts in subfolders` allows to display hosts
 in subfolders.
-
 
 Creating organizational unit packages in WAPT console
 -----------------------------------------------------
@@ -76,8 +74,8 @@ on an OU --> Create or edit the unit package`.
 
   Right-click on OU to create unit package.
 
-
-A window opens and you are prompted to choose which packages must be in **unit** bundle
+A window opens and you are prompted to choose which packages
+must be in **unit** bundle.
 
 .. figure:: wapt_console-unit-create-package-2.png
   :align: center
@@ -86,5 +84,3 @@ A window opens and you are prompted to choose which packages must be in **unit**
   Adding package to unit bundle.
 
 Save the package and it will be uploaded to the WAPT server.
-
-

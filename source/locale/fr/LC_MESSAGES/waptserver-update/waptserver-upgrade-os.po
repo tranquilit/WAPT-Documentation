@@ -3,55 +3,67 @@
 # This file is distributed under the same license as the WAPT package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-28 16:49+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-03-10 17:21+0100\n"
+"PO-Revision-Date: 2020-03-10 17:24+0100\n"
+"Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
+"Language: fr\n"
+"Language-Team: Tranquil IT <contact@tranquil.it>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.8.0\n"
+"X-Generator: Poedit 1.8.8\n"
 
-#: ../../source/waptserver-update/waptserver-upgrade-os.rst:8
-#: ../../source/waptserver-update/waptserver-upgrade-os.rst:25
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/waptserver-upgrade-os.rst:8
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/waptserver-upgrade-os.rst:24
 msgid "Upgrading the Operating System"
-msgstr ""
+msgstr "Mettre à jour le système d'exploitation"
 
-#: ../../source/waptserver-update/waptserver-upgrade-os.rst:8
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/waptserver-upgrade-os.rst:8
 msgid "WAPT, upgrade, upgrading, documentation, os, operating system"
 msgstr ""
+"WAPT, mise à jour, mise à niveau, documentation, os, système "
+"d'exploitation"
 
-#: ../../source/waptserver-update/waptserver-upgrade-os.rst:28
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/waptserver-upgrade-os.rst:27
 msgid "Upgrading from Debian 9 Stretch to Debian 10 Buster"
-msgstr ""
+msgstr "Mettre à jour de Debian 9 Stretch vers Debian 10 Buster"
 
-#: ../../source/waptserver-update/waptserver-upgrade-os.rst:30
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/waptserver-upgrade-os.rst:29
 msgid ""
 "In order to upgrade your WAPT server from Stretch to Buster you have to "
-"follow the standard procedure for Debian. You first modify the apt source"
-" files :file:`/etc/apt/sources.list` and "
-":file:`/etc/apt/sources.list.d/wapt.list`, then start upgrade."
+"follow the standard procedure for Debian. You first modify the apt "
+"source files :file:`/etc/apt/sources.list` and :file:`/etc/apt/sources."
+"list.d/wapt.list`, then start the upgrade."
 msgstr ""
+"Afin de mettre à niveau votre serveur WAPT de Stretch à Buster, vous "
+"devez suivre la procédure standard pour Debian. Vous devez d'abord "
+"modifier les fichiers sources apt :file:`/etc/apt/sources.list` et :file:"
+"`/etc/apt/sources.list.d/wapt.list`, puis lancer la mise à niveau."
 
-#: ../../source/waptserver-update/waptserver-upgrade-os.rst:34
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/waptserver-upgrade-os.rst:34
 msgid ""
 "By default the PostgreSQL is not upgraded to PostgreSQL 11. One needs to "
-"manually ask for upgrade. After upgrade it is possible to remove old "
-"PostgreSQL 9.6 database."
+"manually request the upgrade. After upgrading, it is possible to remove "
+"the old PostgreSQL 9.6 database."
 msgstr ""
+"Par défaut, PostgreSQL n'est pas mis à niveau vers PostgreSQL 11. Il "
+"faut demander manuellement la mise à niveau. Après la mise à niveau, il "
+"est possible de supprimer l'ancienne base de données PostgreSQL 9.6."
 
-#: ../../source/waptserver-update/waptserver-upgrade-os.rst:50
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/waptserver-upgrade-os.rst:50
 msgid "Upgrading from CentOS 7 to CentOS 8"
-msgstr ""
+msgstr "Mettre à niveau de CentOS 7 à CentOS 8"
 
-#: ../../source/waptserver-update/waptserver-upgrade-os.rst:52
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/waptserver-upgrade-os.rst:52
 msgid ""
-"Wapt does not yet support CentOS 8. This section will be updated "
+"WAPT does not yet support CentOS 8. This section will be updated "
 "accordingly when support will be added."
 msgstr ""
-
+"WAPT ne soutient pas encore CentOS 8. Cette section sera mise à jour en "
+"conséquence lorsque le support sera ajouté."

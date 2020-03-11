@@ -83,7 +83,7 @@ msgid ""
 "Warning, the WAPT console **MUST NOT** be installed on your Windows based"
 " WAPT Server."
 msgstr ""
-"Attention, la console ne doit pas être installé sur le serveur WAPT "
+"Attention, la console **NE DOIT PAS** être installée sur le serveur WAPT "
 "Windows."
 
 #: ../../source/wapt-configuration/waptconsole/index.rst:44
@@ -299,4 +299,3 @@ msgid ""
 msgstr ""
 "Passez à l'étape suivante pour :ref:`créer votre certificat "
 "<create_certificate>`."
-

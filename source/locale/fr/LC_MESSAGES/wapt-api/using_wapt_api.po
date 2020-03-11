@@ -40,7 +40,7 @@ msgstr ""
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:24
 msgid "All available URLs may be found in :file:`/opt/wapt/waptserver/server.py`."
 msgstr ""
-"Toutes les URLs dispnibles peuvent être trouvées dans "
+"Toutes les URLs disponibles peuvent être trouvées dans "
 ":file:`/opt/wapt/waptserver/server.py`."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:26
@@ -65,11 +65,11 @@ msgstr "/api/v1/hosts"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:40
 msgid "get registration data of one or several hosts:"
-msgstr "récupérer les données enregistrées d'un ou de plusieurs postes:"
+msgstr "récupérer les données enregistrées d'un ou de plusieurs postes :"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:63
 msgid "list all hosts. Available parameters are;"
-msgstr "liste tous les postes. Les paramètres disponibles sont;"
+msgstr "liste tous les postes. Les paramètres disponibles sont :"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:65
 msgid "*reachable*"
@@ -110,15 +110,15 @@ msgstr "Cette exemple est une requête globale:"
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:376
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:398
 msgid "This is the same exemple with a simple html request:"
-msgstr "Voici le même exemple avec une simple requête html:"
+msgstr "Voici le même exemple avec une simple requête html :"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:97
 msgid ""
 "This one just show request with reachable status, the computer name, its "
 "connected ips and its mac addresses. Display limit is 10000"
 msgstr ""
-"Ceui-ci donne une requête avec un statut joignable, le nom nom du poste, "
-"ses ip connectées et ses adresses mac. On n'affiche dans la limite de "
+"Ceui-ci donne une requête avec un statut joignable, le nom de la machine, "
+"ses IP connectées et ses adresses MAC. La limite d'affichage est de "
 "10000 postes"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:105
@@ -145,7 +145,7 @@ msgstr "dmi"
 msgid "get :abbr:`DMI (Desktop Management Interface)` info for a host:"
 msgstr ""
 "récupère toutes informations :abbr:`DMI (Desktop Management Interface)` "
-"d'un poste: "
+"d'un poste : "
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:133
 msgid ""
@@ -161,7 +161,7 @@ msgid ""
 "996A-B597E8F9B4AD: https://srvwapt.ad.mydomain.fr/api/v1/host_data?uuid"
 "=14F620FF-DE70-9E5B-996A-B597E8F9B4AD&field=dmi"
 msgstr ""
-"Exemple: récupérer les informations *dmi* du poste ayant l'UUID 14F620FF-"
+"Exemple: récupérer les informations *DMI* du poste ayant l'UUID 14F620FF-"
 "DE70-9E5B-996A-B597E8F9B4AD: "
 "https://srvwapt.ad.mydomain.fr/api/v1/host_data?uuid=14F620FF-DE70-9E5B-"
 "996A-B597E8F9B4AD&field=dmi"
@@ -259,7 +259,7 @@ msgstr "/api/v3/known_packages"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:295
 msgid "List all packages with last *signed_on* information."
-msgstr "Liste tous les paquets avec l'infirmation *signed_on*."
+msgstr "Liste tous les paquets avec l'information *signed_on*."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:312
 msgid "/api/v3/trigger_cancel_task"
@@ -323,7 +323,7 @@ msgstr ""
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:406
 msgid "**Next API are with POST method**."
-msgstr "**Les prochaines API suivent la méthode POST**."
+msgstr "**Les API ci-après suivent la méthode POST**."
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:409
 msgid "/api/v3/upload_packages"
@@ -475,4 +475,3 @@ msgstr "/ping"
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:573
 msgid "Ping get general information from a WAPT server."
 msgstr "Ping va récupérer les informations générales d'un serveur WAPT."
-

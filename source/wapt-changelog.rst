@@ -16,26 +16,44 @@ WAPT-1.8.1-6758 (2020-03-06)
 ---------------------------- 
 (hash bb93ce41)
 
-On server : 
+On server:
+
 * [REF] refactoring for postconf.py / remove old migration from MongoDB
+
 * [REF] refactoring for winsetup.py / create now a dhparam for nginx on Windows
-* [REF] refactoring for repositories : change repo_diff by remote_repo_diff / add param remote_repo_websockets (by default to True) on server
+
+* [REF] refactoring for repositories : change repo_diff by remote_repo_diff /
+  add param remote_repo_websockets (by default to True) on server
+  
 * [IMP] disable cache on nginx for Windows and Linux on wapt packages / exe 
 
-On agents : 
+On agents:
+
 * [REF] change param waptservice_admin_auth_allow by waptservice_admin_filter
+
 * [REF] delete resync functions for remote repo
+
 * [IMP] param local_repo_sync_task_period by default to "2h"
-* [FIX] wapt-get / waptservice debug when download a package on linux when not sudo
+
+* [FIX] wapt-get / waptservice debug when download a package on linux
+  when not sudo
+  
 * [FIX] fix for plist in macOS
+
 * [IMP] can now have relative path for packages/directories in wapt-get
+
 * [IMP] templates have by default setup_uninstall / update etc...
+
 * [IMP] improvements with templates for vscode
 
-On waptconsole : 
-* [IMP] add possibility of template packages for deb / rpm / pkg 
+On waptconsole:
+
+* [IMP] add possibility of template packages for deb / rpm / pkg
+
 * [FIX] Fix for msi, exe, etc in PackageWizard explorer
+
 * [IMP] Can now choose editor_for_packages directly in waptconsole config
+
 * [UPD] Some cosmetic / translations improvements for GUI to deploy waptagent 
 
 WAPT-1.8.1-6756 (2020-02-17) 
@@ -44,25 +62,34 @@ WAPT-1.8.1-6756 (2020-02-17)
 
 Bug fixes and small improvements
 
-* [IMP] waptconsole: improve the refresh of hosts grid whan a lot of hosts are selected (improved by a factor of around 5)
+* [IMP] waptconsole: improve the refresh of hosts grid when a lot of hosts
+  are selected (improved by a factor of around 5)
 
-* [FIX] waptserver Database connections management: don't close DB on teardown as it shoul dnot occur, and seems to trigger some issue when triggering a lot of tasks on remote hosts (error db is closed)
+* [FIX] waptserver Database connections management: don't close DB on teardown
+  as it should not occur, and seems to trigger some issue when triggering
+  a lot of tasks on remote hosts (error db is closed)
 
-* [FIX] waptconsole: Don't "force" install when triggering the upgrade on remote hosts, to avoid reinstalling softwares when alreadu up to date.
+* [FIX] waptconsole: Don't "force" install when triggering the upgrade
+  on remote hosts, to avoid reinstalling softwares when alreadu up to date.
 
-* [IMP] use ldap auth only if session and admin fail (avoid waiting for timeout when ldap is not available but one want to login with plain admin user)
+* [IMP] use ldap auth only if session and admin fail (avoid waiting for timeout
+  when ldap is not available but one wants to login with plain admin user)
 
-* [FIX] wapt-get upload : encode user and password in http_upload_package to allow non ascii in admin password
+* [FIX] wapt-get upload: encode user and password in http_upload_package
+  to allow non ascii in admin password
 
 * [IMP] waptconsole: Disable auto search on keywords
 
-* [IMP] use DMI 'System_Information.Serial_Number' inforamtion for serialnr Host field instead of 'Chassis_Information.Serial_Number' because Syste_Inforamtion is more often properly defined.
+* [IMP] use DMI 'System_Information.Serial_Number' inforamtion
+  for serialnr Host field instead of 'Chassis_Information.Serial_Number'
+  because System_Information is more often properly defined.
 
-* [IMP] waptconsole: add 'uuid' in the list of searched fields when only 'host' is checked in filters
+* [IMP] waptconsole: add 'uuid' in the list of searched fields
+  when only 'host' is checked in filters
 
-* [IMP] nginx config : disable caching.
+* [IMP] nginx config: disable caching.
 
-* [IMP] some fixes for vscode project template
+* [IMP] fixes for vscode project template
 
 WAPT-1.8.1-6742 (2020-02-12) 
 ----------------------------
@@ -71,20 +98,33 @@ WAPT-1.8.1-6742 (2020-02-12)
 Major changes :
 ++++++++++++++++++++++++++++
 
-* waptconsole : Added a page to show packages install status summary (merge) of all selected hosts, grouped by package,version,install status, with count of hosts.
-  Context menu allow to apply selectively the pending actions. On enterprise, one can apply safely the updates (only packages for which there is no running process on client side)
+* waptconsole: Added a page to show packages install status summary (merge)
+  of all selected hosts, grouped by package,version,install status,
+  with count of hosts.
+  
+  Context menu allow to apply selectively the pending actions.
+  On enterprise, one can apply safely the updates (only packages for which
+  there is no running process on client side)
  
-* Prevent users from saving a host package if targeted host(s) do not accept their personal certificate. (Checked on waptconsole when editing / mass updating host packages, and on server when uploding packages)
+* Prevent users from saving a host package if targeted host(s) do not accept
+  their personal certificate. (Checked on waptconsole when editing /
+  mass updating host packages, and on server when uploding packages)
 
-  The personal certificate file (.crt) must contains at first the personal certificate, followed by the issuer CA certificates, so that wapt can rebuild certificate chain and check intersection with host's trusted certificates.
+  The personal certificate file (.crt) must contain at first
+  the personal certificate, followed by the issuer CA certificates,
+  so that wapt can rebuild certificate chain and check intersection
+  with host's trusted certificates.
 
 Important note about SSL client side authentication
 +++++++++++++++++++++++++++++++++++++++++++++++++++
 
-In your nginx configuration, be sure to reset the headers `X-Ssl-Authenticated` and `X-Ssl-Client-DN` as waptserver *trust* these headers if 
-ssl cient side auth is enabled in waptserver.ini.
+In your nginx configuration, be sure to reset the headers
+``X-Ssl-Authenticated`` and ``X-Ssl-Client-DN`` as waptserver *trusts*
+these headers if ssl cient side auth is enabled in :file:`waptserver.ini`.
 
-If SSL client side auth is setup these headers can be populated by `proxy_set_header` with result of `ssl_verify_client` as explained in ./wapt-security/security-configuration-certificate-authentication.html#enabling-client-side-certificate-authentication
+If SSL client side auth is setup these headers can be populated
+by ``proxy_set_header`` with result of ``ssl_verify_client`` as explained
+in ./wapt-security/security-configuration-certificate-authentication.html#enabling-client-side-certificate-authentication
 
 Fixes and detailed changelog
 ++++++++++++++++++++++++++++
@@ -95,53 +135,81 @@ Fixes and detailed changelog
 
 * Fix: regression : kerberos register_host did not work anymore
 
-* on server, '<repository root>/wapt/ssl' dir is moved automatically on winsetup / postconf to (per default) '<repository root>/ssl', a /ssl location is added.
+* On server, :file:'<repository root>/wapt/ssl' dir is moved automatically
+  on winsetup / postconf to (per default) :file:'<repository root>/ssl',
+  a :file:`/ssl` location is added.
   
-  This /ssl should be accessible from clients at the location specified by the server parameter 'clients_signing_crl_url' (in waptserver.ini)
+  This :file:`/ssl` should be accessible from clients
+  at the location specified by the server parameter ``clients_signing_crl_url``
+  (in :file:`waptserver.ini`)
 
-* Improved logs readability. Log count of used DB connections from pool on waptserver to troubleshoot DB connection issues. Log level can be specified by subcomponent with 
+* Improved logs readability. Log count of used DB connections
+  from pool on waptserver to troubleshoot DB connection issues.
+  Log level can be specified by subcomponent with loglevel_waptcore,
+  loglevel_waptserver, loglevel_waptserver.app, loglevel_waptws,
+  loglevel_waptdb defined in :file:`waptserver.ini`.
 
-  loglevel_waptcore,loglevel_waptserver,loglevel_waptserver.app,loglevel_waptws,loglevel_waptdb waptserver.ini options.
+* Reworked explicit DB Open/close on waptserver to not get
+  a DB connection from pool if not useful. It prevents exhaustion
+  of DB connections.
 
-* Reworked explicit DB Open/close on waptserver to not get a DB connection from pool if not useful. Prevent short of DB connections.
+* waptwinsetup: don't create unused directories wapt-group and waptserver\log
 
-* waptwinsetup : don't create unused directories wapt-group and waptserver\log
+* Added :mimetype:`msu` and :mimetype:`msix` extensions
+  for Package wizard setup file dialog
 
-* Add msu and msix extensions for Package wizard setup file dialog
+* Fallback with os._exit(10) for waptservice restart.
+  Added a handler in nssm configuration to honor the restart.
 
-* fallback with os._exit(10) for waptservice restart. Added a handler in nssm configuration to honor the restart.
+* Increased waitress threads to 10 on waptservice
 
-* increase waitress threads to 10 on waptservice
+* Lowered the default number of pooled DB connections (db_max_connections)
+  to 90, to be lower than postgresql default of 100
 
-* Lower the default number of pooled DB connections (db_max_connections) to 90, to be lower than postgresql default of 100
+* waptserver: allow kerberos or ssl auth check in waptserver
+  only if enabled in :file:`waptserver.ini` config file.
 
-* waptserver : allow kerberos or ssl auth check in waptserver only if enabled in waptserver.ini config file.
+* waptconsole: Allow update of host package only if user certificate
+  is actually allowed on the host (based on last update of host status
+  in database).
 
-* waptconsole: Allow update of host package only if user certificate is actually allowed on the host (based on last update of host status in database).
-
-* waptconsole / build waptagent: checkbox to specify to include or not non certificate authority certificates in build. The normal setup would be to uncheck this, to not deploy non CA certificates, on wapt root CA.
+* waptconsole / build waptagent: checkbox to specify to include or not
+  non certificate authority certificates in build. The normal setup would be
+  to uncheck this, to not deploy non CA certificates, on wapt root CA.
 
 * Imp: Add and option to disable automatic hiding of panels...
 
 * Imp: Add explicit AllowUnauthenticatedRegistration task to waptserversetup windows
 
-* waptsetup: Remove explicit VCRedistNeedsInstall task. Use /VCRedistInstall=(0/1) if you need to force install or force not install vcredist VC_2008_SP1_MFC_SEC_UPD_REDIST_X86
+* waptsetup: Remove explicit VCRedistNeedsInstall task. Use /VCRedistInstall=(0/1)
+  if you need to force install or force not install
+  vcredist VC_2008_SP1_MFC_SEC_UPD_REDIST_X86
 
-* Fix: wapt-get.exe: use wapt-get.ini for 'scan-packages' and'update-packages' wapt-get actions
+* Fix: :program:`wapt-get.exe`: use wapt-get.ini for :command:'scan-packages'
+  and :command:'update-packages' wapt-get actions
 
-* Fix: wapt-get: auth asked when checking if server is available (ping) and client ssl auth is enabled
+* Fix: :command:`wapt-get`: auth asked when checking if server is available (ping)
+  and client ssl auth is enabled
 
-* Imp: wapt client: if client ssl auth failed with http error 400, retry without ssl auth to be able to ask for new certificate signing
+* Imp: WAPT client: if client ssl auth failed with http error 400,
+  retry without ssl auth to be able to ask for new certificate signing
 
-* waptserver register behaviour : Revert over rev 6641: sign host certificate if an authenticated user is provided or data is signed with a key which can be verified by existing certificate in database for this host uuid
+* waptserver register behaviour : Revert over rev 6641: sign host certificate
+  if an authenticated user is provided or data is signed with a key which
+  can be verified by existing certificate in database for this host uuid
 
-* waptserver register behaviour : When receiving 401 from server when registering, retry registering without ssl auth.
+* waptserver register behaviour : When receiving 401 from server when registering,
+  retry registering without ssl auth.
 
-* wapt client: Be sure to have proper host private key saved on disk when receiving signed certificate from server.
+* wapt client: Be sure to have proper host private key saved
+  on disk when receiving signed certificate from server.
 
-* waptconsole: Advanced Filters for selected host packages status. Filter on Install status and Section + keyword. Pending button to show only pending installations / removes 
+* waptconsole: Advanced Filters for selected host packages status.
+  Filter on Install status and Section + keyword. Pending button
+  to show only pending installations / removes 
 
-* wapt-get make-template / edit package : Add .vscode directory. Add template project for vscode
+* wapt-get make-template / edit package : Add .vscode directory.
+  Add template project for vscode
 
 * waptconsole: Fix ssl auth for mass package dependencies / conflicts updates 
 
@@ -191,15 +259,17 @@ Fixes and detailed changelog
 
    add a parameter for the next update time of crl
 
-   add `clients_signing_crl_url` `clients_signing_crl_days` `known_certificates_folder` waptserver parameters
+   add ``clients_signing_crl_url``, ``clients_signing_crl_days``,
+   ``known_certificates_folder`` waptserver parameters
 
-   add a /ssl location in nginx templates
+   add a :file:`/ssl` location in nginx templates
 
    add crl_urls in client auth signed certificates
 
    add a scheduled task to renew server side crl
 
-   add `clients_signing_crl` waptserver parameter to add client cert to server crl when host is unregistered.
+   add ``clients_signing_crl`` waptserver parameter to add client cert
+   to server crl when host is unregistered.
 
    Add revoke_cert methode to SSLCRL class
 
@@ -207,119 +277,175 @@ Fixes and detailed changelog
 
 * force restart if windows task is broken
 
-* waptservice: use sys._exit(10) to ask nssm to restart service in case of unhandled exception in waptservice (loops..)
+* waptservice: use sys._exit(10) to ask nssm to restart service in case
+  of unhandled exception in waptservice (loops..)
 
 * wapt client: don't log / store into db Wapt.runstatus if not changed
 
 * waptserver postconf: fix for rights on some wapt directories.
 
-* Add mutual conflicts to deb/rpm packages for waptagent/waptserver to avoid simultaneous install.
-
-* 
-
+* Add mutual conflicts to deb/rpm packages for waptagent/waptserver
+  to avoid simultaneous install.
 
 WAPT-1.8.0-6641 (2020-01-24) 
 ----------------------------
 (hash 3dbb3de8)
 
-Major changes :
-++++++++++++++++++++++++++++
+Major changes
++++++++++++++
 
-* Client Agent for Linux Debian 8,9,10, Linux Centos 7, Ubuntu 18,19 and Mac os. the packages are named wapt-agent and available in https://wapt.tranquil.it/wapt/releases/latest/ 
+* Client Agent for Linux Debian 8,9,10, Linux Centos 7, Ubuntu 18, 19 and MacOS.
+  the packages are named wapt-agent and available
+  in https://wapt.tranquil.it/wapt/releases/latest/ 
 
-* Repository access rules defined in waptconsole. Depending of client IP, site, computername, one can define which secondary reporitory URL to use (Enterprise).
+* Repository access rules defined in waptconsole. Depending of client IP,
+  site, computername, one can define which secondary reporitory URL to use
+  (Enterprise).
  
-  As a consequence, the DNS query method (with SRV records) is no more supported for repositories
+  **As a consequence, the DNS query method (with SRV records)
+  is no more supported for repositories**
 
-* The package and signature process has been changed to be compatible with python3. Serialization of dict is now sorted by key alphabetically to be deterministic across python versions.
-  Wapt agents prior than version 1.7.1 will not be able to use new packages. (see git hash SHA-1: f571e55594617b43ed83003faeef4911474a84db)
+* The package and signature process has been changed to be compatible with python3.
+  Serialization of dict is now sorted by key alphabetically
+  to be deterministic across python versions.
+  WAPT agents prior to version 1.7.1 will not be able to use new packages.
+  (see git hash SHA-1: f571e55594617b43ed83003faeef4911474a84db)
 
-* A wapt agent can now be declared as a secondary Remote repository. Integrated syncing with main server repository is handled automatically. (Enterprise)
+* A WAPT agent can now be declared as a secondary Remote repository.
+  Integrated syncing with main server repository is handled automatically.
+  (Enterprise)
 
-* waptconsole can now run without elevated priviledges. The build of waptagent / waptupgrade package are done in a temporary location. When editing a package from waptconsole, PyScripter should be launched with elevated priviledges.
+* waptconsole can now run without elevated priviledges. The build of waptagent /
+  waptupgrade package are done in a temporary location.
+  **When editing a package from waptconsole, PyScripter should be launched
+  with elevated priviledges.**
 
-  Note that you could deploy the agent with GPO without actually rebuilding an waptagent. Command line options are available on stock waptsetup-tis.exe to configure repo url (/repo_url=) , server url (/wapt_server=), 
-  	server certificate bundle location (/CopyServersTrustedCA=), packages certificates checking (/CopyPackagesTrustedCA=), /use_random_uuid, /StartPackages, /append_host_profiles, /DisableHiberBoot, /waptaudit_task_period.
+  Note that you could deploy the agent with GPO without actually
+  rebuilding a waptagent. Command line options are available on stock
+  waptsetup-tis.exe to configure repo url (``/repo_url=``),
+  server url (``/wapt_server=``), server certificate bundle location
+  (``/CopyServersTrustedCA=``), packages certificates checking
+  (``/CopyPackagesTrustedCA=``), ``/use_random_uuid``, ``/StartPackages``,
+  ``/append_host_profiles``, ``/DisableHiberBoot``, ``/waptaudit_task_period``.
   
-  Some options are still missing. and could be added in a future release.
+  Some options are still missing and may be added in a future release.
 
-* package filename now includes a hash of package content to make it easier to check if download is complete and if package has been scanned (improved speed for large number of packages)
+* package filename now includes a hash of package content to make it easier
+  to check if download is complete and if package has been scanned
+  (improved speed for large number of packages)
 
-* The wapt admin password must be regenerated (with postconf) if it not pbkdf2 based. See in your waptserver.ini file, wapt_password must start with "$pbkdf2-"
-
+* The WAPT admin password must be regenerated (with postconf)
+  if it not pbkdf2 based. See in your :file:`waptserver.ini` file,
+  ``wapt_password`` must start with **$pbkdf2-**
 
 Fixes and detailed changelog
 ++++++++++++++++++++++++++++
 
-* waptagent can optionnally be digitally signed, if MS signtool.exe is present in <wapt>\utils\ and if there is a pkcs#12 p12 file with same name as personal certificate crt file, and encrypted with same password.
+* waptagent can optionnally be digitally signed, if MS :program:`signtool.exe`
+  is present in <wapt>\utils\ and if there is a pkcs#12 p12 file with same name
+  as personal certificate crt file, and encrypted with same password.
 
 * wapt-get.py can be run on linux and macos in addition to windows.
 
-* waptconsole host's packages status reporting : now displays current version with 'NEED-UPGRADE','NEED-REMOVE','ERROR' status and future version with 'NEED-INSTALL' status.
+* waptconsole host's packages status reporting: now displays current version
+  with 'NEED-UPGRADE','NEED-REMOVE','ERROR' status and future version
+  with 'NEED-INSTALL' status.
 
-The status is stored in server's DB HostPackagesStatus so can be queried for reporting.
+  The status is stored in server's DB ``HostPackagesStatus``
+  so it can be queried for reporting.
 
-* setuphelpers : there now different setuphelpers for each operating system family.
+* setuphelpers: there now different setuphelpers
+  for each operating system family.
 
-* waptconsole : add an action to safely trigger upgrades on remote hosts only if associated processes (impacted_process control attribute) are not running, to avoid disturbing users. (Enterprise)
+* waptconsole: Added an action to safely trigger upgrades on remote hosts
+  only if associated processes (impacted_process control attribute)
+  are not running, to avoid disturbing users. (Enterprise)
 
-* wapt-get --service upgrade : add handling of --force , --notify_server_on_start=0/1, notify_server_on_finish=0/1 switches
+* wapt-get --service upgrade: Added handling of --force,
+  --notify_server_on_start=0/1, notify_server_on_finish=0/1 switches.
 
-* package signature's date is now taken in account when comparing packages
+* package signature's date is now taken in account when comparing packages.
 
-* add 'host_ad_site' key in [global] in wapt-get.ini to define a fake ad site for host
+* add 'host_ad_site' key in [global] in :file:`wapt-get.ini` to define
+  a fake Active Directory site for the host.
 
-* waptconsole / packages grid : if multiple packages are selected, the associated "show clients" grid shows packages status for all selected clients (Enterprise)
+* waptconsole / packages grid: if multiple packages are selected,
+  the associated "show clients" grid shows packages status
+  for all selected clients. (Enterprise)
 
-* waptagent build: add checkbox to enable repo rules lookup when installing agent (Enterprise)
+* waptagent build: Added checkbox to enable repository rules lookup
+  when installing agent. (Enterprise)
 
-* waptconsole / import packages: Don't reimport existing dependencies. Checkbox to disable import of dependencies.
+* waptconsole / import packages: Don't reimport existing dependencies.
+  Checkbox to disable import of dependencies.
 
-* wapt-scanpackages speed optimizations : don't reextract certificates and icon for skipped package entries. use md5 from filename if supplied when scanning.
+* wapt-scanpackages speed optimizations: Don't reextract certificates
+  and icon for skipped package entries. use md5 from filename
+  if supplied when scanning.
 
-* waptexit : fix arguments to waptexit for only_if_not_process_running and install_wua_updates (bool)
+* waptexit: fix arguments to waptexit for ``only_if_not_process_running``
+  and ``install_wua_updates`` (bool).
 
-* waptagent / waptwua fix wapt wua enabled setting reset to False when upgrading with waptagent and enabled=don't touch
+* waptagent / waptwua fix wapt wua enabled setting reset to False
+  when upgrading with waptagent and enabled=don't touch.
 
-* waptserver / waptwua repository : all cabs files are now in root directory instead of microsft original file tree. The files are moved when upgrading to 1.8
+* waptserver / waptwua repository : all cabs files are now
+  in root directory instead of microsft original file tree.
+  The files are moved when upgrading to 1.8.
 
-* waptupgrade package : increment build nr if building a new waptagent of the same main wapt version
+* waptupgrade package: Increment build number if building
+  a new waptagent of the same main wapt version.
 
-* waptserver parameter trusted_signers_certificates_folder :  path to trusted signers certificate directory. If defined, only packages signed by this trusted CA are accepted on the server when uploading through server
+* waptserver parameter trusted_signers_certificates_folder:
+  Path to trusted signers certificate directory. If defined, only packages
+  signed by this trusted CA are accepted on the server
+  when uploading through server.
 
-* waptserver parameter 'remote_repo_support' : If true, a task is scheduled to scan repositories (waptn waptwua wapt-hosts) and creates a sync.json file for remote secondary repositories.
+* waptserver parameter 'remote_repo_support': If true, a task is scheduled
+  to scan repositories (wapt waptwua wapt-hosts) that creates
+  a :file:`sync.json` file for remote secondary repositories.
 
-* when buiding waptagent, don't include non CA packages certificates by default in waptagent. A checkbox is available to still enable non CA certificates to be scanned and added
+* when buiding waptagent, don't include non CA packages certificates
+  by default in waptagent. A checkbox is available to still enable
+  non CA certificates to be scanned and added.
 
-* when building waptagent, can add or remove certificates in the grid with Ctrl+Del or drag and drop.
+* when building waptagent, one can add or remove certificates
+  in the grid with Ctrl+Del or drag and drop.
 
-* waptconsole / host packages status grid : fix F5 refresh
+* waptconsole / host packages status grid: Fixed :kbd:`F5` refresh.
 
-* waptconsole / build agent : build an enterprise agent even if no valid licence (Enterprise)
+* waptconsole / build agent: Build an enterprise agent even
+  if no valid licence. (Enterprise)
 
-* fix forced_update_on control attribute : don't take into account for next_update_on if in the past.
+* fix ``forced_update_on`` control attribute: Don't take into account
+  for ``next_update_on`` if in the past.
 
-* waptconsole: try to accept waptserver password with non ascii chars
+* waptconsole: Try to accept waptserver password with non ASCII characters.
 
-* waptstarter: remove socle from default host profile
+* waptstarter: Remove socle from default host profile
 
-* waptagent build : rework of server certificate path relocation when building / installing
+* waptagent build: Rework of server certificate path relocation when building /
+  installing
 
-* Don't sign agent certificate if not valid human auth (admin, passwd or ldap) or kerberos auth provided.
+* Don't sign agent certificate if no valid human authentication
+  (admin, passwd or ldap) or kerberos authentication has been provided.
 
-Be explicit on auth methods
+  Be explicit on authentication methods
 
-Stores registration auth method in db only if valid human auth or kerberos auth provided
+  Stores registration authentication method in db only
+  if valid human authentication or kerberos authentication has been provided.
 
-When registering, be sure we trust a already signed certificate with CN matching the host.
+  When registering, be sure we trust a already signed certificate
+  with CN matching the host.
 
-Stores the signed host certificate in server DB on proper registration.
+  Stores the signed host certificate in server DB on proper registration.
 
-* some syntax preparation work for future python3
+* some syntax preparation work for future python3.
 
-* some preparation work for detailed ACL handling (Enterprise)
+* some preparation work for detailed ACL handling. (Enterprise)
 
-* don't enable client ssl auth by default in waptserver as nginx reverse proxy server is perhaps misconfigured.
+* don't enable client ssl auth by default in waptserver as nginx reverse
+  proxy server is perhaps misconfigured.
 
 Python libraries / modules updates
 ++++++++++++++++++++++++++++++++++

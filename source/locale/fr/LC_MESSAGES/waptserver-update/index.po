@@ -3,16 +3,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-04 12:28+0100\n"
-"PO-Revision-Date: 2020-02-18 11:39+0100\n"
+"POT-Creation-Date: 2020-03-10 17:21+0100\n"
+"PO-Revision-Date: 2020-03-10 17:23+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
+"X-Generator: Poedit 1.8.8\n"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:8
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:24
@@ -25,21 +26,20 @@ msgstr "WAPT, upgrade, upgrading, documentation"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:28
 msgid ""
-"If your WAPT Server is a virtual machine, take a snapshot of the VM. This"
-" way, you'll be able to go back easily in the rare case that the update "
-"fails."
+"If your WAPT Server is a virtual machine, take a snapshot of the VM. This "
+"way, you'll be able to go back easily in the rare case that the update fails."
 msgstr ""
-"Si votre serveur wapt est installé en machine virtuelle, faites un "
-"snapshot. Cela vous permettera de revenir facilement en arrière en cas "
-"d'échec de la mise à jour."
+"Si votre serveur wapt est installé en machine virtuelle, faites un snapshot. "
+"Cela vous permettera de revenir facilement en arrière en cas d'échec de la "
+"mise à jour."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:32
 msgid ""
 "Before upgrading WAPT Server, please refer to the following upgrading "
 "compatibility chart :"
 msgstr ""
-"Avant de mettre à niveau le serveur WAPT, veuillez consulter le tableau "
-"de compatibilité de mise à niveau suivant :"
+"Avant de mettre à niveau le serveur WAPT, veuillez consulter le tableau de "
+"compatibilité de mise à niveau suivant :"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:35
 msgid "\\"
@@ -91,9 +91,8 @@ msgid "From WAPT 1.7"
 msgstr "Depuis WAPT 1.7"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:45
-#, fuzzy
 msgid "Upgrading WAPT from 1.6/1.7 to 1.8"
-msgstr "Mise à jour de 1.6/1.7 vers 1.8"
+msgstr "Mettre à jour de 1.6/1.7 vers 1.8"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:47
 msgid "The upgrade process follows the process for a minor update:"
@@ -113,46 +112,43 @@ msgstr ":ref:`mise à jour mineure pour Windows <wapt_minor_upgrade_windows>` 
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:57
 msgid ""
-"Debian Jessie is now deprecated. **WAPT 1.8 will not work with old Debian"
-" version**;"
+"Debian Jessie is now deprecated. **WAPT 1.8 will not work with old Debian "
+"version**;"
 msgstr ""
-"Debian Jessie est maintenant obsolète. **WAPT 1.8 ne fonctionnera pas "
-"avec cette ancienne version de Debian** ;"
+"Debian Jessie est maintenant obsolète. **WAPT 1.8 ne fonctionnera pas avec "
+"cette ancienne version de Debian** ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:60
-#, fuzzy
 msgid ""
-"consider migrating your existing WAPT installation to Debian Buster or "
-"CentOS7 : :ref:`upgrade-waptserver-os`;"
+"consider migrating your existing WAPT installation to :ref:`Debian Buster or "
+"CentOS7 <upgrade-waptserver-os>`;"
 msgstr ""
-"envisagez de migrer votre installation WAPT existante vers Debian Buster "
-"ou CentOS7 ;"
+"envisagez de migrer votre installation WAPT existante vers ref:`Debian "
+"Buster ou CentOS7 <upgrade-waptserver-os>` ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:64
-#, fuzzy
 msgid "Upgrading WAPT from 1.5 to 1.6"
-msgstr "Mise à jour de 1.5 vers 1.6"
+msgstr "Mettre à jour de 1.5 vers 1.6"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:66
 msgid "The upgrade process follows the process for a minor update."
 msgstr "La mise à jour s'effectue comme une mise à jour mineure."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:70
-#, fuzzy
 msgid ""
-"if you are in Debian Stretch, it is recommended to upgrade to Debian "
-"Buster 64 bits : :ref:`upgrade-waptserver-os`;"
+"if you are in Debian Stretch, it is recommended to upgrade to Debian Buster "
+"64 bits : :ref:`upgrade-waptserver-os`;"
 msgstr ""
-"si vous êtes sur Debian Jessie, il est recommandé de mettre à niveau vers"
-" Debian Buster 64 bits ;"
+"si vous êtes sur Debian Jessie, il est recommandé de mettre à niveau vers "
+"Debian Buster 64 bits : :ref:`upgrade-waptserver-os` ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:73
 msgid ""
 "this is **MANDATORY** for the **Enterprise** version with Windows Update "
 "support;"
 msgstr ""
-"ceci est **OBLIGATOIRE** pour la version **Enterprise** avec prise en "
-"charge des Windows Updates ;"
+"ceci est **OBLIGATOIRE** pour la version **Enterprise** avec prise en charge "
+"des Windows Updates ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:75
 msgid "when upgrading to Debian10, the PostgreSQL database must be upgraded;"
@@ -161,9 +157,8 @@ msgstr ""
 "être mise à jour ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:79
-#, fuzzy
 msgid "Upgrading WAPT from 1.3 to 1.6"
-msgstr "Mise à jour de 1.3 vers 1.6"
+msgstr "Mettre à jour de 1.3 vers 1.6"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:81
 msgid "The upgrade from 1.3 to 1.6 is a major upgrade."
@@ -175,11 +170,11 @@ msgstr "Mise à jour mineure"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:92
 msgid ""
-"This procedures concerns the classic method for upgrading the WAPT Server"
-" for minor versions, for exemple from 1.7.4 to 1.8."
+"This procedures concerns the classic method for upgrading the WAPT Server "
+"for minor versions, for exemple from 1.7.4 to 1.8."
 msgstr ""
-"Cette procédure concerne la mise à jour classique du serveur WAPT pour "
-"les versions mineures, par exemple de 1.7.4 à 1.8."
+"Cette procédure concerne la mise à jour classique du serveur WAPT pour les "
+"versions mineures, par exemple de 1.7.4 à 1.8."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:95
 msgid "The migration process includes:"
@@ -203,30 +198,8 @@ msgstr "la mise à jour de la GPO de déploiement ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:107
 msgid ""
-"For upgrading from 1.3 to 1.6, please refer to :ref:`upgrading from 1.3 "
-"to 1.6 <upgrade_1.3_1.6>`."
+"For upgrading from 1.3 to 1.6, please refer to :ref:`upgrading from 1.3 to "
+"1.6 <upgrade_1.3_1.6>`."
 msgstr ""
-"Pour la migration majeure WAPT 1.3 vers WAPT 1.6, suivez la documentation"
-" de :ref:`mise à jour majeure 1.3 vers 1.6 <upgrade_1.3_1.6>`."
-
-#~ msgid "Upgrading the Operating System"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "In order to upgrade your WAPT "
-#~ "server from Stretch to Buster you "
-#~ "have to follow the standard procedure"
-#~ " for Debian. You first modify the "
-#~ "apt source files :file:`/etc/apt/sources.list` "
-#~ "and :file:`/etc/apt/sources.list.d/wapt.list`, then "
-#~ "start upgrade."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "By default the PostgreSQL is not "
-#~ "upgraded to PostgreSQL 11. One needs "
-#~ "to manually ask for upgrade. After "
-#~ "upgrade it is possible to remove "
-#~ "old PostgreSQL 9 database."
-#~ msgstr ""
-
+"Pour la migration majeure WAPT 1.3 vers WAPT 1.6, suivez la documentation "
+"de :ref:`mise à jour majeure 1.3 vers 1.6 <upgrade_1.3_1.6>`."
