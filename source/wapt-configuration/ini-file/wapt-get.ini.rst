@@ -237,7 +237,7 @@ Refer to :ref:`this article on configuring WAPTWUA on the WAPT agent <wapt_wua_a
 Overriding settings of *upload* functions
 -----------------------------------------
 
-It's possible do override :command:`upload` commands to define
+It's possible to override :command:`upload` commands to define
 a particular behavior when uploading packages. It's possible for example
 to upload packages on several repositories, or via another protocol, etc.
 
