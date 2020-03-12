@@ -28,7 +28,7 @@ Installing the WAPT management console
     in Active Directory;
 
   * the Administrator's computer will become critical for WAPT
-    administration and WAPT packages testing;
+    administration and WAPT package testing;
 
   * if DNS records are properly configured, you should be able
     to access the WAPT web interface by visiting: https://srvwapt.mydomain.lan;
