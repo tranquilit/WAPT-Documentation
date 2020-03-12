@@ -77,7 +77,7 @@ Asked Questions <wapt_faq>`.
 
   Choose the WAPT destination folder
 
-* choose additional task (leave as is for a first installation);
+* choose additional task (leave as is for the first installation);
 
 .. figure:: windows-additional-task.png
   :align: center
