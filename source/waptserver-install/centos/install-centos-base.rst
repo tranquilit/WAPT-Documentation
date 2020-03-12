@@ -88,7 +88,7 @@ Configuring the IP address of the WAPT Server
 
     reboot
 
-* if it has not already be done, :ref:`create the DNS entries
+* if it has not already been done, :ref:`create the DNS entries
   for the WAPT Server <srv_dns>` in the :term:`Organization` Active Directory;
 
 * after reboot, configure the system language in English in order to have
@@ -128,5 +128,5 @@ Configuring the IP address of the WAPT Server
   yum update
   yum install epel-release wget sudo
 
-You may no go on to the next step and :ref:`install WAPT on your
+You may now go on to the next step and :ref:`install WAPT on your
 CentOS/ RedHat <install_wapt_centos>`.
