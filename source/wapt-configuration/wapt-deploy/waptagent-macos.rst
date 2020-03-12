@@ -28,7 +28,7 @@ Installing the WAPT Agent package from Tranquil IT's public repository
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 * download WAPT agent for Apple Mac OSX
-  from `Tranquil IT public repository <https://wapt.tranquil.it/wapt/releases/latest/>`_;
+  from `Tranquil IT's public repository <https://wapt.tranquil.it/wapt/releases/latest/>`_;
 
 * install the downloaded package:
 
@@ -36,7 +36,7 @@ Installing the WAPT Agent package from Tranquil IT's public repository
 
     installer -pkg /Volumes/Macintosh\ HD/Users/johnsmith/Downloads/tis-waptagent-1.8.0.6632-tismacos-bdc0beea.pkg -target /
 
-Creating the agent configuration file
+Creating the agents configuration file
 +++++++++++++++++++++++++++++++++++++
 
 The requisites for your WAPT agent to work are:
