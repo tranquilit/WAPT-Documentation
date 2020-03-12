@@ -102,30 +102,30 @@ These options will set WAPT agent behavior when connecting to WAPT Server.
 
 .. tabularcolumns:: |\\X{5}{12}|\\X{7}{12}|
 
-============================================================================ ========================================================================================
-Options                                                                      Description
-============================================================================ ========================================================================================
-``wapt_server`` =                                                            WAPT Server URL. If the attribute is not present, no WAPT Server will be contacted.
-                                                                             If the attribute is empty, a DNS query will be triggered to find the WAPT Server
-                                                                             using the ``dnsdomain`` attribute for the DNS zone.
+=============================================================================================== ========================================================================================
+Options                                                                      					Description
+=============================================================================================== ========================================================================================
+``wapt_server`` =                                                            					WAPT Server URL. If the attribute is not present, no WAPT Server will be contacted.
+                                                                             					If the attribute is empty, a DNS query will be triggered to find the WAPT Server
+                                                                             					using the ``dnsdomain`` attribute for the DNS zone.
 
-``dnsdomain`` =                                                              DNS zone on which the DNS SRV ``_waptserver._tcp`` is searched.
+``dnsdomain`` =                                                              					DNS zone on which the DNS SRV ``_waptserver._tcp`` is searched.
 
-``wapt_server_timeout`` = 10                                                 WAPT Server HTTPS connection timeout in seconds
+``wapt_server_timeout`` = 10                                                 					WAPT Server HTTPS connection timeout in seconds
 
-``use_kerberos`` = 1                                                         Use Kerberos authentication for initial registration on the WAPT Server.
+``use_kerberos`` = 1                                                         					Use Kerberos authentication for initial registration on the WAPT Server.
 
-``verify_cert`` =                                                            See the documentation on activating the
-:file:`C:\\Program Files (x86)\\wapt\\ssl\\server\\srvwapt.mydomain.lan.crt` :ref:`verification of HTTPS certificates <activating_HTTPS_certificate_verification>`.
+``verify_cert`` = :file:`C:\\Program Files (x86)\\wapt\\ssl\\server\\srvwapt.mydomain.lan.crt`  See the documentation on activating the
+ 																								:ref:`verification of HTTPS certificates <activating_HTTPS_certificate_verification>`.
 
-``public_certs_dir`` = :file:`C:\\Program Files (x86)\\wapt\\ssl`            Folder of certificates authorized to verify the signature of WAPT packages,
-                                                                             by default, ``<wapt_base_dir>\\ssl``. Only files in this directory with
-                                                                             :file:`.crt` or :file:`.pem` extension are taken into account. There may be
-                                                                             several X509 certificates in each file. Authorized packages in WAPT are those
-                                                                             whose signature may be verified by one of the certificates contained in the
-                                                                             PEM files of this directory. Each repository may have its own folder of
-                                                                             authorized certificates.
-============================================================================ ========================================================================================
+``public_certs_dir`` = :file:`C:\\Program Files (x86)\\wapt\\ssl`            					Folder of certificates authorized to verify the signature of WAPT packages,
+                                                                             					by default, ``<wapt_base_dir>\\ssl``. Only files in this directory with
+                                                                             					:file:`.crt` or :file:`.pem` extension are taken into account. There may be
+                                                                             					several X509 certificates in each file. Authorized packages in WAPT are those
+                                                                             					whose signature may be verified by one of the certificates contained in the
+                                                                             					PEM files of this directory. Each repository may have its own folder of
+                                                                             					authorized certificates.
+=============================================================================================== ========================================================================================
 
 .. _wapt-get-ini-repositories:
 
