@@ -56,7 +56,7 @@ Hardware recommendations
 The WAPT Server can be installed either on a virtual
 server or a physical server.
 
-RAM and CPU recommandations are:
+RAM and CPU recommendations are:
 
 .. tabularcolumns:: |\X{4}{6}|\X{1}{6}|\X{1}{6}|
 
