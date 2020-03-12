@@ -21,7 +21,7 @@ If you need to uninstall WAPT agents from clients,
 the uninstaller is automatically created in the WAPT install location,
 by default it is :file:`C:\\Program Files (x86)\\wapt\\unins000.exe`.
 
-* default silent uninstall of WAPT agent can be achieved
+* default silent uninstall of a WAPT agent can be achieved
   with the following command:
 
   .. code:: bash
@@ -44,10 +44,10 @@ Settings              Description
 ``/purge_wapt_dir=1`` Purges WAPT directory (removes all folders and files)
 ===================== =====================================================
 
-Uninstalling WAPT agent on Linux
+Uninstalling a WAPT agent on Linux
 --------------------------------
 
-* default uninstall of WAPT agent can be achieved
+* default uninstall of a WAPT agent can be achieved
   with the following command, depending on your Linux OS:
 
   .. code-block:: bash
@@ -70,10 +70,10 @@ Uninstalling WAPT agent on Linux
     # CentOS / Redhat
     rm /etc/yum/yum.repos.d/wapt.list
 
-Uninstalling WAPT agent on MacOS
+Uninstalling a WAPT agent on MacOS
 --------------------------------
 
-* default uninstall of WAPT agent can be achieved
+* default uninstall of a WAPT agent can be achieved
   with the following command:
 
   .. code:: bash
@@ -84,12 +84,12 @@ Uninstalling WAPT agent on MacOS
     # Remove packages
     sudo pkgutil --forget com.tranquilit.tis-waptagent-enterprise
 
-Re-enabling Windows Update before uninstalling
+Re-enabling Windows Updates before uninstalling
 ----------------------------------------------
 
 In the case you have used WAPT to manage Windows Updates,
-you might want to re-enable Windows Update default behavior
-before uninstalling WAPT agent.
+you might want to re-enable Windows Updates default behavior
+before uninstalling the WAPT agent.
 
 To do so, here is an example package to push before uninstalling the WAPT agent:
 
