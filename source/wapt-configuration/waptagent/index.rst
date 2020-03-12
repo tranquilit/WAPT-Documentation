@@ -29,7 +29,7 @@ it is up to you to choose the mode that best suits you.
 
 .. attention::
 
-  When choosing a mode of operation it is difficult to change it,
+  After choosing a mode of operation it is difficult to change it,
   think carefully!
 
 Identifying the WAPT agents by their BIOS UUID (serial number)
@@ -141,10 +141,10 @@ we have all files required to build the WAPT agent installer.
     the performance of WAPT**;
 
   * the field :guilabel:`Append host's profiles`
-    allows to define a list of WAPT packages to install obligatorily;
+    allows you to define a list of WAPT packages to install obligatorily;
 
   * the field :guilabel:`Automatic periodic packages audit scheduling`
-    define the frequency at which the WAPT agent checks whether it has
+    defines the frequency at which the WAPT agent checks whether it has
     audits to perform;
 
   * Windows update section, refer to :ref:`this article on configuring WAPTWUA
@@ -160,11 +160,11 @@ we have all files required to build the WAPT agent installer.
      **ONLY IF** you have followed the documentation
      on **Activating the verification of the SSL / TLS certificate**.
 
-.. figure:: waptagent-organisation-info.png
+.. figure:: waptagent-organization-info.png
   :align: center
-  :alt: Fill in the informations on your Organisation
+  :alt: Fill in the informations on your Organization
 
-  Fill in the informations on your Organisation
+  Fill in the informations on your Organization
 
 * provide the password for unlocking the private key:
 
@@ -258,10 +258,10 @@ What can go wrong during the upgrades
   is the basis of end point management...).
   **If you have an issue when deploying the upgrade, please check your antivirus
   console and whitelist the waptagent.exe**. Another option is to re-sign
-  the :program:`waptagent.exe` binary if your organisation has an internal
+  the :program:`waptagent.exe` binary if your organization has an internal
   code signing certificate;
 
-* the second most common issue is that for some reasons another program
+* the second most common issue is that for some reason another program
   is locking a :mimetype:`DLL` that ships with WAPT. This can happen
   with poorly designed software installers that pick up the local
   %PATH% variable first and then find WAPTs own openssl or python DLL;
