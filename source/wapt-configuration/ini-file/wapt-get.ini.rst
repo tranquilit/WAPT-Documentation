@@ -135,7 +135,7 @@ Using several repositories
 There can be more sections in the :file:`wapt-get.ini` file
 to define more repositories.
 
-* ``[wapt]``: main repository. Revelant attributes: ``repo_url``,
+* ``[wapt]``: main repository. Relavent attributes: ``repo_url``,
   ``verify_cert``, ``dnsdomain``, ``http_proxy``, ``use_http_proxy_for_repo``,
   ``timeout``. If this section does not exist, parameters are read
   from the ``[global]`` section;
@@ -144,7 +144,7 @@ to define more repositories.
   console for importing new or updated packages.
 
 * ``[wapt-host]``: repository for host packages. If this section
-  does not exists, default locations will be used on the main repository.
+  does not exist, default locations will be used on the main repository.
 
 
 More information on that usage can be found here : :ref:`work_multiple_repos`.
