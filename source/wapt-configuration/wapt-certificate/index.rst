@@ -50,7 +50,7 @@ The :file:`wapt-private.crt` file is the public certificate that is used
 along with the private key. It is by default created in the :file:`C:\\private`
 folder, copied in :file:`C:\\Program Files (x86)\\wapt\\ssl` of the Administrator
 and deployed on the desktops managed by the Administrator
-via WAPT agent or a GPO.
+via a WAPT agent or a GPO.
 
 This certificate is used to validate the signature of packages
 before installation.
@@ -110,8 +110,8 @@ Required informations are:
 * :guilabel:`Certificate name`: name of the
   :file:`.crt` certificate: **required**;
 
-* :guilabel:`Additional informations`: additional details stored
-  in the private key. These informations will help with identifying
+* :guilabel:`Additional information`: additional details stored
+  in the private key. This information will help with identifying
   the origin of the WAPT package: **optional**;
 
 For a fresh install, you can follow the screenshot below.
@@ -119,7 +119,7 @@ For a fresh install, you can follow the screenshot below.
 .. hint::
 
   The password complexity must comply with your :term:`Organization`'s security
-  requirements (eg. :term:`ANSSI` passwords recommendations).
+  requirements (eg. :term:`ANSSI` password recommendations).
 
 .. danger::
 
@@ -197,22 +197,22 @@ Required informations are:
   to sign other certificates (main or intermediate Certificate
   Authority): **required**;
 
-* :guilabel:`Additional informations`: additional details stored
-  in the private key. These informations will help with identifying
+* :guilabel:`Additional information`: additional details stored
+  in the private key. This information will help with identifying
   the origin of the WAPT package: **optional**;
 
 .. hint::
 
   The password complexity must comply with your :term:`Organization`'s security
-  requirements (eg. :term:`ANSSI` passwords recommendations).
+  requirements (eg. :term:`ANSSI` password recommendations).
 
 .. note::
 
   If your Organization is already equipped with an :term:`Certificate Authority`
   (CA), you will have to fill the certificate and the key in the fields
-  :guilabel:`CA Certificate` et :guilabel:`CA Key`.
+  :guilabel:`CA Certificate` and :guilabel:`CA Key`.
 
-  With this procedure you can generate new certificate/ key pairs
+  With this procedure you can generate new certificates/ key pairs
   with or without **Code Signing** capability.
 
 .. danger::
@@ -233,7 +233,7 @@ Required informations are:
 * click on :guilabel:`Yes` to copy the newly generated certificate
   in the :file:`C:\\Program Files (x86)\\wapt\\ssl` folder.
   This certificate will be picked up during the compilation of the WAPT agent
-  and deployed on the client computers;
+  and deployed on the clients computers;
 
 If everything has gone well the following message will appear:
 
