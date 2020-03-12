@@ -14,7 +14,7 @@
 Using the WAPT console
 ======================
 
-Installing the WAPT agent on the devices of your Organization
+Installing the WAPT agent on the devices in your Organization
 -------------------------------------------------------------
 
 If you have not done so already, install the WAPT agent on a computer.
@@ -80,9 +80,9 @@ Duplicating a WAPT package consists of:
     **It has been signed with your own private key**.
 
     **Tranquil IT** disclaims any liability if you choose to use WAPT packages
-    retrieved from her repositories. Without a support contract, Tranquil IT
+    retrieved from their repositories. Without a support contract, Tranquil IT
     does not guarantee the suitability of the package for your own particular
-    use case, nor does she guarantee the ability of the package to comply
+    use case, nor do they guarantee the ability of the package to comply
     with your :term:`Organization`'s internal security policies.
 
 * go to the :guilabel:`Private repository` tab;
@@ -95,7 +95,7 @@ Duplicating a WAPT package consists of:
 
 Every software package version available on the WAPT repository is shown.
 
-If no packages has been imported, the list is empty. Only the *test-waptupgrade*
+If no package has been imported, the list is empty. Only the *test-waptupgrade*
 package will be present if the WAPT agent has been generated previously.
 Visit the documentation on :ref:`creating a WAPT agent <create_WAPT_agent>`.
 
@@ -104,7 +104,7 @@ Two options are available to import packages:
 Import a package from an external repository on the Internet
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-That first method allows to download packages directly from a WAPT repository
+That first method allows you to download packages directly from a WAPT repository
 external to your :term:`Organization`.
 
 To import from a different repository than Tranquil IT, define a new repository
@@ -223,7 +223,7 @@ from scratch <creating_WAPT_packages>`.
 Importing a WAPT package from a file
 """"""""""""""""""""""""""""""""""""
 
-That second method allows to import a :file:`.wapt` file from any medium.
+That second method allows you to import a :file:`.wapt` file from any medium.
 
 * click on :guilabel:`Import from File`;
 
@@ -287,7 +287,7 @@ Deploying WAPT packages from the WAPT console
    Select the host to configure
 
 * A window opens, on the right side appears the list of packages available
-  on the local WAPT repository, and on the left side is shown the list
+  on the local WAPT repository, and on the left side it shows the list
   of packages currently assigned to the host.
 
 * drag and drop packages from the right pane to the left pane;
@@ -303,7 +303,7 @@ Deploying WAPT packages from the WAPT console
   to the WAPT Server;
 
 * clicking on :guilabel:`Save` will save the current configuration.
-  Upgrading of the packages will occur on the the WAPT agents' next update
+  Upgrading of the packages will occur during the WAPT agents' next update
   cycle;
 
 .. figure:: wapt_console-save-and-apply-button.png
