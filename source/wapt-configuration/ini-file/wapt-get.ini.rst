@@ -116,7 +116,7 @@ Options                                                                      			
 ``use_kerberos`` = 1                                                         					Use Kerberos authentication for initial registration on the WAPT Server.
 
 ``verify_cert`` = :file:`C:\\Program Files (x86)\\wapt\\ssl\\server\\srvwapt.mydomain.lan.crt`  See the documentation on activating the
- 																								:ref:`verification of HTTPS certificates <activating_HTTPS_certificate_verification>`.
+ 																								:ref:`verification of HTTPS certificates <activating_HTTPS_certificate_verification>`
 
 ``public_certs_dir`` = :file:`C:\\Program Files (x86)\\wapt\\ssl`            					Folder of certificates authorized to verify the signature of WAPT packages,
                                                                              					by default, ``<wapt_base_dir>\\ssl``. Only files in this directory with
