@@ -28,7 +28,7 @@ Go to console configuration settings: :menuselection:`Tools --> Preferences`.
 WAPT console preferences
 ++++++++++++++++++++++++
 
-We will set here the prefix.
+Here we will set the prefix.
 
 .. attention::
 
