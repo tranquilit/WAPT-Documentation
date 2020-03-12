@@ -20,7 +20,7 @@ in :file:`C:\\wapt\\conf\\waptserver.ini`.
 
 .. attention::
 
-  **Modifying these files is reserved to advanced users !!**
+  **Modification of these files is reserved for advanced users !!**
 
 .. _waptserver_configuration:
 
@@ -58,10 +58,10 @@ Options                                                                     Desc
 ``client_tasks_timeout`` = 1                                                Maximum allowed delay before WAPT agent requests timeout
 ``signature_clockskew`` = 72000                                             Maximum allowed time difference for the websockets
 ``db_connect_timeout`` = 10                                                 Maximum allowed delay before PostgreSQL queries timeout
-``db_max_connections`` = 100                                                Maximum simultaneous connexions to the PostgreSQL database
+``db_max_connections`` = 100                                                Maximum simultaneous connections to the PostgreSQL database
 ``allow_unauthenticated_registration`` = True                               Allows the initial registration of the WAPT agent using
-                                                                            a login and a password
-``allow_unauthenticated_connect`` = False                                   Defines whether websocket connexions should be authenticated
+                                                                            a login and password
+``allow_unauthenticated_connect`` = False                                   Defines whether websocket connections should be authenticated
 ``http_proxy`` = http://proxy.ad.tranquil.it:3128                           Defines the proxy server to allow the WAPT server to recover
                                                                             its :abbr:`CRL (Certificate Revocation List)`
 ``wol_port`` = 9,123,4000                                                   List of WakeOnLAN UDP ports to send magic packets to
