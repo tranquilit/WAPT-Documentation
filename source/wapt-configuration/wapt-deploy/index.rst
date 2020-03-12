@@ -19,7 +19,7 @@ Two methods are available to deploy the :program:`waptagent.exe`.
 
 The first method is manual and the procedure must be applied on each machine.
 
-The second one is automated and relies on :abbr:`GPO (Group Policy Objects)`.
+The second one is automated and relies on a :abbr:`GPO (Group Policy Objects)`.
 
 .. note::
 
@@ -42,7 +42,7 @@ The second one is automated and relies on :abbr:`GPO (Group Policy Objects)`.
 
   * using WAPT in an organization with a small number of computers, etc;
 
-Deploying waptagent.exe automatically
+Deploying waptagent.exe manually
 -------------------------------------
 
 .. attention::
@@ -139,7 +139,7 @@ and an :command:`update` to display the list of available WAPT packages.
 To manage your Organization's WAPT clients, visit
 the :ref:`documentation on using the WAPT console <using_the_WAPT_console>`.
 
-Deploying automatically the WAPT agents
+Automatically deploying the WAPT agents
 ---------------------------------------
 
 .. important:: Technical pre-requisites
