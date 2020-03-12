@@ -21,7 +21,7 @@ for Linux Debian / Linux CentOS.
 
 .. note::
 
-  * the following procedure installs WAPT agent using Tranquil IT repositories
+  * the following procedure installs a WAPT agent using Tranquil IT repositories
     for Debian/CentOS;
 
   * if you wish to install it manually, you can look
@@ -55,7 +55,7 @@ on Linux Debian is using Tranquil IT public repository.
 Installing the WAPT agent on CentOS
 +++++++++++++++++++++++++++++++++++
 
-The most secure and reliable way to install latest WAPT agent
+The most secure and reliable way to install the latest WAPT agent
 on Linux CentOS is using Tranquil IT public repository.
 
 * add Tranquil IT repository in yum repository lists:
@@ -131,8 +131,8 @@ using :program:`WinSCP` or :program:`rsync`.
 
 .. attention::
 
-  If you are not using SSL/TLS certificate with your WAPT Server,
-  you must change in :file:`/opt/wapt/wapt-get.ini` the following lines to 0:
+  If you are not using SSL/TLS certificates with your WAPT Server,
+  you must change it in :file:`/opt/wapt/wapt-get.ini` the following lines to 0:
 
   .. code-block:: bash
 
@@ -156,4 +156,4 @@ Registering your Linux agent
      wapt-get update
 
 Your Linux Agent is now installed and configured
-and it will now appear in your WAPT Console with a pinguin icon!!
+and it will now appear in your WAPT Console with a penguin icon!!
