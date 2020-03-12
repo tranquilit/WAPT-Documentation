@@ -21,7 +21,7 @@ for Linux Debian / Linux CentOS.
 
 .. note::
 
-  * the following procedure installs a WAPT agent using Tranquil IT repositories
+  * the following procedure installs a WAPT agent using Tranquil IT's repositories
     for Debian/CentOS;
 
   * if you wish to install it manually, you can look
@@ -34,9 +34,9 @@ Installing the WAPT agent on Debian
 +++++++++++++++++++++++++++++++++++
 
 The most secure and reliable way to install the latest WAPT agent
-on Linux Debian is using Tranquil IT public repository.
+on Linux Debian is using Tranquil IT's public repository.
 
-* add Tranquil IT repository in apt repository lists:
+* add Tranquil IT's repository in apt repository lists:
 
 .. code-block:: bash
 
@@ -56,9 +56,9 @@ Installing the WAPT agent on CentOS
 +++++++++++++++++++++++++++++++++++
 
 The most secure and reliable way to install the latest WAPT agent
-on Linux CentOS is using Tranquil IT public repository.
+on Linux CentOS is using Tranquil IT's public repository.
 
-* add Tranquil IT repository in yum repository lists:
+* add Tranquil IT's repository in yum repository lists:
 
   .. code-block:: bash
 
