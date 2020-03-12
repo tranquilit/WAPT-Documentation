@@ -120,7 +120,7 @@ Options                                               Description
                                                       in the ``[section]``.
 ===================================================== ===========================================
 
-Settings for creating WAPT package
+Settings for creating WAPT packages
 ----------------------------------
 
 .. tabularcolumns:: |\X{5}{12}|\X{7}{12}|
