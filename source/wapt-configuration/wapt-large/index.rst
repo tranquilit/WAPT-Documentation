@@ -20,7 +20,7 @@ modify a few system level parameters along with PostgreSQL database,
 Nginx web and WAPT Server python server.
 
 In the future the :code:`postconf.sh` script might take charge of
-this configuration depending on the expected number of client computers
+this configuration depending on the expected number of client computers.
 
 With the following parameters, one WAPT Server should scale up to around 5000
 concurrent active clients. You may have more clients in the database if they
