@@ -105,7 +105,6 @@ You then have several options:
 Options                        Default Value                        Description
 ============================== ==================================== ======================================================================================================================================================================
 ``enabled``                    False                                Enable or disable WAPTWUA on this machine.
-``offline``                    True                                 Defined if the scan should be done using :file:`wsusscn2.cab` files or Online with Microsoft servers
 ``allow_direct_download``      False                                Allow direct download of updates from Microsoft servers if the WAPT server is not available
 ``default_allow``              False                                Set if missing update is authorized or not by default
 ``filter``                     Type='Software' or Type='Driver'     Define the filter to apply for the Windows update scan
