@@ -25,7 +25,7 @@ Using the WAPT console (detailed)
 
   Software inventory as registered in the Windows registry of the host
 
-How to perform actions of the hosts?
+How to perform actions on the hosts?
 ------------------------------------
 
 .. figure:: wapt_console-host-configuration-menu.png
@@ -77,16 +77,16 @@ Searching a host
 
   *Search* function in WAPT
 
-Allow to search for a value in the selected column.
+Allows you to search for a value in the selected column.
 
 Show the inventory
 ------------------
 
-When the WAPT agents :command:`register`, they send some informations
+When the WAPT agents :command:`register`, they send some information
 to the WAPT Server.
 
-Informations displayed in the console are not updated in real-time, you have
-to refresh the display to view new status and informations.
+Information displayed in the console is not updated in real-time, you have
+to refresh the display to view new status and information.
 
 Click on the :guilabel:`Refresh` button or press :kbd:`F5` on the keyboard.
 
@@ -97,16 +97,16 @@ Click on the :guilabel:`Refresh` button or press :kbd:`F5` on the keyboard.
   WAPT console displaying inventory
 
 The WAPT console lists hosts that are registered with the WAPT Server
-and some informations that are useful for managing the hosts.
+and some information that is useful for managing the hosts.
 
-Selecting a host displays its informations in the right panel of
+Selecting a host displays its information in the right panel of
 the WAPT console (:guilabel:`Hardware inventory` and
 :guilabel:`Software inventory`).
 
 Hardware inventory displays the hardware inventory of the host
 --------------------------------------------------------------
 
-Common informations displayed in the :guilabel:`Hardware inventory` tab are:
+Common informations displayed in the :guilabel:`Hardware inventory` tab is:
 
 * the name of the host;
 
@@ -196,12 +196,12 @@ Acting on packages installed on a host
 Hardware inventory tab
 ++++++++++++++++++++++
 
-Informations displayed by default in the :guilabel:`Hardware inventory`
-tab are:
+Information displayed by default in the :guilabel:`Hardware inventory`
+tab is:
 
-* informations on the host's hardware components;
+* information on the host's hardware components;
 
-* some informations about the host;
+* some information about the host;
 
 * some information on the status of WAPT;
 
@@ -233,7 +233,7 @@ appears in the main grid.
 Software inventory tab
 ++++++++++++++++++++++
 
-Common informations displayed in the :guilabel:`Sofware inventory` tab are:
+Common information displayed in the :guilabel:`Sofware inventory` tab is:
 
 * :guilabel:`maker`
 
@@ -256,7 +256,7 @@ Common informations displayed in the :guilabel:`Sofware inventory` tab are:
 Windows update tab
 ++++++++++++++++++
 
-Informations displayed in the :guilabel:`Hardware inventory` tab are:
+Information displayed in the :guilabel:`Hardware inventory` tab is:
 
 * Windows update agent version;
 
@@ -273,7 +273,7 @@ Informations displayed in the :guilabel:`Hardware inventory` tab are:
   The grid then lists Windows cab files that have been installed
   or that are pending installation.
 
-Informations displayed in the :guilabel:`Windows Updates` tab are:
+Information displayed in the :guilabel:`Windows Updates` tab are:
 
 * :guilabel:`Status`;
 
@@ -304,7 +304,7 @@ Informations displayed in the :guilabel:`Windows Updates` tab are:
 Task tab
 ++++++++
 
-Informations displayed by default in the :guilabel:`Tasks` tab are:
+Information displayed by default in the :guilabel:`Tasks` tab is:
 
 * pending tasks;
 
@@ -363,7 +363,7 @@ Choose the filters to check or uncheck.
 
   :guilabel:`Package`           List of packages installed on the selected hosts
 
-  :guilabel:`Have errors`       Search only for hosts for which a tasks
+  :guilabel:`Have errors`       Search only for hosts for which a task
                                 has not finished correctly
 
   :guilabel:`Needing upgrades`  Search only for hosts needing upgrades
@@ -403,7 +403,7 @@ and audit logs.
 Creating a group package
 ------------------------
 
-Group packages allows to create a package containing other packages
+Group packages allows you to create a package containing other packages
 to be affected as a dependency to a host.
 
 To create a group of packages, go to the :guilabel:`Bundles` tab:
@@ -421,12 +421,12 @@ To create a group of packages, go to the :guilabel:`Bundles` tab:
 .. hint::
 
   If you name a group package with the same name as an Active Directory
-  security group (Microsoft or Samba-AD), member of the Active Directory
-  group can be automatically affected to the WAPT group package.
+  security group (Microsoft or Samba-AD), a member of the Active Directory
+  group can be automatically added to the WAPT group package.
 
 * fill in the description, add packages to the group package by dragging
   and dropping them or by Right-clicking on the package name,
-  and adding to the bundle;
+  and adding it to the bundle;
 
 .. figure:: wapt_console-add-packages-to-group.png
   :align: center
@@ -462,7 +462,7 @@ To delete a package from the repository, :menuselection:`Right-click
 
 To edit a package, :menuselection:`Right-click --> Edit package`,
 the package will be downloaded locally in **the base package
-development directory** set in console settings.
+development directory** set in the console settings.
 
 Make changes to the package as wanted, rebuild the package and upload it back
 to the repository. Once your package has uploaded, refresh the package list
@@ -478,7 +478,7 @@ A search bar is also available to filter packages.
 Cleaning the local cache from the WAPT console
 ----------------------------------------------
 
-When importing a package from Internet, the WAPT console downloads the package
+When importing a package from the Internet, the WAPT console downloads the package
 in :file:`%appdata%\local\waptconsole\cache` .
 
 To clean the cache and free up disk space, click on :menuselection:`Tools
@@ -494,14 +494,14 @@ Changing the password of the WAPT Server
 ----------------------------------------
 
 To change the WAPT Server password, click on :menuselection:`Tools
---> Update password`, fill in the old password and a new one.
+--> Update password`, fill in the old password and add a new one.
 
 .. _configuring_the_WAPT_console:
 
 Making changes to the WAPT console preferences
 ----------------------------------------------
 
-To make changes to console settings, go to :menuselection:`Tools
+To make changes to the console settings, go to :menuselection:`Tools
 --> Preferences`.
 
 .. figure:: wapt_console-access-to-menu-preferences.png
@@ -597,11 +597,11 @@ To make changes to console settings, go to :menuselection:`Tools
     - Indicates the maximum number of hosts to be displayed in the WAPT console,
       so to optimize the behavior of the console.
     - 2000
-  * - Langage
-    - Selects the langage for the WAPT console
+  * - Language
+    - Selects the language for the WAPT console
     - English
-  * - Showing debug informations in the WAPT console
-    - Shows debug informations in the WAPT console
+  * - Showing debug information in the WAPT console
+    - Shows debug information in the WAPT console
     - True
   * - Allow third-party tools in the contextual menus of the hosts
     - TODO
