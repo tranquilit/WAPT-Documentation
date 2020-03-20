@@ -21,7 +21,7 @@ WAPT Documentation
 Welcome to WAPT's official documentation by Tranquil IT,
 last compiled on |date|.
 
-Click `here <WAPT.pdf>`_ for a PDF version of the complete documentation.
+Click :download:`here <WAPT.pdf>`_ for a PDF version of the complete documentation.
 
 WAPT is a software deployment tool whose core set of features
 is licensed under the GPLv3.
@@ -53,7 +53,7 @@ Security Certification from French Cyberdefense Agency ANSSI
 ------------------------------------------------------------
 
 Following its first level security certification obtained on 14 February 2018,
-WAPT has been prized with a `higher level certification <https://www.tranquil.it/wp-content/uploads/qualification-anssi-tranquil-it.pdf>`_
+WAPT has been prized with a :download:`higher level certification <https://www.tranquil.it/wp-content/uploads/qualification-anssi-tranquil-it.pdf>`_
 from ANSSI.
 
 Main features
@@ -94,8 +94,8 @@ Main features
   IT devices and their global security level;
 
 * be prompt to deploy updates to react to cyber attacks like
-  `Wannacry <https://www.us-cert.gov/ncas/current-activity/2017/05/17/ICS-CERT-Releases-WannaCry-Fact-Sheet>`_
-  or `notPetya <https://www.us-cert.gov/sites/default /files/publications/MIFR-10130295.pdf>`_;
+  :download:`Wannacry <https://www.us-cert.gov/ncas/current-activity/2017/05/17/ICS-CERT-Releases-WannaCry-Fact-Sheet>`_
+  or :download:`notPetya <https://www.us-cert.gov/sites/default /files/publications/MIFR-10130295.pdf>`_;
 
 **For End-Users**
 

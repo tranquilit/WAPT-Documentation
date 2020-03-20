@@ -148,15 +148,14 @@ WAPT 1.7
 * software and configuration management using AD Organizational Units
   (*unit* packages) (**Enterprise**);
 
-
 WAPT 1.8
 --------
 
-* Client agent for Linux Debian, Linux CentOS, Ubuntu and Apple macOS
+* client agent for Linux Debian, Linux CentOS, Ubuntu and Apple MacOS;
 
-* Built-in WAPT packages repository replication
+* built-in WAPT packages repository replication;
 
-* Built-in repository selection rules
+* built-in repository selection rules;
 
 
 Later

@@ -24,14 +24,14 @@ by default it is :file:`C:\\Program Files (x86)\\wapt\\unins000.exe`.
 * default silent uninstall of a WAPT agent can be achieved
   with the following command:
 
-  .. code:: bash
+  .. code-block:: bash
 
     unins000.exe /VERYSILENT
 
 * an additional argument can be passed to :command:`unins000.exe`
   to cleanup everything:
 
-  .. code:: bash
+  .. code-block:: bash
 
     unins000.exe /VERYSILENT /purge_wapt_dir=1
 
@@ -76,7 +76,7 @@ Uninstalling a WAPT agent on MacOS
 * default uninstall of a WAPT agent can be achieved
   with the following command:
 
-  .. code:: bash
+  .. code-block:: bash
 
     # List all files to delete
     pkgutil --only-files --files com.tranquilit.tis-waptagent-enterprise > file_list

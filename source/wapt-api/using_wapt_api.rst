@@ -90,14 +90,14 @@ API V1
 
     This is the same exemple with a simple html request:
 
-    .. code-block:: console
+    .. code-block:: batch
 
       https://admin:MYPASSWORD@srvwapt/api/v1/hosts
 
     This one just show request with reachable status, the computer name,
     its connected ips and its mac addresses. Display limit is 10000
 
-     .. code-block:: console
+     .. code-block:: batch
 
         https://admin:MYPASSWORD@srvwapt/api/v1/hosts?columns=reachable,computer_fqdn,connected_ips,mac_addresses&limit=10000
 
@@ -117,7 +117,7 @@ API V1
 
     This is the same exemple with a simple html request:
 
-    .. code-block:: console
+    .. code-block:: batch
 
       https://admin:MYPASSWORD@srvwapt/api/v1/groups
 
@@ -155,7 +155,7 @@ https://srvwapt.ad.mydomain.fr/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B59
 
   This is the same exemple with a simple html request:
 
-  .. code-block:: console
+  .. code-block:: batch
 
     https://admin:MYPASSWORD@srvwapt/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD&field=dmi
 
@@ -174,7 +174,7 @@ Option *installed_packages* will list all packages installed on a specific host.
 
   This is the same exemple with a simple html request:
 
-  .. code-block:: console
+  .. code-block:: batch
 
     https://admin:MYPASSWORD@srvwapt/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD&field=installed_packages
 
@@ -195,7 +195,7 @@ on a specific host.
 
    This is the same exemple with a simple html request:
 
-   .. code-block:: console
+   .. code-block:: batch
 
       https://admin:MYPASSWORD@srvwapt/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD&field=installed_softwares
 
@@ -215,7 +215,7 @@ Option *wsusupdates* will list all windows update installed on a specific host.
 
   This is the same exemple with a simple html request:
 
-  .. code-block:: console
+  .. code-block:: batch
 
     https://admin:MYPASSWORD@srvwapt/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD&field=wsusupdates
 
@@ -240,7 +240,7 @@ Get usage statistics from the server.
 
   This is the same exemple with a simple html request:
 
-  .. code-block:: console
+  .. code-block:: batch
 
     https://admin:MYPASSWORD@srvwapt/api/v1/usage_statistics
 
@@ -262,7 +262,7 @@ Display :program:`waptagent.exe` version on the server.
 
    This is the same exemple with a simple html request:
 
-  .. code-block:: console
+  .. code-block:: batch
 
     https://admin:MYPASSWORD@srvwapt/api/v2/waptagent_version
 
@@ -285,7 +285,7 @@ List packages on the repository, get control file on package.
 
   This is the same exemple with a simple html request:
 
-  .. code-block:: console
+  .. code-block:: batch
 
     https://admin:MYPASSWORD@srvwapt/api/v3/packages
 
@@ -304,7 +304,7 @@ List all packages with last *signed_on* information.
 
   This is the same exemple with a simple html request:
 
-  .. code-block:: console
+  .. code-block:: batch
 
     https://admin:MYPASSWORD@srvwapt/api/v3/known_packages
 
@@ -336,7 +336,7 @@ in the WAPT console.
 
   This is the same exemple with a simple html request:
 
-  .. code-block:: console
+  .. code-block:: batch
 
     https://admin:MYPASSWORD@srvwapt/api/v3/get_ad_ou
 
@@ -355,7 +355,7 @@ List Active Directory sites.
 
   This is the same exemple with a simple html request:
 
-  .. code-block:: console
+  .. code-block:: batch
 
     https://admin:MYPASSWORD@srvwapt/api/v3/get_ad_sites
 
@@ -375,7 +375,7 @@ https://srvwapt.ad.domain.fr/api/v3/hosts_for_package?package=demo-namepackage
 
   This is the same exemple with a simple html request:
 
-  .. code-block:: console
+  .. code-block:: batch
 
     https://admin:MYPASSWORD@srvwapt/api/v3/hosts_for_package?package=demo-namepackage
 
@@ -397,7 +397,7 @@ https://srvwapt.ad.domain.fr/api/v3/host_tasks_status?uuid=14F620FF-DE70-9E5B-99
 
   This is the same exemple with a simple html request:
 
-  .. code-block:: console
+  .. code-block:: batch
 
     https://admin:MYPASSWORD@srvwapt/api/v3/host_tasks_status?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD
 

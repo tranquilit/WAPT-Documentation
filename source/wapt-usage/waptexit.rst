@@ -107,7 +107,7 @@ To tell WAPT not to run an :command:`upgrade` of running software
 on the machine (*impacted_process* attribute of the package), you can run
 :program:`waptexit` with the argument:
 
-.. code-block:: bat
+.. code-block:: batch
 
   waptexit.exe -only_if_not_process_running=True
 
@@ -129,7 +129,7 @@ Launching the installation of packages with a special level of priority
 To tell WAPT to only upgrade high priority packages,
 you can run :program:`waptexit` with the argument:
 
-.. code-block:: bat
+.. code-block:: batch
 
   waptexit.exe -priorities = high
 

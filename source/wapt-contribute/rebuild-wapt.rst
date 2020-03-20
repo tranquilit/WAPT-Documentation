@@ -99,7 +99,7 @@ On a clean Windows 7 install as a :term:`Local Administrator`:
 Installing Lazarus
 ++++++++++++++++++
 
-.. code-block:: bat
+.. code-block:: batch
 
     wapt-get install tis-pyscripter tis-tortoisegit tis-7zip tis-python27 tis-notepadplusplus tis-firefox tis-putty tis-lazarus tis-openssh tis-signtool
 

@@ -12,9 +12,7 @@
 
 .. _index_wapt_api:
 
-
 .. toctree::
   :maxdepth: 1
 
   using_wapt_api.rst
-

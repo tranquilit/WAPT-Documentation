@@ -31,7 +31,7 @@ It automates software installations based on your Active Directory infrastructur
 WAPT agent is aware of its Active Directory sorting, thereby knows the hierarchy of
 organizational units, for example:
 
-.. code:: bash
+.. code-block:: bash
 
   DC=ad,DC=domain,DC=lan
   OU=Paris,DC=ad,DC=domain,DC=lan

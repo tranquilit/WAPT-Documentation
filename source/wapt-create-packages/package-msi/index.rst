@@ -35,7 +35,7 @@ Packaging simple \*.msi packages
 
 * look up documentation relating to silent flags;
 
-  * `documentation TightVNC <http://www.tightvnc.com/doc/win/TightVNC_2.7_for_Windows_Installing_from_MSI_Packages.pdf>`_;
+  * :download:`documentation TightVNC <http://www.tightvnc.com/doc/win/TightVNC_2.7_for_Windows_Installing_from_MSI_Packages.pdf>`_;
 
   .. code-block:: bash
 

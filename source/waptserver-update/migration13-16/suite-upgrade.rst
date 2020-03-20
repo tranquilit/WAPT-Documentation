@@ -147,7 +147,7 @@ Windows
 Then, open a session on the Windows machine hosting the WAPT Server
 and re-sign all WAPT base packages with the new certificate:
 
-.. code-block:: bat
+.. code-block:: batch
 
    wapt-signpackages -i -s --message-digest=sha256,sha1 -c C:\private\wapt-private-20180312-1522.crt C:\wapt\waptserver\repository\wapt\*.wapt
 
@@ -158,7 +158,7 @@ and re-sign all WAPT base packages with the new certificate:
 
 Rename *host* packages with the UUID nomenclature:
 
-.. code-block:: bat
+.. code-block:: batch
 
   "C:\wapt\waptserver\scripts\migrate-hosts.bat" -C C:\private\wapt-private-20180312-1522.crt -K C:\private\wapt-private.pem
 
@@ -239,6 +239,6 @@ Windows
 
 You may thus launch the script:
 
-.. code-block:: bat
+.. code-block:: batch
 
   "C:\wapt\waptserver\trigger_action.bat" prefix-waptupgrade
