@@ -6,10 +6,10 @@
    Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
-    :description: Simplifying the mastering of your workstations
+    :description: Simplifying the imaging of your workstations
     :keywords: WAPT, documentation, master, cloning, MDT, Fog
 
-.. _wapt_use_cases:
+.. _wapt_ghosting_hosts:
 
 Simplifying the imaging of your workstations
 ============================================
