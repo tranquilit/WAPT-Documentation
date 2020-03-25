@@ -160,7 +160,7 @@ we have all files required to build the WAPT agent installer.
      **ONLY IF** you have followed the documentation
      on **Activating the verification of the SSL / TLS certificate**.
 
-.. figure:: waptagent-organization-info.png
+.. figure:: waptagent-organisation-info.png
   :align: center
   :alt: Fill in the informations on your Organization
 

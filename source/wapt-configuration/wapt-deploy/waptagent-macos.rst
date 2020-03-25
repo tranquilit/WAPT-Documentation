@@ -37,7 +37,7 @@ Installing the WAPT Agent package from Tranquil IT's public repository
     installer -pkg /Volumes/Macintosh\ HD/Users/johnsmith/Downloads/tis-waptagent-1.8.0.6632-tismacos-bdc0beea.pkg -target /
 
 Creating the agents configuration file
-+++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++
 
 The requisites for your WAPT agent to work are:
 

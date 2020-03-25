@@ -45,7 +45,7 @@ Settings              Description
 ===================== =====================================================
 
 Uninstalling a WAPT agent on Linux
---------------------------------
+----------------------------------
 
 * default uninstall of a WAPT agent can be achieved
   with the following command, depending on your Linux OS:
@@ -71,7 +71,7 @@ Uninstalling a WAPT agent on Linux
     rm /etc/yum/yum.repos.d/wapt.list
 
 Uninstalling a WAPT agent on MacOS
---------------------------------
+----------------------------------
 
 * default uninstall of a WAPT agent can be achieved
   with the following command:
@@ -85,7 +85,7 @@ Uninstalling a WAPT agent on MacOS
     sudo pkgutil --forget com.tranquilit.tis-waptagent-enterprise
 
 Re-enabling Windows Updates before uninstalling
-----------------------------------------------
+-----------------------------------------------
 
 In the case you have used WAPT to manage Windows Updates,
 you might want to re-enable Windows Updates default behavior

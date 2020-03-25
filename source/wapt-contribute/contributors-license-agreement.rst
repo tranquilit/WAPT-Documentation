@@ -34,12 +34,12 @@ The purpose of this agreement is to clearly define the terms
 under which intellectual property has been contributed to Tranquil IT
 and thereby allow us to defend the project should there be a legal dispute
 regarding the software at some future time.
-A signed :download:`Individual CLA (ICLA) <https://www.wapt.fr/download/tranquilit_icla.pdf>`_
+A signed `Individual CLA (ICLA) <https://www.wapt.fr/download/tranquilit_icla.pdf>`_
 is required to be on file before an individual
 is given commit rights to any Tranquil IT project.
 
 For a corporation that has assigned employees to work on a Tranquil IT project,
-a :download:`Corporate CLA (CCLA) <https://www.wapt.fr/download/tranquilit_ccla.pdf>`_
+a `Corporate CLA (CCLA) <https://www.wapt.fr/download/tranquilit_ccla.pdf>`_
 is available for contributing intellectual property via the corporation,
 that may have been assigned as part of an employment agreement.
 

@@ -25,7 +25,7 @@ to get all the benefits of WAPT:
 
 * we advise you to install WAPT Server on a Linux server (Debian or CentOS)
   following the security recommendations of French :term:`ANSSI`
-  or the :download:`recommendations of your state cyberdefense agency
+  or the `recommendations of your state cyberdefense agency
   <https://www.ssi.gouv.fr/uploads/2015/10/NP_Linux_Configuration.pdf>`_.
 
 * the WAPT Server must be installed on a **dedicated machine**
