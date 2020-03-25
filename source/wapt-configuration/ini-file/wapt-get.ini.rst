@@ -1,9 +1,9 @@
-.. Reminder for header structure :
-   Niveau 1 : ====================
-   Niveau 2 : --------------------
-   Niveau 3 : ++++++++++++++++++++
-   Niveau 4 : """"""""""""""""""""
-   Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
+.. Reminder for header structure:
+   Niveau 1: ====================
+   Niveau 2: --------------------
+   Niveau 3: ++++++++++++++++++++
+   Niveau 4: """"""""""""""""""""
+   Niveau 5: ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
    :description: Configuring the WAPT agent
@@ -141,13 +141,12 @@ to define more repositories.
   from the ``[global]`` section;
 
 * ``[wapt-template]``: external remote repository that will be used in the WAPT
-  console for importing new or updated packages.
+  console for importing new or updated packages;
 
 * ``[wapt-host]``: repository for host packages. If this section
-  does not exist, default locations will be used on the main repository.
+  does not exist, default locations will be used on the main repository;
 
-
-More information on that usage can be found here : :ref:`work_multiple_repos`.
+More information on that usage can be found here: :ref:`work_multiple_repos`.
 
 .. note::
 
@@ -280,7 +279,7 @@ is not sufficient to push the new configuration.
 You can create a WAPT package to push updated :file:`wapt-get.ini` settings.
 
 The package is available from the Tranquil IT repository:
-https://store.wapt.fr/store/details-tis-wapt-conf-policy_6_all.wapt :
+https://store.wapt.fr/store/details-tis-wapt-conf-policy_6_all.wapt:
 
 .. code-block:: python
 

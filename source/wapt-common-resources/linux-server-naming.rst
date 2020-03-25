@@ -1,9 +1,9 @@
-.. Reminder for header structure :
-   Niveau 1 : ====================
-   Niveau 2 : --------------------
-   Niveau 3 : ++++++++++++++++++++
-   Niveau 4 : """"""""""""""""""""
-   Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
+.. Reminder for header structure:
+   Niveau 1: ====================
+   Niveau 2: --------------------
+   Niveau 3: ++++++++++++++++++++
+   Niveau 4: """"""""""""""""""""
+   Niveau 5: ^^^^^^^^^^^^^^^^^^^^
 
 The different parameters presented below are not specific to WAPT;
 you may adapt them as required for your environment.

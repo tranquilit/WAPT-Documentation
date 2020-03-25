@@ -1,9 +1,9 @@
-.. Reminder for header structure :
-   Niveau 1 : ====================
-   Niveau 2 : --------------------
-   Niveau 3 : ++++++++++++++++++++
-   Niveau 4 : """"""""""""""""""""
-   Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
+.. Reminder for header structure:
+   Niveau 1: ====================
+   Niveau 2: --------------------
+   Niveau 3: ++++++++++++++++++++
+   Niveau 4: """"""""""""""""""""
+   Niveau 5: ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
     :description: Packaging simple \*.msi packages
@@ -230,7 +230,7 @@ Example:
   ...done. Package filename C:\waptdev\tis-tightvnc_2.8.5.0-1_all.wapt
   Signing C:\waptdev\tis-tightvnc_2.8.5.0-1_all.wapt
 
-  7-Zip [64] 16.04 : Copyright (c) 1999-2016 Igor Pavlov : 2016-10-04
+  7-Zip [64] 16.04: Copyright (c) 1999-2016 Igor Pavlov: 2016-10-04
 
   Open archive: C:\waptdev\tis-tightvnc_2.8.5.0-1_all.wapt
   --
@@ -245,7 +245,7 @@ Example:
   Files read from disk: 0
   Archive size: 1755509 bytes (1715 KiB)
   Everything is Ok
-  Package C:\waptdev\tis-tightvnc_2.8.5.0-1_all.wapt signed : signature :
+  Package C:\waptdev\tis-tightvnc_2.8.5.0-1_all.wapt signed: signature:
   FVn2yx77TwUHaDauSPHxJZiPAyMQe4PqLF5n6wY9YPAwY4ijHe6NgDFrexXf8ZYbHAiNa5b8V/Qj
   wTVHiqpbXnZotiVIGrJDhgbaLwZ9CK6pfWiflC4126nx6PMF3T1i6w0R0NOE2wJpOSRYESk7lDUz
   9CPfzJCLcOXwh0F5eZc96wbkDkSbpn1f+x5tOlvyy/FW2m8RbZQhJcO21j9gGX7It0QNecaOxXgz
@@ -254,8 +254,8 @@ Example:
 
   Uploading files...
   WAPT Server user :admin
-  WAPT Server password :
-  Status : OK, tis-tightvnc_2.8.5.0-1_all.wapt uploaded, 1 packages analysed
+  WAPT Server password:
+  Status: OK, tis-tightvnc_2.8.5.0-1_all.wapt uploaded, 1 packages analysed
 
 It is also possible to execute :command:`build-upload` directly
 from the :guilabel:`Run Configurations` panel in :program:`PyScripter`:

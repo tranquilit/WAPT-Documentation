@@ -1,9 +1,9 @@
-.. Reminder for header structure :
-   Niveau 1 : ====================
-   Niveau 2 : --------------------
-   Niveau 3 : ++++++++++++++++++++
-   Niveau 4 : """"""""""""""""""""
-   Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
+.. Reminder for header structure:
+   Niveau 1: ====================
+   Niveau 2: --------------------
+   Niveau 3: ++++++++++++++++++++
+   Niveau 4: """"""""""""""""""""
+   Niveau 5: ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
   :description: Simple examples of commonly used functions
@@ -190,7 +190,7 @@ Command :command:`registry_readstring` ...
 
 .. code-block:: python
 
-  if registry_readstring(HKEY_LOCAL_MACHINE, "SOFTWARE\\Google\\Update\\Clients\\{8A69D345-D564-463c-AFF1-A69D9E530F96}", 'pv') :
+  if registry_readstring(HKEY_LOCAL_MACHINE, "SOFTWARE\\Google\\Update\\Clients\\{8A69D345-D564-463c-AFF1-A69D9E530F96}", 'pv'):
       print('key exist')
 
 ... checks if registry key *{8A69D345-D564-463c-AFF1-A69D9E530F96}* exists
@@ -354,7 +354,7 @@ Command :command:`iswin64` ...
 
 .. code-block:: python
 
-  if iswin64() :
+  if iswin64():
       print('Pc x64')
   else:
       print('Pc not x64')

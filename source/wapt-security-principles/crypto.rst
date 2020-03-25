@@ -1,9 +1,9 @@
-.. Reminder for header structure :
-   Niveau 1 : ====================
-   Niveau 2 : --------------------
-   Niveau 3 : ++++++++++++++++++++
-   Niveau 4 : """"""""""""""""""""
-   Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
+.. Reminder for header structure:
+   Niveau 1: ====================
+   Niveau 2: --------------------
+   Niveau 3: ++++++++++++++++++++
+   Niveau 4: """"""""""""""""""""
+   Niveau 5: ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
     :description: Presentation of cryptographic processes
@@ -720,7 +720,7 @@ Signing process for immediate actions
 
     * *signer* Subject.COMMON_NAME of certificate holder;
 
-    * *signature_date* : current date and time (UTC)
+    * *signature_date*: current date and time (UTC)
       in '%Y-%m-%dT%H:%M:%S' format;
 
     * *signer_certificate* certificate holder's base64 encoded

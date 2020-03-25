@@ -1,9 +1,9 @@
-.. Reminder for header structure :
-   Niveau 1 : ====================
-   Niveau 2 : --------------------
-   Niveau 3 : ++++++++++++++++++++
-   Niveau 4 : """"""""""""""""""""
-   Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
+.. Reminder for header structure:
+   Niveau 1: ====================
+   Niveau 2: --------------------
+   Niveau 3: ++++++++++++++++++++
+   Niveau 4: """"""""""""""""""""
+   Niveau 5: ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
   :description: Configuring Kerberos authentication
@@ -28,7 +28,7 @@ Configuring Kerberos authentication
   * the Kerberos authentication will be used only when registering the device;
 
 Installing the Kerberos components and configuring krb5.conf file
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 For centos
 
@@ -133,7 +133,7 @@ and the WAPT Server to use Kerberos authentication.
 
 .. code-block:: bash
 
-  /opt/wapt/waptserver/scripts/postconf.sh --force-https 
+  /opt/wapt/waptserver/scripts/postconf.sh --force-https
 
 Kerberos authentication will now be configured.
 
@@ -214,5 +214,3 @@ into a unique :file:`keytab`:
   read_kt http-krb5-domain2.local.keytab
   read_kt http-krb5-domain3.local.keytab
   write_kt http-krb5.keytab
-
-

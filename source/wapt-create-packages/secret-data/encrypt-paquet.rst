@@ -1,9 +1,9 @@
-.. Reminder for header structure :
-   Niveau 1 : ====================
-   Niveau 2 : --------------------
-   Niveau 3 : ++++++++++++++++++++
-   Niveau 4 : """"""""""""""""""""
-   Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
+.. Reminder for header structure:
+   Niveau 1: ====================
+   Niveau 2: --------------------
+   Niveau 3: ++++++++++++++++++++
+   Niveau 4: """"""""""""""""""""
+   Niveau 5: ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
   :description: Encrypting data in a WAPT package
@@ -87,7 +87,7 @@ text and decrypt it with its private key.
         if WAPT.host_uuid in encryptlist:
             host_key = WAPT.get_host_key()
             encrypttxt = host_key.decrypt(encryptlist[WAPT.host_uuid].decode('base64')).decode('utf-8')
-            print( ur'Here is the deciphered text :  %s' % encrypttxt)
+            print( ur'Here is the deciphered text:  %s' % encrypttxt)
         else:
             error('%s not found in encrypt-txt.json' % WAPT.host_uuid)
 
@@ -101,7 +101,7 @@ text and decrypt it with its private key.
             if value['host_certificate']:
                 host_cert=SSLCertificate(crt_string=value['host_certificate'])
                 encryptlist[value['uuid']]=host_cert.encrypt(encrypttxt).encode('base64')
-                print value['computer_fqdn'] + '   :    ' + value['uuid'] + '  :   ' + encryptlist[value['uuid']]
+                print value['computer_fqdn'] + ':' + value['uuid'] + ':' + encryptlist[value['uuid']]
         open('encrypt-txt.json','w').write(json.dumps(encryptlist))
 
     if __name__ == '__main__':

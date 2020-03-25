@@ -1,9 +1,9 @@
-.. Reminder for header structure :
-   Niveau 1 : ====================
-   Niveau 2 : --------------------
-   Niveau 3 : ++++++++++++++++++++
-   Niveau 4 : """"""""""""""""""""
-   Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
+.. Reminder for header structure:
+   Niveau 1: ====================
+   Niveau 2: --------------------
+   Niveau 3: ++++++++++++++++++++
+   Niveau 4: """"""""""""""""""""
+   Niveau 5: ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
   :description: Replicating a repository to preserve the bandwidth
@@ -48,7 +48,7 @@ It works as follows:
   The former method used to sync repositories was Syncthing and that method
   is available both for the Community and the Enterprise versions of WAPT.
 
-  You can find the old documentation here : :ref:`syncthing_usage`.
+  You can find the old documentation here: :ref:`syncthing_usage`.
 
   **The method explained below is for the Enterprise version only**.
 

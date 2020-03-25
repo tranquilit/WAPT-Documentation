@@ -1,9 +1,9 @@
-.. Reminstall_scheduling	inder for header structure :
-   Niveau 1 : ====================
-   Niveau 2 : --------------------
-   Niveau 3 : ++++++++++++++++++++
-   Niveau 4 : """"""""""""""""""""
-   Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
+.. Reminder for header structure:
+   Niveau 1: ====================
+   Niveau 2: --------------------
+   Niveau 3: ++++++++++++++++++++
+   Niveau 4: """"""""""""""""""""
+   Niveau 5: ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
   :description: Using WAPT Windows Update Agent (WAPTWUA)
@@ -24,7 +24,8 @@ Using WAPT Windows Update Agent (WAPTWUA)
 
   Since version 1.7, WAPT is able to manage Windows Updates on your endpoints.
 
-  * the internals of WAPTWUA is based on the :abbr:`WUA (Windows Update Agent)` API;
+  * the internals of WAPTWUA is based on the :abbr:`WUA (Windows Update Agent)`
+    API;
 
   * for more information: https://docs.microsoft.com/en-us/windows/desktop/wua_sdk/using-the-windows-update-agent-api;
 
@@ -44,10 +45,11 @@ since the last download.
 
 .. note::
 
-   In some cases, you may wish to push new KBs before the next Patch Tuesday release.
+   In some cases, you may wish to push new KBs before the next Patch Tuesday
+   release.
 
-   To to do, there is a specific documentation on packaging \*.msu files for these "Out-of-band" updates :ref:`simple_msu_packaging`
-
+   To do so, you may follow :ref:`this documentation <simple_msu_packaging>`
+   on packaging :mimetype:`.msu` files for these *Out-of-band* updates.
 
 The :file:`wsusscn2.cab` file is then downloaded by the WAPT agent
 from its nearest repository and then passed on to
@@ -108,11 +110,11 @@ Options                        Default Value                        Description
 ``allow_direct_download``      False                                Allow direct download of updates from Microsoft servers if the WAPT server is not available
 ``default_allow``              False                                Set if missing update is authorized or not by default
 ``filter``                     Type='Software' or Type='Driver'     Define the filter to apply for the Windows update scan
-``download_scheduling``        None                                 Set the Windows Update scan recurrence (Will not do anything if *wsus* package rule or :file:`wsusscn2.cab` file have not changed) (ex: 2h)
+``download_scheduling``        None                                 Set the Windows Update scan recurrence (Will not do anything if *waptwua* package rule or :file:`wsusscn2.cab` file have not changed) (ex: 2h)
 ``install_scheduling``         None                                 Set the Windows Update install recurrence (Will do nothing if no update is pending) (ex: 2h)
 ``install_at_shutdown``        False                                Install update when the machine will shutdown
 ``install_delay``              None                                 Set a deferred installation delay before publication in the repository (ex: 7d)
-``allowed_severities``         None									                Define a severity list that will be automatically accepted during a wapt windows update scan. ex : Important,Critical,Moderate
+``allowed_severities``         None									                Define a severity list that will be automatically accepted during a wapt windows update scan. ex: Important,Critical,Moderate
 ============================== ==================================== ======================================================================================================================================================================
 
 .. hint::
@@ -153,7 +155,7 @@ these options are equivalent to this:
   updates. The clients will install missing updates on their own
   at time of upgrade.
 
-Example package source code to modify ``[waptwua]`` settings :
+Example package source code to modify ``[waptwua]`` settings:
 
 .. code-block:: python
 
@@ -174,13 +176,13 @@ comes with two sub-menus to manage WAPTWUA.
 WAPTWUA Package
 +++++++++++++++
 
-The :guilabel:`WAPTWUA Package` tab allows you to create *wsus* rules packages.
+The :guilabel:`WAPTWUA Package` tab allows you to create *waptwua* rules packages.
 
 * when this type of package is installed on a machine, it indicates
   to the WAPTWUA agent the authorized or forbidden
   :abbr:`KBs (Knowledge Base articles)`;
 
-* when several *wsus* packages are installed on a machine,
+* when several *waptwua* packages are installed on a machine,
   the different rules will be merged;
 
 * when a :file:`cab` is neither mentioned as authorized,
@@ -208,9 +210,9 @@ then the WAPT agent will flag the update as *MISSING*.
 
 .. figure:: wapt_console-wua.png
   :align: center
-  :alt: Creating a *wsus* Package
+  :alt: Creating a *waptwua* Package
 
-  Creating a *wsus* Package
+  Creating a *waptwua* Package
 
 Windows Updates list tab
 ++++++++++++++++++++++++
@@ -249,7 +251,7 @@ and is not present on the WAPT server (This update is not missing on any host).
 
 .. hint::
 
-  To cleanup your :file:`WAPTWUA` folder, you can remove
+  To cleanup your :file:`waptwua` folder, you can remove
   no longer needed Windows updates. WAPT server will only re-download
   deleted updates if one of the WAPT equipped hosts requests it;
 

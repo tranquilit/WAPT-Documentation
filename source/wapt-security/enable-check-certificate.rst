@@ -1,9 +1,9 @@
-.. Reminder for header structure :
-   Niveau 1 : ====================
-   Niveau 2 : --------------------
-   Niveau 3 : ++++++++++++++++++++
-   Niveau 4 : """"""""""""""""""""
-   Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
+.. Reminder for header structure:
+   Niveau 1: ====================
+   Niveau 2: --------------------
+   Niveau 3: ++++++++++++++++++++
+   Niveau 4: """"""""""""""""""""
+   Niveau 5: ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
   :description: Securing the communications
@@ -127,10 +127,10 @@ List)`:
 
 .. code-block:: bash
 
-   #Debian :
+   #Debian:
    chown root:www-data /opt/wapt/waptserver/ssl/*.pem
 
-   #Centos :
+   #Centos:
    chown root:nginx /opt/wapt/waptserver/ssl/*.pem
 
 * restart :program:`Nginx` to take into account the new certificates;

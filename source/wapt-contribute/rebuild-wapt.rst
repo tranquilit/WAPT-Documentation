@@ -1,9 +1,9 @@
-.. Reminder for header structure :
-   Niveau 1 : ====================
-   Niveau 2 : --------------------
-   Niveau 3 : ++++++++++++++++++++
-   Niveau 4 : """"""""""""""""""""
-   Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
+.. Reminder for header structure:
+   Niveau 1: ====================
+   Niveau 2: --------------------
+   Niveau 3: ++++++++++++++++++++
+   Niveau 4: """"""""""""""""""""
+   Niveau 5: ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
   :description: Recompiling WAPT from source
@@ -156,7 +156,7 @@ Creating the InnoSetup installers
 * install Innosetup from
   http://www.jrsoftware.org/download.php/ispack-unicode.exe
 
-The :file:`.iss` files are located in :file:`C:\\tranquilit\\wapt\\waptsetup` ;
+The :file:`.iss` files are located in :file:`C:\\tranquilit\\wapt\\waptsetup`;
 
 The :program:`waptsetup` installer includes the python libraries,
 the command line tool :program:`wapt-get`, the local webservice

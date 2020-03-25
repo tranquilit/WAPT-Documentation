@@ -1,9 +1,9 @@
-﻿.. Reminder for header structure :
-   Niveau 1 : ====================
-   Niveau 2 : --------------------
-   Niveau 3 : ++++++++++++++++++++
-   Niveau 4 : """"""""""""""""""""
-   Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
+﻿.. Reminder for header structure:
+   Niveau 1: ====================
+   Niveau 2: --------------------
+   Niveau 3: ++++++++++++++++++++
+   Niveau 4: """"""""""""""""""""
+   Niveau 5: ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
   :description: Additional features
@@ -110,13 +110,13 @@ Example with ADWCleaner
 .. code-block:: bash
   :emphasize-lines: 4
 
-  package           : tis-adwcleaner
-  version           : 6.041-1
-  architecture      : all
-  section           : base
-  priority          : standard
-  maintainer        : Tranquil-IT Systems
-  description       : ADW Cleaner
+  package          : tis-adwcleaner
+  version          : 6.041-1
+  architecture     : all
+  section          : base
+  priority         : standard
+  maintainer       : Tranquil-IT Systems
+  description      : ADW Cleaner
 
 The file :file:`C:\\waptdev\\tis-adwcleaner-wapt` is created.
 

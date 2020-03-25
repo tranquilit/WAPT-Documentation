@@ -1,9 +1,9 @@
-.. Reminder for header structure :
-   Niveau 1 : ====================
-   Niveau 2 : --------------------
-   Niveau 3 : ++++++++++++++++++++
-   Niveau 4 : """"""""""""""""""""
-   Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
+.. Reminder for header structure:
+   Niveau 1: ====================
+   Niveau 2: --------------------
+   Niveau 3: ++++++++++++++++++++
+   Niveau 4: """"""""""""""""""""
+   Niveau 5: ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
     :description: Configuring authentication against Active Directory
@@ -68,7 +68,7 @@ Enabling Active Directory authentication
                                                     be able to connect to WAPT
   ldap_auth_server      srvads.mydomain.lan         LDAP server that will be used by WAPT
   ldap_auth_base_dn     DC=mydomain,DC=lan          DN for the search
-  ldap_auth_ssl_enable  True/False                  Default value : True
+  ldap_auth_ssl_enable  True/False                  Default value: True
   ===================== =========================== =====================================
 
 * restart :program:`waptserver` with :code:`systemctl restart waptserver`;
@@ -78,7 +78,7 @@ Enabling Active Directory authentication
   For Microsoft Active Directory, Microsoft has `announced <https://support.microsoft.com/en-gb/help/4520412/2020-ldap-channel-binding-and-ldap-signing-requirement-for-windows>`_
   that *SimpleBind* authentication on MS-AD without SSL/TLS
   will be blocked by default from April 2020. If you don't
-  have a certificate installed, you'll have to modify a registry 
+  have a certificate installed, you'll have to modify a registry
   key to have authentication working.
 
 .. note::

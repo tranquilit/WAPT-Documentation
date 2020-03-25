@@ -1,9 +1,9 @@
-.. Reminder for header structure :
-   Niveau 1 : ====================
-   Niveau 2 : --------------------
-   Niveau 3 : ++++++++++++++++++++
-   Niveau 4 : """"""""""""""""""""
-   Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
+.. Reminder for header structure:
+   Niveau 1: ====================
+   Niveau 2: --------------------
+   Niveau 3: ++++++++++++++++++++
+   Niveau 4: """"""""""""""""""""
+   Niveau 5: ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
     :description: Backing up the WAPT Server
@@ -118,7 +118,7 @@ Backing up the WAPT Server on Windows
 * backup the WAPT repository folder :file:`C:\\wapt\\waptserver\\repository` and :file:`C:\wapt` and :file:`C:\wapt\waptserver\nginx\ssl`
   on a remote backup destination;
 
-Backup PostgreSQL Database with pg_dump.exe :
+Backup PostgreSQL Database with pg_dump.exe:
 
 .. code-block:: bash
 
@@ -127,7 +127,7 @@ Backup PostgreSQL Database with pg_dump.exe :
 * restart WAPT related services on the server;
 
 
-  
+
 Restoring the WAPT Server on Windows
 ------------------------------------
 
@@ -135,9 +135,8 @@ Restoring the WAPT Server on Windows
 
 * Apply the total right to the folder :file:`C:\\wapt\\waptserver\\repository` for the "Network Service" group
 
-Restore PostgreSQL Database with pg_restore.exe :
+Restore PostgreSQL Database with pg_restore.exe:
 
 .. code-block:: bash
 
   "C:\wapt\waptserver\pgsql-9.6\bin\psql.exe" -f c:\backup_wapt.sql -U postgres
-

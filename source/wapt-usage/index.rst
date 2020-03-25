@@ -1,9 +1,9 @@
-.. Reminder for header structure :
-   Niveau 1 : ====================
-   Niveau 2 : --------------------
-   Niveau 3 : ++++++++++++++++++++
-   Niveau 4 : """"""""""""""""""""
-   Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
+.. Reminder for header structure:
+   Niveau 1: ====================
+   Niveau 2: --------------------
+   Niveau 3: ++++++++++++++++++++
+   Niveau 4: """"""""""""""""""""
+   Niveau 5: ^^^^^^^^^^^^^^^^^^^^
 
 .. _how_to_use_wapt:
 
@@ -17,7 +17,7 @@ the :term:`Users` and the :term:`Package Deployers`.
 
 .. toctree::
   :maxdepth: 1
-  
+
   wapt-console.rst
   wapt-console-detail.rst
   wapttray.rst

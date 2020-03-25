@@ -1,9 +1,9 @@
-.. Reminder for header structure :
-   Niveau 1 : ====================
-   Niveau 2 : --------------------
-   Niveau 3 : ++++++++++++++++++++
-   Niveau 4 : """"""""""""""""""""
-   Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
+.. Reminder for header structure:
+   Niveau 1: ====================
+   Niveau 2: --------------------
+   Niveau 3: ++++++++++++++++++++
+   Niveau 4: """"""""""""""""""""
+   Niveau 5: ^^^^^^^^^^^^^^^^^^^^
 
 
 .. meta::
@@ -44,12 +44,12 @@ API V1
      # Args:
      #     has_errors (0/1): filter out hosts with packages errors
      #     need_upgrade (0/1): filter out hosts with outdated packages
-     #     groups (csvlist of packages) : hosts with packages
-     #     columns (csvlist of columns) :
+     #     groups (csvlist of packages): hosts with packages
+     #     columns (csvlist of columns):
      #     uuid (csvlist of uuid): <uuid1[,uuid2,...]>): filter based on uuid
      #     filter (csvlist of field):regular expression: filter based on attributes
      #     not_filter (0,1):
-     #     limit (int) : 1000
+     #     limit (int): 1000
      #     trusted_certs_sha256 (csvlist): filter out machines based on their trusted package certs
 
      # Returns:
@@ -111,7 +111,6 @@ API V1
     group_wapt = wgets('https://%s:%s@%s/api/v1/groups' % (wapt_user,wapt_password,wapt_url))
     parsed = json.loads(group_wapt)
     print(json.dumps(parsed, indent=1, sort_keys=True))
-
 
   .. hint::
 
@@ -466,13 +465,13 @@ Example:
 /api/v3/reset_hosts_sid
 +++++++++++++++++++++++
 
-There is several possibilities :
+There is several possibilities:
 https://srvwapt.ad.domain.fr/api/v3/reset_hosts_sid
 will reinitialize all host connections.
 
 For the POST method:
 
-Syntax is : :file:`--data-raw` : a dictionnary with key :guilabel:`uuids` with value a host uuid list
+Syntax is: :file:`--data-raw`: a dictionnary with key :guilabel:`uuids` with value a host uuid list
 
 .. code-block:: bash
 
@@ -523,10 +522,10 @@ and a list of host uuids.
     """Remove one or several hosts from Server DB and optionnally the host packages
 
     Args:
-        uuids (list) : list of uuids to delete
+        uuids (list): list of uuids to delete
         filter (csvlist of field:regular expression): filter based on attributes
-        delete_packages (bool) : delete host's packages
-        delete_inventory (bool) : delete host's inventory
+        delete_packages (bool): delete host's packages
+        delete_inventory (bool): delete host's inventory
 
     Returns:
         result (dict):

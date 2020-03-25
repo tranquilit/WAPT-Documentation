@@ -1,9 +1,9 @@
-.. Reminder for header structure :
-   Niveau 1 : ====================
-   Niveau 2 : --------------------
-   Niveau 3 : ++++++++++++++++++++
-   Niveau 4 : """"""""""""""""""""
-   Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
+.. Reminder for header structure:
+   Niveau 1: ====================
+   Niveau 2: --------------------
+   Niveau 3: ++++++++++++++++++++
+   Niveau 4: """"""""""""""""""""
+   Niveau 5: ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
    :description: Upgrading the WAPT Server
@@ -29,7 +29,7 @@ Upgrading the WAPT Server
    This way, you'll be able to go back easily in the rare case that
    the update fails.
 
-Before upgrading WAPT Server, please refer to the following upgrading compatibility chart :
+Before upgrading WAPT Server, please refer to the following upgrading compatibility chart:
 
 ================ ================ ================ ================ ================
 \                To WAPT 1.5      To WAPT 1.6      To WAPT 1.7      To WAPT 1.8
@@ -68,7 +68,7 @@ The upgrade process follows the process for a minor update.
 .. note::
 
   * if you are in Debian Stretch, it is recommended to upgrade
-    to Debian Buster 64 bits : :ref:`upgrade-waptserver-os`;
+    to Debian Buster 64 bits: :ref:`upgrade-waptserver-os`;
 
   * this is **MANDATORY** for the **Enterprise** version with Windows Update support;
 

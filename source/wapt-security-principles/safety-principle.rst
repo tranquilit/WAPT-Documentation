@@ -1,9 +1,9 @@
-.. Reminder for header structure :
-   Niveau 1 : ====================
-   Niveau 2 : --------------------
-   Niveau 3 : ++++++++++++++++++++
-   Niveau 4 : """"""""""""""""""""
-   Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
+.. Reminder for header structure:
+   Niveau 1: ====================
+   Niveau 2: --------------------
+   Niveau 3: ++++++++++++++++++++
+   Niveau 4: """"""""""""""""""""
+   Niveau 5: ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
   :description: Presentation of the security principles in WAPT
@@ -44,7 +44,7 @@ The elements to secure and that strictly concern WAPT are:
 * **the WAPT agents** (*wapt-get*) and its sub-components
   (*wapttray*, *waptservice* et *waptexit*);
 
-* **the management console** (*waptconsole*) ;
+* **the management console** (*waptconsole*);
 
 * **the network communications** between these different components;
 

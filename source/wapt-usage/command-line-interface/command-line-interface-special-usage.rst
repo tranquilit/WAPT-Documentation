@@ -1,9 +1,9 @@
-.. Reminder for header structure :
-   Niveau 1 : ====================
-   Niveau 2 : --------------------
-   Niveau 3 : ++++++++++++++++++++
-   Niveau 4 : """"""""""""""""""""
-   Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
+.. Reminder for header structure:
+   Niveau 1: ====================
+   Niveau 2: --------------------
+   Niveau 3: ++++++++++++++++++++
+   Niveau 4: """"""""""""""""""""
+   Niveau 5: ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
   :description: Using special Command Lines with WAPT
@@ -48,7 +48,7 @@ The command :code:`wapt-get download tis-7zip` returns:
 
   Downloading packages tis-7zip (=16.4-8)
 
-  Downloaded packages :
+  Downloaded packages:
     C:\Program Files (x86)\wapt\cache\tis-7zip_16.4-8_all_all.wapt
 
 wapt-get download-upgrade
@@ -149,7 +149,7 @@ The command :code:`wapt-get upgradedb` returns:
 
 .. code-block:: bash
 
-  WARNING upgrade db aborted : current structure version 20161109 is newer or equal to requested structure version 20161109
+  WARNING upgrade db aborted: current structure version 20161109 is newer or equal to requested structure version 20161109
   No database upgrade required, current 20161109, required 20161109
 
 wapt-get setup-tasks - wapt-get enable-tasks - wapt-get disable-tasks

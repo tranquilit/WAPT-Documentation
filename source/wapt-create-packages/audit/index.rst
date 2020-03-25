@@ -1,9 +1,9 @@
-.. Reminder for header structure :
-   Niveau 1 : ====================
-   Niveau 2 : --------------------
-   Niveau 3 : ++++++++++++++++++++
-   Niveau 4 : """"""""""""""""""""
-   Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
+.. Reminder for header structure:
+   Niveau 1: ====================
+   Niveau 2: --------------------
+   Niveau 3: ++++++++++++++++++++
+   Niveau 4: """"""""""""""""""""
+   Niveau 5: ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
     :description: Using the Audit functions
@@ -110,7 +110,7 @@ Example:
             print(r"La key HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\USBSTOR\Start n'existe pas")
             return "ERROR"
         valuestart = registry_readstring(HKEY_LOCAL_MACHINE,makepath('SYSTEM','CurrentControlSet','Services','USBSTOR'),'Start')
-        if int(valuestart) != 4 :
+        if int(valuestart) != 4:
             print("La valeur de Start n'est pas 4 , Start=%s " % valuestart )
             return "WARNING"
         print(ur"La valeur de Start est bien est bien égal a 4")

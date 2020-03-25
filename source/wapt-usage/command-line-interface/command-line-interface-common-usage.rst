@@ -1,9 +1,9 @@
-.. Reminder for header structure :
-   Niveau 1 : ====================
-   Niveau 2 : --------------------
-   Niveau 3 : ++++++++++++++++++++
-   Niveau 4 : """"""""""""""""""""
-   Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
+.. Reminder for header structure:
+   Niveau 1: ====================
+   Niveau 2: --------------------
+   Niveau 3: ++++++++++++++++++++
+   Niveau 4: """"""""""""""""""""
+   Niveau 5: ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
   :description: Using the more common functions in WAPT with the command line
@@ -39,17 +39,17 @@ The command :code:`wapt-get update` returns:
 .. code-block:: bash
 
   Update package list
-  Total packages : 751
-  Added packages :
+  Total packages: 751
+  Added packages:
 
-  Removed packages :
+  Removed packages:
 
-  Upgradable packages :
+  Upgradable packages:
   upgrade
   additional
   install
   remove
-  Repositories URL :
+  Repositories URL:
   https://srvwapt.mydomain.lan/wapt
   https://srvwapt.mydomain.lan/wapt-host
 
@@ -136,7 +136,7 @@ The command :code:`wapt-get install tis-firefox` returns:
 .. code-block:: bash
 
   installing WAPT packages tis-firefox
-  Installing tis-firefox.local/wapt/tis-firefox_50.0.2-73_all.wapt : 44796043 / 44796043 (100%) (33651 KB/s)
+  Installing tis-firefox.local/wapt/tis-firefox_50.0.2-73_all.wapt: 44796043 / 44796043 (100%) (33651 KB/s)
   Firefox Setup 50.0.2.exe successfully installed.
   Disabling auto update
   Disabling profile migration from ie
@@ -189,6 +189,6 @@ The command :code:`wapt-get clean` returns:
 
 .. code-block:: bash
 
-  Removed files :
+  Removed files:
   C:\Program Files (x86)\wapt\cache\tis-mumble_1.2.8-1_all.wapt
   C:\Program Files (x86)\\wapt\cache\tis-vlc_2.2.4-2_all.wapt

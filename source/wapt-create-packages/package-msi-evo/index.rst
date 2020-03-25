@@ -1,9 +1,9 @@
-.. Reminder for header structure :
-   Niveau 1 : ====================
-   Niveau 2 : --------------------
-   Niveau 3 : ++++++++++++++++++++
-   Niveau 4 : """"""""""""""""""""
-   Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
+.. Reminder for header structure:
+   Niveau 1: ====================
+   Niveau 2: --------------------
+   Niveau 3: ++++++++++++++++++++
+   Niveau 4: """"""""""""""""""""
+   Niveau 5: ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
   :description: Packaging advanced \*.msi package
@@ -115,7 +115,7 @@ when the software is already installed.
   installing x64 version
   MSI tightvnc-2.8.5-gpl-setup-64bit.msi already installed. Skipping msiexec
 
-  Results :
+  Results:
 
   === install packages ===
   C:\waptdev\tis-tightvnc-wapt   | tis-tightvnc (2.8.5.0-1)

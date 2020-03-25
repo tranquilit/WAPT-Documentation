@@ -1,9 +1,9 @@
-.. Reminder for header structure :
-   Niveau 1 : ====================
-   Niveau 2 : --------------------
-   Niveau 3 : ++++++++++++++++++++
-   Niveau 4 : """"""""""""""""""""
-   Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
+.. Reminder for header structure:
+   Niveau 1: ====================
+   Niveau 2: --------------------
+   Niveau 3: ++++++++++++++++++++
+   Niveau 4: """"""""""""""""""""
+   Niveau 5: ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
     :description: Simplifying the imaging of your workstations
@@ -107,7 +107,7 @@ How does the scenario work?
   Alternatively, you choose or the IT manager at the remote site chooses
   to switch an existing machine from win7 to win10. You will either have,
   or he will have previously backed up the user directory(s)
-  to a network drive or another convenient storage media ;
+  to a network drive or another convenient storage media;
 
 * you configure MDT or Fog with the machine's MAC address so that
   it gets the right system image through DHCP and is positioned
@@ -127,7 +127,7 @@ How does the scenario work?
   to find in the WAPT console because they will be marked as win7
   with the same MAC address or the same FQDN as your new machine in win10;
   after removing the win7, your inventory will be clean and up to date
-  in your WAPT console ;
+  in your WAPT console;
 
 * the WAPT agent detects that it is in an Organizational Unit that requires
   a particular software set and a particular security configuration;

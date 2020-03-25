@@ -1,9 +1,9 @@
-.. Reminder for header structure :
-   Niveau 1 : ====================
-   Niveau 2 : --------------------
-   Niveau 3 : ++++++++++++++++++++
-   Niveau 4 : """"""""""""""""""""
-   Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
+.. Reminder for header structure:
+   Niveau 1: ====================
+   Niveau 2: --------------------
+   Niveau 3: ++++++++++++++++++++
+   Niveau 4: """"""""""""""""""""
+   Niveau 5: ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
     :description: Using the Command Line to create WAPT packages
@@ -124,7 +124,7 @@ The command :code:`wapt-get sources tis-firefox` returns: :
   ...done. Package filename C:\waptdev\tis-tightvnc_2.8.5.0-0_all.wapt
   Signing C:\waptdev\tis-tightvnc_2.8.5.0-0_all.wapt
 
-  7-Zip [64] 16.04 : Copyright (c) 1999-2016 Igor Pavlov : 2016-10-04
+  7-Zip [64] 16.04: Copyright (c) 1999-2016 Igor Pavlov: 2016-10-04
 
   Open archive: C:\waptdev\tis-tightvnc_2.8.5.0-0_all.wapt
   --
@@ -139,7 +139,7 @@ The command :code:`wapt-get sources tis-firefox` returns: :
   Files read from disk: 0
   Archive size: 1755509 bytes (1715 KiB)
   Everything is Ok
-  Package C:\waptdev\tis-tightvnc_2.8.5.0-0_all.wapt signed : signature :
+  Package C:\waptdev\tis-tightvnc_2.8.5.0-0_all.wapt signed: signature:
   mOQINvKGfmcW4nu05aVc8MJqMtXdPv5I0qo5zCfMkIWvEeYYDDfnZLakPkXiqptiqcNbCdY8vOPs
   qFMqwSMYUyKJ8d3DHEk8kdlIldkLsiAejkdsoiZDKlEFVCJgdKI13x4FcPfoZNw5DFPzmCZKbgkU
   pWvGbGFwUx/3d9zcliciN82F0FveC6C0mqoh5A==
@@ -165,7 +165,7 @@ returns:
 
   Signing C:\waptdev\smp-7zip_16.4.0.0-1_all.wapt
 
-  7-Zip [64] 16.04 : Copyright (c) 1999-2016 Igor Pavlov : 2016-10-04
+  7-Zip [64] 16.04: Copyright (c) 1999-2016 Igor Pavlov: 2016-10-04
 
   Open archive: C:\waptdev\smp-7zip_16.4.0.0-1_all.wapt
   --
@@ -180,7 +180,7 @@ returns:
   Files read from disk: 0
   Archive size: 2856021 bytes (2790 KiB)
   Everything is Ok
-  Package C:\waptdev\smp-7zip_16.4.0.0-1_all.wapt signed : signature :
+  Package C:\waptdev\smp-7zip_16.4.0.0-1_all.wapt signed: signature:
   lAxMJBKlnZLFQG81Rwb80+cB6XHcNjazmVJI7+PLLcPfFkFVC5wojyMPVMKhUrjrSlWomj85L8CY
   gZv/FsVspUij45TcikukbF8Rr+jy6saHskg42XINqZWCnP28k4bkIREdzYIkuKDABfr15gt3ecuN
   E21ZU/SI8BtXOX/80w9hpbP6ivCzTaYZZk18dhLDzV04xM9QwPSZ2mjQspbVklpm2NL4F6gb5b9D
@@ -213,7 +213,7 @@ returns:
   ...done. Package filename C:\waptdev\tis-tightvnc_2.8.5.0-1_all.wapt
   Signing C:\waptdev\tis-tightvnc_2.8.5.0-1_all.wapt
 
-  7-Zip [64] 16.04 : Copyright (c) 1999-2016 Igor Pavlov : 2016-10-04
+  7-Zip [64] 16.04: Copyright (c) 1999-2016 Igor Pavlov: 2016-10-04
 
   Open archive: C:\waptdev\tis-tightvnc_2.8.5.0-1_all.wapt
   --
@@ -228,7 +228,7 @@ returns:
   Files read from disk: 0
   Archive size: 1755509 bytes (1715 KiB)
   Everything is Ok
-  Package C:\waptdev\tis-tightvnc_2.8.5.0-1_all.wapt signed : signature :
+  Package C:\waptdev\tis-tightvnc_2.8.5.0-1_all.wapt signed: signature:
   FVn2yx77TwUHaDauSPHxJZiPAyMQe4PqLF5n6wY9YPAwY4ijHe6NgDFrexXf8ZYbHAiNa5b8V/Qj
   wTVHiqpbXnZotiVIGrJDhgbaLwZ9CK6pfWiflC4126nx6PMF3T1i6w0R0NOE2wJpOSRYESk7lDUz
   9CPfzJCLcOXwh0F5eZc96wbkDkSbpn1f+x5tOlvyy/FW2m8RbZQhJcO21j9gGX7It0QNecaOxXgz
@@ -237,8 +237,8 @@ returns:
 
   Uploading files...
   WAPT Server user :admin
-  WAPT Server password :
-  Status : OK, tis-tightvnc_2.8.5.0-1_all.wapt uploaded, 1 packages analysed
+  WAPT Server password:
+  Status: OK, tis-tightvnc_2.8.5.0-1_all.wapt uploaded, 1 packages analysed
 
 wapt-get duplicate
 ++++++++++++++++++
@@ -287,7 +287,7 @@ returns:
 .. code-block:: bash
 
   WAPT Server user :admin
-  WAPT Server password :
+  WAPT Server password:
   tis-tightvnc_2.8.5.0-1_all.wapt uploaded, 1 packages analysed
   result: OK
 
@@ -301,12 +301,12 @@ The command :code:`wapt-get update-packages D:\\Data\\WAPT` returns:
 
 .. code-block:: bash
 
-  Packages filename : D:\waptdev\Packages
-  Processed packages :
+  Packages filename: D:\waptdev\Packages
+  Processed packages:
     D:\Data\WAPT\groupe_base.wapt
     D:\Data\WAPT\tis-firefox_50.1.5.0-0_all.wapt
     D:\Data\WAPT\tis-tightvnc_2.8.5.0-1_all.wapt
     D:\Data\WAPT\tis-7zip_16.4.0.0-1_all.wapt
     D:\Data\WAPT\tis-mumble_3.14-3_all.wapt
     D:\Data\WAPT\tis-noforcereboot_1.0-1_all.wapt
-  Skipped packages :
+  Skipped packages:

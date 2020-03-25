@@ -1,9 +1,9 @@
-.. Reminder for header structure :
-   Niveau 1 : ====================
-   Niveau 2 : --------------------
-   Niveau 3 : ++++++++++++++++++++
-   Niveau 4 : """"""""""""""""""""
-   Niveau 5 : ^^^^^^^^^^^^^^^^^^^^
+.. Reminder for header structure:
+   Niveau 1: ====================
+   Niveau 2: --------------------
+   Niveau 3: ++++++++++++++++++++
+   Niveau 4: """"""""""""""""""""
+   Niveau 5: ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
    :description: Introduction to WAPT
@@ -206,15 +206,15 @@ They are stored in the web directory https://srvwapt.mydomain.lan/wapt-host/.
   If the computer is removed from an Organizational Unit,
   obsolete *unit* packages will be removed.
 
-*WAPTWUA* packages
+*waptwua* packages
 """"""""""""""""""
 
-*WAPTWUA* packages contain the list of authorized or prohibited Windows Updates.
+*waptwua* packages contain the list of authorized or prohibited Windows Updates.
 
 When this package is installed on the endpoint, the next update scan
 performed by WAPT will choose Windows updates based on this filtering.
 
-If the host has several *WAPTWUA* packages, then WAPT
+If the host has several *waptwua* packages, then WAPT
 will merge all package rules.
 
 When this package is installed on the host, the next :command:`update` will scan
@@ -281,7 +281,7 @@ or :term:`Package Deployer` has defined for it.
 
   When attributing a software package to a host as a dependency,
   only the software canonical name without its version number is registered
-  as a dependency (ex : *I want Freemind to be installed on this machine
+  as a dependency (ex: *I want Freemind to be installed on this machine
   in its latest version and :program: `Freemind` to be configured
   so that the :term: `User` does not call me because she does not find
   the icon on her desktop!*).
@@ -297,7 +297,7 @@ it will compare the package versions on the repository with its own local list
 of packages already installed on the machine.
 
 If an update of an installed package is available, the client will switch
-the status of the package to "**NEED UPGRADE**.
+the status of the package to **NEED UPGRADE**.
 It will then install the software updates during the next :command:`upgrade`.
 
 Private key / Public key principle
@@ -460,7 +460,7 @@ Read the diagram clockwise:
 
   * The :term:`Administrator` forces the :command:`upgrade`;
 
-  * the :term:`User` chooses the right time for themself ;
+  * the :term:`User` chooses the right time for themself;
 
   * a scheduled task launches the upgrade;
 
@@ -477,14 +477,22 @@ WAPT agent behavior with packages install / remove / session_setup / audit
 A key concept that can be hard to understand is the behavior of a WAPT agent
 when installing a package and the considerations around it.
 
-WAPT agent package installation can be split in SSS steps :
+WAPT agent package installation can be split in SSS steps:
 
-* package downloaded in agent cache
-* package unzip to temp folder
-* :file:`setup.py` content is stored in WAPT agent database located in :file:`C:\\Program Files (x86)\\wapt\\db\\waptdb.sqlite`
-* software installed from unzipped files
-* in case of success : downloaded package + unzipped files are deleted and status is sent to server
-* in case of failure : downloaded package is kept - unzipped files are deleted - error status sent to server
+* package downloaded in agent cache;
+
+* package unzip to temp folder;
+
+* :file:`setup.py` content is stored in WAPT agent database located
+  in :file:`C:\\Program Files (x86)\\wapt\\db\\waptdb.sqlite`;
+
+* software installed from unzipped files:
+
+* in case of success: downloaded package + unzipped files
+  are deleted and status is sent to server;
+
+* in case of failure: downloaded package is kept - unzipped files
+  are deleted - error status sent to server;
 
 That behavior is important as it has an impact on further actions.
 
@@ -494,23 +502,24 @@ That behavior is important as it has an impact on further actions.
 
   WAPT install behavior
 
-
 For instance when removing a package the following steps are taken:
 
-* :file:`setup.py` content is retrieved from WAPT agent database located in :file:`C:\\Program Files (x86)\\wapt\\db\\waptdb.sqlite`
-* Software uninstall from registry :command:`UninstallString` is executed
-* If defined, :command:`uninstall()` function is executed from retrieved source code
+* :file:`setup.py` content is retrieved from WAPT agent database located
+  in :file:`C:\\Program Files (x86)\\wapt\\db\\waptdb.sqlite`;
 
-Similar steps are reproduced when executing :command:`session_setup` and :command:`audit`.
+* software uninstall from registry :command:`UninstallString` is executed;
+
+* if defined, :command:`uninstall()` function is executed
+  from retrieved package source code;
+
+Similar steps are reproduced when executing :command:`session_setup`
+and :command:`audit`.
 
 .. figure:: concept_wapt_others_behavior.png
   :align: center
-  :alt: WAPT behavior audit session_setup
+  :alt: WAPT behavior with uninstall / session_setup and audit
 
   WAPT behavior with uninstall / session_setup and audit
-
-
-
 
 WAPT Server architecture
 ++++++++++++++++++++++++
@@ -717,6 +726,6 @@ WAPT packages, thus validating WAPT's main objectives:
 
 * **what was complicated is made simple**;
 
-* **what was simple is made trivial** ;
+* **what was simple is made trivial**;
 
 Now, I want to :ref:`install my WAPT Server <installing_WAPT_Server>`!!
