@@ -16,17 +16,19 @@ Upgrading WAPT from 1.3 to 1.6 on Windows
 
 .. attention::
 
-   WAPT Server no longer installs on a x86 version of Windows
+   WAPT Server no longer installs on x86 versions of Windows.
 
 * download the latest version of :program:`waptserversetup`
   1.6 from https://wapt.tranquil.it/wapt/latest/;
 
 * launch the installation on top of the existing 1.3 version by following
-  :ref:`this documentation <wapt-server_win_install>` ;
+  :ref:`this documentation <wapt-server_win_install>`;
 
-    At the end of the post-configuration step, :program:`waptserver`
-    will detect that you are upgrading from WAPT 1.3.13 and will ask you to
-    launch the migration of the database from MongoDB to PostgreSQL.
+.. note::
+
+  At the end of the post-configuration step, :program:`waptserver`
+  will detect that you are upgrading from WAPT 1.3.13 and will ask you to
+  launch the migration of the database from MongoDB to PostgreSQL.
 
 * click on :guilabel:`Yes`;
 
@@ -47,9 +49,12 @@ Migrating WAPT 1.3 from a Windows OS to a Linux OS
 The simplest method is to move over to a Linux based version
 of :program:`waptserver`.
 
-* http://downloads.mongodb.org/win32/mongodb-win32-i386-2.6.3.zip?_ga=2.75822417.551196271.1515087017-697019975.1515087017
+* download :program:`mongodb` from http://downloads.mongodb.org/win32/
+  mongodb-win32-i386-2.6.3.zip?_ga=2.75822417.551196271.1515087017-697019975.1515087017;
 
 * extract :file:`mongodump.exe` from the archive;
+
+.. note::
 
   A dump folder should have been created in the same directory
   as the :file:`mongodump.exe` file.
@@ -59,11 +64,13 @@ of :program:`waptserver`.
 * backup the folder :file:`C:\\private`;
 
 * install a fresh version **1.3.13** of WAPT on Linux (debian 8 x64)
-  or CentOS7/ RedHat7 (x64):
+  or CentOS7/ RedHat7 (x64);
 
-To install a new Linux Debian 10 (Buster) on a physical or virtual machine
-without a graphical user interface, please visit the official
-documentation for `Debian9 <https://www.debian.org/releases/buster/amd64/>`_.
+.. hint::
+
+  To install a new Linux Debian 10 (Buster) on a physical or virtual machine
+  without a graphical user interface, please visit the official
+  documentation for `Debian9 <https://www.debian.org/releases/buster/amd64/>`_.
 
 * if the WAPT agents point to an IP address, then the new Debian based WAPT
   Server must have the same IP address as the old Windows based WAPT Server.
@@ -121,10 +128,10 @@ documentation for `Debian9 <https://www.debian.org/releases/buster/amd64/>`_.
 
   .. hint::
 
-    You may upload the files on the Linux Debian Server using the
+    You may upload the files on the Linux Server using the
     :program:`WinSCP` utility.
 
-  * then launch the command:
+  * then change the owner of the files to wapt:
 
     .. code-block:: bash
 
@@ -140,7 +147,7 @@ documentation for `Debian9 <https://www.debian.org/releases/buster/amd64/>`_.
 
       mongorestore /root/dump
 
-You WAPT Server now works in 1.3.13 on Linux.
+Your WAPT Server now works in 1.3.13 on Linux.
 
 You may now install your :program:`waptagent` on your :term:`Administrator`
 management PC and restore the :file:`C:\\private` folder on your workstation.
@@ -150,4 +157,4 @@ management PC and restore the :file:`C:\\private` folder on your workstation.
   You must not regenerate a private key, you must only point to your private
   key in the console. You must also refill the package prefix.
 
-You may now follow the classic procedure to upgrade from 1.3.13 to 1.6 !!
+You may now follow the classic procedure to upgrade from 1.3.13 to 1.6!!

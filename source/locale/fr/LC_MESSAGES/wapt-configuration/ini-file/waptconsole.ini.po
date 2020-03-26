@@ -3,28 +3,27 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-19 17:49+0100\n"
-"PO-Revision-Date: 2020-03-10 15:29+0100\n"
+"POT-Creation-Date: 2020-03-25 13:16+0100\n"
+"PO-Revision-Date: 2020-03-25 18:40+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
-"Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 1.8.8\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: fr\n"
+"X-Generator: Poedit 2.0.6\n"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:8
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:15
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:8
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:15
 msgid "Configuring the WAPT console"
 msgstr "Configurer la console WAPT"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:8
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:8
 msgid "wapt-get.ini, configuration, WAPT, documentation"
 msgstr "wapt-get.ini, configuration"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:19
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:19
 #, python-format
 msgid ""
 "The configuration file for the WAPT console is stored in :file:`C:\\\\Users\\\\"
@@ -39,7 +38,7 @@ msgstr ""
 "`waptconsole` à partir du fichier :file:`wapt-get.ini` de l'agent de l\\':term:"
 "`Administrateur`."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:25
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:25
 msgid ""
 "Several options are available in the ``[global]`` section of the :file:"
 "`waptconsole.ini` file:"
@@ -47,126 +46,126 @@ msgstr ""
 "On peut retrouver plusieurs options dans la section ``[global]`` du fichier :"
 "file:`waptconsole.ini` :"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:31
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:109
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:129
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:31
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:109
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:129
 msgid "Options"
 msgstr "Options"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:31
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:109
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:129
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:31
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:109
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:129
 msgid "Description"
 msgstr "Description"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:33
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:33
 msgid "``wapt_server`` = https://srvwapt.tranquilit.local"
 msgstr "``wapt_server`` = ``https://srvwapt.tranquilit.local``"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:33
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:33
 msgid "Address of the WAPT Server."
 msgstr "Adresse du serveur WAPT."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:35
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:111
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:35
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:111
 msgid "``repo_url`` = http://srvwapt.tranquilit.local/wapt"
 msgstr "``repo_url`` = ``https://srvwapt.tranquilit.local/wapt``"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:35
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:35
 msgid "Address of the main WAPT repository."
 msgstr "Adresse du dépôt WAPT principal."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:37
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:37
 msgid "``last_usage_report`` = 03/01/2017 18:45:51"
 msgstr "``last_usage_report`` = ``03/01/2017 18:45:51``"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:37
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:37
 msgid "Date when the WAPT console was last used."
 msgstr "Date du dernier usage de la console."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:39
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:39
 msgid "``http_proxy`` ="
 msgstr "``http_proxy`` ="
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:39
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:39
 msgid "Address of the proxy server in the console."
 msgstr "Adresse du proxy dans la console."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:41
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:41
 msgid "``use_http_proxy_for_server`` = 0"
 msgstr "``use_http_proxy_for_server`` = ``0``"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:41
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:41
 msgid "Use a proxy to connect to the WAPT Server from the console."
 msgstr "Utiliser un proxy pour contacter le serveur WAPT depuis la console."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:44
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:44
 msgid "``use_http_proxy_for_repo`` = 0"
 msgstr "``use_http_proxy_for_repo`` = ``0``"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:44
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:44
 msgid "Use a proxy to connect to the main WAPT repository from the console."
 msgstr "Utiliser un proxy pour contacter le dépôt WAPT depuis la console."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:47
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:135
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:47
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:135
 msgid "``default_package_prefix`` = tis"
 msgstr "``default_package_prefix`` = ``tis``"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:47
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:47
 msgid "Prefix used for naming WAPT packages."
 msgstr "Préfix pour personnaliser le nommage des paquets."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:49
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:133
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:49
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:133
 msgid "``default_sources_root`` = C:\\\\waptdev"
 msgstr "``default_sources_root`` = ``c:\\\\waptdev``"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:49
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:133
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:49
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:133
 msgid "WAPT base package development folder."
 msgstr "Répertoire de développement des paquets WAPT."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:51
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:51
 msgid "``personal_certificate_path`` = C:\\\\private\\\\mykey.crt"
 msgstr "``personal_certificate_path`` = C:\\\\private\\\\mykey.crt"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:51
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:51
 msgid ""
 "Path to the certificate associated with the :term:`Administrator`'s private key."
 msgstr "Chemin du certificat associé à la clé privée de l':term:`Administrateur`."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:54
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:54
 msgid "``send_usage_report`` = 1"
 msgstr "``send_usage_report`` = ``1``"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:54
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:54
 msgid "Allows the WAPT console to send anonymous statistics to Tranquil IT."
 msgstr "Autoriser la console à envoyer des statistiques anonymes à Tranquil IT."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:57
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:57
 msgid "``language`` = en"
 msgstr "``language`` = ``en``"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:57
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:57
 msgid "Language of the WAPT console."
 msgstr "Langue de la console."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:59
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:59
 msgid "``advanced_mode`` = 0"
 msgstr "``advanced_mode`` = ``0``"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:59
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:59
 msgid "Launches the console in debug mode."
 msgstr "Lancer la console en debug."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:61
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:61
 msgid ""
 "``verify_cert`` = C:\\\\Program Files (x86)\\\\wapt\\\\ssl\\\\server\\\\srvwapt."
 "mydomain.lan.crt"
 msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:61
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:61
 msgid ""
 "For :ref:`verifying HTTPS certificates "
 "<activating_HTTPS_certificate_verification>` ."
@@ -174,63 +173,63 @@ msgstr ""
 "Vérifier les certificats HTTPS; :ref:`pour les options possibles, voir "
 "<activating_HTTPS_certificate_verification>`."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:63
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:63
 msgid "``waptservice_timeout`` = 2"
 msgstr "``waptservice_timeout`` = ``2``"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:63
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:63
 msgid "Timeout for actions applied to WAPT agents (ex: :command:`update`)."
 msgstr "Timeout lors d'actions sur les agent WAPT. Ex = :command:`update`."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:66
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:66
 msgid "``enable_external_tools`` = 0"
 msgstr "``enable_external_tools`` = ``0``"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:66
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:66
 msgid "Displays the actions that call external applications (RDP, VNC, etc...)."
 msgstr ""
 "Afficher les actions faisant appel à des applications externes (RDP, VNC "
 "etc...)."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:69
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:69
 msgid "``enable_management_features`` = 0"
 msgstr "``enable_management_features`` = ``0``"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:69
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:69
 msgid ""
 "Displays the button to create self-signed certificates or to create the WAPT "
 "agent's installer."
 msgstr "Afficher le bouton de création de certificat et d'agent."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:72
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:72
 msgid "``hide_unavailable`` = 0"
 msgstr "``hide_unavailable`` = ``0``"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:72
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:72
 msgid "Hides actions that are not available for the WAPT agent."
 msgstr "Cacher les actions indisponibles pour l'agent."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:75
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:75
 msgid "``check_certificates_validity`` = 1"
 msgstr "``check_certificates_validity`` = ``1``"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:75
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:75
 msgid "Forces the package certificate's date and CRL to be verified."
 msgstr "Vérifier la date et la CRL du certificat du paquet."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:78
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:78
 msgid "``sign_digests`` = ``sha256,sha1``"
 msgstr "``sign_digests`` = ``sha256,sha1``"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:78
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:78
 msgid "List of allowed signature algorithms for the WAPT packages"
 msgstr "Liste les algorithmes de signature autorisés pour les paquets"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:83
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:83
 msgid "Configuring external repositories"
 msgstr "Configurer des dépôts externes"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:85
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:85
 #, python-format
 msgid ""
 "You may add several external repositories by adding ``[sections]`` in :file:`C:"
@@ -240,29 +239,29 @@ msgstr ""
 "dans le fichier :file:`C:\\\\Users\\\\%username%\\\\AppData\\\\Local\\"
 "\\waptconsole\\\\waptconsole.ini`."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:88
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:88
 msgid "Example:"
 msgstr "Exemple :"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:111
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:111
 msgid "Address of the external WAPT repository."
 msgstr "Adresse du dépôt WAPT externe."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:112
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:112
 msgid "``http_proxy`` = http://srvproxy:8080"
 msgstr "``http_proxy`` = http://srvproxy:8080"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:112
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:112
 msgid ""
 "Address of the proxy to use to access the external repository referenced in the "
 "``[section]``."
 msgstr "Adresse du proxy à utiliser pour accéder au dépôt externe."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:114
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:114
 msgid "``verify_cert`` = 1"
 msgstr "``verify_cert`` = 1"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:114
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:114
 msgid ""
 "For :ref:`verifying HTTPS certificates "
 "<activating_HTTPS_certificate_verification>`."
@@ -271,11 +270,11 @@ msgstr ""
 "<activating_HTTPS_certificate_verification>` pour vérifier les certificats "
 "HTTPS."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:116
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:116
 msgid "``public_certs_dir`` ="
 msgstr "``public_certs_dir`` ="
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:116
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:116
 msgid ""
 "Folder that contains the certificates used to authenticate downloaded external "
 "packages. If left empty, no verification is performed."
@@ -283,42 +282,42 @@ msgstr ""
 "Dossier des certificats servant à valider les paquets obtenus à l'extérieur de "
 "l'Organisation (si vide, il n'y a aucune vérification)."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:119
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:119
 msgid "``timeout`` = 2"
 msgstr "``timeout`` = 2"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:119
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:119
 msgid "Timeout for the external repository referenced in the ``[section]``."
 msgstr "Timeout pour le dépôt externe."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:124
-msgid "Settings for creating WAPT package"
-msgstr "Paramètres pour la création de paquets"
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:124
+msgid "Settings for creating WAPT packages"
+msgstr "Paramètres pour la création de paquets WAPT"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:131
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:131
 msgid "``personal_certificate_path`` = C:\\\\private\\\\coder.crt"
 msgstr "``personal_certificate_path`` = C:\\\\private\\\\coder.crt"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:131
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:131
 msgid "Path to the private key to be used to sign packages."
 msgstr "Chemin de la clé privée pour signer les paquets."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:134
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:134
 msgid "``default_sources_root_host`` = C:\\\\waptdev\\\\hosts"
 msgstr "``default_sources_root_host`` = C:\\\\waptdev\\\\hosts"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:134
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:134
 msgid "WAPT host package development folder."
 msgstr "Répertoire de développement des paquets machine."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:135
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:135
 msgid "Default prefix for new WAPT packages."
 msgstr "Préfixe des paquets par défaut."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:136
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:136
 msgid "``default_sources_suffix`` = wapt"
 msgstr "``default_sources_suffix`` = wapt"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:136
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/waptconsole.ini.rst:136
 msgid "Default suffix for new WAPT packages."
 msgstr "Suffixe des paquets par défaut."

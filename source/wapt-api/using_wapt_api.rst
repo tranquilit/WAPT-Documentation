@@ -471,14 +471,14 @@ will reinitialize all host connections.
 
 For the POST method:
 
-Syntax is: :file:`--data-raw`: a dictionnary with key :guilabel:`uuids` with value a host uuid list
+Syntax is: :option:`--data-raw`: a dictionnary list with ``uuids``as keys
+and the UUID of the hosts as values.
 
 .. code-block:: bash
 
    curl --insecure -X POST --data-raw '{"uuids":["114F620FF-DE70-9E5B-996A-B597E8F9B4C"]}' -H "Content-Type: application/json" "https://admin:MUPASSWORD@srvwapt/api/v3/reset_hosts_sid"
 
    {"msg": "Hosts connection reset launched for 1 host(s)", "result": {}, "success": true, "request_time": null}[
-
 
 .. hint::
 

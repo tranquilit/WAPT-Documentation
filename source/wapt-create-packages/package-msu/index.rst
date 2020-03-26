@@ -137,4 +137,4 @@ Creating a MSU package template from command line
                   print('{} already installed'.format(kb_file))
 
           if waiting_for_reboot():
-              print('A reboot is needed !')
+              print('A reboot is needed!')

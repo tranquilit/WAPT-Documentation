@@ -7,302 +7,305 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-19 17:49+0100\n"
+"POT-Creation-Date: 2020-03-25 18:00+0100\n"
 "PO-Revision-Date: 2020-03-10 15:32+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
-"Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 1.8.8\n"
+"Generated-By: Babel 2.3.4\n"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:8
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:13
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:8
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:13
 msgid "Using another IDE for WAPT"
 msgstr "Utiliser un autre environnement de développement pour WAPT"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:8
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:8
 msgid "IDE, PyScripter, VSCode, PyCharm, WAPT"
 msgstr "IDE, PyScripter, VSCode, PyCharm, WAPT"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:16
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:16
 msgid "Introduction"
 msgstr "Introduction"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:18
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:18
 msgid ""
-"If you are used to work with another :term:`IDE`, you can be relieved now as "
-"WAPT supports other editors."
+"If you are used to work with another :term:`IDE`, you can be relieved now"
+" as WAPT supports other editors."
 msgstr ""
-"Si vous êtes habitué(e) à travailler avec un autre :term:`IDE`, vous pouvez être "
-"soulagé maintenant car WAPT supporte d'autres éditeurs de développement intégrés."
+"Si vous êtes habitué(e) à travailler avec un autre :term:`IDE`, vous "
+"pouvez être soulagé maintenant car WAPT supporte d'autres éditeurs de "
+"développement intégrés."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:21
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:21
 msgid "Some code editors are natively supported:"
 msgstr "Certains éditeurs de code sont pris en charge en natif :"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:23
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:23
 msgid "PyScripter;"
 msgstr ""
 "PyScripter \n"
 ";"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:25
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:25
 msgid "VSCode;"
 msgstr "VSCode ;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:27
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:27
 msgid "VSCodium;"
 msgstr "VSCodium ;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:29
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:29
 msgid ""
 "Other editors can be selected and will be launched when you create a new "
 "template for a WAPT package from WAPT Console."
 msgstr ""
-"D'autres éditeurs peuvent être sélectionnés et seront lancés lorsque vous "
-"créerez un nouveau modèle pour un paquet WAPT à partir de la console WAPT."
+"D'autres éditeurs peuvent être sélectionnés et seront lancés lorsque vous"
+" créerez un nouveau modèle pour un paquet WAPT à partir de la console "
+"WAPT."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:33
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:33
 msgid "Configuring WAPT to use another IDE"
 msgstr "Configurer WAPT pour utiliser un autre IDE"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:37
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:37
 msgid ""
-"Using a supported IDE will launch the WAPT package project with a valid debug "
-"configuration."
+"Using a supported IDE will launch the WAPT package project with a valid "
+"debug configuration."
 msgstr ""
-"Utiliser un IDE supporté lancera le projet de paquet WAPT avec une configuration "
-"de débogage valide."
+"Utiliser un IDE supporté lancera le projet de paquet WAPT avec une "
+"configuration de débogage valide."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:41
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:107
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:41
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:107
 msgid "Using Microsoft Windows"
 msgstr "Utiliser Microsoft Windows"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:43
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:68
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:43
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:68
 msgid ""
 "To configure another editor for WAPT, you must modify the "
-"``editor_for_packages`` attribute in the ``[global]`` section of your WAPT "
-"console's :file:`%LOCALAPPDATA%\\\\waptconsole\\\\waptconsole.ini` configuration "
-"file."
+"``editor_for_packages`` attribute in the ``[global]`` section of your "
+"WAPT console's :file:`%LOCALAPPDATA%\\\\waptconsole\\\\waptconsole.ini` "
+"configuration file."
 msgstr ""
-"Pour configurer un autre éditeur pour WAPT, vous devez modifier l'attribut "
-"``editor_for_packages`` dans la section ``[global]`` du fichier de "
-"configuration :file:`%LOCALAPPDATA%\\waptconsole\\waptconsole.ini` de votre "
-"console WAPT."
+"Pour configurer un autre éditeur pour WAPT, vous devez modifier "
+"l'attribut ``editor_for_packages`` dans la section ``[global]`` du "
+"fichier de configuration "
+":file:`%LOCALAPPDATA%\\waptconsole\\waptconsole.ini` de votre console "
+"WAPT."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:47
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:47
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:85
 msgid "Possible values are:"
 msgstr "Les valeurs possibles sont :"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:50
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:88
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:115
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:135
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:50
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:88
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:115
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:135
 msgid "Editor name"
 msgstr "Nom de l'éditeur de code"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:50
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:88
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:115
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:135
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:50
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:88
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:115
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:135
 msgid "editor_for_packages value"
 msgstr "editor_for_packages value"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:52
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:52
 msgid "PyScripter"
 msgstr "PyScripter"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:52
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:52
 msgid "None"
 msgstr "None"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:53
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:90
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:53
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:90
 msgid "Microsoft Visual Studio Code"
 msgstr "Microsoft Visual Studio Code"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:53
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:90
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:53
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:90
 msgid ":program:`vscode` or :program:`code`"
 msgstr ":program:`vscode` ou :program:`code`"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:54
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:91
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:54
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:91
 msgid "Microsoft Visual Studio Codium"
 msgstr "Microsoft Visual Studio Codium"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:54
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:91
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:54
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:91
 msgid ":program:`vscodium` or :program:`codium`"
 msgstr ":program:`vscodium` ou :program:`codium`"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:57
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:57
 msgid "Example config in :file:`waptconsole.ini`:"
 msgstr "Exemple de configuration de :file:`waptconsole.ini` :"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:66
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:128
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:66
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:128
 msgid "Using Linux/Apple macOS"
 msgstr "Utiliser Linux/Apple macOS"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:72
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:72
 msgid ""
-"By default, if the ``editor_for_packages`` attribute is empty, WAPT will try to "
-"launch (in that order):"
+"By default, if the ``editor_for_packages`` attribute is empty, WAPT will "
+"try to launch (in that order):"
 msgstr ""
-"Par défaut, si l'attribut ``editor_for_packages`` est vide, le WAPT essaiera de "
-"lancer (dans cet ordre) :"
+"Par défaut, si l'attribut ``editor_for_packages`` est vide, le WAPT "
+"essaiera de lancer (dans cet ordre) :"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:75
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:75
 msgid ":program:`vscodium`;"
 msgstr ":program:`vscodium` ;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:77
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:77
 msgid ":program:`vscode`;"
 msgstr ":program:`vscode`;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:79
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:79
 msgid ":program:`nano`;"
 msgstr ":program:`nano` ;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:81
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:81
 msgid ":program:`vim`;"
 msgstr ":program:`vim` ;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:83
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:83
 msgid ":program:`vi`;"
 msgstr ":program:`vi` ;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:85
-msgid "Possible values are :"
-msgstr "Les valeurs possibles sont :"
-
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:92
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:92
 msgid "Nano"
 msgstr "Nano"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:92
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:92
 msgid ":program:`nano`"
 msgstr ":program:`nano`"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:93
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:93
 msgid "Vim"
 msgstr "Vim"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:93
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:93
 msgid ":program:`vim`"
 msgstr ":program:`vim`"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:94
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:94
 msgid "Vi"
 msgstr "Vi"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:94
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:94
 msgid ":program:`vi`"
 msgstr ":program:`vi`"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:104
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:104
 msgid "Configuring WAPT to use a custom editor"
 msgstr "Configurer WAPT pour utiliser un éditeur de code personnalisé"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:109
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:109
 msgid ""
-"Custom editors can be used, for example :program:`Notepad++` or :program:"
-"`PyCharm`."
+"Custom editors can be used, for example :program:`Notepad++` or "
+":program:`PyCharm`."
 msgstr ""
-"Des éditeurs de code personnalisés peuvent être utilisés, par exemple :program:"
-"`Notepad++` ou :program:`PyCharm`."
+"Des éditeurs de code personnalisés peuvent être utilisés, par exemple "
+":program:`Notepad++` ou :program:`PyCharm`."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:112
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:132
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:112
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:132
 msgid "Custom editors example:"
 msgstr "Exemple d'éditeurs de code personnalisés :"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:117
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:117
 msgid "Notepad++"
 msgstr "Notepad++"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:117
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:117
 msgid ":file:`C:\\\\Program Files\\\\Notepad++\\\\notepad++.exe {setup_filename}`"
 msgstr ":file:`C:\\\\Program Files\\\\Notepad++\\\\notepad++.exe {setup_filename}`"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:118
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:137
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:118
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:137
 msgid "PyCharm"
 msgstr "PyCharm"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:118
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:118
 msgid ""
-":file:`C:\\\\Program Files\\\\JetBrains\\\\PyCharm Community Edition 2019.3.2\\"
-"\\bin\\\\pycharm64.exe {wapt_sources_dir}`"
+":file:`C:\\\\Program Files\\\\JetBrains\\\\PyCharm Community Edition "
+"2019.3.2\\\\bin\\\\pycharm64.exe {wapt_sources_dir}`"
 msgstr ""
-":file:`C:\\\\Program Files\\\\JetBrains\\\\PyCharm Community Edition 2019.3.2\\"
-"\\bin\\\\pycharm64.exe {wapt_sources_dir}`"
+":file:`C:\\\\Program Files\\\\JetBrains\\\\PyCharm Community Edition "
+"2019.3.2\\\\bin\\\\pycharm64.exe {wapt_sources_dir}`"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:130
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:130
 msgid "Custom editors can be used, for example :program:`PyCharm`."
 msgstr ""
-"Des éditeurs de code personnalisés peuvent être utilisés, par exemple :program:"
-"`PyCharm`."
+"Des éditeurs de code personnalisés peuvent être utilisés, par exemple "
+":program:`PyCharm`."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:137
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:137
 msgid ":file:`/opt/pycharm/bin/pycharm_x64 {wapt_sources_dir}`"
 msgstr ":file:`/opt/pycharm/bin/pycharm_x64 {wapt_sources_dir}`"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:147
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:147
 msgid "Custom arguments"
 msgstr "Arguments personnalisés"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:149
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:149
 msgid "Arguments can be passed in the :code:`editor_for_packages` command:"
 msgstr ""
-"Les arguments peuvent être passés dans la commande :code:`editor_for_packages` :"
+"Les arguments peuvent être passés dans la commande "
+":code:`editor_for_packages` :"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:152
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:152
 msgid "Argument"
 msgstr "Argument"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:152
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:152
 msgid "Description"
 msgstr "Description"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:154
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:154
 msgid ":code:`{setup_filename}`"
 msgstr ":code:`{setup_filename}`"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:154
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:154
 msgid "Launches custom editor and edit WAPT package setup.py file"
 msgstr "Lance l'éditeur de code personnalisé et édite le fichier WAPT setup.py"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:155
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:155
 msgid ":code:`{control_filename}`"
 msgstr ":code:`{control_filename}`"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:155
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:155
 msgid "Launches custom editor and edit WAPT package control file"
 msgstr ""
-"Lance l'éditeur de code personnalisé et modifie le fichier control des paquets "
-"WAPT"
+"Lance l'éditeur de code personnalisé et modifie le fichier control des "
+"paquets WAPT"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:156
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:156
 msgid ":code:`{wapt_sources_dir}`"
 msgstr ":code:`{wapt_sources_dir}`"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:156
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:156
 msgid "Launches custom editor and opens WAPT package folder"
 msgstr "Lance l'éditeur de code personnalisé et ouvre le dossier du paquet WAPT"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:157
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:157
 msgid ":code:`{wapt_base_dir}`"
 msgstr ":code:`{wapt_base_dir}`"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:157
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:157
 msgid "Launches custom editor and opens WAPT install folder"
 msgstr ""
-"Lance l'éditeur de code personnalisé et ouvre le dossier d'installation WAPT"
+"Lance l'éditeur de code personnalisé et ouvre le dossier d'installation "
+"WAPT"
+
+#~ msgid "Possible values are :"
+#~ msgstr "Les valeurs possibles sont :"
+

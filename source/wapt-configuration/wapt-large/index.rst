@@ -19,7 +19,7 @@ around 400 WAPT agents. If you have more than 400 clients it is necessary to
 modify a few system level parameters along with PostgreSQL database,
 Nginx web and WAPT Server python server.
 
-In the future the :code:`postconf.sh` script might take charge of
+In the future the :program:`postconf.sh` script might take charge of
 this configuration depending on the expected number of client computers.
 
 With the following parameters, one WAPT Server should scale up to around 5000

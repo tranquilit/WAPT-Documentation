@@ -3,37 +3,36 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-04 12:28+0100\n"
-"PO-Revision-Date: 2020-03-10 15:31+0100\n"
+"POT-Creation-Date: 2020-03-25 13:16+0100\n"
+"PO-Revision-Date: 2020-03-26 12:10+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
-"Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
-"X-Generator: Poedit 1.8.8\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: fr\n"
+"X-Generator: Poedit 2.0.6\n"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:8
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:15
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:70
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:8
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:15
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:70
 msgid "Building the WAPT agent installer"
 msgstr "Générer l'installeur de l'agent WAPT"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:8
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:8
 msgid "waptagent.exe, installeur, InnoSetup, documentation, WAPT"
 msgstr "waptagent.exe, installeur, InnoSetup, WAPT, documentation"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:18
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:18
 msgid "Choosing the mode to uniquely identify the WAPT agents"
 msgstr "Choisir le mode d'identification unique des agents WAPT"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:20
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:20
 msgid "In WAPT you can choose the unique identification mode of the agents."
 msgstr "Dans WAPT, vous pouvez choisir le mode d'identification unique des agents."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:22
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:22
 msgid ""
 "When a WAPT agent registers the server must know if it is a new machine or if it "
 "is a machine already registered."
@@ -41,13 +40,13 @@ msgstr ""
 "Lorsqu'un agent WAPT s'enregistre, le serveur doit savoir s'il s'agit d'une "
 "nouvelle machine ou s'il s'agit d'une machine déjà enregistrée."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:25
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:25
 msgid ""
 "For this, the WAPT server looks at the unique number \"UUID\" in the inventory."
 msgstr ""
 "Pour cela, le serveur WAPT examine le numéro unique \"UUID\" dans l'inventaire."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:27
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:27
 msgid ""
 "WAPT offers 3 modes of operation to help you distinguish between hosts, it is up "
 "to you to choose the mode that best suits you."
@@ -55,18 +54,18 @@ msgstr ""
 "Le WAPT propose 3 modes de fonctionnement pour vous aider à distinguer vos "
 "machines, c'est à vous de choisir le mode qui vous convient le mieux."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:32
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:32
 msgid ""
-"When choosing a mode of operation it is difficult to change it, think carefully!"
+"After choosing a mode of operation it is difficult to change it, think carefully!"
 msgstr ""
 "Lorsqu'on choisit un mode de fonctionnement, il est difficile de le changer, "
 "donc réfléchissez le bien !"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:36
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:36
 msgid "Identifying the WAPT agents by their BIOS UUID (serial number)"
 msgstr "Identification des agents WAPT par leur BIOS UUID (numéro de série)"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:38
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:38
 msgid ""
 "This mode of operation makes it possible to identify the machines in the console "
 "in a physical manner."
@@ -74,7 +73,7 @@ msgstr ""
 "Ce mode de fonctionnement permet d'identifier les machines de la console de "
 "manière physique."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:41
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:41
 msgid ""
 "If you replace a computer and give the new computer the same name as the "
 "previous one, you will have two computers that will appear in the WAPT console "
@@ -84,7 +83,7 @@ msgstr ""
 "que le précédent, vous aurez deux ordinateurs qui apparaîtront dans la console "
 "WAPT puisque vous aurez physiquement deux ordinateurs différents."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:47
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:47
 msgid ""
 "Some vendors do crappy work and assign the same BIOS UUIDs to entire batches of "
 "computers. In this case, WAPT will only see one computer ..."
@@ -93,11 +92,11 @@ msgstr ""
 "lots entiers d'ordinateurs. Dans ce cas, le WAPT ne verra qu'un seul "
 "ordinateur ..."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:51
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:51
 msgid "Identifying the WAPT agent by host name"
 msgstr "Identification de l'agent WAPT par son nom d'hôte"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:53
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:53
 msgid ""
 "This mode of operation is similar to that in Active Directory. The machines are "
 "identified by their hostname."
@@ -105,7 +104,7 @@ msgstr ""
 "Ce mode de fonctionnement est similaire à celui d'Active Directory. Les machines "
 "sont identifiées par leur nom d'hôte."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:58
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:58
 msgid ""
 "This mode does not work if several machines in your fleet share the same name. "
 "We all know it should not happen!!"
@@ -113,11 +112,11 @@ msgstr ""
 "Ce mode ne fonctionne pas si plusieurs machines de votre parc portent le même "
 "nom. Nous savons tous que cela ne devrait pas arriver !!"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:62
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:62
 msgid "Identifying the WAPT agents with a randomly generated UUID"
 msgstr "Identifier les agents WAPT avec un UUID généré de manière aléatoire"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:64
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:64
 msgid ""
 "This mode of operation allows PCs to be identified by their WAPT installation. "
 "Each installation of WAPT generates a unique random number. If you uninstall "
@@ -128,11 +127,11 @@ msgstr ""
 "désinstallez WAPT de l'ordinateur puis vous réinstallez WAPT, alors vous verrez "
 "apparaître un nouveau PC dans votre console."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:72
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:72
 msgid "The :program:`waptagent` binary is an InnoSetup installer."
 msgstr "L'installeur :program:`waptagent` est un installeur InnoSetup."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:74
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:74
 msgid ""
 "Once the WAPT console has been installed on the :term:`Administrator` computer, "
 "we have all files required to build the WAPT agent installer."
@@ -140,7 +139,7 @@ msgstr ""
 "Une fois la console WAPT installée sur le poste de l':term:`Administrateur`, on "
 "dispose de tous les fichiers nécessaires pour compiler l'installeur WAPT :"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:77
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:77
 msgid ""
 "files that will be used during building of the WAPT agent are located in :file:"
 "`C:\\\\Program Files (x86)\\\\wapt`;"
@@ -148,7 +147,7 @@ msgstr ""
 "les fichiers qui seront utilisés pour créer l'installeur se trouvent dans le "
 "répertoire d'installation :file:`C:\\\\Program Files (x86)\\\\wapt` ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:80
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:80
 msgid ""
 "installer source files (:file:`.iss` files) are located in :file:`C:\\\\Program "
 "Files (x86)\\\\wapt\\\\waptsetup`;"
@@ -156,7 +155,7 @@ msgstr ""
 "les fichiers sources de l'installeur (fichiers :file:`*.iss`) se trouvent dans :"
 "file:`C:\\\\Program Files (x86)\\\\wapt\\\\waptsetup` ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:85
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:85
 msgid ""
 "Before building the WAPT agent, please verify the public certificate(s) in :file:"
 "`C:\\\\Program Files (x86)\\\\wapt\\\\ssl`."
@@ -165,7 +164,7 @@ msgstr ""
 "présence du certificat public dans le dossier :file:`C:\\\\Program Files (x86)\\"
 "\\wapt\\\\ssl`."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:88
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:88
 msgid ""
 "If you wish to deploy other public certificates on your :term:`Organization`'s "
 "computers that are equipped with WAPT, you will have to copy them in that folder."
@@ -173,7 +172,7 @@ msgstr ""
 "Si vous souhaitez déployer d'autres certificats publics sur les ordinateurs de "
 "l':term:`Organisation` équipés de WAPT, il faudra les copier dans ce dossier."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:94
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:94
 msgid ""
 "**DO NOT COPY the private key** of any :term:`Administrator` in :file:`C:\\"
 "\\Program Files (x86)\\\\wapt`."
@@ -181,7 +180,7 @@ msgstr ""
 "**NE PAS COPIER votre clé privée** d\\':term:`Administrateur` dans :file:`C:\\"
 "\\Program Files (x86)\\\\wapt`."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:97
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:97
 msgid ""
 "This folder is used when building the WAPT agent and the private keys would then "
 "be deployed on all the computers."
@@ -189,48 +188,48 @@ msgstr ""
 "Ce dossier est utilisé pour créer l'agent WAPT et votre clé privée se "
 "retrouverait déployée sur l'ensemble du parc."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:100
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:100
 msgid "In the WAPT console, go to :menuselection:`Tools --> Build the WAPT agent`."
 msgstr ""
 "dans la console WAPT, ouvrir :menuselection:`Outils --> Créer un agent WAPT` ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:106
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:106
 msgid "Generate the WAPT agent from the console"
 msgstr "Générateur l'agent WAPT à partir de la console"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:108
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:108
 msgid "fill in the informations that are necessary for the installer:"
 msgstr "renseigner les informations nécessaires à l'installeur :"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:110
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:110
 msgid "the field :guilabel:`Public certificate`: **required**;"
 msgstr "le champ **obligatoire** :guilabel:`Certificat public` ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:112
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:112
 msgid "example : :file:`C:\\\\private\\\\mydomain.crt`"
 msgstr "exemple : :file:`C:\\\\private\\\\mydomain.crt`"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:114
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:114
 msgid "the field :guilabel:`Address of the WAPT repository`: **required**;"
 msgstr "le champ :guilabel:`Adresse du dépôt WAPT` : **obligatoire** ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:116
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:116
 msgid "example : https://srvwapt.mydomain.lan/wapt"
 msgstr "exemple : https://srvwapt.mydomain.lan/wapt"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:118
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:118
 msgid "the field :guilabel:`Address of the WAPT Server`: **required**;"
 msgstr "le champ :guilabel:`Adresse du serveur WAPT` : **obligatoire** ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:120
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:120
 msgid "example : https://srvwapt.mydomain.lan"
 msgstr "exemple : https://srvwapt.mydomain.lan"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:122
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:122
 msgid "the checkbox :guilabel:`Verify the WAPT Server HTTPS certificate`;"
 msgstr "la case à cocher :guilabel:`Vérifier le certificat HTTPS du serveur` ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:124
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:124
 msgid ""
 "the field :guilabel:`Path to the bundle of certificates` to verify the HTTPS "
 "certificate of the WAPT Server;"
@@ -238,17 +237,17 @@ msgstr ""
 "le champ :guilabel:`Chemin du bundle de certificats` pour vérifier le certificat "
 "HTTPS du serveur ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:127
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:127
 msgid "the checkbox :guilabel:`Use Kerberos for registering WAPT agents`;"
 msgstr ""
 "la case à cocher :guilabel:`Utiliser Kerberos pour l'enregistrement` initial des "
 "agents WAPT avec le serveur ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:129
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:129
 msgid "the field :guilabel:`Organization` to identify the origin of WAPT packages;"
 msgstr "le champ :guilabel:`Organisation` pour identifier l'origine des paquets ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:131
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:131
 msgid ""
 "the field :guilabel:`Sign waptupgrade with both sha256 and sha1` can be ignored "
 "because it is only useful when upgrading from version 1.3;"
@@ -257,7 +256,7 @@ msgstr ""
 "ignoré car il n'est utile que lors d'une mise à jour depuis une version 1.3 vers "
 "1.5 ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:134
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:134
 msgid ""
 "the field :guilabel:`Use computer FQDN for UUID` and :guilabel:`Use random host "
 "UUID (for buggy BIOS)` (see explanation in the previous paragraph of this "
@@ -267,7 +266,7 @@ msgstr ""
 "`Utilise un UUID aléatoire (for buggy BIOS)` (voir explication dans le "
 "paragraphe précédent de cette documentation) ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:138
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:138
 msgid ""
 "the field :guilabel:`Enable AD Groups` enables the installation of profile "
 "packages based on the Active Directory groups of which the machine is a member. "
@@ -277,23 +276,23 @@ msgstr ""
 "profil basés sur les groupes Active Directory dont la machine est membre. "
 "**Cette fonctionnalité peut dégrader les performances du WAPT** ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:143
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:143
 msgid ""
-"the field :guilabel:`Append host's profiles` allows to define a list of WAPT "
+"the field :guilabel:`Append host's profiles` allows you to define a list of WAPT "
 "packages to install obligatorily;"
 msgstr ""
 "le champ :guilabel:`Ajouter au profil de machine` permet de définir une liste de "
 "paquets WAPT à installer obligatoirement ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:146
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:146
 msgid ""
-"the field :guilabel:`Automatic periodic packages audit scheduling` define the "
+"the field :guilabel:`Automatic periodic packages audit scheduling` defines the "
 "frequency at which the WAPT agent checks whether it has audits to perform;"
 msgstr ""
 "le champ :guilabel:`Programmation des audits de paquet` définit la fréquence à "
 "laquelle l'agent WAPT vérifie s'il a des audits à effectuer ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:150
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:150
 msgid ""
 "Windows update section, refer to :ref:`this article on configuring WAPTWUA on "
 "the WAPT agent <wapt_wua_agent>`;"
@@ -301,7 +300,7 @@ msgstr ""
 "Pour les mises à jour Windows, voir :ref:`cet article sur la configuration de "
 "WAPTWUA sur l'agent WAPT <wapt_wua_agent>` ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:155
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:155
 msgid ""
 "The checkbox **Use Kerberos for the initial registration** must be checked "
 "**ONLY IF** you have followed the documentation on **Configuring the Kerberos "
@@ -311,7 +310,7 @@ msgstr ""
 "doit être activé **UNIQUEMENT** si vous avez suivi la documentation **Configurer "
 "l'authentification Kerberos**."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:159
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:159
 msgid ""
 "The checkbox **Verify the WAPT Server HTTPS certificate**must be checked **ONLY "
 "IF** you have followed the documentation on **Activating the verification of the "
@@ -321,23 +320,23 @@ msgstr ""
 "doit être activé **UNIQUEMENT** si vous avez suivi la documentation **Configurer "
 "l'authentification Kerberos**."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:167
-msgid "Fill in the informations on your Organisation"
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:167
+msgid "Fill in the informations on your Organization"
 msgstr "Renseigner les informations sur l'Organisation"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:169
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:169
 msgid "provide the password for unlocking the private key:"
 msgstr "renseignez le mot de passe de la clé privée :"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:175
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:175
 msgid "Provide the password for unlocking the private key"
 msgstr "Entrer le mot de passe de la clé privée"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:181
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:181
 msgid "Progression of WAPT agent installer building"
 msgstr "Progression de la création de l'installeur de l'agent WAPT"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:183
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:183
 msgid ""
 "Once the WAPT agent installer has finished building, a confirmation dialog pops "
 "up indicating that the :program:`waptagent` binary has been successfully "
@@ -346,11 +345,11 @@ msgstr ""
 "Une fois la compilation terminée, une confirmation s'affiche informant que le :"
 "program:`waptagent` a bien été chargé sur https://srvwapt.mydomain.lan/wapt/."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:191
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:191
 msgid "Confirmation of the WAPT agent loading onto WAPT repository"
 msgstr "Confirmation du chargement de l'agent WAPT sur le serveur WAPT"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:195
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:195
 msgid ""
 "A warning shows up indicating that the GPO hash value should be changed. GPOs "
 "may be used to deploy the WAPT agent on your Organization's computer."
@@ -358,15 +357,15 @@ msgstr ""
 "Un avertissement apparaît pour rappeler de changer la valeur du hash dans la GPO "
 "de déploiement de l'agent WAPT."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:199
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:199
 msgid "Updating the WAPT agents"
 msgstr "Mettre à jour les agents WAPT"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:201
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:201
 msgid "The ``test-waptupgrade`` package has also been uploaded on the repository."
 msgstr "Le paquet ``test-waptupgrade`` a également été chargé sur le dépôt."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:203
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:203
 msgid ""
 "The ``test-waptupgrade`` package contains the WAPT agent with arguments "
 "specified during the installation of WAPT on your Administrator's computer."
@@ -374,11 +373,11 @@ msgstr ""
 "Ce paquet WAPT contient l'agent WAPT avec les paramètres spécifiés lors de "
 "l'installation."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:210
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:210
 msgid "New WAPT agent in the repository"
 msgstr "Nouvel agent dans le dépôt WAPT"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:214
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:214
 msgid ""
 "This package is a standard WAPT package designed to upgrade WAPT agents on "
 "client machines."
@@ -386,7 +385,7 @@ msgstr ""
 "Ce paquet permettra de mettre à jour les agents WAPT du parc lorsqu'une mise à "
 "jour de l'agent WAPT sera rendue disponible."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:217
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:217
 msgid ""
 "Upgrading the WAPT agents using the *xxx-waptupgrade* package is a two step "
 "process:"
@@ -394,7 +393,7 @@ msgstr ""
 "Mettre à niveau les agents WAPT à l'aide du paquet *xxx-waptupgrade* est un "
 "processus en deux étapes :"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:220
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:220
 msgid ""
 "first the package copies the new :file:`waptagent.exe` file on the client "
 "computer and creates a new scheduled task that will run :program:`waptagent.exe` "
@@ -412,7 +411,7 @@ msgstr ""
 "installée, mais l'inventaire affichera toujours l'ancienne version car l'agent "
 "n'aura pas encore été mis à jour."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:229
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:229
 msgid ""
 "after two minutes the scheduled task starts and runs :program:`waptagent.exe`. :"
 "program:`waptagent.exe` shutdowns the local WAPT service, upgrades the local "
@@ -427,7 +426,7 @@ msgstr ""
 "serveur WAPT. L'inventaire sur le serveur affichera alors la nouvelle version de "
 "l'agent."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:236
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:236
 msgid ""
 "From an administrator point of view, looking at the console you will see the "
 "following steps:"
@@ -435,11 +434,11 @@ msgstr ""
 "Du point de vue d'un administrateur, en regardant la console, vous verrez les "
 "étapes suivantes :"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:239
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:239
 msgid "*xxx-waptupgrade* package starts being installed;"
 msgstr "le paquet *xxx-waptupgrade* commence à être installé ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:241
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:241
 msgid ""
 "*xxx-waptupgrade* is installed, the machine is up to date from a package list "
 "point of view, but the version in the inventory is still the old version of the "
@@ -449,7 +448,7 @@ msgstr ""
 "liste des paquets, mais la version dans l'inventaire est toujours l'ancienne "
 "version de l'agent WAPT ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:245
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:245
 msgid ""
 "after two minutes the computer connectivity status switches to *disconnected* as "
 "the WAPT agent is updated;"
@@ -457,7 +456,7 @@ msgstr ""
 "après deux minutes, l'état de la connectivité de l'ordinateur passe à "
 "*déconnecté* pendant que l'agent WAPT est mis à jour ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:248
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:248
 msgid ""
 "after around two minutes the client computer gets back up online in the console "
 "and updates its inventory and shows the new version;"
@@ -465,11 +464,11 @@ msgstr ""
 "après environ deux minutes, l'ordinateur client se remet en ligne dans la "
 "console, met à jour son inventaire et affiche la nouvelle version ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:252
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:252
 msgid "What can go wrong during the upgrades"
 msgstr "Ce qui peut mal se passer lors des mises à niveau"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:254
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:254
 msgid ""
 "the most common issue with the upgrading process is the local antivirus blocking "
 "the installation (WAPT is a software installer that keeps a websocket opened to "
@@ -477,7 +476,7 @@ msgid ""
 "antivirus, even though this method is the basis of end point management...). "
 "**If you have an issue when deploying the upgrade, please check your antivirus "
 "console and whitelist the waptagent.exe**. Another option is to re-sign the :"
-"program:`waptagent.exe` binary if your organisation has an internal code signing "
+"program:`waptagent.exe` binary if your organization has an internal code signing "
 "certificate;"
 msgstr ""
 "le problème le plus courant lors du processus de mise à niveau est le blocage de "
@@ -490,9 +489,9 @@ msgstr ""
 "option est de re-signer le binaire :program:`waptagent.exe` si votre "
 "organisation possède un certificat de signature de code interne ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:264
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:264
 msgid ""
-"the second most common issue is that for some reasons another program is locking "
+"the second most common issue is that for some reason another program is locking "
 "a :mimetype:`DLL` that ships with WAPT. This can happen with poorly designed "
 "software installers that pick up the local %PATH% variable first and then find "
 "WAPTs own openssl or python DLL;"
@@ -503,7 +502,7 @@ msgstr ""
 "prendre la variable locale %PATH% et qui trouvent ensuite des DLL openssl ou "
 "python propres embarquées avec WAPT ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:269
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptagent/index.rst:269
 msgid ""
 "the third most common issue is a defective Windows install that does not run "
 "scheduled tasks properly, and yes we have seen this!!"

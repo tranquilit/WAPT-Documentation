@@ -20,7 +20,7 @@ in :file:`C:\\wapt\\conf\\waptserver.ini`.
 
 .. attention::
 
-  **Modification of these files is reserved for advanced users !!**
+  **Modification of these files is reserved for advanced users!!**
 
 .. _waptserver_configuration:
 

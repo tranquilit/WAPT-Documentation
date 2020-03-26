@@ -7,28 +7,27 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-10 17:21+0100\n"
-"PO-Revision-Date: 2020-03-10 17:22+0100\n"
+"POT-Creation-Date: 2020-03-25 13:16+0100\n"
+"PO-Revision-Date: 2020-03-26 12:07+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
-"Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
-"X-Generator: Poedit 1.8.8\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: fr\n"
+"X-Generator: Poedit 2.0.6\n"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:8
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:15
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:8
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:15
 msgid "Configuring WAPT Server for large deployments"
 msgstr "Configurer le serveur WAPT pour les grands déploiements"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:8
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:8
 msgid "install, WAPT, documentation, optimization, large deployment"
 msgstr "installation, WAPT, documentation, optimisation, grands déploiements"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:17
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:17
 msgid ""
 "The default operating system, Nginx and Postgresql settings are adapted "
 "for around 400 WAPT agents. If you have more than 400 clients it is "
@@ -41,15 +40,15 @@ msgstr ""
 "modifier quelques paramètres au niveau du système, au niveau de la base de "
 "données PostgreSQL, du service web Nginx et du Serveur WAPT."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:22
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:22
 msgid ""
-"In the future the :code:`postconf.sh` script might take charge of this "
-"configuration depending on the expected number of client computers"
+"In the future the :program:`postconf.sh` script might take charge of this "
+"configuration depending on the expected number of client computers."
 msgstr ""
-"À l'avenir, le script :code:`postconf.sh` pourrait prendre en charge cette "
+"À l'avenir, le script :program:`postconf.sh` pourrait prendre en charge cette "
 "configuration en fonction du nombre prévu d'ordinateurs clients."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:25
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:25
 msgid ""
 "With the following parameters, one WAPT Server should scale up to around "
 "5000 concurrent active clients. You may have more clients in the database "
@@ -62,7 +61,7 @@ msgstr ""
 "temps. Si vous avez plus de 5000 clients, il est recommandé d'avoir plus "
 "d'un serveur WAPT en parallèle."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:30
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:30
 msgid ""
 "The limit in the number of end point clients is due to the bottleneck in "
 "the python code and the PostgreSQL backend. WAPT performance gets better "
@@ -78,11 +77,11 @@ msgstr ""
 "pleinement partie d'une connexion 10 Gbps pour les gros déploiements de "
 "paquets."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:38
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:38
 msgid "Configuration changes for better performance"
 msgstr "Changements de configuration pour une performance renforcée"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:42
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:42
 msgid ""
 "**The parameters to be modified below are linked together and should be "
 "modified globally and not individually**."
@@ -90,11 +89,11 @@ msgstr ""
 "**Les paramètres à modifier ci-dessous sont liés entre eux et doivent être "
 "modifiés globalement et non individuellement**."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:46
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:46
 msgid "Configuring Nginx"
 msgstr "Configurer Nginx"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:48
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:48
 msgid ""
 "In the :file:`/etc/nginx/nginx.conf` file, modify ``worker_connections`` "
 "parameter. The value should be around 2.5 times the number of WAPT clients "
@@ -107,7 +106,7 @@ msgstr ""
 "téléchargement de paquets et le chargement de l'inventaire + une certaine "
 "marge)."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:59
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:59
 msgid ""
 "Then upgrade the number of *filedescriptors* in the :file:`/etc/nginx/"
 "nginx.conf` file:"
@@ -115,11 +114,11 @@ msgstr ""
 "Ensuite, mettre à jour le nombre de *filedescriptor* dans le fichier :file:"
 "`/etc/nginx/nginx.conf` :"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:67
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:67
 msgid "Configuring the Linux System"
 msgstr "Configurer Linux"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:69
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:69
 msgid ""
 "Increase the number of *filedescriptors*. The system unit file asks for an "
 "increase in the allowed number of *filedescriptors* (LimitNOFILE=32768). "
@@ -130,7 +129,7 @@ msgstr ""
 "Nous devrions avoir la même chose pour Nginx. Il y a quelques limites à "
 "augmenter."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:73
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:73
 msgid ""
 "First we modify system wide the number of *filedescriptors* allowed for "
 "Nginx and WAPT."
@@ -138,11 +137,11 @@ msgstr ""
 "Tout d'abord, nous modifions au niveau du système le nombre de "
 "*filedescriptors* autorisés pour Nginx et WAPT."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:76
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:76
 msgid "create the :file:`/etc/security/limits.d/wapt.conf`:"
 msgstr "créer le fichier :file:`/etc/security/limits.d/wapt.conf` :"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:87
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:87
 msgid ""
 "Nginx serves as a reverse proxy and makes quite a lot of connections. Each "
 "WAPT client keeps a *websocket* connection up all the time in order to "
@@ -152,7 +151,7 @@ msgstr ""
 "Chaque client WAPT maintient une connexion *websocket* en permanence afin "
 "d'échanger avec le serveur WAPT."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:91
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:91
 msgid ""
 "The Linux kernel has a protection against having too many TCP connections "
 "opened at the same time and one may get the *SYN flooding on port* message "
@@ -166,11 +165,11 @@ msgstr ""
 "nécessaire de modifier les deux paramètres suivants. Ils doivent être "
 "environ 1,5 fois supérieur au nombre de clients WAPT."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:106
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:106
 msgid "Configuring the PostgreSQL database"
 msgstr "Configurer PostgreSQL"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:108
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:108
 msgid ""
 "A higher number of clients need a higher number of connections to the "
 "PostgreSQL database. In the :file:`postgresql.conf` file (file:`/etc/"
@@ -184,11 +183,11 @@ msgstr ""
 "debian 10 par exemple), vous devez augmenter le paramètre suivant pour "
 "atteindre environ 1/4 du nombre d'agents WAPT actifs."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:119
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:119
 msgid "Configuring the WAPT Server"
 msgstr "Configurer le serveur WAPT"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:121
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:121
 msgid ""
 "In :file:`/opt/wapt/conf/waptserver.ini` file, ``db_max_connections`` "
 "should be equal to PostgreSQL ``max_connections`` minus 10 (PostgreSQL "
@@ -202,11 +201,11 @@ msgstr ""
 "lui). Le paramètre ``max_clients`` devrait être fixé à environ 1,2 fois le "
 "nombre d'agents WAPT :"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:134
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:134
 msgid "Configuration for large package upload"
 msgstr "Configuration pour le téléchargement de gros paquets"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:136
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:136
 msgid ""
 "Depending on the partitioning of your WAPT server you might have to be "
 "careful with the Nginx temporary file upload directory. Nginx acts as a "
@@ -219,7 +218,7 @@ msgstr ""
 "du serveur WAPT et il effectue une mise en cache des paquets téléchargés "
 "lors du téléchargement d'un nouveau paquet depuis la console."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:141
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-large/index.rst:141
 msgid ""
 "The packages are stored in the :file:`/var/lib/nginx/proxy` directory. You "
 "have to make sure that the partition hosting this directory is large "

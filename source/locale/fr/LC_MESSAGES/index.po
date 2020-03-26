@@ -1,63 +1,64 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: WAPT 1.6\n"
+"Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-15 13:51+0100\n"
-"PO-Revision-Date: 2020-02-15 14:05+0100\n"
+"POT-Creation-Date: 2020-03-25 13:16+0100\n"
+"PO-Revision-Date: 2020-03-25 16:18+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
-"Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.3.4\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:132
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:134
 msgid "Presentation"
 msgstr "Présentation"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:140
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:142
 msgid "Documentation"
 msgstr "Presentation"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:156
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:159
 msgid "Appendix"
 msgstr "Appendix"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:8
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:15
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:8
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:15
 msgid "WAPT Documentation"
 msgstr "Documentation de WAPT"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:8
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:8
 msgid "Documentation, WAPT, introduction, welcome page, Welcome"
 msgstr "Documentation, Accueil"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:21
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:21
 msgid ""
-"Welcome to WAPT's official documentation by Tranquil IT, last compiled on"
-" |date|."
+"Welcome to WAPT's official documentation by Tranquil IT, last compiled on |"
+"date|."
 msgstr ""
-"Bienvenue sur la documentation officielle de WAPT par Tranquil IT en date"
-" du |date|."
+"Bienvenue sur la documentation officielle de WAPT par Tranquil IT en date du |"
+"date|."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:24
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:24
 msgid "Click `here <WAPT.pdf>`_ for a PDF version of the complete documentation."
 msgstr ""
-"Cliquer `ici <WAPT.pdf>`_ pour une version PDF de la documentation "
-"complète."
+"Cliquer `ici <WAPT.pdf>`_ pour une version PDF de la documentation complète."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:26
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:26
 msgid ""
-"WAPT is a software deployment tool whose core set of features is licensed"
-" under the GPLv3."
+"WAPT is a software deployment tool whose core set of features is licensed under "
+"the GPLv3."
 msgstr ""
-"WAPT est une solution de déploiement logiciel dont le coeur est Open-"
-"Source (GPLv3)."
+"WAPT est une solution de déploiement logiciel dont le coeur est Open-Source "
+"(GPLv3)."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:29
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:29
 msgid ""
 "WAPT exists in two flavors, :ref:`WAPT Community and WAPT Enterprise "
 "<WAPT_Enterprise>`."
@@ -65,175 +66,169 @@ msgstr ""
 "WAPT existe en deux versions, :ref:`WAPT Community et WAPT Enterprise "
 "<WAPT_Enterprise>`."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:33
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:33
 msgid "Security Certification"
 msgstr "Certification de sécurité ANSSI"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:41
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:41
 msgid ""
 "Security Visa from ANSSI dated 14th of February 2018 for WAPT Enterprise "
 "Edition 1.5.0.13"
 msgstr "Visa de sécurité de l'ANSSI pour WAPT Enterprise 1.5.0.13"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:44
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:44
 msgid ""
-"Cybersecurity solutions are many and diverse, but not all of them offer "
-"the same level of effectiveness, robustness and trust."
+"Cybersecurity solutions are many and diverse, but not all of them offer the "
+"same level of effectiveness, robustness and trust."
 msgstr ""
-"Les solutions de cyberscurité sont nombreuses et variées, mais toutes "
-"n'offrent pas le même niveau d'efficacité, de robustesse et de confiance."
+"Les solutions de cyberscurité sont nombreuses et variées, mais toutes n'offrent "
+"pas le même niveau d'efficacité, de robustesse et de confiance."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:47
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:47
 msgid ""
-"Security Visas that the French cyberdefense agency, ANSSI, delivers allow"
-" to identify more easily the most reliable security solutions. They are "
-"recognized as such after having been evaluated by approved laboratories "
-"following a rigorous and recognized methodology."
+"Security Visas that the French cyberdefense agency, ANSSI, delivers allow to "
+"identify more easily the most reliable security solutions. They are recognized "
+"as such after having been evaluated by approved laboratories following a "
+"rigorous and recognized methodology."
 msgstr ""
-"Les Visas de sécurité que délivre l'ANSSI permettent d'identifier "
-"facilement les plus fiables d'entre elles et reconnues comme telles à "
-"l'issue d'une évaluation réalisée par des laboratoires agréés selon une "
-"méthodologie rigoureuse et éprouvée."
+"Les Visas de sécurité que délivre l'ANSSI permettent d'identifier facilement "
+"les plus fiables d'entre elles et reconnues comme telles à l'issue d'une "
+"évaluation réalisée par des laboratoires agréés selon une méthodologie "
+"rigoureuse et éprouvée."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:53
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:53
 msgid "Security Certification from French Cyberdefense Agency ANSSI"
 msgstr "Qualification Elémentaire ANSSI"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:55
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:55
 msgid ""
-"Following its first level security certification obtained on 14 February "
-"2018, WAPT has been prized with a `higher level certification "
-"<https://www.tranquil.it/wp-content/uploads/qualification-anssi-tranquil-"
-"it.pdf>`_ from ANSSI."
+"Following its first level security certification obtained on 14 February 2018, "
+"WAPT has been prized with a `higher level certification <https://www.tranquil."
+"it/ wp-content/uploads/qualification-anssi-tranquil-it.pdf>`_ from ANSSI."
 msgstr ""
-"Suite à sa certification CSPN du 14 février 2018, WAPT a obtenu le 15 "
-"mars 2018 la `Qualification Elémentaire <https://www.tranquil.it /wp-"
-"content/uploads/qualification-anssi-tranquil-it.pdf>`_ de l'ANSSI."
+"Suite à sa certification CSPN du 14 février 2018, WAPT a obtenu le 15 mars 2018 "
+"la `Qualification Elémentaire <https://www.tranquil.it /wp-content/uploads/"
+"qualification-anssi-tranquil-it.pdf>`_ de l'ANSSI."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:60
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:60
 msgid "Main features"
 msgstr "Principales fonctionnalités"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:62
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:62
 msgid "**For System Administrators**:"
 msgstr "**Pour les administrateurs système** :"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:64
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:64
 msgid "install software and configurations silently;"
 msgstr "installer des logiciels de manière silencieuse ;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:66
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:66
 msgid "maintain up to date an installed base of software and configurations;"
 msgstr "tenir à jour le parc logiciel ;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:68
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:68
 msgid ""
-"configure software at the system and user level to reduce the load on "
-"support teams;"
+"configure software at the system and user level to reduce the load on support "
+"teams;"
 msgstr ""
-"configurer les logiciels et le système pour diminuer la charge sur les "
-"équipes de support ;"
+"configurer les logiciels et le système pour diminuer la charge sur les équipes "
+"de support ;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:71
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:71
 msgid "remove unwanted or out of cycle software and configurations silently;"
 msgstr "désinstaller des logiciels de manière silencieuse ;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:73
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:73
 msgid "give :term:`Users` more autonomy to install software safely and reliably;"
 msgstr ""
-"rendre les :term:`Utilisateurs` plus autonomes pour installer des "
-"logiciels de manière sûre et sécurisée ;"
+"rendre les :term:`Utilisateurs` plus autonomes pour installer des logiciels de "
+"manière sûre et sécurisée ;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:75
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:75
 msgid ""
-"reduce as much as possible the consumption of bandwidth on remote sites "
-"to preserve it for productive uses;"
+"reduce as much as possible the consumption of bandwidth on remote sites to "
+"preserve it for productive uses;"
 msgstr ""
-"réduire autant que possible la consommation de bande passante pour la "
-"réserver aux usages productifs ;"
+"réduire autant que possible la consommation de bande passante pour la réserver "
+"aux usages productifs ;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:78
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:78
 msgid "**For IT Security Officers**"
 msgstr "**Pour les RSSI**"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:80
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:80
 msgid ""
-"pilot the software installed base to converge to a security standard "
-"acceptable to the Organization;"
+"pilot the software installed base to converge to a security standard acceptable "
+"to the Organization;"
 msgstr "faire converger le parc logiciel vers une norme de sécurité ;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:83
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:83
 msgid ""
-"prepare your enterprise for the coming `GDPR "
-"<https://en.wikipedia.org/wiki/General_Data_Protection_Regulation>`_ and "
-"help your DPO keep his register of data processing, because you two will "
-"become close colleagues;"
+"prepare your enterprise for the coming `GDPR <https://en.wikipedia.org/wiki/"
+"General_Data_Protection_Regulation>`_ and help your DPO keep his register of "
+"data processing, because you two will become close colleagues;"
 msgstr ""
-"préparer votre entreprise à l'arrivée du `RGPD "
-"<https://fr.wikipedia.org/wiki/ "
-"R%C3%A8glement_g%C3%A9n%C3%A9ral_sur_la_protection_des_donn%C3%A9es>`_ et"
-" aider votre DPD, qui deviendra un proche collègue à tenir à jour son "
-"registre des traitements ;"
+"préparer votre entreprise à l'arrivée du `RGPD <https://fr.wikipedia.org/wiki/ R"
+"%C3%A8glement_g%C3%A9n%C3%A9ral_sur_la_protection_des_donn%C3%A9es>`_ et aider "
+"votre DPD, qui deviendra un proche collègue à tenir à jour son registre des "
+"traitements ;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:88
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:88
 msgid "to no more tolerate machines operating in *Administrator* mode;"
 msgstr "ne plus tolérer le fonctionnement des machines en mode *Administrateur* ;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:90
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:90
 msgid ""
-"reduce the level of exposure to software vulnerabilities and `lateral "
-"movement attacks "
-"<https://en.wikipedia.org/wiki/Network_Lateral_Movement>`_;"
+"reduce the level of exposure to software vulnerabilities and `lateral movement "
+"attacks <https://en.wikipedia.org/wiki/Network_Lateral_Movement>`_;"
 msgstr ""
-"réduire l'exposition du parc aux vulnérabilités logicielles et aux "
-"`attaques par propagation latérales <https://www.sciencesetavenir.fr/ "
-"high-tech/informatique/cyberattaque-petya-petrwap-un-mode- operatoire-"
-"plus-subtil-que-wannacry_114254>`_ ;"
+"réduire l'exposition du parc aux vulnérabilités logicielles et aux `attaques "
+"par propagation latérales <https://www.sciencesetavenir.fr/ high-tech/"
+"informatique/cyberattaque-petya-petrwap-un-mode- operatoire-plus-subtil-que-"
+"wannacry_114254>`_ ;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:93
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:93
 msgid ""
-"bring up audit indicators for a better knowledge of the state of "
-"installed IT devices and their global security level;"
+"bring up audit indicators for a better knowledge of the state of installed IT "
+"devices and their global security level;"
 msgstr ""
-"remonter des indicateurs d'audit pour une meilleure connaissance de "
-"l'état et de la sécurité du parc ;"
+"remonter des indicateurs d'audit pour une meilleure connaissance de l'état et "
+"de la sécurité du parc ;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:96
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:96
 msgid ""
-"be prompt to deploy updates to react to cyber attacks like `Wannacry "
-"<https://www.us-cert.gov/ncas/current-activity/2017/05/17/ICS-CERT-"
-"Releases-WannaCry-Fact-Sheet>`_ or `notPetya <https://www.us-"
-"cert.gov/sites/default /files/publications/MIFR-10130295.pdf>`_;"
+"be prompt to deploy updates to react to cyber attacks like `Wannacry <https://"
+"www.us-cert.gov/ncas/current-activity/ 2017/05/17/ICS-CERT-Releases-WannaCry-"
+"Fact-Sheet>`_ or `notPetya <https://www.us-cert.gov/sites/default /files/"
+"publications/MIFR-10130295.pdf>`_;"
 msgstr ""
-"déployer immédiatement pour réagir à une menace type `Wannacry <https"
-"://ics-cert .us-cert.gov/sites/default/files/FactSheets/ICS-"
-"CERT_FactSheet_WannaCry_ Ransomware_S508C.pdf>`_ ou `notPetya "
-"<https://www.us-cert.gov/sites/default "
-"/files/publications/MIFR-10130295.pdf>`_ ou bien laisser faire "
-"automatiquement les choses du quotidien ;"
+"déployer immédiatement pour réagir à une menace type `Wannacry <https://ics-"
+"cert .us-cert.gov/sites/default/files/FactSheets/ICS-CERT_FactSheet_WannaCry_ "
+"Ransomware_S508C.pdf>`_ ou `notPetya <https://www.us-cert.gov/sites/default /"
+"files/publications/MIFR-10130295.pdf>`_ ou bien laisser faire automatiquement "
+"les choses du quotidien ;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:100
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:102
 msgid "**For End-Users**"
 msgstr "**Pour les utilisateurs finaux**"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:102
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:104
 msgid ""
-"have your software configured to work well in the context of your "
-"Organization and trust that they will work correctly;"
+"have your software configured to work well in the context of your Organization "
+"and trust that they will work correctly;"
 msgstr ""
-"avoir ses logiciels configurés de base pour bien fonctionner dans le "
-"contexte de son Organisation et avoir confiance qu'ils fonctionneront "
-"correctement ;"
+"avoir ses logiciels configurés de base pour bien fonctionner dans le contexte "
+"de son Organisation et avoir confiance qu'ils fonctionneront correctement ;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:105
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:107
 msgid ""
-"reduce your need for support by your IT teams, whose reaction times are "
-"often long because of their workloads;"
+"reduce your need for support by your IT teams, whose reaction times are often "
+"long because of their workloads;"
 msgstr ""
-"réduire le besoin de support par les équipes informatiques, dont les "
-"temps de réaction sont parfois long du fait de leurs charges de travail ;"
+"réduire le besoin de support par les équipes informatiques, dont les temps de "
+"réaction sont parfois long du fait de leurs charges de travail ;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:108
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:110
 msgid ""
 "have better working and more predictable IT systems because of standard "
 "software configurations;"
@@ -241,59 +236,57 @@ msgstr ""
 "avoir une meilleure qualité de travail et rendre prédictible le parc "
 "informatique grâce à une configuration standarde pour les logiciels;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:112
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:114
 msgid "Source code repository"
 msgstr "Code Source"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:114
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:116
 msgid ""
-"You may access the source code by visiting Tranquil IT's GitHub "
-"repository located at https://github.com/tranquilit/WAPT."
+"You may access the source code by visiting Tranquil IT's GitHub repository "
+"located at https://github.com/tranquilit/WAPT."
 msgstr ""
-"Vous pouvez accéder au code source sur notre dépôt GitHub : "
-"https://github.com/tranquilit/WAPT."
+"Vous pouvez accéder au code source sur notre dépôt GitHub : https://github.com/"
+"tranquilit/WAPT."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:118
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:120
 msgid "How to contribute?"
 msgstr "Contribuer"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:120
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:122
 msgid ""
 "You may want to have a look at our :ref:`contribution guide "
 "<how_to_contribute>`."
 msgstr ""
-"Vous pouvez consulter notre :ref:`guide de contribution "
-"<how_to_contribute>`."
+"Vous pouvez consulter notre :ref:`guide de contribution <how_to_contribute>`."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:124
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:126
 msgid "WAPT support and training"
 msgstr "Support WAPT"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:126
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:128
 msgid "commercial support: https://www.tranquil.it/"
 msgstr "Support commercial : https://www.tranquil.it/page/offreswapt"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:128
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:130
 msgid "forum: https://forum.tranquil.it/"
 msgstr "Forum : https://forum.tranquil.it/"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:130
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:132
 msgid "mailing list: http://lists.tranquil.it/listinfo/wapt"
 msgstr "Liste de diffusion : https://lists.tranquil.it/listinfo/wapt"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:168
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:171
 msgid "Indices and tables"
 msgstr "Index et tables"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:170
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:173
 msgid ":ref:`genindex`"
 msgstr ":ref:`genindex`"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:172
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:175
 msgid ":ref:`glossary`"
 msgstr ":ref:`glossary`"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/index.rst:174
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/index.rst:177
 msgid ":ref:`search`"
 msgstr ":ref:`search`"
-

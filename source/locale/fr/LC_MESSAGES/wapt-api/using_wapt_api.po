@@ -5,473 +5,467 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: WAPT 1.7\n"
+"Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-15 13:51+0100\n"
-"PO-Revision-Date: 2020-02-15 14:04+0100\n"
+"POT-Creation-Date: 2020-03-25 18:19+0100\n"
+"PO-Revision-Date: 2020-03-25 18:27+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
-"Language: fr\n"
-"Language-Team: \n"
-"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"Language-Team: Tranquil IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: fr\n"
+"X-Generator: Poedit 2.0.6\n"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:9
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:16
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:9
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:16
 msgid "Using the WAPT server APIs"
 msgstr "Utiliser l'API du serveur WAPT"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:9
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:9
 msgid "API, Application Protocol Interface, WAPT, documentation"
 msgstr "API, Application Protocol Interface, WAPT, documentation"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:20
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:20
 msgid ""
-"This documentation does not describe all the available :abbr:`APIs "
-"(Application Protocol Interfaces)`, it will however concentrate on the "
-"most useful ones."
+"This documentation does not describe all the available :abbr:`APIs (Application "
+"Protocol Interfaces)`, it will however concentrate on the most useful ones."
 msgstr ""
-"Cette documentation ne décrit pas toutes les :abbr:`APIs (Application "
-"Protocol Interfaces)` disponibles, mais va cependant se concentrer sur "
-"les plus utiles."
+"Cette documentation ne décrit pas toutes les :abbr:`APIs (Application Protocol "
+"Interfaces)` disponibles, mais va cependant se concentrer sur les plus utiles."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:24
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:24
 msgid "All available URLs may be found in :file:`/opt/wapt/waptserver/server.py`."
 msgstr ""
-"Toutes les URLs disponibles peuvent être trouvées dans "
-":file:`/opt/wapt/waptserver/server.py`."
+"Toutes les URLs disponibles peuvent être trouvées dans :file:`/opt/wapt/"
+"waptserver/server.py`."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:26
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:26
 msgid ""
-"URLs are formed by calling the proper command from the WAPT Server, ex: "
-":file:`https://srvwapt/{command_path}`."
+"URLs are formed by calling the proper command from the WAPT Server, ex: :file:"
+"`https://srvwapt/{command_path}`."
 msgstr ""
-"Les URLs sont formées en utilisant la bonne commande depuis le serveur "
-"WAPT ex: :file:`https://srvwapt/{command_path}`."
+"Les URLs sont formées en utilisant la bonne commande depuis le serveur WAPT "
+"ex: :file:`https://srvwapt/{command_path}`."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:32
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:32
 msgid "This documentation contains examples using Python code or curl."
 msgstr "Cette documentation contient des exemples en code Python ou bien en curl."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:35
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:35
 msgid "API V1"
 msgstr "API V1"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:38
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:38
 msgid "/api/v1/hosts"
 msgstr "/api/v1/hosts"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:40
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:40
 msgid "get registration data of one or several hosts:"
 msgstr "récupérer les données enregistrées d'un ou de plusieurs postes :"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:63
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:63
 msgid "list all hosts. Available parameters are;"
 msgstr "liste tous les postes. Les paramètres disponibles sont :"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:65
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:65
 msgid "*reachable*"
 msgstr "*reachable*"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:67
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:67
 msgid "*computer_fqdn* ==> computer_name"
 msgstr "*computer_fqdn* ==> computer_name"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:69
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:69
 msgid "*connected_ips*"
 msgstr "*connected_ips*"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:71
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:71
 msgid "*mac_addresses*"
 msgstr "*mac_addresses*"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:73
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:73
 msgid "This example shows a request with parameters:"
 msgstr "Cette exemple montre une requête avec des paramètres:"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:81
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:81
 msgid "This example is a global request:"
 msgstr "Cette exemple est une requête globale:"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:91
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:118
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:156
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:175
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:196
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:216
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:241
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:263
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:286
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:305
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:337
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:356
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:376
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:398
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:91
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:117
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:155
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:174
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:195
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:215
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:240
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:262
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:285
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:304
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:336
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:355
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:375
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:397
 msgid "This is the same exemple with a simple html request:"
 msgstr "Voici le même exemple avec une simple requête html :"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:97
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:97
 msgid ""
 "This one just show request with reachable status, the computer name, its "
 "connected ips and its mac addresses. Display limit is 10000"
 msgstr ""
-"Ceui-ci donne une requête avec un statut joignable, le nom de la machine, "
-"ses IP connectées et ses adresses MAC. La limite d'affichage est de "
-"10000 postes"
+"Ceui-ci donne une requête avec un statut joignable, le nom de la machine, ses "
+"IP connectées et ses adresses MAC. La limite d'affichage est de 10000 postes"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:105
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:105
 msgid "/api/v1/groups"
 msgstr "/api/v1/groups"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:107
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:107
 msgid ""
-"get all group packages. Group is found with section *group* in the "
-"package."
+"get all group packages. Group is found with section *group* in the package."
 msgstr ""
-"récupère tous les paquets groupes. Les groupes peuvent être trouvés avec "
-"la section *groupe* dans le paquet."
+"récupère tous les paquets groupes. Les groupes peuvent être trouvés avec la "
+"section *groupe* dans le paquet."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:125
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:124
 msgid "/api/v1/host_data"
 msgstr "/api/v1/host_data"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:128
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:127
 msgid "dmi"
 msgstr "dmi"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:129
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:128
 msgid "get :abbr:`DMI (Desktop Management Interface)` info for a host:"
 msgstr ""
-"récupère toutes informations :abbr:`DMI (Desktop Management Interface)` "
-"d'un poste : "
+"récupère toutes informations :abbr:`DMI (Desktop Management Interface)` d'un "
+"poste : "
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:133
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:132
 msgid ""
-"# #    Get additional data for a host #    query: #      uuid=<uuid> #"
-"      field=packages, dmi or softwares"
+"# #    Get additional data for a host #    query: #      uuid=<uuid> #      "
+"field=packages, dmi or softwares"
 msgstr ""
-"# #    Récupère des données supplémentaires d'un poste #    query: #"
-"      uuid=<uuid> #      field=packages, dmi ou softwares"
+"# #    Récupère des données supplémentaires d'un poste #    query: #      "
+"uuid=<uuid> #      field=packages, dmi ou softwares"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:139
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:138
 msgid ""
-"Example: get *dmi* information of host which has UUID 14F620FF-DE70-9E5B-"
-"996A-B597E8F9B4AD: https://srvwapt.ad.mydomain.fr/api/v1/host_data?uuid"
-"=14F620FF-DE70-9E5B-996A-B597E8F9B4AD&field=dmi"
+"Example: get *dmi* information of host which has UUID 14F620FF-DE70-9E5B-996A-"
+"B597E8F9B4AD: https://srvwapt.ad.mydomain.fr/api/v1/host_data?uuid=14F620FF-"
+"DE70-9E5B-996A-B597E8F9B4AD&field=dmi"
 msgstr ""
 "Exemple: récupérer les informations *DMI* du poste ayant l'UUID 14F620FF-"
-"DE70-9E5B-996A-B597E8F9B4AD: "
-"https://srvwapt.ad.mydomain.fr/api/v1/host_data?uuid=14F620FF-DE70-9E5B-"
-"996A-B597E8F9B4AD&field=dmi"
+"DE70-9E5B-996A-B597E8F9B4AD: https://srvwapt.ad.mydomain.fr/api/v1/host_data?"
+"uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD&field=dmi"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:144
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:143
 msgid ""
-"*dmi* is not the only available option. You can also lookup information "
-"using *installed_packages*, *wsusupdates* ou *installed_softwares*."
+"*dmi* is not the only available option. You can also lookup information using "
+"*installed_packages*, *wsusupdates* ou *installed_softwares*."
 msgstr ""
-"le *dmi* n'est pas la seule option disponible. Vous pouvez aussi chercher"
-" des informations en utilisant *installed_packages*, *wsusupdates* ou "
+"le *dmi* n'est pas la seule option disponible. Vous pouvez aussi chercher des "
+"informations en utilisant *installed_packages*, *wsusupdates* ou "
 "*installed_softwares*."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:163
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:162
 msgid "installed_packages"
 msgstr "installed_packages"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:165
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:164
 msgid ""
-"Option *installed_packages* will list all packages installed on a "
-"specific host."
+"Option *installed_packages* will list all packages installed on a specific host."
 msgstr ""
-"L'option *installed_packages* va lister tous les paquets installés sur un"
-" poste en particulier."
+"L'option *installed_packages* va lister tous les paquets installés sur un poste "
+"en particulier."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:182
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:181
 msgid "installed_softwares"
 msgstr "installed_softwares"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:184
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:183
 msgid ""
-"Option *installed_softwares* will list all softwares installed on a "
-"specific host."
+"Option *installed_softwares* will list all softwares installed on a specific "
+"host."
 msgstr ""
-"L'option *installed_softwares* va lister tous les logiciels installés sur"
-" un poste en particulier."
+"L'option *installed_softwares* va lister tous les logiciels installés sur un "
+"poste en particulier."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:203
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:202
 msgid "wsusupdates"
 msgstr "wsusupdates"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:205
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:204
 msgid ""
-"Option *wsusupdates* will list all windows update installed on a specific"
-" host."
+"Option *wsusupdates* will list all windows update installed on a specific host."
 msgstr ""
-"L'option *wsusupdates* va lister toutes les mises à jour installés sur un"
-" poste en particulier."
+"L'option *wsusupdates* va lister toutes les mises à jour installés sur un poste "
+"en particulier."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:223
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:222
 msgid "/api/v1/usage_statistics"
 msgstr "/api/v1/usage_statistics"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:225
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:224
 msgid "Get usage statistics from the server."
 msgstr "Récupère les statistiques d'usage du serveur."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:229
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:228
 msgid ""
-"This API is useful if you have several wapt servers and you want to know "
-"how many hosts are there."
+"This API is useful if you have several wapt servers and you want to know how "
+"many hosts are there."
 msgstr ""
-"Cette API est utile si vous avez plusieurs serveurs WAPT et si vous "
-"voulez savoir combien de postes il y a."
+"Cette API est utile si vous avez plusieurs serveurs WAPT et si vous voulez "
+"savoir combien de postes il y a."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:248
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:247
 msgid "API V2"
 msgstr "API V2"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:251
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:250
 msgid "/api/v2/waptagent_version"
 msgstr "/api/v2/waptagent_version"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:253
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:252
 msgid "Display :program:`waptagent.exe` version on the server."
 msgstr "Affiche la version du :program:`waptagent.exe` sur le serveur."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:270
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:269
 msgid "API V3"
 msgstr "API V3"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:273
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:272
 msgid "/api/v3/packages"
 msgstr "/api/v3/packages"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:275
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:274
 msgid "List packages on the repository, get control file on package."
 msgstr ""
-"Liste les paquets sur le dépôt privé, il récupère le fichier control sur "
-"les paquets."
+"Liste les paquets sur le dépôt privé, il récupère le fichier control sur les "
+"paquets."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:293
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:292
 msgid "/api/v3/known_packages"
 msgstr "/api/v3/known_packages"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:295
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:294
 msgid "List all packages with last *signed_on* information."
 msgstr "Liste tous les paquets avec l'information *signed_on*."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:312
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:311
 msgid "/api/v3/trigger_cancel_task"
 msgstr "/api/v3/trigger_cancel_task"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:314
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:313
 msgid "Cancel a running task."
 msgstr "Annule une tâche en cours."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:323
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:322
 msgid "/api/v3/get_ad_ou"
 msgstr "/api/v3/get_ad_ou"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:325
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:324
 msgid ""
-"List :abbr:`OU (Organisational Unit)` seen by hosts and displayed in the "
-"WAPT console."
+"List :abbr:`OU (Organisational Unit)` seen by hosts and displayed in the WAPT "
+"console."
 msgstr ""
-"Liste les :abbr:`OU (Organisational Unit)` vues par les postes et "
-"affichées dans la console WAPT."
+"Liste les :abbr:`OU (Organisational Unit)` vues par les postes et affichées "
+"dans la console WAPT."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:344
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:343
 msgid "/api/v3/get_ad_sites"
 msgstr "/api/v3/get_ad_sites"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:346
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:345
 msgid "List Active Directory sites."
 msgstr "Liste les sites Active Directory"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:363
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:362
 msgid "/api/v3/hosts_for_package"
 msgstr "/api/v3/hosts_for_package"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:365
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:364
 msgid ""
-"List hosts with a specific package installed "
-"https://srvwapt.ad.domain.fr/api/v3/hosts_for_package?package=demo-"
-"namepackage"
+"List hosts with a specific package installed https://srvwapt.ad.domain.fr/api/"
+"v3/hosts_for_package?package=demo-namepackage"
 msgstr ""
-"Liste les postes qui ont un paquet spécifique d'installé "
-"https://srvwapt.ad.domain.fr/api/v3/hosts_for_package?package=demo-"
-"nompaquet"
+"Liste les postes qui ont un paquet spécifique d'installé https://srvwapt.ad."
+"domain.fr/api/v3/hosts_for_package?package=demo-nompaquet"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:383
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:382
 msgid "/api/v3/host_tasks_status"
 msgstr "/api/v3/host_tasks_status"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:385
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:384
 msgid "List tasks on a particular host."
 msgstr "Liste les tâches d'un poste en particulier."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:387
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:386
 msgid ""
-"Example with host uuid: "
-"https://srvwapt.ad.domain.fr/api/v3/host_tasks_status?uuid=14F620FF-DE70"
-"-9E5B-996A-B597E8F9B4AD"
+"Example with host uuid: https://srvwapt.ad.domain.fr/api/v3/host_tasks_status?"
+"uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD"
 msgstr ""
-"Exemple avec l'uuid d'un poste: "
-"https://srvwapt.ad.domain.fr/api/v3/host_tasks_status?uuid=14F620FF-DE70"
-"-9E5B-996A-B597E8F9B4AD"
+"Exemple avec l'uuid d'un poste: https://srvwapt.ad.domain.fr/api/v3/"
+"host_tasks_status?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:406
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:405
 msgid "**Next API are with POST method**."
 msgstr "**Les API ci-après suivent la méthode POST**."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:409
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:408
 msgid "/api/v3/upload_packages"
 msgstr "/api/v3/upload_packages"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:411
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:418
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:554
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:410
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:417
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:553
 msgid "Todo"
 msgstr "Todo"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:413
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:420
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:556
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:412
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:419
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:555
 msgid "Tests"
 msgstr "Tests"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:416
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:415
 msgid "/api/v3/upload_hosts"
 msgstr "/api/v3/upload_hosts"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:423
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:422
 msgid "/api/v3/change_password"
 msgstr "/api/v3/change_password"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:425
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:424
 msgid ""
-"Change admin password [only this account]. Request must be a python "
-"dictionnary *{}*. Keys must be:"
+"Change admin password [only this account]. Request must be a python dictionnary "
+"*{}*. Keys must be:"
 msgstr ""
-"Change le mot de passe du compte admin [ce compte uniquement]. La requête"
-" doit être un dictionnaire python *{}*. Les clés doivent être:"
+"Change le mot de passe du compte admin [ce compte uniquement]. La requête doit "
+"être un dictionnaire python *{}*. Les clés doivent être:"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:428
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:427
 msgid "user"
 msgstr "user"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:430
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:429
 msgid "password"
 msgstr "password"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:432
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:431
 msgid "new_password"
 msgstr "new_password"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:439
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:438
 msgid "/api/v3/login"
 msgstr "/api/v3/login"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:441
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:440
 msgid "Initialize a connection to the server."
 msgstr "Initialiser une connexion au serveur."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:451
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:450
 msgid ""
-"We can make a connection by html form than POST: "
-"https://admin:MYPASSWORD@srvwapt/api/v3/get_ad_sites"
+"We can make a connection by html form than POST: https://admin:"
+"MYPASSWORD@srvwapt/api/v3/get_ad_sites"
 msgstr ""
-"Nous pouvons faire une connexion avec un formulaire html plutôt que POST:"
-" https://admin:MYPASSWORD@srvwapt/api/v3/get_ad_sites"
+"Nous pouvons faire une connexion avec un formulaire html plutôt que POST: "
+"https://admin:MYPASSWORD@srvwapt/api/v3/get_ad_sites"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:455
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:454
 msgid "/api/v3/packages_delete"
 msgstr "/api/v3/packages_delete"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:457
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:456
 msgid ""
-"Delete package with a precise version. Request must be in python list "
-"*[]*. It can takes several packages separated by commas *,*."
+"Delete package with a precise version. Request must be in python list *[]*. It "
+"can takes several packages separated by commas *,*."
 msgstr ""
-"Supprime un paquet d'une version précise. La requête doit être une liste "
-"*[]*. Elle peut prendre plusieurs paquets séparés par des virgules *,*. "
+"Supprime un paquet d'une version précise. La requête doit être une liste *[]*. "
+"Elle peut prendre plusieurs paquets séparés par des virgules *,*."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:460
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:459
 msgid "Example:"
 msgstr "Exemple:"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:467
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:466
 msgid "/api/v3/reset_hosts_sid"
 msgstr "/api/v3/reset_hosts_sid"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:469
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:468
 msgid ""
-"There is several possibilities : "
-"https://srvwapt.ad.domain.fr/api/v3/reset_hosts_sid will reinitialize all"
-" host connections."
+"There is several possibilities: https://srvwapt.ad.domain.fr/api/v3/"
+"reset_hosts_sid will reinitialize all host connections."
 msgstr ""
-"Il y a plusieurs possiblités : "
-"https://srvwapt.ad.domain.fr/api/v3/reset_hosts_sid va réinitialiser "
-"toutesles connexions des postes."
+"Il y a plusieurs possibilités : https://srvwapt.ad.domain.fr/api/v3/"
+"reset_hosts_sid va réinitialiser toutes les connexions des postes."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:473
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:472
 msgid "For the POST method:"
 msgstr "Pour la méthode POST:"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:475
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:474
 msgid ""
-"Syntax is : :file:`--data-raw` : a dictionnary with key :guilabel:`uuids`"
-" with value a host uuid list"
+"Syntax is: :command:`--data-raw`: a dictionnary list with ``uuids``as keys and "
+"the UUID of the hosts as values."
 msgstr ""
-"la syntaxe est : :file:`--data-raw` : un dictionnaire avec pour clé "
-":guilabel:`uuids` et pour valeur l'uuid du poste"
+"La syntaxe est : :command:`--data-raw` : un dictionnaire avec pour clé les "
+"``uuid`` et pour valeur l'uuid du poste."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:486
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:510
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:485
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:509
 msgid "If you want several hosts:"
 msgstr "Si vous voulez plusieurs postes:"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:495
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:494
 msgid "/api/v3/trigger_wakeonlan"
 msgstr "/api/v3/trigger_wakeonlan"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:497
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:496
 msgid "If hosts are WakeOnLan enabled, this API is useful."
 msgstr "Si les postes ont le WakeOnLan d'activé, cette API est utile."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:499
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:498
 msgid ""
-"Syntax is :file:`--data-raw`: a dictionnary with key *uuids* and a list "
-"of host uuids."
+"Syntax is :file:`--data-raw`: a dictionnary with key *uuids* and a list of host "
+"uuids."
 msgstr ""
-"la syntaxe est : :file:`--data-raw` : un dictionnaire avec pour clé "
-":guilabel:`uuids` et pour valeur une liste d'uuid de postes"
+"La syntaxe est : :command:`--data-raw` : un dictionnaire avec pour clé les "
+"``uuid`` et pour valeur l'uuid du poste :"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:519
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:518
 msgid "/api/v3/hosts_delete"
 msgstr "/api/v3/hosts_delete"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:535
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:534
 msgid "If you want to delete a host from the inventory:"
 msgstr "Si vous voulez supprimer un poste de l'inventaire:"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:543
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:542
 msgid "If you do not want to delete in the inventory server:"
 msgstr "Si vous ne voulez pas le supprimer de l'inventaire du serveur:"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:552
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:551
 msgid "/api/v3/trigger_host_action"
 msgstr "/api/v3/trigger_host_action"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:559
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:558
 msgid "/upload_waptsetup"
 msgstr "/upload_waptsetup"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:571
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:570
 msgid "/ping"
 msgstr "/ping"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-api/using_wapt_api.rst:573
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-api/using_wapt_api.rst:572
 msgid "Ping get general information from a WAPT server."
 msgstr "Ping va récupérer les informations générales d'un serveur WAPT."
+
+#~ msgid ""
+#~ "Syntax is: :file:`--data-raw`: a dictionnary with key :guilabel:`uuids` with "
+#~ "value a host uuid list"
+#~ msgstr ""
+#~ "La syntaxe est : :command:`--data-raw` : un dictionnaire avec pour clé les "
+#~ "``uuid`` et pour valeur l'uuid du poste :"

@@ -1,75 +1,75 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: WAPT 1.6\n"
+"Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 14:09+0100\n"
-"PO-Revision-Date: 2019-02-27 11:47+0100\n"
+"POT-Creation-Date: 2020-03-25 18:00+0100\n"
+"PO-Revision-Date: 2020-03-26 12:28+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
-"Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.3.4\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:8
-#: ../../source/wapt-security-principles/safety-principle.rst:17
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:8
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:17
 msgid "Presentation of the security principles in WAPT"
 msgstr "Présentation des principes de sécurité"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:8
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:8
 msgid ""
 "WAPT, Users, Package Deployer; Package Developer, SuperAdmin, Local "
 "Administrator, availability, integrity, confidentiality, authenticity, "
 "cyberdefense, ANSSI, security, cybersecurity"
 msgstr ""
 "WAPT, Utilisateur, Gestionnaire de Déploiement, Développeur de Paquets, "
-"SuperAdmin, Administrateur Local, disponibilité, intégrité, "
-"confidentialité, authenticité, cyberdéfense, ANSSI, sécurité, "
-"cybersécurité"
+"SuperAdmin, Administrateur Local, disponibilité, intégrité, confidentialité, "
+"authenticité, cyberdéfense, ANSSI, sécurité, cybersécurité"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:20
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:20
 msgid "Preamble and definitions"
 msgstr "Préambule et définitions"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:24
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:24
 msgid "The WAPT service operates as a **privileged** system account."
 msgstr "Le service WAPT fonctionne en compte système **privilégié**."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:28
-
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:28
 msgid ""
-"From WAPT version 1.5, the default installation directory becomes "
-":file:`C:\\\\Program Files (x86)\\\\wapt`."
+"From WAPT version 1.5, the default installation directory becomes :file:`C:\\"
+"\\Program Files (x86)\\\\wapt`."
 msgstr ""
-"A partir de la version 1.5 de WAPT, le répertoire d'installation par "
-"défaut devient :file:`C:\\\\Program Files (x86)\\\\wapt`."
+"A partir de la version 1.5 de WAPT, le répertoire d'installation par défaut "
+"devient :file:`C:\\\\Program Files (x86)\\\\wapt`."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:33
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:33
 msgid ""
-"the sub-components :program:`wapttray`, :program:`waptservice` and "
-":program:`waptexit` of the WAPT agent may be optionally deactivated "
-"according to usage context."
+"the sub-components :program:`wapttray`, :program:`waptservice` and :program:"
+"`waptexit` of the WAPT agent may be optionally deactivated according to usage "
+"context."
 msgstr ""
-"Les sous-composantes :program:`wapttray`, :program:`waptservice` et "
-":program:`waptexit` de l'agent WAPT peuvent être optionnellement "
-"désactivées en fonction du contexte d'usage."
+"les sous-composantes :program:`wapttray`, :program:`waptservice` et :program:"
+"`waptexit` de l'agent WAPT peuvent être optionnellement désactivées en fonction "
+"du contexte d'usage."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:38
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:38
 msgid "Perimeter to secure"
 msgstr "Périmètre à sécuriser"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:40
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:40
 msgid "The elements to secure and that strictly concern WAPT are:"
 msgstr "Les éléments à sécuriser qui concernent strictement WAPT sont :"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:42
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:42
 msgid "**the WAPT Server** (*waptserver*);"
 msgstr "**le serveur WAPT** (*waptserver*) ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:44
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:44
 msgid ""
 "**the WAPT agents** (*wapt-get*) and its sub-components (*wapttray*, "
 "*waptservice* et *waptexit*);"
@@ -77,1352 +77,1286 @@ msgstr ""
 "**les agents WAPT** (*wapt-get*) et ses sous-composantes (*wapttray*, "
 "*waptservice* et *waptexit*) ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:47
-msgid "**the management console** (*waptconsole*) ;"
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:47
+msgid "**the management console** (*waptconsole*);"
 msgstr "**la console de management** (*waptconsole*) ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:49
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:49
 msgid "**the network communications** between these different components;"
 msgstr "**les communications réseaux** entre ces différentes composantes ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:51
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:51
 msgid ""
-"In complement to the elements listed above, an :term:`Organization` that "
-"uses WAPT will have to choose and follow a methodology that is adapted to"
-" her use case:"
+"In complement to the elements listed above, an :term:`Organization` that uses "
+"WAPT will have to choose and follow a methodology that is adapted to her use "
+"case:"
 msgstr ""
-"En complément des éléments listés ci-dessus, un exploitant de WAPT devra "
-"choisir et suivre une méthodologie adaptée au contexte de son "
-":term:`Organisation` pour :"
+"En complément des éléments listés ci-dessus, un exploitant de WAPT devra choisir "
+"et suivre une méthodologie adaptée au contexte de son :term:`Organisation` pour :"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:55
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:55
 msgid ""
-"insure the safe provisioning of all other files that are to be "
-"incorporated into a WAPT package;"
+"insure the safe provisioning of all other files that are to be incorporated into "
+"a WAPT package;"
 msgstr ""
-"assurer un téléchargement sûr de tous les autres fichiers servant à "
-"constituer un paquet WAPT ;"
+"assurer un téléchargement sûr de tous les autres fichiers servant à constituer "
+"un paquet WAPT ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:58
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:58
 msgid ""
 "develop the WAPT package python installation script so as to avoid any "
 "exploitable security or confidentiality defect;"
 msgstr ""
-"rédiger le script python d'installation d'un paquet WAPT de telle manière"
-" à éviter toute faille de sécurité ou de confidentialité exploitable ;"
+"rédiger le script python d'installation d'un paquet WAPT de telle manière à "
+"éviter toute faille de sécurité ou de confidentialité exploitable ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:61
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:61
 msgid "manage in a safe way the private keys for signing the packages;"
 msgstr "gérer de manière sûre les clés privées de signature des paquets ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:63
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:63
 msgid ""
-"manage in a safe way the Autorities of Certification and Revocation for "
-"the SSL and HTTPS certificates;"
+"manage in a safe way the Autorities of Certification and Revocation for the SSL "
+"and HTTPS certificates;"
 msgstr ""
-"gérer de manière sûre les Autorités de certification et de révocation des"
-" certificats SSL et HTTPS ;"
+"gérer de manière sûre les Autorités de certification et de révocation des "
+"certificats SSL et HTTPS ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:66
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:66
 msgid ""
 "The safe management of these complementary elements is excluded from the "
 "perimeter of this documentation."
 msgstr ""
-"La gestion sûre de ces éléments complémentaires est exclue du périmètre "
-"de cette documentation."
+"La gestion sûre de ces éléments complémentaires est exclue du périmètre de cette "
+"documentation."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:70
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:70
 msgid "Description of typical users"
 msgstr "Description des utilisateurs typiques"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:72
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:72
 msgid ""
-"The following roles must be understood to evaluate the security "
-"principles incorporated in WAPT:"
+"The following roles must be understood to evaluate the security principles "
+"incorporated in WAPT:"
 msgstr ""
-"Les rôles suivants doivent être compris pour évaluer les principes de "
-"sécurité présents dans WAPT :"
+"Les rôles suivants doivent être compris pour évaluer les principes de sécurité "
+"présents dans WAPT :"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:75
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:75
 msgid "**User**"
 msgstr "**Utilisateur**"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:77
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:77
 msgid ""
 "individual/ user of a WAPT equipped end-device (**Enterprise** and "
 "**Community**);"
 msgstr ""
-"individu / utilisateur d'une machine équipée de l'agent WAPT "
-"(**Enterprise** et **Community**) ;"
+"individu / utilisateur d'une machine équipée de l'agent WAPT (**Enterprise** et "
+"**Community**) ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:80
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:80
 msgid "**Package Deployer**"
 msgstr "**Déployeur de Paquets**"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:82
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:82
 msgid ""
-"individual with the ability to sign packages that **DO NOT** contain "
-"python code (generally *group*, *host* and *unit* packages) and to upload"
-" the package to the main repository (**Enterprise**);"
+"individual with the ability to sign packages that **DO NOT** contain python code "
+"(generally *group*, *host* and *unit* packages) and to upload the package to the "
+"main repository (**Enterprise**);"
 msgstr ""
-"individu pouvant signer des paquets ne contenant pas de code python (en "
-"général les paquets de type *group*, *unit* et *host*) et les charger sur"
-" le dépôt principal (**Enterprise**) ;"
+"individu pouvant signer des paquets ne contenant pas de code python (en général "
+"les paquets de type *group*, *unit* et *host*) et les charger sur le dépôt "
+"principal (**Enterprise**) ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:86
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:86
 msgid "**Package Developer**"
 msgstr "**Développeur de Paquets**"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:88
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:88
 msgid ""
-"individual with the ability to sign any package, may it include or not "
-"include python code, and to upload the package to the main repository "
-"(**Enterprise**);"
+"individual with the ability to sign any package, may it include or not include "
+"python code, and to upload the package to the main repository (**Enterprise**);"
 msgstr ""
-"individu pouvant signer des paquets, qu'ils intègrent ou non du code "
-"python et les charger sur le dépôt principal (**Enterprise**) ;"
+"individu pouvant signer des paquets, qu'ils intègrent ou non du code python et "
+"les charger sur le dépôt principal (**Enterprise**) ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:92
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:92
 msgid "**SuperAdmin**"
 msgstr "**SuperAdmin**"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:94
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:94
 msgid "all priviledged account in WAPT (**Community**);"
 msgstr "compte unique ayant tous les droits dans WAPT (**Community**) ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:96
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:96
 msgid "**Local Administrator**"
 msgstr "**Administrateur Local**"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:98
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:98
 msgid ""
-"individual with local administration right of the WAPT equipped end-"
-"devices (**Enterprise** and **Community**);"
+"individual with local administration right of the WAPT equipped end-devices "
+"(**Enterprise** and **Community**);"
 msgstr ""
-"utilisateur disposant des droits d'administration locaux sur les postes "
-"équipés de WAPT (**Enterprise** et **Community**) ;"
+"utilisateur disposant des droits d'administration locaux sur les postes équipés "
+"de WAPT (**Enterprise** et **Community**) ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:103
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:103
 msgid ""
-"Depending on the context within this documentation, an "
-":term:`Administrator` will have the meaning of a :term:`Package "
-"Deployer`, :term:`Package Developer` or :term:`SuperAdmin`."
+"Depending on the context within this documentation, an :term:`Administrator` "
+"will have the meaning of a :term:`Package Deployer`, :term:`Package Developer` "
+"or :term:`SuperAdmin`."
 msgstr ""
-"En fonction du contexte de la documentation et de la version du produit, "
-"un :term:`Administrateur` désignera un :term:`Déployeur de Paquets`, un "
-":term:`Développeur de Paquets` ou bien le :term:`SuperAdmin`."
+"En fonction du contexte de la documentation et de la version du produit, un :"
+"term:`Administrateur` désignera un :term:`Déployeur de Paquets`, un :term:"
+"`Développeur de Paquets` ou bien le :term:`SuperAdmin`."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:109
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:109
 msgid ""
-"The :term:`Users` that are members of the Active Directory security group"
-" **waptselfservice** are considered to be :term:`Local Administrators` "
-"from the point of view of WAPT security."
+"The :term:`Users` that are members of the Active Directory security group "
+"**waptselfservice** are considered to be :term:`Local Administrators` from the "
+"point of view of WAPT security."
 msgstr ""
 "Les :term:`Utilisateurs` membres du groupe de sécurité Active Directory "
-"**waptselfservice** sont considérés comme des :term:`Administrateurs "
-"Locaux` du point de vue de la sécurité WAPT."
+"**waptselfservice** sont considérés comme des :term:`Administrateurs Locaux` du "
+"point de vue de la sécurité WAPT."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:114
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:114
 msgid "Description of the sensitive assets in WAPT"
 msgstr "Description des biens sensibles"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:116
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:116
 msgid ""
-"By definition, a sensitive asset is a data (or a function) that is "
-"considered as having value to an attacker."
+"By definition, a sensitive asset is a data (or a function) that is considered as "
+"having value to an attacker."
 msgstr ""
-"Par définition, un bien sensible est une donnée (ou fonction) jugée comme"
-" ayant de la valeur pour un attaquant."
+"Par définition, un bien sensible est une donnée (ou fonction) jugée comme ayant "
+"de la valeur pour un attaquant."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:119
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:119
 msgid ""
-"Its value is estimated according to several security criteria (also "
-"called security needs):"
+"Its value is estimated according to several security criteria (also called "
+"security needs):"
 msgstr ""
-"Sa valeur est estimée selon des critères de sécurité (aussi appelés "
-"besoins de sécurité) :"
+"Sa valeur est estimée selon des critères de sécurité (aussi appelés besoins de "
+"sécurité) :"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:122
-#: ../../source/wapt-security-principles/safety-principle.rst:174
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:122
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:174
 msgid "availability;"
 msgstr "disponibilité ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:124
-#: ../../source/wapt-security-principles/safety-principle.rst:143
-#: ../../source/wapt-security-principles/safety-principle.rst:160
-#: ../../source/wapt-security-principles/safety-principle.rst:186
-#: ../../source/wapt-security-principles/safety-principle.rst:201
-#: ../../source/wapt-security-principles/safety-principle.rst:214
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:124
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:143
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:160
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:186
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:201
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:214
 msgid "integrity;"
 msgstr "intégrité ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:126
-#: ../../source/wapt-security-principles/safety-principle.rst:145
-#: ../../source/wapt-security-principles/safety-principle.rst:162
-#: ../../source/wapt-security-principles/safety-principle.rst:188
-#: ../../source/wapt-security-principles/safety-principle.rst:216
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:126
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:145
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:162
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:188
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:216
 msgid "confidentiality;"
 msgstr "confidentialité ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:128
-#: ../../source/wapt-security-principles/safety-principle.rst:147
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:128
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:147
 msgid "authenticity;"
 msgstr "authenticité ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:130
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:130
 msgid "The sensitive assets to protect are as follows:"
 msgstr "Les biens sensibles à protéger sont les suivants :"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:133
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:133
 msgid "Sensitive assets A1: communications"
 msgstr "Bien sensible B1 : Les communications"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:135
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:135
 msgid ""
-"Communications between the central WAPT Server and the WAPT agents, as "
-"well as the communications between the WAPT console and the WAPT Server "
-"are a sensitive asset and they must be protected."
+"Communications between the central WAPT Server and the WAPT agents, as well as "
+"the communications between the WAPT console and the WAPT Server are a sensitive "
+"asset and they must be protected."
 msgstr ""
 "Les communications entre le serveur central et les agents ainsi que les "
-"communications entre la console et le serveur sont un bien sensible et "
-"doivent être protégées."
+"communications entre la console et le serveur sont un bien sensible et doivent "
+"être protégées."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:141
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:141
 msgid "Need for securing the communications"
 msgstr "Besoin de sécurité des communications :"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:150
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:150
 msgid "Sensitive asset A2: inventory data"
 msgstr "Bien sensible B2 : Les données d'inventaire"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:152
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:152
 msgid ""
-"The informations on the state of deployment of the packages, as well as "
-"hardware and software configurations of the end-devices are a sensitive "
-"asset and they must be protected."
+"The informations on the state of deployment of the packages, as well as hardware "
+"and software configurations of the end-devices are a sensitive asset and they "
+"must be protected."
 msgstr ""
-"Les informations sur l'état de déploiement des paquets, ainsi que "
-"configuration matérielle et logicielle des postes clients sont un bien "
-"sensible et doivent être protégées."
+"Les informations sur l'état de déploiement des paquets, ainsi que configuration "
+"matérielle et logicielle des postes clients sont un bien sensible et doivent "
+"être protégées."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:158
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:158
 msgid "Security need of the inventory data"
 msgstr "Besoin de sécurité des données d'inventaire :"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:165
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:165
 msgid "Sensitive asset A3: log journals"
 msgstr "Bien sensible B3 : Les journaux d'historique"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:167
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:167
 msgid ""
 "The logs generated by WAPT on the central server and by the agents are a "
 "sensitive asset and they must be protected."
 msgstr ""
-"Les journaux générés par WAPT sur le serveur central et les agents sont "
-"un bien sensible et doivent être protégés."
+"Les journaux générés par WAPT sur le serveur central et les agents sont un bien "
+"sensible et doivent être protégés."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:172
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:172
 msgid "Security needs of historical logs"
 msgstr "Besoin de sécurité des journaux d'historique"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:177
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:177
 msgid "Sensitive asset A4: configuration values"
 msgstr "Bien sensible B4 : Les valeurs de configuration"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:179
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:179
 msgid ""
-"The configuration values (HTTPS server keys, database access "
-"configuration, server authentication configuration) are sensitive and "
-"they must be protected."
+"The configuration values (HTTPS server keys, database access configuration, "
+"server authentication configuration) are sensitive and they must be protected."
 msgstr ""
-"Les valeurs de configuration du serveur (clés du serveur https, "
-"configuration accès à la base de données, configuration de "
-"l'authentification au serveur) sont un bien sensible et doivent être "
-"protégés."
+"Les valeurs de configuration du serveur (clés du serveur https, configuration "
+"accès à la base de données, configuration de l'authentification au serveur) sont "
+"un bien sensible et doivent être protégés."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:184
-#: ../../source/wapt-security-principles/safety-principle.rst:199
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:184
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:199
 msgid "Security needs of configuration values"
 msgstr "Besoin de sécurité des valeurs de configuration :"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:191
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:191
 msgid "Sensitive asset A5: WAPT executables on the end-devices"
 msgstr "Bien sensible B5 : Les exécutables WAPT installés sur les postes client"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:193
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:193
 msgid ""
-"The WAPT executables installed on managed clients are a sensitive asset "
-"and they must be protected (i.e. the content of the :file:`<WAPT>` "
-"directory that includes the binaries, the configuration files and the "
-"local database)."
+"The WAPT executables installed on managed clients are a sensitive asset and they "
+"must be protected (i.e. the content of the :file:`<WAPT>` directory that "
+"includes the binaries, the configuration files and the local database)."
 msgstr ""
 "Les exécutables WAPT installés sur les postes client managés (contenu du "
-"répertoire wapt incluant les binaires, les dll, les fichiers de "
-"configuration et la base de données) sont un bien sensible et doivent "
-"être protégés."
+"répertoire wapt incluant les binaires, les dll, les fichiers de configuration et "
+"la base de données) sont un bien sensible et doivent être protégés."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:204
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:204
 msgid "Sensitive asset A6: authentication"
 msgstr "Bien sensible B6 : L'authentification"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:206
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:206
 msgid ""
-"Authentication to the administration console as well as the "
-"authentication of the clients on the WAPT Server are a sensitive asset "
-"and they must be protected (public key of each WAPT agent)."
+"Authentication to the administration console as well as the authentication of "
+"the clients on the WAPT Server are a sensitive asset and they must be protected "
+"(public key of each WAPT agent)."
 msgstr ""
-"Les données d'authentification à la console d'administration ainsi que "
-"les données d'authentification des agents sur le serveur (clé publique de"
-" chaque agent WAPT) sont un bien sensible et doivent être protégées."
+"Les données d'authentification à la console d'administration ainsi que les "
+"données d'authentification des agents sur le serveur (clé publique de chaque "
+"agent WAPT) sont un bien sensible et doivent être protégées."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:212
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:212
 msgid "Security need of the authentication"
 msgstr "Besoin de sécurité de l'authentification :"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:219
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:219
 msgid "Description of hypotheses on WAPT's working environment"
 msgstr "Description des hypothèses sur l'environment d'exploitation de WAPT"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:221
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:221
 msgid ""
-"By definition, the hypotheses are statements on WAPT's usage context or "
-"its working environment."
+"By definition, the hypotheses are statements on WAPT's usage context or its "
+"working environment."
 msgstr ""
-"Par définition, les hypothèses sont des déclarations portant sur le "
-"contexte d'emploi de WAPT ou de son environment."
+"Par définition, les hypothèses sont des déclarations portant sur le contexte "
+"d'emploi de WAPT ou de son environment."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:224
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:224
 msgid "The following hypotheses on WAPT's working environment must be considered:"
 msgstr ""
-"Les hypothèses suivantes sur l'environment d'exploitation de WAPT doivent"
-" être considérées :"
+"Les hypothèses suivantes sur l'environment d'exploitation de WAPT doivent être "
+"considérées :"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:227
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:227
 msgid "Hypothesis H1: the Administrators and the Package Deployers are trained"
 msgstr ""
-"Hypothèse H1 : Les Administrateurs et Gestionnaires de Déploiement WAPT "
-"sont formés"
+"Hypothèse H1 : Les Administrateurs et Gestionnaires de Déploiement WAPT sont "
+"formés"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:229
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:229
 msgid ""
-"The :term:`Administrators` and the :term:`Package Deployers` are trained "
-"on WAPT usage. In particular, they must insure that their logins, "
-"passwords and private keys are kept secret."
+"The :term:`Administrators` and the :term:`Package Deployers` are trained on WAPT "
+"usage. In particular, they must insure that their logins, passwords and private "
+"keys are kept secret."
 msgstr ""
-"Les :term:`Administrateurs` et les :term:`Déployeurs de paquets` sont "
-"formés à l'usage de WAPT. En particulier, ils doivent s'assurer que leurs"
-" identifiants et clés de sécurité restent secrets."
+"Les :term:`Administrateurs` et les :term:`Déployeurs de paquets` sont formés à "
+"l'usage de WAPT. En particulier, ils doivent s'assurer que leurs identifiants et "
+"clés de sécurité restent secrets."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:234
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:234
 msgid "Hypothesis H2: the operating systems underlying WAPT are sane"
 msgstr "Hypothèse H2 : Les systèmes subjacents à WAPT sont sains"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:236
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:236
 msgid ""
-"WAPT's underlying operating systems implement adequate protection "
-"mechanisms that are configured according to good practice (confinement, "
-"access control, etc)."
+"WAPT's underlying operating systems implement adequate protection mechanisms "
+"that are configured according to good practice (confinement, access control, "
+"etc)."
 msgstr ""
-"Les systèmes d'exploitation sur lesquels les agents WAPT s'exécutent "
-"mettent en oeuvre des mécanismes de protection adéquats (confinement, "
-"contrôle d'accès, etc.) paramétrés et configurés selon les bonnes "
-"pratiques."
+"Les systèmes d'exploitation sur lesquels les agents WAPT s'exécutent mettent en "
+"oeuvre des mécanismes de protection adéquats (confinement, contrôle d'accès, "
+"etc.) paramétrés et configurés selon les bonnes pratiques."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:240
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:240
 msgid ""
-"The underlying operating system are patched and up to date at the time of"
-" the installation of WAPT, they are free of viruses, trojan horses, etc."
+"The underlying operating system are patched and up to date at the time of the "
+"installation of WAPT, they are free of viruses, trojan horses, etc."
 msgstr ""
-"Les systèmes d'exploitation sont à jour des correctifs en vigueur au "
-"moment de l'installation, ils sont sains et exempts de virus, chevaux de "
-"Troie, etc."
+"Les systèmes d'exploitation sont à jour des correctifs en vigueur au moment de "
+"l'installation, ils sont sains et exempts de virus, chevaux de Troie, etc."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:244
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:244
 msgid "Hypothesis H3: the binaries necessary for WAPT to operate are sane"
 msgstr ""
-"Hypothèse H3 : Les binaires nécessaires au fonctionnement de WAPT sont "
-"intègres"
+"Hypothèse H3 : Les binaires nécessaires au fonctionnement de WAPT sont intègres"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:246
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:246
 msgid ""
-"All libraries and tools necessary to install WAPT are considered to be "
-"sane. Upon the WAPT agent receiving a request, the agent verifies that "
-"the request has been properly signed."
+"All libraries and tools necessary to install WAPT are considered to be sane. "
+"Upon the WAPT agent receiving a request, the agent verifies that the request has "
+"been properly signed."
 msgstr ""
-"Toutes les librairies et outils nécessaires au fonctionnement de WAPT "
-"sont considérées saines. A la réception d'une requête par l'agent WAPT, "
-"il vérifie que la requête est correctement signée ;"
+"Toutes les librairies et outils nécessaires au fonctionnement de WAPT sont "
+"considérées saines. A la réception d'une requête par l'agent WAPT, il vérifie "
+"que la requête est correctement signée ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:251
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:251
 msgid "Hypothesis H4: the WAPT packages are built in a safe manner"
 msgstr "Hypothèse H4 : Les paquets WAPT sont construits de manière sûre"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:253
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:253
 msgid ""
-"The :term:`Administrator` is responsible for insuring that the files to "
-"be incorporated into a WAPT package come from safe sources and are free "
-"of viruses, trojan horses, etc."
+"The :term:`Administrator` is responsible for insuring that the files to be "
+"incorporated into a WAPT package come from safe sources and are free of viruses, "
+"trojan horses, etc."
 msgstr ""
-"Il est de la responsabilité de l':term:`Administrateur` de s'assurer que "
-"les fichiers destinés à être intégrés dans des paquets WAPT proviennent "
-"de sources sûres et sont en particuliers exempts de virus, chevaux de "
-"Troie, etc."
+"Il est de la responsabilité de l':term:`Administrateur` de s'assurer que les "
+"fichiers destinés à être intégrés dans des paquets WAPT proviennent de sources "
+"sûres et sont en particuliers exempts de virus, chevaux de Troie, etc."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:258
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:258
 msgid "Hypothesis H5: the Users of the end-devices are not Local Administrators"
 msgstr ""
-"Hypothèse H5 : Les Utilisateurs des postes client ne sont pas "
-"Administrateurs Locaux"
+"Hypothèse H5 : Les Utilisateurs des postes client ne sont pas Administrateurs "
+"Locaux"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:260
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:260
 msgid ""
-"A :term:`User` must not have local administration rights on the WAPT "
-"equipped device. Otherwise, the :term:`User` must be considered a "
-":term:`Local Administrator`."
+"A :term:`User` must not have local administration rights on the WAPT equipped "
+"device. Otherwise, the :term:`User` must be considered a :term:`Local "
+"Administrator`."
 msgstr ""
-"Un :term:`Utilisateur` n'a pas les droits d'administration de son poste "
-"de travail. Sinon l':term:`Utilisateur` est considéré comme un "
-":term:`Administrateur Local`."
+"Un :term:`Utilisateur` n'a pas les droits d'administration de son poste de "
+"travail. Sinon l':term:`Utilisateur` est considéré comme un :term:"
+"`Administrateur Local`."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:264
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:264
 msgid ""
-"In particular, a :term:`User` must not have write access to WAPT's "
-"installation directory."
+"In particular, a :term:`User` must not have write access to WAPT's installation "
+"directory."
 msgstr ""
-"En particulier, l':term:`Utilisateur` n'a pas les droits d'écriture dans "
-"le répertoire d'installation du client WAPT."
+"En particulier, l':term:`Utilisateur` n'a pas les droits d'écriture dans le "
+"répertoire d'installation du client WAPT."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:268
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:268
 msgid "Hypothesis H6: the Local Administrators are trained"
 msgstr "Hypothèse H6 : Les Administrateurs Locaux des postes client sont formés"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:270
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:270
 msgid ""
-"The :term:`Local Administrator` of a device must be trained to use WAPT, "
-"or at minimum he must not make changes to files located in WAPT's "
-"installation folder."
+"The :term:`Local Administrator` of a device must be trained to use WAPT, or at "
+"minimum he must not make changes to files located in WAPT's installation folder."
 msgstr ""
 "L':term:`Administrateur Local` d'un poste client doit être formé à "
-"l'exploitation de WAPT, ou à défaut ne pas modifier les fichiers "
-"d'installation se trouvant dans le dossier d'installation de WAPT."
+"l'exploitation de WAPT, ou à défaut ne pas modifier les fichiers d'installation "
+"se trouvant dans le dossier d'installation de WAPT."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:275
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:275
 msgid "Description of threats on WAPT's sensitive assets"
 msgstr "Description des menaces pesant sur les biens sensibles WAPT"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:277
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:277
 msgid ""
-"By definition, a threat is an action or an event susceptible to bring "
-"prejudice to the security of the WAPT equipped device."
+"By definition, a threat is an action or an event susceptible to bring prejudice "
+"to the security of the WAPT equipped device."
 msgstr ""
-"Par définition, une menace est une action ou un événement susceptible de "
-"porter préjudice à la sécurité globale de la machine équipée de WAPT."
+"Par définition, une menace est une action ou un événement susceptible de porter "
+"préjudice à la sécurité globale de la machine équipée de WAPT."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:280
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:280
 msgid ""
-"The threat agents to be considered for evaluating security in WAPT are as"
-" follows:"
+"The threat agents to be considered for evaluating security in WAPT are as "
+"follows:"
 msgstr ""
 "Les agents menaçants à considérer pour l'évaluation de sécurité sont les "
 "suivants :"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:283
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:283
 msgid ""
-"**Unauthorized entities**: it is a human attacker or en entity that "
-"interacts with WAPT without legitimately having access to it."
+"**Unauthorized entities**: it is a human attacker or en entity that interacts "
+"with WAPT without legitimately having access to it."
 msgstr ""
-"**Entités non-autorisées** : il s'agit d'un attaquant humain ou d'une "
-"entité qui interagit avec WAPT mais qui ne dispose pas d'un accès "
-"légitime à celui-ci."
+"**Entités non-autorisées** : il s'agit d'un attaquant humain ou d'une entité qui "
+"interagit avec WAPT mais qui ne dispose pas d'un accès légitime à celui-ci."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:288
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:288
 msgid ""
 "The :term:`Administrators` and the :term:`Local Administrators` are not "
 "considered to be attackers."
 msgstr ""
-"Les :term:`Administrateurs` et les :term:`Administrateurs Locaux` ne sont"
-" pas considérés comme des attaquants."
+"Les :term:`Administrateurs` et les :term:`Administrateurs Locaux` ne sont pas "
+"considérés comme des attaquants."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:291
-msgid ""
-"The threats bearing on WAPT's sensitive assets defined above are as "
-"follow:"
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:291
+msgid "The threats bearing on WAPT's sensitive assets defined above are as follow:"
 msgstr ""
-"Les menaces qui portent sur les biens sensibles WAPT définis ci-dessus "
-"sont les suivantes :"
+"Les menaces qui portent sur les biens sensibles WAPT définis ci-dessus sont les "
+"suivantes :"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:294
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:294
 msgid "Threat T1: installation of an unsafe software by an unauthorized entity"
 msgstr ""
-"Menace M1 : Installation d'un logiciel malveillant par une entité non-"
-"autorisée"
+"Menace M1 : Installation d'un logiciel malveillant par une entité non-autorisée"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:296
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:296
 msgid ""
-"This threat corresponds to an attacker that would be able to use a "
-"component of the WAPT agent to permanently install a malicious "
-"application, or to remove or deactivate a security component on the WAPT "
-"equipped device."
+"This threat corresponds to an attacker that would be able to use a component of "
+"the WAPT agent to permanently install a malicious application, or to remove or "
+"deactivate a security component on the WAPT equipped device."
 msgstr ""
 "Cette menace correspond à un attaquant qui parviendrait à utiliser une "
-"composante de l'agent WAPT pour installer une application malveillante de"
-" façon pérenne, ou pour désinstaller ou désactiver une composante de "
-"sécurité du poste sur lequel l'agent WAPT est installé."
+"composante de l'agent WAPT pour installer une application malveillante de façon "
+"pérenne, ou pour désinstaller ou désactiver une composante de sécurité du poste "
+"sur lequel l'agent WAPT est installé."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:301
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:301
 msgid "Threat T2: modification of configuration values by an unauthorized entity"
 msgstr ""
-"Menace M2 : Altération de valeurs de configuration par une entité non-"
-"autorisée"
+"Menace M2 : Altération de valeurs de configuration par une entité non-autorisée"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:303
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:303
 msgid ""
 "The threat corresponds to an attacker that would be able to modify a "
-"configuration element of WAPT that had been previously defined by a "
-"legitimate WAPT :term:`Administrator`."
+"configuration element of WAPT that had been previously defined by a legitimate "
+"WAPT :term:`Administrator`."
 msgstr ""
 "Cette menace correspond à un attaquant qui parviendrait à modifier ou à "
-"supprimer le paramétrage d'un élément de WAPT défini par un "
-":term:`Administrateur` légitime de WAPT."
+"supprimer le paramétrage d'un élément de WAPT défini par un :term:"
+"`Administrateur` légitime de WAPT."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:308
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:308
 msgid "Threat T3: illegitimate access by an unauthorized entity"
 msgstr "Menace M3 : Accès illégitime par une entité non-autorisée"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:310
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:310
 msgid ""
-"This threat corresponds to an attacker that would be able to recover the "
-"login credentials of an :term:`Administrator`, or bypass the "
-"authentication mechanism in such a way to access or alter a sensitive "
-"asset stored on the server. It also corresponds to an attacker being able"
-" to impersonate a WAPT agent."
+"This threat corresponds to an attacker that would be able to recover the login "
+"credentials of an :term:`Administrator`, or bypass the authentication mechanism "
+"in such a way to access or alter a sensitive asset stored on the server. It also "
+"corresponds to an attacker being able to impersonate a WAPT agent."
 msgstr ""
-"Cette menace correspond à un attaquant qui parviendrait à récupérer les "
-"données d'authentification d'un :term:`Administrateur`, à contourner le "
-"mécanisme d'authentification de manière à accéder ou à altérer un bien "
-"sensible stocké sur le serveur. Elle correspond également à un attaquant "
-"qui parviendrait à se faire passer pour un agent WAPT."
+"Cette menace correspond à un attaquant qui parviendrait à récupérer les données "
+"d'authentification d'un :term:`Administrateur`, à contourner le mécanisme "
+"d'authentification de manière à accéder ou à altérer un bien sensible stocké sur "
+"le serveur. Elle correspond également à un attaquant qui parviendrait à se faire "
+"passer pour un agent WAPT."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:317
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:317
 msgid "Threat T4: network listening by an unauthorized entity"
 msgstr "Menace M4 : Écoute du réseau par une entité non-autorisée"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:319
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:319
 msgid ""
 "This threat corresponds to an attacker being able to intercept and gain "
-"knowledge of network traffic between the WAPT agents and the server "
-"hosting WAPT."
+"knowledge of network traffic between the WAPT agents and the server hosting WAPT."
 msgstr ""
-"Cette menace correspond à un attaquant qui parviendrait à intercepter et "
-"prendre connaissance des communications réseaux entre les agents et le "
-"serveur hébergeant WAPT."
+"Cette menace correspond à un attaquant qui parviendrait à intercepter et prendre "
+"connaissance des communications réseaux entre les agents et le serveur "
+"hébergeant WAPT."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:324
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:324
 msgid ""
-"Threat T5: modification of network traffic by an unauthorized entity "
-"(type *Man In The Middle*)"
+"Threat T5: modification of network traffic by an unauthorized entity (type *Man "
+"In The Middle*)"
 msgstr ""
-"Menace M5 : Altération du trafic réseau par une entité non-autorisée "
-"(Type *Man In the Middle*)"
+"Menace M5 : Altération du trafic réseau par une entité non-autorisée (Type *Man "
+"In the Middle*)"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:326
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:326
 msgid ""
-"This threat corresponds to an attacker being able to alter network "
-"traffic between the agents and the server hosting WAPT, or between the "
-"console and the WAPT Server."
+"This threat corresponds to an attacker being able to alter network traffic "
+"between the agents and the server hosting WAPT, or between the console and the "
+"WAPT Server."
 msgstr ""
 "Cette menace correspond à un attaquant qui parviendrait à modifier les "
-"communications réseaux entre les agents et le serveur hébergeant WAPT ou "
-"les communications réseau entre la console et le serveur WAPT."
+"communications réseaux entre les agents et le serveur hébergeant WAPT ou les "
+"communications réseau entre la console et le serveur WAPT."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:331
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:331
 msgid "Description of WAPT's security functions"
 msgstr "Description des fonctions de sécurité de WAPT"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:333
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:333
 msgid ""
 "By definition, security functions are the set of technical measures and "
-"mechanisms implemented to protect in a proportionate way the sensitive "
-"assets against identified threats."
+"mechanisms implemented to protect in a proportionate way the sensitive assets "
+"against identified threats."
 msgstr ""
-"Par définition, les fonctions de sécurité sont l'ensemble des mesures "
-"techniques et mécanismes mis en œuvre pour protéger de façon "
-"proportionnée les biens sensibles contre les menaces identifiées."
+"Par définition, les fonctions de sécurité sont l'ensemble des mesures techniques "
+"et mécanismes mis en œuvre pour protéger de façon proportionnée les biens "
+"sensibles contre les menaces identifiées."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:338
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:338
 msgid "Security function F1: access authentication"
 msgstr "Fonction de sécurité F1 : Authentification des contrôles d'accès"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:343
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:343
 msgid ""
-"Security function F1A: authentication of a device on initial registration"
-" in the WAPT database"
+"Security function F1A: authentication of a device on initial registration in the "
+"WAPT database"
 msgstr ""
 "Fonction de sécurité F1A : Authentification d'une machine lors de son "
 "enregistrement initial dans la base de données WAPT"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:349
-#: ../../source/wapt-security-principles/safety-principle.rst:435
-#: ../../source/wapt-security-principles/safety-principle.rst:461
-#: ../../source/wapt-security-principles/safety-principle.rst:485
-#: ../../source/wapt-security-principles/safety-principle.rst:537
-#: ../../source/wapt-security-principles/safety-principle.rst:587
-#: ../../source/wapt-security-principles/safety-principle.rst:638
-#: ../../source/wapt-security-principles/safety-principle.rst:658
-#: ../../source/wapt-security-principles/safety-principle.rst:686
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:349
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:435
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:461
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:485
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:537
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:587
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:638
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:658
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:686
 msgid "risks avoided"
 msgstr "risques traités :"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:351
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:351
 msgid "the registering of an illegitimate device in the database;"
 msgstr "éviter l'inscription d'une machine illégitime dans la base de données ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:353
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:353
 msgid "a denial-of-service attack by overloading the database;"
 msgstr ""
-"éviter une attaque par déni de service par surcharge de la base de "
-"données ;"
+"éviter une attaque par déni de service par surcharge de la base de données ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:355
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:355
 msgid "the insertion of a fraudulent inventory in the database;"
 msgstr "éviter l'enregistrement d'un inventaire falsifié dans la base de données ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:358
-#: ../../source/wapt-security-principles/safety-principle.rst:403
-#: ../../source/wapt-security-principles/safety-principle.rst:440
-#: ../../source/wapt-security-principles/safety-principle.rst:467
-#: ../../source/wapt-security-principles/safety-principle.rst:491
-#: ../../source/wapt-security-principles/safety-principle.rst:543
-#: ../../source/wapt-security-principles/safety-principle.rst:593
-#: ../../source/wapt-security-principles/safety-principle.rst:691
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:358
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:403
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:440
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:467
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:491
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:543
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:593
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:691
 msgid "Solution implemented"
 msgstr "Solution mise en place"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:360
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:360
 msgid ""
-"To exist in the database and thus to appear in the management console, a "
-"device must register with the WAPT Server using the :command:`register` "
-"command."
+"To exist in the database and thus to appear in the management console, a device "
+"must register with the WAPT Server using the :command:`register` command."
 msgstr ""
-"Pour exister dans la base de données et ainsi apparaître dans la console "
-"WAPT, une machine doit s'enregistrer auprès du serveur WAPT avec une "
-"commande :command:`register`."
+"Pour exister dans la base de données et ainsi apparaître dans la console WAPT, "
+"une machine doit s'enregistrer auprès du serveur WAPT avec une commande :command:"
+"`register`."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:364
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:364
 msgid ""
-"The :command:`register` command may be executed automatically when "
-"installing or updating the WAPT agent if the device has a Kerberos "
-"machine account that is correctly registered in the "
-":term:`Organization`'s Active Directory domain."
+"The :command:`register` command may be executed automatically when installing or "
+"updating the WAPT agent if the device has a Kerberos machine account that is "
+"correctly registered in the :term:`Organization`'s Active Directory domain."
 msgstr ""
-"La commande :command:`register` peut être exécutée automatiquement lors "
-"de l'installation ou de la mise à jour de l'agent WAPT si la machine est "
-"correctement enregistrée avec un compte machine Kerberos dans le domaine "
-"Active Directory de l':term:`Organisation`."
+"La commande :command:`register` peut être exécutée automatiquement lors de "
+"l'installation ou de la mise à jour de l'agent WAPT si la machine est "
+"correctement enregistrée avec un compte machine Kerberos dans le domaine Active "
+"Directory de l':term:`Organisation`."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:369
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:369
 msgid ""
-"If the device does not present to the WAPT Server a valid Kerberos "
-"ticket, then the :command:`register` fails;"
+"If the device does not present to the WAPT Server a valid Kerberos ticket, then "
+"the :command:`register` fails;"
 msgstr ""
-"Si la machine ne présente pas au serveur WAPT un ticket Kerberos valide "
-"pour le serveur WAPT, alors la commande :command:`register` échoue."
+"Si la machine ne présente pas au serveur WAPT un ticket Kerberos valide pour le "
+"serveur WAPT, alors la commande :command:`register` échoue."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:374
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:374
 msgid ""
-"The Kerberos registration method assumes that the Active Directory server"
-" is responsive at the time of launch of the :command:`register` command."
+"The Kerberos registration method assumes that the Active Directory server is "
+"responsive at the time of launch of the :command:`register` command."
 msgstr ""
-"La méthode avec Kerberos assume que le serveur Active Directory répond au"
-" moment du :command:`register`."
+"La méthode avec Kerberos assume que le serveur Active Directory répond au moment "
+"du :command:`register`."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:380
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:380
 msgid ""
-"Security function F1B: verification of server HTTPS certificates by the "
-"WAPT agents"
+"Security function F1B: verification of server HTTPS certificates by the WAPT "
+"agents"
 msgstr ""
-"Fonction de sécurité F1B : Vérification des certificats HTTPS du serveur "
-"par les clients WAPT"
+"Fonction de sécurité F1B : Vérification des certificats HTTPS du serveur par les "
+"clients WAPT"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:386
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:386
 msgid "risks avoided (notably MITM)"
 msgstr "risques traités (notamment MITM) :"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:388
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:388
 msgid ""
-"the sending of sensitive informations to an illegitimate and unauthorized"
-" WAPT Server;"
+"the sending of sensitive informations to an illegitimate and unauthorized WAPT "
+"Server;"
 msgstr ""
-"éviter l'envoi d'informations sensibles à un serveur WAPT illégitime et "
-"non-autorisé ;"
+"éviter l'envoi d'informations sensibles à un serveur WAPT illégitime et non-"
+"autorisé ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:391
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:391
 msgid "the recovery of sensitive informations by an unauthorized entity;"
 msgstr ""
-"éviter la récupération d'informations sensibles par une entité non-"
-"autorisée ;"
+"éviter la récupération d'informations sensibles par une entité non-autorisée ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:393
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:393
 msgid ""
-"the display of fake information in the management console of the "
-":term:`Administrator`;"
+"the display of fake information in the management console of the :term:"
+"`Administrator`;"
 msgstr ""
-"éviter l'affichage d'informations falsifiées dans la console de "
-"l':term:`Administrateur` ;"
+"éviter l'affichage d'informations falsifiées dans la console de l':term:"
+"`Administrateur` ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:396
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:396
 msgid ""
 "an incorrect date to be sent upon a HEAD request, thus preventing future "
 "upgrades (request for a modified file date);"
 msgstr ""
-"éviter qu'une mauvaise date soit envoyée lors d'une requête HEAD (demande"
-" de modification de date de fichier) empêchant les futures mise à jours ;"
+"éviter qu'une mauvaise date soit envoyée lors d'une requête HEAD (demande de "
+"modification de date de fichier) empêchant les futures mise à jours ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:399
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:399
 msgid ""
-"sending the WAPT console password to an illegitimate and unauthorized "
-"WAPT Server;"
+"sending the WAPT console password to an illegitimate and unauthorized WAPT "
+"Server;"
 msgstr ""
-"éviter d'envoyer le mot de passe de la console à un serveur WAPT "
-"illégitime et non-autorisé ;"
+"éviter d'envoyer le mot de passe de la console à un serveur WAPT illégitime et "
+"non-autorisé ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:405
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:405
 msgid "For the secured version of WAPT to work correctly:"
 msgstr "Pour fonctionner correctement en version sécurisée :"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:407
-
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:407
 msgid ""
-"an option for verifying the server HTTPS certificate is introduced in "
-":file:`C:\\\\Program Files (x86)\\\\wapt\\wapt-get.ini` on the WAPT "
-"agents that will **force the verification of the server certificate by "
-"the WAPT agents**;"
+"an option for verifying the server HTTPS certificate is introduced in :file:`C:\\"
+"\\Program Files (x86)\\\\wapt\\wapt-get.ini` on the WAPT agents that will "
+"**force the verification of the server certificate by the WAPT agents**;"
 msgstr ""
-"une option de vérification du certificat HTTPS serveur est introduite "
-"dans le fichier :file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get.ini` des "
-"agents WAPT qui **force la vérification du certificat serveur par les "
-"agents WAPT** ;"
+"une option de vérification du certificat HTTPS serveur est introduite dans le "
+"fichier :file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get.ini` des agents "
+"WAPT qui **force la vérification du certificat serveur par les agents WAPT** ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:412
-
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:412
 msgid ""
-"an option for verifying the server HTTPS certificate is introduced in "
-":file:`C:\\\\Program Files (x86)\\\\wapt\\wapt-get.ini` on the WAPT "
-"agents that will force the verification of the server certificate by the "
-"**WAPT console**;"
+"an option for verifying the server HTTPS certificate is introduced in :file:`C:\\"
+"\\Program Files (x86)\\\\wapt\\wapt-get.ini` on the WAPT agents that will force "
+"the verification of the server certificate by the **WAPT console**;"
 msgstr ""
-"une option de vérification du certificat HTTPS serveur est introduite "
-"dans le fichier :file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get.ini` des "
-"agents WAPT qui **force la vérification du certificat serveur par les "
-"agents WAPT** ;"
+"une option de vérification du certificat HTTPS serveur est introduite dans le "
+"fichier :file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get.ini` des agents "
+"WAPT qui **force la vérification du certificat serveur par les agents WAPT** ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:417
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:417
 msgid "Technically, it may be implemented in two ways:"
 msgstr "L'implémentation technique peut être basée sur deux méthodes :"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:419
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:419
 msgid ""
-"by using a certificate verification tool implemented in the configuration"
-" file of WAPT's :program:`Nginx` web server; this method is typically "
-"provided by a :term:`Certificate Authority` that is trusted by your "
-"network;"
+"by using a certificate verification tool implemented in the configuration file "
+"of WAPT's :program:`Nginx` web server; this method is typically provided by a :"
+"term:`Certificate Authority` that is trusted by your network;"
 msgstr ""
 "utiliser un utilitaire de vérification de certificat implémenté dans la "
-"configuration du service :program:`Nginx` du serveur WAPT ; cette méthode"
-" est généralement fournie par une :term:`Autorité de Certification` "
-"validée pour votre réseau ;"
+"configuration du service :program:`Nginx` du serveur WAPT ; cette méthode est "
+"généralement fournie par une :term:`Autorité de Certification` validée pour "
+"votre réseau ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:423
-
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:423
 msgid ""
-"by using the *certificate pinning* method, which consists of providing "
-"the WAPT agent a short list of trusted certificates that will be stored "
-"in :file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl\\\\server`;"
+"by using the *certificate pinning* method, which consists of providing the WAPT "
+"agent a short list of trusted certificates that will be stored in :file:`C:\\"
+"\\Program Files (x86)\\\\wapt\\\\ssl\\\\server`;"
 msgstr ""
-"utiliser la méthode d'*épinglage de certificat* qui consiste a fournir à "
-"l'agent WAPT une liste de certificats de confiance qui sera stockée et "
-"maintenue dans le dossier :file:`C:\\\\Program Files "
-"(x86)\\\\wapt\\\\ssl\\\\server` ;"
+"utiliser la méthode d'*épinglage de certificat* qui consiste a fournir à l'agent "
+"WAPT une liste de certificats de confiance qui sera stockée et maintenue dans le "
+"dossier :file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl\\\\server` ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:429
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:429
 msgid "Security function F1C: no listening port on the WAPT agents"
 msgstr "Fonction de sécurité F1C : Aucun port n'écoute sur les agents WAPT"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:437
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:437
 msgid "an unauthorized entity using an open port fraudulently;"
 msgstr ""
-"éviter qu'une entité non-autorisée utilise un port ouvert à mauvais "
-"escient ;"
+"éviter qu'une entité non-autorisée utilise un port ouvert à mauvais escient ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:442
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:442
 msgid ""
-"The connections to the WAPT Server are initiated exclusively by the "
-"agents, and the forced immediate actions are relayed through a permanent "
-"websocket initiated by the WAPT agent (:command:`update`/ "
-":command:`upgrade`/ :command:`install` ...)."
+"The connections to the WAPT Server are initiated exclusively by the agents, and "
+"the forced immediate actions are relayed through a permanent websocket initiated "
+"by the WAPT agent (:command:`update`/ :command:`upgrade`/ :command:"
+"`install` ...)."
 msgstr ""
-"Les connexions vers le serveur WAPT sont exclusivement initiées pas les "
-"clients, et les différentes actions instantanées (:command:`update` / "
-":command:`upgrade` / :command:`install` ...) passent au travers d'une "
-"connexion permanente par une Websocket initiée par l'agent WAPT."
+"Les connexions vers le serveur WAPT sont exclusivement initiées pas les clients, "
+"et les différentes actions instantanées (:command:`update` / :command:"
+"`upgrade` / :command:`install` ...) passent au travers d'une connexion "
+"permanente par une Websocket initiée par l'agent WAPT."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:449
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:449
 msgid ""
 "if HTTPS is activated, then the WAPT agent checks that the websocket is "
 "connecting to the rightful server."
 msgstr ""
-"si HTTPS est activé, l'agent vérifie que la Websocket s'établit bien avec"
-" le bon serveur."
+"si HTTPS est activé, l'agent vérifie que la Websocket s'établit bien avec le bon "
+"serveur."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:455
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:455
 msgid "Security function F1D: signature of inventory return states"
 msgstr "Fonction de sécurité F1D : Signature des remontées d'inventaire"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:463
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:463
 msgid ""
-"an unauthorized entity sending a fake inventory for a device that "
-"rightfully exists in the database;"
+"an unauthorized entity sending a fake inventory for a device that rightfully "
+"exists in the database;"
 msgstr ""
-"éviter qu'une entité non-autorisée envoie un inventaire falsifié d'une "
-"machine existante dans la base de données WAPT ;"
+"éviter qu'une entité non-autorisée envoie un inventaire falsifié d'une machine "
+"existante dans la base de données WAPT ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:469
-
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:469
 msgid ""
-"On the first :command:`register`, each device generates a key/ "
-"certificate pair that is stored in :file:`C:\\\\Program Files "
-"(x86)\\\\wapt\\\\private`, only accessible in read-only mode to "
-":term:`Local Administrators`. Once the device has successfully "
-"registered, the public key is sent to the WAPT Server;"
+"On the first :command:`register`, each device generates a key/ certificate pair "
+"that is stored in :file:`C:\\\\Program Files (x86)\\\\wapt\\\\private`, only "
+"accessible in read-only mode to :term:`Local Administrators`. Once the device "
+"has successfully registered, the public key is sent to the WAPT Server;"
 msgstr ""
-"Au premier :command:`register`, chaque machine crée un couple clé "
-"privée / certificat public dans le répertoire :file:`C:\\\\Program Files "
-"(x86)\\\\wapt\\\\private` accessible en lecture uniquement aux "
-":term:`Administrateurs Locaux`. Une fois la machine enregistrée, la clé "
-"publique est envoyée au serveur WAPT ;"
+"Au premier :command:`register`, chaque machine crée un couple clé privée / "
+"certificat public dans le répertoire :file:`C:\\\\Program Files (x86)\\\\wapt\\"
+"\\private` accessible en lecture uniquement aux :term:`Administrateurs Locaux`. "
+"Une fois la machine enregistrée, la clé publique est envoyée au serveur WAPT ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:474
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:474
 msgid ""
-"When the inventory is updated, the new inventory status is sent along "
-"with the private key of the device. The new inventory is then decrypted "
-"with the public key stored in the database;"
+"When the inventory is updated, the new inventory status is sent along with the "
+"private key of the device. The new inventory is then decrypted with the public "
+"key stored in the database;"
 msgstr ""
-"Lors d'une mise à jour de l'inventaire, le nouvel inventaire est envoyé "
-"signé avec la clé privée de la machine et déchiffré par la clé publique "
-"enregistrée dans la base de données ;"
+"Lors d'une mise à jour de l'inventaire, le nouvel inventaire est envoyé signé "
+"avec la clé privée de la machine et déchiffré par la clé publique enregistrée "
+"dans la base de données ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:478
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:478
 msgid "The server will refuse any inventory that is signed with a wrong key;"
 msgstr ""
-"Le serveur refusera de valider tout inventaire signé avec une mauvaise "
-"clé ;"
+"Le serveur refusera de valider tout inventaire signé avec une mauvaise clé ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:481
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:481
 msgid ""
-"Security function F1E: verification of authorizations before launching of"
-" WAPT commands"
+"Security function F1E: verification of authorizations before launching of WAPT "
+"commands"
 msgstr ""
 "Fonction de sécurité F1E : Vérification des droits avant l'exécution de "
 "certaines actions WAPT"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:487
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:487
 msgid ""
-"avoid the execution of sensitive tasks on WAPT clients by unauthorized "
-"entities;"
+"avoid the execution of sensitive tasks on WAPT clients by unauthorized entities;"
 msgstr "éviter l'exécution de tâches sensibles par des entités non-autorisées ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:493
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:493
 msgid ""
-"The :term:`Users` interact with WAPT through WAPT user interfaces "
-"(:program:`wapt-get` in command line interface, :program:`wapttray`, "
-":program:`waptexit`, :program:`waptselfservice`)."
+"The :term:`Users` interact with WAPT through WAPT user interfaces (:program:"
+"`wapt-get` in command line interface, :program:`wapttray`, :program:`waptexit`, :"
+"program:`waptselfservice`)."
 msgstr ""
-"Les :term:`Utilisateurs` interagissent avec WAPT au travers des "
-"interfaces WAPT (:program:`wapt-get` en ligne de commande, "
-":program:`wapttray`, :program:`waptexit`, :program:`waptselfservice`)."
+"Les :term:`Utilisateurs` interagissent avec WAPT au travers des interfaces WAPT "
+"(:program:`wapt-get` en ligne de commande, :program:`wapttray`, :program:"
+"`waptexit`, :program:`waptselfservice`)."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:497
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:497
 msgid ""
-"The user interfaces then delegate the execution of the desired tasks to "
-"the local WAPT service running as system account."
+"The user interfaces then delegate the execution of the desired tasks to the "
+"local WAPT service running as system account."
 msgstr ""
-"Les interfaces peuvent ensuite déléguer l'exécution des tâches souhaitées"
-" au service WAPT local fonctionnant en compte système."
+"Les interfaces peuvent ensuite déléguer l'exécution des tâches souhaitées au "
+"service WAPT local fonctionnant en compte système."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:500
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:500
 msgid ""
-"The following actions do not require to be authenticated with the WAPT "
-"service:"
+"The following actions do not require to be authenticated with the WAPT service:"
 msgstr ""
-"Les actions qui enclenchent des modifications listées ci-dessous ne "
-"nécessitent pas d'authentification auprès du service WAPT :"
+"Les actions qui enclenchent des modifications listées ci-dessous ne nécessitent "
+"pas d'authentification auprès du service WAPT :"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:502
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:502
 msgid ":code:`wapt-get update` (update the available list of packages);"
 msgstr ":code:`wapt-get update` (mettre à jour la liste des paquets disponibles) ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:504
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:504
 msgid ":code:`wapt-get upgrade` (launch waiting upgrades);"
 msgstr ""
-":code:`wapt-get upgrade` (lancer l'installation des mises à jour en "
-"attente) ;"
+":code:`wapt-get upgrade` (lancer l'installation des mises à jour en attente) ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:506
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:506
 msgid ":code:`wapt-get download-upgrade` (download waiting upgrades);"
 msgstr ""
-":code:`wapt-get download-upgrade` (télécharger les mises à jour en "
-"attente) ;"
+":code:`wapt-get download-upgrade` (télécharger les mises à jour en attente) ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:508
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:508
 msgid ":code:`wapt-get clean` (remove packages left in cache after installation);"
 msgstr ""
 ":code:`wapt-get clean` (supprimer des paquets restés en cache après "
 "installation) ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:510
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:510
 msgid "stop any running WAPT task;"
 msgstr "stopper n'importe quelle tâche WAPT en cours ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:512
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:512
 msgid "stop/ reload the WAPT service;"
 msgstr "stopper / relancer le service WAPT ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:514
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:514
 msgid ""
-"The other actions require the :term:`User` be authenticated and the "
-":term:`User` either be a member of the **waptselfservice** Active "
-"Directory security group, or be a :term:`Local Administrator`, they are:"
+"The other actions require the :term:`User` be authenticated and the :term:`User` "
+"either be a member of the **waptselfservice** Active Directory security group, "
+"or be a :term:`Local Administrator`, they are:"
 msgstr ""
-"Les autres actions nécessitent que l':term:`Utilisateur` s'authentifie et"
-" que son compte appartienne au groupe de sécurité Active Directory "
-"**waptselfservice** ou que l':term:`Utilisateur` soit "
-":term:`Administrateur Local`, exemple d'action :"
+"Les autres actions nécessitent que l':term:`Utilisateur` s'authentifie et que "
+"son compte appartienne au groupe de sécurité Active Directory "
+"**waptselfservice** ou que l':term:`Utilisateur` soit :term:`Administrateur "
+"Local`, exemple d'action :"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:518
-#: ../../source/wapt-security-principles/safety-principle.rst:696
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:518
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:696
 msgid ""
-":code:`wapt-get install`: requests the WAPT agent to install a WAPT "
-"package flagged as **MISSING**;"
+":code:`wapt-get install`: requests the WAPT agent to install a WAPT package "
+"flagged as **MISSING**;"
 msgstr ""
-":code:`wapt-get install` : ordonner à l'agent WAPT d'installer un paquet "
-"WAPT marqué **MISSING** sur la machine ;"
+":code:`wapt-get install` : ordonner à l'agent WAPT d'installer un paquet WAPT "
+"marqué **MISSING** sur la machine ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:521
-#: ../../source/wapt-security-principles/safety-principle.rst:699
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:521
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:699
 msgid ":code:`wapt-get remove`: requests the WAPT agent to remove a package;"
 msgstr ""
-":code:`wapt-get remove` : ordonner à l'agent WAPT de supprimer un paquet "
-"WAPT ;"
+":code:`wapt-get remove` : ordonner à l'agent WAPT de supprimer un paquet WAPT ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:523
-#: ../../source/wapt-security-principles/safety-principle.rst:701
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:523
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:701
 msgid ""
-":code:`wapt-get forget`: requests the WAPT agent to forget the existence "
-"of a previously installed WAPT package without removing the software or "
-"the configuration;"
+":code:`wapt-get forget`: requests the WAPT agent to forget the existence of a "
+"previously installed WAPT package without removing the software or the "
+"configuration;"
 msgstr ""
-":code:`wapt-get forget` : ordonner à l'agent WAPT d'oublier l'existence "
-"d'un paquet WAPT installé sur la machine sans le désinstaller ;"
+":code:`wapt-get forget` : ordonner à l'agent WAPT d'oublier l'existence d'un "
+"paquet WAPT installé sur la machine sans le désinstaller ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:530
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:530
 msgid ""
-"Security function F2: protecting the integrity of the installation "
-"process of WAPT packages"
+"Security function F2: protecting the integrity of the installation process of "
+"WAPT packages"
 msgstr ""
-"Fonction de sécurité F2 : Protection de l'intégrité du processus "
-"d'installation des paquets WAPT"
+"Fonction de sécurité F2 : Protection de l'intégrité du processus d'installation "
+"des paquets WAPT"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:533
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:533
 msgid "Security function F2A: signature of WAPT packages"
 msgstr "Fonction de sécurité F2A : Signature des paquets WAPT"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:539
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:539
 msgid ""
-"to avoid an unauthorized entity modifying the content or the behavior of "
-"a WAPT package;"
+"to avoid an unauthorized entity modifying the content or the behavior of a WAPT "
+"package;"
 msgstr ""
-"éviter qu'une entité non-autorisée modifie le contenu ou le comportement "
-"d'un paquet WAPT ;"
+"éviter qu'une entité non-autorisée modifie le contenu ou le comportement d'un "
+"paquet WAPT ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:545
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:545
 msgid ""
-"when an :term:`Administrator` or a :term:`Package Deployer` builds a WAPT"
-" package, the file :file:`manifest.sha256` is created that lists the "
-"control sums of all files in the package;"
+"when an :term:`Administrator` or a :term:`Package Deployer` builds a WAPT "
+"package, the file :file:`manifest.sha256` is created that lists the control sums "
+"of all files in the package;"
 msgstr ""
-"quand un :term:`Administrateur` ou un :term:`Déployeur de Paquets` "
-"construit un paquet WAPT, un fichier :file:`WAPT\\manifest.sha256` est "
-"créé qui liste les sommes de contrôle de tous les fichiers du paquet ;"
+"quand un :term:`Administrateur` ou un :term:`Déployeur de Paquets` construit un "
+"paquet WAPT, un fichier :file:`WAPT\\manifest.sha256` est créé qui liste les "
+"sommes de contrôle de tous les fichiers du paquet ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:549
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:549
 msgid ""
-"a file :file:`signature.sha256` **encrypted** with the WAPT agent's "
-"private key is then created in the folder :file:`<WAPT>`; it contains the"
-" control sum of the file :file:`manifest.sha256`;"
+"a file :file:`signature.sha256` **encrypted** with the WAPT agent's private key "
+"is then created in the folder :file:`<WAPT>`; it contains the control sum of the "
+"file :file:`manifest.sha256`;"
 msgstr ""
-"un fichier :file:`signature.sha256` **chiffré** avec la clé privée est "
-"ensuite créé dans le dossier :file:`WAPT`, il contient la somme de "
-"contrôle du fichier :file:`WAPT\\manifest.sha256` ;"
+"un fichier :file:`signature.sha256` **chiffré** avec la clé privée est ensuite "
+"créé dans le dossier :file:`WAPT`, il contient la somme de contrôle du fichier :"
+"file:`WAPT\\manifest.sha256` ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:553
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:553
 msgid "the whole is then compressed and suffixed with a *.wapt* extension;"
 msgstr "l'ensemble est archivé avec l'extension *.wapt* ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:555
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:555
 msgid ""
-"when a WAPT agent downloads a WAPT package, the agent checks that the "
-"file :file:`signature.sha256` has been signed with the private key that "
-"matches the certificate present in the folder :file:`certificate.crt`;"
+"when a WAPT agent downloads a WAPT package, the agent checks that the file :file:"
+"`signature.sha256` has been signed with the private key that matches the "
+"certificate present in the folder :file:`certificate.crt`;"
 msgstr ""
-"quand un agent WAPT télécharge un paquet WAPT, l'agent vérifie que le "
-"fichier :file:`signature.sha256` a été signé avec la clé privée qui "
-"correspond au certificat présent dans le dossier "
-":file:`WAPT\\certificate.crt` ;"
+"quand un agent WAPT télécharge un paquet WAPT, l'agent vérifie que le fichier :"
+"file:`signature.sha256` a été signé avec la clé privée qui correspond au "
+"certificat présent dans le dossier :file:`WAPT\\certificate.crt` ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:559
-
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:559
 msgid ""
-"the WAPT agent then checks that the certificate or the chain of "
-"certificates in :file:`certificate.crt` has been signed with a key "
-"matching one of the certificates present in the folder "
-":file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl`;"
+"the WAPT agent then checks that the certificate or the chain of certificates in :"
+"file:`certificate.crt` has been signed with a key matching one of the "
+"certificates present in the folder :file:`C:\\\\Program Files (x86)\\\\wapt\\"
+"\\ssl`;"
 msgstr ""
-"l'agent WAPT vérifie ensuite que le certificat (ou la chaîne de "
-"certificat) :file:`certificate.crt` a bien été signé avec une clé privée "
-"correspondant à un des certificats présents dans le dossier "
-":file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl` ;"
+"l'agent WAPT vérifie ensuite que le certificat (ou la chaîne de certificat) :"
+"file:`certificate.crt` a bien été signé avec une clé privée correspondant à un "
+"des certificats présents dans le dossier :file:`C:\\\\Program Files (x86)\\\\wapt"
+"\\\\ssl` ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:564
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:564
 msgid ""
-"the WAPT agent then generates the control sum of all the files contained "
-"in the package (except the files :file:`signature.sha256` and "
-":file:`certificate.crt `) and verifies that it matches the file "
-":file:`manifest.sha256` contained in the package;"
+"the WAPT agent then generates the control sum of all the files contained in the "
+"package (except the files :file:`signature.sha256` and :file:`certificate.crt `) "
+"and verifies that it matches the file :file:`manifest.sha256` contained in the "
+"package;"
 msgstr ""
-"l'agent WAPT fait ensuite la somme de contrôle de tous les fichiers du "
-"paquet (excepté les fichiers :file:`signature.sha256` et "
-":file:`certificate.crt` ) et vérifie que cela correspond au fichier "
-":file:`WAPT\\manifest.sha256` du paquet ;"
+"l'agent WAPT fait ensuite la somme de contrôle de tous les fichiers du paquet "
+"(excepté les fichiers :file:`signature.sha256` et :file:`certificate.crt` ) et "
+"vérifie que cela correspond au fichier :file:`WAPT\\manifest.sha256` du paquet ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:569
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:569
 msgid ""
-"if one of these steps does not pass, this means that a file has been "
-"modified/ added/ removed. The execution of the :file:`setup.py` is then "
-"canceled."
+"if one of these steps does not pass, this means that a file has been modified/ "
+"added/ removed. The execution of the :file:`setup.py` is then canceled."
 msgstr ""
-"si l'une de ces étapes n'est pas validée, alors cela signifie qu'un "
-"fichier a été modifié / ajouté / supprimé. Alors, l'exécution du "
-":program:`setup.py` est annulée ;"
+"si l'une de ces étapes n'est pas validée, alors cela signifie qu'un fichier a "
+"été modifié / ajouté / supprimé. Alors, l'exécution du :program:`setup.py` est "
+"annulée ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:572
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:572
 msgid ""
-"the altered package is then deleted from the local cache and the event is"
-" journalized in the logs of the agent;"
+"the altered package is then deleted from the local cache and the event is "
+"journalized in the logs of the agent;"
 msgstr ""
-"le paquet en défaut est ensuite supprimé du cache local ; l'évènement est"
-" rapporté dans les log de l'agent ;"
+"le paquet en défaut est ensuite supprimé du cache local ; l'évènement est "
+"rapporté dans les log de l'agent ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:577
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:577
 msgid ""
-"Since the version 1.5 of WAPT, the format of the :file:`manifest` file "
-"has changed from *sha1* to *sha256*."
+"Since the version 1.5 of WAPT, the format of the :file:`manifest` file has "
+"changed from *sha1* to *sha256*."
 msgstr ""
-"Depuis la version 1.5, le fichier :file:`manifest` est passée de *sha1* à"
-" *sha256*."
+"Depuis la version 1.5, le fichier :file:`manifest` est passée de *sha1* à "
+"*sha256*."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:581
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:581
 msgid "Security function F2B: signature of the attributes in the control files"
 msgstr "Fonction de sécurité F2B : Signature des attributs du fichier *control*"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:589
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:589
 msgid ""
-"an unauthorized entity modifying WAPT dependencies on WAPT equipped "
-"devices by falsifying :file:`https://waptserver/wapt/Packages`;"
+"an unauthorized entity modifying WAPT dependencies on WAPT equipped devices by "
+"falsifying :file:`https://waptserver/wapt/Packages`;"
 msgstr ""
-"éviter qu'une entité non-autorisée modifie des dépendances WAPT sur la "
-"machine en falsifiant le fichier "
-":file:`https://waptserver/wapt/Packages` ;"
+"éviter qu'une entité non-autorisée modifie des dépendances WAPT sur la machine "
+"en falsifiant le fichier :file:`https://waptserver/wapt/Packages` ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:595
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:595
 msgid ""
-"When a WAPT package is signed, the sensitive attributes of the package "
-"are listed inside the **signed_attributes** attribute of the control "
-"file."
+"When a WAPT package is signed, the sensitive attributes of the package are "
+"listed inside the **signed_attributes** attribute of the control file."
 msgstr ""
-"Lors de la signature d'un paquet WAPT, les attributs sensibles du paquet "
-"sont listés dans l'attribut **signed_attributes**."
+"Lors de la signature d'un paquet WAPT, les attributs sensibles du paquet sont "
+"listés dans l'attribut **signed_attributes**."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:600
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:600
 msgid "Example of a *signed_attributes* list:"
 msgstr "Exemple d'une liste *signed_attributes* :"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:602
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:602
 msgid ""
-"*package*, *version*, *architecture*, *section*, *priority*, "
-"*maintainer*, *description*, *depends*, *conflicts*, *maturity*, "
-"*locale*, *min_os_version*, *max_os_version*, *min_wapt_version*, "
-"*sources*, *installed_size*, *signer*, *signer_fingerprint*, "
-"*signature_date*, *signed_attributes*,"
+"*package*, *version*, *architecture*, *section*, *priority*, *maintainer*, "
+"*description*, *depends*, *conflicts*, *maturity*, *locale*, *min_os_version*, "
+"*max_os_version*, *min_wapt_version*, *sources*, *installed_size*, *signer*, "
+"*signer_fingerprint*, *signature_date*, *signed_attributes*,"
 msgstr ""
-"*package*, *version*, *architecture*, *section*, *priority*, "
-"*maintainer*, *description*, *depends*, *conflicts*, *maturity*, "
-"*locale*, *min_os_version*, *max_os_version*, *min_wapt_version*, "
-"*sources*, *installed_size*, *signer*, *signer_fingerprint*, "
-"*signature_date*, *signed_attributes*,"
+"*package*, *version*, *architecture*, *section*, *priority*, *maintainer*, "
+"*description*, *depends*, *conflicts*, *maturity*, *locale*, *min_os_version*, "
+"*max_os_version*, *min_wapt_version*, *sources*, *installed_size*, *signer*, "
+"*signer_fingerprint*, *signature_date*, *signed_attributes*,"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:608
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:608
 msgid ""
-"The attributes listed in *signed_attributes* are signed with the private "
-"key of the :term:`Administrator` and stored in the attribute *signature* "
-"of the :file:`control` file."
+"The attributes listed in *signed_attributes* are signed with the private key of "
+"the :term:`Administrator` and stored in the attribute *signature* of the :file:"
+"`control` file."
 msgstr ""
-"Les attributs listés dans *signed_attributes* sont signés avec la clé "
-"privée de l':term:`Administrateur` et la signature est stockée dans "
-"l'attribut *signature* du fichier :file:`control`."
+"Les attributs listés dans *signed_attributes* sont signés avec la clé privée de "
+"l':term:`Administrateur` et la signature est stockée dans l'attribut *signature* "
+"du fichier :file:`control`."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:612
-
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:612
 msgid ""
-"The certificate matching the private key is stored in "
-":file:`<WAPT>\\\\certificate.crt` inside the WAPT package."
+"The certificate matching the private key is stored in :file:`<WAPT>\\"
+"\\certificate.crt` inside the WAPT package."
 msgstr ""
-"Le certificat associé à cette clé privée est stocké dans le fichier "
-":file:`<WAPT>\\\\certificate.crt` à l\\'intérieur du paquet WAPT."
+"Le certificat associé à cette clé privée est stocké dans le fichier :file:`<WAPT>"
+"\\\\certificate.crt` à l\\'intérieur du paquet WAPT."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:615
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:615
 msgid ""
-"On the WAPT Server, the index :file:`Packages` is regenerated when the "
-":command:`wapt-scanpackages` command is triggered by adding or removing a"
-" package."
+"On the WAPT Server, the index :file:`Packages` is regenerated when the :command:"
+"`wapt-scanpackages` command is triggered by adding or removing a package."
 msgstr ""
 "Sur le serveur WAPT, lors de l'opération :command:`wapt-scanpackages` "
-"(déclenchée par un ajout ou suppression de paquet), l'index "
-":file:`Packages` des paquets est régénéré."
+"(déclenchée par un ajout ou suppression de paquet), l'index :file:`Packages` des "
+"paquets est régénéré."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:619
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:619
 msgid ""
-"The WAPT Server extracts from each package the certificate of the signer "
-"and adds it in the :file:`Packages` zip file in the directory "
-":file:`ssl`. Each certificate is named after its hexadecimal encoded "
-"fingerprint."
+"The WAPT Server extracts from each package the certificate of the signer and "
+"adds it in the :file:`Packages` zip file in the directory :file:`ssl`. Each "
+"certificate is named after its hexadecimal encoded fingerprint."
 msgstr ""
-"Le serveur WAPT extrait de chaque paquet le certificat du signataire et "
-"l'ajoute dans le fichier ZIP :file:`Packages`, dans le répertoire "
-":file:`ssl`. Chaque certificat est nommé avec sa fingerprint encodée en "
-"hexadécimal."
+"Le serveur WAPT extrait de chaque paquet le certificat du signataire et l'ajoute "
+"dans le fichier ZIP :file:`Packages`, dans le répertoire :file:`ssl`. Chaque "
+"certificat est nommé avec sa fingerprint encodée en hexadécimal."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:623
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:623
 msgid ""
-"When the WAPT agent launches an :command:`update`, it downloads the "
-":file:`Packages` index file that contains the signed attributes of all "
-"available packages and the certificates of the signers."
+"When the WAPT agent launches an :command:`update`, it downloads the :file:"
+"`Packages` index file that contains the signed attributes of all available "
+"packages and the certificates of the signers."
 msgstr ""
-"Lorsque le client WAPT effectue un :command:`update` (mise à jour des "
-"paquets disponibles), il télécharge le fichier index :file:`Packages`, "
-"qui contient à la fois les attributs signés de tous les paquets et les "
-"certificats des signataires."
+"Lorsque le client WAPT effectue un :command:`update` (mise à jour des paquets "
+"disponibles), il télécharge le fichier index :file:`Packages`, qui contient à la "
+"fois les attributs signés de tous les paquets et les certificats des signataires."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:627
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:627
 msgid ""
-"If the signer's certificate is approved, which means that the certificate"
-" has been signed by a Trusted :term:`Certificate Authority` or that the "
-"certificate itself is trusted, AND if the signer's certificate can verify"
-" the attributes' signature, the package is added to the index of "
-"available packages. Otherwise it is ignored."
+"If the signer's certificate is approved, which means that the certificate has "
+"been signed by a Trusted :term:`Certificate Authority` or that the certificate "
+"itself is trusted, AND if the signer's certificate can verify the attributes' "
+"signature, the package is added to the index of available packages. Otherwise it "
+"is ignored."
 msgstr ""
-"Si le certificat du signataire des attributs d'un paquet est approuvé (ce"
-" qui signifie que ce certificat est signé par une :term:`Autorité de "
-"Certification` ou que le certificat lui-méme est de confiance), **ET** "
-"que le certificat du signataire peut vérifier la signature des attributs,"
-" le paquet est ajouté à l'index des paquets disponibles, sinon il est "
-"ignoré."
+"Si le certificat du signataire des attributs d'un paquet est approuvé (ce qui "
+"signifie que ce certificat est signé par une :term:`Autorité de Certification` "
+"ou que le certificat lui-méme est de confiance), **ET** que le certificat du "
+"signataire peut vérifier la signature des attributs, le paquet est ajouté à "
+"l'index des paquets disponibles, sinon il est ignoré."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:634
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:634
 msgid ""
-"Security function F2C: access restriction to the installation folder of "
-"the WAPT agent"
+"Security function F2C: access restriction to the installation folder of the WAPT "
+"agent"
 msgstr ""
-"Fonction de sécurité F2C : Restriction d'accès au répertoire "
-"d'installation de l'agent WAPT"
+"Fonction de sécurité F2C : Restriction d'accès au répertoire d'installation de "
+"l'agent WAPT"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:640
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:640
 msgid "an unauthorized entity modifying the behavior of a WAPT agent;"
 msgstr ""
-"éviter qu'une entité non-autorisée modifie le comportement de l'agent "
-"WAPT ;"
+"éviter qu'une entité non-autorisée modifie le comportement de l'agent WAPT ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:642
-
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:642
 msgid ""
-"The installation folder :file:`C:\\\\Program Files (x86)\\\\wapt` is "
-"accessible in read-write mode:"
+"The installation folder :file:`C:\\\\Program Files (x86)\\\\wapt` is accessible "
+"in read-write mode:"
 msgstr ""
 "Le répertoire d'installation :file:`C:\\\\Program Files (x86)\\\\wapt` est "
 "accessible en lecture et modification :"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:645
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:645
 msgid ""
-"to the :term:`Local Administrators` by direct access to the installation "
-"folder of the WAPT agent on the device;"
+"to the :term:`Local Administrators` by direct access to the installation folder "
+"of the WAPT agent on the device;"
 msgstr ""
-"aux :term:`Administrateurs Locaux` à travers un accès local au répertoire"
-" d'installation de l'agent WAPT ;"
+"aux :term:`Administrateurs Locaux` à travers un accès local au répertoire "
+"d'installation de l'agent WAPT ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:648
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:648
 msgid ""
-"to the :term:`Administrators` through the deployment of WAPT agent "
-"upgrades;"
+"to the :term:`Administrators` through the deployment of WAPT agent upgrades;"
 msgstr ""
-"aux :term:`Administrateurs` à travers le mécanisme de déploiement des "
-"mises à jour de l'agent WAPT ;"
+"aux :term:`Administrateurs` à travers le mécanisme de déploiement des mises à "
+"jour de l'agent WAPT ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:650
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:650
 msgid ""
-"Neither the :term:`Package Deployers`, nor the :term:`Users` have write-"
-"access to the WAPT agent's installation folder."
+"Neither the :term:`Package Deployers`, nor the :term:`Users` have write-access "
+"to the WAPT agent's installation folder."
 msgstr ""
-"Ni les :term:`Déployeurs de Paquets`, ni les :term:`Utilisateurs` n'ont "
-"d'accès en écriture au répertoire d'installation de l'agent WAPT."
+"Ni les :term:`Déployeurs de Paquets`, ni les :term:`Utilisateurs` n'ont d'accès "
+"en écriture au répertoire d'installation de l'agent WAPT."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:654
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:654
 msgid ""
-"Security function F2D: total access restriction to the folder storing the"
-" key / certificate for inventory signing"
+"Security function F2D: total access restriction to the folder storing the key / "
+"certificate for inventory signing"
 msgstr ""
-"Fonction de sécurité F2D : Restriction totale d'accès au répertoire de "
-"stockage du couple clé privé / certificat de signature d'inventaire"
+"Fonction de sécurité F2D : Restriction totale d'accès au répertoire de stockage "
+"du couple clé privé / certificat de signature d'inventaire"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:660
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:660
 msgid "an unauthorized entity falsifying an inventory status update;"
 msgstr "éviter qu'une entité non-autorisée falsifie une remontée d'inventaire ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:662
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:662
 msgid ""
-"an unauthorized entity impersonating the identity of a WAPT equipped "
-"device;"
+"an unauthorized entity impersonating the identity of a WAPT equipped device;"
 msgstr "éviter qu'une entité non-autorisée usurpe l'identité d'une machine ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:664
-
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:664
 msgid ""
-"No access right is granted to any :term:`user` to :file:`C:\\\\Program "
-"Files (x86)\\\\wapt\\\\private`, whomever he may be. Only the WAPT agent "
-"has a write and read access to this folder."
+"No access right is granted to any :term:`user` to :file:`C:\\\\Program Files "
+"(x86)\\\\wapt\\\\private`, whomever he may be. Only the WAPT agent has a write "
+"and read access to this folder."
 msgstr ""
-"Aucun droit d'accès au répertoire :file:`C:\\\\Program Files "
-"(x86)\\\\wapt\\\\private` n'est accordé à aucun :term:`Utilisateur`, "
-"quelqu'il soit. Seul l'agent WAPT a accès en lecture et écriture à ce "
-"répertoire."
+"Aucun droit d'accès au répertoire :file:`C:\\\\Program Files (x86)\\\\wapt\\"
+"\\private` n'est accordé à aucun :term:`Utilisateur`, quelqu'il soit. Seul "
+"l'agent WAPT a accès en lecture et écriture à ce répertoire."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:670
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:670
 msgid ""
-"This method for storing the key and the certificate results from a "
-"technical design choice that says that the WAPT equipped device would "
-"embed any and all information related to itself."
+"This method for storing the key and the certificate results from a technical "
+"design choice that says that the WAPT equipped device would embed any and all "
+"information related to itself."
 msgstr ""
-"Le stockage du couple clé privée / certificat découle d'un choix "
-"technique qui consiste à dire que la machine détient seule toutes les "
-"informations qui la concernent."
+"Le stockage du couple clé privée / certificat découle d'un choix technique qui "
+"consiste à dire que la machine détient seule toutes les informations qui la "
+"concernent."
 
-#: ../../source/wapt-security-principles/safety-principle.rst:675
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:675
 msgid ""
 "Security function F3: securing the communications between the different "
 "components of WAPT"
 msgstr ""
-"Fonction de sécurité F3 : Sécurisation des communications entre les "
-"différents composants WAPT"
+"Fonction de sécurité F3 : Sécurisation des communications entre les différents "
+"composants WAPT"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:680
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:680
 msgid ""
-"Security function F3A: signature of immediate action calls sent to the "
-"WAPT agents"
+"Security function F3A: signature of immediate action calls sent to the WAPT "
+"agents"
 msgstr "Fonction de sécurité F3A : Signature des requêtes envoyées aux agents WAPT"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:688
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:688
 msgid "an unauthorized entity sending falsified requests to the WAPT agents;"
 msgstr ""
-"éviter qu'une entité non-autorisée envoie des requêtes falsifiées aux "
-"agents WAPT ;"
+"éviter qu'une entité non-autorisée envoie des requêtes falsifiées aux agents "
+"WAPT ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:693
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:693
 msgid ""
-"The following commands are signed by the WAPT Server before being relayed"
-" to the targeted WAPT agents via their Websockets:"
+"The following commands are signed by the WAPT Server before being relayed to the "
+"targeted WAPT agents via their Websockets:"
 msgstr ""
-"Les commandes ci-dessous sont signées par le serveur WAPT avant d'être "
-"envoyées au travers de la Websocket à l'agent WAPT destinataire de la "
-"commande :"
+"Les commandes ci-dessous sont signées par le serveur WAPT avant d'être envoyées "
+"au travers de la Websocket à l'agent WAPT destinataire de la commande :"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:705
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:705
 msgid ""
-":code:`wapt-get update-status`: requests the WAPT agent to send its "
-"current inventory status to the WAPT Server;"
+":code:`wapt-get update-status`: requests the WAPT agent to send its current "
+"inventory status to the WAPT Server;"
 msgstr ""
-":code:`wapt-get update-status` : ordonner à l'agent WAPT de renvoyer "
-"l'état de son inventaire actuel au serveur WAPT ;"
+":code:`wapt-get update-status` : ordonner à l'agent WAPT de renvoyer l'état de "
+"son inventaire actuel au serveur WAPT ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:708
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:708
 msgid ""
-":code:`wapt-get upgrade`: requests the WAPT agent to execute a package "
-"flagged as **NEED UPGRADE**"
+":code:`wapt-get upgrade`: requests the WAPT agent to execute a package flagged "
+"as **NEED UPGRADE**"
 msgstr ""
-":code:`wapt-get upgrade` : ordonner à l'agent WAPT d'exécuter les paquets"
-" marqués **NEED UPGRADE** ;"
+":code:`wapt-get upgrade` : ordonner à l'agent WAPT d'exécuter les paquets "
+"marqués **NEED UPGRADE** ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:711
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:711
 msgid ""
-":code:`wapt-get update`: requests the WAPT agent to update the list of "
-"available packages;"
+":code:`wapt-get update`: requests the WAPT agent to update the list of available "
+"packages;"
 msgstr ""
-":code:`wapt-get update` : ordonner à l'agent WAPT de mettre à jour la "
-"liste des paquets disponibles ;"
+":code:`wapt-get update` : ordonner à l'agent WAPT de mettre à jour la liste des "
+"paquets disponibles ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:714
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:714
 msgid "All the attributes in the requests for immediate action are signed:"
 msgstr "L'ensemble des attributs de cette requête sont signés :"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:716
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:716
 msgid "the device's :term:`UUID`;"
 msgstr "l':term:`UUID` du poste ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:718
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:718
 msgid "the action (ex: :command:`install`);"
 msgstr "l'action (ex: install) ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:720
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:720
 msgid "the arguments (ex: tis-firefox);"
 msgstr "les arguments (ex: tis-firefox) ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:722
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:722
 msgid "the timestamp of the requests;"
 msgstr "l'horodatage des demandes ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:724
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:724
 msgid "The certificate matching the signature is passed along:"
 msgstr "Le certificate associé à la signature est également passé :"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:726
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:726
 msgid ""
-"upon receiving a request, the WAPT agent verifies that the request has "
-"been properly signed;"
+"upon receiving a request, the WAPT agent verifies that the request has been "
+"properly signed;"
 msgstr ""
-"à la réception d'une requête par l'agent WAPT, il vérifie que la requête "
-"est correctement signée ;"
+"à la réception d'une requête par l'agent WAPT, il vérifie que la requête est "
+"correctement signée ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:729
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:729
 msgid ""
-"the agent will the verify that the timestamp is within a one minute delay"
-" window;"
+"the agent will the verify that the timestamp is within a one minute delay window;"
 msgstr ""
-"il vérifie ensuite que la date fournie en argument ne dépasse pas une 1 "
-"minute de décalage ;"
+"il vérifie ensuite que la date fournie en argument ne dépasse pas une 1 minute "
+"de décalage ;"
 
-#: ../../source/wapt-security-principles/safety-principle.rst:732
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security-principles/safety-principle.rst:732
 msgid ""
-"ultimately, the agent will verify that the certificate is authorized to "
-"launch actions;"
+"ultimately, the agent will verify that the certificate is authorized to launch "
+"actions;"
 msgstr ""
 "il vérifiera enfin que le certificat associé est autorisé à lancer des "
 "commandes ;"
-
-

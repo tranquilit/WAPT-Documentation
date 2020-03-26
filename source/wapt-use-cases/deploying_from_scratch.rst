@@ -58,7 +58,7 @@ Tranquil IT recommends:
   fine grained configurations of your :file:`waptagent.ini` for the hosts
   attached to each OU.
 
-...note::
+.. note::
 
   Alternatively, you may include a generic WAPT agent in your OS image.
 
@@ -150,11 +150,9 @@ How does the scenario work?
 Conclusion
 ----------
 
-With little effort, you now have full control over a fleet of several hundreds
+**With little effort, you now have full control over a fleet of several hundreds
 or even thousands of geographically dispersed machines. All your installations
 are documented, your users work with adequate rights and you benefit
 from a clear visibility on your users' tools and uses.
 In this way, the past is no longer an imponderable burden for you
-and an obstacle to your future projects.
-
-because
+and an obstacle to your future projects.**

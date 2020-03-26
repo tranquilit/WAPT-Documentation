@@ -50,7 +50,7 @@ The :file:`wapt-private.crt` file is the public certificate that is used
 along with the private key. It is by default created in the :file:`C:\\private`
 folder, copied in :file:`C:\\Program Files (x86)\\wapt\\ssl` of the Administrator
 and deployed on the desktops managed by the Administrator
-via a WAPT agent or a GPO.
+via a WAPT package or a GPO.
 
 This certificate is used to validate the signature of packages
 before installation.
@@ -139,7 +139,7 @@ For a fresh install, you can follow the screenshot below.
 * click on :guilabel:`Yes` to copy the newly generated certificate
   in the :file:`C:\\Program Files (x86)\\wapt\\ssl` folder.
   This certificate will be picked up during the compilation of the WAPT agent
-  and deployed on the client computers.
+  and deployed on the client computers;
 
 If everything has gone well the following message will appear:
 

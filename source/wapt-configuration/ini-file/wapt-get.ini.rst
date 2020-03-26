@@ -174,8 +174,8 @@ Options                            Description
 
 .. _waptexit_ini_file:
 
-Settings for ``waptexit``
--------------------------
+Settings for waptexit
+---------------------
 
 .. tabularcolumns:: |\\X{5}{12}|\\X{7}{12}|
 
@@ -188,8 +188,8 @@ Options                          Description
 ``hiberboot_enabled`` = 0        Disables Hiberboot on Windows 10 to make ``waptexit`` work correctly
 ================================ ====================================================================
 
-Settings for ``wapttray``
--------------------------
+Settings for wapttray
+---------------------
 
 .. tabularcolumns:: |\\X{5}{12}|\\X{7}{12}|
 

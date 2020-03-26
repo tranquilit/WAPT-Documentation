@@ -7,28 +7,27 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-18 12:55+0100\n"
-"PO-Revision-Date: 2020-03-10 15:30+0100\n"
+"POT-Creation-Date: 2020-03-25 13:16+0100\n"
+"PO-Revision-Date: 2020-03-26 12:06+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
-"Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 1.8.8\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: fr\n"
+"X-Generator: Poedit 2.0.6\n"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:8
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:15
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:8
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:15
 msgid "Deploying the WAPT agent on MacOS"
 msgstr "Déployer l'agent WAPT sur MacOS"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:8
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:8
 msgid "waptagent, MacOS, deployment, deploy, deploying, documentation, WAPT"
 msgstr "waptagent, MacOS, déploiement, déployer, documentation, WAPT"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:21
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:21
 msgid ""
 "Currently, the agent has only been tested on `High Sierra <https://en."
 "wikipedia.org/wiki/MacOS_High_Sierra>`_ (version 10.13) and `Mojave "
@@ -44,41 +43,41 @@ msgstr ""
 "MacOS_Catalina>`_ (10.15). Catalina a peut-être introduit des changements "
 "qui pourraient empêcher l'agent WAPT de fonctionner."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:28
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:28
 msgid "Installing the WAPT Agent package from Tranquil IT's public repository"
 msgstr ""
 "Installer le paquet agent WAPT pour MacOS à partir du dépôt public de "
 "Tranquil IT"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:30
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:30
 msgid ""
-"download WAPT agent for Apple Mac OSX from `Tranquil IT public repository "
+"download WAPT agent for Apple Mac OSX from `Tranquil IT's public repository "
 "<https://wapt.tranquil.it/wapt/releases/latest/>`_;"
 msgstr ""
 "télécharger l'agent WAPT pour Apple Mac OSX à partir du `dépôt public "
 "Tranquil IT <https://wapt.tranquil.it/wapt/releases/latest/>`_ ;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:33
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:33
 msgid "install the downloaded package:"
 msgstr "installer le paquet téléchargé :"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:40
-msgid "Creating the agent configuration file"
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:40
+msgid "Creating the agents configuration file"
 msgstr "Créer le fichier de configuration de l'agent WAPT pour MacOS"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:42
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:42
 msgid "The requisites for your WAPT agent to work are:"
 msgstr ""
 "Les conditions requises pour que votre agent WAPT puisse fonctionner sont "
 "les suivantes :"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:44
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:44
 msgid "``wapt-get.ini`` config file in :file:`/opt/wapt/`;"
 msgstr ""
 "Le fichier de configuration ``wapt-get.ini`` se trouve dans le fichier :"
 "file:`/opt/wapt/` ;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:46
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:46
 msgid ""
 "a public certificate of the package-signing authority in :file:`/opt/wapt/"
 "ssl/`;"
@@ -86,7 +85,7 @@ msgstr ""
 "un certificat public de l'autorité de signature des paquets dans :file:`/"
 "opt/wapt/ssl/` ;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:48
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:48
 msgid ""
 "You need to create and configure the :file:`wapt-get.ini` file in :file:`/"
 "opt/wapt` (:ref:`wapt-get-ini`)."
@@ -94,7 +93,7 @@ msgstr ""
 "Vous devez créer et configurer le fichier :file:`wapt-get.ini` dans :file:`/"
 "opt/wapt` (:ref:`wapt-get-ini`)."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:51
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:51
 msgid ""
 "An example of what it should look like is present further down on this "
 "page. You may use it after changing the parameters to suit your needs."
@@ -103,11 +102,11 @@ msgstr ""
 "cette page. Vous pouvez l'utiliser après avoir modifié les paramètres en "
 "fonction de vos besoins."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:68
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:68
 msgid "Copying the package-signing certificate"
 msgstr "Copier le certificat Code-Signing"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:70
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:70
 msgid ""
 "You need to copy manually, or by script, the public certificate of your "
 "package signing certificate authority."
@@ -115,7 +114,7 @@ msgstr ""
 "Vous devez copier manuellement, ou par script, le certificat public de "
 "votre autorité de certification de signature de paquets."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:73
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:73
 msgid ""
 "The certificate should be located on your Windows machine in :file:`C:\\"
 "\\Program Files (x86)\\\\wapt\\\\ssl\\\\`."
@@ -123,7 +122,7 @@ msgstr ""
 "Le certificat devrait être situé sur votre machine Windows dans :file:`C:\\"
 "\\Program Files (x86)\\\\wapt\\\\ssl\\\\`."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:76
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:76
 msgid ""
 "Copy your certificate(s) in :file:`/opt/wapt/ssl` using :program:`WinSCP` "
 "or :program:`rsync`."
@@ -131,11 +130,11 @@ msgstr ""
 "Copier les certificat(s) dans :file:`/opt/wapt/ssl` en utilisant :program:"
 "`WinSCP` ou :program:`rsync`."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:80
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:80
 msgid "Copying the SSL/TLS certificate"
 msgstr "Copier le certificat SSL/TLS"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:82
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:82
 msgid ""
 "If you already have configured your WAPT server to use correct :ref:`Nginx "
 "SSL/TLS certificates <activating_HTTPS_certificate_verification>`, you must "
@@ -146,7 +145,7 @@ msgstr ""
 "<activating_HTTPS_certificate_verification>`, vous devez copier le "
 "certificat dans votre agent WAPT Linux."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:86
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:86
 msgid ""
 "The certificate should be located on your Windows machine in :file:`C:\\"
 "\\Program Files (x86)\\\\wapt\\\\ssl\\\\server\\\\`."
@@ -154,7 +153,7 @@ msgstr ""
 "Le certificat devrait être situé sur votre machine Windows dans :file:`C:\\"
 "\\Program Files (x86)\\\\wapt\\\\ssl\\\\server\\\\`."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:89
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:89
 msgid ""
 "Copy your certificate(s) in :file:`/opt/wapt/ssl/server/` using :program:"
 "`WinSCP` or :program:`rsync`."
@@ -162,15 +161,15 @@ msgstr ""
 "Copier le(s) certificat(s) dans :file:`/opt/wapt/ssl/server/` en utilisant :"
 "program:`WinSCP` ou :program:`rsync`."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:93
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:93
 msgid "Registering your MacOS agent"
 msgstr "Enregistrer votre agent MacOS avec le serveur WAPT"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:95
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:95
 msgid "restart the WAPT service:"
 msgstr "redémarrer le serveur WAPT :"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:101
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:101
 msgid ""
 "finally, execute the following command to register your MacOS host with the "
 "WAPT server:"
@@ -178,7 +177,7 @@ msgstr ""
 "enfin, exécuter la commande suivante pour enregistrer votre hôte MacOS "
 "auprès du serveur WAPT :"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:109
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:109
 msgid ""
 "Your MacOS Agent is now installed and configured and it will now appear in "
 "your WAPT Console with a MacOS icon."

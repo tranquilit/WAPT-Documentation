@@ -2,28 +2,27 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-10 12:32+0100\n"
-"PO-Revision-Date: 2020-03-10 15:34+0100\n"
+"POT-Creation-Date: 2020-03-25 18:00+0100\n"
+"PO-Revision-Date: 2020-03-26 12:26+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
-"Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
-"X-Generator: Poedit 1.8.8\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: fr\n"
+"X-Generator: Poedit 2.0.6\n"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:8
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:17
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:8
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:17
 msgid "Replicating a repository to preserve the bandwidth on remote sites"
 msgstr "Répliquer un dépôt pour préserver la bande passante des sites secondaires"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:8
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:8
 msgid "multiple repositories, WAPT, replication, replicate, bandwidth management"
 msgstr "multi-dépôts, WAPT, réplication, répliquer, gestion de la bande passante"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:19
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:19
 msgid ""
 "When WAPT is used on bandwidth limited remote sites, it makes sense to have a "
 "local device that will replicate the main WAPT repository to reduce the network "
@@ -34,7 +33,7 @@ msgstr ""
 "pour alléger la charge réseau liée aux déploiement des mises à jour WAPT sur les "
 "machines de votre parc."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:23
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:23
 msgid ""
 "With remote repositories, WAPT remains a solution with a low operating cost "
 "because you don't have to implement high bandwidth fiber links to take advantage "
@@ -43,15 +42,15 @@ msgstr ""
 "Ainsi, WAPT reste une solution à faible coût d'exploitation car vous n'aurez pas "
 "à passer à la fibre pour bénéficier des avantages de WAPT."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:31
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:31
 msgid "Replicating WAPT repositories"
 msgstr "Répliquer un dépôt"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:33
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:33
 msgid "It works as follows:"
 msgstr "Le principe est le suivant :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:35
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:35
 msgid ""
 "a small form factor and no maintenance appliance with the role of secondary "
 "repository is deployed on the local network of each remote site; a workstation "
@@ -63,7 +62,7 @@ msgstr ""
 "travail peut également être utilisé, bien qu'il puisse ne pas être allumé quand "
 "vous souhaiteriez vous y connecter ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:40
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:40
 msgid ""
 "the remote repository replicates the packages from the main repository and other "
 "repositories;"
@@ -71,13 +70,13 @@ msgstr ""
 "le dépôt distant réplique les paquets depuis le dépôt principal WAPT et les "
 "éventuels dépôts secondaires ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:43
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:43
 msgid ""
 "the WAPT clients connect in priority with the repository that is the closest to "
 "them, the local repository;"
 msgstr "les clients WAPT consultent en priorité le dépôt le plus proche ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:48
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:48
 msgid ""
 "The former method used to sync repositories was Syncthing and that method is "
 "available both for the Community and the Enterprise versions of WAPT."
@@ -86,25 +85,25 @@ msgstr ""
 "cette méthode est disponible à la fois pour la version communautaire et la "
 "version Entreprise du WAPT."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:51
-msgid "You can find the old documentation here : :ref:`syncthing_usage`."
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:51
+msgid "You can find the old documentation here: :ref:`syncthing_usage`."
 msgstr "Vous pouvez trouver l'ancienne documentation ici : :ref:`syncthing_usage`."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:53
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:53
 msgid "**The method explained below is for the Enterprise version only**."
 msgstr ""
 "**La méthode expliquée ci-dessous s'applique uniquement à la version "
 "Enterprise**."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:56
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:56
 msgid "WAPT Agent replication role"
 msgstr "Rôle de réplication de l'agent WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:58
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:58
 msgid "1.8 Enterprise"
 msgstr "1.8 Enterprise"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:60
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:60
 msgid ""
 "Starting with WAPT 1.8, repository replication can be enabled using a WAPT agent "
 "installed on an existing machine, a dedicated appliance or Virtual Machine."
@@ -113,7 +112,7 @@ msgstr ""
 "agent WAPT installé sur une machine existante, une *appliance* dédiée ou une "
 "machine virtuelle."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:63
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:63
 msgid ""
 "The replication role is deployed through a WAPT package that enables the :"
 "program:`Nginx web server` and configures scheduling, packages types, packages "
@@ -123,7 +122,7 @@ msgstr ""
 "serveur web :program:`Nginx` et configure le déclenchement des mises à jour, les "
 "types de paquets, la synchronisation des paquets, et bien plus encore."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:67
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:67
 msgid ""
 "This feature allows WAPT agents to find dynamically their closest available WAPT "
 "repository from a list of rules stored on the WAPT server."
@@ -132,11 +131,11 @@ msgstr ""
 "WAPT disponible le plus proche à partir d'une liste de règles stockées sur le "
 "serveur WAPT."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:71
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:71
 msgid "Replication behavior"
 msgstr "Comportement de réplication"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:73
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:73
 msgid ""
 "Repository replication in WAPT is now handled by WAPT agents natively "
 "(**Enterprise versions only**)."
@@ -144,7 +143,7 @@ msgstr ""
 "La réplication du dépôt dans WAPT est maintenant nativement gérée par des agents "
 "WAPT spéciaux (**Versions entreprise uniquement**)."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:76
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:76
 msgid ""
 "It is based on a :file:`sync.json` file which indexes every files present in "
 "these folders:"
@@ -152,23 +151,23 @@ msgstr ""
 "Il est basé sur un fichier :file:`sync.json` qui indexe tous les fichiers "
 "présents dans ces dossiers :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:79
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:79
 msgid "wapt;"
 msgstr "wapt ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:81
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:81
 msgid "waptwua;"
 msgstr "waptwua ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:83
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:83
 msgid "wapt-host;"
 msgstr "wapt-host ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:85
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:85
 msgid "Enabling replication has the following effects:"
 msgstr "Permettre la réplication a les effets suivants :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:87
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:87
 msgid ""
 "once ``enable_remote_repo`` is enabled on a WAPT agent, it will sync packages "
 "locally inside the :file:`local_repo_path` folder;"
@@ -176,7 +175,7 @@ msgstr ""
 "une fois ``enable_remote_repo`` activé sur un agent WAPT, il synchronisera les "
 "paquets localement dans le dossier :file:`local_repo_path` ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:90
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:90
 msgid ""
 "it adds the WAPT agent in the :guilabel:`Repositories` tab as a Remote "
 "repository, enabling new actions such as :guilabel:`Force Sync` or :guilabel:"
@@ -186,7 +185,7 @@ msgstr ""
 "permettant de nouvelles actions telles que :guilabel:`Forcer la Syncro` ou :"
 "guilabel:`Vérifier les fichiers` ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:94
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:94
 msgid ""
 "by default, only the :file:`wapt` folder is synchronized, you can select which "
 "folder to sync by adding up elements in ``remote_repo_dirs`` parameters;"
@@ -195,7 +194,7 @@ msgstr ""
 "sélectionner le dossier à synchroniser en ajoutant des éléments dans les "
 "paramètres ``remote_repo_dirs`` ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:97
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:97
 msgid ""
 "synchronization period can be configured with ``local_repo_time_for_sync_start`` "
 "and ``local_repo_time_for_sync_stop`` parameters;"
@@ -203,7 +202,7 @@ msgstr ""
 "La tranche horaire de synchronisation peut être configurée avec les paramètres "
 "``local_repo_time_for_sync_start`` et ``local_repo_time_for_sync_stop`` ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:100
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:100
 msgid ""
 "bandwidth allocated to sync can be configured with "
 "``local_repo_limit_bandwidth``;"
@@ -211,7 +210,7 @@ msgstr ""
 "La bande passante allouée à la synchronisation peut être configurée avec "
 "``local_repo_limit_bandwidth`` ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:102
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:102
 msgid ""
 "Every parameters of WAPT repository sync must be set in the ``[repo-sync]`` "
 "section of the WAPT agent's :file:`wapt-get.ini` configuration file."
@@ -220,15 +219,15 @@ msgstr ""
 "dans la section ``[repo-sync]`` du fichier de configuration :file:`wapt-get.ini` "
 "de l'agent WAPT."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:110
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:110
 msgid "Replication role behavior"
 msgstr "Comportement de réplication"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:113
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:113
 msgid "Enabling replication on WAPT Agent"
 msgstr "Permettre la réplication sur l'agent WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:115
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:115
 msgid ""
 "To enable replication on an existing agent (Linux/Windows) you need to deploy a "
 "WAPT package. It's role is to:"
@@ -236,19 +235,19 @@ msgstr ""
 "Pour permettre la réplication sur un agent existant (Linux/Windows), vous devez "
 "déployer un paquet WAPT. Son rôle est de :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:118
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:118
 msgid "install and enable the :program:`Nginx web server`;"
 msgstr "installer et activer le programme :program:`Nginx web server` ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:120
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:120
 msgid "configure nginx virtualhost;"
 msgstr "configurer l'hôte virtuel nginx ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:122
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:122
 msgid "enable remote repository configuration in :file:`wapt-get.ini`;"
 msgstr "activer la configuration du dépôt distant dans :file:`wapt-get.ini` ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:124
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:124
 msgid ""
 "A ready-to-use WAPT package is available in our public store to enable "
 "repository replication on Windows or Linux WAPT agents: https://store.wapt.fr/"
@@ -258,11 +257,11 @@ msgstr ""
 "permettre la réplication du dépôt sur des agents WAPT Windows ou Linux : https://"
 "store.wapt.fr/store/tis-remote-repo-conf."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:129
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:129
 msgid "WAPT Agent replication configuration"
 msgstr "Configurer la réplication de l'agent WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:131
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:131
 msgid ""
 "WAPT Agent replication configuration is set in the ``[repo-sync]`` section in "
 "the :file:`wapt-get.ini` configuration file of the WAPT agent:"
@@ -271,141 +270,141 @@ msgstr ""
 "``[repo-sync]`` dans le fichier de configuration :file:`wapt-get.ini` de l'agent "
 "WAPT :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:135
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:176
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:211
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:241
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:135
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:176
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:211
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:241
 msgid "Options"
 msgstr "Options"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:135
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:241
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:135
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:241
 msgid "Mandatory"
 msgstr "Obligatoire"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:135
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:176
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:211
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:241
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:135
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:176
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:211
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:241
 msgid "Example value"
 msgstr "Valeur Exemple"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:135
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:176
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:211
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:241
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:135
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:176
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:211
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:241
 msgid "Definition"
 msgstr "Définition"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:137
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:137
 msgid "``enable_remote_repo``"
 msgstr "``enable_remote_repo``"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:137
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:139
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:137
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:139
 msgid "Yes"
 msgstr "Yes"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:137
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:243
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:137
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:243
 msgid "``True``"
 msgstr "``True``"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:137
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:137
 msgid "Enables remote repository sync connections."
 msgstr "Déclenche les connexions de synchronisation des dépôts à distance."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:139
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:139
 msgid "``local_repo_path``"
 msgstr "``local_repo_path``"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:139
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:139
 msgid "``/var/www/``"
 msgstr "``/var/www/``"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:139
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:139
 msgid "Set local packages root repository path"
 msgstr "Définit le chemin racine des paquets locaux"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:141
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:141
 msgid "``local_repo_time_for_sync_start``"
 msgstr "``local_repo_time_for_sync_start``"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:141
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:143
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:145
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:147
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:149
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:243
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:141
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:143
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:145
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:147
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:149
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:243
 msgid "No"
 msgstr "No"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:141
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:141
 msgid "``22:30``"
 msgstr "``22:30``"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:141
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:141
 msgid "Set sync start time (HH:MM / 24h format)"
 msgstr "Set sync start time (HH:MM / 24h format)"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:143
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:143
 msgid "``local_repo_time_for_sync_end``"
 msgstr "``local_repo_time_for_sync_end``"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:143
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:143
 msgid "``05:30``"
 msgstr "``05:30``"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:143
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:143
 msgid "Set sync stop time (HH:MM / 24h format)"
 msgstr "Définit l'heure d'arrêt de la synchronisation (HH:MM / format 24h)"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:145
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:145
 msgid "``local_repo_sync_task_period``"
 msgstr "``local_repo_sync_task_period``"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:145
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:145
 msgid "``25``"
 msgstr "``25``"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:145
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:145
 msgid "Set sync period (minutes)"
 msgstr "Définit la fréquence de synchronisation (minutes)"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:147
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:147
 msgid "``local_repo_limit_bandwidth``"
 msgstr "``local_repo_limit_bandwidth``"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:147
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:147
 msgid "``2``"
 msgstr "``2``"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:147
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:147
 msgid "Set sync allowed bandwidth (Mbits/s)"
 msgstr "Définit la bande passante maximale allouée aux synchronisations (Mbits/s)"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:149
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:149
 msgid "``remote_repo_dirs``"
 msgstr "``remote_repo_dirs``"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:149
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:149
 msgid "``wapt,waptwua,wapt-host``"
 msgstr "``wapt,waptwua,wapt-host``"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:149
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:149
 msgid "Set synced folders (default: wapt,waptwua)"
 msgstr "Définit les dossiers synchronisés (par défaut : wapt,waptwua)"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:152
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:246
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:152
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:246
 msgid "Below is an example of :file:`wapt-get.ini`:"
 msgstr "Vous trouverez ci-dessous un exemple d'un :file:`wapt-get.ini` :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:170
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:170
 msgid "WAPT Server replication configuration"
 msgstr "Configuration de la réplication du serveur WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:172
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:172
 msgid ""
 "The WAPT Server needs to be aware of repositories to sync in the ``[options]`` "
 "section of its :file:`waptserver.ini` located in :file:`/opt/wapt/conf/`"
@@ -414,28 +413,28 @@ msgstr ""
 "``[options]`` de son fichier :file:`waptserver.ini` présent dans  :file:`/opt/"
 "wapt/conf/` :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:178
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:178
 msgid "``remote_repo_support``"
 msgstr "``remote_repo_support``"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:178
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:178
 msgid "True"
 msgstr "True"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:178
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:178
 msgid "Enables remote repository sync server side (sync.json)"
 msgstr "ajouter la machine distante :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:182
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:182
 msgid "Repository rules"
 msgstr "Règles relatives aux dépôts"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:185
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:201
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:185
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:201
 msgid "Repository rules behavior"
 msgstr "Comportement des règles de dépôt"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:187
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:187
 msgid ""
 "By enabling repository rules support, the WAPT agents will automatically "
 "retrieve their :file:`rules.json` file from the WAPT server."
@@ -443,7 +442,7 @@ msgstr ""
 "En activant la prise en charge des règles du dépôt, les agents WAPT récupéreront "
 "automatiquement leur fichier :file:`rules.json` sur le serveur WAPT."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:190
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:190
 msgid ""
 "The :file:`rules.json` file is a signed :mimetype:`.JSON` file that contains a "
 "list of sorted rules to apply to the WAPT agent, so to redirect its downloads "
@@ -453,7 +452,7 @@ msgstr ""
 "contient une liste de règles triées à appliquer à l'agent WAPT, afin de "
 "rediriger ses demandes de téléchargements vers le dépôt le plus approprié."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:194
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:194
 msgid ""
 "If no rules can be matched, WAPT agent fallbacks onto the ``repo_url`` settings "
 "of the WAPT server :file:`wapt-get.ini` configuration file."
@@ -461,91 +460,91 @@ msgstr ""
 "Si aucune règle ne s'applique, alors l'agent WAPT se rabat sur le paramètre "
 "``repo_url`` du fichier de configuration  :file:`wapt-get.ini` du serveur WAPT."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:204
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:204
 msgid "Enabling repository rules"
 msgstr "Répliquer un dépôtActiver les règles des dépôts"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:206
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:206
 msgid "Repository rules are configured in WAPT Console."
 msgstr "Les règles de dépôt sont configurées dans la console WAPT."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:208
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:208
 msgid "Rules can be based on several parameters:"
 msgstr "Les règles peuvent être basées sur plusieurs paramètres :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:213
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:213
 msgid "Domain name"
 msgstr "Le nom du domaine"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:213
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:213
 msgid "``ad.domain.lan``"
 msgstr "``ad.domain.lan``"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:213
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:213
 msgid "Rule based on Active Directory domain name"
 msgstr "Règle basée sur le nom de domaine Active Directory"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:215
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:215
 msgid "Domain sites and services"
 msgstr "Sites et services du domaine"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:215
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:215
 msgid "``Paris-HQ``"
 msgstr "Sites et services du domaine"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:215
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:215
 msgid "Rule based on Active Directory Sites and Services"
 msgstr "Règle basée sur les sites et services Active Directory"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:217
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:217
 msgid "Agent IP"
 msgstr "IP de l'agent"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:217
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:217
 msgid "``192.168.85.0/24``"
 msgstr "``192.168.85.0/24``"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:217
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:217
 msgid "Rule based on Agent IP sub-network"
 msgstr "Règle basée sur le sous-réseau IP de l'agent WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:219
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:219
 msgid "Public IP"
 msgstr "IP publique"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:219
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:219
 msgid "``256.89.299.22/32``"
 msgstr "``256.89.299.22/32``"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:219
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:219
 msgid "Rule based on Public IP (NATed hosts)"
 msgstr "Règle basée sur l'IP publique de l'agent WAPT (hôtes NATés)"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:221
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:221
 msgid "Hostname"
 msgstr "Nom d'hôte"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:221
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:221
 msgid "``desktop-04feb1``"
 msgstr "``desktop-04feb1``"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:221
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:221
 msgid "Rule based on hostname"
 msgstr "Règle basée sur le nom d'hôte"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:225
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:225
 msgid "Adding a rule in the WAPT Console"
 msgstr "Ajouter une règle dans la console WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst
 msgid "TODO"
 msgstr "TODO"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:230
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:230
 msgid "Using repository rules on WAPT agents"
 msgstr "Utiliser des règles de dépôt sur les agents WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:234
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:234
 msgid ""
 "**If you have configured GeoIP redirects on Nginx, you should disable it as it "
 "might conflicts with repository rules**."
@@ -553,7 +552,7 @@ msgstr ""
 "**Si vous avez configuré des redirections GeoIP sur Nginx, vous devriez les "
 "désactiver car elles pourraient entrer en conflit avec les règles du dépôt**."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:237
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:237
 msgid ""
 "To enable WAPT Agent repository rules, you must enable this setting in the "
 "``[global]`` section of :file:`wapt-get.ini` configuration of the WAPT agent:"
@@ -562,10 +561,10 @@ msgstr ""
 "paramètre dans la section ``[global]`` du fichier de configuration :file:`wapt-"
 "get.ini` de l'agent WAPT :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:243
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:243
 msgid "``use_repo_rules``"
 msgstr "``use_repo_rules``"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:243
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-replication/wapt-replicate-to-multiple-repositories/index.rst:243
 msgid "Enables repository rules usage"
 msgstr "Permettre l'utilisation des règles du dépôt"

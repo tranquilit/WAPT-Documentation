@@ -3035,7 +3035,7 @@ Other changes
   with both sha1 and sha256 hashes, and WAPT 1.5 signature style
   (control data is signed as well as files)
 
-* fix for local GPO add_shutdown_script() function (thanks jf-guillou !)
+* fix for local GPO add_shutdown_script() function (thanks jf-guillou!)
 
 * fix for :program:`waptsetup.exe` postinstall actions (:command:`update` / :command:`register`)
   when running :program:`waptsetup.exe` installer without elevated priviledges: added *runascurrentuser* flag

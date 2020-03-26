@@ -3,23 +3,23 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 14:09+0100\n"
-"PO-Revision-Date: 2019-02-27 11:08+0100\n"
+"POT-Creation-Date: 2020-03-25 13:16+0100\n"
+"PO-Revision-Date: 2020-03-26 12:12+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
-"Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: fr\n"
+"X-Generator: Poedit 2.0.6\n"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:8
-#: ../../source/wapt-configuration/waptconsole/index.rst:16
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:8
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:16
 msgid "Installing the WAPT management console"
 msgstr "Installer la console de management WAPT"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:8
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:8
 msgid ""
 "waptconsole.exe, console, WAPT, installation, preferences, management, "
 "documentation"
@@ -27,275 +27,267 @@ msgstr ""
 "waptconsole.exe, console, WAPT, installation, préférences, management, "
 "documentation"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:20
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:20
 msgid ""
-"managing WAPT is done mainly via the WAPT console installed on the "
-":term:`Administrator`'s workstation;"
+"managing WAPT is done mainly via the WAPT console installed on the :term:"
+"`Administrator`'s workstation;"
 msgstr ""
-"l'administration du serveur WAPT se fait grâce à une console installée "
-"sur la station de travail de l':term:`Administrateur` ;"
+"l'administration du serveur WAPT se fait grâce à une console installée sur la "
+"station de travail de l':term:`Administrateur` ;"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:23
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:23
 msgid ""
-"the Administrator's computer must be joined to the :term:`Organization`'s"
-" Active Directory;"
+"the Administrator's computer must be joined to the :term:`Organization`'s "
+"Active Directory;"
 msgstr ""
-"la machine d'administration doit être membre du domaine Active Directory "
-"de l':term:`Organisation` ;"
+"la machine d'administration doit être membre du domaine Active Directory de l':"
+"term:`Organisation` ;"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:26
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:26
 msgid ""
-"the host name of the Administrator's workstation must not be longer than "
-"15 characters. This is a limit of sAMAccountName attribute in Active "
-"Directory;"
+"the host name of the Administrator's workstation must not be longer than 15 "
+"characters. This is a limit of sAMAccountName attribute in Active Directory;"
 msgstr ""
 "le nom de la machine d'administration ne doit pas dépasser 15 caractères "
 "(limite liée au sAMAccountName dans Active Directory) ;"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:30
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:30
 msgid ""
-"the Administrator's computer will become critical for WAPT administration"
-" and WAPT packages testing;"
+"the Administrator's computer will become critical for WAPT administration and "
+"WAPT package testing;"
 msgstr ""
-"ce poste sera critique pour l'administration de WAPT et les tests de "
-"paquets WAPT ;"
+"le poste de l'Administrateur sera critique pour l'administration de WAPT et les "
+"tests de paquets WAPT ;"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:33
-#: ../../source/wapt-configuration/waptconsole/index.rst:53
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:33
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:53
 msgid ""
-"if DNS records are properly configured, you should be able to access the "
-"WAPT web interface by visiting: https://srvwapt.mydomain.lan;"
+"if DNS records are properly configured, you should be able to access the WAPT "
+"web interface by visiting: https://srvwapt.mydomain.lan;"
 msgstr ""
-"Si vos DNS sont correctement configurés, vous pourrez télécharger la "
-"console depuis le serveur WAPT en visitant : "
-"https://srvwapt.mydomain.lan ;"
+"si vos DNS sont correctement configurés, vous pourrez télécharger la console "
+"depuis le serveur WAPT en visitant : https://srvwapt.mydomain.lan ;"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:37
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:37
 msgid ""
 "Downloading and launching the installation of the WAPT console on the "
 "Administrator's computer"
 msgstr ""
-"Télécharger et lancer l'installation de la console sur le poste "
-"Administrateur"
+"Télécharger et lancer l'installation de la console sur le poste Administrateur"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:41
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:41
 msgid ""
-"Warning, the WAPT console **MUST NOT** be installed on your Windows based"
-" WAPT Server."
+"Warning, the WAPT console **MUST NOT** be installed on your Windows based WAPT "
+"Server."
 msgstr ""
 "Attention, la console **NE DOIT PAS** être installée sur le serveur WAPT "
 "Windows."
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:44
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:44
 msgid ""
-"The WAPT console must be installed on the workstation from which you "
-"manage your network."
+"The WAPT console must be installed on the workstation from which you manage "
+"your network."
 msgstr ""
 "La console doit être installée sur le poste à partir duquel vous faites "
 "l'administration de votre réseau."
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:51
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:51
 msgid "WAPT Server web interface"
 msgstr "Console d'administration Web du serveur WAPT"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:56
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:56
 msgid ""
-"click on :guilabel:`WAPTSetup` link on the right-hand side of the WAPT "
-"Server web page;"
+"click on :guilabel:`WAPTSetup` link on the right-hand side of the WAPT Server "
+"web page;"
 msgstr ""
-"cliquer sur :guilabel:`WAPTSetup` disponible sur la partie droite de la "
-"page web de votre serveur WAPT ;"
+"cliquer sur :guilabel:`WAPTSetup` disponible sur la partie droite de la page "
+"web de votre serveur WAPT ;"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:59
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:59
 msgid ""
-"start the executable installer as :term:`Local Administrator` on the "
-":term:`Administrator`'s workstation;"
+"start the executable installer as :term:`Local Administrator` on the :term:"
+"`Administrator`'s workstation;"
 msgstr ""
-"lancer l'exécutable en tant qu':term:`Administrateur Local` de la machine"
-" de l':term:`Administrateur` ;"
+"lancer l'exécutable en tant qu':term:`Administrateur Local` de la machine de l':"
+"term:`Administrateur` ;"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:62
-#: ../../source/wapt-configuration/waptconsole/index.rst:130
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:62
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:130
 msgid ""
-"choose the language and click on :guilabel:`OK` to install the WAPT "
-"console;"
+"choose the language and click on :guilabel:`OK` to install the WAPT console;"
 msgstr ""
-"choisir la langue et cliquer sur :guilabel:`OK` pour lancer "
-"l'installation ;"
+"choisir la langue et cliquer sur :guilabel:`OK` pour lancer l'installation ;"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:68
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:68
 msgid "Choose the language for WAPT"
 msgstr "Choisir la langue pour WAPT"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:70
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:70
 msgid "click on :guilabel:`OK` to go on to the next step;"
 msgstr "cliquer sur :guilabel:`OK` pour passer à l'étape suivante ;"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:76
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:76
 msgid "Accept the WAPT license terms"
 msgstr "Accepter la licence pour le logiciel WAPT"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:78
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:78
 msgid "accept the licence terms and click on :guilabel:`Next` to go to next step;"
 msgstr ""
-"cliquer sur :guilabel:`Suivant` pour passer à l'étape suivante et "
-"accepter la licence ;"
+"cliquer sur :guilabel:`Suivant` pour passer à l'étape suivante et accepter la "
+"licence ;"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:80
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:80
 msgid ""
-"choose the WAPT destination folder (:file:`C:\\\\Program Files "
-"(x86)\\\\wapt` by default);"
+"choose the WAPT destination folder (:file:`C:\\\\Program Files (x86)\\\\wapt` "
+"by default);"
 msgstr ""
-"choisir le dossier d'installation (:file:`C:\\Program Files (x86)\\wapt` "
-"par défaut) ;"
+"choisir le dossier d'installation (:file:`C:\\Program Files (x86)\\wapt` par "
+"défaut) ;"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:87
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:87
 msgid "Choose the WAPT destination folder"
 msgstr "Choisir le dossier d'installation de WAPT"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:89
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:89
 msgid ""
-"click on :guilabel:`Next` and choose your installation options (default "
-"value should be right for most installations);"
+"click on :guilabel:`Next` and choose your installation options (default value "
+"should be right for most installations);"
 msgstr ""
-"cliquer sur :guilabel:`Suivant` et choisir les options d'installation "
-"(les valeurs par défaut sont bonnes) ;"
+"cliquer sur :guilabel:`Suivant` et choisir les options d'installation (les "
+"valeurs par défaut sont bonnes) ;"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:96
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:96
 msgid "Choose the installer's options"
 msgstr "Choisir les options d'installation"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:100
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:100
 msgid ""
-"check :guilabel:`Install WAPT service` if you want to have the WAPT "
-"service running on your :term:`Administrator` workstation;"
+"check :guilabel:`Install WAPT service` if you want to have the WAPT service "
+"running on your :term:`Administrator` workstation;"
 msgstr ""
-"cocher :guilabel:`Installer le service WAPT` pour lancer l'agent WAPT sur"
-" votre poste d':term:`Administrateur` ;"
+"cocher :guilabel:`Installer le service WAPT` pour lancer l'agent WAPT sur votre "
+"poste d':term:`Administrateur` ;"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:103
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:103
 msgid ""
-"check :guilabel:`Launch notification tray upon session opening` if you "
-"want to have the WAPT icon running in the tray by default;"
+"check :guilabel:`Launch notification tray upon session opening` if you want to "
+"have the WAPT icon running in the tray by default;"
 msgstr ""
 "cocher :guilabel:`Lancer l'icône de notification lors de l'ouverture de "
 "session` pour que l'icône WAPT soit accessible dans la barre des tâches ;"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:107
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:107
 msgid "Setting up the WAPT Server URL"
 msgstr "Indiquer l'adresse du serveur WAPT"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:111
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:111
 msgid ""
-"Here, two choices become available to you, you may choose to be guided by"
-" the configuration wizard and go directly to "
-":ref:`using_the_WAPT_console`, or you may choose to continue manually "
-"with the configuration."
+"Here, two choices become available to you, you may choose to be guided by the "
+"configuration wizard and go directly to :ref:`using_the_WAPT_console`, or you "
+"may choose to continue manually with the configuration."
 msgstr ""
 "Ici deux choix s'offrent à vous, vous pouvez vous laisser guider par "
-"l'assistant de configuration et passer directement à "
-":ref:`using_the_WAPT_console`, ou vous pouvez continuer la configuration "
+"l'assistant de configuration et passer directement à :ref:"
+"`using_the_WAPT_console`, ou vous pouvez continuer la configuration "
 "manuellement."
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:119
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:119
 msgid "Choose the WAPT repository and server"
 msgstr "Choisir le dépôt et le serveur WAPT"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:123
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:123
 msgid "Example:"
 msgstr "Exemple :"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:125
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:125
 msgid "WAPT repository URL: http://srvwapt.mydomain.lan/wapt"
 msgstr "Repos url : https://srvwapt.mydomain.lan/wapt"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:127
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:127
 msgid "WAPT Server URL: https://srvwapt.mydomain.lan"
 msgstr "Server url : https://srvwapt.mydomain.lan"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:132
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:132
 msgid ""
-"click :guilabel:`Next` and then :guilabel:`Install` to launch the "
-"installation, wait for the installation to complete, then click on "
-":guilabel:`Finish` (leave default options);"
+"click :guilabel:`Next` and then :guilabel:`Install` to launch the installation, "
+"wait for the installation to complete, then click on :guilabel:`Finish` (leave "
+"default options);"
 msgstr ""
-"cliquer sur :guilabel:`Installer` pour passer à l'étape suivante, "
-"attendre la fin de l'installation puis cliquer sur :guilabel:`Fin` "
-"(laisser les options par défaut) ;"
+"cliquer sur :guilabel:`Installer` pour passer à l'étape suivante, attendre la "
+"fin de l'installation puis cliquer sur :guilabel:`Fin` (laisser les options par "
+"défaut) ;"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:140
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:140
 msgid "Installation Wizard has finished"
 msgstr "Assistant d'installation terminé"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:144
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:144
 msgid ""
-"check :guilabel:`Register this computer onto WAPT server` to register the"
-" computer with the WAPT Server;"
+"check :guilabel:`Register this computer onto WAPT server` to register the "
+"computer with the WAPT Server;"
 msgstr ""
 "cocher :guilabel:`Enregistrer cet ordinateur dans le serveur WAPT` pour "
 "enregistrer l'ordinateur dans l'inventaire central WAPT ;"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:147
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:147
 msgid ""
-"check :guilabel:`Update the list of available package on the main "
-"repository` to download the list of available packages from the WAPT "
-"repository;"
+"check :guilabel:`Update the list of available package on the main repository` "
+"to download the list of available packages from the WAPT repository;"
 msgstr ""
-"cocher :guilabel:`Mettre à jour la liste des paquets disponibles sur le "
-"dépôt principal` pour télécharger la liste des paquets disponibles ;"
+"cocher :guilabel:`Mettre à jour la liste des paquets disponibles sur le dépôt "
+"principal` pour télécharger la liste des paquets disponibles ;"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:155
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:155
 msgid "Starting the WAPT console"
 msgstr "Lancer la console WAPT"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:157
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:157
 msgid ""
-"launch the WAPT console by looking for the binary :file:`C:\\\\Program "
-"Files (x86)\\\\wapt\\\\waptconsole.exe`"
+"launch the WAPT console by looking for the binary :file:`C:\\\\Program Files "
+"(x86)\\\\wapt\\\\waptconsole.exe`"
 msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:160
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:160
 msgid ""
-"on first start, you must start the WAPT console with elevated privileges."
-" :menuselection:`Right-click on the WAPT console binary --> Start as "
-"Local Administrator`;"
+"on first start, you must start the WAPT console with elevated privileges. :"
+"menuselection:`Right-click on the WAPT console binary --> Start as Local "
+"Administrator`;"
 msgstr ""
-"au premier lancement, lancer la console avec élévation de privilège : "
-":menuselection:`Clic-droit sur waptconsole.exe --> Exécuter en tant "
+"au premier lancement, lancer la console avec élévation de privilège : :"
+"menuselection:`Clic-droit sur waptconsole.exe --> Exécuter en tant "
 "qu'Administrateur Local` ;"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:164
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:164
 msgid "log into the WAPT console with the :term:`SuperAdmin` login and password;"
 msgstr ""
-"s'identifier sur la console de management avec l'identifiant et le mot de"
-" passe de :term:`SuperAdmin` ;"
+"s'identifier sur la console de management avec l'identifiant et le mot de passe "
+"de :term:`SuperAdmin` ;"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:171
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:171
 msgid "WAPT Server connexion form"
 msgstr "Mire de connexion au serveur WAPT"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:173
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:173
 msgid ""
-"if you have any issue logging into the WAPT console, please refer to the "
-"FAQ: :ref:`msg_error_open`;"
+"if you have any issue logging into the WAPT console, please refer to the FAQ: :"
+"ref:`msg_error_open`;"
 msgstr ""
-"Si vous rencontrez des problèmes pour vous connecter à la console WAPT, "
-"visitez la :ref:`section des problèmes fréquents <msg_error_open>`."
+"Si vous rencontrez des problèmes pour vous connecter à la console WAPT, visitez "
+"la :ref:`section des problèmes fréquents <msg_error_open>`."
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:178
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:178
 msgid ""
-"A message may appear indicating that your WAPT agent version is obsolete "
-"or not yet present."
+"A message may appear indicating that your WAPT agent version is obsolete or not "
+"yet present."
 msgstr "Un message peut apparaître indiquant que l'agent WAPT est introuvable."
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:185
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:185
 msgid "Mismatch error between the versions of the console and that of the agent"
 msgstr "Erreur de disparité entre la version de la console et de l'agent"
 
-#: ../../source/wapt-configuration/waptconsole/index.rst:187
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:187
 msgid ""
-"Go to the next step to :ref:`create your certificate "
-"<create_certificate>`!!"
+"Go to the next step to :ref:`create your certificate <create_certificate>`!!"
 msgstr ""
 "Passez à l'étape suivante pour :ref:`créer votre certificat "
 "<create_certificate>`."

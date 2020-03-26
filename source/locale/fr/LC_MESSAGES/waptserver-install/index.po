@@ -3,200 +3,149 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-10 12:32+0100\n"
-"PO-Revision-Date: 2020-03-10 16:23+0100\n"
+"POT-Creation-Date: 2020-03-25 13:16+0100\n"
+"PO-Revision-Date: 2020-03-26 12:39+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
-"Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
-"X-Generator: Poedit 1.8.8\n"
-"X-Poedit-SourceCharset: UTF-8\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: fr\n"
+"X-Generator: Poedit 2.0.6\n"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/index.rst:8
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/index.rst:15
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/index.rst:8
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/index.rst:15
 msgid "Installing the WAPT Server"
 msgstr "Installer le serveur WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/index.rst:8
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/index.rst:8
 msgid "install, WAPT, documentation"
 msgstr "installer, WAPT, documentation"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/index.rst:17
-msgid ""
-"The WAPT Server can be installed on Debian Linux, CentOS or Microsoft "
-"Windows **64 bits only**."
-msgstr ""
-"Le serveur WAPT s'installe sur Linux Debian, Linux CentOS / RedHat ou "
-"Microsoft Windows **64bit uniquement**."
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/index.rst:17
+msgid "The WAPT Server can be installed on Debian Linux, CentOS or Microsoft Windows **64 bits only**."
+msgstr "Le serveur WAPT s'installe sur Linux Debian, Linux CentOS / RedHat ou Microsoft Windows **64bit uniquement**."
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/index.rst:21
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/index.rst:21
 msgid "Installation tips and requirements"
 msgstr "Préconisations d'installation"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/index.rst:23
-msgid ""
-"You have to take into consideration a few security points in order to "
-"get all the benefits of WAPT:"
-msgstr ""
-"Quelques considérations de sécurité sont à prendre en compte afin de "
-"garantir un fonctionnement optimal de WAPT :"
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/index.rst:23
+msgid "You have to take into consideration a few security points in order to get all the benefits of WAPT:"
+msgstr "Quelques considérations de sécurité sont à prendre en compte afin de garantir un fonctionnement optimal de WAPT :"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/index.rst:26
-msgid ""
-"we advise you to install WAPT Server on a Linux server (Debian or "
-"CentOS) following the security recommendations of French :term:`ANSSI` "
-"or the `recommendations of your state cyberdefense agency <https://www."
-"ssi.gouv.fr/uploads/2015/10/NP_Linux_Configuration.pdf>`_."
-msgstr ""
-"nous vous conseillons d'installer le serveur WAPT sur un serveur Linux "
-"(Debian ou CentOS) en suivant les recommandations de sécurité de l':term:"
-"`ANSSI` ou les `recommandations de votre agence nationale de "
-"cyberdéfense <https://www.ssi.gouv.fr/uploads/2015/10/"
-"NP_Linux_Configuration.pdf>`_."
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/index.rst:26
+msgid "we advise you to install WAPT Server on a Linux server (Debian or CentOS) following the security recommendations of French :term:`ANSSI` or the `recommendations of your state cyberdefense agency <https://www.ssi.gouv.fr/uploads/2015/10/NP_Linux_Configuration.pdf>`_."
+msgstr "nous vous conseillons d'installer le serveur WAPT sur un serveur Linux (Debian ou CentOS) en suivant les recommandations de sécurité de l':term:`ANSSI` ou les `recommandations de votre agence nationale de cyberdéfense <https://www.ssi.gouv.fr/uploads/2015/10/NP_Linux_Configuration.pdf>`_."
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/index.rst:31
-msgid ""
-"the WAPT Server must be installed on a **dedicated machine** (physical "
-"or virtual);"
-msgstr ""
-"l'installation d'un serveur WAPT doit être réalisée sur un serveur "
-"**réservé uniquement à cet usage** ;"
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/index.rst:31
+msgid "the WAPT Server must be installed on a **dedicated machine** (physical or virtual);"
+msgstr "l'installation d'un serveur WAPT doit être réalisée sur un serveur **réservé uniquement à cet usage** ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/index.rst:36
-msgid ""
-"In all steps of the documentation, you will not use any accent or "
-"special character for:"
-msgstr ""
-"Dans toutes les étapes de la documentation, vous n'utiliserez aucun "
-"accent ni caractère spécial pour :"
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/index.rst:36
+msgid "In all steps of the documentation, you will not use any accent or special character for:"
+msgstr "Dans toutes les étapes de la documentation, vous n'utiliserez aucun accent ni caractère spécial pour :"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/index.rst:39
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/index.rst:39
 msgid "user logins;"
 msgstr "le login des utilisateurs ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/index.rst:41
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/index.rst:41
 msgid "path to the private key and the certificate bundle;"
 msgstr "le chemin de la clé privée et du certificat ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/index.rst:43
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/index.rst:43
 msgid "the :abbr:`CN (Common Name)`;"
 msgstr "le :abbr:`CN (Common Name)` ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/index.rst:45
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/index.rst:45
 msgid "the installation path for WAPT;"
 msgstr "le chemin d'installation de WAPT ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/index.rst:47
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/index.rst:47
 msgid "group names;"
 msgstr "le noms de groupes ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/index.rst:49
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/index.rst:49
 msgid "the name of hosts or the the name of the server;"
 msgstr "le nom des machines et du serveur ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/index.rst:51
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/index.rst:51
 msgid "the path to the folder :file:`C:\\\\waptdev`;"
 msgstr "le chemin ver le répertoire :file:`C:\\\\waptdev` ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/index.rst:54
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/index.rst:54
 msgid "Hardware recommendations"
 msgstr "Préconisations matérielles"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/index.rst:56
-msgid ""
-"The WAPT Server can be installed either on a virtual server or a "
-"physical server."
-msgstr ""
-"WAPT s'installe dans une machine virtuelle ou directement sur une "
-"machine physique."
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/index.rst:56
+msgid "The WAPT Server can be installed either on a virtual server or a physical server."
+msgstr "WAPT s'installe dans une machine virtuelle ou directement sur une machine physique."
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/index.rst:59
-msgid "RAM and CPU recommandations are:"
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/index.rst:59
+msgid "RAM and CPU recommendations are:"
 msgstr "Les préconisation RAM et CPU pour le serveur WAPT sont :"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/index.rst:64
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/index.rst:64
 msgid "Size of the network"
 msgstr "Taille de parc"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/index.rst:64
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/index.rst:64
 msgid "CPU"
 msgstr "CPU"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/index.rst:64
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/index.rst:64
 msgid "RAM"
 msgstr "RAM"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/index.rst:66
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/index.rst:66
 msgid "From 0 to 200 desktops"
 msgstr "De 0 a 200 postes"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/index.rst:66
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/index.rst:66
 msgid "1 CPU"
 msgstr "1 CPU"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/index.rst:66
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/index.rst:66
 msgid "1024MB"
 msgstr "1024MB"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/index.rst:67
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/index.rst:67
 msgid "From 200 desktops onward"
 msgstr "A partir de 200 postes"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/index.rst:67
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/index.rst:67
 msgid "4 CPU"
 msgstr "4 CPU"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/index.rst:67
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/index.rst:67
 msgid "4096Mo"
 msgstr "4096Mo"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/index.rst:70
-msgid ""
-"A minimum of 10GB of free space is necessary for the system, the "
-"database and log files. **For better performance, Tranquil IT recommends "
-"the database to be stored on fast storage, such as SSD drives or PCIe-"
-"based solid-state drives**."
-msgstr ""
-"Un minimum de 10 Go d'espace libre est nécessaire pour le système, la "
-"base de données et les fichiers de journalisation. **Pour de meilleures "
-"performances, Tranquil IT recommande que la base de données soit stockée "
-"sur des supports rapides, tels que des disques SSD ou des SSD sur PCIe**."
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/index.rst:70
+msgid "A minimum of 10GB of free space is necessary for the system, the database and log files. **For better performance, Tranquil IT recommends the database to be stored on fast storage, such as SSD drives or PCIe-based solid-state drives**."
+msgstr "Un minimum de 10 Go d'espace libre est nécessaire pour le système, la base de données et les fichiers de journalisation. **Pour de meilleures performances, Tranquil IT recommande que la base de données soit stockée sur des supports rapides, tels que des disques SSD ou des SSD sur PCIe**."
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/index.rst:75
-msgid ""
-"The overall disk requirement will depend on the number and size of your "
-"WAPT packages (softwares) that you will store on your main repository; "
-"30GB is a good start. It is not strictly required to store WAPT packages "
-"on fast drives."
-msgstr ""
-"Le besoin global en disque dépendra du nombre et de la taille de vos "
-"paquets WAPT (logiciels) que vous stockerez sur votre dépôt principal ; "
-"30 Go est un bon début. Il n'est pas strictement nécessaire de stocker "
-"les paquets WAPT sur des lecteurs rapides."
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/index.rst:75
+msgid "The overall disk requirement will depend on the number and size of your WAPT packages (software) that you will store on your main repository; 30GB is a good start. It is not strictly required to store WAPT packages on fast drives."
+msgstr "Le besoin global en disque dépendra du nombre et de la taille de vos paquets WAPT (logiciels) que vous stockerez sur votre dépôt principal ; 30 Go est un bon début. Il n'est pas strictement nécessaire de stocker les paquets WAPT sur des lecteurs rapides."
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/index.rst:81
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/index.rst:81
 msgid "Configuring the DNS"
 msgstr "Configurer les DNS"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/index.rst:89
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/index.rst:89
 msgid "Installing WAPT Server on Debian Linux"
 msgstr "Installer le serveur WAPT sur Linux Debian"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/index.rst:98
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/index.rst:98
 msgid "Installing WAPT Server on CentOS7"
 msgstr "Installer le serveur WAPT sur CentOS7"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/index.rst:107
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/index.rst:107
 msgid "Installing WAPT Server on a Windows host"
 msgstr "Installer le serveur WAPT sur Windows"
 
 #~ msgid ""
-#~ "A minimum of 10GB of free space is necessary for the system, the "
-#~ "database and log files."
 #~ msgstr ""
-#~ "Un minimum de 10 Go d'espace disque est nécessaire pour le système, "
-#~ "la base de données et les logs."

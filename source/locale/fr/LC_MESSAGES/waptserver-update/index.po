@@ -3,28 +3,27 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-10 17:21+0100\n"
-"PO-Revision-Date: 2020-03-10 17:23+0100\n"
+"POT-Creation-Date: 2020-03-25 18:00+0100\n"
+"PO-Revision-Date: 2020-03-26 12:57+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
-"Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
-"X-Generator: Poedit 1.8.8\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: fr\n"
+"X-Generator: Poedit 2.0.6\n"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:8
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:24
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:8
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:24
 msgid "Upgrading the WAPT Server"
 msgstr "Mettre à jour le serveur WAPT"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:8
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:8
 msgid "WAPT, upgrade, upgrading, documentation"
 msgstr "WAPT, upgrade, upgrading, documentation"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:28
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:28
 msgid ""
 "If your WAPT Server is a virtual machine, take a snapshot of the VM. This "
 "way, you'll be able to go back easily in the rare case that the update fails."
@@ -33,84 +32,84 @@ msgstr ""
 "Cela vous permettera de revenir facilement en arrière en cas d'échec de la "
 "mise à jour."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:32
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:32
 msgid ""
 "Before upgrading WAPT Server, please refer to the following upgrading "
-"compatibility chart :"
+"compatibility chart:"
 msgstr ""
 "Avant de mettre à niveau le serveur WAPT, veuillez consulter le tableau de "
 "compatibilité de mise à niveau suivant :"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:35
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:35
 msgid "\\"
 msgstr "\\"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:35
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:35
 msgid "To WAPT 1.5"
 msgstr "Vers WAPT 1.5"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:35
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:35
 msgid "To WAPT 1.6"
 msgstr "Vers WAPT 1.6"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:35
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:35
 msgid "To WAPT 1.7"
 msgstr "Vers WAPT 1.7"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:35
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:35
 msgid "To WAPT 1.8"
 msgstr "Vers WAPT 1.8"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:37
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:37
 msgid "From WAPT 1.3"
 msgstr "Depuis WAPT 1.3"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:37
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:38
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:39
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:40
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:37
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:38
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:39
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:40
 msgid ":green:`Yes`"
 msgstr ":green:`Oui`"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:37
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:38
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:39
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:37
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:38
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:39
 msgid ":red:`No`"
 msgstr ":red:`Non`"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:38
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:38
 msgid "From WAPT 1.5"
 msgstr "Depuis WAPT 1.5"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:39
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:39
 msgid "From WAPT 1.6"
 msgstr "Depuis WAPT 1.6"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:40
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:40
 msgid "From WAPT 1.7"
 msgstr "Depuis WAPT 1.7"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:45
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:45
 msgid "Upgrading WAPT from 1.6/1.7 to 1.8"
 msgstr "Mettre à jour de 1.6/1.7 vers 1.8"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:47
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:47
 msgid "The upgrade process follows the process for a minor update:"
-msgstr "La mise à jour s'effectue comme une mise à jour mineure."
+msgstr "La mise à jour s'effectue comme une mise à jour mineure :"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:49
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:49
 msgid ":ref:`minor update for Debian <wapt_minor_upgrade_debian>`;"
 msgstr ":ref:`mise à jour mineure pour Debian <wapt_minor_upgrade_debian>`;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:51
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:51
 msgid ":ref:`minor update for CentOS <wapt_minor_upgrade_centos>`;"
 msgstr ":ref:`mise à jour mineure pour CentOS <wapt_minor_upgrade_centos>`;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:53
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:53
 msgid ":ref:`minor update for Windows <wapt_minor_upgrade_windows>`;"
 msgstr ":ref:`mise à jour mineure pour Windows <wapt_minor_upgrade_windows>` ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:57
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:57
 msgid ""
 "Debian Jessie is now deprecated. **WAPT 1.8 will not work with old Debian "
 "version**;"
@@ -118,7 +117,7 @@ msgstr ""
 "Debian Jessie est maintenant obsolète. **WAPT 1.8 ne fonctionnera pas avec "
 "cette ancienne version de Debian** ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:60
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:60
 msgid ""
 "consider migrating your existing WAPT installation to :ref:`Debian Buster or "
 "CentOS7 <upgrade-waptserver-os>`;"
@@ -126,23 +125,23 @@ msgstr ""
 "envisagez de migrer votre installation WAPT existante vers ref:`Debian "
 "Buster ou CentOS7 <upgrade-waptserver-os>` ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:64
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:64
 msgid "Upgrading WAPT from 1.5 to 1.6"
 msgstr "Mettre à jour de 1.5 vers 1.6"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:66
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:66
 msgid "The upgrade process follows the process for a minor update."
 msgstr "La mise à jour s'effectue comme une mise à jour mineure."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:70
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:70
 msgid ""
 "if you are in Debian Stretch, it is recommended to upgrade to Debian Buster "
-"64 bits : :ref:`upgrade-waptserver-os`;"
+"64 bits: :ref:`upgrade-waptserver-os`;"
 msgstr ""
 "si vous êtes sur Debian Jessie, il est recommandé de mettre à niveau vers "
 "Debian Buster 64 bits : :ref:`upgrade-waptserver-os` ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:73
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:73
 msgid ""
 "this is **MANDATORY** for the **Enterprise** version with Windows Update "
 "support;"
@@ -150,25 +149,25 @@ msgstr ""
 "ceci est **OBLIGATOIRE** pour la version **Enterprise** avec prise en charge "
 "des Windows Updates ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:75
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:75
 msgid "when upgrading to Debian10, the PostgreSQL database must be upgraded;"
 msgstr ""
 "lors de la mise à jour vers Debian10, la base de données PostgreSQL doit "
 "être mise à jour ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:79
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:79
 msgid "Upgrading WAPT from 1.3 to 1.6"
 msgstr "Mettre à jour de 1.3 vers 1.6"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:81
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:81
 msgid "The upgrade from 1.3 to 1.6 is a major upgrade."
 msgstr "La mise à jour de la version 1.3 vers 1.6 est une mise à jour majeure."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:90
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:90
 msgid "Minor Upgrades"
 msgstr "Mise à jour mineure"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:92
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:92
 msgid ""
 "This procedures concerns the classic method for upgrading the WAPT Server "
 "for minor versions, for exemple from 1.7.4 to 1.8."
@@ -176,27 +175,27 @@ msgstr ""
 "Cette procédure concerne la mise à jour classique du serveur WAPT pour les "
 "versions mineures, par exemple de 1.7.4 à 1.8."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:95
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:95
 msgid "The migration process includes:"
 msgstr "Le procédé de migration comprend :"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:97
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:97
 msgid "the upgrading of the WAPT Server;"
 msgstr "la mise à jour du serveur WAPT ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:99
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:99
 msgid "the upgrading of the WAPT console;"
 msgstr "la mise à jour de la console WAPT ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:101
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:101
 msgid "the upgrading of the WAPT agent;"
 msgstr "la mise à jour de l'agent WAPT ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:103
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:103
 msgid "the updating of the deployment GPO;"
 msgstr "la mise à jour de la GPO de déploiement ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:107
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:107
 msgid ""
 "For upgrading from 1.3 to 1.6, please refer to :ref:`upgrading from 1.3 to "
 "1.6 <upgrade_1.3_1.6>`."

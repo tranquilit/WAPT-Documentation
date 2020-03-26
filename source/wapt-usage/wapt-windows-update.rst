@@ -114,7 +114,7 @@ Options                        Default Value                        Description
 ``install_scheduling``         None                                 Set the Windows Update install recurrence (Will do nothing if no update is pending) (ex: 2h)
 ``install_at_shutdown``        False                                Install update when the machine will shutdown
 ``install_delay``              None                                 Set a deferred installation delay before publication in the repository (ex: 7d)
-``allowed_severities``         None									                Define a severity list that will be automatically accepted during a wapt windows update scan. ex: Important,Critical,Moderate
+``allowed_severities``         None									                Define a severity list that will be automatically accepted during a wapt windows update scan. ex: *Important*, *Critical*, *Moderate*
 ============================== ==================================== ======================================================================================================================================================================
 
 .. hint::

@@ -80,7 +80,7 @@ Duplicating a WAPT package consists of:
     **It has been signed with your own private key**.
 
     **Tranquil IT** disclaims any liability if you choose to use WAPT packages
-    retrieved from their repositories. Without a support contract, Tranquil IT
+    retrieved from her repositories. Without a support contract, Tranquil IT
     does not guarantee the suitability of the package for your own particular
     use case, nor do they guarantee the ability of the package to comply
     with your :term:`Organization`'s internal security policies.
