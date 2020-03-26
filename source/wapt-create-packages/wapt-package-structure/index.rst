@@ -194,8 +194,8 @@ nor any special or uppercase character**.
 version
 """""""
 
-Preferably, always start with the packaged software version split by points
-(*.*) and finish with the WAPT packaging version separated
+Preferably, always start with the packaged software version (**digits only**)
+split by points (*.*) and finish with the WAPT packaging version separated
 by a dash (*-*) character.
 
 architecture

@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Tranquil IT
+# This file is distributed under the same license as the WAPT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WAPT 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-26 14:37+0100\n"
+"PO-Revision-Date: 2020-03-26 14:40+0100\n"
+"Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
+"Language-Team: Tranquil IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: fr\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/deploying_from_scratch.rst:8
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/deploying_from_scratch.rst:15
+msgid "Simplifying the imaging of your workstations"
+msgstr "Simplifier la préparation de vos postes de travail"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/deploying_from_scratch.rst:8
+msgid "WAPT, documentation, master, cloning, MDT, Fog"
+msgstr "WAPT, documentation, master, clonage, MDT, Fog"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/deploying_from_scratch.rst:17
+msgid "We observe that many companies and administrations include software and configurations in the Windows images they deploy on their fleets of machines."
+msgstr "Nous observons que de nombreuses entreprises et administrations intègrent des logiciels et des configurations dans les images Windows qu'elles déploient sur leurs parcs de machines."
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/deploying_from_scratch.rst:20
+msgid "**If you use WAPT, lose this habit now and forever! Why?**"
+msgstr "**Si vous utilisez WAPT, perdez cette habitude maintenant et pour toujours ! Pourquoi ?**"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/deploying_from_scratch.rst:22
+msgid "Each time you make a new image, you waste a lot of time installing software and configuring it. You are very limited in the user configurations that you will be able to include in your image."
+msgstr "Chaque fois que vous créez une nouvelle image, vous perdez beaucoup de temps à installer des logiciels et à les configurer. Vous êtes très limité dans les configurations utilisateur que vous pourrez inclure dans votre image."
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/deploying_from_scratch.rst:26
+msgid "each time you make a new image, if you are serious about it, you will have to keep track of the changes in a text document, a spreadsheet, or a change management tool. It's a very heavy and thankless burden. And you know as well as I do, what's ungrateful is usually badly done!"
+msgstr "chaque fois que vous créez une nouvelle image, si vous êtes sérieux, vous devrez suivre les changements dans un document texte, un tableur ou un outil de gestion des changements. C'est une charge très lourde et ingrate. Et vous savez aussi bien comme moi que ce qui est ingrat est généralement mal fait !"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/deploying_from_scratch.rst:32
+msgid "finally, if you introduce in your image security configurations, network configurations, or configurations to limit the intrusion of Windows telemetry, these configurations can disrupt the normal functioning of WAPT, it will complicate future diagnostics, and it will discourage you from using an efficacious tool very capable of freeing up your time."
+msgstr "enfin, si vous introduisez dans votre image des configurations de sécurité, des configurations réseau, ou des configurations pour limiter l'intrusion de la télémétrie Windows, ces configurations peuvent perturber le fonctionnement normal du WAPT, cela compliquera les diagnostics futurs, et cela vous découragera d'utiliser un outil efficace très capable de vous libérer de grandes quantités de temps et d'efforts."
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/deploying_from_scratch.rst:39
+msgid "What do you suggest to do then?"
+msgstr "Que proposez-vous de faire alors ?"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/deploying_from_scratch.rst:41
+msgid "Tranquil IT recommends:"
+msgstr "Tranquil IT recommande :"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/deploying_from_scratch.rst:43
+msgid "to make only one raw image per OS type with `MDT <https://docs.microsoft.com/ en-us/configmgr/mdt/>`_ or `Fog <https://fogproject.org/>`_ (win10, win2016, etc) without any configuration or software. **Put only the system drivers** you need for your image deployment in the MDT or Fog directories provided for this purpose;"
+msgstr "pour ne faire qu'une seule image brute par type de système d'exploitation avec `MDT <https://docs.microsoft.com/ en-us/configmgr/mdt/>`_ ou `Fog <https://fogproject.org/>`_ (win10, win2016, etc) sans aucune configuration ni logiciel. **Déposez uniquement les pilotes système** dont vous avez besoin pour le déploiement de votre image dans les répertoires MDT ou Fog prévus à cet effet ;"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/deploying_from_scratch.rst:49
+msgid "to configure your WAPT server to register hosts with a random UUID to avoid :ref:`UUID Bios or FQDN conflicts <create_WAPT_agent>`;"
+msgstr "configurer votre serveur WAPT afin d'enregistrer les hôtes avec un UUID aléatoire pour éviter les conflits :ref:`UUID Bios ou FQDN <create_WAPT_agent>` ;"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/deploying_from_scratch.rst:52
+msgid "to create as many Organizational Units as you have machine types in the *CN=Computers* OU (ex: *standard_laptop*, *hardened_laptop*, *workstations*, *servers*, etc) in your Active Directory;"
+msgstr "créer autant d'Unités Organisationnelles que vous avez de types de machines dans l'UO *CN=Computers* (ex : *standard_laptop*, *hardened_laptop*, *workstations*, *servers*, etc) dans votre Active Directory ;"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/deploying_from_scratch.rst:56
+msgid "to configure your Active Directory to distribute the WAPT Agent GPO to the different Host Organizational Units; This way, you can opt for fine grained configurations of your :file:`waptagent.ini` for the hosts attached to each OU."
+msgstr "configurer votre Active Directory afin de distribuer la GPO de l'agent WAPT aux différentes Unités Organisationnelles machine ; de cette façon, vous pouvez opter pour des configurations fines de votre :file:`waptagent.ini` pour les hôtes rattachés à chaque UO."
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/deploying_from_scratch.rst:63
+msgid "Alternatively, you may include a generic WAPT agent in your OS image."
+msgstr "Alternativement, vous pouvez inclure un agent WAPT générique dans l'image de votre système d'exploitation."
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/deploying_from_scratch.rst:65
+msgid "to properly configure your DHCP to redirect the PXE to the correct system images;"
+msgstr "configurer correctement votre DHCP afin de rediriger le PXE vers les images des systèmes d'exploitation ;"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/deploying_from_scratch.rst:68
+msgid "to properly configure your MDT or Fog to register the machine in the correct Organizational Unit of your Active Directory;"
+msgstr "configurer correctement votre MDT ou votre Fog afin d'enregistrer la machine dans la bonne Unité Organisationnelle de votre Active Directory ;"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/deploying_from_scratch.rst:71
+msgid "to create as many WAPT security configuration packages as you have Organizational Units created above. Thus, you will be able to apply different security profiles depending on the type of machine. These packages will include the desired security configurations (telemetry suppression, firewall configuration, etc);"
+msgstr "créer autant de paquets de configuration de sécurité WAPT que vous avez d'Unités Organisationnelles créées ci-avant. Ainsi, vous pourrez appliquer différents profils de sécurité selon le type de machine. Ces paquets comprendront les configurations de sécurité souhaitées (suppression de la télémétrie, configuration du pare-feu, etc) ;"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/deploying_from_scratch.rst:79
+msgid "To save you time, you can base your security configuration strategy on security WAPT packages already available in the WAPT Store, you will only need to complete them according to your organization's specific security requirements."
+msgstr "Pour vous faire gagner du temps, vous pouvez baser votre stratégie de configuration de sécurité sur les paquets de sécurité WAPT déjà disponibles dans le store WAPT, il vous suffira de les compléter en fonction des exigences de sécurité spécifiques de votre organisation."
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/deploying_from_scratch.rst:84
+msgid "to create in the *CN=Computers* OU as many Organizational Units as there are types of computer usage in your organization (*accounting*, *point_of_sale*, *engineering*, *sedentary_sales*, etc);"
+msgstr "créer dans l'UO *CN=Computers* autant d'Unités Organisationnelles qu'il y a de typologies d'usage des ordinateurs dans votre organisation (*accounting*, *point_of_sale*, *engineering*, *sedentary_sales*, etc) ;"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/deploying_from_scratch.rst:88
+msgid "to create generic WAPT packages of your software applications with their associated configurations;"
+msgstr "créer des paquets WAPT génériques de vos applications logicielles avec leurs configurations associées ;"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/deploying_from_scratch.rst:93
+msgid "To save you time and effort, you can import many proven WAPT packages from Tranquil IT's public stores or subscribe to Tranquil IT's private stores."
+msgstr "Pour vous faire gagner du temps et des efforts, vous pouvez importer de nombreux paquets WAPT éprouvés depuis les stores publics de Tranquil IT ou vous abonner aux stores privés de Tranquil IT."
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/deploying_from_scratch.rst:96
+msgid "to associate the WAPT packages created above with the Organizational Units of the typologies of computer use;"
+msgstr "associer les paquets WAPT créés ci-dessus aux Unités Organisationnelles des typologies d'utilisation des ordinateur ;"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/deploying_from_scratch.rst:100
+msgid "How does the scenario work?"
+msgstr "Comment le scénario fonctionne-t-il ?"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/deploying_from_scratch.rst:102
+msgid "you receive or the IT manager at the remote site receives a new machine in its box;"
+msgstr "vous recevez ou le responsable informatique du site distant reçoit une nouvelle machine dans sa boîte ;"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/deploying_from_scratch.rst:107
+msgid "Alternatively, you choose or the IT manager at the remote site chooses to switch an existing machine from win7 to win10. You will either have, or he will have previously backed up the user directory(s) to a network drive or another convenient storage media."
+msgstr "Alternativement, vous choisissez ou le responsable informatique du site distant choisit de faire passer une machine existante de win7 à win10. Vous aurez, ou il aura préalablement sauvegardé le(s) répertoire(s) de l'utilisateur sur un lecteur réseau ou un autre support de stockage pratique."
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/deploying_from_scratch.rst:112
+msgid "For this purpose, you may build a WAPT package that, upon execution, will zip the :file:`C:\\Users` on the win7 computer, name it with the computer's FQDN, password protect the compressed file using :ref:`this procedure <encryting_sensitive_data_in_package>` and upload it to a web server or a network share. That same WAPT package can do the reverse process and reinstall the user files after the host has been re-imaged."
+msgstr "À cette fin, vous pouvez construire un paquet WAPT qui, à l'exécution, zippera le fichier :file:`C:\\\\Users` sur l'ordinateur win7, le nommera avec le FQDN de l'ordinateur, protégera par mot de passe le fichier compressé en utilisant :ref:`cette procédure <crypter_les_données_sensibles_dans_le_paquet>` et le chargera sur un serveur web ou un partage réseau. Ce même paquet WAPT peut effectuer le processus inverse et réinstaller les fichiers utilisateur après que l'hôte ait été ré-imagé."
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/deploying_from_scratch.rst:119
+msgid "you configure MDT or Fog with the machine's MAC address so that it gets the right system image through DHCP and is positioned in the right Organizational Unit at the end of the cloning process;"
+msgstr "vous configurez le MDT ou le Fog avec l'adresse MAC de la machine afin qu'elle obtienne la bonne image du système par DHCP et qu'elle se positionne dans la bonne Unité Organisationnelle à la fin du processus de clonage ;"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/deploying_from_scratch.rst:123
+msgid "the expected system image is downloaded on the machine in masked time, the machine is placed in the right Organizational Unit;"
+msgstr "l'image système attendue est téléchargée sur la machine en temps masqué, la machine est placée dans la bonne Unité Organisationnelle ;"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/deploying_from_scratch.rst:126
+msgid "the WAPT agent registers the machine with the WAPT server, it appears in the WAPT console;"
+msgstr "l'agent WAPT enregistre la machine auprès du serveur WAPT, la machine apparaît dans la console WAPT ;"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/deploying_from_scratch.rst:131
+msgid "If your machines are from a win7 to win10 update, then you will remove the old win7 machines from the WAPT inventory as they will be duplicated due to your choice of random UUID configuration; these machines will be easy to find in the WAPT console because they will be marked as win7 with the same MAC address or the same FQDN as your new machine in win10; after removing the win7, your inventory will be clean and up to date in your WAPT console;"
+msgstr "Si vos machines proviennent d'une mise à jour de win7 à win10, alors vous retirerez les anciennes machines win7 de l'inventaire WAPT car elles seront dupliquées en raison de votre choix de configuration UUID aléatoire ; ces machines seront faciles à trouver dans la console WAPT car elles seront marquées comme win7 avec la même adresse MAC ou le même FQDN que votre nouvelle machine win10 ; après avoir retiré le win7, votre inventaire sera propre et à jour dans votre console WAPT ;"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/deploying_from_scratch.rst:139
+msgid "the WAPT agent detects that it is in an Organizational Unit that requires a particular software set and a particular security configuration;"
+msgstr "l'agent WAPT détecte qu'il se trouve dans une Unité Organisationnelle qui nécessite un ensemble de logiciels et une configuration de sécurité particuliers ;"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/deploying_from_scratch.rst:142
+msgid "the WAPT Agent downloads and executes software packages and security configuration packages in hidden time; the WAPT Agent automatically removes delegated rights that are rendered useless after joining the domain to prevent them from being subsequently exploited in an unauthorized manner;"
+msgstr "l'agent WAPT télécharge et exécute des progiciels et des configurations de sécurité en temps masqué ; l'agent WAPT supprime automatiquement les droits délégués qui sont rendus inutiles après avoir rejoint le domaine pour éviter qu'ils ne soient ensuite exploités de manière non autorisée ;"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/deploying_from_scratch.rst:148
+msgid "either by group of machines or machine by machine, you finalize the configuration of the machines by assigning specific WAPT packets to them;"
+msgstr "soit par groupe de machines, soit machine par machine, vous finalisez la configuration des machines en leur attribuant des paquets WAPT spécifiques ;"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/deploying_from_scratch.rst:153
+msgid "If you want, you can even leave the final configuration step to your users by configuring WAPT self-service for them (printer configurations, special software needs, etc)."
+msgstr "Si vous le souhaitez, vous pouvez même laisser l'étape de configuration finale à vos utilisateurs en configurant le libre-service WAPT pour eux (configuration des imprimantes, besoins logiciels spéciaux, etc)."
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/deploying_from_scratch.rst:158
+msgid "Conclusion"
+msgstr "Conclusion"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/deploying_from_scratch.rst:160
+msgid "**With little effort, you now have full control over a fleet of several hundreds or even thousands of geographically dispersed machines. All your installations are documented, your users work with adequate rights and you benefit from a clear visibility on your users' tools and uses. In this way, the past is no longer an imponderable burden for you and an obstacle to your future projects.**"
+msgstr "**Avec peu d'efforts, vous avez maintenant le contrôle total d'une flotte de plusieurs centaines, voire milliers de machines géographiquement dispersées. Toutes vos installations sont documentées, vos utilisateurs travaillent avec des droits adéquats et vous bénéficiez d'une visibilité claire sur les outils et les usages de vos utilisateurs. Ainsi, le passé n'est plus un fardeau impondérable pour vous et un obstacle à vos projets futurs.**"
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For this purpose, you may build a"
+#~ " WAPT package that, upon execution, "
+#~ "will zip the :file:`C:\\\\\\Users` on "
+#~ "the win7 computer, name it with "
+#~ "the computer's FQDN, password protect "
+#~ "the compressed file using :ref:`this "
+#~ "procedure <encryting_sensitive_data_in_package>` and "
+#~ "upload it to a web server or "
+#~ "a network share. That same WAPT "
+#~ "package can do the reverse process "
+#~ "and reinstall the user files after "
+#~ "the host has been re-imaged."
+#~ msgstr ""

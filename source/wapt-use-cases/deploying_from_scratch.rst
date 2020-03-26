@@ -107,7 +107,14 @@ How does the scenario work?
   Alternatively, you choose or the IT manager at the remote site chooses
   to switch an existing machine from win7 to win10. You will either have,
   or he will have previously backed up the user directory(s)
-  to a network drive or another convenient storage media;
+  to a network drive or another convenient storage media.
+
+  For this purpose, you may build a WAPT package that, upon execution, will zip
+  the :file:`C:\Users` on the win7 computer, name it with the computer's FQDN,
+  password protect the compressed file using
+  :ref:`this procedure <encryting_sensitive_data_in_package>` and upload it to a web server
+  or a network share. That same WAPT package can do the reverse process
+  and reinstall the user files after the host has been re-imaged.
 
 * you configure MDT or Fog with the machine's MAC address so that
   it gets the right system image through DHCP and is positioned

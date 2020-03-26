@@ -9,6 +9,8 @@
   :description: Encrypting data in a WAPT package
   :keywords: WAPT, encrypt, cipher, sensitive data, password, documentation
 
+.. _encryting_sensitive_data_in_package:
+
 Encrypting some sensitive data contained in a WAPT package
 ==========================================================
 

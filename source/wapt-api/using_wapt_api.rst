@@ -471,7 +471,7 @@ will reinitialize all host connections.
 
 For the POST method:
 
-Syntax is: :option:`--data-raw`: a dictionnary list with ``uuids``as keys
+Syntax is: ``--data-raw``: a dictionnary list with ``uuids``as keys
 and the UUID of the hosts as values.
 
 .. code-block:: bash

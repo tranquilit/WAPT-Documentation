@@ -1,0 +1,39 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Tranquil IT
+# This file is distributed under the same license as the WAPT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WAPT 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-25 16:15+0100\n"
+"PO-Revision-Date: 2020-03-26 11:58+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
+"Language-Team: Tranquil IT\n"
+"Language: fr\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/index.rst:8
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/index.rst:15
+msgid "Enhancing your productivity with WAPT"
+msgstr "Améliorer votre productivité avec WAPT"
+
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/index.rst:8
+msgid "WAPT, documentation, productivity, use cases, ideas"
+msgstr "WAPT, documentation, productivité, cas d'usage, idées"
+
+#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-use-cases/index.rst:17
+msgid ""
+"You will find in this section of the documentation some inspiring and "
+"time saving methods to make the most of your WAPT setup."
+msgstr ""
+"Vous trouverez dans cette section de la documentation quelques "
+"méthodes inspirantes qui vous feront gagner du temps en vous "
+"permettant de tirer le meilleur de votre installation WAPT."
