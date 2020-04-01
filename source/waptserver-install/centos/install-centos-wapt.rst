@@ -40,8 +40,9 @@ During installation, you may be asked for the Kerberos realm. Just press
 
 .. important::
 
-    This is the configuration for **WAPT Enterprise** Edition.
-    For WAPT Community Edition please see below.
+  **Follow this procedure for getting the right packages
+  for the WAPT Enterprise** Edition.
+  For WAPT Community Edition please refer to the next block.
 
     To access WAPT Enterprise ressources, you must use the username
     and password provided by our sales department.
@@ -61,8 +62,9 @@ During installation, you may be asked for the Kerberos realm. Just press
 
 .. important::
 
-  **Below is the configuration for WAPT Community** Edition.
-  For WAPT Enterprise Edition please see above.
+  **Follow this procedure for getting the right packages
+  for the WAPT Community** Edition.
+  For WAPT Enterprise Edition please refer to the previous block.
 
   .. code-block:: bash
 

@@ -1,258 +1,271 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: WAPT 1.6\n"
+"Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-15 13:51+0100\n"
-"PO-Revision-Date: 2020-02-15 15:53+0100\n"
+"POT-Creation-Date: 2020-04-01 15:03+0200\n"
+"PO-Revision-Date: 2020-04-01 15:06+0200\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
-"Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: fr\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:8
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:15
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:8
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:15
 msgid "Installing the WAPT Server on CentOS / RedHat"
 msgstr "Installer le serveur WAPT sous CentOS / RedHat"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:8
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:8
 msgid "Server, WAPT Centos, install, installation, RedHat, documentation"
 msgstr "Server, WAPT, Centos, Install, documentation"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:19
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:19
 msgid ""
-"The upgrade procedure is different from installation. For upgrade, please"
-" refer to :ref:`Upgrading the WAPT Server <upgrade-wapt>`."
+"The upgrade procedure is different from installation. For upgrade, please "
+"refer to :ref:`Upgrading the WAPT Server <upgrade-wapt>`."
 msgstr ""
-"La procédure est différente pour la mise à jour du serveur WAPT. Pour une"
-" mise à jour, rendez-vous sur : :ref:`upgrade-wapt`."
+"La procédure est différente pour la mise à jour du serveur WAPT. Pour une "
+"mise à jour, rendez-vous sur : :ref:`upgrade-wapt`."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:22
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:22
 msgid "Installing the WAPT Server runs a few steps:"
 msgstr ""
-"L'installation de la partie serveur de WAPT se décompose en plusieurs "
-"étapes :"
+"L'installation de la partie serveur de WAPT se décompose en plusieurs étapes :"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:24
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:24
 msgid "configuring the repositories;"
 msgstr "configurer les dépôts ;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:26
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:26
 msgid "installing additional Linux packages;"
 msgstr "installer des paquets complémentaires ;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:28
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:28
 msgid "installing and provisioning the PostgreSQL database;"
 msgstr "installer et initialiser la base de données PostgreSQL ;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:30
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:30
 msgid "post-configuring the WAPT Server;"
 msgstr "post-configurer le serveur ;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:33
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:33
 msgid "Configuring RPM repositories and installing WAPT and PostgreSQL packages"
 msgstr "Configurer les dépôts et installer les paquets WAPT et PostgreSQL"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:35
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:35
 msgid ""
 "The configuration of repositories for **WAPT Enterprise** and **WAPT "
 "Community** Edition differs. **Make sure to choose the right one!**"
 msgstr ""
-"La configuration des dépôts en **WAPT Enterprise** et en **WAPT "
-"Community** diffère. **Assurez-vous de choisir la bonne procédure!**"
+"La configuration des dépôts en **WAPT Enterprise** et en **WAPT Community** "
+"diffère. **Assurez-vous de choisir la bonne procédure!**"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:38
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:38
 msgid ""
-"During installation, you may be asked for the Kerberos realm. Just press "
-":kbd:`Enter` to skip this step."
+"During installation, you may be asked for the Kerberos realm. Just press :kbd:"
+"`Enter` to skip this step."
 msgstr ""
-"L'installation peut vous demander le royaume kerberos. Appuyer sur "
-":kbd:`Entrée` pour passer l'étape."
+"L'installation peut vous demander le royaume kerberos. Appuyer sur :kbd:"
+"`Entrée` pour passer l'étape."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:43
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:43
 msgid ""
-"This is the configuration for **WAPT Enterprise** Edition. For WAPT "
-"Community Edition please see below."
+"**Follow this procedure for getting the right packages for the WAPT "
+"Enterprise** Edition. For WAPT Community Edition please refer to the next "
+"block."
 msgstr ""
-"Il s'agit ici de la configuration pour l'édition **WAPT Enterprise**. "
-"Pour l'édition WAPT Community, voir ci-dessous."
+"**Suivez cette procédure pour obtenir les bons paquets pour l'édition WAPT "
+"Enterprise**. Pour l'édition Community de WAPT, veuillez vous référer au bloc "
+"suivant."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:46
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:47
 msgid ""
-"To access WAPT Enterprise ressources, you must use the username and "
-"password provided by our sales department."
+"To access WAPT Enterprise ressources, you must use the username and password "
+"provided by our sales department."
 msgstr ""
-"Pour accéder au site de téléchargement WAPT Enterprise, vous devez "
-"utiliser le nom d'utilisateur et le mot de passe fournis par notre "
-"service commercial."
+"Pour accéder au site de téléchargement WAPT Enterprise, vous devez utiliser "
+"le nom d'utilisateur et le mot de passe fournis par notre service commercial."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:49
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:50
 msgid ""
-"Replace **user** and **password** in the **baseurl** parameter to access "
-"WAPT Enterprise repository."
+"Replace **user** and **password** in the **baseurl** parameter to access WAPT "
+"Enterprise repository."
 msgstr ""
-"Remplacez **user** et **password** dans le paramètre **baseurl** pour "
-"accéder au dépôt WAPT Enterprise."
+"Remplacez **user** et **password** dans le paramètre **baseurl** pour accéder "
+"au dépôt WAPT Enterprise."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:64
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:65
 msgid ""
-"**Below is the configuration for WAPT Community** Edition. For WAPT "
-"Enterprise Edition please see above."
+"**Follow this procedure for getting the right packages for the WAPT "
+"Community** Edition. For WAPT Enterprise Edition please refer to the previous "
+"block."
 msgstr ""
-"**Ci-dessous se trouve la configuration pour l'édition WAPT Community**. "
-"Pour l'édition WAPT Enterprise, voir ci-dessus."
+"**Suivez cette procédure pour obtenir les bons paquets pour l'édition "
+"Community de WAPT**. Pour l'édition WAPT Enterprise, veuillez vous référer au "
+"bloc précédent."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:78
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:80
 msgid "Installing the WAPT Server packages"
 msgstr "Installer des paquets complémentaires"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:87
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:89
 msgid "Post-configuring"
 msgstr "Post-Configuration"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:89
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:91
 msgid "initialize the PostgreSQL database and activate the services:"
 msgstr "initialiser la base de données et activer les services :"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:99
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:101
 msgid ""
 "For post-configuration to work properly, you must first have properly "
-"configured the *hostname* of the WAPT server. To check, use the command "
-":code:`echo $(hostname)` which must return the DNS address that will be "
-"used by WAPT agents on client computers."
+"configured the *hostname* of the WAPT server. To check, use the command :code:"
+"`echo $(hostname)` which must return the DNS address that will be used by "
+"WAPT agents on client computers."
 msgstr ""
 "La Post-Configuration suppose que vous avez correctement configuré le "
 "hostname de l'ordinateur. Pour vérifier, :code:`echo $(hostname)` doit "
 "renvoyer l'adresse DNS qu'utiliseront les agents WAPT."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:106
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:108
 msgid "This post-configuration script must be run as **root**."
 msgstr ""
 "Ce script de post-configuration doit être exécuté en tant qu'utilisateur "
 "**root**."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:108
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:110
 msgid "run the script:"
 msgstr "lancer le script :"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:114
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:116
 msgid "click on :guilabel:`Yes` to run the postconf script:"
 msgstr "cliquer sur :guilabel:`Yes` pour accepter le lancement du postconf :"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:122
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:124
 msgid ""
 "choose a password for the :term:`SuperAdmin` account of the WAPT server "
 "(minimum length is 10 characters);"
 msgstr ""
-"entrer un mot de passe pour le compte :term:`SuperAdmin` du serveur WAPT "
-"(10 caractères minimum) :"
+"entrer un mot de passe pour le compte :term:`SuperAdmin` du serveur WAPT (10 "
+"caractères minimum) :"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:133
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:135
 msgid "confirm the password;"
 msgstr "confirmer le mot de passe :"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:143
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:145
 msgid ""
-"choose the authentication mode for the initial registering of the WAPT "
-"agents;"
+"choose the authentication mode for the initial registering of the WAPT agents;"
 msgstr "choisir le mode d'authentification pour l'enregistrement des machines :"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:145
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:147
 msgid ""
-"choice #1 allows to register computers without authentication (same "
-"method as WAPT 1.3). The WAPT server registers all computers that ask;"
+"choice #1 allows to register computers without authentication (same method as "
+"WAPT 1.3). The WAPT server registers all computers that ask;"
 msgstr ""
-"Le choix 1 permet un enregistrement sans authentification (Comme en "
-"version 1.3). Le serveur ne vérifie pas le poste qui s'enregistre ;"
+"Le choix 1 permet un enregistrement sans authentification (Comme en version "
+"1.3). Le serveur ne vérifie pas le poste qui s'enregistre ;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:148
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:150
 msgid ""
 "Choice #2 activates the initial registration based on Kerberos. (you can "
 "activate it later);"
 msgstr ""
-"Le choix n°2 active l'enregistrement initial basé sur Kerberos. (vous "
-"pourrez l'activer aussi plus tard) ;"
+"Le choix n°2 active l'enregistrement initial basé sur Kerberos. (vous pourrez "
+"l'activer aussi plus tard) ;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:150
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:152
 msgid ""
-"choice #3 does not activate the kerberos authentication mechanism for the"
-" initial registering of machines equipped with WAPT. The WAPT server will"
-" require a login and password for each machine registering with it;"
+"choice #3 does not activate the kerberos authentication mechanism for the "
+"initial registering of machines equipped with WAPT. The WAPT server will "
+"require a login and password for each machine registering with it;"
 msgstr ""
-"le choix #3 n'active pas l'authentification kerberos pour "
-"l'enregistrement des machines mais demande une authentification wapt pour"
-" l'enregistrement des machines. The serveur WAPT réclamera le mot de "
-"passe du *SuperAdmin* à chaque nouvel enregistrement ;"
+"le choix #3 n'active pas l'authentification kerberos pour l'enregistrement "
+"des machines mais demande une authentification wapt pour l'enregistrement des "
+"machines. The serveur WAPT réclamera le mot de passe du *SuperAdmin* à chaque "
+"nouvel enregistrement ;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:165
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:167
 msgid "select :guilabel:`OK` to start WAPT Server;"
 msgstr "sélectionner :guilabel:`OK` pour démarrer le serveur WAPT ;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:173
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:175
 msgid "select :guilabel:`Yes` to configure Nginx;"
 msgstr "sélectionner :guilabel:`Yes` pour configurer Nginx ;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:181
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:183
 msgid "fill in the :term:`FQDN` of the WAPT server;"
 msgstr "entrer le nom :term:`FQDN` du serveur WAPT ;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:193
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:195
 msgid ""
-"select :guilabel:`OK` and a self-signed certificate will be generated, "
-"this step may take a long time ..."
+"select :guilabel:`OK` and a self-signed certificate will be generated, this "
+"step may take a long time ..."
 msgstr ""
-"faites :guilabel:`OK` et un certificat autosigné est généré, cette étape "
-"peu être longue ..."
+"faites :guilabel:`OK` et un certificat autosigné est généré, cette étape peut "
+"être longue ..."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:202
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:204
 msgid ""
-"Nginx is now configured, select :guilabel:`OK` to restart "
-":program:`Nginx`:"
+"Nginx is now configured, select :guilabel:`OK` to restart :program:`Nginx`:"
 msgstr ""
-"Nginx est maintenant configuré, sélectionner :guilabel:`OK` pour "
-"redémarrer :program:`Nginx` :"
+"Nginx est maintenant configuré, sélectionner :guilabel:`OK` pour redémarrer :"
+"program:`Nginx` :"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:211
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:213
 msgid "The post-configuration is now finished."
 msgstr "La post-configuration est maintenant terminée."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:220
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:222
 msgid "Listing of post-configuration script options:"
 msgstr "Détail des arguments possibles du script de post-configuration :"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:225
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:227
 msgid "Flag"
 msgstr "Flag"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:225
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:227
 msgid "Definition"
 msgstr "Définition"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:227
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:229
 msgid "*--force-https*"
 msgstr "*--force-https*"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:227
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:229
 msgid ""
-"Configures :program:`Nginx` so that *port 80 is permanently redirected to"
-" 443*"
+"Configures :program:`Nginx` so that *port 80 is permanently redirected to 443*"
 msgstr ""
-"Configure :program:`Nginx` de sorte que *port 80 soit redirigé en "
-"permanence vers 443*."
+"Configure :program:`Nginx` de sorte que *port 80 soit redirigé en permanence "
+"vers 443*."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:231
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:233
 msgid "The WAPT Server is now ready."
 msgstr "Le serveur WAPT est prêt."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:233
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/centos/install-centos-wapt.rst:235
 msgid ""
 "You may go to the documentation on :ref:`installing the WAPT console "
 "<installing_the_WAPT_console>`!!"
 msgstr ""
-"Passez maintenant à l'étape suivante pour :ref:`installer la console WAPT"
-" <installing_the_WAPT_console>`."
+"Passez maintenant à l'étape suivante pour :ref:`installer la console WAPT "
+"<installing_the_WAPT_console>`."
 
+#~ msgid ""
+#~ "This is the configuration for **WAPT Enterprise** Edition. For WAPT "
+#~ "Community Edition please see below."
+#~ msgstr ""
+#~ "Il s'agit ici de la configuration pour l'édition **WAPT Enterprise**. Pour "
+#~ "l'édition WAPT Community, voir ci-dessous."
+
+#~ msgid ""
+#~ "**Below is the configuration for WAPT Community** Edition. For WAPT "
+#~ "Enterprise Edition please see above."
+#~ msgstr ""
+#~ "**Ci-dessous se trouve la configuration pour l'édition WAPT Community**. "
+#~ "Pour l'édition WAPT Enterprise, voir ci-dessus."
