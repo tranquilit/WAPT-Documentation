@@ -38,12 +38,37 @@ on Linux Debian is using Tranquil IT's public repository.
 
 * add Tranquil IT's repository in apt repository lists:
 
-.. code-block:: bash
+.. important::
 
-  apt-get update && apt-get upgrade
-  apt-get install apt-transport-https lsb-release gnupg
-  wget -O - https://wapt.tranquil.it/debian/tiswapt-pub.gpg  | apt-key add -
-  echo "deb https://wapt.tranquil.it/debian/wapt-1.8/ $(lsb_release -c -s) main" > /etc/apt/sources.list.d/wapt.list
+  **Follow this procedure for getting the right packages
+  for the WAPT Enterprise** Edition.
+  For WAPT Community Edition please refer to the next block.
+
+  To access WAPT Enterprise ressources, you must use the username
+  and password provided by our sales department.
+
+  Replace **user** and **password** in the **deb** parameter
+  to access WAPT Enterprise repository.
+
+    .. code-block:: bash
+
+      apt-get update && apt-get upgrade
+      apt-get install apt-transport-https lsb-release
+      wget -O - https://wapt.tranquil.it/debian/tiswapt-pub.gpg  | apt-key add -
+      echo "deb https://user:password@srvwapt-pro.tranquil.it/entreprise/debian/wapt-1.8/ $(lsb_release -c -s) main" > /etc/apt/sources.list.d/wapt.list
+
+.. important::
+
+  **Follow this procedure for getting the right packages
+  for the WAPT Community** Edition.
+  For WAPT Enterprise Edition please refer to the previous block.
+
+  .. code-block:: bash
+
+    apt-get update && apt-get upgrade
+    apt-get install apt-transport-https lsb-release gnupg
+    wget -O - https://wapt.tranquil.it/debian/tiswapt-pub.gpg  | apt-key add -
+    echo "deb https://wapt.tranquil.it/debian/wapt-1.8/ $(lsb_release -c -s) main" > /etc/apt/sources.list.d/wapt.list
 
 * install WAPT agent using apt-get:
 
