@@ -85,6 +85,34 @@ on Linux CentOS is using Tranquil IT's public repository.
 
 * add Tranquil IT's repository in yum repository lists:
 
+.. important::
+
+  **Follow this procedure for getting the right packages
+  for the WAPT Enterprise** Edition.
+  For WAPT Community Edition please refer to the next block.
+
+    To access WAPT Enterprise ressources, you must use the username
+    and password provided by our sales department.
+
+    Replace **user** and **password** in the **baseurl** parameter
+    to access WAPT Enterprise repository.
+
+    .. code-block:: bash
+
+      cat > /etc/yum.repos.d/wapt.repo <<EOF
+      [wapt]
+      name=WAPT Server Repo
+      baseurl=https://user:password@srvwapt-pro.tranquil.it/entreprise/centos7/wapt-1.8/
+      enabled=1
+      gpgcheck=1
+      EOF
+
+.. important::
+
+  **Follow this procedure for getting the right packages
+  for the WAPT Community** Edition.
+  For WAPT Enterprise Edition please refer to the previous block.
+
   .. code-block:: bash
 
     cat > /etc/yum.repos.d/wapt.repo <<EOF
@@ -92,7 +120,7 @@ on Linux CentOS is using Tranquil IT's public repository.
     name=WAPT Server Repo
     baseurl=https://wapt.tranquil.it/centos7/wapt-1.8/
     enabled=1
-    gpgcheck=0
+    gpgcheck=1
     EOF
 
 * install WAPT agent using yum:
