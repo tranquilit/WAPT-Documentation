@@ -764,3 +764,10 @@ to solve false positives related to WAPT:
     "C:\Windows\Temp\waptdeploy.exe"
     "C:\Windows\Temp\waptagent.exe"
     "C:\Windows\Temp\is-?????.tmp\waptagent.tmp"
+
+EWaptBadControl: 'utf8' codec can't decode byte
+-----------------------------------------------
+
+If you get this message, it may mean that you have not set up correctly
+your development environment. Visit this :ref:`section of the documentation
+on setting up UTF-8 (no BOM) <utf8_no_bom>`.

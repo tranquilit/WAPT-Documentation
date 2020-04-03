@@ -5,19 +5,20 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: WAPT 1.7\n"
+"Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-04 13:57+0100\n"
-"PO-Revision-Date: 2020-03-10 15:28+0100\n"
+"POT-Creation-Date: 2020-04-03 17:08+0200\n"
+"PO-Revision-Date: 2020-04-03 17:11+0200\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
-"Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
-"X-Generator: Poedit 1.8.8\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: fr\n"
+"X-Generator: Poedit 2.0.6\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:8
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:16
@@ -25,12 +26,8 @@ msgid "Frequent problems"
 msgstr "Problèmes fréquents"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:8
-msgid ""
-"lost password, lost private key, stolen private key, BIOS bug, waptdeploy, WAPT, "
-"documentation"
-msgstr ""
-"mot de passe perdu, clé privée perdue, clé privée volée, bug du BIOS, "
-"waptdeploy, WAPT, documentation"
+msgid "lost password, lost private key, stolen private key, BIOS bug, waptdeploy, WAPT, documentation"
+msgstr "mot de passe perdu, clé privée perdue, clé privée volée, bug du BIOS, waptdeploy, WAPT, documentation"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:19
 msgid "I have lost my SuperAdmin password"
@@ -38,16 +35,11 @@ msgstr "J'ai perdu mon mot de passe SuperAdmin"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:21
 msgid "It sometimes happens to setup a WAPT Server and then forget its password."
-msgstr ""
-"Il arrive parfois de configurer un serveur WAPT et d'oublier son mot de passe."
+msgstr "Il arrive parfois de configurer un serveur WAPT et d'oublier son mot de passe."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:23
-msgid ""
-"To reset the WAPT console :term:`SuperAdmin` password you have to relaunch the "
-"post-configuration process on the WAPT Server."
-msgstr ""
-"Pour réinitialiser le mot de passe :term:`SuperAdmin` de la console WAPT, vous "
-"devez relancer le processus de post-configuration sur le serveur WAPT."
+msgid "To reset the WAPT console :term:`SuperAdmin` password you have to relaunch the post-configuration process on the WAPT Server."
+msgstr "Pour réinitialiser le mot de passe :term:`SuperAdmin` de la console WAPT, vous devez relancer le processus de post-configuration sur le serveur WAPT."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:27
 msgid "Resetting the WAPT Linux Server password"
@@ -66,39 +58,23 @@ msgid "launch post-configuration script:"
 msgstr "lancer le script de post-configuration :"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:41
-msgid ""
-"To avoid breaking the existing WAPT Server setup, accept all the other steps, "
-"**DO NOT CREATE a new private key**!"
-msgstr ""
-"Pour éviter de casser la configuration existante du serveur WAPT, acceptez "
-"toutes les autres étapes, **NE CRÉEZ PAS une nouvelle clé privée** !"
+msgid "To avoid breaking the existing WAPT Server setup, accept all the other steps, **DO NOT CREATE a new private key**!"
+msgstr "Pour éviter de casser la configuration existante du serveur WAPT, acceptez toutes les autres étapes, **NE CRÉEZ PAS une nouvelle clé privée** !"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:45
 msgid "I lost my WAPT private key"
 msgstr "J'ai perdu ma clé privée WAPT"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:47
-msgid ""
-"WAPT's security and its correct functioning rely on sets of private keys and "
-"public certificates."
-msgstr ""
-"La sécurité et le bon fonctionnement de WAPT s'appuient sur les jeux de clés "
-"privés et de certificats publics."
+msgid "WAPT's security and its correct functioning rely on sets of private keys and public certificates."
+msgstr "La sécurité et le bon fonctionnement de WAPT s'appuient sur les jeux de clés privés et de certificats publics."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:50
-msgid ""
-"Losing a private key thus requires to generate a new key and its associated "
-"certificates, and then to deploy the new keys and the new certificates on the "
-"Organization's computers."
-msgstr ""
-"La perte d'une clé privée nécessite donc de regénérer une nouvelle clé et les "
-"certifcats associés, et ensuite déployer sur le parc de machines les certificats "
-"pour la nouvelle clé."
+msgid "Losing a private key thus requires to generate a new key and its associated certificates, and then to deploy the new keys and the new certificates on the Organization's computers."
+msgstr "La perte d'une clé privée nécessite donc de regénérer une nouvelle clé et les certifcats associés, et ensuite déployer sur le parc de machines les certificats pour la nouvelle clé."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:54
-msgid ""
-"Therefore, losing a key bears some consequences, the process to recover from a "
-"lost key is not trivial, although it is relatively simple."
+msgid "Therefore, losing a key bears some consequences, the process to recover from a lost key is not trivial, although it is relatively simple."
 msgstr "Donc la procédure n'est pas anodine, même si elle est simple."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:58
@@ -110,42 +86,24 @@ msgid "The procedure is:"
 msgstr "La procédure va être la suivante :"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:62
-msgid ""
-"generate a new private key/ public certificate. You will then keep the private "
-"key (file :mimetype:`.pem`) in a safe location;"
-msgstr ""
-"générer une nouvelle clé privée/certificat public. Vous conserverez alors la clé "
-"privée (fichier :mimetype:`.pem`) dans un endroit sûr ;"
+msgid "generate a new private key/ public certificate. You will then keep the private key (file :mimetype:`.pem`) in a safe location;"
+msgstr "générer une nouvelle clé privée/certificat public. Vous conserverez alors la clé privée (fichier :mimetype:`.pem`) dans un endroit sûr ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:65
-msgid ""
-"deploy the new certificate :mimetype:`.crt` on your clients in the folder :file:"
-"`C:\\\\Program Files (x86)\\\\ssl` manually or using a :abbr:`GPO (Group Policy "
-"Object)`;"
-msgstr ""
-"déployer le nouveau certificat :mimetype:`.crt` sur vos clients dans le dossier :"
-"file:`C:\\\\Program Files (x86)\\\\ssl` manuellement ou en utilisant une :abbr:"
-"`GPO (Group Policy Object)` ;"
+msgid "deploy the new certificate :mimetype:`.crt` on your clients in the folder :file:`C:\\\\Program Files (x86)\\\\ssl` manually or using a :abbr:`GPO (Group Policy Object)`;"
+msgstr "déployer le nouveau certificat :mimetype:`.crt` sur vos clients dans le dossier :file:`C:\\\\Program Files (x86)\\\\ssl` manuellement ou en utilisant une :abbr:`GPO (Group Policy Object)` ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:70
 msgid "Re-signing packages in the repositories"
 msgstr "Manipulation sur les paquets en conséquence"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:72
-msgid ""
-"WAPT packages hosted on the repositories were signed using the former private "
-"key, so you must re-sign every package of the repository using the new key."
-msgstr ""
-"Les paquets du dépôt local étant signé avec l'ancienne clé, il convient de re-"
-"signer l'intégralité des paquets avec la nouvelle clé."
+msgid "WAPT packages hosted on the repositories were signed using the former private key, so you must re-sign every package of the repository using the new key."
+msgstr "Les paquets du dépôt local étant signé avec l'ancienne clé, il convient de re-signer l'intégralité des paquets avec la nouvelle clé."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:76
-msgid ""
-"To re-sign every WAPT packages using the new key (*base*, *host*, *group* and "
-"*unit* packages), use the command:"
-msgstr ""
-"Afin de re-signer tous les paquets WAPT avec la nouvelle clé (les paquets "
-"logiciel et les paquets machine), utiliser la commande :"
+msgid "To re-sign every WAPT packages using the new key (*base*, *host*, *group* and *unit* packages), use the command:"
+msgstr "Afin de re-signer tous les paquets WAPT avec la nouvelle clé (les paquets logiciel et les paquets machine), utiliser la commande :"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:84
 msgid "My private key has been stolen"
@@ -156,22 +114,12 @@ msgid "**WAPT security relies on protecting your private keys.**"
 msgstr "Toute la sécurité de WAPT repose sur la séquestration de cette clé privée."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:90
-msgid ""
-"WAPT does not handle key revocation yet using a :abbr:`CRL (Certificate "
-"Revocation List)`."
-msgstr ""
-"WAPT ne gère pas encore la révocation des clés en utilisant une :abbr:`CRL "
-"(Certificate Revocation List)`."
+msgid "WAPT does not handle key revocation yet using a :abbr:`CRL (Certificate Revocation List)`."
+msgstr "WAPT ne gère pas encore la révocation des clés en utilisant une :abbr:`CRL (Certificate Revocation List)`."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:93
-msgid ""
-"The solution consists in deleting every :mimetype:`.crt` certificate associated "
-"to the stolen private key, located in the :file:`C:\\\\Program Files (x86)\\"
-"\\wapt\\\\ssl` folder."
-msgstr ""
-"La solution consiste à supprimer chaque certificat :mimetype:`.crt` associé à la "
-"clé privée volée, situé dans le dossier :file:`C:\\\\Program Files (x86)\\\\"
-"\\wapt\\\\\\ssl`."
+msgid "The solution consists in deleting every :mimetype:`.crt` certificate associated to the stolen private key, located in the :file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl` folder."
+msgstr "La solution consiste à supprimer chaque certificat :mimetype:`.crt` associé à la clé privée volée, situé dans le dossier :file:`C:\\\\Program Files (x86)\\\\\\wapt\\\\\\ssl`."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:97
 msgid "That operation can be done using a GPO, manually, or with a WAPT package."
@@ -182,30 +130,16 @@ msgid "My BIOS UUID bugs"
 msgstr "Mon UUID BIOS bogue"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:102
-msgid ""
-"some problems happen sometimes with some BIOSes. WAPT uses the :term:`UUID` of "
-"the machine as the host identifier;"
-msgstr ""
-"il arrive parfois qu'un problème survienne avec certains BIOS. WAPT utilise l':"
-"term:`UUID` de la machine comme identifiant pour reconnaître les machines ;"
+msgid "some problems happen sometimes with some BIOSes. WAPT uses the :term:`UUID` of the machine as the host identifier;"
+msgstr "il arrive parfois qu'un problème survienne avec certains BIOS. WAPT utilise l':term:`UUID` de la machine comme identifiant pour reconnaître les machines ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:105
-msgid ""
-"the :term:`UUID` is supposed to be unique. Unfortunately, for some :abbr:`OEMs "
-"(Original Equipment Manufacturers)` and some manufacturing batches, BIOS :term:"
-"`UUID` are identical;"
-msgstr ""
-"l':term:`UUID` BIOS est censé être unique, malheureusement chez certains "
-"constructeurs et pour certaines séries de machines, les :term:`UUID` des BIOS "
-"sont identiques ;"
+msgid "the :term:`UUID` is supposed to be unique. Unfortunately, for some :abbr:`OEMs (Original Equipment Manufacturers)` and some manufacturing batches, BIOS :term:`UUID` are identical;"
+msgstr "l':term:`UUID` BIOS est censé être unique, malheureusement chez certains constructeurs et pour certaines séries de machines, les :term:`UUID` des BIOS sont identiques ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:109
-msgid ""
-"the machine will register in the WAPT console but it will replace an existing "
-"device, considering that the machine has only changed its name;"
-msgstr ""
-"le PC remontera bien dans la console mais il écrasera le PC déjà présent "
-"considérant que l'ordinateur a changé de nom ;"
+msgid "the machine will register in the WAPT console but it will replace an existing device, considering that the machine has only changed its name;"
+msgstr "le PC remontera bien dans la console mais il écrasera le PC déjà présent considérant que l'ordinateur a changé de nom ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:113
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:131
@@ -213,12 +147,8 @@ msgid "Solving the BIOS UUID issue"
 msgstr "Résolution"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:115
-msgid ""
-"WAPT allows to generate a random :term:`UUID` to replace the one retrieved from "
-"the BIOS."
-msgstr ""
-"WAPT permet de générer un :term:`UUID` aléatoire pour remplacer celui indiqué "
-"dans le BIOS."
+msgid "WAPT allows to generate a random :term:`UUID` to replace the one retrieved from the BIOS."
+msgstr "WAPT permet de générer un :term:`UUID` aléatoire pour remplacer celui indiqué dans le BIOS."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:123
 msgid "WAPTdeploy does not work"
@@ -233,8 +163,7 @@ msgid "Symptoms"
 msgstr "Symptôme"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:128
-msgid ""
-"The :program:`waptdeploy` utility does not succeed in installing the WAPT agent."
+msgid "The :program:`waptdeploy` utility does not succeed in installing the WAPT agent."
 msgstr "L'utilitaire :program:`waptdeploy` n'arrive pas à installer l'agent WAPT."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:134
@@ -242,24 +171,16 @@ msgid "Adding the waptagent.exe url"
 msgstr "Ajouter l'url pour waptagent.exe"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:136
-msgid ""
-"Add ``waptsetupurl`` argument in WAPTdeploy GPO arguments of :program:"
-"`waptdeploy`."
-msgstr ""
-"Ajouter l'argument ``waptsetupurl`` dans les paramètres de la stratégie de "
-"déploiement :program:`waptdeploy`."
+msgid "Add ``waptsetupurl`` argument in WAPTdeploy GPO arguments of :program:`waptdeploy`."
+msgstr "Ajouter l'argument ``waptsetupurl`` dans les paramètres de la stratégie de déploiement :program:`waptdeploy`."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:144
 msgid "Launching WAPTdeploy locally"
 msgstr "Lancer WAPTdeploy localement"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:146
-msgid ""
-"Launching :program:`waptdeploy` locally can be a good method for showing errors "
-"explicitly."
-msgstr ""
-"Lancer :program:`waptdeploy` localement peut mettre en évidence un problème en "
-"affichant explicitement les erreurs."
+msgid "Launching :program:`waptdeploy` locally can be a good method for showing errors explicitly."
+msgstr "Lancer :program:`waptdeploy` localement peut mettre en évidence un problème en affichant explicitement les erreurs."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:149
 msgid "Example of command to launch:"
@@ -275,8 +196,7 @@ msgstr "Error with WAPTDeploy"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:165
 msgid "Do not forget to start the command prompt as a :term:`Local Administrator`."
-msgstr ""
-"Ne pas oublier de lancer l'invite de commande en tant qu':term:`Administrateur`."
+msgstr "Ne pas oublier de lancer l'invite de commande en tant qu':term:`Administrateur`."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:168
 msgid "WAPTdeploy works manually but does not work with GPO"
@@ -291,221 +211,128 @@ msgid "To force the application of the GPO:"
 msgstr "Pour forcer l'application des GPO :"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:182
-msgid ""
-"If :program:`waptdeploy` does not show up you will have to double check the GPO "
-"settings."
-msgstr ""
-"Si :program:`waptdeploy` n'apparaît pas, il faut re-vérifier la configuration de "
-"la GPO."
+msgid "If :program:`waptdeploy` does not show up you will have to double check the GPO settings."
+msgstr "Si :program:`waptdeploy` n'apparaît pas, il faut re-vérifier la configuration de la GPO."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:187
 msgid "# you may be using an old :program:`waptdeploy` version, then"
-msgstr ""
-"# vous utilisez peut-être une ancienne version de :program:`waptdeploy`, alors"
+msgstr "# vous utilisez peut-être une ancienne version de :program:`waptdeploy`, alors"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:186
-msgid ""
-"`download the latest version <https://store.wapt.fr/wapt/releases/latest/"
-"waptdeploy.exe>`_ of :program:`waptdeploy` from the WAPT store."
-msgstr ""
-"téléchargez la dernière version <https://store.wapt.fr/wapt/releases/latest/"
-"waptdeploy.exe>`_ de :program:`waptdeploy` sur le store WAPT."
+msgid "`download the latest version <https://store.wapt.fr/wapt/releases/latest/waptdeploy.exe>`_ of :program:`waptdeploy` from the WAPT store."
+msgstr "téléchargez la dernière version <https://store.wapt.fr/wapt/releases/latest/waptdeploy.exe>`_ de :program:`waptdeploy` sur le store WAPT."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:194
-msgid ""
-"# thanks to Emmanuel EUGENE from French `INSERM <https://www.inserm.fr/en>`_"
-msgstr ""
-"# merci à Emmanuel EUGENE de l'`INSERM <https://www.inserm.fr/en>`_ française"
+msgid "# thanks to Emmanuel EUGENE from French `INSERM <https://www.inserm.fr/en>`_"
+msgstr "# merci à Emmanuel EUGENE de l'`INSERM <https://www.inserm.fr/en>`_ française"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:190
-msgid ""
-"who submitted this possible cause for :program:`waptdeploy` not functioning "
-"properly, if you are replicating domain controllers, ensure that the GPOs are "
-"correctly synchronized between your DCs and that :abbr:`ACLs (Access Control "
-"Lists)` are identically applied on the :file:`SysVols`."
-msgstr ""
-"qui a soumis cette cause possible du mauvais fonctionnement du :program:"
-"`waptdeploy`, si vous répliquez des contrôleurs de domaine, assurez-vous que les "
-"GPOs sont correctement synchronisées entre vos DCs et que les :abbr:`ACLs "
-"(Access Control Lists)` sont appliquées de manière identique sur le :file:"
-"`SysVols`."
+msgid "who submitted this possible cause for :program:`waptdeploy` not functioning properly, if you are replicating domain controllers, ensure that the GPOs are correctly synchronized between your DCs and that :abbr:`ACLs (Access Control Lists)` are identically applied on the :file:`SysVols`."
+msgstr "qui a soumis cette cause possible du mauvais fonctionnement du :program:`waptdeploy`, si vous répliquez des contrôleurs de domaine, assurez-vous que les GPOs sont correctement synchronisées entre vos DCs et que les :abbr:`ACLs (Access Control Lists)` sont appliquées de manière identique sur le :file:`SysVols`."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:197
 msgid "Windows does not wait for the network to be up on startup"
 msgstr "Windows n'attend pas le réseau au démarrage"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:199
-msgid ""
-"By default Windows does not wait for the network to be up at computer startup."
+msgid "By default Windows does not wait for the network to be up at computer startup."
 msgstr "Par défaut Windows n'attend pas le réseau au démarrage de la machine."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:201
-msgid ""
-"This can cause problems during :program:`waptdeploy` execution because :program:"
-"`waptdeploy` requires network connectivity to retrieve the new WAPT agent."
-msgstr ""
-"Cela peut poser soucis pour l'exécution de :program:`waptdeploy` car celui-ci a "
-"besoin du réseau au démarrage pour télécharger l'agent WAPT."
+msgid "This can cause problems during :program:`waptdeploy` execution because :program:`waptdeploy` requires network connectivity to retrieve the new WAPT agent."
+msgstr "Cela peut poser soucis pour l'exécution de :program:`waptdeploy` car celui-ci a besoin du réseau au démarrage pour télécharger l'agent WAPT."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:205
-msgid ""
-"You can enable the GPO: **Always wait for the network at computer startup and "
-"logon**:"
-msgstr ""
-"Vous pouvez activer la GPO : **Toujours attendre le réseau au démarrage et à la "
-"connexion**"
+msgid "You can enable the GPO: **Always wait for the network at computer startup and logon**:"
+msgstr "Vous pouvez activer la GPO : **Toujours attendre le réseau au démarrage et à la connexion**"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:208
-msgid ""
-":menuselection:`Computer Configuration --> Administrative Templates --> System --"
-"> Logon --> Always wait for the network at computer startup and logon`"
-msgstr ""
-":menuselection:`Computer --> Configuration --> Administrative Templates --> "
-"System --> Logon --> Always wait for the network at computer startup and logon`"
+msgid ":menuselection:`Computer Configuration --> Administrative Templates --> System --> Logon --> Always wait for the network at computer startup and logon`"
+msgstr ":menuselection:`Computer --> Configuration --> Administrative Templates --> System --> Logon --> Always wait for the network at computer startup and logon`"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:216
 msgid "WAPT Exit will not launch"
 msgstr "WAPTexit ne se lance pas"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:218
-msgid ""
-"Despite the script actually being registered in the local security shutdown "
-"strategy, the :program:`waptexit` script does not launch at computer shutdown."
-msgstr ""
-"Malgré la présence du script dans les stratégies locales d'arrêt de la machine, :"
-"program:`waptexit.exe` ne se lance pas à l'extinction du poste."
+msgid "Despite the script actually being registered in the local security shutdown strategy, the :program:`waptexit` script does not launch at computer shutdown."
+msgstr "Malgré la présence du script dans les stratégies locales d'arrêt de la machine, :program:`waptexit.exe` ne se lance pas à l'extinction du poste."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:223
 msgid "Solution: Hybrid shutdown"
 msgstr "Résolution: Hybrid Shutdown"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:225
-msgid ""
-"Windows 10 hybrid shutdown must be disabled because it causes many problems and "
-"strange behaviors, disabling Hybrid Shutdown will restore exit script execution "
-"at shutdown."
-msgstr ""
-"Il faut désactiver l'arrêt hybride de Windows10, qui cause par ailleurs beaucoup "
-"d'autres comportements étranges. La désactivation de l'arrêt hybride rétablit "
-"l'exécution des scripts à l'extinction de la machine."
+msgid "Windows 10 hybrid shutdown must be disabled because it causes many problems and strange behaviors, disabling Hybrid Shutdown will restore exit script execution at shutdown."
+msgstr "Il faut désactiver l'arrêt hybride de Windows10, qui cause par ailleurs beaucoup d'autres comportements étranges. La désactivation de l'arrêt hybride rétablit l'exécution des scripts à l'extinction de la machine."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:229
-msgid ""
-"Hybrid shutdown can be disabled by setting a value in :file:`wapt-get.ini` file :"
-"ref:`of the WAPT agent <waptexit_ini_file>`."
-msgstr ""
-"L'arrêt hybride peut être désactivé en précisant une valeur dans le fichier :"
-"file:`wapt-get.ini` de l'agent WAPT, voir :ref:`waptexit_ini_file`."
+msgid "Hybrid shutdown can be disabled by setting a value in :file:`wapt-get.ini` file :ref:`of the WAPT agent <waptexit_ini_file>`."
+msgstr "L'arrêt hybride peut être désactivé en précisant une valeur dans le fichier :file:`wapt-get.ini` de l'agent WAPT, voir :ref:`waptexit_ini_file`."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:232
 msgid "There is a WAPT package to solve the Hybrid Shutdown problem:"
 msgstr "Un paquet WAPT existe pour traiter le problème :"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:234
-msgid ""
-"a WAPT package exists for this purpose: `tis-disable-hybrid-shutdown <https://"
-"store.wapt.fr/wapt/tis-disable-hybrid-shutdown_1.0-2_all.wapt>`_."
-msgstr ""
-"`tis-disable-hybrid-shutdown <https://store.wapt.fr/wapt/tis-disable-hybrid-"
-"shutdown_1.0-2_all.wapt>`_ ;"
+msgid "a WAPT package exists for this purpose: `tis-disable-hybrid-shutdown <https://store.wapt.fr/wapt/tis-disable-hybrid-shutdown_1.0-2_all.wapt>`_."
+msgstr "`tis-disable-hybrid-shutdown <https://store.wapt.fr/wapt/tis-disable-hybrid-shutdown_1.0-2_all.wapt>`_ ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:238
 msgid "Solution: Windows Home edition"
 msgstr "Résolution: Windows Home édition"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:240
-msgid ""
-"Local security policies are not available when using a Windows Home edition "
-"computer, so it is normal that the script will not launch. To circumvent the "
-"problem, use scheduled tasks."
-msgstr ""
-"Les GPO n'étant pas présentes sur les versions familiales de Windows, il est "
-"normal qu'elles ne s'exécutent pas."
+msgid "Local security policies are not available when using a Windows Home edition computer, so it is normal that the script will not launch. To circumvent the problem, use scheduled tasks."
+msgstr "Les GPO n'étant pas présentes sur les versions familiales de Windows, il est normal qu'elles ne s'exécutent pas."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:244
-msgid ""
-"The workaround consists in using a scheduled task that will launch :file:`C:\\"
-"\\Program Files (x86)\\\\wapt\\\\wapt-get.exe` with the argument ``upgrade``."
-msgstr ""
-"La solution de contournement est d'utiliser une tâche planifiée qui appelle :"
-"file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get.exe` avec le paramètre "
-"``upgrade``."
+msgid "The workaround consists in using a scheduled task that will launch :file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get.exe` with the argument ``upgrade``."
+msgstr "La solution de contournement est d'utiliser une tâche planifiée qui appelle :file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get.exe` avec le paramètre ``upgrade``."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:249
 msgid "Solution: corrupted local GPO"
 msgstr "Résolution: GPO locale corrompue"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:251
-msgid ""
-"It sometimes occurs that local security policies on the computer are corrupted."
-msgstr ""
-"Il peut arriver que les stratégies de groupes locales de la machine soient "
-"corrompues."
+msgid "It sometimes occurs that local security policies on the computer are corrupted."
+msgstr "Il peut arriver que les stratégies de groupes locales de la machine soient corrompues."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:253
-msgid ""
-"One of the possible solutions is to remove local security strategies by deleting "
-"the file :file:`C:\\\\Windows\\\\System32\\\\GroupPolicy\\\\gpt.ini`, to restart "
-"the computer, and finally to re-install the shutdown scheduled tasks:"
-msgstr ""
-"Une des solutions consiste à supprimer les stratégies locales actuelles en "
-"supprimant le fichier :file:`C:\\\\windows\\\\system32\\\\GroupPolicy\\\\gpt."
-"ini`, puis en redémarrant la machine, et enfin en relançant l'installation de la "
-"tâche d'extinction :"
+msgid "One of the possible solutions is to remove local security strategies by deleting the file :file:`C:\\\\Windows\\\\System32\\\\GroupPolicy\\\\gpt.ini`, to restart the computer, and finally to re-install the shutdown scheduled tasks:"
+msgstr "Une des solutions consiste à supprimer les stratégies locales actuelles en supprimant le fichier :file:`C:\\\\windows\\\\system32\\\\GroupPolicy\\\\gpt.ini`, puis en redémarrant la machine, et enfin en relançant l'installation de la tâche d'extinction :"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:261
-msgid ""
-"If the problem occurs again, this may mean that another application also "
-"manipulates the local GPO."
-msgstr ""
-"Si le problème se reproduit, cela signifie peut être qu'une autre application "
-"manipule également la GPO."
+msgid "If the problem occurs again, this may mean that another application also manipulates the local GPO."
+msgstr "Si le problème se reproduit, cela signifie peut être qu'une autre application manipule également la GPO."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:265
-msgid ""
-"WAPTExit halts after 15 minutes and does not finish the installing the packages"
+msgid "WAPTExit halts after 15 minutes and does not finish the installing the packages"
 msgstr "WAPTexit se coupe après 15 minutes et n'achève pas l'installation"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:267
-msgid ""
-"By default, Windows shutdown scripts are only allowed to run for 15 minutes."
-msgstr ""
-"Par défaut sous Windows, les scripts d'extinction ne peuvent s'exécuter plus de "
-"15 minutes."
+msgid "By default, Windows shutdown scripts are only allowed to run for 15 minutes."
+msgstr "Par défaut sous Windows, les scripts d'extinction ne peuvent s'exécuter plus de 15 minutes."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:269
 msgid "If a script has not finished before that limit, it will be interrupted."
-msgstr ""
-"Si à l'arrêt de la machine, un script d'extinction n'a pas rendu la main au bout "
-"de 15 minutes, le script est interrompu."
+msgstr "Si à l'arrêt de la machine, un script d'extinction n'a pas rendu la main au bout de 15 minutes, le script est interrompu."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:272
 msgid "Solution: increase the installation timeout"
 msgstr "Solution : augmenter le délai d'installation"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:274
-msgid ""
-"To solve that problem, increase the ``preshutdowntimeout`` value and the "
-"``max_gpo_script_wait`` value."
-msgstr ""
-"Pour résoudre le soucis, il faut modifier la valeur ``preshutdowntimeout`` ainsi "
-"que la valeur ``max_gpo_script_wait``."
+msgid "To solve that problem, increase the ``preshutdowntimeout`` value and the ``max_gpo_script_wait`` value."
+msgstr "Pour résoudre le soucis, il faut modifier la valeur ``preshutdowntimeout`` ainsi que la valeur ``max_gpo_script_wait``."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:277
-msgid ""
-"Define these values in :file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get.ini` "
-"file to change the default behavior."
-msgstr ""
-"Définissez ces valeurs dans :file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get."
-"ini` pour modifier le comportement par défaut."
+msgid "Define these values in :file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get.ini` file to change the default behavior."
+msgstr "Définissez ces valeurs dans :file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get.ini` pour modifier le comportement par défaut."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:285
-msgid ""
-"The WAPT package `tis-wapt-conf-policy <https://store.wapt.fr/wapt/tis-wapt-conf-"
-"policy_6_all.wapt>`_ sets this configuration."
-msgstr ""
-"Le paquet `tis-wapt-conf-policy <https://store.wapt.fr/wapt/tis-wapt-conf-"
-"policy_6_all.wapt>`_ embarque cette configuration."
+msgid "The WAPT package `tis-wapt-conf-policy <https://store.wapt.fr/wapt/tis-wapt-conf-policy_6_all.wapt>`_ sets this configuration."
+msgstr "Le paquet `tis-wapt-conf-policy <https://store.wapt.fr/wapt/tis-wapt-conf-policy_6_all.wapt>`_ embarque cette configuration."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:289
 msgid "The other solution may be to use the GPO :file:`File.ini`."
@@ -528,8 +355,7 @@ msgid "The WAPT console can not contact the WAPT Server on port 443."
 msgstr "La console WAPT ne parvient pas à joindre le port 443 du serveur."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:307
-msgid ""
-"check whether the :program:`Nginx` web service is running on the WAPT Server:"
+msgid "check whether the :program:`Nginx` web service is running on the WAPT Server:"
 msgstr "vérifier si le service :program:`Nginx` est démarré sur le serveur :"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:313
@@ -537,14 +363,8 @@ msgid "if :program:`Nginx` is not running, restart the :program:`Nginx` service:
 msgstr "si :program:`Nginx` n'est pas lancé, relancer :program:`Nginx` :"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:319
-msgid ""
-"if :program:`Nginx` still does not start, you'll need to analyze journal logs "
-"in :file:`/var/log/nginx/` on Linux or in :file:`C:\\\\Program Files (x86)\\"
-"\\wapt\\\\waptserver\\\\nginx\\\\logs` on Windows."
-msgstr ""
-"si :program:`Nginx` ne veux toujours pas démarrer, il faut analyser les fichiers "
-"de journalisation dans :file:`/var/log/nginx/` pour Linux ou dans :file:`C:\\"
-"\\Program Files (x86)\\\\wapt\\\\waptserver\\\n"
+msgid "if :program:`Nginx` still does not start, you'll need to analyze journal logs in :file:`/var/log/nginx/` on Linux or in :file:`C:\\\\Program Files (x86)\\\\wapt\\\\waptserver\\\\nginx\\\\logs` on Windows."
+msgstr "si :program:`Nginx` ne veux toujours pas démarrer, il faut analyser les fichiers de journalisation dans :file:`/var/log/nginx/` pour Linux ou dans :file:`C:\\\\Program Files (x86)\\\\wapt\\\\waptserver\\\n"
 "ginx\\\\logs` pour Windows."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:324
@@ -561,36 +381,23 @@ msgstr "vérifier si le service :program:`waptserver` est en cours d'éxécution
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:334
 msgid "if the command returns nothing, then start the :program:`waptserver` using:"
-msgstr ""
-"si la commande ne retourne rien, lancer le :program:`waptserver` en utilisant :"
+msgstr "si la commande ne retourne rien, lancer le :program:`waptserver` en utilisant :"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:341
 msgid "Error connecting with SSL ... verify failed"
 msgstr "Error connecting with SSL ... verify failed"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:343
-msgid ""
-"The WAPT console seems not to be able to verify the server's HTTPS certificate."
-msgstr ""
-"La console ne semble pas réussir à vérifier le certificat HTTPS du serveur."
+msgid "The WAPT console seems not to be able to verify the server's HTTPS certificate."
+msgstr "La console ne semble pas réussir à vérifier le certificat HTTPS du serveur."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:347
-msgid ""
-"Before doing anything, be sure that your are not facing a :abbr:`MITM (Man in "
-"the Middle)` attack!"
-msgstr ""
-"Attention, avant toute chose vérifiez que vous n'êtes pas victime d'une attaque "
-"*man in the middle* !"
+msgid "Before doing anything, be sure that your are not facing a :abbr:`MITM (Man in the Middle)` attack!"
+msgstr "Attention, avant toute chose vérifiez que vous n'êtes pas victime d'une attaque *man in the middle* !"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:352
-msgid ""
-"If you have just redone your WAPT Server and that you use a self-signed "
-"certificate, you can recover the old keys of your old WAPT Server in :file:`/opt/"
-"wapt/waptserver/apache/ssl`."
-msgstr ""
-"Si vous venez de refaire votre serveur WAPT et que vous utilisez un certificat "
-"auto-signé, vous pouvez récupérer les anciennes clés de votre ancien serveur "
-"wapt dans :file:`/opt/wapt/waptserver/apache/ssl`."
+msgid "If you have just redone your WAPT Server and that you use a self-signed certificate, you can recover the old keys of your old WAPT Server in :file:`/opt/wapt/waptserver/apache/ssl`."
+msgstr "Si vous venez de refaire votre serveur WAPT et que vous utilisez un certificat auto-signé, vous pouvez récupérer les anciennes clés de votre ancien serveur wapt dans :file:`/opt/wapt/waptserver/apache/ssl`."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:356
 msgid "close your WAPT console;"
@@ -609,28 +416,16 @@ msgid "be sure that the previous command has gone well;"
 msgstr "assurez-vous que la commande précédente s'est bien déroulée ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:364
-msgid ""
-"restart the WAPT service with :code:`net stop waptservice && net start "
-"waptservice`;"
-msgstr ""
-"redémarrer le service WAPT avec :code:`net stop waptservice && net start "
-"waptservice` ;"
+msgid "restart the WAPT service with :code:`net stop waptservice && net start waptservice`;"
+msgstr "redémarrer le service WAPT avec :code:`net stop waptservice && net start waptservice` ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:367
 msgid "restart the WAPT console;"
 msgstr "relancer la console WAPT ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:369
-msgid ""
-"In case you do not use the certificate pinning method, this tells you that the "
-"certificate sent by the server can not be verified with the python :program:"
-"`certifi` bundle of certificates. Be sure to have the full chain of certificates "
-"on the WAPT Server."
-msgstr ""
-"Dans le cas ou vous ne pratiquez pas le *certificate pinning*, cela signifie que "
-"le certificat envoyé par le serveur ne pas être vérifié avec le bundle python :"
-"program:`certifi`. Veillez à bien fournir la chaîne complète pour le certificat "
-"sur le serveur WAPT."
+msgid "In case you do not use the certificate pinning method, this tells you that the certificate sent by the server can not be verified with the python :program:`certifi` bundle of certificates. Be sure to have the full chain of certificates on the WAPT Server."
+msgstr "Dans le cas ou vous ne pratiquez pas le *certificate pinning*, cela signifie que le certificat envoyé par le serveur ne pas être vérifié avec le bundle python :program:`certifi`. Veillez à bien fournir la chaîne complète pour le certificat sur le serveur WAPT."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:377
 msgid "Problems when enabling enable-check-certificate"
@@ -638,17 +433,11 @@ msgstr "Problème lors du enable-check-certificate"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:380
 msgid "Message \"Certificate CN ### sent by server does not match URL host ###\""
-msgstr ""
-"J'ai le message \"certificate CN ### sent by server does not match URL host ### "
-"lors du enable-check-certificate\""
+msgstr "J'ai le message \"certificate CN ### sent by server does not match URL host ### lors du enable-check-certificate\""
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:382
-msgid ""
-"This means that the CN in the certificate sent by the WAPT Server does not match "
-"the value of the *wapt_server* attribute in :file:`wapt-get.ini`."
-msgstr ""
-"Cela signifie que le CN envoyé par le certificat du serveur ne correspond pas au "
-"*wapt_server* du fichier :file:`wapt-get.ini`."
+msgid "This means that the CN in the certificate sent by the WAPT Server does not match the value of the *wapt_server* attribute in :file:`wapt-get.ini`."
+msgstr "Cela signifie que le CN envoyé par le certificat du serveur ne correspond pas au *wapt_server* du fichier :file:`wapt-get.ini`."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:386
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:715
@@ -657,44 +446,27 @@ msgstr "Deux solutions :"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:388
 msgid "check the value of *wapt_server* in your :file:`wapt-get.ini`;"
-msgstr ""
-"vérifier le paramètre *wapt_server* dans votre fichier :file:`wapt-get.ini` ;"
+msgstr "vérifier le paramètre *wapt_server* dans votre fichier :file:`wapt-get.ini` ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:390
-msgid ""
-"If the value is correct, this surely means that an error has happened during the "
-"generation of the self-signed certificate during server post-configuration "
-"(typing error, ...)."
-msgstr ""
-"Si votre valeur est correcte, cela signifie sûrement qu'une erreur est survenue "
-"lors de la génération du certificat autosigné par le post conf, une faute de "
-"frappe ..."
+msgid "If the value is correct, this surely means that an error has happened during the generation of the self-signed certificate during server post-configuration (typing error, ...)."
+msgstr "Si votre valeur est correcte, cela signifie sûrement qu'une erreur est survenue lors de la génération du certificat autosigné par le post conf, une faute de frappe ..."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:394
 msgid "You must then regenerate your self-signed certificates."
 msgstr "Vous pouvez donc regénérer vos certificats autosignés."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:396
-msgid ""
-"on the WAPT Server, delete the content of the :file:`/opt/wapt/waptserver/apache/"
-"ssl/` folder."
-msgstr ""
-"Sur le serveur WAPT, supprimez le contenu du dossier :file:`/opt/wapt/waptserver/"
-"apache/ssl/`."
+msgid "on the WAPT Server, delete the content of the :file:`/opt/wapt/waptserver/apache/ssl/` folder."
+msgstr "Sur le serveur WAPT, supprimez le contenu du dossier :file:`/opt/wapt/waptserver/apache/ssl/`."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:399
-msgid ""
-"Then, relaunch the postconfiguration script (the same as the one used during "
-"initial installation, with the same arguments and values)."
-msgstr ""
-"Ensuite, relancez le script de postconf (le même que pendant l'installation avec "
-"les mêmes arguments)."
+msgid "Then, relaunch the postconfiguration script (the same as the one used during initial installation, with the same arguments and values)."
+msgstr "Ensuite, relancez le script de postconf (le même que pendant l'installation avec les mêmes arguments)."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:402
 msgid "Then, be sure that the value of *FQDN for the WAPT Server* is correct."
-msgstr ""
-"Enfin, vérifiez bien le nom renseigné lors de l'étape *FQDN for the WAPT "
-"serveur* est correcte."
+msgstr "Enfin, vérifiez bien le nom renseigné lors de l'étape *FQDN for the WAPT serveur* est correcte."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:404
 msgid "you may now retry :command:`enable-check-certificate`."
@@ -710,45 +482,31 @@ msgstr "Création de paquet via la console"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:412
 msgid "The drag and drop method of a software in the WAPT console does not work:"
-msgstr ""
-"Le glisser-déposer dans le dépôt privé dans la console WAPT ne fonctionne pas :"
+msgstr "Le glisser-déposer dans le dépôt privé dans la console WAPT ne fonctionne pas :"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:414
-msgid ""
-"the method will not work if the WAPT console has been started without :term:"
-"`Local Administrator` privilege;"
-msgstr ""
-"cela ne fonctionnera pas si la console n'a pas été lancée en tant qu':term:"
-"`Administrateur Local` ;"
+msgid "the method will not work if the WAPT console has been started without :term:`Local Administrator` privilege;"
+msgstr "cela ne fonctionnera pas si la console n'a pas été lancée en tant qu':term:`Administrateur Local` ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:417
 msgid "the method will not work if the WAPT console has been started with UAC;"
 msgstr "cela ne fonctionnera pas si la console WAPT a été lancée avec UAC ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:419
-msgid ""
-"Simple alternative solution: go to :menuselection:`Tools --> Create a package "
-"template from an installer --> Choose the installer`."
-msgstr ""
-"Solution de contournement simple : passer par :menuselection:`Outils --> Créer "
-"un modèle de paquet depuis un installeur --> Choisir un installeur`."
+msgid "Simple alternative solution: go to :menuselection:`Tools --> Create a package template from an installer --> Choose the installer`."
+msgstr "Solution de contournement simple : passer par :menuselection:`Outils --> Créer un modèle de paquet depuis un installeur --> Choisir un installeur`."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:422
-msgid ""
-"the WAPT console does not fill in automatically the informations in the fields:"
-msgstr ""
-"La console ne renseigne pas automatiquement les informations dans les champs :"
+msgid "the WAPT console does not fill in automatically the informations in the fields:"
+msgstr "La console ne renseigne pas automatiquement les informations dans les champs :"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:424
 msgid "there are special characters in some file path of the binary;"
-msgstr ""
-"cela ne fonctionnera pas si vous avez un accent dans le chemin vers le fichier ;"
+msgstr "cela ne fonctionnera pas si vous avez un accent dans le chemin vers le fichier ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:426
 msgid "the installer does not provide the desired informations;"
-msgstr ""
-"l'installeur ne fournit peut être pas suffisamment d'informations sur ses "
-"propriétés ;"
+msgstr "l'installeur ne fournit peut être pas suffisamment d'informations sur ses propriétés ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:429
 msgid "Problem with rights in the Windows Command Line utility"
@@ -775,67 +533,43 @@ msgstr "Solution"
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:442
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:459
 msgid "Open a session as :term:`Local Administrator` and redo the desired action."
-msgstr ""
-"Ouvrir une session en tant qu':term:`Administrateur Local` et refaire "
-"l'opération souhaitée."
+msgstr "Ouvrir une session en tant qu':term:`Administrateur Local` et refaire l'opération souhaitée."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:445
 msgid "Problems with access rights and PyScripter"
 msgstr "Problème de droits avec PyScripter"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:447
-msgid ""
-"When trying to install a package from :program:`PyScripter`, if the following "
-"message appears:"
-msgstr ""
-"Lorsqu'on souhaite tester l'installation d'un paquet sur son PC de développement "
-"de paquet à partir de :program:`PyScripter`, on obtient le message :"
+msgid "When trying to install a package from :program:`PyScripter`, if the following message appears:"
+msgstr "Lorsqu'on souhaite tester l'installation d'un paquet sur son PC de développement de paquet à partir de :program:`PyScripter`, on obtient le message :"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:462
 msgid "My WAPT package is too big and I can not upload it on the repository"
 msgstr "Mon paquet WAPT est trop volumineux et je n'arrive pas à l'uploader"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:464
-msgid ""
-"When a package is too big, it is necessary to :command:`build` it locally then :"
-"command:`upload` it with :program:`WinSCP` or an equivalent utility."
-msgstr ""
-"Quand un paquet est trop volumineux, il faut en général lancer le builder "
-"localement puis l'uploader avec :program:`WinSCP`."
+msgid "When a package is too big, it is necessary to :command:`build` it locally then :command:`upload` it with :program:`WinSCP` or an equivalent utility."
+msgstr "Quand un paquet est trop volumineux, il faut en général lancer le builder localement puis l'uploader avec :program:`WinSCP`."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:470
-msgid ""
-"build the package with :program:`PyScripter` or manually :ref:`build the package "
-"<build_package>`."
+msgid "build the package with :program:`PyScripter` or manually :ref:`build the package <build_package>`."
 msgstr ":ref:`Builder le paquet dans PyScripter ou manuellement <build_package>`."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:475
-msgid ""
-"If the previous :command:`upload` failed, you can find the package in :file:`C:\\"
-"\\waptdev`."
-msgstr ""
-"Si l':command:`upload` a précédemment échoué, vous pourrez trouver le paquet "
-"généré dans :file:`C:\\\\waptdev`."
+msgid "If the previous :command:`upload` failed, you can find the package in :file:`C:\\\\waptdev`."
+msgstr "Si l':command:`upload` a précédemment échoué, vous pourrez trouver le paquet généré dans :file:`C:\\\\waptdev`."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:478
 msgid "download and install :program:`WinSCP` using WAPT:"
 msgstr "Télécharger et installer WinSCP à l'aide de WAPT :"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:484
-msgid ""
-"using :program:`WinSCP`, :command:`upload` your package in :file:`/var/www/html/"
-"wapt/` path of you Linux server."
-msgstr ""
-"A l'aide de :program:`WinSCP`, téléversez votre paquet dans le dossier :file:`/"
-"var/www/html/wapt/` de votre serveur linux."
+msgid "using :program:`WinSCP`, :command:`upload` your package in :file:`/var/www/html/wapt/` path of you Linux server."
+msgstr "A l'aide de :program:`WinSCP`, téléversez votre paquet dans le dossier :file:`/var/www/html/wapt/` de votre serveur linux."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:487
-msgid ""
-"once the upload has finished, you'll need to recreate the :file:`Packages` index "
-"file on your repository:"
-msgstr ""
-"Une fois le transfert terminé, il faut regénérer le fichier :file:`Packages` sur "
-"votre dépôt :"
+msgid "once the upload has finished, you'll need to recreate the :file:`Packages` index file on your repository:"
+msgstr "Une fois le transfert terminé, il faut regénérer le fichier :file:`Packages` sur votre dépôt :"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:495
 msgid "WAPT package in error"
@@ -846,12 +580,8 @@ msgid "Problem installing a package"
 msgstr "Problème d'installation"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:505
-msgid ""
-"I have a package that returns in error and the software is not installed on the "
-"computer when I physically go to check on the computer."
-msgstr ""
-"J'ai un paquet en erreur et le logiciel n'est pas installé sur la machine quand "
-"je me déplace."
+msgid "I have a package that returns in error and the software is not installed on the computer when I physically go to check on the computer."
+msgstr "J'ai un paquet en erreur et le logiciel n'est pas installé sur la machine quand je me déplace."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:509
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:565
@@ -862,54 +592,31 @@ msgstr "Explication"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:511
 msgid "An error has occurred during the execution of the  :file:`setup.py`."
-msgstr ""
-"Une erreur est survenue pendant l'exécution de l'installation définie dans :file:"
-"`setup.py`."
+msgstr "Une erreur est survenue pendant l'exécution de l'installation définie dans :file:`setup.py`."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:513
-msgid ""
-"You can read and analyze error messages returned in the console and try to "
-"understand and solve them."
-msgstr ""
-"Vous pouvez lire et analyser les messages d'erreur retournés dans la console et "
-"tenter de les comprendre."
+msgid "You can read and analyze error messages returned in the console and try to understand and solve them."
+msgstr "Vous pouvez lire et analyser les messages d'erreur retournés dans la console et tenter de les comprendre."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:516
-msgid ""
-"The installation of the package will be retried at each :command:`upgrade` cycle "
-"until the package does not return an error."
-msgstr ""
-"L'installation sera retentée à chaque :command:`upgrade` jusqu'à ce que le "
-"paquet ne génère plus d'erreur."
+msgid "The installation of the package will be retried at each :command:`upgrade` cycle until the package does not return an error."
+msgstr "L'installation sera retentée à chaque :command:`upgrade` jusqu'à ce que le paquet ne génère plus d'erreur."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:522
 msgid "if WAPT returns an error code, research the error code on the Internet;"
 msgstr "si WAPT fournit un code d'erreur, chercher ce code d'erreur sur Internet ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:524
-msgid ""
-"Example for a MSI: *1618*: another installation in already running. Restarting "
-"the computer should solve the problem."
-msgstr ""
-"Exemple with a MSI : *1618* : Une autre installation est déjà en cours. Un "
-"redémarrage devrait solutionner le problème."
+msgid "Example for a MSI: *1618*: another installation in already running. Restarting the computer should solve the problem."
+msgstr "Exemple with a MSI : *1618* : Une autre installation est déjà en cours. Un redémarrage devrait solutionner le problème."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:529
-msgid ""
-"MSI error codes are available by visiting `this website <https://msdn.microsoft."
-"com/en-us/library/windows/desktop/aa372835.aspx>`_."
-msgstr ""
-"Les différents codes d'erreur MSI sont disponibles `ici <https://msdn.microsoft."
-"com/en-us/library/windows/desktop/aa372835.aspx>`_."
+msgid "MSI error codes are available by visiting `this website <https://msdn.microsoft.com/en-us/library/windows/desktop/aa372835.aspx>`_."
+msgstr "Les différents codes d'erreur MSI sont disponibles `ici <https://msdn.microsoft.com/en-us/library/windows/desktop/aa372835.aspx>`_."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:532
-msgid ""
-"go to the computer and try to install the package with the WAPT command line "
-"utility. Then check that the software has installed;"
-msgstr ""
-"se déplacer physiquement sur la machine en erreur et relancer l'installation "
-"silencieuse en ligne de commande. Vérifier ensuite que le logiciel à bien été "
-"installé."
+msgid "go to the computer and try to install the package with the WAPT command line utility. Then check that the software has installed;"
+msgstr "se déplacer physiquement sur la machine en erreur et relancer l'installation silencieuse en ligne de commande. Vérifier ensuite que le logiciel à bien été installé."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:537
 msgid "Once the silent installation has finished, do nothing else."
@@ -920,33 +627,16 @@ msgid "The objective is to reproduce the behavior of the WAPT agent."
 msgstr "L'objectif est de reproduire le comportement de l'agent WAPT."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:541
-msgid ""
-"if the package installs silently in user context, this may mean that the "
-"software installer does not work in *SYSTEM* context;"
-msgstr ""
-"si l'installation fonctionne en mode silencieux, en contexte utilisateur, cela "
-"peut signifier que l'installeur ne supporte pas l'installation en compte "
-"*SYSTEM* ;"
+msgid "if the package installs silently in user context, this may mean that the software installer does not work in *SYSTEM* context;"
+msgstr "si l'installation fonctionne en mode silencieux, en contexte utilisateur, cela peut signifier que l'installeur ne supporte pas l'installation en compte *SYSTEM* ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:544
-msgid ""
-"if it is still not working, launch the installation manually. It is possible for "
-"an error to appear explicitly describing the problem (ex: missing dependency, "
-"etc);"
-msgstr ""
-"si cela ne fonctionne toujours pas, lancer l'installation manuellement. Il est "
-"possible qu'une erreur apparaisse indiquant explicitement le problème. Exemple "
-"(Dépendance manquante: .Net , Java, etc..) ;"
+msgid "if it is still not working, launch the installation manually. It is possible for an error to appear explicitly describing the problem (ex: missing dependency, etc);"
+msgstr "si cela ne fonctionne toujours pas, lancer l'installation manuellement. Il est possible qu'une erreur apparaisse indiquant explicitement le problème. Exemple (Dépendance manquante: .Net , Java, etc..) ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:548
-msgid ""
-"it is possible that the installer does not support installing over an older "
-"version of the software, so you will have to explicitly remove older versions of "
-"the application before installing the new one;"
-msgstr ""
-"il est possible que l'installeur ne supporte pas l'écrasement d'une installation "
-"précédente, alors prévoir la désinstallation des anciennes version avant "
-"d'installer la nouvelle version ;"
+msgid "it is possible that the installer does not support installing over an older version of the software, so you will have to explicitly remove older versions of the application before installing the new one;"
+msgstr "il est possible que l'installeur ne supporte pas l'écrasement d'une installation précédente, alors prévoir la désinstallation des anciennes version avant d'installer la nouvelle version ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:553
 msgid "Error \"timed out after seconds with output '600.0'\""
@@ -959,277 +649,157 @@ msgid "Some packages return the following error in the WAPT console:"
 msgstr "Certains paquets dans la console retournent l'erreur :"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:567
-msgid ""
-"By default, when installing a package :command:`run`, :command:"
-"`install_msi_if_needed`, WAPT will wait 600 seconds for the installer to finish "
-"its task."
-msgstr ""
-"Par défaut lors d'une installation (avec :command:`run`, :command:"
-"`install_msi_if_needed` ou :command:`install_exe_if_needed`) WAPT va attendre "
-"600 secondes que l'installeur lui rende la main."
+msgid "By default, when installing a package :command:`run`, :command:`install_msi_if_needed`, WAPT will wait 600 seconds for the installer to finish its task."
+msgstr "Par défaut lors d'une installation (avec :command:`run`, :command:`install_msi_if_needed` ou :command:`install_exe_if_needed`) WAPT va attendre 600 secondes que l'installeur lui rende la main."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:571
-msgid ""
-"if the installer has not finished in this delay, WAPT will stop the running "
-"installation."
-msgstr ""
-"Si l'installeur n'a pas terminé dans ce délai, WAPT coupera l'installation en "
-"cours."
+msgid "if the installer has not finished in this delay, WAPT will stop the running installation."
+msgstr "Si l'installeur n'a pas terminé dans ce délai, WAPT coupera l'installation en cours."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:575
 msgid "Solution: large software installs"
 msgstr "Résolution: Installations volumineuses"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:577
-msgid ""
-"If the software to be installed is known to be big (Microsoft Office, "
-"Solidworks, LibreOffice, Katia, Adobe Creative Suite), it is possible that the "
-"600 second delay will be too short."
-msgstr ""
-"Si vous tentez d'installer un gros logiciel (Office, Solidworks, "
-"Libreoffice ...), il est possible que l'intervalle de 600 secondes ne soit pas "
-"suffisant."
+msgid "If the software to be installed is known to be big (Microsoft Office, Solidworks, LibreOffice, Katia, Adobe Creative Suite), it is possible that the 600 second delay will be too short."
+msgstr "Si vous tentez d'installer un gros logiciel (Office, Solidworks, Libreoffice ...), il est possible que l'intervalle de 600 secondes ne soit pas suffisant."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:581
 msgid "You will have to increase the timeout value, ex: *timeout* = 1200:"
-msgstr ""
-"Vous devez alors, augmentez cette valeur avec l'argument *timeout*, ex: "
-"*timeout* = 1200 :"
+msgstr "Vous devez alors, augmentez cette valeur avec l'argument *timeout*, ex: *timeout* = 1200 :"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:588
 msgid "Error \"has been installed but the uninstall key can not be found\""
 msgstr "Erreur \"has been installed but the uninstall key can not be found\""
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:602
-msgid ""
-"WAPT relies on Windows to install :mimetype:`.msi` binaries with :command:"
-"`install_msi_if_needed` and :mimetype:`.exe` binaries with :command:"
-"`install_exe_if_needed`."
-msgstr ""
-"WAPT s'appuie sur Windows pour installer les binaires :mimetype:`.msi` avec :"
-"command:`install_msi_if_need` et les binaires :mimetype:`.exe` avec :command:"
-"`install_exe_if_need`."
+msgid "WAPT relies on Windows to install :mimetype:`.msi` binaries with :command:`install_msi_if_needed` and :mimetype:`.exe` binaries with :command:`install_exe_if_needed`."
+msgstr "WAPT s'appuie sur Windows pour installer les binaires :mimetype:`.msi` avec :command:`install_msi_if_need` et les binaires :mimetype:`.exe` avec :command:`install_exe_if_need`."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:606
-msgid ""
-"By default, WAPT accepts return codes *0* (OK) and *3010* (computer restart "
-"required) and it verifies that the *uninstall key* is present."
-msgstr ""
-"Par défaut, WAPT accepte les codes de retour : *0* (OK) et *3010* (redémarrage "
-"nécessaire), et il vérifie la clé de désinstallation résultante (*uninstall "
-"key*)."
+msgid "By default, WAPT accepts return codes *0* (OK) and *3010* (computer restart required) and it verifies that the *uninstall key* is present."
+msgstr "Par défaut, WAPT accepte les codes de retour : *0* (OK) et *3010* (redémarrage nécessaire), et il vérifie la clé de désinstallation résultante (*uninstall key*)."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:609
-msgid ""
-"Unfortunately, we can not fully trust these return codes, so WAPT does "
-"additional checks after completing the installation to make sure that all has "
-"gone well:"
-msgstr ""
-"Malheureusement, on ne peut pas toujours se fier à ces codes d'erreur, WAPT "
-"vérifie enfin que tout s'est bien déroulé :"
+msgid "Unfortunately, we can not fully trust these return codes, so WAPT does additional checks after completing the installation to make sure that all has gone well:"
+msgstr "Malheureusement, on ne peut pas toujours se fier à ces codes d'erreur, WAPT vérifie enfin que tout s'est bien déroulé :"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:613
 msgid "it checks the presence of the *uninstall key* on the computer;"
 msgstr "il vérifie la présence de la clé de désinstallation sur la machine ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:615
-msgid ""
-"it checks that the version number of the software is equal or greater than the "
-"version number in the :file:`control` file;"
-msgstr ""
-"il vérifie que la version est bien égale ou supérieure à celle renseignée ;"
+msgid "it checks that the version number of the software is equal or greater than the version number in the :file:`control` file;"
+msgstr "il vérifie que la version est bien égale ou supérieure à celle renseignée ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:618
-msgid ""
-"if this is not the case, it infers that the software may not be present on the "
-"computer;"
-msgstr ""
-"si ce n'est pas le cas, il en déduit que le logiciel n'est peut-être pas présent "
-"sur la machine ;"
+msgid "if this is not the case, it infers that the software may not be present on the computer;"
+msgstr "si ce n'est pas le cas, il en déduit que le logiciel n'est peut-être pas présent sur la machine ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:621
-msgid ""
-"The function returns the package in error. The installation will be retried at "
-"every :command:`upgrade` cycle until the package returns no error."
-msgstr ""
-"La fonction bascule alors volontairement le paquet en erreur. L'installation "
-"sera retentée lors de chaque upgrade, jusqu'à ce que le paquet ne génère plus "
-"d'erreur."
+msgid "The function returns the package in error. The installation will be retried at every :command:`upgrade` cycle until the package returns no error."
+msgstr "La fonction bascule alors volontairement le paquet en erreur. L'installation sera retentée lors de chaque upgrade, jusqu'à ce que le paquet ne génère plus d'erreur."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:629
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:668
-msgid ""
-"Before doing anything, it is advisable to go physically to the computer "
-"returning in error and to **manually check whether the software has correctly "
-"installed**. If the software has not installed correctly, refer to the :ref:"
-"`section of this documentation on installing a package "
-"<common_problems_installing_a_package>`."
-msgstr ""
-"Avant toute chose, il convient de se connecter sur la machine en erreur et de "
-"vérifier manuellement **si le logiciel est correctement installé** . Si ce n'est "
-"pas le cas, se référer à la documentation sur les :ref:`problèmes d'installation "
-"d'un paquet <common_problems_installing_a_package>`.."
+msgid "Before doing anything, it is advisable to go physically to the computer returning in error and to **manually check whether the software has correctly installed**. If the software has not installed correctly, refer to the :ref:`section of this documentation on installing a package <common_problems_installing_a_package>`."
+msgstr "Avant toute chose, il convient de se connecter sur la machine en erreur et de vérifier manuellement **si le logiciel est correctement installé** . Si ce n'est pas le cas, se référer à la documentation sur les :ref:`problèmes d'installation d'un paquet <common_problems_installing_a_package>`.."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:635
-msgid ""
-"if the software has installed correctly, this may mean that the uninstall key or "
-"the software version in the package is not correct;"
-msgstr ""
-"si le logiciel est bien installé, cela signifie peut être que la clé de "
-"désinstallation ou la version fournie dans le paquet n'est pas bonne ;"
+msgid "if the software has installed correctly, this may mean that the uninstall key or the software version in the package is not correct;"
+msgstr "si le logiciel est bien installé, cela signifie peut être que la clé de désinstallation ou la version fournie dans le paquet n'est pas bonne ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:638
-msgid ""
-"retrieve the correct *uninstall key* and make changes to the WAPT package "
-"accordingly;"
-msgstr ""
-"récupérer la bonne clé de désinstallation et corriger le paquet en conséquence ;"
+msgid "retrieve the correct *uninstall key* and make changes to the WAPT package accordingly;"
+msgstr "récupérer la bonne clé de désinstallation et corriger le paquet en conséquence ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:641
-msgid ""
-"if the error happens when using the :command:`install_msi_if_needed` function, "
-"this means that the MSI installer is badly packaged and that it is returning an "
-"incorrect *uninstall key*;"
-msgstr ""
-"si l'erreur se produit avec :command:`install_msi_if_needed` cela signifie que "
-"l'installeur MSI est mal conçu et renvoie une mauvaise clé de désinstallation ;"
+msgid "if the error happens when using the :command:`install_msi_if_needed` function, this means that the MSI installer is badly packaged and that it is returning an incorrect *uninstall key*;"
+msgstr "si l'erreur se produit avec :command:`install_msi_if_needed` cela signifie que l'installeur MSI est mal conçu et renvoie une mauvaise clé de désinstallation ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:646
-msgid ""
-"Error \"has been installed and the uninstall key found but version is not good\""
-msgstr ""
-"Erreur \"has been installed and the uninstall key found but version is not good\""
+msgid "Error \"has been installed and the uninstall key found but version is not good\""
+msgstr "Erreur \"has been installed and the uninstall key found but version is not good\""
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:660
-msgid ""
-"When using :command:`install_msi_if_needed` or :program:`install_exe_if_needed` "
-"functions, additional checks are performed to make sure that all has gone well."
-msgstr ""
-"Avec les commandes :command:`install_msi_if_needed` et :command:"
-"`install_exe_if_needed`, des vérifications supplémentaires sont effectuées pour "
-"vérifier que tout s'est bien passé."
+msgid "When using :command:`install_msi_if_needed` or :program:`install_exe_if_needed` functions, additional checks are performed to make sure that all has gone well."
+msgstr "Avec les commandes :command:`install_msi_if_needed` et :command:`install_exe_if_needed`, des vérifications supplémentaires sont effectuées pour vérifier que tout s'est bien passé."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:675
 msgid "Solution: with ``install_msi_if_needed``"
 msgstr "Solution: Avec ``install_msi_if_needed``"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:677
-msgid ""
-"The informations being extracted from the MSI installer, this means that the MSI "
-"file does not return correct values or that the *uninstall key* is incorrect."
-msgstr ""
-"Les informations étant extraites depuis l'installeur MSI, cela signifie que le "
-"fichiers MSI ne renvoie pas la bonne version ou que la clé de désinstallation "
-"retournée n'est pas la bonne version."
+msgid "The informations being extracted from the MSI installer, this means that the MSI file does not return correct values or that the *uninstall key* is incorrect."
+msgstr "Les informations étant extraites depuis l'installeur MSI, cela signifie que le fichiers MSI ne renvoie pas la bonne version ou que la clé de désinstallation retournée n'est pas la bonne version."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:681
 msgid "You can check using the Windows Command Line utility:"
 msgstr "Vérifier avec la commande :"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:687
-msgid ""
-"If the returned key is not that which has been entered in the install section of "
-"the :file:`setup.py`, it is not possible to use :command:`install_msi_if_needed`."
-msgstr ""
-"Si la clé retournée n'est pas celle renseignée dans la partie installation du "
-"fichier :file:`setup.py` , il n'est pas possible d'utiliser la fonction :command:"
-"`install_msi_if_needed`."
+msgid "If the returned key is not that which has been entered in the install section of the :file:`setup.py`, it is not possible to use :command:`install_msi_if_needed`."
+msgstr "Si la clé retournée n'est pas celle renseignée dans la partie installation du fichier :file:`setup.py` , il n'est pas possible d'utiliser la fonction :command:`install_msi_if_needed`."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:691
-msgid ""
-"You must review the install section of your :file:`setup.py`, use the :command:"
-"`run()` function and manually manage exceptions."
-msgstr ""
-"Il faut rebasculer l'installation avec un simple :command:`run()` et gérer les "
-"exceptions manuellement."
+msgid "You must review the install section of your :file:`setup.py`, use the :command:`run()` function and manually manage exceptions."
+msgstr "Il faut rebasculer l'installation avec un simple :command:`run()` et gérer les exceptions manuellement."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:695
 msgid "Solution: with ``install_exe_if_needed``"
 msgstr "Avec install_exe_if_needed"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:697
-msgid ""
-"This probably means that the version number entered in the :program:"
-"`install_exe_if_needed` function is not correct. Make corrections to the WAPT "
-"package accordingly."
-msgstr ""
-"Cela signifie probablement que la version renseignée dans la fonction :command:"
-"`install_exe_if_needed` n'est pas la bonne. Corriger le paquet WAPT en "
-"conséquence."
+msgid "This probably means that the version number entered in the :program:`install_exe_if_needed` function is not correct. Make corrections to the WAPT package accordingly."
+msgstr "Cela signifie probablement que la version renseignée dans la fonction :command:`install_exe_if_needed` n'est pas la bonne. Corriger le paquet WAPT en conséquence."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:703
-msgid ""
-"If the ``min_version`` argument has not been entered, WAPT will try to retrieve "
-"the version automatically from the exe installer."
-msgstr ""
-"Si l'argument ``min_version`` n'a pas été renseigné, WAPT va tenter de récupérer "
-"automatiquement la version depuis l'installeur exe."
+msgid "If the ``min_version`` argument has not been entered, WAPT will try to retrieve the version automatically from the exe installer."
+msgstr "Si l'argument ``min_version`` n'a pas été renseigné, WAPT va tenter de récupérer automatiquement la version depuis l'installeur exe."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:706
 msgid "You can check the *uninstall key* and version number using the command:"
-msgstr ""
-"Pour vérifier la clé de désinstallation utilisée et le numéro de version, "
-"utiliser la commande :"
+msgstr "Pour vérifier la clé de désinstallation utilisée et le numéro de version, utiliser la commande :"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:712
-msgid ""
-"If no version is provided with the :command:`wapt-get list-registry` command, "
-"this means that the software installer does not provide an *uninstall key*."
-msgstr ""
-"Si aucune version n'est fournie avec la commande :command:`list-registry`, cela "
-"signifie que la clé de désinstallation du logiciel ne fournit pas de version."
+msgid "If no version is provided with the :command:`wapt-get list-registry` command, this means that the software installer does not provide an *uninstall key*."
+msgstr "Si aucune version n'est fournie avec la commande :command:`list-registry`, cela signifie que la clé de désinstallation du logiciel ne fournit pas de version."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:717
-msgid ""
-"use the argument ``get_version`` to provide the path to another ``uninstallkey``;"
-msgstr ""
-"utiliser l'argument ``get_version`` pour fournir un chemin vers une autre "
-"``uninstallkey`` :"
+msgid "use the argument ``get_version`` to provide the path to another ``uninstallkey``;"
+msgstr "utiliser l'argument ``get_version`` pour fournir un chemin vers une autre ``uninstallkey`` ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:729
-msgid ""
-"providing an empty value for ``min_version`` tells WAPT not to check for "
-"versions;"
-msgstr ""
-"fournir une valeur vide en argument pour ``min_version`` afin d'indiquer à WAPT "
-"qu'aucune version n'est à vérifier ;"
+msgid "providing an empty value for ``min_version`` tells WAPT not to check for versions;"
+msgstr "fournir une valeur vide en argument pour ``min_version`` afin d'indiquer à WAPT qu'aucune version n'est à vérifier ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:738
 msgid "With this method, **versions are no longer checked during updates!**"
-msgstr ""
-"Avec cette méthode **on ne vérifiera plus la version lors de mise à jour** !"
+msgstr "Avec cette méthode **on ne vérifiera plus la version lors de mise à jour !**"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:741
 msgid "Frequent problems caused by Anti-Virus software"
 msgstr "Problèmes fréquents liés aux Antivirus"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:743
-msgid ""
-"Some Anti-Virus software falsely raise errors when checking some internal "
-"components of WAPT."
+msgid "Some Anti-Virus software falsely raise errors when checking some internal components of WAPT."
 msgstr "Certains Antivirus lèvent des alertes pour des composants de WAPT."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:746
-msgid ""
-"Among the components is :program:`nssm.exe` used by WAPT as a service manager "
-"for starting, stopping and restarting the WAPT service."
-msgstr ""
-"Parmis ceux-ci le composant :program:`nssm.exe` est utilisé par WAPT comme "
-"utilitaire de service pour l'agent WAPT."
+msgid "Among the components is :program:`nssm.exe` used by WAPT as a service manager for starting, stopping and restarting the WAPT service."
+msgstr "Parmis ceux-ci le composant :program:`nssm.exe` est utilisé par WAPT comme utilitaire de service pour l'agent WAPT."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:749
-msgid ""
-"Below is a list of useful exceptions to declare in your central AV interface to "
-"solve false positives related to WAPT:"
-msgstr ""
-"Voici une liste des exceptions possibles à déclarer dans votre interface de "
-"gestion centralisé antivirus :"
+msgid "Below is a list of useful exceptions to declare in your central AV interface to solve false positives related to WAPT:"
+msgstr "Voici une liste des exceptions possibles à déclarer dans votre interface de gestion centralisé antivirus :"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:769
+msgid "EWaptBadControl: 'utf8' codec can't decode byte"
+msgstr "EWaptBadControl: 'utf8' codec can't decode byte"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:771
+msgid "If you get this message, it may mean that you have not set up correctly your development environment. Visit this :ref:`section of the documentation on setting up UTF-8 (no BOM) <utf8_no_bom>`."
+msgstr "Si vous recevez ce message, cela peut signifier que vous n'avez pas mis en place correctement votre environnement de développement. Visitez cette :ref:`section de la documentation sur la configuration de l'UTF-8 (pas de BOM) <utf8_no_bom>`."
 
 #~ msgid ""
-#~ "You may be using an old :program:`waptdeploy` version, download the latest "
-#~ "version from `here <https://store.wapt.fr/wapt/releases/latest/waptdeploy."
-#~ "exe>`_."
 #~ msgstr ""
-#~ "Vous avez peut-être une version trop ancienne de :program:`waptdeploy`, vous "
-#~ "pouvez télécharger la dernière version `ici <https://store.wapt.fr/wapt/"
-#~ "releases/latest/waptdeploy.exe>`_."

@@ -66,7 +66,8 @@ Using Linux / macOS
 +++++++++++++++++++++++
 
 To configure another editor for WAPT, you must modify the ``editor_for_packages``
-attribute in the ``[global]`` section of your WAPT agent configuration file: :file:`/opt/wapt/wapt-get.ini`
+attribute in the ``[global]`` section of your WAPT agent configuration
+file: :file:`/opt/wapt/wapt-get.ini`.
 
 By default, if the ``editor_for_packages`` attribute is empty,
 WAPT will try to launch (in that order):

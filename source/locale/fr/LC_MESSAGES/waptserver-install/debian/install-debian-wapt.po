@@ -18,7 +18,7 @@ msgstr ""
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:8
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:15
 msgid "Installing the WAPT Server on Debian Linux"
-msgstr "Installation du Serveur WAPT sur Linux Debian"
+msgstr "Installer le Serveur WAPT sur Linux Debian"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:8
 msgid "Server, WAPT, Debian, install, installation, documentation"

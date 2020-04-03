@@ -171,6 +171,8 @@ Settings                Description                                 Example valu
                                                                     signature_date, signed_attributes
 ======================= =========================================== ===========================================
 
+.. _utf8_no_bom:
+
 .. note::
 
   If the :file:`control` file contains special characters, the :file:`control`
