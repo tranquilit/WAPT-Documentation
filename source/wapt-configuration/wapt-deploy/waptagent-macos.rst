@@ -62,7 +62,7 @@ You may use it after changing the parameters to suit your needs.
   wapt_server=https://srvwapt.mydomain.lan/
   use_hostpackages=1
   use_kerberos=0
-  verify_cert=/opt/wapt/ssl/server/verify.crt
+  verify_cert=0
 
 Copying the package-signing certificate
 +++++++++++++++++++++++++++++++++++++++
@@ -88,6 +88,29 @@ in :file:`C:\\Program Files (x86)\\wapt\\ssl\\server\\`.
 
 Copy your certificate(s) in :file:`/opt/wapt/ssl/server/`
 using :program:`WinSCP` or :program:`rsync`.
+
+
+Then, modify in your config file the path to your certificate.
+
+.. code-block:: bash
+
+  vim /opt/wapt/wapt-get.ini
+
+And give absolute path of your cert.
+
+.. code-block:: ini
+
+  verify_cert=/opt/wapt/ssl/server/YOURCERT.crt
+
+.. attention::
+
+  If you are not using SSL/TLS certificates with your WAPT Server,
+  you must change it in :file:`/opt/wapt/wapt-get.ini` the following lines to 0:
+
+  .. code-block:: bash
+
+    verify_cert=0
+
 
 Registering your MacOS agent
 ++++++++++++++++++++++++++++
