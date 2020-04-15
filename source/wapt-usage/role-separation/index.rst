@@ -149,3 +149,44 @@ certificate's :abbr:`CN (Common Name)` attribute.
 
   As a general rule, there is only one **CA Certificate** pem / crt pair per
   :term:`Organization`.
+
+
+Deploy the new certificate on client
+++++++++++++++++++++++++++++++++++++
+
+The HQ IT admins will deploy cert of Local IT admins on client of their respective sites.
+
+So that Local IT admins won't act on HQ computers but on their own site only.
+
+Copy Local IT admins' certificates on client in :file:`C:\\program files(x86)\\wapt\\ssl`.
+
+.. hint::
+
+  Don't forget to restart WAPT service on client to use new certificate.
+  Open a Command line then :
+
+  .. code-block::
+
+    net stop waptservice
+    net start waptservice
+
+
+If you want to deploy your certificate with WAPT, here's an example of package.
+
+.. code-block:: python
+
+  # -*- coding: utf-8 -*-
+  from setuphelpers import *
+
+  uninstallkey = []
+
+  def install():
+    print(ur"Copy of AC's distant site )
+    filecopyto('ca_distant.crt',makepath(install_location('WAPT_is1'),'ssl',))
+
+  def audit():
+    print('Auditing %s' % control.asrequirement())
+    return "OK"
+
+  if __name__ == '__main__':
+    update_package()
