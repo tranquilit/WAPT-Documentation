@@ -88,7 +88,7 @@ and signature (icla.pdf.asc) as attachments in the same email
 to contributors-agreement[at]tranquil[dot]it.
 Please send only one document (file plus signature) per email.
 Please do not submit your public key to Tranquil IT. Instead,
-please upload your public key to pgpkeys.mit.edu.
+please upload your public key to `<pgpkeys.mit.edu>`_.
 
 .. hint:: send to contributors-agreement@tranquil.it
 
