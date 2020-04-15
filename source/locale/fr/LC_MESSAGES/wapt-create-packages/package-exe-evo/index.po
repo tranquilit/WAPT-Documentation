@@ -1,291 +1,283 @@
-
 msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-15 10:28+0200\n"
-"PO-Revision-Date: 2020-03-26 12:24+0100\n"
+"POT-Creation-Date: 2020-04-15 15:20+0200\n"
+"PO-Revision-Date: 2020-04-15 15:26+0200\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
-"Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: fr\n"
+"X-Generator: Poedit 2.0.6\n"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:8
-#, fuzzy
-msgid "Advanced *.exe packages"
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:8
+msgid "Advanced \\*.exe packages"
 msgstr "Créer un paquet \\*.exe evolué"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:8
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:8
 msgid "exe, WAPT, advanced, complex, installing, installation, documentation"
 msgstr "exe, WAPT, evolués, complexes, documentation"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:16
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:16
 msgid "Advanced \\*.exe package"
 msgstr "Créer un paquet \\*.exe evolué"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:19
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:19
 msgid "Improving the functionalities of packages"
 msgstr "Améliorer l'installation"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:21
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:21
 msgid ""
-"Our package Mozilla Firefox ESR is functional but it requires some "
-"improvements."
+"Our package Mozilla Firefox ESR is functional but it requires some improvements."
 msgstr ""
-"Notre paquet Mozilla Firefox ESR est fonctionnel mais il n'est pas encore"
-" optimal."
+"Notre paquet Mozilla Firefox ESR est fonctionnel mais il n'est pas encore "
+"optimal."
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:23
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:23
 msgid ""
-"the package installs the software even if the software is already "
-"installed, it will overwrite older versions;"
+"the package installs the software even if the software is already installed, it "
+"will overwrite older versions;"
 msgstr ""
-"le paquet exécute l'installation du logiciel même si le logiciel est déjà"
-" installé, il l'écrase dans tous les cas ;"
+"le paquet exécute l'installation du logiciel même si le logiciel est déjà "
+"installé, il l'écrase dans tous les cas ;"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:26
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:28
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:26
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:28
 msgid ""
-"the package does not check whether the software version is already "
-"installed;"
+"the package does not check whether the software version is already installed;"
 msgstr "le paquet ne vérifie pas la version du logiciel s'il est déjà installé ;"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:30
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:30
 msgid ""
-"As with MSI installers, those problems are addressed using the function "
-":command:`install_exe_if_needed`."
+"As with MSI installers, those problems are addressed using the function :"
+"command:`install_exe_if_needed`."
 msgstr ""
-"Comme avec les MSI, nous résolvons ces problèmes en utilisant la fonction"
-" ``install_exe_if_needed``."
+"Comme avec les MSI, nous résolvons ces problèmes en utilisant la fonction "
+"``install_exe_if_needed``."
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:34
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:34
 msgid "Using *install_exe_if_needed*"
 msgstr "Utiliser *install_exe_if_needed*"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:36
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:36
 msgid ""
-"The function is slightly the same as that used with MSI installers, with "
-"some differences:"
+"The function is slightly the same as that used with MSI installers, with some "
+"differences:"
 msgstr ""
-"La fonction est sensiblement la même que celle utilisée pour les "
-"installeurs MSI, avec quelques différences :"
+"La fonction est sensiblement la même que celle utilisée pour les installeurs "
+"MSI, avec quelques différences :"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:39
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:39
 msgid "the function requires to pass the silent flag as an argument;"
 msgstr "la fonction nécessite l'ajout des flags silencieux en paramètre ;"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:41
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:41
 msgid "the function requires to pass the *uninstall key* as an argument;"
 msgstr "la fonction nécessite l'ajout de la clé de désinstallation en paramètre ;"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:43
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:43
 msgid "We make changes to the Mozilla Firefox ESR setup accordingly."
 msgstr "On modifie notre exemple Mozilla Firefox ESR en conséquence :"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:61
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:61
 msgid "List of arguments available with *install_exe_if_needed*"
 msgstr "Liste des arguments disponibles avec *install_exe_if_need*."
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:66
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:66
 msgid "Settings"
 msgstr "Paramètres"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:66
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:66
 msgid "Default value"
 msgstr "Valeur par défaut"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:66
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:66
 msgid "Description"
 msgstr "Description"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:69
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:69
 msgid "``exe``"
 msgstr "``exe``"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:69
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:69
 msgid "name of the :mimetype:`.exe` file to execute."
 msgstr "nom du fichier :mimetype:`.exe` à exécuter."
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:70
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:70
 msgid "``silentflags``"
 msgstr "``silentflags``"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:70
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:70
 msgid "silent parameters to pass as arguments to the installer."
 msgstr "paramètres silencieux à passer en argument à l'installeur."
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:72
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:72
 msgid "``key``"
 msgstr "``key``"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:72
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:73
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:80
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:72
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:73
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:80
 msgid "None"
 msgstr "None"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:72
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:72
 msgid "software *uninstall key*."
 msgstr "clé de désinstallation du programme."
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:73
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:73
 msgid "``min_version``"
 msgstr "``min_version``"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:73
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:73
 msgid "minimal version above which the software will update."
 msgstr "version minimale au dessus de laquelle il mettra à jour."
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:75
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:75
 msgid "``killbefore``"
 msgstr "``killbefore``"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:75
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:75
 msgid "[ ]"
 msgstr "[ ]"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:75
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:75
 msgid "list of programs to kill before installing the package."
 msgstr "liste des programmes à tuer avant de lancer l'installation."
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:77
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:77
 msgid "``accept_returncodes``"
 msgstr "``accept_returncodes``"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:77
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:77
 msgid "[0,3010]"
 msgstr "[0,3010]"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:77
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:77
 msgid "accepted codes other than 0 and 3010 returned by the function."
 msgstr "codes de retour autres que 0 ou 3010 acceptés en retour par la fonction."
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:79
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:79
 msgid "``timeout``"
 msgstr "``timeout``"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:79
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:79
 msgid "300"
 msgstr "300"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:79
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:79
 msgid "maximum installation wait time (in seconds)."
 msgstr "durée d'attente maximale d'installation (en secondes)."
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:80
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:80
 msgid "``get_version``"
 msgstr "``get_version``"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:80
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:80
 msgid ""
-"value passed as parameter to control the version number instead of the "
-"value returned by the :command:`installed_softwares` function."
+"value passed as parameter to control the version number instead of the value "
+"returned by the :command:`installed_softwares` function."
 msgstr ""
 "valeur passée en paramètre pour le contrôle de version au lieu de celle "
 "retournée par la fonction :command:`installed_softwares`."
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:83
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:83
 msgid "``remove_old_version``"
 msgstr "``remove_old_version``"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:83
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:85
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:83
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:85
 msgid "False"
 msgstr "False"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:83
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:83
 msgid ""
-"automatically removes an older version of a software whose uninstallkey "
-"is identical"
+"automatically removes an older version of a software whose uninstallkey is "
+"identical"
 msgstr ""
-"Permet d'enclencher automatiquement la suppression d'une uninstallkey "
-"identique avec une version précédente à celle mentionnée"
+"Permet d'enclencher automatiquement la suppression d'une uninstallkey identique "
+"avec une version précédente à celle mentionnée"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:85
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:85
 msgid "``force``"
 msgstr "``force``"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:85
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:85
 msgid ""
-"forces the installation of the software even though the same uninstallkey"
-" has been found"
+"forces the installation of the software even though the same uninstallkey has "
+"been found"
 msgstr ""
-"Permet de forcer l'installation même si une uninstallkey avec une version"
-" identique est trouvée."
+"Permet de forcer l'installation même si une uninstallkey avec une version "
+"identique est trouvée."
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:89
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:89
 msgid "As a consequence, the package will have a different behavior:"
 msgstr "En conséquence, le paquet aura un comportement différent :"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:91
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:91
 msgid ""
 "Firefox will install only if it is not yet installed or if the installed "
-"version of Firefox is less than 45.5.0, unless the ``--force`` option is "
-"passed as argument when installing the package;"
+"version of Firefox is less than 45.5.0, unless the ``--force`` option is passed "
+"as argument when installing the package;"
 msgstr ""
-"le logiciel Firefox s'installera uniquement si le logiciel n'est pas "
-"installé et si la version est strictement inférieure à 45.5.0, sauf si "
-"l'option ``--force`` est indiquée lors de l'installation du paquet ;"
+"le logiciel Firefox s'installera uniquement si le logiciel n'est pas installé "
+"et si la version est strictement inférieure à 45.5.0, sauf si l'option ``--"
+"force`` est indiquée lors de l'installation du paquet ;"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:96
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:96
 msgid ""
-"on installing, the running :program:`firefox.exe` processes will be "
-"killed;"
+"on installing, the running :program:`firefox.exe` processes will be killed;"
 msgstr ""
-"à l'installation, les processus :program:`firefox.exe` en cours "
-"d'exécution seront terminés ;"
+"à l'installation, les processus :program:`firefox.exe` en cours d'exécution "
+"seront terminés ;"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:98
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:98
 msgid ""
-"the function will add by itself the *uninstall key*, so leave the "
-"*uninstall key* argument empty;"
+"the function will add by itself the *uninstall key*, so leave the *uninstall "
+"key* argument empty;"
 msgstr ""
 "la fonction ajoutera elle-même la clé de désinstallation, donc laisser "
 "*uninstallkey* vide ;"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:101
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:101
 msgid ""
-"when finishing the installation of the package, the function will check "
-"that the *uninstall key* is present on the machine and that the version "
-"of Firefox is greater than 45.5.0; if this not the case, the package will"
-" be flagged as **ERROR**;"
+"when finishing the installation of the package, the function will check that "
+"the *uninstall key* is present on the machine and that the version of Firefox "
+"is greater than 45.5.0; if this not the case, the package will be flagged as "
+"**ERROR**;"
 msgstr ""
-"à la fin de l'installation, la fonction ira vérifier si l'*uninstallkey* "
-"est bien présente sur le poste et si la version est bien égale ou "
-"supérieure à 45.5.0, si ce n'est pas le cas, elle basculera le paquet en "
-"**ERROR** ;"
+"à la fin de l'installation, la fonction ira vérifier si l'*uninstallkey* est "
+"bien présente sur le poste et si la version est bien égale ou supérieure à "
+"45.5.0, si ce n'est pas le cas, elle basculera le paquet en **ERROR** ;"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:107
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:107
 msgid "Managing the de-installation of applications"
 msgstr "Gérer la désinstallation"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:110
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:110
 msgid "Special case of a non-silent uninstaller"
 msgstr "Cas particulier d'un dé-installeur non-silencieux"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:112
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:112
 msgid ""
-"In that particular case, a package using :command:`install_exe_if_needed`"
-" fills in the *uninstall key*, but the *uninstall key* points to a non "
-"silent uninstaller."
+"In that particular case, a package using :command:`install_exe_if_needed` fills "
+"in the *uninstall key*, but the *uninstall key* points to a non silent "
+"uninstaller."
 msgstr ""
-"Dans ce cas particulier, un paquet utilisant "
-":command:`install_exe_if_needed` renseigne la clé de désinstallation, "
-"mais cette clé de désinstallation pointe vers un dé-installeur non-"
-"silencieux."
+"Dans ce cas particulier, un paquet utilisant :command:`install_exe_if_needed` "
+"renseigne la clé de désinstallation, mais cette clé de désinstallation pointe "
+"vers un dé-installeur non-silencieux."
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:116
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe-evo/index.rst:116
 msgid ""
-"We have to circumvent that problem by using a function that will remove "
-"the *uninstall key* at the end of the installation."
+"We have to circumvent that problem by using a function that will remove the "
+"*uninstall key* at the end of the installation."
 msgstr ""
-"Il nous faut contourner le problème en utilisant une fonction qui va "
-"supprimer la clé de désinstallation à la fin de l'installation."
+"Il nous faut contourner le problème en utilisant une fonction qui va supprimer "
+"la clé de désinstallation à la fin de l'installation."
 
 #~ msgid "Advanced *.exe packages"
-#~ msgstr "Créer un paquet *.exe evolué"
-
+#~ msgstr "Créer un paquet \\*.exe evolué"

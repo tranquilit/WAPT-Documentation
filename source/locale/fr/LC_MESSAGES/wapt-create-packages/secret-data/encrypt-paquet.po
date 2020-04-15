@@ -24,7 +24,7 @@ msgstr "WAPT, encrypt, chiffrer, documentation, données sensibles, mots de pass
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/secret-data/encrypt-paquet.rst:13
 msgid "Encrypting some sensitive data contained in a WAPT package"
-msgstr "Chiffrer certaines données senseibles contenues dans un paquet WAPT"
+msgstr "Chiffrer certaines données sensibles contenues dans un paquet WAPT"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/secret-data/encrypt-paquet.rst:17
 msgid ""
@@ -175,4 +175,3 @@ msgstr ""
 "La sortie python (log install du paquet) est accessible en lecture aux "
 "utilisateurs de la machine, **vous ne devez donc pas afficher le text "
 "déchiffré avec un :command:`print` lors de l'installation**."
-

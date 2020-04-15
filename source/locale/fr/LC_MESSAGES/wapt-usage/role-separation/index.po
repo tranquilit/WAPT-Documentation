@@ -3,320 +3,370 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-18 09:48+0100\n"
-"PO-Revision-Date: 2020-02-18 11:00+0100\n"
+"POT-Creation-Date: 2020-04-15 15:43+0200\n"
+"PO-Revision-Date: 2020-04-15 15:46+0200\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
-"Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: fr\n"
+"X-Generator: Poedit 2.0.6\n"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:8
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:8
 msgid "Differentiating Administrators in WAPT"
 msgstr "Différencier les Administrateurs dans WAPT"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:8
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:8
 msgid ""
-"role level, WAPT, Certificate Authority, Code Signing, Administrator, "
-"Package Developer, Package Deployer, CA, documentation"
+"role level, WAPT, Certificate Authority, Code Signing, Administrator, Package "
+"Developer, Package Deployer, CA, documentation"
 msgstr ""
 "niveaux de rôle, WAPT, Certificat CA, Code Signing, Administrateur, "
-"Gestionnaire de Déploiement, Authorité de Certification (CA), "
-"documentation"
+"Gestionnaire de Déploiement, Authorité de Certification (CA), documentation"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:14
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:14
 msgid "Enterprise"
 msgstr "Enterprise"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:19
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:19
 msgid "Differentiating the role level in WAPT"
 msgstr "Différencier les niveaux de rôle dans WAPT"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:23
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:23
 msgid "Feature only available with WAPT Enterprise"
 msgstr ""
-"Cette fonctionnalité est uniquement disponible avec la version "
-"**Enterprise**"
+"Cette fonctionnalité est uniquement disponible avec la version **Enterprise**"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:26
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:26
 msgid "Introduction"
 msgstr "Introduction"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:28
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:28
 msgid ""
-"WAPT offers the possibility to differentiate administrator roles based on"
-" a :abbr:`PKI (Public Key Infrastructure)` to sign packages and actions."
+"WAPT offers the possibility to differentiate administrator roles based on a :"
+"abbr:`PKI (Public Key Infrastructure)` to sign packages and actions."
 msgstr ""
-"WAPT offre la possibilité de différencier les rôles des administrateurs "
-"en basant leurs identités sur une :abbr:`PKI (Public Key Infrastructure)`"
-" pour signer les paquets et les actions."
+"WAPT offre la possibilité de différencier les rôles des administrateurs en "
+"basant leurs identités sur une :abbr:`PKI (Public Key Infrastructure)` pour "
+"signer les paquets et les actions."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:33
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:33
 msgid ""
-"The following description of roles differentiation is temporary as it "
-"will evolve in the near future."
+"The following description of roles differentiation is temporary as it will "
+"evolve in the near future."
 msgstr ""
-"La description suivante de la différenciation des rôles est temporaire "
-"car elle va évoluer dans un avenir proche."
+"La description suivante de la différenciation des rôles est temporaire car "
+"elle va évoluer dans un avenir proche."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:40
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:40
 msgid "WAPT admin users roles differentiation"
 msgstr "Différenciation des rôles des utilisateurs administrateurs de WAPT"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:42
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:42
 msgid "There are three cases:"
 msgstr "Il y a trois cas :"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:45
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:45
 msgid "Private key + certificate types"
 msgstr "Clé privée + types de certificats"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:45
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:45
 msgid "Key usages"
 msgstr "Principaux usages"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:47
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:47
 msgid "Simple private key + certificate"
 msgstr "Clé privée simple + certificat"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:47
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:47
 msgid "Allows authentication on WAPT console + interactions with WAPT agents"
 msgstr ""
-"Permet l'authentification sur la console WAPT + les interactions avec les"
-" agents WAPT"
+"Permet l'authentification sur la console WAPT + les interactions avec les "
+"agents WAPT"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:48
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:48
 msgid "Developer private key + certificate"
 msgstr "Clé privée du développeur + certificat"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:48
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:48
 msgid ""
 "Allows authentication on WAPT console + interactions with WAPT agents + "
 "package signing"
 msgstr ""
-"Permet l'authentification sur la console WAPT + interactions avec les "
-"agents WAPT + signature de paquets WAPT"
+"Permet l'authentification sur la console WAPT + interactions avec les agents "
+"WAPT + signature de paquets WAPT"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:49
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:49
 msgid "Certificate Authority (CA) private key + certificate"
 msgstr "Clé privée de l'autorité de certification (CA) + certificat"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:49
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:49
 msgid ""
-"Allows authentication + interactions + package signing + private key "
-"issuing"
+"Allows authentication + interactions + package signing + private key issuing"
 msgstr ""
-"Permet l'authentification + les interactions + la signature de paquets + "
-"la délivrance de nouvelles clés privées"
+"Permet l'authentification + les interactions + la signature de paquets + la "
+"délivrance de nouvelles clés privées"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:52
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:52
 msgid ""
 "Common WAPT install will generate a CA private key by default, allowing "
 "private key issuing for developers and package signing."
 msgstr ""
-"Une installation standard de WAPT générera une clé privée de CA par "
-"défaut, permettant l'émission de nouvelles clés privées pour les "
-"développeurs et les déployeurs de paquets WAPT."
+"Une installation standard de WAPT générera une clé privée de CA par défaut, "
+"permettant l'émission de nouvelles clés privées pour les développeurs et les "
+"déployeurs de paquets WAPT."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:55
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:55
 msgid ""
-"It is possible to emit a Certificate Authority for each subsidiaries. It "
-"is then possible to issue a personal private key and its corresponding "
+"It is possible to emit a Certificate Authority for each subsidiaries. It is "
+"then possible to issue a personal private key and its corresponding "
 "certificate to each IT admins."
 msgstr ""
-"Il est possible d'émettre une Autorité de Certification intermédiaire "
-"pour chaque filiale. Il est alors possible de délivrer une clé privée "
-"personnelle et son certificat correspondant à chaque administrateur "
-"informatique."
+"Il est possible d'émettre une Autorité de Certification intermédiaire pour "
+"chaque filiale. Il est alors possible de délivrer une clé privée personnelle "
+"et son certificat correspondant à chaque administrateur informatique."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:59
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:59
 msgid ""
-"By looking at the above schematics, we can deduce the following "
-"conclusion:"
+"By looking at the above schematics, we can deduce the following conclusion:"
 msgstr ""
-"En examinant les schémas ci-dessus, nous pouvons en déduire la conclusion"
-" suivante :"
+"En examinant les schémas ci-dessus, nous pouvons en déduire la conclusion "
+"suivante :"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:61
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:61
 msgid ""
 "WAPT agents in HQ can be managed by HQ IT team and cannot be managed by "
 "subsidiaries IT teams;"
 msgstr ""
-"Les agents WAPT du siège de l'Organisation peuvent être gérés par "
-"l'équipe informatique du siège et ne peuvent pas être gérés par les "
-"équipes informatiques des filiales ;"
+"Les agents WAPT du siège de l'Organisation peuvent être gérés par l'équipe "
+"informatique du siège et ne peuvent pas être gérés par les équipes "
+"informatiques des filiales ;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:64
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:64
 msgid ""
 "WAPT agents in the subsidiary having both certificates, from HQ and "
 "subsidiary, can be managed by local IT team and by HQ IT team;"
 msgstr ""
-"Les agents WAPT de la filiale ayant les deux certificats, celui du siège "
-"et celui de la filiale, peuvent être gérés par l'équipe informatique "
-"locale et par l'équipe informatique du siège ;"
+"Les agents WAPT de la filiale ayant les deux certificats, celui du siège et "
+"celui de la filiale, peuvent être gérés par l'équipe informatique locale et "
+"par l'équipe informatique du siège ;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:67
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:67
 msgid ""
-"The usage of an existing PKI is possible, WAPT Console comes with a "
-"simple certificate generator."
+"The usage of an existing PKI is possible, WAPT Console comes with a simple "
+"certificate generator."
 msgstr ""
-"L'utilisation d'une PKI existante est possible, la console WAPT est "
-"livrée avec un simple générateur de certificats."
+"L'utilisation d'une PKI existante est possible, la console WAPT est livrée "
+"avec un simple générateur de certificats."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:71
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:71
 msgid "Generating a new certificate"
 msgstr "Générer un nouveau certificat"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:77
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:77
 msgid "Generating a new self-signed certificate"
 msgstr "Générer un certificat auto-signé"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:80
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:80
 msgid "Generating the Certificate Authority (CA)"
 msgstr "Générer l'Authorité de Certification (CA)"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:82
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:82
 msgid ""
-"When installing WAPT, you are asked to create a :mimetype:`.pem` / "
-":mimetype:`.crt` pair by checking the boxes :guilabel:`Certificate CA` "
-"and :guilabel:`Code Signing`."
+"When installing WAPT, you are asked to create a :mimetype:`.pem` / :mimetype:`."
+"crt` pair by checking the boxes :guilabel:`Certificate CA` and :guilabel:`Code "
+"Signing`."
 msgstr ""
-"Lors de l'installation de WAPT, il vous est demandé de créer une paire "
-":mimetype:`.pem` / :mimetype:`.crt` en cochant les cases "
-":guilabel:`Certificat CA` et :guilabel:`Code Signing`."
+"Lors de l'installation de WAPT, il vous est demandé de créer une paire :"
+"mimetype:`.pem` / :mimetype:`.crt` en cochant les cases :guilabel:`Certificat "
+"CA` et :guilabel:`Code Signing`."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:85
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:85
 msgid "This crt/ pem pair will allow to sign WAPT packages and new certificates."
 msgstr ""
 "Ce couple crt / pem permettra de signer des paquets WAPT et de nouveaux "
 "certificats."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:88
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:88
 msgid "Generating a new certificate with the Certificate Authority"
 msgstr "Générer un nouveau certificat avec la CA"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:90
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:90
 msgid ""
-"To create a new pem/ crt pair from the private key, click on "
-":guilabel:`Create a certificate`."
+"To create a new pem/ crt pair from the private key, click on :guilabel:`Create "
+"a certificate`."
 msgstr ""
-"Pour générer un nouveau couple crt / pem à partir de la clé privée, "
-"cliquer sur :guilabel:`Créer un certificat`."
+"Pour générer un nouveau couple crt / pem à partir de la clé privée, cliquer "
+"sur :guilabel:`Créer un certificat`."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:95
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:95
 msgid "The new certificate will not be a self-signed certificate;"
 msgstr "Le nouveau certificat ne sera pas un certificat auto-signé ;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:97
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:97
 msgid ""
-"This new certificate will be signed by the AC (the key generated at the "
-"time of the first installation of WAPT);"
+"This new certificate will be signed by the AC (the key generated at the time "
+"of the first installation of WAPT);"
 msgstr ""
-"Ce nouveau certificat sera signé par la CA (la clé générée lors de la "
-"première installation) ;"
+"Ce nouveau certificat sera signé par la CA (la clé générée lors de la première "
+"installation) ;"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:100
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:100
 msgid ""
-"You must then fill in the :guilabel:`AC's certificate` and the "
-":guilabel:`AC's key`."
+"You must then fill in the :guilabel:`AC's certificate` and the :guilabel:`AC's "
+"key`."
 msgstr ""
-"Vous devez donc renseigner le :guilabel:`Certificat de la CA`** et la "
-":guilabel:`Clé de la CA`."
+"Vous devez donc renseigner le :guilabel:`Certificat de la CA`** et la :"
+"guilabel:`Clé de la CA`."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:103
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:103
 msgid ""
-"When generating the new pem/ crt pair, you have the option to choose "
-"whether or not the new certificate will be a **Code Signing** type."
+"When generating the new pem/ crt pair, you have the option to choose whether "
+"or not the new certificate will be a **Code Signing** type."
 msgstr ""
-"Lors de la génération de ce nouveau couple pem / crt vous pouvez choisir "
-"si le nouveau certificat sera de type **Code Signing** ou non."
+"Lors de la génération de ce nouveau couple pem / crt vous pouvez choisir si le "
+"nouveau certificat sera de type **Code Signing** ou non."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:108
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:108
 msgid ""
-"For recall, a *Code Signing* certificate is reserved to individuals with "
-"the :term:`Administrator` role in the context of WAPT and a simple SSL "
-"certificate without the ``Code Signing`` attribute is reserved to "
-"individuals with the role of :term:`Package Deployer`."
+"For recall, a *Code Signing* certificate is reserved to individuals with the :"
+"term:`Administrator` role in the context of WAPT and a simple SSL certificate "
+"without the ``Code Signing`` attribute is reserved to individuals with the "
+"role of :term:`Package Deployer`."
 msgstr ""
-"Pour rappel, un certificat *Code Signing* est destiné dans le contexte de"
-" WAPT aux personnes avec le rôle :term:`Administrateur` , alors qu'un "
-"certificat SSL non Code Signing est destiné aux personnes ayant le rôle "
-"de :term:`Déployeur de paquets` ."
+"Pour rappel, un certificat *Code Signing* est destiné dans le contexte de WAPT "
+"aux personnes avec le rôle :term:`Administrateur` , alors qu'un certificat SSL "
+"non Code Signing est destiné aux personnes ayant le rôle de :term:`Déployeur "
+"de paquets` ."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:113
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:113
 msgid ""
-":term:`Administrators` will be authorized to sign packages that "
-"**CONTAIN** a :file:`setup.py` executable file (i.e. *base* packages)."
+":term:`Administrators` will be authorized to sign packages that **CONTAIN** a :"
+"file:`setup.py` executable file (i.e. *base* packages)."
 msgstr ""
-"Les :term:`Administrateurs` pourront signer des paquets qui "
-"**CONTIENNENT** un fichier :file:`setup.py` exécutable (c.à.d. des "
-"paquets logiciels)."
+"Les :term:`Administrateurs` pourront signer des paquets qui **CONTIENNENT** un "
+"fichier :file:`setup.py` exécutable (c.à.d. des paquets logiciels)."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:116
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:116
 msgid ""
-"Individuals with the :term:`Package Deployer` role will be authorized to "
-"sign packages that **DO NOT CONTAIN** :file:`setup.py` executable file "
-"(i.e. *host*, *unit* and *group* packages)."
+"Individuals with the :term:`Package Deployer` role will be authorized to sign "
+"packages that **DO NOT CONTAIN** :file:`setup.py` executable file (i.e. "
+"*host*, *unit* and *group* packages)."
 msgstr ""
-"Les individus avec le rôle de :term:`Déployeur de Paquets` pourront "
-"signer des paquets qui **NE CONTIENNENT PAS** de fichier :file:`setup.py`"
-" (c.à.d. des paquets de type *machine*, *unit* et groupe*)."
+"Les individus avec le rôle de :term:`Déployeur de Paquets` pourront signer des "
+"paquets qui **NE CONTIENNENT PAS** de fichier :file:`setup.py` (c.à.d. des "
+"paquets de type *machine*, *unit* et groupe*)."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:124
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:124
 msgid "Generating a certificate without the *Code Signing* attribute"
 msgstr "Génération d'un certificat sans attribut Code Signing"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:126
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:126
 msgid ""
-"Keys and certificates that are **Not Code Signing** may be distributed to"
-" individuals in charge of deploying packages on the installed base of "
-"WAPT equipped devices."
+"Keys and certificates that are **Not Code Signing** may be distributed to "
+"individuals in charge of deploying packages on the installed base of WAPT "
+"equipped devices."
 msgstr ""
-"Les clés et certificats **Non Code Signing** pourront donc être confiées "
-"aux personnes en charge du déploiment des paquets sur le parc machine."
+"Les clés et certificats **Non Code Signing** pourront donc être confiées aux "
+"personnes en charge du déploiment des paquets sur le parc machine."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:130
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:130
 msgid ""
-"Another team with certificates having the **Code Signing** attribute will"
-" prepare the WAPT packages that contain applications that will need to be"
-" configured according to the :term:`Organization`'s security guidelines "
-"and the user customizations desired by her."
+"Another team with certificates having the **Code Signing** attribute will "
+"prepare the WAPT packages that contain applications that will need to be "
+"configured according to the :term:`Organization`'s security guidelines and the "
+"user customizations desired by her."
 msgstr ""
 "Une autre équipe disposant de certificats pourvus de l'attribut **Code "
 "Signing** pourra préparer les paquets WAPT contenant des applications "
-"configurées en accord avec la politique de sécurité de "
-"l':term:`Organisation` et les personnalisations souhaitées par elle."
+"configurées en accord avec la politique de sécurité de l':term:`Organisation` "
+"et les personnalisations souhaitées par elle."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:139
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:139
 msgid "Generating a certificate with the *Code Signing* attribute"
 msgstr "Génération d'un certificat Code Signing"
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:141
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:141
 msgid ""
 "Generating a new prm/ crt pair will also allow to formally identify the "
 "individual who has signed a package by looking up the WAPT package "
 "certificate's :abbr:`CN (Common Name)` attribute."
 msgstr ""
 "Générer un nouveau couple pem / crt permettra également d'authentifier "
-"formellement le signataire d'un paquet avec le champ :abbr:`CN (Common "
-"Name)`."
+"formellement le signataire d'un paquet avec le champ :abbr:`CN (Common Name)`."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:147
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:147
 msgid ""
-"The new certificates will not be *CA Certificates*, which means that they"
-" will not be authorized to sign other certificates."
+"The new certificates will not be *CA Certificates*, which means that they will "
+"not be authorized to sign other certificates."
 msgstr ""
-"Les nouveaux certificats ne seront pas **Certificat CA**, ce qui signifie"
-" qu'il ne pourront pas contre-signer d'autres certificats."
+"Les nouveaux certificats ne seront pas **Certificat CA**, ce qui signifie "
+"qu'il ne pourront pas contre-signer d'autres certificats."
 
-#: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-usage/role-separation/index.rst:150
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:150
 msgid ""
-"As a general rule, there is only one **CA Certificate** pem / crt pair "
-"per :term:`Organization`."
+"As a general rule, there is only one **CA Certificate** pem / crt pair per :"
+"term:`Organization`."
 msgstr ""
 "En règle générale, vous n'avez qu'un seul couple crt / pem de type "
 "``Certificat CA`` par :term:`Organisation`."
 
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:154
+msgid "Deploying certificates of local IT admins on client"
+msgstr "Déployer les certificats d'administrateurs locaux sur les clients"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:156
+msgid ""
+"Some Organisations will choose to let local IT administrators perform actions "
+"on WAPT equipped devices by issuing them personnal certificates that will work "
+"on the set of devices for which the local IT admins are responsible."
+msgstr ""
+"Certaines organisations choisiront de laisser les administrateurs "
+"informatiques locaux effectuer des actions sur les appareils équipés de WAPT "
+"en leur délivrant des certificats personnels qui fonctionneront sur l'ensemble "
+"des appareils dont les administrateurs informatiques locaux sont responsables."
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:160
+msgid ""
+"The headquarter IT admins will deploy the certificates of local IT admins on "
+"the computers that local admins manage on their respective sites."
+msgstr ""
+"Les administrateurs informatiques du siège déploieront les certificats des "
+"administrateurs informatiques locaux sur les clients de leurs sites respectifs."
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:163
+msgid ""
+"This way, local IT admins will not be able to manage computers located in "
+"headquarters, but on their own sites only."
+msgstr ""
+"De cette façon, les administrateurs informatiques locaux ne pourront pas gérer "
+"les ordinateurs situés au siège, mais uniquement les ordinateurs situés sur "
+"leurs propres sites."
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:166
+msgid ""
+"You will need to copy the certificates of allowed local IT admins on client "
+"in :file:`C:\\\\program files(x86)\\\\wapt\\\\ssl`."
+msgstr ""
+"Copiez les certificats des administrateurs informatiques locaux autorisés sur "
+"les clients dans :file:`C:\\\\\\program files(x86)\\\\\\wapt\\\\\\ssl`."
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:171
+msgid ""
+"Do not forget to restart the WAPT service on clients for them to use their new "
+"certificate. Open a command line :program:`cmd.exe` then:"
+msgstr ""
+"N'oubliez pas de redémarrer le service WAPT sur les clients pour qu'ils "
+"puissent utiliser leur nouveau certificat. Ouvrez une ligne de commande :"
+"program:`cmd.exe`:"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:179
+msgid ""
+"If you want to deploy the certificates using WAPT, below is an example of a "
+"package to deploy certificates on client computers."
+msgstr ""
+"Si vous souhaitez déployer les certificats en utilisant WAPT, vous trouverez "
+"ci-dessous un exemple de package permettant de déployer les certificats sur "
+"les ordinateurs clients."

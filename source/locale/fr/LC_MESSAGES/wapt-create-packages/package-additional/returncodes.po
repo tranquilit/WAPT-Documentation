@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Tranquil IT
+# This file is distributed under the same license as the WAPT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WAPT 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-15 15:20+0200\n"
+"PO-Revision-Date: 2020-04-15 15:25+0200\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
+"Language-Team: Tranquil IT\n"
+"Language: fr\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/returncodes.rst:8
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/returncodes.rst:15
+msgid "Working with non standard return codes"
+msgstr "Travailler avec des codes de retour non standard"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/returncodes.rst:8
+msgid "WAPT, success, error, installation, documentation"
+msgstr "WAPT, succès, erreur, installation, documentation"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/returncodes.rst:17
+msgid ""
+"Return codes are used to feed back information on whether a software has "
+"installed correctly."
+msgstr ""
+"Les codes de retour sont utilisés pour indiquer si un logiciel a été "
+"correctement installé."
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/returncodes.rst:20
+msgid "In Windows, the standard successfull return code is [0]."
+msgstr "Dans Windows, le code standard de retour réussi est [0]."
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/returncodes.rst:22
+msgid ""
+"If you know that your WAPT packages installs correctly, yet you still "
+"get a return code other than [0], then you can explicitly tell WAPT to "
+"ignore the error code by using the parameter ``accept_returncodes``."
+msgstr ""
+"Si vous savez que vos paquets WAPT s'installent correctement, mais que "
+"vous obtenez quand même un code de retour autre que [0], alors vous "
+"pouvez explicitement dire à WAPT d'ignorer le code d'erreur en utilisant "
+"le paramètre ``accept_returncodes``."
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/returncodes.rst:26
+msgid ""
+"You can find out how to use the ``accept_returncodes`` parameter by "
+"exploring this :ref:`section of the WAPT documentation "
+"<accept_returncodes_example>`."
+msgstr ""
+"Vous pouvez découvrir comment utiliser le paramètre "
+"``accept_returncodes`` en explorant cette :ref:`section de la "
+"documentation WAPT <accept_returncodes_example>`."
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-additional/returncodes.rst:31
+msgid ""
+"The full list of Windows Installer Error Messages can be found by "
+"visiting `this page <https://docs.microsoft.com/en-us/windows/win32/msi/"
+"windows-installer-error-messages>`_."
+msgstr ""
+"La liste complète des messages d'erreur de l'installateur Windows peut "
+"être consultée sur `cette page <https://docs.microsoft.com/en-us/windows/"
+"win32/msi/windows-installer-error-messages>`_."

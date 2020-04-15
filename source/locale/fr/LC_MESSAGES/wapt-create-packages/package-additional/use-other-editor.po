@@ -8,15 +8,16 @@ msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-15 10:28+0200\n"
-"PO-Revision-Date: 2020-04-03 17:20+0200\n"
+"PO-Revision-Date: 2020-04-15 15:26+0200\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:8
 #: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:13
@@ -33,12 +34,11 @@ msgstr "Introduction"
 
 #: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:18
 msgid ""
-"If you are used to work with another :term:`IDE`, you can be relieved now"
-" as WAPT supports other editors."
+"If you are used to work with another :term:`IDE`, you can be relieved now as "
+"WAPT supports other editors."
 msgstr ""
-"Si vous êtes habitué(e) à travailler avec un autre :term:`IDE`, vous "
-"pouvez être soulagé maintenant car WAPT supporte d'autres éditeurs de "
-"développement intégrés."
+"Si vous êtes habitué(e) à travailler avec un autre :term:`IDE`, vous pouvez être "
+"soulagé maintenant car WAPT supporte d'autres éditeurs de développement intégrés."
 
 #: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:21
 msgid "Some code editors are natively supported:"
@@ -63,9 +63,8 @@ msgid ""
 "Other editors can be selected and will be launched when you create a new "
 "template for a WAPT package from WAPT Console."
 msgstr ""
-"D'autres éditeurs peuvent être sélectionnés et seront lancés lorsque vous"
-" créerez un nouveau modèle pour un paquet WAPT à partir de la console "
-"WAPT."
+"D'autres éditeurs peuvent être sélectionnés et seront lancés lorsque vous "
+"créerez un nouveau modèle pour un paquet WAPT à partir de la console WAPT."
 
 #: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:33
 msgid "Configuring WAPT to use another IDE"
@@ -73,11 +72,11 @@ msgstr "Configurer WAPT pour utiliser un autre IDE"
 
 #: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:37
 msgid ""
-"Using a supported IDE will launch the WAPT package project with a valid "
-"debug configuration."
+"Using a supported IDE will launch the WAPT package project with a valid debug "
+"configuration."
 msgstr ""
-"Utiliser un IDE supporté lancera le projet de paquet WAPT avec une "
-"configuration de débogage valide."
+"Utiliser un IDE supporté lancera le projet de paquet WAPT avec une configuration "
+"de débogage valide."
 
 #: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:41
 #: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:107
@@ -87,15 +86,14 @@ msgstr "Utiliser Microsoft Windows"
 #: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:43
 msgid ""
 "To configure another editor for WAPT, you must modify the "
-"``editor_for_packages`` attribute in the ``[global]`` section of your "
-"WAPT console's :file:`%LOCALAPPDATA%\\\\waptconsole\\\\waptconsole.ini` "
-"configuration file."
+"``editor_for_packages`` attribute in the ``[global]`` section of your WAPT "
+"console's :file:`%LOCALAPPDATA%\\\\waptconsole\\\\waptconsole.ini` configuration "
+"file."
 msgstr ""
-"Pour configurer un autre éditeur pour WAPT, vous devez modifier "
-"l'attribut ``editor_for_packages`` dans la section ``[global]`` du "
-"fichier de configuration "
-":file:`%LOCALAPPDATA%\\waptconsole\\waptconsole.ini` de votre console "
-"WAPT."
+"Pour configurer un autre éditeur pour WAPT, vous devez modifier l'attribut "
+"``editor_for_packages`` dans la section ``[global]`` du fichier de "
+"configuration :file:`%LOCALAPPDATA%\\waptconsole\\waptconsole.ini` de votre "
+"console WAPT."
 
 #: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:47
 #: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:85
@@ -153,24 +151,22 @@ msgid "Using Linux / macOS"
 msgstr "Utiliser Linux / Apple macOS"
 
 #: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:68
-#, fuzzy
 msgid ""
 "To configure another editor for WAPT, you must modify the "
-"``editor_for_packages`` attribute in the ``[global]`` section of your "
-"WAPT agent configuration file: :file:`/opt/wapt/wapt-get.ini`."
+"``editor_for_packages`` attribute in the ``[global]`` section of your WAPT agent "
+"configuration file: :file:`/opt/wapt/wapt-get.ini`."
 msgstr ""
-"Pour configurer un autre éditeur pour WAPT, vous devez modifier "
-"l'attribut ``editor_for_packages`` dans la section ``[global]`` du "
-"fichier de configuration :file:`/opt/wapt/wapt-get.ini` de votre console "
-"WAPT."
+"Pour configurer un autre éditeur pour WAPT, vous devez modifier l'attribut "
+"``editor_for_packages`` dans la section ``[global]`` du fichier de "
+"configuration :file:`/opt/wapt/wapt-get.ini` de votre agent WAPT."
 
 #: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:72
 msgid ""
-"By default, if the ``editor_for_packages`` attribute is empty, WAPT will "
-"try to launch (in that order):"
+"By default, if the ``editor_for_packages`` attribute is empty, WAPT will try to "
+"launch (in that order):"
 msgstr ""
-"Par défaut, si l'attribut ``editor_for_packages`` est vide, le WAPT "
-"essaiera de lancer (dans cet ordre) :"
+"Par défaut, si l'attribut ``editor_for_packages`` est vide, le WAPT essaiera de "
+"lancer (dans cet ordre) :"
 
 #: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:75
 msgid ":program:`vscodium`;"
@@ -222,11 +218,11 @@ msgstr "Configurer WAPT pour utiliser un éditeur de code personnalisé"
 
 #: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:109
 msgid ""
-"Custom editors can be used, for example :program:`Notepad++` or "
-":program:`PyCharm`."
+"Custom editors can be used, for example :program:`Notepad++` or :program:"
+"`PyCharm`."
 msgstr ""
-"Des éditeurs de code personnalisés peuvent être utilisés, par exemple "
-":program:`Notepad++` ou :program:`PyCharm`."
+"Des éditeurs de code personnalisés peuvent être utilisés, par exemple :program:"
+"`Notepad++` ou :program:`PyCharm`."
 
 #: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:112
 #: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:132
@@ -248,11 +244,11 @@ msgstr "PyCharm"
 
 #: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:118
 msgid ""
-":file:`C:\\\\Program Files\\\\JetBrains\\\\PyCharm Community Edition "
-"2019.3.2\\\\bin\\\\pycharm64.exe {wapt_sources_dir}`"
+":file:`C:\\\\Program Files\\\\JetBrains\\\\PyCharm Community Edition 2019.3.2\\"
+"\\bin\\\\pycharm64.exe {wapt_sources_dir}`"
 msgstr ""
-":file:`C:\\\\Program Files\\\\JetBrains\\\\PyCharm Community Edition "
-"2019.3.2\\\\bin\\\\pycharm64.exe {wapt_sources_dir}`"
+":file:`C:\\\\Program Files\\\\JetBrains\\\\PyCharm Community Edition 2019.3.2\\"
+"\\bin\\\\pycharm64.exe {wapt_sources_dir}`"
 
 #: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:128
 msgid "Using Linux/Apple macOS"
@@ -261,8 +257,8 @@ msgstr "Utiliser Linux/Apple macOS"
 #: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:130
 msgid "Custom editors can be used, for example :program:`PyCharm`."
 msgstr ""
-"Des éditeurs de code personnalisés peuvent être utilisés, par exemple "
-":program:`PyCharm`."
+"Des éditeurs de code personnalisés peuvent être utilisés, par exemple :program:"
+"`PyCharm`."
 
 #: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:137
 msgid ":file:`/opt/pycharm/bin/pycharm_x64 {wapt_sources_dir}`"
@@ -275,8 +271,7 @@ msgstr "Arguments personnalisés"
 #: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:149
 msgid "Arguments can be passed in the :code:`editor_for_packages` command:"
 msgstr ""
-"Les arguments peuvent être passés dans la commande "
-":code:`editor_for_packages` :"
+"Les arguments peuvent être passés dans la commande :code:`editor_for_packages` :"
 
 #: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:152
 msgid "Argument"
@@ -301,8 +296,8 @@ msgstr ":code:`{control_filename}`"
 #: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:155
 msgid "Launches custom editor and edit WAPT package control file"
 msgstr ""
-"Lance l'éditeur de code personnalisé et modifie le fichier control des "
-"paquets WAPT"
+"Lance l'éditeur de code personnalisé et modifie le fichier control des paquets "
+"WAPT"
 
 #: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:156
 msgid ":code:`{wapt_sources_dir}`"
@@ -319,9 +314,7 @@ msgstr ":code:`{wapt_base_dir}`"
 #: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-additional/use-other-editor.rst:157
 msgid "Launches custom editor and opens WAPT install folder"
 msgstr ""
-"Lance l'éditeur de code personnalisé et ouvre le dossier d'installation "
-"WAPT"
+"Lance l'éditeur de code personnalisé et ouvre le dossier d'installation WAPT"
 
 #~ msgid "Possible values are :"
 #~ msgstr "Les valeurs possibles sont :"
-
