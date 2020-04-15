@@ -155,7 +155,7 @@ You may use it after changing the parameters to suit your needs.
   wapt_server=https://srvwapt.mydomain.lan/
   use_hostpackages=1
   use_kerberos=0
-  verify_cert=/opt/wapt/ssl/server/verify.crt
+  verify_cert=0
 
 Copying the package-signing certificate
 +++++++++++++++++++++++++++++++++++++++
@@ -181,6 +181,18 @@ in :file:`C:\\Program Files (x86)\\wapt\\ssl\\server\\`.
 
 Copy your certificate(s) in :file:`/opt/wapt/ssl/server/`
 using :program:`WinSCP` or :program:`rsync`.
+
+Then, modify in your config file the path to your certificate.
+
+.. code-block:: bash
+
+  vim /opt/wapt/wapt-get.ini
+
+And give absolute path of your cert.
+
+.. code-block:: ini
+
+  verify_cert=/opt/wapt/ssl/server/YOURCERT.crt
 
 .. attention::
 
