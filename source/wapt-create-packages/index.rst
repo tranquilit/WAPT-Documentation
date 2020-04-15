@@ -47,6 +47,7 @@ and you will quickly become a master of WAPT.
   updatepackage/index.rst
   package-msu/index.rst
   secret-data/encrypt-paquet.rst
+  package-additional/returncodes.rst
   package-additional/use-other-editor.rst
 
 Videos showing WAPT in action
