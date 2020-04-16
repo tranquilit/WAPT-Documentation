@@ -41,6 +41,7 @@ After upgrading, it is possible to remove the old PostgreSQL 9.6 database.
   sed -i 's/stretch/buster/g'  /etc/apt/sources.list.d/wapt.list
   apt-get update
   apt-get update && apt-get dist-upgrade
+  pg_dropcluster --stop 11 main
   pg_upgradecluster -v 11 9.6 main
   apt-get remove postgresql*-9.6
   apt-get autoremove
