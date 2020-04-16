@@ -150,29 +150,34 @@ certificate's :abbr:`CN (Common Name)` attribute.
   As a general rule, there is only one **CA Certificate** pem / crt pair per
   :term:`Organization`.
 
+Deploying certificates of local IT admins on client
++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Deploy the new certificate on client
-++++++++++++++++++++++++++++++++++++
+Some Organisations will choose to let local IT administrators perform actions
+on WAPT equipped devices by issuing them personnal certificates that will work
+on the set of devices for which the local IT admins are responsible.
 
-The HQ IT admins will deploy cert of Local IT admins on client of their respective sites.
+The headquarter IT admins will deploy the certificates of local IT admins
+on the computers that local admins manage on their respective sites.
 
-So that Local IT admins won't act on HQ computers but on their own site only.
+This way, local IT admins will not be able to manage computers located
+in headquarters, but on their own sites only.
 
-Copy Local IT admins' certificates on client in :file:`C:\\program files(x86)\\wapt\\ssl`.
+You will need to copy the certificates of allowed local IT admins
+on client in :file:`C:\\program files(x86)\\wapt\\ssl`.
 
 .. hint::
 
-  Don't forget to restart WAPT service on client to use new certificate.
+  Do not forget to restart the WAPT service on clients for them
+  to use their new certificate. Open a command line :program:`cmd.exe` then:
 
-  Open a Command line then :
-
-  .. code-block::
+  .. code-block:: bash
 
     net stop waptservice
     net start waptservice
 
-
-If you want to deploy your certificate with WAPT, here's an example of package.
+If you want to deploy the certificates using WAPT, below is an example
+of a package to deploy certificates on client computers.
 
 .. code-block:: python
 
@@ -182,7 +187,7 @@ If you want to deploy your certificate with WAPT, here's an example of package.
   uninstallkey = []
 
   def install():
-    print(ur"Copy of AC's distant site )
+    print(ur"Copy of AC's distant site")
     filecopyto('ca_distant.crt',makepath(install_location('WAPT_is1'),'ssl',))
 
   def audit():
