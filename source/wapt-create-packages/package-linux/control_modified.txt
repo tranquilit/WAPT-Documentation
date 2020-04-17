@@ -1,0 +1,9 @@
+package           : tis-vlc
+version           : 0
+architecture      : all
+section           : base
+priority          : optional
+maintainer        : Tranquil-IT Systems
+description       : VLC for linux
+target_os         : linux
+min_wapt_version  : 1.8
