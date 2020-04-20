@@ -156,4 +156,3 @@ msgstr ""
 #: ../../source/waptserver_update/migration13-16/index.rst:96
 msgid "Upgrading the WAPT console and the WAPT agents"
 msgstr "Mettre à jour la console WAPT et les agents WAPT"
-

@@ -34,4 +34,3 @@ msgstr ""
 
 #~ msgid "Enterprise Features"
 #~ msgstr "Fonctionnalités de la version **Enterprise**"
-

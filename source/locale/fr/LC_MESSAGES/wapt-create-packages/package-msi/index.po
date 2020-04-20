@@ -382,4 +382,3 @@ msgstr "L'option \"-i build-upload\" du projet PyScripter"
 
 #~ msgid "Packaging simple *.msi packages"
 #~ msgstr "Packager des paquets \\*.msi simples"
-

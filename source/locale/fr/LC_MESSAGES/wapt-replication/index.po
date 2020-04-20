@@ -78,4 +78,3 @@ msgstr ""
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/index.rst:52
 msgid "Deprecated configurations and features"
 msgstr "Configurations et caractéristiques dépréciées"
-

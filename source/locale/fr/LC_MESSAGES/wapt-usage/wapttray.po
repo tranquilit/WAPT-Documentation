@@ -184,4 +184,3 @@ msgstr "Quitter WAPTtray"
 #: ../../source/wapt-usage/wapttray.rst:74
 msgid "closes the tray :guilabel:`icon` without stopping the local *WAPTservice*"
 msgstr "ferme l':guilabel:`icône WAPTtray` sans couper le service WAPT local"
-

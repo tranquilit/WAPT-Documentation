@@ -40,4 +40,3 @@ msgstr "Todo"
 #: ../../source/wapt-contribute/index.rst:21
 msgid "work still in progress"
 msgstr "work still in progress"
-

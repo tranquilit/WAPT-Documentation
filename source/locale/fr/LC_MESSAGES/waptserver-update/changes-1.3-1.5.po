@@ -205,4 +205,3 @@ msgstr ""
 #: ../../source/waptserver_update/changes_1-3_1-5.rst:96
 msgid "The certificate is deployed during the upgrade of the WAPT agent."
 msgstr "Le certificat est déployé lors de la mise à jour de l'agent WAPT."
-

@@ -111,4 +111,3 @@ msgstr ""
 "Vous trouverez de nombreux exemples d'*update_package* qui vous "
 "inspireront dans les paquets du `store de Tranquil IT "
 "<https://store.wapt.fr/>`_."
-

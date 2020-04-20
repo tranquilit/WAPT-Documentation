@@ -258,4 +258,3 @@ msgstr ""
 "Sinon, passer directement à l'étape suivante pour :ref:`installer la "
 "console WAPT sur votre PC d'Administrateur "
 "<installing_the_WAPT_console>`."
-

@@ -321,4 +321,3 @@ msgstr ""
 "de facto être **importées en toute sécurité d'un ordinateur et exportées "
 "vers un autre** tant qu'un agent WAPT équipé des certificats appropriés "
 "est en fonctionnement ;"
-

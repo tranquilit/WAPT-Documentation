@@ -122,4 +122,3 @@ msgstr ""
 #: ../../source/waptserver-install/security/security-configuration-certificate-authentication.rst:71
 msgid "Example config file :"
 msgstr "Exemple de fichier de configuration :"
-

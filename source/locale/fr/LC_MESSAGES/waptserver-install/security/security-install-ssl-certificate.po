@@ -205,4 +205,3 @@ msgstr ""
 "Passez à l'étape de :ref:`configuration de l'Active Directory "
 "<configure_ad_auth>` ou passez directement à l':ref:`installation de la "
 "console avec WAPT Setup <installing_the_WAPT_console>`."
-

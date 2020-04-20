@@ -78,4 +78,3 @@ msgstr ""
 "authoriser les appareils authentifiés à accéder au serveur WAPT (Note: "
 "c'est d'autant plus important si vous souhaitez exposer votre serveur "
 "WAPT vers l'extérieur dans une :abbr:`DMZ (De-Militarized Zone)`);"
-

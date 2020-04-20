@@ -395,4 +395,3 @@ msgstr ""
 #: ../../source/waptserver-update/migration13-16/suite-upgrade.rst:240
 msgid "You may thus launch the script:"
 msgstr "Vous pouvez donc lancer ce script :"
-

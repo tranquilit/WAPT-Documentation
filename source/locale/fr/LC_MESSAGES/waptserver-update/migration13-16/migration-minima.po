@@ -130,4 +130,3 @@ msgstr ""
 "le paquet :program:`waptupgrade` s'installera ensuite automatiquement sur"
 " les poste qui l'avait déjà et l'agent WAPT se mettra à jour "
 "automatiquement à l'arrêt du poste ;"
-

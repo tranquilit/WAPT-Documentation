@@ -342,4 +342,3 @@ msgstr ""
 "Une fois l'installation et la désinstallation configurées et testées vous"
 " pouvez effectuer un :command:`build-upload` pour charger votre nouveau "
 "paquet WAPT sur votre dépôt."
-

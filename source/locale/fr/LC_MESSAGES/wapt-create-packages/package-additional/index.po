@@ -191,4 +191,3 @@ msgid ""
 msgstr ""
 "ouvrir et modifier ensuite le fichier d'installation :file:`C:\\waptdev"
 "\\tis-adwcleaner-wapt\\setup.py` ;"
-

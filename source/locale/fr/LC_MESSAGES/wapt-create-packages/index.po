@@ -64,4 +64,3 @@ msgstr "Créer et déployer un paquet msi avec WAPT"
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/index.rst:63
 msgid "Creating, configuring and deploying an exe package with WAPT"
 msgstr "Créer, configurer et déployer un paquet exe avec WAPT"
-

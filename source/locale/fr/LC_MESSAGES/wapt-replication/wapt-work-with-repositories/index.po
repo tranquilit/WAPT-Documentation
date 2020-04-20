@@ -141,4 +141,3 @@ msgid ""
 msgstr ""
 "Pour cela, modifier le fichier "
 ":file:`%appdata%\\..\\local\\waptconsole\\\\waptconsole.ini` :"
-

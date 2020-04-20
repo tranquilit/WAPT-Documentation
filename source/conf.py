@@ -265,8 +265,8 @@ htmlhelp_basename = 'WAPTdoc'
 
 
 ########## NOTE TIS
-#  le format de bouquin lulu n'est pas standard, il faut le rajouter dans le 
-# fichier en patchant le fichier /usr/share/texlive/texmf-dist/tex/latex/base/report.cls 
+#  le format de bouquin lulu n'est pas standard, il faut le rajouter dans le
+# fichier en patchant le fichier /usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 #
 # diff -r a/report.cls b/report.cls
 # 71a72,74
@@ -463,4 +463,3 @@ epub_exclude_files = ['search.html']
 # If false, no index is generated.
 #
 # epub_use_index = True
-

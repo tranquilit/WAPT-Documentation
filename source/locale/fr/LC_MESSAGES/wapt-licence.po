@@ -143,4 +143,3 @@ msgstr ":program:`Nginx`"
 #: ../../source/wapt_licence.rst:39
 msgid "2-clause BSD-like license"
 msgstr "2-clause BSD-like license"
-

@@ -123,4 +123,3 @@ msgstr ""
 "(Certificate Revocation Lists)`, ce qui signifie que lorsque vous "
 "supprimez une machine dans la console WAPT, la machine pourra toujours "
 "accéder au répertoire WAPT."
-

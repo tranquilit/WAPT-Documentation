@@ -1266,4 +1266,3 @@ msgid ""
 msgstr ""
 "Voici une liste des exceptions possibles à déclarer dans votre interface "
 "de gestion centralisé antivirus :"
-

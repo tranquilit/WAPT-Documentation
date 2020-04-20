@@ -213,4 +213,3 @@ msgstr ""
 "l'installeur ne supporte pas l'écrasement d'une installation précédente, "
 "dans ce cas il faudra prévoir la désinstallation des anciennes versions "
 "avant d'installer la nouvelle version ;"
-

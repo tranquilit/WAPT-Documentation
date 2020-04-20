@@ -42,4 +42,3 @@ msgstr ""
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-configuration/index.rst:40
 msgid "To uninstall WAPT agent properly"
 msgstr "Pour désinstaller proprement l'agent WAPT"
-

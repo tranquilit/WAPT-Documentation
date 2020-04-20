@@ -249,4 +249,3 @@ msgid ""
 msgstr ""
 "Vous pouvez maintenant passer à la suite pour :ref:`générer les clés de "
 "signature <key-regenerate>` !!"
-

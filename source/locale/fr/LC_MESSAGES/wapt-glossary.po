@@ -388,4 +388,3 @@ msgstr ""
 "**Public Key Infrastructure**, ou Infrastructure à Clés Publiques est un "
 "ensemble de composants physiques, de procédures humaines et de logiciels "
 "destiné à gérer les clés publiques des utilisateurs d'un système."
-

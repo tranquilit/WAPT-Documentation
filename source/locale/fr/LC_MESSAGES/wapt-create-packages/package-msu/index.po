@@ -163,4 +163,3 @@ msgid ""
 msgstr ""
 "L'IDE configuré dans votre console se lance, voici un exemple de code "
 "source du modèle MSU prédéfini:"
-

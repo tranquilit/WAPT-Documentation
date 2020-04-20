@@ -99,4 +99,3 @@ msgstr ""
 #: ../../source/waptserver-install/dns/dns-introduction.rst:52
 msgid ":ref:`install the WAPT Server on Windows <wapt-server_win_install>`;"
 msgstr ":ref:`installer le serveur WAPT sur Windows <wapt-server_win_install>` ;"
-
