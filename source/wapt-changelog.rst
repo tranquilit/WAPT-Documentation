@@ -131,7 +131,7 @@ Fixes and detailed changelog
 
 * Security fix: update waitress module to 1.4.3 (CVE-2020-5236)
 
-* Security fix: blank `X-Ssl*` headers in default nginx templates
+* Security fix: blank ``X-Ssl*`` headers in default nginx templates
 
 * Fix: regression: kerberos register_host did not work anymore
 
@@ -819,7 +819,7 @@ Updated
 
 * add new packages attributes: name, valid_from, valid_until, forced_install_on
 
-* waptexit: add `waptexit_disable_upgrade` option to remove the triggering of upgrade from waptexit, but keep the waiting for pending and running tasks.
+* waptexit: add ``waptexit_disable_upgrade`` option to remove the triggering of upgrade from waptexit, but keep the waiting for pending and running tasks.
 
 * improved: add 'running_tasks' key in waptservice checkupgrades.json. Was not reflecting an up to date state.
 
@@ -1110,7 +1110,7 @@ WAPT-1.7.3.11 (2019-03-25)
 
 * [IMP] waptservice: Process update of packages as a task instead of waiting for its completion when upgrading (to avoid timeout when running upgrade waptservice task)
 
-  add `update_packages` optional (default True) parameter for upgrade waptservice action
+  add ``update_packages`` optional (default True) parameter for upgrade waptservice action
 
 * [NEW] Add audit scheduling setup in waptagent compilation dialog (Enterprise)
 
@@ -1168,7 +1168,7 @@ New
 
 * If client certificate signing is enabled on waptserver (waptserver.ini config), the server sign a CSR for the client when the client is registered. See https://www.wapt.fr/fr/doc/waptserver-install/security/security-configuration-certificate-authentication.html
 
-* wapt-get: added new command `create-keycert` to create a pair of RSA key / x509 certificate in batch mode. self signed or signed with a CA key/cert
+* wapt-get: added new command ``create-keycert`` to create a pair of RSA key / x509 certificate in batch mode. self signed or signed with a CA key/cert
 
     (options are case sensitive...)
 
@@ -1202,19 +1202,19 @@ New
 
     /SetAsDefaultPersonalCert: set personal_certificate_path in configuration inifile [global] section (default %LOCALAPPDATA%\waptconsole\waptconsole.ini)
 
-* [NEW] wapt-get: added new commands `build-waptagent` to compile a customized waptagent in batch mode.
+* [NEW] wapt-get: added new commands ``build-waptagent`` to compile a customized waptagent in batch mode.
 
     Copy waptagent.exe and pre-waptupgrade locally (if not /DeployWaptAgentLocally, upload to server with https)
 
     /DeployWaptAgentLocally: Copy the newly built waptagent.exe and prefix-waptupgrade_xxx.wapt to  local server repository directory ( <wapt>\waptserver\repository\wapt\ )
 
-* [NEW] `wapt-get register`: Add options for easy configuration of wapt when registering
+* [NEW] ``wapt-get register``: Add options for easy configuration of wapt when registering
 
-  `--pin-server-cert`: When registering, pin the server certificate. (check that CN of certificate matches hostname of server and repo)
+  ``--pin-server-cert``: When registering, pin the server certificate. (check that CN of certificate matches hostname of server and repo)
 
-  `--wapt-server-url`: When registering, set wapt-get.ini wapt_server setting.
+  ``--wapt-server-url``: When registering, set wapt-get.ini wapt_server setting.
 
-  `--wapt-repo-url`: When registering, set wapt-get.ini repo_url setting. (if not provided, and there is not repo_url set in wapt-get.ini, extrapolate repo_url from wapt_server url)
+  ``--wapt-repo-url``: When registering, set wapt-get.ini repo_url setting. (if not provided, and there is not repo_url set in wapt-get.ini, extrapolate repo_url from wapt_server url)
 
 * [NEW] wapt-get Add check-valid-codesigning-cert / CheckPersonalCertificateIsCodeSigning action
 
@@ -1503,7 +1503,7 @@ Improvements
 
 * fix order of columns not kept when exporting reports (Enterprise)
 
-* `install_msi_if_needed`, `install_exe_if_needed`:  check if killbefore is not empty or None
+* ``install_msi_if_needed``, ``install_exe_if_needed``:  check if killbefore is not empty or None
 
 * changed tasks's progress and runstatus to property
 
