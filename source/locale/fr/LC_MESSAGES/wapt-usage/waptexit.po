@@ -1,218 +1,279 @@
-
 msgid ""
 msgstr ""
-"Project-Id-Version: WAPT 1.6\n"
+"Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 14:09+0100\n"
-"PO-Revision-Date: 2019-02-27 17:08+0100\n"
+"POT-Creation-Date: 2020-04-21 15:00+0200\n"
+"PO-Revision-Date: 2020-04-21 16:08+0200\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
-"Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: fr\n"
+"X-Generator: Poedit 2.0.6\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
-#: ../../source/wapt-usage/waptexit.rst:8
-#: ../../source/wapt-usage/waptexit.rst:15
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:8
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:15
 msgid "Using WAPTExit"
 msgstr "Utiliser WAPTexit"
 
-#: ../../source/wapt-usage/waptexit.rst:8
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:8
 msgid "WAPT, shutdown, shutting down, documentation"
 msgstr "WAPT, extinction, documentation, arrêt de la machine"
 
-#: ../../source/wapt-usage/waptexit.rst:17
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:17
 msgid ""
-":program:`waptexit` allows to upgrade and install WAPT packages when a "
-"host is shutting down."
+":program:`waptexit` allows to upgrade and install WAPT packages when a host "
+"is shutting down, at the user's request, or at a scheduled time."
 msgstr ""
-"Le composant :program:`waptexit` permet l'installation des mises à jour "
-"et des paquets WAPT sur le système lors de l'extinction de l'ordinateur."
+"Le composant :program:`waptexit` permet l'installation des mises à jour et "
+"des paquets WAPT sur le système lors de l'extinction de l'ordinateur, à la "
+"demande de l'utilisateur ou à un moment programmé."
 
-#: ../../source/wapt-usage/waptexit.rst:20
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:20
 msgid ""
-"The mechanism is simple. If packages are waiting to be upgraded, they'll "
-"be installed at shutdown."
+"The mechanism is simple. If packages are waiting to be upgraded, they'll be "
+"installed."
 msgstr ""
 "Son fonctionnement est simple. Si des paquets sont en attente "
-"d'installation, ils sont installés à l'extinction de la machine."
+"d'installation, ils sont installés."
 
-#: ../../source/wapt-usage/waptexit.rst:25
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:25
 msgid "When to use WAPTexit?"
 msgstr "Dans quelles situations utiliser WAPTexit ?"
 
-#: ../../source/wapt-usage/waptexit.rst:27
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:27
 msgid ""
-"The WAPTexit method is very effective in most situation because it does "
-"not require the intervention of the :term:`User` or the "
-":term:`Administrator` and it happens at a time when the User normally no "
-"longer needs the computer."
+"The WAPTexit method is very effective in most situation because it does not "
+"require the intervention of the :term:`User` or the :term:`Administrator`."
 msgstr ""
 "La méthode WAPTexit est efficace dans la grande majorité des situations "
-"quand on veut laisser les choses se faire par elles-mêmes. Elle ne "
-"nécessite pas l'intervention de l':term:`Utilisateur` ou de "
-"l':term:`Administrateur` et elle s'exécute à un moment quand "
-"l'Utilisateur n'a plus besoin de son ordinateur."
+"quand on veut laisser les choses se faire par elles-mêmes. Elle ne nécessite "
+"pas l'intervention de l':term:`Utilisateur` ou de l':term:`Administrateur`."
 
-#: ../../source/wapt-usage/waptexit.rst:35
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:34
 msgid "WAPTexit window"
 msgstr "Fenêtre WAPTexit"
 
-#: ../../source/wapt-usage/waptexit.rst:37
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:36
 msgid "WAPTexit"
 msgstr "WAPTexit"
 
-#: ../../source/wapt-usage/waptexit.rst:43
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:42
 msgid ""
-":program:`waptexit` is a local group policy script executing at shutdown;"
-" it is installed by default with the WAPT agent."
+":program:`waptexit` executes by default on shutdown; it is installed by "
+"default with the WAPT agent."
 msgstr ""
-":program:`waptexit` est une stratégie de sécurité locale qui s'exécute à "
-"l'extinction de la machine et qui est installée avec l'agent WAPT."
+":program:`waptexit` s'exécute à l'extinction de la machine; il est installé "
+"par défaut avec l'agent WAPT."
 
-#: ../../source/wapt-usage/waptexit.rst:46
-#: ../../source/wapt-usage/waptexit.rst:56
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:45
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:55
 msgid ""
-"The behavior of :program:`waptexit` is customizable in "
-":file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get.ini`."
-msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
+"The behavior of :program:`waptexit` is customizable in :file:`C:\\\\Program "
+"Files (x86)\\\\wapt\\\\wapt-get.ini`."
+msgstr ""
+"Le comportement de :program:`waptexit` est personnalisable dans :file:`C:\\"
+"\\Program Files (x86)\\\\wapt\\\\wapt-get.ini`."
 
-#: ../../source/wapt-usage/waptexit.rst:50
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:49
 msgid "Manually triggering the execution of WAPTexit"
 msgstr "Exécution manuelle"
 
-#: ../../source/wapt-usage/waptexit.rst:52
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:51
 msgid ""
-"By creating a desktop shortcut, we can allow users to launch upgrades by "
-"themselves at a time that is convenient to them simply by clicking the "
-":guilabel:`WAPTexit` icon."
+"By creating a desktop shortcut, one can allow users to launch upgrades by "
+"themselves at a time that is convenient to them simply by clicking the :"
+"guilabel:`WAPTexit` icon."
 msgstr ""
 "En créant un raccourci sur le bureau des utilisateurs, on permet aux "
-"utilisateurs de mettre à jour leurs ordinateurs facilement en cliquant "
-"sur l'icône :guilabel:`WAPTexit`."
+"utilisateurs de mettre à jour leurs ordinateurs facilement en cliquant sur "
+"l'icône :guilabel:`WAPTexit`."
 
-#: ../../source/wapt-usage/waptexit.rst:60
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:59
+msgid "Triggering WAPTexit with a scheduled task"
+msgstr "Déclencher WAPTexit avec une tâche planifiée"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:61
+msgid ""
+"One can deploy a GPO or a WAPT package that will trigger WAPTexit at a pre-"
+"scheduled time."
+msgstr ""
+"On peut déployer un GPO ou un paquet WAPT qui déclenchera WAPTexit à un "
+"moment programmé à l'avance."
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:64
+msgid ""
+"**Triggering WAPTexit with a scheduled task is best suited for servers that "
+"are not shutdown frequently.**"
+msgstr ""
+"**Le déclenchement de WAPTexit avec une tâche planifiée est mieux adapté aux "
+"serveurs qui ne sont pas arrêtés fréquemment.**"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:67
+msgid ""
+"You may adapt the procedure describing how to deploy the WAPT agent to :ref:"
+"`trigger the WAPTexit.exe script at the time of your choosing "
+"<deploy_waptagent_with_GPO>`."
+msgstr ""
+"Vous pouvez adapter la procédure décrivant comment déployer l'agent WAPT "
+"pour :ref:`déclencher le script WAPTexit.exe au moment de votre choix "
+"<déployer_waptagent_avec_GPO>`."
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:73
+msgid ""
+"You can use the following script for your scheduled task, adapted to your "
+"need (**Enterprise only**):"
+msgstr ""
+"Vous pouvez utiliser le script suivant pour votre tâche programmée, adapté à "
+"votre besoin (**Enterprise uniquement**) :"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:84
+msgid ""
+"All running software that are upgraded may be killed with possible loss of "
+"data. WAPTexit may fail to upgrade a software program if a software that you "
+"are upgrading is in the ``impacted_process`` list of the :file:`control` "
+"file of one of the software you are trying to upgrade. See :ref:`below "
+"<impacted_process>` for more information."
+msgstr ""
+"Tous les logiciels en cours d'exécution qui sont mis à jour peuvent être "
+"terminés avec une perte possible de données. WAPTexit peut ne pas réussir à "
+"mettre à jour un logiciel si un logiciel que vous mettez à jour se trouve "
+"dans la liste ``impacted_process`` du fichier :file:`control\" d'un des "
+"logiciels que vous essayez de mettre à jour. Voir :ref:`below "
+"<impacted_process>` pour plus d'informations.\n"
+"\n"
+"Traduit avec www.DeepL.com/Translator (version gratuite)"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:90
+msgid ""
+"The method of trigerring WAPTexit at a scheduled time is the least "
+"recommended method for desktops. It is better to let WAPTexit execute at "
+"shutdown or on user request."
+msgstr ""
+"La méthode consistant à déclencher WAPTexit à une heure programmée est la "
+"moins recommandée pour les ordinateurs de bureau. Il est préférable de "
+"laisser WAPTexit s'exécuter à l'arrêt de la machine ou à l'initiative de "
+"l'utilisateur."
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:95
 msgid "Avoiding the cancellation of upgrades"
 msgstr "Empêcher l'interruption de l'installation des mises à jour"
 
-#: ../../source/wapt-usage/waptexit.rst:62
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:97
 msgid ""
-"To disable the interruption of the installation of updates you can run "
-":program:`waptexit` with the argument:"
+"To disable the interruption of the installation of updates you can run :"
+"program:`waptexit` with the argument:"
 msgstr ""
 "Pour désactiver l'interruption de l'installation des mises à jour vous "
 "pouvez lancer :program:`waptexit` avec l'argument :"
 
-#: ../../source/wapt-usage/waptexit.rst:69
-#: ../../source/wapt-usage/waptexit.rst:114
-#: ../../source/wapt-usage/waptexit.rst:136
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:104
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:151
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:173
 msgid ""
-"Otherwise :program:`waptexit` will take the value indicated in "
-":file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get.ini`:"
+"Otherwise :program:`waptexit` will take the value indicated in :file:`C:\\"
+"\\Program Files (x86)\\\\wapt\\\\wapt-get.ini`:"
 msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
 
-#: ../../source/wapt-usage/waptexit.rst:77
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:112
 msgid ""
-"If this value is not indicated in :file:`C:\\\\Program Files "
-"(x86)\\\\wapt\\\\wapt\\\\wapt-get.ini`, then the default value will be "
-"**10**."
+"If this value is not indicated in :file:`C:\\\\Program Files (x86)\\\\wapt\\"
+"\\wapt\\\\wapt-get.ini`, then the default value will be **10**."
 msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
 
-#: ../../source/wapt-usage/waptexit.rst:82
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:117
 msgid "Increase the trigger time in waptexit"
 msgstr "Augmenter le temps de déclenchement dans waptexit"
 
-#: ../../source/wapt-usage/waptexit.rst:84
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:119
 msgid ""
-"To specify the wait time before the automatic start of the installations "
-"you can start :program:`waptexit` with the argument:"
+"To specify the wait time before the automatic start of the installations you "
+"can start :program:`waptexit` with the argument:"
 msgstr ""
 "Pour préciser le temps d'attente avant le lancement automatique des "
 "installations vous pouvez lancer :program:`waptexit` avec l'argument :"
 
-#: ../../source/wapt-usage/waptexit.rst:91
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:126
 msgid ""
 "Otherwise :program:`waptexit` will take the value indicated in the "
 "configuration :file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-get.ini`:"
 msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
 
-#: ../../source/wapt-usage/waptexit.rst:99
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:134
 msgid ""
-"If this value is not indicated in :file:`C:\\\\Program Files "
-"(x86)\\\\wapt\\\\wapt\\\\wapt-get.ini`, then the default value will be "
-"**1**."
+"If this value is not indicated in :file:`C:\\\\Program Files (x86)\\\\wapt\\"
+"\\wapt\\\\wapt-get.ini`, then the default value will be **1**."
 msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
 
-#: ../../source/wapt-usage/waptexit.rst:104
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:141
 msgid "Do not interrupt user activity"
 msgstr "Ne pas interrompre l'activité des utilisateurs"
 
-#: ../../source/wapt-usage/waptexit.rst:106
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:143
 msgid ""
 "To tell WAPT not to run an :command:`upgrade` of running software on the "
-"machine (*impacted_process* attribute of the package), you can run "
-":program:`waptexit` with the argument:"
+"machine (*impacted_process* attribute of the package), you can run :program:"
+"`waptexit` with the argument:"
 msgstr ""
-"Pour indiquer à WAPT de ne pas lancer l':command:`upgrade` de logiciels "
-"en cours d'exécution sur la machine (attribut *impacted_process* du "
-"paquet), vous pouvez lancer :program:`waptexit` avec l'argument :"
+"Pour indiquer à WAPT de ne pas lancer l':command:`upgrade` de logiciels en "
+"cours d'exécution sur la machine (attribut *impacted_process* du paquet), "
+"vous pouvez lancer :program:`waptexit` avec l'argument :"
 
-#: ../../source/wapt-usage/waptexit.rst:122
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:159
 msgid ""
-"If this value is not indicated in :file:`C:\\\\Program Files "
-"(x86)\\\\wapt\\\\wapt\\\\wapt-get.ini`, then the default value will be "
-"**False**."
+"If this value is not indicated in :file:`C:\\\\Program Files (x86)\\\\wapt\\"
+"\\wapt\\\\wapt-get.ini`, then the default value will be **False**."
 msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
 
-#: ../../source/wapt-usage/waptexit.rst:127
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:164
 msgid "Launching the installation of packages with a special level of priority"
 msgstr "Lancer l'installation des paquets avec une prioritée spécifique"
 
-#: ../../source/wapt-usage/waptexit.rst:129
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:166
 msgid ""
-"To tell WAPT to only upgrade high priority packages, you can run "
-":program:`waptexit` with the argument:"
+"To tell WAPT to only upgrade high priority packages, you can run :program:"
+"`waptexit` with the argument:"
 msgstr ""
-"Pour indiquer à WAPT de lancer uniquement les installations des paquets "
-"avec une priorité élevée, vous pouvez lancer :program:`waptexit` avec "
-"l'argument :"
+"Pour indiquer à WAPT de lancer uniquement les installations des paquets avec "
+"une priorité élevée, vous pouvez lancer :program:`waptexit` avec l'argument :"
 
-#: ../../source/wapt-usage/waptexit.rst:144
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:181
 msgid ""
-"If this value is not indicated in :file:`C:\\\\Program Files "
-"(x86)\\\\wapt\\\\wapt\\\\wapt-get.ini`, then the default value will be "
-"**Empty** (no filter on priority)."
+"If this value is not indicated in :file:`C:\\\\Program Files (x86)\\\\wapt\\"
+"\\wapt\\\\wapt-get.ini`, then the default value will be **Empty** (no filter "
+"on priority)."
 msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
 
-#: ../../source/wapt-usage/waptexit.rst:149
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:186
 msgid "Customizing WAPTexit"
 msgstr "Personnaliser waptexit"
 
-#: ../../source/wapt-usage/waptexit.rst:151
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:188
 msgid ""
-"It is possible to customize waptexit by placing the image you want in "
-":file:`C:\\\\Program Files (x86)\\\\wapt\\\\templates\\\\waptexit-"
-"logo.png`."
+"It is possible to customize waptexit by placing the image you want in :file:"
+"`C:\\\\Program Files (x86)\\\\wapt\\\\templates\\\\waptexit-logo.png`."
 msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
 
-#: ../../source/wapt-usage/waptexit.rst:155
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:192
 msgid "Registering/ unregistering WAPTexit"
 msgstr "Activer / Désactiver WAPTexit"
 
-#: ../../source/wapt-usage/waptexit.rst:157
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:194
 msgid ""
 "To register or unregister :program:`waptexit` in local shutdown group "
 "strategy scripts, use:"
 msgstr ""
-"Pour activer ou désactiver :program:`waptexit` dans les stratégies "
-"locales d'arrêt de la machine, utilisez la commande suivante :"
+"Pour activer ou désactiver :program:`waptexit` dans les stratégies locales "
+"d'arrêt de la machine, utilisez la commande suivante :"
 
-#: ../../source/wapt-usage/waptexit.rst:160
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:197
 msgid "to enable :program:`waptexit` at host shutdown:"
 msgstr "pour activer :program:`waptexit` à l'extinction de la machine :"
 
-#: ../../source/wapt-usage/waptexit.rst:166
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:203
 msgid "to disable :program:`waptexit` at host shutdown:"
 msgstr "pour désactiver :program:`waptexit` à l'extinction de la machine :"

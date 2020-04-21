@@ -3,259 +3,255 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-21 10:11+0200\n"
-"PO-Revision-Date: 2020-04-15 15:27+0200\n"
+"POT-Creation-Date: 2020-04-21 15:14+0200\n"
+"PO-Revision-Date: 2020-04-21 15:21+0200\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
-"Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n > 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: fr\n"
+"X-Generator: Poedit 2.0.6\n"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:8
-#, fuzzy
-msgid "Packaging advanced *.msi package"
-msgstr "Packager des paquets \\*.msi évolués"
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:8
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:16
+msgid "Packaging advanced .msi packages"
+msgstr "Packager des paquets .msi évolués"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:8
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:8
 msgid "msi, WAPT, advanced, complex, installation, installing, documentation"
 msgstr "msi, WAPT, evolués, complexes, documentation"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:16
-msgid "Advanced \\*.msi package"
-msgstr "Créer un paquet \\*.msi evolué"
-
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:19
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:19
 msgid "Improving your MSI based package"
 msgstr "Améliorer le paquet MSI"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:21
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:21
 msgid ""
-"The installation/ updating of the :program:`TightVNC` package chosen as "
-"an example in the previous part of the documentation requires to close "
-"all instances of :program:`TightVNC` for the software to upgrade."
+"The installation/ updating of the :program:`TightVNC` package chosen as an "
+"example in the previous part of the documentation requires to close all "
+"instances of :program:`TightVNC` for the software to upgrade."
 msgstr ""
 "L'installation / la mise à jour du paquet TightVNC pris pour exemple "
 "précédemment nécessitera de le fermer le temps de la mise à jour."
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:26
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:26
 msgid "Manual method: killalltasks"
 msgstr "Méthode manuelle : killalltasks"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:28
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:28
 msgid ""
 "A simple method is to kill all existing processes of :program:`TightVNC` "
 "before launching the installation of the *tis-tightvnc* package."
 msgstr ""
-"Une première méthode est de *tuer* tous les processus VNC avant de lancer"
-" l'installation du paquet *tis-tightvnc*."
+"Une première méthode est de *tuer* tous les processus VNC avant de lancer "
+"l'installation du paquet *tis-tightvnc*."
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:44
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:44
 msgid "Elegant method: install_msi_if_needed"
 msgstr "Méthode élégante : install_msi_if_needed"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:57
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:57
 msgid ""
-"the Setuphelpers library provides a function called "
-":command:`install_msi_if_needed` that addresses all the described "
-"problems in only one line of code;"
+"the Setuphelpers library provides a function called :command:"
+"`install_msi_if_needed` that addresses all the described problems in only one "
+"line of code;"
 msgstr ""
-"la librairie de fonctions setuphelpers fournit la fonction "
-":command:`install_msi_if_needed` qui permet de gérer ce cas directement "
-"en une seule fonction ;"
+"la librairie de fonctions setuphelpers fournit la fonction :command:"
+"`install_msi_if_needed` qui permet de gérer ce cas directement en une seule "
+"fonction ;"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:61
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:61
 msgid ""
 "the function will also test whether a version of the software is already "
 "installed on the machine using the *uninstall key*;"
 msgstr ""
-"la fonction testera également si une version du logiciel est déjà "
-"installée sur la machine avec la clé de désinstallation ;"
+"la fonction testera également si une version du logiciel est déjà installée "
+"sur la machine avec la clé de désinstallation ;"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:64
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:64
 msgid ""
-"if the *uninstall key* is already present, the new version of the "
-"software will be installed only if the installed version is older;"
+"if the *uninstall key* is already present, the new version of the software "
+"will be installed only if the installed version is older;"
 msgstr ""
-"si présence il y a, l'installation sera enclenchée uniquement si la "
-"version actuellement installée est inférieure ;"
+"si présence il y a, l'installation sera enclenchée uniquement si la version "
+"actuellement installée est inférieure ;"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:67
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:67
 msgid ""
-"after the installation, the function will finally test that the "
-"*uninstall key* is present and its version, to ascertain that all went "
-"well;"
+"after the installation, the function will finally test that the *uninstall "
+"key* is present and its version, to ascertain that all went well;"
 msgstr ""
-"après installation, la fonction testera finalement la présence de la clé "
-"de déinstallation et sa version pour vérifier que tout s'est bien passé ;"
+"après installation, la fonction testera finalement la présence de la clé de "
+"déinstallation et sa version pour vérifier que tout s'est bien passé ;"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:70
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:70
 msgid "List of arguments available with *install_exe_if_needed*"
 msgstr "Liste des arguments disponibles avec *install_exe_if_need*."
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:75
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:75
 msgid "Settings"
 msgstr "Paramètres"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:75
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:75
 msgid "Default value"
 msgstr "Valeur par défaut"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:75
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:75
 msgid "Description"
 msgstr "Description"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:78
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:78
 msgid "``msi``"
 msgstr "``msi``"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:78
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:78
 msgid "name of the MSI file to execute."
 msgstr "nom du fichier MSI à exécuter."
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:79
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:79
 msgid "``min_version``"
 msgstr "``min_version``"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:79
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:89
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:79
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:89
 msgid "None"
 msgstr "None"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:79
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:79
 msgid "minimal version above which the software will update."
 msgstr "version minimale au dessus de laquelle il mettra à jour."
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:81
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:81
 msgid "``killbefore``"
 msgstr "``killbefore``"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:81
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:81
 msgid "[]"
 msgstr "[]"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:81
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:81
 msgid "list of programs to kill before installing the package."
 msgstr "liste des programmes à tuer avant de lancer l'installation."
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:83
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:83
 msgid "``accept_returncodes``"
 msgstr "``accept_returncodes``"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:83
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:83
 msgid "[0,3010]"
 msgstr "[0,3010]"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:83
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:83
 msgid "accepted codes other than 0 and 3010 returned by the function."
 msgstr "codes de retour autres que 0 ou 3010 acceptés en retour par la fonction."
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:85
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:85
 msgid "``timeout``"
 msgstr "``timeout``"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:85
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:85
 msgid "300"
 msgstr "300"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:85
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:85
 msgid "maximum installation wait time (in seconds)."
 msgstr "durée d'attente maximale d'installation (en secondes)."
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:87
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:87
 msgid "``properties``"
 msgstr "``properties``"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:87
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:87
 msgid "{}"
 msgstr "{}"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:87
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:87
 msgid "additional properties to pass as arguments to MSI setup file."
 msgstr ""
-"propriétés supplémentaires à passer en argument au MSI pour "
-"l'installation."
+"propriétés supplémentaires à passer en argument au MSI pour l'installation."
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:89
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:89
 msgid "``get_version``"
 msgstr "``get_version``"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:89
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:89
 msgid ""
-"value passed as parameter to control the version number instead of the "
-"value returned by the *installed_softwares* function"
+"value passed as parameter to control the version number instead of the value "
+"returned by the *installed_softwares* function"
 msgstr ""
 "valeur passée en paramètre pour le contrôle de version au lieu de celle "
 "retournée par la fonction *installed_softwares*"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:93
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:93
 msgid "``remove_old_version``"
 msgstr "``remove_old_version``"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:93
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:96
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:93
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:96
 msgid "False"
 msgstr "False"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:93
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:93
 msgid ""
-"automatically removes an older version of a software whose *uninstall "
-"key* is identical"
+"automatically removes an older version of a software whose *uninstall key* is "
+"identical"
 msgstr ""
 "supprimme automatiquement une ancienne version d'un logiciel dont la "
 "*uninstallkey* est identique"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:96
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:96
 msgid "``force``"
 msgstr "``force``"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:96
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:96
 msgid ""
-"forces the installation of the software even though the same *uninstall "
-"key* has been found"
+"forces the installation of the software even though the same *uninstall key* "
+"has been found"
 msgstr ""
-"force l'installation du logiciel même si une *uninstall key* avec une "
-"version identique est trouvée."
+"force l'installation du logiciel même si une *uninstall key* avec une version "
+"identique est trouvée."
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:103
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:103
 msgid ""
-"The :command:`install_msi_if_needed` method searches for an *uninstall "
-"key* in the MSI file properties, it is not necessary to fill it manually "
-"in the :file:`setup.py` file."
+"The :command:`install_msi_if_needed` method searches for an *uninstall key* in "
+"the MSI file properties, it is not necessary to fill it manually in the :file:"
+"`setup.py` file."
 msgstr ""
 "La fonction :command:`install_msi_if_needed` récupère la clé de "
-"désinstallation depuis le MSI, il n'est pas nécessaire de l'écrire dans "
-"le fichier :file:`setup.py`."
+"désinstallation depuis le MSI, il n'est pas nécessaire de l'écrire dans le "
+"fichier :file:`setup.py`."
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:107
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:107
 msgid ""
-"Launch the installation and watch for what's happening in the WAPT "
-"console when the software is already installed."
+"Launch the installation and watch for what's happening in the WAPT console "
+"when the software is already installed."
 msgstr ""
-"En lançant le paquet, on observe ce qu'il se passe dans la console quand "
-"le logiciel est déjà installé."
+"En lançant le paquet, on observe ce qu'il se passe dans la console quand le "
+"logiciel est déjà installé."
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:124
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:124
 msgid "Handling x32 and x64 architectures"
 msgstr "Gérer les plateformes x32/x64"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:126
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:126
 msgid ""
-"To handle different processor architectures, use the function "
-":command:`iswin64()`."
+"To handle different processor architectures, use the function :command:"
+"`iswin64()`."
 msgstr ""
 "Pour la gestion de l'architecture de processeur x32 / x64, on utilise la "
 "fonction :command:`iswin64()`."
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:147
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:147
 msgid "Passing additional arguments"
 msgstr "Ajouter des propriétés supplémentaires en argument"
 
-#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:149
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-msi-evo/index.rst:149
 msgid "To pass additional arguments, store them in a *dict*."
 msgstr ""
-"Pour ajouter des propriétés supplémentaires on va les stocker dans un "
-"élément *dict*."
+"Pour ajouter des propriétés supplémentaires on va les stocker dans un élément "
+"*dict*."
 
+#~ msgid "Advanced .msi package"
+#~ msgstr "Créer un paquet \\*.msi evolué"

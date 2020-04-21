@@ -1,627 +1,620 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: WAPT 1.6\n"
+"Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 14:09+0100\n"
-"PO-Revision-Date: 2019-02-27 12:04+0100\n"
+"POT-Creation-Date: 2020-04-21 15:00+0200\n"
+"PO-Revision-Date: 2020-04-21 16:09+0200\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
-"Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.3.4\n"
+"Language: fr\n"
+"X-Generator: Poedit 2.0.6\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:8
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:20
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:8
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:20
 msgid "Using special Command Lines with WAPT"
 msgstr "Utiliser les lignes de commande spéciales"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:8
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:8
 msgid ""
-"command line, WAPT, CLI, register, download, download-upgrade, show, "
-"list, upgradedb, setup-tasks, enable-tasks, disable-tasks, add-upgrade-"
-"shutdown, remove-upgrade-shutdown, inventory, update-status, "
-"setlocalpassword, reset-uuid, generate-uuid, get-server-certificate, "
-"enable-check-certificate, session-setup, documentation"
+"command line, WAPT, CLI, register, download, download-upgrade, show, list, "
+"upgradedb, setup-tasks, enable-tasks, disable-tasks, add-upgrade-shutdown, "
+"remove-upgrade-shutdown, inventory, update-status, setlocalpassword, reset-uuid, "
+"generate-uuid, get-server-certificate, enable-check-certificate, session-setup, "
+"documentation"
 msgstr ""
-"ligne de commande, WAPT, CLI, command line,             invite de "
-"commande Windows, commandes spéciales, register, download, download-"
-"upgrade, show, list, upgradedb, setup-tasks, enable-tasks, disable-tasks,"
-" add-upgrade-shutdown, remove-upgrade-shutdown, inventory, update-status,"
-" setlocalpassword, reset-uuid, generate-uuid, get-server-certificate, "
-"enable-check-certificate, session-setup, documentation"
+"ligne de commande, WAPT, CLI, command line,             invite de commande "
+"Windows, commandes spéciales, register, download, download-upgrade, show, list, "
+"upgradedb, setup-tasks, enable-tasks, disable-tasks, add-upgrade-shutdown, "
+"remove-upgrade-shutdown, inventory, update-status, setlocalpassword, reset-uuid, "
+"generate-uuid, get-server-certificate, enable-check-certificate, session-setup, "
+"documentation"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:23
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:23
 msgid "wapt-get register"
 msgstr "wapt-get register"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:25
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:25
 msgid ""
 "The :code:`wapt-get register <description>` command reports the computer "
 "hardware and software inventory to the WAPT inventory server."
 msgstr ""
 "La commande :code:`wapt-get register <description>` permet de remonter "
-"l'inventaire matériel et logiciel de la machine sur le serveur "
-"d'inventaire WAPT."
+"l'inventaire matériel et logiciel de la machine sur le serveur d'inventaire WAPT."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:30
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:30
 msgid ""
-"You can pass a description as an argument to the :command:`register`, "
-"that description will be displayed in the WAPT console in the column "
-":guilabel:`description`."
+"You can pass a description as an argument to the :command:`register`, that "
+"description will be displayed in the WAPT console in the column :guilabel:"
+"`description`."
 msgstr ""
-"Vous pouvez préciser une description supplémentaire en paramètre de "
-":command:`register`, cette description sera affichée dans la console WAPT"
-" comme description du poste."
+"Vous pouvez préciser une description supplémentaire en paramètre de :command:"
+"`register`, cette description sera affichée dans la console WAPT comme "
+"description du poste."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:34
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:34
 msgid ""
-"You may benefit from WAPT to improve your IT management by affecting a "
-"username or a computer serial as descriptions for your hosts."
+"You may benefit from WAPT to improve your IT management by affecting a username "
+"or a computer serial as descriptions for your hosts."
 msgstr ""
-"Vous pouvez donc profiter de WAPT pour améliorer la gestion "
-"administrative de votre parc en affectant à la machine le nom d'un "
-"service ou le nom du principal utilisateur de la machine."
+"Vous pouvez donc profiter de WAPT pour améliorer la gestion administrative de "
+"votre parc en affectant à la machine le nom d'un service ou le nom du principal "
+"utilisateur de la machine."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:37
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:37
 msgid "The command :code:`wapt-get register \"John Doe PC` returns nothing;"
 msgstr "La commande :code:`wapt-get register \"PC de Thomas` ne renvoie rien ;"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:40
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:40
 msgid "wapt-get download"
 msgstr "wapt-get download"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:42
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:42
 msgid ""
-"The :code:`wapt-get download <package name>` command downloads the WAPT "
-"package to the local cache located at :file:`C:\\\\Program "
-"Files\\wapt\\cache`."
+"The :code:`wapt-get download <package name>` command downloads the WAPT package "
+"to the local cache located at :file:`C:\\\\Program Files\\wapt\\cache`."
 msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:45
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:45
 msgid "The command :code:`wapt-get download tis-7zip` returns:"
 msgstr "La commande :code:`wapt-get download tis-7zip` renvoie :"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:55
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:55
 msgid "wapt-get download-upgrade"
 msgstr "wapt-get download-upgrade"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:57
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:57
 msgid ""
-"The:code:`wapt-get download-upgrade`command downloads packages to be "
-"upgraded to the local WAPT cache :file:`C:\\\\Program Files "
-"(x86)\\wapt\\cache`."
+"The:code:`wapt-get download-upgrade`command downloads packages to be upgraded to "
+"the local WAPT cache :file:`C:\\\\Program Files (x86)\\wapt\\cache`."
 msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:60
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:60
 msgid "The command :code:`wapt-get download-upgrade` returns:"
 msgstr "La commande :code:`wapt-get download-upgrade` renvoie :"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:68
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:68
 msgid "wapt-get show"
 msgstr "wapt-get show"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:70
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:70
 msgid ""
-"The :code:`wapt-get show <package name>`  command displays informations "
-"stored in the :file:`Packages` index file."
+"The :code:`wapt-get show <package name>`  command displays informations stored "
+"in the :file:`Packages` index file."
 msgstr ""
-"La commande :code:`wapt-get show <nom du paquet>` affiche les "
-"informations contenues dans l'index :file:`Packages`."
+"La commande :code:`wapt-get show <nom du paquet>` affiche les informations "
+"contenues dans l'index :file:`Packages`."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:73
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:73
 msgid ""
-"If several versions of a package are available on the repository, every "
-"version of the package will be displayed."
+"If several versions of a package are available on the repository, every version "
+"of the package will be displayed."
 msgstr ""
-"Si plusieurs versions du paquet sont disponibles sur le dépôt, toutes les"
-" versions sont affichées."
+"Si plusieurs versions du paquet sont disponibles sur le dépôt, toutes les "
+"versions sont affichées."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:76
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:76
 msgid "The command :code:`wapt-get show tis-firebird` returns:"
 msgstr "La commande :code:`wapt-get show tis-firebird` renvoie :"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:96
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:96
 msgid "wapt-get list"
 msgstr "wapt-get list"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:98
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:98
 msgid ""
-"The :code:`wapt-get list` command lists WAPT packages that are installed "
-"on the computer."
+"The :code:`wapt-get list` command lists WAPT packages that are installed on the "
+"computer."
 msgstr ""
-"La commande :code:`wapt-get list` affiche la liste des paquets WAPT "
-"actuellement installés sur la machine."
+"La commande :code:`wapt-get list` affiche la liste des paquets WAPT actuellement "
+"installés sur la machine."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:101
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:101
 msgid "The command :code:`wapt-get list` returns:"
 msgstr "La commande :code:`wapt-get list` renvoie :"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:106
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:106
 msgid "package"
 msgstr "package"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:106
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:106
 msgid "version"
 msgstr "version"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:106
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:106
 msgid "install status"
 msgstr "install status"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:106
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:106
 msgid "install_date"
 msgstr "install_date"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:106
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:106
 msgid "description"
 msgstr "description"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:109
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:109
 msgid "tis-7zip"
 msgstr "tis-7zip"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:109
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:109
 msgid "16.4-8"
 msgstr "16.4-8"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:109
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:113
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:117
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:121
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:125
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:129
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:132
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:134
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:136
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:139
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:109
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:113
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:117
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:121
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:125
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:129
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:132
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:134
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:136
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:139
 msgid "OK"
 msgstr "OK"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:109
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:109
 msgid "2016-12-01T17:43"
 msgstr "2016-12-01T17:43"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:109
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:109
 msgid "7-zip compression and archiving software for x86 and x64"
 msgstr "compression archivage 7-zip pour x86 et x64"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:113
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:113
 msgid "tis-brackets"
 msgstr "tis-brackets"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:113
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:113
 msgid "1.8-1"
 msgstr "1.8-1"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:113
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:113
 msgid "2016-12-01T17:44"
 msgstr "2016-12-01T17:44"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:113
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:113
 msgid "Brackets is a lightweight opensource text editor developed by Adobe"
 msgstr "Brackets propose un éditeur de code léger, libre et développé par Adobe."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:117
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:117
 msgid "tis-ccleaner"
 msgstr "tis-ccleaner"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:117
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:117
 msgid "5.23.5808-0"
 msgstr "5.23.5808-0"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:117
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:117
 msgid "2016-12-01T18:55"
 msgstr "2016-12-01T18:55"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:117
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:117
 msgid "the right choice utility to quickly clean up, repair and optimize Windows"
 msgstr "utilitaire de choix pour nettoyer, réparer et optimiser rapidement Windows"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:121
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:121
 msgid "tis-rsat-win7x64"
 msgstr "tis-rsat-win7x64"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:121
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:121
 msgid "2"
 msgstr "2"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:121
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:121
 msgid "2016-12-02T10:46"
 msgstr "2016-12-02T10:46"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:121
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:125
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:121
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:125
 msgid ""
-"package for MS RSAT Remote server admin windows6.1-kb958830-x64 pour Win7"
-" SP1"
+"package for MS RSAT Remote server admin windows6.1-kb958830-x64 pour Win7 SP1"
 msgstr ""
-"package for MS RSAT Remote server admin windows6.1-kb958830-x64 pour Win7"
-" SP1"
+"package for MS RSAT Remote server admin windows6.1-kb958830-x64 pour Win7 SP1"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:125
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:125
 msgid "tis-rsat-x64"
 msgstr "tis-rsat-x64"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:125
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:125
 msgid "1"
 msgstr "1"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:125
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:125
 msgid "2016-12-02T10:51"
 msgstr "2016-12-02T10:51"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:129
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:129
 msgid "tis-dotnetfx4.6"
 msgstr "tis-dotnetfx4.6"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:129
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:129
 msgid "4.6.2-1"
 msgstr "4.6.2-1"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:129
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:129
 msgid "2016-12-09T16:05"
 msgstr "2016-12-09T16:05"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:129
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:129
 msgid "dot net FX 4.6.2 Framework CLient. replace 4/4.5/4.5.1/4.5.2/4.6/4.6.1"
 msgstr "dot net FX 4.6.2 Framework CLient. replace 4/4.5/4.5.1/4.5.2/4.6/4.6.1"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:132
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:132
 msgid "tis-paint.net"
 msgstr "tis-paint.net"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:132
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:132
 msgid "4.0.12-3"
 msgstr "4.0.12-3"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:132
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:132
 msgid "2016-12-09T16:08"
 msgstr "2016-12-09T16:08"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:132
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:132
 msgid "Paint.NET Setup 32/64"
 msgstr "Paint.NET Setup 32/64"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:134
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:134
 msgid "tis-vlc"
 msgstr "tis-vlc"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:134
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:134
 msgid "2.2.4-2"
 msgstr "2.2.4-2"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:134
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:134
 msgid "2016-12-21T16:41"
 msgstr "2016-12-21T16:41"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:134
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:134
 msgid "VLC media player"
 msgstr "VLC media player"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:136
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:136
 msgid "tis-mumble"
 msgstr "tis-mumble"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:136
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:136
 msgid "1.2.8-1"
 msgstr "1.2.8-1"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:136
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:139
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:136
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:139
 msgid "2016-12-21T16:42"
 msgstr "2016-12-21T16:42"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:136
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:136
 msgid "automatic package for Mumble 1.2.8 (Thorvald Natvig)"
 msgstr "automatic package for Mumble 1.2.8 (Thorvald Natvig)"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:139
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:139
 msgid "machine.mydomain.lan"
 msgstr "machine.mydomain.lan"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:139
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:139
 msgid "3"
 msgstr "3"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:139
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:139
 msgid "None"
 msgstr "None"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:143
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:143
 msgid "wapt-get upgradedb"
 msgstr "wapt-get upgradedb"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:145
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:145
 msgid ""
-"The :code:`wapt-get upgradedb` command upgrades the local WAPT database "
-"schema if necessary."
+"The :code:`wapt-get upgradedb` command upgrades the local WAPT database schema "
+"if necessary."
 msgstr ""
-"La commande :code:`wapt-get upgradedb` met à jour le schéma de la base de"
-" données locale WAPT si nécessaire."
+"La commande :code:`wapt-get upgradedb` met à jour le schéma de la base de "
+"données locale WAPT si nécessaire."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:148
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:148
 msgid "The command :code:`wapt-get upgradedb` returns:"
 msgstr "La commande :code:`wapt-get upgradedb` renvoie :"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:156
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:156
 msgid "wapt-get setup-tasks - wapt-get enable-tasks - wapt-get disable-tasks"
 msgstr "wapt-get setup-tasks - wapt-get enable-tasks - wapt-get disable-tasks"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:158
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:158
 msgid ""
-"The :code:`wapt-get setup-tasks` command adds :command:`update` and "
-":command:`upgrade` scheduled tasks to local host."
+"The :code:`wapt-get setup-tasks` command adds :command:`update` and :command:"
+"`upgrade` scheduled tasks to local host."
 msgstr ""
-"La commande :code:`wapt-get setup-tasks` ajoute des tâches planifiées "
-":command:`update` et :command:`upgrade`"
+"La commande :code:`wapt-get setup-tasks` ajoute des tâches planifiées :command:"
+"`update` et :command:`upgrade`"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:163
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:163
 msgid ""
-"This function is useful when it is desirable not to use the WAPT service,"
-" otherwise :program:`waptservice` will take care of it."
+"This function is useful when it is desirable not to use the WAPT service, "
+"otherwise :program:`waptservice` will take care of it."
 msgstr ""
-"Cette fonction est utile lorsque que l'on ne souhaite pas utiliser le "
-"service :program:`waptservice`, sinon le service :program:`waptservice` "
-"s'en chargera."
+"Cette fonction est utile lorsque que l'on ne souhaite pas utiliser le service :"
+"program:`waptservice`, sinon le service :program:`waptservice` s'en chargera."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:166
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:166
 msgid ""
-"To make it work, the following arguments must be configured in :file"
-":`wapt-get.ini`:"
+"To make it work, the following arguments must be configured in :file:`wapt-get."
+"ini`:"
 msgstr ""
-"Pour que cela fonctionne, il faut au préalable avoir configuré les "
-"paramètres dans le fichier :file:`wapt-get.ini` :"
+"Pour que cela fonctionne, il faut au préalable avoir configuré les paramètres "
+"dans le fichier :file:`wapt-get.ini` :"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:169
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:169
 msgid "*waptupdate_task_maxruntime*;"
 msgstr "*waptupdate_task_maxruntime*;"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:171
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:171
 msgid "*waptupgrade_task_maxruntime*;"
 msgstr "*waptupgrade_task_maxruntime*;"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:173
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:173
 msgid "*waptupdate_task_period*;"
 msgstr "*waptupdate_task_period*;"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:175
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:175
 msgid "*waptupgrade_task_period*;"
 msgstr "*waptupgrade_task_period*;"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:177
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:177
 msgid "Then:"
 msgstr "Ensuite :"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:179
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:179
 msgid "the :code:`wapt-get enable-tasks` command will enable scheduled tasks;"
 msgstr "la commande :code:`wapt-get enable-tasks` activera les tâches planifiées ;"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:181
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:181
 msgid "the  :code:`wapt-get disable-tasks` command will disable scheduled tasks;"
 msgstr ""
-"la commande :code:`wapt-get disable-tasks` désactivera les tâches "
-"planifiées ;"
+"la commande :code:`wapt-get disable-tasks` désactivera les tâches planifiées ;"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:184
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:184
 msgid "wapt-get add-upgrade-shutdown - wapt-get remove-upgrade-shutdown"
 msgstr "wapt-get add-upgrade-shutdown - wapt-get remove-upgrade-shutdown"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:186
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:186
 msgid ""
-"the :code:`wapt-get add-upgrade-shutdown` command adds a "
-":program:`waptexit` local security policy object, enabling the execution "
-"of :program:`waptexit` at system shutdown;"
+"the :code:`wapt-get add-upgrade-shutdown` command adds a :program:`waptexit` "
+"local security policy object, enabling the execution of :program:`waptexit` at "
+"system shutdown;"
 msgstr ""
-"la commande :code:`wapt-get add-upgrade-shutdown` ajoute la stratégie "
-"locale :program:`waptexit` des scripts d'arrêt du système pour "
-":program:`waptexit` ;"
+"la commande :code:`wapt-get add-upgrade-shutdown` ajoute la stratégie locale :"
+"program:`waptexit` des scripts d'arrêt du système pour :program:`waptexit` ;"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:190
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:190
 msgid ""
-"the :code:`wapt-get remove-upgrade-shutdown` command removes the "
-":program:`waptexit` local security policy object, disabling the execution"
-" of :program:`waptexit` during system shutdown;"
+"the :code:`wapt-get remove-upgrade-shutdown` command removes the :program:"
+"`waptexit` local security policy object, disabling the execution of :program:"
+"`waptexit` during system shutdown;"
 msgstr ""
-"la commande :code:`wapt-get remove-upgrade-shutdown` supprime la "
-"stratégie locale des scripts d'arrêt du système pour "
-":program:`waptexit` ;"
+"la commande :code:`wapt-get remove-upgrade-shutdown` supprime la stratégie "
+"locale des scripts d'arrêt du système pour :program:`waptexit` ;"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:195
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:195
 msgid "wapt-get inventory"
 msgstr "wapt-get inventory"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:197
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:197
 msgid ""
-"The :code:`wapt-get inventory` command displays all local inventory "
-"information in JSON format."
+"The :code:`wapt-get inventory` command displays all local inventory information "
+"in JSON format."
 msgstr ""
-"La commande :code:`wapt-get inventory` affiche le contenu de l'inventaire"
-" local de la machine au format JSON."
+"La commande :code:`wapt-get inventory` affiche le contenu de l'inventaire local "
+"de la machine au format JSON."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:200
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:200
 msgid "The command :code:`wapt-get inventory` returns:"
 msgstr "La commande :code:`wapt-get inventory` renvoie :"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:218
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:218
 msgid "wapt-get update-status"
 msgstr "wapt-get update-status"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:220
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:220
 msgid ""
-"The command :code:`wapt-get update-status` resends local status to the "
-"WAPT inventory server."
+"The command :code:`wapt-get update-status` resends local status to the WAPT "
+"inventory server."
 msgstr ""
-"La commande :code:`wapt-get update-status` renvoie l'inventaire local "
-"vers le serveur d'inventaire WAPT."
+"La commande :code:`wapt-get update-status` renvoie l'inventaire local vers le "
+"serveur d'inventaire WAPT."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:225
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:225
 msgid ""
-"If a hardware component has changed on the computer, :command:`update-"
-"status` would not report that information back to the WAPT inventory "
-"server."
+"If a hardware component has changed on the computer, :command:`update-status` "
+"would not report that information back to the WAPT inventory server."
 msgstr ""
-"Si un composant matériel a changé sur la machine, cette commande ne "
-"remontera pas la nouvelle information au serveur WAPT."
+"Si un composant matériel a changé sur la machine, cette commande ne remontera "
+"pas la nouvelle information au serveur WAPT."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:229
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:229
 msgid "To do so, the command to be used is :command:`inventory`."
 msgstr "Dans ce cas, il faudra lancer la commande :command:`inventory`."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:231
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:231
 msgid "The command :code:`wapt-get update-status` returns:"
 msgstr "La commande :code:`wapt-get update-status` renvoie :"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:238
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:238
 msgid "wapt-get setlocalpassword"
 msgstr "wapt-get setlocalpassword"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:240
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:240
 msgid ""
-"The :code:`wapt-get setlocalpassword` command allows to define a local "
-"password for WAPT package installations."
+"The :code:`wapt-get setlocalpassword` command allows to define a local password "
+"for WAPT package installations."
 msgstr ""
-"La commande :code:`wapt-get setlocalpassword` permet de définir un mot de"
-" passe local pour installer des paquets WAPT."
+"La commande :code:`wapt-get setlocalpassword` permet de définir un mot de passe "
+"local pour installer des paquets WAPT."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:243
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:243
 msgid "The command :code:`wapt-get setlocalpassword` returns:"
 msgstr "La commande :code:`wapt-get setlocalpassword` renvoie :"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:252
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:252
 msgid "wapt-get reset-uuid"
 msgstr "wapt-get reset-uuid"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:254
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:254
 msgid ""
-"The :code:`wapt-get reset-uuid` command retrieves the host :term:`UUID` "
-"from BIOS and resends it to the WAPT inventory server."
+"The :code:`wapt-get reset-uuid` command retrieves the host :term:`UUID` from "
+"BIOS and resends it to the WAPT inventory server."
 msgstr ""
-"La commande :code:`wapt-get reset-uuid` permet de récupérer le "
-":term:`UUID` de la machine à partir du BIOS et le remonter au serveur "
-"WAPT."
+"La commande :code:`wapt-get reset-uuid` permet de récupérer le :term:`UUID` de "
+"la machine à partir du BIOS et le remonter au serveur WAPT."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:257
-msgid "The command :code:`wapt-get wapt-get reset-uuid` returns:"
-msgstr "La commande :code:`wapt-get wapt-get reset-uuid` renvoie :"
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:257
+msgid "The command :code:`wapt-get reset-uuid` returns:"
+msgstr "La commande :code:`wapt-get reset-uuid` renvoie :"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:264
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:264
 msgid "wapt-get generate-uuid"
 msgstr "wapt-get generate-uuid"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:266
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:266
 msgid ""
-"The :code:`wapt-get generate-uuid` command creates a new host "
-":term:`UUID` and resends it to the WAPT inventory server."
+"The :code:`wapt-get generate-uuid` command creates a new host :term:`UUID` and "
+"resends it to the WAPT inventory server."
 msgstr ""
-"La commande :code:`wapt-get generate-uuid` permet de générer un "
-":term:`UUID` aléatoire pour la machine et de le remonter au serveur WAPT."
+"La commande :code:`wapt-get generate-uuid` permet de générer un :term:`UUID` "
+"aléatoire pour la machine et de le remonter au serveur WAPT."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:271
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:271
 msgid ""
-"Some batches of computers have their BIOS with identical :term:`UUID`. It"
-" is a BIOS manufacturer setting problem because no two :term:`UUID` "
-"should be the same."
+"Some batches of computers have their BIOS with identical :term:`UUID`. It is a "
+"BIOS manufacturer setting problem because no two :term:`UUID` should be the same."
 msgstr ""
-"Certaines machines ont un BIOS avec des :term:`UUID` identiques. Cette "
-"anomalie est un défaut de paramétrage du BIOS par le constructeur de la "
-"machine car les :term:`UUID` devraient être uniques."
+"Certaines machines ont un BIOS avec des :term:`UUID` identiques. Cette anomalie "
+"est un défaut de paramétrage du BIOS par le constructeur de la machine car les :"
+"term:`UUID` devraient être uniques."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:275
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:275
 msgid "The command :command:`generate-uuid` exist to solve that problem."
 msgstr "La commande command:`generate-uuid` existe pour résoudre ce problème."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:277
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:277
 msgid "The command :code:`wapt-get generate-uuid` returns:"
 msgstr "La commande :code:`wapt-get generate-uuid` renvoie :"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:284
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:284
 msgid "wapt-get get-server-certificate"
 msgstr "wapt-get get-server-certificate"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:286
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:286
 msgid ""
 "The :code:`wapt-get get-server-certificate` command downloads the SSL "
-"certificate from the WAPT Server to use HTTPS to communicate with the "
-"WAPT Server."
+"certificate from the WAPT Server to use HTTPS to communicate with the WAPT "
+"Server."
 msgstr ""
-"La commande :code:`wapt-get get-server-certificate` permet de télécharger"
-" le certificat SSL du serveur WAPT, quand on utilise HTTPS pour les "
-"échanges avec le serveur."
+"La commande :code:`wapt-get get-server-certificate` permet de télécharger le "
+"certificat SSL du serveur WAPT, quand on utilise HTTPS pour les échanges avec le "
+"serveur."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:290
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:290
 msgid ""
-"The downloaded certificate is stored in :file:`C:\\\\Program "
-"Files(x86)\\\\wapt\\ssl\\\\server`."
+"The downloaded certificate is stored in :file:`C:\\\\Program Files(x86)\\\\wapt"
+"\\ssl\\\\server`."
 msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:293
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:293
 msgid "The command :code:`wapt-get get-server-certificate` returns:"
 msgstr "La commande :code:`wapt-get get-server-certificate` renvoie :"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:300
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:300
 msgid "wapt-get enable-check-certificate"
 msgstr "wapt-get enable-check-certificate"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:302
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:302
 msgid ""
 "The :code:`wapt-get enable-check-certificate` command downloads the SSL "
-"certificate from the WAPT Server and enables secured communication with "
-"the server."
+"certificate from the WAPT Server and enables secured communication with the "
+"server."
 msgstr ""
-"La commande :code:`wapt-get enable-check-certificate` permet de "
-"télécharger le certificat SSL du serveur WAPT et active le contrôle des "
-"échanges avec le serveur."
+"La commande :code:`wapt-get enable-check-certificate` permet de télécharger le "
+"certificat SSL du serveur WAPT et active le contrôle des échanges avec le "
+"serveur."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:306
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:306
 msgid "The command :code:`wapt-get enable-check-certificate` returns:"
 msgstr "La commande :code:`wapt-get enable-check-certificate` renvoie :"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:314
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:314
 msgid "wapt-get session-setup"
 msgstr "wapt-get session-setup"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:316
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:316
 msgid ""
-"The :code:`wapt-get session-setup` command launches user level "
-"customizations of installed WAPT packages."
+"The :code:`wapt-get session-setup` command launches user level customizations of "
+"installed WAPT packages."
 msgstr ""
 "La commande :code:`wapt-get session-setup` lance l'exécution des "
 "personnalisations logicielles en contexte utilisateur."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:321
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:321
 msgid ""
-"The :command:`session-setup` instruction sets are defined in WAPT "
-"package's :file:`setup.py` file."
+"The :command:`session-setup` instruction sets are defined in WAPT package's :"
+"file:`setup.py` file."
 msgstr ""
-"Les instructions en :command:`session-setup` sont définies dans le "
-"fichier :file:`setup.py` des paquets applicatifs."
+"Les instructions en :command:`session-setup` sont définies dans le fichier :file:"
+"`setup.py` des paquets applicatifs."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:324
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:324
 msgid "Every instruction set is stored in a SQLite local database."
 msgstr "L'ensemble des instructions est sauvegardé en base locale."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:326
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:326
 msgid ""
-"The command :command:`session-setup` is launched at every startup, the "
-"user environment customization script is executed only once per user per "
-"package version."
+"The command :command:`session-setup` is launched at every startup, the user "
+"environment customization script is executed only once per user per package "
+"version."
 msgstr ""
-"Le script :command:`session-setup` est lancé à chaque démarrage mais "
-"l'exécution d'un :command:`session-setup` ne se fait qu'une fois par "
-"utilisateur et par version de paquet."
+"Le script :command:`session-setup` est lancé à chaque démarrage mais l'exécution "
+"d'un :command:`session-setup` ne se fait qu'une fois par utilisateur et par "
+"version de paquet."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:332
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:332
 msgid ""
-"The argument *ALL* will launch :command:`session-setup` for all installed"
-" WAPT packages."
+"The argument *ALL* will launch :command:`session-setup` for all installed WAPT "
+"packages."
 msgstr ""
-"Le paramètre *ALL* lancera le :command:`session-setup` de tous les "
-"paquets WAPT installés sur la machine."
+"Le paramètre *ALL* lancera le :command:`session-setup` de tous les paquets WAPT "
+"installés sur la machine."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:335
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:335
 msgid "The command :code:`wapt-get session-setup ALL` returns:"
 msgstr "La commande :code:`wapt-get session-setup ALL` renvoie :"
+
+#~ msgid "The command :code:`wapt-get wapt-get reset-uuid` returns:"
+#~ msgstr "La commande :code:`wapt-get wapt-get reset-uuid` renvoie :"
