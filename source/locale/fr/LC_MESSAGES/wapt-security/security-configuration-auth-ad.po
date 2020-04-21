@@ -52,7 +52,7 @@ msgid ""
 "administrative actions that are done on the network."
 msgstr ""
 "Sur un vaste réseau sécurisé, ce compte :term:`SuperAdmin` ne devrait pas "
-"être utilisé puisqu'il ne peut fournir une traçabilité nécessairesur les "
+"être utilisé puisqu'il ne peut fournir une traçabilité nécessaire sur les "
 "actions d'administration menées sur le réseau."
 
 #: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security/security-configuration-auth-ad.rst:30
@@ -72,7 +72,7 @@ msgid ""
 "Active Directory authentication is used to authenticate access to the "
 "inventory via the WAPT Console;"
 msgstr ""
-"L'authentication par Active Directory est utilisé pour accéder à l'inventaire "
+"L'authentification par Active Directory est utilisé pour accéder à l'inventaire "
 "via la console WAPT;"
 
 #: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-security/security-configuration-auth-ad.rst:40
