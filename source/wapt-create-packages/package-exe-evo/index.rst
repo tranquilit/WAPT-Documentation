@@ -6,14 +6,14 @@
    Niveau 5: ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
-  :description: Advanced \*.exe packages
+  :description: Packaging advanced .exe packages
   :keywords: exe, WAPT, advanced, complex, installing, installation,
              documentation
 
 .. _complex_exe_packaging:
 
-Advanced \*.exe package
-=======================
+Packaging advanced .exe packages
+================================
 
 Improving the functionalities of packages
 -----------------------------------------

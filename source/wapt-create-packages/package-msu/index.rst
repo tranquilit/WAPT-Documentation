@@ -101,8 +101,6 @@ Creating a MSU package template from command line
 * WAPT package IDE is launched, here is an example source code from
   the pre-defined MSU template:
 
-.. _accept_returncodes_example:
-
   .. code-block:: python
 
     # -*- coding: utf-8 -*-

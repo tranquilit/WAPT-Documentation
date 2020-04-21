@@ -6,13 +6,13 @@
    Niveau 5: ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
-    :description: Packaging simple \*.msi packages
+    :description: Packaging simple .msi packages
     :keywords: msi, WAPT, simple, documentation
 
 .. _simple_msi_packaging:
 
-Packaging simple \*.msi packages
-================================
+Packaging simple .msi packages
+==============================
 
 .. hint:: Prerequisites
 

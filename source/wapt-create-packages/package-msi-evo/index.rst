@@ -6,14 +6,14 @@
    Niveau 5: ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
-  :description: Packaging advanced \*.msi package
+  :description: Packaging advanced .msi packages
   :keywords: msi, WAPT, advanced, complex, installation, installing,
              documentation
 
 .. _complex_msi_packaging:
 
-Advanced \*.msi package
-=======================
+Packaging advanced .msi packages
+================================
 
 Improving your MSI based package
 --------------------------------

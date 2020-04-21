@@ -227,6 +227,8 @@ With waptdeploy
     :program:`waptdeploy` must be started as :term:`Local Administrator`,
     that is why we advise you to use a GPO.
 
+.. _deploy_waptagent_with_GPO:
+
 Creating a GPO to deploy the WAPT agents
 ++++++++++++++++++++++++++++++++++++++++
 

@@ -6,13 +6,13 @@
    Niveau 5: ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
-    :description: Simple .exe package
+    :description: Packaging simple .exe package
     :keywords: exe, WAPT, simple, documentation
 
 .. _simple_exe_packaging:
 
-Simple .exe package
-===================
+Packaging simple .exe package
+=============================
 
 .. note:: Variation compared to MSI
 
@@ -44,8 +44,8 @@ Simple .exe package
 
     * search on the Internet with the search terms: *Firefox silent install*;
 
-create a base template from the EXE file
-----------------------------------------
+Creating a base template from the .exe file
+-------------------------------------------
 
 * start up a Windows Command Line utility :program:`cmd.exe`
   as :term:`Local Administrator`;
@@ -73,7 +73,7 @@ create a base template from the EXE file
     You can build and upload the WAPT package by launching
       C:\Program Files (x86)\wapt\wapt-get.exe build-upload C:\waptdev\tis-firefox-esr-wapt
 
-  PyScripter loads up and opens open the \*.exe package project.
+  PyScripter loads up and opens open the :mimetype:`.exe` package project.
 
   .. figure:: pyscripter_firefox_esr.png
     :align: center
@@ -81,9 +81,9 @@ create a base template from the EXE file
 
     PyScripter opening with focus on the *control* file
 
-* check the *control* file content;
+* check the :file:`control` file content;
 
-  Mozilla Firefox-ESR doesn't comply to industry standards and returns
+  Mozilla Firefox-ESR does not comply to industry standards and returns
   an erroneous version number (it appears to be the installer packaging
   software version number).
 
@@ -105,7 +105,7 @@ create a base template from the EXE file
     It allows the Package Developer to release several WAPT package versions
     of the same software.
 
-* check the *setup.py* file
+* check the :file:`setup.py` file;
 
   WAPT has added a generic silent */VERYSILENT* flag that may or may not
   work with Mozilla Firefox ESR.

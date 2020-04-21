@@ -30,17 +30,13 @@ Configuring Kerberos authentication
 Installing the Kerberos components and configuring krb5.conf file
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-For centos
-
 .. code-block:: bash
 
-   yum install krb5-workstation msktutil nginx-mod-http-auth-spnego
+  #Debian
+  apt-get install krb5-user msktutil libnginx-mod-http-auth-spnego
 
-For Debian
-
-.. code-block:: bash
-
-   apt-get install krb5-user msktutil libnginx-mod-http-auth-spnego
+  #CentOS
+  yum install krb5-workstation msktutil nginx-mod-http-auth-spnego
 
 .. note::
 
@@ -104,19 +100,15 @@ controller (eg: **srvads.mydomain.lan**).
 
 * apply the proper access rights to the :file:`http-krb5.keytab` file:
 
-  - on Debian:
+  .. code-block:: bash
 
-    .. code-block:: bash
+    #Debian
+    sudo chmod 640 /etc/nginx/http-krb5.keytab
+    sudo chown root:www-data /etc/nginx/http-krb5.keytab
 
-       sudo chmod 640 /etc/nginx/http-krb5.keytab
-       sudo chown root:www-data /etc/nginx/http-krb5.keytab
-
-  - on Centos:
-
-    .. code-block:: bash
-
-        sudo chown root:nginx /etc/nginx/http-krb5.keytab
-        sudo chmod 640 /etc/nginx/http-krb5.keytab
+    #CentOS
+    sudo chown root:nginx /etc/nginx/http-krb5.keytab
+    sudo chmod 640 /etc/nginx/http-krb5.keytab
 
 Post-configuring
 ^^^^^^^^^^^^^^^^
@@ -150,40 +142,37 @@ My WAPT server does not have access to a writeable Active Directory
 
 * add a :abbr:`SPN (Service Principal Name)` on the *srvwapt$* account;
 
-.. code-block:: bash
+  .. code-block:: bash
 
-   setspn -A HTTP/srvwapt.mydomain.lan srvwapt
+     setspn -A HTTP/srvwapt.mydomain.lan srvwapt
 
 * create a keytab for this WAPT server:
 
-.. code-block:: batch
+  .. code-block:: batch
 
-     ktpass -out C:\http-krb5.keytab -princ HTTP/srvwapt.mydomain.lan@MYDOMAIN.LAN rndpass -minpass 64 -crypto all -pType KRB5_NT_PRINCIPAL /mapuser srvwapt$@MYDOMAIN.LAN
-     Reset SRVWAPT$'s password [y/n]?  y
+       ktpass -out C:\http-krb5.keytab -princ HTTP/srvwapt.mydomain.lan@MYDOMAIN.LAN rndpass -minpass 64 -crypto all -pType KRB5_NT_PRINCIPAL /mapuser srvwapt$@MYDOMAIN.LAN
+       Reset SRVWAPT$'s password [y/n]?  y
 
-.. note::
+  .. note::
 
-     If the address of your wapt server is different from your domain active directory, replace HTTP/srvwapt.mydomain.lan@MYDOMAIN.LAN with HTTP/srvwapt.othername.com@MYDOMAIN.LAN
-
+       If the address of your WAPT server is different from your active directory
+       domain, replace *HTTP/srvwapt.mydomain.lan@MYDOMAIN.LAN* with
+       *HTTP/srvwapt.othername.com@MYDOMAIN.LAN*.
 
 * transfer this file to :file:`/etc/nginx/`
   (with :program:`winscp` for example);
 
 * apply the proper access rights to the :file:`http-krb5.keytab` file:
 
-  - on Debian:
+  .. code-block:: bash
 
-    .. code-block:: bash
+    #Debian
+    sudo chmod 640 /etc/nginx/http-krb5.keytab
+    sudo chown root:www-data /etc/nginx/http-krb5.keytab
 
-       sudo chmod 640 /etc/nginx/http-krb5.keytab
-       sudo chown root:www-data /etc/nginx/http-krb5.keytab
-
-  - on Centos:
-
-    .. code-block:: bash
-
-        sudo chown root:nginx /etc/nginx/http-krb5.keytab
-        sudo chmod 640 /etc/nginx/http-krb5.keytab
+    #CentOS
+    sudo chown root:nginx /etc/nginx/http-krb5.keytab
+    sudo chmod 640 /etc/nginx/http-krb5.keytab
 
 WAPT agent only have access to a RODC domain controller
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -205,9 +194,11 @@ If you have multiple Active Directory domains,
 you must create one :file:`keytab` per domain by following the procedure
 above, ex:
 
-* :file:`http-krb5-domain1.local.keytab`
-* :file:`http-krb5-domain2.local.keytab`
-* :file:`http-krb5-domain3.local.keytab`
+* :file:`http-krb5-domain1.local.keytab`;
+
+* :file:`http-krb5-domain2.local.keytab`;
+
+* :file:`http-krb5-domain3.local.keytab`;
 
 You will then have to merge all these :file:`keytabs`
 into a unique :file:`keytab`:

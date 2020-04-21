@@ -6,41 +6,44 @@
    Niveau 5: ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
-    :description: linux package
+    :description: Packaging simple Linux packages
     :keywords: linux, WAPT, package, documentation
 
 .. _linux_packaging:
 
-Simple linux package
-====================
+Packaging simple Linux packages
+===============================
 
-Before starting, we assume severaly conditions, here :
+Before starting, we assume several conditions:
 
-* you have a graphical interface on your linux.
-* you installed vscode package from our repo.
-* your user is named "youruser" and is part of sudoers
+* you have a graphical interface on your Linux system;
+
+* you have installed the :program:`vscode` package
+  from the Tranquil IT repository;
+
+* your user is named *linuxuser* and is a member of the *sudoers* group;
 
 create a base template from you linux computer
 ----------------------------------------------
 
 * start up a Command Line utility;
 
-* create a WAPT package template;
+* as *linuxuser*, create a WAPT package template;
 
   .. code-block:: bash
 
-    wapt-get make-template <nom_du_paquet>
+    wapt-get make-template <template_name>
 
   .. warning::
 
 	  Do not launch this command as root or with sudo.
 
+  When you create a template, there will be several files
+  in the folder :file:`.vscode` inside your package folder:
 
-  When you create a template, there will be several files in the folder :file:`.vscode` inside your package folder :
+  * settings.json;
 
-  * settings.json
-
-  * launch.json
+  * launch.json;
 
   Example with VLC:
 
@@ -50,13 +53,13 @@ create a base template from you linux computer
 
     Using config file: /opt/wapt/wapt-get.ini
     Template created. You can build the WAPT package by launching
-    /opt/wapt//wapt-get.py build-package /home/youruser/waptdev/tis-vlc-wapt
+    /opt/wapt//wapt-get.py build-package /home/linuxuser/waptdev/tis-vlc-wapt
     You can build and upload the WAPT package by launching
-    /opt/wapt//wapt-get.py build-upload /home/youruser/waptdev/tis-vlc-wapt
+    /opt/wapt//wapt-get.py build-upload /home/linuxuser/waptdev/tis-vlc-wapt
 
   .. hint::
 
-    All packages are stored in your user 's home.
+    All packages are stored in linuxuser's home.
 
  VSCode loads up and opens package project.
 
@@ -66,10 +69,10 @@ create a base template from you linux computer
 
     VSCode opening with focus on the *setup* file
 
-* check the *control* file content;
+* check the :file:`control` file content;
 
-  You have to give a **description** to you package, give the **os_target** and the
-  **version** of you package.
+  You have to give a **description** to you package, give the **os_target**
+  and the **version** of you package.
 
   .. hint::
 
@@ -77,7 +80,9 @@ create a base template from you linux computer
 
   .. warning::
 
-    *version* in you control file must start at 0, not version of the software, we don't know precisely from apt/yum repo which version will be.
+    *version* in you :file:`control` file must start at 0,
+    not the version number of the software, we don't know precisely
+    from apt/yum repo which version will be.
 
   Original *control* file
 
@@ -97,7 +102,6 @@ create a base template from you linux computer
     It allows the Package Developer to release several WAPT package versions
     of the same software.
 
-
 * make changes to the code in the :file:`setup.py` file accordingly;
 
   .. code-block:: python
@@ -116,7 +120,6 @@ create a base template from you linux computer
 Managing the uninstallation
 ---------------------------
 
-
 * make changes to the :file:`setup.py` file with an uninstall ;
 
  .. code-block:: python
@@ -124,19 +127,17 @@ Managing the uninstallation
    def uninstall():
    apt_remove('vlc')
 
-
 * launch a :guilabel:`remove` from VSCode :guilabel:`Run Configurations`;
 
   .. image:: remove_package-linux.png
     :align: center
     :alt: After uninstallation, the software is correctly removed
 
-  After uninstallation, the software is correctly removed
+* check that the software has been correctly removed
 
-  We can notice the correct uninstallation by launching
-  :command:`dpkg -l | grep vlc` command.
+ .. code-block:: bash
 
-
+    dpkg -l | grep vlc
 
 .. hint::
 
@@ -150,9 +151,10 @@ Managing the session-setup
 
 * make changes to the :file:`setup.py` file with an session-setup ;
 
-  In this example, you'll need a :file:`vlcrc` file in your package to copy in home user.
-  :guilabel:`ensure_dir` function and :guilabel:`filecopyto` is from **setuphelpers**,
-  first one will test if path exists, second one will copy your file from wapt package to its destination.
+  In this example, you'll need a :file:`vlcrc` file in your package
+  to copy in home user. ``ensure_dir`` function and ``filecopyto``
+  are from **setuphelpers**, the first one will test if the path exists,
+  the second one will copy your file from the WAPT package to its destination.
 
   .. code-block:: python
 
@@ -161,13 +163,11 @@ Managing the session-setup
       ensure_dir(vlcdir)
       filecopyto('vlcrc',vlcdir)
 
-
 * launch a :guilabel:`session-setup` from VSCode :guilabel:`Run Configurations`;
 
   .. image:: remove_package-linux.png
     :align: center
     :alt: After uninstallation, the software is correctly removed
-
 
 Build and upload the package
 ----------------------------
@@ -176,25 +176,31 @@ Once the installation and the de-installation are configured and tested
 and the package is customized to your satisfaction, you may build and upload
 your new WAPT package onto your WAPT repository.
 
-From a Linux environment, you have to get your :mimetype:`.pem` / :mimetype:`.crt` key on it with a :program:`WinSCP` or :program:`rsync`.
-Usually, this couple is in  :file:`C:\\private` on your windows computer which created private/public key.
-Then, give path of certificate in  :file:`/opt/wapt/wapt-get.ini` .
+If you have built packages on a different machine (ex: Windows
+for building your Windows WAPT packages), you have to copy your :mimetype:`.pem`
+and :mimetype:`.crt` keys on your Linux machine with :program:`WinSCP`
+or equivalent. Usually, this certificate bundle will be located
+in :file:`C:\\private` on your Windows computer.
+Then, provide the path to the certificates in :file:`/opt/wapt/wapt-get.ini`.
 
 .. code-block:: bash
 
   sudo vim /opt/wapt/wapt-get.ini
 
-Give path to your certificate :
+* provide the path to your certificate;
 
 .. code-block:: bash
 
   personnal_certificate_path=/opt/wapt/private/mykey.crt
 
-Then launch  a :guilabel:`build-upload` from VSCode :guilabel:`Run Configurations`
+* then launch a :command:`build-upload` from VSCode :guilabel:`Run Configurations`;
 
 .. image:: build_upload_package-linux.png
   :align: center
   :alt: When everything is ready, upload your package
 
-Give password of private key then admin/password of your ::guilabel:`waptconsole`.
-Your package is in your private repository on your WAPT server.
+* provide the password to your private key then admin/password
+  of your *waptconsole*;
+
+Your package is now uploaded and available in your private repository
+on your WAPT server.

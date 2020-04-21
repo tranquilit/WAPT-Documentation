@@ -32,8 +32,8 @@ Working principle
 
 User mode customization operates as follows:
 
-* the instructions are defined in :command:`session_setup()` function
-  of :file:`setup.py` file;
+* the instructions are defined in the :command:`session_setup()` function
+  of the :file:`setup.py` file;
 
 * when the package is deployed on the machine, instructions are stored
   in the local database of the WAPT agent;
@@ -44,7 +44,7 @@ User mode customization operates as follows:
 
 .. hint::
 
-  ``session_setup`` customization will occur only once per user per package;
+  The ``session_setup`` customization will occur only once per user per package;
   a shortcut created in that context is created only once
   and not at every startup. To execute a task at each startup, it is preferable
   to define a Windows scheduled task to be launched by a local :term:`GPO` or

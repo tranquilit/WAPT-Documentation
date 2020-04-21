@@ -254,7 +254,7 @@ wapt-get reset-uuid
 The :code:`wapt-get reset-uuid` command retrieves the host :term:`UUID`
 from BIOS and resends it to the WAPT inventory server.
 
-The command :code:`wapt-get wapt-get reset-uuid` returns:
+The command :code:`wapt-get reset-uuid` returns:
 
 .. code-block:: bash
 
