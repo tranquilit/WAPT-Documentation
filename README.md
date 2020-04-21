@@ -18,7 +18,21 @@ You must install documentation tools and requirements before doing anything :
 sudo sh ./install_requirements.sh
 ```
 
-Once installed, pre-commit checks (lint/syntax) are launched prior to committing your changes.
+Once installed, pre-commit checks (lint/syntax) are launched prior to committing your changes. To launch tests manually, you can run the following :
+
+```bash
+pre-commit run --all-files
+```
+
+This should (take a while because sphinx-build) return :
+
+```bash
+Trim Trailing Whitespace.................................................Passed
+Fix End of Files.........................................................Passed
+rst ``code`` is two backticks............................................Passed
+sphinx build.............................................................Passed
+```
+
 
 How to push documentation to public ?
 =====================================
