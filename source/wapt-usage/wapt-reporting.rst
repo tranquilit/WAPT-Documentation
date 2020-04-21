@@ -79,7 +79,17 @@ To edit / modify / save your reports:
    more effectively;
 
 Query examples
-++++++++++++++
+-------------------
+
+
+Computers query
+++++++++++++++++++++++
+
+* Number of hosts
+
+.. code-block:: sql
+
+  select count(*) as "Nb_Machines" from hosts
 
 * Computers list:
 
@@ -103,14 +113,141 @@ Query examples
 .. code-block:: sql
 
   select host_info->'windows_version' as windows_version,
-
   os_name as operating_system,
   count(os_name) as nb_hosts
   from hosts
   group by 1,2
 
+* Lists OS diversity
+
+.. code-block:: sql
+
+  select host_info->'windows_version' as windows_version,os_name as "Operating_System",count(os_name) as "Nb_Machines" from hosts group by 1,2
+
+* List hosts not seen in a while
+
+.. code-block:: sql
+
+  SELECT h.uuid,h.computer_fqdn,install_date::date,version,h.listening_timestamp::timestamp,h.connected_users from hostsoftwares s
+  left join hosts h on h.uuid=s.host_id
+  where
+  s.key='WAPT_is1'
+  and
+  h.listening_timestamp<'20190115'
+
+* Filter hosts by Chassis types
+
+.. code-block:: sql
+
+  select case
+  dmi->'Chassis_Information'->>'Type'
+   when 'Portable' then '01-Laptop'
+   when 'Notebook' then '01-Laptop'
+   when 'Laptop' then '01-Laptop'
+   when 'Desktop' then '02-Desktop'
+   when 'Tower' then '02-Desktop'
+   when 'Mini Tower' then '02-Desktop'
+   else '99-'||(dmi->'Chassis_Information'->>'Type')
+  end as type_chassis,
+  string_agg(distinct coalesce(manufacturer,'?') ||' '|| coalesce(productname,''),', '),
+  count(*) as "Nb_Machines" from hosts
+  group by 1
+
+* List hosts with their Windows Serial Key
+
+.. code-block:: sql
+
+  select computer_name,os_name,os_version,host_info->'windows_product_infos'->'product_key' as windows_product_key from hosts order by 3,1
+
+
+WAPT query
+++++++++++++++++++++++
+
+* List WAPT Packages in WAPT server repository
+
+.. code-block:: sql
+
+  select package,version,architecture,description,section,package_uuid,count(*)
+  from packages
+  group by 1,2,3,4,5,6
+
+* List hosts needing upgrade
+
+.. code-block:: sql
+
+  select
+  computer_fqdn, host_status, last_seen_on::date,h.wapt_status,string_agg(distinct lower(s.package),' ')
+  from hosts h
+  left join hostpackagesstatus s on s.host_id=h.uuid and s.install_status != 'OK'
+  where (last_seen_on::date > (current_timestamp - interval '1 week')::date and host_status!='OK')
+  group by 1,2,3,4
+
+
+Packages query
+++++++++++++++++++++++
+
+* List packages with their number of installation
+
+.. code-block:: sql
+
+  select package,version,architecture,description,section,package_uuid,count(*)
+  from hostpackagesstatus s
+  where section not in ('host','unit','group')
+  group by 1,2,3,4,5,6
+
+
+Software query
+++++++++++++++++++++++
+
+* WAPT Community agents
+
+.. code-block:: sql
+
+  select h.uuid,h.computer_name,install_date::date,version,h.listening_timestamp::timestamp,name from hostsoftwares s
+  left join hosts h on h.uuid=s.host_id
+  where
+  s.key='WAPT_is1'
+  AND (name ilike 'WAPT%%Community%%' OR name ilike 'WAPT %%')
+
+
+* List hosts with their 7zip version associated
+
+.. code-block:: sql
+
+  select hosts.computer_name,hostsoftwares.host_id,hostsoftwares.name,hostsoftwares.version
+  from hosts,hostsoftwares
+  where hostsoftwares.name ilike '7-zip%%' and hosts.uuid=hostsoftwares.host_id
+  order by hosts.computer_name ASC
+
+* List hosts with their softwares
+
+.. code-block:: sql
+
+  select
+  n.normalized_name,s.version,string_agg(distinct lower(h.computer_name),' '),count(distinct h.uuid)
+  from hostsoftwares s
+  left join normalization n on (n.original_name = s.name) and (n.key = s.key)
+  left join hosts h on h.uuid = s.host_id
+  where (n.normalized_name is not null) and (n.normalized_name<>'') and not n.windows_update and not n.banned and (last_seen_on::date > (current_timestamp - interval '3 week')::date)
+  group by 1,2
+
+
+* List normalized softwares
+
+.. code-block:: sql
+
+  select
+  n.normalized_name,string_agg(distinct lower(h.computer_name),' '),count(distinct h.uuid)
+  from hostsoftwares s
+  left join normalization n on (n.original_name = s.name) and (n.key = s.key)
+  left join hosts h on h.uuid = s.host_id
+  where (n.normalized_name is not null) and (n.normalized_name<>'') and not n.windows_update and not n.banned and (last_seen_on::date > (current_timestamp - interval '3 week')::date)
+  group by 1
+
+
 You can also find several more examples of queries
 on `Tranquil IT's Forum <https://forum.tranquil.it/viewforum.php?f=18&sid=b2a0081dd9a8adb5c57386974d691c6d>`_.
+
 Feel free to post your own queries on the same forum with an explanation
 of what your query does, ideally with a screen capture or a table showing
 a sample of your query result.

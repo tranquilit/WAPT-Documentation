@@ -150,11 +150,22 @@ WAPT support and training
   waptserver-update/index.rst
   waptserver-backup.rst
   wapt-replication/index.rst
+  wapt-security/secure-my-wapt-server.rst
+  wapt-use-cases/index.rst
+
+.. toctree::
+  :maxdepth: 1
+  :caption: Developping
+
   wapt-create-packages/index.rst
+  wapt-api/using_wapt_api.rst
+
+.. toctree::
+  :maxdepth: 1
+  :caption: Troubleshooting
+
   wapt-common-problems/common-problems.rst
   wapt-common-problems/common-mistakes.rst
-  wapt-security/secure-my-wapt-server.rst
-  wapt-api/using_wapt_api.rst
 
 .. toctree::
   :maxdepth: 1
@@ -162,6 +173,7 @@ WAPT support and training
 
   wapt-glossary.rst
   wapt-roadmap.rst
+  wapt-release-strategy.rst
   wapt-contribute/index.rst
   wapt-changelog.rst
   wapt-licence.rst
