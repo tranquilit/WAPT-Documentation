@@ -10,10 +10,13 @@ repos:
     rev: 2.0.0
     hooks:
     -   id: bashate
--   repo: https://github.com/PyCQA/bandit
-    rev: 1.6.2
+        entry: bashate --error . --verbose --ignore=E006,E040
+-   repo: https://github.com/Lucas-C/pre-commit-hooks-bandit
+    rev: v1.0.4
     hooks:
-    -   id: bandit
+    -   id: python-bandit-vulnerability-check
+        args: [-l, --recursive]
+        files: .py$
 -   repo: https://github.com/pre-commit/pygrep-hooks
     rev: v1.5.1
     hooks:

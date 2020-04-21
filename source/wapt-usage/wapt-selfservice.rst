@@ -162,6 +162,12 @@ You can create your own categories easily by filling the :file:`control`
 file's ``categories`` section of any WAPT package and write a new category
 of your choice, WAPT will automatically show the package in the new category.
 
+WAPT Agent Settings for WAPT Self-Service
+-----------------------------------------
+
+WAPT Agent can be configured to force WAPT SelfService packages filtering to local admins :ref:`waptself_ini_file`.
+
+
 Video demonstration
 -------------------
 

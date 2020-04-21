@@ -188,6 +188,18 @@ Options                          Description
 ``hiberboot_enabled`` = 0        Disables Hiberboot on Windows 10 to make ``waptexit`` work correctly
 ================================ ====================================================================
 
+.. _waptself_ini_file:
+
+Settings for WAPT Self-Service
+------------------------------
+
+===================================== ====================================================================
+Options                               Description
+===================================== ====================================================================
+``waptservice_admin_filter`` = True   Apply Self-Service package view filtering for local admins
+===================================== ====================================================================
+
+
 Settings for wapttray
 ---------------------
 
