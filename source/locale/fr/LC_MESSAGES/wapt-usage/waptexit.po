@@ -121,7 +121,7 @@ msgid ""
 msgstr ""
 "Vous pouvez adapter la procédure décrivant comment déployer l'agent WAPT "
 "pour :ref:`déclencher le script WAPTexit.exe au moment de votre choix "
-"<déployer_waptagent_avec_GPO>`."
+"<deploy_waptagent_with_GPO>`."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:73
 msgid ""
@@ -142,11 +142,9 @@ msgstr ""
 "Tous les logiciels en cours d'exécution qui sont mis à jour peuvent être "
 "terminés avec une perte possible de données. WAPTexit peut ne pas réussir à "
 "mettre à jour un logiciel si un logiciel que vous mettez à jour se trouve "
-"dans la liste ``impacted_process`` du fichier :file:`control\" d'un des "
+"dans la liste ``impacted_process`` du fichier :file:`control` d'un des "
 "logiciels que vous essayez de mettre à jour. Voir :ref:`below "
 "<impacted_process>` pour plus d'informations.\n"
-"\n"
-"Traduit avec www.DeepL.com/Translator (version gratuite)"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/waptexit.rst:90
 msgid ""

@@ -84,3 +84,48 @@ must be in **unit** bundle.
   Adding package to unit bundle.
 
 Save the package and it will be uploaded to the WAPT server.
+
+
+Faking organizational unit for WORKGROUP hosts
+-----------------------------------------------------
+
+It can happend that some specific hosts cannot be joined to Active Directory.
+
+With that specificity, they doesn't show up in your Active Directory organizational units in WAPT Console.
+
+To circumvent that, WAPT allow you to specify a fake organizational unit in WAPT agent configuration.
+
+The benefits of it are :
+
+* Better management of these specific hosts
+* Out-of-Domain / Workgroup hosts now showing up in AD tree view
+* Organizational Units Packages are usable on those hosts
+
+To setup a fake organisational unit on hosts, create an empty WAPT package
+
+.. code-block:: bash
+
+  wapt-get make-template demo-configure-fake-ou
+
+
+Then use the following code :
+
+.. code-block:: python
+
+  # -*- coding: utf-8 -*-
+  from setuphelpers import *
+
+  uninstallkey = []
+
+  def install():
+
+    print('Setting Fake Organizational Unit')
+    fake_ou = "OU=TOTO,OU=TEST,DC=DEMO,DC=LAN"
+    inifile_writestring(WAPT.config_filename,'global','host_organizational_unit_dn',fake_ou)
+
+The ``host_organizational_unit_dn`` must be like so in ``wapt-get.ini`` :
+
+.. code-block:: ini
+
+  [global]
+  host_organizational_unit_dn="OU=TOTO,OU=TEST,DC=DEMO,DC=LAN"

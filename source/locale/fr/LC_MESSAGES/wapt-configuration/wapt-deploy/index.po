@@ -562,7 +562,7 @@ msgid ""
 "Parameters and :program:`waptagent.exe` checksum to use for the *waptdeploy* "
 "GPO are available on the WAPT Server by visiting https://wapt.mydomain.lan."
 msgstr ""
-"Les paramètres complets à utiliser for the *waptdeploy*ainsi que le checksum "
+"Les paramètres complets à utiliser for the *waptdeploy* ainsi que le checksum "
 "du :program:`waptagent.exe` sont désormais disponibles sur la page d'accueil du "
 "serveur WAPT local à l'adresse https://srvwapt.mydomain.lan/."
 

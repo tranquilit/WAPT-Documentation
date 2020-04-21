@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 13:16+0100\n"
+"POT-Creation-Date: 2020-04-21 22:42+0200\n"
 "PO-Revision-Date: 2020-03-26 12:58+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language-Team: French <https://srvweblate.tranquil.it/projects/wapt-"
@@ -12,31 +12,29 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
-"Language: fr\n"
-"X-Generator: Poedit 2.0.6\n"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:8
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:15
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:8
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:15
 msgid "Setting up the GNU/Linux Debian server"
 msgstr "Préparer le serveur Debian"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:8
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:8
 msgid "Debian, WAPT, installer, documentation"
 msgstr "Debian, WAPT, installer, documentation"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:17
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:17
 msgid ""
 "In order to install a fresh Debian Linux 10 *Buster* (physical or "
-"virtual) without graphical interface, please refer to the `Debian GNU/"
-"Linux Installation Guide <https://www.debian.org/releases/buster/amd64/"
-">`_."
+"virtual) without graphical interface, please refer to the `Debian "
+"GNU/Linux Installation Guide "
+"<https://www.debian.org/releases/buster/amd64/>`_."
 msgstr ""
 "Pour installer une Linux Debian 10 *Buster* neuve (machine physique ou "
 "virtuelle) sans interface graphique, référez vous à la documentation "
-"officielle : `Debian GNU/Linux Installation Guide <https://www.debian."
-"org/releases/buster/amd64/>`_."
+"officielle : `Debian GNU/Linux Installation Guide "
+"<https://www.debian.org/releases/buster/amd64/>`_."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:24
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:24
 msgid "Configuring network parameters"
 msgstr "Configurer les paramètres réseau"
 
@@ -45,16 +43,16 @@ msgid ""
 "The different parameters presented below are not specific to WAPT; you "
 "may adapt them as required for your environment."
 msgstr ""
-"Les différents paramétrages préconisés ci-dessous ne sont pas "
-"spécifiques à WAPT ; vous devrez les adapter à votre environnement."
+"Les différents paramétrages préconisés ci-dessous ne sont pas spécifiques"
+" à WAPT ; vous devrez les adapter à votre environnement."
 
 #: source/wapt-common-resources/linux-server-naming.rst:11
 msgid ""
-"Modify the following files in order to get a proper naming (:term:"
-"`FQDN`) and network addressing strategy."
+"Modify the following files in order to get a proper naming (:term:`FQDN`)"
+" and network addressing strategy."
 msgstr ""
-"Modifier les fichiers suivant afin d'obtenir une configuration de "
-"nommage (:term:`FQDN`) et réseau correcte (adressage IP fixe)."
+"Modifier les fichiers suivant afin d'obtenir une configuration de nommage"
+" (:term:`FQDN`) et réseau correcte (adressage IP fixe)."
 
 #: source/wapt-common-resources/linux-server-naming.rst:14
 msgid "In the following example:"
@@ -76,89 +74,88 @@ msgstr "le suffixe :term:`DNS` est *mydomain.lan* ;"
 msgid "the IP address is *10.0.0.10/24*;"
 msgstr "l'adresse IP est *10.0.0.10/24* ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:29
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:29
 msgid "Configuring the name of WAPT Server"
 msgstr "Configurer le nom du serveur"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:33
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:33
 msgid ""
 "The short name of the WAPT Server must not be longer than 15 characters "
 "(the limit is due to sAMAccountName restriction in Active Directory)."
 msgstr ""
-"Le nom du serveur WAPT ne doit pas dépasser 15 caractères (limite liée "
-"au sAMAccountName dans Active Directory)."
+"Le nom du serveur WAPT ne doit pas dépasser 15 caractères (limite liée au"
+" sAMAccountName dans Active Directory)."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:37
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:37
 msgid ""
-"The name of the WAPT Server must be a :abbr:`FQDN (Fully Qualified "
-"Domain Name)`, that is to say it has both the server name and the DNS "
-"suffix."
+"The name of the WAPT Server must be a :abbr:`FQDN (Fully Qualified Domain"
+" Name)`, that is to say it has both the server name and the DNS suffix."
 msgstr ""
 "Le nom du serveur doit être un nom :abbr:`FQDN (Fully Qualified Domain "
 "Name)`, c'est à dire à la fois le nom de machine et le suffixe DNS."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:40
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:40
 msgid ""
 "modify the :file:`/etc/hostname` file and write the :term:`FQDN` of the "
 "server;"
 msgstr ""
-"modifier le fichier :file:`/etc/hostname` et y renseigner le nom :term:"
-"`FQDN` du serveur ;"
+"modifier le fichier :file:`/etc/hostname` et y renseigner le nom "
+":term:`FQDN` du serveur ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:47
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:47
 msgid ""
-"configure the :file:`/etc/hosts` file, be sure to put both the :term:"
-"`FQDN` and the short name of the server;"
+"configure the :file:`/etc/hosts` file, be sure to put both the "
+":term:`FQDN` and the short name of the server;"
 msgstr ""
 "dans :file:`/etc/hosts`, renseigner le nom :term:`FQDN` et le nom court "
 "du serveur ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:59
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:59
 msgid ""
-"on the line defining the DNS server IP address, be sure to have the IP "
-"of the server (not 127.0.0.1), then the :term:`FQDN`, then the short "
-"name;"
+"on the line defining the DNS server IP address, be sure to have the IP of"
+" the server (not 127.0.0.1), then the :term:`FQDN`, then the short name;"
 msgstr ""
 "sur la ligne correspondant à l'adresse IP du serveur WAPT mettre d'abord "
 "le nom :term:`FQDN`, puis le nom court ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:62
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:62
 msgid "do not change the line with :file:`localhost`;"
 msgstr "ne pas modifier les lignes contenant le terme ``localhost`` ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:66
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:66
 msgid "Configuring the IP address of the WAPT Server"
 msgstr "Configurer l'adresse IP du serveur WAPT"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:68
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:68
 msgid ""
-"configure the IP address of the WAPT Server in the :file:`/etc/network/"
-"interfaces`;"
+"configure the IP address of the WAPT Server in the "
+":file:`/etc/network/interfaces`;"
 msgstr ""
-"configurer les paramètres réseau du serveur WAPT dans le fichier :file:`/"
-"etc/network/interfaces` ;"
+"configurer les paramètres réseau du serveur WAPT dans le fichier "
+":file:`/etc/network/interfaces` ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:80
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:80
 msgid ""
-"apply the network configuration by rebooting the machine with a :code:"
-"`reboot`;"
+"apply the network configuration by rebooting the machine with a "
+":code:`reboot`;"
 msgstr ""
-"appliquer la configuration réseau en redémarrant la machine avec un :"
-"code:`reboot` ;"
+"appliquer la configuration réseau en redémarrant la machine avec un "
+":code:`reboot` ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:83
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:83
+#, fuzzy
 msgid ""
-"if it has not already been done, create the DNS entry for the WAPT "
-"Server in the :term:`Organization`'s Active Directory;"
+"if it has not already been done, create the DNS entry for the WAPT Server"
+" in the :term:`Organization`'s Active Directory;"
 msgstr ""
 "si ce n'est pas déjà fait, :ref:`créer l'entrée DNS du serveur dans "
-"l'Active Directory <srv_dns>` de l':term:`Organisation` ;"
+"l'Active Directory <srv_dns>` de l'Organization;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:86
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:86
 msgid ":ref:`srv_dns`"
 msgstr ":ref:`srv_dns`"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:88
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:88
 msgid ""
 "after reboot, configure the system language in English in order to have "
 "non-localized logs for easier searching of common errors;"
@@ -166,31 +163,31 @@ msgstr ""
 "après le redémarrage, configurer la langue du système en anglais afin de "
 "faciliter la recherche de problèmes dans les logs ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:97
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:97
 msgid "check that the machine clock is on time (with NTP installed);"
 msgstr "vérifier que la machine est à l'heure (avec NTP installé) ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:107
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:107
 msgid "If the NTP package is not installed."
 msgstr "Si le paquet NTP n'est pas installé."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:115
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:115
 msgid "update and upgrade your Debian;"
 msgstr "mettre à jour Debian ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:122
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:122
 msgid "install systemd;"
 msgstr "installer systemd ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:128
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:128
 msgid "install certificates;"
 msgstr "installer les certificats ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:134
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:134
 msgid "restart server;"
 msgstr "redémarrer la machine ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:140
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:140
 msgid ""
 "You may no go on to the next step and :ref:`install WAPT on your Debian "
 "<install_wapt_debian>`."

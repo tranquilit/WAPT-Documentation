@@ -160,9 +160,9 @@ msgid ""
 "<create_WAPT_agent>`."
 msgstr ""
 "Si aucun paquet n'a été importé, cette liste sera vide. Seul le paquet *test-"
-"waptupgrade* sera présent :ref:`si l'agent WAPT a été généré précédemment "
-"<create_WAPT_agent>`. Consultez la documentation pour :ref:`créer un agent "
-"WAPT <créer_WAPT_agent>`."
+"waptupgrade* sera présent si l'agent WAPT a été généré précédemment. "
+"Consultez la documentation pour :ref:`créer un agent "
+"WAPT <create_WAPT_agent>`."
 
 #: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:102
 msgid "Two options are available to import packages:"

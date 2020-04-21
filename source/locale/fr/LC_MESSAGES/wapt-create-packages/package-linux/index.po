@@ -42,7 +42,7 @@ msgid ""
 "you have installed the :program:`vscode` package from the Tranquil IT "
 "repository;"
 msgstr ""
-"vous avez installé le paquet :program:`vscode`depuis les dépôts officiels de "
+"vous avez installé le paquet :program:`vscode` depuis les dépôts officiels de "
 "Tranquil IT ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-linux/index.rst:24

@@ -122,8 +122,8 @@ msgid ""
 "consider migrating your existing WAPT installation to :ref:`Debian Buster or "
 "CentOS7 <upgrade-waptserver-os>`;"
 msgstr ""
-"envisagez de migrer votre installation WAPT existante vers ref:`Debian "
-"Buster ou CentOS7 <upgrade-waptserver-os>` ;"
+"envisagez de migrer votre installation WAPT existante vers :ref:`Debian "
+"Buster ou CentOS7 <upgrade-waptserver-os>`;"
 
 #: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/index.rst:64
 msgid "Upgrading WAPT from 1.5 to 1.6"
