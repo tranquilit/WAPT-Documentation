@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-05 18:00+0100\n"
+"POT-Creation-Date: 2020-04-21 10:11+0200\n"
 "PO-Revision-Date: 2020-02-18 11:37+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language: fr\n"
@@ -16,28 +16,28 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.8.0\n"
 
-#: ../../source/wapt-security/security-configuration-certificate-authentication.rst:8
-#: ../../source/wapt-security/security-configuration-certificate-authentication.rst:17
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-configuration-certificate-authentication.rst:8
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-configuration-certificate-authentication.rst:17
 msgid "Configuring Client-Side Certificate Authentication"
 msgstr "Configurer l'authentification par Certificat sur le Client"
 
-#: ../../source/wapt-security/security-configuration-certificate-authentication.rst:8
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-configuration-certificate-authentication.rst:8
 msgid "certificat, WAPT, SSL / TLS, Certificate Authority, documentation"
 msgstr "certificat, WAPT, SSL / TLS, Certificat d'Authorité, documentation"
 
-#: ../../source/wapt-security/security-configuration-certificate-authentication.rst:19
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-configuration-certificate-authentication.rst:19
 msgid "Enterprise"
 msgstr "Enterprise"
 
-#: ../../source/wapt-security/security-configuration-certificate-authentication.rst:23
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-configuration-certificate-authentication.rst:23
 msgid "This feature is only available with WAPT **Enterprise**."
 msgstr ""
 "Cette fonctionnalité n'est disponible qu'en version **Enterprise** de "
 "WAPT."
 
-#: ../../source/wapt-security/security-configuration-certificate-authentication.rst:25
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-configuration-certificate-authentication.rst:25
 msgid ""
 "If your business needs a public WAPT server on Internet, it can be "
 "secured with **Client-Side Certificate Authentication**."
@@ -46,7 +46,7 @@ msgstr ""
 "peut être securisé grâce à l'**authentification par Certificat sur le "
 "Client**."
 
-#: ../../source/wapt-security/security-configuration-certificate-authentication.rst:28
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-configuration-certificate-authentication.rst:28
 msgid ""
 "That configuration restricts the visibility of the WAPT Server to "
 "registered clients only. It is done by relying on the WAPT agent's "
@@ -56,7 +56,7 @@ msgstr ""
 "enregistrés uniquement. Cela se base sur la clé privée de l'agent généré "
 "lors de son enregistrement. Il marche comme ce qui suit:"
 
-#: ../../source/wapt-security/security-configuration-certificate-authentication.rst:32
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-configuration-certificate-authentication.rst:32
 msgid ""
 "the WAPT agent sends a :abbr:`CSR (Certificate Signing Request)` to the "
 "WAPT server which the WAPT server signs and sends back to WAPT agent;"
@@ -64,7 +64,7 @@ msgstr ""
 "l'agent WAPT envoie un :abbr:`CSR (Certificate Signing Request)` au "
 "serveur WAPT que ce dernier va signer et renvoyer à l'agent WAPT;"
 
-#: ../../source/wapt-security/security-configuration-certificate-authentication.rst:35
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-configuration-certificate-authentication.rst:35
 msgid ""
 "using the signed certificate, the agent can access protected parts of the"
 " :program:`Nginx` web server;"
@@ -72,7 +72,7 @@ msgstr ""
 "en utilisant le certificat signé, l'agent peut accéder à l'arborescence "
 "protégée du serveur web :program:`Nginx`;"
 
-#: ../../source/wapt-security/security-configuration-certificate-authentication.rst:40
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-configuration-certificate-authentication.rst:40
 msgid ""
 "We advise you to enable Kerberos or login / password registration in WAPT"
 " Server post-configuration."
@@ -80,26 +80,27 @@ msgstr ""
 "Nous vous recommandons d'activer Kerberos ou bien l'enregistrement par "
 "identifiant / mot de passe dans le post-configuration du serveur WAPT."
 
-#: ../../source/wapt-security/security-configuration-certificate-authentication.rst:44
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-configuration-certificate-authentication.rst:44
 msgid "Enabling Client-Side Certificate Authentication"
 msgstr "Activer l'authentification par Certificat sur le Client"
 
-#: ../../source/wapt-security/security-configuration-certificate-authentication.rst:46
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-configuration-certificate-authentication.rst:46
+#, fuzzy
 msgid ""
 "be sure to unset the custom headers relative to client side "
 "authentication results when requests are proxied without being checked by"
-" nginx ssl module. These headers are trusted by the waptserver if `X-Ssl-"
-"Authenticated` is SUCCESS and :file:`waptserver.ini` parameter "
+" nginx ssl module. These headers are trusted by the waptserver if ``X"
+"-Ssl-Authenticated`` is SUCCESS and :file:`waptserver.ini` parameter "
 "``use_ssl_client_auth`` is set to **True**:"
 msgstr ""
 "assurez-vous de désactiver les en-têtes personnalisées relatives aux "
 "résultats de l'authentification côté client lorsque les demandes sont "
-"passées au proxy sans être vérifiées par le module ssl de nginx. Ces "
-"en-têtes sont jugées fiables par le waptserver si `X-Ssl-Authenticated` "
-"est marqué *SUCCESS* et que le paramètre :file:`waptserver.ini` "
+"passées au proxy sans être vérifiées par le module ssl de nginx. Ces en-"
+"têtes sont jugées fiables par le waptserver si `X-Ssl-Authenticated` est "
+"marqué *SUCCESS* et que le paramètre :file:`waptserver.ini` "
 "``use_ssl_client_auth`` est réglé sur **True** :"
 
-#: ../../source/wapt-security/security-configuration-certificate-authentication.rst:59
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-configuration-certificate-authentication.rst:59
 msgid ""
 "add a :program:`Nginx` configuration file :file:`/etc/nginx/certificate-"
 "auth.conf`. This file is used to restrict access to specific actions with"
@@ -109,11 +110,11 @@ msgstr ""
 ":file:`/etc/nginx/certificate-auth.conf`. Ce fichier est utilisé pour "
 "restreindre l'accès aux actions propres au Certificat d'Authentification:"
 
-#: ../../source/wapt-security/security-configuration-certificate-authentication.rst:71
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-configuration-certificate-authentication.rst:71
 msgid "Example config file:"
 msgstr "Exemple d'un fichier de configuration:"
 
-#: ../../source/wapt-security/security-configuration-certificate-authentication.rst:168
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-configuration-certificate-authentication.rst:168
 msgid ""
 "Be careful, as of |date|, WAPT does not support :abbr:`CRL (Certificate "
 "Revocation Lists)`, which means that when you delete a machine in the "
@@ -123,3 +124,4 @@ msgstr ""
 "(Certificate Revocation Lists)`, ce qui signifie que lorsque vous "
 "supprimez une machine dans la console WAPT, la machine pourra toujours "
 "accéder au répertoire WAPT."
+

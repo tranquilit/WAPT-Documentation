@@ -1,0 +1,267 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Tranquil IT
+# This file is distributed under the same license as the WAPT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WAPT 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-21 10:11+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:8
+msgid "linux package"
+msgstr "Paquet linux"
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:8
+msgid "linux, WAPT, package, documentation"
+msgstr "linux, WAPT, paquet, documentation"
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:15
+msgid "Simple linux package"
+msgstr "Packager des paquets Linux simplifiés"
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:17
+msgid "Before starting, we assume severaly conditions, here :"
+msgstr "Avant de commencer, nous partons de plusieurs suppositions :"
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:19
+msgid "you have a graphical interface on your linux."
+msgstr "vous avez une interface graphique sur votre linux."
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:20
+msgid "you installed vscode package from our repo."
+msgstr "vous avez installé le paquet vscode depuis nos dépôts."
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:21
+msgid "your user is named \"youruser\" and is part of sudoers"
+msgstr "votre utilisateur se nomme \"youruser\" et fait parti des sudoers"
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:24
+msgid "create a base template from you linux computer"
+msgstr "Crer un  modèle de paquet depuis votre poste linux"
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:26
+msgid "start up a Command Line utility;"
+msgstr "ouvrir une invite de commande;"
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:28
+msgid "create a WAPT package template;"
+msgstr "créer un modèle de paquet WAPT;"
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:36
+msgid "Do not launch this command as root or with sudo."
+msgstr "Ne pas lancer cette commande en tant que root ou avec sudo."
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:39
+msgid ""
+"When you create a template, there will be several files in the folder "
+":file:`.vscode` inside your package folder :"
+msgstr "Lorsque vous créez un modèle, plusieurs fichiers seront dans le dossier"
+" :file:`.vscode` à l'intérieur de votre dossier de paquet :"
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:41
+msgid "settings.json"
+msgstr "settings.json"
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:43
+msgid "launch.json"
+msgstr "launch.json"
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:45
+msgid "Example with VLC:"
+msgstr "Exemple avec VLC:"
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:59
+msgid "All packages are stored in your user 's home."
+msgstr "Tous les paquets sont situés dans le dossier personnel de votre utilisateur."
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:61
+msgid "VSCode loads up and opens package project."
+msgstr "VSCode charge et s'ouvre sur le projet du paquet."
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:67
+msgid "VSCode opening with focus on the *setup* file"
+msgstr "VSCode s'ouvre en se focalisant sur le fichier *setup*"
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:69
+msgid "check the *control* file content;"
+msgstr "vérifier le contenu du fichier *control*;"
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:71
+msgid ""
+"You have to give a **description** to you package, give the **os_target**"
+" and the **version** of you package."
+msgstr ""
+"Vous devez donner une **description** à votre paquet, renseignez l' **os_target**"
+" et la **version** de votre paquet."
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:76
+msgid "**os_target** for unix is *linux*"
+msgstr "**os_target** pour unix est *linux*"
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:80
+msgid ""
+"*version* in you control file must start at 0, not version of the "
+"software, we don't know precisely from apt/yum repo which version will "
+"be."
+msgstr ""
+"*version* dans votre fichier control doit commencer à 0 et non pas la version du "
+"logiciel, nous ne savons pas précisément quelle version sera prise depuis les dépôts "
+" apt/yum."
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:82
+msgid "Original *control* file"
+msgstr "Fichier *control* original"
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:87
+msgid "Modified *control* file"
+msgstr "Fichier *control* modifié"
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:94
+msgid ""
+"It is to be noted that a sub-version *-1* has been added. It is the "
+"packaging version of WAPT package."
+msgstr ""
+"Une sous-version *-1* a été ajoutée. C'est la version de packaging du "
+"paquet WAPT."
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:97
+msgid ""
+"It allows the Package Developer to release several WAPT package versions "
+"of the same software."
+msgstr ""
+"Cela permet de ne pas modifier la version réelle du logiciel quand on "
+"pousse par exemple une nouvelle configuration du même logiciel sur le "
+"parc."
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:101
+msgid "make changes to the code in the :file:`setup.py` file accordingly;"
+msgstr "changer le code du fichier :file:`setup.py` en conséquence ;"
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:114
+msgid "save the package;"
+msgstr "enregistrer le paquet ;"
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:117
+msgid "Managing the uninstallation"
+msgstr "Gérer la désinstallation"
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:120
+msgid "make changes to the :file:`setup.py` file with an uninstall ;"
+msgstr "changer le code du fichier :file:`setup.py` avec une desinstallation ;"
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:128
+msgid "launch a :guilabel:`remove` from VSCode :guilabel:`Run Configurations`;"
+msgstr "lancer un :guilabel:`remove` du paquet depuis le panneau :guilabel:`Run "
+"Configurations` de VSCode ;"
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:134
+msgid "After uninstallation, the software is correctly removed"
+msgstr "À l'issue de la désinstallation, le programme est désinstallé."
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:136
+msgid ""
+"We can notice the correct uninstallation by launching :command:`dpkg -l |"
+" grep vlc` command."
+msgstr ""
+"Nous pouvons vérifier la bonne désinstallation en lançant la commande :command:`dpkg -l |"
+" grep vlc` ."
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:143
+msgid ""
+"In the :command:`uninstall()` function, it is not possible to call for "
+"files included inside the WAPT package. To call files from the package, "
+"it is necessary to copy/ paste the files in a temporary directory during "
+"package installation."
+msgstr ""
+"Dans la fonction :command:`uninstall()`, on ne peut pas appeler des "
+"fichiers contenus dans le paquet WAPT. Pour les appeler, il faudra avoir "
+"copié les fichiers dans un répertoire local de la machine lors de "
+"l'installation du paquet."
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:149
+msgid "Managing the session-setup"
+msgstr "Gérer le session-setup"
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:151
+msgid "make changes to the :file:`setup.py` file with an session-setup ;"
+msgstr "changer le code du fichier :file:`setup.py` avec un session-setup ;"
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:153
+msgid ""
+"In this example, you'll need a :file:`vlcrc` file in your package to copy"
+" in home user. :guilabel:`ensure_dir` function and :guilabel:`filecopyto`"
+" is from **setuphelpers**, first one will test if path exists, second one"
+" will copy your file from wapt package to its destination."
+msgstr ""
+"Dans cet exemple, vous aurez besoin d'un fichier :file:`vlcrc` dans votre paquet"
+"qui se copiera dans votre dossier personnel. La fonction :guilabel:`ensure_dir` "
+"et la fonction :guilabel:`filecopyto` viennent du **setuphelpers**, le premier va "
+"tester si chemin existe, le second va copier votre fichier depuis le paquet wapt vers "
+"sa destination."
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:165
+msgid ""
+"launch a :guilabel:`session-setup` from VSCode :guilabel:`Run "
+"Configurations`;"
+msgstr "lancer un :guilabel:`session-setup` du paquet depuis le panneau :guilabel:`Run "
+"Configurations` de VSCode ;"
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:173
+msgid "Build and upload the package"
+msgstr "Construire et charger le paquet WAPT"
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:175
+msgid ""
+"Once the installation and the de-installation are configured and tested "
+"and the package is customized to your satisfaction, you may build and "
+"upload your new WAPT package onto your WAPT repository."
+msgstr ""
+"Une fois l'installation et la désinstallation configurées et testées vous"
+" pouvez effectuer un :command:`build-upload` pour charger votre nouveau "
+"paquet WAPT sur votre dépôt."
+
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:179
+msgid ""
+"From a Linux environment, you have to get your :mimetype:`.pem` / "
+":mimetype:`.crt` key on it with a :program:`WinSCP` or :program:`rsync`. "
+"Usually, this couple is in  :file:`C:\\\\private` on your windows "
+"computer which created private/public key. Then, give path of certificate"
+" in  :file:`/opt/wapt/wapt-get.ini` ."
+msgstr ""
+"Depuis un environement Linux, vous devez récupérer vos clés :mimetype:`.pem` / :mimetype:`.crt` "
+"sur votre machine avec un :program:`WinSCP` ou un :program:`rsync`. D'habitude, ce couple est dans "
+":file:`C:\\\\private` sur votre ordinateur windows qui a créé les clés privé/publique. Enfin, renseigner "
+"le chemin du certificat dans :file:`/opt/wapt/wapt-get.ini` . "
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:187
+msgid "Give path to your certificate :"
+msgstr "Donner le chemin de votre certificat :"
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:193
+msgid ""
+"Then launch  a :guilabel:`build-upload` from VSCode :guilabel:`Run "
+"Configurations`"
+msgstr ""
+"Puis lancer un :guilabel:`build-upload` depuis le panneau VSCode :guilabel:`Run "
+"Configurations`"
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-create-packages/package-linux/index.rst:199
+msgid ""
+"Give password of private key then admin/password of your "
+"::guilabel:`waptconsole`. Your package is in your private repository on "
+"your WAPT server."
+msgstr ""
+"Renseigner le mot de passe de la clé privée puis les crédentiaux admin/mot de passe "
+"de votre :guilabel:`waptconsole`. Votre paquet est dans le dépôt privé de votre serveur "
+"WAPT."

@@ -7,25 +7,25 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.7\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-17 14:55+0100\n"
+"POT-Creation-Date: 2020-04-21 10:11+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.8.0\n"
 
-#: ../../source/wapt-security/security-install-kerberos.rst:8
-#: ../../source/wapt-security/security-install-kerberos.rst:16
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:8
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:16
 msgid "Configuring Kerberos authentication"
 msgstr "Configurer l'authentification par Kerberos"
 
-#: ../../source/wapt-security/security-install-kerberos.rst:8
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:8
 msgid "Kerberos, authentication, Debian, WAPT, documentation, RedHat, CentOS"
 msgstr "Kerberos, authentification, Debian, WAPT, documentation, RedHat, CentOS"
 
-#: ../../source/wapt-security/security-install-kerberos.rst:20
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:20
 msgid ""
 "without Kerberos authentication, you have to either trust initial "
 "registration or enter a password for each workstation on initial "
@@ -35,7 +35,7 @@ msgstr ""
 "lors de l'enregistrement initial ou bien entrer un mot de passe pour "
 "chaque poste lors de l'enregistrement;"
 
-#: ../../source/wapt-security/security-install-kerberos.rst:24
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:24
 msgid ""
 "for more information, visit the documentation on :ref:`registering a "
 "machine with the WAPT Server <initial_machine_registration>` and "
@@ -45,29 +45,29 @@ msgstr ""
 " machine sur le serveur WAPT <initial_machine_registration>` et "
 ":ref:`signer les mises à jour d'inventaire <signing_inventory_updates>`;"
 
-#: ../../source/wapt-security/security-install-kerberos.rst:28
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:28
 msgid "the Kerberos authentication will be used only when registering the device;"
 msgstr ""
 "l'authentification par Kerberos ne sera uniquement utilisé que lors de "
 "l'enregistrement de l'appareil;"
 
-#: ../../source/wapt-security/security-install-kerberos.rst:31
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:31
 msgid "Installing the Kerberos components and configuring krb5.conf file"
 msgstr "Installer les composants pour Kerberos et configurer le fichier krb5.conf"
 
-#: ../../source/wapt-security/security-install-kerberos.rst:33
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:33
 msgid "For centos"
 msgstr "Sous centos"
 
-#: ../../source/wapt-security/security-install-kerberos.rst:39
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:39
 msgid "For Debian"
 msgstr "Sous Debian"
 
-#: ../../source/wapt-security/security-install-kerberos.rst:47
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:47
 msgid "The feature is not available with a WAPT Windows server"
 msgstr "Cette fonctionnalité n'est pas disponible avec un serveur WAPT Windows"
 
-#: ../../source/wapt-security/security-install-kerberos.rst:49
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:49
 msgid ""
 "Modify the :file:`/etc/krb5.conf` file and **replace all the content with"
 " the following 4 lines** replacing **MYDOMAIN.LAN** with your Active "
@@ -77,11 +77,13 @@ msgstr ""
 " par les 4 lignes suivantes** en remplaçant **MYDOMAIN.LAN** par votre "
 "nom de domaine Active Directory (i.e. *<MYDOMAIN.LAN>*)."
 
-#: ../../source/wapt-security/security-install-kerberos.rst:55
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:55
 msgid "``default_realm`` must be written with **ALL CAPS**!!"
-msgstr "Le ``default_realm`` doit absolument être écrit en **lettres MAJUSCULES** !!"
+msgstr ""
+"Le ``default_realm`` doit absolument être écrit en **lettres MAJUSCULES**"
+" !!"
 
-#: ../../source/wapt-security/security-install-kerberos.rst:64
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:64
 msgid ""
 "Retrieving a service keytab. Use the :`command:`kinit` and "
 ":command:`klist`. You can use an :term:`Administrator` account or any "
@@ -94,7 +96,7 @@ msgstr ""
 "joindre un poste au domaine dans la bonne OU de destination (par défaut "
 "*CN=Computers*)."
 
-#: ../../source/wapt-security/security-install-kerberos.rst:69
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:69
 msgid ""
 "In the shell transcript below, commands are in black and returned text is"
 " commented in light gray:"
@@ -102,7 +104,7 @@ msgstr ""
 "Dans le shell retranscrit ci-dessous, les commandes sont en noir et le "
 "texte retouné est commenté en gris clair:"
 
-#: ../../source/wapt-security/security-install-kerberos.rst:85
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:85
 msgid ""
 "If the authentication request is successful, you can then create your "
 "HTTP Keytab with the :program:`msktutil` command."
@@ -110,7 +112,7 @@ msgstr ""
 "Si la requête d'authentification est réussie, vous pouvez créer votre "
 "HTTP Keytab avec la commande :program:`msktutil`."
 
-#: ../../source/wapt-security/security-install-kerberos.rst:88
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:88
 msgid ""
 "Be sure to modify the *<DOMAIN_CONTROLER>* string with the name of your "
 "domain controller (eg: **srvads.mydomain.lan**)."
@@ -118,7 +120,7 @@ msgstr ""
 "Assurez-vous de modifier l'entrée *<DOMAIN_CONTROLER>* avec le nom de "
 "votre contrôleur de domaine (eg: **srvads.mydomain.lan**)."
 
-#: ../../source/wapt-security/security-install-kerberos.rst:98
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:98
 msgid ""
 "Be sure to have properly configured your WAPT Server *hostname* before "
 "running these commands;"
@@ -126,7 +128,7 @@ msgstr ""
 "Assurez-vous d'avoir correctement configuré le nom du serveur WAPT avant "
 "de lancer ces commandes;"
 
-#: ../../source/wapt-security/security-install-kerberos.rst:101
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:101
 msgid ""
 "In order to double check your *hostname*, you can run :code:`echo "
 "$(hostname)` and it must return the name that will be used by WAPT agent "
@@ -136,26 +138,26 @@ msgstr ""
 "lancer :code:`echo $(hostname)` et cela doit vous retourner le nom qui "
 "sera utilisé par l'agent WAPT lancé sur les postes clients."
 
-#: ../../source/wapt-security/security-install-kerberos.rst:105
-#: ../../source/wapt-security/security-install-kerberos.rst:167
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:105
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:172
 msgid "apply the proper access rights to the :file:`http-krb5.keytab` file:"
 msgstr "appliquez les bons droits d'accès au fichier :file:`http-krb5.keytab`:"
 
-#: ../../source/wapt-security/security-install-kerberos.rst:107
-#: ../../source/wapt-security/security-install-kerberos.rst:169
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:107
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:174
 msgid "on Debian:"
 msgstr "Sous Debian"
 
-#: ../../source/wapt-security/security-install-kerberos.rst:114
-#: ../../source/wapt-security/security-install-kerberos.rst:176
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:114
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:181
 msgid "on Centos:"
 msgstr "sous Centos"
 
-#: ../../source/wapt-security/security-install-kerberos.rst:122
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:122
 msgid "Post-configuring"
 msgstr "Post-configuration"
 
-#: ../../source/wapt-security/security-install-kerberos.rst:124
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:124
 msgid ""
 "You can now use post-configuration script to configure the WAPT Server to"
 " use Kerberos."
@@ -163,7 +165,7 @@ msgstr ""
 "Vous pouvez désormais utiliser le script de post-configuration pour "
 "configurer Kerberos sur le serveur WAPT."
 
-#: ../../source/wapt-security/security-install-kerberos.rst:127
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:127
 msgid ""
 "The post-configuration script will configure :program:`Nginx` and the "
 "WAPT Server to use Kerberos authentication."
@@ -171,41 +173,48 @@ msgstr ""
 "Le script de post-configuration va configurer :program:`Nginx` et "
 "l'utilisation de l'authentification par Kerberos sur le serveur WAPT."
 
-#: ../../source/wapt-security/security-install-kerberos.rst:132
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:132
 msgid "This post-configuration script must be run as **root**."
 msgstr "Ce script de post-configuration doit être lancé en tant que **root**."
 
-#: ../../source/wapt-security/security-install-kerberos.rst:138
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:138
 msgid "Kerberos authentication will now be configured."
 msgstr "L'authentication par Kerberos va maintenant être configuré."
 
-#: ../../source/wapt-security/security-install-kerberos.rst:142
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:142
 msgid "Special use cases"
 msgstr "Cas spéciaux d'usage"
 
-#: ../../source/wapt-security/security-install-kerberos.rst:145
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:145
 msgid "My WAPT server does not have access to a writeable Active Directory"
 msgstr "Mon serveur WAPT n'a pas accès à un Active Directory en écriture"
 
-#: ../../source/wapt-security/security-install-kerberos.rst:147
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:147
 msgid "connect to your Active Directory (Not a RODC);"
 msgstr "connectez-vous à votre Active Directory (Pas un RODC);"
 
-#: ../../source/wapt-security/security-install-kerberos.rst:149
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:149
 msgid "create a computer account *srvwapt*;"
 msgstr "créez un compte machine *srvwapt*;"
 
-#: ../../source/wapt-security/security-install-kerberos.rst:151
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:151
 msgid "add a :abbr:`SPN (Service Principal Name)` on the *srvwapt$* account;"
 msgstr ""
 "ajoutez un champ :abbr:`SPN (Service Principal Name)` sur le compte "
 "*srvwapt$*;"
 
-#: ../../source/wapt-security/security-install-kerberos.rst:157
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:157
 msgid "create a keytab for this WAPT server:"
 msgstr "créez un keytab pour le serveur WAPT:"
 
-#: ../../source/wapt-security/security-install-kerberos.rst:164
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:166
+msgid ""
+"If the address of your wapt server is different from your domain active "
+"directory, replace HTTP/srvwapt.mydomain.lan@MYDOMAIN.LAN with "
+"HTTP/srvwapt.othername.com@MYDOMAIN.LAN"
+msgstr ""
+
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:169
 msgid ""
 "transfer this file to :file:`/etc/nginx/` (with :program:`winscp` for "
 "example);"
@@ -213,11 +222,11 @@ msgstr ""
 "transférez ce fichier vers :file:`/etc/nginx/` (avec :program:`winscp` "
 "par exemple);"
 
-#: ../../source/wapt-security/security-install-kerberos.rst:184
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:189
 msgid "WAPT agent only have access to a RODC domain controller"
 msgstr "L'agent WAPT a uniquement un accès vers un contrôleur de domaine RODC"
 
-#: ../../source/wapt-security/security-install-kerberos.rst:186
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:191
 msgid ""
 "for :abbr:`RODC (Read-Only Domain Controller)`, add the *srvwapt* account"
 " to the allowed password group for replication;"
@@ -225,7 +234,7 @@ msgstr ""
 "pour un :abbr:`RODC (Read-Only Domain Controller)`, ajoutez le compte "
 "*srvwapt*\" au groupe autorisé à répliquer les mots de passe;"
 
-#: ../../source/wapt-security/security-install-kerberos.rst:189
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:194
 msgid ""
 "remember to preload the password of the WAPT server with the different "
 "RODC servers;"
@@ -233,11 +242,11 @@ msgstr ""
 "n'oubliez pas de pré-charger le mot de passe du serveur WAPT avec les "
 "différents serveurs RODC;"
 
-#: ../../source/wapt-security/security-install-kerberos.rst:197
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:202
 msgid "You have multiple Active Directory domains with or without relationship"
 msgstr "Vous avez de multiples domaines Active Directory avec ou sans relations"
 
-#: ../../source/wapt-security/security-install-kerberos.rst:199
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:204
 msgid ""
 "If you have multiple Active Directory domains, you must create one "
 ":file:`keytab` per domain by following the procedure above, ex:"
@@ -245,22 +254,23 @@ msgstr ""
 "Si vous avez des domaines Active Directory multiples, vous devez créer un"
 " :file:`keytab` par domaine en suivant la procédure ci-dessus, ex :"
 
-#: ../../source/wapt-security/security-install-kerberos.rst:203
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:208
 msgid ":file:`http-krb5-domain1.local.keytab`"
 msgstr ":file:`http-krb5-domain1.local.keytab`"
 
-#: ../../source/wapt-security/security-install-kerberos.rst:204
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:209
 msgid ":file:`http-krb5-domain2.local.keytab`"
 msgstr ":file:`http-krb5-domain2.local.keytab`"
 
-#: ../../source/wapt-security/security-install-kerberos.rst:205
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:210
 msgid ":file:`http-krb5-domain3.local.keytab`"
 msgstr ":file:`http-krb5-domain3.local.keytab`"
 
-#: ../../source/wapt-security/security-install-kerberos.rst:207
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-security/security-install-kerberos.rst:212
 msgid ""
 "You will then have to merge all these :file:`keytabs` into a unique "
 ":file:`keytab`:"
 msgstr ""
 "Vous allez alors fusionner tous ces :file:`keytabs` en un unique "
 ":file:`keytab`:"
+
