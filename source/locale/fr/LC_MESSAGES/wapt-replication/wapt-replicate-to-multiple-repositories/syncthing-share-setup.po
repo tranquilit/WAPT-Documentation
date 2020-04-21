@@ -114,4 +114,3 @@ msgstr ""
 #: ../../source/wapt_replication/wapt_replicate_to_multiple_repositories/syncthing_share_setup.rst:56
 msgid "The replication is now operational."
 msgstr "La réplication est maintenant mise en place."
-

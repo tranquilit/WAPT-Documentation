@@ -161,4 +161,3 @@ msgstr ""
 "Si vous aviez déjà démarré la console WAPT, ne pas oublier de modifier "
 "aussi le port dans la configuration de la console en cliquant sur la "
 ":guilabel:`clé à molette` sur la mire de connexion."
-

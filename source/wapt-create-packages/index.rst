@@ -39,6 +39,7 @@ and you will quickly become a master of WAPT.
   session-setup/index.rst
   audit/index.rst
   package-additional/setuphelpers-useful.rst
+  package-linux/index.rst
 
 .. toctree::
   :maxdepth: 1

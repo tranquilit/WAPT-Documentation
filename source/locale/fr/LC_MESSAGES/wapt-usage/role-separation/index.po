@@ -186,7 +186,7 @@ msgstr ""
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:85
 msgid "This crt/ pem pair will allow to sign WAPT packages and new certificates."
 msgstr ""
-"Ce couple crt / pem permettra de signer des paquets WAPT et de nouveaux "
+"Ce couple crt / pem permettra de signer des paquets WAPT et de nouveaux "
 "certificats."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:88
@@ -198,12 +198,12 @@ msgid ""
 "To create a new pem/ crt pair from the private key, click on :guilabel:`Create "
 "a certificate`."
 msgstr ""
-"Pour générer un nouveau couple crt / pem à partir de la clé privée, cliquer "
+"Pour générer un nouveau couple crt / pem à partir de la clé privée, cliquer "
 "sur :guilabel:`Créer un certificat`."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:95
 msgid "The new certificate will not be a self-signed certificate;"
-msgstr "Le nouveau certificat ne sera pas un certificat auto-signé ;"
+msgstr "Le nouveau certificat ne sera pas un certificat auto-signé ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:97
 msgid ""
@@ -211,7 +211,7 @@ msgid ""
 "of the first installation of WAPT);"
 msgstr ""
 "Ce nouveau certificat sera signé par la CA (la clé générée lors de la première "
-"installation) ;"
+"installation) ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:100
 msgid ""
@@ -226,7 +226,7 @@ msgid ""
 "When generating the new pem/ crt pair, you have the option to choose whether "
 "or not the new certificate will be a **Code Signing** type."
 msgstr ""
-"Lors de la génération de ce nouveau couple pem / crt vous pouvez choisir si le "
+"Lors de la génération de ce nouveau couple pem / crt vous pouvez choisir si le "
 "nouveau certificat sera de type **Code Signing** ou non."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:108
@@ -294,7 +294,7 @@ msgid ""
 "individual who has signed a package by looking up the WAPT package "
 "certificate's :abbr:`CN (Common Name)` attribute."
 msgstr ""
-"Générer un nouveau couple pem / crt permettra également d'authentifier "
+"Générer un nouveau couple pem / crt permettra également d'authentifier "
 "formellement le signataire d'un paquet avec le champ :abbr:`CN (Common Name)`."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:147
@@ -310,7 +310,7 @@ msgid ""
 "As a general rule, there is only one **CA Certificate** pem / crt pair per :"
 "term:`Organization`."
 msgstr ""
-"En règle générale, vous n'avez qu'un seul couple crt / pem de type "
+"En règle générale, vous n'avez qu'un seul couple crt / pem de type "
 "``Certificat CA`` par :term:`Organisation`."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:154

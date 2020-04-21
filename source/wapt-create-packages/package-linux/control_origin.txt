@@ -1,0 +1,7 @@
+package           : tis-vlc
+version           : 0-0
+architecture      : all
+section           : base
+priority          : optional
+maintainer        : user
+description       : automatic package for vlc

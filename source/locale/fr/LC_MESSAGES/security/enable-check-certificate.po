@@ -293,4 +293,3 @@ msgid ""
 msgstr ""
 "Vous pouvez maintenant passer à la suite de la configuration en "
 ":ref:`lançant la console WAPT <starting-waptconsole>`."
-

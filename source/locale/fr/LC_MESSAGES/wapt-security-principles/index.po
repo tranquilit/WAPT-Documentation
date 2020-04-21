@@ -39,4 +39,3 @@ msgstr ""
 "La lecture de cette documentation n'est pas indispensable pour utiliser "
 "WAPT ; elle est cependant recommandée pour vous permettre de mieux "
 "comprendre certains choix architecturaux."
-

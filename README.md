@@ -12,6 +12,13 @@ How to contribute?
 
 You may want to have a look at our contribution guide: https://www.wapt.fr/en/doc/Contribute/index.html
 
+You must install documentation tools and requirements before doing anything :
+
+```bash
+sudo sh ./install_requirements.sh
+```
+
+Once installed, pre-commit checks (lint/syntax) are launched prior to committing your changes.
 
 How to push documentation to public ?
 =====================================

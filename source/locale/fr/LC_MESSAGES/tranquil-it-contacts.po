@@ -63,4 +63,3 @@ msgstr "Forum en anglais: https://www.reddit.com/r/WAPT"
 #: ../../source/tranquil-it-contacts.rst:28
 msgid "Mailing-list: http://lists.tranquil.it/listinfo/wapt"
 msgstr "Liste de diffusion : https://lists.tranquil.it/listinfo/wapt"
-

@@ -149,4 +149,3 @@ msgid "In the tab :menuselection:`List of packages --> Clear package cache`."
 msgstr ""
 "Dans l'onglet :menuselection:`Liste des paquets --> Vider le cache des "
 "paquets`."
-

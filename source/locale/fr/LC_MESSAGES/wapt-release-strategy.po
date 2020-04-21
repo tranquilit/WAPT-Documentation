@@ -141,4 +141,3 @@ msgstr ""
 "permettre à l'équipe de communication et marketing de s'appuyer sur une "
 "base fonctionnelle figée pour ainsi  rétro-planifier les annonces, les "
 "podcasts vidéo et la promotion générale de WAPT ;"
-

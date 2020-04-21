@@ -240,4 +240,3 @@ msgid ""
 "This way, WAPT ascertains that the software is still present on the host,"
 " according to the host configuration."
 msgstr "De cette manière WAPT vérifie que le logiciel est toujours présent."
-

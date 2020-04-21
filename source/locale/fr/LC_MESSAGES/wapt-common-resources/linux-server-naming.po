@@ -50,4 +50,3 @@ msgstr "le suffixe :term:`DNS` est *mydomain.lan* ;"
 #: ../../source/wapt_common_resources/linux_server_naming.rst:22
 msgid "the IP address is *10.0.0.10/24*;"
 msgstr "l'adresse IP est *10.0.0.10/24* ;"
-

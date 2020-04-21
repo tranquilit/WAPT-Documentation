@@ -102,4 +102,3 @@ msgstr "pour :ref:`Debian Linux <upgrade_1.3_1.6_debian>` ;"
 #: ../../source/waptserver_update/migration13-16/migration_old_new_server.rst:52
 msgid "for :ref:`CentOS/ RedHat <upgrade_1.3_1.6_centos>`;"
 msgstr "pour :ref:`CentOS / RedHat <upgrade_1.3_1.6_centos>` ;"
-

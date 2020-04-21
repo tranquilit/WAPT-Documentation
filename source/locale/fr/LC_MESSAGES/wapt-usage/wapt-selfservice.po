@@ -354,4 +354,3 @@ msgstr ""
 #: ../../source/wapt-usage/wapt-selfservice.rst:166
 msgid "Video demonstration"
 msgstr "Vidéo de démonstration"
-

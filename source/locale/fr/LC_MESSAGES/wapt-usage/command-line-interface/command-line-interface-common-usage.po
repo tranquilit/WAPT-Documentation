@@ -329,4 +329,3 @@ msgstr ""
 #: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:188
 msgid "The command :code:`wapt-get clean` returns:"
 msgstr "La commande :code:`wapt-get clean` renvoie :"
-

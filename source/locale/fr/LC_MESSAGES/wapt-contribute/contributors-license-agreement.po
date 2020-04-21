@@ -238,4 +238,3 @@ msgid ""
 msgstr ""
 "For answers to frequently asked licensing questions, please consult or "
 "post on the Tranquil IT forum located at https://forum.tranquil.it/."
-

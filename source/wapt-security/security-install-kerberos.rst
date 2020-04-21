@@ -158,8 +158,13 @@ My WAPT server does not have access to a writeable Active Directory
 
 .. code-block:: batch
 
-     ktpass -out C:\http-krb5.keytab -princ HTTP/srvwapt@MYDOMAIN.LAN rndpass -minpass 64 -crypto all -pType KRB5_NT_PRINCIPAL /mapuser srvwapt$@MYDOMAIN.LAN
+     ktpass -out C:\http-krb5.keytab -princ HTTP/srvwapt.mydomain.lan@MYDOMAIN.LAN rndpass -minpass 64 -crypto all -pType KRB5_NT_PRINCIPAL /mapuser srvwapt$@MYDOMAIN.LAN
      Reset SRVWAPT$'s password [y/n]?  y
+
+.. note::
+
+     If the address of your wapt server is different from your domain active directory, replace HTTP/srvwapt.mydomain.lan@MYDOMAIN.LAN with HTTP/srvwapt.othername.com@MYDOMAIN.LAN
+
 
 * transfer this file to :file:`/etc/nginx/`
   (with :program:`winscp` for example);

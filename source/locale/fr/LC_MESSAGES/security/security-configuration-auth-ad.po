@@ -247,4 +247,3 @@ msgid ""
 msgstr ""
 "Passez maintenant à l'étape suivante pour :ref:`installer la console WAPT"
 " <installing_the_WAPT_console>`."
-

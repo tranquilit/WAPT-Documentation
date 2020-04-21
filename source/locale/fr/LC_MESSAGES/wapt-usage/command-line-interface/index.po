@@ -79,4 +79,3 @@ msgstr ""
 "pour forcer le passage par le service WAPT en tant "
 "qu':term:`Administrateur Local`, ajouter simplement *-S* après :command"
 ":`wapt-get` ;"
-

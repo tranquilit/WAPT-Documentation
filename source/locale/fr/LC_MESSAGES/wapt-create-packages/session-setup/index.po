@@ -195,4 +195,3 @@ msgstr ""
 "les fichiers dans un répertoire extérieur au paquet lors de "
 "l'installation du paquet (exemple : un sous-répertoire créé à la racine "
 "du répertoire utilisateur)."
-

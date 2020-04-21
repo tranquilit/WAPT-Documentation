@@ -1,0 +1,22 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.5.0
+    hooks:
+    -   id: trailing-whitespace
+    -   id: end-of-file-fixer
+-   repo: https://github.com/pre-commit/pygrep-hooks
+    rev: v1.5.1
+    hooks:
+    -   id: rst-backticks
+-   repo: local
+    hooks:
+      - id: sphinx-build
+        name: sphinx build
+        entry: python3.5 -m sphinx.cmd.build
+        args: [-a, -E, source, build]
+        language: system
+        files: ^source/
+        types: [file]
+        pass_filenames: false

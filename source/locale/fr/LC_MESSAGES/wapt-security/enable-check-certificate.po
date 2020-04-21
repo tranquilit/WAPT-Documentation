@@ -340,4 +340,3 @@ msgid ""
 msgstr ""
 "Cela va configurer correctement l'attribut ``verify_cert`` pour les "
 "communications HTTPS entre la console WAPT et le serveur WAPT."
-

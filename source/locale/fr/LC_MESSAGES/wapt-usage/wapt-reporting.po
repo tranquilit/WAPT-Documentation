@@ -277,4 +277,3 @@ msgstr "Vous pouvez maintenant exécuter vos requêtes avec ce nom standardisé.
 #: ../../source/wapt-usage/wapt-reporting.rst:157
 msgid "Video demonstration"
 msgstr "Vidéo de démonstration"
-

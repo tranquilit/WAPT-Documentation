@@ -3,3 +3,4 @@ sphinx==2.3.1
 sphinx_rtd_theme
 sphinxjp.themes.revealjs
 sphinx-intl
+pre-commit

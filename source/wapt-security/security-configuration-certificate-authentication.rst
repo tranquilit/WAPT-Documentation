@@ -45,7 +45,7 @@ Enabling Client-Side Certificate Authentication
 
 * be sure to unset the custom headers relative to client side authentication results
   when requests are proxied without being checked by nginx ssl module.
-  These headers are trusted by the waptserver if `X-Ssl-Authenticated` is SUCCESS
+  These headers are trusted by the waptserver if ``X-Ssl-Authenticated`` is SUCCESS
   and :file:`waptserver.ini` parameter ``use_ssl_client_auth``
   is set to **True**:
 

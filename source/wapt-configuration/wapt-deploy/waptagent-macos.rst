@@ -34,7 +34,7 @@ Installing the WAPT Agent package from Tranquil IT's public repository
 
   .. code-block:: bash
 
-    installer -pkg /Volumes/Macintosh\ HD/Users/johnsmith/Downloads/tis-waptagent-1.8.0.6632-tismacos-bdc0beea.pkg -target /
+    sudo installer -pkg /Volumes/Macintosh\ HD/Users/johnsmith/Downloads/tis-waptagent-1.8.0.6632-tismacos-bdc0beea.pkg -target /
 
 Creating the agents configuration file
 ++++++++++++++++++++++++++++++++++++++
@@ -53,7 +53,7 @@ You may use it after changing the parameters to suit your needs.
 
 .. code-block:: bash
 
-  vim /opt/wapt/wapt-get.ini
+  sudo vim /opt/wapt/wapt-get.ini
 
 .. code-block:: ini
 
@@ -94,7 +94,7 @@ Then, modify in your config file the path to your certificate.
 
 .. code-block:: bash
 
-  vim /opt/wapt/wapt-get.ini
+  sudo vim /opt/wapt/wapt-get.ini
 
 And give absolute path of your cert.
 
@@ -126,8 +126,8 @@ Registering your MacOS agent
 
   .. code-block:: bash
 
-     wapt-get register
-     wapt-get update
+     sudo wapt-get register
+     sudo wapt-get update
 
 Your MacOS Agent is now installed and configured
 and it will now appear in your WAPT Console with a MacOS icon.

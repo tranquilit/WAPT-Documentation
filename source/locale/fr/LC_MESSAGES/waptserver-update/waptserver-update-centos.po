@@ -189,4 +189,3 @@ msgid ""
 msgstr ""
 "Comme mentionné ci-dessus, cette procédure peut s'automatiser avec une "
 "GPO ou un paquet de mise à jour **waptupgrade**."
-

@@ -19,5 +19,3 @@ for root, dirnames, filenames in os.walk('source/locale/fr/LC_MESSAGES/'):
             if line.startswith('#, fuzzy'):
                 print ("fuzzy line %s in %s " % (linenumber,filename))
             linenumber = linenumber + 1
-
-

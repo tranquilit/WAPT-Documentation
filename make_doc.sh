@@ -40,4 +40,3 @@ mkdir ./build/en/doc/.well-known
 mkdir ./build/fr/doc/.well-known
 cp security.txt ./build/en/doc/.well-known
 cp security.txt ./build/en/doc/.well-known
-
