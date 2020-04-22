@@ -142,7 +142,7 @@ msgstr "mettre à jour :program:`python-setuptools` :"
 
 #: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-contribute/rebuild-wapt.rst:76
 msgid "create a development environment with ``virtualenv``;"
-msgstr "créer l'environment de développement ``virtualenv`` ;"
+msgstr "créer l'environment de développement  ``virtualenv`` ;"
 
 #: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-contribute/rebuild-wapt.rst:85
 msgid "Installing the WAPT development environment"
@@ -179,8 +179,8 @@ msgid ""
 "copy the code signing certificate into :file:`C:\\\\users\\\\buildbot\\"
 "\\Documents`;"
 msgstr ""
-"copier le certificat de signature de code dans le fichier :file:`C:\\Users"
-"\\buildbot\\Documents` ;"
+"copier le certificat de signature de code dans le fichier :file:`C:\\\\Users"
+"\\\\buildbot\\\\Documents` ;"
 
 #: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-contribute/rebuild-wapt.rst:100
 msgid "Installing Lazarus"
@@ -205,7 +205,7 @@ msgid ""
 "The :file:`.iss` files are located in :file:`C:\\\\tranquilit\\\\wapt\\"
 "\\waptsetup`;"
 msgstr ""
-"Les fichiers :file:`.iss` se situent dans :file:`C:\\\tranquilit\\\\wapt\\"
+"Les fichiers :file:`.iss` se situent dans :file:`C:\\\\tranquilit\\\\wapt\\"
 "\\waptsetup` ;"
 
 #: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-contribute/rebuild-wapt.rst:161
@@ -214,8 +214,7 @@ msgid ""
 "line tool :program:`wapt-get`, the local webservice :program:`waptservice`, the "
 "packaging tool and the WAPT console :program:`waptconsole`."
 msgstr ""
-"L'installeur :program:`waptsetup` (:file:`C:\\tranquilit\\WAPT\\waptsetup\\ "
-"waptsetup.iss`) inclut les bibliothèques python, l'outil en ligne de commande :"
+"L'installeur :program:`waptsetup` inclut les bibliothèques python, l'outil en ligne de commande :"
 "program:`wapt-get`, le webservice local :program:`waptservice`, les outils de "
 "packaging et la console WAPT :program:`waptconsole`."
 
@@ -224,8 +223,7 @@ msgid ""
 "The file :file:`waptserver.iss` allows to build an installer that includes a "
 "Nginx web server in front and the Flask webservice :program:`waptserver.py`."
 msgstr ""
-"Le programme :program:`waptserver` (:file:`C:\\tranquilit\\WAPT\\waptsetup\\ "
-"waptserver.iss`) permet de construire un installeur qui inclut un serveur Nginx "
+"Le programme :program:`waptserver` permet de construire un installeur qui inclut un serveur Nginx "
 "en frontal pour le webservice Flask :program:`waptserver.py`."
 
 #: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-contribute/rebuild-wapt.rst:169
@@ -234,8 +232,7 @@ msgid ""
 "command line tool :program:`wapt-get`. It does not include the WAPT console :"
 "program:`waptconsole`, nor the packaging tools."
 msgstr ""
-"L'installeur waptstarter (:file:`C:\\tranquilit\\WAPT\\waptsetup\\waptstarter."
-"iss`) n'inclut que le code pour le webservice local et l'outil en ligne de "
+"L'installeur waptstarter n'inclut que le code pour le webservice local et l'outil en ligne de "
 "commande :program:`wapt-get`, mais pas la console WAPT :program:`waptconsole`, "
 "ni les outils de packaging."
 

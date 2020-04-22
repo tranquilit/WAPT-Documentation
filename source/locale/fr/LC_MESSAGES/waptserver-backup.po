@@ -3,25 +3,23 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 18:00+0100\n"
+"POT-Creation-Date: 2020-04-22 11:12+0200\n"
 "PO-Revision-Date: 2020-03-25 18:11+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
-"Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
 "Language: fr\n"
-"X-Generator: Poedit 2.0.6\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Poedit-SourceCharset: UTF-8\n"
+"Language-Team: Tranquil IT <contact@tranquil.it>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-backup.rst:8
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-backup.rst:14
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/waptserver-backup.rst:8
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/waptserver-backup.rst:14
 msgid "Backing up the WAPT Server"
 msgstr "Sauvegarder et restaurer le serveur WAPT"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-backup.rst:8
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/waptserver-backup.rst:8
 msgid ""
 "backup, restore, server, WAPT, PostgreSQL, pg_dumpall, FastCopy, WinSCP, "
 "documentation"
@@ -29,28 +27,28 @@ msgstr ""
 "Sauvegarder, Restaurer, serveur, WAPT, PostgreSQL, pg_dumpall, FastCopy, "
 "WinSCP"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-backup.rst:17
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/waptserver-backup.rst:17
 msgid "Backing up the WAPT Server on Linux"
 msgstr "Sauvegarder le serveur WAPT sur Linux"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-backup.rst:21
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/waptserver-backup.rst:21
 msgid "This procedure is valid for WAPT 1.5 and above."
 msgstr "Cette procédure n'est valable que pour WAPT 1.5 et supérieure."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-backup.rst:23
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-backup.rst:63
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/waptserver-backup.rst:23
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/waptserver-backup.rst:63
 msgid "stop WAPT related services on the server;"
 msgstr "stopper les services liés à WAPT sur la machine ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-backup.rst:31
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/waptserver-backup.rst:31
 msgid ""
-"backup these directories using a backup tool (ex: :program:`rsync`, :"
-"program:`WInSCP`, etc..);"
+"backup these directories using a backup tool (ex: :program:`rsync`, "
+":program:`WInSCP`, etc..);"
 msgstr ""
 "sauvegarder les répertoires suivants à l'aide d'un outil de sauvegarde "
 "(ex : :program:`rsync` ou :program:`WinSCP`) ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-backup.rst:42
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/waptserver-backup.rst:42
 msgid ""
 "backup the PostgreSQL database using the :program:`pg_dumpall` utility "
 "(adapt filename with your requirements);"
@@ -58,17 +56,17 @@ msgstr ""
 "sauvegarder la base PostgreSQL à l'aide de l'outil :program:`pg_dumpall` "
 "(adapter le nom du fichier et la date) ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-backup.rst:49
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-backup.rst:106
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-backup.rst:127
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/waptserver-backup.rst:49
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/waptserver-backup.rst:106
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/waptserver-backup.rst:127
 msgid "restart WAPT related services on the server;"
 msgstr "relancer les services liés à WAPT sur la machine ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-backup.rst:58
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/waptserver-backup.rst:58
 msgid "Restoring the WAPT Server on Linux"
 msgstr "Restaurer le serveur WAPT sur Linux"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-backup.rst:60
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/waptserver-backup.rst:60
 msgid ""
 "In case of a complete crash, restart a standard WAPT Server installation "
 "on a Linux server."
@@ -76,11 +74,11 @@ msgstr ""
 "En cas de crash, relancer une installation standard du serveur WAPT pour "
 "Linux."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-backup.rst:71
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/waptserver-backup.rst:71
 msgid "restore the following directories:"
 msgstr "restaurer les répertoires :"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-backup.rst:81
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/waptserver-backup.rst:81
 msgid ""
 "restore the database (adapt the name of your file). The first command "
 "**deletes** the WAPT database (if it exists). Make sure that your dump "
@@ -90,53 +88,59 @@ msgstr ""
 "commande **supprime** ci-dessous la base WAPT (si elle existe), vérifier "
 "que votre dump est correct avant de la supprimer :"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-backup.rst:90
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/waptserver-backup.rst:90
 msgid "apply ownership rights to the restored folders:"
 msgstr "appliquer les droits sur les répertoires restaurés :"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-backup.rst:100
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/waptserver-backup.rst:100
 msgid "scan package repositories;"
 msgstr "scanner les répertoires de paquets :"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-backup.rst:115
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/waptserver-backup.rst:115
 msgid "Backing up the WAPT Server on Windows"
 msgstr "Sauvegarder le serveur WAPT sur Windows"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-backup.rst:118
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/waptserver-backup.rst:118
+#, fuzzy
 msgid ""
-"backup the WAPT repository folder :file:`C:\\\\wapt\\\\waptserver\\"
-"\\repository` and :file:`C:\\wapt` and :file:`C:\\wapt\\waptserver\\nginx"
-"\\ssl` on a remote backup destination;"
+"backup the WAPT repository folder "
+":file:`C:\\\\wapt\\\\waptserver\\\\repository` and :file:`C:\\\\wapt` and"
+" :file:`C:\\\\wapt\\\\waptserver\\\\nginx\\\\ssl` on a remote backup "
+"destination;"
 msgstr ""
-"sauvegarder le répertoire du dépôt WAPT :file:`C:\\wapt\\waptserver"
-"\\repository`, puis :file:`C:\\wapt` et enfin :file:`C:\\wapt\\waptserver"
-"\\nginx\\ssl` on a remote backup destination ;"
+"sauvegarder le répertoire du dépôt WAPT "
+":file:`C:\\wapt\\waptserver\\repository`, puis :file:`C:\\wapt` et enfin "
+":file:`C:\\wapt\\waptserver\\nginx\\ssl` on a remote backup destination ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-backup.rst:121
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/waptserver-backup.rst:121
 msgid "Backup PostgreSQL Database with pg_dump.exe:"
 msgstr "Sauvegarder la base de données PostgreSQL avec pg_dump.exe :"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-backup.rst:132
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/waptserver-backup.rst:132
 msgid "Restoring the WAPT Server on Windows"
 msgstr "Restaurer le serveur WAPT sur Windows"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-backup.rst:134
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/waptserver-backup.rst:134
+#, fuzzy
 msgid ""
-"restore the following directories :file:`C:\\\\wapt\\\\waptserver\\"
-"\\repository` and :file:`C:\\wapt` and :file:`C:\\wapt\\waptserver\\nginx"
-"\\ssl`"
+"restore the following directories "
+":file:`C:\\\\wapt\\\\waptserver\\\\repository` and :file:`C:\\\\wapt` and"
+" :file:`C:\\\\wapt\\\\waptserver\\\\nginx\\\\ssl`"
 msgstr ""
-"restaurer les répertoires :file:`C:\\wapt\\waptserver\\repository` puis :"
-"file:`C:\\wapt` et enfin :file:`C:\\wapt\\waptserver\\nginx\\ssl`"
+"restaurer les répertoires :file:`C:\\wapt\\waptserver\\repository` puis "
+":file:`C:\\wapt` et enfin :file:`C:\\wapt\\waptserver\\nginx\\ssl`"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-backup.rst:136
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/waptserver-backup.rst:136
 msgid ""
-"Apply the total right to the folder :file:`C:\\\\wapt\\\\waptserver\\"
-"\\repository` for the \"Network Service\" group"
+"Apply the total right to the folder "
+":file:`C:\\\\wapt\\\\waptserver\\\\repository` for the \"Network "
+"Service\" group"
 msgstr ""
-"Autoriser tous les droits sur le répertoire  :file:`C:\\\\wapt\\"
-"\\waptserver\\\repository` pour le groupe \"Network Service\""
+"Autoriser tous les droits sur le répertoire  "
+":file:`C:\\\\wapt\\\\waptserver\\\r"
+"epository` pour le groupe \"Network Service\""
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-backup.rst:138
+#: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/waptserver-backup.rst:138
 msgid "Restore PostgreSQL Database with pg_restore.exe:"
 msgstr "Restaurer la base de données PostgreSQL avec pg_restore.exe :"
+

@@ -18,15 +18,15 @@ msgstr "Présentation"
 
 #: /home/agauvrit/projects/doc-wapt/source/index.rst:142
 msgid "Documentation"
-msgstr "Presentation"
+msgstr "Documentation"
 
 #: /home/agauvrit/projects/doc-wapt/source/index.rst:156
 msgid "Developping"
-msgstr ""
+msgstr "Développement"
 
 #: /home/agauvrit/projects/doc-wapt/source/index.rst:163
 msgid "Troubleshooting"
-msgstr ""
+msgstr "Résolution de problèmes"
 
 #: /home/agauvrit/projects/doc-wapt/source/index.rst:170
 msgid "Appendix"

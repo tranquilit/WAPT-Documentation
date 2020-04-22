@@ -220,7 +220,7 @@ msgstr "# vous utilisez peut-être une ancienne version de :program:`waptdeploy`
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:186
 msgid "`download the latest version <https://store.wapt.fr/wapt/releases/latest/waptdeploy.exe>`_ of :program:`waptdeploy` from the WAPT store."
-msgstr "téléchargez la dernière version <https://store.wapt.fr/wapt/releases/latest/waptdeploy.exe>`_ de :program:`waptdeploy` sur le store WAPT."
+msgstr "`téléchargez la dernière version  <https://store.wapt.fr/wapt/releases/latest/waptdeploy.exe>`_ de :program:`waptdeploy` sur le store WAPT."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-common-problems/common-problems.rst:194
 msgid "# thanks to Emmanuel EUGENE from French `INSERM <https://www.inserm.fr/en>`_"

@@ -142,7 +142,7 @@ msgstr "dmi"
 #: /home/agauvrit/projects/doc-wapt/source/wapt-api/using_wapt_api.rst:128
 msgid "get :abbr:`DMI (Desktop Management Interface)` info for a host:"
 msgstr ""
-"récupère toutes informations :abbr:`DMI (Desktop Management Interface)` "
+"récupère toutes les informations :abbr:`DMI (Desktop Management Interface)` "
 "d'un poste : "
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-api/using_wapt_api.rst:132
