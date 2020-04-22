@@ -16,7 +16,7 @@ Configuring the CentOS/ RedHat server
 
 In order to install a fresh CentOS7 machine (virtual or physical)
 without graphical interface (choose **minimal** installation),
-please refer to official `CentOS documentation <https://www.centos.org/docs/>`_.
+please refer to official `CentOS documentation <https://docs.centos.org/>`_.
 This documentation is also valid for Redhat7 initial installation.
 
 .. _installation_centos_manuelle:

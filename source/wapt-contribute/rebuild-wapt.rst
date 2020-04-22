@@ -33,20 +33,20 @@ Lazarus environment
 
 WAPT relies on the following third-party freepascal/ lazarus librairies:
 
-* pl_indy: http://www.pilotlogic.com/sitejoom/index.php/wiki/85-wiki/codetyphon-studio/ct-packages/271-pl-indy;
+* pl_indy: https://www.pilotlogic.com/sitejoom/index.php/115-wiki/ct-packages/networking/271-pl-indy;
 
-* superobject: https://code.google.com/p/superobject/;
+* superobject: https://github.com/hgourvest/superobject;
 
-* virtualtrees: http://www.pilotlogic.com/sitejoom/index.php/85-wiki/codetyphon-studio/ct-packages/301-pl-virtualtrees
-  and https://svn.code.sf.net/p/lazarus-ccr/svn/components/virtualtreeview-new/trunk/;
+* virtualtrees: https://www.pilotlogic.com/sitejoom/index.php/85-wiki/codetyphon-studio/ct-packages/301-pl-virtualtrees
+  and https://github.com/blikblum/VirtualTreeView-Lazarus;
 
-* python4delphi: https://code.google.com/p/python4delphi/;
+* python4delphi: https://github.com/pyscripter/python4delphi;
 
 * delphizmq: https://github.com/bvarga/delphizmq;
 
-* JCL: http://wiki.delphi-jedi.org/wiki/JCL_Installation;
+* JCL: https://wiki.delphi-jedi.org/wiki/JCL_Installation;
 
-* thmtlport: https://svn.code.sf.net/p/lazarus-ccr/svn/components/thtmlport;
+* thmtlport: https://svn.code.sf.net/p/lazarus-ccr/svn/components/thtmlport/;
 
 Tranquil IT packages
 """"""""""""""""""""
@@ -154,7 +154,7 @@ Creating the InnoSetup installers
 +++++++++++++++++++++++++++++++++
 
 * install Innosetup from
-  http://www.jrsoftware.org/download.php/ispack-unicode.exe
+  https://jrsoftware.org/download.php/ispack-unicode.exe
 
 The :file:`.iss` files are located in :file:`C:\\tranquilit\\wapt\\waptsetup`;
 

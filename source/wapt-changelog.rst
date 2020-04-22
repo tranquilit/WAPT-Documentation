@@ -977,7 +977,7 @@ Details
 
   make filter_on_host_cap a global property of Wapt class instead of func parameter
 
-* [FIX] Fix regression if there are spaces in org unit name. Console was stripping space for https://roundup.tranquil.it/wapt/issue911 and https://roundup.tranquil.it/wapt/issue908 and https://assistance.tranquil.it/scp/tickets.php?id=4341
+* [FIX] Fix regression if there are spaces in org unit name. Console was stripping space for https://roundup.tranquil.it/wapt/issue911 and https://roundup.tranquil.it/wapt/issue908
 
 * allow '0'..'9', 'A'..'Z', 'a'..'z', '-','_','=','~','.' in package names for org unit packages. replaces space with ~ in package names and ',' with '_'
 
@@ -1166,7 +1166,7 @@ New
 
    configure package prefix
 
-* If client certificate signing is enabled on waptserver (waptserver.ini config), the server sign a CSR for the client when the client is registered. See https://www.wapt.fr/fr/doc/waptserver-install/security/security-configuration-certificate-authentication.html
+* If client certificate signing is enabled on waptserver (waptserver.ini config), the server sign a CSR for the client when the client is registered. See :ref:`client_side_certificate_authentication`.
 
 * wapt-get: added new command ``create-keycert`` to create a pair of RSA key / x509 certificate in batch mode. self signed or signed with a CA key/cert
 
@@ -3074,7 +3074,7 @@ Console WAPT
 * [NEW] Lors de l'import d'un dépôt extérieur, possibilité d'éditer le paquet
   pour inspection plutôt que de le charger directement sur le dépôt de production;
 
-* [NEW] Changement des URL relatives à la documentation. https://doc.wapt.fr;
+* [NEW] Changement des URL relatives à la documentation. https://www.wapt.fr/en/doc/;
 
 * [NEW] Possibilité d'actualiser le certificat sans recréer la paire de clés RSA
   (en particulier pour préciser un Common Name correct, qui apparaît comme le signataire des paquets);
@@ -3537,7 +3537,7 @@ Webservices
     to the python :program:`waptservice` that only listens locally.
 
     It is therefore necessary to update :file:`wapt-get.ini` files on WAPT agents and to replace
-    *wapt_server* = http://monserveurwapt:8080 with *wapt_server* = https://monserveurwapt.
+    *wapt_server* = http://srvwapt.mydomain.lan:8080 with *wapt_server* = https://srvwapt.mydomain.lan
 
     If you can not make that change to your WAPT agents, it is possible to return
     to the previous behavior.

@@ -182,7 +182,7 @@ we have all files required to build the WAPT agent installer.
 
 Once the WAPT agent installer has finished building, a confirmation dialog
 pops up indicating that the :program:`waptagent` binary
-has been successfully uploaded to https://srvwapt/wapt/.
+has been successfully uploaded to https://srvwapt.mydomain.lan/wapt/.
 
 .. figure:: waptagent-successfully-uploaded.png
   :align: center

@@ -25,7 +25,7 @@ the WAPT inventory server.
 The hosts will then appear in the WAPT console.
 
 To install the WAPT agent manually on a computer, download the WAPT agent
-from https://wapt_server/wapt/waptagent.exe then launch its installation.
+from https://srvwapt.mydomain.lan/wapt/waptagent.exe then launch its installation.
 
 .. figure:: wapt_console-configuration-summary.png
    :align: center

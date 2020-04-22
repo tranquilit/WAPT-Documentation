@@ -30,9 +30,9 @@ of the :file:`waptconsole.ini` file:
 =============================================================================================== ======================================================================================
 Options                                                                                         Description
 =============================================================================================== ======================================================================================
-``wapt_server`` = https://srvwapt.tranquilit.local                                              Address of the WAPT Server.
+``wapt_server`` = https://srvwapt.mydomain.lan                                                  Address of the WAPT Server.
 
-``repo_url`` = http://srvwapt.tranquilit.local/wapt                                             Address of the main WAPT repository.
+``repo_url`` = https://srvwapt.mydomain.lan/wapt                                                Address of the main WAPT repository.
 
 ``last_usage_report`` = 03/01/2017 18:45:51                                                     Date when the WAPT console was last used.
 
@@ -92,7 +92,7 @@ Example:
    [store.wapt.fr]
    repo_url=https://store.wapt.fr/waptdev
    verify_cert=1
-   http_proxy=http://srvproxy:8080
+   http_proxy=http://proxy.mydomain.lan:8080
    public_certs_dir=
    timeout=2
 
@@ -108,8 +108,8 @@ Example:
 ===================================================== ===========================================
 Options                                               Description
 ===================================================== ===========================================
-``repo_url`` = http://srvwapt.tranquilit.local/wapt   Address of the external WAPT repository.
-``http_proxy`` = http://srvproxy:8080                 Address of the proxy to use to access the
+``repo_url`` = http://srvwapt.mydomain.lan/wapt       Address of the external WAPT repository.
+``http_proxy`` = http://proxy.mydomain.lan:8080       Address of the proxy to use to access the
                                                       external repository referenced in the ``[section]``.
 ``verify_cert`` = 1                                   For :ref:`verifying HTTPS certificates
                                                       <activating_HTTPS_certificate_verification>`.

@@ -29,15 +29,15 @@ Packaging simple .msi packages
 
 * Download the TightVNC MSI installer
 
-  * `download TightVNC MSI x64 <http://www.tightvnc.com/download/
+  * `download TightVNC MSI x64 <https://www.tightvnc.com/download/
     2.8.5/tightvnc-2.8.5-gpl-setup-64bit.msi>`_;
 
-  * `download TightVNC MSI x86 <http://www.tightvnc.com/
+  * `download TightVNC MSI x86 <https://www.tightvnc.com/
     download/2.8.5/tightvnc-2.8.5-gpl-setup-32bit.msi>`_;
 
 * look up documentation relating to silent flags;
 
-  * `documentation TightVNC <http://www.tightvnc.com/doc/win/
+  * `documentation TightVNC <https://www.tightvnc.com/doc/win/
     TightVNC_2.7_for_Windows_Installing_from_MSI_Packages.pdf>`_;
 
   .. code-block:: bash

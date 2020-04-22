@@ -291,7 +291,7 @@ is not sufficient to push the new configuration.
 You can create a WAPT package to push updated :file:`wapt-get.ini` settings.
 
 The package is available from the Tranquil IT repository:
-https://store.wapt.fr/store/details-tis-wapt-conf-policy_6_all.wapt:
+https://store.wapt.fr/wapt/tis-wapt-conf-policy_6_f913e7abc2f223c3e243cc7b7f95caa5.wapt :
 
 .. code-block:: python
 

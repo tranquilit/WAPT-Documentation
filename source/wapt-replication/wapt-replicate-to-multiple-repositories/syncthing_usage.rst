@@ -34,7 +34,7 @@ Debian Linux
 
 .. code-block:: bash
 
-  echo  "deb  http://wapt.tranquil.it/debian/  ./  "  > /etc/apt/sources.list.d/wapt.list
+  echo  "deb  https://wapt.tranquil.it/debian/  ./  "  > /etc/apt/sources.list.d/wapt.list
   apt-get update
   apt-get upgrade
   apt-get install tis-waptrepo
@@ -178,7 +178,7 @@ Operations to follow:
 Configuring Syncthing's web service
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Syncthing's web interface is now accessible by visiting http://<server_ip>:8384.
+Syncthing's web interface is now accessible by visiting http://srvwapt.mydomain.lan:8384.
 
 Operations to follow:
 
@@ -199,7 +199,7 @@ Operations to follow:
   systemctl restart waptsync
 
 Syncthing's web interface is now only accessible with HTTPS
-on https://<server_ip>:8384.
+on https://srvwapt.mydomain.lan:8384.
 
 * in the list of shared folders, remove the default folder:
   :menuselection:`Modify --> Remove`;
@@ -269,7 +269,7 @@ Configuration example of the WAPT agent - filled in local repository:
   [global]
   waptupdate_task_period=120
   waptserver=https://srvwapt.mydomain.lan
-  repo_url=https://localrepo.domain.lan/wapt/
+  repo_url=https://localrepo.mydomain.lan/wapt/
   use_hostpackages=1
 
 Example of a WAPT package designed to remotely change the *repo_url*

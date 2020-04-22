@@ -261,6 +261,17 @@ html_static_path = ['_static']
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'WAPTdoc'
 
+# -- Linkcheck -------------------
+# make linkcheck
+# URL patterns to ignore
+
+linkcheck_ignore = [r'http.*://.*mydomain.lan.*',
+                    r'http.*://.*host_fqdn.*',
+                    r'http://wapt.otherorganization.com/wapt/',
+                    r'https://otherwapt.tranquil.it/waptdev',
+                    r'http://user:pwd@host_fqdn:port']
+
+
 # -- Options for LaTeX output ---------------------------------------------
 
 

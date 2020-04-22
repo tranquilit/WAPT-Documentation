@@ -92,14 +92,14 @@ API V1
 
     .. code-block:: batch
 
-      https://admin:MYPASSWORD@srvwapt/api/v1/hosts
+      https://admin:MYPASSWORD@srvwapt.mydomain.lan/api/v1/hosts
 
     This one just show request with reachable status, the computer name,
     its connected ips and its mac addresses. Display limit is 10000
 
      .. code-block:: batch
 
-        https://admin:MYPASSWORD@srvwapt/api/v1/hosts?columns=reachable,computer_fqdn,connected_ips,mac_addresses&limit=10000
+        https://admin:MYPASSWORD@srvwapt.mydomain.lan/api/v1/hosts?columns=reachable,computer_fqdn,connected_ips,mac_addresses&limit=10000
 
 /api/v1/groups
 ++++++++++++++
@@ -118,7 +118,7 @@ API V1
 
     .. code-block:: batch
 
-      https://admin:MYPASSWORD@srvwapt/api/v1/groups
+      https://admin:MYPASSWORD@srvwapt.mydomain.lan/api/v1/groups
 
 /api/v1/host_data
 +++++++++++++++++
@@ -136,7 +136,7 @@ dmi
     #      field=packages, dmi or softwares
 
 Example: get *dmi* information of host which has UUID 14F620FF-DE70-9E5B-996A-B597E8F9B4AD:
-https://srvwapt.ad.mydomain.fr/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD&field=dmi
+https://srvwapt.mydomain.lan/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD&field=dmi
 
 .. note::
 
@@ -156,7 +156,7 @@ https://srvwapt.ad.mydomain.fr/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B59
 
   .. code-block:: batch
 
-    https://admin:MYPASSWORD@srvwapt/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD&field=dmi
+    https://admin:MYPASSWORD@srvwapt.mydomain.lan/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD&field=dmi
 
 installed_packages
 """"""""""""""""""
@@ -175,7 +175,7 @@ Option *installed_packages* will list all packages installed on a specific host.
 
   .. code-block:: batch
 
-    https://admin:MYPASSWORD@srvwapt/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD&field=installed_packages
+    https://admin:MYPASSWORD@srvwapt.mydomain.lan/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD&field=installed_packages
 
 installed_softwares
 """""""""""""""""""
@@ -196,7 +196,7 @@ on a specific host.
 
    .. code-block:: batch
 
-      https://admin:MYPASSWORD@srvwapt/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD&field=installed_softwares
+      https://admin:MYPASSWORD@srvwapt.mydomain.lan/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD&field=installed_softwares
 
 wsusupdates
 """""""""""
@@ -216,7 +216,7 @@ Option *wsusupdates* will list all windows update installed on a specific host.
 
   .. code-block:: batch
 
-    https://admin:MYPASSWORD@srvwapt/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD&field=wsusupdates
+    https://admin:MYPASSWORD@srvwapt.mydomain.lan/api/v1/host_data?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD&field=wsusupdates
 
 /api/v1/usage_statistics
 ++++++++++++++++++++++++
@@ -241,7 +241,7 @@ Get usage statistics from the server.
 
   .. code-block:: batch
 
-    https://admin:MYPASSWORD@srvwapt/api/v1/usage_statistics
+    https://admin:MYPASSWORD@srvwapt.mydomain.lan/api/v1/usage_statistics
 
 API V2
 ------
@@ -263,7 +263,7 @@ Display :program:`waptagent.exe` version on the server.
 
   .. code-block:: batch
 
-    https://admin:MYPASSWORD@srvwapt/api/v2/waptagent_version
+    https://admin:MYPASSWORD@srvwapt.mydomain.lan/api/v2/waptagent_version
 
 API V3
 ------
@@ -286,7 +286,7 @@ List packages on the repository, get control file on package.
 
   .. code-block:: batch
 
-    https://admin:MYPASSWORD@srvwapt/api/v3/packages
+    https://admin:MYPASSWORD@srvwapt.mydomain.lan/api/v3/packages
 
 /api/v3/known_packages
 ++++++++++++++++++++++
@@ -305,7 +305,7 @@ List all packages with last *signed_on* information.
 
   .. code-block:: batch
 
-    https://admin:MYPASSWORD@srvwapt/api/v3/known_packages
+    https://admin:MYPASSWORD@srvwapt.mydomain.lan/api/v3/known_packages
 
 /api/v3/trigger_cancel_task
 +++++++++++++++++++++++++++
@@ -337,7 +337,7 @@ in the WAPT console.
 
   .. code-block:: batch
 
-    https://admin:MYPASSWORD@srvwapt/api/v3/get_ad_ou
+    https://admin:MYPASSWORD@srvwapt.mydomain.lan/api/v3/get_ad_ou
 
 /api/v3/get_ad_sites
 ++++++++++++++++++++
@@ -356,13 +356,13 @@ List Active Directory sites.
 
   .. code-block:: batch
 
-    https://admin:MYPASSWORD@srvwapt/api/v3/get_ad_sites
+    https://admin:MYPASSWORD@srvwapt.mydomain.lan/api/v3/get_ad_sites
 
 /api/v3/hosts_for_package
 +++++++++++++++++++++++++
 
 List hosts with a specific package installed
-https://srvwapt.ad.domain.fr/api/v3/hosts_for_package?package=demo-namepackage
+https://srvwapt.mydomain.lan/api/v3/hosts_for_package?package=demo-namepackage
 
 .. code-block:: python
 
@@ -376,7 +376,7 @@ https://srvwapt.ad.domain.fr/api/v3/hosts_for_package?package=demo-namepackage
 
   .. code-block:: batch
 
-    https://admin:MYPASSWORD@srvwapt/api/v3/hosts_for_package?package=demo-namepackage
+    https://admin:MYPASSWORD@srvwapt.mydomain.lan/api/v3/hosts_for_package?package=demo-namepackage
 
 /api/v3/host_tasks_status
 +++++++++++++++++++++++++
@@ -384,7 +384,7 @@ https://srvwapt.ad.domain.fr/api/v3/hosts_for_package?package=demo-namepackage
 List tasks on a particular host.
 
 Example with host uuid:
-https://srvwapt.ad.domain.fr/api/v3/host_tasks_status?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD
+https://srvwapt.mydomain.lan/api/v3/host_tasks_status?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD
 
 .. code-block:: python
 
@@ -398,7 +398,7 @@ https://srvwapt.ad.domain.fr/api/v3/host_tasks_status?uuid=14F620FF-DE70-9E5B-99
 
   .. code-block:: batch
 
-    https://admin:MYPASSWORD@srvwapt/api/v3/host_tasks_status?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD
+    https://admin:MYPASSWORD@srvwapt.mydomain.lan/api/v3/host_tasks_status?uuid=14F620FF-DE70-9E5B-996A-B597E8F9B4AD
 
 .. attention::
 
@@ -441,14 +441,14 @@ Initialize a connection to the server.
 
 .. code-block:: bash
 
-  curl --insecure -X POST --data-raw '{"user":"admin","password":"MYPASSWORD"}' -H "Content-Type: application/json" "https://srvwapt/api/v3/login"
+  curl --insecure -X POST --data-raw '{"user":"admin","password":"MYPASSWORD"}' -H "Content-Type: application/json" "https://srvwapt.mydomain.lan/api/v3/login"
 
-  {"msg": "Authentication OK", "result": {"edition": "enterprise", "hosts_count": 6, "version": "1.7.4", "server_domain": "ad.domain.fr", "server_uuid": "32464dd6-c261-11e8-87be-cee799b43a00"}, "success": true, "request_time": 0.03377699851989746}
+  {"msg": "Authentication OK", "result": {"edition": "enterprise", "hosts_count": 6, "version": "1.7.4", "server_domain": "mydomain.lan", "server_uuid": "32464dd6-c261-11e8-87be-cee799b43a00"}, "success": true, "request_time": 0.03377699851989746}
 
 .. hint::
 
    We can make a connection by html form than POST:
-   https://admin:MYPASSWORD@srvwapt/api/v3/get_ad_sites
+   https://admin:MYPASSWORD@srvwapt.mydomain.lan/api/v3/get_ad_sites
 
 /api/v3/packages_delete
 +++++++++++++++++++++++
@@ -460,13 +460,13 @@ Example:
 
 .. code-block:: bash
 
-  curl --insecure -X POST --data-raw '["demo-libreoffice-stable_5.4.6.2-3_all.wapt"]' -H "Content-Type: application/json" "https://admin:MYPASSWORD@srvwapt/api/v3/packages_delete"
+  curl --insecure -X POST --data-raw '["demo-libreoffice-stable_5.4.6.2-3_all.wapt"]' -H "Content-Type: application/json" "https://admin:MYPASSWORD@srvwapt.mydomain.lan/api/v3/packages_delete"
 
 /api/v3/reset_hosts_sid
 +++++++++++++++++++++++
 
 There is several possibilities:
-https://srvwapt.ad.domain.fr/api/v3/reset_hosts_sid
+https://srvwapt.mydomain.lan/api/v3/reset_hosts_sid
 will reinitialize all host connections.
 
 For the POST method:
@@ -475,7 +475,7 @@ Syntax is: ``--data-raw`` a dictionnary list with ``uuids`` as keys and the UUID
 
 .. code-block:: bash
 
-   curl --insecure -X POST --data-raw '{"uuids":["114F620FF-DE70-9E5B-996A-B597E8F9B4C"]}' -H "Content-Type: application/json" "https://admin:MYPASSWORD@srvwapt/api/v3/reset_hosts_sid"
+   curl --insecure -X POST --data-raw '{"uuids":["114F620FF-DE70-9E5B-996A-B597E8F9B4C"]}' -H "Content-Type: application/json" "https://admin:MYPASSWORD@srvwapt.mydomain.lan/api/v3/reset_hosts_sid"
 
    {"msg": "Hosts connection reset launched for 1 host(s)", "result": {}, "success": true, "request_time": null}[
 
@@ -485,7 +485,7 @@ Syntax is: ``--data-raw`` a dictionnary list with ``uuids`` as keys and the UUID
 
   .. code-block:: bash
 
-    curl --insecure -X POST --data-raw '{"uuids":["114F620FF-DE70-9E5B-996A-B597E8F9B4C","04F98281-7D37-B35D-8803-8577E0049D15"]}' -H "Content-Type: application/json" "https://admin:MYPASSWORD@srvwapt/api/v3/reset_hosts_sid"
+    curl --insecure -X POST --data-raw '{"uuids":["114F620FF-DE70-9E5B-996A-B597E8F9B4C","04F98281-7D37-B35D-8803-8577E0049D15"]}' -H "Content-Type: application/json" "https://admin:MYPASSWORD@srvwapt.mydomain.lan/api/v3/reset_hosts_sid"
 
     {"msg": "Hosts connection reset launched for 2 host(s)", "result": {}, "success": true, "request_time": null}
 
@@ -499,9 +499,9 @@ and a list of host uuids.
 
 .. code-block:: bash
 
-  curl --insecure -X POST --data-raw '{"uuids":["04F98281-7D37-B35D-8803-8577E0049D15"]}' -H "Content-Type: application/json" "https://admin:MYPASSWORD@srvwapt/api/v3/trigger_wakeonlan"
+  curl --insecure -X POST --data-raw '{"uuids":["04F98281-7D37-B35D-8803-8577E0049D15"]}' -H "Content-Type: application/json" "https://admin:MYPASSWORD@srvwapt.mydomain.lan/api/v3/trigger_wakeonlan"
 
-  {"msg": "Wakeonlan packets sent to 1 machines.", "result": [{"computer_fqdn": "win10-1809.ad.domain.fr", "mac_addresses": ["7e:c4:f4:9a:87:2d"], "uuid": "04F98281-7D37-B35D-8803-8577E0049D15"}], "success": true, "request_time": null}
+  {"msg": "Wakeonlan packets sent to 1 machines.", "result": [{"computer_fqdn": "win10-1809.mydomain.lan", "mac_addresses": ["7e:c4:f4:9a:87:2d"], "uuid": "04F98281-7D37-B35D-8803-8577E0049D15"}], "success": true, "request_time": null}
 
 .. hint::
 
@@ -509,9 +509,9 @@ and a list of host uuids.
 
   .. code-block:: bash
 
-    curl --insecure -X POST --data-raw '{"uuids":["04F98281-7D37-B35D-8803-8577E0049D15","14F620FF-DE70-9E5B-996A-B597E8F9B4AD"]}' -H "Content-Type: application/json" "https://admin:MYPASSWORD@srvwapt/api/v3/trigger_wakeonlan"
+    curl --insecure -X POST --data-raw '{"uuids":["04F98281-7D37-B35D-8803-8577E0049D15","14F620FF-DE70-9E5B-996A-B597E8F9B4AD"]}' -H "Content-Type: application/json" "https://admin:MYPASSWORD@srvwapt.mydomain.lan/api/v3/trigger_wakeonlan"
 
-    {"msg": "Wakeonlan packets sent to 2 machines.", "result": [{"computer_fqdn": "win10-1803.ad.domain.fr", "mac_addresses": ["02:4f:25:74:67:71"], "uuid": "14F620FF-DE70-9E5B-996A-B597E8F9B4AD"}, {"computer_fqdn": "win10-1809.ad.alejeune.fr", "mac_addresses": ["7e:c4:f4:9a:87:2d"], "uuid": "04F98281-7D37-B35D-8803-8577E0049D15"}], "success": true, "request_time": null}
+    {"msg": "Wakeonlan packets sent to 2 machines.", "result": [{"computer_fqdn": "win10-1803.mydomain.lan", "mac_addresses": ["02:4f:25:74:67:71"], "uuid": "14F620FF-DE70-9E5B-996A-B597E8F9B4AD"}, {"computer_fqdn": "win10-1809.ad.alejeune.fr", "mac_addresses": ["7e:c4:f4:9a:87:2d"], "uuid": "04F98281-7D37-B35D-8803-8577E0049D15"}], "success": true, "request_time": null}
 
 /api/v3/hosts_delete
 ++++++++++++++++++++
@@ -534,17 +534,17 @@ If you want to delete a host from the inventory:
 
 .. code-block:: bash
 
-  curl --insecure -X POST --data-raw '{"uuids":["04F98281-7D37-B35D-8803-8577E0049D15"],"delete_inventory":"True","delete_packages":"True"}' -H "Content-Type: application/json" "https://admin:MYPASSWORD@srvwapt/api/v3/hosts_delete"
+  curl --insecure -X POST --data-raw '{"uuids":["04F98281-7D37-B35D-8803-8577E0049D15"],"delete_inventory":"True","delete_packages":"True"}' -H "Content-Type: application/json" "https://admin:MYPASSWORD@srvwapt.mydomain.lan/api/v3/hosts_delete"
 
-  {"msg": "1 files removed from host repository\n1 hosts removed from DB", "result": {"files": ["/var/www/wapt-host/04F98281-7D37-B35D-8803-8577E0049D15.wapt"], "records": [{"computer_fqdn": "win10-1809.ad.domain.fr", "uuid": "04F98281-7D37-B35D-8803-8577E0049D15"}]}, "success": true, "request_time": null}
+  {"msg": "1 files removed from host repository\n1 hosts removed from DB", "result": {"files": ["/var/www/wapt-host/04F98281-7D37-B35D-8803-8577E0049D15.wapt"], "records": [{"computer_fqdn": "win10-1809.mydomain.lan", "uuid": "04F98281-7D37-B35D-8803-8577E0049D15"}]}, "success": true, "request_time": null}
 
 If you do not want to delete in the inventory server:
 
 .. code-block:: bash
 
-   curl --insecure -X POST --data-raw '{"uuids":["04F98281-7D37-B35D-8803-8577E0049D15"],"delete_inventory":"False","delete_packages":"False"}' -H "Content-Type: application/json" "https://admin:MYPASSWORD@srvwapt/api/v3/hosts_delete"
+   curl --insecure -X POST --data-raw '{"uuids":["04F98281-7D37-B35D-8803-8577E0049D15"],"delete_inventory":"False","delete_packages":"False"}' -H "Content-Type: application/json" "https://admin:MYPASSWORD@srvwapt.mydomain.lan/api/v3/hosts_delete"
 
-   {"msg": "0 files removed from host repository\n1 hosts removed from DB", "result": {"files": [], "records": [{"computer_fqdn": "win10-1809.ad.domain.fr", "uuid": "04F98281-7D37-B35D-8803-8577E0049D15"}]}, "success": true, "request_time": null}
+   {"msg": "0 files removed from host repository\n1 hosts removed from DB", "result": {"files": [], "records": [{"computer_fqdn": "win10-1809.mydomain.lan", "uuid": "04F98281-7D37-B35D-8803-8577E0049D15"}]}, "success": true, "request_time": null}
 
 /api/v3/trigger_host_action
 +++++++++++++++++++++++++++
@@ -563,7 +563,7 @@ If you do not want to delete in the inventory server:
    #Handle the upload of customized waptagent.exe into wapt repository
 
    ### NE MARCHE PAS
-   #curl --insecure -X POST -H  "Content-Type: multipart/form-data" -F 'data=@waptagent.exe' "https://admin:MYPASSWORD@srvwapt/upload_waptsetup"
+   #curl --insecure -X POST -H  "Content-Type: multipart/form-data" -F 'data=@waptagent.exe' "https://admin:MYPASSWORD@srvwapt.mydomain.lan/upload_waptsetup"
 
 /ping
 +++++
@@ -572,7 +572,7 @@ Ping get general information from a WAPT server.
 
 .. code-block:: python
 
-  # https://srvwapt.ad.domain.fr/ping
+  # https://srvwapt.mydomain.lan/ping
   # Liste les infos du serveur
 
   ping_wapt =  wgets('https://%s:%s@%s/ping' % (wapt_user,wapt_password,wapt_url))

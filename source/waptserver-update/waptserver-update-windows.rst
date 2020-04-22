@@ -27,7 +27,7 @@ Performing minor updates on a Windows based WAPT Server
   and 2019.
 
 * on the Windows machine hosting the WAPT Server, download the latest version
-  of the installer from Tranquil IT's website `WAPTServerSetup.exe <http://wapt.tranquil.it/wapt/releases/latest/waptserversetup.exe>`_
+  of the installer from Tranquil IT's website `WAPTServerSetup.exe <https://wapt.tranquil.it/wapt/releases/latest/waptserversetup.exe>`_
   and launch it as :term:`Local Administrator`;
 
 * install the update;

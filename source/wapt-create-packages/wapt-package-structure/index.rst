@@ -153,7 +153,7 @@ Settings                Description                                 Example valu
 
 ``keywords``            Set of keywords describing the WAPT package Productivity,Text Processor
 
-``homepage``            Official homepage of the software           https://wapt.fr
+``homepage``            Official homepage of the software           https://www.tranquil.it/
                         embedded in the WAPT package
 
 ``signer``              CommonName (CN) of the package's signer     Tranquil IT
@@ -338,7 +338,7 @@ min_os_version
 
 .. versionadded:: 1.3.9
 
-Defines the minimal `Windows Operating System Version <https://msdn.microsoft.com/en-us/library/windows/desktop/ms724832(v=vs.85).aspx>`_.
+Defines the minimal `Windows Operating System Version <https://docs.microsoft.com/en-us/windows/win32/sysinfo/operating-system-version?redirectedfrom=MSDN>`_.
 For example, this attribute may be used to avoid installing
 on WindowsXP packages that only work on Windows7 and above.
 
@@ -347,7 +347,7 @@ max_os_version
 
 .. versionadded:: 1.3.9
 
-Defines the maximal `Windows Operating System Version <https://msdn.microsoft.com/en-us/library/windows/desktop/ms724832(v=vs.85).aspx>`_.
+Defines the maximal `Windows Operating System Version <https://docs.microsoft.com/en-us/windows/win32/sysinfo/operating-system-version?redirectedfrom=MSDN>`_.
 For example, this attribute may be used to install on Windows7
 more recent versions of a software that are no more supported on Windows XP.
 
@@ -398,7 +398,7 @@ The value set in *installed_size* must be in bytes.
 
 .. hint::
 
-  To convert storage values to bytes, visit http://bit-calculator.com/.
+  To convert storage values to bytes, visit https://bit-calculator.com/.
 
 impacted_process
 """"""""""""""""

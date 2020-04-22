@@ -129,7 +129,7 @@ WAPT support and training
 
 * forum: https://forum.tranquil.it/
 
-* mailing list: http://lists.tranquil.it/listinfo/wapt
+* mailing list: https://lists.tranquil.it/listinfo/wapt
 
 .. toctree::
   :maxdepth: 1

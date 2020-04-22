@@ -41,7 +41,7 @@ What do you suggest to do then?
 Tranquil IT recommends:
 
 * to make only one raw image per OS type with `MDT <https://docs.microsoft.com/
-  en-us/configmgr/mdt/>`_ or `Fog <https://fogproject.org/>`_
+  en-us/mem/configmgr/mdt/>`_ or `Fog <https://fogproject.org/>`_
   (win10, win2016, etc) without any configuration or software.
   **Put only the system drivers** you need for your image deployment
   in the MDT or Fog directories provided for this purpose;

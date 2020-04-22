@@ -232,7 +232,7 @@ Hybrid shutdown can be disabled by setting a value in :file:`wapt-get.ini` file
 There is a WAPT package to solve the Hybrid Shutdown problem:
 
 * a WAPT package exists for this purpose: `tis-disable-hybrid-shutdown
-  <https://store.wapt.fr/wapt/tis-disable-hybrid-shutdown_1.0-2_all.wapt>`_.
+  <https://store.wapt.fr/store/tis-disable-hybrid-shutdownt>`_.
 
 Solution: Windows Home edition
 ++++++++++++++++++++++++++++++
@@ -283,7 +283,7 @@ to change the default behavior.
    pre_shutdown_timeout=180
 
 The WAPT package `tis-wapt-conf-policy
-<https://store.wapt.fr/wapt/tis-wapt-conf-policy_6_all.wapt>`_
+<https://store.wapt.fr/store/tis-wapt-conf-policy>`_
 sets this configuration.
 
 The other solution may be to use the GPO :file:`File.ini`.
@@ -527,7 +527,7 @@ Solution
   .. note::
 
     MSI error codes are available by visiting `this website
-    <https://msdn.microsoft.com/en-us/library/windows/desktop/aa372835.aspx>`_.
+    <https://docs.microsoft.com/en-us/windows/win32/msi/windows-installer-error-messages?redirectedfrom=MSDN>`_.
 
 * go to the computer and try to install the package with
   the WAPT command line utility. Then check that the software has installed;

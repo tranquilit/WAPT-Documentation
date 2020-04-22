@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-21 18:10+0200\n"
+"POT-Creation-Date: 2020-04-22 16:06+0200\n"
 "PO-Revision-Date: 2020-03-25 16:18+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
@@ -284,7 +284,7 @@ msgid "forum: https://forum.tranquil.it/"
 msgstr "Forum : https://forum.tranquil.it/"
 
 #: /home/agauvrit/projects/doc-wapt/source/index.rst:132
-msgid "mailing list: http://lists.tranquil.it/listinfo/wapt"
+msgid "mailing list: https://lists.tranquil.it/listinfo/wapt"
 msgstr "Liste de diffusion : https://lists.tranquil.it/listinfo/wapt"
 
 #: /home/agauvrit/projects/doc-wapt/source/index.rst:183

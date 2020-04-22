@@ -175,7 +175,6 @@ msgid "Out-of-Domain / Workgroup hosts now showing up in AD tree view"
 msgstr ""
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:102
-#, fuzzy
 msgid "Organizational Units Packages are usable on those hosts"
 msgstr "Utilisation des paquets d'unités organisationnelles dans WAPT"
 

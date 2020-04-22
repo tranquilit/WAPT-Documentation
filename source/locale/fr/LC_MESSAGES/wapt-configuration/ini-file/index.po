@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 19:22+0100\n"
+"POT-Creation-Date: 2020-04-22 16:06+0200\n"
 "PO-Revision-Date: 2020-03-26 12:02+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
@@ -11,268 +11,269 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
-"Language: fr\n"
-"X-Generator: Poedit 2.0.6\n"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:8
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:8
 msgid "Advanced settings for WAPTserver"
 msgstr "Paramétrage avancé de WAPTserver"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:8
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:8
 msgid "waptserver.ini, Nginx, sections,"
 msgstr "waptserver.ini, Nginx, sections,"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:13
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:13
 msgid "Configuring the WAPT Server"
 msgstr "Configurer le serveur WAPT"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:15
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:15
 msgid ""
-"The WAPT Server configuration file on GNU/ Linux systems is found in :file:`/"
-"opt/wapt/conf/waptserver.ini`."
+"The WAPT Server configuration file on GNU/ Linux systems is found in "
+":file:`/opt/wapt/conf/waptserver.ini`."
 msgstr ""
-"La configuration du serveur WAPT sous Linux est située dans :file:`/opt/wapt/"
-"waptserver/waptserver.ini`."
+"La configuration du serveur WAPT sous Linux est située dans "
+":file:`/opt/wapt/waptserver/waptserver.ini`."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:18
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:18
 msgid ""
-"The WAPT Server configuration file on Windows systems is found in :file:`C:\\"
-"\\wapt\\\\conf\\\\waptserver.ini`."
+"The WAPT Server configuration file on Windows systems is found in "
+":file:`C:\\\\wapt\\\\conf\\\\waptserver.ini`."
 msgstr ""
-"Le fichier de configuration du serveur WAPT sur les systèmes Windows se trouve "
-"dans :file:`C:\\\\wapt\\\\conf\\\\waptserver.ini`."
+"Le fichier de configuration du serveur WAPT sur les systèmes Windows se "
+"trouve dans :file:`C:\\\\wapt\\\\conf\\\\waptserver.ini`."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:23
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:23
 msgid "**Modification of these files is reserved for advanced users!!**"
 msgstr ""
-"**La modification de ces fichiers est à réserver aux utilisateurs avertis !!**"
+"**La modification de ces fichiers est à réserver aux utilisateurs avertis"
+" !!**"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:28
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:28
 msgid "Section [option]"
 msgstr "Partie [option]"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:30
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:30
 msgid "Several options can be defined in the section:"
 msgstr "On peut lui passer plusieurs options dans la section :"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:39
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:39
 msgid "Options"
 msgstr "Options"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:39
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:39
 msgid "Description"
 msgstr "Description"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:41
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:41
 msgid "``db_name`` = wapt"
 msgstr "``db_name`` = wapt"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:41
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:41
 msgid "Name of the PostgreSQL database that the WAPT Server will connect to."
 msgstr "Nom de la base PostgreSQL à laquelle le serveur WAPT va se connecter."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:43
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:43
 msgid "``db_host`` ="
 msgstr "``db_host`` ="
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:43
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:43
 msgid ""
-"Address of the PostgreSQL server (empty by default, it will use a local Unix "
-"Socket)."
+"Address of the PostgreSQL server (empty by default, it will use a local "
+"Unix Socket)."
 msgstr ""
-"Adresse du serveur PostgreSQL (par défaut vide car la connexion par socket "
-"UNIX est par défaut)"
+"Adresse du serveur PostgreSQL (par défaut vide car la connexion par "
+"socket UNIX est par défaut)"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:45
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:45
 msgid "``db_user`` ="
 msgstr "``db_user`` ="
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:45
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:45
 msgid ""
-"Name of the PostgreSQL user connecting to the database (default: empty, it "
-"will use a local UNIX socket)."
+"Name of the PostgreSQL user connecting to the database (default: empty, "
+"it will use a local UNIX socket)."
 msgstr ""
-"Nom d'utilisateur pour la base PostgreSQL (par défaut vide car la connexion "
-"par socket UNIX est activée par défaut)"
+"Nom d'utilisateur pour la base PostgreSQL (par défaut vide car la "
+"connexion par socket UNIX est activée par défaut)"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:47
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:47
 msgid "``db_password`` ="
 msgstr "``db_password`` ="
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:47
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:47
 msgid ""
-"Password for authenticating the user on the PostgreSQL database (default: "
-"empty, it will use a local UNIX socket)"
+"Password for authenticating the user on the PostgreSQL database (default:"
+" empty, it will use a local UNIX socket)"
 msgstr ""
-"Mot de passe pour la base PostgreSQL (par défaut vide car la connexion par "
-"socket UNIX est activée par défaut)"
+"Mot de passe pour la base PostgreSQL (par défaut vide car la connexion "
+"par socket UNIX est activée par défaut)"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:48
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:48
 msgid "``wapt_user`` = admin"
 msgstr "``wapt_user`` = admin"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:48
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:48
 msgid "Defines the :term:`SuperAdmin` username in the WAPT console."
 msgstr "Identifiant de connexion du :term:`SuperAdmin` pour la console WAPT."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:49
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:49
 msgid "``wapt_password`` = 46642dd2b1dfezfezgfezgadf0ezgeezgezf53d"
 msgstr "``wapt_password`` = 46642dd2b1dfezfezgfezgadf0ezgeezgezf53d"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:49
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:49
 msgid ":term:`SuperAdmin` password for connecting to the WAPT console."
 msgstr "Mot de passe du :term:`SuperAdmin` pour la console WAPT."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:50
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:50
 msgid "``secret_key`` =  FKjfzjfkF687fjrkeznfkj7678jknk78687"
 msgstr "``secret_key`` =  FKjfzjfkF687fjrkeznfkj7678jknk78687"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:50
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:50
 msgid ""
-"Random string for initializing the Python Flask application server. It is "
-"generated when first installing the WAPT Server and is unique for every WAPT "
-"Server."
+"Random string for initializing the Python Flask application server. It is"
+" generated when first installing the WAPT Server and is unique for every "
+"WAPT Server."
 msgstr ""
-"Chaîne d'initialisation du moteur de gestion de session Flask. Il est généré "
-"lors de la première installation du serveur WAPT et est unique pour chaque "
-"serveur WAPT."
+"Chaîne d'initialisation du moteur de gestion de session Flask. Il est "
+"généré lors de la première installation du serveur WAPT et est unique "
+"pour chaque serveur WAPT."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:53
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:53
 msgid "``wapt_folder`` = /var/www/wapt"
 msgstr "``wapt_folder`` = /var/www/wapt"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:53
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:53
 msgid "Directory of the WAPT repository."
 msgstr "Répertoire du dépôt WAPT."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:54
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:54
 msgid "``waptwua_folder`` = /var/www/waptwua"
 msgstr "``waptwua_folder`` = /var/www/waptwua"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:54
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:54
 msgid "Location of WAPT WUA folder"
 msgstr "Emplacement du dossier WAPT WUA"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:55
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:55
 msgid "``server_uuid`` = 76efezfa6-b309-1fez5-92cd-8ea48fc122dc"
 msgstr "``server_uuid`` = 76efezfa6-b309-1fez5-92cd-8ea48fc122dc"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:55
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:55
 msgid "WAPT Server :term:`UUID` (this anonymous id is used for WAPT statistics)."
 msgstr ":term:`UUID` du server (pour les statistiques anonymes WAPT)"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:56
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:56
 msgid "``use_kerberos`` = true"
 msgstr "``use_kerberos`` = True"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:56
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:56
 msgid "Requires a Kerberos authentication when first registering the WAPT agent."
 msgstr ""
 "Exige une authentification Kerberos pour l'enregistrement initial d'une "
 "machine sur le serveur WAPT."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:57
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:57
 msgid "``loglevel`` = debug"
 msgstr "``loglevel`` = debug"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:57
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:57
 msgid "Debug level."
 msgstr "Niveau de débug."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:58
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:58
 msgid "``client_tasks_timeout`` = 1"
 msgstr "``client_tasks_timeout`` = 1"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:58
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:58
 msgid "Maximum allowed delay before WAPT agent requests timeout"
 msgstr "Délai d'attente maximum pour la réponse de l'agent WAPT"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:59
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:59
 msgid "``signature_clockskew`` = 72000"
 msgstr "``signature_clockskew`` = 72000"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:59
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:59
 msgid "Maximum allowed time difference for the websockets"
 msgstr ""
-"Décalage de temps autorisé pour les timestamps lors d'une connexion websocket"
+"Décalage de temps autorisé pour les timestamps lors d'une connexion "
+"websocket"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:60
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:60
 msgid "``db_connect_timeout`` = 10"
 msgstr "``db_connect_timeout`` = 10"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:60
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:60
 msgid "Maximum allowed delay before PostgreSQL queries timeout"
 msgstr "Délai d'attente maximum pour les requête de PostgreSQL"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:61
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:61
 msgid "``db_max_connections`` = 100"
 msgstr "``db_max_connections`` = 100"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:61
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:61
 msgid "Maximum simultaneous connections to the PostgreSQL database"
 msgstr "Nombre de connexions simultanés pour les requêtes de PostgreSQL"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:62
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:62
 msgid "``allow_unauthenticated_registration`` = True"
 msgstr "``allow_unauthenticated_registration`` = True"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:62
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:62
 msgid ""
-"Allows the initial registration of the WAPT agent using a login and password"
+"Allows the initial registration of the WAPT agent using a login and "
+"password"
 msgstr ""
-"Permet une authentification Identifiant / Mot de passe pour l'enregistrement "
-"initial"
+"Permet une authentification Identifiant / Mot de passe pour "
+"l'enregistrement initial"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:64
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:64
 msgid "``allow_unauthenticated_connect`` = False"
 msgstr "``allow_unauthenticated_connect`` = False"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:64
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:64
 msgid "Defines whether websocket connections should be authenticated"
 msgstr "Définit si les requêtes websocket doivent être authentifiées"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:65
-msgid "``http_proxy`` = http://proxy.ad.tranquil.it:3128"
-msgstr "``http_proxy`` = http://proxy.ad.tranquil.it:3128"
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:65
+msgid "``http_proxy`` = http://srvproxy.mydomain.lan:3128"
+msgstr "``http_proxy`` = http://srvproxy.mydomain.lan:3128"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:65
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:65
 msgid ""
-"Defines the proxy server to allow the WAPT server to recover its :abbr:`CRL "
-"(Certificate Revocation List)`"
+"Defines the proxy server to allow the WAPT server to recover its "
+":abbr:`CRL (Certificate Revocation List)`"
 msgstr ""
 "Définit le serveur proxy du serveur WAPT (pour récupérer des :abbr:`CRL "
 "(Certificate Revocation List)` )"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:67
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:67
 msgid "``wol_port`` = 9,123,4000"
 msgstr "``wol_port`` = 9,123,4000"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:67
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:67
 msgid "List of WakeOnLAN UDP ports to send magic packets to"
 msgstr "Liste des ports UDP WakeOnLAN auxquels envoyer des paquets magiques"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:68
-msgid "``wapt_admin_group_dn`` = CN=waptadmins,OU=groups,DC=ad,DC=domain,DC=lan"
-msgstr "``wapt_admin_group_dn`` = CN=waptadmins,OU=groups,DC=ad,DC=domain,DC=lan"
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:68
+msgid "``wapt_admin_group_dn`` = CN=waptadmins,OU=groups,DC=ad,DC=mydomain,DC=lan"
+msgstr "``wapt_admin_group_dn`` = CN=waptadmins,OU=groups,DC=ad,DC=mydomain,DC=lan"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:68
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:68
 msgid "LDAP DN of Active Directory User Group allowed to connect to WAPT console"
 msgstr ""
-"LDAP DN du groupe d'utilisateurs Active Directory autorisé à se connecter à la "
-"console WAPT"
+"LDAP DN du groupe d'utilisateurs Active Directory autorisé à se connecter"
+" à la console WAPT"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:69
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:69
 msgid "``remote_repo_support`` = True"
 msgstr "``remote_repo_support`` = True"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:69
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:69
 msgid "Enables replication on remote repository"
 msgstr "Permet la réplication vers un dépôt distant"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:75
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:75
 msgid "Configuring Nginx"
 msgstr "Configurer Nginx"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:77
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:77
 msgid "The default Nginx configuration is as follows:"
 msgstr "La configuration nginx par défaut est la suivante :"

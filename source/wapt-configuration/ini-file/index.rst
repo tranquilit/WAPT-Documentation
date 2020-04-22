@@ -62,10 +62,10 @@ Options                                                                     Desc
 ``allow_unauthenticated_registration`` = True                               Allows the initial registration of the WAPT agent using
                                                                             a login and password
 ``allow_unauthenticated_connect`` = False                                   Defines whether websocket connections should be authenticated
-``http_proxy`` = http://proxy.ad.tranquil.it:3128                           Defines the proxy server to allow the WAPT server to recover
+``http_proxy`` = http://srvproxy.mydomain.lan:3128                          Defines the proxy server to allow the WAPT server to recover
                                                                             its :abbr:`CRL (Certificate Revocation List)`
 ``wol_port`` = 9,123,4000                                                   List of WakeOnLAN UDP ports to send magic packets to
-``wapt_admin_group_dn`` = CN=waptadmins,OU=groups,DC=ad,DC=domain,DC=lan    LDAP DN of Active Directory User Group allowed to connect to WAPT console
+``wapt_admin_group_dn`` = CN=waptadmins,OU=groups,DC=ad,DC=mydomain,DC=lan  LDAP DN of Active Directory User Group allowed to connect to WAPT console
 ``remote_repo_support`` = True                                              Enables replication on remote repository
 =========================================================================== ==================================================================================================================================================
 

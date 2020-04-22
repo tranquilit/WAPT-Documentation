@@ -19,7 +19,7 @@ Upgrading WAPT from 1.3 to 1.6 on Windows
    WAPT Server no longer installs on x86 versions of Windows.
 
 * download the latest version of :program:`waptserversetup`
-  1.6 from https://wapt.tranquil.it/wapt/latest/;
+  1.6 from https://wapt.tranquil.it/wapt/releases/latest/;
 
 * launch the installation on top of the existing 1.3 version by following
   :ref:`this documentation <wapt-server_win_install>`;
@@ -49,8 +49,7 @@ Migrating WAPT 1.3 from a Windows OS to a Linux OS
 The simplest method is to move over to a Linux based version
 of :program:`waptserver`.
 
-* download :program:`mongodb` from http://downloads.mongodb.org/win32/
-  mongodb-win32-i386-2.6.3.zip?_ga=2.75822417.551196271.1515087017-697019975.1515087017;
+* download :program:`mongodb` from https://www.mongodb.com/download-center/community;
 
 * extract :file:`mongodump.exe` from the archive;
 

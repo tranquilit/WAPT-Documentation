@@ -59,7 +59,7 @@ WAPT 1.0 Community (févier 2015)
 --------------------------------
 
 The release of that milestone has been announced at `Bruxelles FOSDEM
-the 1st of February 2015 <https://fosdem.org/2015/schedule/event/wapt_apt_get_for_windows/>`_.
+the 1st of February 2015 <https://archive.fosdem.org/2015/schedule/event/wapt_apt_get_for_windows/>`_.
 
 * internationalization of the console, service,
   server and notification messages;

@@ -35,7 +35,7 @@ Command :command:`makepath` ...
   For more informations or to learn more on arguments on that function,
   please visit official Setuphelpers reference documentation:
 
-  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=get_file_properties#setuphelpers.properties
+  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=makepath#setuphelpers.makepath
 
 Creating and destroying directories
 +++++++++++++++++++++++++++++++++++
@@ -53,7 +53,7 @@ Command :command:`mkdirs` ...
   For more informations or to learn more on arguments on that function,
   please visit official Setuphelpers reference documentation:
 
-  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=get_file_properties#setuphelpers.properties
+  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=mkdirs#setuphelpers.mkdirs
 
 Command :command:`remove_tree` ...
 
@@ -68,7 +68,7 @@ Command :command:`remove_tree` ...
   For more informations or to learn more on arguments on that function,
   please visit official Setuphelpers reference documentation:
 
-  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=remove_tree#setuphelpers.remove_treee
+  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=remove_tree#setuphelpers.remove_tree
 
 Checking if a path is a file or a folder
 ++++++++++++++++++++++++++++++++++++++++
@@ -87,7 +87,7 @@ Command :command:`isdir` ...
   For more informations or to learn more on arguments on that function,
   please visit official Setuphelpers reference documentation:
 
-  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=get_file_properties#setuphelpers.propertiesr
+  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=isdir#setuphelpers.isdir
 
 Command :command:`isfile` ...
 
@@ -103,7 +103,7 @@ Command :command:`isfile` ...
   For more informations or to learn more on arguments on that function,*
   please visit official Setuphelpers reference documentation:
 
-  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=get_file_properties#setuphelpers.properties
+  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=isfile#setuphelpers.isfile
 
 Check if a directory is empty
 +++++++++++++++++++++++++++++
@@ -122,7 +122,7 @@ Command :command:`dir_is_empty` ...
   For more informations or to learn more on arguments on that function,
   please visit official Setuphelpers reference documentation:
 
-  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=get_file_properties#setuphelpers.properties
+  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=dir_is_empty#setuphelpers.dir_is_empty
 
 Copying a file
 ++++++++++++++
@@ -141,7 +141,7 @@ directory.
   For more informations or to learn more on arguments on that function,
   please visit official Setuphelpers reference documentation:
 
-  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=get_file_properties#setuphelpers.properties
+  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=filecopyto#setuphelpers.filecopyto
 
 Copying a directory
 +++++++++++++++++++
@@ -160,7 +160,7 @@ the :file:`C:\\projet` directory.
   For more informations or to learn more on arguments on that function,
   please visit official Setuphelpers reference documentation:
 
-  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=get_file_properties#setuphelpers.properties
+  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=copytree2#setuphelpers.copytree2
 
 Retrieving the version of a file
 ++++++++++++++++++++++++++++++++
@@ -178,7 +178,7 @@ Command :command:`get_file_properties` ...
   For more informations or to learn more on arguments on that function,
   please visit official Setuphelpers reference documentation:
 
-  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=get_file_properties#setuphelpers.properties
+  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=get_file_properties#setuphelpers.get_file_properties
 
 Manipulating registry keys
 --------------------------
@@ -345,7 +345,7 @@ Command :command:`windows_version` ...
 
   https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=windows_version#setuphelpers.windows_version
 
-  Visit also `Microsoft Windows version number <https://msdn.microsoft.com/fr-fr/library/windows/desktop/ms7248322>`_.
+  Visit also `Microsoft Windows version number <https://docs.microsoft.com/en-us/windows/win32/sysinfo/operating-system-version>`_.
 
 iswin64
 +++++++
@@ -366,7 +366,7 @@ Command :command:`iswin64` ...
   For more informations or to learn more on arguments on that function,
   please visit official Setuphelpers reference documentation:
 
-  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=get_file_properties#setuphelpers.properties
+  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=iswin64#setuphelpers.iswin64
 
 programfiles/ programfiles32/ programfiles64
 ++++++++++++++++++++++++++++++++++++++++++++
@@ -415,7 +415,7 @@ of logged on user (:file:`C:\\Users\\%username%\\AppData\\Roaming`).
   For more informations or to learn more on arguments on that function,
   please visit official Setuphelpers reference documentation:
 
-  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=get_file_properties#setuphelpers.propertiesser_appdata
+  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=user_appdata#setuphelpers.user_appdata
 
 Command :command:`user_local_appdata` ...
 
@@ -431,7 +431,7 @@ of the logged on user (:file:`C:\\Users\\%username%\\AppData\\Local`).
   For more informations or to learn more on arguments on that function,
   please visit official Setuphelpers reference documentation:
 
-  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=user_appdata#setuphelpers.user_appdatalocal_appdata
+  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=user_local_appdata#setuphelpers.user_local_appdata
 
 disable_file_system_redirection
 +++++++++++++++++++++++++++++++
@@ -448,7 +448,7 @@ Command :command:`disable_file_system_redirection` ...
   For more informations or to learn more on arguments on that function,
   please visit official Setuphelpers reference documentation:
 
-  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=user_local_appdata#setuphelpers.user_local_appdatable_file_system_redirection
+  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=disable_file_system_redirection#setuphelpers.disable_file_system_redirection
 
 Disable wow3264 redirection in the current context
 
@@ -468,7 +468,7 @@ Command :command:`get_current_user` ...
   For more informations or to learn more on arguments on that function,
   please visit official Setuphelpers reference documentation:
 
-  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=get_file_properties#setuphelpers.properties
+  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=get_current_user#setuphelpers.get_current_user
 
 Command :command:`get_computername` ...
 
@@ -483,7 +483,7 @@ Command :command:`get_computername` ...
   For more informations or to learn more on arguments on that function,
   please visit official Setuphelpers reference documentation:
 
-  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=get_file_properties#setuphelpers.properties
+  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=get_computername#setuphelpers.get_computername
 
 Command :command:`get_domain_fromregistry` ...
 
@@ -498,7 +498,7 @@ Command :command:`get_domain_fromregistry` ...
   For more informations or to learn more on arguments on that function,
   please visit official Setuphelpers reference documentation:
 
-  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=get_computername#setuphelpers.get_computernamein_fromregistry
+  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=get_domain_fromregistry#setuphelpers.get_domain_fromregistry
 
 installed_softwares/ uninstall_cmd
 ----------------------------------
@@ -524,7 +524,7 @@ from registry in an array.
   For more informations or to learn more on arguments on that function,
   please visit official Setuphelpers reference documentation:
 
-  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=get_domain_fromregistry#setuphelpers.get_domain_fromregistry
+  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=installed_softwares#setuphelpers.installed_softwares
 
 uninstalll_cmd
 ++++++++++++++
@@ -546,7 +546,7 @@ Command :command:`uninstall_cmd` ...
   For more informations or to learn more on arguments on that function,
   please visit official Setuphelpers reference documentation:
 
-  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=get_file_properties#setuphelpers.properties
+  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=uninstall_cmd#setuphelpers.uninstall_cmd
 
 uninstalling software
 +++++++++++++++++++++
@@ -588,7 +588,7 @@ Command :command:`killalltasks` ...
   For more informations or to learn more on arguments on that function,
   please visit official Setuphelpers reference documentation:
 
-  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=get_file_properties#setuphelpers.propertiesillalltasks
+  https://www.wapt.fr/en/api-doc-1.5/source/setuphelpers.html?highlight=killalltasks#setuphelpers.killalltasks
 
 Using control file fields
 +++++++++++++++++++++++++

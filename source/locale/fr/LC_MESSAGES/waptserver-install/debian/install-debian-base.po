@@ -143,7 +143,6 @@ msgstr ""
 ":code:`reboot` ;"
 
 #: /home/agauvrit/projects/doc-wapt/source/waptserver-install/debian/install-debian-base.rst:83
-#, fuzzy
 msgid ""
 "if it has not already been done, create the DNS entry for the WAPT Server"
 " in the :term:`Organization`'s Active Directory;"

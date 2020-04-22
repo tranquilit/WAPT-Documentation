@@ -27,7 +27,7 @@ Using WAPT Windows Update Agent (WAPTWUA)
   * the internals of WAPTWUA is based on the :abbr:`WUA (Windows Update Agent)`
     API;
 
-  * for more information: https://docs.microsoft.com/en-us/windows/desktop/wua_sdk/using-the-windows-update-agent-api;
+  * for more information: https://docs.microsoft.com/en-us/windows/win32/wua_sdk/using-the-windows-update-agent-api;
 
 Working principle
 -----------------

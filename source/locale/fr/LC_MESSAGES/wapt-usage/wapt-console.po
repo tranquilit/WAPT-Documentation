@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 19:22+0100\n"
+"POT-Creation-Date: 2020-04-22 17:53+0200\n"
 "PO-Revision-Date: 2020-03-26 12:29+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
@@ -11,483 +11,492 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
-"Language: fr\n"
-"X-Generator: Poedit 2.0.6\n"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:8
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:15
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:8
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:15
 msgid "Using the WAPT console"
 msgstr "Utiliser la console WAPT"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:8
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:8
 msgid "WAPT, console, documentation"
 msgstr "WAPT, console, documentation"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:18
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:18
 msgid "Installing the WAPT agent on the devices in your Organization"
 msgstr "Installer l'agent WAPT sur les postes utilisateur de votre Organisation"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:20
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:20
 msgid "If you have not done so already, install the WAPT agent on a computer."
 msgstr ""
 "Si vous ne l'avez pas déjà fait, installer l'agent WAPT sur un poste "
 "utilisateur."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:22
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:22
 msgid ""
-"The installation of the WAPT agent on computers will register them on the WAPT "
-"inventory server."
+"The installation of the WAPT agent on computers will register them on the"
+" WAPT inventory server."
 msgstr ""
-"L'installation de l'agent WAPT sur un client va enclencher l'enregistrement du "
-"client dans l'inventaire du serveur WAPT."
+"L'installation de l'agent WAPT sur un client va enclencher "
+"l'enregistrement du client dans l'inventaire du serveur WAPT."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:25
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:25
 msgid "The hosts will then appear in the WAPT console."
 msgstr "Le client apparaîtra alors dans la console WAPT."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:27
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:27
 msgid ""
-"To install the WAPT agent manually on a computer, download the WAPT agent from "
-"https://wapt_server/wapt/waptagent.exe then launch its installation."
+"To install the WAPT agent manually on a computer, download the WAPT agent"
+" from https://srvwapt.mydomain.lan/wapt/waptagent.exe then launch its "
+"installation."
 msgstr ""
-"Pour installer l'agent WAPT manuellement sur un poste client, télécharger "
-"l'agent WAPT : https://wapt/wapt/waptagent.exe puis lancer son installation."
+"Pour installer l'agent WAPT manuellement sur un poste client, télécharger"
+" l'agent WAPT : https://srvwapt.mydomain.lan/wapt/waptagent.exe puis lancer son "
+"installation."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:34
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:34
 msgid "Download the WAPT agent to be deployed on computers"
 msgstr "Télécharger l'agent WAPT à déployer sur les clients"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:38
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:38
 msgid ""
 "If you have skipped the step for creating the WAPT agent, return to the "
 "documentation on :ref:`installing the WAPT agent <install_waptagent>`."
 msgstr ""
 "Si vous avez sauté l'étape de création de l'agent WAPT, visitez la "
-"documentation pour :ref:`créer et déployer l'agent WAPT <install_waptagent>`."
+"documentation pour :ref:`créer et déployer l'agent WAPT "
+"<install_waptagent>`."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:41
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:41
 msgid "On your **management computer**, hosts are displayed in the WAPT console."
 msgstr ""
-"Sur votre **poste de management**, dans la console :program:`waptconsole.exe` "
-"doit apparaître le client dans la console."
+"Sur votre **poste de management**, dans la console "
+":program:`waptconsole.exe` doit apparaître le client dans la console."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:47
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:47
 msgid "Inventory of hosts registered with WAPT"
 msgstr "Inventaire des clients enregistrés dans WAPT"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:51
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:51
 msgid ""
 "If a host does not appear in the console after having installed the WAPT "
-"agent, open the Windows command line utility :program:`cmd.exe` on the host "
-"and type :command:`wapt-get register`."
+"agent, open the Windows command line utility :program:`cmd.exe` on the "
+"host and type :command:`wapt-get register`."
 msgstr ""
 "Si le poste ne remonte pas directement dans la console à l'issue de "
-"l'installation de l'agent, taper manuellement la commande ``wapt-get register -"
-"S`` sur le client."
+"l'installation de l'agent, taper manuellement la commande ``wapt-get "
+"register -S`` sur le client."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:56
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:56
 msgid "Duplicating packages from external repositories"
 msgstr "Dupliquer des paquets"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:63
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:63
 msgid "Package duplication principles"
 msgstr "Principe de duplication de paquets"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:65
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:65
 msgid "Duplicating a WAPT package consists of:"
 msgstr "La duplication consiste à :"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:67
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:67
 msgid "importing an existing WAPT package from an external repository;"
 msgstr "importer un paquet WAPT existant depuis un dépôt externe ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:69
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:69
 msgid "changing its prefix (for example from *tis* to *test*);"
 msgstr "changer le préfixe (par exemple de *tis* à *test*) ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:71
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:71
 msgid ""
-"resigning the WAPT package with the :term:`Administrator`'s private key to "
-"allow the deployment of the duplicated package on your WAPT equipped hosts;"
+"resigning the WAPT package with the :term:`Administrator`'s private key "
+"to allow the deployment of the duplicated package on your WAPT equipped "
+"hosts;"
 msgstr ""
 "re-signer le paquet avec votre clé privée d':term:`Administrateur` pour "
 "permettre le déploiement du paquet dupliqué sur vos postes clients ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:74
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:74
 msgid "finally, uploading it on the main WAPT repository;"
 msgstr "et enfin, uploader celui-ci sur votre dépôt WAPT ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:78
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:78
 msgid ""
-"By importing a package in your repository and signing it, you then become "
-"responsible for that package and for what it does. **It has been signed with "
-"your own private key**."
+"By importing a package in your repository and signing it, you then become"
+" responsible for that package and for what it does. **It has been signed "
+"with your own private key**."
 msgstr ""
 "En important un paquet dans votre dépôt, vous devenez responsable de ce "
 "paquet. **Il est signé avec votre signature**."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:82
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:82
 msgid ""
-"**Tranquil IT** disclaims any liability if you choose to use WAPT packages "
-"retrieved from her repositories. Without a support contract, Tranquil IT does "
-"not guarantee the suitability of the package for your own particular use case, "
-"nor do they guarantee the ability of the package to comply with your :term:"
-"`Organization`'s internal security policies."
+"**Tranquil IT** disclaims any liability if you choose to use WAPT "
+"packages retrieved from her repositories. Without a support contract, "
+"Tranquil IT does not guarantee the suitability of the package for your "
+"own particular use case, nor do they guarantee the ability of the package"
+" to comply with your :term:`Organization`'s internal security policies."
 msgstr ""
-"**Tranquil IT** décline toute responsabilité si vous utilisez des paquets WAPT "
-"récupérés depuis ses dépôts. Sans contrat de support, elle n'offre aucune "
-"garantie sur l'adéquation du paquet à votre usage ou la capacité du paquet à "
-"être conforme à aux politiques internes de sécurité de votre :term:"
-"`Organisation`."
+"**Tranquil IT** décline toute responsabilité si vous utilisez des paquets"
+" WAPT récupérés depuis ses dépôts. Sans contrat de support, elle n'offre "
+"aucune garantie sur l'adéquation du paquet à votre usage ou la capacité "
+"du paquet à être conforme à aux politiques internes de sécurité de votre "
+":term:`Organisation`."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:88
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:88
 msgid "go to the :guilabel:`Private repository` tab;"
 msgstr "se rendre dans l'onglet :guilabel:`Dépôt privé` ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:94
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:94
 msgid "Available software displayed in the WAPT console"
 msgstr "Logiciels disponibles dans les dépôts dans la console WAPT"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:96
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:96
 msgid "Every software package version available on the WAPT repository is shown."
 msgstr "On obtient tous les paquets logiciels présents sur le dépôt WAPT."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:98
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:98
 msgid ""
 "If no package has been imported, the list is empty. Only the *test-"
-"waptupgrade* package will be present if the WAPT agent has been generated "
-"previously. Visit the documentation on :ref:`creating a WAPT agent "
+"waptupgrade* package will be present if the WAPT agent has been generated"
+" previously. Visit the documentation on :ref:`creating a WAPT agent "
 "<create_WAPT_agent>`."
 msgstr ""
-"Si aucun paquet n'a été importé, cette liste sera vide. Seul le paquet *test-"
-"waptupgrade* sera présent si l'agent WAPT a été généré précédemment. "
-"Consultez la documentation pour :ref:`créer un agent "
-"WAPT <create_WAPT_agent>`."
+"Si aucun paquet n'a été importé, cette liste sera vide. Seul le paquet "
+"*test-waptupgrade* sera présent si l'agent WAPT a été généré "
+"précédemment. Consultez la documentation pour :ref:`créer un agent WAPT "
+"<create_WAPT_agent>`."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:102
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:102
 msgid "Two options are available to import packages:"
 msgstr "Deux possibilités existent pour importer des paquets :"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:105
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:105
 msgid "Import a package from an external repository on the Internet"
 msgstr "Importer depuis internet"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:107
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:107
 msgid ""
 "That first method allows you to download packages directly from a WAPT "
 "repository external to your :term:`Organization`."
 msgstr ""
-"Cette première méthode permet de télécharger des paquets directement depuis un "
-"dépôt WAPT extérieur à votre :term:`Organisation`."
+"Cette première méthode permet de télécharger des paquets directement "
+"depuis un dépôt WAPT extérieur à votre :term:`Organisation`."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:110
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:110
 msgid ""
 "To import from a different repository than Tranquil IT, define a new "
-"repository address in the WAPT console preferences. For example: http://wapt."
-"otherorganization.com/wapt/."
+"repository address in the WAPT console preferences. For example: "
+"http://wapt.otherorganization.com/wapt/."
 msgstr ""
-"Pour importer depuis un dépôt différent de celui de Tranquil IT, indiquer dans "
-"les préférences l'adresse d'un autre dépôt WAPT. Par exemple : https://wapt."
-"autredomaine.local/wapt/."
+"Pour importer depuis un dépôt différent de celui de Tranquil IT, indiquer"
+" dans les préférences l'adresse d'un autre dépôt WAPT. Par exemple : "
+"https://wapt.autredomaine.local/wapt/."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:116
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:116
 msgid ""
-"If no repository is set, the repository https://wapt.tranquil.it/wapt will be "
-"implicitly set."
+"If no repository is set, the repository https://wapt.tranquil.it/wapt "
+"will be implicitly set."
 msgstr ""
-"Si aucun dépôt n'est renseigné, la valeur https://wapt.tranquil.it/wapt sera "
-"la valeur implicite."
+"Si aucun dépôt n'est renseigné, la valeur https://wapt.tranquil.it/wapt "
+"sera la valeur implicite."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:119
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:119
 msgid ""
-"Starting with WAPT 1.3.12.13, **external repository SSL/ TLS certificates are "
-"verified by default**."
+"Starting with WAPT 1.3.12.13, **external repository SSL/ TLS certificates"
+" are verified by default**."
 msgstr ""
-"A partir de la version 1.3.12.13, la vérification de la validité du certificat "
-"SSL / TLS du dépôt extérieur est **activée par défaut**."
+"A partir de la version 1.3.12.13, la vérification de la validité du "
+"certificat SSL / TLS du dépôt extérieur est **activée par défaut**."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:122
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:122
 msgid "click on :guilabel:`Import from Internet`;"
 msgstr "cliquer sur :guilabel:`Importer` depuis internet ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:128
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:128
 msgid "Import a package from Internet"
 msgstr "Importer un paquet depuis internet"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:130
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:130
 msgid ""
-"The grid view displays the list of available packages on the remote repository."
+"The grid view displays the list of available packages on the remote "
+"repository."
 msgstr "La liste affiche les paquets disponibles sur le serveur distant."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:132
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:132
 msgid ""
-"to import a package, select a package then :menuselection:`Right-click --> "
-"Import`;"
+"to import a package, select a package then :menuselection:`Right-click "
+"--> Import`;"
 msgstr ""
-"pour importer un paquet, sélectionner un paquet puis :menuselection:`clic-"
-"droit --> importer` ;"
+"pour importer un paquet, sélectionner un paquet puis :menuselection"
+":`clic-droit --> importer` ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:139
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:262
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:139
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:262
 msgid "Imported WAPT package in your local WAPT repository"
 msgstr "Importer un paquet dans le dépôt"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:141
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:141
 msgid "validate the duplication in your local repository;"
 msgstr "valider la duplication dans le dépôt local ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:147
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:147
 msgid "Confirm the duplication of the package"
 msgstr "Confirmer la duplication du paquet"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:149
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:149
 msgid "click on :guilabel:`Yes` to confirm the duplication;"
 msgstr "cliquer sur :guilabel:`Oui` pour confirmer ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:151
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:151
 msgid "the download of the package starts ..."
 msgstr "le téléchargement démarre ..."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:157
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:157
 msgid "Progress of the package duplication process"
 msgstr "Progression de la duplication du paquet"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:159
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:159
 msgid "then, enter your private key password..."
 msgstr "entrer le mot de passe de votre clé privée..."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:165
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:165
 msgid "Enter the password for unlocking the private key"
 msgstr "Entrer le mot de passe de la clé privée"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:167
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:246
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:167
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:246
 msgid ""
-"The WAPT console confirms that the package has been duplicated in your local "
-"WAPT repository."
+"The WAPT console confirms that the package has been duplicated in your "
+"local WAPT repository."
 msgstr "La console confirme la duplication du paquet dans le dépôt WAPT local."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:174
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:174
 msgid "Confirmation of successful duplication"
 msgstr "Confirmation de la réussite de la duplication"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:176
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:255
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:176
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:255
 msgid ""
 "The package then appears in your local WAPT repository with your "
 "Organization's prefix."
 msgstr ""
-"Le paquet apparaît bien dans le dépôt WAPT local avec le préfixe de votre "
-"Organisation."
+"Le paquet apparaît bien dans le dépôt WAPT local avec le préfixe de votre"
+" Organisation."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:183
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:183
 msgid "WAPT console displaying the duplicated package"
 msgstr "Console WAPT affichant le paquet dupliqué"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:187
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:187
 msgid ""
 "If the verification of the package signature is enabled, the public "
-"certificate of the signer must be located in one of the following folders:"
+"certificate of the signer must be located in one of the following "
+"folders:"
 msgstr ""
-"Si la vérification de la signature du paquet lors de l'import depuis Internet "
-"est activée, le certificat public doit être présent dans un des dossiers "
-"suivants :"
+"Si la vérification de la signature du paquet lors de l'import depuis "
+"Internet est activée, le certificat public doit être présent dans un des "
+"dossiers suivants :"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:190
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:190
 msgid ":file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl`;"
 msgstr ":file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl`·;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:192
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:192
 msgid ":file:`%appdata%\\\\waptconsole\\\\ssl`;"
 msgstr ":file:`%appdata%\\\\waptconsole\\\\ssl` ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:194
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:194
 msgid ""
 "If the certificate is not found in one of these two folders, then the "
 "following error will occur and the package will not be imported."
 msgstr ""
-"Si ce n'est pas le cas, l'erreur suivante se produira et empêchera l'import du "
-"paquet depuis ce dépôt."
+"Si ce n'est pas le cas, l'erreur suivante se produira et empêchera "
+"l'import du paquet depuis ce dépôt."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:201
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:201
 msgid "Error while validating the signature of the external repository"
 msgstr "Erreur lors de la validation de la signature du dépôt extérieur"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:204
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:204
 msgid "Editing a package before importing it"
 msgstr "Editer un paquet avant de l'importer"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:206
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:206
 msgid ""
-"Starting with WAPT 1.3.12.13, it is now possible to edit a package downloaded "
-"from an external repository before importing it in your main WAPT repository."
+"Starting with WAPT 1.3.12.13, it is now possible to edit a package "
+"downloaded from an external repository before importing it in your main "
+"WAPT repository."
 msgstr ""
 "Avec la sortie de WAPT 1.3.12.13, il est désormais possible d'éditer "
-"directement un paquet depuis le dépôt externe avant de l'importer dans le "
-"dépôt local."
+"directement un paquet depuis le dépôt externe avant de l'importer dans le"
+" dépôt local."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:209
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:209
 msgid ""
-"To achieve this, choose instead the second option :guilabel:`Download and "
-"Edit` to import the package from an external WAPT repository."
+"To achieve this, choose instead the second option :guilabel:`Download and"
+" Edit` to import the package from an external WAPT repository."
 msgstr ""
-"Pour cela, choisir la deuxième option :guilabel:`Télécharger et éditer` lors "
-"de l'import du paquet depuis Internet."
+"Pour cela, choisir la deuxième option :guilabel:`Télécharger et éditer` "
+"lors de l'import du paquet depuis Internet."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:216
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:216
 msgid "Process for importing and editing a package"
 msgstr "Procédure pour télécharger et éditer un paquet"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:218
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:218
 msgid ":program:`PyScripter`, if installed, opens the WAPT package."
 msgstr ""
-"L'éditeur :program:`PyScripter`, si installé au préalable, s'ouvre alors avec "
-"le projet WAPT du paquet."
+"L'éditeur :program:`PyScripter`, si installé au préalable, s'ouvre alors "
+"avec le projet WAPT du paquet."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:220
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:220
 msgid ""
-"Please refer to the documentation on :ref:`creating WAPT packages from scratch "
-"<creating_WAPT_packages>`."
+"Please refer to the documentation on :ref:`creating WAPT packages from "
+"scratch <creating_WAPT_packages>`."
 msgstr ""
 "Voir la documentation pour savoir comment :ref:`créer des paquets WAPT "
 "<creating_WAPT_packages>`."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:224
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:224
 msgid "Importing a WAPT package from a file"
 msgstr "Importer depuis un fichier"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:226
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:226
 msgid ""
-"That second method allows you to import a :file:`.wapt` file from any medium."
+"That second method allows you to import a :file:`.wapt` file from any "
+"medium."
 msgstr ""
-"Cette deuxième méthode permet d'indiquer un fichier :file:`.wapt` stocké sur "
-"n'importe quel support."
+"Cette deuxième méthode permet d'indiquer un fichier :file:`.wapt` stocké "
+"sur n'importe quel support."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:228
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:228
 msgid "click on :guilabel:`Import from File`;"
 msgstr "cliquer sur :guilabel:`Importer` depuis un fichier ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:234
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:234
 msgid "Import from a file"
 msgstr "Importer à partir d'un fichier"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:236
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:236
 msgid "select the file to import;"
 msgstr "sélectionner le fichier pour l'importer ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:242
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:242
 msgid "Select the file to import"
 msgstr "Sélectionner le fichier à importer"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:244
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:244
 msgid "click on :guilabel:`Open` to import the file;"
 msgstr "cliquer sur :guilabel:`Ouvrir` pour importer le fichier ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:253
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:253
 msgid "File imported successfully"
 msgstr "Importation du fichier réussie"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:265
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:265
 msgid "Changing the prefix and re-signing a WAPT package"
 msgstr "Changer le préfixe et re-signer le paquet"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:267
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:267
 msgid ""
-"When importing, the changing of the prefix and the re-signing of the WAPT "
-"package are transparent and automatic."
+"When importing, the changing of the prefix and the re-signing of the WAPT"
+" package are transparent and automatic."
 msgstr ""
 "Lors d'un import, le changement de préfixe et la re-signature sont "
 "transparents et automatiques."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:270
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:270
 msgid ""
-"Once the package is ready, the WAPT package is uploaded onto the main WAPT "
-"repository."
+"Once the package is ready, the WAPT package is uploaded onto the main "
+"WAPT repository."
 msgstr ""
-"Une fois que le paquet est prêt, il est transféré vers le dépôt WAPT local."
+"Une fois que le paquet est prêt, il est transféré vers le dépôt WAPT "
+"local."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:274
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:274
 msgid "Deploying WAPT packages from the WAPT console"
 msgstr "Déployer des paquets depuis la console"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:276
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:276
 msgid "edit the host onto which you want to deploy a WAPT package;"
 msgstr "éditer le poste sur lequel le logiciel sera déployé ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:280
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:280
 msgid ""
-"Selecting multiple hosts using common shortcut keys :kbd:`Control-A` or :kbd:"
-"`Shift-Arrow` is possible."
+"Selecting multiple hosts using common shortcut keys :kbd:`Control-A` or "
+":kbd:`Shift-Arrow` is possible."
 msgstr ""
-"La sélection multiple en utilisant les touches habituelles :kbd:`Control-A` :"
-"kbd:`Shift-Flèche` est possible."
+"La sélection multiple en utilisant les touches habituelles "
+":kbd:`Control-A` :kbd:`Shift-Flèche` est possible."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:287
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:287
 msgid "Select the host to configure"
 msgstr "Sélectionner le poste à configurer"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:289
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:289
 msgid ""
-"A window opens, on the right side appears the list of packages available on "
-"the local WAPT repository, and on the left side it shows the list of packages "
-"currently assigned to the host."
+"A window opens, on the right side appears the list of packages available "
+"on the local WAPT repository, and on the left side it shows the list of "
+"packages currently assigned to the host."
 msgstr ""
-"Une fenêtre s'ouvre, à droite apparaît la liste des paquets disponibles sur le "
-"dépôt WAPT local et à gauche la liste des paquets actuellement attribués au "
-"poste."
+"Une fenêtre s'ouvre, à droite apparaît la liste des paquets disponibles "
+"sur le dépôt WAPT local et à gauche la liste des paquets actuellement "
+"attribués au poste."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:293
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:293
 msgid "drag and drop packages from the right pane to the left pane;"
 msgstr ""
-"glisser-déposer le paquet souhaité depuis l'encart de droite vers l'encart de "
-"gauche ;"
+"glisser-déposer le paquet souhaité depuis l'encart de droite vers "
+"l'encart de gauche ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:299
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:299
 msgid "Drag and drop the package on the host or the selection of hosts"
 msgstr "Glisser-déposer le paquet sur le poste ou la sélection de postes"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:301
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:301
 msgid ""
-"clicking on :guilabel:`Save and Apply to hosts` will launch the installation "
-"of the package(s) immediately on the selected host(s) that are connected to "
-"the WAPT Server;"
+"clicking on :guilabel:`Save and Apply to hosts` will launch the "
+"installation of the package(s) immediately on the selected host(s) that "
+"are connected to the WAPT Server;"
 msgstr ""
 "cliquer sur :guilabel:`Enregistrer et Appliquer à la machine` lance "
 "immédiatement l'installation sur le poste concerné ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:305
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:305
 msgid ""
-"clicking on :guilabel:`Save` will save the current configuration. Upgrading of "
-"the packages will occur during the WAPT agents' next update cycle;"
+"clicking on :guilabel:`Save` will save the current configuration. "
+"Upgrading of the packages will occur during the WAPT agents' next update "
+"cycle;"
 msgstr ""
-"cliquer sur :guilabel:`Enregistrer` pour enregistre la nouvelle configuration. "
-"La mise à jour sera appliquée au prochain cycle de mises à jour de l'agent "
-"WAPT ;"
+"cliquer sur :guilabel:`Enregistrer` pour enregistre la nouvelle "
+"configuration. La mise à jour sera appliquée au prochain cycle de mises à"
+" jour de l'agent WAPT ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:313
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:313
 msgid "Save and apply configuration on selected host(s)"
 msgstr "Enregistrer et appliquer la configuration à la machine"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:319
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:319
 msgid "Update launched"
 msgstr "Mise à jour lancée"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:321
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:321
 msgid ""
-"To launch the installation of WAPT packages, click successively on :guilabel:"
-"`Update available packages` then :guilabel:`Apply updates`."
+"To launch the installation of WAPT packages, click successively on "
+":guilabel:`Update available packages` then :guilabel:`Apply updates`."
 msgstr ""
-"Pour lancer l'installation des paquets, cliquer successivement sur :guilabel:"
-"`Lancer la mise à jour des paquets disponibles` puis :guilabel:`Lancer "
-"l'installation des paquets`."
+"Pour lancer l'installation des paquets, cliquer successivement sur "
+":guilabel:`Lancer la mise à jour des paquets disponibles` puis "
+":guilabel:`Lancer l'installation des paquets`."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:328
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:328
 msgid "Applying updates"
 msgstr "Lancer la mise à jour des paquets disponibles"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-console.rst:330
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-console.rst:330
 msgid ""
-"The installation of the WAPT package(s) is launched on the selected host(s) "
-"connected to the WAPT Server."
+"The installation of the WAPT package(s) is launched on the selected "
+"host(s) connected to the WAPT Server."
 msgstr ""
-"L'installation du paquet WAPT se lance sur le poste ou les postes sélectionnés."
+"L'installation du paquet WAPT se lance sur le poste ou les postes "
+"sélectionnés."

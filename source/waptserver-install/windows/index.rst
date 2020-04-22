@@ -49,7 +49,7 @@ Asked Questions <wapt_faq>`.
   * the WAPT Server may be installed on **64bit only** Windows 7, 8.1, 10
     and Windows Server 2008/R2, 2012/R2, 2016 and 2019;
 
-* download and execute `waptserversetup.exe <http://wapt.tranquil.it/wapt/releases/latest/waptserversetup.exe>`_;
+* download and execute `waptserversetup.exe <https://wapt.tranquil.it/wapt/releases/latest/waptserversetup.exe>`_;
 
 * choose the installation language;
 

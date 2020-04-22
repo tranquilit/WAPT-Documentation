@@ -24,7 +24,7 @@ The second one is automated and relies on a :abbr:`GPO (Group Policy Objects)`.
 .. note::
 
   The :program:`waptagent.exe` installer is available at
-  http://<wapt.mydomain.lan>/wapt/waptagent.exe.
+  https://srvwapt.mydomain.lan/wapt/waptagent.exe.
 
   If you do not sign the :program:`waptagent.exe` installer with a commercial
   ``Code Signing`` certificate or a ``Code Signing`` certificate issued
@@ -202,7 +202,7 @@ Settings                    Value                                               
   you'll just have to recreate a :program:`waptagent`.
 
   To learn more about the options available with *InnoSetup*, visit
-  `this documentation <http://www.jrsoftware.org/ishelp/index.php?topic=setupcmdline.us>`_.
+  `this documentation <https://jrsoftware.org/ishelp/index.php?topic=setupcmdline.us>`_.
 
 With waptdeploy
 """""""""""""""
@@ -233,7 +233,7 @@ Creating a GPO to deploy the WAPT agents
 ++++++++++++++++++++++++++++++++++++++++
 
 Download :file:`waptdeploy.exe` by visiting:
-http://wapt.tranquil.it/wapt/releases/latest/waptdeploy.exe.
+https://wapt.tranquil.it/wapt/releases/latest/waptdeploy.exe.
 
 Creating the GPO
 """"""""""""""""
@@ -296,7 +296,7 @@ Passing arguments
 
   Parameters and :program:`waptagent.exe` checksum to use
   for the *waptdeploy* GPO are available on the WAPT Server by visiting
-  https://wapt.mydomain.lan.
+  https://srvwapt.mydomain.lan.
 
   .. figure:: waptdeploy-copy-parameters.png
     :align: center
@@ -334,7 +334,7 @@ Additional arguments available for waptdeploy
 Settings            Value                                                                Description
 =================== ==================================================================== ================================================================================================
 ``--force``                                                                              Forces the installation of :program:`waptagent.exe` even if the WAPT agent is already installed
-``--waptsetupurl``  https://wapt/wapt/waptagent.exe                                      Gives explicitly the WAPT agent URL/path to use to download the WAPT agent
+``--waptsetupurl``  https://srvwapt.mydomain.lan/wapt/waptagent.exe                      Gives explicitly the WAPT agent URL/path to use to download the WAPT agent
 ``--tasks``         autorunTray,installService,installredist2008,autoUpgradePolicy       Sets :program:`waptagent` installation tasks
 ``--wait``          10                                                                   Timeout for installing the WAPT agent.
 ``--setupargs=``    /dnsdomain=mydomain.lan /wapt_server= /repo_url=                     Passing additional parameters to :program:`waptagent`
@@ -342,7 +342,7 @@ Settings            Value                                                       
 
 .. code-block:: bash
 
-  --hash="43254648348435423486"--minversion=1.5.1.23 --waptsetupurl=http://srvwapt.mydomain.lan/waptagent.exe --wait=10
+  --hash="43254648348435423486"--minversion=1.8.1 --waptsetupurl=http://srvwapt.mydomain.lan/wapt/waptagent.exe --wait=10
 
 Launching waptdeploy with a scheduled task
 ++++++++++++++++++++++++++++++++++++++++++

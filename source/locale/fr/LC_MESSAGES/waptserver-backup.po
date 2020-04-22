@@ -101,7 +101,6 @@ msgid "Backing up the WAPT Server on Windows"
 msgstr "Sauvegarder le serveur WAPT sur Windows"
 
 #: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/waptserver-backup.rst:118
-#, fuzzy
 msgid ""
 "backup the WAPT repository folder "
 ":file:`C:\\\\wapt\\\\waptserver\\\\repository` and :file:`C:\\\\wapt` and"
@@ -121,7 +120,6 @@ msgid "Restoring the WAPT Server on Windows"
 msgstr "Restaurer le serveur WAPT sur Windows"
 
 #: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/waptserver-backup.rst:134
-#, fuzzy
 msgid ""
 "restore the following directories "
 ":file:`C:\\\\wapt\\\\waptserver\\\\repository` and :file:`C:\\\\wapt` and"

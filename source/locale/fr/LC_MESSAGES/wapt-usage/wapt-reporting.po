@@ -163,13 +163,12 @@ msgid "Query examples"
 msgstr "Exemples de requêtes"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-reporting.rst:86
-#, fuzzy
 msgid "Computers query"
-msgstr "Liste des ordinateurs :"
+msgstr "Requêtes ordinateurs :"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-reporting.rst:88
 msgid "Number of hosts"
-msgstr ""
+msgstr "Nombre de postes"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-reporting.rst:94
 msgid "Computers list:"
@@ -185,63 +184,61 @@ msgstr "versions de Windows:"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-reporting.rst:121
 msgid "Lists OS diversity"
-msgstr ""
+msgstr "Lister les différents OS"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-reporting.rst:127
 msgid "List hosts not seen in a while"
-msgstr ""
+msgstr "Lister les postes inactife depuis longtemps"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-reporting.rst:138
 msgid "Filter hosts by Chassis types"
-msgstr ""
+msgstr "Filter les hotes par type de Chassis"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-reporting.rst:156
 msgid "List hosts with their Windows Serial Key"
-msgstr ""
+msgstr "Lister les hotes avec leur numéro de série Windows"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-reporting.rst:164
 msgid "WAPT query"
-msgstr ""
+msgstr "Requêtes WAPT"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-reporting.rst:166
 msgid "List WAPT Packages in WAPT server repository"
-msgstr ""
+msgstr "Lister les paquets WAPT du serveur"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-reporting.rst:174
 msgid "List hosts needing upgrade"
-msgstr ""
+msgstr "Lister les hotes nécessitant une mise à jour"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-reporting.rst:187
 msgid "Packages query"
-msgstr ""
+msgstr "Requêtes paquets"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-reporting.rst:189
 msgid "List packages with their number of installation"
-msgstr ""
+msgstr "Lister les paquets avec leur nombre d'installation"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-reporting.rst:200
 msgid "Software query"
-msgstr ""
+msgstr "Requêtes logicielles"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-reporting.rst:202
 msgid "WAPT Community agents"
-msgstr ""
+msgstr "Agent WAPT Community"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-reporting.rst:213
 msgid "List hosts with their 7zip version associated"
-msgstr ""
+msgstr "Lister les hotes avec la version de 7zip associée"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-reporting.rst:222
 msgid "List hosts with their softwares"
-msgstr ""
+msgstr "Lister les hotes avec leur logiciels"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-reporting.rst:235
-#, fuzzy
 msgid "List normalized softwares"
 msgstr "Normaliser les noms d'un logiciel"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-reporting.rst:248
-#, fuzzy
 msgid ""
 "You can also find several more examples of queries on `Tranquil IT's "
 "Forum "
@@ -250,21 +247,14 @@ msgstr ""
 "Vous pouvez également trouver plusieurs autres exemples de requêtes sur "
 "le forum de `Tranquil IT "
 "<https://forum.tranquil.it/viewforum.php?f=18&sid=b2a0081dd9a8adb5c57386974d691c6d>`_."
-" N'hésitez pas à poster vos propres requêtes sur le même forum avec une "
-"explication de ce que fait votre requête, idéalement avec une capture "
-"d'écran ou un tableau montrant un échantillon du résultat de votre "
-"requête."
+
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-reporting.rst:251
-#, fuzzy
 msgid ""
 "Feel free to post your own queries on the same forum with an explanation "
 "of what your query does, ideally with a screen capture or a table showing"
 " a sample of your query result."
 msgstr ""
-"Vous pouvez également trouver plusieurs autres exemples de requêtes sur "
-"le forum de `Tranquil IT "
-"<https://forum.tranquil.it/viewforum.php?f=18&sid=b2a0081dd9a8adb5c57386974d691c6d>`_."
 " N'hésitez pas à poster vos propres requêtes sur le même forum avec une "
 "explication de ce que fait votre requête, idéalement avec une capture "
 "d'écran ou un tableau montrant un échantillon du résultat de votre "

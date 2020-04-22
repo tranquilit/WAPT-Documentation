@@ -38,7 +38,7 @@ Packaging simple .exe package
 
   * other methods for finding information on silent flags:
 
-    * `WPKG packages repository <https://wpkg.org/Firefox#Firefox_19_-_45_.28For_current_versions_of_WPKG.29>`_;
+    * `WPKG packages repository <https://wpkg.org/Firefox#Installation>`_;
 
     * `Chocolatey packages repository <https://chocolatey.org/packages/FirefoxESR>`_;
 

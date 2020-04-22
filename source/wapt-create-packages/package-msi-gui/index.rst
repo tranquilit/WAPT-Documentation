@@ -30,9 +30,9 @@ from the 7-zip official website.
 
 * download the 7-zip MSI installer:
 
-  * `download 7-zip MSI x64 <http://www.7-zip.org/a/7z1604-x64.msi>`_;
+  * `download 7-zip MSI x64 <https://www.7-zip.org/a/7z1604-x64.msi>`_;
 
-  * `download 7-zip MSI x86 <http://www.7-zip.org/a/7z1604.msi>`_;
+  * `download 7-zip MSI x86 <https://www.7-zip.org/a/7z1604.msi>`_;
 
 * create a WAPT package Template from the installer;
 

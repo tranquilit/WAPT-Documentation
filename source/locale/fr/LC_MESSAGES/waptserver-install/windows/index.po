@@ -1,8 +1,9 @@
+
 msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 13:16+0100\n"
+"POT-Creation-Date: 2020-04-22 17:53+0200\n"
 "PO-Revision-Date: 2020-03-26 12:42+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
@@ -10,212 +11,214 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
-"Language: fr\n"
-"X-Generator: Poedit 2.0.6\n"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:8
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:15
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:8
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:15
 msgid "Installing WAPT Server on Windows"
 msgstr "Installer WAPT sur Microsoft Windows"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:8
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:8
 msgid "Server, WAPT, Windows, install, installation, documentation"
 msgstr "Server, WAPT, Windows, Install, documentation"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:19
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:19
 msgid ""
 "The WAPT Server can not be installed on a computer with services already "
 "listening on ports 80 and 443 (example WSUS with IIS)."
 msgstr ""
-"Le serveur WAPT ne peut pas être installé sur une machine qui écoute déjà sur le "
-"port 80 et 443 (exemple WSUS avec IIS)."
+"Le serveur WAPT ne peut pas être installé sur une machine qui écoute déjà"
+" sur le port 80 et 443 (exemple WSUS avec IIS)."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:22
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:22
 msgid "ports 80, 443 and 8080 are used by the WAPT Server and must be available;"
 msgstr ""
-"les ports 80, 443 et 8080 sont utilisés par le serveur WAPT et doivent être "
-"disponibles ;"
+"les ports 80, 443 et 8080 sont utilisés par le serveur WAPT et doivent "
+"être disponibles ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:24
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:24
 msgid ""
-"If ports 80 and 443 are already occupied by another web service, you should take "
-"a look at the documentation for :ref:`changing the default ports on Windows "
-"<windows_changing_port_80_443>`."
+"If ports 80 and 443 are already occupied by another web service, you "
+"should take a look at the documentation for :ref:`changing the default "
+"ports on Windows <windows_changing_port_80_443>`."
 msgstr ""
-"Si les port 80 et 443 sont déjà occupés par un autre service, vous pouvez "
-"suivre la documentation pour :ref:`changer les ports d'écoute "
+"Si les port 80 et 443 sont déjà occupés par un autre service, vous pouvez"
+" suivre la documentation pour :ref:`changer les ports d'écoute "
 "<windows_changing_port_80_443>`."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:28
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:28
 msgid ""
-"port 8088 is used on client machines by the WAPT agent and must be available;"
+"port 8088 is used on client machines by the WAPT agent and must be "
+"available;"
 msgstr ""
-"le port 8088 est utilisé sur les postes clients par l'agent WAPT et doit être "
-"disponible ;"
+"le port 8088 est utilisé sur les postes clients par l'agent WAPT et doit "
+"être disponible ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:31
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:31
 msgid "The WAPT server **will not run** on a x86 version of Windows;"
 msgstr "WAPT Serveur n'est pas installable sur une version x86 de Windows ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:33
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:33
 msgid ""
-"The installation of the WAPT server must be done using a **Local Administrator** "
-"account on the host;"
+"The installation of the WAPT server must be done using a **Local "
+"Administrator** account on the host;"
 msgstr ""
-"L'installation de WAPTServer doit être faite avec le compte **Administrateur "
-"Local** de la machine ;"
+"L'installation de WAPTServer doit être faite avec le compte "
+"**Administrateur Local** de la machine ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:38
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:38
 msgid ""
-"**From WAPT Server 1.5 onward**, :program:`Nginx` is the **ONLY** supported web "
-"server. **Apache or IIS (with or without WSUS) are no longer supported in WAPT**."
+"**From WAPT Server 1.5 onward**, :program:`Nginx` is the **ONLY** "
+"supported web server. **Apache or IIS (with or without WSUS) are no "
+"longer supported in WAPT**."
 msgstr ""
-"**À partir de la version WAPT 1.5**, le **SEUL** serveur web supporté est :"
-"program:`Nginx`. **Les serveurs web Apache ou IIS (notamment en cohabitation "
-"avec un WSUS sur les ports 80 et 443), ne sont plus supportés officiellement**."
+"**À partir de la version WAPT 1.5**, le **SEUL** serveur web supporté est"
+" :program:`Nginx`. **Les serveurs web Apache ou IIS (notamment en "
+"cohabitation avec un WSUS sur les ports 80 et 443), ne sont plus "
+"supportés officiellement**."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:42
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:42
 msgid ""
-"In case of problems when installing WAPT, visit the :ref:`Frequently Asked "
-"Questions <wapt_faq>`."
+"In case of problems when installing WAPT, visit the :ref:`Frequently "
+"Asked Questions <wapt_faq>`."
 msgstr ""
-"En cas de difficulté lors de l'installation de WAPT, visitez :ref:`les questions "
-"fréquentes <wapt_faq>`."
+"En cas de difficulté lors de l'installation de WAPT, visitez :ref:`les "
+"questions fréquentes <wapt_faq>`."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:47
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:47
 msgid "installing WAPT on a Linux server is the recommended method;"
 msgstr "l'installation de WAPT sur un serveur Linux est la méthode à privilégier ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:49
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:49
 msgid ""
-"the WAPT Server may be installed on **64bit only** Windows 7, 8.1, 10 and "
-"Windows Server 2008/R2, 2012/R2, 2016 and 2019;"
+"the WAPT Server may be installed on **64bit only** Windows 7, 8.1, 10 and"
+" Windows Server 2008/R2, 2012/R2, 2016 and 2019;"
 msgstr ""
-"le serveur WAPT peut s'installer sur Windows 7, 8.1, 10 et Windows Server 2008 "
-"et R2, 2012 et R2, 2016 et 2019 en **64bit uniquement** ;"
+"le serveur WAPT peut s'installer sur Windows 7, 8.1, 10 et Windows Server"
+" 2008 et R2, 2012 et R2, 2016 et 2019 en **64bit uniquement** ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:52
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:52
 msgid ""
-"download and execute `waptserversetup.exe <http://wapt.tranquil.it/wapt/releases/"
-"latest/waptserversetup.exe>`_;"
+"download and execute `waptserversetup.exe "
+"<https://wapt.tranquil.it/wapt/releases/latest/waptserversetup.exe>`_;"
 msgstr ""
-"télécharger et exécuter `waptserversetup.exe <https://wapt.tranquil.it/wapt/"
-"releases/latest/waptserversetup.exe>`_ ;"
+"télécharger et exécuter `waptserversetup.exe "
+"<https://wapt.tranquil.it/wapt/releases/latest/waptserversetup.exe>`_ ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:54
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:54
 msgid "choose the installation language;"
 msgstr "choisir la langue d'installation ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:60
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:60
 msgid "Choose the language for WAPT"
 msgstr "Choisir la langue pour WAPT"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:62
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:62
 msgid ""
-"accept the GNU Public License and click on :guilabel:`Next` to go on to the next "
-"step;"
+"accept the GNU Public License and click on :guilabel:`Next` to go on to "
+"the next step;"
 msgstr ""
-"accepter la licence GNU Public Licence et cliquer sur :guilabel:`Suivant` pour "
-"passer à l'étape suivante ;"
+"accepter la licence GNU Public Licence et cliquer sur :guilabel:`Suivant`"
+" pour passer à l'étape suivante ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:69
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:69
 msgid "Accept the WAPT license terms"
 msgstr "Accepter la licence pour le logiciel WAPT"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:71
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:71
 msgid ""
-"choose the installation directory (leave the default) and click on :guilabel:"
-"`Next` to go on to the next step;"
+"choose the installation directory (leave the default) and click on "
+":guilabel:`Next` to go on to the next step;"
 msgstr ""
-"choisir le répertoire d'installation (laisser par défaut) et cliquer sur :"
-"guilabel:`Suivant` pour passer à l'étape suivante ;"
+"choisir le répertoire d'installation (laisser par défaut) et cliquer sur "
+":guilabel:`Suivant` pour passer à l'étape suivante ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:78
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:78
 msgid "Choose the WAPT destination folder"
 msgstr "Choisir le dossier d'installation de WAPT"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:80
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:80
 msgid "choose additional task (leave as is for the first installation);"
 msgstr ""
 "choisir une tâche supplémentaire (laisser en l'état pour une première "
 "installation) ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:86
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:86
 msgid "Choose additional task"
 msgstr "Choisissez une tâche supplémentaire"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:88
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:88
 msgid "choose the password for the WAPT server;"
 msgstr "choisir le mot de passe pour le serveur WAPT ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:94
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:94
 msgid "Choose Password"
 msgstr "Choisir un mot de passe"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:97
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:97
 msgid ""
-"create a key if this is your first installation, otherwise select the existing "
-"key;"
+"create a key if this is your first installation, otherwise select the "
+"existing key;"
 msgstr ""
-"créer une clé s'il s'agit de votre première installation, sinon sélectionner la "
-"clé existante ;"
+"créer une clé s'il s'agit de votre première installation, sinon "
+"sélectionner la clé existante ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:104
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:104
 msgid "Create the signature key"
 msgstr "Créer la clé de signature"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:106
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:106
 msgid "choose the password for the private key;"
 msgstr "choisir le mot de passe pour la clé privée ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:112
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:112
 msgid "Choose the password of the private key"
 msgstr "Choisir le mot de passe de la clé privée"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:114
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:114
 msgid "build the WAPT agent;"
 msgstr "construire l'agent WAPT ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:120
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:120
 msgid "Build the WAPT agent"
 msgstr "Construire l'agent WAPT"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:122
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:122
 msgid "choose the prefix used for naming your WAPT packages;"
 msgstr "choisir le préfixe utilisé pour nommer vos paquets WAPT ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:128
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:128
 msgid "Choose the prefix used for naming your WAPT packages"
 msgstr "Choisir le préfixe utilisé pour nommer vos paquets WAPT"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:130
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:130
 msgid ""
-"click on the :guilabel:`Install` to launch the installation, wait for the "
-"installation to complete, then click on :guilabel:`Finish` (leave default "
-"options);"
+"click on the :guilabel:`Install` to launch the installation, wait for the"
+" installation to complete, then click on :guilabel:`Finish` (leave "
+"default options);"
 msgstr "cliquer sur :guilabel:`Installer` pour passer à l'étape suivante ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:138
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:138
 msgid "Progress of installation of the WAPT Server"
 msgstr "Progression de l'installation"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:144
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:144
 msgid "Installation has finished"
 msgstr "Installation terminée"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:146
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:146
 msgid "click on :guilabel:`Finished` to close the installer;"
 msgstr ""
-"cliquer sur :guilabel:`Terminé` pour terminer l'installation du serveur WAPT ;"
+"cliquer sur :guilabel:`Terminé` pour terminer l'installation du serveur "
+"WAPT ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:148
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:148
 msgid "The WAPT Server on your Windows is ready."
 msgstr "Le serveur WAPT sur Windows est prêt."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/windows/index.rst:150
+#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/windows/index.rst:150
 msgid ""
 "You may now go to the documentation on :ref:`installing the waptagent "
 "<install_waptagent>`!!"
 msgstr ""
-"Vous pouvez maintenant passer à la documentation pour :ref:`installer l'agent "
-"WAPT <install_waptagent>` !!"
+"Vous pouvez maintenant passer à la documentation pour :ref:`installer "
+"l'agent WAPT <install_waptagent>` !!"

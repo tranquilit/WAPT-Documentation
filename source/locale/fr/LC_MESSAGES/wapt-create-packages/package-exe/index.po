@@ -1,335 +1,343 @@
+
 msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-21 15:14+0200\n"
+"POT-Creation-Date: 2020-04-22 16:06+0200\n"
 "PO-Revision-Date: 2020-04-21 15:19+0200\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
-"Language: fr\n"
-"X-Generator: Poedit 2.0.6\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Poedit-SourceCharset: UTF-8\n"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:8
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:15
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:8
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:15
 msgid "Packaging simple .exe package"
 msgstr "Packager des paquets .exe simples"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:8
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:8
 msgid "exe, WAPT, simple, documentation"
 msgstr "exe, WAPT, simple, documentation"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:17
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:17
 msgid "Variation compared to MSI"
 msgstr "Variation par rapport aux MSI"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:19
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:19
 msgid ""
-"WAPT prefers MSI installers because most :mimetype:`.exe` are not standardized "
-"and silent arguments can be different from one piece of software to another."
+"WAPT prefers MSI installers because most :mimetype:`.exe` are not "
+"standardized and silent arguments can be different from one piece of "
+"software to another."
 msgstr ""
-"WAPT préfère les MSI car les installeurs :file:`.exe` ne sont pas standardisés "
-"et leurs arguments silencieux peuvent être différents d'un logiciel à un autre."
+"WAPT préfère les MSI car les installeurs :file:`.exe` ne sont pas "
+"standardisés et leurs arguments silencieux peuvent être différents d'un "
+"logiciel à un autre."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:24
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:24
 msgid ""
-"Since WAPT version 1.3.12, a new method for quickly building WAPT packages from "
-"the WAPT console has been made available."
+"Since WAPT version 1.3.12, a new method for quickly building WAPT "
+"packages from the WAPT console has been made available."
 msgstr ""
-"Depuis la version 1.3.12 de WAPT, une nouvelle méthode de création rapide de "
-"paquets depuis la console WAPT est devenue disponible."
+"Depuis la version 1.3.12 de WAPT, une nouvelle méthode de création rapide"
+" de paquets depuis la console WAPT est devenue disponible."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:27
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:27
 msgid ""
-"This part of the documentation is still actual, we recommend however that you "
-"use the WAPT console to instantiate your package templates, see :ref:"
-"`creation_paquets_console`."
+"This part of the documentation is still actual, we recommend however that"
+" you use the WAPT console to instantiate your package templates, see "
+":ref:`creation_paquets_console`."
 msgstr ""
-"Cette documentation est toujours d'actualité, nous vous conseillons cependant "
-"d'utiliser l'interface graphique pour instancier vos modèles de paquets. "
-"voir : :ref:`creation_paquets_console`."
+"Cette documentation est toujours d'actualité, nous vous conseillons "
+"cependant d'utiliser l'interface graphique pour instancier vos modèles de"
+" paquets. voir : :ref:`creation_paquets_console`."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:31
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:31
 msgid "download the exe installer from a reliable source;"
 msgstr "obtenir l'installeur exe depuis une source sûre ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:33
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:33
 msgid ""
-"Download the installer in exe format (for example: `Firefox ESR x64 <https://"
-"download.mozilla.org/?product=firefox-45.6.0esr-SSL&os=win64&langerr>`_):"
+"Download the installer in exe format (for example: `Firefox ESR x64 "
+"<https://download.mozilla.org/?product=firefox-45.6.0esr-"
+"SSL&os=win64&langerr>`_):"
 msgstr ""
 "Télécharger l'installeur au format \\*.exe (par exemple `Firefox ESR x64 "
 "<https://download.mozilla.org/?product=firefox-esr-latest-"
 "ssl&os=win64&lang=fr>`_) :"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:35
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:35
 msgid "look up documentation relating to silent flags;"
 msgstr "rechercher la documentation associée pour les flags silencieux ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:37
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:37
 msgid ""
-"On the `Official Mozilla website <https://wiki.mozilla.org/Installer:"
-"Command_Line_Arguments>`_;"
+"On the `Official Mozilla website "
+"<https://wiki.mozilla.org/Installer:Command_Line_Arguments>`_;"
 msgstr ""
-"Sur le site de la `Fondation Mozilla <https://wiki.mozilla.org/Installer:"
-"Command_Line_Arguments>`_ ;"
+"Sur le site de la `Fondation Mozilla "
+"<https://wiki.mozilla.org/Installer:Command_Line_Arguments>`_ ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:39
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:39
 msgid "other methods for finding information on silent flags:"
 msgstr "autres méthodes pour récupérer le flag silencieux :"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:41
-msgid ""
-"`WPKG packages repository <https://wpkg.org/Firefox#Firefox_19_-"
-"_45_.28For_current_versions_of_WPKG.29>`_;"
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:41
+msgid "`WPKG packages repository <https://wpkg.org/Firefox#Installation>`_;"
 msgstr ""
-"dépôt de `paquets WPKG <https://wpkg.org/Firefox#Firefox_19_-"
-"_45_.28For_current_versions_of_WPKG.29>`_ ;"
+"dépôt de `paquets WPKG "
+"<https://wpkg.org/Firefox#Installation>`_"
+" ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:43
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:43
 msgid ""
-"`Chocolatey packages repository <https://chocolatey.org/packages/FirefoxESR>`_;"
+"`Chocolatey packages repository "
+"<https://chocolatey.org/packages/FirefoxESR>`_;"
 msgstr ""
-"dépôt de `paquets Chocolatey <https://chocolatey.org/packages/FirefoxESR>`_ ;"
+"dépôt de `paquets Chocolatey "
+"<https://chocolatey.org/packages/FirefoxESR>`_ ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:45
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:45
 msgid "search on the Internet with the search terms: *Firefox silent install*;"
 msgstr "recherche Internet avec le terme \"Firefox silent install\" ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:48
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:48
 msgid "Creating a base template from the .exe file"
 msgstr "Créer un template de base de paquet à partir du fichier .exe"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:50
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:50
 msgid ""
-"start up a Windows Command Line utility :program:`cmd.exe` as :term:`Local "
-"Administrator`;"
+"start up a Windows Command Line utility :program:`cmd.exe` as "
+":term:`Local Administrator`;"
 msgstr ""
-"lancer une invite de commande (cmd.exe) en mode :term:`Administrateur Local` ;"
+"lancer une invite de commande (cmd.exe) en mode :term:`Administrateur "
+"Local` ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:57
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:57
 msgid "Launching the Windows Command Line utility as Local Administrator"
 msgstr "Lancement de l'invite de commande Windows en tant qu'Administrateur Local"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:59
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:59
 msgid "create a WAPT package template;"
 msgstr "créer un projet de paquet logiciel ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:65
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:65
 msgid "Example with Mozilla Firefox ESR:"
 msgstr "**Exemple avec Mozilla Firefox ESR** :"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:76
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:76
 msgid "PyScripter loads up and opens open the :mimetype:`.exe` package project."
 msgstr ""
-":program:`PyScripter` s'ouvre ensuite avec le projet du paquet :mimetype:`.exe`."
+":program:`PyScripter` s'ouvre ensuite avec le projet du paquet "
+":mimetype:`.exe`."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:82
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:82
 msgid "PyScripter opening with focus on the *control* file"
 msgstr "PyScripter affichant le fichier *control*"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:84
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:84
 msgid "check the :file:`control` file content;"
 msgstr "vérifier le fichier :file:`control` ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:86
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:86
 msgid ""
 "Mozilla Firefox-ESR does not comply to industry standards and returns an "
-"erroneous version number (it appears to be the installer packaging software "
-"version number)."
+"erroneous version number (it appears to be the installer packaging "
+"software version number)."
 msgstr ""
 "Mozilla Firefox-ESR ne répond pas aux standards et retourne un numéro de "
 "version erroné (il s'agit du numéro de version du logiciel qui créé "
 "l'installeur)."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:90
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:90
 msgid "Original *control* file"
 msgstr "Fichier *control* d'origine"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:95
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:95
 msgid "Modified *control* file"
 msgstr "Fichier *control* modifié"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:102
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:102
 msgid ""
-"It is to be noted that a sub-version *-1* has been added. It is the packaging "
-"version of WAPT package."
+"It is to be noted that a sub-version *-1* has been added. It is the "
+"packaging version of WAPT package."
 msgstr ""
-"Une sous-version *-1* a été ajoutée. C'est la version de packaging du paquet "
-"WAPT."
+"Une sous-version *-1* a été ajoutée. C'est la version de packaging du "
+"paquet WAPT."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:105
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:105
 msgid ""
-"It allows the Package Developer to release several WAPT package versions of the "
-"same software."
+"It allows the Package Developer to release several WAPT package versions "
+"of the same software."
 msgstr ""
-"Cela permet de ne pas modifier la version réelle du logiciel quand on pousse "
-"par exemple une nouvelle configuration du même logiciel sur le parc."
+"Cela permet de ne pas modifier la version réelle du logiciel quand on "
+"pousse par exemple une nouvelle configuration du même logiciel sur le "
+"parc."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:108
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:108
 msgid "check the :file:`setup.py` file;"
 msgstr "vérifier le fichier :file:`setup.py` ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:110
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:110
 msgid ""
-"WAPT has added a generic silent */VERYSILENT* flag that may or may not work "
-"with Mozilla Firefox ESR."
+"WAPT has added a generic silent */VERYSILENT* flag that may or may not "
+"work with Mozilla Firefox ESR."
 msgstr ""
-"WAPT a mis un flag silencieux générique */VERYSILENT* qui ne fonctionne peut-"
-"être pas avec Mozilla Firefox ESR."
+"WAPT a mis un flag silencieux générique */VERYSILENT* qui ne fonctionne "
+"peut-être pas avec Mozilla Firefox ESR."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:113
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:113
 msgid ""
-"In that case, we will replace the suggested silent flag with the one that we "
-"found in the Mozilla documentation."
+"In that case, we will replace the suggested silent flag with the one that"
+" we found in the Mozilla documentation."
 msgstr ""
 "Dans ce cas il convient d'indiquer le bon flag silencieux que nous avons "
 "recherché précédemment."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:116
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:116
 msgid "make changes to the code in the :file:`setup.py` file accordingly;"
 msgstr "changer le code du fichier :file:`setup.py` en conséquence ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:130
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:130
 msgid "save the package;"
 msgstr "enregistrer le paquet ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:133
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:133
 msgid "Managing the uninstallation"
 msgstr "Gérer la désinstallation"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:135
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:135
 msgid ""
-"With an exe installer, the *uninstall key* is not available until the software "
-"has been installed once."
+"With an exe installer, the *uninstall key* is not available until the "
+"software has been installed once."
 msgstr ""
-"Avec un exe, la clé de désinstallation n'est pas disponible sans avoir installé "
-"le logiciel une première fois."
+"Avec un exe, la clé de désinstallation n'est pas disponible sans avoir "
+"installé le logiciel une première fois."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:138
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:138
 msgid "The *uninstall key* is available in the Windows registry:"
 msgstr "Cette clé est disponible dans la base de registre :"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:144
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:144
 msgid "open a Windows Command Line :program:`cmd.exe` prompt;"
 msgstr "ouvrir une invite de commande Windows ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:146
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:146
 msgid ""
 "retrieve the software *uninstall key* with :code:`wapt-get list-registry "
 "firefox`"
 msgstr ""
-"récupérer la clé de désinstallation avec :code:`wapt-get list-registry firefox`"
+"récupérer la clé de désinstallation avec :code:`wapt-get list-registry "
+"firefox`"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:155
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:155
 msgid ""
-"copy the *uninstall key* **UninstallKey**: *Mozilla Firefox 45.4.0 ESR (x64 "
-"en)*;"
+"copy the *uninstall key* **UninstallKey**: *Mozilla Firefox 45.4.0 ESR "
+"(x64 en)*;"
 msgstr ""
-"copier la clé de désinstallation **UninstallKey** : *Mozilla Firefox 52.6.0 ESR "
-"(x64 fr)* ;"
+"copier la clé de désinstallation **UninstallKey** : *Mozilla Firefox "
+"52.6.0 ESR (x64 fr)* ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:158
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:158
 msgid ""
-"make changes to the :file:`setup.py` file with the correct *uninstall key*;"
+"make changes to the :file:`setup.py` file with the correct *uninstall "
+"key*;"
 msgstr ""
 "modifier en conséquence le script :program:`setup.py` avec la clé de "
 "désintallation correcte ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:175
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:175
 msgid ""
-"The *UninstallKey* must be the exact same as the one listed with :command:`list-"
-"registry` command. The *UninstallKey* may be a GUID such as "
-"*95160000-0052-040C-0000-0000000FF1CE*, a GUID with bracketed characters, "
-"*{95160000-0052-040C-0000-0000000FF1CE}*, or simply a character string such as "
-"*Git_is1* or *Mozilla Firefox 52.6.0 ESR (x64 fr)*."
+"The *UninstallKey* must be the exact same as the one listed with :command"
+":`list-registry` command. The *UninstallKey* may be a GUID such as "
+"*95160000-0052-040C-0000-0000000FF1CE*, a GUID with bracketed characters,"
+" *{95160000-0052-040C-0000-0000000FF1CE}*, or simply a character string "
+"such as *Git_is1* or *Mozilla Firefox 52.6.0 ESR (x64 fr)*."
 msgstr ""
-"La clé de désinstallation doit être exactement la même que celle listée avec la "
-"commande `list-registry`. La clé de désinstallation peut être un GUID tel que "
-"*9516000000-0052-040C-0000-0000000FF1CE*, un GUID avec des caractères entre "
-"crochets, *{95160000-0052-040C-0000-0000000FF1CE}*, ou simplement une chaîne de "
-"caractères comme *Git_is1* ou *Mozilla Firefox 52.6.0 ESR (x64fr)*."
+"La clé de désinstallation doit être exactement la même que celle listée "
+"avec la commande `list-registry`. La clé de désinstallation peut être un "
+"GUID tel que *9516000000-0052-040C-0000-0000000FF1CE*, un GUID avec des "
+"caractères entre crochets, *{95160000-0052-040C-0000-0000000FF1CE}*, ou "
+"simplement une chaîne de caractères comme *Git_is1* ou *Mozilla Firefox "
+"52.6.0 ESR (x64fr)*."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:181
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:181
 msgid ""
-"relaunch the package setup to set the correct *uninstall key* in the local WAPT "
-"database;"
+"relaunch the package setup to set the correct *uninstall key* in the "
+"local WAPT database;"
 msgstr ""
-"relancer l'installation du paquet afin que la clé de désinstallation soit prise "
-"en compte dans la base de données locale WAPT ;"
+"relancer l'installation du paquet afin que la clé de désinstallation soit"
+" prise en compte dans la base de données locale WAPT ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:184
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:184
 msgid "test uninstalling the package;"
 msgstr "tester la désinstallation du paquet ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:186
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:186
 msgid ""
-"launch a :guilabel:`remove` from PyScripter :guilabel:`Run Configurations`;"
+"launch a :guilabel:`remove` from PyScripter :guilabel:`Run "
+"Configurations`;"
 msgstr ""
 "lancer un :command:`remove` du paquet depuis le panneau :guilabel:`Run "
 "Configurations` de :program:`PyScripter` ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:192
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:192
 msgid "After uninstallation, the software is correctly removed"
 msgstr "À l'issue de la désinstallation, le programme est désinstallé"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:194
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:194
 msgid ""
-"We can notice the correct uninstallation by launching again the :command:`wapt-"
-"get list-registry` command."
+"We can notice the correct uninstallation by launching again the :command"
+":`wapt-get list-registry` command."
 msgstr ""
-"On pourra vérifier l'absence de clé de registre de désinstallation en relançant "
-"la commande :command:`wapt-get list-registry`."
+"On pourra vérifier l'absence de clé de registre de désinstallation en "
+"relançant la commande :command:`wapt-get list-registry`."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:204
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:204
 msgid "Specific case of a non-silent uninstaller"
 msgstr "Cas particulier d'un désinstalleur non-silencieux"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:206
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:206
 msgid ""
-"It sometimes occurs that the software installs silently, but does not uninstall "
-"silently."
+"It sometimes occurs that the software installs silently, but does not "
+"uninstall silently."
 msgstr ""
-"Il arrive dans certains cas que le programme s'installe silencieusement mais "
-"que le désinstalleur ne s'exécute pas silencieusement."
+"Il arrive dans certains cas que le programme s'installe silencieusement "
+"mais que le désinstalleur ne s'exécute pas silencieusement."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:209
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:209
 msgid ""
-"In that precise case it is necessary to override the :command:`uninstall()` "
-"function."
+"In that precise case it is necessary to override the "
+":command:`uninstall()` function."
 msgstr "Dans ce cas précis on va surcharger la fonction :command:`uninstall()`."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:212
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:212
 msgid "Example with Mozilla Firefox:"
 msgstr "Exemple avec Mozilla Firefox si cela était nécessaire :"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:232
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:232
 msgid ""
-"In the :command:`uninstall()` function, it is not possible to call for files "
-"included inside the WAPT package. To call files from the package, it is "
-"necessary to copy/ paste the files in a temporary directory during package "
-"installation."
+"In the :command:`uninstall()` function, it is not possible to call for "
+"files included inside the WAPT package. To call files from the package, "
+"it is necessary to copy/ paste the files in a temporary directory during "
+"package installation."
 msgstr ""
-"Dans la fonction :command:`uninstall()`, on ne peut pas appeler des fichiers "
-"contenus dans le paquet WAPT. Pour les appeler, il faudra avoir copié les "
-"fichiers dans un répertoire local de la machine lors de l'installation du "
-"paquet."
+"Dans la fonction :command:`uninstall()`, on ne peut pas appeler des "
+"fichiers contenus dans le paquet WAPT. Pour les appeler, il faudra avoir "
+"copié les fichiers dans un répertoire local de la machine lors de "
+"l'installation du paquet."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:238
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:238
 msgid "Build and upload the package"
 msgstr "Construire et charger le paquet WAPT"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-create-packages/package-exe/index.rst:240
+#: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/package-exe/index.rst:240
 msgid ""
-"Once the installation and the de-installation are configured and tested and the "
-"package is customized to your satisfaction, you may build and upload your new "
-"WAPT package onto your WAPT repository."
+"Once the installation and the de-installation are configured and tested "
+"and the package is customized to your satisfaction, you may build and "
+"upload your new WAPT package onto your WAPT repository."
 msgstr ""
-"Une fois l'installation et la désinstallation configurées et testées vous "
-"pouvez effectuer un :command:`build-upload` pour charger votre nouveau paquet "
-"WAPT sur votre dépôt."
+"Une fois l'installation et la désinstallation configurées et testées vous"
+" pouvez effectuer un :command:`build-upload` pour charger votre nouveau "
+"paquet WAPT sur votre dépôt."

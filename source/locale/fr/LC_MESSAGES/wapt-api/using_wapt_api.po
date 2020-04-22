@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-21 18:10+0200\n"
+"POT-Creation-Date: 2020-04-22 17:53+0200\n"
 "PO-Revision-Date: 2020-03-26 14:36+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language-Team: Tranquil IT\n"
@@ -142,8 +142,8 @@ msgstr "dmi"
 #: /home/agauvrit/projects/doc-wapt/source/wapt-api/using_wapt_api.rst:128
 msgid "get :abbr:`DMI (Desktop Management Interface)` info for a host:"
 msgstr ""
-"récupère toutes les informations :abbr:`DMI (Desktop Management Interface)` "
-"d'un poste : "
+"récupère toutes les informations :abbr:`DMI (Desktop Management "
+"Interface)` d'un poste : "
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-api/using_wapt_api.rst:132
 msgid ""
@@ -156,12 +156,12 @@ msgstr ""
 #: /home/agauvrit/projects/doc-wapt/source/wapt-api/using_wapt_api.rst:138
 msgid ""
 "Example: get *dmi* information of host which has UUID 14F620FF-DE70-9E5B-"
-"996A-B597E8F9B4AD: https://srvwapt.ad.mydomain.fr/api/v1/host_data?uuid"
+"996A-B597E8F9B4AD: https://srvwapt.mydomain.lan/api/v1/host_data?uuid"
 "=14F620FF-DE70-9E5B-996A-B597E8F9B4AD&field=dmi"
 msgstr ""
 "Exemple: récupérer les informations *DMI* du poste ayant l'UUID 14F620FF-"
 "DE70-9E5B-996A-B597E8F9B4AD: "
-"https://srvwapt.ad.mydomain.fr/api/v1/host_data?uuid=14F620FF-DE70-9E5B-"
+"https://srvwapt.mydomain.lan/api/v1/host_data?uuid=14F620FF-DE70-9E5B-"
 "996A-B597E8F9B4AD&field=dmi"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-api/using_wapt_api.rst:143
@@ -294,11 +294,11 @@ msgstr "/api/v3/hosts_for_package"
 #: /home/agauvrit/projects/doc-wapt/source/wapt-api/using_wapt_api.rst:364
 msgid ""
 "List hosts with a specific package installed "
-"https://srvwapt.ad.domain.fr/api/v3/hosts_for_package?package=demo-"
+"https://srvwapt.mydomain.lan/api/v3/hosts_for_package?package=demo-"
 "namepackage"
 msgstr ""
 "Liste les postes qui ont un paquet spécifique d'installé "
-"https://srvwapt.ad.domain.fr/api/v3/hosts_for_package?package=demo-"
+"https://srvwapt.mydomain.lan/api/v3/hosts_for_package?package=demo-"
 "nompaquet"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-api/using_wapt_api.rst:382
@@ -312,11 +312,11 @@ msgstr "Liste les tâches d'un poste en particulier."
 #: /home/agauvrit/projects/doc-wapt/source/wapt-api/using_wapt_api.rst:386
 msgid ""
 "Example with host uuid: "
-"https://srvwapt.ad.domain.fr/api/v3/host_tasks_status?uuid=14F620FF-DE70"
+"https://srvwapt.mydomain.lan/api/v3/host_tasks_status?uuid=14F620FF-DE70"
 "-9E5B-996A-B597E8F9B4AD"
 msgstr ""
 "Exemple avec l'uuid d'un poste: "
-"https://srvwapt.ad.domain.fr/api/v3/host_tasks_status?uuid=14F620FF-DE70"
+"https://srvwapt.mydomain.lan/api/v3/host_tasks_status?uuid=14F620FF-DE70"
 "-9E5B-996A-B597E8F9B4AD"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-api/using_wapt_api.rst:405
@@ -378,10 +378,10 @@ msgstr "Initialiser une connexion au serveur."
 #: /home/agauvrit/projects/doc-wapt/source/wapt-api/using_wapt_api.rst:450
 msgid ""
 "We can make a connection by html form than POST: "
-"https://admin:MYPASSWORD@srvwapt/api/v3/get_ad_sites"
+"https://admin:MYPASSWORD@srvwapt.mydomain.lan/api/v3/get_ad_sites"
 msgstr ""
 "Nous pouvons faire une connexion avec un formulaire html plutôt que POST:"
-" https://admin:MYPASSWORD@srvwapt/api/v3/get_ad_sites"
+" https://admin:MYPASSWORD@srvwapt.mydomain.lan/api/v3/get_ad_sites"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-api/using_wapt_api.rst:454
 msgid "/api/v3/packages_delete"
@@ -406,11 +406,11 @@ msgstr "/api/v3/reset_hosts_sid"
 #: /home/agauvrit/projects/doc-wapt/source/wapt-api/using_wapt_api.rst:468
 msgid ""
 "There is several possibilities: "
-"https://srvwapt.ad.domain.fr/api/v3/reset_hosts_sid will reinitialize all"
+"https://srvwapt.mydomain.lan/api/v3/reset_hosts_sid will reinitialize all"
 " host connections."
 msgstr ""
 "Il y a plusieurs possibilités : "
-"https://srvwapt.ad.domain.fr/api/v3/reset_hosts_sid va réinitialiser "
+"https://srvwapt.mydomain.lan/api/v3/reset_hosts_sid va réinitialiser "
 "toutes les connexions des postes."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-api/using_wapt_api.rst:472
@@ -418,7 +418,6 @@ msgid "For the POST method:"
 msgstr "Pour la méthode POST:"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-api/using_wapt_api.rst:474
-#, fuzzy
 msgid ""
 "Syntax is: ``--data-raw`` a dictionnary list with ``uuids`` as keys and "
 "the UUID of the hosts as values."

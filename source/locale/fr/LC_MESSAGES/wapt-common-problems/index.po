@@ -493,10 +493,10 @@ msgstr ""
 #: ../../source/wapt-common-problems/index.rst:277
 msgid ""
 "The WAPT package `tis-wapt-conf-policy <https://store.wapt.fr/wapt/tis-"
-"wapt-conf-policy_6_all.wapt>`_ sets this configuration."
+"wapt-conf-policy_6_f913e7abc2f223c3e243cc7b7f95caa5.wapt>`_ sets this configuration."
 msgstr ""
 "Le paquet `tis-wapt-conf-policy <https://store.wapt.fr/wapt/tis-wapt-"
-"conf-policy_6_all.wapt>`_ embarque cette configuration."
+"wapt-conf-policy_6_f913e7abc2f223c3e243cc7b7f95caa5.wapt>`_ embarque cette configuration."
 
 #: ../../source/wapt-common-problems/index.rst:281
 msgid "The other solution may be to use the GPO :file:`File.ini`."

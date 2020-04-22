@@ -1,8 +1,9 @@
+
 msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-03-25 13:16+0100\n"
+"POT-Creation-Date: 2020-04-22 16:06+0200\n"
 "PO-Revision-Date: 2020-03-26 12:04+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
@@ -10,746 +11,761 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
-"Language: fr\n"
-"X-Generator: Poedit 2.0.6\n"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:8
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:16
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:8
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:16
 msgid "Deploying the WAPT agent for Windows"
 msgstr "Déployer l'agent WAPT"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:8
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:8
 msgid ""
-"waptagent.exe, waptsetup.exe, deployment, deploy, deploying, documentation, WAPT"
+"waptagent.exe, waptsetup.exe, deployment, deploy, deploying, "
+"documentation, WAPT"
 msgstr "waptagent.exe, waptsetup.exe, déployer"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:18
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:18
 msgid "Two methods are available to deploy the :program:`waptagent.exe`."
 msgstr ""
-"Deux méthodes sont possibles pour déployer l'utilitaire :program:`waptagent."
-"exe`."
+"Deux méthodes sont possibles pour déployer l'utilitaire "
+":program:`waptagent.exe`."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:20
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:20
 msgid ""
-"The first method is manual and the procedure must be applied on each machine."
+"The first method is manual and the procedure must be applied on each "
+"machine."
 msgstr ""
-"La première est manuelle et la procédure doit être appliquée sur chaque machine."
+"La première est manuelle et la procédure doit être appliquée sur chaque "
+"machine."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:22
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:22
 msgid ""
-"The second one is automated and relies on a :abbr:`GPO (Group Policy Objects)`."
+"The second one is automated and relies on a :abbr:`GPO (Group Policy "
+"Objects)`."
 msgstr ""
 "La deuxième est automatique et s'appuie sur les :abbr:`GPO (Group Policy "
 "Objects / Stratégies de Groupes)`."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:26
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:26
 msgid ""
-"The :program:`waptagent.exe` installer is available at http://<wapt.mydomain."
-"lan>/wapt/waptagent.exe."
+"The :program:`waptagent.exe` installer is available at "
+"https://srvwapt.mydomain.lan/wapt/waptagent.exe."
 msgstr ""
-"L'installeur :program:`waptsetup.exe` est disponible à l'adresse suivante : "
-"https://wapt.mydomain.lan/wapt/waptagent.exe"
+"L'installeur :program:`waptsetup.exe` est disponible à l'adresse suivante"
+" : https://srvwapt.mydomain.lan/wapt/waptagent.exe"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:29
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:29
 msgid ""
-"If you do not sign the :program:`waptagent.exe` installer with a commercial "
-"``Code Signing`` certificate or a ``Code Signing`` certificate issued by the :"
-"term:`Certificate Authority` of your Organization after having generated it, "
-"web browsers will show a warning message when downloading the installer. To "
-"remove the warning message, you must sign the :mimetype:`.exe` with a ``Code "
-"Signing`` certificate that can be verified by a CA bundle stored in the "
-"machine's certificate store."
+"If you do not sign the :program:`waptagent.exe` installer with a "
+"commercial ``Code Signing`` certificate or a ``Code Signing`` certificate"
+" issued by the :term:`Certificate Authority` of your Organization after "
+"having generated it, web browsers will show a warning message when "
+"downloading the installer. To remove the warning message, you must sign "
+"the :mimetype:`.exe` with a ``Code Signing`` certificate that can be "
+"verified by a CA bundle stored in the machine's certificate store."
 msgstr ""
-"Si vous ne signez pas le fichier :file:`waptagent.exe` avec un certificat "
-"``Code Signing`` commercial ou bien issu par l':term:`Autorité de "
-"Certification` de votre Organisation après l'avoir généré, les navigateurs web "
-"provoqueront un message d'alerte lors du téléchargement. Pour supprimer ce "
-"message d'alerte, il faut signer le fichier :file:`.exe` avec un certificat "
-"``Code Signing`` reconnu par le bundle de CA installé dans la magasin de "
-"certificats de la machine."
+"Si vous ne signez pas le fichier :file:`waptagent.exe` avec un certificat"
+" ``Code Signing`` commercial ou bien issu par l':term:`Autorité de "
+"Certification` de votre Organisation après l'avoir généré, les "
+"navigateurs web provoqueront un message d'alerte lors du téléchargement. "
+"Pour supprimer ce message d'alerte, il faut signer le fichier "
+":file:`.exe` avec un certificat ``Code Signing`` reconnu par le bundle de"
+" CA installé dans la magasin de certificats de la machine."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:37
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:37
 msgid "When to deploy the WAPT agent manually?"
 msgstr "Dans quelles situations déployer WAPT manuellement ?"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:39
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:39
 msgid "Manual deployment method is efficient in these cases:"
 msgstr ""
-"La méthode manuelle de déploiement est efficace dans les situations suivantes :"
+"La méthode manuelle de déploiement est efficace dans les situations "
+"suivantes :"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:41
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:41
 msgid "testing WAPT;"
 msgstr "tester WAPT ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:43
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:43
 msgid "using WAPT in an organization with a small number of computers, etc;"
 msgstr ""
 "maintenir à jour un petit parc de PC dans une petite entreprise, une "
 "association, etc ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:46
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:46
 msgid "Deploying waptagent.exe manually"
 msgstr "Déployer manuellement l'agent WAPT"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:50
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:50
 msgid ""
 "This operation requires :term:`Local Administrator` rights on the local "
 "computer."
 msgstr ""
-"Cette manipulation requiert les droits d':term:`Administrateur Local` sur la "
-"machine."
+"Cette manipulation requiert les droits d':term:`Administrateur Local` sur"
+" la machine."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:54
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:54
 msgid "Installing *waptagent.exe*"
 msgstr "Installer *waptagent.exe*"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:56
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:56
 msgid "choose the language and click on :guilabel:`Next` to go to next step;"
 msgstr ""
-"choisir la langue pour l'installation puis cliquer sur :guilabel:`Suivant` pour "
-"passer à l'étape suivante ;"
+"choisir la langue pour l'installation puis cliquer sur "
+":guilabel:`Suivant` pour passer à l'étape suivante ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:62
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:62
 msgid "Choose the installation language"
 msgstr "Choisir la langue pour l'installation"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:64
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:64
 msgid "accept the license terms and click on :guilabel:`Next` to go to next step;"
 msgstr ""
-"accepter la licence puis cliquer sur :guilabel:`Suivant` pour passer à l'étape "
-"suivante ;"
+"accepter la licence puis cliquer sur :guilabel:`Suivant` pour passer à "
+"l'étape suivante ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:70
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:70
 msgid "Accepting the EULA"
 msgstr "Accepter la licence"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:72
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:72
 msgid ""
-"choose the installation directory and click on :guilabel:`Next` to go to next "
-"step;"
+"choose the installation directory and click on :guilabel:`Next` to go to "
+"next step;"
 msgstr ""
-"choisir le répértoire d'installation puis cliquer sur :guilabel:`Suivant` pour "
-"passer à l'étape suivante ;"
+"choisir le répértoire d'installation puis cliquer sur :guilabel:`Suivant`"
+" pour passer à l'étape suivante ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:79
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:79
 msgid "Select the installation folder for the WAPT agent"
 msgstr "Sélectionner le répertoire d'installation de l'agent WAPT"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:81
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:81
 msgid ""
-"choose the additional parameters and click on :guilabel:`Next` to go to next "
-"step;"
+"choose the additional parameters and click on :guilabel:`Next` to go to "
+"next step;"
 msgstr ""
-"choisir les tâches complémentaires puis cliquer sur :guilabel:`Suivant` pour "
-"passer à l'étape suivante ;"
+"choisir les tâches complémentaires puis cliquer sur :guilabel:`Suivant` "
+"pour passer à l'étape suivante ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:86
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:86
 msgid ""
-"leave :guilabel:`Force-reinstall VC++ enabled` checked. If the option box is "
-"ticked it is because its installation is necessary."
+"leave :guilabel:`Force-reinstall VC++ enabled` checked. If the option box"
+" is ticked it is because its installation is necessary."
 msgstr ""
-"laisser coché :guilabel:`Force-reinstall VC++`. Si l'option est cochée, c'est "
-"que l'installation du composant est nécessaire."
+"laisser coché :guilabel:`Force-reinstall VC++`. Si l'option est cochée, "
+"c'est que l'installation du composant est nécessaire."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:93
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:93
 msgid "Choose the installer's options"
 msgstr "Choisir les options d'installation"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:95
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:95
 msgid ""
-"choose the WAPT repository and the WAPT Server and click on :guilabel:`Next` to "
-"go to next step;"
+"choose the WAPT repository and the WAPT Server and click on "
+":guilabel:`Next` to go to next step;"
 msgstr ""
-"choisir le dépôt et le serveur puis cliquer sur :guilabel:`Suivant` pour passer "
-"à l'étape suivante ;"
+"choisir le dépôt et le serveur puis cliquer sur :guilabel:`Suivant` pour "
+"passer à l'étape suivante ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:102
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:102
 msgid "Choose the WAPT repository and server"
 msgstr "Choisir le dépôt et le serveur WAPT"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:104
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:104
 msgid "install the WAPT agent by clicking on :guilabel:`Install`;"
 msgstr "installer l'agent WAPT en cliquant sur :guilabel:`Installer` ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:110
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:110
 msgid "Summary of installation options"
 msgstr "Fenêtre récapitulative des options d'installation"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:112
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:112
 msgid ""
-"wait for the installation of the WAPT agent to finish, then click on :guilabel:"
-"`Finish` to exit;"
+"wait for the installation of the WAPT agent to finish, then click on "
+":guilabel:`Finish` to exit;"
 msgstr ""
-"attendre la fin de l'installation de l'agent WAPT puis cliquer sur :guilabel:"
-"`Fin` pour terminer ;"
+"attendre la fin de l'installation de l'agent WAPT puis cliquer sur "
+":guilabel:`Fin` pour terminer ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:119
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:119
 msgid "Installation in progress"
 msgstr "Progression de l'installation"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:121
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:121
 msgid ""
-"The installation of the WAPT agent is finished. With :program:`cmd.exe`, launch "
-"a :command:`register` to register the machine with the WAPT Server and an :"
-"command:`update` to display the list of available WAPT packages."
+"The installation of the WAPT agent is finished. With :program:`cmd.exe`, "
+"launch a :command:`register` to register the machine with the WAPT Server"
+" and an :command:`update` to display the list of available WAPT packages."
 msgstr ""
-"L'installation est terminée, avec :program:`cmd.exe`, lancer un :command:"
-"`register` pour enregistrer la machine sur le serveur WAPT et un :command:"
-"`update` pour afficher la liste des paquets WAPT disponibles."
+"L'installation est terminée, avec :program:`cmd.exe`, lancer un "
+":command:`register` pour enregistrer la machine sur le serveur WAPT et un"
+" :command:`update` pour afficher la liste des paquets WAPT disponibles."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:129
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:129
 msgid "End of WAPT agent installation"
 msgstr "Fin de l'installation de l'agent WAPT"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:133
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:133
 msgid ""
-"tick :guilabel:`Register this host on WAPT Server` to register the computer on "
-"the WAPT inventory server;"
+"tick :guilabel:`Register this host on WAPT Server` to register the "
+"computer on the WAPT inventory server;"
 msgstr ""
 "cocher :guilabel:`Enregistrer cet ordinateur dans le serveur WAPT` pour "
 "enregistrer l'ordinateur dans l'inventaire central WAPT ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:136
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:136
 msgid ""
-"tick :guilabel:`Update package list from repository` to update the list of "
-"available packages;"
+"tick :guilabel:`Update package list from repository` to update the list "
+"of available packages;"
 msgstr ""
-"cocher :guilabel:`\"Mettre à jour la liste des paquets disponibles sur le dépôt "
-"principal` pour télécharger la liste des paquets disponibles ;"
+"cocher :guilabel:`\"Mettre à jour la liste des paquets disponibles sur le"
+" dépôt principal` pour télécharger la liste des paquets disponibles ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:139
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:139
 msgid ""
-"To manage your Organization's WAPT clients, visit the :ref:`documentation on "
-"using the WAPT console <using_the_WAPT_console>`."
+"To manage your Organization's WAPT clients, visit the :ref:`documentation"
+" on using the WAPT console <using_the_WAPT_console>`."
 msgstr ""
 "Pour gérer les client WAPT, voir :ref:`Comment utiliser la console WAPT "
 "<using_the_WAPT_console>`."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:143
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:143
 msgid "Automatically deploying the WAPT agents"
 msgstr "Déployer automatiquement les agents WAPT"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:145
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:145
 msgid "Technical pre-requisites"
 msgstr "Pré-requis techniques"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:147
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:147
 msgid ""
-"Advanced network and system administration knowledge is required to achieve "
-"this procedure. A properly configured network will ensure its success."
+"Advanced network and system administration knowledge is required to "
+"achieve this procedure. A properly configured network will ensure its "
+"success."
 msgstr ""
-"Des connaissances avancées en administration de réseau et de système sont "
-"nécessaires pour réaliser cette procédure. Un réseau correctement configuré "
-"assurera son succès."
+"Des connaissances avancées en administration de réseau et de système sont"
+" nécessaires pour réaliser cette procédure. Un réseau correctement "
+"configuré assurera son succès."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:153
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:153
 msgid ""
-"When to deploy the WAPT agent automatically? The following method is useful in "
-"these cases:"
+"When to deploy the WAPT agent automatically? The following method is "
+"useful in these cases:"
 msgstr ""
-"La méthode décrite dans cette section est particulièrement efficace dans les "
-"situations suivantes :"
+"La méthode décrite dans cette section est particulièrement efficace dans "
+"les situations suivantes :"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:156
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:156
 msgid "a large organization with many computers;"
 msgstr "vous gérez un grand parc de machines ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:158
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:158
 msgid ""
-"a Samba Active Directory or Microsoft Active Directory for which you have "
-"enough administration privileges;"
+"a Samba Active Directory or Microsoft Active Directory for which you have"
+" enough administration privileges;"
 msgstr ""
-"vous disposez d'un domaine SaMBa Active Directory ou Microsoft Active Directory "
-"pour lequel vous avez des droits d'administration suffisants ;"
+"vous disposez d'un domaine SaMBa Active Directory ou Microsoft Active "
+"Directory pour lequel vous avez des droits d'administration suffisants ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:161
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:161
 msgid ""
-"the security and the traceability of actions are important to you or to your :"
-"term:`Organization`;"
+"the security and the traceability of actions are important to you or to "
+"your :term:`Organization`;"
 msgstr ""
-"la sécurité et la traçabilité des actions est importante pour vous ou pour "
-"votre :term:`Organisation` ;"
+"la sécurité et la traçabilité des actions est importante pour vous ou "
+"pour votre :term:`Organisation` ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:164
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:164
 msgid "or just simply, you prefer to act with your head instead of your feet ;)"
 msgstr ""
-"ou bien tout simplement, vous préférez agir avec votre tête plutôt qu'avec vos "
-"pieds ;) ;"
+"ou bien tout simplement, vous préférez agir avec votre tête plutôt "
+"qu'avec vos pieds ;) ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:168
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:168
 msgid "Deploying the WAPT agents silently"
 msgstr "Déployer l'agent WAPT silencieusement"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:171
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:171
 msgid "Without waptdeploy"
 msgstr "Sans waptdeploy"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:173
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:173
 msgid ""
-":program:`waptagent.exe` is an *InnoSetup* installer, it can be executed with "
-"these silent switches:"
+":program:`waptagent.exe` is an *InnoSetup* installer, it can be executed "
+"with these silent switches:"
 msgstr ""
 "Le :program:`waptagent` est un installeur *InnoSetup*, il peut donc être "
 "déployé silencieusement avec les arguments suivants :"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:180
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:327
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:180
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:329
 msgid "Additional arguments available for waptdeploy"
 msgstr "Arguments supplémentaires disponibles pour waptdeploy"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:185
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:332
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:185
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:334
 msgid "Settings"
 msgstr "Paramètre"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:185
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:332
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:185
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:334
 msgid "Value"
 msgstr "Valeur"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:185
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:332
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:185
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:334
 msgid "Description"
 msgstr "Description"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:187
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:187
 msgid "``/dnsdomain``"
 msgstr "``/dnsdomain``"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:187
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:187
 msgid "mydomain.lan"
 msgstr "mydomain.lan"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:187
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:187
 msgid "Domain in :file:`wapt-get.ini` filled in during installation"
 msgstr "Domaine dans :file:`wapt-get.ini` renseigné lors de l'installation"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:188
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:188
 msgid "``/wapt_server``"
 msgstr "``/wapt_server``"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:188
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:188
 msgid "https://srvwapt.mydomain.lan"
 msgstr "https://srvwapt.mydomain.lan"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:188
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:188
 msgid ""
-"URL of the WAPT server in :file:`wapt-get.ini` filled in during installation"
+"URL of the WAPT server in :file:`wapt-get.ini` filled in during "
+"installation"
 msgstr ""
-"URL du serveur WAPT dans :file:`wapt-get.ini` renseigné lors de l'installation"
+"URL du serveur WAPT dans :file:`wapt-get.ini` renseigné lors de "
+"l'installation"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:189
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:189
 msgid "``/repo_url``"
 msgstr "``/repo_url``"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:189
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:189
 msgid "https://repo1.mydomain.lan/wapt"
 msgstr "https://repo1.mydomain.lan/wapt"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:189
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:189
 msgid ""
-"URL of the WAPT repository in :file:`wapt-get.ini` filled in during installation"
+"URL of the WAPT repository in :file:`wapt-get.ini` filled in during "
+"installation"
 msgstr ""
-"URL du dépôt WAPT dans :file:`wapt-get.ini` renseigné lors de l'installation"
+"URL du dépôt WAPT dans :file:`wapt-get.ini` renseigné lors de "
+"l'installation"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:190
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:190
 msgid "``/StartPackages=``"
 msgstr "``/StartPackages=``"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:190
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:190
 msgid "basic-group"
 msgstr "basic-group"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:190
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:190
 msgid "Group of WAPT packages to install by default"
 msgstr "Groupe de paquets WAPT à installer par défaut"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:191
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:191
 msgid "``/verify_cert=``"
 msgstr "``/verify_cert=``"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:191
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:191
 msgid "1 or relative path :file:`ssl\\\\server\\\\srvwapt.mydomain.lan.crt`"
 msgstr "1 ou chemin relatif :file:`ssl\\\\server\\\\srvwapt.mydomain.lan.crt`"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:191
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:191
 msgid "Value of ``verify_cert`` entered during installation"
 msgstr "Valeur de ``verify_cert`` renseigné lors de l'installation"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:192
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:192
 msgid "``/CopyServersTrustedCA``"
 msgstr "``/CopyServersTrustedCA``"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:192
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:192
 msgid "path to a bundle to copy to :file:`ssl\\\\server`"
 msgstr "chemin vers un bundle à copier dans :file:`ssl\\\\server`"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:192
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:192
 msgid ""
-"Certificate bundle for https connections (to be defined by ``verify_cert``)"
+"Certificate bundle for https connections (to be defined by "
+"``verify_cert``)"
 msgstr ""
-"Bundle de certificats pour les connexions https (à définir par ``verify_cert``)"
+"Bundle de certificats pour les connexions https (à définir par "
+"``verify_cert``)"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:193
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:193
 msgid "``/CopypackagesTrustedCA``"
 msgstr "``/CopypackagesTrustedCA``"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:193
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:193
 msgid "path to a certificate bundle to copy into :file:`ssl`"
 msgstr "chemin vers un bundle à copier dans ssl"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:193
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:193
 msgid "Certificate bundle for verifying package signatures"
 msgstr "Bundle de certificats pour vérifier la signature des paquets"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:198
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:198
 msgid ""
-"The :file:`iss` file for the InnoSetup installer is available here: :file:`C:\\"
-"\\Program Files (x86)\\\\wapt\\\\waptsetup\\\\waptsetup.iss`."
+"The :file:`iss` file for the InnoSetup installer is available here: "
+":file:`C:\\\\Program Files (x86)\\\\wapt\\\\waptsetup\\\\waptsetup.iss`."
 msgstr ""
-"Le fichier :file:`iss` pour l'installeur InnoSetup est situé ici C:\\\\Program "
-"Files (x86)\\\\wapt\\\\ ."
+"Le fichier :file:`iss` pour l'installeur InnoSetup est situé ici "
+"C:\\\\Program Files (x86)\\\\wapt\\\\ ."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:201
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:201
 msgid ""
-"You may choose to adapt it to your specific needs. Once modified, you'll just "
-"have to recreate a :program:`waptagent`."
+"You may choose to adapt it to your specific needs. Once modified, you'll "
+"just have to recreate a :program:`waptagent`."
 msgstr ""
-"Vous pouvez l'adapter à vos besoins spécifiques. Une fois modifié il suffira de "
-"relancer la création d'un :program:`waptagent`."
+"Vous pouvez l'adapter à vos besoins spécifiques. Une fois modifié il "
+"suffira de relancer la création d'un :program:`waptagent`."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:204
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:204
 msgid ""
 "To learn more about the options available with *InnoSetup*, visit `this "
-"documentation <http://www.jrsoftware.org/ishelp/index.php?topic=setupcmdline."
-"us>`_."
+"documentation "
+"<https://jrsoftware.org/ishelp/index.php?topic=setupcmdline.us>`_."
 msgstr ""
-"Pour voir les nombreuses options disponibles avec *InnoSetup*, rendez-vous sur "
-"la `documentation InnoSetup <https://www.jrsoftware.org/ishelp/index.php?"
-"topic=setupcmdline>`_."
+"Pour voir les nombreuses options disponibles avec *InnoSetup*, rendez-"
+"vous sur la `documentation InnoSetup "
+"<https://jrsoftware.org/ishelp/index.php?topic=setupcmdline.us>`_."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:208
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:208
 msgid "With waptdeploy"
 msgstr "Avec waptdeploy"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:210
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:210
 msgid ":program:`waptdeploy` is a small binary that:"
 msgstr "Le :program:`waptdeploy` est un petit exécutable qui :"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:212
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:212
 msgid "checks the version of the WAPT agent;"
 msgstr "teste la version installée de WAPT ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:214
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:214
 msgid "downloads via https the :program:`waptagent.exe` installer;"
 msgstr "télécharge par https l'installeur :program:`waptagent.exe` ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:216
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:216
 msgid ""
-"launches the silent installer with arguments (checked options defined during "
-"the compilation of the WAPT agent);"
+"launches the silent installer with arguments (checked options defined "
+"during the compilation of the WAPT agent);"
 msgstr ""
-"lance l'installeur en mode silencieux avec les options sélectionnées à la "
-"création du waptagent ;"
+"lance l'installeur en mode silencieux avec les options sélectionnées à la"
+" création du waptagent ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:223
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:223
 msgid ""
-"updates the WAPT Server with the WAPT agent status (WAPT version, package "
-"status);"
+"updates the WAPT Server with the WAPT agent status (WAPT version, package"
+" status);"
 msgstr ""
-"mettre à jour le serveur avec le statut de la machine (version WAPT, situation "
-"des packages) ;"
+"mettre à jour le serveur avec le statut de la machine (version WAPT, "
+"situation des packages) ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:227
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:227
 msgid ""
-":program:`waptdeploy` must be started as :term:`Local Administrator`, that is "
-"why we advise you to use a GPO."
+":program:`waptdeploy` must be started as :term:`Local Administrator`, "
+"that is why we advise you to use a GPO."
 msgstr ""
-":program:`waptdeploy` doit être lancé en tant qu':term:`Administrateur Local`, "
-"d'où l'utilisation d'une GPO."
+":program:`waptdeploy` doit être lancé en tant qu':term:`Administrateur "
+"Local`, d'où l'utilisation d'une GPO."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:231
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:233
 msgid "Creating a GPO to deploy the WAPT agents"
 msgstr "Créer la GPO de déploiement avec WAPTdeploy"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:233
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:235
 msgid ""
-"Download :file:`waptdeploy.exe` by visiting: http://wapt.tranquil.it/wapt/"
-"releases/latest/waptdeploy.exe."
+"Download :file:`waptdeploy.exe` by visiting: "
+"https://wapt.tranquil.it/wapt/releases/latest/waptdeploy.exe."
 msgstr ""
-"Télécharger :program:`waptdeploy.exe` ici : https://wapt.tranquil.it/wapt/"
-"releases/latest/waptdeploy.exe."
+"Télécharger :program:`waptdeploy.exe` ici : "
+"https://wapt.tranquil.it/wapt/releases/latest/waptdeploy.exe."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:237
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:239
 msgid "Creating the GPO"
 msgstr "Créer la GPO"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:239
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:241
 msgid ""
-"create a new group strategy called **install_wapt** on the Active Directory "
-"server (Microsoft or Samba-AD);"
+"create a new group strategy called **install_wapt** on the Active "
+"Directory server (Microsoft or Samba-AD);"
 msgstr ""
-"créer une nouvelle stratégie de groupe **install_wapt** sur le serveur Active "
-"Directory (Microsoft ou SaMBa-AD) ;"
+"créer une nouvelle stratégie de groupe **install_wapt** sur le serveur "
+"Active Directory (Microsoft ou SaMBa-AD) ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:242
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:244
 msgid ""
-"add a new strategy: :menuselection:`Computer configuration --> Strategies --> "
-"Windows configuration --> Scripts --> Startup --> Add`;"
+"add a new strategy: :menuselection:`Computer configuration --> Strategies"
+" --> Windows configuration --> Scripts --> Startup --> Add`;"
 msgstr ""
-"ajouter la stratégie : :menuselection:`Configuration Ordinateur --> Stratégies "
-"--> Paramètres Windows --> Scripts --> Démarrage --> Ajouter` ;"
+"ajouter la stratégie : :menuselection:`Configuration Ordinateur --> "
+"Stratégies --> Paramètres Windows --> Scripts --> Démarrage --> Ajouter` "
+";"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:249
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:251
 msgid "Creating a group strategy to deploy the WAPT agent"
 msgstr "Créer une stratégie de groupe pour déployer l'agent WAPT"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:251
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:253
 msgid "click on :guilabel:`Browse` to select the :file:`waptdeploy.exe` script;"
 msgstr ""
-"cliquer sur :guilabel:`Parcourir` pour sélectionner le script :program:"
-"`waptdeploy.exe` ;"
+"cliquer sur :guilabel:`Parcourir` pour sélectionner le script "
+":program:`waptdeploy.exe` ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:257
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:259
 msgid "Finding the waptdeploy.exe file on your computer"
 msgstr "Rechercher le script waptdeploy.exe"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:259
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:261
 msgid "copy :file:`waptdeploy.exe` in the destination folder;"
 msgstr "copier :program:`waptdeploy` dans le dossier ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:265
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:273
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:267
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:275
 msgid "Selecting the waptdeploy.exe script"
 msgstr "Sélectionner le script waptdeploy.exe"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:267
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:269
 msgid "click on :guilabel:`Open` to import the :file:`waptdeploy.exe` script;"
 msgstr ""
-"cliquer sur :guilabel:`Ouvrir` pour importer le script :program`waptdeploy."
-"exe` ;"
+"cliquer sur :guilabel:`Ouvrir` pour importer le script "
+":program`waptdeploy.exe` ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:275
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:277
 msgid ""
-"click on :guilabel:`Open` to confirm the importation of the :program:"
-"`waptdeploy` binary;"
+"click on :guilabel:`Open` to confirm the importation of the "
+":program:`waptdeploy` binary;"
 msgstr ""
-"cliquer sur :guilabel:`Ouvrir` pour confirmer l'importation du script :program:"
-"`waptdeploy` ;"
+"cliquer sur :guilabel:`Ouvrir` pour confirmer l'importation du script "
+":program:`waptdeploy` ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:279
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:281
 msgid "Passing arguments"
 msgstr "Renseigner les arguments"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:283
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:285
 msgid ""
-"Starting with version 1.3.7, it is necessary to provide the checksum of the :"
-"file:`waptagent.exe` as an argument to the *waptdeploy* GPO."
+"Starting with version 1.3.7, it is necessary to provide the checksum of "
+"the :file:`waptagent.exe` as an argument to the *waptdeploy* GPO."
 msgstr ""
-"À partir de la version 1.3.7, il est nécessaire de placer un checksum dans les "
-"paramètres de scripts."
+"À partir de la version 1.3.7, il est nécessaire de placer un checksum "
+"dans les paramètres de scripts."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:286
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:288
 msgid ""
-"This will prevent the remote machine from executing an erroneous/ corrupted :"
-"program:`waptagent` binary."
+"This will prevent the remote machine from executing an erroneous/ "
+"corrupted :program:`waptagent` binary."
 msgstr ""
 "Ceci permet de s'assurer que le :program:`waptdeploy` ne lancera pas un "
 "installeur falsifié ou corrompu."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:295
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:297
 msgid ""
-"Parameters and :program:`waptagent.exe` checksum to use for the *waptdeploy* "
-"GPO are available on the WAPT Server by visiting https://wapt.mydomain.lan."
+"Parameters and :program:`waptagent.exe` checksum to use for the "
+"*waptdeploy* GPO are available on the WAPT Server by visiting "
+"https://srvwapt.mydomain.lan."
 msgstr ""
-"Les paramètres complets à utiliser for the *waptdeploy* ainsi que le checksum "
-"du :program:`waptagent.exe` sont désormais disponibles sur la page d'accueil du "
-"serveur WAPT local à l'adresse https://srvwapt.mydomain.lan/."
+"Les paramètres complets à utiliser for the *waptdeploy* ainsi que le "
+"checksum du :program:`waptagent.exe` sont désormais disponibles sur la "
+"page d'accueil du serveur WAPT local à l'adresse "
+"https://srvwapt.mydomain.lan."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:303
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:305
 msgid "Web console of the WAPT Server"
 msgstr "Console Web du serveur WAPT"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:305
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:307
 msgid "copy the required parameters;"
 msgstr "copier les paramètres indiqués ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:311
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:313
 msgid "add the *waptdeploy* script to the startup GPO"
 msgstr "Ajouter le script *waptdeploy* à la GPO de démarrage"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:313
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:321
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:315
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:323
 msgid "click on :guilabel:`OK` to go on to the next step;"
 msgstr "cliquer sur :guilabel:`OK` pour passer à l'étape suivante ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:319
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:321
 msgid "WAPTdeploy GPO to be deployed on next startup"
 msgstr "GPO WAPTdeploy to be deployed on next startup"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:323
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:325
 msgid ""
 "apply resulting GPO strategy to the Organization's Computers :abbr:`OU "
 "(Organizational Units)`;"
 msgstr ""
-"appliquer la stratégie sur l'OU qui contient les ordinateurs de l':abbr:`UO (:"
-"term:`Unité Organisationnelle`)` ;"
+"appliquer la stratégie sur l'OU qui contient les ordinateurs de "
+"l':abbr:`UO (:term:`Unité Organisationnelle`)` ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:334
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:336
 msgid "``--force``"
 msgstr "``--force``"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:334
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:336
 msgid ""
-"Forces the installation of :program:`waptagent.exe` even if the WAPT agent is "
-"already installed"
+"Forces the installation of :program:`waptagent.exe` even if the WAPT "
+"agent is already installed"
 msgstr "Force l'installation de :program:`waptagent` même s'il est déjà installé."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:335
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:337
 msgid "``--waptsetupurl``"
 msgstr "``--waptsetupurl``"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:335
-msgid "https://wapt/wapt/waptagent.exe"
-msgstr "http://wapt/wapt/waptagent.exe"
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:337
+msgid "https://srvwapt.mydomain.lan/wapt/waptagent.exe"
+msgstr "https://srvwapt.mydomain.lan/wapt/waptagent.exe"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:335
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:337
 msgid "Gives explicitly the WAPT agent URL/path to use to download the WAPT agent"
 msgstr ""
 "Donne explicitement le chemin / l\\'url de téléchargement de l'agent à "
 "installer."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:336
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:338
 msgid "``--tasks``"
 msgstr "``--tasks``"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:336
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:338
 msgid "autorunTray,installService,installredist2008,autoUpgradePolicy"
 msgstr "autorunTray,installService,installredist2008,autoUpgradePolicy"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:336
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:338
 msgid "Sets :program:`waptagent` installation tasks"
 msgstr ""
-"Indique les tâches pour le programme d'installation :program:`waptagent`. Par "
-"défaut, toutes les tâches sont activées"
+"Indique les tâches pour le programme d'installation :program:`waptagent`."
+" Par défaut, toutes les tâches sont activées"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:337
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:339
 msgid "``--wait``"
 msgstr "``--wait``"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:337
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:339
 msgid "10"
 msgstr "10"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:337
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:339
 msgid "Timeout for installing the WAPT agent."
 msgstr "Timeout pour l'installation de l'agent WAPT."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:338
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:340
 msgid "``--setupargs=``"
 msgstr "``--setupargs=``"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:338
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:340
 msgid "/dnsdomain=mydomain.lan /wapt_server= /repo_url="
 msgstr "/dnsdomain=mydomain.lan /wapt_server= /repo_url="
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:338
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:340
 msgid "Passing additional parameters to :program:`waptagent`"
 msgstr "Passer des arguments supplémentaires à :program:`waptagent`"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:346
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:348
 msgid "Launching waptdeploy with a scheduled task"
 msgstr "Lancer waptdeploy avec une tâche planifiée"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:348
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:350
 msgid ""
-"For :program:`waptdeploy` to work best, you may execute the GPO upon computer "
-"shutdown;"
+"For :program:`waptdeploy` to work best, you may execute the GPO upon "
+"computer shutdown;"
 msgstr ""
-"Pour un bon fonctionnement de :program:`waptdeploy`, vous pouvez aussi exécuter "
-"la même GPO à l'arrêt de l'ordinateur ;"
+"Pour un bon fonctionnement de :program:`waptdeploy`, vous pouvez aussi "
+"exécuter la même GPO à l'arrêt de l'ordinateur ;"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:351
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:353
 msgid ""
-"You may also choose to launch :program:`waptdeploy` using a scheduled task that "
-"has been set by GPO."
+"You may also choose to launch :program:`waptdeploy` using a scheduled "
+"task that has been set by GPO."
 msgstr ""
-"Vous pouvez également lancer :program:`waptdeploy` avec une tâche planifiée "
-"installée par GPO."
+"Vous pouvez également lancer :program:`waptdeploy` avec une tâche "
+"planifiée installée par GPO."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:356
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:358
 msgid ""
-"This method is particularly effective for deploying WAPT on workstations when "
-"the network is neither available on starting up or shutting down."
+"This method is particularly effective for deploying WAPT on workstations "
+"when the network is neither available on starting up or shutting down."
 msgstr ""
-"Ce mode de fonctionnement est particulièrement efficace pour déployer WAPT sur "
-"des Postes Client où le réseau n'est ni disponible au démarrage ni disponible à "
-"l'arrêt."
+"Ce mode de fonctionnement est particulièrement efficace pour déployer "
+"WAPT sur des Postes Client où le réseau n'est ni disponible au démarrage "
+"ni disponible à l'arrêt."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:359
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:361
 msgid ""
-"The method consists of using a GPO to copy :file:`waptdeploy.exe` and :file:"
-"`waptagent.exe`:"
+"The method consists of using a GPO to copy :file:`waptdeploy.exe` and "
+":file:`waptagent.exe`:"
 msgstr ""
 "La méthode consiste à utiliser une GPO \"Copie de fichier\", copiez les "
 "fichiers :file:`waptdeploy.exe` et :file:`waptagent.exe` :"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:362
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:364
 msgid "Source : :file:`\\\\mydomain.lan\\\\netlogon\\\\waptagent.exe`"
 msgstr ""
-"Source : :file:`\\\\mydomain.lan\\\\netlogon\\\\waptagent.exe` Destination : :"
-"file:`C:\\\\windows\\\\temp\\\\waptagent.exe`"
+"Source : :file:`\\\\mydomain.lan\\\\netlogon\\\\waptagent.exe` "
+"Destination : :file:`C:\\\\windows\\\\temp\\\\waptagent.exe`"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:364
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:366
 msgid "Destination : :file:`C:\\\\windows\\\\temp\\\\waptagent.exe`"
 msgstr ""
-"Source : :file:`\\\\mydomain.lan\\\\netlogon\\\\waptagent.exe` Destination : :"
-"file:`C:\\\\windows\\\\temp\\\\waptagent.exe`"
+"Source : :file:`\\\\mydomain.lan\\\\netlogon\\\\waptagent.exe` "
+"Destination : :file:`C:\\\\windows\\\\temp\\\\waptagent.exe`"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:370
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:372
 msgid "WAPT agent installation progress"
 msgstr "Propriétés affichant la copie des fichiers"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:372
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:374
 msgid ""
-"copy :file:`waptdeploy.exe` and :file:`waptagent.exe` in the netlogon share of "
-"your Active Directory Server;"
+"copy :file:`waptdeploy.exe` and :file:`waptagent.exe` in the netlogon "
+"share of your Active Directory Server;"
 msgstr ""
-"Copier :file:`waptdeploy.exe` et :file:`waptagent.exe` dans le partage netlogon "
-"sur votre serveur Active Directory."
+"Copier :file:`waptdeploy.exe` et :file:`waptagent.exe` dans le partage "
+"netlogon sur votre serveur Active Directory."
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:375
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:377
 msgid ""
-"then create a GPO to set up a scheduled task that will launch :program:"
-"`waptdeploy`:"
+"then create a GPO to set up a scheduled task that will launch "
+":program:`waptdeploy`:"
 msgstr ""
-"Créer ensuite une GPO de tâche planifiée qui lancera :program:`waptdeploy` :"
+"Créer ensuite une GPO de tâche planifiée qui lancera "
+":program:`waptdeploy` :"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:382
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:384
 msgid "Arguments:"
 msgstr "Arguments :"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:392
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:394
 msgid "Task installation properties"
 msgstr "Propriétés de la tâche d'installation"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:394
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:396
 msgid ""
 "choose a time after which the scheduled task will trigger and set the re-"
 "triggering of the task every 30 minutes until success:"
 msgstr ""
-"Préciser ensuite une heure de lancement et préciser que la tâche doit être "
-"répétée toutes les 30 minutes ou jusqu'à sa réussite :"
+"Préciser ensuite une heure de lancement et préciser que la tâche doit "
+"être répétée toutes les 30 minutes ou jusqu'à sa réussite :"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:401
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:403
 msgid "Advanced properties of the installation task"
 msgstr "Propriétés avancées de la tâche d'installation"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:403
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:405
 msgid ""
-"allow the scheduled task to start even if the device is powered on battery:"
+"allow the scheduled task to start even if the device is powered on "
+"battery:"
 msgstr "autorise que la tâche puisse démarrer même sur batterie :"
 
-#: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:409
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/index.rst:411
 msgid "Power settings"
 msgstr "Configuration de la gestion de l'alimentation"
