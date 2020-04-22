@@ -533,4 +533,3 @@ msgstr ""
 "le troisième problème le plus courant est une installation de Windows "
 "défectueuse qui n'exécute pas correctement les tâches programmées, et oui"
 " nous avons déjà vu ça !!"
-
