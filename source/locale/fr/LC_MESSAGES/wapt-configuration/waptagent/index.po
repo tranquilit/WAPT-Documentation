@@ -88,7 +88,7 @@ msgid ""
 "Some vendors do crappy work and assign the same BIOS UUIDs to entire batches of "
 "computers. In this case, WAPT will only see one computer ..."
 msgstr ""
-"Certains fabricants font de la merde et attribuent les mêmes UUID BIOS à des "
+"Certains fabricants ne font pas correctement leur travail et attribuent les mêmes UUID BIOS à des "
 "lots entiers d'ordinateurs. Dans ce cas, le WAPT ne verra qu'un seul "
 "ordinateur ..."
 

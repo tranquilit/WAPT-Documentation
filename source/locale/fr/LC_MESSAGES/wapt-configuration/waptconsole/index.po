@@ -141,7 +141,7 @@ msgid ""
 "choose the WAPT destination folder (:file:`C:\\\\Program Files (x86)\\\\wapt` "
 "by default);"
 msgstr ""
-"choisir le dossier d'installation (:file:`C:\\Program Files (x86)\\wapt` par "
+"choisir le dossier d'installation (:file:`C:\\\\Program Files (x86)\\\\wapt` par "
 "défaut) ;"
 
 #: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:87
@@ -245,7 +245,8 @@ msgstr "Lancer la console WAPT"
 msgid ""
 "launch the WAPT console by looking for the binary :file:`C:\\\\Program Files "
 "(x86)\\\\wapt\\\\waptconsole.exe`"
-msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
+msgstr "Lancer la console WAPT avec le binaire :file:`C:\\\\Program Files (x86)\\\\wapt\\\\"
+"waptconsole.exe`"
 
 #: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:160
 msgid ""
@@ -273,7 +274,7 @@ msgid ""
 "ref:`msg_error_open`;"
 msgstr ""
 "Si vous rencontrez des problèmes pour vous connecter à la console WAPT, visitez "
-"la :ref:`section des problèmes fréquents <msg_error_open>`."
+"la section des problèmes fréquents :ref:`msg_error_open`;"
 
 #: /mnt/c/users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/waptconsole/index.rst:178
 msgid ""

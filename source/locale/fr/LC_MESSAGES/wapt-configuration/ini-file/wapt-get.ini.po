@@ -26,8 +26,8 @@ msgid ""
 "The configuration file :file:`C:\\\\Program Files(x86)\\\\wapt\\\\wapt-"
 "get.ini` defines the behavior of the WAPT agent."
 msgstr ""
-"Le fichier de configuration C:\\\\Program Files (x86)\\\\wapt\\\\wapt-"
-"get.ini contrôle le comportement de l'agent WAPT."
+"Le fichier de configuration :file:`C:\\\\Program Files (x86)\\\\wapt\\\\wapt-"
+"get.ini` contrôle le comportement de l'agent WAPT."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/wapt-get.ini.rst:20
 msgid "The ``[global]`` section is required:"
