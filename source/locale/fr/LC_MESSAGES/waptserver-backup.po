@@ -143,4 +143,3 @@ msgstr ""
 #: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/waptserver-backup.rst:138
 msgid "Restore PostgreSQL Database with pg_restore.exe:"
 msgstr "Restaurer la base de données PostgreSQL avec pg_restore.exe :"
-

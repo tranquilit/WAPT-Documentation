@@ -281,10 +281,10 @@ or :term:`Package Deployer` has defined for it.
 
   When attributing a software package to a host as a dependency,
   only the software canonical name without its version number is registered
-  as a dependency (ex: *I want Freemind to be installed on this machine
+  as a dependency (ex: I want Freemind to be installed on this machine
   in its latest version and :program:`Freemind` to be configured
   so that the :term:`User` does not call me because she does not find
-  the icon on her desktop!*).
+  the icon on her desktop!).
 
 For each dependency, the WAPT agent will take care of automatically installing
 the latest available package version. So if several versions

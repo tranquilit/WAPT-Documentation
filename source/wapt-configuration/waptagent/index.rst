@@ -44,7 +44,7 @@ in the WAPT console since you will have physically two different computers.
 
 .. note::
 
-   Some vendors do crappy work and assign the same BIOS UUIDs to entire batches
+   Some vendors do inadequate work and assign the same BIOS UUIDs to entire batches
    of computers. In this case, WAPT will only see one computer ...
 
 Identifying the WAPT agent by host name

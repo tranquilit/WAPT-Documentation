@@ -564,10 +564,10 @@ msgid ""
 "she does not find the icon on her desktop!*)."
 msgstr ""
 "Lorsqu'on attribue un paquet logiciel à une machine, on lui affecte le nom "
-"canonique du logiciel sans son numéro de version (ex: *je veux que :program:"
+"canonique du logiciel sans son numéro de version (ex: je veux que :program:"
 "`Freemind` soit installé sur cette machine dans sa dernière version et que :"
 "program:`Freemind` soit configuré pour que l':term:`Utilisateur` ne m'appelle "
-"pas car il ne trouve pas l'icône sur son bureau!*)."
+"pas car il ne trouve pas l'icône sur son bureau!)."
 
 #: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-concept/index.rst:289
 msgid ""
