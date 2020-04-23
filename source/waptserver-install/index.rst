@@ -111,3 +111,12 @@ Installing WAPT Server on a Windows host
 
   windows/index.rst
   windows/change-port.rst
+
+
+Installing WAPT Server with Ansible
+----------------------------------------
+
+.. toctree::
+  :maxdepth: 1
+
+  advanced/install-waptserver-with-ansible.rst
