@@ -9,7 +9,7 @@
   :description: Using organizational unit packages in WAPT
   :keywords: WAPT, console, organizational, unit, OU, UO, Active Directory
 
-.. _wapt_reporting:
+.. _wapt_organizational_unit:
 
 .. versionadded:: 1.7 Enterprise
 

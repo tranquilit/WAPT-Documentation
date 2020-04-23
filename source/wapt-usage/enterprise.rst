@@ -17,6 +17,7 @@ This section of the documentation covers the use of WAPT Enterprise features.
   :caption: Enterprise Features
 
   wapt-organizational-unit.rst
+  wapt-profile-package.rst
   wapt-windows-update.rst
   wapt-reporting.rst
   wapt-selfservice.rst
