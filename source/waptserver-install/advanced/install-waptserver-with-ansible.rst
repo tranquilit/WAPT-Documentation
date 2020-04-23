@@ -15,7 +15,7 @@
 Installing WAPT Server with Ansible
 +++++++++++++++++++++++++++++++++++++
 
-To avoid mistakes and automate your WAPT deployment, we provide Ansible roles for WAPT Server installation.
+To avoid mistakes and automate your WAPT Server deployment, we provide Ansible roles for WAPT Server installation.
 
 You can explore the role source code here : `tranquilit.waptserver <https://github.com/tranquilit/ansible.waptserver>`_.
 
@@ -36,7 +36,7 @@ Install Ansible role
   ansible-galaxy install tranquilit.waptserver
 
 
-* to install the role elsewhere, use the commande like this
+* to install the role elsewhere, use the command like this
 
 .. code-block:: bash
 

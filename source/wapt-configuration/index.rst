@@ -26,6 +26,7 @@ the next steps are as follow:
    wapt-deploy/index.rst
    wapt-deploy/waptagent-linux.rst
    wapt-deploy/waptagent-macos.rst
+   wapt-deploy/waptagent-ansible.rst
 
 To go further, more configuration options are available in this part
 of the documentation:
