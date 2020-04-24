@@ -35,9 +35,9 @@ Debian Linux
 .. code-block:: bash
 
   echo  "deb  https://wapt.tranquil.it/debian/  ./  "  > /etc/apt/sources.list.d/wapt.list
-  apt-get update
-  apt-get upgrade
-  apt-get install tis-waptrepo
+  apt update
+  apt upgrade -y
+  apt install tis-waptrepo
 
 CentOS/ RedHat Linux
 """"""""""""""""""""

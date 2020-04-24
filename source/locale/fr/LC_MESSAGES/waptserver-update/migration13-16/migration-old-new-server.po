@@ -38,10 +38,10 @@ msgstr ""
 #: ../../source/waptserver_update/migration13-16/migration_old_new_server.rst:28
 msgid ""
 "if the :command:`mongodump` command is not available, you may install the"
-" utility with :code:`apt-get install mongo-tools`."
+" utility with :code:`apt install mongo-tools`."
 msgstr ""
 "Si la commande mongodump n'est pas disponible, vous pouvez l'installer "
-"avec la commande :code:`apt-get install mongo-tools`."
+"avec la commande :code:`apt install mongo-tools`."
 
 #: ../../source/waptserver_update/migration13-16/migration_old_new_server.rst:31
 msgid "Launching :command:`mongodump` creates a :file:`dump` file, save it."

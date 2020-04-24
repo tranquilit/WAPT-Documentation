@@ -81,7 +81,7 @@ of :program:`waptserver`.
 
 .. code-block:: bash
 
-  apt-get update && apt-get upgrade
+  apt update && apt upgrade -y
 
 * install the WAPT Server;
 
@@ -93,11 +93,11 @@ of :program:`waptserver`.
 
 .. code-block:: bash
 
-  apt-get install apt-transport-https lsb-release systemd-sysv systemd
+  apt install apt-transport-https lsb-release systemd-sysv systemd
   wget -O - https://wapt.tranquil.it/debian/tiswapt-pub.gpg  | apt-key add -
   echo  "deb  https://wapt.tranquil.it/debian/wapt-1.3/ $(lsb_release -c -s) main"  > /etc/apt/sources.list.d/wapt.list
-  apt-get update
-  apt-get install tis-waptserver tis-waptrepo tis-waptsetup
+  apt update
+  apt install tis-waptserver tis-waptrepo tis-waptsetup
 
 * launch the configuration script;
 

@@ -90,7 +90,7 @@ Configuring the IP address of the WAPT Server
 
 .. code-block:: bash
 
-  apt-get install locales-all
+  apt install locales-all
   localectl set-locale LANG=en_US.UTF-8
   localectl status
 
@@ -116,20 +116,20 @@ Configuring the IP address of the WAPT Server
 
   .. code-block:: bash
 
-    apt-get update
-    apt-get upgrade
+    apt update
+    apt upgrade -y
 
 * install systemd;
 
   .. code-block:: bash
 
-    apt-get install systemd
+    apt install systemd
 
 * install certificates;
 
   .. code-block:: bash
 
-     apt-get install ca-certificates
+     apt install ca-certificates
 
 * restart server;
 

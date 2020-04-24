@@ -116,8 +116,8 @@ msgstr ""
 "référer au bloc précédent."
 
 #: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:73
-msgid "install WAPT agent using apt-get:"
-msgstr "installer l'agent WAPT en utilisant apt-get :"
+msgid "install WAPT agent using apt:"
+msgstr "installer l'agent WAPT en utilisant apt :"
 
 #: /mnt/c/Users/alejeune/Documents/GIT/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:81
 msgid "Installing the WAPT agent on CentOS"

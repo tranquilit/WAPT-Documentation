@@ -53,7 +53,7 @@ Uninstalling a WAPT agent on Linux
   .. code-block:: bash
 
     # Debian / Ubuntu
-    apt-get remove --purge tis-waptagent
+    apt remove --purge tis-waptagent
 
     # CentOS / Redhat
     yum remove tis-waptagent

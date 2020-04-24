@@ -26,7 +26,7 @@ Under Linux, you may save your MongoDB inventory with the command
 .. hint::
 
   if the :command:`mongodump` command is not available, you may install
-  the utility with :code:`apt-get install mongo-tools`.
+  the utility with :code:`apt install mongo-tools`.
 
 Launching :command:`mongodump` creates a :file:`dump` file, save it.
 

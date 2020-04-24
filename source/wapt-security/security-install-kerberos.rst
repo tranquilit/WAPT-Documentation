@@ -33,7 +33,7 @@ Installing the Kerberos components and configuring krb5.conf file
 .. code-block:: bash
 
   #Debian
-  apt-get install krb5-user msktutil libnginx-mod-http-auth-spnego
+  apt install krb5-user msktutil libnginx-mod-http-auth-spnego
 
   #CentOS
   yum install krb5-workstation msktutil nginx-mod-http-auth-spnego

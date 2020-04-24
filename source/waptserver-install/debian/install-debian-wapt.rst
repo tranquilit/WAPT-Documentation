@@ -58,8 +58,8 @@ During installation, you may be asked for the Kerberos realm. Just press
 
     .. code-block:: bash
 
-      apt-get update && apt-get upgrade
-      apt-get install apt-transport-https lsb-release
+      apt update && apt upgrade -y
+      apt install apt-transport-https lsb-release gnupg
       wget -O - https://wapt.tranquil.it/debian/tiswapt-pub.gpg  | apt-key add -
       echo "deb https://user:password@srvwapt-pro.tranquil.it/entreprise/debian/wapt-1.8/ $(lsb_release -c -s) main" > /etc/apt/sources.list.d/wapt.list
 
@@ -71,8 +71,8 @@ During installation, you may be asked for the Kerberos realm. Just press
 
   .. code-block:: bash
 
-    apt-get update && apt-get upgrade
-    apt-get install apt-transport-https lsb-release gnupg
+    apt update && apt upgrade -y
+    apt install apt-transport-https lsb-release gnupg
     wget -O - https://wapt.tranquil.it/debian/tiswapt-pub.gpg  | apt-key add -
     echo "deb https://wapt.tranquil.it/debian/wapt-1.8/ $(lsb_release -c -s) main" > /etc/apt/sources.list.d/wapt.list
 
@@ -81,8 +81,8 @@ Installing the WAPT Server packages
 
 .. code-block:: bash
 
-    apt-get update
-    apt-get install tis-waptserver tis-waptsetup
+    apt update
+    apt install tis-waptserver tis-waptsetup
 
 Post-configuring
 """"""""""""""""

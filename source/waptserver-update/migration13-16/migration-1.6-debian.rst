@@ -52,13 +52,13 @@ Install systemd and ca-certificates
 
 .. code-block:: bash
 
-    apt-get install systemd
+    apt install systemd
 
 * install ca-certificates:
 
 .. code-block:: bash
 
-    apt-get install ca-certificates
+    apt install ca-certificates
 
 * restart the WAPT service:
 
@@ -71,7 +71,7 @@ Uninstalling WAPT 1.3 from the Debian server
 
 .. code-block:: bash
 
-  apt-get remove tis-waptrepo tis-waptsetup tis-waptserver
+  apt remove tis-waptrepo tis-waptsetup tis-waptserver
   systemctl stop apache2
   systemctl disable apache2
 
@@ -80,18 +80,18 @@ Setting up the GNU/ Linux Debian server
 
 .. code-block:: bash
 
-    apt-get update && apt-get upgrade
-    apt-get install apt-transport-https lsb-release
+    apt update && apt upgrade -y
+    apt install apt-transport-https lsb-release
     wget -O - https://wapt.tranquil.it/debian/tiswapt-pub.gpg  | apt-key add -
     echo  "deb  https://wapt.tranquil.it/debian/wapt-1.6/ $(lsb_release -c -s) main"  > /etc/apt/sources.list.d/wapt.list
-    apt-get update
+    apt update
 
 Installing WAPT 1.6 on the Debian server
 """"""""""""""""""""""""""""""""""""""""
 
 .. code-block:: bash
 
-   apt-get install tis-waptserver tis-waptsetup
+   apt install tis-waptserver tis-waptsetup
 
 .. note::
 
@@ -141,9 +141,9 @@ WAPT will use from now on :program:`Nginx` as its web server and
 
 .. code-block:: bash
 
-  apt-get remove apache2 mongodb
-  apt-get autoremove
-  apt-get clean
+  apt remove apache2 mongodb
+  apt autoremove
+  apt clean
 
 Installing the new WAPT console
 """""""""""""""""""""""""""""""
