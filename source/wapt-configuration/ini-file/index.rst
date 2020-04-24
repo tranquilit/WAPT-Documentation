@@ -38,35 +38,66 @@ Several options can be defined in the section:
 =========================================================================== ==================================================================================================================================================
 Options                                                                     Description
 =========================================================================== ==================================================================================================================================================
-``db_name`` = wapt                                                          Name of the PostgreSQL database that the WAPT
-                                                                            Server will connect to.
+``allow_unauthenticated_connect`` = False                                   Defines whether websocket connections should be authenticated
+``allow_unauthenticated_registration`` = True                               Allows the initial registration of the WAPT agent using
+                                                                            a login and password
+``allow_unsigned_status_data`` = False                                      Debug only - Allows unsigned status data from agent
+``application_root`` = ''                                                   Set custom WAPT server application root path (ex: wapt)
+``auto_create_ldap_users`` = True                                           Related to user ACLs
+``client_certificate_lifetime`` = 3650                                      Host certificate lifetime
+``clients_read_timeout`` = 5                                                Websocket client timeout
+``clients_signing_certificate`` =                                           Host certificates signing cert
+``clients_signing_crl_days`` =                                              Host certificates signing CRL day
+``clients_signing_crl`` =                                                   Host certificates signing CRL
+``clients_signing_crl_url`` =                                               Host certificates signing CRL URL
+``clients_signing_key`` =                                                   Host certificates signing key
+``client_tasks_timeout`` = 1                                                Maximum allowed delay before WAPT agent requests timeout
+``db_connect_timeout`` = 10                                                 Maximum allowed delay before PostgreSQL queries timeout
 ``db_host`` =                                                               Address of the PostgreSQL server (empty by default,
                                                                             it will use a local Unix Socket).
+``db_max_connections`` = 100                                                Maximum simultaneous connections to the PostgreSQL database
+``db_name`` = wapt                                                          Name of the PostgreSQL database that the WAPT
+                                                                            Server will connect to.
+``db_password`` =                                                           Password for authenticating the user on the PostgreSQL database (default: empty, it will use a local UNIX socket)
+``db_port`` = 5432                                                          Port of the PostgreSQL server
+``db_stale_timeout`` = 300                                                  Database stale timeout, default to 300 seconds
 ``db_user`` =                                                               Name of the PostgreSQL user connecting to the database
                                                                             (default: empty, it will use a local UNIX socket).
-``db_password`` =                                                           Password for authenticating the user on the PostgreSQL database (default: empty, it will use a local UNIX socket)
-``wapt_user`` = admin                                                       Defines the :term:`SuperAdmin` username in the WAPT console.
-``wapt_password`` = 46642dd2b1dfezfezgfezgadf0ezgeezgezf53d                 :term:`SuperAdmin` password for connecting to the WAPT console.
+``enable_store`` = False                                                    Enables WAPT Store Webui
+``encrypt_host_packages`` = False                                           Encrypt host package with client certificate
+``htpasswd_path`` = None                                                    Adds basic authentication to WAPT Server
+``http_proxy`` = http://srvproxy.mydomain.lan:3128                          Defines the proxy server to allow the WAPT server to recover
+                                                                            its :abbr:`CRL (Certificate Revocation List)`
+``known_certificates_folder`` = /opt/wapt/ssl/                              Adds additional knowed CA for certificate validation
+``ldap_auth_base_dn`` = None                                                Defines LDAP authentication base DN
+``ldap_auth_server`` = None                                                 Defines LDAP authentication server
+``ldap_auth_ssl_enabled`` = True                                            Sets SSL auth on LDAP connections
+``loglevel`` = debug                                                        Debug level. default level is warning
+``max_clients`` = 4096                                                      Sets maximum simultaneous WAPT clients connection
+``min_password_length`` = 10                                                Sets minimum admin password lenght
+``nginx_http`` = 80                                                         Defines Nginx http port (Windows only)
+``nginx_https`` = 443                                                       Defines Nginx https port (Windows only)
+``remote_repo_diff`` = False                                                Enable remote repositories diff
+``remote_repo_support`` = True                                              Enables remote repositories functionnality on WAPT Server
+``remote_repo_websockets`` = True                                           Enables websocket communication with remote repositories agents
 ``secret_key`` =  FKjfzjfkF687fjrkeznfkj7678jknk78687                       Random string for initializing the Python Flask application server.
                                                                             It is generated when first installing the WAPT Server
                                                                             and is unique for every WAPT Server.
-``wapt_folder`` = /var/www/wapt                                             Directory of the WAPT repository.
-``waptwua_folder`` = /var/www/waptwua                                       Location of WAPT WUA folder
 ``server_uuid`` = 76efezfa6-b309-1fez5-92cd-8ea48fc122dc                    WAPT Server :term:`UUID` (this anonymous id is used for WAPT statistics).
-``use_kerberos`` = true                                                     Requires a Kerberos authentication when first registering the WAPT agent.
-``loglevel`` = debug                                                        Debug level.
-``client_tasks_timeout`` = 1                                                Maximum allowed delay before WAPT agent requests timeout
 ``signature_clockskew`` = 72000                                             Maximum allowed time difference for the websockets
-``db_connect_timeout`` = 10                                                 Maximum allowed delay before PostgreSQL queries timeout
-``db_max_connections`` = 100                                                Maximum simultaneous connections to the PostgreSQL database
-``allow_unauthenticated_registration`` = True                               Allows the initial registration of the WAPT agent using
-                                                                            a login and password
-``allow_unauthenticated_connect`` = False                                   Defines whether websocket connections should be authenticated
-``http_proxy`` = http://srvproxy.mydomain.lan:3128                          Defines the proxy server to allow the WAPT server to recover
-                                                                            its :abbr:`CRL (Certificate Revocation List)`
-``wol_port`` = 9,123,4000                                                   List of WakeOnLAN UDP ports to send magic packets to
+``token_lifetime`` = 43200                                                  Authentication token lifetime
+``trusted_signers_certificates_folder`` = None                              path to trusted signers certificate directory
+``trusted_users_certificates_folder`` = None                                path to trusted users CA certificate directory
+``use_kerberos`` = true                                                     Requires a Kerberos authentication when first registering the WAPT agent.
+``use_ssl_client_auth`` = False                                             Enables client certification authentication
 ``wapt_admin_group_dn`` = CN=waptadmins,OU=groups,DC=ad,DC=mydomain,DC=lan  LDAP DN of Active Directory User Group allowed to connect to WAPT console
-``remote_repo_support`` = True                                              Enables replication on remote repository
+``wapt_admin_group`` = None                                                 CN of Active Directory User Group allowed to connect to WAPT console
+``wapt_folder`` = /var/www/wapt                                             Directory of the WAPT repository.
+``wapt_password`` = 46642dd2b1dfezfezgfezgadf0ezgeezgezf53d                 :term:`SuperAdmin` password for connecting to the WAPT console.
+``waptserver_port`` = 8080                                                  Specify WAPT Server python service port, default to ``8080``
+``wapt_user`` = admin                                                       Defines the :term:`SuperAdmin` username in the WAPT console.
+``waptwua_folder`` = /var/www/waptwua                                       Location of WAPT WUA folder
+``wol_port`` = 9,123,4000                                                   List of WakeOnLAN UDP ports to send magic packets to
 =========================================================================== ==================================================================================================================================================
 
 .. _config_nginx:

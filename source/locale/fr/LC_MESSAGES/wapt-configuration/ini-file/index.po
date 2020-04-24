@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-22 16:06+0200\n"
+"POT-Creation-Date: 2020-04-24 16:53+0200\n"
 "PO-Revision-Date: 2020-03-26 12:02+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
@@ -63,18 +63,130 @@ msgid "Description"
 msgstr "Description"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:41
-msgid "``db_name`` = wapt"
-msgstr "``db_name`` = wapt"
+msgid "``allow_unauthenticated_connect`` = False"
+msgstr "``allow_unauthenticated_connect`` = False"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:41
-msgid "Name of the PostgreSQL database that the WAPT Server will connect to."
-msgstr "Nom de la base PostgreSQL à laquelle le serveur WAPT va se connecter."
+msgid "Defines whether websocket connections should be authenticated"
+msgstr "Définit si les requêtes websocket doivent être authentifiées"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:43
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:42
+msgid "``allow_unauthenticated_registration`` = True"
+msgstr "``allow_unauthenticated_registration`` = True"
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:42
+msgid ""
+"Allows the initial registration of the WAPT agent using a login and "
+"password"
+msgstr ""
+"Permet une authentification Identifiant / Mot de passe pour "
+"l'enregistrement initial"
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:44
+#, fuzzy
+msgid "``allow_unsigned_status_data`` = False"
+msgstr "``allow_unauthenticated_connect`` = False"
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:44
+msgid "Debug only - Allows unsigned status data from agent"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:45
+msgid "``application_root`` = ''"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:45
+msgid "Set custom WAPT server application root path (ex: wapt)"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:46
+msgid "``auto_create_ldap_users`` = True"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:46
+msgid "Related to user ACLs"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:47
+#, fuzzy
+msgid "``client_certificate_lifetime`` = 3650"
+msgstr "``client_tasks_timeout`` = 1"
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:47
+msgid "Host certificate lifetime"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:48
+#, fuzzy
+msgid "``clients_read_timeout`` = 5"
+msgstr "``client_tasks_timeout`` = 1"
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:48
+msgid "Websocket client timeout"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:49
+msgid "``clients_signing_certificate`` ="
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:49
+msgid "Host certificates signing cert"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:50
+msgid "``clients_signing_crl_days`` ="
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:50
+msgid "Host certificates signing CRL day"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:51
+msgid "``clients_signing_crl`` ="
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:51
+msgid "Host certificates signing CRL"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:52
+msgid "``clients_signing_crl_url`` ="
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:52
+msgid "Host certificates signing CRL URL"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:53
+#, fuzzy
+msgid "``clients_signing_key`` ="
+msgstr "``client_tasks_timeout`` = 1"
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:53
+msgid "Host certificates signing key"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:54
+msgid "``client_tasks_timeout`` = 1"
+msgstr "``client_tasks_timeout`` = 1"
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:54
+msgid "Maximum allowed delay before WAPT agent requests timeout"
+msgstr "Délai d'attente maximum pour la réponse de l'agent WAPT"
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:55
+msgid "``db_connect_timeout`` = 10"
+msgstr "``db_connect_timeout`` = 10"
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:55
+msgid "Maximum allowed delay before PostgreSQL queries timeout"
+msgstr "Délai d'attente maximum pour les requête de PostgreSQL"
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:56
 msgid "``db_host`` ="
 msgstr "``db_host`` ="
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:43
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:56
 msgid ""
 "Address of the PostgreSQL server (empty by default, it will use a local "
 "Unix Socket)."
@@ -82,23 +194,27 @@ msgstr ""
 "Adresse du serveur PostgreSQL (par défaut vide car la connexion par "
 "socket UNIX est par défaut)"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:45
-msgid "``db_user`` ="
-msgstr "``db_user`` ="
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:58
+msgid "``db_max_connections`` = 100"
+msgstr "``db_max_connections`` = 100"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:45
-msgid ""
-"Name of the PostgreSQL user connecting to the database (default: empty, "
-"it will use a local UNIX socket)."
-msgstr ""
-"Nom d'utilisateur pour la base PostgreSQL (par défaut vide car la "
-"connexion par socket UNIX est activée par défaut)"
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:58
+msgid "Maximum simultaneous connections to the PostgreSQL database"
+msgstr "Nombre de connexions simultanés pour les requêtes de PostgreSQL"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:47
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:59
+msgid "``db_name`` = wapt"
+msgstr "``db_name`` = wapt"
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:59
+msgid "Name of the PostgreSQL database that the WAPT Server will connect to."
+msgstr "Nom de la base PostgreSQL à laquelle le serveur WAPT va se connecter."
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:61
 msgid "``db_password`` ="
 msgstr "``db_password`` ="
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:47
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:61
 msgid ""
 "Password for authenticating the user on the PostgreSQL database (default:"
 " empty, it will use a local UNIX socket)"
@@ -106,27 +222,180 @@ msgstr ""
 "Mot de passe pour la base PostgreSQL (par défaut vide car la connexion "
 "par socket UNIX est activée par défaut)"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:48
-msgid "``wapt_user`` = admin"
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:62
+#, fuzzy
+msgid "``db_port`` = 5432"
+msgstr "``db_host`` ="
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:62
+msgid "Port of the PostgreSQL server"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:63
+#, fuzzy
+msgid "``db_stale_timeout`` = 300"
+msgstr "``db_connect_timeout`` = 10"
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:63
+msgid "Database stale timeout, default to 300 seconds"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:64
+msgid "``db_user`` ="
+msgstr "``db_user`` ="
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:64
+msgid ""
+"Name of the PostgreSQL user connecting to the database (default: empty, "
+"it will use a local UNIX socket)."
+msgstr ""
+"Nom d'utilisateur pour la base PostgreSQL (par défaut vide car la "
+"connexion par socket UNIX est activée par défaut)"
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:66
+msgid "``enable_store`` = False"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:66
+msgid "Enables WAPT Store Webui"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:67
+msgid "``encrypt_host_packages`` = False"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:67
+msgid "Encrypt host package with client certificate"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:68
+msgid "``htpasswd_path`` = None"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:68
+msgid "Adds basic authentication to WAPT Server"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:69
+msgid "``http_proxy`` = http://srvproxy.mydomain.lan:3128"
+msgstr "``http_proxy`` = http://srvproxy.mydomain.lan:3128"
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:69
+msgid ""
+"Defines the proxy server to allow the WAPT server to recover its "
+":abbr:`CRL (Certificate Revocation List)`"
+msgstr ""
+"Définit le serveur proxy du serveur WAPT (pour récupérer des :abbr:`CRL "
+"(Certificate Revocation List)` )"
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:71
+msgid "``known_certificates_folder`` = /opt/wapt/ssl/"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:71
+msgid "Adds additional knowed CA for certificate validation"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:72
+msgid "``ldap_auth_base_dn`` = None"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:72
+msgid "Defines LDAP authentication base DN"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:73
+#, fuzzy
+msgid "``ldap_auth_server`` = None"
 msgstr "``wapt_user`` = admin"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:48
-msgid "Defines the :term:`SuperAdmin` username in the WAPT console."
-msgstr "Identifiant de connexion du :term:`SuperAdmin` pour la console WAPT."
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:73
+msgid "Defines LDAP authentication server"
+msgstr ""
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:49
-msgid "``wapt_password`` = 46642dd2b1dfezfezgfezgadf0ezgeezgezf53d"
-msgstr "``wapt_password`` = 46642dd2b1dfezfezgfezgadf0ezgeezgezf53d"
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:74
+msgid "``ldap_auth_ssl_enabled`` = True"
+msgstr ""
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:49
-msgid ":term:`SuperAdmin` password for connecting to the WAPT console."
-msgstr "Mot de passe du :term:`SuperAdmin` pour la console WAPT."
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:74
+msgid "Sets SSL auth on LDAP connections"
+msgstr ""
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:50
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:75
+msgid "``loglevel`` = debug"
+msgstr "``loglevel`` = debug"
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:75
+msgid "Debug level. default level is warning"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:76
+#, fuzzy
+msgid "``max_clients`` = 4096"
+msgstr "``db_max_connections`` = 100"
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:76
+msgid "Sets maximum simultaneous WAPT clients connection"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:77
+#, fuzzy
+msgid "``min_password_length`` = 10"
+msgstr "``db_password`` ="
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:77
+msgid "Sets minimum admin password lenght"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:78
+msgid "``nginx_http`` = 80"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:78
+msgid "Defines Nginx http port (Windows only)"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:79
+msgid "``nginx_https`` = 443"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:79
+msgid "Defines Nginx https port (Windows only)"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:80
+#, fuzzy
+msgid "``remote_repo_diff`` = False"
+msgstr "``remote_repo_support`` = True"
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:80
+#, fuzzy
+msgid "Enable remote repositories diff"
+msgstr "Permet la réplication vers un dépôt distant"
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:81
+msgid "``remote_repo_support`` = True"
+msgstr "``remote_repo_support`` = True"
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:81
+msgid "Enables remote repositories functionnality on WAPT Server"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:82
+#, fuzzy
+msgid "``remote_repo_websockets`` = True"
+msgstr "``remote_repo_support`` = True"
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:82
+#, fuzzy
+msgid "Enables websocket communication with remote repositories agents"
+msgstr "Permet la réplication vers un dépôt distant"
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:83
 msgid "``secret_key`` =  FKjfzjfkF687fjrkeznfkj7678jknk78687"
 msgstr "``secret_key`` =  FKjfzjfkF687fjrkeznfkj7678jknk78687"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:50
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:83
 msgid ""
 "Random string for initializing the Python Flask application server. It is"
 " generated when first installing the WAPT Server and is unique for every "
@@ -136,144 +405,145 @@ msgstr ""
 "généré lors de la première installation du serveur WAPT et est unique "
 "pour chaque serveur WAPT."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:53
-msgid "``wapt_folder`` = /var/www/wapt"
-msgstr "``wapt_folder`` = /var/www/wapt"
-
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:53
-msgid "Directory of the WAPT repository."
-msgstr "Répertoire du dépôt WAPT."
-
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:54
-msgid "``waptwua_folder`` = /var/www/waptwua"
-msgstr "``waptwua_folder`` = /var/www/waptwua"
-
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:54
-msgid "Location of WAPT WUA folder"
-msgstr "Emplacement du dossier WAPT WUA"
-
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:55
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:86
 msgid "``server_uuid`` = 76efezfa6-b309-1fez5-92cd-8ea48fc122dc"
 msgstr "``server_uuid`` = 76efezfa6-b309-1fez5-92cd-8ea48fc122dc"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:55
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:86
 msgid "WAPT Server :term:`UUID` (this anonymous id is used for WAPT statistics)."
 msgstr ":term:`UUID` du server (pour les statistiques anonymes WAPT)"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:56
-msgid "``use_kerberos`` = true"
-msgstr "``use_kerberos`` = True"
-
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:56
-msgid "Requires a Kerberos authentication when first registering the WAPT agent."
-msgstr ""
-"Exige une authentification Kerberos pour l'enregistrement initial d'une "
-"machine sur le serveur WAPT."
-
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:57
-msgid "``loglevel`` = debug"
-msgstr "``loglevel`` = debug"
-
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:57
-msgid "Debug level."
-msgstr "Niveau de débug."
-
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:58
-msgid "``client_tasks_timeout`` = 1"
-msgstr "``client_tasks_timeout`` = 1"
-
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:58
-msgid "Maximum allowed delay before WAPT agent requests timeout"
-msgstr "Délai d'attente maximum pour la réponse de l'agent WAPT"
-
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:59
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:87
 msgid "``signature_clockskew`` = 72000"
 msgstr "``signature_clockskew`` = 72000"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:59
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:87
 msgid "Maximum allowed time difference for the websockets"
 msgstr ""
 "Décalage de temps autorisé pour les timestamps lors d'une connexion "
 "websocket"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:60
-msgid "``db_connect_timeout`` = 10"
-msgstr "``db_connect_timeout`` = 10"
-
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:60
-msgid "Maximum allowed delay before PostgreSQL queries timeout"
-msgstr "Délai d'attente maximum pour les requête de PostgreSQL"
-
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:61
-msgid "``db_max_connections`` = 100"
-msgstr "``db_max_connections`` = 100"
-
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:61
-msgid "Maximum simultaneous connections to the PostgreSQL database"
-msgstr "Nombre de connexions simultanés pour les requêtes de PostgreSQL"
-
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:62
-msgid "``allow_unauthenticated_registration`` = True"
-msgstr "``allow_unauthenticated_registration`` = True"
-
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:62
-msgid ""
-"Allows the initial registration of the WAPT agent using a login and "
-"password"
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:88
+msgid "``token_lifetime`` = 43200"
 msgstr ""
-"Permet une authentification Identifiant / Mot de passe pour "
-"l'enregistrement initial"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:64
-msgid "``allow_unauthenticated_connect`` = False"
-msgstr "``allow_unauthenticated_connect`` = False"
-
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:64
-msgid "Defines whether websocket connections should be authenticated"
-msgstr "Définit si les requêtes websocket doivent être authentifiées"
-
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:65
-msgid "``http_proxy`` = http://srvproxy.mydomain.lan:3128"
-msgstr "``http_proxy`` = http://srvproxy.mydomain.lan:3128"
-
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:65
-msgid ""
-"Defines the proxy server to allow the WAPT server to recover its "
-":abbr:`CRL (Certificate Revocation List)`"
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:88
+msgid "Authentication token lifetime"
 msgstr ""
-"Définit le serveur proxy du serveur WAPT (pour récupérer des :abbr:`CRL "
-"(Certificate Revocation List)` )"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:67
-msgid "``wol_port`` = 9,123,4000"
-msgstr "``wol_port`` = 9,123,4000"
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:89
+msgid "``trusted_signers_certificates_folder`` = None"
+msgstr ""
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:67
-msgid "List of WakeOnLAN UDP ports to send magic packets to"
-msgstr "Liste des ports UDP WakeOnLAN auxquels envoyer des paquets magiques"
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:89
+msgid "path to trusted signers certificate directory"
+msgstr ""
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:68
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:90
+msgid "``trusted_users_certificates_folder`` = None"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:90
+msgid "path to trusted users CA certificate directory"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:91
+msgid "``use_kerberos`` = true"
+msgstr "``use_kerberos`` = True"
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:91
+msgid "Requires a Kerberos authentication when first registering the WAPT agent."
+msgstr ""
+"Exige une authentification Kerberos pour l'enregistrement initial d'une "
+"machine sur le serveur WAPT."
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:92
+msgid "``use_ssl_client_auth`` = False"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:92
+msgid "Enables client certification authentication"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:93
 msgid "``wapt_admin_group_dn`` = CN=waptadmins,OU=groups,DC=ad,DC=mydomain,DC=lan"
 msgstr "``wapt_admin_group_dn`` = CN=waptadmins,OU=groups,DC=ad,DC=mydomain,DC=lan"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:68
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:93
 msgid "LDAP DN of Active Directory User Group allowed to connect to WAPT console"
 msgstr ""
 "LDAP DN du groupe d'utilisateurs Active Directory autorisé à se connecter"
 " à la console WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:69
-msgid "``remote_repo_support`` = True"
-msgstr "``remote_repo_support`` = True"
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:94
+msgid "``wapt_admin_group`` = None"
+msgstr ""
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:69
-msgid "Enables replication on remote repository"
-msgstr "Permet la réplication vers un dépôt distant"
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:94
+#, fuzzy
+msgid "CN of Active Directory User Group allowed to connect to WAPT console"
+msgstr ""
+"LDAP DN du groupe d'utilisateurs Active Directory autorisé à se connecter"
+" à la console WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:75
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:95
+msgid "``wapt_folder`` = /var/www/wapt"
+msgstr "``wapt_folder`` = /var/www/wapt"
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:95
+msgid "Directory of the WAPT repository."
+msgstr "Répertoire du dépôt WAPT."
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:96
+msgid "``wapt_password`` = 46642dd2b1dfezfezgfezgadf0ezgeezgezf53d"
+msgstr "``wapt_password`` = 46642dd2b1dfezfezgfezgadf0ezgeezgezf53d"
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:96
+msgid ":term:`SuperAdmin` password for connecting to the WAPT console."
+msgstr "Mot de passe du :term:`SuperAdmin` pour la console WAPT."
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:97
+msgid "``waptserver_port`` = 8080"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:97
+msgid "Specify WAPT Server python service port, default to ``8080``"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:98
+msgid "``wapt_user`` = admin"
+msgstr "``wapt_user`` = admin"
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:98
+msgid "Defines the :term:`SuperAdmin` username in the WAPT console."
+msgstr "Identifiant de connexion du :term:`SuperAdmin` pour la console WAPT."
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:99
+msgid "``waptwua_folder`` = /var/www/waptwua"
+msgstr "``waptwua_folder`` = /var/www/waptwua"
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:99
+msgid "Location of WAPT WUA folder"
+msgstr "Emplacement du dossier WAPT WUA"
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:100
+msgid "``wol_port`` = 9,123,4000"
+msgstr "``wol_port`` = 9,123,4000"
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:100
+msgid "List of WakeOnLAN UDP ports to send magic packets to"
+msgstr "Liste des ports UDP WakeOnLAN auxquels envoyer des paquets magiques"
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:106
 msgid "Configuring Nginx"
 msgstr "Configurer Nginx"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:77
+#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/ini-file/index.rst:108
 msgid "The default Nginx configuration is as follows:"
 msgstr "La configuration nginx par défaut est la suivante :"
+
+#~ msgid "Debug level."
+#~ msgstr "Niveau de débug."
+
+#~ msgid "???"
+#~ msgstr ""
