@@ -3,9 +3,6 @@
 # This file is distributed under the same license as the WAPT package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
-msgid ""
-msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-23 13:05+0200\n"
@@ -19,172 +16,191 @@ msgstr ""
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:8
 msgid "Deploying the WAPT Agent on Linux"
-msgstr ""
+msgstr "Déployer l'agent WAPT sur Linux"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:8
 msgid "waptagent, linux, deployment, deploy, deploying, documentation, WAPT"
-msgstr ""
+msgstr "waptagent, linux, deployment, deploy, deploying, documentation, WAPT"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:15
 msgid "Deploying the WAPT Agent with Ansible"
-msgstr ""
+msgstr "Déployer l'agent WAPT avec Ansible"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:17
 msgid ""
 "To avoid mistakes and automate your WAPT agents deployment, we provide "
 "Ansible roles for WAPT agent installation on :"
 msgstr ""
+"Afin d'éviter les erreurs et automatiser le déploiement de l'agent WAPT"
+", nous vous fournissons un rôle Ansible pour l'installation de l'agent WAPT sur :"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:19
 msgid "Debian"
-msgstr ""
+msgstr "Debian"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:20
 msgid "Ubuntu"
-msgstr ""
+msgstr "Ubuntu"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:21
 msgid "RHEL"
-msgstr ""
+msgstr "RHEL"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:22
 msgid "CentOS."
-msgstr ""
+msgstr "CentOS."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:24
 msgid ""
 "You can explore the role source code here : `tranquilit.waptagent "
 "<https://github.com/tranquilit/ansible.waptagent>`_."
 msgstr ""
+"Vous pouvez parcourir le code source ici : `tranquilit.waptagent "
+"<https://github.com/tranquilit/ansible.waptagent>`_."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:27
 msgid "Requirements"
-msgstr ""
+msgstr "Pré-requis"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:29
 msgid "Debian Linux or CentOS hosts"
-msgstr ""
+msgstr "Postes Debian Linux ou Centos"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:30
 msgid "a sudoers user on these hosts"
-msgstr ""
+msgstr "un compte utilisateur sudoers sur ces postes"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:31
 msgid "Ansible 2.8"
-msgstr ""
+msgstr "Ansible 2.8"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:34
 msgid "Install Ansible role"
-msgstr ""
+msgstr "Installer le rôle Ansible"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:36
 msgid "install ``tranquilit.waptagent`` Ansible role"
-msgstr ""
+msgstr "installe le rôle Ansible ``tranquilit.waptagent`` "
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:43
 msgid "to install the role elsewhere, use the command like this"
-msgstr ""
+msgstr "pour installer le rôle autrepart, utiliser la commande comme ceci"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:51
 msgid "Using Ansible role"
-msgstr ""
+msgstr "Utiliser le rôle Ansible"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:53
 msgid ""
 "ensure you have a working ssh key deployed on your hosts, if not you can "
 "generate and copy one like so :"
 msgstr ""
+"assurez vous d'avoir une clé ssh déployée sur vos postes, sinon vous pouvez"
+"en générer une et la copier comme ceci"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:62
 msgid "edit Ansible hosts inventory ( :file:`./hosts` ) and add the Linux hosts :"
-msgstr ""
+msgstr "editer le fichier d'inventaire Ansible ( :file:`./hosts` ) et ajouter les hôtes Linux"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:71
 msgid ""
 "create a playbook with the following content in "
 ":file:`./playbooks/deploywaptagent.yml` :"
 msgstr ""
+"créer un playbook avec le contenu suivant dans "
+":file:`./playbooks/deploywaptagent.yml` :"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:79
 msgid ""
 "ensure all variables are correctly set (see "
 ":ref:`install_waptagent_ansible_vars`) :"
 msgstr ""
+"assurez-vous que les variables sont correctement renseignées (voir "
+":ref:`install_waptagent_ansible_vars`) :"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:81
 msgid "``wapt_server_url``"
-msgstr ""
+msgstr "``wapt_server_url``"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:82
 msgid "``wapt_repo_url``"
-msgstr ""
+msgstr "``wapt_repo_url``"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:83
 msgid "``wapt_crt``"
-msgstr ""
+msgstr "``wapt_crt``"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:87
 msgid ""
 "Variables configuration is important as it will configure WAPT agent "
 "behavior."
 msgstr ""
+"La configuration des variables est importante car elles configurent le "
+"comportement de l'agent WAPT"
+
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:89
 msgid "You **must** replace default certificate by your Code-Signing public cert."
 msgstr ""
+"Vous **devez** remplacer le certificat par défaut par votre certificiat de signature "
+"de paquets WAPT"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:93
 msgid "run your playbook with the following command :"
-msgstr ""
+msgstr "lancez votre playbook avec la commande suivante :"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:100
 msgid "that's it WAPT agent is installed on your hosts !"
-msgstr ""
+msgstr "c'est bon WAPT agent est installé sur vos postes !"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:104
 msgid "Role variables"
-msgstr ""
+msgstr "Variables du rôle"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:106
 msgid ""
 "Available variables are listed below, along with default values (see "
 "``defaults/main.yml``):"
 msgstr ""
+"Les variables disponibles sont listées ci-dessous, avec les valeurs par défaut (voir "
+"``defaults/main.yml``):"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:109
 msgid "WAPT agent vars"
-msgstr ""
+msgstr "Variables de l'agent WAPT"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:111
 msgid "WAPT version that will be installed from WAPT Deb/RPM repository"
-msgstr ""
+msgstr "Version de WAPT qui sera installée depuis les dépôts WAPT Deb/RPM"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:117
 msgid "CentOS version used for RPM repository address"
-msgstr ""
+msgstr "Version CentOS utilisée pour l'adresse du dépôt RPM"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:127
 msgid "wapt-get.ini vars"
-msgstr ""
+msgstr "Variables wapt-get.ini"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:129
 msgid ""
 "``wapt_server_url`` points to your WAPT server and is used by default for"
 " the ``wapt_repo_url``."
 msgstr ""
+"``wapt_server_url`` pointe vers votre serveur WAPT et est utilisée par défaut pour"
+" ``wapt_repo_url``."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:137
 msgid "You can override it like so :"
-msgstr ""
+msgstr "Vous pouvez surcharger comme ceci :"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:145
 msgid "Certificate filename located in :file:`files/` subdirectory of the role :"
-msgstr ""
+msgstr "Nom du certificat situé dans le sous-dossier :file:`files/` du rôle :"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:153
 msgid "Example playbook"
-msgstr ""
+msgstr "Playbook example"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-ansible.rst:155
 msgid "Here is an example of an Ansible playbook"
-msgstr ""
+msgstr "Voici un example de playbook Ansible"
