@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-21 23:23+0200\n"
+"POT-Creation-Date: 2020-04-27 14:46+0200\n"
 "PO-Revision-Date: 2020-02-18 11:41+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
@@ -171,6 +171,7 @@ msgstr ""
 "affichés pour l':term:`Utilisateur` actuellement connecté ;"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:83
+#, fuzzy
 msgid ""
 "If a group appears in multiple *selfservice* packages, then the rules are"
 " merged."
@@ -178,11 +179,17 @@ msgstr ""
 "Si un groupe apparaît dans plusieurs paquets *self-service*, alors les "
 "règles seront fusionnées."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:87
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:84
+msgid ""
+"Active Directory security groups are meant to be used, but it also works "
+"with local security groups for Workgroup/out-of-domain hosts."
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:88
 msgid "How to use the self-service on the user station?"
 msgstr "Comment utiliser la focntionnalité de *self-service* ?"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:89
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:90
 msgid ""
 "The self-service is accessible to users in the start menu under the name "
 ":guilabel:`Self-Service software WAPT`."
@@ -190,11 +197,11 @@ msgstr ""
 "Le self service est accessible aux utilisateurs dans le menu démarrer "
 "sous le nom \"Self service logiciels WAPT\"."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:92
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:93
 msgid "It is also available directly in :file:`<base>\\\\waptself.exe`."
 msgstr "Il est aussi disponible directement à :file:`<base>\\\\waptself.exe`"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:94
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:95
 msgid ""
 "The login and password to enter when launching the self-service are the "
 "User's credentials (local or Active Directory credentials)."
@@ -202,7 +209,7 @@ msgstr ""
 "Les identifiants à entrer au démarrage du self service sont ceux de "
 "Windows (local ou active directory)."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:97
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:98
 msgid ""
 "The self-service then displays a list of packages available for "
 "installation."
@@ -210,7 +217,7 @@ msgstr ""
 "Le self service affiche ensuite une liste de paquets disponibles pour "
 "l'installation."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:103
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:104
 msgid ""
 "the user can have more details on each package with the :guilabel:`+` "
 "icon;"
@@ -218,13 +225,13 @@ msgstr ""
 "L'utilisateur peut avoir plus de détails sur chaque paquets en cliquant "
 "sur le \"+\"."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:105
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:106
 msgid "different filters are available for the user on the left side panel;"
 msgstr ""
 "Différents filtres sont disponibles pour l'utilisateur sur le panneau de "
 "gauche."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:107
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:108
 msgid ""
 "the :guilabel:`Update Catalog` button is used to force a :command:`wapt-"
 "get update` on the WAPT agent;"
@@ -232,7 +239,7 @@ msgstr ""
 "Le bouton \"mettre à jour le catalogue\" est utilisé pour forcer un "
 "\"wapt-get update\" sur l'agent WAPT."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:110
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:111
 msgid ""
 "the list of package categories is displayed to the user. To add a "
 "category to the list, you must specify the category in the *categories* "
@@ -243,7 +250,7 @@ msgstr ""
 "nouvelle catégorie dans le fichier control de paquet souhaité. "
 "Précisément dans le champ \"categories\"."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:115
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:116
 msgid ""
 "the current task list of the WAPT agent is available with the "
 ":guilabel:`task bar` button;"
@@ -251,7 +258,7 @@ msgstr ""
 "Les tâches actuellement en cours par l'agent wapt sont disponibles en "
 "cliquant sur le bouton \"task bar\"."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:118
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:119
 msgid ""
 "it is possible to change the language of the interface with the "
 ":guilabel:`configuration` button at the bottom left."
@@ -259,15 +266,15 @@ msgstr ""
 "Il est possible de changer le langage de l'interface en cliquant sur le "
 "bouton de configuration en bas à gauche de l'interface."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:122
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:123
 msgid "Customizing the Self Service interface"
 msgstr "Personnaliser l'interface du libre-service"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:125
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:126
 msgid "Adding the Logo of your Organisation"
 msgstr "Ajouter le logo de votre organisation"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:127
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:128
 msgid ""
 "It is possible to change the logo that appears in the self-service "
 "interface and therefore improve the acceptation of the Self Service "
@@ -277,7 +284,7 @@ msgstr ""
 "libre-service et donc d'améliorer l'acceptation de la fonction de libre-"
 "service par vos utilisateurs."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:130
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:131
 msgid ""
 "To do this, simply place the logo you want in :file:`<wapt>\\\\templates"
 "\\\\waptself-logo.png`"
@@ -285,7 +292,7 @@ msgstr ""
 "Pour faire cela, placez simplement le logo que vous souhaitez à cet "
 "emplacement :  :file:`<wapt>\\\\templates\\\\waptself-logo.png`"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:135
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:136
 msgid ""
 "It is highly recommended to use a :mimetype:`.png` file with a *200 x "
 "150px* resolution."
@@ -293,15 +300,15 @@ msgstr ""
 "Il est hautement recommandé d'utiliser une image PNG de dimension "
 "200*150px."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:139
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:140
 msgid "Managing package categories"
 msgstr "Gérer les catégories de paquets"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:141
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:142
 msgid "Default categories are:"
 msgstr "Les catégories par défaut sont :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:143
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:144
 msgid "Internet;"
 msgstr "Internet ;"
 
@@ -309,35 +316,35 @@ msgstr "Internet ;"
 msgid "Utilities;"
 msgstr "Utilities ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:147
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:146
 msgid "Messaging;"
 msgstr "Messaging ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:149
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:147
 msgid "Security;"
 msgstr "Security ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:151
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:148
 msgid "System and network;"
 msgstr "System and network ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:153
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:149
 msgid "Storage;"
 msgstr "Storage ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:155
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:150
 msgid "Media;"
 msgstr "Media ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:157
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:151
 msgid "Development;"
 msgstr "Development ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:159
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:152
 msgid "Office​​;"
 msgstr "Office​​;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:161
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:154
 msgid ""
 "You can create your own categories easily by filling the :file:`control` "
 "file's ``categories`` section of any WAPT package and write a new "
@@ -349,17 +356,26 @@ msgstr ""
 "paquet WAPT et écrire une nouvelle catégorie de votre choix, WAPT "
 "affichera automatiquement le paquet dans la nouvelle catégorie."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:166
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:159
 msgid "WAPT Agent Settings for WAPT Self-Service"
 msgstr "Paramétrage de WAPT Self-Service dans l'agent WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:168
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:161
 msgid ""
 "WAPT Agent can be configured to force WAPT SelfService packages filtering"
 " to local admins :ref:`waptself_ini_file`."
 msgstr ""
-"WAPT Agent peut être configuré pour que les paquets WAPT SelfService"
-" s'appliquent aux administrateurs locaux :ref:`waptself_ini_file`."
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:172
+"WAPT Agent peut être configuré pour que les paquets WAPT SelfService "
+"s'appliquent aux administrateurs locaux :ref:`waptself_ini_file`."
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:165
 msgid "Video demonstration"
 msgstr "Vidéo de démonstration"
+
+#~ msgid ""
+#~ "then the rules are merged. * "
+#~ "Active Directory security groups are "
+#~ "meant to be used, but it also "
+#~ "works with local security groups for "
+#~ "Workgroup/out-of-domain hosts."
+#~ msgstr ""

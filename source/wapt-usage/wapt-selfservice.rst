@@ -80,10 +80,8 @@ You can now create your first *selfservice* rule package.
 
 .. note::
 
-  * If a group appears in multiple *selfservice* packages,
-  then the rules are merged.
-  * Active Directory security groups are meant to be used, but it also works with
-  local security groups for Workgroup/out-of-domain hosts.
+  * If a group appears in multiple *selfservice* packages, then the rules are merged.
+  * Active Directory security groups are meant to be used, but it also works with local security groups for Workgroup/out-of-domain hosts.
 
 
 How to use the self-service on the user station?
