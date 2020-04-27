@@ -114,7 +114,6 @@ msgstr ""
 "référer au bloc précédent."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:73
-#, fuzzy
 msgid "install WAPT agent using apt-get:"
 msgstr "installer l'agent WAPT en utilisant apt :"
 

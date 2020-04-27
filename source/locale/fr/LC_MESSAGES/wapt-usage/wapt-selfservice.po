@@ -171,7 +171,6 @@ msgstr ""
 "affichés pour l':term:`Utilisateur` actuellement connecté ;"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:83
-#, fuzzy
 msgid ""
 "If a group appears in multiple *selfservice* packages, then the rules are"
 " merged."
@@ -184,6 +183,9 @@ msgid ""
 "Active Directory security groups are meant to be used, but it also works "
 "with local security groups for Workgroup/out-of-domain hosts."
 msgstr ""
+"Par défaut ce sont les groupes de sécurité Active Directory qui doivent être utilisés, "
+"mais il est également possible d'utiliser des groupes de sécurité locaux pour les postes"
+"en Workgroup/hors-domaine."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:88
 msgid "How to use the self-service on the user station?"
