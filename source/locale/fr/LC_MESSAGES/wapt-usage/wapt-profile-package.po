@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-23 18:48+0200\n"
+"POT-Creation-Date: 2020-04-27 14:08+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,46 +45,50 @@ msgstr "Principe de fonctionnement"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:27
 msgid "WAPT Enterprise offers Active Directory profile bundle functionnality."
-msgstr "WAPT Enterprise permet d'utiliser la fonctionnalité des paquets profile Active Directory"
+msgstr ""
+"WAPT Enterprise permet d'utiliser la fonctionnalité des paquets profile "
+"Active Directory"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:29
 msgid ""
 "It automates software installations based on your Active Directory "
 "Computer's Security Groups."
 msgstr ""
-"Cela permet d'automatiser l'installation de logiciels à partir des"
-"groupes de sécurité d'Ordinateurs Active Directory"
+"Cela permet d'automatiser l'installation de logiciels à partir desgroupes"
+" de sécurité d'Ordinateurs Active Directory"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:31
 msgid ""
 "The expected behavior of that functionnality is an automatic installation"
 " of packages based on their membership to AD Computer's Security Groups."
 msgstr ""
-"Le comportement prévu par cette fonctionalité est l'installation automatique"
-" des paquets basés sur l'appartenance de l'ordinateur au groupe de sécurité AD"
+"Le comportement prévu par cette fonctionalité est l'installation "
+"automatique des paquets basés sur l'appartenance de l'ordinateur au "
+"groupe de sécurité AD"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:36
 msgid ""
 "Active Directory computer's security groups contains Computers, **not "
 "Users**."
 msgstr ""
-"Les groupes de sécurité d'Ordinateur contiennent des Ordinateurs, **pas"
-"des Utilisateurs**"
+"Les groupes de sécurité d'Ordinateur contiennent des Ordinateurs, "
+"**pasdes Utilisateurs**"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:42
 msgid "Active Directory computer group."
 msgstr "Groupe d'ordinateur Active Directory"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:44
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:45
 msgid "No such fonctionnality of user groups membership is implemented in WAPT"
-msgstr "Il n'y a pas dans WAPT de fonctionnalité en fonction de l'appartenance "
-"de l'utilisateur à un groupe "
+msgstr ""
+"Il n'y a pas dans WAPT de fonctionnalité en fonction de l'appartenance de"
+" l'utilisateur à un groupe "
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:48
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:50
 msgid "Creating profile bundle packages in WAPT console"
 msgstr "Creation d'un paquet profile dans la console WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:50
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:52
 msgid ""
 "You can create *profile* bundle packages by clicking on "
 ":menuselection:`Bundles -> Create AD Profile`."
@@ -92,23 +96,77 @@ msgstr ""
 "Vous pouvez créer un paquet *profile* en cliquant sur "
 ":menuselection:`Groupes -> Nouveau profil AD`."
 
-
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:56
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:58
 msgid "Create profile bundle."
 msgstr "Créer un paquet profile"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:58
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:62
+msgid "Requirements :"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:64
+msgid ""
+"The profile package name must **exactly** be the same as the AD Security "
+"group name."
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:65
+msgid "The profile package name is case sensitive."
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:67
+msgid "Example :"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:69
+msgid "AD Security group : ``HW_laptops``"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:70
+msgid "WAPT profile bundle : ``HW_laptops``"
+msgstr ""
+
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:73
 msgid ""
 "A window opens and you are prompted to choose which packages must be in "
 "**profile** bundle."
 msgstr ""
-"Une fenêtre s'ouvre et vous demande de choisir les paquets qui doivent être"
-"dans ce paquet **profile**"
+"Une fenêtre s'ouvre et vous demande de choisir les paquets qui doivent "
+"êtredans ce paquet **profile**"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:65
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:80
 msgid "Adding package to profile bundle."
 msgstr "Ajouter des paquets au paquet profile"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:67
+#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:82
 msgid "Save the package and it will be uploaded to the WAPT server."
 msgstr "Sauvegarder le paquet et il sera uploadé sur le serveur WAPT"
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "The profile package name is case sensitive."
+#~ msgstr ""
+
+#~ msgid "Example :"
+#~ msgstr ""
+
+#~ msgid "AD Security group : ``HW_laptops``"
+#~ msgstr ""
+
+#~ msgid "WAPT profile bundle : ``HW_laptops``"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Requirements : * The profile package "
+#~ "name must **exactly** be the same "
+#~ "as the AD Security group name. *"
+#~ " The profile package name is case "
+#~ "sensitive."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Example : * AD Security group :"
+#~ " ``HW_laptops`` * WAPT profile bundle "
+#~ ": ``HW_laptops``"
+#~ msgstr ""

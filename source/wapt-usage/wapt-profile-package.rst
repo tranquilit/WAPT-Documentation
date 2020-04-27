@@ -45,6 +45,7 @@ on their membership to AD Computer's Security Groups.
     No such fonctionnality of user groups membership is implemented in WAPT
 
 
+
 Creating profile bundle packages in WAPT console
 -----------------------------------------------------
 
@@ -55,6 +56,19 @@ You can create *profile* bundle packages by clicking on :menuselection:`Bundles 
   :alt: Right-click on OU to create unit bundle
 
   Create profile bundle.
+
+.. important::
+
+  Requirements :
+
+  * The profile package name must **exactly** be the same as the AD Security group name.
+  * The profile package name is case sensitive.
+
+  Example :
+
+  * AD Security group : ``HW_laptops``
+  * WAPT profile bundle : ``HW_laptops``
+
 
 A window opens and you are prompted to choose which packages
 must be in **profile** bundle.
