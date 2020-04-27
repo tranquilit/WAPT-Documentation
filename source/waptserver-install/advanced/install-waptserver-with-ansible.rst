@@ -8,122 +8,118 @@
 
 .. meta::
   :description: Installing WAPT Server with Ansible
-  :keywords: Ansible, WAPT, installer, documentation
+  :keywords: Ansible, WAPT, install, server, documentation
 
 .. _install_waptserver_ansible:
 
 Installing WAPT Server with Ansible
-+++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++
 
-To avoid mistakes and automate your WAPT Server deployment, we provide Ansible roles for WAPT Server installation.
+To avoid mistakes and automate your WAPT Server deployment,
+we provide Ansible roles for WAPT Server installation.
 
-You can explore the role source code here : `tranquilit.waptserver <https://github.com/tranquilit/ansible.waptserver>`_.
+You can explore the role source code by
+`visiting Tranquil IT repository on Github <https://github.com/tranquilit/ansible.waptserver>`_.
 
 Requirements
-""""""""""""""""""""""""""""""
+------------
 
-* Debian Linux or CentOS virtual machine
-* a sudoers user on that VM
-* Ansible 2.8
+* Debian Linux or CentOS hosts;
 
-Install Ansible role
-""""""""""""""""""""""""""""""
+* a sudoers user on these hosts;
 
-* install ``tranquilit.waptserver`` Ansible role
+* Ansible 2.8;
 
-.. code-block:: bash
+Installing the Ansible role
+---------------------------
 
-  ansible-galaxy install tranquilit.waptserver
+* install ``tranquilit.waptserver`` Ansible role;
 
+  .. code-block:: bash
 
-* to install the role elsewhere, use the command like this
+    ansible-galaxy install tranquilit.waptserver
+
+* to install the role elsewhere, use the *-p* subcommand like this;
 
 .. code-block:: bash
 
   ansible-galaxy install tranquilit.waptserver -p /path/to/role/directory/
 
+Using the Ansible role
+----------------------
 
-Using Ansible role
-""""""""""""""""""""""""""""""
+* ensure you have a working ssh key deployed on your hosts,
+  if not you can generate and copy one like below;
 
-* ensure you have a working ssh key deployed on your VM, if not you can generate and copy one like so :
-
-.. code-block:: bash
+  .. code-block:: bash
 
     ssh-keygen -t ed25519
     ssh-copy-id -i id_ed25519.pub user@srvwapt.mydomain.lan
     ssh user@srvwapt.mydomain.lan -i id_ed25519.pub
 
+* edit Ansible hosts inventory ( :file:`./hosts` ) and add the Linux hosts;
 
-* edit Ansible hosts inventory ( :file:`./hosts` ) and add the WAPT server virtual machine :
-
-.. code-block:: ini
+  .. code-block:: ini
 
     [srvwapt]
     srvwapt.mydomain.lan ansible_host=192.168.1.40
 
+* create a playbook with the following content in :file:`./playbooks/wapt.yml`;
 
-* create a playbook with the following content in :file:`./playbooks/wapt.yml` :
-
-.. code-block:: yaml
+  .. code-block:: yaml
 
     - hosts: srvwapt
       roles:
         - { role: tranquilit.waptserver }
 
+* run your playbook with the following command;
 
-* run your playbook with the following command :
-
-.. code-block:: bash
+  .. code-block:: bash
 
     ansible-playbook -i ./hosts ./playbooks/wapt.yml -u user --become --become-method=sudo -K
 
-
-* that's it WAPT Server is installed on your server !
-
+**Congratulations, you have installed your WAPT server on your Linux server!**
 
 Role variables
-""""""""""""""""""""""""""""""""""
+--------------
 
-Available variables are listed below, along with default values (see ``defaults/main.yml``):
+Available variables are listed below, along with default values
+(see ``defaults/main.yml``):
 
+* version of WAPT that will be installed from WAPT Deb/RPM repository;
 
-WAPT version that will be installed from WAPT Deb/RPM repository
-
-.. code-block:: yaml
+  .. code-block:: yaml
 
     wapt_version: "1.8"
 
+* version of PostgreSQL that will be installed from WAPT Deb/RPM repository;
 
-PostgreSQL version that will be installed from WAPT Deb/RPM repository
-
-.. code-block:: yaml
+  .. code-block:: yaml
 
     pgsql_version: "9.6"
 
+* version of CentOS used for RPM repository address;
 
-CentOS version used for RPM repository address
-
-.. code-block:: yaml
+  .. code-block:: yaml
 
     centos_version: "centos7"
 
+* ``launch_postconf`` defaults to True, it launches WAPT Server
+  postconfiguration script silently;
 
-``launch_postconf`` defaults to True, it launches WAPT Server postconfiguration script silently
-
-.. code-block:: yaml
+  .. code-block:: yaml
 
     launch_postconf: True
 
-Example playbook
-""""""""""""""""""""""""""""""""""""""
+Example Ansible playbook
+""""""""""""""""""""""""
 
-Here is an example of an Ansible playbook
+Here is an example of an Ansible playbook.
 
 .. code-block:: yaml
 
-    - hosts: srvwapt
-      vars_files:
-        - vars/main.yml
-      roles:
-        - tranquilit.waptserver
+  - hosts: srvwapt
+    vars_files:
+      - vars/main.yml
+    roles:
+      - tranquilit.waptserver

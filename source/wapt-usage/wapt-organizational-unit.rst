@@ -6,20 +6,19 @@
    Niveau 5: ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
-  :description: Using organizational unit packages in WAPT
+  :description: Using Organizational Unit packages in WAPT
   :keywords: WAPT, console, organizational, unit, OU, UO, Active Directory
 
 .. _wapt_organizational_unit:
 
 .. versionadded:: 1.7 Enterprise
 
-Using organizational unit packages in WAPT
+Using Organizational Unit packages in WAPT
 ===========================================
 
 .. hint::
 
   Feature only available with WAPT **Enterprise**.
-
 
 Working principle
 -----------------
@@ -28,8 +27,9 @@ WAPT Enterprise offers organizational unit packages functionnality.
 
 It automates software installations based on your Active Directory infrastructure.
 
-WAPT agent is aware of its Active Directory sorting, thereby knows the hierarchy of
-organizational units, for example:
+The WAPT agent is aware of its position in the Active Directorytree structure,
+therefore it knows the hierarchy of Organizational Units that concerns it,
+for example:
 
 .. code-block:: bash
 
@@ -38,8 +38,9 @@ organizational units, for example:
   OU=computers,OU=Paris,DC=ad,DC=domain,DC=lan
   OU=service1,OU=computers,OU=Paris,DC=ad,DC=domain,DC=lan
 
-If an organizational unit package is defined on each level, WAPT agent
-will download them automatically by inheritance and apply each level
+If an Organizational Unit package is defined on each level, WAPT agent
+will automtically download packages and configurations that are attached
+to each level, by inheritance, and apply attached packages
 and their dependencies.
 
 Filters and actions available with Organizational Units
@@ -53,8 +54,9 @@ Filters and actions available with Organizational Units
 
 .. hint::
 
-  You can see in the picture that **update** and **upgrade** actions can be performed
-  through this menu, thus selecting hosts by their organizational unit.
+  You can see in the picture that **update** and **upgrade** actions
+  can be performed through this menu, thus selecting hosts
+  by their Organizational Unit.
 
 In the **Enterprise** version, you may filter how hosts are displayed based
 on the Active Directory :abbr:`OU (Organizational Units)` they belong to.
@@ -62,8 +64,8 @@ on the Active Directory :abbr:`OU (Organizational Units)` they belong to.
 The checkbox :guilabel:`Include hosts in subfolders` allows to display hosts
 in subfolders.
 
-Creating organizational unit packages in WAPT console
------------------------------------------------------
+Creating Organizational Unit packages in the WAPT console
+---------------------------------------------------------
 
 You can create *unit* packages by :menuselection:`Right clicking
 on an OU --> Create or edit the unit package`.
@@ -85,30 +87,34 @@ must be in **unit** bundle.
 
 Save the package and it will be uploaded to the WAPT server.
 
-
 Faking organizational unit for WORKGROUP hosts
------------------------------------------------------
+----------------------------------------------
 
-It can happend that some specific hosts cannot be joined to Active Directory.
+It can happen that some specific hosts cannot be joined to an Active Directory
+domain.
 
-With that specificity, they doesn't show up in your Active Directory organizational units in WAPT Console.
+With that specificity, such hosts do not show up in your Active Directory
+Organizational Units in your WAPT Console.
 
-To circumvent that, WAPT allow you to specify a fake organizational unit in WAPT agent configuration.
+To make all hosts show up in the console under the right Organizational Unit,
+whether they are joined to an AD domain or not, WAPT allows you to specify
+a *fake* Organizational Unit WAPT agent configuration file.
 
-The benefits of it are :
+The benefits of this trick are:
 
-* Better management of these specific hosts
-* Out-of-Domain / Workgroup hosts now showing up in AD tree view
-* Organizational Units Packages are usable on those hosts
+* you can manage these hosts with WAPT as if they where joined to the AD;
 
-To setup a fake organisational unit on hosts, create an empty WAPT package
+* out-of-domain and workgroup hosts are now showing up in AD tree view;
+
+* *unit* packages are usable on these hosts;
+
+To setup a *fake* Organisational Unit on hosts, create an empty WAPT package;
 
 .. code-block:: bash
 
   wapt-get make-template demo-configure-fake-ou
 
-
-Then use the following code :
+Then use the following code:
 
 .. code-block:: python
 
@@ -123,7 +129,7 @@ Then use the following code :
     fake_ou = "OU=TOTO,OU=TEST,DC=DEMO,DC=LAN"
     inifile_writestring(WAPT.config_filename,'global','host_organizational_unit_dn',fake_ou)
 
-The ``host_organizational_unit_dn`` must be like so in ``wapt-get.ini`` :
+The ``host_organizational_unit_dn`` must be like below in :file:`wapt-get.ini`:
 
 .. code-block:: ini
 
