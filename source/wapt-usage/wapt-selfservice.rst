@@ -80,8 +80,11 @@ You can now create your first *selfservice* rule package.
 
 .. note::
 
-  If a group appears in multiple *selfservice* packages,
+  * If a group appears in multiple *selfservice* packages,
   then the rules are merged.
+  * Active Directory security groups are meant to be used, but it also works with
+  local security groups for Workgroup/out-of-domain hosts.
+
 
 How to use the self-service on the user station?
 ------------------------------------------------
@@ -141,21 +144,13 @@ Managing package categories
 Default categories are:
 
 * Internet;
-
 * Utilities;
-
 * Messaging;
-
 * Security;
-
 * System and network;
-
 * Storage;
-
 * Media;
-
 * Development;
-
 * Office​​;
 
 You can create your own categories easily by filling the :file:`control`
