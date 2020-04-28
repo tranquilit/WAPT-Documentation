@@ -51,9 +51,9 @@ You can create *profile* bundle packages by clicking on
 
 .. figure:: profile-bundle/wapt-profile-bundle-create-group1.png
   :align: center
-  :alt: Right-click on OU to create unit bundle
+  :alt: Click on New host AD profile to create a *profile* bundle
 
-  Right-click on OU to create unit bundle
+  Click on New host AD profile to create a *profile* bundle
 
 .. important::
 
@@ -75,7 +75,7 @@ must be in the just created **profile** bundle.
 
 .. figure:: profile-bundle/wapt-profile-bundle-create-group2.png
   :align: center
-  :alt: Adding packages to unit bundle
+  :alt: Adding packages to profile bundle
 
   Adding package to profile bundle
 

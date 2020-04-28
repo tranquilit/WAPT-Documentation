@@ -41,9 +41,9 @@ Installing the Ansible role
 
 * to install the role elsewhere, use the *-p* subcommand like this;
 
-.. code-block:: bash
+  .. code-block:: bash
 
-  ansible-galaxy install tranquilit.waptserver -p /path/to/role/directory/
+    ansible-galaxy install tranquilit.waptserver -p /path/to/role/directory/
 
 Using the Ansible role
 ----------------------
