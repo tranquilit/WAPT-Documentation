@@ -7,139 +7,107 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-27 14:08+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-04-28 11:25+0200\n"
+"PO-Revision-Date: 2020-04-28 12:53+0200\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
+"Language-Team: Tranquil IT\n"
+"Language: fr\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:8
-msgid "Using profile packages in WAPT"
-msgstr "Utilisation des paquets profils dans WAPT"
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-profile-package.rst:8
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-profile-package.rst:17
+msgid "Using profile bundles in WAPT"
+msgstr "Utiliser des paquets profils dans WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:8
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-profile-package.rst:8
 msgid "WAPT, console, profile, Active Directory"
 msgstr "WAPT, console, profile, Active Directory"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:14
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-profile-package.rst:14
 msgid "Enterprise"
 msgstr "Enterprise"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:17
-msgid "Using profile bundles in WAPT"
-msgstr "Utilisation des paquets profils dans WAPT"
-
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:21
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-profile-package.rst:21
 msgid "Feature only available with WAPT **Enterprise**."
-msgstr ""
-"Cette fonctionnalité est disponible uniquement dans la version **WAPT "
-"Enterprise**."
+msgstr "Cette fonctionnalité est disponible uniquement dans la version **WAPT Enterprise**."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:25
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-profile-package.rst:24
 msgid "Working principle"
 msgstr "Principe de fonctionnement"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:27
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-profile-package.rst:26
 msgid "WAPT Enterprise offers Active Directory profile bundle functionnality."
-msgstr ""
-"WAPT Enterprise permet d'utiliser la fonctionnalité des paquets profile "
-"Active Directory"
+msgstr "WAPT Enterprise permet d'utiliser la fonctionnalité des paquets profile Active Directory."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:29
-msgid ""
-"It automates software installations based on your Active Directory "
-"Computer's Security Groups."
-msgstr ""
-"Cela permet d'automatiser l'installation de logiciels à partir desgroupes"
-" de sécurité d'Ordinateurs Active Directory"
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-profile-package.rst:28
+msgid "It automates installation of WAPT software and configuration packages on hosts, based on their membership to Active Directory Computer Security Groups."
+msgstr "Cela permet d'automatiser l'installation de logiciels à partir des groupes de sécurité d'Ordinateurs Active Directory."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:31
-msgid ""
-"The expected behavior of that functionnality is an automatic installation"
-" of packages based on their membership to AD Computer's Security Groups."
-msgstr ""
-"Le comportement prévu par cette fonctionalité est l'installation "
-"automatique des paquets basés sur l'appartenance de l'ordinateur au "
-"groupe de sécurité AD"
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-profile-package.rst:33
+msgid "**Active Directory Computer's security groups contains Computers, not Users**."
+msgstr "**Les groupes de sécurité d'Ordinateur contiennent des Ordinateurs, pas des Utilisateurs**."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:36
-msgid ""
-"Active Directory computer's security groups contains Computers, **not "
-"Users**."
-msgstr ""
-"Les groupes de sécurité d'Ordinateur contiennent des Ordinateurs, "
-"**pasdes Utilisateurs**"
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-profile-package.rst:39
+msgid "Active Directory computer group"
+msgstr "Groupe d'ordinateurs Active Directory"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:42
-msgid "Active Directory computer group."
-msgstr "Groupe d'ordinateur Active Directory"
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-profile-package.rst:41
+msgid "Automatically installing software and configurations based on user and user group membership is not implemented with WAPT. This use case is better served with the differenciated :ref:`self-service <wapt-selfservice>` feature that is also available with WAPT Enterprise."
+msgstr "L'installation automatique de logiciels et de configurations basées sur un utilisateur ou l'appartenance à un groupe d'utilisateurs n'est pas mise en œuvre avec WAPT. Ce cas d'utilisation est mieux servi par la fonction de :ref:`self-service différencié <wapt-selfservice>` qui est également disponible avec WAPT Enterprise."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:45
-msgid "No such fonctionnality of user groups membership is implemented in WAPT"
-msgstr ""
-"Il n'y a pas dans WAPT de fonctionnalité en fonction de l'appartenance de"
-" l'utilisateur à un groupe "
-
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:50
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-profile-package.rst:47
 msgid "Creating profile bundle packages in WAPT console"
 msgstr "Creation d'un paquet profile dans la console WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:52
-msgid ""
-"You can create *profile* bundle packages by clicking on "
-":menuselection:`Bundles -> Create AD Profile`."
-msgstr ""
-"Vous pouvez créer un paquet *profile* en cliquant sur "
-":menuselection:`Groupes -> Nouveau profil AD`."
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-profile-package.rst:49
+msgid "You can create *profile* bundle packages by clicking on :menuselection:`Bundles -> Create AD Profile`."
+msgstr "Vous pouvez créer un paquet *profile* en cliquant sur :menuselection:`Groupes -> Nouveau profil AD`."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:58
-msgid "Create profile bundle."
-msgstr "Créer un paquet profile"
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-profile-package.rst:56
+msgid "Right-click on OU to create unit bundle"
+msgstr "Cliquer avec le bouton droit de la souris sur l'UO pour créer un paquet *profile*"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:62
-msgid "Requirements :"
-msgstr ""
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-profile-package.rst:60
+msgid "Requirements:"
+msgstr "Pré-requis :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:64
-msgid ""
-"The profile package name must **exactly** be the same as the AD Security "
-"group name."
-msgstr ""
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-profile-package.rst:62
+msgid "the *profile* package name must be **exactly**  the same as the AD Security group name;"
+msgstr "le nom du paquet *profil* doit être **exactement** le même que le nom du groupe de sécurité AD ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:65
-msgid "The profile package name is case sensitive."
-msgstr ""
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-profile-package.rst:65
+msgid "the *profile* package name is case sensitive;"
+msgstr "le nom du paquet *profil* est sensible à la casse ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:67
-msgid "Example :"
-msgstr ""
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-profile-package.rst:67
+msgid "Example:"
+msgstr "Exemple :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:69
-msgid "AD Security group : ``HW_laptops``"
-msgstr ""
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-profile-package.rst:69
+msgid "AD Security group: ``HW_laptops``;"
+msgstr "Groupe de sécurité AD : ``HW_laptops`` ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:70
-msgid "WAPT profile bundle : ``HW_laptops``"
-msgstr ""
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-profile-package.rst:71
+msgid "WAPT profile bundle: ``HW_laptops``;"
+msgstr "Paquet *profile* WAPT : ``HW_laptops`` ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:73
-msgid ""
-"A window opens and you are prompted to choose which packages must be in "
-"**profile** bundle."
-msgstr ""
-"Une fenêtre s'ouvre et vous demande de choisir les paquets qui doivent "
-"êtredans ce paquet **profile**"
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-profile-package.rst:73
+msgid "A window opens and you are prompted to choose which packages must be in the just created **profile** bundle."
+msgstr "Une fenêtre s'ouvre et vous demande de choisir les paquets qui doivent être dans ce paquet **profile**."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:80
-msgid "Adding package to profile bundle."
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-profile-package.rst:80
+msgid "Adding package to profile bundle"
 msgstr "Ajouter des paquets au paquet profile"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-profile-package.rst:82
-msgid "Save the package and it will be uploaded to the WAPT server."
-msgstr "Sauvegarder le paquet et il sera uploadé sur le serveur WAPT"
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-profile-package.rst:82
+msgid "Save the *profile* bundle package and it will be uploaded to the WAPT server."
+msgstr "Sauvegarder le paquet *profile* et il sera chargé sur le serveur WAPT."
 
 #~ msgid ""
 #~ msgstr ""
@@ -156,16 +124,36 @@ msgstr "Sauvegarder le paquet et il sera uploadé sur le serveur WAPT"
 #~ msgid "WAPT profile bundle : ``HW_laptops``"
 #~ msgstr ""
 
+#~ msgid "Using profile packages in WAPT"
+#~ msgstr "Utilisation des paquets profils dans WAPT"
+
 #~ msgid ""
-#~ "Requirements : * The profile package "
-#~ "name must **exactly** be the same "
-#~ "as the AD Security group name. *"
-#~ " The profile package name is case "
-#~ "sensitive."
+#~ "The expected behavior of that "
+#~ "functionnality is an automatic installation"
+#~ " of packages based on their "
+#~ "membership to AD Computer's Security "
+#~ "Groups."
+#~ msgstr ""
+#~ "Le comportement prévu par cette "
+#~ "fonctionalité est l'installation automatique "
+#~ "des paquets basés sur l'appartenance de"
+#~ " l'ordinateur au groupe de sécurité "
+#~ "AD"
+
+#~ msgid "No such fonctionnality of user groups membership is implemented in WAPT"
+#~ msgstr ""
+#~ "Il n'y a pas dans WAPT de "
+#~ "fonctionnalité en fonction de l'appartenance"
+#~ " de l'utilisateur à un groupe "
+
+#~ msgid "Create profile bundle."
+#~ msgstr "Créer un paquet profile"
+
+#~ msgid "Requirements :"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Example : * AD Security group :"
-#~ " ``HW_laptops`` * WAPT profile bundle "
-#~ ": ``HW_laptops``"
+#~ "The profile package name must "
+#~ "**exactly** be the same as the AD"
+#~ " Security group name."
 #~ msgstr ""

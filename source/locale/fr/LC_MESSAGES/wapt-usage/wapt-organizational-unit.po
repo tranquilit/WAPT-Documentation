@@ -7,43 +7,47 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-21 22:10+0200\n"
-"PO-Revision-Date: 2020-03-10 17:23+0100\n"
+"POT-Creation-Date: 2020-04-28 11:25+0200\n"
+"PO-Revision-Date: 2020-04-28 11:43+0200\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:8
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:17
-msgid "Using organizational unit packages in WAPT"
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:8
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:17
+msgid "Using Organizational Unit packages in WAPT"
 msgstr "Utilisation des paquets d'unités organisationnelles dans WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:8
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:8
 msgid "WAPT, console, organizational, unit, OU, UO, Active Directory"
 msgstr "WAPT, console, organizational, unit, OU, UO, Active Directory"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:14
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:14
 msgid "Enterprise"
 msgstr "Enterprise"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:21
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:21
 msgid "Feature only available with WAPT **Enterprise**."
 msgstr ""
 "Cette fonctionnalité est disponible uniquement dans la version **WAPT "
 "Enterprise**."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:25
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:24
 msgid "Working principle"
 msgstr "Principe de fonctionnement"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:27
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:26
 msgid "WAPT Enterprise offers organizational unit packages functionnality."
 msgstr "WAPT Enterprise offre des fonctionnalités d'unités organisationnelles."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:29
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:28
 msgid ""
 "It automates software installations based on your Active Directory "
 "infrastructure."
@@ -51,141 +55,168 @@ msgstr ""
 "Cette méthode automatise les installations de logiciels basées sur votre "
 "infrastructure Active Directory."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:31
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:30
 msgid ""
-"WAPT agent is aware of its Active Directory sorting, thereby knows the "
-"hierarchy of organizational units, for example:"
+"The WAPT agent is aware of its position in the Active Directorytree "
+"structure, therefore it knows the hierarchy of Organizational Units that "
+"concerns it, for example:"
 msgstr ""
-"L'agent WAPT est conscient de sa position dans Active Directory, il "
-"connaît donc la hiérarchie des unités organisationnelles, par exemple :"
+"L'agent WAPT est conscient de sa position dans l'arborescence Active "
+"Directory, il connaît donc la hiérarchie des Unités Organisationnelles qui "
+"le concerne, par exemple :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:41
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:41
 msgid ""
-"If an organizational unit package is defined on each level, WAPT agent "
-"will download them automatically by inheritance and apply each level and "
-"their dependencies."
+"If an Organizational Unit package is defined on each level, WAPT agent will "
+"automtically download packages and configurations that are attached to each "
+"level, by inheritance, and apply attached packages and their dependencies."
 msgstr ""
-"Si un ensemble d'unités organisationnelles est défini à chaque niveau, "
-"l'agent WAPT les téléchargera automatiquement par héritage et appliquera "
-"chaque niveau et ses dépendances."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:46
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:47
 msgid "Filters and actions available with Organizational Units"
 msgstr "Filtres et actions disponibles avec les Unités Organisationnelles"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:52
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:53
 msgid "WAPT console showing options applicable to OU"
 msgstr "Console WAPT montrant les options applicables à l'UO"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:56
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:57
 msgid ""
-"You can see in the picture that **update** and **upgrade** actions can be"
-" performed through this menu, thus selecting hosts by their "
-"organizational unit."
+"You can see in the picture that **update** and **upgrade** actions can be "
+"performed through this menu, thus selecting hosts by their Organizational "
+"Unit."
 msgstr ""
-"Vous pouvez voir sur l'image que les actions **vérifier les mises à "
-"jour** et **mettre à jour** peuvent être effectuées par ce menu, "
-"sélectionnant ainsi les hôtes rattachés à l'Unité Organisationnelle "
+"Vous pouvez voir sur l'image que les actions **vérifier les mises à jour** "
+"et **mettre à jour** peuvent être effectuées au travers de ce menu, vous "
+"pouvez sélectionner ainsi les hôtes rattachés à l'Unité Organisationnelle "
 "sélectionnée."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:59
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:61
 msgid ""
-"In the **Enterprise** version, you may filter how hosts are displayed "
-"based on the Active Directory :abbr:`OU (Organizational Units)` they "
-"belong to."
+"In the **Enterprise** version, you may filter how hosts are displayed based "
+"on the Active Directory :abbr:`OU (Organizational Units)` they belong to."
 msgstr ""
-"Dans la version **Enterprise**, vous pouvez filtrer la façon dont les "
-"hôtes sont affichés en fonction :abbr:`OU (Organizational Units)` auquel "
-"ils appartiennent dans l'Active Directory."
+"Dans la version **Enterprise**, vous pouvez filtrer la façon dont les hôtes "
+"sont affichés en fonction :abbr:`OU (Organizational Units)` auquel ils "
+"appartiennent dans l'Active Directory."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:62
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:64
 msgid ""
-"The checkbox :guilabel:`Include hosts in subfolders` allows to display "
-"hosts in subfolders."
+"The checkbox :guilabel:`Include hosts in subfolders` allows to display hosts "
+"in subfolders."
 msgstr ""
-"La case à cocher :guilabel:`Inclure les hôtes dans les sous-dossiers` "
-"permet d'afficher les hôtes dans les sous-dossiers."
+"La case à cocher :guilabel:`Inclure les hôtes dans les sous-dossiers` permet "
+"d'afficher les hôtes dans les sous-dossiers."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:66
-msgid "Creating organizational unit packages in WAPT console"
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:68
+msgid "Creating Organizational Unit packages in the WAPT console"
 msgstr "Créer des paquets d'Unités Organisationnelles dans la console WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:68
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:70
 msgid ""
-"You can create *unit* packages by :menuselection:`Right clicking on an OU"
-" --> Create or edit the unit package`."
+"You can create *unit* packages by :menuselection:`Right clicking on an OU --"
+"> Create or edit the unit package`."
 msgstr ""
-"Vous pouvez créer des paquets *unit* en faisant :menuselection:`Clic "
-"droit sur une UO --> Créer ou éditer le paquet UO`."
+"Vous pouvez créer des paquets *unit* en faisant :menuselection:`Clic droit "
+"sur une UO --> Créer ou éditer le paquet UO`."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:75
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:77
 msgid "Right-click on OU to create unit package."
 msgstr ""
 "Cliquez avec le bouton droit de la souris sur OU pour créer un paquet "
 "d'unités."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:77
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:79
 msgid ""
 "A window opens and you are prompted to choose which packages must be in "
 "**unit** bundle."
 msgstr ""
-"Une fenêtre s'ouvre et vous êtes invité à choisir les paquets à mettre en"
-" dépendance de l'UO."
+"Une fenêtre s'ouvre et vous êtes invité à choisir les paquets à mettre en "
+"dépendance de l'UO."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:84
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:86
 msgid "Adding package to unit bundle."
 msgstr "Ajouter un paquet à l'UO."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:86
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:88
 msgid "Save the package and it will be uploaded to the WAPT server."
 msgstr "Enregistrez le paquet et il sera chargé sur le serveur WAPT."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:90
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:91
 msgid "Faking organizational unit for WORKGROUP hosts"
-msgstr ""
+msgstr "Simuler une Unité Organisationnelle pour des machines en WORKGROUP"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:92
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:93
 msgid ""
-"It can happend that some specific hosts cannot be joined to Active "
-"Directory."
+"It can happen that some specific hosts cannot be joined to an Active "
+"Directory domain."
 msgstr ""
+"Il peut arriver que certains hôtes spécifiques ne puissent pas être joints à "
+"un domaine Active Directory."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:94
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:96
 msgid ""
-"With that specificity, they doesn't show up in your Active Directory "
-"organizational units in WAPT Console."
+"With that specificity, such hosts do not show up in your Active Directory "
+"Organizational Units in your WAPT Console."
 msgstr ""
+"Avec cette spécificité, ces hôtes n'apparaissent pas dans vos Unités "
+"Organisationnelles Active Directory dans votre console WAPT."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:96
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:99
 msgid ""
-"To circumvent that, WAPT allow you to specify a fake organizational unit "
-"in WAPT agent configuration."
+"To make all hosts show up in the console under the right Organizational "
+"Unit, whether they are joined to an AD domain or not, WAPT allows you to "
+"specify a *fake* Organizational Unit WAPT agent configuration file."
 msgstr ""
+"Pour que tous les hôtes apparaissent dans la console sous la bonne Unité "
+"Organisationnelle, qu'ils soient liés à un domaine AD ou non, WAPT vous "
+"permet de spécifier un fichier de configuration d'agent WAPT avec une Unité "
+"Organisationnelle *simulée*."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:98
-msgid "The benefits of it are :"
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:103
+msgid "The benefits of this trick are:"
+msgstr "Les avantages de l'astuce sont :"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:105
+msgid "you can manage these hosts with WAPT as if they where joined to the AD;"
 msgstr ""
+"vous pouvez gérer ces machines avec WAPT comme si elles étaient jointes à "
+"l'AD ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:100
-msgid "Better management of these specific hosts"
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:107
+msgid "out-of-domain and workgroup hosts are now showing up in AD tree view;"
 msgstr ""
+"Les machines hors domaine et les machines en mode groupes de travail "
+"apparaissent désormais dans l'arborescence AD ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:101
-msgid "Out-of-Domain / Workgroup hosts now showing up in AD tree view"
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:109
+msgid "*unit* packages are usable on these hosts;"
+msgstr "les paquets *unit* fonctionnerons avec ces machines ;"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:111
+msgid ""
+"To setup a *fake* Organisational Unit on hosts, create an empty WAPT package;"
 msgstr ""
+"Pour configurer une Unité Organisationnelle *simulée* sur les machines, "
+"créer un paquet WAPT vide ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:102
-msgid "Organizational Units Packages are usable on those hosts"
-msgstr "Utilisation des paquets d'unités organisationnelles dans WAPT"
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:117
+msgid "Then use the following code:"
+msgstr "Utilisez ensuite le code suivant :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:104
-msgid "To setup a fake organisational unit on hosts, create an empty WAPT package"
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:132
+msgid ""
+"The ``host_organizational_unit_dn`` must be like below in :file:`wapt-get."
+"ini`:"
 msgstr ""
+"Le paramètre ``host_organizational_unit_dn`` doit être comme ci-dessous "
+"dans :file:`wapt-get.ini` :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:111
-msgid "Then use the following code :"
-msgstr ""
-
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-organizational-unit.rst:126
-msgid "The ``host_organizational_unit_dn`` must be like so in ``wapt-get.ini`` :"
-msgstr ""
+#~ msgid ""
+#~ "If an organizational unit package is defined on each level, WAPT agent "
+#~ "will download them automatically by inheritance and apply each level and "
+#~ "their dependencies."
+#~ msgstr ""
+#~ "Si un ensemble d'unités organisationnelles est défini à chaque niveau, "
+#~ "l'agent WAPT les téléchargera automatiquement par héritage et appliquera "
+#~ "chaque niveau et ses dépendances."

@@ -3,131 +3,148 @@
 # This file is distributed under the same license as the WAPT package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-23 13:05+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2020-04-28 11:25+0200\n"
+"PO-Revision-Date: 2020-04-28 12:52+0200\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
+"Language-Team: Tranquil IT\n"
+"Language: fr\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:9
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:16
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:9
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:16
 msgid "Installing WAPT Server with Ansible"
-msgstr ""
+msgstr "Installer le serveur WAPT avec Ansible"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:9
-msgid "Ansible, WAPT, installer, documentation"
-msgstr ""
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:9
+msgid "Ansible, WAPT, install, server, documentation"
+msgstr "Ansible, WAPT, installer, serveur, documentation"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:18
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:18
 msgid ""
-"To avoid mistakes and automate your WAPT Server deployment, we provide "
-"Ansible roles for WAPT Server installation."
+"To avoid mistakes and automate your WAPT Server deployment, we provide Ansible "
+"roles for WAPT Server installation."
 msgstr ""
+"Pour éviter les erreurs et automatiser le déploiement de votre serveur WAPT, "
+"nous fournissons des rôles Ansible pour installer le serveur WAPT."
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:20
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:21
 msgid ""
-"You can explore the role source code here : `tranquilit.waptserver "
-"<https://github.com/tranquilit/ansible.waptserver>`_."
+"You can explore the role source code by `visiting Tranquil IT repository on "
+"Github <https://github.com/tranquilit/ansible.waptserver>`_."
 msgstr ""
+"Vous pouvez explorer le code source du rôle en `visitant le dépôt Tranquil IT "
+"sur Github <https://github.com/tranquilit/ansible.waptserver>`_."
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:23
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:25
 msgid "Requirements"
-msgstr ""
+msgstr "Pré-requis"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:25
-msgid "Debian Linux or CentOS virtual machine"
-msgstr ""
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:27
+msgid "Debian Linux or CentOS hosts;"
+msgstr "Postes Debian Linux ou CentOS;"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:26
-msgid "a sudoers user on that VM"
-msgstr ""
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:29
+msgid "a sudoers user on these hosts;"
+msgstr "un compte utilisateur sudoers sur ces postes;"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:27
-msgid "Ansible 2.8"
-msgstr ""
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:31
+msgid "Ansible 2.8;"
+msgstr "Ansible 2.8;"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:30
-msgid "Install Ansible role"
-msgstr ""
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:34
+msgid "Installing the Ansible role"
+msgstr "Installer le rôle Ansible"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:32
-msgid "install ``tranquilit.waptserver`` Ansible role"
-msgstr ""
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:36
+msgid "install ``tranquilit.waptserver`` Ansible role;"
+msgstr "installer le rôle Ansible ``tranquilit.waptagent`` ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:39
-msgid "to install the role elsewhere, use the command like this"
-msgstr ""
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:42
+msgid "to install the role elsewhere, use the *-p* subcommand like this;"
+msgstr "pour installer le rôle autre part, utiliser la commande *-p* comme ceci;"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:47
-msgid "Using Ansible role"
-msgstr ""
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:49
+msgid "Using the Ansible role"
+msgstr "Utiliser le rôle Ansible"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:49
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:51
 msgid ""
-"ensure you have a working ssh key deployed on your VM, if not you can "
-"generate and copy one like so :"
+"ensure you have a working ssh key deployed on your hosts, if not you can "
+"generate and copy one like below;"
 msgstr ""
+"assurez vous d'avoir une clé ssh déployée sur vos postes, sinon vous pouvez en "
+"générer une et la copier comme ci dessous;"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:58
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:60
+msgid "edit Ansible hosts inventory ( :file:`./hosts` ) and add the Linux hosts;"
+msgstr ""
+"éditer le fichier d'inventaire Ansible ( :file:`./hosts` ) et ajouter les hôtes "
+"Linux ;"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:67
 msgid ""
-"edit Ansible hosts inventory ( :file:`./hosts` ) and add the WAPT server "
-"virtual machine :"
+"create a playbook with the following content in :file:`./playbooks/wapt.yml`;"
 msgstr ""
+"créer un playbook avec le contenu suivant dans :file:`./playbooks/"
+"deploywaptagent.yml` ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:66
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:75
+msgid "run your playbook with the following command;"
+msgstr "lancez votre playbook avec la commande suivante ;"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:81
 msgid ""
-"create a playbook with the following content in "
-":file:`./playbooks/wapt.yml` :"
+"**Congratulations, you have installed your WAPT server on your Linux server!**"
 msgstr ""
+"**Félicitations, vous avez installé votre serveur WAPT sur votre serveur Linux!"
+"**"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:75
-msgid "run your playbook with the following command :"
-msgstr ""
-
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:82
-msgid "that's it WAPT Server is installed on your server !"
-msgstr ""
-
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:86
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:84
 msgid "Role variables"
-msgstr ""
+msgstr "Variables du rôle"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:88
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:86
 msgid ""
-"Available variables are listed below, along with default values (see "
-"``defaults/main.yml``):"
+"Available variables are listed below, along with default values (see ``defaults/"
+"main.yml``):"
 msgstr ""
+"Les variables disponibles sont listées ci-dessous, avec les valeurs par défaut "
+"(voir ``defaults/main.yml``) :"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:91
-msgid "WAPT version that will be installed from WAPT Deb/RPM repository"
-msgstr ""
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:89
+msgid "version of WAPT that will be installed from WAPT Deb/RPM repository;"
+msgstr "version de WAPT qui sera installée depuis les dépôts WAPT Deb/RPM ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:98
-msgid "PostgreSQL version that will be installed from WAPT Deb/RPM repository"
-msgstr ""
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:95
+msgid "version of PostgreSQL that will be installed from WAPT Deb/RPM repository;"
+msgstr "version de PostgreSQL qui sera installée depuis les dépôts WAPT Deb/RPM ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:105
-msgid "CentOS version used for RPM repository address"
-msgstr ""
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:101
+msgid "version of CentOS used for RPM repository address;"
+msgstr "version CentOS utilisée pour l'adresse du dépôt RPM ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:112
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:107
 msgid ""
-"``launch_postconf`` defaults to True, it launches WAPT Server "
-"postconfiguration script silently"
+"``launch_postconf`` defaults to True, it launches WAPT Server postconfiguration "
+"script silently;"
 msgstr ""
+"La valeur par défaut de ``launch_postconf`` est *True*, elle lance le script de "
+"post-configuration du serveur WAPT en mode silencieux ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:119
-msgid "Example playbook"
-msgstr ""
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:115
+msgid "Example Ansible playbook"
+msgstr "Exemple de playbook"
 
-#: /home/agauvrit/projects/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:121
-msgid "Here is an example of an Ansible playbook"
-msgstr ""
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/advanced/install-waptserver-with-ansible.rst:117
+msgid "Here is an example of an Ansible playbook."
+msgstr "Voici un exemple de playbook Ansible."

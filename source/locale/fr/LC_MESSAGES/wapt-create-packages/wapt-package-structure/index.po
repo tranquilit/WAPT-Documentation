@@ -1,16 +1,17 @@
-
 msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-22 16:06+0200\n"
-"PO-Revision-Date: 2020-03-26 15:08+0100\n"
+"PO-Revision-Date: 2020-04-28 11:34+0200\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
+"Language: fr\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:8
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:17
@@ -20,12 +21,11 @@ msgstr "Structure d'un paquet WAPT"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:8
 msgid ""
-"setup.py, WAPT, control, icon.png, certificate.crt, manifest.sha256,  "
-"wapt.psproj, package identity, identification, documentation, "
-"signature.sha256"
+"setup.py, WAPT, control, icon.png, certificate.crt, manifest.sha256,  wapt.psproj, "
+"package identity, identification, documentation, signature.sha256"
 msgstr ""
-"setup.py, WAPT, control, icon.png, certificate.crt, manifest.sha256, "
-"signature.sha256, wapt.psproj, fiche d'identité, documentation"
+"setup.py, WAPT, control, icon.png, certificate.crt, manifest.sha256, signature."
+"sha256, wapt.psproj, fiche d'identité, documentation"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:19
 msgid "A WAPT package is a zip file containing several things:"
@@ -65,24 +65,21 @@ msgstr "Un fichier :file:`signature.sha256` dans le dossier :file:`WAPT` ;"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:43
 msgid ""
-"a :file:`wapt.psproj` file in the folder :file:`WAPT`, this file is used "
-"to store the :program:`PyScripter` configuration data for the WAPT "
-"package;"
+"a :file:`wapt.psproj` file in the folder :file:`WAPT`, this file is used to store "
+"the :program:`PyScripter` configuration data for the WAPT package;"
 msgstr ""
-"un fichier :file:`wapt.psproj` dans le dossier :file:`WAPT`, ce fichier "
-"est utilisé pour stocker les données de configuration "
-":program:`PyScripter` pour le paquet WAPT ;"
+"un fichier :file:`wapt.psproj` dans le dossier :file:`WAPT`, ce fichier est utilisé "
+"pour stocker les données de configuration :program:`PyScripter` pour le paquet WAPT ;"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:47
 msgid ""
-"since WAPT 1.8, a hidden :file:`.vscode` folder that contains a "
-":file:`launch.json` and a :file:`settings.json` file used to store the "
-":program:`VScode` configuration data for the WAPT package;"
+"since WAPT 1.8, a hidden :file:`.vscode` folder that contains a :file:`launch.json` "
+"and a :file:`settings.json` file used to store the :program:`VScode` configuration "
+"data for the WAPT package;"
 msgstr ""
-"depuis WAPT 1.8, un dossier caché :file:`.vscode` qui contient un fichier"
-" :file:`launch.json` et un fichier :file:`settings.json` utilisés pour "
-"stocker les données de configuration :program:`VScode` pour le paquet "
-"WAPT ;"
+"depuis WAPT 1.8, un dossier caché :file:`.vscode` qui contient un fichier :file:"
+"`launch.json` et un fichier :file:`settings.json` utilisés pour stocker les données "
+"de configuration :program:`VScode` pour le paquet WAPT ;"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:54
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:623
@@ -182,20 +179,14 @@ msgid "``description``"
 msgstr "``description``"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:112
-msgid ""
-"Package description that will appear in the console and on the web "
-"interface"
-msgstr ""
-"Description du paquet qui apparaîtra dans la console et sur l'interface "
-"web"
+msgid "Package description that will appear in the console and on the web interface"
+msgstr "Description du paquet qui apparaîtra dans la console et sur l'interface web"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:112
 msgid ""
-"The Graphing Calculator for Functions, Geometry, Algebra, Calculus, "
-"Statistics and 3D"
+"The Graphing Calculator for Functions, Geometry, Algebra, Calculus, Statistics and 3D"
 msgstr ""
-"The Graphing Calculator for Functions, Geometry, Algebra, Calculus, "
-"Statistics and 3D"
+"The Graphing Calculator for Functions, Geometry, Algebra, Calculus, Statistics and 3D"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:115
 msgid "``description_fr``"
@@ -275,9 +266,7 @@ msgstr "``min_os_version``"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:129
 msgid "Minimum version of Windows for the package to be seen by the WAPT agent"
-msgstr ""
-"Version minimale de l'OS pour que le paquet soit vu par l'agent WAPT le "
-"paquet"
+msgstr "Version minimale de l'OS pour que le paquet soit vu par l'agent WAPT le paquet"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:129
 msgid "6.0"
@@ -289,9 +278,7 @@ msgstr "``max_os_version``"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:132
 msgid "Maximum version of Windows for the package to be seen by the WAPT agent"
-msgstr ""
-"Version maximale de l'OS pour que le paquet soit vu par l'agent WAPT le "
-"paquet"
+msgstr "Version maximale de l'OS pour que le paquet soit vu par l'agent WAPT le paquet"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:132
 msgid "8.0"
@@ -316,8 +303,7 @@ msgstr "``sources``"
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:138
 msgid "Path to the SVN location of the package (:command:`source` command)"
 msgstr ""
-"Lien de stockage des versions historisées du paquet (commande "
-":command:`sources`)"
+"Lien de stockage des versions historisées du paquet (commande :command:`sources`)"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:138
 msgid "https://srv-svn.mydomain.lan/sources/tis-geogebra-wapt/trunk/"
@@ -401,13 +387,11 @@ msgstr "``homepage``"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:156
 msgid "Official homepage of the software embedded in the WAPT package"
-msgstr ""
-"Indique la page d'accueil du site officiel de logiciel integrée dans le "
-"paquet"
+msgstr "Indique la page d'accueil du site officiel de logiciel integrée dans le paquet"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:156
 msgid "https://www.tranquil.it/"
-msgstr ""
+msgstr "https://www.tranquil.it/"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:159
 msgid "``signer``"
@@ -467,23 +451,21 @@ msgstr "Liste des attributs signés"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:168
 msgid ""
-"package, version, architecture, section, priority, maintainer, "
-"description, depends, conflicts, maturity, locale, min_os_version, "
-"max_os_version, min_wapt_version, sources, installed_size, signer, "
-"signer_fingerprint, signature_date, signed_attributes"
+"package, version, architecture, section, priority, maintainer, description, depends, "
+"conflicts, maturity, locale, min_os_version, max_os_version, min_wapt_version, "
+"sources, installed_size, signer, signer_fingerprint, signature_date, signed_attributes"
 msgstr ""
-"package, version, architecture, section, priority, maintainer, "
-"description, depends, conflicts, maturity, locale, min_os_version, "
-"max_os_version, min_wapt_version, sources, installed_size, signer, "
-"signer_fingerprint, signature_date, signed_attributes"
+"package, version, architecture, section, priority, maintainer, description, depends, "
+"conflicts, maturity, locale, min_os_version, max_os_version, min_wapt_version, "
+"sources, installed_size, signer, signer_fingerprint, signature_date, signed_attributes"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:178
 msgid ""
-"If the :file:`control` file contains special characters, the "
-":file:`control` file must be saved in **UTF-8 (No BOM)** format."
+"If the :file:`control` file contains special characters, the :file:`control` file "
+"must be saved in **UTF-8 (No BOM)** format."
 msgstr ""
-"Si le fichier :file:`control` comporte des caractères accentués, le "
-"fichier doit être enregistré en format **UTF-8 (No BOM)**."
+"Si le fichier :file:`control` comporte des caractères accentués, le fichier doit être "
+"enregistré en format **UTF-8 (No BOM)**."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:185
 msgid "PyScripter - UTF-8 (No BOM)"
@@ -499,11 +481,11 @@ msgstr "package"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:193
 msgid ""
-"**WAPT package name, without any accent, nor space, nor any special or "
-"uppercase character**."
+"**WAPT package name, without any accent, nor space, nor any special or uppercase "
+"character**."
 msgstr ""
-"**Nom du paquet WAPT, sans accent, sans espace, sans caractère spécial, "
-"sans majuscule**."
+"**Nom du paquet WAPT, sans accent, sans espace, sans caractère spécial, sans "
+"majuscule**."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:197
 msgid "version"
@@ -511,13 +493,13 @@ msgstr "version"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:199
 msgid ""
-"Preferably, always start with the packaged software version (**digits "
-"only**) split by points (*.*) and finish with the WAPT packaging version "
-"separated by a dash (*-*) character."
+"Preferably, always start with the packaged software version (**digits only**) split "
+"by points (*.*) and finish with the WAPT packaging version separated by a dash (*-*) "
+"character."
 msgstr ""
 "De préférence, toujours commencer par la version du logiciel (**chiffres "
-"uniquement**) séparée par des points (*.*), puis suffixer avec un tiret "
-"(*-*) et le numéro de version de packaging WAPT."
+"uniquement**) séparée par des points (*.*), puis suffixer avec un tiret (*-*) et le "
+"numéro de version de packaging WAPT."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:204
 msgid "architecture"
@@ -525,19 +507,17 @@ msgstr "architecture"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:208
 msgid ""
-"Defines whether the package may be installed on x64 or x32 processor "
-"equipped computers."
+"Defines whether the package may be installed on x64 or x32 processor equipped "
+"computers."
 msgstr ""
-"Définit si le paquet pourra s'installer sur une machine équipée d'un "
-"processeur 32bits ou 64bits."
+"Définit si le paquet pourra s'installer sur une machine équipée d'un processeur "
+"32bits ou 64bits."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:213
-msgid ""
-"A x64 package will be invisible for a WAPT agent installed on a x86 "
-"machine."
+msgid "A x64 package will be invisible for a WAPT agent installed on a x86 machine."
 msgstr ""
-"Un paquet prévu pour une architecture x64 ne sera pas visible avec un "
-"agent WAPT installé sur un poste équipé d'un processeur x86."
+"Un paquet prévu pour une architecture x64 ne sera pas visible avec un agent WAPT "
+"installé sur un poste équipé d'un processeur x86."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:215
 msgid "Allowed values:"
@@ -546,20 +526,18 @@ msgstr "Valeurs possibles :"
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:217
 msgid "**x86**: the package is designed for 32bit computers;"
 msgstr ""
-"**x86** : le paquet est destiné uniquement aux machines avec un "
-"processeur 32bits ;"
+"**x86** : le paquet est destiné uniquement aux machines avec un processeur 32bits ;"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:219
 msgid "**x64**: the package is designed for 64bit computers;"
 msgstr ""
-"**x64** : le paquet est destiné uniquement aux machines avec un "
-"processeur 64bits ;"
+"**x64** : le paquet est destiné uniquement aux machines avec un processeur 64bits ;"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:221
 msgid "**all**: the package is designed for 32bit or 64bit computers;"
 msgstr ""
-"**all** : le paquet est a destination des machines avec un processeur "
-"32bits **OU** 64bits ;"
+"**all** : le paquet est a destination des machines avec un processeur 32bits **OU** "
+"64bits ;"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:224
 msgid "section"
@@ -587,12 +565,12 @@ msgstr "priority"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:237
 msgid ""
-"This option is not supported at this time. That field will be used to "
-"define package installation priority. This feature will become useful to "
-"define mandatory security updates."
+"This option is not supported at this time. That field will be used to define package "
+"installation priority. This feature will become useful to define mandatory security "
+"updates."
 msgstr ""
-"Cette option n'est pas prise en en charge pour le moment, ce champ "
-"permettra à terme de définir la priorité d'installation d'un paquet WAPT."
+"Cette option n'est pas prise en en charge pour le moment, ce champ permettra à terme "
+"de définir la priorité d'installation d'un paquet WAPT."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:242
 msgid "maintainer"
@@ -612,23 +590,22 @@ msgstr "description"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:253
 msgid ""
-"Describes the functionality of the package that will appear in the "
-"console, on the local web interface http://127.0.0.1:8088 and in :code"
-":`wapt-get` command lines."
+"Describes the functionality of the package that will appear in the console, on the "
+"local web interface http://127.0.0.1:8088 and in :code:`wapt-get` command lines."
 msgstr ""
-"Décrit les fonctionnalités du paquet ; la description sera affichée dans "
-"la console, sur l'interface web des clients WAPT http://127.0.0.1:8088 et"
-" dans les lignes de commande :code:`wapt-get`.\\v"
+"Décrit les fonctionnalités du paquet ; la description sera affichée dans la console, "
+"sur l'interface web des clients WAPT http://127.0.0.1:8088 et dans les lignes de "
+"commande :code:`wapt-get`.\\v"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:259
 msgid ""
 "Adding a field ``description_fr`` or ``description_es`` allows you to "
-"internationalize the description of your package. If the language does "
-"not exist, the WAPT agent will use the default language description."
+"internationalize the description of your package. If the language does not exist, the "
+"WAPT agent will use the default language description."
 msgstr ""
-"Ajouter un champ description_fr ou description_es permet par exemple de "
-"préciser une description pour une langue précise. Si la langue n'existe "
-"pas, l'agent wapt utilisera la champ description classique."
+"Ajouter un champ description_fr ou description_es permet par exemple de préciser une "
+"description pour une langue précise. Si la langue n'existe pas, l'agent wapt "
+"utilisera la champ description classique."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:265
 msgid "depends"
@@ -636,19 +613,16 @@ msgstr "depends"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:267
 msgid ""
-"Defines the packages that must be installed before, for example *tis-"
-"java* is a dependency for the *LibreOffice* package and *tis-java* must "
-"be installed before *LibreOffice*."
+"Defines the packages that must be installed before, for example *tis-java* is a "
+"dependency for the *LibreOffice* package and *tis-java* must be installed before "
+"*LibreOffice*."
 msgstr ""
-"Définit quelle(s) dépendance(s) doit(doivent) être satisfaite(s) avant "
-"d'installer le paquet WAPT, par exemple *tis-java* devra être installé "
-"avant le paquet *LibreOffice*."
+"Définit quelle(s) dépendance(s) doit(doivent) être satisfaite(s) avant d'installer le "
+"paquet WAPT, par exemple *tis-java* devra être installé avant le paquet *LibreOffice*."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:271
 msgid "Several dependencies may be defined by splitting them with commas (*,*)."
-msgstr ""
-"On peut définir plusieurs dépendances en les séparant par des virgules "
-"(*,*)"
+msgstr "On peut définir plusieurs dépendances en les séparant par des virgules (*,*)"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:273
 msgid "example:"
@@ -664,15 +638,14 @@ msgstr "Fonctionne exactement à l'inverse de *depends*."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:284
 msgid ""
-"*conflicts* defines package(s) that must be removed before installing a "
-"package, for example *tis-firefox* must be removed before the package "
-"*tis-firefox-esr* is installed, or *OpenOffice* must be removed before "
-"*LibreOffice* is installed."
+"*conflicts* defines package(s) that must be removed before installing a package, for "
+"example *tis-firefox* must be removed before the package *tis-firefox-esr* is "
+"installed, or *OpenOffice* must be removed before *LibreOffice* is installed."
 msgstr ""
-"*conflicts* définit quel(s) paquet(s) doit(vent) être désinstallé(s) "
-"avant d'installer le paquet WAPT. Par exemple si vous voulez désinstaller"
-" *firefox* avant d'installer *firefox-esr*, ou bien si vous voulez "
-"*LibreOffice*, alors il faudra désinstaller *OpenOffice* d'abord."
+"*conflicts* définit quel(s) paquet(s) doit(vent) être désinstallé(s) avant "
+"d'installer le paquet WAPT. Par exemple si vous voulez désinstaller *firefox* avant "
+"d'installer *firefox-esr*, ou bien si vous voulez *LibreOffice*, alors il faudra "
+"désinstaller *OpenOffice* d'abord."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:288
 msgid "Several conflicts may be defined by splitting them with commas (*,*)."
@@ -688,18 +661,17 @@ msgstr "Indique la maturité du paquet."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:297
 msgid ""
-"By default, WAPT gents will see packages flagged as *PROD* and packages "
-"with an empty maturity."
+"By default, WAPT gents will see packages flagged as *PROD* and packages with an empty "
+"maturity."
 msgstr "Un agent verra par défault les paquets *PROD* et les paquet sans maturité."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:300
 msgid ""
-"For a computer to see packages with different maturity levels, you will "
-"have to configure the *maturities* atrtibute in :file:`wapt-get-ini`"
+"For a computer to see packages with different maturity levels, you will have to "
+"configure the *maturities* atrtibute in :file:`wapt-get-ini`"
 msgstr ""
-"Pour qu'un Poste Client puisse voir un paquet d'un autre niveau de "
-"maturité, il faudra ajouter dans :file:`wapt-get.ini` la configuration "
-"*maturities*."
+"Pour qu'un Poste Client puisse voir un paquet d'un autre niveau de maturité, il "
+"faudra ajouter dans :file:`wapt-get.ini` la configuration *maturities*."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:304
 msgid "locale"
@@ -711,27 +683,27 @@ msgstr "Indique la langue du paquet."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:310
 msgid ""
-"A WAPT agent will see by default packages that are configured for its "
-"language environment and packages with no language specified."
+"A WAPT agent will see by default packages that are configured for its language "
+"environment and packages with no language specified."
 msgstr ""
-"Un agent verra par défault les paquets dans sa langue et les paquets avec"
-" un champ local sans valeur."
+"Un agent verra par défault les paquets dans sa langue et les paquets avec un champ "
+"local sans valeur."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:313
 msgid ""
-"For a computer to see a package in another language, you will have to "
-"configure the *locales* in :file:`wapt-get.ini`."
+"For a computer to see a package in another language, you will have to configure the "
+"*locales* in :file:`wapt-get.ini`."
 msgstr ""
-"Pour qu'un Poste client puisse voir un paquet d'une autre langue, il "
-"faudra ajouter dans :file:`wapt-get.ini` la configuration *locales*."
+"Pour qu'un Poste client puisse voir un paquet d'une autre langue, il faudra ajouter "
+"dans :file:`wapt-get.ini` la configuration *locales*."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:320
 msgid ""
-"The language filled in the field must be in `ISO 639-1 "
-"<https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes>`_ format."
+"The language filled in the field must be in `ISO 639-1 <https://en.wikipedia.org/wiki/"
+"List_of_ISO_639-1_codes>`_ format."
 msgstr ""
-"La langue indiquée dans ce champ doit être en `format ISO 639-1 "
-"<https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes>`_."
+"La langue indiquée dans ce champ doit être en `format ISO 639-1 <https://en.wikipedia."
+"org/wiki/List_of_ISO_639-1_codes>`_."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:325
 msgid "target_os"
@@ -743,19 +715,17 @@ msgstr "Indique le système d'exploitation prévu pour le paquet."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:331
 msgid ""
-"A WAPT agent will see by default packages that are configured for its "
-"operating system and packages with no operating system specified."
+"A WAPT agent will see by default packages that are configured for its operating "
+"system and packages with no operating system specified."
 msgstr ""
-"Un agent verra par défault les paquets prévus pour son système "
-"d'exploitation et les paquets avec un champ ``target_os`` sans valeur."
+"Un agent verra par défault les paquets prévus pour son système d'exploitation et les "
+"paquets avec un champ ``target_os`` sans valeur."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:334
-msgid ""
-"The operating systems in the field *target_os* must be *windows* or left "
-"empty."
+msgid "The operating systems in the field *target_os* must be *windows* or left empty."
 msgstr ""
-"Le système d'exploitation indiqué dans le champ *target_os* du paquet "
-"doit être soit *windows* ou bien vide."
+"Le système d'exploitation indiqué dans le champ *target_os* du paquet doit être soit "
+"*windows* ou bien vide."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:337
 msgid "min_os_version"
@@ -763,18 +733,16 @@ msgstr "min_os_version"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:341
 msgid ""
-"Defines the minimal `Windows Operating System Version "
-"<https://docs.microsoft.com/en-us/windows/win32/sysinfo/operating-system-"
-"version?redirectedfrom=MSDN>`_. For example, this attribute may be used "
-"to avoid installing on WindowsXP packages that only work on Windows7 and "
-"above."
+"Defines the minimal `Windows Operating System Version <https://docs.microsoft.com/en-"
+"us/windows/win32/sysinfo/operating-system-version?redirectedfrom=MSDN>`_. For "
+"example, this attribute may be used to avoid installing on WindowsXP packages that "
+"only work on Windows7 and above."
 msgstr ""
-"Définit la version minimale de `Windows Operating System Version "
-"<https://docs.microsoft.com/en-us/windows/win32/sysinfo/operating-system-"
-"version?redirectedfrom=MSDN>`_. Par exemple, cet "
-"attribut peut être utilisé pour éviter l'installation d'un paquet sur "
-"WindowsXP alors qu'il ne fonctionne qu'avec Windows7 et versions "
-"supérieures."
+"Définit la version minimale de `Windows Operating System Version <https://docs."
+"microsoft.com/en-us/windows/win32/sysinfo/operating-system-version?"
+"redirectedfrom=MSDN>`_. Par exemple, cet attribut peut être utilisé pour éviter "
+"l'installation d'un paquet sur WindowsXP alors qu'il ne fonctionne qu'avec Windows7 "
+"et versions supérieures."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:346
 msgid "max_os_version"
@@ -782,17 +750,16 @@ msgstr "max_os_version"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:350
 msgid ""
-"Defines the maximal `Windows Operating System Version "
-"<https://docs.microsoft.com/en-us/windows/win32/sysinfo/operating-system-"
-"version?redirectedfrom=MSDN>`_. For example, this attribute may be used "
-"to install on Windows7 more recent versions of a software that are no "
-"more supported on Windows XP."
+"Defines the maximal `Windows Operating System Version <https://docs.microsoft.com/en-"
+"us/windows/win32/sysinfo/operating-system-version?redirectedfrom=MSDN>`_. For "
+"example, this attribute may be used to install on Windows7 more recent versions of a "
+"software that are no more supported on Windows XP."
 msgstr ""
-"Définit la version maximale de `Windows Operating System Version "
-"<https://docs.microsoft.com/en-us/windows/win32/sysinfo/operating-system-"
-"version?redirectedfrom=MSDN>`_. Par exemple, cet "
-"attribut peut être utilisé pour installer sur Windows7 des versions plus "
-"récentes d'un logiciel qui ne sont plus supportées sous Windows XP."
+"Définit la version maximale de `Windows Operating System Version <https://docs."
+"microsoft.com/en-us/windows/win32/sysinfo/operating-system-version?"
+"redirectedfrom=MSDN>`_. Par exemple, cet attribut peut être utilisé pour installer "
+"sur Windows7 des versions plus récentes d'un logiciel qui ne sont plus supportées "
+"sous Windows XP."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:355
 msgid "min_wapt_version"
@@ -800,19 +767,15 @@ msgstr "min_wapt_version"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:359
 msgid "WAPT minimum version to install a package"
-msgstr ""
-"Il s'agit de la version minimale de WAPT nécessaire pour installer du "
-"paquet."
+msgstr "Il s'agit de la version minimale de WAPT nécessaire pour installer du paquet."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:363
 msgid ""
-"With functionalities in WAPT evolving, some functions that you may have "
-"used in old packages may become obsolete with newer versions of WAPT "
-"agents."
+"With functionalities in WAPT evolving, some functions that you may have used in old "
+"packages may become obsolete with newer versions of WAPT agents."
 msgstr ""
-"Le code de WAPT évoluant, certaines fonctions que vous aurez utilisées "
-"dans vos anciens paquets peuvent devenir obsolètes avec les nouvelles "
-"versions des agents WAPT."
+"Le code de WAPT évoluant, certaines fonctions que vous aurez utilisées dans vos "
+"anciens paquets peuvent devenir obsolètes avec les nouvelles versions des agents WAPT."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:367
 msgid "sources"
@@ -830,20 +793,17 @@ msgstr "https://svn.mydomain.lan/sources/tis-geogebra-wapt/trunk/"
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:375
 msgid "This method allows to version a package and collaboratively work on it."
 msgstr ""
-"Cela permet de versionner le paquet et de concevoir collaborativement le "
-"paquet."
+"Cela permet de versionner le paquet et de concevoir collaborativement le paquet."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:379
 msgid ""
-"Package versioning is particularly useful when several people create "
-"packages in a collaborative way. This function is also useful to trace "
-"the history of a package if you are subject to Regulations in your "
-"industry."
+"Package versioning is particularly useful when several people create packages in a "
+"collaborative way. This function is also useful to trace the history of a package if "
+"you are subject to Regulations in your industry."
 msgstr ""
-"Le versionnement des paquets est très utile dans un contexte où plusieurs"
-" personnes créent des paquets de manière collaborative. Cette fonction "
-"permet également une traçabilité qui peut être utile dans un contexte "
-"réglementaire."
+"Le versionnement des paquets est très utile dans un contexte où plusieurs personnes "
+"créent des paquets de manière collaborative. Cette fonction permet également une "
+"traçabilité qui peut être utile dans un contexte réglementaire."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:384
 msgid "installed_size"
@@ -852,8 +812,8 @@ msgstr "installed_size"
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:386
 msgid "Defines the required minimum free disk space to install the package."
 msgstr ""
-"Définit un espace disque libre minimum que doit avoir la machine pour "
-"lancer l'installation du paquet."
+"Définit un espace disque libre minimum que doit avoir la machine pour lancer "
+"l'installation du paquet."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:388
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:410
@@ -867,11 +827,10 @@ msgstr "Exemple :"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:394
 msgid ""
-"The testing of available free disk space is done on the "
-":file:`C:\\\\Program Files` folder."
+"The testing of available free disk space is done on the :file:`C:\\\\Program Files` "
+"folder."
 msgstr ""
-"Le test d'espace disque disponible est fait sur le dossier "
-":file:`C:\\Program Files`."
+"Le test d'espace disque disponible est fait sur le dossier :file:`C:\\Program Files`."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:397
 msgid "The value set in *installed_size* must be in bytes."
@@ -880,8 +839,8 @@ msgstr "La valeur renseignée dans *installed_size* doit être en bytes."
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:401
 msgid "To convert storage values to bytes, visit https://bit-calculator.com/."
 msgstr ""
-"Pour convertir des valeurs de stockage en bytes, visiter "
-"https://www.convertworld.com/fr/mesures-informatiques/."
+"Pour convertir des valeurs de stockage en bytes, visiter https://www.convertworld.com/"
+"fr/mesures-informatiques/."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:404
 msgid "impacted_process"
@@ -893,21 +852,20 @@ msgstr "Indique les processus impactés par le paquet."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:416
 msgid ""
-"This field is used by the functions :command:`install_msi_if_needed` and "
-":command:`install_exe_if_needed` if *killbefore* has not been filled."
+"This field is used by the functions :command:`install_msi_if_needed` and :command:"
+"`install_exe_if_needed` if *killbefore* has not been filled."
 msgstr ""
-"Ce champ est utilisé par les fonctions :command:`install_msi_if_needed` "
-"et :command:`install_exe_if_needed` si *killbefore* n'est pas renseigné."
+"Ce champ est utilisé par les fonctions :command:`install_msi_if_needed` et :command:"
+"`install_exe_if_needed` si *killbefore* n'est pas renseigné."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:419
 msgid ""
-"*impacted_process* is also used when uninstalling a package. This allows "
-"to close the application if the application is running before being "
-"uninstalled."
+"*impacted_process* is also used when uninstalling a package. This allows to close the "
+"application if the application is running before being uninstalled."
 msgstr ""
-"*impacted_process* est également utilisé lors de la désinstallation d'un "
-"paquet. Cela permet de fermer l'application si l'application est "
-"ouverture avant sa désinstallation."
+"*impacted_process* est également utilisé lors de la désinstallation d'un paquet. Cela "
+"permet de fermer l'application si l'application est ouverture avant sa "
+"désinstallation."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:424
 msgid "audit_schedule"
@@ -927,11 +885,10 @@ msgstr "Un entier (en minutes) ;"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:440
 msgid ""
-"an integer followed by a letter (*m* = minutes, *h* = hours, *d* = days, "
-"*w* = weeks);"
+"an integer followed by a letter (*m* = minutes, *h* = hours, *d* = days, *w* = weeks);"
 msgstr ""
-"un entier suivi d'une lettre (*m* = minutes , *h* = heure , *d* = jour , "
-"*w* = semaine) ;"
+"un entier suivi d'une lettre (*m* = minutes , *h* = heure , *d* = jour , *w* = "
+"semaine) ;"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:444
 msgid "editor"
@@ -945,12 +902,10 @@ msgstr "Indique le nom de l'éditeur du logiciel embarqué dans le paquet WAPT."
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:471
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:486
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:501
-msgid ""
-"The values may be used as filters in the WAPT console and with the self-"
-"service."
+msgid "The values may be used as filters in the WAPT console and with the self-service."
 msgstr ""
-"La liste des valeurs pourra être utilisée dans la console et dans le "
-"selfservice pour trier les paquets."
+"La liste des valeurs pourra être utilisée dans la console et dans le selfservice pour "
+"trier les paquets."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:459
 msgid "keywords"
@@ -974,9 +929,7 @@ msgstr "homepage"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:493
 msgid "Official homepage of the software binaries embedded in the WAPT package."
-msgstr ""
-"Indique la page d'accueil du site officiel de logiciel integrée dans le "
-"paquet."
+msgstr "Indique la page d'accueil du site officiel de logiciel integrée dans le paquet."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:504
 msgid "signer"
@@ -992,12 +945,10 @@ msgstr "Automatiquement renseigné lors de la signature des paquets."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:508
 msgid ""
-":abbr:`CN (Common Name)` of the certificate. It is typically the signer's"
-" full name."
+":abbr:`CN (Common Name)` of the certificate. It is typically the signer's full name."
 msgstr ""
-"Il s'agit du :abbr:`CN (Common Name)` renseigné dans la clé privée du "
-"signataire du paquet. Il s'agit le plus souvent du nom complet du "
-"signataire."
+"Il s'agit du :abbr:`CN (Common Name)` renseigné dans la clé privée du signataire du "
+"paquet. Il s'agit le plus souvent du nom complet du signataire."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:512
 msgid "signer_fingerprint"
@@ -1046,16 +997,16 @@ msgstr "On trouvera au début de chaque paquet cette ligne :"
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:553
 msgid "The package imports all setuphelpers functions."
 msgstr ""
-"Nous demandons au paquet d'importer toutes les fonctions depuis la "
-"librairie ``Setuphelpers``."
+"Nous demandons au paquet d'importer toutes les fonctions depuis la librairie "
+"``Setuphelpers``."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:555
 msgid ""
-"*Setuphelpers* is a WAPT library that offers many methods to more easily "
-"develop highly functional packages."
+"*Setuphelpers* is a WAPT library that offers many methods to more easily develop "
+"highly functional packages."
 msgstr ""
-"*Setuphelpers* est la librairie integrée à WAPT, elle embarque des "
-"fonctions simplifiées pour aider à créer des paquets."
+"*Setuphelpers* est la librairie integrée à WAPT, elle embarque des fonctions "
+"simplifiées pour aider à créer des paquets."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:559
 msgid "uninstallkey list"
@@ -1067,24 +1018,23 @@ msgstr "Nous trouvons ensuite :"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:567
 msgid ""
-"We associate here a list of *uninstall keys* to the package. When a "
-"package is removed, the WAPT agent looks up the *uninstallkey* in the "
-"registry associated to the package. This *uninstallkey* will indicate to "
-"WAPT the actions to trigger to remove the software."
+"We associate here a list of *uninstall keys* to the package. When a package is "
+"removed, the WAPT agent looks up the *uninstallkey* in the registry associated to the "
+"package. This *uninstallkey* will indicate to WAPT the actions to trigger to remove "
+"the software."
 msgstr ""
-"Nous déclarerons ici une liste des *uninstall keys* associées au paquet. "
-"Quand un paquet est supprimé, l'agent WAPT recherche dans la base de "
-"registre la *uninstallkey* correspondant au paquet. Cette *uninstallkey* "
-"indiquera à l'agent WAPT les actions à déclencher pour supprimer le "
-"logiciel."
+"Nous déclarerons ici une liste des *uninstall keys* associées au paquet. Quand un "
+"paquet est supprimé, l'agent WAPT recherche dans la base de registre la "
+"*uninstallkey* correspondant au paquet. Cette *uninstallkey* indiquera à l'agent WAPT "
+"les actions à déclencher pour supprimer le logiciel."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:572
 msgid ""
-"Even if there is no *uninstallkey* for a software, it is mandatory to "
-"declare an empty *uninstallkey* array:"
+"Even if there is no *uninstallkey* for a software, it is mandatory to declare an "
+"empty *uninstallkey* array:"
 msgstr ""
-"Même s'il n'y a pas de *uninstallkey* pour le paquet, il faudra quand "
-"même déclarer une *uninstallkey* vide :"
+"Même s'il n'y a pas de *uninstallkey* pour le paquet, il faudra quand même déclarer "
+"une *uninstallkey* vide :"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:580
 msgid "Function install()"
@@ -1096,8 +1046,7 @@ msgstr "Vient ensuite la déclaration de la fonction :program:`setup.py`."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:584
 msgid ""
-"It is the recipe of the WAPT package, the set of instructions that will "
-"be executed."
+"It is the recipe of the WAPT package, the set of instructions that will be executed."
 msgstr "C'est la recette du paquet WAPT."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:593
@@ -1115,8 +1064,7 @@ msgstr "C'est le projet PyScripter du paquet WAPT."
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:599
 msgid "To edit a package with :program:`PyScripter`, just open the file."
 msgstr ""
-"Pour éditer un paquet avec :program:`PyScripter`, il suffira d'ouvrir ce "
-"fichier."
+"Pour éditer un paquet avec :program:`PyScripter`, il suffira d'ouvrir ce fichier."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:602
 msgid "The *icon.png* file"
@@ -1168,18 +1116,18 @@ msgstr "A l'installation du paquet, :program:`wapt-get` vérifie :"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:631
 msgid ""
-"that the signature of :file:`manifest.sha256` matches the actual "
-":file:`manifest.sha256` file (the agent will verify the public "
-"certificates in :file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl` );"
+"that the signature of :file:`manifest.sha256` matches the actual :file:`manifest."
+"sha256` file (the agent will verify the public certificates in :file:`C:\\\\Program "
+"Files (x86)\\\\wapt\\\\ssl` );"
 msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:635
 msgid ""
-"that the sha256 fingerprint of each file is identical to the fingerprint "
-"in the :file:`manifest.sha256` file;"
+"that the sha256 fingerprint of each file is identical to the fingerprint in the :file:"
+"`manifest.sha256` file;"
 msgstr ""
-"que l'empreinte sha256 de chaque fichier est identique à celle contenue "
-"dans le fichier :file:`manifest.sha256` ;"
+"que l'empreinte sha256 de chaque fichier est identique à celle contenue dans le "
+"fichier :file:`manifest.sha256` ;"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:639
 msgid "Other files"
@@ -1187,17 +1135,13 @@ msgstr "Autres fichiers"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:641
 msgid "Other files may be embedded in the WAPT package. For example:"
-msgstr ""
-"D'autres fichiers peuvent être embarqués dans le paquet WAPT. Par exemple"
-" :"
+msgstr "D'autres fichiers peuvent être embarqués dans le paquet WAPT. Par exemple :"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:643
 msgid ""
-"an installer beside your :file:`setup.py` to be called in your "
-":program:`setup.py`;"
+"an installer beside your :file:`setup.py` to be called in your :program:`setup.py`;"
 msgstr ""
-"un installeur à côté du :file:`setup.py` à appeler dans votre "
-":program:`setup.py` ;"
+"un installeur à côté du :file:`setup.py` à appeler dans votre :program:`setup.py` ;"
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-create-packages/wapt-package-structure/index.rst:646
 msgid "an answer file to pass on to the software installer;"
