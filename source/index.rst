@@ -173,6 +173,7 @@ WAPT support and training
 
   wapt-glossary.rst
   wapt-roadmap.rst
+  wapt-software-best-practices.rst
   wapt-release-strategy.rst
   wapt-contribute/index.rst
   wapt-changelog.rst
