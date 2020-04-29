@@ -9,6 +9,8 @@
     :description: Updating automatically a software package
     :keywords: WAPT, documentation, automatic update
 
+.. _def_update:
+
 Updating automatically a software package
 =========================================
 

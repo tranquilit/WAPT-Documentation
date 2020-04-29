@@ -18,7 +18,7 @@ Applying best practices to packaging software
 
   `_benwa <https://www.reddit.com/user/_benwa/>`_ is a system administrator
   and he has authorized Tranquil IT to republish his excellent rant on reddit
-  `Developers, you can make sysadmins happier <https://www.reddit.com/r/sysadmin/comments/g6d5wx/developers_you_can_make_sysadmins_happier/>`_
+  `Developers, you can make sysadmins happier <https://www.reddit.com/r/sysadmin/comments/g6d5wx/developers_you_can_make_sysadmins_happier/>`_.
 
 Environnement variables
 -----------------------

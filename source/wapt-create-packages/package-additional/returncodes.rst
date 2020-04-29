@@ -27,7 +27,7 @@ You can find out how to use the ``accept_returncodes`` parameter by exploring
 this package code.
 
 .. code-block:: python
-  :emphasize-lines: 29
+  :emphasize-lines: 30
 
   # -*- coding: utf-8 -*-
   from setuphelpers import *
