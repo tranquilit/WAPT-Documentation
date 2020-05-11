@@ -35,52 +35,31 @@ pipeline {
             '''
         }
     }
-    stage('Parallel In Sequential') {
-        parallel {
-            stage('Make HTML EN'){
-                steps{
-                    sh '''
-                    make htmlen
-                    '''
-                }
-            }
-            stage('Make HTML FR'){
-                steps{
-                    sh '''
-                    make -e SPHINXOPTS="-D language='fr'" htmlfr
-                    '''
-                }
-            }
-            stage('Make EPUB EN'){
-                steps{
-                    sh '''
-                    make htmlen
-                    '''
-                }
-            }
-            stage('Make EPUB FR'){
-                steps{
-                    sh '''
-                    make -e SPHINXOPTS="-D language='fr'" htmlfr
-                    '''
-                }
-            }
-            stage('Make LatexPDF EN'){
-                steps{
-                    sh '''
-                    echo "make latexpdf EN"
-                    make latexpdf_en  || true
-                    '''
-                }
-            }
-            stage('Make LatexPDF FR'){
-                steps{
-                    sh '''
-                    echo "make latexpdf FR"
-                    make -e SPHINXOPTS="-D language='fr'" latexpdf_fr || true
-                    '''
-                }
-            }
+    stage('Make HTML'){
+        steps{
+            sh '''
+            make htmlen
+            make -e SPHINXOPTS="-D language='fr'" htmlfr
+            '''
+        }
+    }
+    stage('Make EPUB'){
+        steps{
+            sh '''
+            make epub_en
+            make -e SPHINXOPTS="-D language='fr'" epub_fr
+            '''
+        }
+    }
+    stage('Make LatexPDF'){
+        steps{
+            sh '''
+            echo "make latexpdf EN"
+            make latexpdf_en  || true
+
+            echo "make latexpdf FR"
+            make -e SPHINXOPTS="-D language='fr'" latexpdf_fr || true
+            '''
         }
     }
     stage('Copy static files'){
