@@ -12,6 +12,75 @@
 Changelog
 =========
 
+WAPT-1.8.2 RC1 (2020-05-18)
+---------------------------
+
+.. warning::
+   This is a Release Candidate version for testing and evaluation only and 
+   should not be installed on production system.
+
+This is mostly a bugfix release. Support for Linux client has greatly improved.
+
+Notable enhancement:
+
+* [IMP] improve support for WaptAgent on Linux (install agent + selfservice + waptexit + session-setup + messagebox user, OU handling, kerberos authentication, setuphelpers coverage)
+
+* [IMP] add new supported platform. Now WAPT for linux supports (both for server and agent) :
+
+    * Ubuntu 18.04  et 20.04
+
+    * Debian 8, 9 et 10
+
+    * Centos7 (CentOS 8 as a preview)
+
+* [IMP] streamlining of development environement for packaging on Linux
+
+* [FIX] better handling of websocket cleanup when a host is not properly registered. Should improve stability on large WAPT installation
+
+* [IMP] selfservice can now be configured for external authentication for desktop that are not in a AD Domain
+
+* [IMP] selfservice users can now authenticate on selfserver even when out of corporate network
+
+Other enhancements:
+
+* [IMP] remote repository: it is now possible to prevent a fallback
+
+* [FIX] better handling of icons in selfservice
+
+* [IMP] improve support for VSCode
+
+* [FIX] better handling of ipv6 in console and inventory
+
+* [IMP] wapt_admin_filter : local admin can be filtered out like normal user in selfservice
+
+* [IMP] add a larger support for setuphelpers on Mac
+
+* [FIX] waptserver logs are properly redirected to /var/log/waptserver.log
+
+* [FIX] package caching : package are deleted after each succesfull installation (rather than at the end of the whole upgrade) to better keep local disk space
+
+* [IMP] allow usage of url for changelog in control file
+
+* [IMP] better support for Windows Update download directly from Microsoft if WAPTServer is not reachable
+
+* [FIX] better handling of upgrade from waptcommunity to waptentreprise
+
+* [IMP] improve local store skin and translation
+
+* [FIX] bugfixes and minor gui improvements
+
+Libraries
+
+* [REF] lazarus : switch from Python4Lazarus to Python4Delphi
+
+* [REF] replacement of python-ldap with ldap3
+
+* [FIX] upgrade ujson on waptagent and waptserver on Linux
+
+Removed featured
+
+* autoconfiguration of repositories based on SRV DNS fields (it was not working anymore anyway)
+
 WAPT-1.8.1-6758 (2020-03-06)
 ----------------------------
 (hash bb93ce41)
