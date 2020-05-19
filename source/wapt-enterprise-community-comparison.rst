@@ -12,100 +12,122 @@
 .. |date| date::
 
 .. |ok| image:: ./ok.png
-  :scale: 12.5%
+  :scale: 10%
   :alt: feature available
 
 .. |nok| image:: ./nok.png
-  :scale: 12.5%
+  :scale: 10%
   :alt: feature not available
 
 .. |visa_secu| image:: ./visasecu_2017_logo-fr.png
-  :scale: 12.5%
+  :scale: 20%
   :alt: French Security Visa
 
-.. |apple| image:: ./apple.jpg
-  :scale: 12.5%
+.. |apple| image:: ./apple.png
+  :scale: 20%
   :alt: Apple logo
 
-.. |windows| image:: ./windows.jpg
-  :scale: 12.5%
+.. |windows| image:: ./windows.png
+  :scale: 20%
   :alt: Windows logo
 
 .. |linux_debian| image:: ./debian.png
-  :scale: 12.5%
-  :alt: Debian / Ubuntu logo
+  :scale: 20%
+  :alt: Debian logo
+
+.. |linux_ubuntu| image:: ./ubuntu.png
+  :scale: 20%
+  :alt: Ubuntu logo
 
 .. |linux_redhat| image:: ./redhat.png
-  :scale: 12.5%
+  :scale: 20%
   :alt: Red Hat / CentOS logo
+
+.. |linux_suse| image:: ./suse.png
+  :scale: 20%
+  :alt: Suse logo
 
 .. _community_enterprise_comparison:
 
 Comparing features between the WAPT Enterprise and Community versions
 =====================================================================
 
+Current feature list as of |date|
+---------------------------------
+
 .. list-table::
   :header-rows: 1
+  :widths: 80 10 10
 
-  * - Feature available as of |date|
-    - Community
+  * - Feature
     - Enterprise
-  * - Deploy, update and remove software
-      |windows| |linux_debian| |linux_redhat| |apple|
+    - Community
+  * - **Deploy, update and remove software** on hosts running
+      |windows| |linux_debian| |linux_ubuntu| |linux_redhat| |apple| |linux_suse|
     - |ok|
     - |ok|
-  * - Deploy and update configurations in SYSTEM context
+  * - Deploy and update **configurations in SYSTEM context**
     - |ok|
     - |ok|
-  * - Deploy and update configurations in USER context
+  * - Deploy and update **configurations in USER context**
     - |ok|
     - |ok|
-  * - Comprehensive Inventory of hardware, software and applied WAPT packages
+  * - Get a **comprehensive inventory** of hardware, software
+      and applied WAPT packages
     - |ok|
     - |ok|
-  * - Differenciated self-service (authorized users may install authrorized
-      software from authorized WAPT package stores)
-    - |ok|
-    - |nok|
-  * - Simplified Windows Updates that work much better than a standard WSUS
-      (only the required KBs are dowloaded from Microsoft)
+  * - Benefit from the **differenciated self-service** (authorized users
+      may install authorized software from authorized WAPT package stores)
     - |ok|
     - |nok|
-  * - Applying WAPT packages to an :abbr:'OU (Organisational Unit)'
+  * - Benefit from **simplified Windows Updates** that work much better
+      than a standard WSUS (only the required KBs are dowloaded from Microsoft)
     - |ok|
     - |nok|
-  * - Simple to configure and manage WAPT store relays to preserve bandwidth
+  * - Simplify and structure your administrative workload by applying
+      WAPT packages to an :abbr:`OU (Organisational Unit)`
+    - |ok|
+    - |nok|
+  * - Configure and manage easily WAPT **store relays to preserve bandwidth**
       in multi-site environments
     - |ok|
     - |nok|
-  * - Access to ready-to-deploy WAPT packages for common free-to-use software
+  * - Get access to **ready-to-deploy WAPT packages**
+      for common free-to-use software
     - |ok|
     - |ok|
-  * - Easily verifiable python recipes for installing, updating
+  * - Work with **easily verifiable python recipes** for installing, updating
       and removing software and configuration, recipes may embedd Powershell code
       or scripts made with other languages (ex: for personalizing a software
       using a LDAP directory)
     - |ok|
     - |ok|
-  * - Helpers for simplifying software packaging
+  * - Benefit from **hundreds of Helpers** for simplifying
+      your software packaging
     - |ok| [#f1]_
     - |ok|
-  * - Sensitive data may be encrypted for transport (software license keys,
+  * - **Encrypt your sensitive data** for transport (software license keys,
       login, password, server FQDN, API informations for registering software
       with the vendor, etc)
     - |ok|
     - |nok|
-  * - Configuration compliance may be audited over time
+  * - Automate the auditing of your configurations
+      for an **easy, automated and always up-to-date compliance**
     - |ok|
     - |nok|
-  * - Simple to use SQL reporting integrated with the WAPT console
+  * - Benefit from the power of SQL integrated with the WAPT console to make
+      **the reports that you need for your daily sysadmin work
+      or that your organisational requires for budgeting decisions**
     - |ok|
     - |nok|
-  * - WAPT Administrator authentication using an Active Directory or LDAP
+  * - Authenticate your WAPT Administrator against an **Active Directory
+      or LDAP**
     - |ok|
     - |nok| [#f2]_
-  * - Differenciated roles between software packagers and package deployers
-      (first know security implications, the second know user needs)
+  * - Benefit from differenciated roles between software packagers
+      and package deployers so you can **delegate your WAPT powers
+      to the most adequate people** (packagers know security implications,
+      deployers know user needs)
     - |ok|
     - |nok|
   * - Licensed under
@@ -118,16 +140,20 @@ Comparing features between the WAPT Enterprise and Community versions
     - |ok|
     - |nok|
 
+Features coming soon
+--------------------
+
 .. list-table::
   :header-rows: 1
+  :widths: 80 10 10
 
-  * - Feature coming soon
-    - Community
+  * - Features
     - Enterprise
-  * - Multi-tenant, multi-client mode with :abbr:'ACL (Access Control Lists)'
-      for :abbr:'MSPs (Managed Service Providers)' and large multi-departmental
+    - Community
+  * - Multi-tenant, multi-client mode with :abbr:`ACL (Access Control Lists)`
+      for :abbr:`MSPs (Managed Service Providers)` and large multi-departmental
       or international organisations using an internal
-      :abbr:'PKI (Public Key Infrastructure)' based mecanism
+      :abbr:`PKI (Public Key Infrastructure)` based mecanism
     - |ok|
     - |nok|
   * - Simple to use screensharing for user support, built with the same level
@@ -135,7 +161,7 @@ Comparing features between the WAPT Enterprise and Community versions
     - |ok|
     - |nok|
   * - History of actions done via WAPT for a complete reporting
-      of a host's software maintenance lifecycle
+      of a host`s software maintenance lifecycle
     - |ok|
     - |nok|
   * - Authentication of WAPT Administrators using
@@ -151,11 +177,15 @@ Comparing features between the WAPT Enterprise and Community versions
       for simplifying desktop armoring using Applocker or equivalent
     - |ok|
     - |nok|
+  * - **Continued support for Windows XP** in WAPT for factory machine tools,
+      Hospital medical equipment, expensive research instruments, etc
+    - |ok| [#f3]_
+    - |nok|
 
 Summary of operating principle in WAPT
 --------------------------------------
 
-* Agent based to allow no inbound open port in hosts' firewalls
+* WAPT is agent based to allow no inbound open port in hosts` firewalls
   that initiate a secured bi-directional websocket with the server
   for allowing real-time reporting and actions;
 
@@ -170,31 +200,43 @@ Summary of operating principle in WAPT
   is joined to an AD;
 
 * Methods for deploying WAPT agent:
-  * using a :abbr:'GPO (Group Policy Object)' or an Ansible script;
-  * manually after having downloaded the agent from the WAPT server
-    or using :abbr:'SSH (Secured Shell)';
+
+  #. using a :abbr:`GPO (Group Policy Object)` or an Ansible script;
+
+  #. manually after having downloaded the agent from the WAPT server or using :abbr:`SSH (Secured Shell)`;
 
 * Methods for registering hosts with the WAPT server
-  * automatically using the host's kerberos account;
-  * manually with the WAPT Superadmin login and password;
+
+  #. automatically using the host`s kerberos account;
+
+  #. manually with the WAPT Superadmin login and password;
 
 * Upgrades may be triggered:
-  * upon shutdown of the host, the standard mode;
-  * by an authorized WAPT Administrator in an emergency;
-    (ex: critical vulnerabilities running in the wild);
-  * by the user at a time she chooses (ex: 24/7 nursing cart unused;
-    during lunch break with a simple click);
-  * via a scheduled task running at a predetermined time (best for servers);
 
-* Security is insured with:
-  * signing of WAPT packages using asymetric cryptography
-  * authentication of hosts against the WAPT server using symetric cryptography on registering
-  * confidentiality of the WAPT server using WAPT deployed client certificates
+  #. upon shutdown of the host, the standard mode;
+
+  #. by an authorized WAPT Administrator in an emergency (ex: critical vulnerabilities running in the wild);
+
+  #. by the user at a time she chooses (ex: 24/7 nursing cart unused during lunch break with a simple click);
+
+  #. via a scheduled task running at a predetermined time (best for servers);
+
+- Security is insured with:
+  #. signing of WAPT packages using asymetric cryptography;
+
+  #. authentication of hosts against the WAPT server using symetric cryptography on registering;
+
+  #. confidentiality of the WAPT server using WAPT deployed client certificates;
 
 .. rubric:: Footnotes
 
-.. [#f1] The Enterprise version embedds more SetupHelper functions
+.. [#f1] The Enterprise version embeds more SetupHelper functions
   than the Community version.
 
 .. [#f2] In the Community version, the WAPT SuperAdmin password is shared
   between individuals that manage the WAPT server.
+
+.. [#f3] Windows XP does not work with Pyhton > 2.7. So a special branch of WAPT
+  will be frozen with the last build of the WAPT agent running with 2.7.
+  This version will of course be excluded from the target of evaluation
+  in future security certifications.

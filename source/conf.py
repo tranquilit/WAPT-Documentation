@@ -135,6 +135,7 @@ try:
         'css_files': [
             '_static/css/custom.css',  # overrides for wide tables in RTD theme
             '_static/css/ribbon.css',
+        '_static/theme_overrides.css',  # override wide tables in RTD theme
         ],
     }
 except ImportError as e:

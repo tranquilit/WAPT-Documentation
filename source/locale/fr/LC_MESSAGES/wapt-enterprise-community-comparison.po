@@ -1,0 +1,463 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, Tranquil IT
+# This file is distributed under the same license as the WAPT package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WAPT 1.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-19 16:47+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:8
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:53
+msgid "Comparing features between the WAPT Enterprise and Community versions"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:8
+msgid "WAPT, Enterprise, Community, summary, compare"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:56
+msgid "Current feature list as of |date|"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:62
+msgid "Feature"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:63
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:151
+msgid "Enterprise"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:64
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:152
+msgid "Community"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:65
+msgid ""
+"**Deploy, update and remove software** on hosts running |windows| "
+"|linux_debian| |linux_ubuntu| |linux_redhat| |apple| |linux_suse|"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:67
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:68
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:70
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:71
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:73
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:74
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:77
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:78
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:81
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:85
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:89
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:93
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:97
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:98
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:103
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:104
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:108
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:112
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:116
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:121
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:125
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:131
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:137
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:140
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:157
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:161
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:165
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:169
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:174
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:178
+msgid "|ok|"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:69
+msgid "Deploy and update **configurations in SYSTEM context**"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:72
+msgid "Deploy and update **configurations in USER context**"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:75
+msgid ""
+"Get a **comprehensive inventory** of hardware, software and applied WAPT "
+"packages"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:79
+msgid ""
+"Benefit from the **differenciated self-service** (authorized users may "
+"install authorized software from authorized WAPT package stores)"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:82
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:86
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:90
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:94
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:113
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:117
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:122
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:132
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:138
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:141
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:158
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:162
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:166
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:170
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:175
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:179
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:183
+msgid "|nok|"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:83
+msgid ""
+"Benefit from **simplified Windows Updates** that work much better than a "
+"standard WSUS (only the required KBs are dowloaded from Microsoft)"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:87
+msgid ""
+"Simplify and structure your administrative workload by applying WAPT "
+"packages to an :abbr:`OU (Organisational Unit)`"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:91
+msgid ""
+"Configure and manage easily WAPT **store relays to preserve bandwidth** "
+"in multi-site environments"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:95
+msgid ""
+"Get access to **ready-to-deploy WAPT packages** for common free-to-use "
+"software"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:99
+msgid ""
+"Work with **easily verifiable python recipes** for installing, updating "
+"and removing software and configuration, recipes may embedd Powershell "
+"code or scripts made with other languages (ex: for personalizing a "
+"software using a LDAP directory)"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:105
+msgid ""
+"Benefit from **hundreds of Helpers** for simplifying your software "
+"packaging"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:107
+msgid "|ok| [#f1]_"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:109
+msgid ""
+"**Encrypt your sensitive data** for transport (software license keys, "
+"login, password, server FQDN, API informations for registering software "
+"with the vendor, etc)"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:114
+msgid ""
+"Automate the auditing of your configurations for an **easy, automated and"
+" always up-to-date compliance**"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:118
+msgid ""
+"Benefit from the power of SQL integrated with the WAPT console to make "
+"**the reports that you need for your daily sysadmin work or that your "
+"organisational requires for budgeting decisions**"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:123
+msgid ""
+"Authenticate your WAPT Administrator against an **Active Directory or "
+"LDAP**"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:126
+msgid "|nok| [#f2]_"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:127
+msgid ""
+"Benefit from differenciated roles between software packagers and package "
+"deployers so you can **delegate your WAPT powers to the most adequate "
+"people** (packagers know security implications, deployers know user "
+"needs)"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:133
+msgid "Licensed under"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:134
+msgid "GPLv3"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:135
+msgid "Proprietary"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:136
+msgid "Verified and approved by national cybersecurity agency |visa_secu|"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:139
+msgid "Professional phone support with Tranquil IT"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:144
+msgid "Features coming soon"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:150
+msgid "Features"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:153
+msgid ""
+"Multi-tenant, multi-client mode with :abbr:`ACL (Access Control Lists)` "
+"for :abbr:`MSPs (Managed Service Providers)` and large multi-departmental"
+" or international organisations using an internal :abbr:`PKI (Public Key "
+"Infrastructure)` based mecanism"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:159
+msgid ""
+"Simple to use screensharing for user support, built with the same level "
+"of security and privacy as WAPT"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:163
+msgid ""
+"History of actions done via WAPT for a complete reporting of a host`s "
+"software maintenance lifecycle"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:167
+msgid ""
+"Authentication of WAPT Administrators using cryptographic tokens (ex: "
+"smartcards)"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:171
+msgid ""
+"Access to ready-to-deploy WAPT packages or recipes for licensed business "
+"software (common business software for industry, medical, office, public "
+"collectivities, cybersecurity, etc)"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:176
+msgid ""
+"Access to ready-to-deploy WAPT package extensions for simplifying desktop"
+" armoring using Applocker or equivalent"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:180
+msgid ""
+"**Continued support for Windows XP** in WAPT for factory machine tools, "
+"Hospital medical equipment, expensive research instruments, etc"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:182
+msgid "|ok| [#f3]_"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:186
+msgid "Summary of operating principle in WAPT"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:188
+msgid ""
+"WAPT is agent based to allow no inbound open port in hosts` firewalls "
+"that initiate a secured bi-directional websocket with the server for "
+"allowing real-time reporting and actions;"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:192
+msgid "Can work with Trusted Data Gateways using simple task scheduling;"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:194
+msgid ""
+"Works on the principle of smoothly pulling updates and then applying "
+"upgrades at convenient time (works with low / intermittent bandwidth, "
+"high latency, high jitter);"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:198
+msgid ""
+"Does not require an AD (works with Windows Home edition too), but will "
+"show the host in its Active Directory tree if the host is joined to an "
+"AD;"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:202
+msgid "Methods for deploying WAPT agent:"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:204
+msgid "using a :abbr:`GPO (Group Policy Object)` or an Ansible script;"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:206
+msgid ""
+"manually after having downloaded the agent from the WAPT server or using "
+":abbr:`SSH (Secured Shell)`;"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:208
+msgid "Methods for registering hosts with the WAPT server"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:210
+msgid "automatically using the host`s kerberos account;"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:212
+msgid "manually with the WAPT Superadmin login and password;"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:214
+msgid "Upgrades may be triggered:"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:216
+msgid "upon shutdown of the host, the standard mode;"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:218
+msgid ""
+"by an authorized WAPT Administrator in an emergency (ex: critical "
+"vulnerabilities running in the wild);"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:220
+msgid ""
+"by the user at a time she chooses (ex: 24/7 nursing cart unused during "
+"lunch break with a simple click);"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:222
+msgid "via a scheduled task running at a predetermined time (best for servers);"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:224
+msgid ""
+"Security is insured with: #. signing of WAPT packages using asymetric "
+"cryptography;"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:227
+msgid ""
+"authentication of hosts against the WAPT server using symetric "
+"cryptography on registering;"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:229
+msgid ""
+"confidentiality of the WAPT server using WAPT deployed client "
+"certificates;"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:232
+msgid "Footnotes"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:233
+msgid ""
+"The Enterprise version embeds more SetupHelper functions than the "
+"Community version."
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:236
+msgid ""
+"In the Community version, the WAPT SuperAdmin password is shared between "
+"individuals that manage the WAPT server."
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:239
+msgid ""
+"Windows XP does not work with Pyhton > 2.7. So a special branch of WAPT "
+"will be frozen with the last build of the WAPT agent running with 2.7. "
+"This version will of course be excluded from the target of evaluation in "
+"future security certifications."
+msgstr ""
+
+#~ msgid ""
+#~ msgstr ""
+
+#~ msgid "or using :abbr:`SSH (Secured Shell)`;"
+#~ msgstr ""
+
+#~ msgid "(ex: critical vulnerabilities running in the wild);"
+#~ msgstr ""
+
+#~ msgid "using symetric cryptography on registering"
+#~ msgstr ""
+
+#~ msgid "Deploy and update configurations in SYSTEM context"
+#~ msgstr ""
+
+#~ msgid "Deploy and update configurations in USER context"
+#~ msgstr ""
+
+#~ msgid "Comprehensive Inventory of hardware, software and applied WAPT packages"
+#~ msgstr ""
+
+#~ msgid "Applying WAPT packages to an :abbr:`OU (Organisational Unit)`"
+#~ msgstr ""
+
+#~ msgid "Access to ready-to-deploy WAPT packages for common free-to-use software"
+#~ msgstr ""
+
+#~ msgid "Helpers for simplifying software packaging"
+#~ msgstr ""
+
+#~ msgid "Configuration compliance may be audited over time"
+#~ msgstr ""
+
+#~ msgid "Simple to use SQL reporting integrated with the WAPT console"
+#~ msgstr ""
+
+#~ msgid "WAPT Administrator authentication using an Active Directory or LDAP"
+#~ msgstr ""
+
+#~ msgid "by an authorized WAPT Administrator in an emergency"
+#~ msgstr ""
+
+#~ msgid "by the user at a time she chooses (ex: 24/7 nursing cart unused"
+#~ msgstr ""
+
+#~ msgid "during lunch break with a simple click);"
+#~ msgstr ""
+
+#~ msgid "authentication of hosts against the WAPT server"
+#~ msgstr ""
+
+#~ msgid "using symetric cryptography on registering;"
+#~ msgstr ""
+
+#~ msgid "Feature available as of |date|"
+#~ msgstr ""
+
+#~ msgid "Feature coming soon"
+#~ msgstr ""
+
