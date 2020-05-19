@@ -26,7 +26,6 @@ Environnement variables
 * Environmental variables `have been around since DOS <https://en.wikipedia.org/wiki/Environment_variable#DOS>`_.
   They can make your (and my) life easier.
 
-
 Program directories
 -------------------
 
@@ -82,38 +81,44 @@ Program directories
 
 .. note::
 
+  More and more of you software editors offer *portable* versions
+  of your software that will install in and run from ``%AppData%``
+  or ``%LocalAppData%``. Your aim is to let users install software
+  even though they are not Local Administrators and you market that as a feature,
+  although it is more of a security NOGO. Even worse, you tend to make it
+  difficult to find the proprer :mimetype:`MSI` that would allow
+  your customers to correctly install your software in ``%ProgramFiles%``.
+  Please, make it easy to find your :mimetype:`MSI` that will install
+  in ``%ProgramFiles%``, this way you'll make your customer AppLock
+  and Software Restriction Policies work well and their sysadmins happy.
+
   You can get these directory paths through `API calls <https://docs.microsoft.com/en-us/windows/win32/shell/known-folders>`_
   as well if you don't/can't use environmental variables.
 
-
 Logs
--------------------
+----
 
 * Use the `Windows Event Log <https://docs.microsoft.com/en-us/windows/win32/eventlog/event-logging>`_ for logging.
   It'll handle the rotation for you and a sysadmin can forward those logs
   or do whatever they need to. You can even make your own little area
   just for your program.
 
-
 Error codes
--------------------
+-----------
 
 * Use `documented Error Codes <https://docs.microsoft.com/en-us/windows/win32/debug/system-error-codes>`_
   when exiting your program.
 
-
 Printing
--------------------
+--------
 
 * Use the `Windows printing API <https://docs.microsoft.com/en-us/windows/win32/printdocs/printdocs-printing>`_
   and do not use direct printing in your program.
 
-
 Distribution
--------------------
+------------
 
-* Distribute your program in `MSI <https://docs.microsoft.com/en-us/windows/win32/msi/installer-function-reference>`_
-  (or now probably `MSIX <https://docs.microsoft.com/en-us/windows/msix/overview>`_).
+* Distribute your program in `MSI <https://docs.microsoft.com/en-us/windows/win32/msi/installer-function-reference>`_.
   It is the standard for Windows installation files (even though Microsoft
   sometimes doesn't use it themselves).
 
@@ -124,13 +129,11 @@ Distribution
 .. note::
 
   Applocker and `Software Restriction Policies <https://dev.tranquil.it/samba/en/samba_config_client/client_SRP.html>`_
-  can be very effective and the management of these policies can be made simpler
-  with WAPT.
-
-
+  can be very effective and the **management of these policies
+  can be made simpler with WAPT**.
 
 Update
--------------------
+------
 
 * Want to have your application update for you? That can be fine if the business
   is okay with it. You can create a scheduled task or service that runs elevated
@@ -146,7 +149,7 @@ Update
   which is the policy often chosen in large security conscious enterprises.
 
 Version numbers
--------------------
+---------------
 
 * Use `semantic versioning <https://semver.org/>`_ (should go in the version property
   in the installer file and in the Add/Remove Programs list, not in the application title)
@@ -160,9 +163,8 @@ Version numbers
   who deploy your software updates using the
   :ref:`WAPT function def_update() <envdev_setup>` **very happy**!!
 
-
 GPO
--------------------
+---
 
 * ADMX templates are dope;
 
@@ -180,9 +182,8 @@ GPO
   so your WAPT package will behave in production exactly as a GPO would,
   **just much easier**.
 
-
 License dongles
--------------------
+---------------
 
 * USB license dongles are a sin. Use a regular software or network license.
   I'm sure there are off the shelf ones so you don't have to reinvent the wheel;
@@ -200,13 +201,11 @@ License dongles
   of the licence, make the routine work with
   :ref:`proxies <proper_use_of_proxy_in_software>`.
 
-
 Networking
--------------------
+----------
 
 * Don't use that damn custom IPv4 input field. Use FDQNs. IPv6 had been around
   since 1998 and will work with your software if you just give it a chance;
-
 
 * The Windows Firewall (can't really say much about third party ones)
   is going to stay on. Know the difference between an incoming and outgoing rule.
@@ -226,9 +225,8 @@ Networking
   just for you. It is easy to code your software to work with proxies,
   so please do!
 
-
 PDFs
--------------------
+----
 
 * Don't ship a software that requires allowing javascript to run in PDF readers.
   Business logic should be run before outputting to a PDF, not after.
