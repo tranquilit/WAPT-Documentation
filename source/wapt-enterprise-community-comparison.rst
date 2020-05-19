@@ -133,11 +133,13 @@ Current feature list as of |date|
   * - Licensed under
     - GPLv3
     - Proprietary
-  * - Verified and approved by national cybersecurity agency |visa_secu|
+  * - Verified and approved by national cybersecurity agency |visa_secu|,
+      **WAPT is the only deployment software in the world with this level
+      of certification**
     - |ok|
     - |nok|
   * - Professional phone support with Tranquil IT
-    - |ok|
+    - |ok| [#f3]_
     - |nok|
 
 Features coming soon
@@ -147,7 +149,7 @@ Features coming soon
   :header-rows: 1
   :widths: 80 10 10
 
-  * - Features
+  * - Feature
     - Enterprise
     - Community
   * - Multi-tenant, multi-client mode with :abbr:`ACL (Access Control Lists)`
@@ -179,7 +181,7 @@ Features coming soon
     - |nok|
   * - **Continued support for Windows XP** in WAPT for factory machine tools,
       Hospital medical equipment, expensive research instruments, etc
-    - |ok| [#f3]_
+    - |ok| [#f4]_
     - |nok|
   * - Operating system image deployment tool integrated within WAPT
     - |ok|
@@ -190,8 +192,8 @@ Features coming soon
     - |ok|
     - |nok|
 
-Summary of operating principle in WAPT
---------------------------------------
+Summary of operating principles in WAPT
+---------------------------------------
 
 * WAPT is agent based to allow no inbound open port in hosts` firewalls
   that initiate a secured bi-directional websocket with the server
@@ -213,7 +215,7 @@ Summary of operating principle in WAPT
 
   #. manually after having downloaded the agent from the WAPT server or using :abbr:`SSH (Secured Shell)`;
 
-* Methods for registering hosts with the WAPT server
+* Methods for registering hosts with the WAPT server:
 
   #. automatically using the host`s kerberos account;
 
@@ -230,6 +232,7 @@ Summary of operating principle in WAPT
   #. via a scheduled task running at a predetermined time (best for servers);
 
 - Security is insured with:
+
   #. signing of WAPT packages using asymetric cryptography;
 
   #. authentication of hosts against the WAPT server using symetric cryptography on registering;
@@ -244,7 +247,11 @@ Summary of operating principle in WAPT
 .. [#f2] In the Community version, the WAPT SuperAdmin password is shared
   between individuals that manage the WAPT server.
 
-.. [#f3] Windows XP does not work with Pyhton > 2.7. So a special branch of WAPT
+.. [#f3] A minimal volume of licences must be subscribed in order to benefit
+  from Tranquil IT's telephone support for the daily operation of the software.
+  Additional paid support is available to help you with your WAPT packaging needs.
+
+.. [#f4] Windows XP does not work with Python > 2.7. So a special branch of WAPT
   will be frozen with the last build of the WAPT agent running with 2.7.
-  This version will of course be excluded from the target of evaluation
-  in future security certifications.
+  This version of the agent will of course be excluded from the target
+  of evaluation in future security certifications.
