@@ -66,6 +66,11 @@ Current feature list as of |date|
       |windows| |linux_debian| |linux_ubuntu| |linux_redhat| |apple| |linux_suse|
     - |ok|
     - |ok|
+  * - The repository is hosted on infrastructure under your control
+      and not under the control of a large MegaCorp, Inc. that will prioritize
+      its own interests over yours
+    - |ok|
+    - |ok|
   * - Deploy and update **configurations in SYSTEM context**
     - |ok|
     - |ok|
