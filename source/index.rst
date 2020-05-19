@@ -172,7 +172,7 @@ WAPT support and training
   :caption: Appendix
 
   wapt-glossary.rst
-  wapt-roadmap.rst
+  wapt-history.rst
   wapt-software-best-practices.rst
   wapt-release-strategy.rst
   wapt-contribute/index.rst

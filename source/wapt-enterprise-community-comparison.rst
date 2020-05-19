@@ -181,6 +181,14 @@ Features coming soon
       Hospital medical equipment, expensive research instruments, etc
     - |ok| [#f3]_
     - |nok|
+  * - Operating system image deployment tool integrated within WAPT
+    - |ok|
+    - |nok|
+  * - Integration of useful subset of WAPT inventory
+      with popular :abbr:`ITSM (IT Service Management)` tools
+      and triggering of actions from the users ITSM console
+    - |ok|
+    - |nok|
 
 Summary of operating principle in WAPT
 --------------------------------------

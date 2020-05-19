@@ -5,11 +5,14 @@
    Niveau 4: """"""""""""""""""""
    Niveau 5: ^^^^^^^^^^^^^^^^^^^^
 
+.. meta::
+  :description: History of WAPT
+  :keywords: Documentation, WAPT, history
 
-.. _wapt_roadmap:
+.. _wapt_history:
 
-History and roadmap
-===================
+History of WAPT
+===============
 
 WAPT 0.8 Community (novembre 2013)
 ----------------------------------
@@ -156,28 +159,3 @@ WAPT 1.8
 * built-in WAPT packages repository replication;
 
 * built-in repository selection rules;
-
-
-Later
------
-
-* creation of the :abbr:`GPO (Group Policy Object)`
-  for deploying the WAPT agent directly from the WAPT console (**Enterprise**);
-
-* signature of packages and actions, and token based authentication
-  on the WAPT console (**Enterprise**);
-
-* integration of inventory in GLPI and other asset management
-  tools (**Community** and **Enterprise**);
-
-* asset management from the WAPT console (**Enterprise**);
-
-* kerberos based SSO authentication of the :term:`Users`
-  on the :program:`webservice` (**Enterprise**);
-
-* creation of *stub* packages to avoid licensing problems
-  for some proprietary software. The :term:`Package Developer` would download
-  the package from a trusted public repository, then he would download
-  the software binaries from the editor's website to obtain a complete package.
-  This will facilitate the creation of packages embedding software
-  with restricted distribution rights (**Enterprise**);
