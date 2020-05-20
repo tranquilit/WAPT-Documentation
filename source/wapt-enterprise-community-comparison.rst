@@ -136,8 +136,8 @@ Current feature list as of |date|
     - |ok|
     - |nok|
   * - Licensed under
-    - GPLv3
     - Proprietary
+    - GPLv3
   * - Verified and approved by national cybersecurity agency |visa_secu|,
       **WAPT is the only deployment software in the world with this level
       of certification**
