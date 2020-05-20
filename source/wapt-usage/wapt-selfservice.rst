@@ -81,7 +81,7 @@ You can now create your first *selfservice* rule package.
 .. note::
 
   * If a group appears in multiple *selfservice* packages, then the rules are merged.
-  * Active Directory security groups are meant to be used, but it also works with local security groups for Workgroup/out-of-domain hosts.
+  * The authentication used is system authentication, local users and groups, but if the machine is in a domain then authentication and groups will also work with users and groups in the domain.
 
 
 How to use the self-service on the user station?
@@ -159,6 +159,31 @@ WAPT Agent Settings for WAPT Self-Service
 -----------------------------------------
 
 WAPT Agent can be configured to force WAPT SelfService packages filtering to local admins :ref:`waptself_ini_file`.
+
+Configure a different authentication for the selfservice
+----------------------------------------------------------------------------------
+
+As mentioned above, authentication on wapt service is configured by default in system mode.
+
+This means that the wapt service transmits the authentication directly to the operating system, it also recovers the groups by directly interrogating the operating system
+
+This behavior is defined with the value of "service_auth_type" in wapt-get.ini. The default value is system
+
+In this mode we assume that local administrators can see all the packages.  To modify this behavior modify the value of "waptservice_admin_filter" in wapt-get.ini See here :ref:`waptself_ini_file`.
+
+Two additional modes are available (since version 1.8.2) :
+
+* waptserver-ldap, This mode allows authentication to the wapt server. The wapt server will make an ldap request to verify authentication and groups.
+  Warning ! For this to work, you must have configured LDAP authentication on the Wapt server, (the configuration of the admin group will be ignored)
+  See here :ref:`_configure_ad_auth`
+  
+* waptagent-ldap, This mode allows authentication with an ldap server identified in wapt-get.ini. The wapt agent will make an LDAP request to verify authentication and groups. 
+  See here :ref:`waptself_ini_file`.
+  
+.. note::
+
+   For the system authentication under linux to work correctly, be sure to correctly configure your pam authentication and your nsswitch.conf   
+   The "id username" command must return the list of user groups
 
 
 Video demonstration

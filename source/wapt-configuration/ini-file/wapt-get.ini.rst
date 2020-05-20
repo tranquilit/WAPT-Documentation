@@ -62,11 +62,6 @@ Options                                                           Description
 
 ``waptupgrade_task_period`` = 360                                 Upgrade frequency (disabled by default)
 
-``waptservice_user`` = admin                                      Identifier used by the WAPT service when executing actions.
-
-``waptservice_password`` = 5e884898da                             sha256 hashed password when the WAPT service is used locally from
-                                                                  a command prompt (NOPASSWORD disables the requirement for a password)
-
 ``waptservice_port`` = 8088                                       WAPT agent loopback port. It is not accessible from the network.
 
 ``dbdir`` = :file:`C:\\Program Files(x86)\\wapt\\db`              Folder where the database :file:`waptdb.sqlite` file will be stored.
@@ -89,6 +84,11 @@ Options                                                           Description
 ``language`` = en                                                 Force default langauge for GUI (not for package filtering)
 
 ``host_organizational_unit_dn`` = OU=TOTO,OU=TEST,DC=DEMO,DC=LAN  Allows you to force an Organizational Unit on the WAPT agent. (Convenient to assign a fake OU for out-of-domain PC)
+
+``download_after_update_with_waptupdate_task_period`` = True      Define whether a download of pending packages should be started after an update with waptupdate_task_period   
+
+``log_to_windows_events`` = False                                 Send the log wapt in the window events
+
 
 ================================================================= ==============================================================================================================================================
 
@@ -190,14 +190,21 @@ Options                          Description
 
 .. _waptself_ini_file:
 
-Settings for WAPT Self-Service
-------------------------------
+Settings for WAPT Self-Service and Waptservice Authentification
+-------------------------------------------------------------------
 
-===================================== ====================================================================
-Options                               Description
-===================================== ====================================================================
-``waptservice_admin_filter`` = True   Apply Self-Service package view filtering for local admins
-===================================== ====================================================================
+============================================================== ============================================================================================================================================================================================================
+Options                                                        Description
+============================================================== ============================================================================================================================================================================================================
+``waptservice_admin_filter`` = True                            Apply Self-Service package view filtering for local admins
+``service_auth_type`` = system                                 Defines the authentication system of the wapt service, Available value: system, waptserver-ldap, waptagent-ldap
+``ldap_auth_ssl_enabled`` = False                              Useful with waptagent-ldap, Defines if the ldap request must be encrypted
+``verify_cert_ldap`` = True                                    Useful with waptagent-ldap, Define if the certificate should be verified
+``ldap_auth_base_dn`` = dc=domain,dc=lan                       Useful with waptagent-ldap, defines the base dn for the ldap request
+``ldap_auth_server`` = srvads.domain.lan                       Useful with waptagent-ldap, defines the ldap server to contact
+``waptservice_user`` = admin                                   Force a user for authentication on the wapt service
+``waptservice_password`` = 5e884898da                          sha256 hashed password when waptservice_user is used (NOPASSWORD disables the requirement for a password)
+============================================================== ============================================================================================================================================================================================================
 
 
 Settings for wapttray

@@ -98,6 +98,8 @@ Options                                                                     Desc
 ``wapt_user`` = admin                                                       Defines the :term:`SuperAdmin` username in the WAPT console.
 ``waptwua_folder`` = /var/www/waptwua                                       Location of WAPT WUA folder
 ``wol_port`` = 9,123,4000                                                   List of WakeOnLAN UDP ports to send magic packets to
+``wapt_bind_interface`` =  127.0.0.1                                        Define how to listen to the waptserver service
+``enable_store`` = False                                                    Defined if the store is activated https://srvwapt.mydomain.lan/
 =========================================================================== ==================================================================================================================================================
 
 .. _config_nginx:
