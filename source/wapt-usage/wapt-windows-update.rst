@@ -90,6 +90,55 @@ on the ``repo_url`` parameter in :file:`wapt-get.ini`:
    then be sure to :ref:`set the proxy server
    in the waptserver.ini file <waptserver_configuration>`.
 
+Difference between WAPT Windows Updates and WSUS
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+WSUS downloads all the updates for selected categories. This can lead to very large update database
+
+WAPT Windows Update only downloads updates that have been asked by at least one computer client. This
+helps to keep the local database small (a few 10s of Gigabytes) and it can be easily cleaned up 
+if you want to recover space.
+
+Major OS upgrades
++++++++++++++++++
+
+Major OS upgrade are upgrade from one OS version to another. That includes, for example, upgrades
+from Windows 7 to Windows 10, or from Windows 10 1803 to Windows 10 1903.
+
+Major upgrade version are not handled in the same way as minor OS upgrades. Major upgrade are handled 
+throught the download of the new install ISO content (same content as for a fresh install) and 
+running setup.exe with the correct parameters. This process is the same for WSUS, SCCM and WAPT Windows Updates.
+
+In the case of WAPT Windows Updates, you need to create a OS update package using a template package
+provided on https://store.wapt.fr .
+
+Drivers upgrades
+++++++++++++++++
+
+Drivers upgrades throught WSUS are not recommanded since it is hard to properly handle side effects. In the
+case of WAPT Windows Updates, drivers are not downloaded since they are not referenced in the wsusscn2.cab 
+files provided by Microsoft.
+
+It is recommanded to push drivers updated through a custom package. If the fix is packaged as a msu file you
+just need to launch the package wizard, select your msu file and click create package.
+
+If the driver update is package as a zip containing the exe file, you can create a WAPT package containing the
+necessary files and setup.exe binary with the correct silent flag.
+
+Out of band KB
+++++++++++++++
+
+Microsoft does sometime provides OOB (Out of Band) updates that are not contained in the wsusscn2.cab index.
+Those updates are not included in the main update because they may fix a very specific problem or may have
+drawbacks in some situation.
+
+If you want to deploy a OOB KB updates, you can download it from microsoft catalog https://www.catalog.update.microsoft.com/Home.aspx
+and then package the MSU with the package wizard. 
+
+You have to be carefull that OOB updates may break your system, be sure to read the prerequisite on the 
+Microsoft bulletin corresponding to the update.
+
+
 .. _wapt_wua_agent:
 
 Configuring WAPTWUA on the WAPT agent
