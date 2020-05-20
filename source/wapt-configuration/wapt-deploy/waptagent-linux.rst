@@ -206,6 +206,11 @@ And give absolute path of your cert.
 Registering your Linux agent
 ++++++++++++++++++++++++++++
 
+.. attention::
+
+   * beware, by default, wapt takes the system language by default for packages, you may have to reset the language in wapt-get.ini 
+   locales=fr  
+
 * restart the WAPT service:
 
   .. code-block:: bash
@@ -222,3 +227,33 @@ Registering your Linux agent
 
 Your Linux Agent is now installed and configured
 and it will now appear in your WAPT Console with a penguin icon!!
+
+
+Feature supported
+++++++++++++++++++++++++++++++++++++
+
+
+Most features are now supported in version 1.8.2 of wapt
+
+Unsupported
+""""""""""""""""""""""""""
+
+* Installation of updates when shutdown (Work in progress)
+* Wapt console is not currently available on linux (Work in progress)
+* All features directly related to "Windows"
+
+Particularities with domain functionality
+""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+Our tests were carried out with sssd with domain active directory (authentification kerberos).  
+
+To integrate a Linux machine in the Active Directory domain, you can follow this documentation: https://dev.tranquil.it/samba/en/samba_config_client/client_join_clients_linux.html
+
+To force the update of organisational unit of the computer, you can request a gpupdate from the wapt console on the Linux computer.
+
+In order for ad groups to function properly you must verify that the "id hostname$" command returns the groups list of the machine.
+
+.. attention::
+
+   We have noticed that the Kerberos LDAP query does not work if the reverse DNS record is not configured correctly for your domain controllers. These records must therefore be created if it does not exist.
+   

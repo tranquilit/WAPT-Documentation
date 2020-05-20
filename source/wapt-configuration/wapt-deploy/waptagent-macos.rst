@@ -115,6 +115,11 @@ And give absolute path of your cert.
 Registering your MacOS agent
 ++++++++++++++++++++++++++++
 
+.. attention::
+
+   * beware, by default, wapt takes the system language by default for packages, you may have to reset the language in wapt-get.ini 
+   locales=fr  
+
 * restart the WAPT service:
 
   .. code-block:: bash
@@ -131,3 +136,31 @@ Registering your MacOS agent
 
 Your MacOS Agent is now installed and configured
 and it will now appear in your WAPT Console with a MacOS icon.
+
+
+
+
+Feature supported
+++++++++++++++++++++++++++++++++++++
+
+Most features are now supported in version 1.8.2 of wapt
+
+Unsupported
+""""""""""""""""""""""""""
+
+* Installation of updates when shutdown (Work in progress)
+* Wapt console is not currently available on linux (Work in progress)
+* All features directly related to "Windows"
+
+Particularities with domain functionality
+""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+Our tests were carried out with an Active directory.
+
+To force the update of organisational unit of the computer, you can request a gpupdate from the wapt console on the Linux computer.
+
+.. attention::
+
+   * We have noticed that the Kerberos LDAP query does not work if the reverse DNS record is not configured correctly for your domain controllers. These records must therefore be created if it does not exist.
+
+  
