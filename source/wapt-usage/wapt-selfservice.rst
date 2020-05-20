@@ -175,7 +175,7 @@ Two additional modes are available (since version 1.8.2) :
 
 * waptserver-ldap, This mode allows authentication to the wapt server. The wapt server will make an ldap request to verify authentication and groups.
   Warning ! For this to work, you must have configured LDAP authentication on the Wapt server, (the configuration of the admin group will be ignored)
-  See here :ref:`_configure_ad_auth`
+  See here :ref:`configure_ad_auth`
   
 * waptagent-ldap, This mode allows authentication with an ldap server identified in wapt-get.ini. The wapt agent will make an LDAP request to verify authentication and groups. 
   See here :ref:`waptself_ini_file`.
