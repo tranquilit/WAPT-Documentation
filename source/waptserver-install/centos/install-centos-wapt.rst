@@ -147,7 +147,8 @@ Post-configuring
   * choice #1 allows to register computers without authentication
     (same method as WAPT 1.3). The WAPT server registers all computers that ask;
 
-  * Choice #2 activates the initial registration based on Kerberos. (you can activate it later);
+  * choice #2 activates the initial registration based on Kerberos.
+    (you can activate it later);
 
   * choice #3 does not activate the kerberos authentication mechanism for the
     initial registering of machines equipped with WAPT. The WAPT server will

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-21 17:26+0200\n"
+"POT-Creation-Date: 2020-05-21 20:27+0200\n"
 "PO-Revision-Date: 2020-04-28 12:47+0200\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
@@ -114,10 +114,6 @@ msgstr ""
 msgid "RAM and CPU recommendations are:"
 msgstr "Les préconisation RAM et CPU pour le serveur WAPT sont :"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/index.rst:61
-msgid "3 column table"
-msgstr ""
-
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/index.rst:65
 msgid "Size of the network"
 msgstr "Taille de parc"
@@ -199,5 +195,8 @@ msgid "Installing WAPT Server with Ansible"
 msgstr "Installer le serveur WAPT avec Ansible"
 
 #~ msgid ""
+#~ msgstr ""
+
+#~ msgid "3 column table"
 #~ msgstr ""
 

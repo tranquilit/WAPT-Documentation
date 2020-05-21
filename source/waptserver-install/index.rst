@@ -58,7 +58,7 @@ server or a physical server.
 
 RAM and CPU recommendations are:
 
-.. list-table:: 3 column table
+.. list-table::
   :header-rows: 1
   :widths: 25 25 50
 

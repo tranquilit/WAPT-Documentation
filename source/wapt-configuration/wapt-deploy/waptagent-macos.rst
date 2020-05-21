@@ -161,7 +161,7 @@ Unsupported features
 
 * WAPT console is not currently available on linux |work_in_progress|;
 
-* Any Windows specific feature;
+* any Windows specific feature;
 
 Particularities with domain functionality
 """""""""""""""""""""""""""""""""""""""""
@@ -169,10 +169,10 @@ Particularities with domain functionality
 * testing was carried out with sssd with an Active Directory domain
   and kerberos authentication;
 
-* to integrate a Linux machine in the Active Directory domain,
+* to integrate a machine in the Active Directory domain,
   you can choose to follow `this documentation <https://dev.tranquil.it/samba/en/samba_config_client/client_join_clients_linux.html>`_
 
-* to force the update of Organisational Units on the Linux host,
+* to force the update of Organisational Units on the host,
   you can apply a :command:`gpupdate` from the WAPT console;
 
 * in order for Active Directory groups to function properly,

@@ -4,13 +4,15 @@ msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-21 17:26+0200\n"
-"PO-Revision-Date: 2020-03-26 12:02+0100\n"
+"PO-Revision-Date: 2020-05-21 18:58+0200\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
+"Language: fr\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:8
 msgid "Advanced settings for WAPTserver"
@@ -26,25 +28,24 @@ msgstr "Configurer le serveur WAPT"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:15
 msgid ""
-"The WAPT Server configuration file on GNU/ Linux systems is found in "
-":file:`/opt/wapt/conf/waptserver.ini`."
+"The WAPT Server configuration file on GNU/ Linux systems is found in :file:`/opt/"
+"wapt/conf/waptserver.ini`."
 msgstr ""
-"La configuration du serveur WAPT sous Linux est située dans "
-":file:`/opt/wapt/waptserver/waptserver.ini`."
+"La configuration du serveur WAPT sous Linux est située dans :file:`/opt/wapt/"
+"waptserver/waptserver.ini`."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:18
 msgid ""
-"The WAPT Server configuration file on Windows systems is found in "
-":file:`C:\\\\wapt\\\\conf\\\\waptserver.ini`."
+"The WAPT Server configuration file on Windows systems is found in :file:`C:\\"
+"\\wapt\\\\conf\\\\waptserver.ini`."
 msgstr ""
-"Le fichier de configuration du serveur WAPT sur les systèmes Windows se "
-"trouve dans :file:`C:\\\\wapt\\\\conf\\\\waptserver.ini`."
+"Le fichier de configuration du serveur WAPT sur les systèmes Windows se trouve "
+"dans :file:`C:\\\\wapt\\\\conf\\\\waptserver.ini`."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:23
 msgid "**Modification of these files is reserved for advanced users!!**"
 msgstr ""
-"**La modification de ces fichiers est à réserver aux utilisateurs avertis"
-" !!**"
+"**La modification de ces fichiers est à réserver aux utilisateurs avertis !!**"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:28
 msgid "Section [option]"
@@ -56,7 +57,7 @@ msgstr "On peut lui passer plusieurs options dans la section :"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:36
 msgid "Available parameters for the [option] section of waptserver.ini"
-msgstr ""
+msgstr "Paramètres disponibles pour la section [option] de waptserver.ini"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:40
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:159
@@ -88,11 +89,10 @@ msgstr "``allow_unauthenticated_registration`` = True"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:45
 msgid ""
-"Allows the initial registration of the WAPT agent using a login and "
-"password"
+"Allows the initial registration of the WAPT agent using a login and password"
 msgstr ""
-"Permet une authentification Identifiant / Mot de passe pour "
-"l'enregistrement initial"
+"Permet une authentification Identifiant / Mot de passe pour l'enregistrement "
+"initial"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:47
 msgid "``allow_unsigned_status_data`` = False"
@@ -196,11 +196,11 @@ msgstr "``db_host`` ="
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:72
 msgid ""
-"Address of the PostgreSQL server (empty by default, it will use a local "
-"Unix Socket)."
+"Address of the PostgreSQL server (empty by default, it will use a local Unix "
+"Socket)."
 msgstr ""
-"Adresse du serveur PostgreSQL (par défaut vide car la connexion par "
-"socket UNIX est par défaut)"
+"Adresse du serveur PostgreSQL (par défaut vide car la connexion par socket UNIX "
+"est par défaut)"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:74
 msgid "``db_max_connections`` = 100"
@@ -224,11 +224,11 @@ msgstr "``db_password`` ="
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:79
 msgid ""
-"Password for authenticating the user on the PostgreSQL database (default:"
-" empty, it will use a local UNIX socket)"
+"Password for authenticating the user on the PostgreSQL database (default: empty, "
+"it will use a local UNIX socket)"
 msgstr ""
-"Mot de passe pour la base PostgreSQL (par défaut vide car la connexion "
-"par socket UNIX est activée par défaut)"
+"Mot de passe pour la base PostgreSQL (par défaut vide car la connexion par "
+"socket UNIX est activée par défaut)"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:81
 msgid "``db_port`` = 5432"
@@ -252,11 +252,11 @@ msgstr "``db_user`` ="
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:86
 msgid ""
-"Name of the PostgreSQL user connecting to the database (default: empty, "
-"it will use a local UNIX socket)."
+"Name of the PostgreSQL user connecting to the database (default: empty, it will "
+"use a local UNIX socket)."
 msgstr ""
-"Nom d'utilisateur pour la base PostgreSQL (par défaut vide car la "
-"connexion par socket UNIX est activée par défaut)"
+"Nom d'utilisateur pour la base PostgreSQL (par défaut vide car la connexion par "
+"socket UNIX est activée par défaut)"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:88
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:157
@@ -273,7 +273,7 @@ msgstr "``encrypt_host_packages`` = False"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:91
 msgid "Encrypt host package with client certificate"
-msgstr "Chiffre le paquet machine avec le certificat machine client "
+msgstr "Chiffre le paquet machine avec le certificat machine client"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:92
 msgid "``htpasswd_path`` = None"
@@ -289,8 +289,8 @@ msgstr "``http_proxy`` = http://srvproxy.mydomain.lan:3128"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:95
 msgid ""
-"Defines the proxy server to allow the WAPT server to recover its "
-":abbr:`CRL (Certificate Revocation List)`"
+"Defines the proxy server to allow the WAPT server to recover its :abbr:`CRL "
+"(Certificate Revocation List)`"
 msgstr ""
 "Définit le serveur proxy du serveur WAPT (pour récupérer des :abbr:`CRL "
 "(Certificate Revocation List)` )"
@@ -302,8 +302,7 @@ msgstr "``known_certificates_folder`` = /opt/wapt/ssl/"
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:98
 msgid "Adds additional knowed CA for certificate validation"
 msgstr ""
-"Ajoute un répertoire additionnel des CA pour la vérification des "
-"certificats"
+"Ajoute un répertoire additionnel des CA pour la vérification des certificats"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:99
 msgid "``ldap_auth_base_dn`` = None"
@@ -350,9 +349,8 @@ msgid "``min_password_length`` = 10"
 msgstr "``min_password_length`` = 10"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:110
-#, fuzzy
 msgid "Sets minimum admin password length"
-msgstr "Défini la taille minimale de mot de passe"
+msgstr "Définit la taille minimale de mot de passe"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:111
 msgid "``nginx_http`` = 80"
@@ -400,13 +398,13 @@ msgstr "``secret_key`` =  FKjfzjfkF687fjrkeznfkj7678jknk78687"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:122
 msgid ""
-"Random string for initializing the Python Flask application server. It is"
-" generated when first installing the WAPT Server and is unique for every "
-"WAPT Server."
+"Random string for initializing the Python Flask application server. It is "
+"generated when first installing the WAPT Server and is unique for every WAPT "
+"Server."
 msgstr ""
-"Chaîne d'initialisation du moteur de gestion de session Flask. Il est "
-"généré lors de la première installation du serveur WAPT et est unique "
-"pour chaque serveur WAPT."
+"Chaîne d'initialisation du moteur de gestion de session Flask. Il est généré "
+"lors de la première installation du serveur WAPT et est unique pour chaque "
+"serveur WAPT."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:125
 msgid "``server_uuid`` = 76efezfa6-b309-1fez5-92cd-8ea48fc122dc"
@@ -423,8 +421,7 @@ msgstr "``signature_clockskew`` = 72000"
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:128
 msgid "Maximum allowed time difference for the websockets"
 msgstr ""
-"Décalage de temps autorisé pour les timestamps lors d'une connexion "
-"websocket"
+"Décalage de temps autorisé pour les timestamps lors d'une connexion websocket"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:129
 msgid "``token_lifetime`` = 43200"
@@ -439,29 +436,26 @@ msgid "``trusted_signers_certificates_folder`` = None"
 msgstr "``trusted_signers_certificates_folder`` = None"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:132
-#, fuzzy
 msgid "Path to trusted signers certificate directory"
-msgstr "chemin du dossier des certificats de signature de confiance"
+msgstr "Chemin du dossier des certificats de signature de confiance"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:133
 msgid "``trusted_users_certificates_folder`` = None"
 msgstr "``trusted_users_certificates_folder`` = None"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:134
-#, fuzzy
 msgid "Path to trusted users CA certificate directory"
-msgstr "chemin du dossier des CA utilisateur de confiance"
+msgstr "Chemin du dossier des CA utilisateur de confiance"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:135
-#, fuzzy
 msgid "``use_kerberos`` = True"
 msgstr "``use_kerberos`` = True"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:136
 msgid "Requires a Kerberos authentication when first registering the WAPT agent."
 msgstr ""
-"Exige une authentification Kerberos pour l'enregistrement initial d'une "
-"machine sur le serveur WAPT."
+"Exige une authentification Kerberos pour l'enregistrement initial d'une machine "
+"sur le serveur WAPT."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:137
 msgid "``use_ssl_client_auth`` = False"
@@ -478,8 +472,8 @@ msgstr "``wapt_admin_group_dn`` = CN=waptadmins,OU=groups,DC=ad,DC=mydomain,DC=l
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:140
 msgid "LDAP DN of Active Directory User Group allowed to connect to WAPT console"
 msgstr ""
-"LDAP DN du groupe d'utilisateurs Active Directory autorisé à se connecter"
-" à la console WAPT"
+"LDAP DN du groupe d'utilisateurs Active Directory autorisé à se connecter à la "
+"console WAPT"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:141
 msgid "``wapt_admin_group`` = None"
@@ -488,8 +482,8 @@ msgstr "``wapt_admin_group`` = None"
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:142
 msgid "CN of Active Directory User Group allowed to connect to WAPT console"
 msgstr ""
-"LDAP CN du groupe d'utilisateurs Active Directory autorisé à se connecter"
-" à la console WAPT"
+"LDAP CN du groupe d'utilisateurs Active Directory autorisé à se connecter à la "
+"console WAPT"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:143
 msgid "``wapt_folder`` = /var/www/wapt"
@@ -541,15 +535,15 @@ msgstr "Liste des ports UDP WakeOnLAN auxquels envoyer des paquets magiques"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:155
 msgid "``wapt_bind_interface`` =  127.0.0.1"
-msgstr ""
+msgstr "``wapt_bind_interface`` =  127.0.0.1"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:156
 msgid "Define how to listen to the waptserver service"
-msgstr ""
+msgstr "Définit comment écouter au service waptserver"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:158
 msgid "Defined if the store is activated https://srvwapt.mydomain.lan/"
-msgstr ""
+msgstr "Défini si le dépôt est activé https://srvwapt.mydomain.lan/"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/ini-file/index.rst:171
 msgid "Configuring Nginx"
@@ -561,7 +555,3 @@ msgstr "La configuration nginx par défaut est la suivante :"
 
 #~ msgid "Debug level."
 #~ msgstr "Niveau de débug."
-
-#~ msgid "???"
-#~ msgstr ""
-

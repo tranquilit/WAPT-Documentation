@@ -40,7 +40,7 @@ Description of available options for the WAPT agent
   * it will have to be enabled by adding it to the ``repositories``
     attribute to the ``[global]`` section;
 
-. list-table:: Description of available options for the WAPT agent
+.. list-table:: Description of available options for the WAPT agent
   :header-rows: 1
   :widths: 40 60
 
@@ -219,12 +219,12 @@ Settings for WAPT Self-Service and Waptservice Authentification
     - Defines the authentication system of the wapt service,
       available value are *system*, *waptserver-ldap*, *waptagent-ldap*.
   * - ``ldap_auth_ssl_enabled`` = False
-    - Useful with waptagent-ldap, defines if the LDAP request must be encrypted.
+    - Useful with *waptagent-ldap*, defines if the LDAP request must be encrypted.
   * - ``verify_cert_ldap`` = True
-    - Useful with waptagent-ldap, define whether the certificate
+    - Useful with *waptagent-ldap*, define whether the certificate
       should be verified.
   * - ``ldap_auth_base_dn`` = dc=domain,dc=lan
-    - Useful with waptagent-ldap, defines the base dn for the LDAP request.
+    - Useful with *waptagent-ldap*, defines the base dn for the LDAP request.
   * - ``ldap_auth_server`` = srvads.domain.lan
     - Useful with *waptagent-ldap*, defines the LDAP server to contact.
   * - ``waptservice_user`` = admin

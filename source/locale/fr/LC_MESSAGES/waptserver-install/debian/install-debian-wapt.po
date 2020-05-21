@@ -3,14 +3,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-21 17:26+0200\n"
-"PO-Revision-Date: 2020-04-01 15:06+0200\n"
+"POT-Creation-Date: 2020-05-21 20:34+0200\n"
+"PO-Revision-Date: 2020-05-21 20:36+0200\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
+"Language: fr\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:8
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:15
@@ -22,18 +24,12 @@ msgid "Server, WAPT, Debian, install, installation, documentation"
 msgstr "Server, WAPT, Debian, Install, documentation"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:19
-msgid ""
-"The upgrade procedure is different from installation. For upgrade, please"
-" refer to :ref:`Upgrading the WAPT Server <upgrade-wapt>`."
-msgstr ""
-"La procédure est différente pour la mise à jour du serveur WAPT. Pour une"
-" mise à jour, rendez-vous sur : :ref:`upgrade-wapt`."
+msgid "The upgrade procedure is different from installation. For upgrade, please refer to :ref:`Upgrading the WAPT Server <upgrade-wapt>`."
+msgstr "La procédure est différente pour la mise à jour du serveur WAPT. Pour une mise à jour, rendez-vous sur : :ref:`upgrade-wapt`."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:22
 msgid "Installing the WAPT Server requires a few steps:"
-msgstr ""
-"L'installation de la partie serveur de WAPT se décompose en plusieurs "
-"étapes :"
+msgstr "L'installation de la partie serveur de WAPT se décompose en plusieurs étapes :"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:24
 msgid "configuring the repositories;"
@@ -52,71 +48,36 @@ msgid "post-configuring the WAPT Server;"
 msgstr "post-configurer le serveur ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:34
-msgid ""
-"The WAPT Server packages and repository are signed by Tranquil IT and it "
-"is necessary to get the gpg public key below in order to avoid warning "
-"messages during installation."
-msgstr ""
-"Les paquets tis-waptserver, tis-waptsetup sont signés et il est "
-"nécessaire de récupérer la clef gpg ci-dessous pour éviter les messages "
-"de warning lors de l'installation."
+msgid "The WAPT Server packages and repository are signed by Tranquil IT and it is necessary to get the gpg public key below in order to avoid warning messages during installation."
+msgstr "Les paquets tis-waptserver, tis-waptsetup sont signés et il est nécessaire de récupérer la clef gpg ci-dessous pour éviter les messages de warning lors de l'installation."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:39
 msgid "Configuring DEB repositories and installing WAPT and PostgreSQL packages"
 msgstr "Configurer les dépôts et installer les paquets WAPT et PostgreSQL"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:41
-msgid ""
-"The configuration of repositories for **WAPT Enterprise** and **WAPT "
-"Community** Edition differs. **Make sure to choose the right one!**"
-msgstr ""
-"La configuration des dépôts en **WAPT Enterprise** et en **WAPT "
-"Community** diffère. **Assurez-vous de choisir la bonne procédure !**"
+msgid "The configuration of repositories for **WAPT Enterprise** and **WAPT Community** Edition differs. **Make sure to choose the right one!**"
+msgstr "La configuration des dépôts en **WAPT Enterprise** et en **WAPT Community** diffère. **Assurez-vous de choisir la bonne procédure !**"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:44
-msgid ""
-"During installation, you may be asked for the Kerberos realm. Just press "
-":kbd:`Enter` to skip this step."
-msgstr ""
-"L'installation peut vous demander le royaume kerberos. Appuyez sur "
-":kbd:`Entrée` pour passer l'étape."
+msgid "During installation, you may be asked for the Kerberos realm. Just press :kbd:`Enter` to skip this step."
+msgstr "L'installation peut vous demander le royaume kerberos. Appuyez sur :kbd:`Entrée` pour passer l'étape."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:49
-msgid ""
-"**Follow this procedure for getting the right packages for the WAPT "
-"Enterprise** Edition. For WAPT Community Edition please refer to the next"
-" block."
-msgstr ""
-"**Suivez cette procédure pour obtenir les bons paquets pour l'édition "
-"WAPT Enterprise**. Pour l'édition Community de WAPT, veuillez vous "
-"référer au bloc suivant."
+msgid "**Follow this procedure for getting the right packages for the WAPT Enterprise** Edition. For WAPT Community Edition please refer to the next block."
+msgstr "**Suivez cette procédure pour obtenir les bons paquets pour l'édition WAPT Enterprise**. Pour l'édition Community de WAPT, veuillez vous référer au bloc suivant."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:53
-msgid ""
-"To access WAPT Enterprise ressources, you must use the username and "
-"password provided by our sales department."
-msgstr ""
-"Pour accéder au site de téléchargement WAPT Enterprise, vous devez "
-"utiliser le nom d'utilisateur et le mot de passe fournis par notre "
-"service commercial."
+msgid "To access WAPT Enterprise ressources, you must use the username and password provided by our sales department."
+msgstr "Pour accéder au site de téléchargement WAPT Enterprise, vous devez utiliser le nom d'utilisateur et le mot de passe fournis par notre service commercial."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:56
-msgid ""
-"Replace **user** and **password** in the **deb** parameter to access WAPT"
-" Enterprise repository."
-msgstr ""
-"Remplacez **user** et **password** dans le paramètre **deb** pour accéder"
-" au dépôt WAPT Enterprise."
+msgid "Replace **user** and **password** in the **deb** parameter to access WAPT Enterprise repository."
+msgstr "Remplacez **user** et **password** dans le paramètre **deb** pour accéder au dépôt WAPT Enterprise."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:68
-msgid ""
-"**Follow this procedure for getting the right packages for the WAPT "
-"Community** Edition. For WAPT Enterprise Edition please refer to the "
-"previous block."
-msgstr ""
-"**Suivez cette procédure pour obtenir les bons paquets pour l'édition "
-"Community de WAPT**. Pour l'édition WAPT Enterprise, veuillez vous "
-"référer au bloc précédent."
+msgid "**Follow this procedure for getting the right packages for the WAPT Community** Edition. For WAPT Enterprise Edition please refer to the previous block."
+msgstr "**Suivez cette procédure pour obtenir les bons paquets pour l'édition Community de WAPT**. Pour l'édition WAPT Enterprise, veuillez vous référer au bloc précédent."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:80
 msgid "Installing the WAPT Server packages"
@@ -127,21 +88,12 @@ msgid "Post-configuring"
 msgstr "Post-Configuration"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:92
-msgid ""
-"For post-configuration to work properly, you must first have properly "
-"configured the *hostname* of the WAPT server. To check *hostname* "
-"configuration use the command :code:`echo $(hostname)` which must return "
-"the *hostname* that will be used by WAPT agents on client computers."
-msgstr ""
-"La Post-Configuration suppose que vous avez correctement configuré le "
-"*hostname* de l'ordinateur. Pour vérifier, :code:`echo $(hostname)` doit "
-"renvoyer l'adresse DNS qu'utiliseront les agents WAPT."
+msgid "For post-configuration to work properly, you must first have properly configured the *hostname* of the WAPT server. To check *hostname* configuration use the command :code:`echo $(hostname)` which must return the *hostname* that will be used by WAPT agents on client computers."
+msgstr "La Post-Configuration suppose que vous avez correctement configuré le *hostname* de l'ordinateur. Pour vérifier, :code:`echo $(hostname)` doit renvoyer l'adresse DNS qu'utiliseront les agents WAPT."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:99
 msgid "This post-configuration script must be run as **root**."
-msgstr ""
-"Ce script de post-configuration doit être exécuté en tant qu'utilisateur "
-"**root**."
+msgstr "Ce script de post-configuration doit être exécuté en tant qu'utilisateur **root**."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:101
 msgid "run the script:"
@@ -152,122 +104,83 @@ msgid "click on :guilabel:`Yes` to run the postconf script:"
 msgstr "cliquer sur :guilabel:`Yes` pour accepter le lancement du postconf :"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:115
-msgid ""
-"enter the password for the :term:`SuperAdmin` account of the WAPT Server "
-"(minimum 10 caracters);"
-msgstr ""
-"entrer un mot de passe pour le compte :term:`SuperAdmin` du serveur WAPT "
-"(10 caractères minimum) :"
+msgid "enter the password for the :term:`SuperAdmin` account of the WAPT Server (minimum 10 caracters);"
+msgstr "entrer un mot de passe pour le compte :term:`SuperAdmin` du serveur WAPT (10 caractères minimum) ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:126
 msgid "confirm the password;"
-msgstr "confirmer le mot de passe :"
+msgstr "confirmer le mot de passe ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:136
-msgid ""
-"choose the authentication mode for the initial registering of the WAPT "
-"agents;"
-msgstr "choisir le mode d'authentification pour l'enregistrement des machines :"
+msgid "choose the authentication mode for the initial registering of the WAPT agents;"
+msgstr "choisir le mode d'authentification pour l'enregistrement des machines ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:138
-msgid ""
-"choice #1 allows to register computers without authentication (same "
-"method as WAPT 1.3). The WAPT server registers all computers that ask;"
-msgstr ""
-"Le choix 1 permet un enregistrement sans authentification (Comme en "
-"version 1.3). Le serveur ne vérifie pas le poste qui s'enregistre ;"
+msgid "choice #1 allows to register computers without authentication (same method as WAPT 1.3). The WAPT server registers all computers that ask;"
+msgstr "le choix #1 permet un enregistrement sans authentification (Comme en version 1.3). Le serveur ne vérifie pas le poste qui s'enregistre ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:141
-msgid ""
-"Choice #2 activates the initial registration based on Kerberos. (you can "
-"activate it later)"
-msgstr ""
-"Le choix n°2 active l'enregistrement initial basé sur Kerberos. (vous "
-"pourrez l'activer aussi plus tard) ;"
+msgid "choice #2 activates the initial registration based on Kerberos. (you can activate it later);"
+msgstr "le choix #2 active l'enregistrement initial basé sur Kerberos. (vous pourrez l'activer aussi plus tard) ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:143
-msgid ""
-"choice #3 does not activate the Kerberos authentication mechanism for the"
-" initial registering of machines equipped with WAPT. The WAPT server will"
-" require a login and password for each machine registering with it;"
-msgstr ""
-"le choix #3 n'active pas l'authentification kerberos pour "
-"l'enregistrement des machines mais demande une authentification wapt pour"
-" l'enregistrement des machines. The serveur WAPT réclamera le mot de "
-"passe du *SuperAdmin* à chaque nouvel enregistrement ;"
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:144
+msgid "choice #3 does not activate the Kerberos authentication mechanism for the initial registering of machines equipped with WAPT. The WAPT server will require a login and password for each machine registering with it;"
+msgstr "le choix #3 n'active pas l'authentification kerberos pour l'enregistrement des machines mais demande une authentification wapt pour l'enregistrement des machines. The serveur WAPT réclamera le mot de passe du *SuperAdmin* à chaque nouvel enregistrement ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:159
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:160
 msgid "select :guilabel:`OK` to start WAPT Server;"
 msgstr "sélectionner :guilabel:`OK` pour démarrer le serveur WAPT ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:167
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:168
 msgid "select :guilabel:`Yes` to configure Nginx;"
 msgstr "sélectionner :guilabel:`Yes` pour configurer Nginx ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:175
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:176
 msgid "enter the :term:`FQDN` of the WAPT Server;"
 msgstr "entrer le nom :term:`FQDN` du serveur WAPT ;"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:187
-msgid ""
-"select :guilabel:`OK` and a self-signed certificate will be generated, "
-"this step may take a long time ..."
-msgstr ""
-"faites :guilabel:`OK` et un certificat autosigné est généré, cette étape "
-"peut être longue ..."
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:188
+msgid "select :guilabel:`OK` and a self-signed certificate will be generated, this step may take a long time ..."
+msgstr "faites :guilabel:`OK` et un certificat autosigné est généré, cette étape peut être longue ..."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:196
-msgid ""
-"Nginx is now configured, select :guilabel:`OK` to restart "
-":program:`Nginx`:"
-msgstr ""
-"Nginx est maintenant configuré, sélectionner :guilabel:`OK` pour "
-"redémarrer :program:`Nginx` :"
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:197
+msgid "Nginx is now configured, select :guilabel:`OK` to restart :program:`Nginx`:"
+msgstr "Nginx est maintenant configuré, sélectionner :guilabel:`OK` pour redémarrer :program:`Nginx` :"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:205
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:206
 msgid "The post-configuration is now finished."
 msgstr "La post-configuration est maintenant terminée."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:214
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:215
 msgid "Listing of post-configuration script options:"
 msgstr "Détail des arguments possibles du script de post-configuration :"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:220
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:221
 msgid "Flag"
 msgstr "Flag"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:221
-msgid "Description"
-msgstr ""
-
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:222
-#, fuzzy
-msgid "``--force-https``"
-msgstr "*--force-https*"
+msgid "Description"
+msgstr "Description"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:223
-msgid ""
-"Configures :program:`Nginx` so that *port 80 is permanently redirected to"
-" 443*"
-msgstr ""
-"Configure :program:`Nginx` de sorte que *port 80 soit redirigé en "
-"permanence vers 443*."
+msgid "``--force-https``"
+msgstr "``--force-https``"
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:226
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:224
+msgid "Configures :program:`Nginx` so that *port 80 is permanently redirected to 443*"
+msgstr "Configure :program:`Nginx` de sorte que *port 80 soit redirigé en permanence vers 443*"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:227
 msgid "The WAPT Server is now ready."
 msgstr "Le serveur WAPT est prêt."
 
-#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:228
-msgid ""
-"You may go to the documentation on :ref:`installing the WAPT console "
-"<installing_the_WAPT_console>`!!"
-msgstr ""
-"Passez maintenant à l'étape suivante pour :ref:`installer la console WAPT"
-" <installing_the_WAPT_console>`."
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-install/debian/install-debian-wapt.rst:229
+msgid "You may go to the documentation on :ref:`installing the WAPT console <installing_the_WAPT_console>`!!"
+msgstr "Passez maintenant à l'étape suivante pour :ref:`installer la console WAPT <installing_the_WAPT_console>`."
 
 #~ msgid ""
 #~ msgstr ""
 
 #~ msgid "Definition"
 #~ msgstr "Définition"
-

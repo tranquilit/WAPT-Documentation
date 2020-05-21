@@ -7,14 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-21 18:16+0200\n"
-"PO-Revision-Date: 2020-03-26 12:06+0100\n"
+"POT-Creation-Date: 2020-05-21 19:41+0200\n"
+"PO-Revision-Date: 2020-05-21 19:43+0200\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
+"Language: fr\n"
+"X-Generator: Poedit 2.0.6\n"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:8
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:27
@@ -26,35 +28,16 @@ msgid "waptagent, MacOS, deployment, deploy, deploying, documentation, WAPT"
 msgstr "waptagent, MacOS, déploiement, déployer, documentation, WAPT"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:33
-msgid ""
-"Currently, the agent has only been tested on `High Sierra "
-"<https://en.wikipedia.org/wiki/MacOS_High_Sierra>`_ (version 10.13) and "
-"`Mojave <https://en.wikipedia.org/wiki/MacOS_Mojave>`_ (10.14) while the "
-"latest MacOS version is `Catalina "
-"<https://en.wikipedia.org/wiki/MacOS_Catalina>`_ (10.15). Catalina may "
-"have introduced changes that could prevent the agent from working."
-msgstr ""
-"Actuellement, l'agent WAPT pour MacOS n'a été testé que sur `High Sierra "
-"<https://en.wikipedia.org/wiki/MacOS_High_Sierra>`_ (version 10.13) et "
-"`Mojave <https://en.wikipedia.org/wiki/MacOS_Mojave>`_ (10.14) alors que "
-"la dernière version de MacOS est `Catalina "
-"<https://en.wikipedia.org/wiki/MacOS_Catalina>`_ (10.15). Catalina a "
-"peut-être introduit des changements qui pourraient empêcher l'agent WAPT "
-"de fonctionner."
+msgid "Currently, the agent has only been tested on `High Sierra <https://en.wikipedia.org/wiki/MacOS_High_Sierra>`_ (version 10.13) and `Mojave <https://en.wikipedia.org/wiki/MacOS_Mojave>`_ (10.14) while the latest MacOS version is `Catalina <https://en.wikipedia.org/wiki/MacOS_Catalina>`_ (10.15). Catalina may have introduced changes that could prevent the agent from working."
+msgstr "Actuellement, l'agent WAPT pour MacOS n'a été testé que sur `High Sierra <https://en.wikipedia.org/wiki/MacOS_High_Sierra>`_ (version 10.13) et `Mojave <https://en.wikipedia.org/wiki/MacOS_Mojave>`_ (10.14) alors que la dernière version de MacOS est `Catalina <https://en.wikipedia.org/wiki/MacOS_Catalina>`_ (10.15). Catalina a peut-être introduit des changements qui pourraient empêcher l'agent WAPT de fonctionner."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:40
 msgid "Installing the WAPT Agent package from Tranquil IT's public repository"
-msgstr ""
-"Installer le paquet agent WAPT pour MacOS à partir du dépôt public de "
-"Tranquil IT"
+msgstr "Installer le paquet agent WAPT pour MacOS à partir du dépôt public de Tranquil IT"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:42
-msgid ""
-"download WAPT agent for Apple Mac OSX from `Tranquil IT's public "
-"repository <https://wapt.tranquil.it/wapt/releases/latest/>`_;"
-msgstr ""
-"télécharger l'agent WAPT pour Apple Mac OSX à partir du `dépôt public "
-"Tranquil IT <https://wapt.tranquil.it/wapt/releases/latest/>`_ ;"
+msgid "download WAPT agent for Apple Mac OSX from `Tranquil IT's public repository <https://wapt.tranquil.it/wapt/releases/latest/>`_;"
+msgstr "télécharger l'agent WAPT pour Apple Mac OSX à partir du `dépôt public Tranquil IT <https://wapt.tranquil.it/wapt/releases/latest/>`_ ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:45
 msgid "install the downloaded package:"
@@ -66,217 +49,135 @@ msgstr "Créer le fichier de configuration de l'agent WAPT pour MacOS"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:54
 msgid "The requisites for your WAPT agent to work are:"
-msgstr ""
-"Les conditions requises pour que votre agent WAPT puisse fonctionner sont"
-" les suivantes :"
+msgstr "Les conditions requises pour que votre agent WAPT puisse fonctionner sont les suivantes :"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:56
 msgid "``wapt-get.ini`` config file in :file:`/opt/wapt/`;"
-msgstr ""
-"Le fichier de configuration ``wapt-get.ini`` se trouve dans le fichier "
-":file:`/opt/wapt/` ;"
+msgstr "Le fichier de configuration ``wapt-get.ini`` se trouve dans le fichier :file:`/opt/wapt/` ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:58
-msgid ""
-"a public certificate of the package-signing authority in "
-":file:`/opt/wapt/ssl/`;"
-msgstr ""
-"un certificat public de l'autorité de signature des paquets dans "
-":file:`/opt/wapt/ssl/` ;"
+msgid "a public certificate of the package-signing authority in :file:`/opt/wapt/ssl/`;"
+msgstr "un certificat public de l'autorité de signature des paquets dans :file:`/opt/wapt/ssl/` ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:60
-msgid ""
-"You need to create and configure the :file:`wapt-get.ini` file in "
-":file:`/opt/wapt` (:ref:`wapt-get-ini`)."
-msgstr ""
-"Vous devez créer et configurer le fichier :file:`wapt-get.ini` dans "
-":file:`/opt/wapt` (:ref:`wapt-get-ini`)."
+msgid "You need to create and configure the :file:`wapt-get.ini` file in :file:`/opt/wapt` (:ref:`wapt-get-ini`)."
+msgstr "Vous devez créer et configurer le fichier :file:`wapt-get.ini` dans :file:`/opt/wapt` (:ref:`wapt-get-ini`)."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:63
-msgid ""
-"An example of what it should look like is present further down on this "
-"page. You may use it after changing the parameters to suit your needs."
-msgstr ""
-"Un exemple de ce à quoi il devrait ressembler est présenté plus bas sur "
-"cette page. Vous pouvez l'utiliser après avoir modifié les paramètres en "
-"fonction de vos besoins."
+msgid "An example of what it should look like is present further down on this page. You may use it after changing the parameters to suit your needs."
+msgstr "Un exemple de ce à quoi il devrait ressembler est présenté plus bas sur cette page. Vous pouvez l'utiliser après avoir modifié les paramètres en fonction de vos besoins."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:80
 msgid "Copying the package-signing certificate"
 msgstr "Copier le certificat Code-Signing"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:82
-msgid ""
-"You need to copy manually, or by script, the public certificate of your "
-"package signing certificate authority."
-msgstr ""
-"Vous devez copier manuellement, ou par script, le certificat public de "
-"votre autorité de certification de signature de paquets."
+msgid "You need to copy manually, or by script, the public certificate of your package signing certificate authority."
+msgstr "Vous devez copier manuellement, ou par script, le certificat public de votre autorité de certification de signature de paquets."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:85
-msgid ""
-"The certificate should be located on your Windows machine in "
-":file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl\\\\`."
-msgstr ""
-"Le certificat devrait être situé sur votre machine Windows dans "
-":file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl\\\\`."
+msgid "The certificate should be located on your Windows machine in :file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl\\\\`."
+msgstr "Le certificat devrait être situé sur votre machine Windows dans :file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl\\\\`."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:88
-msgid ""
-"Copy your certificate(s) in :file:`/opt/wapt/ssl` using :program:`WinSCP`"
-" or :program:`rsync`."
-msgstr ""
-"Copier les certificat(s) dans :file:`/opt/wapt/ssl` en utilisant "
-":program:`WinSCP` ou :program:`rsync`."
+msgid "Copy your certificate(s) in :file:`/opt/wapt/ssl` using :program:`WinSCP` or :program:`rsync`."
+msgstr "Copier les certificat(s) dans :file:`/opt/wapt/ssl` en utilisant :program:`WinSCP` ou :program:`rsync`."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:92
 msgid "Copying the SSL/TLS certificate"
 msgstr "Copier le certificat SSL/TLS"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:94
-msgid ""
-"If you already have configured your WAPT server to use correct "
-":ref:`Nginx SSL/TLS certificates "
-"<activating_HTTPS_certificate_verification>`, you must copy the "
-"certificate in your WAPT Linux agent."
-msgstr ""
-"Si vous avez déjà configuré votre serveur WAPT pour utiliser les bons "
-"certificats :ref:`Nginx SSL/TLS "
-"<activating_HTTPS_certificate_verification>`, vous devez copier le "
-"certificat dans votre agent WAPT Linux."
+msgid "If you already have configured your WAPT server to use correct :ref:`Nginx SSL/TLS certificates <activating_HTTPS_certificate_verification>`, you must copy the certificate in your WAPT Linux agent."
+msgstr "Si vous avez déjà configuré votre serveur WAPT pour utiliser les bons certificats :ref:`Nginx SSL/TLS <activating_HTTPS_certificate_verification>`, vous devez copier le certificat dans votre agent WAPT Linux."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:98
-msgid ""
-"The certificate should be located on your Windows machine in "
-":file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl\\\\server\\\\`."
-msgstr ""
-"Le certificat devrait être situé sur votre machine Windows dans "
-":file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl\\\\server\\\\`."
+msgid "The certificate should be located on your Windows machine in :file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl\\\\server\\\\`."
+msgstr "Le certificat devrait être situé sur votre machine Windows dans :file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl\\\\server\\\\`."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:101
-msgid ""
-"Copy your certificate(s) in :file:`/opt/wapt/ssl/server/` using "
-":program:`WinSCP` or :program:`rsync`."
-msgstr ""
-"Copier le(s) certificat(s) dans :file:`/opt/wapt/ssl/server/` en "
-"utilisant :program:`WinSCP` ou :program:`rsync`."
+msgid "Copy your certificate(s) in :file:`/opt/wapt/ssl/server/` using :program:`WinSCP` or :program:`rsync`."
+msgstr "Copier le(s) certificat(s) dans :file:`/opt/wapt/ssl/server/` en utilisant :program:`WinSCP` ou :program:`rsync`."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:104
-#, fuzzy
-msgid ""
-"Then, modify in your :file:`wapt-get.ini` config file the path to your "
-"certificate."
-msgstr ""
-"Ensuite, modifier le ficher de configuration en donnant le chemin de "
-"votre certificat."
+msgid "Then, modify in your :file:`wapt-get.ini` config file the path to your certificate."
+msgstr "Ensuite, modifier le ficher de configuration :file:`wapt-get.ini` en fournissant le chemin de votre certificat."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:111
 msgid "And give absolute path of your cert."
 msgstr "Et donner le chemin absolu de votre certificat."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:119
-#, fuzzy
-msgid ""
-"If you are not using SSL/TLS certificates with your WAPT Server, you must"
-" set the following lines to 0 in :file:`/opt/wapt/wapt-get.ini`:"
-msgstr ""
-"Si vous n'utilisez pas de certificat SSL/TLS avec votre serveur WAPT, "
-"vous devez changer dans :file:`/opt/wapt/wapt-get.ini` les lignes "
-"suivantes à *0* :"
+msgid "If you are not using SSL/TLS certificates with your WAPT Server, you must set the following lines to 0 in :file:`/opt/wapt/wapt-get.ini`:"
+msgstr "Si vous n'utilisez pas de certificat SSL/TLS avec votre serveur WAPT, vous devez changer dans :file:`/opt/wapt/wapt-get.ini` les lignes suivantes à *0* :"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:127
 msgid "Registering your MacOS agent"
 msgstr "Enregistrer votre agent MacOS avec le serveur WAPT"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:131
-msgid ""
-"beware, by default, WAPT takes the system language by default for "
-"packages, you may have to define the language in :file:`wapt-get.ini` "
-"with ``locales=``."
-msgstr ""
+msgid "beware, by default, WAPT takes the system language by default for packages, you may have to define the language in :file:`wapt-get.ini` with ``locales=``."
+msgstr "attention, par défaut, WAPT prend la langue du système par défaut pour les paquets, vous devrez peut-être définir la langue dans :file:`wapt-get.ini` avec ``locales=``."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:135
 msgid "restart the WAPT service:"
 msgstr "redémarrer le serveur WAPT :"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:141
-msgid ""
-"finally, execute the following command to register your MacOS host with "
-"the WAPT server:"
-msgstr ""
-"enfin, exécuter la commande suivante pour enregistrer votre hôte MacOS "
-"auprès du serveur WAPT :"
+msgid "finally, execute the following command to register your MacOS host with the WAPT server:"
+msgstr "enfin, exécuter la commande suivante pour enregistrer votre hôte MacOS auprès du serveur WAPT :"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:149
-#, fuzzy
-msgid ""
-"|clap| **Congratulations**, your MacOS Agent is now installed and "
-"configured and it will now appear in your WAPT Console with a |apple| "
-"icon!"
-msgstr ""
-"Votre agent MacOS est maintenant installé et configuré et il apparaîtra "
-"dans votre console WAPT avec une icône de MacOS !!"
+msgid "|clap| **Congratulations**, your MacOS Agent is now installed and configured and it will now appear in your WAPT Console with a |apple| icon!"
+msgstr "|clap| **Félicitations**, votre agent MacOS est maintenant installé et configuré et il apparaîtra dans votre console WAPT avec une icône |apple| !!"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:153
 msgid "Supported features"
-msgstr ""
+msgstr "Fonctionnalités supportées"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:155
 msgid "Most features are now supported in version 1.8.2 of WAPT."
-msgstr ""
+msgstr "La plupart des fonctionnalités sont désormais prises en charge dans la version 1.8.2 de WAPT."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:158
 msgid "Unsupported features"
-msgstr ""
+msgstr "Fonctionnalités non supportées"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:160
 msgid "installing updates on shutdown |work_in_progress|;"
-msgstr ""
+msgstr "installer les mises à jour à l'extinction de la machine |travail_en_progression| ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:162
 msgid "WAPT console is not currently available on linux |work_in_progress|;"
-msgstr ""
+msgstr "La console WAPT n'est actuellement pas disponible sur Linux |work_in_progress| ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:164
-msgid "Any Windows specific feature;"
-msgstr ""
+msgid "any Windows specific feature;"
+msgstr "toute fonctionnalité spécifique à Windows ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:167
 msgid "Particularities with domain functionality"
-msgstr ""
+msgstr "Particularités du fonctionnement en domaine"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:169
-msgid ""
-"testing was carried out with sssd with an Active Directory domain and "
-"kerberos authentication;"
-msgstr ""
+msgid "testing was carried out with sssd with an Active Directory domain and kerberos authentication;"
+msgstr "les tests ont été effectués avec sssd avec un domaine Active Directory et une authentification kerberos ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:172
-msgid ""
-"to integrate a Linux machine in the Active Directory domain, you can "
-"choose to follow `this documentation "
-"<https://dev.tranquil.it/samba/en/samba_config_client/client_join_clients_linux.html>`_"
-msgstr ""
+msgid "to integrate a machine in the Active Directory domain, you can choose to follow `this documentation <https://dev.tranquil.it/samba/en/samba_config_client/client_join_clients_linux.html>`_"
+msgstr "pour intégrer une machine dans le domaine Active Directory, vous pouvez choisir de suivre `cette documentation <https://dev.tranquil.it/samba/en/samba_config_client/client_join_clients_linux.html>`_"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:175
-msgid ""
-"to force the update of Organisational Units on the Linux host, you can "
-"apply a :command:`gpupdate` from the WAPT console;"
-msgstr ""
+msgid "to force the update of Organisational Units on the host, you can apply a :command:`gpupdate` from the WAPT console;"
+msgstr "pour forcer la mise à jour des Unités Organisationnelles sur la machine, vous pouvez appliquer une commande :command:`gpupdate` depuis la console WAPT ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:178
-msgid ""
-"in order for Active Directory groups to function properly, you must "
-"verify that the :command:`id hostname$` command returns the list of "
-"groups the host is member of;"
-msgstr ""
+msgid "in order for Active Directory groups to function properly, you must verify that the :command:`id hostname$` command returns the list of groups the host is member of;"
+msgstr "pour que les groupes Active Directory fonctionnent correctement, vous devez vérifier que la commande :command:`id hostname$` renvoie la liste des groupes dont la machine est membre ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:184
-msgid ""
-"We have noticed that the Kerberos LDAP query does not work if the reverse"
-" DNS record is not configured correctly for your domain controllers. "
-"These records must therefore be created if they do not exist."
-msgstr ""
+msgid "We have noticed that the Kerberos LDAP query does not work if the reverse DNS record is not configured correctly for your domain controllers. These records must therefore be created if they do not exist."
+msgstr "Nous avons remarqué que la requête LDAP Kerberos ne fonctionne pas si l'enregistrement DNS inverse n'est pas configuré correctement pour vos contrôleurs de domaine. Ces enregistrements doivent donc être créés s'ils n'existent pas."
 
 #~ msgid ""
 #~ msgstr ""
@@ -305,19 +206,12 @@ msgstr ""
 #~ msgid "Our tests were carried out with an Active directory."
 #~ msgstr ""
 
-#~ msgid ""
-#~ "To force the update of organisational"
-#~ " unit of the computer, you can "
-#~ "request a gpupdate from the wapt "
-#~ "console on the Linux computer."
+#~ msgid "Any Windows specific feature;"
 #~ msgstr ""
 
 #~ msgid ""
-#~ "We have noticed that the Kerberos "
-#~ "LDAP query does not work if the"
-#~ " reverse DNS record is not configured"
-#~ " correctly for your domain controllers. "
-#~ "These records must therefore be created"
-#~ " if it does not exist."
+#~ "to force the update of Organisational"
+#~ " Units on the Linux host, you "
+#~ "can apply a :command:`gpupdate` from the"
+#~ " WAPT console;"
 #~ msgstr ""
-

@@ -22,7 +22,7 @@ Using special Command Lines with WAPT
 wapt-get register
 +++++++++++++++++
 
-The :code:`wapt-get register <description>` command reports the computer
+The :command:`wapt-get register <description>` command reports the computer
 hardware and software inventory to the WAPT inventory server.
 
 .. hint::
@@ -34,15 +34,16 @@ hardware and software inventory to the WAPT inventory server.
   You may benefit from WAPT to improve your IT management by affecting
   a username or a computer serial as descriptions for your hosts.
 
-The command :code:`wapt-get register "John Doe PC` returns nothing;
+The command :command:`wapt-get register "John Doe PC` returns nothing;
 
 wapt-get download
 +++++++++++++++++
 
-The :code:`wapt-get download <package name>` command downloads the WAPT package
-to the local cache located at :file:`C:\\Program Files\wapt\cache`.
+The :command:`wapt-get download <package name>` command downloads
+the WAPT package to the local cache located at
+:file:`C:\\Program Files\\wapt\\cache`.
 
-The command :code:`wapt-get download tis-7zip` returns:
+The command :command:`wapt-get download tis-7zip` returns:
 
 .. code-block:: bash
 
@@ -54,10 +55,10 @@ The command :code:`wapt-get download tis-7zip` returns:
 wapt-get download-upgrade
 +++++++++++++++++++++++++
 
-The:code:`wapt-get download-upgrade`command downloads packages to be upgraded to
-the local WAPT cache :file:`C:\\Program Files (x86)\wapt\cache`.
+The :command:`wapt-get download-upgrade` command downloads packages
+to be upgraded to the local WAPT cache :file:`C:\\Program Files (x86)\\wapt\\cache`.
 
-The command :code:`wapt-get download-upgrade` returns:
+The command :command:`wapt-get download-upgrade` returns:
 
 .. code-block:: bash
 
@@ -67,13 +68,13 @@ The command :code:`wapt-get download-upgrade` returns:
 wapt-get show
 +++++++++++++
 
-The :code:`wapt-get show <package name>`  command displays informations stored
-in the :file:`Packages` index file.
+The :command:`wapt-get show <package name>` command displays informations
+stored in the :file:`Packages` index file.
 
 If several versions of a package are available on the repository, every version
 of the package will be displayed.
 
-The command :code:`wapt-get show tis-firebird` returns:
+The command :command:`wapt-get show tis-firebird` returns:
 
 .. code-block:: bash
 
@@ -95,10 +96,10 @@ The command :code:`wapt-get show tis-firebird` returns:
 wapt-get list
 +++++++++++++
 
-The :code:`wapt-get list` command lists WAPT packages that are installed
+The :command:`wapt-get list` command lists WAPT packages that are installed
 on the computer.
 
-The command :code:`wapt-get list` returns:
+The command :command:`wapt-get list` returns:
 
 .. list-table::
   :header-rows: 1
@@ -145,10 +146,10 @@ The command :code:`wapt-get list` returns:
 wapt-get upgradedb
 ++++++++++++++++++
 
-The :code:`wapt-get upgradedb` command upgrades the local WAPT database schema
+The :command:`wapt-get upgradedb` command upgrades the local WAPT database schema
 if necessary.
 
-The command :code:`wapt-get upgradedb` returns:
+The command :command:`wapt-get upgradedb` returns:
 
 .. code-block:: bash
 
@@ -158,7 +159,7 @@ The command :code:`wapt-get upgradedb` returns:
 wapt-get setup-tasks - wapt-get enable-tasks - wapt-get disable-tasks
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-The :code:`wapt-get setup-tasks` command adds :command:`update`
+The :command:`wapt-get setup-tasks` command adds :command:`update`
 and :command:`upgrade` scheduled tasks to local host.
 
 .. hint::
@@ -179,28 +180,28 @@ in :file:`wapt-get.ini`:
 
 Then:
 
-* the :code:`wapt-get enable-tasks` command will enable scheduled tasks;
+* the :command:`wapt-get enable-tasks` command will enable scheduled tasks;
 
-* the  :code:`wapt-get disable-tasks` command will disable scheduled tasks;
+* the  :command:`wapt-get disable-tasks` command will disable scheduled tasks;
 
 wapt-get add-upgrade-shutdown - wapt-get remove-upgrade-shutdown
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-* the :code:`wapt-get add-upgrade-shutdown` command
+* the :command:`wapt-get add-upgrade-shutdown` command
   adds a :program:`waptexit` local security policy object,
   enabling the execution of :program:`waptexit` at system shutdown;
 
-* the :code:`wapt-get remove-upgrade-shutdown` command
+* the :command:`wapt-get remove-upgrade-shutdown` command
   removes the :program:`waptexit` local security policy object,
   disabling the execution of :program:`waptexit` during system shutdown;
 
 wapt-get inventory
 ++++++++++++++++++
 
-The :code:`wapt-get inventory` command displays all local inventory
+The :command:`wapt-get inventory` command displays all local inventory
 information in JSON format.
 
-The command :code:`wapt-get inventory` returns:
+The command :command:`wapt-get inventory` returns:
 
 .. code-block:: ini
 
@@ -220,7 +221,7 @@ The command :code:`wapt-get inventory` returns:
 wapt-get update-status
 ++++++++++++++++++++++
 
-The command :code:`wapt-get update-status` resends local status to the WAPT
+The command :command:`wapt-get update-status` resends local status to the WAPT
 inventory server.
 
 .. note::
@@ -231,7 +232,7 @@ inventory server.
 
   To do so, the command to be used is :command:`inventory`.
 
-The command :code:`wapt-get update-status` returns:
+The command :command:`wapt-get update-status` returns:
 
 .. code-block:: bash
 
@@ -240,10 +241,10 @@ The command :code:`wapt-get update-status` returns:
 wapt-get setlocalpassword
 +++++++++++++++++++++++++
 
-The :code:`wapt-get setlocalpassword` command allows to define
+The :command:`wapt-get setlocalpassword` command allows to define
 a local password for WAPT package installations.
 
-The command :code:`wapt-get setlocalpassword` returns:
+The command :command:`wapt-get setlocalpassword` returns:
 
 .. code-block:: bash
 
@@ -254,10 +255,10 @@ The command :code:`wapt-get setlocalpassword` returns:
 wapt-get reset-uuid
 +++++++++++++++++++
 
-The :code:`wapt-get reset-uuid` command retrieves the host :term:`UUID`
+The :command:`wapt-get reset-uuid` command retrieves the host :term:`UUID`
 from BIOS and resends it to the WAPT inventory server.
 
-The command :code:`wapt-get reset-uuid` returns:
+The command :command:`wapt-get reset-uuid` returns:
 
 .. code-block:: bash
 
@@ -266,7 +267,7 @@ The command :code:`wapt-get reset-uuid` returns:
 wapt-get generate-uuid
 ++++++++++++++++++++++
 
-The :code:`wapt-get generate-uuid` command creates a new host :term:`UUID`
+The :command:`wapt-get generate-uuid` command creates a new host :term:`UUID`
 and resends it to the WAPT inventory server.
 
 .. hint::
@@ -277,7 +278,7 @@ and resends it to the WAPT inventory server.
 
   The command :command:`generate-uuid` exist to solve that problem.
 
-The command :code:`wapt-get generate-uuid` returns:
+The command :command:`wapt-get generate-uuid` returns:
 
 .. code-block:: bash
 
@@ -286,14 +287,14 @@ The command :code:`wapt-get generate-uuid` returns:
 wapt-get get-server-certificate
 +++++++++++++++++++++++++++++++
 
-The :code:`wapt-get get-server-certificate` command downloads the SSL
+The :command:`wapt-get get-server-certificate` command downloads the SSL
 certificate from the WAPT Server to use HTTPS to communicate
 with the WAPT Server.
 
 The downloaded certificate is stored in
 :file:`C:\\Program Files(x86)\\wapt\ssl\\server`.
 
-The command :code:`wapt-get get-server-certificate` returns:
+The command :command:`wapt-get get-server-certificate` returns:
 
 .. code-block:: bash
 
@@ -302,11 +303,11 @@ The command :code:`wapt-get get-server-certificate` returns:
 wapt-get enable-check-certificate
 +++++++++++++++++++++++++++++++++
 
-The :code:`wapt-get enable-check-certificate` command downloads the SSL
+The :command:`wapt-get enable-check-certificate` command downloads the SSL
 certificate from the WAPT Server and enables secured communication
 with the server.
 
-The command :code:`wapt-get enable-check-certificate` returns:
+The command :command:`wapt-get enable-check-certificate` returns:
 
 .. code-block:: bash
 
@@ -316,7 +317,7 @@ The command :code:`wapt-get enable-check-certificate` returns:
 wapt-get session-setup
 ++++++++++++++++++++++
 
-The :code:`wapt-get session-setup` command launches user level customizations
+The :command:`wapt-get session-setup` command launches user level customizations
 of installed WAPT packages.
 
 .. hint::
@@ -335,7 +336,7 @@ of installed WAPT packages.
   The argument *ALL* will launch :command:`session-setup` for all installed WAPT
   packages.
 
-The command :code:`wapt-get session-setup ALL` returns:
+The command :command:`wapt-get session-setup ALL` returns:
 
 .. code-block:: bash
 
