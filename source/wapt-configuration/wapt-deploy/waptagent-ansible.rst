@@ -9,6 +9,22 @@
   :description: Deploying the Linux WAPT Agent with Ansible
   :keywords: waptagent, linux, deployment, deploy, Ansible, documentation, WAPT
 
+.. |clap| image:: ../../icons/emoji/clapping-hands-microsoft.png
+  :scale: 50%
+  :alt: Clapping hands
+
+.. |linux_debian| image:: ../../icons/debian.png
+  :scale: 20%
+  :alt: Debian logo
+
+.. |linux_ubuntu| image:: ../../icons/ubuntu.png
+  :scale: 20%
+  :alt: Ubuntu logo
+
+.. |linux_redhat| image:: ../../icons/redhat.png
+  :scale: 20%
+  :alt: Red Hat / CentOS logo
+
 .. _install_waptagent_ansible:
 
 Deploying the Linux WAPT Agent with Ansible
@@ -17,13 +33,11 @@ Deploying the Linux WAPT Agent with Ansible
 To avoid mistakes and automate your WAPT agents deployment on Linux,
 we provide Ansible roles for installing WAPT agents on:
 
-* Debian;
+* |linux_debian|
 
-* Ubuntu;
+* |linux_ubuntu|
 
-* RHEL;
-
-* CentOS;
+* |linux_redhat|
 
 You can explore the role source code
 `by visiting this link on Github <https://github.com/tranquilit/ansible.waptagent>`_.
@@ -104,7 +118,7 @@ Using the Ansible role
 
   ansible-playbook -i ./hosts ./playbooks/deploywaptagent.yml -u user --become --become-method=sudo -K
 
-**Congratulations, you have installed your WAPT agent on your Linux hosts!**
+|clap| **Congratulations, you have installed your WAPT agent on your Linux hosts!**
 
 Role variables
 --------------

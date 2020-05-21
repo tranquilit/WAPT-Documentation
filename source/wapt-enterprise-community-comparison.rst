@@ -11,39 +11,39 @@
 
 .. |date| date::
 
-.. |ok| image:: ./ok.png
+.. |ok| image:: ./icons/ok.png
   :scale: 10%
   :alt: feature available
 
-.. |nok| image:: ./nok.png
+.. |nok| image:: ./icons/nok.png
   :scale: 10%
   :alt: feature not available
 
-.. |visa_secu| image:: ./visasecu_2017_logo-fr.png
+.. |visa_secu| image:: ./icons/visasecu_2017_logo-fr.png
   :scale: 20%
   :alt: French Security Visa
 
-.. |apple| image:: ./apple.png
+.. |apple| image:: ./icons/apple.png
   :scale: 20%
   :alt: Apple logo
 
-.. |windows| image:: ./windows.png
+.. |windows| image:: ./icons/windows.png
   :scale: 20%
   :alt: Windows logo
 
-.. |linux_debian| image:: ./debian.png
+.. |linux_debian| image:: ./icons/debian.png
   :scale: 20%
   :alt: Debian logo
 
-.. |linux_ubuntu| image:: ./ubuntu.png
+.. |linux_ubuntu| image:: ./icons/ubuntu.png
   :scale: 20%
   :alt: Ubuntu logo
 
-.. |linux_redhat| image:: ./redhat.png
+.. |linux_redhat| image:: ./icons/redhat.png
   :scale: 20%
   :alt: Red Hat / CentOS logo
 
-.. |linux_suse| image:: ./suse.png
+.. |linux_suse| image:: ./icons/suse.png
   :scale: 20%
   :alt: Suse logo
 
@@ -55,7 +55,8 @@ Comparing features between the WAPT Enterprise and Community versions
 Current feature list as of |date|
 ---------------------------------
 
-.. list-table::
+.. list-table:: Comparison of features between the Enterprise and the Community
+  version of WAPT as of |date|
   :header-rows: 1
   :widths: 80 10 10
 
@@ -149,6 +150,11 @@ Current feature list as of |date|
 
 Features coming soon
 --------------------
+
+Below is a list of features that we have identified as being really useful
+to WAPT and WAPT's user community and that we have already started to work on.
+No timeline is promised, stay tuned, we are only promising you
+that we are working very hard to achieve these objectives.
 
 .. list-table::
   :header-rows: 1

@@ -24,23 +24,27 @@ Preamble
   the documentation to :ref:`upgrade your base server <upgrade_host_server>`.
 
   This procedure aims to explain the migration of WAPT 1.3 to 1.6, only.
+  
+  .. list-table::
+    :header-rows: 1
+    :widths: 20 40 40
 
-  .. tabularcolumns:: |\X{2}{12}|\X{4}{12}|\X{4}{12}|
-
-  =============== ================== ===========================================
-  Element         WAPT 1.3           WAPT 1.6
-  =============== ================== ===========================================
-  Database        :program:`MongoDB` :program:`PostgreSQL`
-
-  Web server      :program:`Apache2` :program:`Nginx`
-
-  WAPT agent      agent listening on agent initiating and maintaining a
-                  port 8088          websocket with the server
-
-  Signature       sha1 hashes        *Code Signing* certificate is required,
-                                     :file:`control` file attributes are signed
-                                     with sha256 hashes.
-  =============== ================== ===========================================
+    * - Element
+      - WAPT 1.3
+      - WAPT 1.6
+    * - Database
+      - :program:`MongoDB`
+      - :program:`PostgreSQL`
+    * - Web server
+      - :program:`Apache2`
+      - :program:`Nginx`
+    * - WAPT agent
+      - agent listening on agent port 8088
+      - agent initiating and maintaining a websocket with the server.
+    * - Signature
+      - sha1 hashes
+      - a *Code Signing* certificate is required, :file:`control` file attributes
+        are signed with sha256 hashes.
 
   These changes require to follow scrupulously several operations
   for a smooth upgrade.

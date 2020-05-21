@@ -24,22 +24,26 @@ Upgrading WAPT from 1.3 to 1.6 on CentOS/ RedHat
 
   The main differences between these two versions of WAPT are:
 
-  .. tabularcolumns:: |\X{2}{12}|\X{4}{12}|\X{4}{12}|
+  .. list-table::
+    :header-rows: 1
+    :widths: 20 40 40
 
-  =============== ================== ===========================================
-  Element         WAPT 1.3           WAPT 1.6
-  =============== ================== ===========================================
-  Database        :program:`MongoDB` :program:`PostgreSQL`
-
-  Web server      :program:`Apache2` :program:`Nginx`
-
-  WAPT agent      agent listening on agent initiating and maintaining a
-                  port 8088          websocket with the server
-
-  Signature       sha1 hashes        *Code Signing* certificate is required,
-                                     :file:`control` file attributes are signed
-                                     with sha256 hashes.
-  =============== ================== ===========================================
+    * - Element
+      - WAPT 1.3
+      - WAPT 1.6
+    * - Database
+      - :program:`MongoDB`
+      - :program:`PostgreSQL`
+    * - Web server
+      - :program:`Apache2`
+      - :program:`Nginx`
+    * - WAPT agent
+      - agent listening on agent port 8088
+      - agent initiating and maintaining a websocket with the server.
+    * - Signature
+      - sha1 hashes
+      - a *Code Signing* certificate is required, :file:`control` file attributes
+        are signed with sha256 hashes.
 
   These changes require to follow scrupulously several operations
   for a smooth upgrade.

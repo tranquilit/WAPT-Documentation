@@ -3,31 +3,29 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 14:09+0100\n"
+"POT-Creation-Date: 2020-05-21 17:26+0200\n"
 "PO-Revision-Date: 2019-02-27 12:00+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
-"Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.3.4\n"
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:8
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:15
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:8
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:15
 msgid "Upgrading WAPT from 1.3 to 1.6 on Debian"
 msgstr "Mettre à jour WAPT de 1.3 vers 1.6 avec Debian"
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:8
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:8
 msgid "WAPT, 1.3, 1.6, Debian, upgrade, upgrading, documentation"
 msgstr "WAPT, 1.3, 1.6, Debian, mise à jour, upgrade, documentation"
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:18
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:18
 msgid "Preamble"
 msgstr "Prélude"
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:22
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:22
 msgid ""
 "We make the assumption that your WAPT Server is installed on a basic "
 "minimal install of Debian9 (x64). If this is not the case, you may follow"
@@ -38,75 +36,78 @@ msgstr ""
 "8 minimum (x64). Si ce n'est pas le cas, vous pouvez suivre la "
 "documentation de :ref:`mise à jour <upgrade_host_server>`."
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:26
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:26
 msgid "This procedure aims to explain the migration of WAPT 1.3 to 1.6, only."
 msgstr "Cette procédure vise exclusivement la migration de WAPT 1.3 vers WAPT 1.6."
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:31
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:32
 msgid "Element"
 msgstr "Elément"
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:31
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:33
 msgid "WAPT 1.3"
 msgstr "WAPT 1.3"
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:31
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:34
 msgid "WAPT 1.6"
 msgstr "WAPT 1.6"
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:33
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:35
 msgid "Database"
 msgstr "Base de données"
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:33
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:36
 msgid ":program:`MongoDB`"
 msgstr ":program:`MongoDB`"
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:33
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:37
 msgid ":program:`PostgreSQL`"
 msgstr ":program:`PostgreSQL`"
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:35
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:38
 msgid "Web server"
 msgstr "Serveur Web"
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:35
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:39
 msgid ":program:`Apache2`"
 msgstr ":program:`Apache2`"
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:35
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:40
 msgid ":program:`Nginx`"
 msgstr ":program:`Nginx`"
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:37
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:41
 msgid "WAPT agent"
 msgstr "Agent WAPT"
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:37
-msgid "agent listening on port 8088"
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:42
+#, fuzzy
+msgid "agent listening on agent port 8088"
 msgstr "Ecoute en local sur le port 8088"
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:37
-msgid "agent initiating and maintaining a websocket with the server"
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:43
+#, fuzzy
+msgid "agent initiating and maintaining a websocket with the server."
 msgstr "Websocket vers le serveur"
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:40
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:44
 msgid "Signature"
 msgstr "Signature"
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:40
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:45
 msgid "sha1 hashes"
 msgstr "Hashes sha1"
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:40
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:46
+#, fuzzy
 msgid ""
-"*Code Signing* certificate is required, :file:`control` file attributes "
-"are signed with sha256 hashes."
+"a *Code Signing* certificate is required, :file:`control` file attributes"
+" are signed with sha256 hashes."
 msgstr ""
 "Certificat *Code Signing* requis, hashes sha256 Attributs du fichier "
 ":file:`control` signés."
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:45
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:49
 msgid ""
 "These changes require to follow scrupulously several operations for a "
 "smooth upgrade."
@@ -114,35 +115,35 @@ msgstr ""
 "Toutes ces différences induisent les manipulations décrites ci-après à "
 "scrupuleusement effectuer dans l'ordre."
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:49
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:53
 msgid "Install systemd and ca-certificates"
 msgstr "Installer systemd et ca-certificates"
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:51
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:55
 msgid "install systemd"
 msgstr "lancer l'installation de systemd :"
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:57
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:61
 msgid "install ca-certificates:"
 msgstr "installer ca-certificates :"
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:63
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:67
 msgid "restart the WAPT service:"
 msgstr "redémarrer le serveur WAPT :"
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:70
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:74
 msgid "Uninstalling WAPT 1.3 from the Debian server"
 msgstr "Désinstaller WAPT 1.3 du serveur Debian"
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:79
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:83
 msgid "Setting up the GNU/ Linux Debian server"
 msgstr "Configurer le serveur Debian"
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:90
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:94
 msgid "Installing WAPT 1.6 on the Debian server"
 msgstr "Installer la nouvelle version sur le serveur Debian"
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:98
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:102
 msgid ""
 "The installation may ask you for the Kerberos realm. You may ignore it by"
 " pressing :guilabel:`Enter` to go on to the next step."
@@ -150,11 +151,11 @@ msgstr ""
 "L'installation peut vous demander le royaume Kerberos. Vous pouvez "
 "ignorer, appuyer sur :kbd:`Entrer` pour passer l'étape."
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:102
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:106
 msgid "Launching the post-configuration script"
 msgstr "Lancer le script de post-configuration"
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:106
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:110
 msgid ""
 "we advise that you launch the post-configuration steps after each server "
 "upgrade so that the server uses the latest configuration format;"
@@ -162,7 +163,7 @@ msgstr ""
 "il est recommandé de lancer la post-configuration après chaque mise à "
 "jour pour que le serveur utilise le format de configuration le plus sûr ;"
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:109
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:113
 msgid ""
 "it is not required to reset a password for the WAPT console during the "
 "post-configuration step;"
@@ -170,7 +171,7 @@ msgstr ""
 "il n'est pas obligatoire de redéfinir un mot de passe pour la console "
 "WAPT lors de la post-configuration ;"
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:116
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:120
 msgid ""
 "The post-configuration step will offer you to change the password or to "
 "move to the next step, you may choose to change the password if desired."
@@ -178,7 +179,7 @@ msgstr ""
 "Le postconf va vous proposer de changer le mot de passe ou de poursuivre,"
 " vous pouvez change le mot de passe si vous le souhaitez."
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:119
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:123
 msgid ""
 "The post-configuration step will then detect that the current version is "
 "1.3 and it will try to launch the process of migrating the MongoDB "
@@ -188,7 +189,7 @@ msgstr ""
 "tenter de lancer une migration de la base de donnée MongoDB vers "
 "PostgreSQL. Acceptez cette migration."
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:123
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:127
 msgid ""
 "The post-configuration step will next offer you to configure the "
 ":program:`Nginx` web server. Validate this step."
@@ -196,21 +197,21 @@ msgstr ""
 "Le postconf va ensuite vous proposer de configurer :program:`Nginx`, vous"
 " pouvez accepter."
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:127
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:131
 msgid "Starting up WAPT on the Debian server"
 msgstr "Démarrer le serveur WAPT sur le serveur Debian"
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:135
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:139
 msgid "Cleaning up the Debian server"
 msgstr "Nettoyer le serveur Debian"
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:137
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:141
 msgid ""
 "At the end of the migration process, it is necessary to clean the WAPT "
 "Server."
 msgstr "A l'issue de l'installation, il faut absolument nettoyer le serveur WAPT."
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:139
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:143
 msgid ""
 "WAPT will use from now on :program:`Nginx` as its web server and "
 ":program:`PostgreSQL` as its database server."
@@ -218,11 +219,11 @@ msgstr ""
 "En effet, WAPT utilise désormais :program:`Nginx` pour son serveur Web et"
 " :program:`PostgreSQL` pour la base de donnée d'inventaire."
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:149
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:153
 msgid "Installing the new WAPT console"
 msgstr "Installer la nouvelle console WAPT"
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:151
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:155
 msgid ""
 "download :program:`waptsetup`: https://srvwapt.mydomain.lan/wapt"
 "/waptsetup-tis.exe;"
@@ -230,7 +231,7 @@ msgstr ""
 "télécharger :program:`waptsetup` : https://srvwapt.mydomain.lan/wapt"
 "/waptsetup-tis.exe ;"
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:154
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:158
 msgid ""
 "start the installation; the configuration of the WAPT repository and "
 "server URLs has not changed;"
@@ -238,14 +239,14 @@ msgstr ""
 "lancer l'installation ; la configuration des url du repo et du serveur "
 "n'a pas changé ;"
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:157
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:161
 msgid ""
 "open the :program:`waptconsole` by selecting :file:`C:\\\\Program Files "
 "(x86)\\\\wapt\\\\waptconsole.exe` (default location) or "
 ":file:`C:\\\\wapt\\\\waptconsole.exe` (older WAPT versions);"
 msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:161
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:165
 msgid ""
 "check that the WAPT Server works correctly by clicking on the "
 ":guilabel:`wrench icons` and the button :guilabel:`Verify`!"
@@ -254,10 +255,11 @@ msgstr ""
 "petites :guilabel:`clé à molette` et en cliquant sur le bouton "
 ":guilabel:`Vérifier` ;"
 
-#: ../../source/waptserver-update/migration13-16/migration-1.6-debian.rst:164
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/waptserver-update/migration13-16/migration-1.6-debian.rst:168
 msgid ""
 "You may now go to the next step to :ref:`generate the necessary keys "
 "<key-regenerate>`."
 msgstr ""
 "Vous pouvez maintenant passer à la suite pour :ref:`générer les clés de "
 "signature <key-regenerate>` !!"
+

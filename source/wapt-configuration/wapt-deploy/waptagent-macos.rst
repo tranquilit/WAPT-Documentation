@@ -9,6 +9,18 @@
   :description: Deploying the WAPT agent on MacOS
   :keywords: waptagent, MacOS, deployment, deploy, deploying, documentation, WAPT
 
+.. |clap| image:: ../../icons/emoji/clapping-hands-microsoft.png
+  :scale: 50%
+  :alt: Clapping hands
+
+.. |apple| image:: ../../icons/apple.png
+  :scale: 20%
+  :alt: Apple logo
+
+.. |work_in_progress| image:: ../../icons/work-in-progress.png
+  :scale: 20%
+  :alt: Work in Progress
+
 .. _install_waptagent_macos:
 
 Deploying the WAPT agent on MacOS
@@ -89,8 +101,8 @@ in :file:`C:\\Program Files (x86)\\wapt\\ssl\\server\\`.
 Copy your certificate(s) in :file:`/opt/wapt/ssl/server/`
 using :program:`WinSCP` or :program:`rsync`.
 
-
-Then, modify in your config file the path to your certificate.
+Then, modify in your :file:`wapt-get.ini` config file
+the path to your certificate.
 
 .. code-block:: bash
 
@@ -105,20 +117,20 @@ And give absolute path of your cert.
 .. attention::
 
   If you are not using SSL/TLS certificates with your WAPT Server,
-  you must change it in :file:`/opt/wapt/wapt-get.ini` the following lines to 0:
+  you must set the following lines to 0 in :file:`/opt/wapt/wapt-get.ini`:
 
   .. code-block:: bash
 
     verify_cert=0
-
 
 Registering your MacOS agent
 ++++++++++++++++++++++++++++
 
 .. attention::
 
-   * beware, by default, wapt takes the system language by default for packages, you may have to reset the language in wapt-get.ini 
-   locales=fr  
+  * beware, by default, WAPT takes the system language by default for packages,
+    you may have to define the language in :file:`wapt-get.ini`
+    with ``locales=``.
 
 * restart the WAPT service:
 
@@ -134,33 +146,42 @@ Registering your MacOS agent
      sudo wapt-get register
      sudo wapt-get update
 
-Your MacOS Agent is now installed and configured
-and it will now appear in your WAPT Console with a MacOS icon.
+|clap| **Congratulations**, your MacOS Agent is now installed and configured
+and it will now appear in your WAPT Console with a |apple| icon!
 
+Supported features
+++++++++++++++++++
 
+Most features are now supported in version 1.8.2 of WAPT.
 
+Unsupported features
+""""""""""""""""""""
 
-Feature supported
-++++++++++++++++++++++++++++++++++++
+* installing updates on shutdown |work_in_progress|;
 
-Most features are now supported in version 1.8.2 of wapt
+* WAPT console is not currently available on linux |work_in_progress|;
 
-Unsupported
-""""""""""""""""""""""""""
-
-* Installation of updates when shutdown (Work in progress)
-* Wapt console is not currently available on linux (Work in progress)
-* All features directly related to "Windows"
+* Any Windows specific feature;
 
 Particularities with domain functionality
-""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""
 
-Our tests were carried out with an Active directory.
+* testing was carried out with sssd with an Active Directory domain
+  and kerberos authentication;
 
-To force the update of organisational unit of the computer, you can request a gpupdate from the wapt console on the Linux computer.
+* to integrate a Linux machine in the Active Directory domain,
+  you can choose to follow `this documentation <https://dev.tranquil.it/samba/en/samba_config_client/client_join_clients_linux.html>`_
+
+* to force the update of Organisational Units on the Linux host,
+  you can apply a :command:`gpupdate` from the WAPT console;
+
+* in order for Active Directory groups to function properly,
+  you must verify that the :command:`id hostname$` command returns
+  the list of groups the host is member of;
 
 .. attention::
 
-   * We have noticed that the Kerberos LDAP query does not work if the reverse DNS record is not configured correctly for your domain controllers. These records must therefore be created if it does not exist.
-
-  
+   We have noticed that the Kerberos LDAP query does not work
+   if the reverse DNS record is not configured correctly
+   for your domain controllers. These records must therefore
+   be created if they do not exist.

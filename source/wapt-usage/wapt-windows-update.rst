@@ -9,6 +9,10 @@
   :description: Using WAPT Windows Update Agent (WAPTWUA)
   :keywords: WAPT, Windows, Updates, WUA, documentation
 
+.. |enterprise_feature| image:: ../icons/wapt_enterprise_feature_only.png
+ :scale: 100%
+ :alt: WAPT Enterprise feature only
+
 .. _wapt_wua:
 
 .. versionadded:: 1.7 Enterprise
@@ -16,9 +20,7 @@
 Using WAPT Windows Update Agent (WAPTWUA)
 =========================================
 
-.. hint::
-
-  Feature only available with WAPT **Enterprise** version
+|enterprise_feature|
 
 .. note::
 
@@ -34,7 +36,7 @@ Working principle
 
 Regularly, the WAPT server downloads an updated :file:`wsusscn2.cab` file
 from Microsoft servers. By default, downloads happen once a day
-and no download is triggered if the file has not changed
+and no download is triggered if the :file:`wsusscn2.cab` file has not changed
 since the last download.
 
 .. figure:: wapt-wua-diagramme-windows-update.png
@@ -93,51 +95,66 @@ on the ``repo_url`` parameter in :file:`wapt-get.ini`:
 Difference between WAPT Windows Updates and WSUS
 ++++++++++++++++++++++++++++++++++++++++++++++++
 
-WSUS downloads all the updates for selected categories. This can lead to very large update database
+WSUS downloads by default the updates for selected categories.
+This can lead to very a very large update database and lots of storage used.
 
-WAPT Windows Update only downloads updates that have been asked by at least one computer client. This
-helps to keep the local database small (a few 10s of Gigabytes) and it can be easily cleaned up 
+WAPT Windows Update only downloads updates that have been requested
+by at least one computer client. This helps to keep the local database small
+(a few 10s of Gigabytes) and it can be easily cleaned up
 if you want to recover space.
 
 Major OS upgrades
 +++++++++++++++++
 
-Major OS upgrade are upgrade from one OS version to another. That includes, for example, upgrades
-from Windows 7 to Windows 10, or from Windows 10 1803 to Windows 10 1903.
+Major OS upgrade are upgrades from one OS version to another. That includes,
+for example, upgrades from Windows 7 to Windows 10,
+or from Windows 10 1803 to Windows 10 1903.
 
-Major upgrade version are not handled in the same way as minor OS upgrades. Major upgrade are handled 
-throught the download of the new install ISO content (same content as for a fresh install) and 
-running setup.exe with the correct parameters. This process is the same for WSUS, SCCM and WAPT Windows Updates.
+Major upgrade versions are not handled in the same way as minor OS upgrades.
+Major upgrades are handled via the download of the new install ISO content
+(same content as for a fresh install) and running the :command:`setup.exe`
+with the correct parameters. This process is the same for WSUS, SCCM
+and WAPT Windows Updates.
 
-In the case of WAPT Windows Updates, you need to create a OS update package using a template package
-provided on https://store.wapt.fr .
+In the case of WAPT Windows Updates, you need to create a OS update package
+using a template package provided on https://store.wapt.fr.
 
-Drivers upgrades
-++++++++++++++++
+Driver upgrades
++++++++++++++++
 
-Drivers upgrades throught WSUS are not recommanded since it is hard to properly handle side effects. In the
-case of WAPT Windows Updates, drivers are not downloaded since they are not referenced in the wsusscn2.cab 
-files provided by Microsoft.
+Driver upgrades via WSUS are not recommanded since it is hard
+to properly handle side effects. In the case of WAPT Windows Updates,
+**DRIVERS ARE NOT DOWNLOADED** since they are not referenced
+in the :file:`wsusscn2.cab` files provided by Microsoft.
 
-It is recommanded to push drivers updated through a custom package. If the fix is packaged as a msu file you
-just need to launch the package wizard, select your msu file and click create package.
+It is recommanded to push driver updates via a custom WAPT package.
+If the driver patch is packaged as a :mimetype:`msu`,
+you may package it as a standard WAPT package.
 
-If the driver update is package as a zip containing the exe file, you can create a WAPT package containing the
-necessary files and setup.exe binary with the correct silent flag.
+Just select the :file:`msu` file and click :menuselection:`Create package`
+in the WAPT console to launch the wizard for simply creating new WAPT packages.
+
+If the driver update is packaged as a :mimetype:`zip`
+containing the :file:`exe` file, you can create a WAPT package containing the
+necessary files and :program:`setup.exe` binary with the correct silent flag.
 
 Out of band KB
 ++++++++++++++
 
-Microsoft does sometime provides OOB (Out of Band) updates that are not contained in the wsusscn2.cab index.
-Those updates are not included in the main update because they may fix a very specific problem or may have
-drawbacks in some situation.
+Microsoft sometimes provides :abbr:`OOB (Out of Band)` updates
+that are not contained in the :file:`wsusscn2.cab` index.
+Those updates are not included in the main update because
+they may fix a very specific problem or may have drawbacks in some situation.
 
-If you want to deploy a OOB KB updates, you can download it from microsoft catalog https://www.catalog.update.microsoft.com/Home.aspx
-and then package the MSU with the package wizard. 
+If you want to deploy an OOB KB update, you can download it
+from the microsoft catalog https://www.catalog.update.microsoft.com/Home.aspx.
 
-You have to be carefull that OOB updates may break your system, be sure to read the prerequisite on the 
-Microsoft bulletin corresponding to the update.
+Just select the :file:`msu` file and click :menuselection:`Create package`
+in the WAPT console to launch the wizard for simply creating new WAPT packages.
 
+You have to be carefull that OOB updates may break your system,
+be sure to read the prerequisites on the Microsoft bulletin
+corresponding to the update and thoroughly test the update.
 
 .. _wapt_wua_agent:
 
@@ -150,21 +167,47 @@ Add ``[waptwua]`` section.
 
 You then have several options:
 
-.. tabularcolumns:: |\X{5}{12}|\X{7}{12}|
+.. list-table:: Configuration options in the ``[waptwua]`` section
+  in the :file:`wapt-get.ini`
+  :header-rows: 1
+  :widths: 25 50 50
 
-============================== ==================================== ======================================================================================================================================================================
-Options                        Default Value                        Description
-============================== ==================================== ======================================================================================================================================================================
-``enabled``                    False                                Enable or disable WAPTWUA on this machine.
-``allow_direct_download``      False                                Allow direct download of updates from Microsoft servers if the WAPT server is not available
-``default_allow``              False                                Set if missing update is authorized or not by default
-``filter``                     Type='Software' or Type='Driver'     Define the filter to apply for the Windows update scan
-``download_scheduling``        None                                 Set the Windows Update scan recurrence (Will not do anything if *waptwua* package rule or :file:`wsusscn2.cab` file have not changed) (ex: 2h)
-``install_scheduling``         None                                 Set the Windows Update install recurrence (Will do nothing if no update is pending) (ex: 2h)
-``install_at_shutdown``        False                                Install update when the machine will shutdown
-``install_delay``              None                                 Set a deferred installation delay before publication in the repository (ex: 7d)
-``allowed_severities``         None									                Define a severity list that will be automatically accepted during a wapt windows update scan. ex: *Important*, *Critical*, *Moderate*
-============================== ==================================== ======================================================================================================================================================================
+  * - Options
+    - Default Value
+    - Description
+  * - ``enabled``
+    - False
+    - Enable or disable WAPTWUA on this machine.
+  * - ``allow_direct_download``
+    - False
+    - Allow direct download of updates from Microsoft servers
+      if the WAPT server is not available
+  * - ``default_allow``
+    - False
+    - Set if missing update is authorized or not by default
+  * - ``filter``
+    - Type='Software' or Type='Driver'
+    - Define the filter to apply for the Windows update scan
+  * - ``download_scheduling``
+    - None
+    - Set the Windows Update scan recurrence (Will not do anything
+      if *waptwua* package rule or :file:`wsusscn2.cab`
+      file have not changed) (ex: 2h)
+  * - ``install_scheduling``
+    - None
+    - Set the Windows Update install recurrence
+      (Will do nothing if no update is pending) (ex: 2h)
+  * - ``install_at_shutdown``
+    - False
+    - Install update when the machine will shutdown
+  * - ``install_delay``
+    - None
+    - Set a deferred installation delay before publication
+      in the repository (ex: 7d)
+  * - ``allowed_severities``
+    - None
+    - Define a severity list that will be automatically accepted during
+      a WAPT windows update scan. ex: *Important*, *Critical*, *Moderate*
 
 .. hint::
 

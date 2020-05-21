@@ -179,19 +179,28 @@ with these silent switches:
 
 * Additional arguments available for waptdeploy
 
-.. tabularcolumns:: |\X{2}{12}|\X{4}{12}|\X{6}{12}|
+.. list-table:: Description of available options for deploying the WAPT agent
+  silently
+  :header-rows: 1
+  :widths: 25 75
 
-=========================== ================================================================= =================================================================================================
-Settings                    Value                                                             Description
-=========================== ================================================================= =================================================================================================
-``/dnsdomain``              mydomain.lan                                                      Domain in :file:`wapt-get.ini` filled in during installation
-``/wapt_server``            https://srvwapt.mydomain.lan                                      URL of the WAPT server in :file:`wapt-get.ini` filled in during installation
-``/repo_url``               https://repo1.mydomain.lan/wapt                                   URL of the WAPT repository in :file:`wapt-get.ini` filled in during installation
-``/StartPackages=``         basic-group                                                       Group of WAPT packages to install by default
-``/verify_cert=``           1 or relative path :file:`ssl\\server\\srvwapt.mydomain.lan.crt`  Value of ``verify_cert`` entered during installation
-``/CopyServersTrustedCA``   path to a bundle to copy to :file:`ssl\\server`                    Certificate bundle for https connections (to be defined by ``verify_cert``)
-``/CopypackagesTrustedCA``  path to a certificate bundle to copy into :file:`ssl`             Certificate bundle for verifying package signatures
-=========================== ================================================================= =================================================================================================
+  * - Options
+    - Description
+  * - ``/dnsdomain`` = mydomain.lan
+    - Domain in :file:`wapt-get.ini` filled in during installation.
+  * - ``/wapt_server`` = https://srvwapt.mydomain.lan
+    - URL of the WAPT server in :file:`wapt-get.ini` filled in during installation
+  * - ``/repo_url`` = https://repo1.mydomain.lan/wapt
+    - URL of the WAPT repository in :file:`wapt-get.ini` filled in
+      during installation.
+  * - ``/StartPackages`` = basic-group
+    - Group of WAPT packages to install by default.
+  * - ``/verify_cert=`` = 1 or relative path :file:`ssl\\server\\srvwapt.mydomain.lan.crt`
+    - Value of ``verify_cert`` entered during installation
+  * - ``/CopyServersTrustedCA`` = path to a bundle to copy to :file:`ssl\\server`.
+    - Certificate bundle for https connections (to be defined by ``verify_cert``)
+  * - ``/CopypackagesTrustedCA`` = path to a certificate bundle to copy into :file:`ssl`
+    - Certificate bundle for verifying package signatures
 
 .. hint::
 
@@ -328,17 +337,29 @@ Passing arguments
 Additional arguments available for waptdeploy
 """""""""""""""""""""""""""""""""""""""""""""
 
-.. tabularcolumns:: |\X{2}{12}|\X{4}{12}|\X{6}{12}|
+.. list-table:: Additional arguments available for waptdeploy
+  :header-rows: 1
+  :widths: 25 25 50
 
-=================== ==================================================================== ================================================================================================
-Settings            Value                                                                Description
-=================== ==================================================================== ================================================================================================
-``--force``                                                                              Forces the installation of :program:`waptagent.exe` even if the WAPT agent is already installed
-``--waptsetupurl``  https://srvwapt.mydomain.lan/wapt/waptagent.exe                      Gives explicitly the WAPT agent URL/path to use to download the WAPT agent
-``--tasks``         autorunTray,installService,installredist2008,autoUpgradePolicy       Sets :program:`waptagent` installation tasks
-``--wait``          10                                                                   Timeout for installing the WAPT agent.
-``--setupargs=``    /dnsdomain=mydomain.lan /wapt_server= /repo_url=                     Passing additional parameters to :program:`waptagent`
-=================== ==================================================================== ================================================================================================
+  * - Options
+    - Value
+    - Description
+  * - ``--force``
+    -
+    - Forces the installation of :program:`waptagent.exe`
+      even if the WAPT agent is already installed.
+  * - ``--waptsetupurl``
+    - https://srvwapt.mydomain.lan/wapt/waptagent.exe
+    - Gives explicitly the WAPT agent URL/path to use to download the WAPT agent
+  * - ``--tasks``
+    - autorunTray,installService,installredist2008,autoUpgradePolicy
+    - Sets :program:`waptagent` installation tasks
+  * - ``--wait``
+    - 10
+    - Timeout for installing the WAPT agent.
+  * - ``--setupargs=``
+    - /dnsdomain=mydomain.lan /wapt_server= /repo_url=
+    - Passing additional parameters to :program:`waptagent`
 
 .. code-block:: bash
 
@@ -386,6 +407,11 @@ and :file:`waptagent.exe`:
   .. code-block:: bash
 
     --hash="43254648348435423486"--minversion=1.5.1.23 --waptsetupurl=C:\windows\temp\waptagent.exe --wait=10
+
+.. attention::
+
+  The ``hash`` and ``min_version`` arguments will change in reality
+  compared to the documentation as WAPT continues to improve.
 
   .. figure:: waptdeploy-installtask-waptdeploy.png
     :align: center

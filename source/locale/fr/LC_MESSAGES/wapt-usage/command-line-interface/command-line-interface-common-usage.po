@@ -3,23 +3,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.6\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-16 14:09+0100\n"
+"POT-Creation-Date: 2020-05-21 17:39+0200\n"
 "PO-Revision-Date: 2019-02-27 12:03+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
-"Language: fr\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.3.4\n"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:8
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:16
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:8
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:16
 msgid "Using the more common functions in WAPT with the command line"
 msgstr "Utiliser les fonctions les plus courantes de la ligne de commande"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:8
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:8
 msgid ""
 "command line, WAPT, CLI, special commands, update, upgrade, search, "
 "install, remove, clean"
@@ -28,11 +26,11 @@ msgstr ""
 "commande Windows, commandes spéciales, update, upgrade, search, install, "
 "remove, clean, documentation"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:19
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:19
 msgid "wapt-get update"
 msgstr "wapt-get update"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:21
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:21
 msgid ""
 "The :command:`update` command allow to update the list of available "
 "packages."
@@ -40,7 +38,7 @@ msgstr ""
 "La commande :command:`update` permet de mettre à jour la liste des "
 "paquets disponibles."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:23
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:23
 msgid ""
 "The local WAPT agent will download :file:`Packages` file from the private"
 " repository and compare it to its local database."
@@ -48,7 +46,7 @@ msgstr ""
 "L'agent WAPT local télécharge le fichier :file:`Packages` depuis le dépôt"
 " et le compare avec sa base de données."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:26
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:26
 msgid ""
 "If new updates are available, the WAPT agent switches the packages status"
 " to **TO-UPGRADE**;"
@@ -56,7 +54,7 @@ msgstr ""
 "si des mises à jour sont disponibles, l'agent bascule alors les paquets "
 "concernés dans l'état **TO-UPDATE** ;"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:29
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:29
 msgid ""
 "If new software have been added on the repository, they become "
 "downloadable by the WAPT agent;"
@@ -64,7 +62,7 @@ msgstr ""
 "si de nouveaux logiciels ont été ajoutés sur le dépôt, ils deviennent "
 "téléchargeables sur le poste client ;"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:34
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:34
 msgid ""
 "The :command:`update` command does not download packages, it only updates"
 " the local database of packages."
@@ -72,15 +70,15 @@ msgstr ""
 "L'action :command:`update` ne télécharge pas les paquets, elle met "
 "uniquement à jour la base locale des paquets."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:37
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:37
 msgid "The command :code:`wapt-get update` returns:"
 msgstr "La commande :code:`wapt-get update` renvoie :"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:57
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:57
 msgid "wapt-get upgrade"
 msgstr "wapt-get upgrade"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:59
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:59
 msgid ""
 "The command :command:`wapt-get upgrade` allows to launch the installation"
 " of packages waiting to be upgraded or waiting to be installed."
@@ -88,7 +86,7 @@ msgstr ""
 "La commande :command:`upgrade` lance l'installation des paquets en "
 "attente de mise à jour ou d'installation."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:62
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:62
 msgid ""
 "The local WAPT agent downloads if necessary WAPT packages in its local "
 "cache then installs them."
@@ -96,7 +94,7 @@ msgstr ""
 "L'agent WAPT local télécharge si nécessaire les paquets WAPT dans son "
 "cache local puis installe les paquets."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:67
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:67
 msgid ""
 "It's strongly advised to launch a :command:`wapt-get update` command "
 "before launching a :command:`wapt-get upgrade` command;"
@@ -104,21 +102,21 @@ msgstr ""
 "Il est recommandé de lancer un :command:`update` avant de lancer un "
 ":command:`upgrade` ;"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:70
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:70
 msgid ""
 "Without previously launching a :command:`update`, the WAPT agent will "
 "install nothing;"
 msgstr "Sans un :command:`update` préalable, l'agent WAPT n'installera rien ;"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:73
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:73
 msgid "The command :code:`wapt-get upgrade` returns:"
 msgstr "La commande :code:`wapt-get upgrade` renvoie :"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:89
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:89
 msgid "wapt-get search"
 msgstr "wapt-get search"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:91
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:91
 msgid ""
 "The :command:`search` command allows to search for one or more package in"
 " the repositories."
@@ -126,7 +124,7 @@ msgstr ""
 "La commande :command:`search` permet de rechercher un ou des paquet(s) "
 "sur les dépôt enregistrés."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:94
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:94
 msgid ""
 "The search command takes one argument to be looked up in package name and"
 " description."
@@ -134,91 +132,91 @@ msgstr ""
 "La recherche prend un argument en paramètre. Cet argument servira à "
 "chercher dans le nom du paquet et dans sa description."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:97
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:97
 msgid "The command :code:`wapt-get search \"Firefox\"` returns:"
 msgstr "La commande :code:`wapt-get install tis-firefox` renvoie :"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:102
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:103
 msgid "Package name"
-msgstr "Nom du package"
+msgstr ""
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:102
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:104
 msgid "Version"
-msgstr "Version"
+msgstr ""
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:102
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:105
 msgid "Plateform"
-msgstr "Plateforme"
+msgstr ""
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:102
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:106
 msgid "Description"
-msgstr "Description"
+msgstr ""
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:104
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:107
 msgid "tis-firefox"
-msgstr "tis-firefox"
+msgstr ""
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:104
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:108
 msgid "50.0.2-73"
-msgstr "50.0.2-73"
+msgstr ""
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:104
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:105
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:106
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:107
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:109
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:113
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:117
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:121
 msgid "all"
-msgstr "all"
+msgstr ""
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:104
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:110
 msgid "Mozilla Firefox Web Browser in French"
-msgstr "Navigateur Web Firefox Français"
+msgstr ""
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:105
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:111
 msgid "tis-firefox-en"
-msgstr "tis-firefox-en"
+msgstr ""
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:105
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:112
 msgid "50.0.1-58"
-msgstr "50.0.1-58"
+msgstr ""
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:105
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:114
 msgid "Mozilla Firefox Web Browser in English"
-msgstr "Mozilla Web Browser Web Firefox English"
+msgstr ""
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:106
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:115
 msgid "tis-firefox-esr"
-msgstr "tis-firefox-esr"
+msgstr ""
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:106
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:116
 msgid "45.6.0-4"
-msgstr "45.6.0-4"
+msgstr ""
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:106
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:118
 msgid "Mozilla Firefox Web Browser ESR"
-msgstr "Mozilla Firefox Web Browser ESR"
+msgstr ""
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:107
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:119
 msgid "tis-flashplayer"
-msgstr "tis-flashplayer"
+msgstr ""
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:107
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:120
 msgid "24.0.0.186-1"
-msgstr "24.0.0.186-1"
+msgstr ""
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:107
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:122
 msgid "Adobe Flashplayer for Firefox"
-msgstr "Adobe Flashplayer pour Firefox"
+msgstr ""
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:111
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:125
 msgid "wapt-get install"
 msgstr "wapt-get install"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:113
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:127
 msgid "The :command:`install` command launches the installation of a package."
 msgstr "La commande :command:`install` lance l'installation d'un paquet."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:115
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:153
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:129
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:167
 msgid ""
 "The command takes on argument. That argument is the package name with the"
 " repository prefix."
@@ -226,7 +224,7 @@ msgstr ""
 "La commande prend un argument en paramètre. Cet argument est le nom du "
 "paquet contenant le préfixe."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:118
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:132
 msgid ""
 "To install Mozilla Firefox, the command is :code:`wapt-get install "
 "<prefix>-firefox`."
@@ -234,7 +232,7 @@ msgstr ""
 "Pour l'installation de Mozilla Firefox il faudra taper la commande :code"
 ":`wapt-get install <prefix>-firefox`."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:123
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:137
 msgid ""
 "If the package has not been downloaded to cache, :command:`install` will "
 "first download the package to cache, then it will install it."
@@ -242,7 +240,7 @@ msgstr ""
 "Si le paquet n'est pas téléchargé au préalable, la commande "
 ":command:`install` téléchargera préalablement le paquet en cache."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:128
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:142
 msgid ""
 "Installing a WAPT package with :command:`install` does not add the "
 "package as a dependency to the host."
@@ -250,7 +248,7 @@ msgstr ""
 "L'installation d'un paquet WAPT avec :command:`install` n'ajoute pas le "
 "paquet en dépendance au poste."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:131
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:145
 msgid ""
 "The package is installed on the machine, but if the computer is re-"
 "imaged, the package will not be reinstalled automatically."
@@ -258,19 +256,19 @@ msgstr ""
 "Il est installé sur la machine, mais en cas de réinstallation du poste il"
 " ne sera pas réinstallé automatiquement."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:134
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:148
 msgid "The command :code:`wapt-get install tis-firefox` returns:"
 msgstr "La commande :code:`wapt-get install tis-firefox` renvoie :"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:149
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:163
 msgid "wapt-get remove"
 msgstr "wapt-get remove"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:151
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:165
 msgid "The :command:`remove <package name>` command removes a package."
 msgstr "La commande :command:`remove` lance la désinstallation d'un paquet."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:156
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:170
 msgid ""
 "To remove Mozilla Firefox, the command is :command:`wapt-get remove "
 "<prefix>-firefox`."
@@ -278,7 +276,7 @@ msgstr ""
 "Pour désinstaller Mozilla Firefox il faudra taper la commande : :command"
 ":`wapt-get remove <prefix>-firefox`."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:161
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:175
 msgid ""
 "Removing a WAPT package with :command:`remove` does not remove the "
 "package dependency on the host."
@@ -286,7 +284,7 @@ msgstr ""
 "La désinstallation d'un paquet WAPT avec :command:`remove` ne supprime "
 "pas la dépendance entre le paquet machine et le paquet."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:164
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:178
 msgid ""
 "**The package will effectively be uninstalled from the machine, but it "
 "will automatically be reinstalled on the next :command:`upgrade`.**"
@@ -294,7 +292,7 @@ msgstr ""
 "Le paquet sera effectivement désinstallé de la machine, mais il sera "
 "réinstallé automatiquement lors du prochain :command:`upgrade`."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:167
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:181
 msgid ""
 "To completely remove a package from a host, do a :command:`remove` for "
 "the targeted package, then edit the host configuration via the WAPT "
@@ -304,21 +302,21 @@ msgstr ""
 ":command:`remove` puis éditer la configuration de la machine via la "
 "console et supprimer la dépendance au paquet."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:171
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:185
 msgid "The command :code:`wapt-get remove tis-firefox` returns:"
 msgstr "La commande :code:`wapt-get remove tis-firefox` renvoie :"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:181
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:195
 msgid "wapt-get clean"
 msgstr "wapt-get clean"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:183
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:197
 msgid ""
 "The :command:`clean` command removes packages from the "
 ":file:`C:\\\\Program Files (x86)\\\\wapt\\\\cache` folder."
 msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:186
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:200
 msgid ""
 "The :command:`clean` command is launched after each upgrade to save disk "
 "space."
@@ -326,6 +324,58 @@ msgstr ""
 "La commande :command:`clean` est lancée à chaque fin de mise à jour pour "
 "économiser le stockage sur le disque dur de la machine."
 
-#: ../../source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:188
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-common-usage.rst:202
 msgid "The command :code:`wapt-get clean` returns:"
 msgstr "La commande :code:`wapt-get clean` renvoie :"
+
+#~ msgid "Package name"
+#~ msgstr "Nom du package"
+
+#~ msgid "Version"
+#~ msgstr "Version"
+
+#~ msgid "Plateform"
+#~ msgstr "Plateforme"
+
+#~ msgid "Description"
+#~ msgstr "Description"
+
+#~ msgid "tis-firefox"
+#~ msgstr "tis-firefox"
+
+#~ msgid "50.0.2-73"
+#~ msgstr "50.0.2-73"
+
+#~ msgid "all"
+#~ msgstr "all"
+
+#~ msgid "Mozilla Firefox Web Browser in French"
+#~ msgstr "Navigateur Web Firefox Français"
+
+#~ msgid "tis-firefox-en"
+#~ msgstr "tis-firefox-en"
+
+#~ msgid "50.0.1-58"
+#~ msgstr "50.0.1-58"
+
+#~ msgid "Mozilla Firefox Web Browser in English"
+#~ msgstr "Mozilla Web Browser Web Firefox English"
+
+#~ msgid "tis-firefox-esr"
+#~ msgstr "tis-firefox-esr"
+
+#~ msgid "45.6.0-4"
+#~ msgstr "45.6.0-4"
+
+#~ msgid "Mozilla Firefox Web Browser ESR"
+#~ msgstr "Mozilla Firefox Web Browser ESR"
+
+#~ msgid "tis-flashplayer"
+#~ msgstr "tis-flashplayer"
+
+#~ msgid "24.0.0.186-1"
+#~ msgstr "24.0.0.186-1"
+
+#~ msgid "Adobe Flashplayer for Firefox"
+#~ msgstr "Adobe Flashplayer pour Firefox"
+

@@ -221,14 +221,15 @@ The post-configuration is now finished.
 
 Listing of post-configuration script options:
 
-.. tabularcolumns:: |\X{2}{12}|\X{10}{12}|
+.. list-table::
+  :header-rows: 1
+  :widths: 40 60
 
-=============== ================================================================
-Flag            Definition
-=============== ================================================================
-*--force-https* Configures :program:`Nginx` so that *port 80
-                is permanently redirected to 443*
-=============== ================================================================
+  * - Flag
+    - Description
+  * - ``--force-https``
+    - Configures :program:`Nginx` so that *port 80 is permanently
+      redirected to 443*
 
 The WAPT Server is now ready.
 

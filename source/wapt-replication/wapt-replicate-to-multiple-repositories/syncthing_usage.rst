@@ -1,14 +1,38 @@
+.. Reminder for header structure:
+   Niveau 1: ====================
+   Niveau 2: --------------------
+   Niveau 3: ++++++++++++++++++++
+   Niveau 4: """"""""""""""""""""
+   Niveau 5: ^^^^^^^^^^^^^^^^^^^^
+
+.. meta::
+  :description: (Deprecated) Introducing Syncthing
+  :keywords: Documentation, WAPT, Syncthing, deprecated
+
+.. |deprecated| image:: ../../icons/deprecated.png
+  :scale: 100%
+  :alt: This feature is deprecated
 
 .. _syncthing_usage:
 
-(Deprecated) Introducing Syncthing
-----------------------------------
+(Deprecated) Replicating repositories with Syncthing
+----------------------------------------------------
 
 .. hint::
 
-  WAPT repositories synchronization is now native in WAPT Enterprise.
+  **WAPT repositories synchronization is now native in WAPT Enterprise**.
 
   You can find the new documentation here: :ref:`replication_usage`.
+
+.. warning::
+
+  This part of the documentation is no longer maintained. You may use it
+  to collect ideas for doing your replication while using the Community version.
+
+Introducing Syncthing
+---------------------
+
+|deprecated|
 
 Syncthing is a multi-OS open source peer to peer synchronization utility.
 
@@ -212,25 +236,23 @@ on https://srvwapt.mydomain.lan:8384.
 
 By default, the following parameters are active in Syncthing:
 
-.. tabularcolumns:: |\X{4}{12}|\X{8}{12}|
+.. list-table:: Syncthing parameters
+  :header-rows: 1
+  :widths: 40 60
 
-========================= ======================================================
-Options                   Definition
-========================= ======================================================
-Activate the :term:`NAT`  Use a UPnP port mapping for incoming synchronization
-                          connections.
-
-Local discovery           Syncthing will then broadcast to announce itself
-                          to other Syncthings.
-
-Global discovery          Syncthing registers on an external cloud service
-                          and can use this cloud based service to search
-                          other Syncthing devices.
-Possible relay            The use of relays allows to use external servers
-                          to relay the communications. The relay is activated
-                          by default but it will be used only if two devices
-                          can not communicate directly between themselves.
-========================= ======================================================
+  * - Options
+    - Description
+  * - Activate the :term:`NAT`
+    - Use a UPnP port mapping for incoming synchronization connections.
+  * - Local discovery
+    - Syncthing will then broadcast to announce itself to other Syncthings.
+  * - Global discovery
+    - Syncthing registers on an external cloud service and can use
+      this cloud based service to search other Syncthing devices.
+  * - Possible relay
+    - The use of relays allows to use external servers to relay the communications.
+      The relay is activated by default but it will be used only if two devices
+      can not communicate directly between themselves.
 
 This operating mode simplifies the global setup but it is not the most advisable
 method in relation to security.
