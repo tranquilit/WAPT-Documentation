@@ -29,13 +29,10 @@
   :scale: 20%
   :alt: Red Hat / CentOS logo
 
-<<<<<<< HEAD
 .. |work_in_progress| image:: ../../icons/work-in-progress.png
   :scale: 20%
   :alt: Work in Progress
 
-=======
->>>>>>> a9773511543ed516a430f067694dde166f703f57
 .. _install_waptagent_linux:
 
 Deploying the WAPT Agent on Linux
@@ -264,15 +261,9 @@ Most features are now supported in version 1.8.2 of WAPT.
 Unsupported features
 """"""""""""""""""""
 
-<<<<<<< HEAD
 * installing updates on shutdown |work_in_progress|;
 
 * WAPT console is not currently available on linux |work_in_progress|;
-=======
-* installing updates on shutdown (Work in progress);
-
-* WAPT console is not currently available on linux (Work in progress);
->>>>>>> a9773511543ed516a430f067694dde166f703f57
 
 * Any Windows specific feature;
 
