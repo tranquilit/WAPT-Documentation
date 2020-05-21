@@ -17,13 +17,10 @@
   :scale: 20%
   :alt: Apple logo
 
-<<<<<<< HEAD
 .. |work_in_progress| image:: ../../icons/work-in-progress.png
   :scale: 20%
   :alt: Work in Progress
 
-=======
->>>>>>> a9773511543ed516a430f067694dde166f703f57
 .. _install_waptagent_macos:
 
 Deploying the WAPT agent on MacOS
@@ -151,7 +148,6 @@ Registering your MacOS agent
 
 |clap| **Congratulations**, your MacOS Agent is now installed and configured
 and it will now appear in your WAPT Console with a |apple| icon!
-<<<<<<< HEAD
 
 Supported features
 ++++++++++++++++++
@@ -160,8 +156,6 @@ Most features are now supported in version 1.8.2 of WAPT.
 
 Unsupported features
 """"""""""""""""""""
-=======
->>>>>>> a9773511543ed516a430f067694dde166f703f57
 
 * installing updates on shutdown |work_in_progress|;
 
@@ -181,7 +175,6 @@ Particularities with domain functionality
 * to force the update of Organisational Units on the Linux host,
   you can apply a :command:`gpupdate` from the WAPT console;
 
-<<<<<<< HEAD
 * in order for Active Directory groups to function properly,
   you must verify that the :command:`id hostname$` command returns
   the list of groups the host is member of;
@@ -192,6 +185,3 @@ Particularities with domain functionality
    if the reverse DNS record is not configured correctly
    for your domain controllers. These records must therefore
    be created if they do not exist.
-=======
-   * We have noticed that the Kerberos LDAP query does not work if the reverse DNS record is not configured correctly for your domain controllers. These records must therefore be created if it does not exist.
->>>>>>> a9773511543ed516a430f067694dde166f703f57
