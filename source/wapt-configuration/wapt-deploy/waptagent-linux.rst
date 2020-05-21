@@ -9,6 +9,26 @@
   :description: Deploying the WAPT Agent on Linux
   :keywords: waptagent, linux, deployment, deploy, deploying, documentation, WAPT
 
+.. |clap| image:: ../../icons/emoji/clapping-hands-microsoft.png
+  :scale: 50%
+  :alt: Clapping hands emoji
+
+.. |pinguin| image:: ../../icons/emoji/pinguin.png
+  :scale: 20%
+  :alt: Pinguin emoji
+
+.. |linux_debian| image:: ../../icons/debian.png
+  :scale: 20%
+  :alt: Debian logo
+
+.. |linux_ubuntu| image:: ../../icons/ubuntu.png
+  :scale: 20%
+  :alt: Ubuntu logo
+
+.. |linux_redhat| image:: ../../icons/redhat.png
+  :scale: 20%
+  :alt: Red Hat / CentOS logo
+
 .. _install_waptagent_linux:
 
 Deploying the WAPT Agent on Linux
@@ -17,12 +37,12 @@ Deploying the WAPT Agent on Linux
 .. versionadded:: 1.8
 
 Starting with WAPT 1.8, a Linux agent is available
-for Linux Debian / Linux CentOS.
+for |linux_debian| / |linux_ubuntu| and |linux_redhat|.
 
 .. note::
 
-  * the following procedure installs a WAPT agent using Tranquil IT's repositories
-    for Debian/CentOS;
+  * the following procedure installs a WAPT agent using Tranquil IT's
+    repositories for Debian/CentOS;
 
   * if you wish to install it manually, you can look
     for your `corresponding version <https://wapt.tranquil.it/wapt/releases/>`_;
@@ -208,8 +228,9 @@ Registering your Linux agent
 
 .. attention::
 
-   * beware, by default, wapt takes the system language by default for packages, you may have to reset the language in wapt-get.ini 
-   locales=fr  
+  * beware, by default, WAPT takes the system language by default for packages,
+    you may have to define the language in :file:`wapt-get.ini`
+    with ``locales=``.
 
 * restart the WAPT service:
 
@@ -225,35 +246,42 @@ Registering your Linux agent
      wapt-get register
      wapt-get update
 
-Your Linux Agent is now installed and configured
-and it will now appear in your WAPT Console with a penguin icon!!
+|clap| **Congratulations**, your Linux Agent is now installed and configured
+and it will now appear in your WAPT Console with a |pinguin| icon!!
 
+Supported features
+++++++++++++++++++
 
-Feature supported
-++++++++++++++++++++++++++++++++++++
+Most features are now supported in version 1.8.2 of WAPT.
 
+Unsupported features
+""""""""""""""""""""
 
-Most features are now supported in version 1.8.2 of wapt
+* installing updates on shutdown (Work in progress);
 
-Unsupported
-""""""""""""""""""""""""""
+* WAPT console is not currently available on linux (Work in progress);
 
-* Installation of updates when shutdown (Work in progress)
-* Wapt console is not currently available on linux (Work in progress)
-* All features directly related to "Windows"
+* Any Windows specific feature;
 
 Particularities with domain functionality
-""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""
 
-Our tests were carried out with sssd with domain active directory (authentification kerberos).  
+* testing was carried out with sssd with an Active Directory domain
+  and kerberos authentication;
 
-To integrate a Linux machine in the Active Directory domain, you can follow this documentation: https://dev.tranquil.it/samba/en/samba_config_client/client_join_clients_linux.html
+* to integrate a Linux machine in the Active Directory domain,
+  you can choose to follow `this documentation <https://dev.tranquil.it/samba/en/samba_config_client/client_join_clients_linux.html>`_
 
-To force the update of organisational unit of the computer, you can request a gpupdate from the wapt console on the Linux computer.
+* to force the update of Organisational Units on the Linux host,
+  you can apply a :command:`gpupdate` from the WAPT console;
 
-In order for ad groups to function properly you must verify that the "id hostname$" command returns the groups list of the machine.
+* in order for Active Directory groups to function properly,
+  you must verify that the :command:`id hostname$` command returns
+  the list of groups the host is member of;
 
 .. attention::
 
-   We have noticed that the Kerberos LDAP query does not work if the reverse DNS record is not configured correctly for your domain controllers. These records must therefore be created if it does not exist.
-   
+   We have noticed that the Kerberos LDAP query does not work
+   if the reverse DNS record is not configured correctly
+   for your domain controllers. These records must therefore
+   be created if they do not exist.

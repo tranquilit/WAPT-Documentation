@@ -9,6 +9,14 @@
   :description: Deploying the WAPT agent on MacOS
   :keywords: waptagent, MacOS, deployment, deploy, deploying, documentation, WAPT
 
+.. |clap| image:: ../../icons/emoji/clapping-hands-microsoft.png
+  :scale: 50%
+  :alt: Clapping hands
+
+.. |apple| image:: ../../icons/apple.png
+  :scale: 20%
+  :alt: Apple logo
+
 .. _install_waptagent_macos:
 
 Deploying the WAPT agent on MacOS
@@ -89,8 +97,8 @@ in :file:`C:\\Program Files (x86)\\wapt\\ssl\\server\\`.
 Copy your certificate(s) in :file:`/opt/wapt/ssl/server/`
 using :program:`WinSCP` or :program:`rsync`.
 
-
-Then, modify in your config file the path to your certificate.
+Then, modify in your :file:`wapt-get.ini` config file
+the path to your certificate.
 
 .. code-block:: bash
 
@@ -105,20 +113,20 @@ And give absolute path of your cert.
 .. attention::
 
   If you are not using SSL/TLS certificates with your WAPT Server,
-  you must change it in :file:`/opt/wapt/wapt-get.ini` the following lines to 0:
+  you must set the following lines to 0 in :file:`/opt/wapt/wapt-get.ini`:
 
   .. code-block:: bash
 
     verify_cert=0
-
 
 Registering your MacOS agent
 ++++++++++++++++++++++++++++
 
 .. attention::
 
-   * beware, by default, wapt takes the system language by default for packages, you may have to reset the language in wapt-get.ini 
-   locales=fr  
+  * beware, by default, WAPT takes the system language by default for packages,
+    you may have to define the language in :file:`wapt-get.ini`
+    with ``locales=``.
 
 * restart the WAPT service:
 
@@ -134,11 +142,8 @@ Registering your MacOS agent
      sudo wapt-get register
      sudo wapt-get update
 
-Your MacOS Agent is now installed and configured
-and it will now appear in your WAPT Console with a MacOS icon.
-
-
-
+|clap| **Congratulations**, your MacOS Agent is now installed and configured
+and it will now appear in your WAPT Console with a |apple| icon!
 
 Feature supported
 ++++++++++++++++++++++++++++++++++++
@@ -162,5 +167,3 @@ To force the update of organisational unit of the computer, you can request a gp
 .. attention::
 
    * We have noticed that the Kerberos LDAP query does not work if the reverse DNS record is not configured correctly for your domain controllers. These records must therefore be created if it does not exist.
-
-  

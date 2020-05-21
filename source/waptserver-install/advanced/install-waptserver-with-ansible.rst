@@ -10,6 +10,22 @@
   :description: Installing WAPT Server with Ansible
   :keywords: Ansible, WAPT, install, server, documentation
 
+.. |clap| image:: ../../icons/emoji/clapping-hands-microsoft.png
+  :scale: 50%
+  :alt: Clapping hands
+
+.. |linux_debian| image:: ./icons/debian.png
+  :scale: 20%
+  :alt: Debian logo
+
+.. |linux_ubuntu| image:: ./icons/ubuntu.png
+  :scale: 20%
+  :alt: Ubuntu logo
+
+.. |linux_redhat| image:: ./icons/redhat.png
+  :scale: 20%
+  :alt: Red Hat / CentOS logo
+
 .. _install_waptserver_ansible:
 
 Installing WAPT Server with Ansible
@@ -78,7 +94,7 @@ Using the Ansible role
 
     ansible-playbook -i ./hosts ./playbooks/wapt.yml -u user --become --become-method=sudo -K
 
-**Congratulations, you have installed your WAPT server on your Linux server!**
+|clap| **Congratulations, you have installed your WAPT server on your Linux server!**
 
 Role variables
 --------------

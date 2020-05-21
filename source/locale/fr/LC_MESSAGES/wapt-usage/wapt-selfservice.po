@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-27 14:46+0200\n"
+"POT-Creation-Date: 2020-05-21 17:26+0200\n"
 "PO-Revision-Date: 2020-02-18 11:41+0100\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
@@ -16,24 +16,29 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:8
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:15
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:8
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:23
 msgid "Using WAPT SelfService"
 msgstr "Utiliser le WAPT SelfService"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:8
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:8
 msgid "WAPT, selfservice, documentation"
 msgstr "WAPT, self-service, documentation"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:17
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:25
+#, fuzzy
+msgid "|enterprise_feature|"
+msgstr "Enterprise"
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:27
 msgid "Enterprise"
 msgstr "Enterprise"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:20
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:30
 msgid "Presentation"
 msgstr "Présentation"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:22
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:32
 msgid ""
 "With WAPT 1.7 **Enterprise** you can now filter the list of self-service "
 "packages available for your users."
@@ -41,7 +46,7 @@ msgstr ""
 "Avec WAPT 1.7, vous pouvez maintenant filtrer les paquets en libre-"
 "service disponibles pour vos utilisateurs."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:25
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:35
 msgid ""
 "Your users will be able to install a selection of WAPT packages without "
 "having to be a :term:`Local Administrator` on their desktop."
@@ -49,7 +54,7 @@ msgstr ""
 "Vos utilisateurs pourront installer une sélection de paquets WAPT sans "
 "nécessiter de droits :term:`Administrateur Local`."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:28
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:38
 msgid ""
 "The :term:`Users` gain in autonomy while deploying software and "
 "configurations that are trusted and authorized by the "
@@ -61,24 +66,25 @@ msgstr ""
 "Il s'agit d'un gain de temps pour le service d'assistance informatique de"
 " l'Organisation."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:33
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:43
 msgid "How does it work?"
 msgstr "Comment ça fonctionne ?"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:35
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:45
+#, fuzzy
 msgid ""
 "With WAPT 1.7 **Enterprise**, a new type of WAPT package exists beside "
-"*base*, *group*, *host* and *unit* packages: they are **selfservice** "
-"packages."
+"*base*, *group*, *host*, *profile* and *unit* packages: they are "
+"**selfservice** packages."
 msgstr ""
 "Avec WAPT 1.7, un nouveau type de paquet WAPT existe à côté des paquets "
 "*base*, *group*, *host* et *unit* : ce sont des paquets **self-service**."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:42
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:53
 msgid "Create a *selfservice* package"
 msgstr "Créer un paquet *self-service*"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:44
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:55
 msgid ""
 "A *selfservice* package may now be deployed on hosts to list the "
 "different self-service rules that apply to the host."
@@ -87,17 +93,17 @@ msgstr ""
 "pour lister les différentes règles de self-service qui s'appliquent à la "
 "machine."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:48
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:59
 msgid "How to use the **selfservice** feature?"
 msgstr "Comment utiliser la focntionnalité de *self-service* ?"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:52
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:63
 msgid "The **selfservice** feature is only available with WAPT **Enterprise**."
 msgstr ""
 "La fonctionnalité **Self-Service** est uniquement disponible dans la "
 "version **WAPT Enterprise**."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:54
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:65
 msgid ""
 "In the **Community** version, only Local Administrator and members of the"
 " *waptselfservice* group can access self-service on the agent."
@@ -106,7 +112,7 @@ msgstr ""
 "membres du groupe *waptselfservice* peuvent accéder au libre-service sur "
 "l'agent."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:57
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:68
 msgid ""
 "In the **Community** version, it is not possible to filter the packages "
 "made accessible to the user."
@@ -114,21 +120,21 @@ msgstr ""
 "Dans la version **Community**, il n'est pas possible de filtrer les "
 "paquets rendus accessibles à l'utilisateur."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:60
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:71
 msgid "In the console go to the tab :guilabel:`Self-service` rules."
 msgstr "Dans la console, allez dans l'onglet :guilabel:`Règles de self-service`."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:62
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:73
 msgid "You can now create your first *selfservice* rule package."
 msgstr ""
 "Vous pouvez maintenant créer votre premier paquet de règles *self-"
 "service*."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:64
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:75
 msgid "give a name to your new *selfservice* package;"
 msgstr "donner un nom au nouveau paquet de *self-service* ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:66
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:77
 msgid ""
 "click on :guilabel:`Add` to add an Active Directory group (at the bottom "
 "left);"
@@ -136,7 +142,7 @@ msgstr ""
 "cliquer sur :guilabel:`Ajouter` pour ajouter un groupe Active Directory "
 "(en bas à gauche) ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:68
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:79
 msgid ""
 "name the *selfservice* group (with :kbd:`F2` or type directly into the "
 "cell);"
@@ -144,7 +150,7 @@ msgstr ""
 "nommer le groupe *self-service* (avec :kbd:`F2` ou tapez directement dans"
 " la cellule) ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:70
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:81
 msgid ""
 "drag the allowed software and configuration packages for this "
 "*selfservice* group into the central column;"
@@ -152,15 +158,15 @@ msgstr ""
 "faire glisser les paquets logiciels et les paquets de configuration "
 "autorisés pour ce groupe *self-service* dans la colonne centrale ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:73
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:84
 msgid "add as many groups as you want in the package;"
 msgstr "ajouter autant de groupes que nécessaire dans le paquet ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:75
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:86
 msgid "save the package and deploy the package on your selection of hosts;"
 msgstr "enregistrer le paquet et le déployer sur une sélection de machines ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:77
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:88
 msgid ""
 "once the package is deployed, only allowed packages listed in the "
 "*selfservice* group(s) of which the :term:`User` is a member will be "
@@ -170,28 +176,27 @@ msgstr ""
 " groupe(s) *self-service* dont l':term:`Utilisateur` est membre seront "
 "affichés pour l':term:`Utilisateur` actuellement connecté ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:83
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:94
+#, fuzzy
 msgid ""
-"If a group appears in multiple *selfservice* packages, then the rules are"
-" merged."
+"if a group appears in multiple *selfservice* packages, then the rules are"
+" merged;"
 msgstr ""
 "Si un groupe apparaît dans plusieurs paquets *self-service*, alors les "
 "règles seront fusionnées."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:84
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:97
 msgid ""
-"Active Directory security groups are meant to be used, but it also works "
-"with local security groups for Workgroup/out-of-domain hosts."
+"the authentication used is system authentication, local users and groups,"
+" but if the machine is in a domain then authentication and groups will "
+"also work with users and groups in the domain;"
 msgstr ""
-"Par défaut ce sont les groupes de sécurité Active Directory qui doivent être utilisés, "
-"mais il est également possible d'utiliser des groupes de sécurité locaux pour les postes"
-"en Workgroup/hors-domaine."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:88
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:102
 msgid "How to use the self-service on the user station?"
 msgstr "Comment utiliser la focntionnalité de *self-service* ?"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:90
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:104
 msgid ""
 "The self-service is accessible to users in the start menu under the name "
 ":guilabel:`Self-Service software WAPT`."
@@ -199,11 +204,11 @@ msgstr ""
 "Le self service est accessible aux utilisateurs dans le menu démarrer "
 "sous le nom \"Self service logiciels WAPT\"."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:93
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:107
 msgid "It is also available directly in :file:`<base>\\\\waptself.exe`."
 msgstr "Il est aussi disponible directement à :file:`<base>\\\\waptself.exe`"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:95
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:109
 msgid ""
 "The login and password to enter when launching the self-service are the "
 "User's credentials (local or Active Directory credentials)."
@@ -211,7 +216,7 @@ msgstr ""
 "Les identifiants à entrer au démarrage du self service sont ceux de "
 "Windows (local ou active directory)."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:98
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:112
 msgid ""
 "The self-service then displays a list of packages available for "
 "installation."
@@ -219,7 +224,7 @@ msgstr ""
 "Le self service affiche ensuite une liste de paquets disponibles pour "
 "l'installation."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:104
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:118
 msgid ""
 "the user can have more details on each package with the :guilabel:`+` "
 "icon;"
@@ -227,13 +232,13 @@ msgstr ""
 "L'utilisateur peut avoir plus de détails sur chaque paquets en cliquant "
 "sur le \"+\"."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:106
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:120
 msgid "different filters are available for the user on the left side panel;"
 msgstr ""
 "Différents filtres sont disponibles pour l'utilisateur sur le panneau de "
 "gauche."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:108
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:122
 msgid ""
 "the :guilabel:`Update Catalog` button is used to force a :command:`wapt-"
 "get update` on the WAPT agent;"
@@ -241,7 +246,7 @@ msgstr ""
 "Le bouton \"mettre à jour le catalogue\" est utilisé pour forcer un "
 "\"wapt-get update\" sur l'agent WAPT."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:111
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:125
 msgid ""
 "the list of package categories is displayed to the user. To add a "
 "category to the list, you must specify the category in the *categories* "
@@ -252,7 +257,7 @@ msgstr ""
 "nouvelle catégorie dans le fichier control de paquet souhaité. "
 "Précisément dans le champ \"categories\"."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:116
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:130
 msgid ""
 "the current task list of the WAPT agent is available with the "
 ":guilabel:`task bar` button;"
@@ -260,7 +265,7 @@ msgstr ""
 "Les tâches actuellement en cours par l'agent wapt sont disponibles en "
 "cliquant sur le bouton \"task bar\"."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:119
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:133
 msgid ""
 "it is possible to change the language of the interface with the "
 ":guilabel:`configuration` button at the bottom left."
@@ -268,25 +273,26 @@ msgstr ""
 "Il est possible de changer le langage de l'interface en cliquant sur le "
 "bouton de configuration en bas à gauche de l'interface."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:123
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:137
 msgid "Customizing the Self Service interface"
 msgstr "Personnaliser l'interface du libre-service"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:126
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:140
 msgid "Adding the Logo of your Organisation"
 msgstr "Ajouter le logo de votre organisation"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:128
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:142
+#, fuzzy
 msgid ""
-"It is possible to change the logo that appears in the self-service "
-"interface and therefore improve the acceptation of the Self Service "
-"feature by your users."
+"In the **Enterprise version only of WAPT**, it is possible to change the "
+"logo that appears in the self-service interface and therefore improve the"
+" acceptation of the Self Service feature by your users."
 msgstr ""
 "Il est possible de modifier le logo qui apparaît dans l'interface de "
 "libre-service et donc d'améliorer l'acceptation de la fonction de libre-"
 "service par vos utilisateurs."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:131
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:146
 msgid ""
 "To do this, simply place the logo you want in :file:`<wapt>\\\\templates"
 "\\\\waptself-logo.png`"
@@ -294,7 +300,7 @@ msgstr ""
 "Pour faire cela, placez simplement le logo que vous souhaitez à cet "
 "emplacement :  :file:`<wapt>\\\\templates\\\\waptself-logo.png`"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:136
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:151
 msgid ""
 "It is highly recommended to use a :mimetype:`.png` file with a *200 x "
 "150px* resolution."
@@ -302,51 +308,51 @@ msgstr ""
 "Il est hautement recommandé d'utiliser une image PNG de dimension "
 "200*150px."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:140
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:155
 msgid "Managing package categories"
 msgstr "Gérer les catégories de paquets"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:142
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:157
 msgid "Default categories are:"
 msgstr "Les catégories par défaut sont :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:144
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:159
 msgid "Internet;"
 msgstr "Internet ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:145
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:160
 msgid "Utilities;"
 msgstr "Utilities ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:146
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:161
 msgid "Messaging;"
 msgstr "Messaging ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:147
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:162
 msgid "Security;"
 msgstr "Security ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:148
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:163
 msgid "System and network;"
 msgstr "System and network ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:149
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:164
 msgid "Storage;"
 msgstr "Storage ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:150
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:165
 msgid "Media;"
 msgstr "Media ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:151
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:166
 msgid "Development;"
 msgstr "Development ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:152
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:167
 msgid "Office​​;"
 msgstr "Office​​;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:154
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:169
 msgid ""
 "You can create your own categories easily by filling the :file:`control` "
 "file's ``categories`` section of any WAPT package and write a new "
@@ -358,26 +364,165 @@ msgstr ""
 "paquet WAPT et écrire une nouvelle catégorie de votre choix, WAPT "
 "affichera automatiquement le paquet dans la nouvelle catégorie."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:159
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:174
 msgid "WAPT Agent Settings for WAPT Self-Service"
 msgstr "Paramétrage de WAPT Self-Service dans l'agent WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:161
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:176
+#, fuzzy
 msgid ""
 "WAPT Agent can be configured to force WAPT SelfService packages filtering"
-" to local admins :ref:`waptself_ini_file`."
+" to Local Administrators :ref:`waptself_ini_file`."
 msgstr ""
 "WAPT Agent peut être configuré pour que les paquets WAPT SelfService "
 "s'appliquent aux administrateurs locaux :ref:`waptself_ini_file`."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-usage/wapt-selfservice.rst:165
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:180
+msgid "Configuring a different authentication method for the selfservice"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:182
+msgid ""
+"As mentioned above, authentication on WAPT service is configured by "
+"default in system mode."
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:185
+msgid ""
+"This means that the WAPT service transmits the authentication directly to"
+" the operating system; it also recovers the groups by directly "
+"interrogating the operating system."
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:189
+msgid ""
+"This behavior is defined with the value of ``service_auth_type`` in :file"
+":`wapt-get.ini`. The default value is *system*."
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:192
+msgid ""
+"In this mode we assume that Local Administrators can see all the "
+"packages. To change this behavior, modify the value of "
+"``waptservice_admin_filter`` in :file:`wapt-get.ini`."
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:196
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:213
+msgid ""
+"You may be interested in looking up this article describing the "
+":ref:`settings for WAPT Self-Service and Waptservice Authentification "
+"<waptself_ini_file>` for more options."
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:200
+msgid "Two additional modes are available starting with version 1.8.2:"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:202
+msgid ""
+"``waptserver-ldap``: this mode allows authentication to the WAPT server. "
+"The WAPT server will make a LDAP request to verify authentication and "
+"groups. **Warning** ! For this to work, you must have configured LDAP "
+"authentication on the WAPT server, (the configuration of the admin group "
+"will be ignored) See :ref:`this article on configuring authentication "
+"against Active Directory <configure_ad_auth>` for more information."
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:209
+msgid ""
+"``waptagent-ldap``, This mode allows authentication with an LDAP server "
+"identified in :file:`wapt-get.ini`. The WAPT agent will make a LDAP "
+"request to verify authentication and groups."
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:219
+msgid ""
+"For the system authentication under |pinguin| to work correctly, be sure "
+"to correctly configure your pam authentication and your "
+":file:`nsswitch.conf`. The :command:`id username` command must return the"
+" list of the groups the user is member of."
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/wapt-selfservice.rst:225
 msgid "Video demonstration"
 msgstr "Vidéo de démonstration"
 
 #~ msgid ""
-#~ "then the rules are merged. * "
-#~ "Active Directory security groups are "
-#~ "meant to be used, but it also "
-#~ "works with local security groups for "
-#~ "Workgroup/out-of-domain hosts."
 #~ msgstr ""
+
+#~ msgid ""
+#~ "The authentication used is system "
+#~ "authentication, local users and groups, "
+#~ "but if the machine is in a "
+#~ "domain then authentication and groups "
+#~ "will also work with users and "
+#~ "groups in the domain."
+#~ msgstr ""
+
+#~ msgid "Configure a different authentication for the selfservice"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "As mentioned above, authentication on "
+#~ "wapt service is configured by default"
+#~ " in system mode."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This means that the wapt service "
+#~ "transmits the authentication directly to "
+#~ "the operating system, it also recovers"
+#~ " the groups by directly interrogating "
+#~ "the operating system"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This behavior is defined with the "
+#~ "value of \"service_auth_type\" in wapt-"
+#~ "get.ini. The default value is system"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In this mode we assume that local"
+#~ " administrators can see all the "
+#~ "packages.  To modify this behavior "
+#~ "modify the value of "
+#~ "\"waptservice_admin_filter\" in wapt-get.ini "
+#~ "See here :ref:`waptself_ini_file`."
+#~ msgstr ""
+
+#~ msgid "Two additional modes are available (since version 1.8.2) :"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "waptserver-ldap, This mode allows "
+#~ "authentication to the wapt server. The"
+#~ " wapt server will make an ldap "
+#~ "request to verify authentication and "
+#~ "groups. Warning ! For this to "
+#~ "work, you must have configured LDAP "
+#~ "authentication on the Wapt server, (the"
+#~ " configuration of the admin group "
+#~ "will be ignored) See here "
+#~ ":ref:`configure_ad_auth`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "waptagent-ldap, This mode allows "
+#~ "authentication with an ldap server "
+#~ "identified in wapt-get.ini. The wapt "
+#~ "agent will make an LDAP request to"
+#~ " verify authentication and groups. See "
+#~ "here :ref:`waptself_ini_file`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For the system authentication under "
+#~ "linux to work correctly, be sure "
+#~ "to correctly configure your pam "
+#~ "authentication and your nsswitch.conf The "
+#~ "\"id username\" command must return the"
+#~ " list of user groups"
+#~ msgstr ""
+

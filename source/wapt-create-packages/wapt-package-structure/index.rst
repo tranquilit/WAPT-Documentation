@@ -88,89 +88,108 @@ The :file:`control` file is the identity card of a package.
     signature_date    : 20170704-164552
     signed_attributes : package,version,architecture,section,priority,maintainer,description,depends,conflicts,maturity,locale,min_os_version,max_os_version,min_wapt_version,sources,installed_size,signer,signer_fingerprint,signature_date,signed_attributes
 
-.. tabularcolumns:: |\X{2}{12}|\X{5}{12}|\X{5}{12}|
+.. list-table:: Description of options of the control file
+  :header-rows: 1
+  :widths: 25 50 25
 
-======================= =========================================== ===========================================
-Settings                Description                                 Example value
-======================= =========================================== ===========================================
-``package``             Package name                                tis-geogebra
-
-``version``             Package version, can not                    5.0.309.0-0
-                        contain more than 5 delimiters
-
-``architecture``        Processor architecture                      x64
-
-``section``             Package type (``host``,                     base
-                        ``group``, ``base``,
-                        ``orga-unit``)
-
-``priority``            Package install priority
-                        (optional, not used as of 1.5.15)           Not mandatory for the moment
-
-``maintainer``          Author of the package                       Arnold Schwarzenegger terminator@mydomain.lan
-
-``description``         Package description that will appear        The Graphing Calculator for Functions,
-                        in the console and on the web interface     Geometry, Algebra, Calculus, Statistics and 3D
-
-``description_fr``      Localized description of the package        Calculatrice graphique
-
-``depends``             Packages that must be installed             tis-java
-                        before installing the package
-
-``conflicts``           Packages that must be uninstalled           tis-graph
-                        before installing the package
-
-``maturity``            Maturity level (BETA, DEV, PROD)            PROD
-
-``locale``              Language environment for the package        fr,en,es
-
-``target_os``           Accepted Operating System for the package   windows
-
-``min_os_version``      Minimum version of Windows for the package  6.0
-                        to be seen by the WAPT agent
-
-``max_os_version``      Maximum version of Windows for the package  8.0
-                        to be seen by the WAPT agent
-
-``min_wapt_version``    WAPT's minimal version for the package      1.3.8
-                        to work properly
-
-``sources``             Path to the SVN location of the package     https://srv-svn.mydomain.lan/sources/tis-geogebra-wapt/trunk/
-                        (:command:`source` command)
-
-``installed_size``      Minimum required free disk space            254251008
-                        to install the package
-
-``impacted_process``    Indicates a list of impacted processes      firefox.exe
-                        when installing a package
-
-``audit_schedule``      Periodicity of execution of the audit       60
-                        function in the WAPT package
-
-``editor``              Editor of the software package              Mozilla
-
-``license``             Reference of the software license           GPLV3
-
-``keywords``            Set of keywords describing the WAPT package Productivity,Text Processor
-
-``homepage``            Official homepage of the software           https://www.tranquil.it/
-                        embedded in the WAPT package
-
-``signer``              CommonName (CN) of the package's signer     Tranquil IT
-
-``signer_fingerprint``  Fingerprint of the certificate holder's     2BAFAF007C174A3B00F12E9CA1E74956
-                        signature
-
-``signature``           SHA256 hash of the package                  MLOzLiz0qCHN5fChdylnvXUZ8xNJj4rEu5FAAsDTdEtQ(...)hsduxGRJpN1wLEjGRaMLBlod/p8w==
-
-``signature_date``      Date when the package was signed            20180307-230413
-
-``signed_attributes``   List of package's attributes                package, version, architecture, section, priority, maintainer, description,
-                        that are signed                             depends, conflicts, maturity, locale, min_os_version, max_os_version,
-                                                                    min_wapt_version, sources, installed_size, signer, signer_fingerprint,
-                                                                    signature_date, signed_attributes
-======================= =========================================== ===========================================
-
+  * - Settings
+    - Description
+    - Example value
+  * - ``package``
+    - Package name
+    - tis-geogebra
+  * - ``version``
+    - Package version, can not contain more than 5 delimiters
+    - 5.0.309.0-0
+  * - ``architecture``
+    - Processor architecture
+    - x64
+  * - ``section``
+    - Package type (``host``, ``group``, ``base``)
+    - base
+  * - ``priority``
+    - Package install priority (optional, not used as of 1.5.15)
+    - Not mandatory for the moment
+  * - ``maintainer``
+    - Author of the package
+    - Arnold Schwarzenegger terminator@mydomain.lan
+  * - ``description``
+    - Package description that will appear in the console
+      and on the web interface
+    - The Graphing Calculator for Functions,Geometry, Algebra,
+      Calculus, Statistics and 3D
+  * - ``description_fr``
+    - Localized description of the package
+    - Calculatrice graphique
+  * - ``depends``
+    - Packages that must be **installed** before installing the package
+    - tis-java
+  * - ``conflicts``
+    - Packages that must be **uninstalled** before installing the package
+    - tis-graph
+  * - ``maturity``
+    - Maturity level (*BETA*, *DEV*, *PROD*)
+    - PROD
+  * - ``locale``
+    - Language environment for the package
+    - fr,en,es
+  * - ``target_os``
+    - Accepted Operating System for the package
+    - windows
+  * - ``min_os_version``
+    - Minimum version of Windows for the package
+      to be seen by the WAPT agent
+    - 6.0
+  * - ``max_os_version``
+    - Maximum version of Windows for the package
+      to be seen by the WAPT agent
+    - 8.0
+  * - ``min_wapt_version``
+    - WAPT's minimal version for the package to work properly
+    - 1.3.8
+  * - ``sources``
+    - Path to the SVN location of the package (:command:`source` command)
+    - https://srv-svn.mydomain.lan/sources/tis-geogebra-wapt/trunk/
+  * - ``installed_size``
+    - Minimum required free disk space to install the package
+    - 254251008
+  * - ``impacted_process``
+    - Indicates a list of impacted processes when installing a package
+    - firefox.exe
+  * - ``audit_schedule``
+    - Periodicity of execution of the audit function in the WAPT package
+    - 60
+  * - ``editor``
+    - Editor of the software package
+    - Mozilla
+  * - ``license``
+    - Reference of the software license
+    - GPLV3
+  * - ``keywords``
+    - Set of keywords describing the WAPT package
+    - Productivity,Text Processor
+  * - ``homepage``
+    - Official homepage of the software embedded in the WAPT package
+    - https://www.tranquil.it/
+  * - ``signer``
+    - CommonName (CN) of the package's signer
+    - Tranquil IT
+  * - ``signer_fingerprint``
+    - Fingerprint of the certificate holder's signature
+    - 2BAFAF007C174A3B00F12E9CA1E74956
+  * - ``signature``
+    - SHA256 hash of the package
+    - MLOzLiz0qCHN5fChdylnvXUZ8xNJj4rEu5FAAsDTdEtQ(...)hsduxGRJpN1wLEjGRaMLBlod/p8w==
+  * - ``signature_date``
+    - Date when the package was signed
+    - 20180307-230413
+  * - ``signed_attributes``
+    - List of package's attributes  that are signed
+    - package, version, architecture, section, priority,
+      maintainer, description, depends, conflicts, maturity, locale,
+      min_wapt_version, sources, installed_size, signer, signer_fingerprint,
+      signature_date, signed_attributes
+      
 .. _utf8_no_bom:
 
 .. note::

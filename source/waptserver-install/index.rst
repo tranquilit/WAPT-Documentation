@@ -58,14 +58,19 @@ server or a physical server.
 
 RAM and CPU recommendations are:
 
-.. tabularcolumns:: |\X{4}{6}|\X{1}{6}|\X{1}{6}|
+.. list-table:: 3 column table
+  :header-rows: 1
+  :widths: 25 25 50
 
-========================= ===== ================================================
-Size of the network       CPU   RAM
-========================= ===== ================================================
-From 0 to 200 desktops    1 CPU 1024MB
-From 200 desktops onward  4 CPU 4096Mo
-========================= ===== ================================================
+  * - Size of the network
+    - CPU
+    - RAM
+  * - From 0 to 200 desktops
+    - 1 CPU
+    - 1024MB
+  * - From 200 desktops onward
+    - 4 CPU
+    - 4096Mo
 
 A minimum of 10GB of free space is necessary for the system,
 the database and log files. **For better performance, Tranquil IT recommends

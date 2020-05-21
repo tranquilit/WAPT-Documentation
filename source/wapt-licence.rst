@@ -20,21 +20,29 @@ under the GNU Public License v3.0.
 **The extensions incorporated into the Enterprise version
 of WAPT are proprietary**.
 
-.. tabularcolumns:: |\X{4}{12}|\X{8}{12}|
+.. list-table:: External components licenses used in WAPT
+  :header-rows: 1
+  :widths: 50 50
 
-========================================= ======================================
-WAPT components                           License
-========================================= ======================================
-:program:`Python`                         Python Software License
-:program:`Python Libraries`               Various open-source licenses
-:program:`Lazarus`                        GNU Public Licence
-:program:`Lazarus Component Library`      GNU Lesser General Public License
-:program:`Lazarus Libraries`              Various open-source licenses
-:program:`OpenSSL`                        Openssl License
-:program:`ZeroMQ`                         GNU Lesser General Public License v3
-:program:`Redistr. Microsoft Visual C++`  Microsoft Software License Terms
-:program:`PostgreSQL`                     PostgreSQL License
-:program:`NSSM`                           Public Domain
-:program:`Apache`                         Apache License v2
-:program:`Nginx`                          2-clause BSD-like license
-========================================= ======================================
+  * - WAPT components
+    - License
+  * - :program:`Python`
+    - Python Software License
+  * - :program:`Python Libraries`
+    - Various open-source licenses
+  * - :program:`Lazarus`
+    - GNU Public Licence
+  * - :program:`Lazarus Component Library`
+    - GNU Lesser General Public License
+  * - :program:`Lazarus Libraries`
+    - Various open-source licenses
+  * - :program:`OpenSSL`
+    - Openssl License
+  * - :program:`Redistr. Microsoft Visual C++`
+    - Microsoft Software License Terms
+  * - :program:`PostgreSQL`
+    - PostgreSQL License
+  * - :program:`NSSM`
+    - Public Domain
+  * - :program:`Nginx`
+    - 2-clause BSD-like license

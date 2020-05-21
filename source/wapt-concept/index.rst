@@ -146,12 +146,16 @@ There are 7 types of WAPT packages:
 
   Anatomy of a simple WAPT package
 
+.. _base_packages:
+
 *Base* packages
 """""""""""""""
 
 They are classic software packages.
 
 They are stored in the web directory https://srvwapt.mydomain.lan/wapt/.
+
+.. _group_packages:
 
 *Group* packages
 """"""""""""""""
@@ -170,6 +174,8 @@ They are groups/ bundles of packages.
 
 They are stored in the web directory https://srvwapt.mydomain.lan/wapt/.
 
+.. _host_packages:
+
 *Host* packages
 """""""""""""""
 
@@ -179,6 +185,8 @@ Each host will look for its *host* package to know the packages
 that it must install (i.e. *dependencies*).
 
 They are stored in the web directory https://srvwapt.mydomain.lan/wapt-host/.
+
+.. _unit_packages:
 
 *Unit* packages
 """""""""""""""
@@ -199,12 +207,18 @@ that the host belongs to:
 
 and then installs the list of associated dependencies.
 
-They are stored in the web directory https://srvwapt.mydomain.lan/wapt-host/.
+*Unit* packages are stored in the web directory https://srvwapt.mydomain.lan/wapt/.
+
+*Unit packages* are not explicitly assigned to the host (i.e. as dependencies
+in the *host package*) but are implicitly taken into account
+by the WAPT agent dependency engine during the WAPT upgrade.
 
 .. note::
 
   If the computer is removed from an Organizational Unit,
   obsolete *unit* packages will be removed.
+
+.. _waptwua_packages:
 
 *waptwua* packages
 """"""""""""""""""
@@ -220,6 +234,8 @@ will merge all package rules.
 When this package is installed on the host, the next :command:`update` will scan
 for official Windows updates applicable to the host based on this filtering.
 
+.. _selfservice_packages:
+
 *selfservice* packages
 """"""""""""""""""""""
 
@@ -228,6 +244,8 @@ for official Windows updates applicable to the host based on this filtering.
 *selfservice* packages contain a list of groups or users
 (Active Directory or local) and their associated lists
 of authorized packages that Users are allowed to install by themselves.
+
+.. _profile_packages:
 
 *profile* packages
 """"""""""""""""""
@@ -247,6 +265,12 @@ when an Active Directory Server is operating within the :term:`Organization`:
 
 If the host is no longer a member of its Active Directory group,
 then the *profile* package will be uninstalled.
+
+*Profile packages* are stored in the web directory https://srvwapt.mydomain.lan/wapt/.
+
+*Profile packages* are not explicitly assigned to the host (i.e. as dependencies
+in the *host package*) but are implicitly taken into account
+by the WAPT agent dependency engine during the WAPT upgrade.
 
 .. note::
 

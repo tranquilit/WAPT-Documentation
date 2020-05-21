@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-24 16:41+0200\n"
+"POT-Creation-Date: 2020-05-21 17:48+0200\n"
 "PO-Revision-Date: 2020-04-03 17:11+0200\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
@@ -16,24 +16,25 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:8
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:15
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:8
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:35
 msgid "Deploying the WAPT Agent on Linux"
 msgstr "Déployer l'agent WAPT sur Linux"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:8
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:8
 msgid "waptagent, linux, deployment, deploy, deploying, documentation, WAPT"
 msgstr "waptagent, linux, déploiement, déployer, documentation, WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:19
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:39
+#, fuzzy
 msgid ""
-"Starting with WAPT 1.8, a Linux agent is available for Linux Debian / "
-"Linux CentOS."
+"Starting with WAPT 1.8, a Linux agent is available for |linux_debian| / "
+"|linux_ubuntu| and |linux_redhat|."
 msgstr ""
 "À partir de WAPT 1.8, un agent Linux est disponible pour Linux Debian / "
 "Linux CentOS."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:24
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:44
 msgid ""
 "the following procedure installs a WAPT agent using Tranquil IT's "
 "repositories for Debian/CentOS;"
@@ -41,7 +42,7 @@ msgstr ""
 "la procédure suivante installe l'agent WAPT en utilisant les dépôts "
 "Tranquil IT pour Debian / CentOS ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:27
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:47
 msgid ""
 "if you wish to install it manually, you can look for your `corresponding "
 "version <https://wapt.tranquil.it/wapt/releases/>`_;"
@@ -49,7 +50,7 @@ msgstr ""
 "si vous souhaitez l'installer manuellement, vous pouvez rechercher votre "
 "`version correspondante <https://wapt.tranquil.it/wapt/releases/>`_ ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:30
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:50
 msgid ""
 "copy the link of the binary that you need, download and install it with "
 "dpkg / rpm;"
@@ -57,11 +58,11 @@ msgstr ""
 "copier le lien du binaire dont vous avez besoin, le télécharger et "
 "l'installer avec dpkg / rpm ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:34
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:54
 msgid "Installing the WAPT agent on Debian"
 msgstr "Installer l'agent WAPT sur Debian"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:36
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:56
 msgid ""
 "The most secure and reliable way to install the latest WAPT agent on "
 "Linux Debian is using Tranquil IT's public repository."
@@ -69,12 +70,12 @@ msgstr ""
 "La façon la plus sûre et la plus fiable d'installer le dernier agent WAPT"
 " sur Linux Debian est d'utiliser le dépôt public Tranquil IT."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:39
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:59
 msgid "add Tranquil IT's repository in apt repository lists:"
 msgstr "ajouter le dépôt Tranquil IT dans les listes apt :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:43
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:90
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:63
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:110
 msgid ""
 "**Follow this procedure for getting the right packages for the WAPT "
 "Enterprise** Edition. For WAPT Community Edition please refer to the next"
@@ -84,8 +85,8 @@ msgstr ""
 "WAPT Enterprise**. Pour l'édition Community de WAPT, veuillez vous "
 "référer au bloc suivant."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:47
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:94
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:67
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:114
 msgid ""
 "To access WAPT Enterprise ressources, you must use the username and "
 "password provided by our sales department."
@@ -94,7 +95,7 @@ msgstr ""
 "utiliser le nom d'utilisateur et le mot de passe fournis par notre "
 "service commercial."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:50
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:70
 msgid ""
 "Replace **user** and **password** in the **deb** parameter to access WAPT"
 " Enterprise repository."
@@ -102,8 +103,8 @@ msgstr ""
 "Remplacez **user** et **password** dans le paramètre **deb** pour accéder"
 " au dépôt WAPT Enterprise."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:62
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:112
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:82
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:132
 msgid ""
 "**Follow this procedure for getting the right packages for the WAPT "
 "Community** Edition. For WAPT Enterprise Edition please refer to the "
@@ -113,15 +114,15 @@ msgstr ""
 "Community de WAPT**. Pour l'édition WAPT Enterprise, veuillez vous "
 "référer au bloc précédent."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:73
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:93
 msgid "install WAPT agent using apt-get:"
 msgstr "installer l'agent WAPT en utilisant apt :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:81
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:101
 msgid "Installing the WAPT agent on CentOS"
 msgstr "Installer l'agent WAPT sur CentOS"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:83
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:103
 msgid ""
 "The most secure and reliable way to install the latest WAPT agent on "
 "Linux CentOS is using Tranquil IT's public repository."
@@ -129,11 +130,11 @@ msgstr ""
 "La façon la plus sûre et la plus fiable d'installer le dernier agent WAPT"
 " sur Linux CentOS est d'utiliser le dépôt public Tranquil IT."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:86
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:106
 msgid "add Tranquil IT's repository in yum repository lists:"
 msgstr "ajouter le dépôt Tranquil IT dans les listes yum :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:97
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:117
 msgid ""
 "Replace **user** and **password** in the **baseurl** parameter to access "
 "WAPT Enterprise repository."
@@ -141,27 +142,27 @@ msgstr ""
 "Remplacez **user** et **password** dans le paramètre **baseurl** pour "
 "accéder au dépôt WAPT Enterprise."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:126
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:146
 msgid "install WAPT agent using yum:"
 msgstr "installer l'agent WAPT en utilisant yum :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:133
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:153
 msgid "Creating the agent configuration file"
 msgstr "Créer le fichier de configuration de l'agent"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:135
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:155
 msgid "The requisites for your WAPT agent to work are:"
 msgstr ""
 "Les conditions requises pour que votre agent WAPT puisse travailler sont "
 "les suivantes :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:137
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:157
 msgid "``wapt-get.ini`` config file in :file:`/opt/wapt/`;"
 msgstr ""
 "le fichier de configuration ``wapt-get.ini`` se trouve dans le fichier "
 ":file:`/opt/wapt/` ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:139
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:159
 msgid ""
 "a public certificate of the package-signing authority in "
 ":file:`/opt/wapt/ssl/`;"
@@ -169,7 +170,7 @@ msgstr ""
 "un certificat public de l'autorité de signature des paquets dans "
 ":file:`/opt/wapt/ssl/` ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:141
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:161
 msgid ""
 "You need to create and configure the :file:`wapt-get.ini` file in "
 ":file:`/opt/wapt` (:ref:`wapt-get-ini`)."
@@ -177,7 +178,7 @@ msgstr ""
 "Vous devez créer et configurer le fichier :file:`wapt-get.ini` dans "
 ":file:`/opt/wapt` (:ref:`wapt-get-ini`)."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:144
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:164
 msgid ""
 "An example of what it should look like is present further down on this "
 "page. You may use it after changing the parameters to suit your needs."
@@ -186,11 +187,11 @@ msgstr ""
 "cette page. Vous pouvez l'utiliser après avoir modifié les paramètres en "
 "fonction de vos besoins."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:161
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:181
 msgid "Copying the package-signing certificate"
 msgstr "Copier le certificat Code-Signing"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:163
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:183
 msgid ""
 "You need to copy manually, or by script, the public certificate of your "
 "package signing certificate authority."
@@ -198,7 +199,7 @@ msgstr ""
 "Vous devez copier manuellement, ou par script, le certificat public de "
 "votre autorité de certification de signature de paquets."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:166
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:186
 msgid ""
 "The certificate should be located on your Windows machine in "
 ":file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl\\\\`."
@@ -206,7 +207,7 @@ msgstr ""
 "Le certificat devrait être situé sur votre machine Windows dans "
 ":file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl\\\\`."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:169
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:189
 msgid ""
 "Copy your certificate(s) in :file:`/opt/wapt/ssl` using :program:`WinSCP`"
 " or :program:`rsync`."
@@ -214,11 +215,11 @@ msgstr ""
 "Copier les certificat(s) dans :file:`/opt/wapt/ssl` en utilisant "
 ":program:`WinSCP` ou :program:`rsync`."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:173
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:193
 msgid "Copying the SSL/TLS certificate"
 msgstr "Copier le certificat SSL/TLS"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:175
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:195
 msgid ""
 "If you already have configured your WAPT server to use correct "
 ":ref:`Nginx SSL/TLS certificates "
@@ -230,7 +231,7 @@ msgstr ""
 "<activating_HTTPS_certificate_verification>`, vous devez copier le "
 "certificat dans votre agent WAPT Linux."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:179
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:199
 msgid ""
 "The certificate should be located on your Windows machine in "
 ":file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl\\\\server\\\\`."
@@ -238,7 +239,7 @@ msgstr ""
 "Le certificat devrait être situé sur votre machine Windows dans "
 ":file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl\\\\server\\\\`."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:182
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:202
 msgid ""
 "Copy your certificate(s) in :file:`/opt/wapt/ssl/server/` using "
 ":program:`WinSCP` or :program:`rsync`."
@@ -246,17 +247,17 @@ msgstr ""
 "Copier le(s) certificat(s) dans :file:`/opt/wapt/ssl/server/` en "
 "utilisant :program:`WinSCP` ou :program:`rsync`."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:185
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:205
 msgid "Then, modify in your config file the path to your certificate."
 msgstr ""
 "Ensuite, modifier le ficher de configuration en donnant le chemin de "
 "votre certificat."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:191
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:211
 msgid "And give absolute path of your cert."
 msgstr "Et donner le chemin absolu de votre certificat."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:199
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:219
 msgid ""
 "If you are not using SSL/TLS certificates with your WAPT Server, you must"
 " change it in :file:`/opt/wapt/wapt-get.ini` the following lines to 0:"
@@ -265,15 +266,22 @@ msgstr ""
 "vous devez changer dans :file:`/opt/wapt/wapt-get.ini` les lignes "
 "suivantes à *0* :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:207
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:227
 msgid "Registering your Linux agent"
 msgstr "Enregistrer votre agent Linux avec le serveur WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:209
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:231
+msgid ""
+"beware, by default, WAPT takes the system language by default for "
+"packages, you may have to define the language in :file:`wapt-get.ini` "
+"with ``locales=``."
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:235
 msgid "restart the WAPT service:"
 msgstr "redémarrer le serveur WAPT :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:215
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:241
 msgid ""
 "finally, execute the following command to register your Linux host with "
 "the WAPT server:"
@@ -281,13 +289,98 @@ msgstr ""
 "enfin, exécuter la commande suivante pour enregistrer votre hôte Linux "
 "auprès du serveur WAPT :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:223
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:249
+#, fuzzy
 msgid ""
-"Your Linux Agent is now installed and configured and it will now appear "
-"in your WAPT Console with a penguin icon!!"
+"|clap| **Congratulations**, your Linux Agent is now installed and "
+"configured and it will now appear in your WAPT Console with a |pinguin| "
+"icon!!"
 msgstr ""
 "Votre agent Linux est maintenant installé et configuré et il apparaîtra "
 "dans votre console WAPT avec une icône de pingouin !!"
 
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:253
+msgid "Supported features"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:255
+msgid "Most features are now supported in version 1.8.2 of WAPT."
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:258
+msgid "Unsupported features"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:260
+msgid "installing updates on shutdown (Work in progress);"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:262
+msgid "WAPT console is not currently available on linux (Work in progress);"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:264
+msgid "Any Windows specific feature;"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:267
+msgid "Particularities with domain functionality"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:269
+msgid ""
+"testing was carried out with sssd with an Active Directory domain and "
+"kerberos authentication;"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:272
+msgid ""
+"to integrate a Linux machine in the Active Directory domain, you can "
+"choose to follow `this documentation "
+"<https://dev.tranquil.it/samba/en/samba_config_client/client_join_clients_linux.html>`_"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:275
+msgid ""
+"to force the update of Organisational Units on the Linux host, you can "
+"apply a :command:`gpupdate` from the WAPT console;"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:278
+msgid ""
+"in order for Active Directory groups to function properly, you must "
+"verify that the :command:`id hostname$` command returns the list of "
+"groups the host is member of;"
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-linux.rst:284
+msgid ""
+"We have noticed that the Kerberos LDAP query does not work if the reverse"
+" DNS record is not configured correctly for your domain controllers. "
+"These records must therefore be created if they do not exist."
+msgstr ""
+
 #~ msgid ""
 #~ msgstr ""
+
+#~ msgid "locales=fr"
+#~ msgstr ""
+
+#~ msgid "Feature supported"
+#~ msgstr ""
+
+#~ msgid "Most features are now supported in version 1.8.2 of wapt"
+#~ msgstr ""
+
+#~ msgid "Unsupported"
+#~ msgstr ""
+
+#~ msgid "Installation of updates when shutdown (Work in progress)"
+#~ msgstr ""
+
+#~ msgid "Wapt console is not currently available on linux (Work in progress)"
+#~ msgstr ""
+
+#~ msgid "All features directly related to \"Windows\""
+#~ msgstr ""
+

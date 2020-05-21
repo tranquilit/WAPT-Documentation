@@ -14,7 +14,7 @@
 WAPT Documentation
 ==================
 
-.. image:: logo_wapt_all.png
+.. image:: ./icons/logo_wapt_all.png
   :align: center
   :alt: WAPT Logo
 
@@ -32,7 +32,7 @@ and WAPT Enterprise <WAPT_Enterprise>`.
 Security Certification
 ----------------------
 
-.. figure:: visasecu_2017_logo-fr.png
+.. figure:: ./icons/visasecu_2017_logo-fr.png
   :align: center
   :scale: 50%
   :target: https://www.ssi.gouv.fr/administration/certification_cspn/wapt-entreprise-v-1-5-0-13/
@@ -137,6 +137,7 @@ WAPT support and training
 
   wapt-concept/index.rst
   wapt-security-principles/index.rst
+  wapt-enterprise-community-comparison.rst
   wapt-enterprise.rst
 
 .. toctree::
@@ -164,7 +165,7 @@ WAPT support and training
   :maxdepth: 1
   :caption: Troubleshooting
 
-  wapt-common-problems/common-problems.rst
+  wapt-common-problems/common-problems-and-questions.rst
   wapt-common-problems/common-mistakes.rst
 
 .. toctree::

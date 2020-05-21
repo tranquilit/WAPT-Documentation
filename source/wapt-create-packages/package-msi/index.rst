@@ -169,22 +169,26 @@ packages locally, to improve them quickly and iteratively.
 
   Test installing the package from you development computer
 
-.. tabularcolumns:: |\X{2}{12}|\X{5}{12}|\X{5}{12}|
+.. list-table:: Title
+  :header-rows: 1
+  :widths: 30 10 60
 
-=========================== ========= ==========================================
-Settings                    Value     Description
-=========================== ========= ==========================================
-:command:`install`          Execute   Launch the software installation with
-                                      its arguments from :file:`setup.py`.
-
-:command:`install`          Debug     Launch the line by line debugger.
-
-:command:`remove`           Execute   Launch the uninstallation.
-
-:command:`-i build-upload`  Execute   Increment the WAPT packaging version,
-                                      build the package and upload it
-                                      on the WAPT repository.
-=========================== ========= ==========================================
+  * - Settings
+    - Value
+    - Description
+  * - :command:`install`
+    - Execute
+    -  Launch the software installation with its arguments from :file:`setup.py`.
+  * - :command:`install`
+    - Debug
+    - Launch the line by line debugger.
+  * - :command:`remove`
+    - Execute
+    - Launch the uninstallation.
+  * - :command:`-i build-upload`
+    - Execute
+    - Increment the version number of WAPT packaging, build the package
+      and upload it onto the WAPT repository.
 
 Build and upload the package
 ----------------------------

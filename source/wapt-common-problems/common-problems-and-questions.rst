@@ -6,14 +6,14 @@
    Niveau 5: ^^^^^^^^^^^^^^^^^^^^
 
 .. meta::
-  :description: Frequent problems
+  :description: Frequent problems and questions
   :keywords: lost password, lost private key, stolen private key,
              BIOS bug, waptdeploy, WAPT, documentation
 
 .. _wapt_faq:
 
-Frequent problems
-=================
+Frequent problems and questions
+===============================
 
 I have lost my SuperAdmin password
 ----------------------------------
@@ -771,3 +771,20 @@ EWaptBadControl: 'utf8' codec can't decode byte
 If you get this message, it may mean that you have not set up correctly
 your development environment. Visit this :ref:`section of the documentation
 on setting up UTF-8 (no BOM) <utf8_no_bom>`.
+
+I have a lot more hosts in the console than I have host packages on my server?
+------------------------------------------------------------------------------
+
+Following a remark from Philippe LEMAIRE from the `Lycée Français Alexandre
+Yersin <https://lfay.com.vn/>`_ in Hanoï, if you use the Enterprise version
+of WAPT and you make heavy use of the :ref:`unit packages
+<wapt_organizational_unit>` or :ref:`profile packages <profile_packages>`,
+you may realize that you will have many more hosts in your console
+than :ref:`host packages <host_packages>` on you WAPT server. **This is normal**.
+
+In fact *unit packages* and *profile packages* are not explicitly assigned
+to the host (i.e. as dependencies in the *host package*) but are implicitly
+taken into account by the WAPT agent dependency engine during the WAPT upgrade.
+
+So one might have no *host package* on the server if only *unit packages*
+are used for managing a fleet of devices.

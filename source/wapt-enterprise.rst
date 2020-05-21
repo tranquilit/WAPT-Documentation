@@ -14,10 +14,15 @@
 WAPT Community and WAPT Enterprise
 ==================================
 
+.. toctree::
+  :maxdepth: 1
+
+  wapt-enterprise-community-comparison.rst
+
 Main functional benefits of the Enterprise version of WAPT
 ----------------------------------------------------------
 
-.. figure:: wapt_enterprise.png
+.. figure:: ./icons/wapt_enterprise.png
    :align: center
    :alt: Logo WAPT Enterprise
 

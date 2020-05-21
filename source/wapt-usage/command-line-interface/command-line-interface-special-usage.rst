@@ -100,44 +100,47 @@ on the computer.
 
 The command :code:`wapt-get list` returns:
 
-.. tabularcolumns:: |\X{2}{12}|\X{2}{12}|\X{2}{12}|\X{2}{12}|\X{4}{12}|
+.. list-table::
+  :header-rows: 1
+  :widths: 20 20 20 20 20
 
-==================== =========== ======== ================ ====================================
-package              version     install  install_date     description
-                                 status
-==================== =========== ======== ================ ====================================
-tis-7zip             16.4-8      OK       2016-12-01T17:43 7-zip compression
-                                                           and archiving software
-                                                           for x86 and x64
-
-tis-brackets         1.8-1       OK       2016-12-01T17:44 Brackets is a lightweight
-                                                           opensource text editor
-                                                           developed by Adobe
-
-tis-ccleaner         5.23.5808-0 OK       2016-12-01T18:55 the right choice utility
-                                                           to quickly clean up,
-                                                           repair and optimize Windows
-
-tis-rsat-win7x64     2           OK       2016-12-02T10:46 package for MS RSAT Remote
-                                                           server admin windows6.1-kb958830-x64
-                                                           pour Win7 SP1
-
-tis-rsat-x64         1           OK       2016-12-02T10:51 package for MS RSAT Remote
-                                                           server admin windows6.1-kb958830-x64
-                                                           pour Win7 SP1
-
-tis-dotnetfx4.6      4.6.2-1     OK       2016-12-09T16:05 dot net FX 4.6.2 Framework CLient.
-                                                           replace 4/4.5/4.5.1/4.5.2/4.6/4.6.1
-
-tis-paint.net        4.0.12-3    OK       2016-12-09T16:08 Paint.NET Setup 32/64
-
-tis-vlc              2.2.4-2     OK       2016-12-21T16:41 VLC media player
-
-tis-mumble           1.2.8-1     OK       2016-12-21T16:42 automatic package for
-                                                           Mumble 1.2.8 (Thorvald Natvig)
-
-machine.mydomain.lan 3           OK       2016-12-21T16:42 None
-==================== =========== ======== ================ ====================================
+  * - package
+    - version
+    - install status
+    - install_date
+    - description
+  * - tis-7zip
+    - 16.4-8
+    - OK
+    - 2016-12-01T17:43
+    - 7-zip compression and archiving software for x86 and x64
+  * - tis-brackets
+    - 1.8-1
+    - OK
+    - 2016-12-01T17:44
+    - Brackets is a lightweight
+  * - tis-ccleaner
+    - 5.23.5808-0
+    - OK
+    - 2016-12-01T18:55
+    - the right choice utility to quickly clean up, repair and optimize Windows
+  * - tis-rsat-win7x64
+    - 2
+    - OK
+    - 2016-12-02T10:46
+    - package for MS RSAT Remote server admin windows6.1-kb958830-x64
+      pour Win7 SP1
+  * - tis-rsat-x64
+    - 1
+    - OK
+    - 2016-12-02T10:51
+    - package for MS RSAT Remote server admin windows6.1-kb958830-x64
+      pour Win7 SP1
+  * - tis-dotnetfx4.6
+    - 4.6.2-1
+    - OK
+    - 2016-12-09T16:05
+    - dot net FX 4.6.2 Framework CLient. Replaces 4/4.5/4.5.1/4.5.2/4.6/4.6.1
 
 wapt-get upgradedb
 ++++++++++++++++++
@@ -199,7 +202,7 @@ information in JSON format.
 
 The command :code:`wapt-get inventory` returns:
 
-.. code-block:: bash
+.. code-block:: ini
 
   {
     "wapt": {

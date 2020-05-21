@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-22 13:37+0200\n"
+"POT-Creation-Date: 2020-05-21 17:26+0200\n"
 "PO-Revision-Date: 2020-04-21 15:02+0200\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language-Team: Tranquil IT <contact@tranquil.it>\n"
@@ -12,28 +12,28 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:8
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:15
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:8
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:15
 msgid "Introduction to WAPT"
 msgstr "Présentation des grands principes de WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:8
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:8
 msgid "WAPT, Why, How, principles, documentation, history, genesis"
 msgstr "WAPT, Pourquoi, Comment, principes, documentation"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:18
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:18
 msgid "For what purpose is WAPT useful?"
 msgstr "A quoi sert WAPT ?"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:20
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:20
 msgid ""
 "**WAPT** installs, updates and removes software and configurations on "
 "Windows devices. Software deployment (Firefox, MS Office, etc.) can be "
 "carried out from a central server using a graphical console. WAPT is "
-"taking many ideas from Debian Linux apt package management tool, "
-"hence its name. WAPT **Community** Edition is distributed under the "
-"**GPLv3** license. **Enterprise** Edition is distributed under a "
-"proprietary license."
+"taking many ideas from Debian Linux apt package management tool, hence "
+"its name. WAPT **Community** Edition is distributed under the **GPLv3** "
+"license. **Enterprise** Edition is distributed under a proprietary "
+"license."
 msgstr ""
 "**WAPT** déploie, met à jour et et supprime des logiciels et des "
 "configurations sur un parc Windows. Le déploiement de logiciels (Firefox,"
@@ -43,7 +43,7 @@ msgstr ""
 "libre et soumis à la licence **GPLv3**. L'édition **Enterprise** est "
 "soumise à une licence propriétaire."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:28
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:28
 msgid ""
 "**WAPT** is intended to help IT administrators manage their deployed base"
 " of computer desktops, laptops, tablets running a Microsoft Windows "
@@ -54,7 +54,7 @@ msgstr ""
 "tablettes Windows fonctionnant avec des versions client de Windows (XP à "
 "10) ou des versions serveur de Windows (2003 à 2019)."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:33
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:33
 msgid ""
 "Private companies of all sizes, Colleges, Schools, Universities, research"
 " labs, local and state governments, Hospitals, city hall, state "
@@ -65,11 +65,11 @@ msgstr ""
 "centres de recherche, des mairies, des communautés d'agglomération, des "
 "communautés de communes, des hôpitaux, des Ministères utilisent **WAPT**."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:37
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:37
 msgid "**WAPT** exists in two versions, **Community** and **Enterprise**."
 msgstr "**WAPT** existe en deux versions, **Community** et **Enterprise**."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:39
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:39
 msgid ""
 "**WAPT** is very efficient to address **recurrent Flash and Java update "
 "needs** and it is often to cover that basic need that WAPT is initially "
@@ -80,7 +80,7 @@ msgstr ""
 "que WAPT est initialement adopté ; ensuite il devient un outil apprécié, "
 "voire indispensable pour le quotidien de l'administrateur système."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:43
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:43
 msgid ""
 "**If you're a developer, WAPT can help you configure your development "
 "environment on your computer as Chocolatey / NuGet can do.**"
@@ -89,15 +89,15 @@ msgstr ""
 "aider à configurer votre PC de développement comme le font Chocolatey / "
 "NuGet.**"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:47
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:47
 msgid "The genesis of WAPT"
 msgstr "Genèse WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:50
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:50
 msgid "Our assessment after 15 years of IT management"
 msgstr "Notre constat après 15 ans d'infogérance"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:52
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:52
 msgid ""
 "Managing large IT installed bases of Microsoft Windows computers is today"
 " a difficult task in a secured environment:"
@@ -105,7 +105,7 @@ msgstr ""
 "L'administration d'un large parc de PC sous MS Windows est à l'heure "
 "actuelle un exercice acrobatique en environment sécurisé :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:55
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:55
 msgid ""
 "common ghosting methods (*Clonezilla* or *Ghost*) are efficient on "
 "homogeneous IT infrastructures with roaming user profiles;"
@@ -115,7 +115,7 @@ msgstr ""
 "applicatifs sont homogènes et que les profils utilisateurs sont "
 "itinérants ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:58
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:58
 msgid ""
 "deployment software (*OCSInventory* or *WPKG*) can broadcast software but"
 " does not easily allow software level or user level customizations that "
@@ -125,7 +125,7 @@ msgstr ""
 "logiciels mais ne permettent pas d'effectuer de manière simple les "
 "personnalisations qui évitent les demandes de support utilisateur ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:62
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:62
 msgid ""
 "software from smaller vendors often need :term:`Local Administrator` "
 "rights to run properly;"
@@ -133,7 +133,7 @@ msgstr ""
 "les logiciels de petits éditeurs nécessitent souvent des droits "
 ":term:`Administrateur Local` pour fonctionner ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:65
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:65
 msgid ""
 "currently available solutions to address theses 3 problems are either too"
 " expensive or too inefficient, and they are in every case too complex;"
@@ -142,27 +142,27 @@ msgstr ""
 "sur des méthodes soit trop chères, soit insuffisantes, et dans tous les "
 "cas trop complexes ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:69
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:69
 msgid "WAPT development hypotheses and motivations"
 msgstr "Les hypothèses de travail qui animent le développement de WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:71
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:71
 msgid "The development of WAPT is motivated by these two principles:"
 msgstr "Le développement de WAPT est animé par deux principes :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:73
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:73
 msgid "what is **complicated** should be made **simple**;"
 msgstr "ce qui est **compliqué** doit être rendu **simple** ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:75
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:75
 msgid "what is **simple** should be made **trivial**;"
 msgstr "ce qui est **simple** doit être rendu **trivial** ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:77
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:77
 msgid "WAPT relies on a small set of fundamental hypotheses:"
 msgstr "WAPT s'appuie sur un jeu d'hypothèses fondamentales :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:79
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:79
 msgid ""
 "sysadmins know script languages and WAPT has chosen Python for the depth "
 "and breadth of its libraries;"
@@ -170,7 +170,7 @@ msgstr ""
 "les adminsys connaissent les langages de script, et WAPT a choisi python "
 "pour la profondeur et l'étendue de ses librairies ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:82
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:82
 msgid ""
 "sysadmins who have little experience with scripting languages must find "
 "inspiration in simple and efficient examples that they'll adapt to fit "
@@ -180,7 +180,7 @@ msgstr ""
 "script doivent pouvoir s'inspirer d'exemples simples et efficaces qu'ils "
 "adapteront à leurs situations spécifiques ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:86
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:86
 msgid ""
 "sysadmins must be able to communicate on the efficiency of their actions "
 "to their superiors and report process gaps to internal or external "
@@ -190,7 +190,7 @@ msgstr ""
 "leur direction et restituer les écarts de process aux auditeurs de leur "
 "société ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:89
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:89
 msgid ""
 "sysadmins must be able to collaborate with their IT team in full trust; "
 "thereby WAPT local repositories provide signed packages they can trust to"
@@ -204,7 +204,7 @@ msgstr ""
 "dépôts publics qui leur fournissent les garanties de sécurité qu'ils "
 "jugent suffisantes ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:95
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:95
 msgid ""
 "sysadmins are aware that user workstations serve business purposes and "
 "some customizations must be possible. The adaptation of the "
@@ -218,19 +218,19 @@ msgstr ""
 "notion de groupes qui permet de sélectionner des machines respectant un "
 "critère de tri pour personnaliser leur configuration ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:101
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:101
 msgid "Fundamental principles"
 msgstr "Principes fondamentaux"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:104
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:104
 msgid "Package/ Repository principle"
 msgstr "Principe de Paquets / Dépôts"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:107
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:107
 msgid "WAPT packages"
 msgstr "Les paquets WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:109
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:109
 msgid ""
 "A WAPT package structure is similar to Debian Linux **.deb** packages. "
 "Each WAPT package includes the binaries to be executed and the other "
@@ -240,23 +240,23 @@ msgstr ""
 "de Debian Linux. Chaque paquet WAPT embarque avec lui les binaires qui "
 "seront exécutés et les autres fichiers dont il aura besoin."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:113
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:113
 msgid "A package is easily transportable."
 msgstr "Un paquet est transportable facilement."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:115
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:115
 msgid "Here is how a WAPT package looks:"
 msgstr "Voici la structure d'un paquet WAPT :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:121
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:121
 msgid "WAPT package structure"
 msgstr "Structure d'un paquet WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:124
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:124
 msgid "WAPT repositories"
 msgstr "Les dépôts WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:126
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:126
 msgid ""
 "Packages are stored in a web repository. They are not stored in a "
 "database."
@@ -264,7 +264,7 @@ msgstr ""
 "Les paquets sont stockés dans un répertoire web. Ils ne sont pas stockés "
 "dans une base de données."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:128
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:128
 msgid ""
 "They are served by the :program:`Nginx` web server, available with Linux "
 "and Windows."
@@ -272,7 +272,7 @@ msgstr ""
 "Ils sont servis par le serveur web :program:`Nginx`, disponible pour "
 "Linux et Windows."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:131
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:131
 msgid ""
 "The :file:`Packages` index file is the only thing necessary. It lists the"
 " packages available on allowed repositories and some basic information on"
@@ -283,7 +283,7 @@ msgstr ""
 "disponibles sur le dépôt, et les informations de base de chacun des "
 "paquets du dépôt."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:135
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:135
 msgid ""
 "That mechanism allows to easily set up a replication process between "
 "multiple repositories."
@@ -291,44 +291,44 @@ msgstr ""
 "Ce fonctionnement permet de mettre en place facilement un mécanisme de "
 "réplication entre plusieurs dépôts."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:139
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:139
 msgid "Types of WAPT packages"
 msgstr "Types de paquets WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:141
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:141
 msgid "There are 7 types of WAPT packages:"
 msgstr "Il existe 7 types de paquets WAPT:"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:147
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:147
 msgid "Anatomy of a simple WAPT package"
 msgstr "Représentation d'un paquet WAPT simple"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:150
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:152
 msgid "*Base* packages"
 msgstr "Les paquets *base*"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:152
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:154
 msgid "They are classic software packages."
 msgstr "Ce sont les paquets logiciels classiques."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:154
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:171
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:156
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:175
 msgid "They are stored in the web directory https://srvwapt.mydomain.lan/wapt/."
 msgstr ""
 "Ils sont stockés dans le répertoire web "
 "https://srvwapt.mydomain.lan/wapt/."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:157
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:161
 msgid "*Group* packages"
 msgstr "Les paquets *group*"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:159
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:163
 msgid "They are groups/ bundles of packages."
 msgstr ""
 "Ce sont des paquets qui permettent de faire des groupes de logiciels ou "
 "des groupes de machines."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:163
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:167
 msgid ""
 "a group / bundle of softwares often corresponds to a *host profile* (ex: "
 "**accounting**);"
@@ -336,13 +336,13 @@ msgstr ""
 "un groupe de logiciels correspond en réalité à un profil de machine (ex: "
 "**compta**) ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:166
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:170
 msgid "a group of hosts often corresponds to a room, building, etc;"
 msgstr ""
 "un groupe de machines correspond en réalité à une salle, un bâtiment, etc"
 " ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:168
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:172
 msgid ""
 "a host can be a member of several groups (ex: one or more hosts profiles "
 "in the same room in a building);"
@@ -350,15 +350,15 @@ msgstr ""
 "une machine peut appartenir à plusieurs groupes (ex : un ou plusieurs "
 "profils de machine dans une salle dans un bâtiment) ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:174
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:180
 msgid "*Host* packages"
 msgstr "Les paquets *host*"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:176
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:182
 msgid "Host packages are named after the :term:`UUID` of the computer BIOS."
 msgstr "Les paquets \"machines\" portent le nom :term:`UUID` Bios de la machine."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:178
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:184
 msgid ""
 "Each host will look for its *host* package to know the packages that it "
 "must install (i.e. *dependencies*)."
@@ -366,8 +366,7 @@ msgstr ""
 "Chaque Poste client va par défaut chercher son paquet machine pour "
 "connaître la liste des paquets qu'il doit installer (*dépendances*)."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:181
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:202
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:187
 msgid ""
 "They are stored in the web directory https://srvwapt.mydomain.lan/wapt-"
 "host/."
@@ -375,17 +374,17 @@ msgstr ""
 "Ces paquets sont stockés dans le répertoire https://srvwapt.mydomain.lan"
 "/wapt-host/."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:184
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:192
 msgid "*Unit* packages"
 msgstr "Les paquets *unit*"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:186
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:226
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:235
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:194
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:242
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:253
 msgid "Enterprise"
 msgstr "Enterprise"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:188
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:196
 msgid ""
 "*Unit* packages bear the complete name of :abbr:`OU (Organizational "
 "Unit)`, example: **OU=room1,OU=prod,OU=computers,DC=mydomain,DC=lan**."
@@ -394,7 +393,7 @@ msgstr ""
 "Organisationnelle)`, exemple :  "
 "**OU=BUREAU1,OU=prod,OU=computers,DC=mydomain,DC=lan**."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:191
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:199
 msgid ""
 "By default, each computer looks for the *unit* packages that the host "
 "belongs to:"
@@ -402,23 +401,39 @@ msgstr ""
 "Chaque Poste client va par défaut chercher les paquets *unit* dont il "
 "fait partie :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:194
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:202
 msgid "OU=room1,OU=prod,OU=computers,DC=mydomain,DC=lan;"
 msgstr "OU=BUREAU1,OU=prod,OU=computers,DC=mydomain,DC=lan ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:196
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:204
 msgid "OU=computers,DC=mydomain,DC=lan;"
 msgstr "OU=computers,DC=mydomain,DC=lan ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:198
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:206
 msgid "DC=mydomain,DC=lan;"
 msgstr "DC=mydomain,DC=lan ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:200
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:208
 msgid "and then installs the list of associated dependencies."
 msgstr "et ensuite installer la liste des dépendances associées."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:206
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:210
+#, fuzzy
+msgid ""
+"*Unit* packages are stored in the web directory "
+"https://srvwapt.mydomain.lan/wapt/."
+msgstr ""
+"Ils sont stockés dans le répertoire web "
+"https://srvwapt.mydomain.lan/wapt/."
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:212
+msgid ""
+"*Unit packages* are not explicitly assigned to the host (i.e. as "
+"dependencies in the *host package*) but are implicitly taken into account"
+" by the WAPT agent dependency engine during the WAPT upgrade."
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:218
 msgid ""
 "If the computer is removed from an Organizational Unit, obsolete *unit* "
 "packages will be removed."
@@ -426,11 +441,11 @@ msgstr ""
 "Si la machine change d'OU, alors les paquets *unit* obsolètes seront "
 "désinstallés."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:210
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:224
 msgid "*waptwua* packages"
 msgstr "Les paquets *waptwua*"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:212
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:226
 msgid ""
 "*waptwua* packages contain the list of authorized or prohibited Windows "
 "Updates."
@@ -438,7 +453,7 @@ msgstr ""
 "Les paquets *waptwua* contiennent le liste des mises à jour Windows "
 "autorisées et interdites."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:214
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:228
 msgid ""
 "When this package is installed on the endpoint, the next update scan "
 "performed by WAPT will choose Windows updates based on this filtering."
@@ -447,7 +462,7 @@ msgstr ""
 "mise à jour effectuée par WAPT choisira les mises à jour Windows en "
 "fonction de ce filtrage."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:217
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:231
 msgid ""
 "If the host has several *waptwua* packages, then WAPT will merge all "
 "package rules."
@@ -455,7 +470,7 @@ msgstr ""
 "Si la machine a plusieurs listes de paquets *waptwua* applicables, alors "
 "WAPT combine les règles."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:220
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:234
 msgid ""
 "When this package is installed on the host, the next :command:`update` "
 "will scan for official Windows updates applicable to the host based on "
@@ -465,11 +480,11 @@ msgstr ""
 "recherchera les mises à jour officielles de Windows applicables à l'hôte "
 "en fonction de ce filtrage."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:224
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:240
 msgid "*selfservice* packages"
 msgstr "Les paquets *self-service*"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:228
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:244
 msgid ""
 "*selfservice* packages contain a list of groups or users (Active "
 "Directory or local) and their associated lists of authorized packages "
@@ -479,15 +494,15 @@ msgstr ""
 "d'utilisateurs (Active Directory ou local) et leurs listes associées de "
 "paquets que les utilisateurs seront autorisés à installer par eux-mêmes."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:233
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:251
 msgid "*profile* packages"
 msgstr "Les paquets *profile*"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:237
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:255
 msgid "*profile* packages are similar to *group* packages."
 msgstr "Les paquets *profile* sont similaires aux paquets *groupe*."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:239
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:257
 msgid ""
 "However, *profile* packages work a little differently and are most useful"
 " when an Active Directory Server is operating within the "
@@ -497,7 +512,7 @@ msgstr ""
 " plus utiles lorsqu'un serveur Active Directory fonctionne dans "
 "l':term:`Organisation` :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:242
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:260
 msgid ""
 "the WAPT agent will list the Active Directory groups where the host "
 "belongs;"
@@ -505,7 +520,7 @@ msgstr ""
 "l'agent WAPT listera les groupes Active Directory auxquels appartient "
 "l'hôte ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:244
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:262
 msgid ""
 "if a *profile* package has the same name as the Active Directory group, "
 "then the WAPT agent will install automatically the *profile* package for "
@@ -515,7 +530,7 @@ msgstr ""
 "l'agent WAPT installera automatiquement le paquet *profile* pour le "
 "groupe Active Directory auquel il appartient ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:248
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:266
 msgid ""
 "If the host is no longer a member of its Active Directory group, then the"
 " *profile* package will be uninstalled."
@@ -523,7 +538,23 @@ msgstr ""
 "Si l'hôte n'est plus membre de son groupe Active Directory, le paquet "
 "*profile* sera désinstallé."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:253
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:269
+#, fuzzy
+msgid ""
+"*Profile packages* are stored in the web directory "
+"https://srvwapt.mydomain.lan/wapt/."
+msgstr ""
+"Ils sont stockés dans le répertoire web "
+"https://srvwapt.mydomain.lan/wapt/."
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:271
+msgid ""
+"*Profile packages* are not explicitly assigned to the host (i.e. as "
+"dependencies in the *host package*) but are implicitly taken into account"
+" by the WAPT agent dependency engine during the WAPT upgrade."
+msgstr ""
+
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:277
 msgid ""
 "For performance reasons, this feature is enabled only if the "
 "*use_ad_groups* option is enabled in :file:`wapt-get.ini`."
@@ -531,15 +562,15 @@ msgstr ""
 "Pour des raisons de performance, cette fonctionnalité n'est activée que "
 "si l'option *use_ad_groups* est activée dans :file:`wapt-get.ini`."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:257
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:281
 msgid "Dependency mechanism"
 msgstr "Principe de dépendances"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:259
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:283
 msgid "In WAPT everything works on the principle of dependencies."
 msgstr "Dans WAPT tout fonctionne selon le principe des dépendances."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:261
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:285
 msgid ""
 "By default, the WAPT agent will look for its host package. The *host* "
 "package lists packages to install on the computer."
@@ -547,7 +578,7 @@ msgstr ""
 "Par défaut, le client WAPT va chercher à installer son paquet machine. Le"
 " paquet *host* listera les autres paquets à installer sur la machine."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:264
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:288
 msgid ""
 "The *host* package is correctly installed when all its dependencies are "
 "satisfied."
@@ -555,13 +586,13 @@ msgstr ""
 "Ainsi, le paquet *host* sera correctement installé si toutes ses "
 "dépendances sont satisfaites."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:267
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:291
 msgid ""
 "Each sub-dependency must be satisfied to satisfy an upper-level "
 "dependency."
 msgstr "Chaque dépendance devra satisfaire aux sous-dépendances et ainsi de suite."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:269
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:293
 msgid ""
 "When every dependency is satisfied, the host notifies its status to the "
 "WAPT Server and its indicator turns **OK** and green in the WAPT console,"
@@ -573,11 +604,11 @@ msgstr ""
 " que l':term:`Administrateur` ou le :term:`Déployeur de Paquets` aura "
 "défini pour elle."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:278
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:302
 msgid "Conceptual diagram of the dependency mechanism"
 msgstr "Schéma conceptuel de la notion de dépendance"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:282
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:306
 msgid ""
 "When attributing a software package to a host as a dependency, only the "
 "software canonical name without its version number is registered as a "
@@ -593,7 +624,7 @@ msgstr ""
 "l':term:`Utilisateur` ne m'appelle pas car il ne trouve pas l'icône sur "
 "son bureau!)."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:289
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:313
 msgid ""
 "For each dependency, the WAPT agent will take care of automatically "
 "installing the latest available package version. So if several versions "
@@ -607,7 +638,7 @@ msgstr ""
 "WAPT ira toujours chercher la dernière version, à moins que vous ayez "
 "épinglé la version pour cause de compatibilité avec d'autres outils."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:295
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:319
 msgid ""
 "Afterwards, when the agent contacts the repository to check for new "
 "updates, it will compare the package versions on the repository with its "
@@ -617,7 +648,7 @@ msgstr ""
 "nouvelles mises à jour, il compare les versions des paquets du dépôt avec"
 " sa propre liste locale de paquets déjà installés sur la machine."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:299
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:323
 msgid ""
 "If an update of an installed package is available, the client will switch"
 " the status of the package to **NEED UPGRADE**. It will then install the "
@@ -627,16 +658,16 @@ msgstr ""
 "basculera le statut du paquet en **NEED UPGRADE**. Il installera ainsi "
 "les mises à jour au prochain :command:`upgrade`."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:304
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:315
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:328
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:339
 msgid "Private key / Public key principle"
 msgstr "Principe de clé privée / clé publique"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:307
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:331
 msgid "Introduction"
 msgstr "Introduction"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:309
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:333
 msgid ""
 "Like Android **APK** packages, WAPT packages are signed; a hash of the "
 "control sum of all the files included in the package is calculated."
@@ -644,17 +675,17 @@ msgstr ""
 "Comme **APK** sous Android, les paquets WAPT sont signés et embarquent "
 "une somme de contrôle de la liste des fichiers contenus dans le paquet."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:312
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:336
 msgid "This signing method guarantees the origin and integrity of the package."
 msgstr ""
 "Cette méthode de signature permet de garantir la provenance et "
 "l'intégrité du paquet."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:321
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:345
 msgid "Private key/ public certificate"
 msgstr "Principe de clé privée / clé publique"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:323
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:347
 msgid ""
 "To work properly, WAPT requires a private key/ public key pair (self-"
 "signed, issued by an internal :term:`Certificate Authority` or "
@@ -664,7 +695,7 @@ msgstr ""
 "signé, issu d'une :term:`Autorité de Certification` interne, ou "
 "commercial)."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:326
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:350
 msgid ""
 "The **private key** will be used to **sign** WAPT packages whereas the "
 "**public key** will be distributed with every WAPT client so that WAPT "
@@ -675,7 +706,7 @@ msgstr ""
 "distribué sur chaque client WAPT pour qu'il puisse valider les fichiers "
 "signés avec la clé privée."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:330
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:354
 msgid ""
 "The different public keys will be stored in the WAPT subdirectory "
 ":file:`ssl`. That folder can contain several public keys."
@@ -684,11 +715,11 @@ msgstr ""
 ":file:`ssl` de l'agent WAPT, ce dossier peut contenir plusieurs "
 "certificats publics."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:334
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:358
 msgid "Package verification"
 msgstr "Vérification des paquets"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:336
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:360
 msgid ""
 "When a WAPT package is downloaded, the WAPT agent (:program:`waptagent`) "
 "will check the integrity of the package, and then check that the package "
@@ -698,7 +729,7 @@ msgstr ""
 " vérifie l'integrité des fichiers, puis vérifie que le paquet a été "
 "correctement **signé**."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:340
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:364
 msgid ""
 "If the WAPT package signature does not match any of the public keys "
 "located in :file:`C:\\\\Program Files (x86)\\\\wapt\\\\ssl`, the WAPT "
@@ -708,7 +739,7 @@ msgstr ""
 "situées dans :file:`C:\\\\\\Program Files (x86)\\\\\\wapt\\\\\\\\ssl`, "
 "l'agent WAPT refusera d'installer le paquet."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:344
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:368
 msgid ""
 "For more information, please refer to the documentation on :ref:`how the "
 "installation process integrity of a WAPT package is insured "
@@ -718,11 +749,11 @@ msgstr ""
 ":ref:`protéger l'intégrité du processus d'installation des paquets WAPT "
 "<WAPT_package_installation_process_integrity>`."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:349
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:373
 msgid "The private certificate is important"
 msgstr "Importance de la clé privée"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:353
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:377
 msgid ""
 "The private key must **NOT** be stored on the WAPT Server, nor on any "
 "public or shared storage that could be accessed by non-authorized "
@@ -734,7 +765,7 @@ msgstr ""
 "la sécurité de WAPT repose sur la confidentialité des jeux de clés "
 "privées."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:357
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:381
 msgid ""
 "The private key must be stored in a safe place, because **she who has "
 "your key controls your network**!"
@@ -742,7 +773,7 @@ msgstr ""
 "Elle doit être stockée en lieu sûr car **celui qui contrôle votre clé "
 "contrôle votre parc** !"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:360
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:384
 msgid ""
 "Finally, to ensure maximum security, the private key can be secured in a "
 "smartcard or a cryptographic token that WAPT :term:`Administrators` or "
@@ -755,7 +786,7 @@ msgstr ""
 "utilisant leur smartcard ou leur jeton cryptographique ponctuellement "
 "pour signer un paquet WAPT."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:367
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:391
 msgid ""
 "From WAPT 1.5 onward, the private key is protected with a password by "
 "default."
@@ -763,19 +794,19 @@ msgstr ""
 "Depuis la version 1.5 de WAPT, la clé privée est protégée par un mot de "
 "passe."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:371
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:395
 msgid "WAPT architecture and operating mode"
 msgstr "Fonctionnement et architecture WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:374
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:398
 msgid "Inventory/ information feedback"
 msgstr "remontée des informations d'inventaire"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:376
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:400
 msgid "WAPT keeps a hardware and software inventory of each host."
 msgstr "WAPT fait un inventaire matériel et logiciel de chaque machine."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:378
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:402
 msgid ""
 "That inventory is stored in a small database integrated in each WAPT "
 "agent."
@@ -783,11 +814,11 @@ msgstr ""
 "Cet inventaire est stocké dans une petite base de données incorporée dans"
 " l'agent WAPT."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:384
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:408
 msgid "Inventory feedback mechanism"
 msgstr "Fonctionnement de la remontée d'inventaire"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:386
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:410
 msgid ""
 "when first registering with the WAPT Server, the WAPT agent sends the "
 "entire inventory (BIOS, hardware, software) to the server;"
@@ -795,7 +826,7 @@ msgstr ""
 "lors d'un premier enregistrement, le client WAPT remonte la totalité de "
 "son inventaire (BIOS, machine, logiciels) au serveur ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:389
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:413
 msgid ""
 "when the WAPT agent updates, the WAPT agent will report its inventory "
 "status to the WAPT Server;"
@@ -803,11 +834,11 @@ msgstr ""
 "lors de chaque mise à jour du client, l'agent WAPT remonte le delta de "
 "l'inventaire au serveur ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:396
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:420
 msgid "The inventory in the WAPT console"
 msgstr "L'inventaire dans la console WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:398
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:422
 msgid ""
 "The central inventory allows you to filter hosts by their components, "
 "software or any other searchable argument."
@@ -816,19 +847,19 @@ msgstr ""
 "logiciel ou de filtrer sur tout autre paramètre remonté dans "
 "l'inventaire."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:402
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:426
 msgid "Information feedback"
 msgstr "La remontée d'informations"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:404
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:428
 msgid "The WAPT agents also report back their WAPT package status."
 msgstr "L'agent WAPT remonte également le statut des paquets WAPT."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:410
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:434
 msgid "Inventory feedback returned to the WAPT Server"
 msgstr "La remontée du statut des paquets vers le serveur WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:412
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:436
 msgid ""
 "In case of errors during package installation, the information will be "
 "reported to the WAPT Server. The host will then appear in **ERROR** in "
@@ -838,11 +869,11 @@ msgstr ""
 "transmise au serveur WAPT. La machine apparaîtra alors en **ERREUR** dans"
 " la console."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:419
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:443
 msgid "Packages with error status in the WAPT console"
 msgstr "Elément en erreur dans la console WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:421
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:445
 msgid ""
 "The :term:`Administrator` can see the package returned in error in the "
 "console and fix the package accordingly."
@@ -850,7 +881,7 @@ msgstr ""
 "L':term:`Administrateur` pourra ensuite constater l'erreur dans la "
 "console et la corriger."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:424
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:448
 msgid ""
 "For each :command:`upgrade`, WAPT will try to install a new version of "
 "the package until no error status is returned."
@@ -858,7 +889,7 @@ msgstr ""
 "À chaque :command:`upgrade`, WAPT tentera une nouvelle fois "
 "l'installation du paquet en erreur."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:429
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:453
 msgid ""
 "From WAPT 1.3.13 onward, WAPT agents sign their inventory before sending "
 "it to the WAPT Server."
@@ -866,7 +897,7 @@ msgstr ""
 "Pour plus de sécurité, depuis la version 1.3.13, l'inventaire remontée "
 "par l'agent wapt est signé par l'agentwapt."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:432
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:456
 msgid ""
 "For more information, please refer to :ref:`signing inventory updates "
 "<signing_inventory_updates>`."
@@ -874,15 +905,15 @@ msgstr ""
 "Pour en savoir plus rendez-vous sur la documentation pour :ref:`signer "
 "les remontées d'inventaire <signing_inventory_updates>`."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:436
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:460
 msgid "Complete diagram of the WAPT operating mechanism"
 msgstr "Diagramme complet du fonctionnement de WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:442
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:466
 msgid "WAPT general operating mode"
 msgstr "Fonctionnement général de WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:444
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:468
 msgid ""
 "We find here the common WAPT behavior, from duplicating a package from an"
 " external repository accessible on the Internet, to deploying it on "
@@ -892,63 +923,63 @@ msgstr ""
 " paquet depuis un dépôt externe sur Internet jusqu'à son déploiement sur "
 "les clients."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:448
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:472
 msgid "Read the diagram clockwise:"
 msgstr "Il faut lire ce schéma dans le sens des aiguilles d'une montre :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:450
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:474
 msgid ""
 "import packages from an external repository (or create a new package from"
 " scratch);"
 msgstr "importer des paquets depuis un dépôt (ou créer ex-nihilo un paquet) ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:453
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:477
 msgid "test, validate, build and then sign the package;"
 msgstr "tester, ensuite valider, puis construire et enfin signer le paquet ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:455
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:479
 msgid "upload the package onto the main repository;"
 msgstr "charger le paquet sur le dépôt principal ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:457
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:481
 msgid "packages are automatically downloaded by WAPT clients;"
 msgstr "ensuite, téléchargement automatique des paquets par les clients WAPT ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:459
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:483
 msgid "packages are executed based on the selected method:"
 msgstr "exécution des paquets selon la méthode sélectionnée :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:461
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:485
 msgid "The :term:`Administrator` forces the :command:`upgrade`;"
 msgstr "L':term:`Administrateur` force l':command:`upgrade` ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:463
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:487
 msgid "the :term:`User` chooses the right time for themself;"
 msgstr "l':term:`Utilisateur` choisit le moment opportun pour lui ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:465
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:489
 msgid "a scheduled task launches the upgrade;"
 msgstr "une tâche planifiée lance l'exécution de la mise à jour ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:467
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:491
 msgid "the upgrade is executed when the machine shuts down;"
 msgstr "la mise à jour est exécutée à l'extinction de la machine ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:469
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:493
 msgid "inventory information feedback;"
 msgstr "remontée des informations d'inventaire ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:471
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:495
 msgid "the updated inventory is reported in the console;"
 msgstr "consultation de la remontée d'inventaire via la console ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:475
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:499
 msgid "WAPT agent behavior with packages install / remove / session_setup / audit"
 msgstr ""
 "Comportement de l'agent WAPT pour installer / supprimer / configurer en "
 "contexte utilisateur / auditer un paquet"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:477
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:501
 msgid ""
 "A key concept that can be hard to understand is the behavior of a WAPT "
 "agent when installing a package and the considerations around it."
@@ -957,19 +988,19 @@ msgstr ""
 "de l'agent WAPT lors de l'installation d'un paquet et les considérations "
 "qui l'entourent."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:480
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:504
 msgid "WAPT agent package installation can be split in SSS steps:"
 msgstr "L'installation du paquet d'agents WAPT peut être divisée en étapes :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:482
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:506
 msgid "package downloaded in agent cache;"
 msgstr "paquet téléchargé dans le cache de l'agent;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:484
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:508
 msgid "package unzip to temp folder;"
 msgstr "décompression du paquet dans un dossier temporaire ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:486
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:510
 msgid ""
 ":file:`setup.py` content is stored in WAPT agent database located in "
 ":file:`C:\\\\Program Files (x86)\\\\wapt\\\\db\\\\waptdb.sqlite`;"
@@ -978,11 +1009,11 @@ msgstr ""
 "l'agent WAPT située dans :file:`C:\\\\Program Files "
 "(x86)\\\\wapt\\\\db\\\\waptdb.sqlite`;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:489
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:513
 msgid "software installed from unzipped files:"
 msgstr "les logiciels sont installés à partir des fichiers décompressés :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:491
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:515
 msgid ""
 "in case of success: downloaded package + unzipped files are deleted and "
 "status is sent to server;"
@@ -990,7 +1021,7 @@ msgstr ""
 "en cas de succès : le paquet téléchargé + les fichiers décompressés sont "
 "supprimés et le statut est envoyé au serveur ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:494
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:518
 msgid ""
 "in case of failure: downloaded package is kept - unzipped files are "
 "deleted - error status sent to server;"
@@ -998,21 +1029,21 @@ msgstr ""
 "en cas d'échec : le paquet téléchargé est conservé - les fichiers "
 "décompressés sont supprimés - le statut d'erreur est envoyé au serveur ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:497
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:521
 msgid "That behavior is important as it has an impact on further actions."
 msgstr "Ce comportement est important car il a un impact sur les actions futures."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:503
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:527
 msgid "WAPT install behavior"
 msgstr "Comportement de l'installation d'un paquet WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:505
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:529
 msgid "For instance when removing a package the following steps are taken:"
 msgstr ""
 "Par exemple, quand on supprime un paquet WAPT, les étapes suivantes sont "
 "effectuées :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:507
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:531
 msgid ""
 ":file:`setup.py` content is retrieved from WAPT agent database located in"
 " :file:`C:\\\\Program Files (x86)\\\\wapt\\\\db\\\\waptdb.sqlite`;"
@@ -1021,13 +1052,13 @@ msgstr ""
 "située dans :file:`C:\\\\Program Files "
 "(x86)\\\\wapt\\\\db\\\\waptdb.sqlite` ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:510
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:534
 msgid "software uninstall from registry :command:`UninstallString` is executed;"
 msgstr ""
 "la valeur de *UninstallString* récupérée depuis la base de données, est "
 "exécutée ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:512
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:536
 msgid ""
 "if defined, :command:`uninstall()` function is executed from retrieved "
 "package source code;"
@@ -1035,7 +1066,7 @@ msgstr ""
 "Si elle est définie, la fonction :command:`uninstall()` est exécutée à "
 "partir du code source récupéré ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:515
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:539
 msgid ""
 "Similar steps are reproduced when executing :command:`session_setup` and "
 ":command:`audit`."
@@ -1043,55 +1074,55 @@ msgstr ""
 "Des étapes similaires sont reproduites lors de l'exécution de "
 ":command:`session_setup` et :command:`audit`."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:522
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:546
 msgid "WAPT behavior with uninstall / session_setup and audit"
 msgstr ""
 "Comportement de l'agent WAPT avec la désinstallation, le session_setup et"
 " l'audit"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:525
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:549
 msgid "WAPT Server architecture"
 msgstr "Architecture du serveur WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:527
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:551
 msgid "The WAPT Server architecture relies on several distinct roles:"
 msgstr ""
 "L'architecture du serveur WAPT repose sur plusieurs rôles distincts et en"
 " partie dissociables :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:529
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:553
 msgid "the *repository role* for distributing packages;"
 msgstr "rôle de dépôt : *distribution de paquets* ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:531
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:555
 msgid ""
 "the *inventory* and *central server* role for hardware and software "
 "inventory;"
 msgstr "rôle d'inventaire : *inventaire matériel et logiciel* ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:533
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:557
 msgid ""
 "the *proxy* role to relay actions between the WAPT console and the WAPT "
 "agents;"
 msgstr "rôle de proxy : *proxy de commande depuis la console* ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:537
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:561
 msgid "Repository role"
 msgstr "Rôle de dépôt"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:539
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:563
 msgid "First, the WAPT Server serves as a web repository."
 msgstr "Le serveur WAPT a pour premier rôle celui de dépôt de fichiers web."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:545
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:569
 msgid "WAPT repository mechanism"
 msgstr "Fonctionnement du dépôt WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:547
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:571
 msgid "the repository role is accomplished by a :program:`Nginx` web server;"
 msgstr "ce rôle de dépôt est accompli par un serveur web Nginx ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:549
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:573
 msgid ""
 "the repository allows the distribution of WAPT packages, the installers "
 "for :program:`waptagent` and :program:`waptsetup`;"
@@ -1099,7 +1130,7 @@ msgstr ""
 "le dépôt permet la distribution des paquets WAPT, des installeurs "
 ":program:`waptagent` et :program:`waptsetup` ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:552
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:576
 msgid ""
 "WAPT packages are available via a web browser by visiting "
 "https://srvwapt.mydomain.lan/wapt;"
@@ -1107,7 +1138,7 @@ msgstr ""
 "les paquets WAPT sont accessibles avec un navigateur web à l'adresse : "
 "https://srvwapt.mydomain.lan/wapt ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:555
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:579
 msgid ""
 "*host* packages are stored in a directory that is not accessible by "
 "default (https://srvwapt.mydomain.lan/wapt/wapt-host/);"
@@ -1115,15 +1146,15 @@ msgstr ""
 "les paquets machines sont contenus dans un répertoire inaccessible par "
 "défaut (https://srvwapt.mydomain.lan/wapt/wapt-host/) ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:559
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:583
 msgid "Inventory server role"
 msgstr "Rôle d'inventaire"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:560
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:584
 msgid "Second, the WAPT Server serves as an inventory server."
 msgstr "Le serveur WAPT a pour deuxième rôle celui de serveur d'inventaire."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:562
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:586
 msgid ""
 "The inventory server is a passive service that collects information "
 "reported by WAPT agents:"
@@ -1131,23 +1162,23 @@ msgstr ""
 "Le serveur d'inventaire est un service passif qui collecte les "
 "informations que les agents WAPT lui envoient :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:565
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:589
 msgid "hardware inventory;"
 msgstr "inventaire matériel ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:567
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:591
 msgid "software inventory;"
 msgstr "inventaire logiciel ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:569
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:593
 msgid "WAPT packages status;"
 msgstr "statut des paquets WAPT ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:571
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:595
 msgid "tasks status (*running*, *pending*, *error*);"
 msgstr "état des tâches (*running*, *pending*, *error*) ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:575
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:599
 msgid ""
 "The WAPT service is not active in the sense that it only receives "
 "information from clients. As a consequence, if the inventory server "
@@ -1160,7 +1191,7 @@ msgstr ""
 "serveur d'inventaire, l'inventaire se régénérera automatiquement à partir"
 " des remontées d'inventaire des agents déployés."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:580
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:604
 msgid ""
 "In the Community version of WAPT, access to inventory data is only "
 "possible through the WAPT console."
@@ -1169,7 +1200,7 @@ msgstr ""
 " pour la visualisation des données, l'accès aux données d'inventaire se "
 "fait au travers de la console WAPT."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:583
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:607
 msgid ""
 "WAPT **Enterprise** 1.7 will come with a *Business Intelligence* like web"
 " based reporting."
@@ -1177,25 +1208,25 @@ msgstr ""
 "En version **Enterprise**, l'inventaire est accessible à partir d'une "
 "console web de visualisation des données de type *Business Intelligence*."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:587
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:611
 msgid "Proxy role"
 msgstr "Rôle de Proxy"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:589
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:613
 msgid "Third, the WAPT Server serves as a command relay proxy."
 msgstr "Le serveur WAPT a pour troisième rôle celui de Proxy de commande."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:591
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:615
 msgid ""
 "It acts as a relay between the WAPT management console and deployed WAPT "
 "agents."
 msgstr "Il agit comme un relai entre la console et les agents WAPT déployés."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:597
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:621
 msgid "WAPT proxy mechanism"
 msgstr "Fonctionnement du proxy WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:601
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:625
 msgid ""
 "Every action triggered on a WAPT agent from the server are signed with "
 "the :term:`Administrator`'s private key. Without a valid private key, it "
@@ -1211,15 +1242,15 @@ msgstr ""
 ":ref:`signature des actions envoyées aux agents WAPT "
 "<signing_actions_relayed_to_WAPT_agents>`."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:608
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:632
 msgid "WAPT common interactions"
 msgstr "Les interactions classiques de WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:611
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:635
 msgid "update"
 msgstr "update"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:613
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:637
 msgid ""
 "When an :command:`update` command is launched on an agent (from the "
 "console, via the command-line or via the WAPT tray), it is equivalent to "
@@ -1232,7 +1263,7 @@ msgstr ""
 "des nouvelles versions de paquets sont disponibles. Par défaut, l'agent "
 "WAPT interroge son dépôt toutes les deux heures."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:618
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:642
 msgid ""
 "If the date of the :file:`Packages` index file has changed since the last"
 " :command:`update`, then the WAPT agent downloads the new "
@@ -1242,7 +1273,7 @@ msgstr ""
 ":command:`update`, alors l'agent WAPT télécharge le nouveau fichier "
 ":file:`Packages` (entre 20 et 100ko)."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:622
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:646
 msgid ""
 "The WAPT agent then compares the :file:`Packages` file with its own local"
 " database."
@@ -1250,7 +1281,7 @@ msgstr ""
 "L'agent WAPT compare ensuite le nouveau fichier :file:`Packages` avec sa "
 "base de données locale."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:625
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:649
 msgid ""
 "If the WAPT agent detects that a package must be added or updated, it "
 "will switch the status of the host and package to *NEED-UPGRADE*."
@@ -1258,7 +1289,7 @@ msgstr ""
 "Si l'agent WAPT constate qu'un paquet doit être ajouté, supprimé ou mis à"
 " jour, il basculera l'état du paquet en *NEED-UPGRADE*."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:628
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:652
 msgid ""
 "It will not launch the installation of the package immediately. The WAPT "
 "agent will wait for an \":command:`upgrade`\" order to launch the "
@@ -1267,11 +1298,11 @@ msgstr ""
 "Il ne lancera pas immédiatement l'installation du paquet. Il attendra "
 "l'ordre :command:`upgrade` pour exécuter la mise à jour."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:633
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:657
 msgid "upgrade"
 msgstr "upgrade"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:635
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:659
 msgid ""
 "When we launch a command :command:`upgrade` (from the WAPT console, using"
 " the command line, with a Windows scheduled task or manually with the "
@@ -1283,7 +1314,7 @@ msgstr ""
 "manuellement depuis le :guilabel:`wapttray`), on ordonne à l'agent "
 "d'installer les paquets en statut *NEED-UPGRADE*."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:640
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:664
 msgid ""
 "An :command:`update` must come before an :command:`upgrade`, otherwise "
 "the agent will not know whether updates are available."
@@ -1291,11 +1322,11 @@ msgstr ""
 "Un :command:`update` doit précéder un :command:`upgrade`, sinon l'agent "
 "ne saura pas que des mises à jour sont devenues disponibles."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:644
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:668
 msgid "Working principle of the WAPT agent"
 msgstr "Fonctionnement de l'agent WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:646
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:670
 msgid ""
 "By default, the WAPT agent will trigger an :command:`update`/ a :command"
 ":`download-upgrade` at startup; after starting up, the WAPT agent will "
@@ -1305,13 +1336,13 @@ msgstr ""
 "upgrade` au démarrage du service, puis toutes les deux heures pour "
 "vérifier s'il a des choses à faire."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:650
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:674
 msgid ""
 "Packages to be installed will be downloaded and cached in the folder "
 ":file:`C:\\\\Program Files (x86)\\\\wapt\\\\cache`."
 msgstr "C:\\\\Program Files (x86)\\\\wapt\\\\"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:653
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:677
 msgid ""
 ":program:`waptexit` will launch an :command:`upgrade` when the computer "
 "shuts down. An :term:`Administrator` will also be able to launch an "
@@ -1321,7 +1352,7 @@ msgstr ""
 "l'ordinateur avec le :program:`waptexit`. Un :term:`Administrateur` "
 "pourra également forcer un :command:`upgrade` depuis la console."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:657
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:681
 msgid ""
 "If the WAPT Server is not reachable when upgrading, the WAPT agent will "
 "still be able to install cached packages."
@@ -1330,7 +1361,7 @@ msgstr ""
 "l':command:`upgrade`, l'agent WAPT pourra tout de même installer ses "
 "paquets en attente car ils seront disponibles dans le cache."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:660
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:684
 msgid ""
 "Inventory updates will then be sent to the WAPT Server when network "
 "connectivity returns."
@@ -1338,25 +1369,25 @@ msgstr ""
 "L'inventaire sera ensuite envoyé quand le serveur WAPT sera de nouveau "
 "disponible."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:663
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:687
 msgid "The 4 goals of the WAPT agent are therefore:"
 msgstr "Les 4 buts de l'agent WAPT sont donc :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:665
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:689
 msgid "to install a *base*, a *group* or a *unit* package if it is available;"
 msgstr ""
 "d'installer un paquet *host*, *group* ou *unit* si celui-ci est "
 "disponible ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:667
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:691
 msgid "to remove obsolete packages;"
 msgstr "de supprimer les paquets obsolètes ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:669
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:693
 msgid "to resolve package dependencies and conflicts;"
 msgstr "de résoudre les dépendances et les conflits ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:671
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:695
 msgid ""
 "to make sure all installed WAPT packages are up to date compared to the "
 "ones stored on the repository;"
@@ -1364,7 +1395,7 @@ msgstr ""
 "de maintenir tous ses paquets WAPT installés à jour par rapport à ceux du"
 " dépôt ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:674
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:698
 msgid ""
 "to regularly update the WAPT server with its hardware status and the "
 "status of installed software;"
@@ -1372,21 +1403,21 @@ msgstr ""
 "d'envoyer régulièrement son inventaire matériel et l'état d'installation "
 "de ses paquets ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:678
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:702
 msgid "WAPT package creation"
 msgstr "La création de paquets WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:681
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:705
 msgid "WAPT language and development environment"
 msgstr "Le langage de WAPT et les environments de développement"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:683
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:707
 msgid "WAPT is built using the `Python language <https://www.python.org>`_."
 msgstr ""
 "WAPT est édité avec le `langage de programmation Python "
 "<https://www.python.org/>`_."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:685
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:709
 msgid ""
 "Any Rapid Application Development environment intended for Python "
 "development is suitable."
@@ -1394,7 +1425,7 @@ msgstr ""
 "N'importe quel environment de développement rapide (RAD) destiné à la "
 "programmation python convient."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:688
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:712
 msgid ""
 "Tranquil IT has developed some useful WAPT specific plugins for the "
 ":program:`PyScripter` IDE (https://sourceforge.net/projects/pyscripter)."
@@ -1402,7 +1433,7 @@ msgstr ""
 "WAPT a développé quelques extensions très utiles dans le RAD PyScripter "
 "https://sourceforge.net/projects/pyscripter."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:691
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:715
 msgid ""
 "Tranquil IT recommends using :program:`PyScripter`, available with the "
 "*tis-waptdev* meta-package."
@@ -1410,45 +1441,45 @@ msgstr ""
 "Tranquil IT recommande l'usage de :program:`PyScripter`, disponible dans "
 "le paquet *tis-waptdev*."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:695
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:719
 msgid "Principles of WAPT package development"
 msgstr "Les grands concepts du développement de paquets WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:698
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:722
 msgid "The strength of Python"
 msgstr "La puissance de Python"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:700
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:724
 msgid "All the power of :program:`Python` can be advantageously put to use."
 msgstr ""
 "Toute la puissance de :program:`Python` peut être avantageusement "
 "exploitée."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:702
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:726
 msgid "Many libraries already exist in Python for:"
 msgstr "De nombreuses librairies existent en standard avec Python pour :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:704
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:728
 msgid "doing conditional loops (if ... then ... else ...);"
 msgstr "faire des boucles de vérification (if ... then ... else ...) ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:706
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:730
 msgid "copying, pasting, moving files and directories;"
 msgstr "copier, coller, déplacer des fichiers ou des répertoires ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:708
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:732
 msgid "checking whether files or directories exist;"
 msgstr "tester l'existence ou l'absence de fichiers ou de répertoires ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:710
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:734
 msgid "checking whether registry keys exist;"
 msgstr "tester l'existence ou l'absence d'éléments de base de registre ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:712
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:736
 msgid "checking access rights, modifying access rights;"
 msgstr "tester des droits, les modifier ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:714
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:738
 msgid ""
 "looking up information on external data sources (LDAP, databases, files, "
 "etc);"
@@ -1456,15 +1487,15 @@ msgstr ""
 "interroger des sources de données extérieures (annuaires, bases de "
 "données, autres référentiels) ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:716
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:740
 msgid "etc ..."
 msgstr "etc ..."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:719
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:743
 msgid "The power of WAPT"
 msgstr "La puissance de WAPT"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:721
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:745
 msgid ""
 "Functions most commonly used with WAPT were simplified within libraries "
 "called :term:`SetupHelpers`."
@@ -1472,7 +1503,7 @@ msgstr ""
 "Les actions les plus fréquemment employées avec WAPT ont été simplifiées "
 "dans des fonctions appelées :term:`SetupHelpers`."
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:724
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:748
 msgid ""
 "**SetupHelpers** libraries simplify the process of creating and testing "
 "WAPT packages, thus validating WAPT's main objectives:"
@@ -1480,15 +1511,15 @@ msgstr ""
 "Les fonctions **SetupHelpers** simplifient la création ou l'évaluation de"
 " paquets WAPT, validant l'objectif initial de WAPT :"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:727
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:751
 msgid "**what was complicated is made simple**;"
 msgstr "**ce qui était compliqué est rendu simple avec WAPT** ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:729
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:753
 msgid "**what was simple is made trivial**;"
 msgstr "**ce qui était simple est rendu trivial avec WAPT** ;"
 
-#: /home/agauvrit/projects/doc-wapt/source/wapt-concept/index.rst:731
+#: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-concept/index.rst:755
 msgid "Now, I want to :ref:`install my WAPT Server <installing_WAPT_Server>`!!"
 msgstr ""
 "Je veux maintenant :ref:`installer mon serveur WAPT "
@@ -1496,3 +1527,4 @@ msgstr ""
 
 #~ msgid "*WAPTWUA* packages"
 #~ msgstr "Les paquets *wsus*"
+

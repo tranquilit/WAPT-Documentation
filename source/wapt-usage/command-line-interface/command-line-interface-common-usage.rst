@@ -96,16 +96,30 @@ and description.
 
 The command :code:`wapt-get search "Firefox"` returns:
 
-.. tabularcolumns:: |\X{2}{12}|\X{2}{12}|\X{2}{12}|\X{4}{12}|\X{2}{12}|
+.. list-table::
+  :header-rows: 1
+  :widths: 25 25 15 35
 
-=============== ============ ========= =========================================
-Package name    Version      Plateform Description
-=============== ============ ========= =========================================
-tis-firefox     50.0.2-73    all       Mozilla Firefox Web Browser in French
-tis-firefox-en  50.0.1-58    all       Mozilla Firefox Web Browser in English
-tis-firefox-esr 45.6.0-4     all       Mozilla Firefox Web Browser ESR
-tis-flashplayer 24.0.0.186-1 all       Adobe Flashplayer for Firefox
-=============== ============ ========= =========================================
+  * - Package name
+    - Version
+    - Plateform
+    - Description
+  * - tis-firefox
+    - 50.0.2-73
+    - all
+    - Mozilla Firefox Web Browser in French
+  * - tis-firefox-en
+    - 50.0.1-58
+    - all
+    - Mozilla Firefox Web Browser in English
+  * - tis-firefox-esr
+    - 45.6.0-4
+    - all
+    - Mozilla Firefox Web Browser ESR
+  * - tis-flashplayer
+    - 24.0.0.186-1
+    - all
+    - Adobe Flashplayer for Firefox
 
 wapt-get install
 ++++++++++++++++
