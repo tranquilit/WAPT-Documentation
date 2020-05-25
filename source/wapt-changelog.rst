@@ -12,7 +12,7 @@
 Changelog
 =========
 
-WAPT-1.8.2 RC1 (2020-05-18)
+WAPT-1.8.2 RC1 (2020-05-26)
 ---------------------------
 
 .. warning::
@@ -80,6 +80,10 @@ Libraries
 Removed featured
 
 * autoconfiguration of repositories based on SRV DNS fields (it was not working anymore anyway)
+
+Caveat
+
+* [CAV] WaptExit is not started automatically on shutdown on Linux or MacOS (current issue with systemd / launched integration)
 
 WAPT-1.8.1-6758 (2020-03-06)
 ----------------------------
