@@ -234,6 +234,8 @@ will merge all package rules.
 When this package is installed on the host, the next :command:`update` will scan
 for official Windows updates applicable to the host based on this filtering.
 
+They are stored in the web directory https://srvwapt.mydomain.lan/wapt/.
+
 .. _selfservice_packages:
 
 *selfservice* packages
@@ -244,6 +246,8 @@ for official Windows updates applicable to the host based on this filtering.
 *selfservice* packages contain a list of groups or users
 (Active Directory or local) and their associated lists
 of authorized packages that Users are allowed to install by themselves.
+
+They are stored in the web directory https://srvwapt.mydomain.lan/wapt/.
 
 .. _profile_packages:
 
