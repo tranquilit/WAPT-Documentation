@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: WAPT 1.8\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-05-21 17:26+0200\n"
-"PO-Revision-Date: 2020-05-21 18:36+0200\n"
+"PO-Revision-Date: 2020-05-28 18:21+0200\n"
 "Last-Translator: Vincent CARDON <vcardon@tranquil.it>\n"
 "Language-Team: Tranquil IT\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.3.4\n"
 "Language: fr\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 1.8.8\n"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:8
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:53
@@ -52,7 +52,7 @@ msgstr "Community"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:66
 msgid "**Deploy, update and remove software** on hosts running |windows| |linux_debian| |linux_ubuntu| |linux_redhat| |apple| |linux_suse|"
-msgstr "**Déployer, mettre à jour et supprimer des logiciels** sur des hôtes fonctionnant sous |windows| |linux_debian| |linux_ubuntu| |linux_redhat| |apple| |linux_suse|"
+msgstr "**Déployez, mettez à jour et supprimez des logiciels** sur des hôtes fonctionnant sous |windows| |linux_debian| |linux_ubuntu| |linux_redhat| |apple| |linux_suse|"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:68
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:69
@@ -96,19 +96,19 @@ msgstr "Le dépôt est hébergé sur une infrastructure sous votre contrôle et 
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:75
 msgid "Deploy and update **configurations in SYSTEM context**"
-msgstr "Déployer et mettre à jour les **configurations dans le contexte du SYSTÈME**\\v"
+msgstr "Déployez et mettez à jour les **configurations dans le contexte du SYSTÈME**"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:78
 msgid "Deploy and update **configurations in USER context**"
-msgstr "Déployer et mettre à jour les **configurations dans le contexte de l'UTILISATEUR**"
+msgstr "Déployez et mettez à jour les **configurations dans le contexte de l'UTILISATEUR**"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:81
 msgid "Get a **comprehensive inventory** of hardware, software and applied WAPT packages"
-msgstr "Obtenir un **inventaire complet** du matériel, des logiciels et des progiciels appliqués avec WAPT"
+msgstr "Obtenez un **inventaire complet** du matériel, des logiciels et des progiciels appliqués avec WAPT"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:85
 msgid "Benefit from the **differenciated self-service** (authorized users may install authorized software from authorized WAPT package stores)"
-msgstr "Bénéficier du **libre-service différencié** (les utilisateurs autorisés peuvent installer les logiciels autorisés à partir de magasins de paquets WAPT autorisés)"
+msgstr "Bénéficiez du **libre-service différencié** (les utilisateurs autorisés peuvent installer les logiciels autorisés à partir de magasins de paquets WAPT autorisés)"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:88
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:92
@@ -142,7 +142,7 @@ msgstr "Simplifiez et structurez votre charge de travail administrative en appli
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:97
 msgid "Configure and manage easily WAPT **store relays to preserve bandwidth** in multi-site environments"
-msgstr "Configurer et gérer facilement les relais WAPT **pour préserver la bande passante** dans vos scénarios multi-sites"
+msgstr "Configurez et gérez facilement les relais WAPT **pour préserver la bande passante** dans vos scénarios multi-sites"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:101
 msgid "Get access to **ready-to-deploy WAPT packages** for common free-to-use software"
@@ -150,7 +150,7 @@ msgstr "Accédez à des dépôts de **paquets WAPT prêts à être déployés** 
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:105
 msgid "Work with **easily verifiable python recipes** for installing, updating and removing software and configuration, recipes may embedd Powershell code or scripts made with other languages (ex: for personalizing a software using a LDAP directory)"
-msgstr "Travailler avec des **recettes python facilement vérifiables** pour l'installation, la mise à jour et la suppression de logiciels et de configurations, les recettes peuvent intégrer du code Powershell ou des scripts réalisés avec d'autres langages (ex : pour personnaliser un logiciel en utilisant un répertoire LDAP)"
+msgstr "Travaillez avec des **recettes python facilement vérifiables** pour l'installation, la mise à jour et la suppression de logiciels et de configurations, les recettes peuvent intégrer du code Powershell ou des scripts réalisés avec d'autres langages (ex : pour personnaliser un logiciel en utilisant un répertoire LDAP)"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:111
 msgid "Benefit from **hundreds of Helpers** for simplifying your software packaging"
@@ -174,7 +174,7 @@ msgstr "Profitez de la puissance du SQL intégré à la console WAPT pour réali
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:129
 msgid "Authenticate your WAPT Administrator against an **Active Directory or LDAP**"
-msgstr "Authentifiez votre Administrateur WAPT par rapport à un **Active Directory ou LDAP**"
+msgstr "Authentifiez vos Administrateurs WAPT sur votre **Active Directory ou LDAP**"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:132
 msgid "|nok| [#f2]_"
@@ -182,7 +182,7 @@ msgstr "|nok| [#f2]_"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:133
 msgid "Benefit from differenciated roles between software packagers and package deployers so you can **delegate your WAPT powers to the most adequate people** (packagers know security implications, deployers know user needs)"
-msgstr "Bénéficier de rôles différenciés entre les développeurs de paquets WAPT et les déployeurs de paquets afin que vous puissiez **déléguer vos pouvoirs WAPT aux personnes les plus appropriées** (les développeurs de paquets connaissent les implications en matière de sécurité, les déployeurs connaissent les besoins des utilisateurs)"
+msgstr "Bénéficiez de rôles différenciés entre les développeurs de paquets WAPT et les déployeurs de paquets afin que vous puissiez **déléguer vos pouvoirs WAPT aux personnes les plus appropriées** (les développeurs de paquets connaissent les implications en matière de sécurité, les déployeurs connaissent les besoins des utilisateurs)"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:139
 msgid "Licensed under"
@@ -254,7 +254,7 @@ msgstr "Outil de déploiement d'images du système d'exploitation intégré au W
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:200
 msgid "Integration of useful subset of WAPT inventory with popular :abbr:`ITSM (IT Service Management)` tools and triggering of actions from the users ITSM console"
-msgstr "Intégration d'un sous-ensemble utile de l'inventaire WAPT avec les outils populaires d':abbr:`ITSM (IT Service Management) et déclenchement d'actions depuis la console ITSM des utilisateurs"
+msgstr "Intégration d'un sous-ensemble utile de l'inventaire WAPT avec les outils populaires d':abbr:`ITSM (IT Service Management)` et déclenchement d'actions depuis la console ITSM des utilisateurs"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-enterprise-community-comparison.rst:207
 msgid "Summary of operating principles in WAPT"
