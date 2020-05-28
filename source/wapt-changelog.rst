@@ -19,13 +19,29 @@ WAPT-1.8.2 RC1 (2020-05-26)
    This is a Release Candidate version for testing and evaluation only and
    should not be installed on production system.
 
-This is mostly a bugfix release. Support for Linux client has greatly improved.
+This is mostly a bugfix release. Support for Linux and Mac client has greatly improved.
 
 Notable enhancement:
 
-* [IMP] improve support for WaptAgent on Linux (install agent + selfservice + waptexit + session-setup + messagebox user, OU handling, kerberos authentication, setuphelpers coverage)
+* [IMP] improve support for WaptAgent on Linux and Mac. Now the support is almost identical on Windows, Linux and MacOS
 
-* [IMP] add new supported platform. Now WAPT for linux supports (both for server and agent) :
+    * waptagent installation as a service with kerberos registration
+
+    * waptselfservice gui available on the 3 platforms (note : support for the lastest version of MacOS, Catalina, is expected for 1.8.3)
+
+    * waptexit (on Linux an Mac it is not yet started on system shutdown, it can be triggered by a scheduled task)
+
+    * session-setup for configuring user sessions
+
+    * send messagebox to users and propose upgrades (Enterpise)
+
+    * OU handling (Enterprise)
+
+    * waptselfservice authentication can be delegated to the waptserver (Enterprise)
+
+    * better setuphelpers coverage
+
+* [IMP] add new supported platform. Now WAPT for linux (server and agent) and MacOS (agent only) supports :
 
     * Ubuntu 18.04  et 20.04
 
@@ -33,7 +49,9 @@ Notable enhancement:
 
     * Centos7 (CentOS 8 as a preview)
 
-* [IMP] streamlining of development environement for packaging on Linux
+    * MacOS Sierra, HighSierra, Mojave (note: support for MacOS Catalina expected for WAPT 1.8.3)
+
+* [IMP] streamlining of development environement for packaging on Linux using VSCode
 
 * [FIX] better handling of websocket cleanup when a host is not properly registered. Should improve stability on large WAPT installation
 
@@ -42,6 +60,12 @@ Notable enhancement:
 * [IMP] selfservice users can now authenticate on selfserver even when out of corporate network
 
 Other enhancements:
+
+* [FIX] better inventory of lastboottime and get_domain_info
+
+* [FIX] better handling of other local install of Python on client computer (eg. conflict with local Anaconda Python installation)
+
+* [IMP] allow to have multiple private repo content displayed in waptconsole
 
 * [IMP] remote repository: it is now possible to prevent a fallback
 
