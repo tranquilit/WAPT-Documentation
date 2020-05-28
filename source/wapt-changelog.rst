@@ -95,8 +95,6 @@ Other enhancements:
 
 Libraries
 
-* [REF] lazarus : switch from Python4Lazarus to Python4Delphi
-
 * [REF] replacement of python-ldap with ldap3
 
 * [FIX] upgrade ujson on waptagent and waptserver on Linux
