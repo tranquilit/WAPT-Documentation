@@ -23,7 +23,7 @@ This is mostly a bugfix release. Support for Linux and Mac client has greatly im
 
 Notable enhancement:
 
-* [IMP] improve support for WaptAgent on Linux and Mac. Now the support is almost identical on Windows, Linux and MacOS
+* [IMP] improve support for WaptAgent on Linux and Mac. Now the support is almost identical on Windows, Linux and MacOS (all versions)
 
     * waptagent installation as a service with kerberos registration
 
@@ -105,7 +105,11 @@ Removed featured
 
 Caveat
 
-* [CAV] WaptExit is not started automatically on shutdown on Linux or MacOS (current issue with systemd / launched integration)
+* [CAV] WaptExit is not run automatically on shutdown on Linux or MacOS (current issue with systemd / launched integration)
+
+* [CAV] WaptTray is not yet available on Linux and MacOS
+
+* [CAV] MacOS Catalina is support by the WaptAgent, however WAPTSelfService and WaptExit are not yet supported.
 
 WAPT-1.8.1-6758 (2020-03-06)
 ----------------------------
