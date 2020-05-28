@@ -189,7 +189,7 @@ The :file:`control` file is the identity card of a package.
       maintainer, description, depends, conflicts, maturity, locale,
       min_wapt_version, sources, installed_size, signer, signer_fingerprint,
       signature_date, signed_attributes
-      
+
 .. _utf8_no_bom:
 
 .. note::

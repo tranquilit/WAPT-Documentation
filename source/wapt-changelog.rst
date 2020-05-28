@@ -16,7 +16,7 @@ WAPT-1.8.2 RC1 (2020-05-26)
 ---------------------------
 
 .. warning::
-   This is a Release Candidate version for testing and evaluation only and 
+   This is a Release Candidate version for testing and evaluation only and
    should not be installed on production system.
 
 This is mostly a bugfix release. Support for Linux client has greatly improved.

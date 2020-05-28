@@ -140,4 +140,3 @@ msgstr "2-clause BSD-like license"
 
 #~ msgid "Apache License v2"
 #~ msgstr "Apache License v2"
-

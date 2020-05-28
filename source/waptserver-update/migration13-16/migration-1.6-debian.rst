@@ -24,7 +24,7 @@ Preamble
   the documentation to :ref:`upgrade your base server <upgrade_host_server>`.
 
   This procedure aims to explain the migration of WAPT 1.3 to 1.6, only.
-  
+
   .. list-table::
     :header-rows: 1
     :widths: 20 40 40

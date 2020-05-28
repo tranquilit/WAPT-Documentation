@@ -199,4 +199,3 @@ msgstr "Installer le serveur WAPT avec Ansible"
 
 #~ msgid "3 column table"
 #~ msgstr ""
-
