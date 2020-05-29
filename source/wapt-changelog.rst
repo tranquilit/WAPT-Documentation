@@ -15,6 +15,8 @@ Changelog
 WAPT-1.8.2 RC1 (2020-05-26)
 ---------------------------
 
+version / hash : 1.8.2.7164 05e3e6e3
+
 .. warning::
    This is a Release Candidate version for testing and evaluation only and
    should not be installed on production system.
