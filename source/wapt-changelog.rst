@@ -12,10 +12,10 @@
 Changelog
 =========
 
-WAPT-1.8.2 RC1 (2020-05-26)
+WAPT-1.8.2.7165 RC1 (2020-05-29)
 ---------------------------
 
-version / hash : 1.8.2.7164 05e3e6e3
+hash git : 1387b38f
 
 .. warning::
    This is a Release Candidate version for testing and evaluation only and
