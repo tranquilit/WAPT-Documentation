@@ -13,7 +13,7 @@ Changelog
 =========
 
 WAPT-1.8.2.7165 RC1 (2020-05-29)
----------------------------
+--------------------------------
 
 hash git : 1387b38f
 
@@ -21,97 +21,125 @@ hash git : 1387b38f
    This is a Release Candidate version for testing and evaluation only and
    should not be installed on production system.
 
-This is mostly a bugfix release. Support for Linux and Mac client has greatly improved.
+This is mostly a bugfix release. Support for Linux and Mac clients
+has greatly improved.
 
-Notable enhancement:
+Notable enhancements in WAPT-1.8.2.7165 RC1
++++++++++++++++++++++++++++++++++++++++++++
 
-* [IMP] improve support for WaptAgent on Linux and Mac. Now the support is almost identical on Windows, Linux and MacOS (all versions)
+* [IMP] improve support for WaptAgent on Linux and Mac.
+  Now the support is almost identical on Windows,
+  Linux and MacOS (all versions):
 
-    * waptagent installation as a service with kerberos registration
+    * waptagent installation as a service with kerberos registration;
 
-    * waptselfservice gui available on the 3 platforms (note : support for the lastest version of MacOS, Catalina, is expected for 1.8.3)
+    * waptselfservice gui available on the 3 platforms
+      (note: support for the lastest version of MacOS, Catalina,
+      is expected for 1.8.3);
 
-    * waptexit (on Linux an Mac it is not yet started on system shutdown, it can be triggered by a scheduled task)
+    * waptexit (on Linux an Mac it is not yet started
+      on system shutdown, it can be triggered by a scheduled task);
 
-    * session-setup for configuring user sessions
+    * session-setup for configuring user sessions;
 
-    * send messagebox to users and propose upgrades (Enterpise)
+    * send messagebox to users and propose upgrades (Enterpise);
 
-    * OU handling (Enterprise)
+    * OU handling (Enterprise);
 
-    * waptselfservice authentication can be delegated to the waptserver (Enterprise)
+    * waptselfservice authentication can be delegated
+      to the waptserver (Enterprise);
 
-    * better setuphelpers coverage
+    * better setuphelpers coverage;
 
-* [IMP] add new supported platform. Now WAPT for linux (server and agent) and MacOS (agent only) supports :
+* [IMP] add new supported platform. Now WAPT for linux (server and agent)
+  and MacOS (agent only) supports:
 
-    * Ubuntu 18.04  et 20.04
+    * Ubuntu 18.04 and 20.04;
 
-    * Debian 8, 9 et 10
+    * Debian 8, 9 and 10;
 
-    * Centos7 (CentOS 8 as a preview)
+    * Centos7 (CentOS 8 as a preview);
 
-    * MacOS Sierra, HighSierra, Mojave (note: support for MacOS Catalina expected for WAPT 1.8.3)
+    * MacOS Sierra, HighSierra, Mojave (note: support for MacOS Catalina
+      expected for WAPT 1.8.3);
 
-* [IMP] streamlining of development environement for packaging on Linux using VSCode
+* [IMP] streamlining of development environement
+  for packaging on Linux using VSCode;
 
-* [FIX] better handling of websocket cleanup when a host is not properly registered. Should improve stability on large WAPT installation
+* [FIX] better handling of websocket cleanup when a host
+  is not properly registered. Should improve stability
+  on large WAPT installation;
 
-* [IMP] selfservice can now be configured for external authentication for desktop that are not in a AD Domain
+* [IMP] selfservice can now be configured for external authentication
+  for desktops that are not in a AD Domain;
 
-* [IMP] selfservice users can now authenticate on selfserver even when out of corporate network
+* [IMP] selfservice users can now authenticate on selfserver
+  even when out of the corporate network;
 
-Other enhancements:
+Other enhancements in WAPT-1.8.2.7165 RC1
++++++++++++++++++++++++++++++++++++++++++
 
-* [FIX] better inventory of lastboottime and get_domain_info
+* [FIX] better inventory of lastboottime and get_domain_info;
 
-* [FIX] better handling of other local install of Python on client computer (eg. conflict with local Anaconda Python installation)
+* [FIX] better handling of other local install of Python
+  on client computer (eg. conflict with local Anaconda Python installation);
 
-* [IMP] allow to have multiple private repo content displayed in waptconsole
+* [IMP] allows to have multiple private repo content displayed in waptconsole;
 
-* [IMP] remote repository: it is now possible to prevent a fallback
+* [IMP] remote repository: it is now possible to prevent a fallback;
 
-* [FIX] better handling of icons in selfservice
+* [FIX] better handling of icons in selfservice;
 
-* [IMP] improve support for VSCode
+* [IMP] improved support for VSCode;
 
-* [FIX] better handling of ipv6 in console and inventory
+* [FIX] better handling of ipv6 in console and inventory;
 
-* [IMP] wapt_admin_filter : local admin can be filtered out like normal user in selfservice
+* [IMP] wapt_admin_filter : local admin can be filtered out
+  like normal user in selfservice;
 
-* [IMP] add a larger support for setuphelpers on Mac
+* [IMP] add a larger support for setuphelpers on Mac;
 
-* [FIX] waptserver logs are properly redirected to /var/log/waptserver.log
+* [FIX] waptserver logs are properly redirected
+  to :file:`/var/log/waptserver.log`
 
-* [FIX] package caching : package are deleted after each succesfull installation (rather than at the end of the whole upgrade) to better keep local disk space
+* [FIX] package caching: packages are deleted after each succesfull installation
+  (rather than at the end of the whole upgrade) to better keep local disk space;
 
-* [IMP] allow usage of url for changelog in control file
+* [IMP] allows usage of url for changelog in control file;
 
-* [IMP] better support for Windows Update download directly from Microsoft if WAPTServer is not reachable
+* [IMP] better support for Windows Update download directly
+  from Microsoft if WAPTServer is not reachable;
 
-* [FIX] better handling of upgrade from waptcommunity to waptentreprise
+* [FIX] better handling of upgrade from Community version
+  to Enterprise version;
 
-* [IMP] improve local store skin and translation
+* [IMP] improved local store skin and translation;
 
-* [FIX] bugfixes and minor gui improvements
+* [FIX] bugfixes and minor gui improvements;
 
-Libraries
+Library changes in WAPT-1.8.2.7165 RC1
+++++++++++++++++++++++++++++++++++++++
 
-* [REF] replacement of python-ldap with ldap3
+* [REF] replaced :program:`python-ldap` with :program:`ldap3`;
 
-* [FIX] upgrade ujson on waptagent and waptserver on Linux
+* [FIX] upgraded :program:`ujson` on waptagent and waptserver on Linux;
 
-Removed featured
+Removed featured with WAPT-1.8.2.7165 RC1
++++++++++++++++++++++++++++++++++++++++++
 
-* autoconfiguration of repositories based on SRV DNS fields (it was not working anymore anyway)
+* autoconfiguration of repositories based on SRV DNS fields
+  (it was not working anymore anyway);
 
-Caveat
+Caveats when using WAPT-1.8.2.7165 RC1
+++++++++++++++++++++++++++++++++++++++
 
-* [CAV] WaptExit is not run automatically on shutdown on Linux or MacOS (current issue with systemd / launched integration)
+* [CAV] WaptExit is not run automatically on shutdown
+  on Linux or MacOS (current issue with systemd / launched integration);
 
-* [CAV] WaptTray is not yet available on Linux and MacOS
+* [CAV] WaptTray is not yet available on Linux and MacOS;
 
-* [CAV] MacOS Catalina is support by the WaptAgent, however WAPTSelfService and WaptExit are not yet supported.
+* [CAV] MacOS Catalina is supported by the WaptAgent,
+  however WAPTSelfService and WaptExit are not yet supported;
 
 WAPT-1.8.1-6758 (2020-03-06)
 ----------------------------
