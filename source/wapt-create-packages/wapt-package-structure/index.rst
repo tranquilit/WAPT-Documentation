@@ -66,18 +66,18 @@ The :file:`control` file is the identity card of a package.
     description       : Firefox Web Browser French
     description_fr    : Navigateur Web Firefox Français
     description_es    : Firefox Web Browser
-    depends          :
-    conflicts        :
+    depends           :
+    conflicts         :
     maturity          : PROD
     locale            : fr
     target_os         : windows
-    min_os_version   :
-    max_os_version   :
+    min_os_version    :
+    max_os_version    :
     min_wapt_version  : 1.6.2
-    sources          :
-    installed_size   :
+    sources           :
+    installed_size    :
     impacted_process  : firefox.exe
-    audit_schedule   :
+    audit_schedule    :
     editor            : Mozilla
     keywords          : Navigateur
     licence           : MPL
