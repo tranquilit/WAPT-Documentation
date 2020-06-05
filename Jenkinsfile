@@ -146,8 +146,10 @@ pipeline {
     }
     stage('Clean release prod'){
             when {
-                tag "release-*",
-                branch "master"
+                allOf  {
+                        branch 'master'
+                        tag "release-*"
+                    }
             }
             steps {
                 echo 'Cleanup prod'
@@ -162,8 +164,10 @@ pipeline {
     }
     stage('Publish release prod'){
             when {
-                tag "release-*",
-                branch "master"
+                allOf  {
+                        branch 'master'
+                        tag "release-*"
+                    }
             }
             steps {
                 echo 'Publishing to doc.wapt.fr'
