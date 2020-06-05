@@ -145,7 +145,10 @@ pipeline {
         }
     }
     stage('Clean release prod'){
-            when { tag "release-*" }
+            when {
+                tag "release-*",
+                branch "master"
+            }
             steps {
                 echo 'Cleanup prod'
                 sshPublisher alwaysPublishFromMaster: true,
@@ -158,7 +161,10 @@ pipeline {
             }
     }
     stage('Publish release prod'){
-            when { tag "release-*" }
+            when {
+                tag "release-*",
+                branch "master"
+            }
             steps {
                 echo 'Publishing to doc.wapt.fr'
                 sshPublisher alwaysPublishFromMaster: true,
