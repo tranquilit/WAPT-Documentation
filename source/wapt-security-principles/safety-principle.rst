@@ -661,7 +661,7 @@ Security function F2D: total access restriction to the folder storing the key / 
 
   * an unauthorized entity impersonating the identity of a WAPT equipped device;
 
-No access right is granted to any :term:`user`
+No access right is granted to any :term:`User`
 to :file:`C:\\Program Files (x86)\\wapt\\private`, whomever he may be.
 Only the WAPT agent has a write and read access to this folder.
 

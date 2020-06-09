@@ -239,7 +239,7 @@ msgstr ""
 "Pour rappel, un certificat *Code Signing* est destiné dans le contexte de WAPT "
 "aux personnes avec le rôle :term:`Administrateur` , alors qu'un certificat SSL "
 "non Code Signing est destiné aux personnes ayant le rôle de :term:`Déployeur "
-"de paquets` ."
+"de Paquets` ."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/role-separation/index.rst:113
 msgid ""

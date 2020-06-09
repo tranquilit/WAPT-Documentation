@@ -140,7 +140,7 @@ msgid ""
 "Administrator`;"
 msgstr ""
 "lancer un utilitaire en ligne de commande Windows :program:`cmd.exe` en "
-"tant qu':term:`Administrateur local` ;"
+"tant qu':term:`Administrateur Local` ;"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-create-packages/package-msu/index.rst:79
 msgid "Windows Command Line utility launched as Local Administrator"
