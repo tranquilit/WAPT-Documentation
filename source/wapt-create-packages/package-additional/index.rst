@@ -53,7 +53,7 @@ User mode customization operates as follows:
 Example: create a personalized desktop shortcut
 +++++++++++++++++++++++++++++++++++++++++++++++
 
-One of the possibilities offered by :term:`SetupHelpers` is adding personalized
+One of the possibilities offered by :term:`Setuphelpers` is adding personalized
 shortcuts on user desktops, instead of a desktop shortcut common to all users.
 
 For that purpose, we will use the :command:`create_user_desktop_shortcut()`

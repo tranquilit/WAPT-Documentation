@@ -145,7 +145,7 @@ msgstr "Fonctionnalités non supportées"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:160
 msgid "installing updates on shutdown |work_in_progress|;"
-msgstr "installer les mises à jour à l'extinction de la machine |travail_en_progression| ;"
+msgstr "installer les mises à jour à l'extinction de la machine |work_in_progress| ;"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-configuration/wapt-deploy/waptagent-macos.rst:162
 msgid "WAPT console is not currently available on linux |work_in_progress|;"

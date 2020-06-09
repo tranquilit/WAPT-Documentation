@@ -747,9 +747,9 @@ The power of WAPT
 """""""""""""""""
 
 Functions most commonly used with WAPT were simplified within libraries
-called :term:`SetupHelpers`.
+called :term:`Setuphelpers`.
 
-**SetupHelpers** libraries simplify the process of creating and testing
+**Setuphelpers** libraries simplify the process of creating and testing
 WAPT packages, thus validating WAPT's main objectives:
 
 * **what was complicated is made simple**;

@@ -64,7 +64,7 @@ msgid ""
 msgstr ""
 "Il est donc nécessaire de configurer l'authentification par l'Active "
 "Directory de l':term:`Organisation` pour les :term:`Administrateurs` et "
-"les :term:`Déployeurs de paquets`; cela permettra d'utiliser des comptes "
+"les :term:`Déployeurs de Paquets`; cela permettra d'utiliser des comptes "
 "nominatifs pour les tâches d'administration."
 
 #: /home/agauvrit/projects/doc-wapt/source/wapt-security/security-configuration-auth-ad.rst:37

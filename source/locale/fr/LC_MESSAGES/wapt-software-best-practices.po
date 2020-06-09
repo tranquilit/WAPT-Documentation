@@ -460,7 +460,7 @@ msgstr ""
 "WAPT peut être utilisé pour attribuer des clés de licence à des postes "
 "de travail individuels lors de l'installation en utilisant une méthode :"
 "ref:`qui garantit que la clé de licence ne peut pas être lue pendant le "
-"transport <cryptage_des_données_sensibles_dans_le_paquet>`."
+"transport <encryting_sensitive_data_in_package>`."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-software-best-practices.rst:200
 msgid ""

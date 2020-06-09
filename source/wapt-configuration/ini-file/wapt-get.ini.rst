@@ -65,8 +65,8 @@ Description of available options for the WAPT agent
     - Upgrade frequency (disabled by default)
   * - ``waptservice_port`` = 8088
     - WAPT agent loopback port. It is not accessible from the network.
-  * - ``dbdir`` = :file:`C:\\Program Files(x86)\\wapt\\db`
-    - Folder where the database :file:`waptdb.sqlite` file will be stored.
+  * - ``dbpath`` = :file:`C:\\Program Files(x86)\\wapt\\db\\waptdb.sqlite`
+    - Path to the local database file.
   * - ``loglevel`` = warning
     - Log level of the WAPT agent. Possible values are: ``debug``,
       ``info``, ``warning``, ``critical``.
@@ -95,6 +95,9 @@ Description of available options for the WAPT agent
       after an update with waptupdate_task_period
   * - ``log_to_windows_events`` = False
     - Send the log wapt in the window events
+  * - ``service_auth_type`` = system
+    - How the self service authentication works. Possible values are:
+      ``system``, ``waptserver-ldap`` or ``waptagent-ldap``
 
 .. _wapt-get-ini-waptserver:
 .. _wapt-get-ini-kerberos:

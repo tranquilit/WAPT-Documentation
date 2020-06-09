@@ -49,7 +49,7 @@ msgstr "wapt-get download"
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:42
 msgid "The :command:`wapt-get download <package name>` command downloads the WAPT package to the local cache located at :file:`C:\\\\Program Files\\\\wapt\\\\cache`."
-msgstr "La commande :commande:`wapt-get download <nom du paquet>` télécharge le paquet WAPT dans le cache local situé à :file:`C:\\\\\\\\Program Files\\\\\\wapt\\\\cache`."
+msgstr "La commande :command:`wapt-get download <nom du paquet>` télécharge le paquet WAPT dans le cache local situé à :file:`C:\\\\Program Files\\\\\\wapt\\\\cache`."
 
 #: /mnt/c/Users/vcardon/Desktop/git/doc-wapt/source/wapt-usage/command-line-interface/command-line-interface-special-usage.rst:46
 msgid "The command :command:`wapt-get download tis-7zip` returns:"
