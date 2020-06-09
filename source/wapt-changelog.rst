@@ -12,6 +12,67 @@
 Changelog
 =========
 
+WAPT-1.8.2.7265 RC2 (2020-05-29)
+--------------------------------
+
+hash git : 339f1996
+
+.. warning::
+   This is a Release Candidate version for testing and evaluation only and
+   should not be installed on production system.
+
+This is mostly a bugfix release. Support for Linux and Mac clients
+has greatly improved.
+
+Notable enhancements over 1.8.2 RC1
++++++++++++++++++++++++++++++++++++++++++++
+
+* [IMP] The session setup in run for all packages immediately after upgrade or install, so that new packages 
+  are already configured in the context of each logged in users (no need to logout / login) (Enterprise)
+
+* [IMP] If secondary repositories are defined in waptconsole.ini, additional packages can be selected when 
+  editing hosts, groups or self-service packages.
+  
+* [IMP] When editing group or Self-service packages, one can define the Target OS of the package.
+  
+* [IMP] Remote message to loggeg in users is using the same custom dialog box for windows, linux and macos. 
+
+* [IMP] Remote message to loggeg in users can display the same custom logo as Self-service (Enterprise)
+
+* [IMP] The IP/Subnet match in repositoty access rules is based on the "main IP" of the host 
+  (source IP from which the host is reaching the server, if the server is public, this is usually the external IP of the router) (Enterprise)
+  
+* [IMP] Added Remote host sShutdown and remote host Reboot from Waptconsole 
+  if enabled in wapt-get.ini (`allow_remote_shutdown` and `allow_remote_reboot`) (Enterprise)
+
+* [IMP] Add a "no fallback" checkbox in repositories access rule to prevent host using main repository in case secondary ones are not reachable
+  (when main repository bandwith is limited, having all hosts reaching the main can slow down access to the main site) (Enterprise)
+
+* [FIX] Make sure WUA install task are executed after packages install (Enterprise)  
+
+Other enhancements over 1.8.2 RC1
++++++++++++++++++++++++++++++++++++++++++
+
+* [IMP] Cmd Console is hidden when session-setup is running, to limit annoyance for users.
+
+* [IMP] WUA direct download option in waptconsole (Enterprise)
+
+* [IMP] can now use microsoft url for WUA in rules (Enterprise)
+
+* [FIX] Improved background icons loading in Self-Service 
+
+
+Removed features
+++++++++++++++++
+
+None
+
+
+Caveats
+++++++++++++++++++++++++++++++++++++++
+
+Same as RC1
+
 WAPT-1.8.2.7165 RC1 (2020-05-29)
 --------------------------------
 
