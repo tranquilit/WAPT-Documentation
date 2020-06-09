@@ -142,6 +142,8 @@ Several options can be defined in the section:
     - CN of Active Directory User Group allowed to connect to WAPT console
   * - ``wapt_folder`` = /var/www/wapt
     - Directory of the WAPT repository.
+  * - ``wapt_huey_db`` = :file:`C:\\Program Files(x86)\\wapt\\db\\waptservertasks.sqlite`
+    - Path to database that handles tasks
   * - ``wapt_password`` = 46642dd2b1dfezfezgfezgadf0ezgeezgezf53d
     - :term:`SuperAdmin` password for connecting to the WAPT console.
   * - ``waptserver_port`` = 8080
@@ -156,14 +158,6 @@ Several options can be defined in the section:
     - Define how to listen to the waptserver service
   * - ``enable_store`` = False
     - Defined if the store is activated https://srvwapt.mydomain.lan/
-  * - Options
-    - Description
-  * - Options
-    - Description
-  * - Options
-    - Description
-  * - Options
-    - Description
 
 .. _config_nginx:
 
