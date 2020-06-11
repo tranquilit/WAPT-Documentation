@@ -12,6 +12,161 @@
 Changelog
 =========
 
+WAPT-1.8.2.7265 (2020-06-11)
+----------------------------
+
+hash : 339f1996
+
+This is mostly a bugfix release. Support for Linux and Mac clients has also been greatly improved.
+
+Notable enhancements
+++++++++++++++++++++
+
+* [IMP] improve support for WaptAgent on Linux and Mac.
+  Now the support is almost identical on Windows,
+  Linux and MacOS (all versions):
+
+    * waptagent installation as a service with kerberos registration;
+
+    * waptselfservice gui available on the 3 platforms
+      (note: support for the lastest version of MacOS, Catalina,
+      is expected for 1.8.3);
+
+    * waptexit (on Linux an Mac it is not yet started
+      on system shutdown, it can be triggered by a scheduled task);
+
+    * session-setup for configuring user sessions;
+
+    * send messagebox to users and propose upgrades (Enterpise);
+
+    * OU handling (Enterprise);
+
+    * waptselfservice authentication can be delegated
+      to the waptserver (Enterprise);
+
+    * better setuphelpers coverage;
+
+* [IMP] add new supported platform. Now WAPT for linux (server and agent)
+  and MacOS (agent only) supports:
+
+    * Ubuntu 18.04 and 20.04;
+
+    * Debian 8, 9 and 10;
+
+    * Centos7 (CentOS 8 as a preview);
+
+    * MacOS Sierra, HighSierra, Mojave (note: support for MacOS Catalina
+      expected for WAPT 1.8.3);
+
+* [IMP] streamlining of development environement
+  for packaging on Linux using VSCode;
+
+* [FIX] better handling of websocket cleanup when a host
+  is not properly registered. Should improve stability
+  on large WAPT installation;
+
+* [IMP] selfservice can now be configured for external authentication
+  for desktops that are not in a AD Domain;
+
+* [IMP] selfservice users can now authenticate on selfserver
+  even when out of the corporate network;
+
+* [IMP] The session setup in run for all packages immediately after upgrade or install, so that new packages
+  are already configured in the context of each logged in users (no need to logout / login) (Enterprise)
+
+* [IMP] If secondary repositories are defined in waptconsole.ini, additional packages can be selected when
+  editing hosts, groups or self-service packages.
+
+* [IMP] When editing group or Self-service packages, one can define the Target OS of the package.
+
+* [IMP] Remote message to loggeg in users is using the same custom dialog box for windows, linux and macos.
+
+* [IMP] Remote message to loggeg in users can display the same custom logo as Self-service (Enterprise)
+
+* [IMP] The IP/Subnet match in repositoty access rules is based on the "main IP" of the host
+  (source IP from which the host is reaching the server, if the server is public, this is usually the external IP of the router) (Enterprise)
+
+* [IMP] Added Remote host sShutdown and remote host Reboot from Waptconsole
+  if enabled in wapt-get.ini (`allow_remote_shutdown` and `allow_remote_reboot`) (Enterprise)
+
+* [IMP] Add a "no fallback" checkbox in repositories access rule to prevent host using main repository in case secondary ones are not reachable
+  (when main repository bandwith is limited, having all hosts reaching the main can slow down access to the main site) (Enterprise)
+
+* [FIX] Make sure WUA install task are executed after packages install (Enterprise)
+
+Other enhancements
+++++++++++++++++++
+
+* [IMP] Cmd Console is hidden when session-setup is running, to limit annoyance for users.
+
+* [IMP] WUA direct download option in waptconsole (Enterprise)
+
+* [IMP] can now use microsoft url for WUA in rules (Enterprise)
+
+* [FIX] Improved background icons loading in Self-Service
+
+* [FIX] better inventory of lastboottime and get_domain_info;
+
+* [FIX] better handling of other local install of Python
+  on client computer (eg. conflict with local Anaconda Python installation);
+
+* [IMP] allows to have multiple private repo content displayed in waptconsole;
+
+* [IMP] remote repository: it is now possible to prevent a fallback;
+
+* [FIX] better handling of icons in selfservice;
+
+* [IMP] improved support for VSCode;
+
+* [FIX] better handling of ipv6 in console and inventory;
+
+* [IMP] wapt_admin_filter : local admin can be filtered out
+  like normal user in selfservice;
+
+* [IMP] add a larger support for setuphelpers on Mac;
+
+* [FIX] waptserver logs are properly redirected
+  to :file:`/var/log/waptserver.log`
+
+* [FIX] package caching: packages are deleted after each succesfull installation
+  (rather than at the end of the whole upgrade) to better keep local disk space;
+
+* [IMP] allows usage of url for changelog in control file;
+
+* [IMP] better support for Windows Update download directly
+  from Microsoft if WAPTServer is not reachable;
+
+* [FIX] better handling of upgrade from Community version
+  to Enterprise version;
+
+* [IMP] improved local store skin and translation;
+
+* [FIX] bugfixes and minor gui improvements;
+
+Library changes in WAPT-1.8.2.7165
+++++++++++++++++++++++++++++++++++
+
+* [REF] replaced :program:`python-ldap` with :program:`ldap3`;
+
+* [FIX] upgraded :program:`ujson` on waptagent and waptserver on Linux;
+
+Removed featured with WAPT-1.8.2.7165
++++++++++++++++++++++++++++++++++++++
+
+* autoconfiguration of repositories based on SRV DNS fields
+  (it was not working anymore anyway);
+
+Caveats when using WAPT-1.8.2.7165
+++++++++++++++++++++++++++++++++++
+
+* [CAV] WaptExit is not run automatically on shutdown
+  on Linux or MacOS (current issue with systemd / launched integration);
+
+* [CAV] WaptTray is not yet available on Linux and MacOS;
+
+* [CAV] MacOS Catalina is supported by the WaptAgent,
+  however WAPTSelfService and WaptExit are not yet supported;
+
 WAPT-1.8.2.7265 RC2 (2020-05-29)
 --------------------------------
 
