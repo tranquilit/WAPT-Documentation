@@ -12,6 +12,14 @@
 Changelog
 =========
 
+WAPT-1.8.2.7267 (2020-06-12)
+----------------------------
+
+hash : 46f40312
+
+* [FIX] Fix db schema upgrade script for upgrade from WAPT version 1.8.1-6742. Fresh 1.8.2 
+  installation or upgrade from 1.7 or from 1.8.0 or 1.8.1-6758 shouldn't have the issue.
+
 WAPT-1.8.2.7265 (2020-06-11)
 ----------------------------
 
