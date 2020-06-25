@@ -35,7 +35,7 @@ How to perform actions on the hosts?
   Host configuration menu
 
 .. table:: List of actions available to be performed on the hosts from the WAPT console
-  :widths: 20, 50, 20
+  :widths: 70, 30
   :align: center
 
   ===================================================== ========================
@@ -133,7 +133,7 @@ Common informations displayed in the :guilabel:`Hardware inventory` tab is:
   Host summary
 
 .. table:: Status of packages in the WAPT console
-  :widths: 60, 20
+  :widths: 60, 40
   :align: center
 
   ============================================= ================================
@@ -174,7 +174,7 @@ Acting on packages installed on a host
     selected hosts;
 
 .. table:: Acting on packages installed on a specific host
-  :widths: 60, 20
+  :widths: 40, 60
   :align: center
 
   =================== ==========================================================
@@ -344,7 +344,7 @@ Choose the filters to check or uncheck.
   Advanced search functionalities in the WAPT console
 
 .. table:: Choice of filters
-  :widths: 60, 20
+  :widths: 50, 50
   :align: center
 
   ============================= ================================================
@@ -473,7 +473,8 @@ A search bar is also available to filter packages.
 
 .. hint::
 
-	With the :guilabel:`section` drop-down menu, you can choose to create a profile package rather than a group package
+	With the :guilabel:`section` drop-down menu, you can choose
+  to create a profile package rather than a *group* package.
 
 Cleaning the local cache from the WAPT console
 ----------------------------------------------
@@ -519,6 +520,7 @@ To make changes to the console settings, go to :menuselection:`Tools
   Configuration options for the WAPT console
 
 .. list-table::
+  :widths: 25 25 50
   :header-rows: 1
 
   * - Arguments
