@@ -364,7 +364,7 @@ For a *windows* *target_os*, this field defines the minimal `Windows Operating S
 For example, this attribute may be used to avoid installing
 on WindowsXP packages that only work on Windows7 and above.
 
-Since version 1.8, it can also define the minimal Mac OS version. We advise not to use with Linux since there are several different distributions.
+Since version 1.8, it can also define the minimal Mac OS version. We advise not to use it with Linux since there are several different distributions.
 
 max_os_version
 """"""""""""""
@@ -375,7 +375,7 @@ For a *windows* *target_os*, it defines the maximal `Windows Operating System Ve
 For example, this attribute may be used to install on Windows7
 more recent versions of a software that are no more supported on Windows XP.
 
-Since version 1.8, it can also define the maximal Mac OS version. We advise not to use with Linux since there are several different distributions.
+Since version 1.8, it can also define the maximal Mac OS version. We advise not to use it with Linux since there are several different distributions.
 
 min_wapt_version
 """"""""""""""""
