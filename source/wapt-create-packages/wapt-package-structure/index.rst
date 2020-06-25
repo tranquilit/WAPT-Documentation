@@ -135,7 +135,7 @@ The :file:`control` file is the identity card of a package.
     - fr,en,es
   * - ``target_os``
     - Accepted Operating System for the package
-    - windows
+    - windows,mac,linux
   * - ``min_os_version``
     - Minimum version of Windows for the package
       to be seen by the WAPT agent
@@ -350,25 +350,32 @@ Defines the Operating System for the package.
 A WAPT agent will see by default packages that are configured
 for its operating system and packages with no operating system specified.
 
-The operating systems in the field *target_os* must be *windows* or left empty.
+Since version 1.8 the field *target_os* can either be *windows*, *mac*, *linux* or left empty.
+
+
 
 min_os_version
 """"""""""""""
 
 .. versionadded:: 1.3.9
 
-Defines the minimal `Windows Operating System Version <https://docs.microsoft.com/en-us/windows/win32/sysinfo/operating-system-version?redirectedfrom=MSDN>`_.
+
+For a *windows* *target_os*, this field defines the minimal `Windows Operating System Version <https://docs.microsoft.com/en-us/windows/win32/sysinfo/operating-system-version?redirectedfrom=MSDN>`_.
 For example, this attribute may be used to avoid installing
 on WindowsXP packages that only work on Windows7 and above.
+
+Since version 1.8, it can also define the minimal Mac OS version. We advise not to use with Linux since there are several different distributions.
 
 max_os_version
 """"""""""""""
 
 .. versionadded:: 1.3.9
 
-Defines the maximal `Windows Operating System Version <https://docs.microsoft.com/en-us/windows/win32/sysinfo/operating-system-version?redirectedfrom=MSDN>`_.
+For a *windows* *target_os*, it defines the maximal `Windows Operating System Version <https://docs.microsoft.com/en-us/windows/win32/sysinfo/operating-system-version?redirectedfrom=MSDN>`_.
 For example, this attribute may be used to install on Windows7
 more recent versions of a software that are no more supported on Windows XP.
+
+Since version 1.8, it can also define the maximal Mac OS version. We advise not to use with Linux since there are several different distributions.
 
 min_wapt_version
 """"""""""""""""
