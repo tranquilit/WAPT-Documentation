@@ -39,14 +39,16 @@ Deploying the WAPT agent on MacOS
 Installing the WAPT Agent package from Tranquil IT's public repository
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-* download WAPT agent for Apple Mac OSX
-  from `Tranquil IT's public repository <https://wapt.tranquil.it/wapt/releases/latest/>`_;
-
+* download WAPT agent for Apple Mac OSX :
+  Copy link from `Tranquil IT's public repository <https://wapt.tranquil.it/wapt/releases/latest/>`_ and paste it into a terminal
+  .. code-block:: bash
+    sudo curl <PastedLink> tis-waptagent.pkg
+  
 * install the downloaded package:
 
   .. code-block:: bash
 
-    sudo installer -pkg /Volumes/Macintosh\ HD/Users/johnsmith/Downloads/tis-waptagent-1.8.0.6632-tismacos-bdc0beea.pkg -target /
+    sudo installer -pkg tis-waptagent.pkg -target /
 
 Creating the agents configuration file
 ++++++++++++++++++++++++++++++++++++++
@@ -93,7 +95,7 @@ Copying the SSL/TLS certificate
 
 If you already have configured your WAPT server to use correct
 :ref:`Nginx SSL/TLS certificates <activating_HTTPS_certificate_verification>`,
-you must copy the certificate in your WAPT Linux agent.
+you must copy the certificate in your WAPT Mac agent.
 
 The certificate should be located on your Windows machine
 in :file:`C:\\Program Files (x86)\\wapt\\ssl\\server\\`.
@@ -119,9 +121,9 @@ And give absolute path of your cert.
   If you are not using SSL/TLS certificates with your WAPT Server,
   you must set the following lines to 0 in :file:`/opt/wapt/wapt-get.ini`:
 
-  .. code-block:: bash
+.. code-block:: bash
 
-    verify_cert=0
+  verify_cert=0
 
 Registering your MacOS agent
 ++++++++++++++++++++++++++++
@@ -134,17 +136,22 @@ Registering your MacOS agent
 
 * restart the WAPT service:
 
-  .. code-block:: bash
-
-    sudo launchctl load /Library/LaunchDaemons/com.tranquilit.tis-waptagent.plist
+.. code-block:: bash
+   sudo launchctl unload /Library/LaunchDaemons/com.tranquilit.tis-waptagent.plist
+   sudo launchctl load /Library/LaunchDaemons/com.tranquilit.tis-waptagent.plist
 
 * finally, execute the following command to register your MacOS host
   with the WAPT server:
 
-  .. code-block:: bash
+  
 
-     sudo wapt-get register
-     sudo wapt-get update
+* you must logon as root to run :
+.. code-block:: bash
+ wapt-get register
+     
+* then switch back to normal user for the following :
+.. code-block:: bash
+ sudo wapt-get update
 
 |clap| **Congratulations**, your MacOS Agent is now installed and configured
 and it will now appear in your WAPT Console with a |apple| icon!
