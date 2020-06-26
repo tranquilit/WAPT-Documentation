@@ -62,7 +62,7 @@ How to use the **selfservice** feature?
 
   The **selfservice** feature is only available with WAPT **Enterprise**.
 
-  In the **Community** version, only Local Administrator and members
+  In the **Community** version, only Local Administrators and members
   of the *waptselfservice* group can access self-service on the agent.
 
   In the **Community** version, it is not possible to filter

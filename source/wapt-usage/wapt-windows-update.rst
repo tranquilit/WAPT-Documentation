@@ -27,7 +27,7 @@ Using WAPT Windows Update Agent (WAPTWUA)
   Since version 1.7, WAPT is able to manage Windows Updates on your endpoints.
 
   * the internals of WAPTWUA is based on the :abbr:`WUA (Windows Update Agent)`
-    API;
+    API,
 
   * for more information: https://docs.microsoft.com/en-us/windows/win32/wua_sdk/using-the-windows-update-agent-api;
 
@@ -43,7 +43,7 @@ since the last download.
   :align: center
   :alt: WAPT Windows Update flow process
 
-  WAPT Windows Update flow process
+  WAPT Windows Update flow process.
 
 .. note::
 
@@ -68,7 +68,7 @@ from official Microsoft servers.
 
 .. hint::
 
-  This mode of operation allows to download only the necessary updates
+  This mode of operation allows WAPT to download only the necessary updates
   on the computers, thus saving bandwidth, download time and disk space.
 
 .. note:: Downloaded updates are stored:
@@ -96,7 +96,7 @@ Difference between WAPT Windows Updates and WSUS
 ++++++++++++++++++++++++++++++++++++++++++++++++
 
 WSUS downloads by default the updates for selected categories.
-This can lead to very a very large update database and lots of storage used.
+This can lead to a very large update database and lots of storage used.
 
 WAPT Windows Update only downloads updates that have been requested
 by at least one computer client. This helps to keep the local database small
@@ -106,11 +106,11 @@ if you want to recover space.
 Major OS upgrades
 +++++++++++++++++
 
-Major OS upgrade are upgrades from one OS version to another. That includes,
+Major OS upgrades are upgrades from one OS version to another. That includes,
 for example, upgrades from Windows 7 to Windows 10,
 or from Windows 10 1803 to Windows 10 1903.
 
-Major upgrade versions are not handled in the same way as minor OS upgrades.
+Major version upgrades are not handled in the same way as minor OS upgrades.
 Major upgrades are handled via the download of the new install ISO content
 (same content as for a fresh install) and running the :command:`setup.exe`
 with the correct parameters. This process is the same for WSUS, SCCM
@@ -131,8 +131,8 @@ It is recommanded to push driver updates via a custom WAPT package.
 If the driver patch is packaged as a :mimetype:`msu`,
 you may package it as a standard WAPT package.
 
-Just select the :file:`msu` file and click :menuselection:`Create package`
-in the WAPT console to launch the wizard for simply creating new WAPT packages.
+Just select the :file:`msu` file and click :menuselection:"create package"
+in the WAPT console to launch the wizard for simplified package creation.
 
 If the driver update is packaged as a :mimetype:`zip`
 containing the :file:`exe` file, you can create a WAPT package containing the
@@ -144,13 +144,13 @@ Out of band KB
 Microsoft sometimes provides :abbr:`OOB (Out of Band)` updates
 that are not contained in the :file:`wsusscn2.cab` index.
 Those updates are not included in the main update because
-they may fix a very specific problem or may have drawbacks in some situation.
+they may fix a very specific problem or may have drawbacks in some situations.
 
 If you want to deploy an OOB KB update, you can download it
 from the microsoft catalog https://www.catalog.update.microsoft.com/Home.aspx.
 
 Just select the :file:`msu` file and click :menuselection:`Create package`
-in the WAPT console to launch the wizard for simply creating new WAPT packages.
+in the WAPT console to launch the wizard for simplified package creation.
 
 You have to be carefull that OOB updates may break your system,
 be sure to read the prerequisites on the Microsoft bulletin
@@ -228,7 +228,7 @@ Example ``[waptwua]`` section in :file:`wapt-get.ini` file:
 	install_delay=7d
 
 The :guilabel:`install_scheduling` option will try every 12 hours
-to install updates on client.
+to install updates on the client.
 It is not in graphical options due to a potential danger. Indeed,
 trying to install updates on your IT infrastructure
 while working hours can impact your production.
@@ -333,7 +333,7 @@ it means that the update has not yet been downloaded by the WAPT server
 and is not present on the WAPT server (This update is not missing on any host).
 
 * you can force the download of an update by
-  :menuselection:`right-click --> Download`;
+  :menuselection:`right-clicking --> Download`;
 
 * you can also force the download of the :file:`wsusscn2.cab` file with the
   :guilabel:`Download WSUSScan cab from Microsoft Web Site` button;
@@ -383,9 +383,9 @@ using :command:`wapt-get waptwua-scan` from the command-line.
 If you want to download from the console,
 use the :guilabel:`Trigger the download of pending Windows Updates` button.
 
-The command-line for downloading kb from the client is
+The command-line for downloading kb's from the client is
 :command:`wapt-get waptwua-download`, it will scan the current status of Windows
-against current rules, download missing kb and send the result to the server.
+against current rules, download missing kb's and send the result to the server.
 
 If you want to install the pending update(s), use :command:`wapt-get waptwua-install`
 from the command-line prompt.
