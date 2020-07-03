@@ -178,6 +178,10 @@ Options                              Example value           Definition
 ``remote_repo_support``              True                    Enables remote repository sync server side (sync.json)
 ==================================== ======================= ======================================================
 
+Then we must restart both `waptserver` and `wapttask` :
+.. code-block:: bash
+  systemctl restart waptserver wapttask
+
 Repository rules
 ----------------
 
