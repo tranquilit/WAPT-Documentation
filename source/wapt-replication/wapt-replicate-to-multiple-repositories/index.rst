@@ -225,10 +225,22 @@ Public IP                            ``256.89.299.22/32``        Rule based on P
 Hostname                             ``desktop-04feb1``          Rule based on hostname
 ==================================== =========================== ====================================================================================
 
+
 Adding a rule in the WAPT Console
 """""""""""""""""""""""""""""""""
 
-:TODO:
+In :guilabel:`Repositories`, click on the :guilabel:`Add rule` button. The following window appears:
+..figure:: create_new_rule.png
+	:align:center
+	
+
+You can then choose from the different above parameters and affect values to a specific secondary WAPT repository.
+The option :menuitem:`No Fallback` will prevent from falling back to the main WAPT server and will avoid potential network congestion.
+
+
+The rules are applied from top to bottom, and the first rule that matches the conditions overrides all the other rules below.
+
+
 
 Using repository rules on WAPT agents
 """""""""""""""""""""""""""""""""""""
