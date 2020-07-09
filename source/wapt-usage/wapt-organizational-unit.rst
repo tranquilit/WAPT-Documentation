@@ -135,7 +135,7 @@ The ``host_organizational_unit_dn`` must be like below in :file:`wapt-get.ini`:
 
   [global]
   host_organizational_unit_dn="OU=TOTO,OU=TEST,DC=DEMO,DC=LAN"
-  
+
 .. note::
-  Stick to a specific case with your ``host_organizational_unit_dn`` (don't mix "dc"s and "DC"s, "ou"s and "OU"s...). 
+  Stick to a specific case with your ``host_organizational_unit_dn`` (don't mix "dc"s and "DC"s, "ou"s and "OU"s...).
   Follow the case used in the DN/``computer_ad_dn`` fields in the hosts grid.

@@ -303,4 +303,3 @@ msgstr "pour activer :program:`waptexit` à l'extinction de la machine :"
 #: ../../source/wapt-usage/waptexit.rst:203
 msgid "to disable :program:`waptexit` at host shutdown:"
 msgstr "pour désactiver :program:`waptexit` à l'extinction de la machine :"
-

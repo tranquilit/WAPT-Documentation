@@ -1416,4 +1416,3 @@ msgid ""
 msgstr ""
 "il vérifiera enfin que le certificat associé est autorisé à lancer des "
 "commandes ;"
-
