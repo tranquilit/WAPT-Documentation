@@ -89,7 +89,9 @@ Description of available options for the WAPT agent
     - Force default langauge for GUI (not for package filtering)
   * - ``host_organizational_unit_dn`` = OU=TOTO,OU=TEST,DC=DEMO,DC=LAN
     - Allows you to force an Organizational Unit on the WAPT agent.
-      (Convenient to assign a fake OU for out-of-domain PC)
+      (Convenient to assign a fake OU for out-of-domain PC) Make sure it respects
+      a consistent case (don't mix "dc"s and "DC"s, for example), which you can find
+      in the console (in the DN/``computer_ad_dn`` fields for each machine)
   * - ``download_after_update_with_waptupdate_task_period`` = True
     - Define whether a download of pending packages should be started
       after an update with waptupdate_task_period

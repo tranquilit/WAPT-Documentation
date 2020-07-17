@@ -1538,4 +1538,3 @@ msgstr ""
 
 #~ msgid "*WAPTWUA* packages"
 #~ msgstr "Les paquets *wsus*"
-
