@@ -547,14 +547,14 @@ Solution implemented
   the control sums of all files in the package;
 
 * a file :file:`signature.sha256` **encrypted** with the WAPT agent's
-  private key is then created in the folder :file:`<WAPT>`; it contains
+  private key is then created in the folder :file:`WAPT`; it contains
   the control sum of the file :file:`manifest.sha256`;
 
 * the whole is then compressed and suffixed with a *.wapt* extension;
 
 * when a WAPT agent downloads a WAPT package, the agent checks that the file
   :file:`signature.sha256` has been signed with the private key that matches
-  the certificate present in the folder :file:`certificate.crt`;
+  the certificate present in the folder :file:`WAPT`;
 
 * the WAPT agent then checks that the certificate or the chain of certificates
   in :file:`certificate.crt` has been signed with a key matching
@@ -563,7 +563,7 @@ Solution implemented
 
 * the WAPT agent then generates the control sum of all the files contained
   in the package (except the files :file:`signature.sha256`
-  and :file:`certificate.crt `) and verifies that it matches the file
+  and :file:`certificate.crt`) and verifies that it matches the file
   :file:`manifest.sha256` contained in the package;
 
 * if one of these steps does not pass, this means that a file has been modified/
@@ -610,7 +610,7 @@ of the :term:`Administrator` and stored in the attribute *signature*
 of the :file:`control` file.
 
 The certificate matching the private key is stored
-in :file:`<WAPT>\\certificate.crt` inside the WAPT package.
+in :file:`WAPT\\certificate.crt` inside the WAPT package.
 
 On the WAPT Server, the index :file:`Packages` is regenerated
 when the :command:`wapt-scanpackages` command is triggered by adding
