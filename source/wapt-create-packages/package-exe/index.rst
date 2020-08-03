@@ -140,6 +140,12 @@ The *uninstall key* is available in the Windows registry:
 .. code-block:: bash
 
   HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall
+  
+or in 64bits sysem
+
+.. code-block:: bash
+
+  HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall
 
 * open a Windows Command Line :program:`cmd.exe` prompt;
 
