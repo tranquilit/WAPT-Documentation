@@ -45,7 +45,7 @@ Configuration changes for better performance
 Configuring Nginx
 +++++++++++++++++
 
-In the :file:`/etc/nginx/nginx.conf` file, modify ``worker_connections``
+In the :file:`/etc/nginx/nginx.conf` file (for Windows :file:`C:\\wapt\\waptserver\\nginx\\conf\\nginx.conf`), modify ``worker_connections``
 parameter. The value should be around 2.5 times the number of WAPT clients
 (n connections for websockets and n connections for package downloads
 and inventory upload + some margin).
@@ -57,7 +57,7 @@ and inventory upload + some margin).
    }
 
 Then upgrade the number of *filedescriptors*
-in the :file:`/etc/nginx/nginx.conf` file:
+in the :file:`/etc/nginx/nginx.conf` file (for Windows :file:`C:\\wapt\\waptserver\\nginx\\conf\\nginx.conf`):
 
 .. code-block:: bash
 
@@ -107,7 +107,7 @@ Configuring the PostgreSQL database
 
 A higher number of clients need a higher number of connections to the PostgreSQL
 database. In the :file:`postgresql.conf`
-file (file:`/etc/postgresql/11/main/postgresql.conf` on debian 10 for example),
+file (file:`/etc/postgresql/11/main/postgresql.conf` on debian 10 for example or for Windows :file:`C:\\wapt\\waptserver\\pgsql9.6_data\\postgresql.conf`),
 you need to increase the following parameter to approximately 1/4
 the number of active WAPT agents.
 
@@ -118,7 +118,7 @@ the number of active WAPT agents.
 Configuring the WAPT Server
 +++++++++++++++++++++++++++
 
-In :file:`/opt/wapt/conf/waptserver.ini` file, ``db_max_connections``
+In :file:`/opt/wapt/conf/waptserver.ini` file (for Windows :file:`C:\\wapt\\conf\\waptserver.ini`, ``db_max_connections``
 should be equal to PostgreSQL ``max_connections`` minus 10 (PostgreSQL needs
 to keep some connections for its housekeeping stuff). The ``max_clients``
 parameter should be set around 1.2 times the number of WAPT agents:
