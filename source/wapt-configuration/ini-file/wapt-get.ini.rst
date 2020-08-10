@@ -46,17 +46,6 @@ Description of available options for the WAPT agent
 
   * - Options
     - Description
-  * - ``repo_url`` = https://srvwapt.mydomain.lan/wapt
-    - If the field is left empty, the WAPT agent will make a :term:`DNS`
-      query on the :term:`SRV` field ``_wapt._tcp.<dnsdomain>`` to find
-      the repository (the ``dnsdomain`` attribute must be configured).
-  * - ``wapt_server`` = https://srvwapt.mydomain.lan
-    - If the attribute is left empty, the WAPT agent will make a
-      :term:`DNS` :term:`SRV` query on the ``_waptserver._tcp.<dnsdomain>``
-      field (the ``dnsdomain`` attribute must be configured).
-  * - ``dnsdomain`` = mydomain.lan
-    - DNS suffix to use for auto-discovery of the WAPT Server and
-      repositories with :term:`SRV` / :term:`CNAME field` DNS queries.
   * - ``use_hostpackages`` = 1
     - Use host packages (default 1).
   * - ``waptupdate_task_period`` = 120
