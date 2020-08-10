@@ -86,7 +86,7 @@ Several options can be defined in the section:
     - Name of the PostgreSQL user connecting to the database
       (default: empty, it will use a local UNIX socket).
   * - ``enable_store`` = False
-    - Enables WAPT Store Webui
+    - Enables WAPT Store Webui (WAPT Enterprise only)
   * - ``encrypt_host_packages`` = False
     - Encrypt host package with client certificate
   * - ``htpasswd_path`` = None
@@ -156,8 +156,6 @@ Several options can be defined in the section:
     - List of WakeOnLAN UDP ports to send magic packets to
   * - ``wapt_bind_interface`` =  127.0.0.1
     - Define how to listen to the waptserver service
-  * - ``enable_store`` = False
-    - Defined if the store is activated https://srvwapt.mydomain.lan/
 
 .. _config_nginx:
 
