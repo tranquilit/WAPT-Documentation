@@ -89,6 +89,8 @@ Description of available options for the WAPT agent
   * - ``service_auth_type`` = system
     - How the self service authentication works. Possible values are:
       ``system``, ``waptserver-ldap`` or ``waptagent-ldap``
+  * - ``uninstall_allowed`` = 1
+    - Whether or not it is possible for the user to uninstall applications via the self-service.
 
 .. _wapt-get-ini-waptserver:
 .. _wapt-get-ini-kerberos:
