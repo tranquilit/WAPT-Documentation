@@ -140,7 +140,7 @@ The *uninstall key* is available in the Windows registry:
 .. code-block:: bash
 
   HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall
-  
+
 or on 64bits systems
 
 .. code-block:: bash
