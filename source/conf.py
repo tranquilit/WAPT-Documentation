@@ -60,7 +60,7 @@ project = 'WAPT'
 copyright = '2020, Tranquil IT'
 author = 'Tranquil IT'
 
-# The version info for the project yo're documenting, acts as replacement for
+# The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
 #
@@ -243,8 +243,8 @@ html_static_path = ['_static']
 
 # Language to be used for generating the HTML full-text search index.
 # Sphinx supports the following languages:
-#   'da', 'de', 'en', 'es', 'fi', 'fr', 'h', 'it', 'ja'
-#   'nl', 'no', 'pt', 'ro', 'r', 'sv', 'tr', 'zh'
+#   'da', 'de', 'en', 'es', 'fi', 'fr', 'hu', 'it', 'ja'
+#   'nl', 'no', 'pt', 'ro', 'ru', 'sv', 'tr', 'zh'
 #
 # html_search_language = 'en'
 
