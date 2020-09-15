@@ -17,7 +17,7 @@ msgstr ""
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/index.rst:8
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/index.rst:16
 msgid "Replicating repositories and working with multiple repositories"
-msgstr "Répliquer des dépôt et fonctionner avec plusieurs dépôts"
+msgstr "Répliquer des dépôts et fonctionner avec plusieurs dépôts"
 
 #: /mnt/oldhome/dcardon/docwapt/doc-wapt/source/wapt-replication/index.rst:8
 msgid ""
