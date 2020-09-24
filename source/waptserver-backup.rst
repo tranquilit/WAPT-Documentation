@@ -115,7 +115,7 @@ Backing up the WAPT Server on Windows
 -------------------------------------
 
 
-* backup the WAPT repository folder :file:`C:\\wapt\\waptserver\\repository` and :file:`C:\\wapt` and :file:`C:\\wapt\\waptserver\\nginx\\ssl`
+* backup the WAPT repository folder :file:`C:\\wapt\\waptserver\\repository` and :file:`C:\\wapt\\waptserver\\conf` and :file:`C:\\wapt\\waptserver\\nginx\\ssl`
   on a remote backup destination;
 
 Backup PostgreSQL Database with pg_dump.exe:
@@ -131,7 +131,7 @@ Backup PostgreSQL Database with pg_dump.exe:
 Restoring the WAPT Server on Windows
 ------------------------------------
 
-* restore the following directories :file:`C:\\wapt\\waptserver\\repository` and :file:`C:\\wapt` and :file:`C:\\wapt\\waptserver\\nginx\\ssl`
+* restore the following directories :file:`C:\\wapt\\waptserver\\repository` and :file:`C:\\wapt\\waptserver\\conf` and :file:`C:\\wapt\\waptserver\\nginx\\ssl`
 
 * Apply the total right to the folder :file:`C:\\wapt\\waptserver\\repository` for the "Network Service" group
 

@@ -42,8 +42,8 @@ Performing minor updates on a Windows based WAPT Server
   **The prefix must NOT be changed and you must NOT generate a new key!**
 
 * on the workstation that you use to build your packages, manually
-  download WAPTSetup from 
-  
+  download WAPTSetup from
+
 * Community: `waptserversetup.exe <https://wapt.tranquil.it/wapt/releases/latest/waptserversetup.exe>`_;
 
 * Enterprise: `waptserversetup.exe <https://srvwapt-pro.tranquil.it/entreprise/waptserversetup.exe>`_;

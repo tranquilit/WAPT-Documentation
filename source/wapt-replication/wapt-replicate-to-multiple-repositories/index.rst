@@ -178,9 +178,12 @@ Options                              Example value           Definition
 ``remote_repo_support``              True                    Enables remote repository sync server side (sync.json)
 ==================================== ======================= ======================================================
 
-Then we must restart both `waptserver` and `wapttask` :
+Then we must restart both *waptserver* and *wapttask*:
+
 .. code-block:: bash
+
   systemctl restart waptserver wapttask
+
 
 Repository rules
 ----------------
@@ -232,7 +235,7 @@ Adding a rule in the WAPT Console
 In :guilabel:`Repositories`, click on the :guilabel:`Add rule` button. The following window appears:
 ..figure:: create_new_rule.png
 	:align:center
-	
+
 
 You can then choose from the different above parameters and affect values to a specific secondary WAPT repository.
 The option :menuitem:`No Fallback` will prevent from falling back to the main WAPT server and will avoid potential network congestion.

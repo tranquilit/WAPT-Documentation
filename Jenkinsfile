@@ -1,5 +1,5 @@
 pipeline {
-  agent { label 'debian-stretch' }
+  agent { label 'debian-buster' }
   options {
     timestamps()
     disableConcurrentBuilds()
