@@ -65,7 +65,7 @@ Creating a development environment with virtualenv
 
 With a clean Windows installed:
 
-* install python2.7.12 from https://www.python.org/ftp/python/2.7.12/python-2.7.12.msi;
+* install python2.7.15 from https://www.python.org/ftp/python/2.7.15/python-2.7.15.msi;
 
 * upgrade :program:`python-setuptools`:
 
@@ -94,7 +94,6 @@ On a clean Windows 7 install as a :term:`Local Administrator`:
 
 * increase the width of the CMD windows and flip to quick edit mode;
 
-* copy the code signing certificate into :file:`C:\\users\\buildbot\\Documents`;
 
 Installing Lazarus
 ++++++++++++++++++
@@ -107,21 +106,22 @@ Installing Lazarus
     unzip sqlite3.dll dans C:\Windows\SysWOW64
     md c:\tranquilit
 
-    git.exe clone  --recurse-submodules "ssh://htouvet@srvdev.ad.tranquil.it:29418/wapt/wapt.git" "C:\tranquilit\wapt"
+    REM git.exe clone --recurse-submodules "https://github.com/tranquilit/WAPT.git" "C:\tranquilit\wapt"
+    git.exe clone --recurse-submodules "https://github.com/tranquilit/WAPT.git" "C:\tranquilit\wapt"
     REM git pull --recurse-submodules=yes --ff-only)
     cd  \tranquilit\wapt
     init_workdir.bat
 
-    git clone git://srvdev.ad.tranquil.it/wapt/pltis_indy.git c:\tranquilit\pltis_indy
-    git clone git://srvdev.ad.tranquil.it/wapt/pltis_utils.git c:\tranquilit\pltis_utils
-    git clone git://srvdev.ad.tranquil.it/wapt/pltis_sogrid.git  c:\tranquilit\pltis_sogrid
-    git clone git://srvdev.ad.tranquil.it/wapt/pltis_superobject.git  c:\tranquilit\pltis_superobject
-    git clone git://srvdev.ad.tranquil.it/wapt/Python-for-Lazarus.git  c:\tranquilit\Python-for-Lazarus
-    git clone git://srvdev.ad.tranquil.it/wapt/pltis_virtualtrees.git c:\tranquilit\pltis_virtualtrees
-    git clone git://srvdev.ad.tranquil.it/wapt/pltis_virtualtreesextra.git c:\tranquilit\pltis_virtualtreesextra
-    git clone git://srvdev.ad.tranquil.it/wapt/pltis_dcpcrypt.git c:\tranquilit\pltis_dcpcrypt
-    git clone git://srvdev.ad.tranquil.it/wapt/pltis_luipack.git c:\tranquilit\pltis_luipack
-    git clone git://srvdev.ad.tranquil.it/wapt/pltis_synapse.git c:\tranquilit\pltis_synapse
+    git clone https://github.com/tranquilit/pltis_indy.git c:\tranquilit\pltis_indy
+    git clone https://github.com/tranquilit/pltis_utils.git c:\tranquilit\pltis_utils
+    git clone https://github.com/tranquilit/pltis_sogrid.git  c:\tranquilit\pltis_sogrid
+    git clone https://github.com/tranquilit/pltis_superobject.git  c:\tranquilit\pltis_superobject
+    git clone https://github.com/tranquilit/pltis_python4delphi.git c:\tranquilit\pltis_python4delphi
+    git clone https://github.com/tranquilit/pltis_virtualtrees.git c:\tranquilit\pltis_virtualtrees
+    git clone https://github.com/tranquilit/pltis_virtualtreesextra.git c:\tranquilit\pltis_virtualtreesextra
+    git clone https://github.com/tranquilit/pltis_dcpcrypt.git c:\tranquilit\pltis_dcpcrypt
+    git clone https://github.com/tranquilit/pltis_luipack.git c:\tranquilit\pltis_luipack
+    git clone https://github.com/tranquilit/pltis_synapse.git c:\tranquilit\pltis_synapse
 
     c:\lazarus\lazbuild.exe --add-package c:\tranquilit\pltis_dcpcrypt\dcpcrypt_laz.lpk
     c:\lazarus\lazbuild.exe --add-package c:\tranquilit\pltis_indy\indylaz.lpk
@@ -134,7 +134,7 @@ Installing Lazarus
     c:\lazarus\lazbuild.exe c:\tranquilit\pltis_synapse\laz_synapse.lpk
     c:\lazarus\lazbuild.exe --add-package c:\tranquilit\pltis_luipack\luicomponents\luicomponents.lpk
     c:\lazarus\lazbuild.exe --add-package c:\tranquilit\pltis_luipack\luicomponents\luicomponents.lpk
-    c:\lazarus\lazbuild.exe --add-package C:\tranquilit\Python-for-Lazarus\python4lazarus\python4lazarus_package.lpk
+    c:\lazarus\lazbuild.exe --add-package C:\tranquilit\pltis_python4delphi\PythonForDelphi\Components\p4dlaz.lpk
     c:\lazarus\lazbuild.exe --add-package C:\lazarus\components\anchordocking\design\anchordockingdsgn.lpk
     c:\lazarus\lazbuild.exe --build-ide=
     c:\lazarus\lazbuild.exe c:\tranquilit\wapt\wapt-get\pltis_wapt.lpk
