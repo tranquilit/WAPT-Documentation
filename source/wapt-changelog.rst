@@ -17,15 +17,17 @@ WAPT-1.8.2.7267 (2020-06-12)
 
 hash : 46f40312
 
-* [FIX] Fix db schema upgrade script for upgrade from WAPT version 1.8.1-6742. Fresh 1.8.2
-  installation or upgrade from 1.7 or from 1.8.0 or 1.8.1-6758 shouldn't have the issue.
+* [FIX] Fix db schema upgrade script for upgrade from WAPT version 1.8.1-6742.
+  Fresh 1.8.2 installation or upgrade from 1.7 or from 1.8.0 or 1.8.1-6758
+  shouldn't have the issue;
 
 WAPT-1.8.2.7265 (2020-06-11)
 ----------------------------
 
 hash : 339f1996
 
-This is mostly a bugfix release. Support for Linux and Mac clients has also been greatly improved.
+This is mostly a bugfix release. Support for Linux and Mac clients
+has also been greatly improved.
 
 Notable enhancements
 ++++++++++++++++++++
@@ -37,7 +39,7 @@ Notable enhancements
     * waptagent installation as a service with kerberos registration;
 
     * waptselfservice gui available on the 3 platforms
-      (note: support for the lastest version of MacOS, Catalina,
+      (note: support for the latest version of MacOS, Catalina,
       is expected for 1.8.3);
 
     * waptexit (on Linux an Mac it is not yet started
@@ -45,16 +47,16 @@ Notable enhancements
 
     * session-setup for configuring user sessions;
 
-    * send messagebox to users and propose upgrades (Enterpise);
+    * send messagebox to users and propose upgrades (**Enterprise** only);
 
-    * OU handling (Enterprise);
+    * :abbr:`OU (Organisational Unit)` handling (**Enterprise** only);
 
     * waptselfservice authentication can be delegated
-      to the waptserver (Enterprise);
+      to the waptserver (**Enterprise** only);
 
-    * better setuphelpers coverage;
+    * better *setuphelpers* coverage;
 
-* [IMP] add new supported platform. Now WAPT for linux (server and agent)
+* [IMP] new supported platforms. Now WAPT for linux (server and agent)
   and MacOS (agent only) supports:
 
     * Ubuntu 18.04 and 20.04;
@@ -66,54 +68,64 @@ Notable enhancements
     * MacOS Sierra, HighSierra, Mojave (note: support for MacOS Catalina
       expected for WAPT 1.8.3);
 
-* [IMP] streamlining of development environement
+* [IMP] streamlining of development environment
   for packaging on Linux using VSCode;
 
 * [FIX] better handling of websocket cleanup when a host
   is not properly registered. Should improve stability
-  on large WAPT installation;
+  on large WAPT installations;
 
 * [IMP] selfservice can now be configured for external authentication
   for desktops that are not in a AD Domain;
 
-* [IMP] selfservice users can now authenticate on selfserver
+* [IMP] selfservice users can now authenticate on waptserver
   even when out of the corporate network;
 
-* [IMP] The session setup in run for all packages immediately after upgrade or install, so that new packages
-  are already configured in the context of each logged in users (no need to logout / login) (Enterprise)
+* [IMP] The session setup in run for all packages immediately
+  after upgrade or install, so that new packages are already configured
+  in the context of each logged in users (no need to logout / login) (**Enterprise** only);
 
-* [IMP] If secondary repositories are defined in waptconsole.ini, additional packages can be selected when
-  editing hosts, groups or self-service packages.
+* [IMP] If secondary repositories are defined in :file:`waptconsole.ini`,
+  additional packages can be selected when editing hosts, groups
+  or self-service packages;
 
-* [IMP] When editing group or Self-service packages, one can define the Target OS of the package.
+* [IMP] When editing group or self-service packages,
+  one can define the Target OS of the package;
 
-* [IMP] Remote message to loggeg in users is using the same custom dialog box for windows, linux and macos.
+* [IMP] Remote message to logged in users is using the same custom dialog box
+  for windows, linux and macos;
 
-* [IMP] Remote message to loggeg in users can display the same custom logo as Self-service (Enterprise)
+* [IMP] Remote message to logged in users can display the same custom logo
+  as self-service (**Enterprise** only);
 
-* [IMP] The IP/Subnet match in repositoty access rules is based on the "main IP" of the host
-  (source IP from which the host is reaching the server, if the server is public, this is usually the external IP of the router) (Enterprise)
+* [IMP] The IP/Subnet match in repository access rules is based on the "main IP"
+  of the host (source IP from which the host is reaching the server,
+  if the server is public, this is usually the external IP of the router) (**Enterprise** only);
 
-* [IMP] Added Remote host sShutdown and remote host Reboot from Waptconsole
-  if enabled in wapt-get.ini (``allow_remote_shutdown`` and ``allow_remote_reboot``) (Enterprise)
+* [IMP] Added Remote host Shutdown and remote host Reboot from Waptconsole
+  if enabled in wapt-get.ini (``allow_remote_shutdown``
+  and ``allow_remote_reboot``) (**Enterprise** only);
 
-* [IMP] Add a "no fallback" checkbox in repositories access rule to prevent host using main repository in case secondary ones are not reachable
-  (when main repository bandwith is limited, having all hosts reaching the main can slow down access to the main site) (Enterprise)
+* [IMP] Add a :guilabel:`no fallback` checkbox in repositories access rule
+  to prevent host using main repository in case secondary ones are not reachable
+  (when main repository bandwidth is limited, having all hosts reaching
+  the main repository can slow down access to the main site) (**Enterprise** only);
 
-* [FIX] Make sure WUA install task are executed after packages install (Enterprise)
+* [FIX] Make sure WUA install task are executed after packages install (**Enterprise** only);
 
 Other enhancements
 ++++++++++++++++++
 
-* [IMP] Cmd Console is hidden when session-setup is running, to limit annoyance for users.
+* [IMP] Cmd Console is hidden when session-setup is running,
+  to limit annoyance for users;
 
-* [IMP] WUA direct download option in waptconsole (Enterprise)
+* [IMP] WUA direct download option in waptconsole (**Enterprise** only);
 
-* [IMP] can now use microsoft url for WUA in rules (Enterprise)
+* [IMP] can now use microsoft url for WUA in rules (**Enterprise** only);
 
-* [FIX] Improved background icons loading in Self-Service
+* [FIX] Improved background icons loading in self-service;
 
-* [FIX] better inventory of lastboottime and get_domain_info;
+* [FIX] better inventory of ``lastboottime`` and ``get_domain_info``;
 
 * [FIX] better handling of other local install of Python
   on client computer (eg. conflict with local Anaconda Python installation);
@@ -128,7 +140,7 @@ Other enhancements
 
 * [FIX] better handling of ipv6 in console and inventory;
 
-* [IMP] wapt_admin_filter : local admin can be filtered out
+* [IMP] ``wapt_admin_filter``: local admin can be filtered out
   like normal user in selfservice;
 
 * [IMP] add a larger support for setuphelpers on Mac;
@@ -136,7 +148,7 @@ Other enhancements
 * [FIX] waptserver logs are properly redirected
   to :file:`/var/log/waptserver.log`
 
-* [FIX] package caching: packages are deleted after each succesfull installation
+* [FIX] package caching: packages are deleted after each successful installation
   (rather than at the end of the whole upgrade) to better keep local disk space;
 
 * [IMP] allows usage of url for changelog in control file;
@@ -147,28 +159,29 @@ Other enhancements
 * [FIX] better handling of upgrade from Community version
   to Enterprise version;
 
-* [IMP] improved local store skin and translation;
+* [IMP] improved local store skin and translations;
 
 * [FIX] bugfixes and minor gui improvements;
 
 Library changes in WAPT-1.8.2.7165
 ++++++++++++++++++++++++++++++++++
 
-* [REF] replaced :program:`python-ldap` with :program:`ldap3`;
+* [CHANGE] replaced :program:`python-ldap` with :program:`ldap3`;
 
 * [FIX] upgraded :program:`ujson` on waptagent and waptserver on Linux;
 
 Removed featured with WAPT-1.8.2.7165
 +++++++++++++++++++++++++++++++++++++
 
-* autoconfiguration of repositories based on SRV DNS fields
+* [REMOVED] autoconfiguration of repositories based on SRV DNS fields
   (it was not working anymore anyway);
 
 Caveats when using WAPT-1.8.2.7165
 ++++++++++++++++++++++++++++++++++
 
 * [CAV] WaptExit is not run automatically on shutdown
-  on Linux or MacOS (current issue with systemd / launched integration);
+  on Linux or MacOS (current issue with :program:`systemd`
+  / launched integration);
 
 * [CAV] WaptTray is not yet available on Linux and MacOS;
 
@@ -181,58 +194,70 @@ WAPT-1.8.2.7265 RC2 (2020-05-29)
 hash git : 339f1996
 
 .. warning::
-   This is a Release Candidate version for testing and evaluation only and
-   should not be installed on production system.
+
+  This is a Release Candidate version for testing and evaluation only and
+  should not be installed on production system.
 
 This is mostly a bugfix release. Support for Linux and Mac clients
 has greatly improved.
 
 Notable enhancements over 1.8.2 RC1
-+++++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++++
 
-* [IMP] The session setup in run for all packages immediately after upgrade or install, so that new packages
-  are already configured in the context of each logged in users (no need to logout / login) (Enterprise)
+* [IMP] the session setup in run for all packages immediately after upgrade
+  or install, so that new packages are already configured in the context
+  of each logged in users (no need to logout / login) (**Enterprise** only);
 
-* [IMP] If secondary repositories are defined in waptconsole.ini, additional packages can be selected when
-  editing hosts, groups or self-service packages.
+* [IMP] if secondary repositories are defined in waptconsole.ini,
+  additional packages can be selected when editing hosts, groups
+  or self-service packages;
 
-* [IMP] When editing group or Self-service packages, one can define the Target OS of the package.
+* [IMP] when editing group or self-service packages,
+  one can define the target OS of the package;
 
-* [IMP] Remote message to loggeg in users is using the same custom dialog box for windows, linux and macos.
+* [IMP] remote message to logged in users is using the same custom dialog box
+  for windows, linux and macos;
 
-* [IMP] Remote message to loggeg in users can display the same custom logo as Self-service (Enterprise)
+* [IMP] remote message to logged in users can display the same custom logo
+  as self-service (**Enterprise** only)
 
-* [IMP] The IP/Subnet match in repositoty access rules is based on the "main IP" of the host
-  (source IP from which the host is reaching the server, if the server is public, this is usually the external IP of the router) (Enterprise)
+* [IMP] the IP / Subnet match in repository access rules is based
+  on the *main IP* of the host (source IP from which the host
+  is reaching the server, if the server is public, this is usually
+  the external IP of the router) (**Enterprise** only);
 
-* [IMP] Added Remote host sShutdown and remote host Reboot from Waptconsole
-  if enabled in wapt-get.ini (``allow_remote_shutdown`` and ``allow_remote_reboot``) (Enterprise)
+* [IMP] added remote host shutdown and remote host reboot from Waptconsole
+  if enabled in wapt-get.ini (``allow_remote_shutdown``
+  and ``allow_remote_reboot``) (**Enterprise** only);
 
-* [IMP] Add a "no fallback" checkbox in repositories access rule to prevent host using main repository in case secondary ones are not reachable
-  (when main repository bandwith is limited, having all hosts reaching the main can slow down access to the main site) (Enterprise)
+* [IMP] added a :guilabel:`no fallback` checkbox in repositories access rule
+  to prevent hosts using main repository in case secondary repositories
+  are not reachable (when main repository bandwidth is limited,
+  having all hosts reaching the main repository can slow down access
+  to the main site) (**Enterprise** only);
 
-* [FIX] Make sure WUA install task are executed after packages install (Enterprise)
+* [FIX] make sure WUA install task are executed
+  after packages install (**Enterprise** only);
 
 Other enhancements over 1.8.2 RC1
-+++++++++++++++++++++++++++++++++++++++++
++++++++++++++++++++++++++++++++++
 
-* [IMP] Cmd Console is hidden when session-setup is running, to limit annoyance for users.
+* [IMP] cmd Console is hidden when session-setup is running,
+  to limit annoyance for users;
 
-* [IMP] WUA direct download option in waptconsole (Enterprise)
+* [IMP] WUA direct download option in waptconsole (**Enterprise** only);
 
-* [IMP] can now use microsoft url for WUA in rules (Enterprise)
+* [IMP] can now use Microsoft url for WUA in rules (**Enterprise** only);
 
-* [FIX] Improved background icons loading in Self-Service
-
+* [IMP] improved background icons loading in self-service;
 
 Removed features
 ++++++++++++++++
 
 None
 
-
 Caveats
-++++++++++++++++++++++++++++++++++++++
++++++++
 
 Same as RC1
 
@@ -268,10 +293,10 @@ Notable enhancements in WAPT-1.8.2.7165 RC1
 
     * send messagebox to users and propose upgrades (Enterpise);
 
-    * OU handling (Enterprise);
+    * OU handling (**Enterprise** only);
 
     * waptselfservice authentication can be delegated
-      to the waptserver (Enterprise);
+      to the waptserver (**Enterprise** only);
 
     * better setuphelpers coverage;
 
@@ -287,7 +312,7 @@ Notable enhancements in WAPT-1.8.2.7165 RC1
     * MacOS Sierra, HighSierra, Mojave (note: support for MacOS Catalina
       expected for WAPT 1.8.3);
 
-* [IMP] streamlining of development environement
+* [IMP] streamlining of development environment
   for packaging on Linux using VSCode;
 
 * [FIX] better handling of websocket cleanup when a host
@@ -303,7 +328,7 @@ Notable enhancements in WAPT-1.8.2.7165 RC1
 Other enhancements in WAPT-1.8.2.7165 RC1
 +++++++++++++++++++++++++++++++++++++++++
 
-* [FIX] better inventory of lastboottime and get_domain_info;
+* [FIX] better inventory of ``lastboottime`` and ``get_domain_info``;
 
 * [FIX] better handling of other local install of Python
   on client computer (eg. conflict with local Anaconda Python installation);
@@ -318,7 +343,7 @@ Other enhancements in WAPT-1.8.2.7165 RC1
 
 * [FIX] better handling of ipv6 in console and inventory;
 
-* [IMP] wapt_admin_filter : local admin can be filtered out
+* [IMP] ``wapt_admin_filter``: local admin can be filtered out
   like normal user in selfservice;
 
 * [IMP] add a larger support for setuphelpers on Mac;
@@ -326,7 +351,7 @@ Other enhancements in WAPT-1.8.2.7165 RC1
 * [FIX] waptserver logs are properly redirected
   to :file:`/var/log/waptserver.log`
 
-* [FIX] package caching: packages are deleted after each succesfull installation
+* [FIX] package caching: packages are deleted after each successful installation
   (rather than at the end of the whole upgrade) to better keep local disk space;
 
 * [IMP] allows usage of url for changelog in control file;
@@ -371,43 +396,46 @@ WAPT-1.8.1-6758 (2020-03-06)
 
 On server:
 
-* [REF] refactoring for postconf.py / remove old migration from MongoDB
+* [REF] refactoring for postconf.py / remove old migration from MongoDB;
 
-* [REF] refactoring for winsetup.py / create now a dhparam for nginx on Windows
+* [REF] refactoring for winsetup.py / create now a ``dhparam``
+  for :program:`nginx` on Windows;
 
 * [REF] refactoring for repositories: change repo_diff by remote_repo_diff /
-  add param remote_repo_websockets (by default to True) on server
+  add param ``remote_repo_websockets`` (by default to True) on server;
 
-* [IMP] disable cache on nginx for Windows and Linux on wapt packages / exe
+* [IMP] disable cache on :program:`nginx` for Windows and Linux on wapt packages / exe;
 
 On agents:
 
-* [REF] change param waptservice_admin_auth_allow by waptservice_admin_filter
+* [REF] change param ``waptservice_admin_auth_allow``
+  by ``waptservice_admin_filter``;
 
-* [REF] delete resync functions for remote repo
+* [REF] delete resync functions for remote repo;
 
-* [IMP] param local_repo_sync_task_period by default to "2h"
+* [IMP] param ``local_repo_sync_task_period`` by default to "2h";
 
 * [FIX] wapt-get / waptservice debug when download a package on linux
-  when not sudo
+  when not sudo;
 
-* [FIX] fix for plist in macOS
+* [FIX] fix for :program:`plist` in macOS;
 
-* [IMP] can now have relative path for packages/directories in wapt-get
+* [IMP] can now have relative path for packages/directories
+  in :program:`wapt-get`;
 
 * [IMP] templates have by default setup_uninstall / update etc...
 
-* [IMP] improvements with templates for vscode
+* [IMP] improvements with templates for vscode;
 
 On waptconsole:
 
-* [IMP] add possibility of template packages for deb / rpm / pkg
+* [IMP] add possibility of template packages for deb / rpm / pkg;
 
-* [FIX] Fix for msi, exe, etc in PackageWizard explorer
+* [FIX] Fix for msi, exe, etc in PackageWizard explorer;
 
-* [IMP] Can now choose editor_for_packages directly in waptconsole config
+* [IMP] Can now choose ``editor_for_packages`` directly in waptconsole config;
 
-* [UPD] Some cosmetic / translations improvements for GUI to deploy waptagent
+* [UPD] Some cosmetic / translations improvements for GUI to deploy waptagent;
 
 WAPT-1.8.1-6756 (2020-02-17)
 ----------------------------
@@ -423,222 +451,227 @@ Bug fixes and small improvements
   a lot of tasks on remote hosts (error db is closed)
 
 * [FIX] waptconsole: Don't "force" install when triggering the upgrade
-  on remote hosts, to avoid reinstalling softwares when alreadu up to date.
+  on remote hosts, to avoid reinstalling softwares when already up to date.
 
-* [IMP] use ldap auth only if session and admin fail (avoid waiting for timeout
-  when ldap is not available but one wants to login with plain admin user)
+* [IMP] use *ldap auth* only if session and admin fail (avoid waiting for timeout
+  when ldap is not available but one wants to login with plain admin user);
 
-* [FIX] wapt-get upload: encode user and password in http_upload_package
-  to allow non ascii in admin password
+* [FIX] wapt-get upload: encode user and password in ``http_upload_package``
+  to allow non ascii in admin password;
 
-* [IMP] waptconsole: Disable auto search on keywords
+* [IMP] waptconsole: Disable auto search on keywords;
 
-* [IMP] use DMI 'System_Information.Serial_Number' inforamtion
-  for serialnr Host field instead of 'Chassis_Information.Serial_Number'
-  because System_Information is more often properly defined.
+* [IMP] use DMI ``System_Information.Serial_Number`` information
+  for serialnr Host field instead of ``Chassis_Information.Serial_Number``
+  because System_Information is more often properly defined;
 
-* [IMP] waptconsole: add 'uuid' in the list of searched fields
-  when only 'host' is checked in filters
+* [IMP] waptconsole: add ``uuid`` in the list of searched fields
+  when only 'host' is checked in filters;
 
-* [IMP] nginx config: disable caching.
+* [IMP] nginx config: disable caching;
 
-* [IMP] fixes for vscode project template
+* [IMP] fixes for :program:`vscode` project template;
 
 WAPT-1.8.1-6742 (2020-02-12)
 ----------------------------
 (hash 80dbdbe7)
 
-Major changes:
-++++++++++++++++++++++++++++
+Major changes
++++++++++++++
 
 * waptconsole: Added a page to show packages install status summary (merge)
-  of all selected hosts, grouped by package,version,install status,
-  with count of hosts.
+  of all selected hosts, grouped by ``package``, ``version``, ``install status``,
+  with count of hosts;
 
   Context menu allow to apply selectively the pending actions.
   On enterprise, one can apply safely the updates (only packages for which
-  there is no running process on client side)
+  there is no running process on client side);
 
 * Prevent users from saving a host package if targeted host(s) do not accept
   their personal certificate. (Checked on waptconsole when editing /
-  mass updating host packages, and on server when uploding packages)
+  mass updating host packages, and on server when uploding packages);
 
-  The personal certificate file (.crt) must contain at first
+  The personal certificate file :mimetype:`.crt` must contain at first
   the personal certificate, followed by the issuer CA certificates,
-  so that wapt can rebuild certificate chain and check intersection
-  with host's trusted certificates.
+  so that wapt can rebuild the certificate chain and check intersection
+  with host's trusted certificates;
 
 Important note about SSL client side authentication
 +++++++++++++++++++++++++++++++++++++++++++++++++++
 
 In your nginx configuration, be sure to reset the headers
 ``X-Ssl-Authenticated`` and ``X-Ssl-Client-DN`` as waptserver *trusts*
-these headers if ssl cient side auth is enabled in :file:`waptserver.ini`.
+these headers if ssl cient side auth is enabled in :file:`waptserver.ini`;
 
 If SSL client side auth is setup these headers can be populated
 by ``proxy_set_header`` with result of ``ssl_verify_client`` as explained
-in ./wapt-security/security-configuration-certificate-authentication.html#enabling-client-side-certificate-authentication
+in ./wapt-security/security-configuration-certificate-authentication.html#enabling-client-side-certificate-authentication;
 
 Fixes and detailed changelog
 ++++++++++++++++++++++++++++
 
-* Security fix: update waitress module to 1.4.3 (CVE-2020-5236)
+* Security fix: update waitress module to 1.4.3
+  (`CVE-2020-5236 <https://nvd.nist.gov/vuln/detail/CVE-2020-5236>`_);
 
-* Security fix: blank ``X-Ssl*`` headers in default nginx templates
+* Security fix: blank ``X-Ssl*`` headers in default :program:`nginx` templates;
 
-* Fix: regression: kerberos register_host did not work anymore
+* Fix: regression: :command:`kerberos register_host` did not work anymore;
 
 * On server, :file:'<repository root>/wapt/ssl' dir is moved automatically
   on winsetup / postconf to (per default) :file:'<repository root>/ssl',
-  a :file:`/ssl` location is added.
+  a :file:`/ssl` location is added;
 
   This :file:`/ssl` should be accessible from clients
   at the location specified by the server parameter ``clients_signing_crl_url``
-  (in :file:`waptserver.ini`)
+  (in :file:`waptserver.ini`);
 
 * Improved logs readability. Log count of used DB connections
   from pool on waptserver to troubleshoot DB connection issues.
   Log level can be specified by subcomponent with loglevel_waptcore,
   loglevel_waptserver, loglevel_waptserver.app, loglevel_waptws,
-  loglevel_waptdb defined in :file:`waptserver.ini`.
+  loglevel_waptdb defined in :file:`waptserver.ini`;
 
 * Reworked explicit DB Open/close on waptserver to not get
   a DB connection from pool if not useful. It prevents exhaustion
-  of DB connections.
+  of DB connections;
 
-* waptwinsetup: don't create unused directories wapt-group and waptserver\log
+* waptwinsetup: don't create unused directories :file:`wapt-group`
+  and :file:`waptserver\log`;
 
-* Added :mimetype:`msu` and :mimetype:`msix` extensions
-  for Package wizard setup file dialog
+* Added :mimetype:`.msu` and :mimetype:`.msix` extensions
+  for Package wizard setup file dialog;
 
 * Fallback with os._exit(10) for waptservice restart.
-  Added a handler in nssm configuration to honor the restart.
+  Added a handler in :program:`nssm.exe` configuration to honor the restart;
 
-* Increased waitress threads to 10 on waptservice
+* Increased waitress threads to 10 on waptservice;
 
-* Lowered the default number of pooled DB connections (db_max_connections)
-  to 90, to be lower than postgresql default of 100
+* Lowered the default number of pooled DB connections (``db_max_connections``)
+  to 90, to be lower than postgresql default of 100;
 
 * waptserver: allow kerberos or ssl auth check in waptserver
-  only if enabled in :file:`waptserver.ini` config file.
+  only if enabled in :file:`waptserver.ini` config file;
 
 * waptconsole: Allow update of host package only if user certificate
   is actually allowed on the host (based on last update of host status
-  in database).
+  in database);
 
 * waptconsole / build waptagent: checkbox to specify to include or not
   non certificate authority certificates in build. The normal setup would be
-  to uncheck this, to not deploy non CA certificates, on wapt root CA.
+  to uncheck this, to not deploy non CA certificates, on wapt root CA;
 
-* Imp: Add and option to disable automatic hiding of panels...
+* [IMP] Add and option to disable automatic hiding of panels...
 
-* Imp: Add explicit AllowUnauthenticatedRegistration task to waptserversetup windows
+* [IMP] Add explicit AllowUnauthenticatedRegistration task to waptserversetup windows
 
 * waptsetup: Remove explicit VCRedistNeedsInstall task. Use /VCRedistInstall=(0/1)
   if you need to force install or force not install
-  vcredist VC_2008_SP1_MFC_SEC_UPD_REDIST_X86
+  vcredist VC_2008_SP1_MFC_SEC_UPD_REDIST_X86;
 
-* Fix: :program:`wapt-get.exe`: use wapt-get.ini for :command:'scan-packages'
-  and :command:'update-packages' wapt-get actions
+* [FIX] :program:`wapt-get.exe`: use wapt-get.ini for :command:'scan-packages'
+  and :command:'update-packages' wapt-get actions;
 
-* Fix: :command:`wapt-get`: auth asked when checking if server is available (ping)
-  and client ssl auth is enabled
+* [FIX] :command:`wapt-get`: auth asked when checking if server is available (ping)
+  and client ssl auth is enabled;
 
-* Imp: WAPT client: if client ssl auth failed with http error 400,
-  retry without ssl auth to be able to ask for new certificate signing
+* [IMP] WAPT client: if client ssl auth failed with http error 400,
+  retry without ssl auth to be able to ask for new certificate signing;
 
-* waptserver register behaviour: Revert over rev 6641: sign host certificate
+* [FIX] waptserver register behavior: revert over rev 6641: sign host certificate
   if an authenticated user is provided or data is signed with a key which
-  can be verified by existing certificate in database for this host uuid
+  can be verified by existing certificate in database for this host uuid;
 
-* waptserver register behaviour: When receiving 401 from server when registering,
-  retry registering without ssl auth.
+* [IMP] waptserver register behavior: when receiving 401 from server when registering,
+  retry registering without ssl auth;
 
-* wapt client: Be sure to have proper host private key saved
-  on disk when receiving signed certificate from server.
+* [IMP] wapt client: be sure to have proper host private key saved
+  on disk when receiving signed certificate from server;
 
-* waptconsole: Advanced Filters for selected host packages status.
-  Filter on Install status and Section + keyword. Pending button
-  to show only pending installations / removes
+* [IMP] waptconsole: advanced filters for selected host packages status.
+  Filter on *Install status* and *Section + keyword*. :guilabel:`Pending` button
+  to show only pending installations / removes;
 
-* wapt-get make-template / edit package: Add .vscode directory.
-  Add template project for vscode
+* [ADD] wapt-get make-template / edit package: Add .vscode directory.
+  Add template project for vscode;
 
-* waptconsole: Fix ssl auth for mass package dependencies / conflicts updates
+* [FIX] waptconsole: fix ssl auth for mass package dependencies
+  / conflicts updates;
 
-* waptconsole: Fix import packages from external repos with ssl auth
+* [FIX] waptconsole: fix import packages from external repos with ssl auth;
 
-* backports from master:
+* [IMP] backports from master:
 
-  - target OS in import packages
+  - target OS in import packages;
 
-  - choose editor for packages in linux in cmdline
+  - choose editor for packages in linux in cmdline;
 
-* backports from master:
+* [IMP] backports from master:
 
-  - refactoring for HostCapabilities.waptos
+  - refactoring for ``HostCapabilities.waptos``;
 
-  - add new target_os unix for mac and linux
+  - add new ``target_os`` unix for mac and linux;
 
-  - so target_os: windows, darwin (for mac), linux or unix
+  - so ``target_os``: windows, darwin (for mac), linux or unix;
 
-* Fix WAPT.wapt_base_dir
+* [FIX] ``WAPT.wapt_base_dir``;
 
-* Fix makepath in linux/macOS
+* [FIX] makepath in linux/macOS;
 
-* Some refactoring / fixes for setuphelpers
+* [IMP] refactoring / fixes for setuphelpers;
 
-* Fix for rights_to_check in repo-sync client
+* [FIX] for ``rights_to_check`` in repo-sync client;
 
-* Fix for repo-sync
+* [FIX] for repo-sync;
 
-* Add two setuphelpers for linux: type_debian and type_redhat
+* [ADD] two setuphelpers for linux: type_debian and type_redhat
 
-  indent the local sync.json
+  indent the local sync.json;
 
-* use get_os_version and windows_version_from_registry instead of windows_version
+* [IMP] use ``get_os_version`` and ``windows_version_from_registry``
+  instead of ``windows_version``;
 
-* use windows_version_registry for get_os_version on windows
+* [IMP] use ``windows_version_registry`` for ``get_os_version`` on windows;
 
-* backport host_capabilities.os from master
+* [IMP] backport ``host_capabilities.os`` from master
 
-* Fix for make-template for malformed .exe installer
+* [FIX] for :command:`make-template` for malformed :mimetype:`.exe` installer;
 
-* Add automatic maintenance of a CRL for clients auth certificates signed by server
+* [ADD] automatic maintenance of a :abbr:`CSR (Certificate Revocation List)` for client auth certificates
+  signed by server:
 
-   default CRL lifetime to 30 days
+  * default :abbr:`CSR (Certificate Revocation List)` lifetime to 30 days;
 
-   check renewal of client cert CRL every hour
+  * check renewal of client cert :abbr:`CSR (Certificate Revocation List)` every hour;
 
-   add a parameter for the next update time of crl
+  * added a parameter for the next update time of crl;
 
-   add ``clients_signing_crl_url``, ``clients_signing_crl_days``,
-   ``known_certificates_folder`` waptserver parameters
+  * added ``clients_signing_crl_url``, ``clients_signing_crl_days``,
+    ``known_certificates_folder`` waptserver parameters;
 
-   add a :file:`/ssl` location in nginx templates
+  * added a :file:`/ssl` location in nginx templates;
 
-   add crl_urls in client auth signed certificates
+  * added ``crl_urls`` in client auth signed certificates;
 
-   add a scheduled task to renew server side crl
+  * added a scheduled task to renew server side crl;
 
-   add ``clients_signing_crl`` waptserver parameter to add client cert
-   to server crl when host is unregistered.
+  * added ``clients_signing_crl`` waptserver parameter to add client cert
+    to server crl when host is unregistered;
 
-   Add revoke_cert methode to SSLCRL class
+  * added :command:`revoke_cert` method to SSLCRL class;
 
-   Add a authorityKeyIdentifier to the client auth CRL
+  * added a ``authorityKeyIdentifier`` to the client auth :abbr:`CSR (Certificate Revocation List)`;
 
-* force restart if windows task is broken
+* force restart if windows task is broken;
 
-* waptservice: use sys._exit(10) to ask nssm to restart service in case
-  of unhandled exception in waptservice (loops..)
+* waptservice: use ``sys._exit(10)`` to ask :program:`nssm` to restart service
+  in case of unhandled exception in waptservice (loops, etc.);
 
-* wapt client: don't log / store into db Wapt.runstatus if not changed
+* wapt client: don't log / store into db Wapt.runstatus if not changed;
 
-* waptserver postconf: fix for rights on some wapt directories.
+* waptserver postconf: fix for rights on some wapt directories;
 
 * Add mutual conflicts to deb/rpm packages for waptagent/waptserver
-  to avoid simultaneous install.
+  to avoid simultaneous install;
 
 WAPT-1.8.0-6641 (2020-01-24)
 ----------------------------
@@ -647,377 +680,399 @@ WAPT-1.8.0-6641 (2020-01-24)
 Major changes
 +++++++++++++
 
-* Client Agent for Linux Debian 8,9,10, Linux Centos 7, Ubuntu 18, 19 and MacOS.
-  the packages are named wapt-agent and available
-  in https://wapt.tranquil.it/wapt/releases/latest/
+* [ADD] client Agent for Linux Debian 8, 9 , 10, Linux Centos 7, Ubuntu 18, 19
+  and MacOS. The packages are named wapt-agent and available
+  in https://wapt.tranquil.it/wapt/releases/latest/;
 
-* Repository access rules defined in waptconsole. Depending of client IP,
-  site, computername, one can define which secondary reporitory URL to use
-  (Enterprise).
+* [IMP] repository access rules defined in waptconsole. Depending of client IP,
+  site, computername, one can define which secondary repository URL to use
+  (**Enterprise** only);
 
   **As a consequence, the DNS query method (with SRV records)
   is no more supported for repositories**
 
-* The package and signature process has been changed to be compatible with python3.
-  Serialization of dict is now sorted by key alphabetically
-  to be deterministic across python versions.
+* [IMP] the package and signature process has been changed to be compatible
+  with :program:`python3`. Serialization of dict is now sorted
+  by key alphabetically to be deterministic across python versions.
   WAPT agents prior to version 1.7.1 will not be able to use new packages.
-  (see git hash SHA-1: f571e55594617b43ed83003faeef4911474a84db)
+  (see git hash SHA-1: f571e55594617b43ed83003faeef4911474a84db);
 
-* A WAPT agent can now be declared as a secondary Remote repository.
+* [NEW] a WAPT agent can now be declared as a secondary remote repository.
   Integrated syncing with main server repository is handled automatically.
-  (Enterprise)
+  (**Enterprise** only);
 
-* waptconsole can now run without elevated priviledges. The build of waptagent /
-  waptupgrade package are done in a temporary location.
-  **When editing a package from waptconsole, PyScripter should be launched
-  with elevated priviledges.**
+* [NEW] waptconsole can now run without elevated privileges.
+  The build of waptagent / waptupgrade package are done in a temporary directory.
+  **When editing a package from waptconsole, :program:`PyScripter`
+  should be launched with elevated privileges**;
 
-  Note that you could deploy the agent with GPO without actually
-  rebuilding a waptagent. Command line options are available on stock
-  waptsetup-tis.exe to configure repo url (``/repo_url=``),
-  server url (``/wapt_server=``), server certificate bundle location
-  (``/CopyServersTrustedCA=``), packages certificates checking
-  (``/CopyPackagesTrustedCA=``), ``/use_random_uuid``, ``/StartPackages``,
-  ``/append_host_profiles``, ``/DisableHiberBoot``, ``/waptaudit_task_period``.
+  ..Note ::
 
-  Some options are still missing and may be added in a future release.
+    One could deploy the agent with GPO without actually
+    rebuilding a waptagent. Command line options are available on stock
+    waptsetup-tis.exe to configure repo url (``/repo_url=``),
+    server url (``/wapt_server=``), server certificate bundle location
+    (``/CopyServersTrustedCA=``), packages certificates checking
+    (``/CopyPackagesTrustedCA=``), ``/use_random_uuid``, ``/StartPackages``,
+    ``/append_host_profiles``, ``/DisableHiberBoot``, ``/waptaudit_task_period``;
 
-* package filename now includes a hash of package content to make it easier
+    Some options are still missing and may be added in a future release;
+
+* [IMP] package filename now includes a hash of package content to make it easier
   to check if download is complete and if package has been scanned
-  (improved speed for large number of packages)
+  (improved speed for large number of packages);
 
-* The WAPT admin password must be regenerated (with postconf)
-  if it not pbkdf2 based. See in your :file:`waptserver.ini` file,
-  ``wapt_password`` must start with **$pbkdf2-**
+* [SEC] the WAPT admin password must be regenerated (with postconf);
+  if it is not *pbkdf2* based. See in your :file:`waptserver.ini` file,
+  ``wapt_password`` must start with **$pbkdf2-**;
 
 Fixes and detailed changelog
 ++++++++++++++++++++++++++++
 
-* waptagent can optionnally be digitally signed, if MS :program:`signtool.exe`
-  is present in <wapt>\utils\ and if there is a pkcs#12 p12 file with same name
-  as personal certificate crt file, and encrypted with same password.
+* [SEC] waptagent can optionally be digitally signed,
+  if (1) Microsoft :program:`signtool.exe` is present in :file:`<wapt>\utils\`
+  and (2) if there is a pkcs#12 :mimetype:`.p12` file with the same name
+  as the personal certificate :mimetype:`.crt` file,
+  and (3) the certificate is encrypted with the same password;
 
-* wapt-get.py can be run on linux and macos in addition to windows.
+* [IMP] wapt-get.py can be run on linux and macos in addition to windows;
 
-* waptconsole host's packages status reporting: now displays current version
-  with 'NEED-UPGRADE','NEED-REMOVE','ERROR' status and future version
-  with 'NEED-INSTALL' status.
+* [IMP] waptconsole host's packages status reporting: now displays current version
+  with *NEED-UPGRADE*, *NEED-REMOVE*, *ERROR* status and future version
+  with *NEED-INSTALL* status;
 
   The status is stored in server's DB ``HostPackagesStatus``
-  so it can be queried for reporting.
+  so it can be queried for reporting;
 
-* setuphelpers: there now different setuphelpers
-  for each operating system family.
+* [IMP] setuphelpers: there now different setuphelpers
+  for each operating system family;
 
-* waptconsole: Added an action to safely trigger upgrades on remote hosts
-  only if associated processes (impacted_process control attribute)
-  are not running, to avoid disturbing users. (Enterprise)
+* [ADD] waptconsole: added an action to safely trigger upgrades on remote hosts
+  only if associated processes (``impacted_process`` control attribute)
+  are not running, to avoid disturbing users (**Enterprise** only);
 
-* wapt-get --service upgrade: Added handling of --force,
-  --notify_server_on_start=0/1, notify_server_on_finish=0/1 switches.
+* [ADD] :command:`wapt-get --service upgrade`: added handling of ``--force``,
+  ``--notify_server_on_start=0/1``, ``notify_server_on_finish=0/1 switches``;
 
-* package signature's date is now taken in account when comparing packages.
+* [IMP] package signature's date is now taken in account when comparing packages;
 
-* add 'host_ad_site' key in [global] in :file:`wapt-get.ini` to define
-  a fake Active Directory site for the host.
+* [ADD] ``host_ad_site`` key in ``[global]`` in :file:`wapt-get.ini` to define
+  a *fake* Active Directory site for the host;
 
-* waptconsole / packages grid: if multiple packages are selected,
-  the associated "show clients" grid shows packages status
-  for all selected clients. (Enterprise)
+* [ADD] waptconsole / packages grid: if multiple packages are selected,
+  the associated :guilabel:`show clients` grid shows the status of packages
+  for all selected clients (**Enterprise** only);
 
-* waptagent build: Added checkbox to enable repository rules lookup
-  when installing agent. (Enterprise)
+* [ADD] waptagent build: added checkbox to enable repository rules lookup
+  when installing agent (**Enterprise** only);
 
-* waptconsole / import packages: Don't reimport existing dependencies.
-  Checkbox to disable import of dependencies.
+* [ADD] waptconsole / import packages: don't reimport existing dependencies.
+  Checkbox to disable import of dependencies;
 
-* wapt-scanpackages speed optimizations: Don't reextract certificates
+* [IMP] wapt-scanpackages speed optimizations: don't re-extract certificates
   and icon for skipped package entries. use md5 from filename
   if supplied when scanning.
 
-* waptexit: fix arguments to waptexit for ``only_if_not_process_running``
-  and ``install_wua_updates`` (bool).
+* [FIX] waptexit: fix arguments to waptexit for ``only_if_not_process_running``
+  and ``install_wua_updates`` (bool);
 
-* waptagent / waptwua fix wapt wua enabled setting reset to False
-  when upgrading with waptagent and enabled=don't touch.
+* [FIX] waptagent / waptwua fix wapt wua enabled setting reset to *False*
+  when upgrading with waptagent and enabled=don't touch;
 
-* waptserver / waptwua repository: all cabs files are now
-  in root directory instead of microsft original file tree.
-  The files are moved when upgrading to 1.8.
+* [FIX] waptserver / waptwua repository: all cabs files are now
+  in root directory instead of microsoft original file tree.
+  The files are moved when upgrading to 1.8;
 
-* waptupgrade package: Increment build number if building
-  a new waptagent of the same main wapt version.
+* [IMP] waptupgrade package: increment build number if building
+  a new waptagent of the same main wapt version;
 
-* waptserver parameter trusted_signers_certificates_folder:
+* [NEW] waptserver parameter ``trusted_signers_certificates_folder``:
+
   Path to trusted signers certificate directory. If defined, only packages
   signed by this trusted CA are accepted on the server
-  when uploading through server.
+  when uploading through server;
 
-* waptserver parameter 'remote_repo_support': If true, a task is scheduled
-  to scan repositories (wapt waptwua wapt-hosts) that creates
-  a :file:`sync.json` file for remote secondary repositories.
+* [NEW] waptserver parameter ``remote_repo_support``: if true,
+  a task is scheduled to scan repositories (``wapt``, ``waptwua``,
+  ``wapt-hosts``) that creates a :file:`sync.json` file
+  for remote secondary repositories;
 
-* when buiding waptagent, don't include non CA packages certificates
+* [IMP] when building waptagent, don't include non CA packages certificates
   by default in waptagent. A checkbox is available to still enable
-  non CA certificates to be scanned and added.
+  non CA certificates to be scanned and added;
 
-* when building waptagent, one can add or remove certificates
-  in the grid with Ctrl+Del or drag and drop.
+* [IMP] when building waptagent, one can add or remove certificates
+  in the grid with :kbd:`Ctrl+Del` or drag and drop;
 
-* waptconsole / host packages status grid: Fixed :kbd:`F5` refresh.
+* [FIX] waptconsole / host packages status grid: fixed :kbd:`F5` refresh;
 
-* waptconsole / build agent: Build an enterprise agent even
-  if no valid licence. (Enterprise)
+* [IMP] waptconsole / build agent: build an enterprise agent even
+  if no valid licence (**Enterprise** only);
 
-* fix ``forced_update_on`` control attribute: Don't take into account
-  for ``next_update_on`` if in the past.
+* [FIX] ``forced_update_on`` control attribute: don't take into account
+  for ``next_update_on`` if in the past;
 
-* waptconsole: Try to accept waptserver password with non ASCII characters.
+* [IMP] waptconsole: try to accept waptserver password with non ASCII characters;
 
-* waptstarter: Remove socle from default host profile
+* [REMOVED] waptstarter: remove *socle* from default host profile;
 
-* waptagent build: Rework of server certificate path relocation when building /
-  installing
+* [IMP] waptagent build: rework of server certificate path relocation
+  when building / installing;
 
-* Don't sign agent certificate if no valid human authentication
-  (admin, passwd or ldap) or kerberos authentication has been provided.
+* [SEC] don't sign agent certificate if no valid human authentication
+  (admin, passwd or ldap) or kerberos authentication has been provided:
 
-  Be explicit on authentication methods
+  * be explicit on authentication methods;
 
-  Stores registration authentication method in db only
-  if valid human authentication or kerberos authentication has been provided.
+  * store registration authentication method in db only
+    if valid human authentication or kerberos authentication has been provided;
 
-  When registering, be sure we trust a already signed certificate
-  with CN matching the host.
+  * when registering, be sure we trust an already signed certificate
+    with CN matching the host;
 
-  Stores the signed host certificate in server DB on proper registration.
+  * store the signed host certificate in server DB on proper registration;
 
-* some syntax preparation work for future python3.
+* [IMP] some syntax preparation work for future python3;
 
-* some preparation work for detailed ACL handling. (Enterprise)
+* [IMP] some preparation work for detailed ACL handling (**Enterprise** only);
 
-* don't enable client ssl auth by default in waptserver as nginx reverse
-  proxy server is perhaps misconfigured.
+* [FIX] don't enable client ssl auth by default in waptserver as nginx reverse
+  proxy server is perhaps misconfigured;
 
 Python libraries / modules updates
 ++++++++++++++++++++++++++++++++++
 
-* use waitress for waptservice wsgi server instead of unmaintained Rocket
+* use :program:`waitress` for waptservice wsgi server
+  instead of unmaintained :program:`Rocket``;
 
-* Flask-SocketIO 3.0.1 -> 4.2.1
+* :program:`Flask-SocketIO 3.0.1` -> :program:`Flask-SocketIO 4.2.1`;
 
-* MarkupSafe 1.0 -> 1.1.1
+* :program:`MarkupSafe 1.0` -> :program:`MarkupSafe 1.1.1`;
 
-* python_ldap-2.4.44 -> python_ldap-3.2.0
-
-
-WAPT-1.7.4-6237 (2019-11-18)
-----------------------------
-
-(hash 1c00cefd)
-
-* waptserver: add fix to workaround flask-socketio bug https://github.com/miguelgrinberg/Flask-SocketIO/issues/1054 (AttributeError: 'Request' object has no attribute 'sid')
-
-* waptserver: be sure db is closed before trying to open it (for dev mode)
-
-* waptserver: add logs messages when an exception message is sent back to the user.
-
+* :program:`python_ldap-2.4.44` -> :program:`python_ldap-3.2.0`;
 
 WAPT-1.7.4-6237 (2019-11-18)
 ----------------------------
 
 (hash 1c00cefd)
 
-* waptserver: add fix to workaround flask-socketio bug https://github.com/miguelgrinberg/Flask-SocketIO/issues/1054 (AttributeError: 'Request' object has no attribute 'sid')
+* [FIX] waptserver: add fix to workaround `flask-socketio bug
+  <https://github.com/miguelgrinberg/Flask-SocketIO/issues/1054>`_
+  (AttributeError: 'Request' object has no attribute 'sid');
 
-* waptserver: be sure db is closed before trying to open it (for dev mode)
+* [IMP] waptserver: be sure db is closed before trying to open it
+  (for dev mode);
 
-* waptserver: add logs messages when an exception message is sent back to the user.
+* [IMP] waptserver: add logs messages when an exception message
+  is sent back to the user;
 
 WAPT-1.7.4-6234 (2019-11-14)
 ----------------------------
 
 (hash ad237eee)
 
-* waptserver: upgrade peewee DB python module to 3.11.2. explicit connection handling to DB to track potential limbo connections (which could lead to db pool exhaustion)
+* [IMP] waptserver: upgrade :program:`peewee` DB python module to 3.11.2.
+  Explicit connection handling to DB to track potential limbo connections
+  (which could lead to db pool exhaustion);
 
-* waptwua: Trap exception when pushing WU to Windows cache to allow valid updates to be installed even if some could not be verified properly.
-
+* [FIX] waptwua: trap exception when pushing WU to Windows cache to allow
+  valid updates to be installed even if some could not be verified properly;
 
 WAPT-1.7.4-6232 (2019-10-31)
 ----------------------------
 
 (hash2090b0e6d52cecfb04f8fa4c279e7c0a0252d6e2
 
-* wapt-get session-setupp: fix bad print in session_setup. regression introduced in b30b1b1a550a4 (1.7.4.6229)
+* [FIX] :command:`wapt-get session-setup`: fix bad print in :command:`session_setup`.
+  Regression introduced in b30b1b1a550a4 (1.7.4.6229);
 
 WAPT-1.7.4-6230 (2019-10-23) (not released)
 -------------------------------------------
 (hash 391d382f)
 
-* return server git hash version and edition in ping and usage_statistics
+* [IMP] return server git hash version and edition in ping and ``usage_statistics``;
 
-* be sure to have server_uuid on windows when during setup
+* [IMP] be sure to have ``server_uuid`` on windows when during setup;
 
-* fix for .git partially included in built package manifest
+* [FIX] :mimetype:`.git` partially included in built package :file:`manifest`;
 
 WAPT-1.7.4-6229 (2019-10-23)
 ----------------------------
 
 (hash b30b1b1a)
 
-* [Fix] 100% cpu load on one core on waptserver even when Idle.
+* [FIX] 100% cpu load on one core on waptserver even when Idle;
 
-python-engineio upgrade to 3.10.0
-python-socketio upgraded to 4.3.1
+  * :program:`python-engineio` upgrade to 3.10.0;
 
-* [Imp] Don't try run session_setup on package whic don't have one defined.
+  * :program:`python-socketio` upgraded to 4.3.1;
 
-Limit text output on console (slow)
+* [IMP] don't try run :command:`session_setup` on packages
+  which don't have one defined;
+
+* [IMP] limit text output on console (for faster output);
 
 WAPT-1.7.4-6223 (2019-10-15)
 ----------------------------
 
 (hash 86ddeaa2d)
 
-* [Fix] Newlines in packages installs logged output.
+* [FIX] Newlines in packages installs logged output;
 
-* [Fix] Allow nonascii utf8 encoded user and password for server basic auth
+* [FIX] Allow nonascii utf8 encoded user and password for server basic auth;
 
-* [Upd] Waptconsole: Default package filtering to x64 and console locale to avoid mistakes when importing.
+* [UPD] waptconsole: Default package filtering to x64 and console locale
+  to avoid mistakes when importing;
 
-* [Imp] Waptconsole: increase default Port Socket listening test timeout (for rdp, remote service access etc..) to 3s instead of 200ms...
+* [IMP] waptconsole: increase default Port Socket listening test timeout
+  (for rdp, remote service access etc..) to 3s instead of 200ms;
 
-* [Imp] Waptconsole: Sort Org unit by description in treeview
+* [IMP] waptconsole: sort :abbr:`OU (Organisational Unit)`
+  by description in treeview:
 
-  Right click change current row selection in Org Ou treeview
+  Right click changes current row selection in :abbr:`OU (Organisational Unit)`
+  treeview;
 
-* [New] option to set waptservice_password=NOPASSWORD in waptstarter installer
+* [NEW] option to set ``waptservice_password`` = **NOPASSWORD**
+  in waptstarter installer;
 
-* [Fix] grid sorting for package / version / size of packages
+* [FIX] grid sorting for package / version / size of packages;
 
-* [Fix] don't create waptconsole link for starter
+* [FIX] don't create waptconsole link for starter;
 
-* [New] wapt-scanpackages: add an option to update the local Packages DB table from Packages file index
+* [NEW] :command:`wapt-scanpackages`: add an option to update
+  the local packages DB table from :file:`Packages` file index;
 
-* [Fix] Regression introduced in previous build: maturities 'PROD' and '' are equivalent when filtering allowed packages
+* [FIX] regression introduced in previous build: ``maturities`` = **PROD**
+  and ``maturities`` = **''** are equivalent when filtering allowed packages;
 
-* [Fix] Waptconsole: grid headers too small for highdpi.
+* [FIX] waptconsole: grid headers too small for highdpi;
 
-* [Upd] waptupgrade package filename: keep old naming without 'all' arch (for backward compatibility)
+* [UPD] waptupgrade package filename: keep old naming
+  without *all* arch (for backward compatibility);
 
-* [Imp] waptservice_timeout = 20 seconds now
+* [IMP] ``waptservice_timeout`` = **20** seconds now;
 
-* [Fix] AD auth for waptconsole with non ascii chars
+* [FIX] AD auth for waptconsole with non ASCII chars;
 
-* [Imp] Missing french translations for columns in Import packages grid
+* [IMP] missing french translations for columns
+  in :guilabel:`Import packages` grid;
 
-* [Fix] Be sure to terminate output threads in waptwinutils.run
+* [FIX] be sure to terminate output threads in waptwinutils.run;
 
-* [Imp] Avoid showOnTop flickering for VisLoading
+* [IMP] avoid showOnTop flickering for VisLoading;
 
-* setuphelpers.run_powershell! add $ProgressPreference = "SilentlyContinue" prefix command
+* [IMP] setuphelpers.run_powershell!
+  add ``$ProgressPreference`` = **SilentlyContinue** prefix command;
 
-* waptservice: protect test of host_cert date if file is deleted outside of service scope
+* [SEC] waptservice: protect test of ``host_cert`` date if file is deleted
+  outside of service scope;
 
-* Improve WaptBaseRepo class:
+* [IMP] WaptBaseRepo class:
 
-  packages cache handling when repo parameters (filters...) are changed
+  * packages cache handling when repo parameters (filters...) are changed;
 
-  allow direct setting of cabundle for WaptBaseRepo
+  * allow direct setting of cabundle for WaptBaseRepo;
 
-  keep a fingerprint of input config parameters
+  * keep a fingerprint of input config parameters;
 
-* [Upd] Set a fallback calculated package_uuid value in database for compatbility with old package status reports
-
+* [UPD] set a fallback calculated ``package_uuid`` value in database
+  for compatibility with old package status reports;
 
 WAPT-1.7.4-6196 (2019-09-27)
 ----------------------------
 
 (hash f9cb3ebd)
 
-* Revert package naming of waptupgrade to previous one to ease upgrade from previous wapt.
+* [IMP] revert package naming of waptupgrade to previous one to ease upgrade
+  from previous wapt;
 
-* Increase waptservice_timeout to  20 seconds per default
+* [IMP] increase ``waptservice_timeout`` to 20 seconds per default;
 
-* Fix for AD auth when there are non ascii chars (encoding)
+* [FIX] AD auth when there are non ascii chars (encoding);
 
-* Missing french translations for columns in Import packages grid
+* [FIX] missing french translations for columns in Import packages grid;
 
-* Set a fallback calculated package_uuid in database for old package without package_uuid attribute in db status report
+* [IMP] set a fallback calculated ``package_uuid`` in database
+  for old package without ``package_uuid`` attribute in db status report;
 
-* wapt-scanpackages: add an option to update the local Packages DB table from Packages file index
+* [NEW] :command:`wapt-scanpackages`: add an option to update
+  the local Packages DB table from Packages file index;
 
-* add an option to filters maturities
+* [NEW] option to filters ``maturities``;
 
 WAPT-1.7.4-6192 (2019-09-17)
 ----------------------------
 
 (hash 3e00ac6688)
 
-* [Sec] Update python modules python-engineio  and werkzeug to fix vulnerabilities
+* [SEC] update python modules :program:`python-engineio` and :program:`werkzeug`
+  to fix vulnerability `CVE-2019-14806 <https://nvd.nist.gov/vuln/detail/CVE-2019-14806>`_
 
- CVE-2019-14806
+  GHSA-j3jp-gvr5-7hwq
 
- GHSA-j3jp-gvr5-7hwq
+* [UPD] Python modules:
 
-* [Upd] Python modules
+  - :program:`eventlet 0.24.1` -> :program:`eventlet 0.25.1`;
 
-  eventlet from 0.24.1 to 0.25.1
+  - :program:`flask 1.0.2` -> :program:`flask 1.1.1`;
 
-  flask from 1.0.2 to 1.1.1
+  - :program:`greenlet 0.4.13` -> :program:`greenlet 0.4.15`;
 
-  greenlet from 0.4.13 to 0.4.15
+  - :program:`itsdangerous 0.24` -> :program:`itsdangerous 1.1.0`;
 
-  itsdangerous from 0.24 to 1.1.0
+  - :program:`peewee 3.6.4` -> :program:`peewee 3.10`;
 
-  peewee from 3.6.4 to 3.10
+  - :program:`python-socketio 1.9.0` -> :program:`python-socketio 4.3.1`;
 
-  python-socketio from 1.9.0 to 4.3.1
+  - :program:`python-engineio 3.8.1` -> :program:`python-engineio 3.9.3`;
 
-  python-engineio 3.8.1 to 3.9.3
+  - :program:`websocket-client 0.50` -> :program:`websocket-client 0.56`;
 
-  websocket-client from 0.50 to 0.56
+* [UPD] default ``request_timeout`` = **15s** for client websockets;
 
-* [Upd] Add a request_timeout for client websockets of 15s per default
+* [FIX] when building packages, excluded directories (for example :mimetype:`.git`
+  or :mimetype:`.svn`) were still included in :file:`manifest` file;
 
-* [Fix] When building packages, excluded directories (for example .git or svn) were still included in manifest file.
+* [UPD] don't canonicalize package filenames by default when scanning
+  server repository to ease migration from previous buggy wapt;
 
-* [Upd] Don't canonicalize package filenames by default when scanning server repository to ease migration from previous buggy wapt.
+* [FIX] package filename not rewritten in :file:`Packages` when renaming package;
 
-* [Fix] package filename not rewritten in Packages when renaming package
+* [NEW] :command:`wapt-scanpackages`: added explicit option to trigger rename
+  of packages filenames which do not comply with canonic form;
 
-* [New] wapt-scanpackages: Add explicit option to trigger rename of packages filenames which do not comply with canonic form
+* [NEW] :command:`wapt-scanpackages`: added option to provide proxy;
 
-* [New] wapt-scanpackages: Add option in to provide proxy
+* [UPD] return **OK** by default in package's audit skeleton;
 
-* [Upd] return "OK by default in package's audit skeleton
+* [IMP] waptconsole cosmetic: minheight 18 pixels for grid headers
 
-* [Imp] waptconsole cosmetic: minheight 18 pixels for grid headers
+* [FIX] waptserver database model: bad default datatype in :file:`model.py`
+  for ``created_by`` and ``updated_by`` (were not used until now);
 
-* [Fix] waptserver database model: bad default datatype in model.py for created_by and updated_by (were not used until now)
+* [FIX] ``ensure_unicode`` for :mimetype:`.msi` output: try *cp850*
+  before *utf16* to avoid chinese garbage in run output;
 
-* [Fix] ensure_unicode for msi output: try cp850 before utf16 to avoid chinese garbage in run output
+* [NEW] added ``connected_users`` to ``hosts_for_package`` provider;
 
-* [New] added connected_users to hosts_for_package provider
+* [FIX] use :program:`win32api` to get local connected IPV4 IP address
+  instead of socket module. In some cases, socket can't retrieve the IP;
 
-* [Fix] use win32api to get local connected IPV4 ip address instead of socket module. In some cases, secoket can't retreive the ip...
+* [FIX] :command:`wapt-get unregister` command not working properly;
 
-* [Fix] "wapt-get unregister" command not working properly
+* [NEW] Waptselfservice: added option in :file:`wapt-get.ini`
+  to disable unfiltered packages view of local admin;
 
-* [New] Waptselfservice: Add option in wapt-get.ini to disable unfiltered packages view of local admin
+* [IMP] Waptselfservice: 4K improvements;
 
-* [Imp] Waptselfservice  4K improvements.
+* [FIX] Waptselfservice:
 
-* [Fix] Waptselfservice
+  - packages *restricted* were shown in selfservice / now corrected;
 
-- packages "restricted" were shown in selfservice / now corrected
+  - if the repo have no packages segmentation error / now corrected;
 
-- if the repo have no packages segmentation error / now corrected
-
-- if the repo have changed segmentation error / now corrected
-
+  - if the repo have changed segmentation error / now corrected;
 
 WAPT-1.7.4.6165 (2019-08-02)
 ----------------------------
@@ -1027,36 +1082,40 @@ WAPT-1.7.4.6165 (2019-08-02)
 Improvements
 ++++++++++++
 
-* [New] add unregister action to wapt-get
+* [NEW] added :command:`unregister` action to wapt-get;
 
-* [Upd] improvements with the alt logo in the self-service
+* [UPD] improvements with the alt logo in the self-service;
 
 Changes
 +++++++
 
-* [Upd] Use version to build the package name of unit, groups and profile type package, like for base packages.
+* [UPD] use version to build the package name of unit, groups
+  and profile type package, like for base packages;
 
-* [Upd] Add logs to uwsgi
+* [UPD] added logs to :program:`uwsgi`;
 
 Fixes
 +++++
 
-* [Fix] Bugfixes with the icons of the app self-service
+* [FIX] bugfixes with the icons of the app self-service;
 
-* [Fix] Bugfixes with the logos in the self-service
+* [FIX] bugfixes with the logos in the self-service;
 
-* [Upd] waptexit: don't cancel tasks on CloseQuery
+* [UPD] waptexit: don't cancel tasks on CloseQuery;
 
-* [Upd] patch server.py earlier to avoid "execute cannot be used while an asynchronous query is underway"
+* [UPD] patch :file:`server.py` earlier to avoid *execute cannot be used
+  while an asynchronous query is underway*;
 
-* [Fix] fix waptexit doint nothing if allow_cancel_upgrade=0 and waptexit_disable_upgrade=0
+* [FIX] fix waptexit doing nothing if ``allow_cancel_upgrade`` = **0**
+  and ``waptexit_disable_upgrade`` = **0**;
 
-* [Fix] fix issue with merge of wsus rules (can cause memory errors if more than one wsus package is applied on a host) (waptenterprise)
+* [FIX] fix issue with merge of wsus rules (can cause memory errors
+  if more than one wsus package is applied on a host) (**Enterprise** only);
 
-* [Fix] fix wua auto install_scheduling issue
+* [FIX] fix wua auto ``install_scheduling`` issue;
 
-* [Fix] waptexit: add a watchdog to workaround some cases where it hangs (threading issue ?)
-
+* [FIX] waptexit: add a watchdog to workaround
+  some cases where it hangs (threading issue ?);
 
 WAPT-1.7.4.6143 (2019-06-25)
 ----------------------------
@@ -1066,94 +1125,117 @@ WAPT-1.7.4.6143 (2019-06-25)
 Improvements
 ++++++++++++
 
-* Wapt Self service application is now fully usable. It is available in <wapt>\waptself.exe
+* [IMP] wapt self service application is now fully usable.
+  It is available in :file:`<wapt>\waptself.exe`;
 
-* Add an option to set a random UUID instead of BIOS UUID at setup. This is to workaround bugged BIOS with duplicated Ids.
+* [ADD] option to set a random UUID instead of BIOS UUID at setup.
+  This is to workaround for bugged BIOS with duplicated ids;
 
-* Better Sphinxdocs for WAPT Libraries
+* [IMP] better Sphinxdocs for WAPT Libraries;
 
 Changes
 +++++++
 
-* [Upd] Behaviour Change: Use computer FQDN from tcpip registry entry (first NV Hostname key) then fixed domain then DHCP
+* [UPD] behavior change: Use computer FQDN from tcpip registry entry
+  (first NV Hostname key) then fixed domain then DHCP;
 
-* [Fix] Invert Zip and signature steps in package build operations to workaround issue with Bad Magic Number when signing already zipped big packages
+* [FIX] inverted Zip and signature steps in package build operations
+  to workaround issue with Bad Magic Number when signing
+  already zipped big packages;
 
-* [New] Add use_ad_groups wapt-get global parameter to activate groups from AD (this is a time consuming task, so better not activate it...)
+* [NEW] Add ``use_ad_groups`` wapt-get ``[global]`` parameter to activate groups
+  from AD (this is a time consuming task, so better not activate it...);
 
 Fixes
 +++++
 
-* [Fix] appendprofile infinite loop during setup
+* [FIX] appendprofile infinite loop during setup;
 
-* [Fix] read forced uuid from wapt-get.ini earlier to avoid loading a bad host certificate in memory if changing from bios uuid to forced uuid
+* [FIX] read forced uuid from :file:`wapt-get.ini` earlier to avoid loading
+  a bad host certificate in memory if changing from bios uuid to forced uuid;
 
-* [Fix] setting use_random_uuid in waptagent.iss
+* [FIX] setting ``use_random_uuid`` in :file:`waptagent.iss`;
 
-* [Fix] waptstarter setup: force deactivate server, hostpackages
+* [FIX] waptstarter setup: force deactivate server, hostpackages;
 
-* [Fix] include waptself in waptstarter, don't include innosetup in waptstarter
+* [FIX] include waptself in waptstarter, don't include innosetup in waptstarter;
 
-* [Fix] ensure_unicode: add utf16 decoding test before cp850
+* [FIX] ``ensure_unicode``: add *utf16* decoding test before *cp850*;
 
-* [Fix] add ensure_unicode for tasks logs to avoid unicode decode errors in get_tasks_status callback
+* [FIX] add ``ensure_unicode`` for tasks logs to avoid unicode decode errors
+  in :command:`get_tasks_status` callback;
 
-* [New] host status: add boot_count attribute
+* [NEW] host status: add ``boot_count`` attribute;
 
-* [Fix] fix potential float / unicode error when scanning win updates (Enterprise)
+* [FIX] fix potential float / unicode error when scanning windows updates
+  (**Enterprise** only);
 
-* [Fix] handles properly excluded files in package signatures
+* [FIX] handles properly excluded files in package signatures;
 
-* [Fix] waptexit: avoid some work after checking if waptservice is running if it is not running.
+* [FIX] waptexit: avoid some work after checking if waptservice is running
+  if it is not running;
 
-* [Fix] a case where WAPTLocalJsonGet could loop forever if auth fails
+* [FIX] a case where WAPTLocalJsonGet could loop forever if auth fails;
 
-* [Fix] setup.pyc in manifest but not in zipped package.
+* [FIX] :file:`setup.pyc` in :file:`manifest` but not in zipped package:
 
-excludes exactly ['.svn','.git','.gitignore','setup.pyc'] when signing and zipping
+  * exclude exactly [':mimetype:`.svn`',':mimetype:`.git`',
+    ':mimetype:`.gitignore`',':file:`setup.pyc`'] when signing and zipping;
 
-inc_build before signing
+  * :command:`inc_build` before signing;
 
-* [Upd] add use_ad_groups setting in waptagent build. Default to False (Enterprise)
+* [UPD] add ``use_ad_groups`` setting in waptagent build.
+  Default to *False* (**Enterprise** only);
 
-* [Fix] Better detection of waptbasedir for python27.dll loading
+* [FIX] better detection of :file:`waptbasedir` for :file:`python27.dll` loading;
 
-* [Fix] allow to sign source package directory to workaround bug in python zipfile (bad magic number)
+* [FIX] allow to sign source package directory to workaround a bug
+  in python zipfile (bad magic number);
 
-* [New] Add a htpasswd password file method for restricted access to only add_host method
+* [NEW] added a :file:`htpasswd` password file method for restricted access
+  to only :command:`add_host` method:
 
-Allow add_host if provided host certificate is already signed by server and content can be verified
+  allows :command:`add_host` if provided host certificate is already signed
+  by server and content can be verified;
 
-* [Fix] wapt-get.exe crash with "can not load... " when python 3.7 is installed from MS store
+* [FIX] :program:`wapt-get.exe` crash with "can not load... "
+  when python 3.7 is installed from MS store;
 
-* [Fix] load private_dir conf parameter earlier
+* [FIX] load ``private_dir`` conf parameter earlier;
 
-* [Upd] put a rnd- in front of randomly generated uuid
+* [UPD] put a *rnd-* in front of randomly generated uuid;
 
-add a checkbox to use random uuid (if not already defined in wapt-get.ini)
+  added a checkbox to use random uuid (if not already defined
+  in :file:`wapt-get.ini`);
 
-* update SSL CA certifi lib
+* [UPD] SSL CA certifi library;
 
-* [Imp] utf8 decode user /password in localservice auth
+* [IMP] utf8 decode user /password in localservice authentication;
 
-* [Upd] allow authentication on local waptservice with token
+* [UPD] allow authentication on local waptservice with token;
 
-* [New] filter packages on hosts based on the valid_from and valid_until control attributes
+* [NEW] filter packages on hosts based on the ``valid_from``
+  and ``valid_until`` control attributes;
 
-force update sooner if valid_from or valid_until or forced_install_on is sooner than regular planned update_period
+  force update sooner if ``valid_from`` or ``valid_until``
+  or ``forced_install_on`` is sooner than regular planned ``update_period``;
 
-* [Fix] events reporting from service tasks.
+* [FIX] events reporting from service tasks;
 
-* [Fix] waptexit: fix waptexit not closing of writing for running tasks but auto upgrade has been disabled
+* [FIX] :program:`waptexit` not closing of writing for running tasks
+  but auto upgrade has been disabled;
 
-* waptexit: add waptexit_disable_upgrade option to remove the triggering of upgrade from waptexit, but keep the waiting for pending and running tasks.
+* [ADD] added ``waptexit_disable_upgrade`` option to :program:`waptexit`
+  to remove the triggering of upgrade from waptexit, but keep the waiting
+  for pending and running tasks:
 
-  Fix / add 'running_tasks' key in waptservice checkupgrades.json. Was not reflecting an up to date state.
+  'running_tasks' key in waptservice checkupgrades.json.
+  Was not reflecting an up to date state;
 
-* [New] add new packages attributes: name, valid_from, valid_until, forced_install_on
+* [NEW] add new packages attributes: ``name``, ``valid_from``,
+  ``valid_until``, ``forced_install_on``;
 
-* fix regression on profile packages not taken in account
-
+* [FIX] regression on *profile* packages not taken in account;
 
 WAPT-1.7.4.6082 (2019-05-20)
 ----------------------------
@@ -1163,25 +1245,29 @@ WAPT-1.7.4.6082 (2019-05-20)
 Fixes
 +++++
 
-* waptexit: fix waptexit not closing if waiting for running tasks but auto upgrade has been disabled.
+* [FIX] :program:`waptexit` not closing if waiting for running tasks
+  but auto upgrade has been disabled;
 
-* fix events reporting from service's tasks.
+* [FIX] events reporting from service's tasks;
 
 Updated
 +++++++
 
-* add new packages attributes: name, valid_from, valid_until, forced_install_on
+* [ADD]] new packages attributes: ``name``, ``valid_from``, ``valid_until``,
+  ``forced_install_on``;
 
-* waptexit: add ``waptexit_disable_upgrade`` option to remove the triggering of upgrade from waptexit, but keep the waiting for pending and running tasks.
+* [ADD] ``waptexit_disable_upgrade`` option to :program:`waptexit` to remove
+  the triggering of upgrade from waptexit, but keep the waiting
+  for pending and running tasks;
 
-* improved: add 'running_tasks' key in waptservice checkupgrades.json. Was not reflecting an up to date state.
+* [IMP] added ``running_tasks`` key in waptservice checkupgrades.json.
+  Was not reflecting an up to date state.
 
-* waptself:
+* [IMP] waptself:
 
-  - Start support of high DPI
+  - early support of high DPI;
 
-  - loads Icons in background
-
+  - loading of icons in the background;
 
 WAPT-1.7.4.6078 (2019-05-17)
 ----------------------------
@@ -1191,7 +1277,8 @@ WAPT-1.7.4.6078 (2019-05-17)
 Fixes
 +++++
 
-* takes profiles packages (AD based groups) in account (Enterprise)
+* [FIX] takes *profile* packages (AD based groups)
+  into account (**Enterprise** only)
 
 WAPT-1.7.4.6077 (2019-05-15)
 ----------------------------
@@ -1201,9 +1288,11 @@ WAPT-1.7.4.6077 (2019-05-15)
 Fixes
 +++++
 
-* waptdeploy: Fix regression on waptdeploy unable to read current waptversion from registry.
+* [FIX]] regression on waptdeploy unable to read current ``waptversion``
+  from registry;
 
-* be more tolerant to broken or inexistent wmi layer (for waptconsole on wine for example)
+* [FIX] be more tolerant to broken or inexistent *wmi* layer
+  (for waptconsole on :program:`wine` for example);
 
 Fixes and improvements over rc2
 +++++++++++++++++++++++++++++++
@@ -1216,47 +1305,55 @@ WAPT-1.7.4.6074 (2019-05-09)
 Fixes and improvements over rc2
 +++++++++++++++++++++++++++++++
 
-* [IMP] waptself.exe preview application updated. Load icons in background.
+* [IMP] :program:`waptself.exe` preview application updated.
+  Loads icons in the background.
 
   Known issues:
 
-  - does not work with repositories behind proxies and client side auth
+  - does not work with repositories behind proxies and client side auth;
 
-  - https server certificate is not checked when downloading icons).
+  - https server certificate is not checked when downloading icons);
 
-  - High DPI not handled properly
+  - High DPI not handled properly;
 
-  - Cosmetic and ergonomic improvements still to come...
+  - Cosmetic and ergonomic improvements still to come;
 
-* [IMP] waptserver setup on windows: open port 80 on firewall in addition to 443
+* [IMP] waptserver setup on windows: open port 80 on firewall in addition to 443;
 
-* [IMP] waptserver on Debian. add www-data group to wapt user even if user wapt already exists.
+* [IMP] waptserver on Debian. add *www-data* group to wapt user
+  even if user wapt already exists;
 
-* [IMP] waptserver on CentOS. add waptwua directory to SELinux httpd_sys_content_t context
+* [IMP] waptserver on CentOS. add waptwua directory
+  to SELinux ``httpd_sys_content_t`` context;
 
-* [FIX] waptserver client auth: comment out ssl_client_certificate and ssl_verify_client.
+* [FIX] waptserver client auth: comment out ``ssl_client_certificate``
+  and ``ssl_verify_client``;
 
-  By default beacuse old client's certificate don't have proper clientAuth attribute. (error http 400)
+  By default because old client's certificate does not have
+  proper ``clientAuth`` attribute (error http 400);
 
-* [FIX] problem accessing to 32bit uninstall registry view from 32bit wapt on Windows server 2003 x64 and Windows server 2008 x64.
+* [FIX] problem accessing to 32bit uninstall registry view from 32bit wapt
+  on Windows server 2003 x64 and Windows server 2008 x64:
 
-  it looks like it is not advisable to try to access the virtual Wow6432Node virtual node with disabled redirection.
+  it looks like it is not advisable to try to access the virtual Wow6432Node
+  virtual node with disabled redirection;
 
-* [FIX] setuphelpers installed_softwares regular expression search on name.
+* [FIX] setuphelpers ``installed_softwares`` regular expression search on name;
 
   https://github.com/tranquilit/WAPT/issues/7
 
-* [IMP] waptservice: for planned periodic upgrade, use single WaptUpgrade task like the one used in websocket.
+* [IMP] waptservice: for planned periodic upgrade, use single WaptUpgrade task
+  like the one used in websocket;
 
-* [IMP] waptexit: Cancel all tasks if closing waptexit form
+* [IMP] waptexit: cancel all tasks if closing waptexit form;
 
-* [FIX] wapt-get: wapt-get service mode with events
+* [FIX] wapt-get: wapt-get service mode with events:
+  refactor using uWAPTPollThreads;
 
-  refactor using uWAPTPollThreads
+* [FIX] :program:`veyon` cli executable name updated;
 
-* [FIX] veyon cli executable name updated
-
-* [IMP] wapt-get: check CN and subjectAltNames in lowercase for enable-check-certificate action
+* [IMP] wapt-get: check *CN* and *subjectAltNames* in lowercase
+  for :command:`enable-check-certificate` action;
 
   (todo: doesn't take wildcard in account)
 
@@ -1268,28 +1365,31 @@ WAPT-1.7.4 rc2 (2019-04-30)
 Security
 ++++++++
 
-* upgrade urllib3 to 1.24.2 for CVE-2019-11324 (high severity)
+* upgrade :program:`urllib3` to 1.24.2 for `CVE-2019-11324 <https://nvd.nist.gov/vuln/detail/CVE-2019-11324>`_
+  (high severity);
 
-* upgrade jinja2 to 2.10.1 for CVE-2019-10906
+* upgrade :program:`jinja2` to 2.10.1 for `CVE-2019-10906 <https://nvd.nist.gov/vuln/detail/CVE-2019-10906>`_;
 
 New
-++++
++++
 
-* Wapt self service application preview
+* [NEW] Wapt self service application preview;
 
 Improvements
 ++++++++++++
 
-* Propose to copy the newly created CA certificate to ssl local service dir, and restart waptservice. Useful for first time use.
+* [IMP] propose to copy the newly created CA certificate
+  to ssl local service dir, and restart waptservice. Useful for first time use;
 
 Fixes
 +++++
 
-* [FIX] sign_needed for wapt-signpackages.py
+* [FIX] ``sign_needed`` for wapt-signpackages.py;
 
-* [FIX] missing StoreDownload table create
+* [FIX] missing *StoreDownload* table create;
 
-* [FIX] bug in fallback package_uuid calculation. didn't include the version...
+* [FIX] bug in fallback ``package_uuid`` calculation.
+  It didn't include the version;
 
 WAPT-1.7.4 rc1 (2019-04-16)
 ---------------------------
@@ -1299,202 +1399,261 @@ WAPT-1.7.4 rc1 (2019-04-16)
 Changes
 +++++++
 
-* Handles subjectAltName attribute for https server certificates checks in waptconsole (useful when certificate is a multi hostname commercial certificate). Before, only CN was checked against host's name.
+* [UPD] handling of *subjectAltName* attribute for https server certificates
+  checks in waptconsole (useful when certificate is a multi hostname
+  commercial certificate). Before, only CN was checked against host's name;
 
-* Client certificate auth for waptconsole.
+* [UPD] client certificate auth for waptconsole;
 
-* Versioning of wapt includes now the Git revision count.
+* [UPD] versioning of wapt includes now the Git revision count;
 
 Details
 +++++++
 
-* [FIX] replace openssl command line call with waptcrypto call to create tls certificate on linux server wapt install
+* [FIX] replace openssl command line call with waptcrypto call
+  to create tls certificate on linux server wapt install;
 
-* [FIX] add dnsname subjectAltName extension to self signed waptserver certificate on linux wapt nginx server configuration
+* [FIX] add dnsname *subjectAltName* extension
+  to self signed waptserver certificate on linux wapt nginx server configuration;
 
-* [FIX] pkcs12 export
+* [FIX] pkcs12 export;
 
-* [NEW] Handle SubjectAlternativeName in certificates for server X509 certificate check in addition to CN
+* [NEW] handling of *SubjectAlternativeName* in certificates
+  for server X509 certificate check in addition to CN:
 
-  Add a subjectAltName when creating self signed certificate on linux wapt nginx server in postconf
+  Added a *SubjectAltName* when creating self signed certificate
+  on linux wapt nginx server in postconf;
 
-  For old installation, certificate is not updated. It should be done manually.
+  For old installation, the certificate is not updated.
+  It should be done manually;
 
-* [FIX] fix check_install returning additional packages to install which are already installed (when private repository is using locale or maturities)
+* [FIX] fix :command:`check_install` returning additional packages
+  to install which are already installed (when private repository
+  is using ``locale`` or ``maturities``):
 
-  missing attributes in waptdb.installed_matching
+  Added missing attributes in waptdb.installed_matching;
 
-* [NEW] Add client certificate path and client private key path for waptconsole access to client side ssl auth protected servers
+* [NEW] added client certificate path and client private key path
+  for waptconsole access to client side ssl auth protected servers;
 
-* [FIX] fix regression on wapt-get edit <package>
+* [FIX] fix regression with :command:`wapt-get edit <package>`:
 
-  make filter_on_host_cap a global property of Wapt class instead of func parameter
+  made ``filter_on_host_cap`` a global property of Wapt class
+  instead of a function parameter;
 
-* [FIX] Fix regression if there are spaces in org unit name. Console was stripping space for https://roundup.tranquil.it/wapt/issue911 and https://roundup.tranquil.it/wapt/issue908
+* [FIX] regression if there are spaces in :abbr:`OU (Organisational Unit)` name.
+  Console was stripping space for https://roundup.tranquil.it/wapt/issue911
+  and https://roundup.tranquil.it/wapt/issue908;
 
-* allow '0'..'9', 'A'..'Z', 'a'..'z', '-','_','=','~','.' in package names for org unit packages. replaces space with ~ in package names and ',' with '_'
+* [IMP] allow '0'..'9', 'A'..'Z', 'a'..'z', '-','_','=','~','.' in package names
+  for :abbr:`OU (Organisational Unit)` packages.
+  Replaces space with ~ in package names and ',' with '_';
 
-* make sure we have a proper package name in packages edit dialogs
+* [IMP] make sure we have a proper package name in packages edit dialogs;
 
-* waptservice config: allow waptupdate_task_period to be empty in wapt-get.ini to disable it in waptservice
+* [IMP] waptservice config: allow ``waptupdate_task_period`` to be empty
+  in :file:`wapt-get.ini` to disable it in waptservice;
 
-* waptutils: fix regression on wget() if user-agent is overriden
+* [FIX] waptutils: fix regression on wget() if user-agent is overridden;
 
-* waptwua: fix an error in install progress % reporting for wua updates
+* [FIX] waptwua: fix an error in install progress % reporting for wua updates;
 
-* wapttray: Refactor tray for consistency. Makes use of uwaptpollthreads classes
+* [IMP] wapttray: refactor tray for consistency.
+  Makes use of *uwaptpollthreads* classes;
 
-* waptexit: some changes to try to fix cases when it does not close automatically.
+* [IMP] waptexit: some changes to try to fix cases
+  when it does not close automatically;
 
-* build: add git Revcount (commit count) to exe metadata
+* [IMP] build: add git Revcount (commit count) to exe metadata;
 
-* waptconsole: fix hosts for package grid not refreshed if not focused
+* [FIX] waptconsole: fix hosts for package grid not refreshed if not focused;
 
-* [FIX] internal: use synapse httpsend for waptexit / wapt-get / wapttray local service http queries to workaround auth retry problems with indy.
+* [FIX] internal: use synapse httpsend for waptexit / wapt-get / wapttray
+  local service http queries to workaround auth retry problems
+  with :program:`indy`;
 
-* [ADD] wapt-get.exe: add --locales to override temporarily locales form wapt-get.ini.
+* [ADD] :program:`wapt-get.exe`: added ``--locales``
+  to override temporarily locales form :file:`wapt-get.ini`;
 
-* [ADD] wapt-get.exe: add WaptServiceUser and WaptServicePassword/WaptServicePassword64 command line params
+* [ADD] :program:`wapt-get.exe`: added *WaptServiceUser*
+  and *WaptServicePassword* / *WaptServicePassword64* command line params:
 
-  fix timeout checking in checkopenport
+  fix timeout checking in checkopenport;
 
-* core: add logs for self-service auth
+* [ADD] core: added logs for self-service auth;
 
-* waptservice: Add /keywords.json service action
+* [ADD] waptservice: added /keywords.json service action;
 
-* waptservice: Add filter keywords (csv) on packages.json provider
+* [ADD] waptservice: added filter keywords (csv) on packages.json provider;
 
-* waptconsole: replace tri-state checkbox by a radio group for wua enabled etting in create waptagent dialog
+* [IMP] waptconsole: replace tri-state checkbox by a radio group
+  for wua enabled setting in :guilabel:`create waptagent` dialog;
 
-* waptservice local webservice: temporary workaround to avoid costly icons retrieval in local service
+* [IMP] waptservice local webservice: temporary workaround
+  to avoid costly icons retrieval in local service;
 
-* [FIX] simplify installed_wapt_version in waptupgrade package to avoid potential install issues
+* [FIX] simplify ``installed_wapt_version`` in waptupgrade package
+  to avoid potential install issues;
 
-* [IMP]waptconsole layout: anchors for running task memo
+* [IMP] waptconsole layout: anchors for running task memo;
 
-* [FIX] Makefullyvisible for main form
+* [FIX] Makefullyvisible for main form:
 
-  avoid forms outside the visible area when disconnecting a seonc ddisplay
+  avoid forms outside the visible area when disconnecting a second display;
 
-* Fix layout of tasks panel for Windows 10
+* [FIX] layout of tasks panel for Windows 10;
 
-* [FIX] add token_lifetime server side (instead of using clockskew for token duration)
+* [FIX] add ``token_lifetime`` server side
+  (instead of using clockskew for token duration);
 
-* [UPD] default unit "days" instead of minutes for wua scan download install and install_delay
+* [UPD] default unit **days** instead of **minutes**
+  for wua scan download install and install_delay;
 
-* [ADD] Optional export of key and certificate as PKCS12 file in create key dialog. (to check SSL client auth in browsers...)
+* [ADD] optional export of key and certificate as :file:`PKCS12` file
+  in :guilabel:`create key` dialog. (to check SSL client auth in browsers...);
 
-* [FIX] winsetup.py fix for backslashes in ngix
+* [FIX] winsetup.py fix for backslashes in :program:`nginx`;
 
-* [FIX] wapt-get json output / flush error
+* [FIX] wapt-get json output / flush error;
 
-* [IMP] cache host_certificate_fingerprint and issuer id in local db so that we don't need to read private directory to get host_capabilities. Allow to use wapt-get list-upgrade as normal user.
+* [IMP] cache ``host_certificate_fingerprint`` and issuer id in local db
+  so that we don't need to read private directory to get ``host_capabilities``.
+  It allows to use :command:`wapt-get list-upgrade` as normal user;
 
-* [UPD] Don't make DNS query in waptconsole Login / waptconfig to avoid DNS timeout if domain dns server is not reachable
+* [UPD] don't make DNS query in waptconsole Login / waptconfig
+  to avoid DNS timeout if domain dns server is not reachable;
 
-* [FIX] Fix warning message introduced in previous revision when adding a new ini config on login (Enterprise)
+* [FIX] warning message introduced in previous revision
+  when adding a new ini config on login (**Enterprise** only);
 
-* [FIX ] waptwua: handles redirect for wsusscn2 head request (Enterprise)
+* [FIX] waptwua: handles redirect for wsusscn2 head request
+  (**Enterprise** only);
 
-* [UPD] Report only 3 members on the wapt_version capability attribute
+* [UPD] Report only 3 members on the ``wapt_version`` capability attribute;
 
-* core: refactor WaptUpgrade task: check task to append and then append them to tasks queue in WaptUpgrade.run instead of doing it in caller code. Avoid timeout when upgrading.
+* [IMP] core: refactor WaptUpgrade task: check task to append
+  and then append them to tasks queue in WaptUpgrade.run
+  instead of doing it in caller code. Avoid timeout when upgrading;
 
-* core: self service rules refactoring
+* [IMP] core: self service rules refactoring;
 
-* core: notify server when audit on waptupgrade
+* [IMP] core: notify server when audit on waptupgrade;
 
-* core: fix update_status not working when old packages have no persistent_dir in db
+* [IMP] core: fix ``update_status`` not working
+  when old packages have no ``persistent_dir`` in db;
 
-* core: tasks, events waptservice action: timeout in milliseconds instead of seconds for consistency
+* [IMP] core: tasks, events waptservice action: timeout in milliseconds
+  instead of seconds for consistency;
 
 WAPT-1.7.3.11 (2019-03-25)
 --------------------------
 
 (hash 92ccb177d5c)
 
-* [FIX] waptconsole: Use repo specific ca bundle to check remote repo server certificate (diffrent from main wapt repo)
+* [FIX] waptconsole: use repo specific ca bundle
+  to check remote repo server certificate (different from main wapt repo);
 
-* [FIX] waptconsole / hosts for packages: F5 does a local refresh
+* [FIX] waptconsole / hosts for packages: fixed :kbd:`F5` to do a local refresh;
 
-* [FIX] Improve update performance with repositories with a lot of packages.
+* [FIX] improved update performance with repositories with a lot of packages;
 
-* [FIX] improves wapttray reporting
+* [FIX] improved wapttray reporting:
 
-  fix faulty inverted logic for notify_user parameter
+  fix faulty inverted logic for ``notify_user`` parameter;
 
-* [FIX] waptconsole: bad filtering of hosts for package (Enterprise)
+* [FIX] waptconsole: fixed bad filtering of hosts for package
+  (**Enterprise** only);
 
-* [FIX] waptexit: fix waptexit closes even if Running task if no pending task / pending updates
+* [FIX] waptexit: fixed waptexit closes even if Running task
+  if no pending task / no pending updates;
 
-* [FIX] waptexit: fix potential case where waptexit remains running with high cpu load
+* [FIX] waptexit: fixed potential case where waptexit remains running
+  with high cpu load;
 
-* [FIX] waptconsole:  Fix HostsForPackage grid not filtered properly (was unproperly using Search expr from first page)
+* [FIX] waptconsole: fixed HostsForPackage grid not filtered properly
+  (was unproperly using Search expr from first page);
 
-* [FIX] waptservice: None has no check_install_is_running error at waptservice startup
+* [FIX] waptservice: None has no ``check_install_is_running`` error
+  at waptservice startup;
 
-* [FIX] core: set persistent_dir and persistent_source_dir attribute on setup module for install_wapt
+* [FIX] core: set ``persistent_dir`` and ``persistent_source_dir`` attributes
+  on setup module for install_wapt;
 
-* [FIX] core: fix bug in guessed persistent_dir for dev mode
+* [FIX] core: fixed bug in guessed ``persistent_dir`` for dev mode;
 
-* [FIX] core: fix error resetting status of stucked processes in local db (check_install_running)
+* [FIX] core: fixed error resetting status of stuck processes
+  in local db (check_install_running);
 
-* [FIX] waptservice: Trap error setting runstatus in db in tasks manager loop
+* [FIX] waptservice: trap error setting runstatus in db in tasks manager loop:
 
-  Don't send runstatus to server each time it is set
+  Don't send runstatus to server each time it is set;
 
-* [UPD] core: define explicitely the private_dir of Wapt object
+* [UPD] core: define explicitly the ``private_dir`` of Wapt object;
 
-* [UPD] server: Don't refuse to provide authtoken if fqdn has changed (this does not introduce sepcific risk as request is signed against UUID)
+* [UPD] server: don't refuse to provide authtoken if FQDN has changed
+  (this does not introduce specific risk as request is signed against UUID);
 
-* [UPD] core: if package_uuid attribute is not set in package's control (old wapt), it is set  to a reproductible hash when package is appended to local waptdb so we can use it to lookup packages faster (dict)
+* [UPD] core: if ``package_uuid`` attribute is not set
+  in package's :file:`control` (old wapt), it is set to a reproductible hash
+  when package is appended to local waptdb so we can use it
+  to lookup packages faster (dict);
 
-* [NEW] waptconsole: Add audit scheduling setup in waptagent dialog (Enterprise)
+* [NEW] waptconsole: added audit scheduling setup
+  in waptagent dialog (**Enterprise** only):
 
-  add set_waptaudit_task_period in innosetup installers
+  added ``set_waptaudit_task_period`` in innosetup installers;
 
-* [IMP] setuphelpers: add win32_displays  to default wmi keys for report
+* [IMP] setuphelpers: add win32_displays to default wmi keys for report;
 
-* [IMP] server setup: create X509 certificate / RSA key for hosts ssl certificate signing and authentication during setup of server
+* [IMP] server setup: create X509 certificate / RSA key
+  for hosts ssl certificate signing and authentication during setup of server;
 
-* [IMP] waptexit: add sizeable border and icons
+* [IMP] waptexit: add sizeable border and icons;
 
-  show progress of long tasks
+* [IMP] show progress of long tasks;
 
-* [IMP] waptservice: Process update of packages as a task instead of waiting for its completion when upgrading (to avoid timeout when running upgrade waptservice task)
+* [IMP] waptservice: process update of packages as a task instead of waiting
+  for its completion when upgrading (to avoid timeout
+  when running upgrade waptservice task):
 
-  add ``update_packages`` optional (default True) parameter for upgrade waptservice action
+  added ``update_packages`` optional (default True) parameter
+  for upgrade waptservice action;
 
-* [NEW] Add audit scheduling setup in waptagent compilation dialog (Enterprise)
+* [NEW] added audit scheduling setup in waptagent compilation dialog
+  (**Enterprise** only);
 
-* [NEW] setuphelpers: Add get_local_profiles setuphelpers
+* [NEW] setuphelpers: added ``get_local_profiles`` setuphelpers;
 
-* [IMP] waptserver: Don't refuse to provide authtoken for websockets auth if fqdn has changed
+* [IMP] waptserver: don't refuse to provide authtoken
+  for websockets auth if FQDN has changed;
 
-* [IMP] flush stdout before sending status to waptserver
+* [IMP] flush stdout before sending status to waptserver;
 
-* [IMP] waptcrypto handle alternative object names in csr build
+* [IMP] waptcrypto handle alternative object names in
+  :abbr:`CSR (Certificate Signing Request)` build;
 
-* [IMP] wapt-get: --force option on wapt-get.exe service mode
+* [IMP] wapt-get: ``--force`` option on :program:`wapt-get.exe` service mode;
 
-* [NEW] use client side auth for waptwua too
+* [NEW] use client side authentication for waptwua too;
 
-* [CHANGE] server setup: nginx windows config: relocate logs and pid
+* [CHANGE] server setup: nginx windows config: relocate logs and pid;
 
-  add conditional client side ssl auth in nginx config
+* [ADD] added conditional client side ssl auth in nginx config;
 
-* [CHANGE] waptconsole: refactor wget, wgets WaptRemoteRepo WaptServer to use requests.Session object to handle specific ssl client auth and proxies
+* [CHANGE] waptconsole: refactor wget, wgets WaptRemoteRepo WaptServer
+  to use requests.Session object to handle specific ssl client auth and proxies:
 
-  Be sure to set privateKey password dialog callback to decrypt client side ssl auth key
+  **Be sure to set privateKey password dialog callback
+  to decrypt client side ssl auth key**;
 
-* [IMP] waptcrypto: add waptcrypto.is_pem_key_encrypted
+* [IMP] waptcrypto: added waptcrypto.is_pem_key_encrypted;
 
-* [IMP] waptconsole: Make sure waptagent window is fully visible.
+* [IMP] waptconsole: make sure waptagent window is fully visible;
 
-* [IMP] waptconsole: Make sure Right click select row on all grids
+* [IMP] waptconsole: make sure Right click select row on all grids;
 
-* [ADD] waptconsole: Import from remote repo: add certificate and key for client side authentication.
-
+* [ADD] waptconsole: import from remote repo: add certificate
+  and key for client side authentication;
 
 WAPT-1.7.3.10 (2019-03-06)
 --------------------------
@@ -1504,147 +1663,197 @@ WAPT-1.7.3.10 (2019-03-06)
 Security
 ++++++++
 
-* upgraded OpenSSL dlls to 1.0.2r for https://www.cert.ssi.gouv.fr/avis/CERTFR-2019-AVI-080/ (moderate risk))
+* [UPD] upgraded :program:`OpenSSL` dlls to 1.0.2r
+  for https://www.cert.ssi.gouv.fr/avis/CERTFR-2019-AVI-080/ (moderate risk);
 
 New
 +++
 
-* Much reworked wizard pages embedded in waptserversetup.exe windows server installer. Install of waptserver on Windows is easy again.
+* [IMP] much reworked wizard pages embedded in :program:`waptserversetup.exe`
+  windows server installer. Install of waptserver on Windows is easy again:
 
-   register server as a client of waptserver
+  - register server as a client of waptserver;
 
-   create new key / cert pair
+  - create new key / certificate pair;
 
-   build waptagent.exe and waptupgrade package
+  - build waptagent.exe and waptupgrade package;
 
-   configure package prefix
+  - configure package prefix;
 
-* If client certificate signing is enabled on waptserver (waptserver.ini config), the server sign a CSR for the client when the client is registered. See :ref:`client_side_certificate_authentication`.
+* [NEW] if client certificate signing is enabled on waptserver
+  (:file:`waptserver.ini` config), the server will sign
+  a :abbr:`CSR (Certificate Signing Request)` for the client
+  when the client is first registered.
+  See :ref:`client_side_certificate_authentication`.
 
-* wapt-get: added new command ``create-keycert`` to create a pair of RSA key / x509 certificate in batch mode. self signed or signed with a CA key/cert
+* [NEW] wapt-get: added new command ``create-keycert`` to create a pair
+  of RSA key / x509 certificate in batch mode.
+  Self signed or signed with a CA key/cert:
 
-    (options are case sensitive...)
+  **(options are case sensitive...)**
 
-    /CommonName: CN to embed in certificate
+  - option ``/CommonName``: CN to embed in certificate;
 
-    /Email /Country /Locality /Organization /OrgUnit: additional attributes to embed in certificate
+  - options ``/Email``, ``/Country``, ``/Locality``, ``/Organization``,
+    ``/OrgUnit``: additional attributes to embed in certificate;
 
-    /PrivateKeyPassword: specify the password for private key in clear text form
+  - option ``/PrivateKeyPassword``: specify the password
+    for private key in clear text form;
 
-    /PrivateKeyPassword64: specify the password for private key in base64 encoding form
+  - option ``/PrivateKeyPassword64``: specify the password for private key
+    in base64 encoding form;
 
-    /NoPrivateKeyPassword: Ask to create or use an unencrypted RSA private key
+  - option ``/NoPrivateKeyPassword``: ask to create
+    or use an unencrypted RSA private key;
 
-    /CA=1 (or 0)): create a certification authority certificate if 1 (default to 1)
+  - option ``/CA``=**1** (or 0)): create a certification authority certificate if 1
+    (default to 1);
 
-    /CodeSigning=1 (or 0) ): create a code signing certificate if 1 (default to 1)
+  - option ``/CodeSigning``=**1** (or 0) ): create a code signing certificate if 1
+    (default to 1);
 
-    /ClientAuth=1 (or 0): create a certificate for authenticating a client on a https server with ssl auth. (default to 1)
+  - option ``/ClientAuth``=**1** (or 0): create a certificate for authenticating
+    a client on a https server with ssl auth. (default to 1);
 
-    /CAKeyFilename: path to CA private key to use for signing the new certificate (default to  %LOCALAPPDATA%\waptconsole\waptconsole.ini [global] default_ca_key_path setting)
+  - option ``/CAKeyFilename``: path to CA private key to use for signing
+    the new certificate
+    (defaults to :file:`%LOCALAPPDATA%\waptconsole\waptconsole.ini` ``[global]``
+    ``default_ca_key_path`` setting);
 
-    /CACertFilename: path to CA certificate to use for signing the new certificate (default to  %LOCALAPPDATA%\waptconsole\waptconsole.ini [global] default_ca_cert_path setting)
+  - option ``/CACertFilename``: path to CA certificate to use for signing
+    the new certificate (defaults to :file:`%LOCALAPPDATA%\waptconsole\waptconsole.ini`
+    ``[global]`` ``default_ca_cert_path`` setting);
 
-    /CAKeyPassword: specify the password for CA private key in clear text form to use for signing the new certificate (no default)
+  - option ``/CAKeyPassword``: specify the password for CA private key
+    in clear text form to use for signing the new certificate (no default);
 
-    /CAKeyPassword64: specify the password for CA private key in base64 encoding form to use for signing the new certificate (no default)
+  - option ``/CAKeyPassword64``: specify the password for CA private key
+    in base64 encoding form to use for signing the new certificate (no default);
 
-    /NoCAKeyPassword: specify that the CA private to use for signing the new certificate is unencrypted
+  - option ``/NoCAKeyPassword``: specify that the CA private to use
+    for signing the new certificate is unencrypted;
 
-    /EnrollNewCert: copy the newly created certificate in <wapt>\ssl to be taken in account as an authorized packages signer certificate.
+  - option ``/EnrollNewCert``: copy the newly created certificate
+    in :file:`<wapt>\ssl` to be taken in account as an authorized
+    packages signer certificate;
 
-    /SetAsDefaultPersonalCert: set personal_certificate_path in configuration inifile [global] section (default %LOCALAPPDATA%\waptconsole\waptconsole.ini)
+  - option ``/SetAsDefaultPersonalCert``: set ``personal_certificate_path``
+    in configuration inifile ``[global]`` section
+    (default :file:`%LOCALAPPDATA%\waptconsole\waptconsole.ini`);
 
-* [NEW] wapt-get: added new commands ``build-waptagent`` to compile a customized waptagent in batch mode.
+* [NEW] wapt-get: added new commands ``build-waptagent``
+  to compile a customized waptagent in batch mode:
 
-    Copy waptagent.exe and pre-waptupgrade locally (if not /DeployWaptAgentLocally, upload to server with https)
+  - copy :program:`waptagent.exe` and pre-waptupgrade locally
+    (if not ``/DeployWaptAgentLocally``, upload to server with https);
 
-    /DeployWaptAgentLocally: Copy the newly built waptagent.exe and prefix-waptupgrade_xxx.wapt to  local server repository directory ( <wapt>\waptserver\repository\wapt\ )
+  - option ``/DeployWaptAgentLocally``: copy the newly
+    built :program:`waptagent.exe` and prefix-waptupgrade_xxx.wapt
+    to local server repository directory
+    :file:`<wapt>\waptserver\repository\wapt\`;
 
-* [NEW] ``wapt-get register``: Add options for easy configuration of wapt when registering
+* [NEW] ``wapt-get register``: added options for easy configuration of wapt
+  when registering:
 
-  ``--pin-server-cert``: When registering, pin the server certificate. (check that CN of certificate matches hostname of server and repo)
+  - ``--pin-server-cert``: pin the server certificate.
+    (check that CN of certificate matches hostname of server and repo);
 
-  ``--wapt-server-url``: When registering, set wapt-get.ini wapt_server setting.
+  - ``--wapt-server-url``: set ``wapt_server`` setting in :file:`wapt-get.ini`;
 
-  ``--wapt-repo-url``: When registering, set wapt-get.ini repo_url setting. (if not provided, and there is not repo_url set in wapt-get.ini, extrapolate repo_url from wapt_server url)
+  - ``--wapt-repo-url``: set ``repo_url`` setting in :file:`wapt-get.ini`.
+    (if not provided, and there is not ``repo_url`` set in :file:`wapt-get.ini`,
+    extrapolate ``repo_url`` from ``wapt_server url``);
 
-* [NEW] wapt-get Add check-valid-codesigning-cert / CheckPersonalCertificateIsCodeSigning action
+* [NEW] wapt-get: added check-valid-codesigning-cert /
+  CheckPersonalCertificateIsCodeSigning action;
 
 Improvements and fixes
 ++++++++++++++++++++++
 
 * python libraries updates
 
-  upgrade cryptography from 2.3.1 to 2.5.0
+  - :program:`cryptography from 2.3.1` -> :program:`cryptography 2.5.0`;
 
-  upgrade pyOpenSSL from 18.0.0 from 19.0.0
+  - :program:`pyOpenSSL 18.0.0` -> :program:`pyOpenSSL 19.0.0`;
 
-* [FIX] don't reset host.server_uuid in server db when host disconnect from websocket
+* [FIX] don't reset host.server_uuid in server db
+  when host disconnect from websocket. Set host.server_uuid in server db
+  when host gets a token;
 
-  set host.server_uuid in server db when host get a token
+* [FIX] modify isAdminLoggedIn to try to fix cases
+  when we are admin but function return false;
 
-* [FIX] Modify isAdminLoggedIn to try to fix cases when we are admin but function return false
+* [FIX] ensure valid package name in package wizard (issue959);
 
-* [FIX]Ensure valid package name in package wizard (issue959)
+* [FIX] regression when using python cryptography 2.4.2 openssl bindings
+  for windows XP agent (openssl bindings of the python cryptopgraphy
+  default WHL >= 2.5 does not work on Windows XP);
 
-* [FIX] regression Use python cryptography 2.4.2 openssl bindings for windows XP agent (openssl bindings of the python cryptopgraphy default WHL >= 2.5 does not work on windows XP)
+* [FIX] trap exception when creating db tables from scratch fails,
+  allowing upgrade of structure;
 
-* [FIX] trap exception when creating db tables from scratch fails, allowing upgrade of structure.
+* [FIX] reduce the risk of *database is locked* error;
 
-* [FIX] Reduce the risk of "database is locked" error
+* [FIX] deprecation warning for verifier and signer when checking crl signature;
 
-* [FIX] fix deprecation warning for verifier and signer when checking crl signature
+* [FIX] ``persistent_dir`` calculation in package's call_setup_hook
+  when package_uuid is None in local wapt DB (for clients migrated
+  from pre 1.7 wapt, error None has no len() in audit log);
 
-* [FIX] persistent_dir calculation in package's call_setup_hook when package_uuid is None in local wapt DB (for clients migrated from pre 1.7 wapt, error None has no len() in audit log)
+* [FIX] regression don't try to use host_certificate / key
+  for client side ssl authentication if they are not accessible;
 
-* [FIX] regression Don't try to use host_certificate / key for client side ssl auth if they are not accessible
+* [IMP] define proxies for crl download in :command:`wapt-get scan-packages`;
 
-* [IMP] Define proxies for crl download in wapt-get scan-packages
+* [IMP] fixed bad normalization action icon;
 
-* [IMP] Fix bad normalization action icon
+* [IMP] paste from clipboard action available in most packages editing grid;
 
-* [IMP] paste from clipboard action available in most packages editing grid
+* [IMP] propose to define package root dev path, package prefix, waptagent
+  or new private key / certificate when launching waptconsole;
 
-* [IMP] Propose to define package root dev path, package prefix, waptagent or new private key/ cert when launching waptconsole
+* [IMP] remove the need to define waptdev directory
+  when editing *groups* / *profiles* / *wua packages* / *self-service* packages;
 
-* [IMP] Remove the need to define waptdev directory when editing groups / profiles / wua packages / self-service packages
+* [IMP] grid columns translations in french;
 
-* [IMP] Grid Columns translations in french
+* [IMP] waptexit responsiveness improvements. Events check thread
+  and tasks check thread are now separated.
 
-* [IMP] waptexit responsiveness improvements
+* [NEW] added ClientAuth checkbox when building certificate in waptconsole;
 
-  Separate events check thread and tasks check thread.
-
-* [NEW] Add ClientAuth checkbox when building certificate in waptconsole
-
-* [NEW] Add --quiet -q option to postconf.py
+* [NEW] added ``--quiet`` ``-q`` option to :file:`postconf.py`
 
 * [MISC] add an example of client side cert auth
 
-* Add clientAuth extended usage to x509 certificates (default True) for https client auth using personal certificate
+* [ADD] added clientAuth extended usage to x509 certificates (default True)
+  for https client auth using personal certificate;
 
-* Makes use of ssl client cert and key in waptconsole for server auth
+* [NEW] use of ssl client cert and key in waptconsole for server authentication;
 
-* fix ssl client certificate auth not taken in account for server api and host repo
+* [FIX] ssl client certificate auth not taken in account
+  for server api and host repository;
 
-* add is_client_auth property for certificates
+* [ADD] added ``is_client_auth`` property for certificates;
 
-  default None for is_client_auth cert / csr build
+  - default *None* for ``is_client_auth`` certificate /
+    :abbr:`CSR (Certificate Signing Request)` build;
 
-  don't fallback to host's client certificate auth if it is not clientAuth capable (if so, http error 400)
+  - don't fallback to host's client certificate authentication
+    if it is not clientAuth capable (if so, http error 400);
 
-* [MISC] waptcrypto: Add SSLPKCS12 to encapsulate pcks#12 key/cert store
+* [MISC] waptcrypto: added SSLPKCS12 to encapsulate
+  pcks#12 key / certificate in certificate store;
 
-* [MISC] Add splitter for log memo in Packages for hosts panel
+* [MISC] added splitter for log memo in Packages for hosts panel;
 
-* Store fixes
+* [FIX] store fixes;
 
-* Be tolerant when no persistent_dir in wsus packages
+* [FIX] be tolerant when no ``persistent_dir`` in *waptwua* packages;
 
-  Min wapt version 1.7.3 for self service packages and waptwua packages
+  - min wapt version 1.7.3 for self service packages and *waptwua* packages,
 
-* fix WsusUpdates has no attribute 'downloaded'
+* [FIX] WsusUpdates has no attribute ``downloaded``;
 
 WAPT-1.7.3.7 (2019-02-19)
 -------------------------
@@ -1654,41 +1863,50 @@ WAPT-1.7.3.7 (2019-02-19)
 Bug fixes
 ++++++++++
 
-* fix softs normalization dialog closed when typing F key (Enterprise)
+* [FIX]] softs normalization dialog closed when typing F key
+  (**Enterprise** only);
 
-* include waptwua in nginx wapt server windows locations  (Enterprise)
+* [IMP] include waptwua in nginx wapt server windows locations
+  (**Enterprise** only);
 
-* fix force option from service or websockets not being taken in account in install_msi_if_needed or install_exe_if_needed
+* [FIX] force option from service or websockets not being taken in account
+  in :command:`install_msi_if_needed` or :command:`install_exe_if_needed`;
 
-* improved win updates reporting (uninstall behaviour)  (Enterprise)
+* [IMP] improved win updates reporting (uninstall behavior)
+  (**Enterprise** only);
 
-* add uninstall action for winupdates in waptconsole  (Enterprise)
+* [ADD] added uninstall action for winupdates in waptconsole
+  (**Enterprise** only);
 
-* fix reporting from dmi "size type" fields with non int content  (Enterprise)
+* [FIX] reporting from dmi "size type" fields with non integer content
+  (**Enterprise** only);
 
 Improvements
 ++++++++++++
 
-* waptexit: Allow minimize button
+* [IMP] waptexit: allow minimize button;
 
-* waptexit: Layout changes
+* [IMP] waptexit: layout changes;
 
-* AD Auth: less restrictive on user name sanitity check (Enterprise)
+* [IMP] AD Auth: less restrictive on user name sanity check
+  (**Enterprise** only);
 
-* handle updates of data for winupdates with additional download urls  (Enterprise)
+* [IMP] handling of updates of data for winupdates
+  with additional download urls (**Enterprise** only);
 
-* Add some additional info fields to WsusUpdates table (Enterprise)
+* [ADD] added some additional info fields to WsusUpdates table
+  (**Enterprise** only);
 
-* add filename to Packages table for reporting and store usage (Enterprise)
+* [ADD] added filename to Packages table for reporting and store usage
+  (**Enterprise** only);
 
-* Add uninstall win updates to waptconsole (Enterprise)
+* [ADD] added uninstall win updates to waptconsole (**Enterprise** only);
 
-* Add windows updates uninstall task capabilities (Enterprise)
+* [ADD] added windows updates uninstall task capabilities (**Enterprise** only);
 
-* add filename to Packages table
+* [ADD] added filename to Packages table;
 
-* increased default clockskew tolerance for client socket io
-
+* [IMP] increased default clockskew tolerance for client socket io;
 
 WAPT-1.7.3.5 (2019-02-13)
 -------------------------
@@ -1696,11 +1914,11 @@ WAPT-1.7.3.5 (2019-02-13)
 Bug fixes
 +++++++++
 
-* Fix regression in package filenames (missing _)
+* [FIX] regression in package filenames (missing _);
 
-* fix mismatch for waptconsole [global] waptwua_enabled setting
+* [FIX] mismatch for waptconsole ``[global]`` ``waptwua_enabled`` setting;
 
-* default waptconsole EnableWaptWUAFeatures to True
+* [FIX] default waptconsole :guilabel:`EnableWaptWUAFeatures` to True;
 
 WAPT-1.7.3.4 (2019-02-13)
 -------------------------
@@ -1708,226 +1926,259 @@ WAPT-1.7.3.4 (2019-02-13)
 Bug fixes
 +++++++++
 
-* waptexit: Fix install of and empty list of Windows Updates (Enterprise)
+* [FIX] waptexit: fixed install of and empty list of Windows Updates
+  (**Enterprise** only);
 
-* wapt-get.exe WaptWUA commands: fix import of waptwua client module  for waptwua-scan download install (Enterprise)
+* [FIX] wapt-get.exe WaptWUA commands: fixed import of waptwua client module
+  for waptwua-scan download install (**Enterprise** only);
 
-* fix install_delay for Windows Updates stored as a time_delta in waptdb (Enterprise)
+* [FIX] ``install_delay`` for Windows Updates stored
+  as a time_delta in waptdb (**Enterprise** only);
 
 Improvements
 ++++++++++++
 
-* Add versioning on group packages filenames
+* [ADD] versioning on group packages filenames;
 
-* Add button to create AD Host profiles (package automatically installed/removed based on AD Grouo memberships)
+* [ADD] button to create AD Host profiles (package automatically installed/removed based on AD Grouo memberships)
 
-* Reduce wapttray notifications occurences. notify_user=0 per default
+* [IMP] reduce wapttray notifications occurences.
+  ``notify_user`` = **0** per default
 
-* waptexit: fix details panel does not show the pending packages to install
+* [FIX] waptexit: fixed details panel does not show the pending packages
+  to install;
 
-* Always install the missing dependencies in install (even if upgrade action should have queued dependencies installs bedoire) for cases for some corner cases.
+* [FIX] always install the missing dependencies in install
+  (even if upgrade action should have queued dependencies installs before)
+  for some corner known cases;
 
-* Fix get server certificate chain popup action in build waptagent
+* [FIX] get server certificate chain popup action when building the waptagent;
 
-* Add action to create a key / cert in waptconsole conf
+* [ADD] action to create a key / certificate in waptconsole conf;
 
-* Hide inactive / disabled WaptWUA actions in Host popup menu.
+* [IMP] hide inactive / disabled WaptWUA actions in Host popup menu;
 
-* Add checkbox to dispaly newest only for Groups
+* [ADD] checkbox to display newest only for groups;
 
-* Add waptconsole config parameter 'licences_directory" to specify the location (directory) of licences (Enterprise)
+* [ADD] waptconsole config parameter ``licences_directory``
+  to specify the location (directory) of licences (**Enterprise** only);
 
-* waptagent build dialog: Removed the "Append host's profiles" option
+* [IMP] waptagent build dialog: Removed the :guilabel:`Append host's profiles`
+  option;
 
-* remove waptenterprise directory if waptsetup community is deployed over a waptenterprise edition
+* [IMP] remove waptenterprise directory if waptsetup community is deployed
+  over a waptenterprise edition;
 
 WAPT-1.7.3.3 (2019-02-11)
 -------------------------
 
-* Core
+* [IMP] Core:
 
-  - Better support for locales, maturities and architecture packages filtering
+  - better support for ``locales``, ``maturities`` and ``architecture``
+    packages filtering;
 
-* Self service rule packages (Enterprise)
+* [NEW] Self service rule packages (**Enterprise** only):
 
-  - Package to define which packages can be installed / remove for groups of users.
+  - Package to define which packages can be installed / remove
+    for groups of users;
 
-  - WAPT Windows Updates rules packages (Enterprise)
+  - WAPT Windows Updates rules packages (**Enterprise** only);
 
-* Package to define which Windows Updates are allowed / forbidden to be deployed by Wapt WUA agents
+* [NEW] package to define which Windows Updates are allowed / forbidden
+  to be deployed by Wapt WUA agents;
 
 * **waptagent** build:
 
-  - Add option for use_fqdn_as_uuid when building waptagent.exe
+  - [ADD] option for ``use_fqdn_as_uuid`` when building waptagent.exe;
 
-  - Add option to define the profile package to be deployed upon Wapt install on hosts.
+  - [ADD] option to define the profile package to be deployed
+    upon Wapt install on hosts;
 
-  - Add options to enable WaptWUA (Windows updates with Wapt) (Enterprise)
+  - [ADD] options to enable WaptWUA (Windows updates with Wapt)
+    (**Enterprise** only);
 
-* Host Profile packages (Enterprise)
+* Host Profile packages (**Enterprise** only):
 
-  - Specific packages (like Group packages) which are installed or removed depending of wapt-get.ini [global] host_profiles ini key
+  - [IMP] specific packages (like Group packages) which are installed
+    or removed depending of :file:`wapt-get.ini` ``[global]`` ``host_profiles``
+    ini key;
 
-  - If a "profile" package name matches Computer's AD Groups, it is deployed automatically.
+  - [NEW] if a *profile* package name matches Computer's AD Groups,
+    it is deployed automatically;
 
-* Reporting (Enterprise)
+* Reporting (**Enterprise** only):
 
-  - Import / Export queries as json files
+  - [NEW] import / export queries as json files;
 
-  - Softwares names normalization as a separate dialog.
+  - [IMP] softwares names normalization as a separate dialog;
 
 * **waptexit**:
 
-  - reworked to make it more robust
+  - [IMP] reworked to make it more robust;
 
-  - Takes in account packages to remove
+  - [IMP] takes in account packages to remove;
 
-  - Takes in account Wapt WUA Updates (Enterprise).
+  - [IMP] takes in account Wapt WUA Updates (**Enterprise** only):
 
-    - command line switch:  /install_wua_updates
+    - command line switch:  /install_wua_updates;
 
-    - wapt-get.ini setting: [waptwua] install_at_shutdown=1
+    - wapt-get.ini setting: [waptwua] ``install_at_shutdown`` = **1**;
 
-    - checkbox in waptexit to skip install of Windows Updates
+    - checkbox in waptexit to skip install of Windows Updates;
 
 * **waptconsole** Custom commands:
 
-  - Ability to define custom popupmenu commands which are launched for the selection of hosts. Custom variables {uid}
+  - [NEW] ability to define custom popupmenu commands which are launched
+    for the selection of hosts. Custom variables {uid};
 
 * Other improvements:
-  French translations fixes
+
+  - [IMP] French translations fixes;
 
 Changelog 1.7.2
 ---------------
 
-* Reporting (Enterprise)
+* [NEW] Reporting (**Enterprise** only):
 
-  Basic SQL reporting capabiliti
+  - basic SQL reporting capability;
 
-  Duplicate action / copy paste for reporting queries
+  - duplicate action / copy paste for reporting queries;
 
-* setuphelpers: added helpers
-  processes_for_file
-  add get_computer_domain
-
+* [ADD] setuphelpers: added helpers ``processes_for_file``
+  and ``get_computer_domain``;
 
 Librairies updates
 ------------------
 
-* python 2.7.15 on Windows
+* :program:`python 2.7.15` on Windows;
 
-* openssl-1.0.2p libeay
+* :program:`openssl-1.0.2p`;
 
-* upgraded python-requests to 2.20.0 (Security Fix)
+* upgraded to :program:`python-requests 2.20.0` (Security Fix);
 
 
 Improvements
 ------------
 
-* Don't refresh GridHostsForPackage if not needed (Enterprise)
+* [IMP] don't refresh GridHostsForPackage if not needed
+  (**Enterprise** only);
 
-* Don't add a newline to log text output for LogOutput
+* [IMP] don't add a newline to log text output for LogOutput
 
-* improved handling of update_host_data hashes to reduce amount of data sent to server on each update_server_status
+* [IMP] improved handling of update_host_data hashes to reduce amount of data sent to server on each update_server_status
 
 * set python27.dll path in wapt-get and waptconsole.exe (fix cases with multiple python installations)
 
 * fix removal of packages when upgrading host via websockets
 
-* don't get capa if not needed when updating
-  don't check package control signatures in wapt-get when loading list of packages for development tasks
+* [IMP] don't get host capabilities if not needed when updating
 
-* Moved static waptserver assets to a /static root
+* [IMP] don't check package control signatures in wapt-get
+  when loading list of packages for development tasks
+
+* [IMP] Moved static waptserver assets to a /static root
   split base.html and index.html templates for blueprints
 
-* Fix selective pending wua install or downloads (Enterprise)
+* [FIX] selective pending wua install or downloads (**Enterprise** only)
 
-* fix wua updates filter logic (Enterprise)
+* [FIX] wua updates filter logic (**Enterprise** only)
 
-* uninstall host packages if use_hostpackages is set to false
+* [IMP] uninstall host packages if ``use_hostpackages`` is set to false:
 
-  Add a forced update in the task loop when host capabilities have been changed
+  - add a forced update in the task loop
+    when host capabilities have been changed;
 
-  Include use_host_packages and host_profiles in host's capabilities.
+  - include ``use_host_packages`` and ``host_profiles`` in host's capabilities;
 
-* Fix regression not removing implicit packages.
+* [FIX] regression not removing implicit packages.
 
-* more tolerant to unicode errors in update_host_data to avoid hiding actual exception behind an encoding exception.
+* [IMP] more tolerant to unicode errors in update_host_data to avoid hiding actual exception behind an encoding exception.
 
-* fix order of columns not kept when exporting reports (Enterprise)
+* [FIX] order of columns not kept when exporting reports (**Enterprise** only)
 
-* ``install_msi_if_needed``, ``install_exe_if_needed``:  check if killbefore is not empty or None
+* [IMP] ``install_msi_if_needed``, ``install_exe_if_needed``:  check if ``killbefore`` is not empty or None
 
-* changed tasks's progress and runstatus to property
+* [IMP] changed tasks's progress and runstatus to property
 
-* Fix Audit aborted due to exception: 'NoneType' object is not iterable (Enterprise)
+* [FIX] Audit aborted due to exception: 'NoneType' object is not iterable (**Enterprise** only)
 
-* setuphelpers: Add get_app_path and get_app_install_location
+* [ADD] setuphelpers: Add ``get_app_path`` and ``get_app_install_location``
 
-  Add fix_wmi procedure to re-register WMI on broken machines
+  - add fix_wmi procedure to re-register WMI on broken machines
 
-  some wmi fallbacks to avoid unregistered machines when WMI is broken on them
+  - some wmi fallbacks to avoid unregistered machines when WMI is broken on them
 
-* Online wua scans (Enterprise)
+* [ADD] Online wua scans (**Enterprise** only)
 
-* Add a random package_uuid when signing a package metadata which could be used later as a primary key
+* [ADD] random ``package_uuid`` when signing a package metadata
+  which could be used later as a primary key:
 
-  creates a random package_uuid when installing in DEV mode
+  - creates a random ``package_uuid`` when installing in DEV mode;
 
-  creates a random package_uuid when installing a package without package_uuid
+  - creates a random ``package_uuid`` when installing
+    a package without ``package_uuid``;
 
-* Moved and renamed EnsureWUAUServRunning to setuphelpers
+* [IMP] moved and renamed EnsureWUAUServRunning to setuphelpers;
 
-* Add pending_reboot_reasons to inventory
+* [ADD]  ``pending_reboot_reasons`` to inventory;
 
-* Display package version for missing packages
+* [IMP] display package version for missing packages;
 
-* wapt-get sign-packages: Add setting maturity and inc version in sign-packages action
+* [ADD] :command:`wapt-get sign-packages`: added setting ``maturity``
+  and inc version in sign-packages action;
 
-* Add WindowsUpdates's host History grid below WindowsUpdate grid. (Enterprise)
+* [ADD] WindowsUpdates's host History grid below WindowsUpdate grid
+  (**Enterprise** only);
 
-* Stores Host Windows update history in server DB (Enterprise)
+* [IMP] store Host Windows update history in server DB (**Enterprise** only);
 
-* Keep selected or focused rows in Grids
+* [IMP] keep selected or focused rows in grids;
 
-* Updates Packages table when uploading a Package / Group. This table is meant mainly for reporting purpose.
+* [IMP] updates Packages table when uploading a Package / Group.
+  This table is meant mainly for reporting purpose;
 
-* Disable indexes for some BinaryJson fields
+* [IMP] disable indexes for some BinaryJson fields;
 
-* fix windows update install_date reporting (Enterprise)
+* [FIX] windows update ``install_date`` reporting (**Enterprise** only);
 
-* Add checkbox to enable "use_fqdn_as_uuid" when building waptagent.exe
+* [ADD] checkbox to enable ``use_fqdn_as_uuid``
+  when building :program:`waptagent.exe`;
 
-* Change default value for upgrade_only_if_not_process_running
+* [IMP] change default value for ``upgrade_only_if_not_process_running``;
 
-* Changed naming of organizational unit packages to remove ambiguity with comma in package name and comma to describe list of packages depends / conflicts
+* [IMP] changed naming of organizational *unit* packages to remove ambiguity
+  with comma in package name and comma to describe
+  the list of packages depends / conflicts:
 
-  Replace ',' with '_' when editing package. (Enterprise)
+  Replace ',' with '_' when editing package (**Enterprise** only);
 
-* waptexit: add priorities and only_if_not_process_running  command line switches
+* [ADD] waptexit: added priorities and ``only_if_not_process_running``
+  command line switches;
 
-* waptupgrade: Changed windows_version and Version
+* [IMP] waptupgrade: changed ``windows_version`` and Version;
 
-* setuphelpers windows_version: added members_count
+* [ADD] setuphelpers ``windows_version``: added ``members_count``;
 
-* waptutils.Version: strip members to members_count if not None
+* [IMP] waptutils.Version: strip members to ``members_count`` if not *None*;
 
-* Add control attributes editor keywords licence homepage package_uuid to local waptservice db
+* [ADD] control attributes editor keywords licence homepage ``package_uuid``
+  to local waptservice db;
 
-* add short fingerprint to repr of SSLCertificate
+* [ADD] short fingerprint to repr of SSLCertificate;
 
-* Be sure password gui is visible even if parent window is not
+* [IMP] be sure password gui is visible even if parent window is not;
 
-* add gui for private key password dialog if --use-ggui
+* [ADD] gui for private key password dialog if ``--use-ggui``;
 
-* Add --use-gui "wapt-get.exe" command line arg to force use of waptguihelper for server credentials when registering.
+* [ADD] ``--use-gui`` to :program:`wapt-get.exe` command line arg
+  to force use of waptguihelper for server credentials when registering;
 
 WAPT-1.6.2.7 (2018-10-02)
 -------------------------
 
-This is a bugfix release for 1.6.2.5
+This is a bugfix release for 1.6.2.5:
 
-* *waptexit*: changed the default value of
+* [FIX] *waptexit*: changed the default value of
   *upgrade_only_if_not_process_running* parameter to *False*
   instead of *True*:
 
@@ -1938,7 +2189,7 @@ This is a bugfix release for 1.6.2.5
   for packages with running processes may impact the user if the installer
   kills the running processes;
 
-* *waptwua*: take in account Windows Updates *RevisionNumber* attribute
+* [FIX] *waptwua*: take in account Windows Updates *RevisionNumber* attribute
   to identify uniquely an Update in addition to UpdateID field (**Enterprise**
   only). This fixes the 404 error when downloading missing
   windows updates on a client.
@@ -1946,9 +2197,9 @@ This is a bugfix release for 1.6.2.5
 WAPT-1.6.2.6 (2018-09-26)
 -------------------------
 
-This is a bugfix release for 1.6.2.5
+This is a bugfix release for 1.6.2.5:
 
-* fix for WAPTServer Enterprise on Windows: added proper upgrade path from
+* [FIX] WAPTServer Enterprise on Windows: added proper upgrade path from
   :program:`PostgreSQL 9.4` (used in WAPT 1.5) to :program:`PostgreSQL 9.6`
   which is required for WAPT-Windows Update:
 
@@ -1956,16 +2207,16 @@ This is a bugfix release for 1.6.2.5
 
   * old data is suffixed with -old after migration;
 
-* fix upgrade script for :program:`MongoDB` upgrade (WAPT 1.3)
+* [FIX] upgrade script for :program:`MongoDB` upgrade (WAPT 1.3)
   to :program:`PostgreSQL` used since WAPT 1.5;
 
-* fix regression on WMI / DMI inventory which may be not properly
+* [FIX] regression on WMI / DMI inventory which may be not properly
   sent back to the server;
 
 WAPT-1.6.2.5 (2018-09-14)
 -------------------------
 
-Main new features if you are coming from 1.5:
+[NEW] Main new features if you are coming from 1.5:
 
 * per package *Audit* feature (**Enterprise** only);
 
@@ -1982,7 +2233,7 @@ It includes numerous changes over the 1.5.1.26 version.
 New
 +++
 
-* per package Audit feature:
+* [NEW] per package audit feature:
 
   - def audit() hook function to add into package's :file:`setup.py`.
     By default, check *uninstall key* presence in registry:
@@ -2016,12 +2267,12 @@ New
   - audit log displayed in :program:`waptconsole` below installed package grid
     if :guilabel:`Audit Status` column is focused;
 
-* Updated python modules
+* [UPD] updated python modules
 
-* build with Lazarus 1.8.2 instead of CodeTyphon 2.8
+* [IMP] build with :program:`Lazarus 1.8.2` instead of :program:`CodeTyphon 2.8`
   for the Windows executables:
 
-  * better strings encoding handling Easier to setup for the development
+  * better strings encoding handling and easier to setup for the development;
 
 Known issues
 ++++++++++++
@@ -2039,19 +2290,19 @@ Known issues
 Fixes
 +++++
 
-* [Fix] add AD Groups as Hosts dependencies in :program:`waptconsole`;
+* [FIX] add AD Groups as Hosts dependencies in :program:`waptconsole`;
 
-* [Fix] remove image on reachable column if no status has been sent yet;
+* [FIX] remove image on reachable column if no status has been sent yet;
 
-* [Fix] Organizational Units WAPT packages not being installed
+* [FIX] Organizational Units WAPT packages not being installed
   when there are spaces in DN;
 
-* [Fix] Operational error when host are trying
+* [FIX] Operational error when host are trying
   to reconnect but are not registered;
 
-* [Fix] fill in *created_on* db fields on win updates data;
+* [FIX] fill in *created_on* db fields on win updates data;
 
-* debian server postinst: remove old :file:`pyc` files;
+* [IMP] debian server postinst: remove old :file:`pyc` files;
 
 Changes
 +++++++
@@ -2104,17 +2355,18 @@ Known issues
 New
 +++
 
-* wizard for the initial configuration of :program:`waptserver` on Windows;
+* [NEW] wizard for the initial configuration of :program:`waptserver` on Windows;
 
-* wizard for the initial configuration of :program:`waptconsole`
+* [ADD] wizard for the initial configuration of :program:`waptconsole`
   connection parameters;
 
-* **Enterprise only**: waptconsole/ private repo page: added a grid
+* [ADD] **Enterprise only**: waptconsole/ private repo page: added a grid
   which shows the computers where the selected package is installed;
 
-* **Enterprise only**: WAPT WUA Windows Updates management technical preview:
+* [NEW] **Enterprise only**: WAPT WUA Windows Updates management
+  technical preview:
 
-  - activate with *waptwua_enabled* = 1 in :file:`wapt-get.ini` file
+  - activate with ``waptwua_enabled`` = **1** in :file:`wapt-get.ini` file
     on the client;
 
   - scan of updates on Windows clients with the IUpdateSearcher Windows API
@@ -2126,7 +2378,7 @@ New
   - additional page in :guilabel:`WAPTconsole` for the consolidated view
     of all updates reported by hosts (WsusUpdates model);
 
-  - periodic Task on server to check and download newer version
+  - periodic task on server to check and download newer version
     of :file:`wsusscan2` cab file from Microsoft (daemon/ service wapttasks);
 
   - periodic Task on server to download missing windows updates files
@@ -2140,132 +2392,137 @@ New
 Changes
 +++++++
 
-* added field in hosts table to keep the hashes of sent host data,
+* [ADD] field in hosts table to keep the hashes of sent host data,
   so that clients can send only what needs to be updated;
 
-* added *db_port server* config parameter if :program:`posgresql` server
+* [ADD] *db_port server* config parameter if :program:`posgresql` server
   is not running on standard port 5432is not running on standard port 5432;
 
-* added editor optional attribute for package control, used
+* [ADD] editor optional attribute for package control, used
   in *register_windows_uninstall* helper if supplied;
 
-* websocket authentication with a timestamped token obtained
-  from server with client SSL certificateom server with client SSL certificate;
+* [IMP] websocket authentication with a timestamped token obtained
+  from server with client SSL certificate on server with client SSL certificate;
 
-* json responses from :program:`waptserver` are gzipped;
+* [IMP] json responses from :program:`waptserver` are gzipped;
 
 Fixes
 +++++
 
-* forced host uuid
+* [IMP] forced host uuid;
 
-* forced computer AD Organizational unit
+* [IMP] forced computer AD Organizational unit;
 
-* public certs dir
+* [IMP] public certs dir;
 
-* fix caching of negative result for certs chain validation
+* [FIX] caching of negative result for certs chain validation;
 
-* refactoring of server python modules (*config*, *utils*, *auth*, *app*,
+* [IMP] refactoring of server python modules (*config*, *utils*, *auth*, *app*,
   *common*, *decorators*, *model*, *server*) for the enterprise modularity;
 
-* fix timezone file timestamp handling for http download;
+* [FIX] timezone file timestamp handling for http download;
 
 Python modules updates
 ++++++++++++++++++++++
 
-* peewee to 3.4
+* upgrade to :program:`peewee 3.4`;
 
-* eventlet==0.23.0
+* upgrade to :program:`eventlet==0.23.0`;
 
-* huey 1.9.1
+* upgrade to :program:`huey 1.9.1`;
 
-* eventlet 0.20.1 -> 0.22.1
+* :program:`eventlet 0.20.1` -> :program:`eventlet 0.22.1`;
 
-0.22.1
+0.22.1:
 
-  * event: Event.wait() timeout=None argument to be
-    compatible with upstream CPython
+  * [IMP] event: Event.wait() timeout=None argument to be
+    compatible with upstream CPython;
 
-  * greendns: Treat /etc/hosts entries case-insensitive;
-    Thanks to Ralf Haferkamp
+  * [IMP] greendns: Treat /etc/hosts entries case-insensitive.
+    Thanks to Ralf Haferkamp;
 
-0.22.0
+0.22.0:
 
-  * dns: reading /etc/hosts raised DeprecationWarning for universal lines
-    on Python 3.4+; Thanks to Chris Kerr
+  * [IMP] dns: reading /etc/hosts raised DeprecationWarning for universal lines
+    on Python 3.4+.
+    Thanks to Chris Kerr;
 
-  * green.openssl: Drop OpenSSL.rand support; Thanks to Haikel Guemar
+  * [IMP] green.openssl: Drop OpenSSL.rand support.
+    Thanks to Haikel Guemar;
 
-  * green.subprocess: keep CalledProcessError identity;
-    Thanks to Linbing@github
+  * [IMP] green.subprocess: keep CalledProcessError identity.
+    Thanks to Linbing@github;
 
-  * greendns: be explicit about expecting bytes from sock.recv;
-    Thanks to Matt Bennett
+  * [IMP] greendns: be explicit about expecting bytes from sock.recv.
+    Thanks to Matt Bennett;
 
-  * greendns: early socket.timeout was breaking IO retry loops
+  * [IMP] greendns: early socket.timeout was breaking IO retry loops;
 
-  * GreenSocket.accept does not notify_open; Thanks to orishoshan
+  * [IMP] GreenSocket.accept does not notify_open.
+    Thanks to orishoshan;
 
-  * patcher: set locked RLocks' owner only when patching existing locks;
-    Thanks to Quan Tian
+  * [IMP] patcher: set locked RLocks' owner only when patching existing locks.
+    Thanks to Quan Tian;
 
-  * patcher: workaround for monotonic "no suitable implementation";
-    Thanks to Geoffrey Thomas
+  * [IMP] patcher: workaround for monotonic "no suitable implementation".
+    Thanks to Geoffrey Thomas;
 
-  * queue: empty except was catching too much
+  * [IMP] queue: empty except was catching too much;
 
-  * socket: context manager support; Thanks to Miguel Grinberg
+  * [IMP] socket: context manager support.
+    Thanks to Miguel Grinberg;
 
-  * support: update monotonic 1.3 (5c0322dc559bf)
+  * [IMP] support: update :program:`monotonic 1.3` (5c0322dc559bf);
 
-  * support: upgrade bundled dnspython to 1.16.0 (22e9de1d7957e)
-    https://github.com/eventlet/eventlet/issues/427
+  * [IMP] support: upgrade bundled to :program:`dnspython 1.16.0` (22e9de1d7957e)
+    https://github.com/eventlet/eventlet/issues/427;
 
-  * websocket: fd leak when client did not close connection properly;
-    Thanks to Konstantin Enchant
+  * [FIX] websocket leak when client did not close connection properly.
+    Thanks to Konstantin Enchant;
 
-  * websocket: support permessage-deflate extension;
-    Thanks to Costas Christofi and Peter Kovary
+  * [IMP] websocket: support permessage-deflate extension.
+    Thanks to Costas Christofi and Peter Kovary;
 
-  * wsgi: close idle connections (also applies to websockets)
+  * [IMP] wsgi: close idle connections (also applies to websockets);
 
-  * wsgi: deprecated options are one step closer to removal
+  * [IMP] wsgi: deprecated options are one step closer to removal;
 
-  * wsgi: handle remote connection resets; Thanks to Stefan Nica
+  * [IMP] wsgi: handle remote connection resets.
+    Thanks to Stefan Nica;
 
 0.21.0
 
-  * new timeout error API: .is_timeout=True on exception object.
+  * [IMP] new timeout error API: .is_timeout=True on exception object.
     It's now easy to test if network error is transient and retry
     is appropriate. Please spread the word and invite other libraries
-    to support this interface.
+    to support this interface;
 
-  * hubs: use monotonic clock by default (bundled package);
+  * [IMP] hubs: use monotonic clock by default (bundled package);
     Thanks to Roman Podoliaka and Victor Stinner
 
-  * dns: EVENTLET_NO_GREENDNS option is back, green is still default
+  * [IMP] dns: EVENTLET_NO_GREENDNS option is back, green is still default;
 
-  * dns: hosts file was consulted after nameservers
+  * [IMP] dns: hosts file was consulted after nameservers;
 
-  * wsgi: log_output=False was not disabling startup and accepted messages
+  * [IMP] wsgi: log_output=False was not disabling startup and accepted messages;
 
-  * greenio: Fixed OSError: [WinError 10038] Socket operation on nonsocket
+  * [IMP] greenio: Fixed OSError: [WinError 10038] Socket operation on nonsocket;
 
-  * dns: EAI_NODATA was removed from RFC3493 and FreeBSD
+  * [IMP] dns: EAI_NODATA was removed from RFC3493 and FreeBSD;
 
-  * green.select: fix mark_as_closed() wrong number of args
+  * [IMP] green.select: fix mark_as_closed() wrong number of args;
 
-  * New feature: Add zipkin tracing to eventlet
+  * [NEW] added zipkin tracing to eventlet;
 
-  * db_pool: proxy Connection.set_isolation_level()
+  * [IMP] db_pool: proxy Connection.set_isolation_level();
 
-* Flask-socketio 2.9.2 -> 3.0.1
+* :program:`Flask-socketio 2.9.2` -> :program:`Flask-socketio 3.0.1`;
 
-* python-engineio 2.0.1 -> 2.0.4
+* :program:`python-engineio 2.0.1` -> :program:`python-engineio 2.0.4`;
 
-* python-socketio 1.8.3 -> 1.9.0
+* :program:`python-socketio 1.8.3` -> :program:`python-socketio 1.9.0`;
 
-* websocket-client 0.47
+* upgrade to :program:`websocket-client 0.47`;
 
 WAPT-1.6.2.1 (2018-07-04)
 -------------------------
@@ -2273,11 +2530,11 @@ WAPT-1.6.2.1 (2018-07-04)
 New features
 ++++++++++++
 
-* Audit: def audit() optional hook in package is called periodically
+* [ADD] def audit() optional hook in package is called periodically
   to check compliance. Log and status is reported in server DB
   and displayed in console (**Enterprise**).
 
-* WSUS tech preview: based on local Windows update engine and :file:`WSUSSCAN2`
+* [ADD] WSUS tech preview: based on local Windows update engine and :file:`WSUSSCAN2`
   cab Microsoft file. WAPT server act as a caching proxy for updates.
   Scanning for, downloading and applying Windows updates can be triggered
   from console on workstations (**Enterprise**).
@@ -2287,92 +2544,96 @@ New features
 Changes / Improvements
 ++++++++++++++++++++++
 
-* Better utf8 handling
+* [IMP] better utf8 handling;
 
-* wapt-get make-template from a directory creates
-  a basic installer for portable apps.
+* [IMP] wapt-get make-template from a directory creates
+  a basic installer for portable apps;
 
-* wapt-get, waptexit: Removed ZeroMQ message queue on the client,
-  replaced by simple http long polling to monitor tasks status.
+* [IMP] wapt-get, waptexit: Removed ZeroMQ message queue on the client,
+  replaced by simple http long polling to monitor tasks status;
 
-* waptconsole: Replaced blocking timer based http polling for tasks
-  status by threaded http long polling.
+* [IMP] waptconsole: Replaced blocking timer based http polling for tasks
+  status by threaded http long polling;
 
-* waptconsole: Filter hosts on whether current personal certificate signature
+* [IMP] waptconsole: Filter hosts on whether current personal certificate signature
   is authorized for remote tasks (**Enterprise**). If same server is used
   for several organizations, it allows to focus on own machines.
   This supposes that different CA certificates are deployed depending
   on the client host's organization. In this release, the filtering is not
-  enforced and not cryptographically authenticated.
+  enforced and not cryptographically authenticated;
 
-* Renamed waptservice.py to service.py and waptserver.py to server.py,
+* [CHANGE] renamed waptservice.py to service.py and waptserver.py to server.py,
   activated absolute import for all python sourced
-  absolute import for all python sources
+  absolute import for all python sources;
 
-* Removed *use_http_proxy_for_template* parameter
-  (setting is now in ``[wapt-templates]`` repo)
+* [REMOVED] *use_http_proxy_for_template* parameter
+  (setting is now in ``[wapt-templates]`` repo);
 
 waptservice
 +++++++++++
 
-* Handle WUA tasks (Scan, download, apply updates) (**Enterprise**)
+* [ADD] handling of WUA tasks (Scan, download, apply updates) (**Enterprise**);
 
-* Handle Auditing tasks
+* [ADD] handling of auditing tasks;
 
 waptserver
 ++++++++++
 
-* Added a tasks queue (Huey) for the WSUS background tasks (**Enterprise**).
+* [ADD] tasks queue (:program:`Huey`) for the WSUS background tasks
+  (**Enterprise**);
 
-* gzip compression activated on the nginx configuration
+* [IMP] gzip compression activated on the :program:`nginx` configuration;
 
 wapttray
 ++++++++
 
-* option in wapt-get.ini to hide some items:
+* [ADD] option in :file:`wapt-get.ini` to hide some items:
 
-  * hidden_wapttray_actions: comma separated list of:
+  * ``hidden_wapttray_actions``: comma separated list of:
 
-   LaunchWAPTConsole register serviceenable reloadconfig cancelrunningtask
-   cancelalltasks showtasks sessionsetup forceregister localinfo configure
+   :guilabel:`LaunchWAPTConsole`, :guilabel:`register`, :guilabel:`serviceenable`,
+   :guilabel:`reloadconfig`, :guilabel:`cancelrunningtask`, :guilabel:`cancelalltasks`,
+   :guilabel:`showtasks`, :guilabel:`sessionsetup`, :guilabel:`forceregister`,
+   :guilabel:`localinfo`, :guilabel:`configure`;
 
-* use long polling instead of zmq
+* [CHANGE] use long polling instead of :program:`zmq`;
 
-* stop/ start/ query waptservice using a thread to avoid gui freeze.
+* [IMP] stop/ start/ query waptservice using a thread to avoid gui freeze;
 
 Fixes
 +++++
 
-* waptguihelper: be sure to load the proper python27.dll
+* [FIX] waptguihelper: be sure to load the proper python27.dll;
 
-* core: forward *force* argument from console to setup.py install() hook
+* [FIX] core: forward *force* argument from console
+  to :file:`setup.py` install() hook;
 
-* overwrite psproj package file when editing a package to fix path to WAPT
-  python virtualenv and add new debug actions.
+* [FIX] overwrite :file:`psproj` package file when editing a package
+  to fix path to WAPT python virtualenv and add new debug actions;
 
 Modules updates
 +++++++++++++++
 
-* GUI Binaries are built with Lazarus 1.8.2/ fpc 3.0.4 instead
-  of CodeTyphon 2.8.
+* [UPD] GUI Binaries are built with :program:`Lazarus 1.8.2` / :program:`fpc 3.0.4`
+  instead of :program:`CodeTyphon 2.8`;
 
-* peewee 3.0.4
+* [UPD] :program:`peewee 3.0.4`;
 
-* eventlet 0.23.0
+* [UPD] :program:`eventlet 0.23.0`;
 
-* huey 1.9.1
+* [UPD] :program:`huey 1.9.1`;
 
-* pywin32 rev 223
+* [UPD] :program:`pywin32` rev 223;
 
-* Flask-socketio 2.9.6
+* [UPD] :program:`Flask-socketio 2.9.6`;
 
-* engineio.socket 2.0.4
+* [UPD] :program:`engineio.socket 2.0.4`;
 
-* websocket-client 0.47
+* [UPD] :program:`websocket-client 0.47`;
 
-* pyOpenSSL 17.5.0
+* [UPD] :program:`pyOpenSSL 17.5.0`;
 
-* request 2.19.1
+* [UPD] :program:`request 2.19.1`;
 
 Known issues
 ++++++++++++
@@ -2386,79 +2647,84 @@ WAPT-1.6.1.0 (2018-06-21)
 Fixes
 +++++
 
-* wapttray: fix av potential cause
+* [FIX] av potential cause in wapttray;
 
-* improved buffer LogOuput
+* [IMP] buffer LogOuput;
 
-* fix wait task result loop in waptserver
+* [FIX] wait task result loop in waptserver;
 
-* fix bad acl on waptservice
+* [FIX] bad acl on waptservice;
 
-* fix repo timeout not taken in account
+* [FIX] repo timeout not taken in account;
 
-* bad parameter for repo_url and [wapt-host] section
+* [FIX] bad parameter for ``repo_url`` and ``[wapt-host]`` section;
 
-* waptexit AV potential cause
+* [FIX] waptexit AV potential cause;
 
-* make isAdmin non blocking as a workaround for false positive checks
+* [FIX] make isAdmin non blocking as a workaround for false positive checks;
 
-* use timeout parameter when importing external package
+* [FIX] use timeout parameter when importing external package;
 
-* pass timeout parameter when importing
+* [FIX] pass timeout parameter when importing;
 
-* fix bad repo_url config naming
+* [FIX] bad ``repo_url`` config naming;
 
-* fix calc hash when compiling if file does not exist
+* [FIX] calc hash when compiling if file does not exist;
 
-* fix repo timeout is float
+* [FIX] repo timeout is float;
 
-* fix custom zip corruption when signing a package with non ascii filenames
+* [FIX] custom zip corruption when signing a package with non ascii filenames;
 
-* fix check wapt_db is assigned when rollbacking
+* [FIX] check wapt_db is assigned when rollbacking;
 
-* improved logging in events
+* [IMP] logging in events;
 
-* waptconsole: fix bug installed packages section is reported as *base*
-  instead of unit or host
+* [FIX] installed packages section is incorrectly reported as *base*
+  instead of *unit* or *host* in waptconsole;
 
-* ensure manual service wua running when using command line
+* [IMP] ensure manual service wua is running when using command line;
 
-* Python modules updates
-  upgrade peewee to 3.4
-  eventlet==0.23.0
-  huey 1.9.1
+* [UPG] Python modules updates:
 
-* Replace eventprintinfo with LogOutput Add waptwua_enabled
-  config parameter missing ensure_listdd waptwua_enabled config parameter
-  missing ensure_list
+  * upgrade to :program:`peewee 3.4`;
 
-* Default *waptwua_enabled* to None to avoid wuauserv
-  service configuration change
+  * upgrade to :program:`eventlet==0.23.0`;
 
-* added missing columns for windows window updates
+  * upgrade to :program:`huey 1.9.1`;
 
-* waptconsole: Add action in waptconsole to show help on KB
+* [CHANGE] replace eventprintinfo with LogOutput;
 
-* wapttray cosmetic: hide duplicated separators
-  in tray popup menu when some actions are hidden
+* [ADD] ``waptwua_enabled`` config parameter;
 
-* Add http_proxy ini setting for the server external download operations
+* [IMP] missing ``ensure_list`` waptwua_enabled config parameter;
 
-* wapttray: Start and stop WAPTservice using a thread to avoid gui freeze
+* [IMP] default *waptwua_enabled* to None to avoid wuauserv
+  service configuration change;
 
-* Pure FPC PBKDF2 password hash calc for postconf
+* [ADD] missing columns for window updates;
 
-* Refactor server code to share app and socketio instances
+* [ADD] action in waptconsole to show help on KB;
 
-* fix: forward the "force" argument (command line and through the websockets)
-  to the install() setup.py hook
+* [IMP] wapttray cosmetic: hide duplicated separators
+  in tray popup menu when some actions are hidden;
 
-* fix: wapttray: don't display all missed events at tray startup
+* [ADD] http_proxy ini setting for the server external download operations;
 
-* no default audit_period
+* [IMP] wapttray: Start and stop WAPTservice using a thread to avoid gui freeze;
 
-* Removed zeromq, replaced by long http polling between wapttray, wapt-get
-  and waptservice
+* [IMP] Pure FPC PBKDF2 password hash calc for postconf;
+
+* [IMP] refactor server code to share app and socketio instances;
+
+* [FIX]  forward the "force" argument (command line and through the websockets)
+  to the install() setup.py hook;
+
+* [FIX] do not display all missed events at tray startup in wapttray;
+
+* [FIX] no default ``audit_period``;
+
+* [REMOVED] :program:`zeromq`, replaced by long http polling between wapttray,
+  wapt-get and waptservice;
 
 WAPT 1.5.1.26 (2018-07-12)
 --------------------------
@@ -2466,30 +2732,30 @@ WAPT 1.5.1.26 (2018-07-12)
 Bug fixes
 +++++++++
 
-* revert monkey_patch for server on windows. No reason to exclude thread...
+* [IMP] revert monkey_patch for server on windows. No reason to exclude thread;
 
-* add 'allow_unauthenticated_connect' server config (default false)
+* [ADD] ``allow_unauthenticated_connect`` server config (default *false*);
 
-* fix CRITICAL update_host failed UnboundLocalError("local variable 'result'
-  referenced before assignment",)
+* [FIX] CRITICAL update_host failed UnboundLocalError("local variable 'result'
+  referenced before assignment",);
 
-* fix https://roundup.tranquil.it/wapt/issue951
+* [FIX] https://roundup.tranquil.it/wapt/issue951;
 
-* fix https://forum.tranquil.it/viewtopic.php?f=13&t=1160ix
+* [FIX] https://forum.tranquil.it/viewtopic.php?f=13&t=1160ix;
 
-* fix https://forum.tranquil.it/viewtopic.php?f=13&t=1160
+* [FIX] https://forum.tranquil.it/viewtopic.php?f=13&t=1160;
 
-* fix init_workdir.bat
+* [FIX] :file:`init_workdir.bat`;
 
-* Returns a token when updating host data for websocket auth
+* [FIX] returns a token when updating host data for websocket authentication;
 
-* Rewrite package psproj when editing (to fix wapt basedir paths)
+* [IMP] rewrite package psproj when editing (to fix wapt basedir paths);
 
-* fix %s -> %d format string for expiration warning message
+* [FIX] %s -> %d format string for expiration warning message;
 
-* fix host_certificate not found for waptstarter
+* [FIX] host_certificate not found for waptstarter;
 
-* some dev build scripts
+* [ADD] some dev build scripts;
 
 WAPT-1.5.1.24 (2018-07-04)
 --------------------------
@@ -2497,62 +2763,49 @@ WAPT-1.5.1.24 (2018-07-04)
 Bug fixes
 +++++++++
 
-* fix zipfile python library bug for packages which contains files
-  with non-ascii filenames. Signed WAPT packages were corrupted in this case.
+* [FIX] zipfile python library bug for packages which contains files
+  with non-ascii filenames. Signed WAPT packages were corrupted in this case;
 
-* fix deadlocks on server database when simultaneous DB connections
+* [FIX] deadlocks on server database when simultaneous DB connections
   is larger than 100 (default maximum connections configured by default
-  on postgresql)
+  on postgresql);
 
-* fix waptconsole crash on warning message when license
-  is about to expire (Enterprise)
+* [FIX] waptconsole crash on warning message when license
+  is about to expire (**Enterprise** only);
 
-* fix %s -> %d format string for expiration warning message
+* [FIX] %s -> %d format string for expiration warning message;
 
-* fix host_certificate not found for waptstarter
+* [FIX] ``host_certificate`` not found for waptstarter;
 
-* update waptserversetup.iss to include enterprise modules (**Enterprise**)
+* [FIX] waptserversetup.iss to include enterprise modules (**Enterprise**);
 
-* fix download link to waptsetup and waptdeploy on server index page for Windows
+* [FIX] download link to waptsetup and waptdeploy
+  on server index page for Windows;
 
 Modules updates
 +++++++++++++++
 
-* requests 2.19.1
+* :program:`requests 2.19.1`;
 
-* Rocket 1.2.8 - Don't try to resurrect connections that timeout.
-  Increase the timeout ... to decrease the likelihood.
+* :program:`Rocket 1.2.8` - Don't try to resurrect connections that timeout.
+  Increase the timeout ... to decrease the likelihood:
 
-  - handle PyPi only supports HTTPS/TLS downloads now
+  - handle PyPi only supports HTTPS/TLS downloads now;
 
-  - Fix the problem that when body is empty no terminating
+  - fix the problem that when body is empty no terminating;
     chunk is sent for chunked encoding.
 
-  - Avoid sending the terminating chunk in case it's a HEAD request.
+  - avoid sending the terminating chunk in case it's a HEAD request;
 
-  - Fix the problem that when body is empty no terminating
-    chunk is sent for chunked encoding.
+  - fix the problem that when body is empty no terminating
+    chunk is sent for chunked encoding;
 
-  - Explicitly set the log level to warning.
+  - explicitly set the log level to warning;
 
-  - Fix bug "Threadpool grows by negative amount when max_threads = 0"
+  - fix bug "Threadpool grows by negative amount when max_threads = 0";
 
-  - Don't try to resurrect connections that timeout. Increase the timeout
-    to decrease the likelihood.
-
-  - handle PyPi only supports HTTPS/TLS downloads now
-
-  - Fix the problem that when body is empty no terminating chunk is sent
-    for chunked encoding.
-
-  - Avoid sending the terminating chunk in case it's a HEAD request.
-
-  - Fix the problem that when body is empty no terminating
-    chunk is sent for chunked encoding.
-
-  - Explicitly set the log level to warning.
-
-  - Fix bug "Threadpool grows by negative amount when max_threads = 0"
+  - don't try to resurrect connections that timeout. Increase the timeout
+    to decrease the likelihood;
 
 WAPT-1.5.1.23 (2018-03-28)
 --------------------------
@@ -2560,19 +2813,19 @@ WAPT-1.5.1.23 (2018-03-28)
 Changes
 +++++++
 
-* waptexit: Displays a custom PNG logo if one
-  is created in :file:`%WAPT_HOME%\\templates\\waptexit-logo.png`
+* [IMP] waptexit: display a custom PNG logo if one
+  is created in :file:`%WAPT_HOME%\\templates\\waptexit-logo.png`;
 
-* nssm.exe is signed with Tranquil IT code signing key
+* [IMP] nssm.exe is signed with Tranquil IT code signing key;
 
-* waptconsole: Add locale and maturity columns in packages status grid
+* waptconsole: Add locale and maturity columns in packages status grid;
 
 * waptconsole: wapagent wizard; be sure to get a relative path
-  when checking cert validity
+  when checking cert validity;
 
 * waptsetup: Add /CopyPackagesTrustedCA and /CopyServersTrustedCA command line
   parameters to allow deployment of wapt with specific certificates
-  with GPO for wapt without recompiling waptsetup.
+  with GPO for wapt without recompiling waptsetup;
 
   Example:
 
@@ -2590,19 +2843,19 @@ Changes
 Bug fixes
 +++++++++
 
-* waptconsole: regression introduced in 1.5.1.22. Unable to login if server
-  has not a fully qualified domain name (FQDN)
+* [FIX] waptconsole: regression introduced in 1.5.1.22. Unable to login if server
+  has not a :abbr:`FQDN (Fully Qualified Domain Name)`;
 
-* setuphelpers: winstartup_info fallback when COMMON_STARTUP
-  folder does not exist, repeventing a client to register properly.
+* [FIX] setuphelpers: winstartup_info fallback when :file:`COMMON_STARTUP`
+  folder does not exist, preventing a client to register properly;
 
-* version/ revision in wapttray dispkay the git hash instead
-  of old svn rev number.
+* [FIX] version/ revision in wapttray dispkay the git hash instead
+  of old svn revision number;
 
-* waptconsole: update fr translation for certs bundle hint
+* [FIX] waptconsole: update French translation for certs bundle hint;
 
-* waptconsole: compare properly packages when number of version
-  members differs 1.3 -<> 1.3.1 for example
+* [FIX] waptconsole: compare properly packages when number of version
+  members differs 1.3 -<> 1.3.1 for example;
 
 WAPT-1.5.1.22 (2018-03-27)
 --------------------------
@@ -2610,46 +2863,47 @@ WAPT-1.5.1.22 (2018-03-27)
 Bug fixes
 +++++++++
 
-* Fix add Active Directory groups
+* [FIX] add Active Directory groups;
 
-* Fix newest only with *locale*, *architecture* and *maturity*
+* [FIX] newest only with ``locale``, ``architecture`` and ``maturity``;
 
-* Fix Import from external repository with mixed *locale*,
-  *architecture* and *maturity*
+* [FIX] Import from external repository with mixed ``locale``,
+  ``architecture`` and ``maturity``;
 
-* Add --setupargs to :program:`waptdeploy`
+* [ADD] ``--setupargs`` to :program:`waptdeploy`;
 
-* RPM fix
+* [FIX] RPM;
 
-* Enterprise build fix (Enterprise)
+* [FIX] Enterprise build (**Enterprise** only);
 
-* Different icons for WAPT Community and Enterprise editions
+* [IMP] different icons for WAPT Community and Enterprise editions;
 
-* Switch to Community features when no licence instead of aborting
-  (**Enterprise**)
+* [IMP] switch to Community features when no licence instead of aborting
+  (**Enterprise**);
 
-* Some up to date Installed Packages marked as upgradable because
-  of bad comparison maturity None/ maturity ''
+* some up to date Installed Packages marked as upgradable because
+  of bad comparison ``maturity`` None/ maturity;
 
-* Depends and conflicts fields of HostsPackagesStatus table limited
-  to 800 chars -> type changed to ArrayField
-  to handle unlimited number of dependencies
+* [IMP] ``depends`` and ``conflicts`` fields of HostsPackagesStatus table limited
+  to 800 chars -> type changed to ArrayField to handle unlimited number
+  of dependencies;
 
-* git python module added as part of WAPT libraries
+* [NEW] git python module added as part of WAPT libraries;
 
-* list organizational unit packages in Group package table (**Enterprise**)
+* [IMP] list organizational *unit* packages in group package table
+  (**Enterprise**);
 
-* fix MongoDB to PostgreSQL database upgrade script
+* [FIX] MongoDB to PostgreSQL database upgrade script;
 
-* fix licence/ hosts count/ expiry check (**Enterprise**)
+* [FIX] licence/ hosts count/ expiry check (**Enterprise**);
 
-* relative path for *verify_cert*
+* [FIX] relative path for *verify_cert*;
 
 Known issues
 ++++++++++++
 
 * When waptserver is searched with DNS SRV query (dnsdomain param),
-  Kerberos register auth is not working.
+  Kerberos register authentication is not working.
 
 WAPT-1.5.1.21 (2018-03-13)
 --------------------------
@@ -2657,63 +2911,63 @@ WAPT-1.5.1.21 (2018-03-13)
 Global architecture
 +++++++++++++++++++
 
-* Multiple languages for description of packages. English, French, German,
-  Spanish, Polish are handled as a start point. More to be added in the future.
+* [IMP] multiple languages for description of packages. English, French, German,
+  Spanish, Polish are handled as a start point. More to be added in the future;
 
-* The Description columns in waptconsole displays either languages depending
-  on *language* setting in :file:`waptconsole.ini`.
-  In packages, *description_fr*, *description_en*, etc... have been added.
+* [IMP] the description columns in waptconsole displays either languages depending
+  on ``language`` setting in :file:`waptconsole.ini`.
+  In packages, ``description_fr``, ``description_en``, etc... have been added;
 
-* When renaming hosts, old host package (matching previous host uuid)
-  is now "removed" instead of forgotten.is now "removed" instead of forgotten.
+* [IMP] when renaming hosts, old host package (matching previous host uuid)
+  is now "removed" instead of forgotten;
 
-* [NEW] Handle AD organizational unit packages (Enterprise edition)
+* [NEW] Handle AD organizational unit packages (**Enterprise** only;)
 
-* New package attributes:
+* [NEW] package attributes:
 
-  * *locale* attribute: A computer can be configured to accept
-    only packages with a specific locale.
+  * ``locale`` attribute: A computer can be configured to accept
+    only packages with a specific locale;
 
-  * *maturity* attribute:  stores status like *DEV, *PREPROD*, *PROD
+  * ``maturity`` attribute:  stores status like *DEV*, *PREPROD*, *PROD*
     to describe the level of completion of the package. Computers
     can be configured to accept packages with specified maturities.
-    Default packages maturity of computer is both the empty one and *PROD*.
+    Default packages maturity of computer is both the empty one and *PROD*;
 
-  * *impacted_process* attribute: csv list of process names which
+  * ``impacted_process`` attribute: csv list of process names which
     would be killed before install (:command:`install_msi_if_needed`,
     :command:`install_exe_if_needed`) and uninstall (by the mean of uninstallkey
     list). Could be used too in the future for "soft" upgrade remote action
-    which upgrade softwares while they are not running.
+    which upgrade softwares while they are not running;
 
 Setup/ WAPT upgrades
 ++++++++++++++++++++
 
 WAPTupgrade package:
 
-* Increased lifetime for upgrade task windows scheduler trigger
-  for computers which are down for many days when upgrading.
+* [IMP] increased lifetime for upgrade task windows scheduler trigger
+  for computers which are down for many days when upgrading;
 
-* Added a trigger at start of the computer.
+* [ADD] trigger at start of the computer;
 
 WAPTconsole
 +++++++++++
 
-* Displays the list of embedded trusted packages certificates
-  when building the custom waptagent installer.
+* [IMP] display of the list of embedded trusted packages certificates
+  when building the custom waptagent installer;
 
 Bug fixes
 +++++++++
 
-* handle unicode filepaths for Packages Wizard.
+* [FIX] handle unicode filepaths for Packages Wizard;
 
-* work in progress improvement of unicode handling globally in WAPTconsole.
+* [IMP] work in progress improvement of unicode handling globally in WAPTconsole;
 
-* fix use proxy if needed for "download and edit" from external repo
+* [FIX] use proxy if needed for "download and edit" from external repo;
 
 Setuphelpers
 ++++++++++++
 
-* fix bug in :command:`create_programs_menu_shortcut` and
+* [FIX] bug in :command:`create_programs_menu_shortcut` and
   :command:`create_user_programs_menu_shortcut`. Shortcuts were created
   in :file:`startup` and not :file:`startup/programs`.
 
@@ -2741,15 +2995,13 @@ Global architecture
 +++++++++++++++++++
 
 There is a significant internal change on how python libraries are managed
-inside WAPT. This There is a significant internal change on how python libraries
-are managed inside WAPT. This has implications on the way python scripts
-are launched. This change is only relevant for peoples launching WAPT
-processes manually.
+inside WAPT. This has implications on the way python scripts are launched.
+This change is only relevant for peoples launching WAPT processes manually.
 
 We have removed the (not clean) sys.path manipulations inside wapt python
 scripts sources. The consequence is that all python scripts must be run
-with prior setting PYTHONHOME and PYTHONPATH pointing to WAPT home directory
-(:file:`/opt/wapt` on Linux).
+with prior setting ``PYTHONHOME`` and ``PYTHONPATH``
+pointing to WAPT home directory (:file:`/opt/wapt` on Linux).
 
 Failing to do so results in scripts claiming that libraries are missing.
 
@@ -2762,7 +3014,7 @@ location instead of using non standard former one.
 
   Now, :program:`PyScripter` can be started with a special
   batch file :file:`waptpyscripter.bat` which sets the environment variables
-  for python (PYTHONHOME and PYTHONPATH) and run :program:`PyScripter`
+  for python (``PYTHONHOME`` and ``PYTHONPATH``) and run :program:`PyScripter`
   with python dll path set to wapt own copy.
 
 * [NEW] Command line scripts with proper environment:
@@ -2773,15 +3025,15 @@ location instead of using non standard former one.
 
   * *wapt-signpackages*
 
-* [NEW] Added some debugging commandline tools which setup python environment
-  properly before running the python script.ly before running the python script:
+* [NEW] debugging commandline tools which setup python environment
+  properly before running the python script.py before running the python script:
 
-    * To debug waptservice, launch in cmd as admin: *runwaptservice.bat*;
+    * to debug waptservice, launch in cmd as admin: *runwaptservice.bat*;
 
-    * To debug waptserver, launch in cmd: *runwaptserver.bat*
+    * to debug waptserver, launch in cmd: *runwaptserver.bat*
       or under linux: *runwaptserver.sh*;
 
-    * To launch :program:`PyScripter` without the need for local
+    * to launch :program:`PyScripter` without the need for local
       system wide python27 install, run :program:`waptpyscripter.bat`;
 
 WAPT client
@@ -2807,7 +3059,7 @@ WAPT client
 * [IMP] for :program:`wapt-get.exe`, allow to designate configuration
   :file:`wapt-get.ini` file with *--config* option with base name
   of user waptconsole ini file (without ini extension) instead of full path.
-  Handy when switching between several configurations. Same behaviour
+  Handy when switching between several configurations. Same behavior
   as for waptconsole. Example:
 
   :code:`wapt-get -c site3 build-upload c:\\waptdev\\test-7zip-wapt`;
@@ -2818,8 +3070,8 @@ WAPT client
 * [FIX] Update PyScripter project template to use project directory as parameter
   for debug actions, and use relative paths for filenames.
 
-* [FIX] Fix bad package version comparison. Return True when comparing 1.2-1
-  to 1.2.1-3 (note: this is not homogeneous with the Version() class behaviour.
+* [FIX] incorrect package version comparison. Return True when comparing 1.2-1
+  to 1.2.1-3 (note: this is not homogeneous with the Version() class behavior.
   todo: merge both);
 
 * [FIX] waptsetup: register and update must be launched with elevated
@@ -2838,61 +3090,63 @@ Setuphelpers
 ++++++++++++
 
 * [UPD] setuphelpers.removetree:  Try to remove readonly flag when remove_tree
-  reach a Access Denied error.
+  reach a Access Denied error;
 
-* [FIX] unicode handling in shell startup shortcuts.
+* [FIX] unicode handling in shell startup shortcuts;
 
 * [IMP] waptutils.wget can check sha1 or sh256 hashes in addition to md5,
-  and can cache and resume partial downloads.
+  and can cache and resume partial downloads;
 
 WAPT Console
 ++++++++++++
 
-* [NEW] Action in WAPTconsole to plan in near future
-  a restart of waptservice on selected Hosts.
+* [NEW] action in WAPTconsole to plan in near future
+  a restart of waptservice on selected hosts;
 
-* [IMP] Mass host update/upgrade in waptconsole actions are now launched
-  in single shot instead of one host at a time.
+* [IMP] mass host update/upgrade in waptconsole actions are now launched
+  in single shot instead of one host at a time;
 
-* [NEW] Allow to force a host_dn in :file:`wapt-get.ini`
-  when host is not in a domain (**Enterprise**).
+* [NEW] allow to force a host_dn in :file:`wapt-get.ini`
+  when host is not in a domain (**Enterprise** only);
 
-* [NEW] Add timeout parameter for setuphelpers
-  *service_start*, *service_stop* and *service_restart*.
+* [NEW] added timeout parameter for setuphelpers
+  *service_start*, *service_stop* and *service_restart*;
 
-* [IMP] Group filter list box is now editable, and one can type a partial
-  group match and press enter to filter on all matching groups.
-  Seperator is comma (*,*). Handle * at the end of search to find
-  all occurrences even if one group matches exactly.
+* [IMP] :guilabel:`group filter list` box is now editable, and one can type
+  a partial group match and press enter to filter on all matching groups.
+  Separator is comma (*,*). Handle * at the end of search to find
+  all occurrences even if one group matches exactly;
 
 WAPT Server
 +++++++++++
 
-* Add bat script migrate-hosts.bat to set environment for migrate-hosts.py
+* [ADD] bat script migrate-hosts.bat to set environment
+  for :file:`migrate-hosts.py`;
 
-* Add trigger_action.py script to trigger action on pre 1.5 hosts with
-  reachable 8088 waptservice port from 1.5 server.
+* [ADD] trigger_action.py script to trigger action on pre 1.5 hosts with
+  reachable 8088 waptservice port from 1.5 server;
 
-* Fix registration_auth_user reset to None when reusing host certificate
-  for re-register.
+* [FIX] ``registration_auth_user`` reset to None when reusing host certificate
+  for re-register;
 
-* Removed unnecessary dependencies krb5-user, msktutil, python-psutil
-  for waptserver package.
+* [IMP] removed unnecessary dependencies krb5-user, msktutil, python-psutil
+  for waptserver package;
 
-* Increase client_max_body_size for http post on nginx
-  for large update/ upgrade trigger
+* [IMP] increase client_max_body_size for http post on nginx
+  for large update/ upgrade trigger:
 
-  * fix signature_clockskew waptserver config parameter not taken in account
+  * fix ``signature_clockskew`` waptserver config parameter
+    not taken in account;
 
-  * unified loggers for server
+  * unified loggers for server;
 
-  * have waptserver ask wapt client to update status using websockets
+  * have waptserver ask wapt clients to update status using websockets
     if websocket connection is up but database is not aware of given SID
-    (case where waptserver is restarted but Nginx is kept up,
+    (case where waptserver is restarted but :program:`nginx` is kept up,
     and restart of waptserver service is fast enough
     to not trigger a reconnection of the clients);
 
-* [FIX] Disable proxy for migrate-hosts;
+* [FIX] disable proxy for migrate-hosts;
 
 Known issues
 ++++++++++++
@@ -2923,8 +3177,10 @@ Known issues
 * SNI is not properly handled by waptconsole code, leading to incorrect
   error about certificate validation on https server with virtual hosts;
 
-* Certificates CRL updates (periodical signature, ...) must be managed manually
-  using tools like easy-rsa. Only CRL accessible by a URL are supported;
+* Certificates :abbr:`CSR (Certificate Revocation List)` updates
+  (periodical signature, ...) must be managed manually using tools like easy-rsa.
+  Only :abbr:`CSR (Certificate Revocation List)` accessible
+  by a URL are supported;
 
 * proxies are not supported on the server, so
   :abbr:`CRL (Certificate Revocation List)` can not be updated properly
@@ -2932,15 +3188,15 @@ Known issues
   if the server has no direct http access to the distribution points;
 
 * https certificates are verified on the clients using the bundle defined
-  by the *verify_cert* ini settings. If this setting is simply *True*,
+  by the ``verify_cert`` ini settings. If this setting is simply *True*,
   the bundle supplied with python libraries is used to check issuers.
   This bundle is not updated unless WAPT is upgraded, so new issuers or
   no more trusted issuers are taken in account only at this point.
   So it is better to deploy your own CA bundle along with wapt
-  and define the *verify_cert* path.
+  and define the ``verify_cert`` path.
 
 * for 1.5.1.18 rc1, on the linux server, there are broken symbolic links
-  in lib/python2.7 folder. Next rc does not exhibit this problem;
+  in :file:`lib/python2.7` folder. Next RC does not exhibit this problem;
 
 WAPT-1.5.1.14 (2018-01-09)
 --------------------------
@@ -2952,7 +3208,7 @@ WAPT-1.5.1.14 (2018-01-09)
 * [FIX] load fill certificate chain from host packages to check :file:`control`
   (as it is the case for other types of packages);
 
-* [SECURITY] regression: check host package control signature
+* [SEC] regression: check host package control signature
   right after downloading (it is checked too when starting install);
 
 * [FIX] regression: don't install host package if version is lower
@@ -2975,19 +3231,20 @@ WAPT Client
 setuphelpers/ libraries
 +++++++++++++++++++++++
 
-* [UPD] Add *cache_dir* parameter to :program:`wget` function;
+* [IMP] Add *cache_dir* parameter to :program:`wget` function;
 
-* [UPD] renamed *cabundle* parameter to *trusted_bundle*;
+* [IMP] renamed *cabundle* parameter to *trusted_bundle*;
 
-* [NEW] Add python methods to create certificate from CSR;
+* [NEW] Add python methods to create certificate
+  from :abbr:`CSR (Certificate Signing Request)`;
 
 WAPT Console
 ++++++++++++
 
-* Add checkbox in create waptagent to sign with sha1 in addition to sha256
+* [ADD] checkbox in create waptagent to sign with sha1 in addition to sha256
   for old wapt client upgrades;
 
-* Force host package version to be at least equal to already installed
+* [IMP] force host package version to be at least equal to already installed
   host package (when host package is deleted, version was starting again at 0);
 
 * [FIX] regression: check existing host package signature before editing it;
@@ -2997,7 +3254,7 @@ WAPT Server
 
 * [FIX] Force waptserver DB structure upgrade at each server startup;
 
-* [UPD] Add *db_connect_timeout* parameter for pool of
+* [ADD] *db_connect_timeout* parameter for pool of
   waptserver DB connections;
 
 * [NEW] Store *depends* and *conflicts* attributes in waptserver
@@ -3010,8 +3267,10 @@ Known issues
   incorrect error about certificate validation
   on https server with virtual hosts;
 
-* Certificates CRL updates (periodical signature, ...) must be managed manually
-  using tools like easy-rsa. Only CRL accessible by a URL are supported;
+* certificates :abbr:`CSR (Certificate Revocation List)` updates
+  (periodical signature, ...) must be managed manually using tools like easy-rsa.
+  Only :abbr:`CSR (Certificate Revocation List)`
+  accessible by a URL are supported;
 
 WAPT-1.5.1.13 (2018-01-03)
 --------------------------
@@ -3142,23 +3401,23 @@ Format des paquets
 
 * ajout des attributs suivants au fichier :file:`control`:
 
-  * *signed_attributes*: pour la fiabilité de la vérification
+  * ``signed_attributes``: pour la fiabilité de la vérification;
 
-  * *min_wapt_version*:  le paquet est ignoré (et ne s'installe pas)
-    si wapt n'est pas au moins à cette version
+  * ``min_wapt_version``:  le paquet est ignoré (et ne s'installe pas)
+    si wapt n'est pas au moins à cette version;
 
-  * *installed_size*: le paquet ne s'installe pas s'il n'y a pas au moins
-    cet espace disponible sur le disque système
+  * ``installed_size``: le paquet ne s'installe pas s'il n'y a pas au moins
+    cet espace disponible sur le disque système;
 
-  * *max_os_version*: le paquet est ignoré si Windows
-    a une version supérieure à cet attribut
+  * ``max_os_version``: le paquet est ignoré si Windows
+    a une version supérieure à cet attribut;
 
-  * *min_os_version*: le paquet est ignoré si Windows
-    a une version inférieure à cet attribut
+  * ``min_os_version``: le paquet est ignoré si Windows
+    a une version inférieure à cet attribut;
 
-  * *maturity*:
+  * ``maturity``: *PROD*, *PREPROD*, *TEST*;
 
-  * *locale*:
+  * ``locale``; *fr*, *en*, etc ;
 
 Configuration générale des agents
 +++++++++++++++++++++++++++++++++
@@ -3189,7 +3448,7 @@ Configuration générale des agents
   On incite à avoir un certificat par personne agissant sur WAPT;
 
 * possibilité de prendre en compte la révocation de certificats
-  (la CRL est fournie aux poste lors de l'update, dans le fichier Packages);
+  (la :abbr:`CSR (Certificate Revocation List)` est fournie aux poste lors de l'update, dans le fichier Packages);
 
 * re-signature possible sous Linux avec
   la commande :program:`wapt-signpackage.py`;
@@ -3344,7 +3603,7 @@ Improvements 1.5.0.12-amo -> 1.5.0.16
 
 * fix proxy dans import paquets;
 
-* gestion des révocations de certificats (CRL);
+* gestion des révocations de certificats (:abbr:`CSR (Certificate Revocation List)`);
 
 * fix attributs requis dans signature actions;
 
@@ -3391,7 +3650,7 @@ Other changes
 * fix for local GPO add_shutdown_script() function (thanks jf-guillou!)
 
 * fix for :program:`waptsetup.exe` postinstall actions (:command:`update` / :command:`register`)
-  when running :program:`waptsetup.exe` installer without elevated priviledges: added *runascurrentuser* flag
+  when running :program:`waptsetup.exe` installer without elevated privileges: added *runascurrentuser* flag
 
 * remove needless python libraries to make install package slimmer
 
@@ -3615,9 +3874,9 @@ Core changes
   This means local WAPT database is upgraded when first starting WAPT 1.3.8.2
   and this is not backward compatible;
 
-* [IMP] Installers have a limited set of options, the most common use of WAPT is priviledged;
+* [IMP] Installers have a limited set of options, the most common use of WAPT is privileged;
 
-* [ADD] 3 new parameters for the :program:`waptexit` policy behaviour: *hiberboot_enabled*,
+* [ADD] 3 new parameters for the :program:`waptexit` policy behavior: *hiberboot_enabled*,
   *max_gpo_script_wait*, *pre_shutdown_timeout*. These parameters are not set by default
   and should be added to :file:`wapt-get.ini` *[global]* section if needed;
 
