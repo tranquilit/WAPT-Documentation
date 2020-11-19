@@ -17,6 +17,8 @@ WAPT-1.8.2.7306 (2020-11-17)
 
 hash : 3ac363de
 
+This is a bugfix release. Ubuntu 16.0.4 amd64 and Debian 10 armhf are now supported.
+
 Fixes and enhancements
 ++++++++++++++++++++++
 
