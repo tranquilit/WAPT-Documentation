@@ -20,34 +20,34 @@ hash : c05745d1
 Fixes and enhancements
 ++++++++++++++++++++++
 
-* [IMP] Add key param for install_msi_if_needed in setuphelpers_windows.py
+* [IMP] Add key param for install_msi_if_needed in setuphelpers_windows.py;
 
-* [FIX] Fix for no_fallback in repositories rules
+* [FIX] Fix for no_fallback in repositories rules;
 
 * [FIX] Soupsieve python lib is set to 1.9.6 in requirements because later 
-  version are Python3 only
+  version are Python3 only;
 
-* [FIX] Patch for SocketIO with proxy
+* [FIX] Patch for SocketIO with proxy;
 
 * [FIX] Fix triggers for repository sync in PostgreSQL who were not correctly 
-  migrated (Enterprise only)
+  migrated (Enterprise only);
 
 * [IMP] Two new builders for both server and agent : Ubuntu 16.0.4 LTS / 
-  ARM x86 Debian 10 (Enterprise only)
+  ARM x86 Debian 10 (Enterprise only);
 
 * [IMP] Revert dhparam bits size to 1024 bits in Windows WAPT Server because it 
-  took too much time to generate. It can be generated afterward.
+  took too much time to generate. It can be generated afterward.;
 
 * [IMP] Increase default clockskew for signed action to 6 hours (before it was 
-  only 1 hour)
+  only 1 hour);
 
 * [FIX] waptcrypto: security fix: prevent infinite loop in SSLCABundle.certificate_chain 
-  if issuer cert and signed cert have the same subject but one has no authority_key_identifier
+  if issuer cert and signed cert have the same subject but one has no authority_key_identifier;
 
 * [FIX] waptcrypto : fix revoke_cert, handle list of DNS names for certificates, fix 
-  AuthorityKeyIdentifier when neregating certificate from CSR
+  AuthorityKeyIdentifier when neregating certificate from CSR;
 
-* [FIX] waptservice fix for verify_cert_ldap in waptagent
+* [FIX] waptservice fix for verify_cert_ldap in waptagent;
   
 * [FIX] Patch pltis_utils to display properly long integer in WAPTWUA. The wsusscn2.cab file
   may report KBs with incorrect huge download size up to 1TB.
@@ -55,19 +55,23 @@ Fixes and enhancements
  Library changes in WAPT-1.8.2.7302
 +++++++++++++++++++++++++++++++++++
 
-* [UPD] Update OpenSSL binary from 1.0.2r to 1.0.2u
+* [UPD] Update OpenSSL binary from 1.0.2r to 1.0.2u;
 
-* [UPD] Build now with Lazarus 2.0.8 and FPC 3.0.4
+* [UPD] Build now with Lazarus 2.0.8 and FPC 3.0.4.
 
 
-WAPT-1.8.2.7267 (2020-06-12)
+WAPT-1.8.2.7269 (2020-06-16)
 ----------------------------
 
-hash : 46f40312
+hash : 757cdc76
 
 * [FIX] Fix db schema upgrade script for upgrade from WAPT version 1.8.1-6742.
   Fresh 1.8.2 installation or upgrade from 1.7 or from 1.8.0 or 1.8.1-6758
   shouldn't have the issue;
+  
+* [IMP] Add key for install_msi_if_needed;
+
+* [FIX] Fix for no_fallback for waptwua (**Enterprise** only);
 
 WAPT-1.8.2.7265 (2020-06-11)
 ----------------------------
