@@ -61,8 +61,8 @@ Fixes and enhancements
 
 * [FIX] minor fixes for uWSGI support
   
-Library changes in WAPT-1.8.2.7302
-++++++++++++++++++++++++++++++++++
+Library changes
++++++++++++++++
 
 * [UPD] Update OpenSSL binary from 1.0.2r to 1.0.2u;
 
