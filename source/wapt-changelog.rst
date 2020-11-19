@@ -224,21 +224,21 @@ Other enhancements
 
 * [FIX] bugfixes and minor gui improvements;
 
-Library changes in WAPT-1.8.2.7165
-++++++++++++++++++++++++++++++++++
+Library changes
++++++++++++++++
 
 * [CHANGE] replaced :program:`python-ldap` with :program:`ldap3`;
 
 * [FIX] upgraded :program:`ujson` on waptagent and waptserver on Linux;
 
-Removed featured with WAPT-1.8.2.7165
-+++++++++++++++++++++++++++++++++++++
+Removed featured
+++++++++++++++++
 
 * [REMOVED] autoconfiguration of repositories based on SRV DNS fields
   (it was not working anymore anyway);
 
-Caveats when using WAPT-1.8.2.7165
-++++++++++++++++++++++++++++++++++
+Caveats
++++++++
 
 * [CAV] WaptExit is not run automatically on shutdown
   on Linux or MacOS (current issue with :program:`systemd`
