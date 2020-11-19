@@ -12,10 +12,10 @@
 Changelog
 =========
 
-WAPT-1.8.2.7306 (2020-11-17)
+WAPT-1.8.2.7309 (2020-11-20)
 ----------------------------
 
-hash : 3ac363de
+hash : 1ad47ea4
 
 This is a bugfix release. Ubuntu 16.0.4 amd64 and Debian 10 armhf are now supported.
 
@@ -52,7 +52,14 @@ Fixes and enhancements
 * [FIX] waptservice fix for verify_cert_ldap in waptagent;
   
 * [FIX] Patch pltis_utils to display properly long integer in WAPTWUA. The wsusscn2.cab file
-  may report KBs with incorrect huge download size up to 1TB.
+  may report KBs with incorrect huge download size up to 1TB;
+  
+* [FIX] On a fresh install the admin ACL rights were not properly set up which required a service  
+  restart to get fixed;
+  
+* [FIX] force admin password change on upgrade if the old hash is SHA-1.
+
+* [FIX] minor fixes for uWSGI support
   
 Library changes in WAPT-1.8.2.7302
 ++++++++++++++++++++++++++++++++++
