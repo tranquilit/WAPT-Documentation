@@ -12,10 +12,10 @@
 Changelog
 =========
 
-WAPT-1.8.2.7302 (2020-11-17)
+WAPT-1.8.2.7306 (2020-11-17)
 ----------------------------
 
-hash : c05745d1
+hash : 3ac363de
 
 Fixes and enhancements
 ++++++++++++++++++++++
@@ -52,8 +52,8 @@ Fixes and enhancements
 * [FIX] Patch pltis_utils to display properly long integer in WAPTWUA. The wsusscn2.cab file
   may report KBs with incorrect huge download size up to 1TB.
   
- Library changes in WAPT-1.8.2.7302
-+++++++++++++++++++++++++++++++++++
+Library changes in WAPT-1.8.2.7302
+++++++++++++++++++++++++++++++++++
 
 * [UPD] Update OpenSSL binary from 1.0.2r to 1.0.2u;
 
