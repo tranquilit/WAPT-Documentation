@@ -12,12 +12,12 @@
 Changelog
 =========
 
-WAPT-1.8.2.7309 (2020-11-20)
+WAPT-1.8.2.7321 (2020-11-24)
 ----------------------------
 
-hash : 1ad47ea4
+hash : e93999cf
 
-This is a bugfix release. Ubuntu 16.0.4 amd64 and Debian 10 armhf are now supported.
+This is a bugfix release. Ubuntu 16.0.4 amd64 and Debian 10 armhf clients are now supported.
 
 Fixes and enhancements
 ++++++++++++++++++++++
@@ -57,17 +57,28 @@ Fixes and enhancements
 * [FIX] On a fresh install the admin ACL rights were not properly set up which required a service  
   restart to get fixed;
   
-* [FIX] force admin password change on upgrade if the old hash is SHA-1.
+* [FIX] Force admin password change on upgrade if the old hash is SHA-1.
 
 * [FIX] minor fixes for uWSGI support
-  
+
+* [FIX] Fix temporary directories not removed after package import or edit
+
+* [FIX] Fix duplicated auth_module_ad.py module in bad waptwaptenterprise directory on windows waptserver
+
+* [IMP] Warning of wapt licence expiration message changed from 14 days to 60 days before expiration
+
+* [FIX] Fix broadcast for wakeonlan
+
+* [FIX] fix additional server password issues when non ascii character
+
 Library changes
 +++++++++++++++
 
 * [UPD] Update OpenSSL binary from 1.0.2r to 1.0.2u;
 
-* [UPD] Build now with Lazarus 2.0.8 and FPC 3.0.4.
+* [UPD] Update Python4Delphi lib to 20201020 release;
 
+* [UPD] Build now with Lazarus 2.0.8 and FPC 3.0.4.
 
 WAPT-1.8.2.7269 (2020-06-16)
 ----------------------------
