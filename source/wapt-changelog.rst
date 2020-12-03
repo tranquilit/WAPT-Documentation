@@ -12,6 +12,38 @@
 Changelog
 =========
 
+WAPT-1.8.2.7334 (2020-12-03)
+----------------------------
+
+hash : 2d15afd9
+
+This is a bugfix release.
+
+Fixes and enhancements
+++++++++++++++++++++++
+
+* {FIX] regression on waptserver windows enterprise installer. Missing waptenterprise\waptserver directory (**Enterprise**)
+
+* [FIX] extract CN from ssl client cert authentication for get_auth_token when windows client computer has an organization. (in this case client csr/cert has a CN=<uuid>,O=<org> subject) (**Enterprise**)
+
+* [FIX] regression on wakeonlan introduced by backported code from 1.9
+
+* [FIX] PostgreSQL DB not correctly migrating from some 1.8.1.X
+
+* [IMP] Prevent user to save a self service rules packages without first setting a name (**Enterprise**)
+
+* [FIX] catch errors when uploading self services rules packages (**Enterprise**)
+
+* [FIX] error when editing existing profile package (**Enterprise**)
+
+* [FIX] Access violation when importing packages from file
+
+* [FIX] issue with download icons in wapt self service
+
+* [IMP] search on concatenation of software name and software version in waptconsole (ie regexp search expression is matched against "name (version)")
+
+* [IMP] Dev python file for adding lpk to lazarus conf and build ide, lazarus external packages are now submodules of wapt git repository
+
 WAPT-1.8.2.7321 (2020-11-24)
 ----------------------------
 
